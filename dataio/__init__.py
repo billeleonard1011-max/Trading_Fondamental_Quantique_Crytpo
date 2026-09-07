@@ -8,4 +8,12 @@ Chaque module de ce paquet suit les mêmes règles :
   structure vide, elle ne fait jamais tomber le programme appelant.
 """
 
-__all__ = ["market", "macro", "news", "crypto"]
+__all__ = [
+    "market",
+    "macro",
+    "news",
+    "crypto",
+    "cot",
+    "gold_flows",
+    "calendar",
+]

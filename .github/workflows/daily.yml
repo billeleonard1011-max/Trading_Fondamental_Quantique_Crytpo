@@ -44,7 +44,12 @@ jobs:
       # jamais dans les journaux : GitHub les masque automatiquement.
       FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
       COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      # Couche pédagogique du moteur or. Facultative : sans elle, les
+      # explications basculent sur les gabarits et le rapport reste complet.
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # Jeton applicatif Socrata, facultatif : il ne relève que la limite de
+      # débit de l'API CFTC, dont l'accès reste public sans lui.
+      CFTC_APP_TOKEN: ${{ secrets.CFTC_APP_TOKEN }}
       PYTHONUNBUFFERED: "1"
 
     steps:
@@ -67,30 +72,47 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Exécuter les tests
+        # Aucun test n'accède au réseau : ils sont déterministes et durent
+        # moins d'une seconde. Un échec ici doit empêcher la publication.
+        run: python -m pytest tests/ -q
+
       - name: Vérifier la causalité des indicateurs
         # Garde-fou : si un indicateur se met à regarder le futur, le rapport
         # ne doit pas être publié. Une erreur silencieuse ici invaliderait
         # tout signal produit ensuite.
         run: python -m core.indicators
 
-      - name: Générer le rapport
-        # Le module report.daily n'existe pas encore : seul le socle est
-        # construit. L'étape est donc conditionnelle, pour que le workflow
-        # reste vert pendant cette phase. Retirer la condition dès que le
-        # module est écrit.
+      - name: Générer le rapport or
+        # Le moteur est conçu pour aboutir même quand une source est muette :
+        # le bloc concerné est marqué indisponible avec son motif, et le biais
+        # signale qu'il repose sur des données partielles. Un code de sortie
+        # non nul signale donc un vrai défaut, pas une source absente.
         run: |
-          mkdir -p reports
-          if [ -f report/daily.py ]; then
-            python -m report.daily
+          mkdir -p reports/gold
+          python -m modules.gold.run
+
+      - name: Résumer le rapport dans le journal d'exécution
+        # Permet de lire l'essentiel depuis l'onglet Actions, sans ouvrir le
+        # JSON ni cloner le dépôt.
+        if: always()
+        run: |
+          if [ -f reports/gold/latest.json ]; then
+            python - <<'PY'
+          import json, pathlib
+          rapport = json.loads(pathlib.Path("reports/gold/latest.json").read_text(encoding="utf-8"))
+          meta, biais = rapport["meta"], rapport["biais"]
+          print(f"Date            : {meta['date']}")
+          print(f"Biais           : {biais['biais']} (score {biais['score_composite']:+.3f}, conviction {biais['conviction']})")
+          print(f"Couverture      : {biais['couverture_donnees']:.0%}")
+          if meta["sources_en_echec"]:
+              print(f"Sources muettes : {', '.join(meta['sources_en_echec'])}")
+          for composante in biais["composantes"]:
+              etat = f"{composante['contribution']:+.4f}" if composante["disponible"] else "indisponible"
+              print(f"  {composante['nom']:26s} {etat}")
+          PY
           else
-            echo "Module report.daily absent : seul le socle est en place."
-            {
-              echo "# Rapport du $(date -u '+%Y-%m-%d %H:%M UTC')"
-              echo
-              echo "Le moteur d'analyse n'est pas encore construit."
-              echo "Seul le socle technique est en place :"
-              echo "couche de données, indicateurs, configuration, automatisation."
-            } > "reports/$(date -u '+%Y-%m-%d').md"
+            echo "Aucun rapport produit."
           fi
 
       - name: Publier le rapport dans le dépôt

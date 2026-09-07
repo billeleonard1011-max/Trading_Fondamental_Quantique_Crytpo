@@ -1,9 +1,12 @@
-"""Modules d'analyse métier (à venir).
+"""Modules d'analyse métier.
 
-Emplacement prévu pour le moteur d'analyse fondamentale de l'or (XAUUSD),
-la veille sur les valeurs quantiques et le suivi des positions crypto.
+``gold``
+    Moteur d'analyse fondamentale de l'or (XAUUSD) : juste valeur par les
+    taux réels et le dollar, positionnement CFTC, chaîne de transmission
+    géopolitique, précédents historiques et biais quotidien décomposé.
 
-Vide à ce stade : seul le socle technique est construit.
+La veille sur les valeurs quantiques et le suivi des positions crypto
+restent à construire.
 """
 
-__all__: list[str] = []
+__all__ = ["gold"]

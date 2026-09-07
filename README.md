@@ -52,6 +52,8 @@ La première attrape les décalages ; la seconde attrape les normalisations sur
 config/
   feeds.yaml                  Flux RSS et requêtes GDELT
   universe.yaml               Benchmarks, secteurs, séries FRED, risque
+  gold.yaml                   Réglages du moteur or : pondérations, seuils,
+                              thèmes GDELT, calendrier FOMC
 core/
   indicators.py               Indicateurs causaux + contrôle anti-look-ahead
   strategy.py                 Contrat Signal / Position / RiskConfig / Strategy
@@ -60,13 +62,29 @@ dataio/
   macro.py                    Séries FRED et lecture du régime macro
   news.py                     Flux RSS et GDELT, intensité, déduplication
   crypto.py                   CoinGecko : OHLC, contexte, instantané
-modules/                      Analyse métier (à venir)
+  cot.py                      Positionnement CFTC sur l'or (COMEX 088691)
+  gold_flows.py               Ratio or/argent, minières/or, encours GLD
+  calendar.py                 Prochaines publications macro et FOMC
+modules/
+  gold/
+    fair_value.py             Juste valeur par taux réels et dollar, z-score
+    geopolitics.py            Intensité GDELT et chaîne de transmission
+    analogues.py              Précédents historiques et leurs suites
+    bias.py                   Biais quotidien décomposé par composante
+    explain.py                Explications vérifiées numériquement
+    run.py                    Orchestration et publication du JSON
 report/                       Rendu du rapport et page de suivi (à venir)
+docs/
+  schema_or.md                Structure du JSON produit par le moteur or
 scripts/
   check_feeds.py              Diagnostic des flux : sain, figé ou mort
 tests/
   test_indicators.py          Causalité des indicateurs, contrat de risque
-reports/                      Sorties du workflow, versionnées
+  test_fair_value.py          Anti-look-ahead, z-score, fiabilité du modèle
+  test_analogues.py           Séparation des précédents, nombre minimal de cas
+  test_gold_engine.py         Géopolitique, pondérations, garde-fou numérique
+reports/
+  gold/                       Rapports quotidiens JSON + historique des biais
 requirements.txt
 ```
 
@@ -82,6 +100,8 @@ requirements.txt
 | GDELT | Volume de couverture médiatique | Gratuit | Non | `artlist` plafonné à 250 articles |
 | Flux RSS | Titres et chapeaux | Gratuit | Non | Flux figés sans erreur visible |
 | CoinGecko | Prix et contexte crypto | Gratuit | Facultative — `COINGECKO_API_KEY` | Code 429 fréquent sans clé |
+| CFTC (Socrata) | Positionnement futures or | Gratuit | Facultative — `CFTC_APP_TOKEN` | Publication vendredi, données de mardi |
+| OpenAI | Explications en français | Payant à l'usage | Facultative — `OPENAI_API_KEY` | Sans elle, mode gabarit |
 
 Aucun site payant n'est scrapé. Seuls des flux publics et des API ouvertes
 sont utilisés.
@@ -96,6 +116,19 @@ résultats faux sans lever la moindre erreur :
   milliards. Soustraire les deux séries telles quelles donne un résultat faux
   d'un facteur mille. La conversion est faite dans
   [dataio/macro.py](dataio/macro.py).
+- **Fraîcheur du COT.** Le rapport CFTC paraît le vendredi et décrit le mardi
+  précédent. Une donnée « du jour » a donc au minimum trois jours.
+  [dataio/cot.py](dataio/cot.py) expose toujours `date_observation` et
+  `age_jours` : les afficher n'est pas une politesse, c'est ce qui évite de
+  lire un positionnement périmé comme une photographie du marché.
+- **Contrats or homonymes.** Le jeu de données CFTC contient trois contrats
+  dont le nom comprend « GOLD » : `088691` (COMEX, 100 onces), `088695`
+  (Micro Gold, 10 onces) et `088LM1` (Coinbase). Filtrer sur le libellé les
+  agrégerait. Le filtre porte donc sur le **code de contrat**.
+- **Heures de publication.** FRED donne la date d'une publication, jamais son
+  heure. Les heures affichées par [dataio/calendar.py](dataio/calendar.py)
+  sont les heures d'usage (08:30 et 14:00 à New York) et portent le drapeau
+  `heure_conventionnelle`.
 
 ---
 
@@ -133,6 +166,26 @@ python -m tests.test_indicators
 pytest tests/ -v
 ```
 
+### Lancer le moteur or
+
+```bash
+# Rapport complet, écrit dans reports/gold/
+python -m modules.gold.run
+
+# Sans aucun appel OpenAI : les explications passent en mode gabarit
+python -m modules.gold.run --sans-explication
+
+# Rejouer une date passée
+python -m modules.gold.run --date 2026-09-04
+```
+
+Le moteur aboutit même quand une source est muette : le bloc concerné est
+marqué indisponible avec son motif, et le biais signale qu'il repose sur des
+données partielles.
+
+La structure du JSON produit est décrite dans
+[docs/schema_or.md](docs/schema_or.md).
+
 ### Diagnostic des flux d'actualité
 
 Ce script effectue des appels réseau ; il est volontairement séparé des tests.
@@ -159,9 +212,10 @@ plus pernicieux : il ne provoque aucune erreur et vide la veille en silence.
 
 | Nom | Obligatoire | Utilité |
 |---|---|---|
-| `FRED_API_KEY` | Oui | Séries macroéconomiques. Sans elle, le bloc macro reste vide. |
+| `FRED_API_KEY` | Oui | Séries macroéconomiques. Sans elle, la juste valeur et le calendrier des publications ne sont pas calculables. |
 | `COINGECKO_API_KEY` | Non | Relève la limite de débit CoinGecko. |
-| `ANTHROPIC_API_KEY` | Non pour l'instant | Synthèse rédigée du rapport, à venir. |
+| `OPENAI_API_KEY` | Non | Explications en français du moteur or. Sans elle, le mode gabarit prend le relais et le rapport reste complet. |
+| `CFTC_APP_TOKEN` | Non | Relève la limite de débit de l'API Socrata de la CFTC. L'accès reste public sans jeton. |
 
 Le workflow tourne en cron à **11:30 UTC**, du lundi au vendredi, et peut être
 lancé à la main depuis l'onglet `Actions`.
@@ -188,17 +242,36 @@ Socle technique
 - [x] Diagnostic des flux
 - [x] Automatisation GitHub Actions
 
+Moteur d'analyse fondamentale de l'or
+
+- [x] Juste valeur par les taux réels et le dollar, z-score du résidu
+- [x] Percentile historique de l'écart depuis 2010, R² et drapeau de fiabilité
+- [x] Contribution de chaque facteur au prix théorique
+- [x] Positionnement CFTC en percentile cinq ans, avec âge de la donnée
+- [x] Ratio or/argent et ratio minières/or
+- [x] Calendrier CPI, emploi, PCE et FOMC avec compte à rebours
+- [x] Intensité géopolitique GDELT, trajectoire et chaîne de transmission
+- [x] Indicateur `deja_dans_les_prix`
+- [x] Précédents historiques, avec séparation minimale et nombre de cas minimal
+- [x] Biais quotidien décomposé, pondérations en configuration
+- [x] Historique des biais pour l'auto-évaluation ultérieure
+- [x] Explications vérifiées nombre par nombre, mode gabarit en repli
+- [ ] Encours du GLD : aucune source de tonnage exploitable par programme
+      (voir [dataio/gold_flows.py](dataio/gold_flows.py))
+- [ ] Stress géopolitique historique depuis 2010 : GDELT ne remonte pas
+      aussi loin par l'API publique, la variable est absente de la base des
+      précédents et signalée comme telle
+- [ ] Notation rétrospective des biais à 1, 5 et 20 jours
+
 Reste à construire
 
 - [ ] Stratégie réelle sur XAUUSD (ICT / order flow) dans `core/strategy.py`
-- [ ] Moteur d'analyse fondamentale de l'or dans `modules/`
 - [ ] Backtester consommant l'interface `Strategy`
 - [ ] Rapport quotidien rendu par Jinja2 dans `report/`
 - [ ] Page web de suivi
 - [ ] Indicateur TradingView (Pine Script)
 - [ ] Suivi des trois valeurs quantiques
 - [ ] Suivi des positions crypto
-- [ ] Synthèse rédigée via l'API Anthropic
 
 La stratégie réelle n'est pas encore écrite. `ExampleTrendStrategy` n'existe
 que pour illustrer la forme attendue : ses règles n'ont fait l'objet d'aucun

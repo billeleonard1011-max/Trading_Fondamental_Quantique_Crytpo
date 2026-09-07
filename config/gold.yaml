@@ -1,0 +1,168 @@
+# Paramétrage du moteur d'analyse fondamentale de l'or (XAUUSD).
+#
+# Ce fichier contient tous les réglages révisables. Rien de ce qui suit ne
+# doit être recopié en dur dans le code : les pondérations, en particulier,
+# devront être révisées quand la performance réelle du biais aura été
+# mesurée sur plusieurs mois. Une constante figée dans le code ne se révise
+# pas, elle se subit.
+
+# ---------------------------------------------------------------------------
+# Modèle de juste valeur
+# ---------------------------------------------------------------------------
+# Régression : log(or) = a + b1 * taux_reel + b2 * log(dollar)
+#
+# Le taux réel entre en niveau (il peut être négatif, son logarithme n'existe
+# pas) et le dollar en logarithme (c'est un indice, l'élasticité a un sens).
+# b1 se lit donc « variation en % de l'or pour 1 point de taux réel » et b2
+# « variation en % de l'or pour 1 % de dollar ».
+juste_valeur:
+  serie_taux_reel: DFII10        # taux réel 10 ans (TIPS)
+  serie_dollar: DTWEXBGS         # dollar, indice large pondéré des échanges
+  fenetre_jours: 756             # 3 ans de jours ouvrés, ré-estimé chaque jour
+  min_observations: 250          # en deçà, la régression n'est pas estimée
+  seuil_r2_fiable: 0.50          # sous ce R², le z-score n'est plus interprétable
+  debut_historique: "2010-01-01" # base du percentile historique de l'écart
+
+# ---------------------------------------------------------------------------
+# Positionnement CFTC
+# ---------------------------------------------------------------------------
+cot:
+  # Contrat or 100 onces du COMEX. Code vérifié en énumérant le jeu de
+  # données lui-même : voir dataio/cot.py, section « identifiants vérifiés ».
+  # Ne pas confondre avec 088695 (Micro Gold, 10 onces) ni 088LM1 (Coinbase).
+  code_contrat: "088691"
+  fenetre_percentile_semaines: 260   # cinq ans de rapports hebdomadaires
+  min_semaines_percentile: 104       # deux ans minimum, sinon percentile refusé
+
+# ---------------------------------------------------------------------------
+# Calendrier macro
+# ---------------------------------------------------------------------------
+# Identifiants de publication FRED vérifiés un à un sur
+# https://fred.stlouisfed.org/release?rid=<id> (le titre de la page a été lu).
+#
+# ATTENTION : FRED donne la *date* de publication, jamais l'heure. Les heures
+# ci-dessous sont les heures officielles d'usage, en fuseau de New York. Elles
+# sont marquées « conventionnelle » dans la sortie JSON : ce n'est pas une
+# donnée FRED, c'est une convention stable mais non garantie.
+calendrier:
+  fuseau_publication: "America/New_York"
+  publications:
+    - nom: "Indice des prix à la consommation (CPI)"
+      release_id: 10
+      heure_locale: "08:30"
+      impact_or: "fort"
+    - nom: "Rapport sur l'emploi (NFP)"
+      release_id: 50
+      heure_locale: "08:30"
+      impact_or: "fort"
+    - nom: "Revenus et dépenses des ménages (PCE)"
+      release_id: 54
+      heure_locale: "08:30"
+      impact_or: "fort"
+
+  # Le FOMC n'est pas une publication de données : FRED n'expose aucune
+  # « release » correspondante. Les dates viennent du calendrier officiel
+  # publié par la Réserve fédérale :
+  # https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  #
+  # Chaque réunion dure deux jours ; la décision tombe le second jour à
+  # 14:00 heure de New York. La date retenue ci-dessous est celle de la
+  # décision. La Fed précise que chaque date reste provisoire jusqu'à la
+  # réunion qui la précède : à revérifier une fois par an.
+  fomc:
+    heure_locale: "14:00"
+    verifie_le: "2026-09-07"
+    dates_decision:
+      - "2026-09-16"   # avec projections économiques
+      - "2026-10-28"
+      - "2026-12-09"   # avec projections économiques
+      - "2027-01-27"
+      - "2027-03-17"   # avec projections économiques
+      - "2027-04-28"
+      - "2027-06-09"   # avec projections économiques
+      - "2027-07-28"
+      - "2027-09-15"   # avec projections économiques
+      - "2027-10-27"
+      - "2027-12-08"   # avec projections économiques
+
+  # En deçà de ce délai, le système recommande de ne pas ouvrir de position.
+  fenetre_silence_minutes: 120
+
+# ---------------------------------------------------------------------------
+# Thèmes géopolitiques suivis
+# ---------------------------------------------------------------------------
+# Chaque thème est mesuré par GDELT (volume de couverture, pas tonalité).
+# « anciennete_jours_max » sert au calcul de deja_dans_les_prix : au-delà,
+# le thème est considéré comme installé, donc largement escompté.
+geopolitique:
+  fenetre_trajectoire_jours: 7
+  seuil_acceleration: 1.15      # ratio 3 derniers jours / 4 précédents
+  seuil_essoufflement: 0.85
+  themes:
+    - nom: "Tensions énergétiques"
+      query: '("oil supply" OR "energy crisis" OR "pipeline attack" OR "oil embargo" OR "strait of hormuz")'
+    - nom: "Conflits majeurs"
+      query: '("military strike" OR "invasion" OR "war escalation" OR "airstrike" OR "ceasefire collapse")'
+    - nom: "Sanctions"
+      query: '("new sanctions" OR "sanctions package" OR "asset freeze" OR "export controls" OR "secondary sanctions")'
+    - nom: "Tensions sur les réserves de change"
+      query: '("central bank gold" OR "gold reserves" OR "de-dollarization" OR "reserve diversification" OR "foreign exchange reserves")'
+
+# ---------------------------------------------------------------------------
+# Précédents historiques
+# ---------------------------------------------------------------------------
+analogues:
+  debut_historique: "2010-01-01"
+  n_voisins: 15
+  # Deux dates distantes de moins de ce nombre de jours décrivent la même
+  # configuration. Sans ce filtre, une seule semaine fournirait les quinze
+  # « précédents » et la statistique ne vaudrait rien.
+  separation_min_jours: 21
+  # En deçà, on refuse de conclure. Mieux vaut dire qu'on ne sait pas.
+  min_cas: 8
+  horizons_jours: [1, 5, 20]
+
+# ---------------------------------------------------------------------------
+# Pondérations du biais quotidien
+# ---------------------------------------------------------------------------
+# Somme normalisée automatiquement : ces nombres expriment une importance
+# relative, pas des pourcentages.
+#
+# Justification du réglage de départ, à réviser :
+#   - l'écart de juste valeur porte la thèse centrale du système, il domine ;
+#   - taux réels et dollar sont les deux moteurs du modèle, ils confirment ;
+#   - le COT est un signal de retournement lent, utile mais en retard de
+#     plusieurs jours ;
+#   - la géopolitique est bruyante : elle module, elle ne décide pas ;
+#   - les minières sont une confirmation, jamais un déclencheur.
+biais:
+  ponderations:
+    ecart_juste_valeur: 0.30
+    positionnement_cot: 0.15
+    dynamique_taux_reels: 0.20
+    tendance_dollar: 0.15
+    intensite_geopolitique: 0.10
+    confirmation_minieres: 0.10
+
+  # Seuils de bascule du score composite, dans [-1, +1].
+  seuil_haussier: 0.20
+  seuil_vendeur: -0.20
+
+  # Sous ce taux de couverture des composantes, le biais est publié mais
+  # marqué comme calculé sur données partielles.
+  couverture_min_pour_conviction: 0.60
+
+  # Fichier d'historique des biais, pour l'auto-évaluation ultérieure.
+  fichier_historique: "reports/gold/historique_biais.jsonl"
+
+# ---------------------------------------------------------------------------
+# Couche pédagogique
+# ---------------------------------------------------------------------------
+explication:
+  modele: "gpt-4o-mini"     # suffisant et économique pour de la reformulation
+  temperature: 0.2
+  max_tokens: 700
+  # Tolérance d'arrondi du vérificateur numérique : un nombre du texte doit
+  # correspondre à une valeur du JSON d'entrée à cette tolérance relative près.
+  tolerance_relative: 0.02
+  activee: true

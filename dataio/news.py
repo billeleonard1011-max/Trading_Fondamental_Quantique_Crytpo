@@ -17,6 +17,7 @@ from __future__ import annotations
 import logging
 import os
 import re
+import time
 import unicodedata
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
@@ -38,6 +39,9 @@ SEUIL_ALERTE_INTENSITE: Final[float] = 2.0
 #: Plafond imposé par GDELT sur le nombre d'articles renvoyés.
 MAX_RECORDS_GDELT: Final[int] = 250
 
+#: Attente initiale, en secondes, après un refus pour dépassement de débit.
+ATTENTE_429_SECONDES: Final[float] = float(os.environ.get("GDELT_ATTENTE_429", "5"))
+
 _ENTETES: Final[dict[str, str]] = {
     "User-Agent": "Mozilla/5.0 (compatible; veille-marches/1.0)"
 }
@@ -46,6 +50,7 @@ __all__ = [
     "NewsItem",
     "fetch_rss",
     "fetch_gdelt",
+    "gdelt_volume_journalier",
     "gdelt_intensity",
     "dedupe",
 ]
@@ -253,20 +258,43 @@ def fetch_rss(feeds: list[dict[str, Any]], hours: int = 24) -> list[NewsItem]:
 # ---------------------------------------------------------------------------
 # Canal 2 : GDELT
 # ---------------------------------------------------------------------------
-def _appel_gdelt(parametres: dict[str, Any]) -> dict[str, Any] | None:
+def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] | None:
     """Appelle l'API GDELT et renvoie la charge JSON.
+
+    GDELT limite le débit sans l'annoncer et répond alors par un code 429.
+    Deux requêtes consécutives suffisent à le déclencher, ce qui ferait
+    perdre un thème entier sur un simple enchaînement. Une attente
+    exponentielle est donc appliquée sur ce seul code : les autres erreurs
+    ne sont pas réessayées, elles ne s'arrangeraient pas en patientant.
 
     Args:
         parametres: paramètres de requête.
+        essais: nombre maximal de tentatives.
 
     Returns:
         Dictionnaire JSON, ou ``None`` en cas d'échec.
     """
-    try:
-        reponse = requests.get(URL_GDELT, params=parametres, timeout=TIMEOUT, headers=_ENTETES)
-        reponse.raise_for_status()
-    except requests.RequestException as exc:
-        _LOG.warning("GDELT injoignable (%s) : %s", parametres.get("mode"), exc)
+    reponse = None
+    for tentative in range(1, max(int(essais), 1) + 1):
+        try:
+            reponse = requests.get(URL_GDELT, params=parametres, timeout=TIMEOUT, headers=_ENTETES)
+            if reponse.status_code == 429 and tentative < essais:
+                attente = ATTENTE_429_SECONDES * (2 ** (tentative - 1))
+                _LOG.info(
+                    "GDELT limite le débit (429) : nouvelle tentative dans %.0f s (%d/%d).",
+                    attente,
+                    tentative,
+                    essais,
+                )
+                time.sleep(attente)
+                continue
+            reponse.raise_for_status()
+            break
+        except requests.RequestException as exc:
+            _LOG.warning("GDELT injoignable (%s) : %s", parametres.get("mode"), exc)
+            return None
+
+    if reponse is None:
         return None
 
     # GDELT répond parfois en texte brut pour signaler une requête invalide.
@@ -362,7 +390,72 @@ def fetch_gdelt(
     return articles
 
 
-def gdelt_intensity(query: str, seuil: float = SEUIL_ALERTE_INTENSITE) -> dict[str, Any]:
+def gdelt_volume_journalier(
+    query: str, timespan: str = "30d"
+) -> tuple[dict[str, float], str]:
+    """Renvoie le volume d'articles GDELT agrégé par jour.
+
+    Le comptage passe par le mode ``timelinevolraw``, qui donne le volume
+    réel. Compter les entrées de ``artlist`` plafonnerait à 250 et rendrait
+    deux sujets très couverts indistinguables.
+
+    Args:
+        query: requête GDELT.
+        timespan: fenêtre temporelle (``7d``, ``30d``...).
+
+    Returns:
+        Couple ``(volumes, motif)``. ``volumes`` associe une date ``AAAA-MM-JJ``
+        à un nombre d'articles ; il est vide en cas d'échec, et ``motif`` dit
+        alors pourquoi.
+    """
+    charge = _appel_gdelt(
+        {
+            "query": query,
+            "mode": "timelinevolraw",
+            "format": "json",
+            "timespan": timespan,
+        }
+    )
+    if charge is None:
+        return {}, "GDELT n'a pas répondu."
+
+    series = charge.get("timeline") or []
+    if not series:
+        return {}, "Aucune série de volume renvoyée par GDELT."
+
+    # timelinevolraw renvoie le compte d'articles du sujet et, séparément, le
+    # total surveillé. Seule la première nous intéresse.
+    choisie = next(
+        (s for s in series if "total" not in str(s.get("series", "")).lower()),
+        series[0],
+    )
+    points = choisie.get("data") or []
+    if not points:
+        return {}, "Série de volume vide."
+
+    # Les intervalles varient selon la fenêtre demandée : on agrège par jour.
+    par_jour: dict[str, float] = {}
+    for point in points:
+        horodatage = _date_gdelt(point.get("date"))
+        if horodatage is None:
+            continue
+        try:
+            valeur = float(point.get("value", 0.0))
+        except (TypeError, ValueError):
+            continue
+        jour = horodatage.strftime("%Y-%m-%d")
+        par_jour[jour] = par_jour.get(jour, 0.0) + valeur
+
+    if not par_jour:
+        return {}, "Aucun point de volume horodaté correctement."
+    return par_jour, ""
+
+
+def gdelt_intensity(
+    query: str,
+    seuil: float = SEUIL_ALERTE_INTENSITE,
+    volumes: dict[str, float] | None = None,
+) -> dict[str, Any]:
     """Mesure l'intensité de couverture d'un sujet sur les dernières 24 heures.
 
     Le volume des dernières 24 heures est rapporté à la moyenne journalière
@@ -377,6 +470,9 @@ def gdelt_intensity(query: str, seuil: float = SEUIL_ALERTE_INTENSITE) -> dict[s
     Args:
         query: requête GDELT.
         seuil: ratio au-delà duquel l'alerte est levée.
+        volumes: volumes journaliers déjà obtenus par
+            :func:`gdelt_volume_journalier`. Fournis, aucune requête n'est
+            émise.
 
     Returns:
         Dictionnaire : ``query``, ``volume_24h``, ``moyenne_journaliere_30j``,
@@ -393,47 +489,17 @@ def gdelt_intensity(query: str, seuil: float = SEUIL_ALERTE_INTENSITE) -> dict[s
         "commentaire": "",
     }
 
-    charge = _appel_gdelt(
-        {
-            "query": query,
-            "mode": "timelinevolraw",
-            "format": "json",
-            "timespan": "30d",
-        }
-    )
-    if charge is None:
-        resultat["commentaire"] = "GDELT n'a pas répondu."
+    # Les volumes journaliers portent déjà toute l'information nécessaire.
+    # Quand l'appelant les a chargés — c'est le cas de la chaîne géopolitique,
+    # qui en a besoin pour la trajectoire —, les réutiliser évite une seconde
+    # requête identique, que GDELT refuserait souvent pour dépassement de débit.
+    if volumes is None:
+        par_jour, motif = gdelt_volume_journalier(query, timespan="30d")
+    else:
+        par_jour, motif = volumes, ""
+    if not par_jour:
+        resultat["commentaire"] = motif
         return resultat
-
-    series = charge.get("timeline") or []
-    if not series:
-        resultat["commentaire"] = "Aucune série de volume renvoyée par GDELT."
-        return resultat
-
-    # timelinevolraw renvoie le compte d'articles du sujet et, séparément, le
-    # total surveillé. Seule la première nous intéresse.
-    choisie = next(
-        (s for s in series if "total" not in str(s.get("series", "")).lower()),
-        series[0],
-    )
-    points = choisie.get("data") or []
-    if not points:
-        resultat["commentaire"] = "Série de volume vide."
-        return resultat
-
-    # Les intervalles varient selon la fenêtre demandée : on agrège par jour.
-    par_jour: dict[str, float] = {}
-    for point in points:
-        horodatage = _date_gdelt(point.get("date"))
-        if horodatage is None:
-            continue
-        try:
-            valeur = float(point.get("value", 0.0))
-        except (TypeError, ValueError):
-            continue
-        par_jour[horodatage.strftime("%Y-%m-%d")] = par_jour.get(
-            horodatage.strftime("%Y-%m-%d"), 0.0
-        ) + valeur
 
     if len(par_jour) < 2:
         resultat["commentaire"] = "Moins de deux jours de données : ratio non calculable."
