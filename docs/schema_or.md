@@ -18,6 +18,7 @@ Trois champs conditionnent la lecture de tous les autres. Les ignorer revient
 | `juste_valeur.fiable` | À `false`, le R² du modèle est passé sous son seuil : le `z_score` existe encore mais n'est plus interprétable, et la composante correspondante du biais est désactivée. |
 | `biais.donnees_partielles` | À `true`, une ou plusieurs sources étaient muettes. `biais.composantes_indisponibles` dit lesquelles, `biais.couverture_donnees` de combien. |
 | `<bloc>._meta.age_jours` | L'âge de chaque donnée. Le COT a systématiquement trois jours ou plus ; l'afficher à côté d'un prix de la minute serait trompeur. |
+| `meta.alertes` | Blocs disponibles mais qui réclament une intervention — aujourd'hui le calendrier FOMC quand ses dates s'épuisent. Le texte est repris dans `meta.avertissement`. |
 
 Chaque bloc porte par ailleurs `disponible` et, quand il vaut `false`, un
 `motif` en français qui dit ce qui a manqué. Aucun bloc n'est jamais rempli
@@ -455,6 +456,52 @@ explications:
   n_gabarit: entier
   toutes_verifiees: booleen
 ```
+
+## Le bloc `calendrier`
+
+### Origine des dates
+
+Les publications statistiques (CPI, emploi, PCE) viennent des `release_id`
+FRED 10, 50 et 54. Les réunions du FOMC sont **collectées automatiquement**
+sur la page officielle de la Réserve fédérale par
+`dataio.calendar.fetch_fomc_calendar`, puis mises en cache dans
+`config/fomc_calendar_cache.json`. Ce fichier est régénéré à chaque collecte
+réussie et ne doit pas être édité à la main. Plus aucune date n'est saisie
+dans la configuration.
+
+FRED ne peut pas servir pour le FOMC, et la vérification mérite d'être
+consignée : la release **FOMC Press Release** (`rid=101`) existe bel et bien,
+mais elle ne publie que `DFEDTARU` et `DFEDTARL`, des séries **quotidiennes 7
+jours sur 7** qui portent une valeur le samedi comme le dimanche. Ses dates
+de publication sont donc journalières, pas les huit réunions annuelles. Un
+compte à rebours bâti dessus annoncerait une réunion pour demain, tous les
+jours de l'année.
+
+### Le filet de sécurité
+
+Un calendrier de réunions ne tombe jamais en panne franchement : les dates
+connues restent exactes jusqu'au jour où il n'en reste plus. Quatre champs
+rendent cette usure visible avant qu'elle ne devienne un problème.
+
+| Champ | Sens |
+|---|---|
+| `horizon_couvert_jusquau` | Date de la dernière réunion connue, toutes années confondues. |
+| `n_reunions_a_venir_connues` | Nombre de réunions encore à venir dans la base. |
+| `alerte_renouvellement` | `true` dès qu'il reste moins de deux réunions futures, ou que le cache dépasse 120 jours sans collecte réussie. |
+| `motif` | Ce qui a déclenché l'alerte, en français. |
+
+Le sous-bloc `fomc` détaille la provenance : `source`
+(`federalreserve.gov` ou `cache local`), `collecte_reussie`,
+`derniere_collecte_reussie` et `jours_depuis_collecte`.
+
+**L'alerte ne reste pas enterrée ici.** `modules.gold.run` la recopie dans
+`meta.alertes` et la préfixe par `ALERTE` dans `meta.avertissement` — sans
+quoi elle ne servirait à rien, puisque personne ne descend dans le bloc
+`calendrier` pour vérifier qu'il va bien.
+
+`meta.avertissement` distingue deux natures de problème : une **source en
+échec** a rendu un bloc indisponible, une **alerte** vient d'un bloc
+disponible qui cessera de fonctionner s'il n'est pas entretenu.
 
 ## Le bloc `biais` en détail
 

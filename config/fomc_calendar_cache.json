@@ -1,0 +1,288 @@
+{
+  "_commentaire": "Cache du calendrier FOMC, régénéré automatiquement par dataio/calendar.py à chaque collecte réussie. Ne pas éditer à la main : toute modification sera écrasée à la prochaine exécution.",
+  "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "derniere_collecte_reussie": "2026-09-07",
+  "n_reunions": 56,
+  "reunions": [
+    {
+      "date_decision": "2021-01-27",
+      "avec_projections": false,
+      "libelle": "January 26-27"
+    },
+    {
+      "date_decision": "2021-03-17",
+      "avec_projections": true,
+      "libelle": "March 16-17*"
+    },
+    {
+      "date_decision": "2021-04-28",
+      "avec_projections": false,
+      "libelle": "April 27-28"
+    },
+    {
+      "date_decision": "2021-06-16",
+      "avec_projections": true,
+      "libelle": "June 15-16*"
+    },
+    {
+      "date_decision": "2021-07-28",
+      "avec_projections": false,
+      "libelle": "July 27-28"
+    },
+    {
+      "date_decision": "2021-09-22",
+      "avec_projections": true,
+      "libelle": "September 21-22*"
+    },
+    {
+      "date_decision": "2021-11-03",
+      "avec_projections": false,
+      "libelle": "November 2-3"
+    },
+    {
+      "date_decision": "2021-12-15",
+      "avec_projections": true,
+      "libelle": "December 14-15*"
+    },
+    {
+      "date_decision": "2022-01-26",
+      "avec_projections": false,
+      "libelle": "January 25-26"
+    },
+    {
+      "date_decision": "2022-03-16",
+      "avec_projections": true,
+      "libelle": "March 15-16*"
+    },
+    {
+      "date_decision": "2022-05-04",
+      "avec_projections": false,
+      "libelle": "May 3-4"
+    },
+    {
+      "date_decision": "2022-06-15",
+      "avec_projections": true,
+      "libelle": "June 14-15*"
+    },
+    {
+      "date_decision": "2022-07-27",
+      "avec_projections": false,
+      "libelle": "July 26-27"
+    },
+    {
+      "date_decision": "2022-09-21",
+      "avec_projections": true,
+      "libelle": "September 20-21*"
+    },
+    {
+      "date_decision": "2022-11-02",
+      "avec_projections": false,
+      "libelle": "November 1-2"
+    },
+    {
+      "date_decision": "2022-12-14",
+      "avec_projections": true,
+      "libelle": "December 13-14*"
+    },
+    {
+      "date_decision": "2023-02-01",
+      "avec_projections": false,
+      "libelle": "Jan/Feb 31-1"
+    },
+    {
+      "date_decision": "2023-03-22",
+      "avec_projections": true,
+      "libelle": "March 21-22*"
+    },
+    {
+      "date_decision": "2023-05-03",
+      "avec_projections": false,
+      "libelle": "May 2-3"
+    },
+    {
+      "date_decision": "2023-06-14",
+      "avec_projections": true,
+      "libelle": "June 13-14*"
+    },
+    {
+      "date_decision": "2023-07-26",
+      "avec_projections": false,
+      "libelle": "July 25-26"
+    },
+    {
+      "date_decision": "2023-09-20",
+      "avec_projections": true,
+      "libelle": "September 19-20*"
+    },
+    {
+      "date_decision": "2023-11-01",
+      "avec_projections": false,
+      "libelle": "Oct/Nov 31-1"
+    },
+    {
+      "date_decision": "2023-12-13",
+      "avec_projections": true,
+      "libelle": "December 12-13*"
+    },
+    {
+      "date_decision": "2024-01-31",
+      "avec_projections": false,
+      "libelle": "January 30-31"
+    },
+    {
+      "date_decision": "2024-03-20",
+      "avec_projections": true,
+      "libelle": "March 19-20*"
+    },
+    {
+      "date_decision": "2024-05-01",
+      "avec_projections": false,
+      "libelle": "Apr/May 30-1"
+    },
+    {
+      "date_decision": "2024-06-12",
+      "avec_projections": true,
+      "libelle": "June 11-12*"
+    },
+    {
+      "date_decision": "2024-07-31",
+      "avec_projections": false,
+      "libelle": "July 30-31"
+    },
+    {
+      "date_decision": "2024-09-18",
+      "avec_projections": true,
+      "libelle": "September 17-18*"
+    },
+    {
+      "date_decision": "2024-11-07",
+      "avec_projections": false,
+      "libelle": "November 6-7"
+    },
+    {
+      "date_decision": "2024-12-18",
+      "avec_projections": true,
+      "libelle": "December 17-18*"
+    },
+    {
+      "date_decision": "2025-01-29",
+      "avec_projections": false,
+      "libelle": "January 28-29"
+    },
+    {
+      "date_decision": "2025-03-19",
+      "avec_projections": true,
+      "libelle": "March 18-19*"
+    },
+    {
+      "date_decision": "2025-05-07",
+      "avec_projections": false,
+      "libelle": "May 6-7"
+    },
+    {
+      "date_decision": "2025-06-18",
+      "avec_projections": true,
+      "libelle": "June 17-18*"
+    },
+    {
+      "date_decision": "2025-07-30",
+      "avec_projections": false,
+      "libelle": "July 29-30"
+    },
+    {
+      "date_decision": "2025-09-17",
+      "avec_projections": true,
+      "libelle": "September 16-17*"
+    },
+    {
+      "date_decision": "2025-10-29",
+      "avec_projections": false,
+      "libelle": "October 28-29"
+    },
+    {
+      "date_decision": "2025-12-10",
+      "avec_projections": true,
+      "libelle": "December 9-10*"
+    },
+    {
+      "date_decision": "2026-01-28",
+      "avec_projections": false,
+      "libelle": "January 27-28"
+    },
+    {
+      "date_decision": "2026-03-18",
+      "avec_projections": true,
+      "libelle": "March 17-18*"
+    },
+    {
+      "date_decision": "2026-04-29",
+      "avec_projections": false,
+      "libelle": "April 28-29"
+    },
+    {
+      "date_decision": "2026-06-17",
+      "avec_projections": true,
+      "libelle": "June 16-17*"
+    },
+    {
+      "date_decision": "2026-07-29",
+      "avec_projections": false,
+      "libelle": "July 28-29"
+    },
+    {
+      "date_decision": "2026-09-16",
+      "avec_projections": true,
+      "libelle": "September 15-16*"
+    },
+    {
+      "date_decision": "2026-10-28",
+      "avec_projections": false,
+      "libelle": "October 27-28"
+    },
+    {
+      "date_decision": "2026-12-09",
+      "avec_projections": true,
+      "libelle": "December 8-9*"
+    },
+    {
+      "date_decision": "2027-01-27",
+      "avec_projections": false,
+      "libelle": "January 26-27"
+    },
+    {
+      "date_decision": "2027-03-17",
+      "avec_projections": true,
+      "libelle": "March 16-17*"
+    },
+    {
+      "date_decision": "2027-04-28",
+      "avec_projections": false,
+      "libelle": "April 27-28"
+    },
+    {
+      "date_decision": "2027-06-09",
+      "avec_projections": true,
+      "libelle": "June 8-9*"
+    },
+    {
+      "date_decision": "2027-07-28",
+      "avec_projections": false,
+      "libelle": "July 27-28"
+    },
+    {
+      "date_decision": "2027-09-15",
+      "avec_projections": true,
+      "libelle": "September 14-15*"
+    },
+    {
+      "date_decision": "2027-10-27",
+      "avec_projections": false,
+      "libelle": "October 26-27"
+    },
+    {
+      "date_decision": "2027-12-08",
+      "avec_projections": true,
+      "libelle": "December 7-8*"
+    }
+  ]
+}

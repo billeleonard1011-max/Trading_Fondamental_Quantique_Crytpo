@@ -53,7 +53,9 @@ config/
   feeds.yaml                  Flux RSS et requêtes GDELT
   universe.yaml               Benchmarks, secteurs, séries FRED, risque
   gold.yaml                   Réglages du moteur or : pondérations, seuils,
-                              thèmes GDELT, calendrier FOMC
+                              thèmes GDELT
+  fomc_calendar_cache.json    Cache des réunions du FOMC, régénéré
+                              automatiquement — ne pas éditer à la main
 core/
   indicators.py               Indicateurs causaux + contrôle anti-look-ahead
   strategy.py                 Contrat Signal / Position / RiskConfig / Strategy
@@ -64,7 +66,8 @@ dataio/
   crypto.py                   CoinGecko : OHLC, contexte, instantané
   cot.py                      Positionnement CFTC sur l'or (COMEX 088691)
   gold_flows.py               Ratio or/argent, minières/or, encours GLD
-  calendar.py                 Prochaines publications macro et FOMC
+  calendar.py                 Publications macro (FRED) et réunions du FOMC,
+                              collectées sur le site de la Fed, avec cache
 modules/
   gold/
     fair_value.py             Juste valeur par taux réels et dollar, z-score
@@ -83,6 +86,9 @@ tests/
   test_fair_value.py          Anti-look-ahead, z-score, fiabilité du modèle
   test_analogues.py           Séparation des précédents, nombre minimal de cas
   test_gold_engine.py         Géopolitique, pondérations, garde-fou numérique
+  test_fomc_calendar.py       Analyse de la page de la Fed, cache, alerte
+  fixtures/                   Extrait figé de la page FOMC, pour tester
+                              l'analyse sans réseau
 reports/
   gold/                       Rapports quotidiens JSON + historique des biais
 requirements.txt
@@ -97,7 +103,8 @@ requirements.txt
 | yfinance (Yahoo) | Prix actions et ETF, source primaire | Gratuit | Non | Débit limité, coupures ponctuelles |
 | Stooq | Prix actions et ETF, source de secours | Gratuit | Non | Ajusté des splits, pas toujours des dividendes |
 | FRED | Séries macroéconomiques | Gratuit | **Oui** — `FRED_API_KEY` | Fréquences hétérogènes, publication décalée |
-| GDELT | Volume de couverture médiatique | Gratuit | Non | `artlist` plafonné à 250 articles |
+| GDELT | Volume de couverture médiatique | Gratuit | Non | `artlist` plafonné à 250 articles, code 429 fréquent |
+| Réserve fédérale | Dates des réunions du FOMC | Gratuit | Non | Page HTML : structure susceptible de changer, d'où le cache |
 | Flux RSS | Titres et chapeaux | Gratuit | Non | Flux figés sans erreur visible |
 | CoinGecko | Prix et contexte crypto | Gratuit | Facultative — `COINGECKO_API_KEY` | Code 429 fréquent sans clé |
 | CFTC (Socrata) | Positionnement futures or | Gratuit | Facultative — `CFTC_APP_TOKEN` | Publication vendredi, données de mardi |
@@ -129,6 +136,13 @@ résultats faux sans lever la moindre erreur :
   heure. Les heures affichées par [dataio/calendar.py](dataio/calendar.py)
   sont les heures d'usage (08:30 et 14:00 à New York) et portent le drapeau
   `heure_conventionnelle`.
+- **FRED ne couvre pas le FOMC.** La release « FOMC Press Release »
+  (`rid=101`) existe, mais ne publie que les bornes du corridor des Fed
+  funds, séries quotidiennes 7 jours sur 7 : ses dates de publication sont
+  journalières, pas les huit réunions annuelles. S'en servir donnerait un
+  compte à rebours annonçant une réunion pour demain, chaque jour de
+  l'année. Les dates viennent donc de la page officielle de la Fed, avec
+  cache versionné et alerte de renouvellement.
 
 ---
 
@@ -212,7 +226,7 @@ plus pernicieux : il ne provoque aucune erreur et vide la veille en silence.
 
 | Nom | Obligatoire | Utilité |
 |---|---|---|
-| `FRED_API_KEY` | Oui | Séries macroéconomiques. Sans elle, la juste valeur et le calendrier des publications ne sont pas calculables. |
+| `FRED_API_KEY` | Oui | Séries macroéconomiques. Sans elle, la juste valeur et les publications CPI / emploi / PCE ne sont pas calculables. Les réunions du FOMC, elles, ne dépendent pas de FRED. |
 | `COINGECKO_API_KEY` | Non | Relève la limite de débit CoinGecko. |
 | `OPENAI_API_KEY` | Non | Explications en français du moteur or. Sans elle, le mode gabarit prend le relais et le rapport reste complet. |
 | `CFTC_APP_TOKEN` | Non | Relève la limite de débit de l'API Socrata de la CFTC. L'accès reste public sans jeton. |
@@ -250,6 +264,8 @@ Moteur d'analyse fondamentale de l'or
 - [x] Positionnement CFTC en percentile cinq ans, avec âge de la donnée
 - [x] Ratio or/argent et ratio minières/or
 - [x] Calendrier CPI, emploi, PCE et FOMC avec compte à rebours
+- [x] Collecte automatique des réunions du FOMC, cache versionné et alerte
+      de renouvellement remontée jusqu'à `meta.avertissement`
 - [x] Intensité géopolitique GDELT, trajectoire et chaîne de transmission
 - [x] Indicateur `deja_dans_les_prix`
 - [x] Précédents historiques, avec séparation minimale et nombre de cas minimal

@@ -125,6 +125,38 @@ def _meta(
     }
 
 
+def _avertissement(echecs: list[str], alertes: list[dict[str, str]]) -> str:
+    """Rassemble en une phrase ce qui doit sauter aux yeux du lecteur.
+
+    Deux natures de problème y coexistent, et il serait trompeur de les
+    confondre : une **source en échec** a rendu un bloc indisponible, tandis
+    qu'une **alerte** vient d'un bloc disponible mais qui réclame une
+    intervention — typiquement un calendrier FOMC dont les dates s'épuisent.
+    Le second cas ne dégrade rien aujourd'hui et cesserait de fonctionner
+    demain sans prévenir : c'est justement pour cela qu'il doit remonter ici
+    plutôt que rester enterré dans son bloc.
+
+    Args:
+        echecs: sources indisponibles.
+        alertes: alertes levées par des blocs par ailleurs disponibles.
+
+    Returns:
+        L'avertissement, vide si tout va bien.
+    """
+    morceaux: list[str] = []
+    if echecs:
+        morceaux.append(
+            f"{len(echecs)} source(s) indisponible(s) : {', '.join(echecs)}. "
+            "Chaque bloc concerné porte son motif."
+        )
+    for alerte in alertes:
+        morceaux.append(
+            f"ALERTE {alerte['sujet']} — {alerte['motif']} "
+            f"(bloc « {alerte['bloc']} »)."
+        )
+    return " ".join(morceaux)
+
+
 def charger_configuration(chemin: Path = CHEMIN_CONFIG) -> dict[str, Any]:
     """Lit ``config/gold.yaml``.
 
@@ -217,6 +249,10 @@ def construire_rapport(
     """
     jour = date_rapport or _maintenant().date()
     echecs: list[str] = []
+    # Alertes distinctes des échecs de source : un bloc peut être disponible
+    # et néanmoins réclamer une intervention, comme un calendrier FOMC qui
+    # s'épuise. Sans remontée jusqu'à meta, personne ne les verrait.
+    alertes: list[dict[str, str]] = []
 
     cfg_fv = dict(configuration.get("juste_valeur") or {})
     cfg_cot = dict(configuration.get("cot") or {})
@@ -334,9 +370,21 @@ def construire_rapport(
     # --- Calendrier --------------------------------------------------------
     _LOG.info("Chargement du calendrier macro...")
     bloc_calendrier = calendrier_macro.get_calendrier(cfg_cal)
-    bloc_calendrier["_meta"] = _meta("FRED releases + calendrier FOMC (configuration)", jour, jour)
+    bloc_calendrier["_meta"] = _meta(
+        f"FRED releases + FOMC ({bloc_calendrier.get('fomc', {}).get('source', 'inconnue')})",
+        jour,
+        jour,
+    )
     if not bloc_calendrier.get("disponible"):
         echecs.append("calendrier macro")
+    if bloc_calendrier.get("alerte_renouvellement"):
+        alertes.append(
+            {
+                "bloc": "calendrier",
+                "sujet": "calendrier FOMC",
+                "motif": str(bloc_calendrier.get("motif") or "motif non précisé"),
+            }
+        )
 
     # --- Géopolitique ------------------------------------------------------
     _LOG.info("Mesure de l'intensité géopolitique...")
@@ -418,15 +466,11 @@ def construire_rapport(
             "date": str(jour),
             "horodatage_utc": _maintenant().isoformat(),
             "instrument": "XAUUSD",
-            "version_moteur": "2.0",
+            "version_moteur": "2.1",
             "sources_en_echec": echecs,
             "donnees_partielles": bool(echecs),
-            "avertissement": (
-                f"{len(echecs)} source(s) indisponible(s) : {', '.join(echecs)}. "
-                "Chaque bloc concerné porte son motif."
-                if echecs
-                else ""
-            ),
+            "alertes": alertes,
+            "avertissement": _avertissement(echecs, alertes),
         },
         "prix": bloc_prix,
         "juste_valeur": bloc_fv,

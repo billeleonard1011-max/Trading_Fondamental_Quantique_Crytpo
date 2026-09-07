@@ -61,29 +61,24 @@ calendrier:
       impact_or: "fort"
 
   # Le FOMC n'est pas une publication de données : FRED n'expose aucune
-  # « release » correspondante. Les dates viennent du calendrier officiel
-  # publié par la Réserve fédérale :
-  # https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  # « release » utilisable. Il en existe bien une nommée « FOMC Press Release »
+  # (rid=101), mais elle ne publie que les bornes du corridor des Fed funds,
+  # séries quotidiennes 7 jours sur 7 : ses dates de publication sont
+  # journalières, pas les huit réunions annuelles. Un compte à rebours bâti
+  # dessus annoncerait une réunion pour demain, tous les jours de l'année.
   #
-  # Chaque réunion dure deux jours ; la décision tombe le second jour à
-  # 14:00 heure de New York. La date retenue ci-dessous est celle de la
-  # décision. La Fed précise que chaque date reste provisoire jusqu'à la
-  # réunion qui la précède : à revérifier une fois par an.
+  # Les dates sont donc collectées automatiquement sur la page officielle
+  # https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  # par dataio.calendar.fetch_fomc_calendar, et mises en cache dans
+  # config/fomc_calendar_cache.json. Ce fichier est régénéré à chaque collecte
+  # réussie : ne pas l'éditer à la main.
+  #
+  # Il n'y a plus aucune date à tenir à jour ici. Si la collecte échoue et que
+  # le cache s'épuise, calendrier.alerte_renouvellement passe à true et
+  # l'avertissement remonte jusqu'au bloc meta du rapport.
   fomc:
+    # La décision tombe le second jour de la réunion, à 14:00 à New York.
     heure_locale: "14:00"
-    verifie_le: "2026-09-07"
-    dates_decision:
-      - "2026-09-16"   # avec projections économiques
-      - "2026-10-28"
-      - "2026-12-09"   # avec projections économiques
-      - "2027-01-27"
-      - "2027-03-17"   # avec projections économiques
-      - "2027-04-28"
-      - "2027-06-09"   # avec projections économiques
-      - "2027-07-28"
-      - "2027-09-15"   # avec projections économiques
-      - "2027-10-27"
-      - "2027-12-08"   # avec projections économiques
 
   # En deçà de ce délai, le système recommande de ne pas ouvrir de position.
   fenetre_silence_minutes: 120
