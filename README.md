@@ -65,6 +65,7 @@ dataio/
   news.py                     Flux RSS et GDELT, intensité, déduplication
   crypto.py                   CoinGecko : OHLC, contexte, instantané
   cot.py                      Positionnement CFTC sur l'or (COMEX 088691)
+  sec_filings.py              EDGAR : dépôts, trésorerie XBRL, initiés
   gold_flows.py               Ratio or/argent, minières/or, encours GLD
   calendar.py                 Publications macro (FRED) et réunions du FOMC,
                               collectées sur le site de la Fed, avec cache
@@ -76,9 +77,18 @@ modules/
     bias.py                   Biais quotidien décomposé par composante
     explain.py                Explications vérifiées numériquement
     run.py                    Orchestration et publication du JSON
+  quantum/
+    moves.py                  Mouvements marqués : sectoriel ou spécifique
+    industry.py               Trésorerie, financements, entrants, corrélation
+    run.py                    Orchestration et publication du JSON
+  crypto/
+    regime.py                 Régime de marché par le MVRV, avec invalidation
+    positioning.py            Funding, open interest, positions suivies
+    run.py                    Orchestration et publication du JSON
 report/                       Rendu du rapport et page de suivi (à venir)
 docs/
   schema_or.md                Structure du JSON produit par le moteur or
+  schema_quantum_crypto.md    Structure des JSON quantique et crypto
 scripts/
   check_feeds.py              Diagnostic des flux : sain, figé ou mort
 tests/
@@ -87,10 +97,14 @@ tests/
   test_analogues.py           Séparation des précédents, nombre minimal de cas
   test_gold_engine.py         Géopolitique, pondérations, garde-fou numérique
   test_fomc_calendar.py       Analyse de la page de la Fed, cache, alerte
+  test_quantum_moves.py       Épisode Pasqal, anti-recommandation, corrélation
+  test_crypto_regime.py       Régimes et invalidation, funding, positions
   fixtures/                   Extrait figé de la page FOMC, pour tester
                               l'analyse sans réseau
 reports/
   gold/                       Rapports quotidiens JSON + historique des biais
+  quantum/                    Rapports quotidiens de la veille quantique
+  crypto/                     Rapports quotidiens de la veille crypto
 requirements.txt
 ```
 
@@ -105,6 +119,10 @@ requirements.txt
 | FRED | Séries macroéconomiques | Gratuit | **Oui** — `FRED_API_KEY` | Fréquences hétérogènes, publication décalée |
 | GDELT | Volume de couverture médiatique | Gratuit | Non | `artlist` plafonné à 250 articles, code 429 fréquent |
 | Réserve fédérale | Dates des réunions du FOMC | Gratuit | Non | Page HTML : structure susceptible de changer, d'où le cache |
+| SEC EDGAR | Dépôts, trésorerie XBRL, Form 4 | Gratuit | Non, mais **User-Agent identifiant obligatoire** | 403 sans adresse de contact |
+| Coin Metrics Community | MVRV (`CapMVRVCur`) | Gratuit | Non | 6 000 requêtes / 20 s ; `CapRealUSD` réservé aux offres payantes |
+| DefiLlama | Offre de stablecoins | Gratuit | Non | `/emissions` (déblocages) réservé à l'offre payante |
+| Binance / Bybit | Funding et open interest des perpétuels | Gratuit | Non | Données publiques de marché uniquement |
 | Flux RSS | Titres et chapeaux | Gratuit | Non | Flux figés sans erreur visible |
 | CoinGecko | Prix et contexte crypto | Gratuit | Facultative — `COINGECKO_API_KEY` | Code 429 fréquent sans clé |
 | CFTC (Socrata) | Positionnement futures or | Gratuit | Facultative — `CFTC_APP_TOKEN` | Publication vendredi, données de mardi |
@@ -200,6 +218,19 @@ données partielles.
 La structure du JSON produit est décrite dans
 [docs/schema_or.md](docs/schema_or.md).
 
+### Lancer les veilles quantique et crypto
+
+```bash
+python -m modules.quantum.run      # écrit reports/quantum/
+python -m modules.crypto.run       # écrit reports/crypto/
+```
+
+Ces deux modules **expliquent, ils ne recommandent jamais**. Aucune sortie ne
+suggère d'acheter, de vendre ou de se positionner. La contrainte est vérifiée
+mécaniquement : `modules/quantum/run.py` passe le rapport au crible de
+`verifier_absence_recommandation` **avant publication** et refuse d'écrire si
+une formulation interdite apparaît.
+
 ### Diagnostic des flux d'actualité
 
 Ce script effectue des appels réseau ; il est volontairement séparé des tests.
@@ -230,6 +261,7 @@ plus pernicieux : il ne provoque aucune erreur et vide la veille en silence.
 | `COINGECKO_API_KEY` | Non | Relève la limite de débit CoinGecko. |
 | `OPENAI_API_KEY` | Non | Explications en français du moteur or. Sans elle, le mode gabarit prend le relais et le rapport reste complet. |
 | `CFTC_APP_TOKEN` | Non | Relève la limite de débit de l'API Socrata de la CFTC. L'accès reste public sans jeton. |
+| `SEC_CONTACT_EMAIL` | Oui pour la veille quantique | Adresse de contact exigée par la SEC dans le User-Agent. Sans elle, EDGAR répond 403 et la trésorerie ne peut pas être estimée. |
 
 Le workflow tourne en cron à **11:30 UTC**, du lundi au vendredi, et peut être
 lancé à la main depuis l'onglet `Actions`.
@@ -286,8 +318,21 @@ Reste à construire
 - [ ] Rapport quotidien rendu par Jinja2 dans `report/`
 - [ ] Page web de suivi
 - [ ] Indicateur TradingView (Pine Script)
-- [ ] Suivi des trois valeurs quantiques
-- [ ] Suivi des positions crypto
+Veille quantique et crypto
+
+- [x] Client EDGAR : dépôts, trésorerie XBRL, activité d'initiés
+- [x] Mouvements de prix classés sectoriel ou spécifique, calibrés sur
+      l'épisode Pasqal de septembre 2026
+- [x] Contrôle anti-recommandation, bloquant à la publication
+- [x] Trésorerie et autonomie estimée, alerte de dilution
+- [x] Détection de nouveaux entrants, corrélation entre positions
+- [x] Régime crypto par le MVRV, avec condition d'invalidation
+- [x] Funding et open interest des perpétuels, percentile 90 jours
+- [ ] Flux des ETF spot BTC : aucune source gratuite et fiable
+      (CoinGlass, SoSoValue, DefiLlama, Farside testés et écartés)
+- [ ] Calendrier des déblocages de jetons : réservé aux offres payantes
+      (DefiLlama 402, CryptoRank 401)
+- [ ] Sens et déposant des Form 4 : demanderait un analyseur du XML
 
 La stratégie réelle n'est pas encore écrite. `ExampleTrendStrategy` n'existe
 que pour illustrer la forme attendue : ses règles n'ont fait l'objet d'aucun

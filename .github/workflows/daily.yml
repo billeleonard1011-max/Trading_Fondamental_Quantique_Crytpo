@@ -50,6 +50,10 @@ jobs:
       # Jeton applicatif Socrata, facultatif : il ne relève que la limite de
       # débit de l'API CFTC, dont l'accès reste public sans lui.
       CFTC_APP_TOKEN: ${{ secrets.CFTC_APP_TOKEN }}
+      # Exigée par la SEC : tout appel à EDGAR doit porter un User-Agent
+      # identifiant l'appelant avec une adresse jointe. Sans elle, les
+      # requêtes reçoivent un 403 — vérifié.
+      SEC_CONTACT_EMAIL: ${{ secrets.SEC_CONTACT_EMAIL }}
       PYTHONUNBUFFERED: "1"
 
     steps:
@@ -114,6 +118,22 @@ jobs:
           else
             echo "Aucun rapport produit."
           fi
+
+      - name: Veille sur les valeurs quantiques
+        # continue-on-error : une panne de la veille quantique ne doit pas
+        # empêcher la publication du rapport or, qui porte l'instrument
+        # réellement tradé. Le code de sortie non nul reste visible dans
+        # l'onglet Actions.
+        continue-on-error: true
+        run: |
+          mkdir -p reports/quantum
+          python -m modules.quantum.run
+
+      - name: Veille sur les positions crypto
+        continue-on-error: true
+        run: |
+          mkdir -p reports/crypto
+          python -m modules.crypto.run
 
       - name: Publier le rapport dans le dépôt
         run: |

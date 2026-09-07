@@ -78,30 +78,180 @@ instrument_principal:
   devise: USD
 
 # --- Valeurs du secteur quantique ------------------------------------------
-# À compléter avec les trois valeurs effectivement suivies. Laissé en
-# commentaire pour éviter que le scan télécharge des titres non choisis.
+# Watchlist réellement suivie par modules/quantum.
 #
-# quantique:
-#   - ticker: IONQ
-#     libelle: "IonQ - ions piégés"
-#   - ticker: RGTI
-#     libelle: "Rigetti Computing - supraconducteurs"
-#   - ticker: QBTS
-#     libelle: "D-Wave Quantum - recuit quantique"
-quantique: []
+# « seuil_mouvement_pct » déclenche l'analyse d'un mouvement. Il est réglable
+# par valeur : ces titres n'ont pas la même volatilité structurelle, et un
+# seuil unique produirait soit du bruit sur les plus nerveux, soit des
+# silences sur les plus calmes.
+#
+# « keywords » sert à la recherche d'actualité : le ticker seul ramène trop de
+# faux positifs (RGTI, QBTS ne sont pas des mots), le nom seul en rate.
+quantum_watchlist:
+  - ticker: "RGTI"
+    name: "Rigetti Computing"
+    cik: "1838359"          # vérifié via sec.gov/files/company_tickers.json
+    keywords: ["Rigetti", "Rigetti Computing"]
+    seuil_mouvement_pct: 8.0
+  - ticker: "QBTS"
+    name: "D-Wave Quantum"
+    cik: "1907982"
+    keywords: ["D-Wave", "DWave", "D-Wave Quantum"]
+    seuil_mouvement_pct: 8.0
+  - ticker: "IONQ"
+    name: "IonQ"
+    cik: "1824920"
+    keywords: ["IonQ"]
+    seuil_mouvement_pct: 8.0
+
+# Paramètres de modules/quantum.
+quantum:
+  # Indice de référence du secteur : panier équipondéré des valeurs de la
+  # watchlist. Aucun ETF quantique pur n'existe, et emprunter un ETF
+  # thématique large introduirait des titres qui ne sont pas du quantique.
+  reference_secteur: "panier_watchlist"
+
+  # Références macro, pour distinguer un mouvement sectoriel d'un choc de taux.
+  reference_marche: "QQQ"       # Nasdaq 100
+  serie_taux_reels: "DFII10"
+
+  # Classification sectoriel / spécifique.
+  # Il faut au moins deux autres valeurs allant dans le même sens avec au
+  # moins 40 % de l'amplitude du titre déclencheur. Une seule ne suffirait
+  # pas : deux titres peuvent bouger ensemble par coïncidence.
+  min_valeurs_concordantes: 2
+  ratio_amplitude_min: 0.40
+
+  # Variation des taux réels, en points de pourcentage sur la journée, à
+  # partir de laquelle on considère que le mouvement de taux est notable.
+  seuil_variation_taux_pct: 0.03
+
+  # Trésorerie : alerte quand le runway estimé passe sous ce nombre de
+  # trimestres. Ces sociétés brûlent du cash et se refinancent par émission
+  # d'actions : un runway court annonce une dilution, pas une faillite.
+  seuil_runway_trimestres: 4.0
+
+  # Corrélation entre valeurs sur 60 séances glissantes. Au-delà, les
+  # positions se comportent comme une seule.
+  fenetre_correlation_seances: 60
+  seuil_correlation_elevee: 0.70
+
+  # Détection de nouveaux entrants dans l'actualité du secteur.
+  min_mentions_for_alert: 3
+  fenetre_nouveaux_entrants_jours: 30
+
+  # Acteurs déjà connus : leur mention n'est pas une nouveauté.
+  incumbents:
+    - "IonQ"
+    - "Rigetti"
+    - "D-Wave"
+    - "IBM"
+    - "Google"
+    - "Microsoft"
+    - "Amazon"
+    - "Intel"
+    - "Honeywell"
+    - "Quantinuum"
+    - "Pasqal"
+    - "PsiQuantum"
+    - "Xanadu"
+    - "Atom Computing"
+    - "Alice & Bob"
+    - "Quandela"
+    - "Nvidia"
+    - "Infleqtion"
+    - "QuEra"
+    - "Oxford Ionics"
+
+# Requête GDELT du secteur, utilisée par modules/quantum/industry.py.
+quantum_industry_watch:
+  name: "Industrie quantique - financements et contrats"
+  query: '("quantum computing" AND (funding OR contract OR investment OR "government award" OR DARPA OR grant))'
 
 # --- Positions crypto -------------------------------------------------------
-# Les identifiants sont ceux de CoinGecko, pas les symboles boursiers :
-# « bitcoin », pas « BTC ». Vérifiables sur https://www.coingecko.com
+# Les identifiants sont ceux de CoinGecko, pas les symboles boursiers.
 #
-# crypto:
-#   - coin_id: bitcoin
-#     libelle: "Bitcoin"
-#   - coin_id: ethereum
-#     libelle: "Ethereum"
-#   - coin_id: solana
-#     libelle: "Solana"
-crypto: []
+# CHAQUE IDENTIFIANT A ÉTÉ VÉRIFIÉ par un appel réel à /api/v3/coins/list le
+# 7 septembre 2026, par symbole ET par nom. La vérification par symbole seul
+# ne suffit pas : plusieurs jetons partagent le même symbole, et plusieurs
+# projets sans rapport portent des noms voisins.
+#
+# Cas ASTER, celui qui piège : le catalogue contient « aster-2 » (Aster, le
+# DEX de perpétuels), mais aussi « aster-inu », « aster-dog », « baby-aster »,
+# les quatre jetons « astherus-* » — et « astar » (ASTR), un projet totalement
+# différent malgré la ressemblance. L'identité de aster-2 a été confirmée sur
+# /coins/aster-2 : site asterdex.com, catégorie « Perpetuals », issu de la
+# fusion Astherus / APX Finance.
+crypto_watchlist:
+  - symbol: "BTC"
+    coingecko_id: "bitcoin"
+    position: true
+  - symbol: "ETH"
+    coingecko_id: "ethereum"
+    position: true
+  - symbol: "SOL"
+    coingecko_id: "solana"
+    position: true
+  - symbol: "DOGE"
+    coingecko_id: "dogecoin"
+    position: true
+  - symbol: "ASTER"
+    coingecko_id: "aster-2"
+    position: true
+    note: "DEX de perpétuels (asterdex.com). Vérifié : ne pas confondre avec astar/ASTR, aster-inu ni astherus-*."
+  - symbol: "KNTQ"
+    coingecko_id: "kinetiq"
+    position: true
+    note: "Staking liquide sur Hyperliquid (kinetiq.xyz). Distinct de kinetic-staked-hype (kHYPE)."
+  - symbol: "PONS"
+    coingecko_id: "pons"
+    position: true
+    note: >-
+      Token de launchpad memecoin sur Robinhood Chain, lancé mi-juillet 2026.
+      Extrêmement jeune et volatil (variations de plusieurs centaines de % en
+      quelques semaines) : les seuils d'alerte et les hypothèses de régime
+      calibrés sur BTC/ETH n'ont aucun sens ici. Traité à part par
+      modules/crypto/positioning.py.
+    jeune_et_volatil: true
+  - symbol: "JUP"
+    coingecko_id: "jupiter-exchange-solana"
+    position: true
+    note: "Jupiter (Solana). Distinct de « jupiter » qui désigne Jupiter Project."
+  - symbol: "TAO"
+    coingecko_id: "bittensor"
+    position: true
+  - symbol: "LINK"
+    coingecko_id: "chainlink"
+    position: true
+
+# Paramètres de modules/crypto.
+crypto_regime:
+  # MVRV : rapport entre capitalisation de marché et capitalisation réalisée.
+  # Source retenue : API Community de Coin Metrics, métrique CapMVRVCur,
+  # gratuite et sans clé (vérifié le 7 septembre 2026 pour BTC et ETH).
+  # Aucune estimation maison du prix réalisé n'est faite : le catalogue
+  # gratuit n'expose pas CapRealUSD, mais expose le ratio directement.
+  actifs: ["btc", "eth"]
+
+  # Seuils de régime sur le MVRV. Ce sont des repères d'usage, pas des lois :
+  # ils sont ici pour être révisés quand on aura mesuré leur tenue.
+  seuils_mvrv:
+    capitulation_max: 1.0     # sous 1, le détenteur moyen est en perte latente
+    accumulation_max: 2.0
+    expansion_max: 3.0        # au-delà, distribution
+
+  # Croissance de l'offre de stablecoins sur 30 jours, en pourcentage.
+  # Source : DefiLlama, /stablecoincharts/all, gratuit et sans clé.
+  seuil_croissance_stablecoins_pct: 2.0
+  fenetre_stablecoins_jours: 30
+
+crypto_positioning:
+  # Binance et Bybit exposent funding et open interest sans clé (vérifié).
+  symbole_perp: "BTCUSDT"
+  fenetre_percentile_funding_jours: 90
+  # Funding au-delà de ce percentile : levier tendu d'un côté du marché.
+  percentile_extreme_haut: 90.0
+  percentile_extreme_bas: 10.0
 
 # --- Séries macroéconomiques FRED ------------------------------------------
 # Consultables sur https://fred.stlouisfed.org/series/<identifiant>
