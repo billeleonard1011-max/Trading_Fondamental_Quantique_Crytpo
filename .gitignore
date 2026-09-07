@@ -1,0 +1,24 @@
+# Octets compilés
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnements et secrets
+.env
+.env.*
+.venv/
+venv/
+
+# Caches de données (jamais versionnés : volumineux et reconstructibles)
+.cache/
+data/cache/
+cache/
+*.parquet.tmp
+
+# Outils
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store

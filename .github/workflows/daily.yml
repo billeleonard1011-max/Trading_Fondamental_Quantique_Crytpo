@@ -1,0 +1,119 @@
+# Rapport quotidien : collecte des données, analyse, publication dans reports/.
+#
+# ATTENTION AUX HORAIRES
+# GitHub Actions exécute tous les crons en UTC, sans aucun ajustement d'heure
+# d'été. Un cron à 11:30 UTC se déclenche donc à 13:30 à Paris l'été (CEST,
+# UTC+2) et à 12:30 l'hiver (CET, UTC+1). Le décalage d'une heure entre mars
+# et octobre est normal, ce n'est pas une panne.
+#
+# Repères pour le choix de l'heure :
+#   13:30 UTC = ouverture de la bourse de New York l'été (09:30 New York)
+#   14:30 UTC = ouverture de la bourse de New York l'hiver
+#   11:30 UTC retenu ici : après la clôture asiatique et la matinée
+#   européenne, avant l'ouverture américaine.
+#
+# GitHub met par ailleurs les crons en file d'attente aux heures chargées :
+# un retard de quelques minutes à une heure est courant et n'indique rien
+# d'anormal. Ne planifiez rien qui dépende de la minute exacte.
+
+name: Rapport quotidien
+
+on:
+  schedule:
+    - cron: "30 11 * * 1-5"   # du lundi au vendredi, 11:30 UTC
+  workflow_dispatch:           # déclenchement manuel depuis l'onglet Actions
+
+# Nécessaire pour que l'étape de commit puisse pousser dans le dépôt.
+permissions:
+  contents: write
+
+# Une seule exécution à la fois : deux rapports simultanés se marcheraient
+# dessus au moment du commit.
+concurrency:
+  group: rapport-quotidien
+  cancel-in-progress: false
+
+jobs:
+  rapport:
+    name: Générer et publier le rapport
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      # Les clés proviennent des secrets du dépôt. Elles n'apparaissent
+      # jamais dans les journaux : GitHub les masque automatiquement.
+      FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          # Historique complet : l'étape de publication rejoue son commit
+          # par-dessus le dépôt distant, ce qu'un clone superficiel interdit.
+          fetch-depth: 0
+
+      - name: Installer Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Vérifier la causalité des indicateurs
+        # Garde-fou : si un indicateur se met à regarder le futur, le rapport
+        # ne doit pas être publié. Une erreur silencieuse ici invaliderait
+        # tout signal produit ensuite.
+        run: python -m core.indicators
+
+      - name: Générer le rapport
+        # Le module report.daily n'existe pas encore : seul le socle est
+        # construit. L'étape est donc conditionnelle, pour que le workflow
+        # reste vert pendant cette phase. Retirer la condition dès que le
+        # module est écrit.
+        run: |
+          mkdir -p reports
+          if [ -f report/daily.py ]; then
+            python -m report.daily
+          else
+            echo "Module report.daily absent : seul le socle est en place."
+            {
+              echo "# Rapport du $(date -u '+%Y-%m-%d %H:%M UTC')"
+              echo
+              echo "Le moteur d'analyse n'est pas encore construit."
+              echo "Seul le socle technique est en place :"
+              echo "couche de données, indicateurs, configuration, automatisation."
+            } > "reports/$(date -u '+%Y-%m-%d').md"
+          fi
+
+      - name: Publier le rapport dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --staged --quiet; then
+            echo "Aucune sortie nouvelle : rien à publier."
+          else
+            git commit -m "Rapport automatique du $(date -u '+%Y-%m-%d')"
+            # Le dépôt a pu bouger pendant l'exécution : on rejoue par-dessus.
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Archiver le rapport en artefact
+        # Doublon volontaire du commit : l'artefact reste consultable même si
+        # la publication dans le dépôt échoue.
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-${{ github.run_number }}
+          path: reports/
+          retention-days: 30
+          if-no-files-found: warn

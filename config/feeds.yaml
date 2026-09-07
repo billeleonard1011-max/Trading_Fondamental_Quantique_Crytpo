@@ -1,0 +1,116 @@
+# Flux d'actualité et requêtes GDELT.
+#
+# Champs d'un flux :
+#   name   : nom lisible, repris tel quel dans le rapport
+#   url    : adresse du flux RSS ou Atom
+#   tags   : étiquettes thématiques, utilisées pour router l'information
+#   weight : fiabilité relative de la source, de 0 à 1. Sert à trancher les
+#            doublons dans dataio.news.dedupe et à pondérer une synthèse.
+#
+# Toutes ces adresses sont des flux publics que les éditeurs diffusent
+# volontairement. Aucun contenu payant n'est récupéré : un flux ne donne que
+# le titre et le chapeau, jamais l'article complet.
+#
+# Vérifier l'état des flux : python -m scripts.check_feeds
+
+feeds:
+  # --- Presse financière de référence ---------------------------------------
+  - name: "WSJ Markets"
+    url: "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain"
+    tags: [marches, macro, actions]
+    weight: 0.9
+
+  - name: "WSJ World News"
+    url: "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
+    tags: [geopolitique, macro]
+    weight: 0.9
+
+  - name: "Financial Times"
+    url: "https://www.ft.com/rss/home"
+    tags: [marches, macro, geopolitique]
+    weight: 0.9
+
+  - name: "MarketWatch Top Stories"
+    url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+    tags: [marches, actions]
+    weight: 0.6
+
+  - name: "Yahoo Finance"
+    url: "https://finance.yahoo.com/news/rssindex"
+    tags: [marches, actions]
+    weight: 0.5
+
+  - name: "CNBC Finance"
+    url: "https://www.cnbc.com/id/10000664/device/rss/rss.html"
+    tags: [marches, macro]
+    weight: 0.6
+
+  - name: "CNBC Technology"
+    url: "https://www.cnbc.com/id/19854910/device/rss/rss.html"
+    tags: [technologie, semiconducteurs]
+    weight: 0.6
+
+  # --- Banques centrales ----------------------------------------------------
+  # Source primaire : ce que la Fed et la BCE publient elles-mêmes, avant
+  # toute interprétation journalistique. Poids maximal.
+  - name: "Federal Reserve - communiques"
+    url: "https://www.federalreserve.gov/feeds/press_all.xml"
+    tags: [banque_centrale, macro, taux, or]
+    weight: 1.0
+
+  - name: "BCE - communiques"
+    url: "https://www.ecb.europa.eu/rss/press.html"
+    tags: [banque_centrale, macro, taux]
+    weight: 1.0
+
+  # --- Crypto ---------------------------------------------------------------
+  - name: "CoinDesk"
+    url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+    tags: [crypto]
+    weight: 0.7
+
+  - name: "The Block"
+    url: "https://www.theblock.co/rss.xml"
+    tags: [crypto]
+    weight: 0.7
+
+  # --- Secteur quantique ----------------------------------------------------
+  - name: "Phys.org - physique quantique"
+    url: "https://phys.org/rss-feed/physics-news/quantum-physics/"
+    tags: [quantique, recherche]
+    weight: 0.6
+
+  - name: "Quantum Computing Report"
+    url: "https://quantumcomputingreport.com/feed/"
+    tags: [quantique, industrie]
+    weight: 0.7
+
+# Requêtes GDELT. Aucune clé requise.
+#
+# Elles ne servent pas à lire des articles mais à mesurer un volume de
+# couverture : gdelt_intensity compare les dernières 24 h à la moyenne des
+# 30 derniers jours et alerte au-delà d'un facteur 2. C'est la différence
+# entre constater une escalade et la supposer.
+#
+# Syntaxe : les expressions entre guillemets sont recherchées telles quelles,
+# OR et AND combinent les termes, les parenthèses regroupent.
+gdelt_queries:
+  - name: "Conflits energetiques"
+    query: '("oil supply" OR "energy crisis" OR "pipeline attack" OR "oil embargo" OR "strait of hormuz")'
+    tags: [geopolitique, energie, or]
+
+  - name: "Tensions semi-conducteurs"
+    query: '("semiconductor export" OR "chip ban" OR "chip export controls" OR "taiwan semiconductor" OR "export restrictions china chips")'
+    tags: [semiconducteurs, geopolitique, technologie]
+
+  - name: "Industrie quantique"
+    query: '("quantum computing" OR "quantum computer" OR "quantum supremacy" OR "quantum advantage" OR "qubit")'
+    tags: [quantique, technologie]
+
+  - name: "Regulation crypto"
+    query: '("crypto regulation" OR "bitcoin etf" OR "sec crypto" OR "stablecoin regulation" OR "mica crypto")'
+    tags: [crypto, regulation]
+
+  - name: "Risque geopolitique or"
+    query: '("central bank gold" OR "gold reserves" OR "safe haven demand" OR "de-dollarization")'
+    tags: [or, geopolitique, banque_centrale]

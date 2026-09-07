@@ -1,0 +1,1 @@
+"""Tests du socle technique."""
