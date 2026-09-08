@@ -143,6 +143,12 @@ sont utilisés.
 Deux précautions valent d'être signalées, parce que leur oubli produit des
 résultats faux sans lever la moindre erreur :
 
+- **Compression Brotli.** Plusieurs flux servis derrière Cloudflare renvoient
+  du `Content-Encoding: br` même quand la requête n'annonce que `gzip,
+  deflate`. Sans le paquet `brotli`, `requests` rend alors les octets
+  compressés tels quels et le flux paraît mal formé alors qu'il fonctionne :
+  c'est ce qui a fait passer « Quantum Computing Report » pour mort pendant
+  un temps. `brotli` est donc une dépendance de plein droit.
 - **Cours ajusté.** [dataio/market.py](dataio/market.py) prend le cours
   ajusté comme `close`. Sur un cours brut, un split 4:1 se lit comme une
   chute de 75 % et déclenche des signaux qui n'ont jamais existé.
