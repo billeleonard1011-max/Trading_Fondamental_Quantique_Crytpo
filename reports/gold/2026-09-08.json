@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-08",
-    "horodatage_utc": "2026-09-08T09:35:51.604623+00:00",
+    "horodatage_utc": "2026-09-08T15:21:56.173512+00:00",
     "instrument": "XAUUSD",
     "version_moteur": "2.1",
     "sources_en_echec": [],
@@ -18,7 +18,7 @@
     "variation_20j_pct": 2.052655225330202,
     "_meta": {
       "source": "GC=F (yfinance)",
-      "horodatage_collecte_utc": "2026-09-08T09:30:33.716447+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:16:21.667573+00:00",
       "date_donnee": "2026-09-04",
       "age_jours": 4
     }
@@ -63,7 +63,7 @@
     "unite_prix": "USD par once",
     "_meta": {
       "source": "GC=F (yfinance) + FRED DFII10/DTWEXBGS",
-      "horodatage_collecte_utc": "2026-09-08T09:30:36.938938+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:16:26.394288+00:00",
       "date_donnee": "2026-09-04",
       "age_jours": 4
     }
@@ -84,7 +84,7 @@
     "lecture": "Managed money net à +136,771 contrats, soit le 73e percentile sur 260 semaines : positionnement acheteur nourri, sans être extrême. Donnée vieille de 7 jour(s).",
     "_meta": {
       "source": "api_socrata",
-      "horodatage_collecte_utc": "2026-09-08T09:30:37.612599+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:16:30.471987+00:00",
       "date_donnee": "2026-09-01",
       "age_jours": 7
     }
@@ -92,7 +92,7 @@
   "flux": {
     "_meta": {
       "source": "yfinance + SPDR (tentative)",
-      "horodatage_collecte_utc": "2026-09-08T09:30:39.414113+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:16:32.392378+00:00",
       "date_donnee": null,
       "age_jours": null
     },
@@ -157,10 +157,10 @@
   },
   "calendrier": {
     "disponible": true,
-    "horodatage_calcul_utc": "2026-09-08T09:30:39.414259+00:00",
+    "horodatage_calcul_utc": "2026-09-08T15:16:32.392595+00:00",
     "fenetre_silence_minutes": 120,
     "en_fenetre_de_silence": false,
-    "commentaire": "Prochaine échéance : Indice des prix à la consommation (CPI) dans 74 heure(s).",
+    "commentaire": "Prochaine échéance : Indice des prix à la consommation (CPI) dans 69 heure(s).",
     "avertissement_heures": "FRED ne publie que la date, jamais l'heure. Les heures affichées sont les heures officielles d'usage (fuseau de New York) : elles sont conventionnelles, pas garanties.",
     "horizon_couvert_jusquau": "2027-12-08",
     "n_reunions_a_venir_connues": 11,
@@ -185,8 +185,8 @@
         "horodatage_utc": "2026-09-11T12:30:00+00:00",
         "date": "2026-09-11",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 4499,
-        "jours_restants": 3.12,
+        "minutes_restantes": 4153,
+        "jours_restants": 2.88,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 10"
@@ -196,8 +196,8 @@
         "horodatage_utc": "2026-09-16T18:00:00+00:00",
         "date": "2026-09-16",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 12029,
-        "jours_restants": 8.35,
+        "minutes_restantes": 11683,
+        "jours_restants": 8.11,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -207,8 +207,8 @@
         "horodatage_utc": "2026-09-30T12:30:00+00:00",
         "date": "2026-09-30",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 31859,
-        "jours_restants": 22.12,
+        "minutes_restantes": 31513,
+        "jours_restants": 21.88,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 54"
@@ -218,8 +218,8 @@
         "horodatage_utc": "2026-10-02T12:30:00+00:00",
         "date": "2026-10-02",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 34739,
-        "jours_restants": 24.12,
+        "minutes_restantes": 34393,
+        "jours_restants": 23.88,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 50"
@@ -229,8 +229,8 @@
         "horodatage_utc": "2026-10-14T12:30:00+00:00",
         "date": "2026-10-14",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 52019,
-        "jours_restants": 36.12,
+        "minutes_restantes": 51673,
+        "jours_restants": 35.88,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 10"
@@ -240,8 +240,8 @@
         "horodatage_utc": "2026-10-28T18:00:00+00:00",
         "date": "2026-10-28",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 72509,
-        "jours_restants": 50.35,
+        "minutes_restantes": 72163,
+        "jours_restants": 50.11,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -249,7 +249,7 @@
     ],
     "_meta": {
       "source": "FRED releases + FOMC (federalreserve.gov)",
-      "horodatage_collecte_utc": "2026-09-08T09:30:40.762425+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:16:33.942814+00:00",
       "date_donnee": "2026-09-08",
       "age_jours": 0
     }
@@ -257,19 +257,19 @@
   "geopolitique": {
     "disponible": true,
     "motif": "",
-    "horodatage_utc": "2026-09-08T09:35:51.559506+00:00",
+    "horodatage_utc": "2026-09-08T15:21:56.131561+00:00",
     "source": "GDELT (volume de couverture) + FRED (maillons macro)",
     "n_themes_mesures": 2,
     "n_themes_configures": 4,
-    "intensite_max": 0.32727272727272727,
+    "intensite_max": 0.4,
     "theme_dominant": "Tensions sur les réserves de change",
     "themes": [
       {
         "nom": "Tensions énergétiques",
-        "disponible": false,
-        "motif": "GDELT n'a pas répondu.",
-        "intensite_ratio": null,
-        "volume_24h": null,
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 0.3468878929090855,
+        "volume_24h": 403.0,
         "alerte": false,
         "trajectoire": "",
         "ratio_trajectoire": null,
@@ -288,10 +288,10 @@
       },
       {
         "nom": "Sanctions",
-        "disponible": true,
-        "motif": "",
-        "intensite_ratio": 0.06744186046511629,
-        "volume_24h": 17.0,
+        "disponible": false,
+        "motif": "GDELT n'a pas répondu.",
+        "intensite_ratio": null,
+        "volume_24h": null,
         "alerte": false,
         "trajectoire": "",
         "ratio_trajectoire": null,
@@ -301,11 +301,11 @@
         "nom": "Tensions sur les réserves de change",
         "disponible": true,
         "motif": "",
-        "intensite_ratio": 0.32727272727272727,
-        "volume_24h": 18.0,
+        "intensite_ratio": 0.4,
+        "volume_24h": 22.0,
         "alerte": false,
         "trajectoire": "en essoufflement",
-        "ratio_trajectoire": 0.38144329896907214,
+        "ratio_trajectoire": 0.39518900343642616,
         "anciennete_jours": 0
       }
     ],
@@ -316,7 +316,7 @@
           "libelle": "Intensité de couverture du thème le plus actif",
           "disponible": true,
           "motif": "",
-          "valeur": 0.32727272727272727,
+          "valeur": 0.4,
           "unite_variation": "× la normale",
           "variation": null
         },
@@ -374,7 +374,7 @@
     },
     "_meta": {
       "source": "GDELT (volume de couverture) + FRED (maillons macro)",
-      "horodatage_collecte_utc": "2026-09-08T09:35:51.560635+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:21:56.132564+00:00",
       "date_donnee": "2026-09-08",
       "age_jours": 0
     }
@@ -669,17 +669,17 @@
     ],
     "_meta": {
       "source": "reconstruction interne (juste valeur + COT + FRED)",
-      "horodatage_collecte_utc": "2026-09-08T09:35:51.603753+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:21:56.172765+00:00",
       "date_donnee": "2026-08-07",
       "age_jours": 32
     }
   },
   "biais": {
-    "horodatage_utc": "2026-09-08T09:35:51.604519+00:00",
+    "horodatage_utc": "2026-09-08T15:21:56.173404+00:00",
     "biais": "neutre",
-    "score_composite": -0.0538,
+    "score_composite": -0.0435,
     "conviction": "faible",
-    "conviction_brute": 0.0242,
+    "conviction_brute": 0.0196,
     "concordance": 0.6429,
     "couverture_donnees": 0.7,
     "couverture_min_requise": 0.6,
@@ -747,13 +747,13 @@
         "nom": "intensite_geopolitique",
         "disponible": true,
         "motif": "",
-        "score": -0.6727,
+        "score": -0.6,
         "poids_configure": 0.1,
         "poids_effectif": 0.1429,
-        "contribution": -0.0961,
-        "valeur_source": 0.32727272727272727,
+        "contribution": -0.0857,
+        "valeur_source": 0.4,
         "sens": "directionnel",
-        "commentaire": "Couverture géopolitique à 0.3× la normale, rien d'anormal."
+        "commentaire": "Couverture géopolitique à 0.4× la normale, rien d'anormal."
       },
       {
         "nom": "confirmation_minieres",
@@ -821,7 +821,7 @@
     },
     "_meta": {
       "source": "agrégation interne",
-      "horodatage_collecte_utc": "2026-09-08T09:35:51.604579+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:21:56.173460+00:00",
       "date_donnee": "2026-09-08",
       "age_jours": 0
     }

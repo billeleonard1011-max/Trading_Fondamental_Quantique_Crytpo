@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-08",
-    "horodatage_utc": "2026-09-08T09:39:08.699086+00:00",
+    "horodatage_utc": "2026-09-08T15:25:42.241574+00:00",
     "domaine": "valeurs quantiques cotées",
     "version_moteur": "1.0",
     "valeurs_suivies": [
@@ -37,7 +37,7 @@
     },
     "_meta": {
       "source": "yfinance (secours Stooq)",
-      "horodatage_collecte_utc": "2026-09-08T09:36:00.732247+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:22:05.974653+00:00",
       "date_donnee": "2026-09-04",
       "age_jours": 4
     }
@@ -51,7 +51,7 @@
     "variation_marche_pct": 0.1797537995484877,
     "_meta": {
       "source": "FRED DFII10 + QQQ (yfinance)",
-      "horodatage_collecte_utc": "2026-09-08T09:36:01.986126+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:22:06.424546+00:00",
       "date_donnee": "2026-09-08",
       "age_jours": 0
     }
@@ -68,7 +68,7 @@
     "mouvements": [],
     "_meta": {
       "source": "analyse interne (prix + FRED + EDGAR + GDELT)",
-      "horodatage_collecte_utc": "2026-09-08T09:37:28.371342+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:23:58.339989+00:00",
       "date_donnee": "2026-09-04",
       "age_jours": 4
     }
@@ -136,10 +136,134 @@
       "lecture": "Intensité de couverture non mesurée."
     },
     "nouveaux_entrants": {
-      "disponible": false,
-      "motif": "aucun article collecté sur la période",
+      "disponible": true,
+      "motif": "",
       "min_mentions": 3,
-      "candidats": []
+      "n_articles_analyses": 250,
+      "n_candidats": 24,
+      "candidats": [
+        {
+          "nom": "Consortium",
+          "mentions": 30,
+          "exemple_titre": "Consortium launches cross - regional pilot on post - quantum security with participation from banks and regulatory stakeholders"
+        },
+        {
+          "nom": "NASDAQ",
+          "mentions": 8,
+          "exemple_titre": "IonQ ( NYSE : IONQ ) Holds Technology Edge Over Rigetti ( NASDAQ : RGTI ) In Pure - Play Quantum Computing Race"
+        },
+        {
+          "nom": "Years",
+          "mentions": 6,
+          "exemple_titre": "Where Will Rigetti Computing Stock Be in 3 Years ?"
+        },
+        {
+          "nom": "NYSE",
+          "mentions": 5,
+          "exemple_titre": "IonQ ( NYSE : IONQ ) Holds Technology Edge Over Rigetti ( NASDAQ : RGTI ) In Pure - Play Quantum Computing Race"
+        },
+        {
+          "nom": "Saudi Arabia",
+          "mentions": 5,
+          "exemple_titre": "Austria Seeking Digital Partnerships , Joint Investments with Saudi Arabia"
+        },
+        {
+          "nom": "QBTS",
+          "mentions": 5,
+          "exemple_titre": "Quantum Computing ( NASDAQ : QUBT ) Holds Edge Over D - Wave ( NYSE : QBTS ) As Both Stocks Lag The Broader Market"
+        },
+        {
+          "nom": "Against Datavault",
+          "mentions": 5,
+          "exemple_titre": "Pomerantz LLP Pursues Shareholder Class Action Against Datavault AI ..."
+        },
+        {
+          "nom": "Amaravati",
+          "mentions": 5,
+          "exemple_titre": "India First Quantum and AI University to Be Built in Amaravati : Classes to Begin in September 2026"
+        },
+        {
+          "nom": "France",
+          "mentions": 5,
+          "exemple_titre": "France quantum computer maker Pasqal surges in Nasdaq debut"
+        },
+        {
+          "nom": "QUBT",
+          "mentions": 4,
+          "exemple_titre": "Contrasting Quantum Computing ( NASDAQ : QUBT ) and AstroNova ( NASDAQ : ALOT )"
+        },
+        {
+          "nom": "Pomerantz LLP Announces",
+          "mentions": 4,
+          "exemple_titre": "Pomerantz LLP Announces Securities Class Action Lawsuit Against Datavault ..."
+        },
+        {
+          "nom": "RGTI",
+          "mentions": 3,
+          "exemple_titre": "IonQ ( NYSE : IONQ ) Holds Technology Edge Over Rigetti ( NASDAQ : RGTI ) In Pure - Play Quantum Computing Race"
+        },
+        {
+          "nom": "Review",
+          "mentions": 3,
+          "exemple_titre": "Federal Trade Commission Drops IonQ Merger Review"
+        },
+        {
+          "nom": "Trump",
+          "mentions": 3,
+          "exemple_titre": "Uncle Sam , shareholder : How the Trump administration became part owner of dozens of US companies - Las Vegas Sun News"
+        },
+        {
+          "nom": "International Business Machines",
+          "mentions": 3,
+          "exemple_titre": "26 , 307 Shares in International Business Machines Corporation $IBM Acquired by Rayburn West Financial Services LLC"
+        },
+        {
+          "nom": "Wave Quantum",
+          "mentions": 3,
+          "exemple_titre": "D - Wave Quantum ( NASDAQ : QBTS ) Trading Up 1 . 2 % – Here Why"
+        },
+        {
+          "nom": "Class Action Litigation",
+          "mentions": 3,
+          "exemple_titre": "Pomerantz LLP Pursues Class Action Litigation Against Datavault AI ..."
+        },
+        {
+          "nom": "Million",
+          "mentions": 3,
+          "exemple_titre": "Xanadu Quantum Loan : Canada Invests $140 Million in Quantum Computing Startup Xanadu to Boost Photonic Manufacturing , ETTelecom"
+        },
+        {
+          "nom": "Neutral",
+          "mentions": 3,
+          "exemple_titre": "IMS Unveils Japan First Full - stack Neutral - atom Quantum Computer Shunkai , Now Operational"
+        },
+        {
+          "nom": "Global Times",
+          "mentions": 3,
+          "exemple_titre": "Global Times : China economic performance will remain within a reasonable range in H2 , meet annual goals"
+        },
+        {
+          "nom": "Europe SPAC Summit",
+          "mentions": 3,
+          "exemple_titre": "Europe SPAC Summit 2026 to Convene Leading SPAC Sponsors , Investors , and European Growth Companies in Zurich on December 10"
+        },
+        {
+          "nom": "Convene Leading SPAC",
+          "mentions": 3,
+          "exemple_titre": "Europe SPAC Summit 2026 to Convene Leading SPAC Sponsors , Investors , and European Growth Companies in Zurich on December 10"
+        },
+        {
+          "nom": "Sponsors",
+          "mentions": 3,
+          "exemple_titre": "Europe SPAC Summit 2026 to Convene Leading SPAC Sponsors , Investors , and European Growth Companies in Zurich on December 10"
+        },
+        {
+          "nom": "Investors",
+          "mentions": 3,
+          "exemple_titre": "Europe SPAC Summit 2026 to Convene Leading SPAC Sponsors , Investors , and European Growth Companies in Zurich on December 10"
+        }
+      ],
+      "methode": "Extraction par capitalisation dans les titres, filtrée par une liste de mots vides et un seuil de récurrence. Méthode volontairement simple : elle signale des pistes à vérifier, elle n'identifie pas des sociétés."
     },
     "correlation_positions": {
       "disponible": true,
@@ -168,7 +292,7 @@
     },
     "_meta": {
       "source": "EDGAR XBRL + GDELT + prix",
-      "horodatage_collecte_utc": "2026-09-08T09:39:08.698974+00:00",
+      "horodatage_collecte_utc": "2026-09-08T15:25:42.241472+00:00",
       "date_donnee": "2026-09-08",
       "age_jours": 0
     }
