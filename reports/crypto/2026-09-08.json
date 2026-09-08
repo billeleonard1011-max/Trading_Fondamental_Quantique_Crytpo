@@ -1,0 +1,771 @@
+{
+  "meta": {
+    "date": "2026-09-08",
+    "horodatage_utc": "2026-09-08T09:39:13.288465+00:00",
+    "domaine": "positions crypto",
+    "version_moteur": "1.0",
+    "jetons_suivis": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "DOGE",
+      "ASTER",
+      "KNTQ",
+      "PONS",
+      "JUP",
+      "TAO",
+      "LINK"
+    ],
+    "sources_en_echec": [
+      "funding des perpétuels",
+      "open interest"
+    ],
+    "donnees_partielles": true,
+    "indicateurs_non_alimentes": [
+      {
+        "indicateur": "flux nets des ETF spot BTC",
+        "bloc": "regime.regime_btc.metriques.flux_etf_spot",
+        "motif": "aucun instantané antérieur en cache : la variation n'est calculable qu'à partir de la deuxième exécution. L'instantané du jour vient d'être enregistré."
+      },
+      {
+        "indicateur": "comportement des détenteurs de long terme BTC",
+        "bloc": "regime.regime_btc.metriques.detenteurs_long_terme",
+        "motif": "aucune métrique gratuite d'ancienneté des pièces. Le catalogue Community de Coin Metrics (31 métriques, vérifié le 8 septembre 2026) n'expose ni part de l'offre dormante, ni dépenses des détenteurs anciens : ces grandeurs sont réservées aux offres payantes."
+      },
+      {
+        "indicateur": "flux nets des ETF spot ETH",
+        "bloc": "regime.regime_eth.metriques.flux_etf_spot",
+        "motif": "Farside répond HTTP 403 malgré des en-têtes de navigateur complets ; et aucun repli par actifs nets n'est câblé pour « eth » : les ETF correspondants n'ont pas été vérifiés"
+      },
+      {
+        "indicateur": "comportement des détenteurs de long terme ETH",
+        "bloc": "regime.regime_eth.metriques.detenteurs_long_terme",
+        "motif": "aucune métrique gratuite d'ancienneté des pièces. Le catalogue Community de Coin Metrics (31 métriques, vérifié le 8 septembre 2026) n'expose ni part de l'offre dormante, ni dépenses des détenteurs anciens : ces grandeurs sont réservées aux offres payantes."
+      },
+      {
+        "indicateur": "calendrier de déblocage de certains jetons",
+        "bloc": "positionnement.deblocages_tokens",
+        "motif": "statut inconnu ou non renseigné pour : BTC, ETH, SOL, DOGE, KNTQ, PONS, LINK. Aucune source gratuite ne publie ces calendriers."
+      }
+    ],
+    "avertissement": "2 source(s) indisponible(s) : funding des perpétuels, open interest. Chaque bloc concerné porte son motif.",
+    "nature_du_rapport": "Ce rapport classe un état de marché et décrit un positionnement. Un régime n'est pas une prévision de prix, et aucune de ces informations ne constitue une recommandation."
+  },
+  "regime": {
+    "disponible": true,
+    "motif": "",
+    "actifs": [
+      "btc",
+      "eth"
+    ],
+    "actif_de_calibrage": "btc",
+    "regimes": {
+      "btc": {
+        "disponible": true,
+        "motif": "",
+        "regime": "accumulation",
+        "mvrv": 1.486935906918574,
+        "description": "MVRV à 1.49, entre 1.00 et 2.00 : plus-value latente modérée.",
+        "invalidation": {
+          "variable": "MVRV",
+          "seuil": [
+            1.0,
+            2.0
+          ],
+          "operateur": "sort de l'intervalle",
+          "condition": "Le régime cesse d'être « accumulation » si le MVRV retombe sous 1.00 (retour en capitulation) ou dépasse 2.00 (passage en expansion)."
+        },
+        "nuance": "L'offre de stablecoins varie de +1.3 %, sous le seuil de 2.0 % : elle n'apporte aucune nuance.",
+        "seuils_appliques": {
+          "capitulation_max": 1.0,
+          "accumulation_max": 2.0,
+          "expansion_max": 3.0
+        },
+        "seuils_calibres_sur": "btc",
+        "avertissement_calibrage": "",
+        "actif": "btc",
+        "metriques": {
+          "mvrv": {
+            "disponible": true,
+            "motif": "",
+            "actif": "btc",
+            "valeur": 1.486935906918574,
+            "date": "2026-09-07",
+            "source": "Coin Metrics Community API (CapMVRVCur)",
+            "definition": "Capitalisation de marché rapportée à la capitalisation réalisée. Sous 1, le détenteur moyen est en perte latente."
+          },
+          "prix_realise": {
+            "disponible": true,
+            "motif": "",
+            "actif": "btc",
+            "date": "2026-09-07",
+            "capitalisation_marche_usd": 1587874072538.3408,
+            "capitalisation_realisee_usd": 1067883333202.2659,
+            "offre_en_circulation": 20081110.50766161,
+            "prix_realise_usd": 53178.499903918804,
+            "source": "Coin Metrics Community (déduit de CapMrktCurUSD / CapMVRVCur)",
+            "methode": "Le MVRV étant par définition le rapport de la capitalisation de marché à la capitalisation réalisée, cette dernière s'obtient exactement par division. Aucune estimation n'intervient."
+          },
+          "detenteurs_long_terme": {
+            "disponible": false,
+            "actif": "btc",
+            "motif": "aucune métrique gratuite d'ancienneté des pièces. Le catalogue Community de Coin Metrics (31 métriques, vérifié le 8 septembre 2026) n'expose ni part de l'offre dormante, ni dépenses des détenteurs anciens : ces grandeurs sont réservées aux offres payantes.",
+            "part_offre_dormante": null,
+            "alimente_le_regime": false
+          },
+          "flux_etf_spot": {
+            "methode": "approximation_actifs_nets",
+            "source": "variation des actifs nets (yfinance)",
+            "est_approximation": true,
+            "actif": "btc",
+            "tentative_directe": {
+              "source": "Farside Investors",
+              "motif": "Farside répond HTTP 403 malgré des en-têtes de navigateur complets"
+            },
+            "etf_suivis": [
+              "IBIT",
+              "FBTC",
+              "ARKB",
+              "BITB",
+              "HODL",
+              "BRRR"
+            ],
+            "disponible": false,
+            "motif": "aucun instantané antérieur en cache : la variation n'est calculable qu'à partir de la deuxième exécution. L'instantané du jour vient d'être enregistré.",
+            "flux_net_usd": null,
+            "actif_net_total_usd": 82628595008.0,
+            "n_instantanes_en_cache": 1
+          }
+        },
+        "metriques_indisponibles": [
+          "detenteurs_long_terme",
+          "flux_etf_spot"
+        ]
+      },
+      "eth": {
+        "disponible": true,
+        "motif": "",
+        "regime": "accumulation",
+        "mvrv": 1.1039504070130266,
+        "description": "MVRV à 1.10, entre 1.00 et 2.00 : plus-value latente modérée.",
+        "invalidation": {
+          "variable": "MVRV",
+          "seuil": [
+            1.0,
+            2.0
+          ],
+          "operateur": "sort de l'intervalle",
+          "condition": "Le régime cesse d'être « accumulation » si le MVRV retombe sous 1.00 (retour en capitulation) ou dépasse 2.00 (passage en expansion)."
+        },
+        "nuance": "L'offre de stablecoins varie de +1.3 %, sous le seuil de 2.0 % : elle n'apporte aucune nuance.",
+        "seuils_appliques": {
+          "capitulation_max": 1.0,
+          "accumulation_max": 2.0,
+          "expansion_max": 3.0
+        },
+        "seuils_calibres_sur": "btc",
+        "avertissement_calibrage": "Les bornes de MVRV appliquées ici sont calibrées sur l'histoire de BTC. Les distributions de MVRV diffèrent d'un actif à l'autre : ce classement de ETH est une convention de lecture, pas un seuil mesuré sur son propre historique.",
+        "actif": "eth",
+        "metriques": {
+          "mvrv": {
+            "disponible": true,
+            "motif": "",
+            "actif": "eth",
+            "valeur": 1.1039504070130266,
+            "date": "2026-09-07",
+            "source": "Coin Metrics Community API (CapMVRVCur)",
+            "definition": "Capitalisation de marché rapportée à la capitalisation réalisée. Sous 1, le détenteur moyen est en perte latente."
+          },
+          "prix_realise": {
+            "disponible": true,
+            "motif": "",
+            "actif": "eth",
+            "date": "2026-09-07",
+            "capitalisation_marche_usd": 303643183499.90643,
+            "capitalisation_realisee_usd": 275051471126.74915,
+            "offre_en_circulation": 122024085.0781561,
+            "prix_realise_usd": 2254.0752585899695,
+            "source": "Coin Metrics Community (déduit de CapMrktCurUSD / CapMVRVCur)",
+            "methode": "Le MVRV étant par définition le rapport de la capitalisation de marché à la capitalisation réalisée, cette dernière s'obtient exactement par division. Aucune estimation n'intervient."
+          },
+          "detenteurs_long_terme": {
+            "disponible": false,
+            "actif": "eth",
+            "motif": "aucune métrique gratuite d'ancienneté des pièces. Le catalogue Community de Coin Metrics (31 métriques, vérifié le 8 septembre 2026) n'expose ni part de l'offre dormante, ni dépenses des détenteurs anciens : ces grandeurs sont réservées aux offres payantes.",
+            "part_offre_dormante": null,
+            "alimente_le_regime": false
+          },
+          "flux_etf_spot": {
+            "disponible": false,
+            "actif": "eth",
+            "methode": "aucune",
+            "est_approximation": false,
+            "motif": "Farside répond HTTP 403 malgré des en-têtes de navigateur complets ; et aucun repli par actifs nets n'est câblé pour « eth » : les ETF correspondants n'ont pas été vérifiés",
+            "flux_net_usd": null
+          }
+        },
+        "metriques_indisponibles": [
+          "detenteurs_long_terme",
+          "flux_etf_spot"
+        ]
+      }
+    },
+    "offre_stablecoins": {
+      "disponible": true,
+      "motif": "",
+      "offre_usd": 310014641789.58,
+      "offre_precedente_usd": 305981337598.0,
+      "fenetre_jours": 30,
+      "croissance_pct": 1.3181536570962438,
+      "source": "DefiLlama /stablecoincharts/all",
+      "lecture": "Offre de stablecoins à 310.0 Md$, +1.3 % sur 30 jours."
+    },
+    "avertissement": "Un régime décrit l'état courant du marché et la condition qui le rendrait caduc. Ce n'est ni une prévision de prix, ni une indication de ce qu'il conviendrait de faire.",
+    "regime_btc": {
+      "disponible": true,
+      "motif": "",
+      "regime": "accumulation",
+      "mvrv": 1.486935906918574,
+      "description": "MVRV à 1.49, entre 1.00 et 2.00 : plus-value latente modérée.",
+      "invalidation": {
+        "variable": "MVRV",
+        "seuil": [
+          1.0,
+          2.0
+        ],
+        "operateur": "sort de l'intervalle",
+        "condition": "Le régime cesse d'être « accumulation » si le MVRV retombe sous 1.00 (retour en capitulation) ou dépasse 2.00 (passage en expansion)."
+      },
+      "nuance": "L'offre de stablecoins varie de +1.3 %, sous le seuil de 2.0 % : elle n'apporte aucune nuance.",
+      "seuils_appliques": {
+        "capitulation_max": 1.0,
+        "accumulation_max": 2.0,
+        "expansion_max": 3.0
+      },
+      "seuils_calibres_sur": "btc",
+      "avertissement_calibrage": "",
+      "actif": "btc",
+      "metriques": {
+        "mvrv": {
+          "disponible": true,
+          "motif": "",
+          "actif": "btc",
+          "valeur": 1.486935906918574,
+          "date": "2026-09-07",
+          "source": "Coin Metrics Community API (CapMVRVCur)",
+          "definition": "Capitalisation de marché rapportée à la capitalisation réalisée. Sous 1, le détenteur moyen est en perte latente."
+        },
+        "prix_realise": {
+          "disponible": true,
+          "motif": "",
+          "actif": "btc",
+          "date": "2026-09-07",
+          "capitalisation_marche_usd": 1587874072538.3408,
+          "capitalisation_realisee_usd": 1067883333202.2659,
+          "offre_en_circulation": 20081110.50766161,
+          "prix_realise_usd": 53178.499903918804,
+          "source": "Coin Metrics Community (déduit de CapMrktCurUSD / CapMVRVCur)",
+          "methode": "Le MVRV étant par définition le rapport de la capitalisation de marché à la capitalisation réalisée, cette dernière s'obtient exactement par division. Aucune estimation n'intervient."
+        },
+        "detenteurs_long_terme": {
+          "disponible": false,
+          "actif": "btc",
+          "motif": "aucune métrique gratuite d'ancienneté des pièces. Le catalogue Community de Coin Metrics (31 métriques, vérifié le 8 septembre 2026) n'expose ni part de l'offre dormante, ni dépenses des détenteurs anciens : ces grandeurs sont réservées aux offres payantes.",
+          "part_offre_dormante": null,
+          "alimente_le_regime": false
+        },
+        "flux_etf_spot": {
+          "methode": "approximation_actifs_nets",
+          "source": "variation des actifs nets (yfinance)",
+          "est_approximation": true,
+          "actif": "btc",
+          "tentative_directe": {
+            "source": "Farside Investors",
+            "motif": "Farside répond HTTP 403 malgré des en-têtes de navigateur complets"
+          },
+          "etf_suivis": [
+            "IBIT",
+            "FBTC",
+            "ARKB",
+            "BITB",
+            "HODL",
+            "BRRR"
+          ],
+          "disponible": false,
+          "motif": "aucun instantané antérieur en cache : la variation n'est calculable qu'à partir de la deuxième exécution. L'instantané du jour vient d'être enregistré.",
+          "flux_net_usd": null,
+          "actif_net_total_usd": 82628595008.0,
+          "n_instantanes_en_cache": 1
+        }
+      },
+      "metriques_indisponibles": [
+        "detenteurs_long_terme",
+        "flux_etf_spot"
+      ]
+    },
+    "regime_eth": {
+      "disponible": true,
+      "motif": "",
+      "regime": "accumulation",
+      "mvrv": 1.1039504070130266,
+      "description": "MVRV à 1.10, entre 1.00 et 2.00 : plus-value latente modérée.",
+      "invalidation": {
+        "variable": "MVRV",
+        "seuil": [
+          1.0,
+          2.0
+        ],
+        "operateur": "sort de l'intervalle",
+        "condition": "Le régime cesse d'être « accumulation » si le MVRV retombe sous 1.00 (retour en capitulation) ou dépasse 2.00 (passage en expansion)."
+      },
+      "nuance": "L'offre de stablecoins varie de +1.3 %, sous le seuil de 2.0 % : elle n'apporte aucune nuance.",
+      "seuils_appliques": {
+        "capitulation_max": 1.0,
+        "accumulation_max": 2.0,
+        "expansion_max": 3.0
+      },
+      "seuils_calibres_sur": "btc",
+      "avertissement_calibrage": "Les bornes de MVRV appliquées ici sont calibrées sur l'histoire de BTC. Les distributions de MVRV diffèrent d'un actif à l'autre : ce classement de ETH est une convention de lecture, pas un seuil mesuré sur son propre historique.",
+      "actif": "eth",
+      "metriques": {
+        "mvrv": {
+          "disponible": true,
+          "motif": "",
+          "actif": "eth",
+          "valeur": 1.1039504070130266,
+          "date": "2026-09-07",
+          "source": "Coin Metrics Community API (CapMVRVCur)",
+          "definition": "Capitalisation de marché rapportée à la capitalisation réalisée. Sous 1, le détenteur moyen est en perte latente."
+        },
+        "prix_realise": {
+          "disponible": true,
+          "motif": "",
+          "actif": "eth",
+          "date": "2026-09-07",
+          "capitalisation_marche_usd": 303643183499.90643,
+          "capitalisation_realisee_usd": 275051471126.74915,
+          "offre_en_circulation": 122024085.0781561,
+          "prix_realise_usd": 2254.0752585899695,
+          "source": "Coin Metrics Community (déduit de CapMrktCurUSD / CapMVRVCur)",
+          "methode": "Le MVRV étant par définition le rapport de la capitalisation de marché à la capitalisation réalisée, cette dernière s'obtient exactement par division. Aucune estimation n'intervient."
+        },
+        "detenteurs_long_terme": {
+          "disponible": false,
+          "actif": "eth",
+          "motif": "aucune métrique gratuite d'ancienneté des pièces. Le catalogue Community de Coin Metrics (31 métriques, vérifié le 8 septembre 2026) n'expose ni part de l'offre dormante, ni dépenses des détenteurs anciens : ces grandeurs sont réservées aux offres payantes.",
+          "part_offre_dormante": null,
+          "alimente_le_regime": false
+        },
+        "flux_etf_spot": {
+          "disponible": false,
+          "actif": "eth",
+          "methode": "aucune",
+          "est_approximation": false,
+          "motif": "Farside répond HTTP 403 malgré des en-têtes de navigateur complets ; et aucun repli par actifs nets n'est câblé pour « eth » : les ETF correspondants n'ont pas été vérifiés",
+          "flux_net_usd": null
+        }
+      },
+      "metriques_indisponibles": [
+        "detenteurs_long_terme",
+        "flux_etf_spot"
+      ]
+    },
+    "_meta": {
+      "source": "Coin Metrics (CapMVRVCur) + DefiLlama (offre de stablecoins)",
+      "horodatage_collecte_utc": "2026-09-08T09:39:11.252287+00:00",
+      "date_donnee": "2026-09-08",
+      "age_jours": 0
+    }
+  },
+  "rotation": {
+    "disponible": true,
+    "horodatage_utc": "2026-09-08T09:39:13.288319+00:00",
+    "dominance_btc": {
+      "disponible": true,
+      "motif": "",
+      "valeur_pct": 58.87915193059179,
+      "dominance_eth_pct": 11.341140911024194,
+      "variation_30j_points": null,
+      "tendance": "",
+      "percentile": null,
+      "fenetre_demandee_jours": 730,
+      "fenetre_effective_jours": 1,
+      "motif_fenetre": "1 observation(s) en cache : l'API ne publie pas d'historique de dominance, la profondeur se constitue jour après jour et le percentile apparaîtra à partir de 30 observations.",
+      "source": "CoinGecko /global + cache local",
+      "lecture": "Dominance du bitcoin à 58.9 %."
+    },
+    "ratio_eth_btc": {
+      "fiabilite_historique": "reduite_depuis_2024",
+      "explication_fiabilite": "La relation entre ce ratio et la rotation vers les alts s'est affaiblie depuis 2024-2025. Une partie de la valeur autrefois captée par la couche de base d'Ethereum se loge désormais dans ses Layer 2, dont les jetons ne sont pas l'ether ; et les flux des ETF spot ont divergé entre bitcoin et ether, ce qui déplace le ratio pour des raisons de collecte institutionnelle sans rapport avec l'appétit pour le risque. Un ratio en hausse ne signale donc plus une rotation avec la fiabilité qu'il avait avant 2024.",
+      "disponible": true,
+      "motif": "",
+      "valeur": 0.031685722945373224,
+      "variation_30j_pct": 7.387402929125897,
+      "tendance": "en hausse",
+      "percentile": 58.63013698630137,
+      "fenetre_demandee_jours": 730,
+      "fenetre_effective_jours": 365,
+      "motif_fenetre": "percentile calculé sur 365 jours au lieu des 730 demandés : l'API gratuite de CoinGecko plafonne son historique à 365 jours",
+      "source": "CoinGecko (prix ETH et BTC)",
+      "lecture": "Ratio ETH/BTC à 0.03169, +7.4 % sur 30 jours, 59e percentile sur 365 jours."
+    },
+    "largeur_marche": {
+      "disponible": true,
+      "motif": "",
+      "part_surperformant_btc_pct": 57.99999999999999,
+      "n_actifs_panier": 50,
+      "n_surperformants": 29,
+      "performance_btc_pct": 21.0,
+      "horizon_demande_jours": 90,
+      "horizon_effectif_jours": 30,
+      "motif_horizon": "horizon ramené à 30 jours : l'API gratuite de CoinGecko ne renseigne pas la variation à 90 jours. Tous les actifs restent comparés sur le même horizon.",
+      "seuil_alts_pct": 75.0,
+      "seuil_btc_pct": 25.0,
+      "exclusions": "stablecoins, jetons emballés ou mis en jalonnement, bitcoin lui-même",
+      "source": "CoinGecko /coins/markets, calcul interne",
+      "lecture": "29 des 50 plus grandes capitalisations (58 %) font mieux que le bitcoin sur 30 jours, lequel varie de +21.0 %."
+    },
+    "indice_externe_recoupement": {
+      "disponible": true,
+      "motif": "",
+      "valeur": 43,
+      "qualification": "altcoin",
+      "source": "https://www.blockchaincenter.net/altcoin-season-index/",
+      "methode_annoncee": "Part des 50 premières capitalisations ayant fait mieux que le bitcoin sur 90 jours ; au-delà de 75, la source parle de saison des altcoins.",
+      "fragilite": "Valeur extraite d'une page HTML, sans API. Un changement de mise en page la rendrait indisponible : elle sert de recoupement, pas de source principale.",
+      "ecart_avec_calcul_interne_points": 14.999999999999993,
+      "commentaire_ecart": "Le calcul interne donne 58 et la source publique 43, soit +15 point(s) d'écart. Les deux ne mesurent pas exactement la même chose : l'horizon et le panier diffèrent, et l'écart est attendu plutôt qu'anormal."
+    },
+    "synthese": {
+      "etat": "indetermine",
+      "justification": "1 mesure(s) se prononce(nt) sur trois : il en faut au moins deux concordantes pour conclure.",
+      "n_mesures_exprimees": 1,
+      "n_mesures_total": 3,
+      "contributions": [
+        {
+          "mesure": "dominance_btc",
+          "vote": null,
+          "abstention": true,
+          "valeur": 58.87915193059179,
+          "variation_30j_points": null,
+          "motif_abstention": "1 observation(s) en cache : l'API ne publie pas d'historique de dominance, la profondeur se constitue jour après jour et le percentile apparaîtra à partir de 30 observations."
+        },
+        {
+          "mesure": "ratio_eth_btc",
+          "vote": "rotation_alts",
+          "abstention": false,
+          "valeur": 0.031685722945373224,
+          "variation_30j_pct": 7.387402929125897,
+          "fiabilite_historique": "reduite_depuis_2024",
+          "poids_reduit": true,
+          "motif_abstention": ""
+        },
+        {
+          "mesure": "largeur_marche",
+          "vote": null,
+          "abstention": true,
+          "valeur": 57.99999999999999,
+          "horizon_effectif_jours": 30,
+          "motif_abstention": "part comprise entre 25 % et 75 % : aucun des deux régimes n'est net"
+        }
+      ],
+      "invalidation": {
+        "variable": "concordance des trois mesures",
+        "seuil": 2,
+        "condition": "L'état cesse d'être « indeterminé » dès qu'au moins deux des trois mesures se prononcent dans le même sens."
+      }
+    },
+    "avertissement": "Cet état décrit où va l'argent, pas où il devrait aller. Aucune de ces mesures ne constitue une indication d'achat ou de vente.",
+    "_meta": {
+      "source": "CoinGecko (dominance, prix, capitalisations) + blockchaincenter",
+      "horodatage_collecte_utc": "2026-09-08T09:39:13.288349+00:00",
+      "date_donnee": "2026-09-08",
+      "age_jours": 0
+    }
+  },
+  "positionnement": {
+    "disponible": true,
+    "symbole_perpetuel": "BTCUSDT",
+    "funding": {
+      "disponible": false,
+      "motif": "0 versement(s) de funding, 30 au minimum requis pour un percentile interprétable",
+      "source": "aucune"
+    },
+    "open_interest": {
+      "disponible": false,
+      "motif": "open interest Binance injoignable ou illisible",
+      "valeur_contrats": null,
+      "source": "binance"
+    },
+    "positions": {
+      "disponible": true,
+      "motif": "",
+      "n_positions": 10,
+      "n_disponibles": 10,
+      "jetons_absents": [],
+      "positions": [
+        {
+          "symbole": "BTC",
+          "coingecko_id": "bitcoin",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 78608.0,
+          "variation_24h_pct": -0.935,
+          "variation_7j_pct": -0.3,
+          "variation_30j_pct": 21.0,
+          "capitalisation_usd": 1578338082566.0
+        },
+        {
+          "symbole": "ETH",
+          "coingecko_id": "ethereum",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 2491.38,
+          "variation_24h_pct": 0.02687,
+          "variation_7j_pct": 0.2,
+          "variation_30j_pct": 29.1,
+          "capitalisation_usd": 303970984000.0
+        },
+        {
+          "symbole": "SOL",
+          "coingecko_id": "solana",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 103.49,
+          "variation_24h_pct": -1.27273,
+          "variation_7j_pct": -0.1,
+          "variation_30j_pct": 35.0,
+          "capitalisation_usd": 60667471108.0
+        },
+        {
+          "symbole": "DOGE",
+          "coingecko_id": "dogecoin",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 0.089904,
+          "variation_24h_pct": 0.38811,
+          "variation_7j_pct": 7.1,
+          "variation_30j_pct": 27.4,
+          "capitalisation_usd": 14010257367.0
+        },
+        {
+          "symbole": "ASTER",
+          "coingecko_id": "aster-2",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 0.769656,
+          "variation_24h_pct": -2.73782,
+          "variation_7j_pct": 10.0,
+          "variation_30j_pct": 27.9,
+          "capitalisation_usd": 2081749607.0,
+          "note": "DEX de perpétuels (asterdex.com). Vérifié : ne pas confondre avec astar/ASTR, aster-inu ni astherus-*."
+        },
+        {
+          "symbole": "KNTQ",
+          "coingecko_id": "kinetiq",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 0.21578,
+          "variation_24h_pct": -8.40846,
+          "variation_7j_pct": 24.2,
+          "variation_30j_pct": 114.6,
+          "capitalisation_usd": 60521109.0,
+          "note": "Staking liquide sur Hyperliquid (kinetiq.xyz). Distinct de kinetic-staked-hype (kHYPE)."
+        },
+        {
+          "symbole": "PONS",
+          "coingecko_id": "pons",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 0.705154,
+          "variation_24h_pct": -15.23582,
+          "variation_7j_pct": 53.1,
+          "variation_30j_pct": 2282.8,
+          "capitalisation_usd": 502400489.0,
+          "note": "Token de launchpad memecoin sur Robinhood Chain, lancé mi-juillet 2026. Extrêmement jeune et volatil (variations de plusieurs centaines de % en quelques semaines) : les seuils d'alerte et les hypothèses de régime calibrés sur BTC/ETH n'ont aucun sens ici. Traité à part par modules/crypto/positioning.py.",
+          "jeune_et_volatil": true,
+          "avertissement": "Jeton récent et très volatil : les repères de régime et les seuils calibrés sur BTC ou ETH ne s'appliquent pas ici."
+        },
+        {
+          "symbole": "JUP",
+          "coingecko_id": "jupiter-exchange-solana",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 0.245751,
+          "variation_24h_pct": -3.87063,
+          "variation_7j_pct": 11.7,
+          "variation_30j_pct": 31.7,
+          "capitalisation_usd": 816348939.0,
+          "note": "Jupiter (Solana). Distinct de « jupiter » qui désigne Jupiter Project."
+        },
+        {
+          "symbole": "TAO",
+          "coingecko_id": "bittensor",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 254.6,
+          "variation_24h_pct": -5.53653,
+          "variation_7j_pct": 10.7,
+          "variation_30j_pct": 22.8,
+          "capitalisation_usd": 2444348956.0
+        },
+        {
+          "symbole": "LINK",
+          "coingecko_id": "chainlink",
+          "disponible": true,
+          "motif": "",
+          "prix_usd": 12.72,
+          "variation_24h_pct": -4.98186,
+          "variation_7j_pct": 10.3,
+          "variation_30j_pct": 51.8,
+          "capitalisation_usd": 9517203382.0
+        }
+      ],
+      "source": "CoinGecko"
+    },
+    "deblocages_tokens": {
+      "disponible": true,
+      "motif": "",
+      "n_jetons": 10,
+      "n_statuts_connus": 3,
+      "n_echeances_a_venir": 1,
+      "jetons": [
+        {
+          "symbole": "BTC",
+          "statut": "absent",
+          "signification_statut": "jeton non renseigné dans la configuration",
+          "disponible": false,
+          "source": "",
+          "verifie_le": "",
+          "description": "",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": "BTC n'est pas renseigné dans deblocages_tokens : aucune vérification n'a été faite pour ce jeton"
+        },
+        {
+          "symbole": "ETH",
+          "statut": "absent",
+          "signification_statut": "jeton non renseigné dans la configuration",
+          "disponible": false,
+          "source": "",
+          "verifie_le": "",
+          "description": "",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": "ETH n'est pas renseigné dans deblocages_tokens : aucune vérification n'a été faite pour ce jeton"
+        },
+        {
+          "symbole": "SOL",
+          "statut": "absent",
+          "signification_statut": "jeton non renseigné dans la configuration",
+          "disponible": false,
+          "source": "",
+          "verifie_le": "",
+          "description": "",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": "SOL n'est pas renseigné dans deblocages_tokens : aucune vérification n'a été faite pour ce jeton"
+        },
+        {
+          "symbole": "DOGE",
+          "statut": "absent",
+          "signification_statut": "jeton non renseigné dans la configuration",
+          "disponible": false,
+          "source": "",
+          "verifie_le": "",
+          "description": "",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": "DOGE n'est pas renseigné dans deblocages_tokens : aucune vérification n'a été faite pour ce jeton"
+        },
+        {
+          "symbole": "ASTER",
+          "statut": "actif",
+          "signification_statut": "calendrier connu, échéance à venir",
+          "disponible": true,
+          "source": "https://docs.asterdex.com/usdaster-token/tokenomics",
+          "verifie_le": "2026-09-08",
+          "description": "",
+          "prochain_deblocage": {
+            "date": "2027-09-17",
+            "jetons": 400000000,
+            "part_offre_pct": 5.0,
+            "description": "400 millions de jetons, soit 5 % de l'offre. Le déblocage devait commencer le 17 septembre 2026 au rythme de 10 millions par mois ; le 1er septembre 2026, le projet l'a reporté d'un an, au 17 septembre 2027.",
+            "motif_si_change": "Échéance reportée une fois déjà. Si la documentation du projet publie un nouveau calendrier, corriger cette entrée à la main : aucune collecte automatique ne la mettra à jour.",
+            "passe": false
+          },
+          "jours_avant_deblocage": 374,
+          "motif": ""
+        },
+        {
+          "symbole": "KNTQ",
+          "statut": "inconnu",
+          "signification_statut": "aucune source identifiée : ignorance, pas absence de déblocage",
+          "disponible": false,
+          "source": "",
+          "verifie_le": "2026-09-08",
+          "description": "Aucune source de suivi de vesting identifiée. Probablement un lancement sans allocation verrouillée, mais non confirmé : l'absence d'échéance connue ne vaut pas absence de déblocage.",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": "aucune source de suivi de vesting identifiée, probablement un lancement sans allocation verrouillée mais non confirmé"
+        },
+        {
+          "symbole": "PONS",
+          "statut": "inconnu",
+          "signification_statut": "aucune source identifiée : ignorance, pas absence de déblocage",
+          "disponible": false,
+          "source": "",
+          "verifie_le": "2026-09-08",
+          "description": "Aucune source de suivi de vesting identifiée. Probablement un lancement sans allocation verrouillée, mais non confirmé.",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": "aucune source de suivi de vesting identifiée, probablement un lancement sans allocation verrouillée mais non confirmé"
+        },
+        {
+          "symbole": "JUP",
+          "statut": "vesting_conclu",
+          "signification_statut": "calendrier arrivé à son terme, aucune échéance à venir",
+          "disponible": true,
+          "source": "vote de gouvernance « Jupiter Goes Green » (2026)",
+          "verifie_le": "2026-09-08",
+          "description": "Le calendrier de vesting s'est en grande partie achevé à la suite du vote de gouvernance. Il n'y a pas d'échéance à venir à surveiller, ce qui est une information en soi et non une absence de donnée.",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": ""
+        },
+        {
+          "symbole": "TAO",
+          "statut": "non_applicable",
+          "signification_statut": "le jeton n'a pas de mécanisme de vesting",
+          "disponible": true,
+          "source": "conception du protocole : émission continue avec halving",
+          "verifie_le": "2026-09-08",
+          "description": "Pas de mécanisme de vesting applicable : l'émission est continue, par halving à la manière du bitcoin, sans allocation verrouillée pour des investisseurs. Ce n'est pas un échec de collecte, c'est une propriété du jeton.",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": ""
+        },
+        {
+          "symbole": "LINK",
+          "statut": "absent",
+          "signification_statut": "jeton non renseigné dans la configuration",
+          "disponible": false,
+          "source": "",
+          "verifie_le": "",
+          "description": "",
+          "prochain_deblocage": null,
+          "jours_avant_deblocage": null,
+          "motif": "LINK n'est pas renseigné dans deblocages_tokens : aucune vérification n'a été faite pour ce jeton"
+        }
+      ],
+      "source_calendrier": "config/universe.yaml, saisi à la main",
+      "limite_connue": "Aucune source gratuite ne publie de calendrier de déblocage : DefiLlama réserve /emissions à son offre payante (402) et CryptoRank exige une clé (401). Les échéances ci-dessus sont saisies à la main et ne se mettent pas à jour seules. Un jeton au statut « inconnu » peut parfaitement subir un déblocage sans que ce rapport l'ait annoncé."
+    },
+    "_meta": {
+      "source": "Binance / Bybit (dérivés) + CoinGecko (positions)",
+      "horodatage_collecte_utc": "2026-09-08T09:39:11.688046+00:00",
+      "date_donnee": "2026-09-08",
+      "age_jours": 0
+    }
+  }
+}

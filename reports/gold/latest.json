@@ -1,0 +1,872 @@
+{
+  "meta": {
+    "date": "2026-09-08",
+    "horodatage_utc": "2026-09-08T09:35:51.604623+00:00",
+    "instrument": "XAUUSD",
+    "version_moteur": "2.1",
+    "sources_en_echec": [],
+    "donnees_partielles": false,
+    "alertes": [],
+    "avertissement": ""
+  },
+  "prix": {
+    "disponible": true,
+    "motif": "",
+    "prix": 4429.7998046875,
+    "unite_prix": "USD par once",
+    "variation_5j_pct": -1.0785889532489379,
+    "variation_20j_pct": 2.052655225330202,
+    "_meta": {
+      "source": "GC=F (yfinance)",
+      "horodatage_collecte_utc": "2026-09-08T09:30:33.716447+00:00",
+      "date_donnee": "2026-09-04",
+      "age_jours": 4
+    }
+  },
+  "juste_valeur": {
+    "date": "2026-09-04",
+    "disponible": true,
+    "motif": "",
+    "prix_observe": 4429.7998046875,
+    "prix_theorique": 3618.757131386857,
+    "ecart_usd": 811.042673300643,
+    "ecart_pct": 22.41218860105757,
+    "z_score": 0.7355785243134981,
+    "percentile_historique": 85.85192697768763,
+    "r2": 0.18670444287344,
+    "fiable": false,
+    "seuil_r2": 0.5,
+    "n_observations": 756,
+    "coefficients": {
+      "constante": 36.81544700346803,
+      "taux_reel": 0.04397439294383698,
+      "dollar": -6.013808359434318
+    },
+    "contributions": {
+      "taux_reel": {
+        "coefficient": 0.04397439294383698,
+        "valeur_courante": 2.42,
+        "contribution_log": 0.018525667207252162,
+        "effet_pct": 1.8698331975230076,
+        "effet_usd": 56.85849505685709
+      },
+      "dollar": {
+        "coefficient": -6.013808359434318,
+        "valeur_courante": 118.7479,
+        "contribution_log": 0.1554736481499323,
+        "effet_pct": 16.821115113653164,
+        "effet_usd": 511.5019306574826
+      }
+    },
+    "facteur_dominant": "dollar",
+    "lecture": "Le modèle n'explique plus que 19% des mouvements de l'or (seuil 50%) : l'écart de +22.4 % existe mais ne peut pas être interprété comme une prime de risque.",
+    "unite_prix": "USD par once",
+    "_meta": {
+      "source": "GC=F (yfinance) + FRED DFII10/DTWEXBGS",
+      "horodatage_collecte_utc": "2026-09-08T09:30:36.938938+00:00",
+      "date_donnee": "2026-09-04",
+      "age_jours": 4
+    }
+  },
+  "positionnement_cot": {
+    "disponible": true,
+    "motif": "",
+    "source": "api_socrata",
+    "date_observation": "2026-09-01",
+    "date_publication_estimee": "2026-09-04",
+    "age_jours": 7,
+    "net_managed_money": 136771,
+    "net_producers": -31289,
+    "open_interest": 415196,
+    "percentile_managed_money": 73.46153846153847,
+    "n_semaines_percentile": 260,
+    "variation_hebdo_managed_money": -7976,
+    "lecture": "Managed money net à +136,771 contrats, soit le 73e percentile sur 260 semaines : positionnement acheteur nourri, sans être extrême. Donnée vieille de 7 jour(s).",
+    "_meta": {
+      "source": "api_socrata",
+      "horodatage_collecte_utc": "2026-09-08T09:30:37.612599+00:00",
+      "date_donnee": "2026-09-01",
+      "age_jours": 7
+    }
+  },
+  "flux": {
+    "_meta": {
+      "source": "yfinance + SPDR (tentative)",
+      "horodatage_collecte_utc": "2026-09-08T09:30:39.414113+00:00",
+      "date_donnee": null,
+      "age_jours": null
+    },
+    "encours_gld": {
+      "nom": "encours_gld",
+      "disponible": true,
+      "motif": "",
+      "valeur": 152861196288.0,
+      "unite": "USD",
+      "date_valeur": "2026-09-08",
+      "percentile": null,
+      "variation_pct": null,
+      "tendance": "",
+      "source": "yfinance (repli)",
+      "est_approximation": true,
+      "limite": "Niveau du jour seulement, sans historique : la variation d'encours — la seule grandeur qui porterait un signal — n'est pas calculable. Source officielle écartée : SPDR ne publie pas de série de tonnage exploitable par programme (GLD_US_archive_EN.csv → HTTP 200, application/pdf ; holdings-daily-us-en-gld.xlsx → HTTP 404, text/html). L'archive redirige vers un PDF de liste de lingots.",
+      "details": {
+        "parts_en_circulation": 260300000.0,
+        "tonnage_estime": 1073.3023820809663,
+        "tonnage_est_reconstitue": true,
+        "alimente_le_biais": false
+      }
+    },
+    "ratio_or_argent": {
+      "nom": "ratio_or_argent",
+      "disponible": true,
+      "motif": "",
+      "valeur": 67.07041956762411,
+      "unite": "onces d'argent par once d'or",
+      "date_valeur": "2026-09-04",
+      "percentile": 10.873015873015873,
+      "variation_pct": -2.1424270266883094,
+      "tendance": "en baisse",
+      "source": "GC=F / SI=F (yfinance)",
+      "est_approximation": false,
+      "limite": "",
+      "details": {
+        "n_seances": 4193,
+        "horizon_tendance_seances": 20,
+        "interpretation": "un ratio qui monte traduit une hausse défensive, portée par l'or seul"
+      }
+    },
+    "ratio_gdx_or": {
+      "nom": "ratio_gdx_or",
+      "disponible": true,
+      "motif": "",
+      "valeur": 0.2440199739831206,
+      "unite": "sans dimension",
+      "date_valeur": "2026-09-04",
+      "percentile": 99.76190476190476,
+      "variation_pct": 8.170697509346493,
+      "tendance": "en hausse",
+      "source": "GDX / GLD (yfinance)",
+      "est_approximation": false,
+      "limite": "",
+      "details": {
+        "n_seances": 4194,
+        "horizon_tendance_seances": 20,
+        "interpretation": "les minières sont un pari à effet de levier sur l'or : un ratio qui monte confirme la hausse du métal, un ratio qui baisse la dément"
+      }
+    }
+  },
+  "calendrier": {
+    "disponible": true,
+    "horodatage_calcul_utc": "2026-09-08T09:30:39.414259+00:00",
+    "fenetre_silence_minutes": 120,
+    "en_fenetre_de_silence": false,
+    "commentaire": "Prochaine échéance : Indice des prix à la consommation (CPI) dans 74 heure(s).",
+    "avertissement_heures": "FRED ne publie que la date, jamais l'heure. Les heures affichées sont les heures officielles d'usage (fuseau de New York) : elles sont conventionnelles, pas garanties.",
+    "horizon_couvert_jusquau": "2027-12-08",
+    "n_reunions_a_venir_connues": 11,
+    "alerte_renouvellement": false,
+    "motif": "",
+    "fomc": {
+      "source": "federalreserve.gov",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "collecte_reussie": true,
+      "derniere_collecte_reussie": "2026-09-08",
+      "jours_depuis_collecte": 0,
+      "n_reunions_connues": 56,
+      "n_reunions_a_venir_connues": 11,
+      "horizon_couvert_jusquau": "2027-12-08",
+      "seuil_alerte": 2,
+      "alerte_renouvellement": false,
+      "motif": ""
+    },
+    "echeances": [
+      {
+        "nom": "Indice des prix à la consommation (CPI)",
+        "horodatage_utc": "2026-09-11T12:30:00+00:00",
+        "date": "2026-09-11",
+        "heure_locale_new_york": "08:30",
+        "minutes_restantes": 4499,
+        "jours_restants": 3.12,
+        "heure_conventionnelle": true,
+        "impact_or": "fort",
+        "source": "FRED release 10"
+      },
+      {
+        "nom": "Décision de politique monétaire (FOMC) avec projections économiques",
+        "horodatage_utc": "2026-09-16T18:00:00+00:00",
+        "date": "2026-09-16",
+        "heure_locale_new_york": "14:00",
+        "minutes_restantes": 12029,
+        "jours_restants": 8.35,
+        "heure_conventionnelle": true,
+        "impact_or": "fort",
+        "source": "calendrier officiel de la Réserve fédérale"
+      },
+      {
+        "nom": "Revenus et dépenses des ménages (PCE)",
+        "horodatage_utc": "2026-09-30T12:30:00+00:00",
+        "date": "2026-09-30",
+        "heure_locale_new_york": "08:30",
+        "minutes_restantes": 31859,
+        "jours_restants": 22.12,
+        "heure_conventionnelle": true,
+        "impact_or": "fort",
+        "source": "FRED release 54"
+      },
+      {
+        "nom": "Rapport sur l'emploi (NFP)",
+        "horodatage_utc": "2026-10-02T12:30:00+00:00",
+        "date": "2026-10-02",
+        "heure_locale_new_york": "08:30",
+        "minutes_restantes": 34739,
+        "jours_restants": 24.12,
+        "heure_conventionnelle": true,
+        "impact_or": "fort",
+        "source": "FRED release 50"
+      },
+      {
+        "nom": "Indice des prix à la consommation (CPI)",
+        "horodatage_utc": "2026-10-14T12:30:00+00:00",
+        "date": "2026-10-14",
+        "heure_locale_new_york": "08:30",
+        "minutes_restantes": 52019,
+        "jours_restants": 36.12,
+        "heure_conventionnelle": true,
+        "impact_or": "fort",
+        "source": "FRED release 10"
+      },
+      {
+        "nom": "Décision de politique monétaire (FOMC)",
+        "horodatage_utc": "2026-10-28T18:00:00+00:00",
+        "date": "2026-10-28",
+        "heure_locale_new_york": "14:00",
+        "minutes_restantes": 72509,
+        "jours_restants": 50.35,
+        "heure_conventionnelle": true,
+        "impact_or": "fort",
+        "source": "calendrier officiel de la Réserve fédérale"
+      }
+    ],
+    "_meta": {
+      "source": "FRED releases + FOMC (federalreserve.gov)",
+      "horodatage_collecte_utc": "2026-09-08T09:30:40.762425+00:00",
+      "date_donnee": "2026-09-08",
+      "age_jours": 0
+    }
+  },
+  "geopolitique": {
+    "disponible": true,
+    "motif": "",
+    "horodatage_utc": "2026-09-08T09:35:51.559506+00:00",
+    "source": "GDELT (volume de couverture) + FRED (maillons macro)",
+    "n_themes_mesures": 2,
+    "n_themes_configures": 4,
+    "intensite_max": 0.32727272727272727,
+    "theme_dominant": "Tensions sur les réserves de change",
+    "themes": [
+      {
+        "nom": "Tensions énergétiques",
+        "disponible": false,
+        "motif": "GDELT n'a pas répondu.",
+        "intensite_ratio": null,
+        "volume_24h": null,
+        "alerte": false,
+        "trajectoire": "",
+        "ratio_trajectoire": null,
+        "anciennete_jours": null
+      },
+      {
+        "nom": "Conflits majeurs",
+        "disponible": false,
+        "motif": "GDELT n'a pas répondu.",
+        "intensite_ratio": null,
+        "volume_24h": null,
+        "alerte": false,
+        "trajectoire": "",
+        "ratio_trajectoire": null,
+        "anciennete_jours": null
+      },
+      {
+        "nom": "Sanctions",
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 0.06744186046511629,
+        "volume_24h": 17.0,
+        "alerte": false,
+        "trajectoire": "",
+        "ratio_trajectoire": null,
+        "anciennete_jours": null
+      },
+      {
+        "nom": "Tensions sur les réserves de change",
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 0.32727272727272727,
+        "volume_24h": 18.0,
+        "alerte": false,
+        "trajectoire": "en essoufflement",
+        "ratio_trajectoire": 0.38144329896907214,
+        "anciennete_jours": 0
+      }
+    ],
+    "chaine_de_transmission": {
+      "horizon_seances": 5,
+      "maillons": {
+        "1_evenement": {
+          "libelle": "Intensité de couverture du thème le plus actif",
+          "disponible": true,
+          "motif": "",
+          "valeur": 0.32727272727272727,
+          "unite_variation": "× la normale",
+          "variation": null
+        },
+        "2_petrole": {
+          "libelle": "Pétrole brut WTI (DCOILWTICO)",
+          "disponible": true,
+          "motif": "",
+          "valeur": 91.48,
+          "valeur_precedente": 84.57,
+          "variation": 8.170746127468377,
+          "unite_variation": "%",
+          "date": "2026-09-04"
+        },
+        "3_inflation_anticipee": {
+          "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
+          "disponible": true,
+          "motif": "",
+          "valeur": 2.35,
+          "valeur_precedente": 2.31,
+          "variation": 4.0000000000000036,
+          "unite_variation": "points de base",
+          "date": "2026-09-04"
+        },
+        "4_taux_reels": {
+          "libelle": "Taux réel 10 ans (DFII10)",
+          "disponible": true,
+          "motif": "",
+          "valeur": 2.42,
+          "valeur_precedente": 2.42,
+          "variation": 0.0,
+          "unite_variation": "points de base",
+          "date": "2026-09-04"
+        },
+        "5_or": {
+          "libelle": "Or au comptant",
+          "disponible": true,
+          "motif": "",
+          "valeur": 4429.7998046875,
+          "valeur_precedente": 4478.10009765625,
+          "variation": -1.0785889532489379,
+          "unite_variation": "%",
+          "date": "2026-09-04"
+        }
+      },
+      "n_maillons_mesures": 4,
+      "n_maillons_conformes": 2,
+      "chaine_rompue": true,
+      "commentaire": "Chaîne rompue : 2/4 maillon(s) conformes, rupture sur 4_taux_reels, 5_or. Le marché ne relaie pas l'événement par les canaux habituels."
+    },
+    "deja_dans_les_prix": {
+      "valeur": null,
+      "disponible": false,
+      "motif": "z-score de juste valeur indisponible ou non fiable",
+      "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
+    },
+    "_meta": {
+      "source": "GDELT (volume de couverture) + FRED (maillons macro)",
+      "horodatage_collecte_utc": "2026-09-08T09:35:51.560635+00:00",
+      "date_donnee": "2026-09-08",
+      "age_jours": 0
+    }
+  },
+  "analogues": {
+    "disponible": true,
+    "motif": "",
+    "n_cas": 15,
+    "variables_utilisees": [
+      "z_fair_value",
+      "percentile_cot",
+      "regime_taux_reels"
+    ],
+    "separation_min_jours": 21,
+    "min_cas": 8,
+    "periode_base": {
+      "debut": "2010-12-29",
+      "fin": "2026-08-07",
+      "n_configurations": 3924
+    },
+    "precedents": [
+      {
+        "date": "2026-08-04",
+        "distance": 0.0876,
+        "etat": {
+          "z_fair_value": 0.7946,
+          "percentile_cot": 71.1538,
+          "regime_taux_reels": 2.4
+        },
+        "rendements_pct": {
+          "1": 3.672,
+          "5": 7.023,
+          "20": 6.168
+        },
+        "drawdown_max_pct": 0.0
+      },
+      {
+        "date": "2026-07-14",
+        "distance": 0.3139,
+        "etat": {
+          "z_fair_value": 0.9126,
+          "percentile_cot": 65.0,
+          "regime_taux_reels": 2.33
+        },
+        "rendements_pct": {
+          "1": -0.421,
+          "5": 0.246,
+          "20": 7.926
+        },
+        "drawdown_max_pct": -1.859
+      },
+      {
+        "date": "2023-11-28",
+        "distance": 0.3462,
+        "etat": {
+          "z_fair_value": 0.8985,
+          "percentile_cot": 74.6154,
+          "regime_taux_reels": 2.12
+        },
+        "rendements_pct": {
+          "1": 0.363,
+          "5": -1.039,
+          "20": 2.069
+        },
+        "drawdown_max_pct": -3.035
+      },
+      {
+        "date": "2026-06-23",
+        "distance": 0.412,
+        "etat": {
+          "z_fair_value": 1.0672,
+          "percentile_cot": 63.8462,
+          "regime_taux_reels": 2.29
+        },
+        "rendements_pct": {
+          "1": -3.38,
+          "5": -2.591,
+          "20": 0.412
+        },
+        "drawdown_max_pct": -3.494
+      },
+      {
+        "date": "2026-06-02",
+        "distance": 0.627,
+        "etat": {
+          "z_fair_value": 1.2291,
+          "percentile_cot": 62.3077,
+          "regime_taux_reels": 2.07
+        },
+        "rendements_pct": {
+          "1": -1.167,
+          "5": -5.103,
+          "20": -9.374
+        },
+        "drawdown_max_pct": -11.111
+      },
+      {
+        "date": "2024-01-05",
+        "distance": 0.6867,
+        "etat": {
+          "z_fair_value": 1.0794,
+          "percentile_cot": 71.1538,
+          "regime_taux_reels": 1.83
+        },
+        "rendements_pct": {
+          "1": -0.774,
+          "5": 0.211,
+          "20": -0.818
+        },
+        "drawdown_max_pct": -1.949
+      },
+      {
+        "date": "2025-04-08",
+        "distance": 0.7865,
+        "etat": {
+          "z_fair_value": 1.6784,
+          "percentile_cot": 75.0,
+          "regime_taux_reels": 2.04
+        },
+        "rendements_pct": {
+          "1": 2.968,
+          "5": 8.432,
+          "20": 13.913
+        },
+        "drawdown_max_pct": 0.0
+      },
+      {
+        "date": "2025-01-13",
+        "distance": 0.8323,
+        "etat": {
+          "z_fair_value": 1.6329,
+          "percentile_cot": 90.0,
+          "regime_taux_reels": 2.34
+        },
+        "rendements_pct": {
+          "1": 0.15,
+          "5": 3.048,
+          "20": 8.94
+        },
+        "drawdown_max_pct": 0.0
+      },
+      {
+        "date": "2023-11-07",
+        "distance": 0.9099,
+        "etat": {
+          "z_fair_value": 0.6613,
+          "percentile_cot": 46.1538,
+          "regime_taux_reels": 2.19
+        },
+        "rendements_pct": {
+          "1": -0.778,
+          "5": -0.254,
+          "20": 3.239
+        },
+        "drawdown_max_pct": -1.739
+      },
+      {
+        "date": "2024-12-19",
+        "distance": 0.9131,
+        "etat": {
+          "z_fair_value": 1.7226,
+          "percentile_cot": 91.1538,
+          "regime_taux_reels": 2.28
+        },
+        "rendements_pct": {
+          "1": 1.408,
+          "5": 0.964,
+          "20": 6.28
+        },
+        "drawdown_max_pct": 0.0
+      },
+      {
+        "date": "2023-07-18",
+        "distance": 0.9212,
+        "etat": {
+          "z_fair_value": 0.6927,
+          "percentile_cot": 75.3846,
+          "regime_taux_reels": 1.57
+        },
+        "rendements_pct": {
+          "1": 0.015,
+          "5": -0.764,
+          "20": -3.778
+        },
+        "drawdown_max_pct": -3.778
+      },
+      {
+        "date": "2026-03-23",
+        "distance": 0.9739,
+        "etat": {
+          "z_fair_value": 1.521,
+          "percentile_cot": 52.6923,
+          "regime_taux_reels": 2.01
+        },
+        "rendements_pct": {
+          "1": -0.109,
+          "5": 2.768,
+          "20": 6.682
+        },
+        "drawdown_max_pct": -0.649
+      },
+      {
+        "date": "2025-07-31",
+        "distance": 0.9831,
+        "etat": {
+          "z_fair_value": 1.9382,
+          "percentile_cot": 76.9231,
+          "regime_taux_reels": 1.98
+        },
+        "rendements_pct": {
+          "1": 1.655,
+          "5": 3.252,
+          "20": 4.209
+        },
+        "drawdown_max_pct": 0.0
+      },
+      {
+        "date": "2023-06-07",
+        "distance": 0.9957,
+        "etat": {
+          "z_fair_value": 0.8907,
+          "percentile_cot": 61.1538,
+          "regime_taux_reels": 1.58
+        },
+        "rendements_pct": {
+          "1": 1.076,
+          "5": 0.649,
+          "20": -0.849
+        },
+        "drawdown_max_pct": -1.75
+      },
+      {
+        "date": "2025-08-21",
+        "distance": 1.0075,
+        "etat": {
+          "z_fair_value": 1.9378,
+          "percentile_cot": 77.6923,
+          "regime_taux_reels": 1.94
+        },
+        "rendements_pct": {
+          "1": 1.124,
+          "5": 2.844,
+          "20": 10.027
+        },
+        "drawdown_max_pct": 0.0
+      }
+    ],
+    "agregation": {
+      "1j": {
+        "disponible": true,
+        "n_cas": 15,
+        "rendement_median_pct": 0.15,
+        "rendement_moyen_pct": 0.387,
+        "proportion_haussiers": 0.6,
+        "pire_pct": -3.38,
+        "meilleur_pct": 3.672,
+        "etendue_pct": 7.053
+      },
+      "5j": {
+        "disponible": true,
+        "n_cas": 15,
+        "rendement_median_pct": 0.649,
+        "rendement_moyen_pct": 1.312,
+        "proportion_haussiers": 0.667,
+        "pire_pct": -5.103,
+        "meilleur_pct": 8.432,
+        "etendue_pct": 13.536
+      },
+      "20j": {
+        "disponible": true,
+        "n_cas": 15,
+        "rendement_median_pct": 4.209,
+        "rendement_moyen_pct": 3.67,
+        "proportion_haussiers": 0.733,
+        "pire_pct": -9.374,
+        "meilleur_pct": 13.913,
+        "etendue_pct": 23.287
+      },
+      "drawdown": {
+        "disponible": true,
+        "median_pct": -1.739,
+        "pire_pct": -11.111
+      }
+    },
+    "etat_du_jour": {
+      "z_fair_value": 0.7355785243134981,
+      "percentile_cot": 73.46153846153847,
+      "regime_taux_reels": 2.42
+    },
+    "variables_sans_historique": [
+      "stress_geopolitique"
+    ],
+    "_meta": {
+      "source": "reconstruction interne (juste valeur + COT + FRED)",
+      "horodatage_collecte_utc": "2026-09-08T09:35:51.603753+00:00",
+      "date_donnee": "2026-08-07",
+      "age_jours": 32
+    }
+  },
+  "biais": {
+    "horodatage_utc": "2026-09-08T09:35:51.604519+00:00",
+    "biais": "neutre",
+    "score_composite": -0.0538,
+    "conviction": "faible",
+    "conviction_brute": 0.0242,
+    "concordance": 0.6429,
+    "couverture_donnees": 0.7,
+    "couverture_min_requise": 0.6,
+    "donnees_partielles": false,
+    "avertissement": "",
+    "seuils": {
+      "haussier": 0.2,
+      "vendeur": -0.2
+    },
+    "n_composantes_disponibles": 5,
+    "n_composantes_totales": 6,
+    "composantes_indisponibles": [
+      "ecart_juste_valeur"
+    ],
+    "composantes": [
+      {
+        "nom": "ecart_juste_valeur",
+        "disponible": false,
+        "motif": "modèle non fiable (R² = 0.19)",
+        "score": null,
+        "poids_configure": 0.3,
+        "poids_effectif": 0.0,
+        "contribution": 0.0,
+        "valeur_source": 0.7355785243134981,
+        "sens": "contrarien",
+        "commentaire": ""
+      },
+      {
+        "nom": "positionnement_cot",
+        "disponible": true,
+        "motif": "",
+        "score": -0.4692,
+        "poids_configure": 0.15,
+        "poids_effectif": 0.2143,
+        "contribution": -0.1005,
+        "valeur_source": 73.46153846153847,
+        "sens": "contrarien",
+        "commentaire": "Positionnement spéculatif au 73e percentile, sans excès. Donnée vieille de 7 jour(s)."
+      },
+      {
+        "nom": "dynamique_taux_reels",
+        "disponible": true,
+        "motif": "",
+        "score": -0.1,
+        "poids_configure": 0.2,
+        "poids_effectif": 0.2857,
+        "contribution": -0.0286,
+        "valeur_source": 0.020000000000000018,
+        "sens": "directionnel",
+        "commentaire": "Les taux réels montent de 2 points de base sur 20 séances, ce qui alourdit le coût de détention de l'or."
+      },
+      {
+        "nom": "tendance_dollar",
+        "disponible": true,
+        "motif": "",
+        "score": 0.1331,
+        "poids_configure": 0.15,
+        "poids_effectif": 0.2143,
+        "contribution": 0.0285,
+        "valeur_source": -0.2662413524052831,
+        "sens": "directionnel",
+        "commentaire": "Le dollar s'affaiblit de 0.3 % sur 20 séances, ce qui soutient l'or."
+      },
+      {
+        "nom": "intensite_geopolitique",
+        "disponible": true,
+        "motif": "",
+        "score": -0.6727,
+        "poids_configure": 0.1,
+        "poids_effectif": 0.1429,
+        "contribution": -0.0961,
+        "valeur_source": 0.32727272727272727,
+        "sens": "directionnel",
+        "commentaire": "Couverture géopolitique à 0.3× la normale, rien d'anormal."
+      },
+      {
+        "nom": "confirmation_minieres",
+        "disponible": true,
+        "motif": "",
+        "score": 1.0,
+        "poids_configure": 0.1,
+        "poids_effectif": 0.1429,
+        "contribution": 0.1429,
+        "valeur_source": 8.170697509346493,
+        "sens": "directionnel",
+        "commentaire": "Les minières surperforment l'or de 8.2 % sur 20 séances : elles confirment le mouvement du métal."
+      }
+    ],
+    "invalidations": [
+      {
+        "variable": "percentile COT managed money",
+        "seuil": 50.0,
+        "operateur": "traverse",
+        "lecture": "Le positionnement cesse d'être un argument si le percentile revient vers 50 (actuellement 73)."
+      },
+      {
+        "variable": "taux réel 10 ans (DFII10), variation 20 séances",
+        "seuil": 0.0,
+        "operateur": "change de signe",
+        "lecture": "Le moteur principal s'inverse si les taux réels rebaissent (variation actuelle : +2 points de base)."
+      }
+    ],
+    "precedents_historiques": {
+      "1j": {
+        "disponible": true,
+        "n_cas": 15,
+        "rendement_median_pct": 0.15,
+        "rendement_moyen_pct": 0.387,
+        "proportion_haussiers": 0.6,
+        "pire_pct": -3.38,
+        "meilleur_pct": 3.672,
+        "etendue_pct": 7.053
+      },
+      "5j": {
+        "disponible": true,
+        "n_cas": 15,
+        "rendement_median_pct": 0.649,
+        "rendement_moyen_pct": 1.312,
+        "proportion_haussiers": 0.667,
+        "pire_pct": -5.103,
+        "meilleur_pct": 8.432,
+        "etendue_pct": 13.536
+      },
+      "20j": {
+        "disponible": true,
+        "n_cas": 15,
+        "rendement_median_pct": 4.209,
+        "rendement_moyen_pct": 3.67,
+        "proportion_haussiers": 0.733,
+        "pire_pct": -9.374,
+        "meilleur_pct": 13.913,
+        "etendue_pct": 23.287
+      },
+      "drawdown": {
+        "disponible": true,
+        "median_pct": -1.739,
+        "pire_pct": -11.111
+      }
+    },
+    "_meta": {
+      "source": "agrégation interne",
+      "horodatage_collecte_utc": "2026-09-08T09:35:51.604579+00:00",
+      "date_donnee": "2026-09-08",
+      "age_jours": 0
+    }
+  },
+  "explications": {
+    "explications": {
+      "juste_valeur": {
+        "texte": "L'or ne verse aucun intérêt : le détenir coûte le rendement réel auquel on renonce. Le modèle estime ce que vaudrait l'or si seuls les taux réels et le dollar comptaient, puis mesure l'écart avec le prix observé. Cet écart est la prime payée pour autre chose : risque géopolitique, achats de banques centrales.\n\nLe modèle n'explique plus que 19% des mouvements de l'or (seuil 50%) : l'écart de +22.4 % existe mais ne peut pas être interprété comme une prime de risque.\n\nCet écart dit si le mouvement récent est justifié par les fondamentaux ou s'il repose sur une prime de peur, laquelle peut s'évaporer sans qu'aucun fondamental ne change.\n\nAucun précédent historique exploitable n'accompagne cette métrique : soit la configuration est trop rare, soit la base n'atteint pas le nombre de cas minimal exigé.",
+        "mode": "gabarit",
+        "modele": "",
+        "tentatives": 0,
+        "nombres_rejetes": [],
+        "motif_repli": "appel OpenAI en échec (RateLimitError)",
+        "verifie_numeriquement": false
+      },
+      "positionnement_cot": {
+        "texte": "Le rapport de la CFTC dit qui détient quoi sur les contrats à terme. Les « managed money » sont les fonds spéculatifs : leur position nette mesure le consensus du marché.\n\nManaged money net à +136,771 contrats, soit le 73e percentile sur 260 semaines : positionnement acheteur nourri, sans être extrême. Donnée vieille de 7 jour(s).\n\nQuand ce positionnement est extrême, il ne reste presque personne pour acheter davantage, et le moindre revers force des ventes en cascade.\n\nAucun précédent historique exploitable n'accompagne cette métrique : soit la configuration est trop rare, soit la base n'atteint pas le nombre de cas minimal exigé.",
+        "mode": "gabarit",
+        "modele": "",
+        "tentatives": 0,
+        "nombres_rejetes": [],
+        "motif_repli": "appel OpenAI en échec (RateLimitError)",
+        "verifie_numeriquement": false
+      },
+      "geopolitique": {
+        "texte": "L'intensité mesure combien la presse mondiale parle d'un sujet, rapportée à sa normale. La chaîne de transmission vérifie ensuite le trajet du choc : pétrole, anticipations d'inflation, taux réels, puis or.\n\nAucune lecture chiffrée n'a été produite pour cette métrique.\n\nUn thème déjà ancien dont la prime est déjà élevée n'est plus un moteur de hausse : ce qui reste à jouer, c'est la détente.\n\nAucun précédent historique exploitable n'accompagne cette métrique : soit la configuration est trop rare, soit la base n'atteint pas le nombre de cas minimal exigé.",
+        "mode": "gabarit",
+        "modele": "",
+        "tentatives": 0,
+        "nombres_rejetes": [],
+        "motif_repli": "appel OpenAI en échec (RateLimitError)",
+        "verifie_numeriquement": false
+      },
+      "biais": {
+        "texte": "Le biais agrège six composantes indépendantes, chacune notée entre -1 et +1, pondérées selon la configuration.\n\nAucune lecture chiffrée n'a été produite pour cette métrique.\n\nLe détail des contributions montre quelle composante porte le résultat, et donc laquelle surveiller en premier.\n\nSur 15 configurations comparables, l'or a varié de 4.209 % en médiane à 20 jours, avec une hausse dans 0.733 des cas, entre -9.374 % et 13.913 %.",
+        "mode": "gabarit",
+        "modele": "",
+        "tentatives": 0,
+        "nombres_rejetes": [],
+        "motif_repli": "appel OpenAI en échec (RateLimitError)",
+        "verifie_numeriquement": false
+      }
+    },
+    "n_openai": 0,
+    "n_gabarit": 4,
+    "toutes_verifiees": false
+  }
+}

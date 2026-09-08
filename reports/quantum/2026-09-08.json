@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "date": "2026-09-08",
+    "horodatage_utc": "2026-09-08T09:39:08.699086+00:00",
+    "domaine": "valeurs quantiques cotées",
+    "version_moteur": "1.0",
+    "valeurs_suivies": [
+      "RGTI",
+      "QBTS",
+      "IONQ"
+    ],
+    "sources_en_echec": [
+      "intensité GDELT du secteur"
+    ],
+    "donnees_partielles": true,
+    "avertissement": "1 source(s) indisponible(s) : intensité GDELT du secteur. Chaque bloc concerné porte son motif.",
+    "nature_du_rapport": "Ce rapport décrit des faits de marché et leur contexte. Il ne contient aucune recommandation d'achat, de vente ou de positionnement, et n'a pas vocation à en contenir.",
+    "controle_anti_recommandation": {
+      "effectue": true,
+      "n_infractions": 0,
+      "infractions": [],
+      "n_motifs_verifies": 19
+    }
+  },
+  "prix": {
+    "disponible": true,
+    "motif": "",
+    "variations_du_jour": {
+      "RGTI": 0.132,
+      "QBTS": -1.427,
+      "IONQ": 1.281
+    },
+    "clotures": {
+      "RGTI": 15.2,
+      "QBTS": 16.58,
+      "IONQ": 39.52
+    },
+    "_meta": {
+      "source": "yfinance (secours Stooq)",
+      "horodatage_collecte_utc": "2026-09-08T09:36:00.732247+00:00",
+      "date_donnee": "2026-09-04",
+      "age_jours": 4
+    }
+  },
+  "contexte_macro": {
+    "disponible": true,
+    "motif": "",
+    "serie_taux_reels": "DFII10",
+    "variation_taux_reels_points": -0.03000000000000025,
+    "reference_marche": "QQQ",
+    "variation_marche_pct": 0.1797537995484877,
+    "_meta": {
+      "source": "FRED DFII10 + QQQ (yfinance)",
+      "horodatage_collecte_utc": "2026-09-08T09:36:01.986126+00:00",
+      "date_donnee": "2026-09-08",
+      "age_jours": 0
+    }
+  },
+  "mouvements": {
+    "disponible": true,
+    "motif": "",
+    "n_mouvements": 0,
+    "seuils_appliques": {
+      "RGTI": 8.0,
+      "QBTS": 8.0,
+      "IONQ": 8.0
+    },
+    "mouvements": [],
+    "_meta": {
+      "source": "analyse interne (prix + FRED + EDGAR + GDELT)",
+      "horodatage_collecte_utc": "2026-09-08T09:37:28.371342+00:00",
+      "date_donnee": "2026-09-04",
+      "age_jours": 4
+    }
+  },
+  "secteur": {
+    "disponible": true,
+    "tresorerie": {
+      "disponible": true,
+      "motif": "",
+      "seuil_alerte_trimestres": 4.0,
+      "n_societes": 3,
+      "n_estimations_disponibles": 3,
+      "societes_sous_le_seuil": [
+        "RGTI"
+      ],
+      "societes": [
+        {
+          "ticker": "RGTI",
+          "nom": "Rigetti Computing",
+          "disponible": true,
+          "motif": "",
+          "tresorerie_usd": 27763000.0,
+          "date_tresorerie": "2026-06-30",
+          "consommation_trimestrielle_usd": 16218673.61111111,
+          "trimestres_restants": 1.7117922627766606,
+          "seuil_alerte_trimestres": 4.0,
+          "sous_le_seuil": true,
+          "commentaire": "Trésorerie de 27.8 M$ au 2026-06-30, consommation de 16.2 M$ par trimestre au rythme observé, soit environ 1.7 trimestre(s). Estimation au rythme courant, qui ne préjuge d'aucune levée à venir. Au rythme observé, l'autonomie passe sous 4 trimestres : une émission d'actions nouvelles devient probable à cet horizon, ce qui dilue les actionnaires existants."
+        },
+        {
+          "ticker": "QBTS",
+          "nom": "D-Wave Quantum",
+          "disponible": true,
+          "motif": "",
+          "tresorerie_usd": 296642000.0,
+          "date_tresorerie": "2026-06-30",
+          "consommation_trimestrielle_usd": 37241659.72222222,
+          "trimestres_restants": 7.965327061484126,
+          "seuil_alerte_trimestres": 4.0,
+          "sous_le_seuil": false,
+          "commentaire": "Trésorerie de 296.6 M$ au 2026-06-30, consommation de 37.2 M$ par trimestre au rythme observé, soit environ 8.0 trimestre(s). Estimation au rythme courant, qui ne préjuge d'aucune levée à venir."
+        },
+        {
+          "ticker": "IONQ",
+          "nom": "IonQ",
+          "disponible": true,
+          "motif": "",
+          "tresorerie_usd": 1235729000.0,
+          "date_tresorerie": "2026-06-30",
+          "consommation_trimestrielle_usd": 129159812.5,
+          "trimestres_restants": 9.56744188522262,
+          "seuil_alerte_trimestres": 4.0,
+          "sous_le_seuil": false,
+          "commentaire": "Trésorerie de 1235.7 M$ au 2026-06-30, consommation de 129.2 M$ par trimestre au rythme observé, soit environ 9.6 trimestre(s). Estimation au rythme courant, qui ne préjuge d'aucune levée à venir."
+        }
+      ]
+    },
+    "financements_et_contrats": {
+      "disponible": false,
+      "motif": "GDELT n'a pas répondu.",
+      "ratio_couverture": null,
+      "volume_24h": 0,
+      "moyenne_journaliere_30j": 0.0,
+      "alerte": false,
+      "lecture": "Intensité de couverture non mesurée."
+    },
+    "nouveaux_entrants": {
+      "disponible": false,
+      "motif": "aucun article collecté sur la période",
+      "min_mentions": 3,
+      "candidats": []
+    },
+    "correlation_positions": {
+      "disponible": true,
+      "motif": "",
+      "fenetre_seances": 60,
+      "n_seances_effectives": 60,
+      "seuil_correlation_elevee": 0.7,
+      "correlation_max": 0.9377,
+      "correlation_moyenne": 0.9036,
+      "correlation_elevee": true,
+      "paires": [
+        {
+          "paire": "RGTI/IONQ",
+          "correlation": 0.9377
+        },
+        {
+          "paire": "RGTI/QBTS",
+          "correlation": 0.909
+        },
+        {
+          "paire": "QBTS/IONQ",
+          "correlation": 0.864
+        }
+      ],
+      "avertissement": "Corrélation de 0.94 sur 60 séances entre RGTI/IONQ (3 paire(s) au-dessus de 0.70). Ces positions se comportent comme une seule et même position : la diversification apparente est limitée, et un choc commun les touche ensemble."
+    },
+    "_meta": {
+      "source": "EDGAR XBRL + GDELT + prix",
+      "horodatage_collecte_utc": "2026-09-08T09:39:08.698974+00:00",
+      "date_donnee": "2026-09-08",
+      "age_jours": 0
+    }
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "a5145e8d1db461d8",
+    "categorie": "quantique",
+    "titre_affiche": "Rigetti Computing CFO Sells 25 , 000 Shares as the Stock Hovers Near a 52 - Week Low",
+    "horodatage_utc": "2026-09-08T04:30:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/coverage/filings/2026/09/07/rigetti-computing-cfo-sells-25-000-shares-as-the-stock-hovers-near-a-52-week-low/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : RGTI. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "71e4afc0321a287f",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ ( NYSE : IONQ ) Holds Technology Edge Over Rigetti ( NASDAQ : RGTI ) In Pure - Play Quantum Computing Race",
+    "horodatage_utc": "2026-09-08T00:00:00+00:00",
+    "source_nom": "GDELT/foreignpolicyjournal.com",
+    "url_source": "https://www.foreignpolicyjournal.com/2026/09/07/ionq-nyse-ionq-holds-technology-edge-over-rigetti-nasdaq-rgti-in-pure-play-quantum-computing-race/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : RGTI, IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI",
+      "IONQ"
+    ],
+    "nouveaute": true
+  }
+]
