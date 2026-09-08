@@ -348,3 +348,123 @@ def test_fenetre_close_exclut_la_bougie_en_cours() -> None:
     # À 00:05 pile, elle l'est.
     visible = bt_data.fenetre_close(m5, "M5", pd.Timestamp("2026-01-01 00:05", tz="UTC"))
     assert len(visible) == 1
+
+
+# ---------------------------------------------------------------------------
+# 6. Points de retournement et origine de la jambe
+# ---------------------------------------------------------------------------
+def test_swings_detectes_avec_la_sensibilite_demandee() -> None:
+    """Un sommet doit dépasser strictement ses voisins de chaque côté."""
+    # Plus hauts : 1 2 3 4 5 4 3 2 1 → un seul sommet, en position 4.
+    hauts = [1.0, 2.0, 3.0, 4.0, 5.0, 4.0, 3.0, 2.0, 1.0]
+    cadre = _bougies([(h - 0.5, h, h - 1.0, h - 0.2) for h in hauts])
+
+    sommets, _ = ict.detecter_swings(cadre, sensibilite=4)
+    assert sommets == [4]
+
+    # Avec une sensibilité de 2, le même sommet est trouvé, plus tôt confirmé.
+    sommets, _ = ict.detecter_swings(cadre, sensibilite=2)
+    assert sommets == [4]
+
+
+def test_swing_rejette_un_palier() -> None:
+    """Deux bougies au même plus haut ne font pas deux sommets.
+
+    La comparaison stricte évite qu'un palier découpe la jambe au mauvais
+    endroit, voire qu'il en produise plusieurs.
+    """
+    hauts = [1.0, 2.0, 3.0, 5.0, 5.0, 3.0, 2.0, 1.0, 0.5]
+    cadre = _bougies([(h - 0.5, h, h - 1.0, h - 0.2) for h in hauts])
+    sommets, _ = ict.detecter_swings(cadre, sensibilite=3)
+    assert sommets == []
+
+
+def test_creux_symetriques_des_sommets() -> None:
+    """Les creux se détectent selon la même règle, sur les plus bas."""
+    bas = [5.0, 4.0, 3.0, 2.0, 1.0, 2.0, 3.0, 4.0, 5.0]
+    cadre = _bougies([(b + 1.0, b + 1.5, b, b + 0.5) for b in bas])
+    _, creux = ict.detecter_swings(cadre, sensibilite=4)
+    assert creux == [4]
+
+
+def test_origine_de_jambe_part_du_dernier_retournement() -> None:
+    """La jambe part du **dernier** retournement, pas du plus lointain.
+
+    C'est toute la différence entre mesurer le dernier segment directionnel
+    et mesurer tout l'historique : un mouvement qui hésite longtemps avant de
+    partir franchement ne doit pas voir ses hésitations comptées.
+    """
+    # Deux creux successifs : un profond en position 4, un plus proche en
+    # position 12. La jambe montant vers une zone de vente doit partir du
+    # second, plus récent, même s'il est moins bas.
+    bas = [9, 7, 5, 3, 1, 3, 5, 7, 9, 8, 7, 6, 4, 6, 8, 10, 12, 14, 16, 18]
+    cadre = _bougies([(b + 1.0, b + 1.5, float(b), b + 0.5) for b in bas])
+
+    depart = ict.origine_de_jambe(cadre, ict.BAISSIER, sensibilite=4)
+    assert depart == 12, f"Départ en {depart} : ce n'est pas le dernier creux."
+
+    # Le creux profond existe bien, mais il n'est pas retenu.
+    _, creux = ict.detecter_swings(cadre, sensibilite=4)
+    assert 4 in creux and 12 in creux
+
+
+def test_origine_de_jambe_choisit_le_bon_sens() -> None:
+    """Une zone de vente part d'un creux, une zone d'achat d'un sommet."""
+    valeurs = [9, 7, 5, 3, 1, 3, 5, 7, 9, 11, 13, 11, 9, 7, 5, 3, 1, 0, -1, -2]
+    cadre = _bougies([(v + 1.0, v + 1.5, float(v), v + 0.5) for v in valeurs])
+
+    # Zone de vente : le prix monte vers elle, la jambe part d'un creux.
+    depart_vente = ict.origine_de_jambe(cadre, ict.BAISSIER, sensibilite=4)
+    # Zone d'achat : le prix descend vers elle, la jambe part d'un sommet.
+    depart_achat = ict.origine_de_jambe(cadre, ict.HAUSSIER, sensibilite=4)
+
+    sommets, creux = ict.detecter_swings(cadre, sensibilite=4)
+    assert depart_vente in creux
+    assert depart_achat in sommets
+    assert depart_vente != depart_achat
+
+
+def test_swing_non_confirme_est_ecarte() -> None:
+    """Un retournement trop récent pour être confirmé n'existe pas encore.
+
+    Un swing en position ``i`` exige ``k`` bougies à sa droite : il n'est
+    connu qu'en ``i + k``. Le retenir plus tôt serait lire l'avenir, et c'est
+    exactement la fuite que ce test verrouille.
+    """
+    # Creux en position 4, avec seulement deux bougies à sa droite.
+    bas = [9.0, 7.0, 5.0, 3.0, 1.0, 3.0, 5.0]
+    cadre = _bougies([(b + 1.0, b + 1.5, b, b + 0.5) for b in bas])
+
+    # Sensibilité 2 : le creux est confirmé en position 6, la dernière.
+    assert ict.origine_de_jambe(cadre, ict.BAISSIER, sensibilite=2) == 4
+
+    # Sensibilité 4 : il faudrait la position 8, qui n'existe pas encore.
+    assert ict.origine_de_jambe(cadre, ict.BAISSIER, sensibilite=4) is None
+
+
+def test_origine_absente_sur_serie_sans_retournement() -> None:
+    """Une série monotone n'offre aucun point de départ."""
+    cadre = _bougies([(float(i), i + 1.0, float(i), i + 0.5) for i in range(20)])
+    assert ict.origine_de_jambe(cadre, ict.BAISSIER, sensibilite=4) is None
+
+
+def test_sensibilite_change_le_decoupage() -> None:
+    """Une sensibilité plus fine repère des retournements plus proches.
+
+    C'est le mécanisme par lequel ce paramètre agit sur la classification :
+    une jambe plus courte contient moins de bougies contraires, donc a plus
+    de chances d'être jugée violente.
+    """
+    valeurs = [9, 7, 5, 6, 5, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]
+    cadre = _bougies([(v + 1.0, v + 1.5, float(v), v + 0.5) for v in valeurs])
+
+    fine = ict.origine_de_jambe(cadre, ict.BAISSIER, sensibilite=2)
+    grossiere = ict.origine_de_jambe(cadre, ict.BAISSIER, sensibilite=4)
+
+    # Les deux trouvent un départ, mais pas nécessairement le même.
+    assert fine is not None
+    if grossiere is not None:
+        assert fine >= grossiere, (
+            "Une sensibilité fine doit repérer un retournement au moins aussi "
+            "récent qu'une sensibilité grossière."
+        )

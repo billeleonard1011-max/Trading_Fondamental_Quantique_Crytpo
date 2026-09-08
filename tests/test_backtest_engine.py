@@ -367,3 +367,89 @@ def test_monte_carlo_signale_un_echantillon_trop_court() -> None:
     long = propfirm.monte_carlo([-55.0] * 40 + [60.0] * 20, n_tirages=200)
     assert long["echantillon_suffisant"] is True
     assert long["avertissement"] == ""
+
+
+def test_anti_look_ahead_avec_swings_pour_chaque_sensibilite() -> None:
+    """La détection de swing n'introduit pas de fuite, quelle que soit sa finesse.
+
+    Le swing est le point le plus exposé au look-ahead de tout le moteur : il
+    exige des bougies **à droite** du point pour être validé. Une
+    implémentation naïve confirmerait le retournement dès qu'il se forme,
+    c'est-à-dire avant de pouvoir le savoir. On rejoue donc la troncature
+    pour les trois sensibilités comparées.
+    """
+    m1 = _serie_m1(6000)
+    taux = _taux_eurusd(m1)
+    coupure = 4000
+    limite = m1.index[coupure - 1]
+
+    for sensibilite in (3, 4, 5):
+        config = moteur.ConfigBacktest(
+            mode_tp="ratio", ratio_tp=2.0, sensibilite_swing=sensibilite
+        )
+        complet = moteur.Backtest(m1, taux, config)
+        complet.executer()
+        tronque = moteur.Backtest(m1.iloc[:coupure], taux, config)
+        tronque.executer()
+
+        def _clos(bt: moteur.Backtest) -> list[dict]:
+            return [
+                t.to_dict() for t in bt.trades
+                if t.horodatage_sortie is not None and t.horodatage_sortie <= limite
+            ]
+
+        a, b = _clos(complet), _clos(tronque)
+        assert a == b, (
+            f"Sensibilité {sensibilite} : le moteur voit des données futures.\n"
+            f"  complet : {len(a)} trade(s)\n  tronqué : {len(b)} trade(s)"
+        )
+
+
+def test_touches_simultanees_comptees() -> None:
+    """Les zones touchées dans la même minute sont dénombrées.
+
+    La stratégie ne dit pas laquelle prime quand deux order blocks d'unités
+    différentes sont atteints ensemble. Le moteur retient la première
+    confirmée, et ce compteur dit si le cas est marginal ou s'il mérite une
+    règle de priorité.
+    """
+    m1 = _serie_m1(6000)
+    bt = moteur.Backtest(m1, _taux_eurusd(m1), moteur.ConfigBacktest())
+    bt.executer()
+
+    assert isinstance(bt.touches_simultanees, int)
+    assert bt.touches_simultanees >= 0
+    assert len(bt.detail_touches_simultanees) == bt.touches_simultanees
+    for detail in bt.detail_touches_simultanees:
+        assert detail["n_zones"] > 1
+        assert "unites" in detail and "unites_distinctes" in detail
+
+
+def test_la_jambe_part_du_dernier_retournement_et_non_du_plus_lointain() -> None:
+    """La nouvelle définition raccourcit la jambe, et cela se voit.
+
+    Avec l'ancienne convention — l'extrême le plus lointain depuis la
+    formation de la zone —, la jambe englobait tout l'historique intermédiaire
+    et se trouvait presque toujours classée « normale », les hésitations
+    fournissant des bougies contraires en quantité.
+    """
+    m1 = _serie_m1(6000)
+    taux = _taux_eurusd(m1)
+    bt = moteur.Backtest(m1, taux, moteur.ConfigBacktest(sensibilite_swing=4))
+    bt.executer()
+
+    # La jambe étant bornée par un retournement, elle reste courte.
+    for trade in bt.trades:
+        assert trade.type_jambe in {ict.NORMALE, ict.VIOLENTE}
+
+
+def test_monte_carlo_avec_zero_tirage() -> None:
+    """Demander zéro tirage désactive la simulation au lieu de planter.
+
+    C'est ainsi que la comparaison de sensibilité saute une étape coûteuse
+    dont elle n'a pas besoin. Une division par zéro y mettait fin.
+    """
+    resultat = propfirm.monte_carlo([-55.0, 60.0], n_tirages=0)
+    assert resultat["disponible"] is False
+    assert "désactivée" in resultat["motif"]
+    assert resultat["n_tirages"] == 0

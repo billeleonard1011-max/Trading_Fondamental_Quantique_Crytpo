@@ -67,6 +67,10 @@ class ConfigBacktest:
         mode_tp: ``structurel`` ou ``ratio``.
         ratio_tp: multiple du risque, quand ``mode_tp`` vaut ``ratio``.
         unites_ob: unités où chercher les order blocks.
+        sensibilite_swing: nombre de bougies exigées de chaque côté pour
+            valider un point de retournement, sur l'unité de l'order block.
+            Ce paramètre décide du découpage de la jambe, donc de sa
+            classification, donc du type d'entrée.
     """
 
     execution: bt_exec.ConfigExecution = field(default_factory=bt_exec.ConfigExecution)
@@ -74,6 +78,7 @@ class ConfigBacktest:
     mode_tp: str = "ratio"
     ratio_tp: float = 2.0
     unites_ob: tuple[str, ...] = bt_data.UNITES_ORDER_BLOCK
+    sensibilite_swing: int = ict.SENSIBILITE_SWING
 
 
 @dataclass(slots=True)
@@ -173,6 +178,12 @@ class Backtest:
         self.order_blocks.sort(key=lambda o: o.fin_motif)
 
         self.trades: list[Trade] = []
+        # Combien de fois plusieurs zones, d'unités différentes, sont
+        # touchées dans la même minute. La stratégie ne dit pas laquelle
+        # prime ; le moteur retient la première confirmée, et ce compteur dit
+        # si le cas est marginal ou s'il mérite une règle de priorité.
+        self.touches_simultanees: int = 0
+        self.detail_touches_simultanees: list[dict[str, Any]] = []
         self.abandons: dict[str, int] = {
             ABANDON_SANS_FVG: 0,
             ABANDON_SANS_OTE: 0,
@@ -201,31 +212,32 @@ class Backtest:
     def _jambe(self, ob: ict.OrderBlock, instant: pd.Timestamp) -> pd.DataFrame:
         """Isole la jambe qui a mené le prix jusqu'à l'order block.
 
-        CHOIX D'INTERPRÉTATION — l'énoncé parle de « l'extrême d'origine » de
-        la jambe sans dire comment le situer. L'origine retenue est l'extrême
-        le plus éloigné de la zone atteint entre la formation de l'order
-        block et son contact : le point d'où le prix a fait demi-tour.
+        La jambe est le **dernier segment directionnel** atteignant la zone :
+        elle part du dernier point de retournement confirmé sur l'unité de
+        l'order block, pas de l'extrême le plus lointain depuis la formation
+        de la zone. Un mouvement qui erre pendant vingt bougies avant de
+        partir franchement vers l'order block ne doit pas voir ses hésitations
+        comptées dans la classification de sa violence.
 
         Args:
             ob: zone touchée.
             instant: instant du contact.
 
         Returns:
-            Bougies de la jambe, sur l'unité de l'order block.
+            Bougies de la jambe, sur l'unité de l'order block. Cadre vide si
+            aucun retournement confirmé ne précède le contact.
         """
         cadre = bt_data.fenetre_close(self.cadres[ob.unite], ob.unite, instant)
-        cadre = cadre[cadre.index >= ob.fin_motif]
         if cadre.empty:
             return cadre
+        # Une profondeur bornée suffit : la jambe est par définition le
+        # dernier segment, pas tout l'historique.
         cadre = cadre.iloc[-PROFONDEUR_JAMBE:]
 
-        # L'extrême d'origine est du côté opposé à la zone : au-dessus pour
-        # un order block baissier que le prix vient chercher par le bas.
-        if ob.sens == ict.BAISSIER:
-            position = int(np.argmin(cadre["low"].to_numpy()))
-        else:
-            position = int(np.argmax(cadre["high"].to_numpy()))
-        return cadre.iloc[position:]
+        depart = ict.origine_de_jambe(cadre, ob.sens, self.config.sensibilite_swing)
+        if depart is None:
+            return cadre.iloc[:0]
+        return cadre.iloc[depart:]
 
     def _chercher_fvg(
         self, ob: ict.OrderBlock, debut: pd.Timestamp, instant: pd.Timestamp
@@ -341,6 +353,20 @@ class Backtest:
                     if not zone.mitige:
                         restantes.append(zone)
                 zones_actives = restantes
+
+                # Plusieurs zones touchées dans la même minute : la stratégie
+                # ne tranche pas, on note le cas pour pouvoir en décider.
+                if len(nouvelles) > 1:
+                    unites = sorted({s.ob.unite for s in nouvelles})
+                    self.touches_simultanees += 1
+                    self.detail_touches_simultanees.append(
+                        {
+                            "horodatage": str(fin_barre),
+                            "n_zones": len(nouvelles),
+                            "unites": unites,
+                            "unites_distinctes": len(unites) > 1,
+                        }
+                    )
                 setups.extend(nouvelles)
             else:
                 # Position ouverte : les zones touchées sont tout de même

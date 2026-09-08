@@ -217,6 +217,15 @@ def monte_carlo(
             "motif": "aucun trade à rééchantillonner",
             "n_tirages": 0,
         }
+    if int(n_tirages) <= 0:
+        # Zéro tirage est une façon légitime de demander à sauter la
+        # simulation — la comparaison de sensibilité s'en sert. Le dire vaut
+        # mieux que de diviser par zéro.
+        return {
+            "disponible": False,
+            "motif": "simulation désactivée : aucun tirage demandé",
+            "n_tirages": 0,
+        }
 
     alea = np.random.default_rng(graine)
     tableau = np.asarray(resultats, dtype="float64")

@@ -148,6 +148,7 @@ def executer_variantes(
     config_execution: bt_exec.ConfigExecution,
     expiration: int,
     n_tirages: int = propfirm.N_TIRAGES,
+    sensibilite_swing: int = ict.SENSIBILITE_SWING,
 ) -> dict[str, Any]:
     """Joue les quatre variantes d'objectif sur les mêmes données.
 
@@ -157,6 +158,7 @@ def executer_variantes(
         config_execution: coûts et dimensionnement.
         expiration: fenêtre d'expiration d'un setup, en barres.
         n_tirages: nombre de tirages Monte Carlo.
+        sensibilite_swing: bougies exigées de chaque côté d'un retournement.
 
     Returns:
         Résultats par variante, avec métriques, répartitions et survie.
@@ -170,6 +172,7 @@ def executer_variantes(
             expiration_barres=expiration,
             mode_tp=mode,
             ratio_tp=ratio,
+            sensibilite_swing=sensibilite_swing,
         )
         backtest = moteur.Backtest(m1, eurusd, config)
         backtest.executer()
@@ -188,6 +191,23 @@ def executer_variantes(
             "par_heure": repartir(backtest.trades, "heure_entree"),
             "abandons": dict(backtest.abandons),
             "n_abandons_total": sum(backtest.abandons.values()),
+            "touches_simultanees": {
+                "n": backtest.touches_simultanees,
+                "n_unites_distinctes": sum(
+                    1 for d in backtest.detail_touches_simultanees
+                    if d["unites_distinctes"]
+                ),
+                "part_des_setups": (
+                    backtest.touches_simultanees
+                    / max(len(backtest.trades) + sum(backtest.abandons.values()), 1)
+                ),
+                "detail": backtest.detail_touches_simultanees[:20],
+                "convention": (
+                    "La stratégie ne dit pas quelle zone prime quand plusieurs sont "
+                    "touchées dans la même minute. Le moteur retient la première "
+                    "confirmée ; ce compteur dit si le cas mérite une règle."
+                ),
+            },
             "propfirm": (
                 propfirm.monte_carlo(gains, n_tirages=n_tirages)
                 if gains
@@ -307,6 +327,17 @@ def main(argv: list[str] | None = None) -> int:
     analyseur.add_argument("--slippage", type=float, default=bt_exec.SLIPPAGE_DEFAUT)
     analyseur.add_argument("--marge-stop", type=float, default=bt_exec.MARGE_STOP_DEFAUT)
     analyseur.add_argument("--expiration", type=int, default=moteur.EXPIRATION_DEFAUT)
+    analyseur.add_argument(
+        "--sensibilite-swing",
+        type=int,
+        default=ict.SENSIBILITE_SWING,
+        help="bougies exigées de chaque côté pour valider un retournement.",
+    )
+    analyseur.add_argument(
+        "--comparer-sensibilite",
+        action="store_true",
+        help="rejoue le backtest pour les sensibilités 3, 4 et 5 et les compare.",
+    )
     analyseur.add_argument("--tirages", type=int, default=propfirm.N_TIRAGES)
     analyseur.add_argument(
         "--hors-ligne",
@@ -341,8 +372,31 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     resultats = executer_variantes(
-        m1, eurusd, config_execution, arguments.expiration, arguments.tirages
+        m1, eurusd, config_execution, arguments.expiration, arguments.tirages,
+        sensibilite_swing=arguments.sensibilite_swing,
     )
+
+    # Sensibilité du découpage de la jambe : le paramètre décide de la
+    # classification, donc du type d'entrée. Savoir s'il change matériellement
+    # les résultats compte autant que les résultats eux-mêmes.
+    comparaison_sensibilite: dict[str, Any] = {}
+    if arguments.comparer_sensibilite:
+        for valeur in (3, 4, 5):
+            _LOG.info("Sensibilité de swing %d...", valeur)
+            bloc = executer_variantes(
+                m1, eurusd, config_execution, arguments.expiration,
+                n_tirages=0, sensibilite_swing=valeur,
+            )
+            comparaison_sensibilite[str(valeur)] = {
+                nom: {
+                    "metriques": sous["metriques"],
+                    "par_type_jambe": sous["par_type_jambe"],
+                    "n_abandons_total": sous["n_abandons_total"],
+                }
+                for nom, sous in bloc.items()
+            }
+            for sous in bloc.values():
+                sous.pop("_trades", None)
 
     # Journaux CSV, puis synthèse JSON sans les objets de trade.
     DOSSIER_RAPPORTS.mkdir(parents=True, exist_ok=True)
@@ -376,9 +430,11 @@ def main(argv: list[str] | None = None) -> int:
             "filtre_fondamental": (
                 "volontairement absent : le backtest mesure la version mécanique pure"
             ),
+            "sensibilite_swing": arguments.sensibilite_swing,
             "choix_interpretation": [dict(c) for c in ict.CHOIX_INTERPRETATION],
         },
         "variantes": resultats,
+        "comparaison_sensibilite_swing": comparaison_sensibilite,
     }
 
     chemin_synthese = DOSSIER_RAPPORTS / "synthese.json"
