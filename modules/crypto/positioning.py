@@ -40,7 +40,7 @@ from __future__ import annotations
 
 import logging
 import os
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from typing import Any, Final
 
 import pandas as pd
@@ -306,35 +306,123 @@ def analyser_funding(
 # ---------------------------------------------------------------------------
 # Déblocages de tokens : non alimenté
 # ---------------------------------------------------------------------------
-def get_deblocages_tokens(symboles: list[str] | None = None) -> dict[str, Any]:
-    """Signale l'absence de source gratuite de calendrier de déblocage.
+#: Statuts possibles d'un jeton au regard du vesting. La distinction entre
+#: « inconnu » et « non_applicable » est essentielle : le premier dit qu'on
+#: ignore, le second qu'il n'y a rien à savoir. Les confondre reviendrait à
+#: rassurer sur un jeton dont on ne sait simplement rien.
+STATUTS_DEBLOCAGE: Final[dict[str, str]] = {
+    "actif": "calendrier connu, échéance à venir",
+    "vesting_conclu": "calendrier arrivé à son terme, aucune échéance à venir",
+    "non_applicable": "le jeton n'a pas de mécanisme de vesting",
+    "inconnu": "aucune source identifiée : ignorance, pas absence de déblocage",
+    "absent": "jeton non renseigné dans la configuration",
+}
 
-    Aucun appel réseau n'est fait : les sources ont été testées et écartées,
-    et les réinterroger chaque jour coûterait du temps pour un échec connu.
-    La liste des tentatives est conservée pour que la vérification reste
-    rejouable à la main.
+
+def get_deblocages_tokens(
+    watchlist: list[dict[str, Any]] | None = None,
+    configuration: dict[str, Any] | None = None,
+    aujourd_hui: date | None = None,
+) -> dict[str, Any]:
+    """Rassemble ce qu'on sait des déblocages de jetons, jeton par jeton.
+
+    Aucune source gratuite ne publie de calendrier : DefiLlama réserve son
+    point d'accès ``/emissions`` à son offre payante (HTTP 402) et CryptoRank
+    exige une clé (401). Les échéances viennent donc de
+    ``config/universe.yaml``, saisies à la main depuis les sources officielles
+    des projets, sur le modèle du calendrier FOMC.
+
+    Le point important est la distinction des statuts. Un jeton sans
+    mécanisme de vesting et un jeton dont on ignore tout ne sont pas dans la
+    même situation, même si aucun des deux n'a d'échéance à afficher. Les
+    présenter pareil laisserait croire qu'on a vérifié quand on n'a rien
+    trouvé.
 
     Args:
-        symboles: jetons concernés, repris pour information.
+        watchlist: entrées ``crypto_watchlist``.
+        configuration: bloc ``deblocages_tokens`` de la configuration.
+        aujourd_hui: date de référence, pour les tests.
 
     Returns:
-        Bloc marqué indisponible, avec le détail des tentatives.
+        Bloc sérialisable, une entrée par jeton suivi.
     """
+    reglages = dict(configuration or {})
+    jour = aujourd_hui or date.today()
+    jetons: list[dict[str, Any]] = []
+
+    for entree in list(watchlist or []):
+        symbole = str(entree.get("symbol", "")).upper()
+        bloc_config = dict(reglages.get(symbole) or {})
+        statut = str(bloc_config.get("statut") or "absent")
+
+        bloc: dict[str, Any] = {
+            "symbole": symbole,
+            "statut": statut,
+            "signification_statut": STATUTS_DEBLOCAGE.get(statut, "statut non répertorié"),
+            # « disponible » ne dit pas qu'un déblocage existe, mais qu'on sait
+            # quelque chose de fiable sur la question — y compris qu'il n'y a
+            # rien à surveiller.
+            "disponible": statut in {"actif", "vesting_conclu", "non_applicable"},
+            "source": bloc_config.get("source", ""),
+            "verifie_le": bloc_config.get("verifie_le", ""),
+            "description": str(bloc_config.get("description", "")).strip(),
+            "prochain_deblocage": None,
+            "jours_avant_deblocage": None,
+            "motif": "",
+        }
+
+        if statut == "absent":
+            bloc["motif"] = (
+                f"{symbole} n'est pas renseigné dans deblocages_tokens : aucune "
+                "vérification n'a été faite pour ce jeton"
+            )
+        elif statut == "inconnu":
+            bloc["motif"] = (
+                "aucune source de suivi de vesting identifiée, probablement un "
+                "lancement sans allocation verrouillée mais non confirmé"
+            )
+
+        echeance = dict(bloc_config.get("prochain_deblocage_connu") or {})
+        if echeance.get("date"):
+            try:
+                date_deblocage = datetime.strptime(str(echeance["date"]), "%Y-%m-%d").date()
+            except ValueError:
+                bloc["motif"] = f"date de déblocage illisible : {echeance['date']!r}"
+            else:
+                bloc["prochain_deblocage"] = {
+                    "date": str(date_deblocage),
+                    "jetons": echeance.get("jetons"),
+                    "part_offre_pct": echeance.get("part_offre_pct"),
+                    "description": str(echeance.get("description", "")).strip(),
+                    "motif_si_change": str(bloc_config.get("motif_si_change", "")).strip(),
+                    "passe": date_deblocage < jour,
+                }
+                bloc["jours_avant_deblocage"] = (date_deblocage - jour).days
+                if date_deblocage < jour:
+                    bloc["motif"] = (
+                        "l'échéance configurée est passée : à revérifier auprès de "
+                        "la source du projet"
+                    )
+
+        jetons.append(bloc)
+
+    connus = [j for j in jetons if j["disponible"]]
+    a_surveiller = [j for j in jetons if j["prochain_deblocage"] and not j["prochain_deblocage"]["passe"]]
+
     return {
-        "disponible": False,
-        "motif": (
-            "aucune source gratuite et fiable de calendrier de déblocage. "
-            "DefiLlama expose un point d'accès /emissions mais le réserve à son offre "
-            "payante (HTTP 402) ; CryptoRank exige une clé (HTTP 401). Vérifié le "
-            "7 septembre 2026."
-        ),
-        "jetons_concernes": list(symboles or []),
-        "sources_testees": [
-            {"nom": n, "url": u, "constat": c} for n, u, c in SOURCES_DEBLOCAGES_TESTEES
-        ],
-        "consequence": (
-            "Les échéances de déblocage ne sont pas connues du système. Un déblocage "
-            "important peut donc survenir sans que ce rapport l'ait annoncé."
+        "disponible": bool(connus),
+        "motif": "" if connus else "aucun jeton renseigné dans deblocages_tokens",
+        "n_jetons": len(jetons),
+        "n_statuts_connus": len(connus),
+        "n_echeances_a_venir": len(a_surveiller),
+        "jetons": jetons,
+        "source_calendrier": "config/universe.yaml, saisi à la main",
+        "limite_connue": (
+            "Aucune source gratuite ne publie de calendrier de déblocage : DefiLlama "
+            "réserve /emissions à son offre payante (402) et CryptoRank exige une clé "
+            "(401). Les échéances ci-dessus sont saisies à la main et ne se mettent "
+            "pas à jour seules. Un jeton au statut « inconnu » peut parfaitement "
+            "subir un déblocage sans que ce rapport l'ait annoncé."
         ),
     }
 
@@ -450,6 +538,8 @@ def analyser_positionnement(
     funding: pd.Series | None = None,
     source_funding: str = "",
     open_interest: dict[str, Any] | None = None,
+    deblocages: dict[str, Any] | None = None,
+    aujourd_hui: date | None = None,
 ) -> dict[str, Any]:
     """Produit le bloc positionnement du rapport crypto.
 
@@ -460,6 +550,8 @@ def analyser_positionnement(
         funding: historique de funding déjà obtenu, pour les tests.
         source_funding: origine de cet historique.
         open_interest: open interest déjà obtenu, pour les tests.
+        deblocages: bloc ``deblocages_tokens`` de la configuration.
+        aujourd_hui: date de référence, pour les tests.
 
     Returns:
         Bloc sérialisable.
@@ -483,6 +575,6 @@ def analyser_positionnement(
         "open_interest": open_interest,
         "positions": suivre_positions(watchlist, instantane),
         "deblocages_tokens": get_deblocages_tokens(
-            [str(e.get("symbol", "")) for e in watchlist]
+            watchlist, configuration=deblocages, aujourd_hui=aujourd_hui
         ),
     }

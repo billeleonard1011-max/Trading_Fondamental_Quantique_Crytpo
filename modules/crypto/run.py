@@ -30,7 +30,7 @@ import pandas as pd
 import yaml
 
 from dataio import crypto as crypto_io
-from modules.crypto import positioning, regime
+from modules.crypto import positioning, regime, rotation
 
 _LOG: Final = logging.getLogger("modules.crypto.run")
 
@@ -147,7 +147,11 @@ def construire_rapport(
         echecs.append("instantané CoinGecko")
 
     bloc_positionnement = positioning.analyser_positionnement(
-        reglages_positionnement, watchlist, instantane=instantane
+        reglages_positionnement,
+        watchlist,
+        instantane=instantane,
+        deblocages=dict(configuration.get("deblocages_tokens") or {}),
+        aujourd_hui=jour,
     )
     bloc_positionnement["_meta"] = _meta(
         "Binance / Bybit (dérivés) + CoinGecko (positions)", jour, jour
@@ -157,21 +161,58 @@ def construire_rapport(
     if not bloc_positionnement["open_interest"].get("disponible"):
         echecs.append("open interest")
 
+    # --- Rotation BTC / alts ------------------------------------------------
+    _LOG.info("Analyse de la rotation BTC / alts...")
+    bloc_rotation = rotation.analyser_rotation(aujourd_hui=jour)
+    bloc_rotation["_meta"] = _meta(
+        "CoinGecko (dominance, prix, capitalisations) + blockchaincenter", jour, jour
+    )
+    if not bloc_rotation.get("disponible"):
+        echecs.append("rotation BTC/alts")
+
     # --- Indicateurs structurellement absents -------------------------------
     # Remontés à la racine : enterrés dans leur bloc, ils passeraient pour un
     # oubli plutôt que pour un manque connu et documenté.
-    non_alimentes = [
-        {
-            "indicateur": "flux nets des ETF spot BTC",
-            "bloc": "regime.flux_etf",
-            "motif": bloc_regime["flux_etf"]["motif"],
-        },
-        {
-            "indicateur": "calendrier des déblocages de jetons",
-            "bloc": "positionnement.deblocages_tokens",
-            "motif": bloc_positionnement["deblocages_tokens"]["motif"],
-        },
+    non_alimentes: list[dict[str, Any]] = []
+    for actif in ("btc", "eth"):
+        flux = (bloc_regime.get(f"regime_{actif}", {}).get("metriques") or {}).get(
+            "flux_etf_spot", {}
+        )
+        if not flux.get("disponible"):
+            non_alimentes.append(
+                {
+                    "indicateur": f"flux nets des ETF spot {actif.upper()}",
+                    "bloc": f"regime.regime_{actif}.metriques.flux_etf_spot",
+                    "motif": flux.get("motif", "indisponible"),
+                }
+            )
+        detenteurs = (bloc_regime.get(f"regime_{actif}", {}).get("metriques") or {}).get(
+            "detenteurs_long_terme", {}
+        )
+        if not detenteurs.get("disponible"):
+            non_alimentes.append(
+                {
+                    "indicateur": f"comportement des détenteurs de long terme {actif.upper()}",
+                    "bloc": f"regime.regime_{actif}.metriques.detenteurs_long_terme",
+                    "motif": detenteurs.get("motif", "indisponible"),
+                }
+            )
+    inconnus = [
+        j["symbole"]
+        for j in bloc_positionnement["deblocages_tokens"].get("jetons", [])
+        if j["statut"] in {"inconnu", "absent"}
     ]
+    if inconnus:
+        non_alimentes.append(
+            {
+                "indicateur": "calendrier de déblocage de certains jetons",
+                "bloc": "positionnement.deblocages_tokens",
+                "motif": (
+                    f"statut inconnu ou non renseigné pour : {', '.join(inconnus)}. "
+                    "Aucune source gratuite ne publie ces calendriers."
+                ),
+            }
+        )
 
     rapport: dict[str, Any] = {
         "meta": {
@@ -196,6 +237,7 @@ def construire_rapport(
             ),
         },
         "regime": bloc_regime,
+        "rotation": bloc_rotation,
         "positionnement": bloc_positionnement,
     }
     return rapport
@@ -265,6 +307,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"  {actif.upper():5s} régime {bloc['regime']} (MVRV {bloc['mvrv']:.2f})")
         else:
             print(f"  {actif.upper():5s} régime indéterminé : {bloc['motif']}")
+    synthese = rapport["rotation"].get("synthese", {})
+    if synthese:
+        print(f"  Rotation : {synthese.get('etat')} ({synthese.get('n_mesures_exprimees')}/3 mesures)")
     funding = rapport["positionnement"]["funding"]
     if funding.get("disponible"):
         print(

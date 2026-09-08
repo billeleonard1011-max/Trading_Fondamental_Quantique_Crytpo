@@ -251,7 +251,9 @@ def construire_rapport(
         mots = list(entree.get("keywords") or [])
         if not mots:
             continue
-        requete = " OR ".join(f'"{m}"' for m in mots)
+        requete = news.construire_requete_gdelt(mots)
+        if not requete:
+            continue
         articles = news.fetch_gdelt(requete, timespan="24h", max_records=20, tags=["quantique"])
         actualites_par_ticker[ticker] = [a.to_dict() for a in articles]
 

@@ -163,10 +163,40 @@ quantum:
     - "QuEra"
     - "Oxford Ionics"
 
+# --- Fil d'actualité quantique ---------------------------------------------
+# Paramètres de modules/quantum/feed.py.
+feed_quantique:
+  # Étiquettes de config/feeds.yaml dont les flux alimentent le fil.
+  tags_flux: ["quantique", "quantum"]
+
+  # Fenêtre de collecte à chaque exécution. Le module est conçu pour tourner
+  # toutes les quinze à trente minutes ; une fenêtre de 24 h laisse une marge
+  # confortable en cas d'exécution manquée, la déduplication par l'historique
+  # empêchant tout doublon.
+  fenetre_heures: 24
+
+  # Nombre maximal d'items expliqués par exécution. Au-delà, les items sont
+  # publiés sans analyse : mieux vaut un fil complet dont une partie attend
+  # son explication qu'un fil tronqué.
+  max_analyses_par_execution: 8
+
+  # Entités à ne jamais faire apparaître dans le fil.
+  #
+  # Pasqal sert d'exemple de calibration au style d'explication attendu, dans
+  # la documentation de modules/quantum. Elle ne fait pas partie des positions
+  # suivies : la voir surgir dans le fil laisserait croire qu'elle est suivie.
+  # Retirer cette entrée le jour où le titre entre dans quantum_watchlist.
+  exclusions:
+    - "Pasqal"
+    - "PSQL"
+
 # Requête GDELT du secteur, utilisée par modules/quantum/industry.py.
 quantum_industry_watch:
   name: "Industrie quantique - financements et contrats"
-  query: '("quantum computing" AND (funding OR contract OR investment OR "government award" OR DARPA OR grant))'
+  # Syntaxe GDELT : les parenthèses ne sont admises qu'autour d'alternatives
+  # OR. Parenthéser un AND fait répondre « Parentheses may only be used around
+  # OR'd statements ». La juxtaposition vaut AND implicite.
+  query: '"quantum computing" (funding OR contract OR investment OR DARPA OR grant)'
 
 # --- Positions crypto -------------------------------------------------------
 # Les identifiants sont ceux de CoinGecko, pas les symboles boursiers.
@@ -225,6 +255,75 @@ crypto_watchlist:
     position: true
 
 # Paramètres de modules/crypto.
+# --- Déblocages de jetons ---------------------------------------------------
+# Aucune source gratuite ne publie de calendrier de déblocage : DefiLlama
+# réserve /emissions à son offre payante (HTTP 402) et CryptoRank exige une
+# clé (401). Les échéances connues sont donc saisies ici, à la main, sur le
+# modèle du calendrier FOMC : source officielle citée, révisable quand le
+# projet republie un changement.
+#
+# « statut » prend l'une de ces cinq valeurs, et la distinction compte :
+#   actif         : un calendrier existe et une échéance est connue
+#   vesting_conclu: le calendrier est arrivé à son terme
+#   non_applicable: le jeton n'a pas de mécanisme de vesting
+#   inconnu       : aucune source identifiée — ce n'est pas « pas de déblocage »
+#   absent        : jeton non renseigné ici
+#
+# « inconnu » et « non_applicable » ne doivent jamais être confondus : le
+# premier est une ignorance, le second une propriété du jeton.
+deblocages_tokens:
+  ASTER:
+    statut: actif
+    source: "https://docs.asterdex.com/usdaster-token/tokenomics"
+    verifie_le: "2026-09-08"
+    prochain_deblocage_connu:
+      date: "2027-09-17"
+      jetons: 400000000
+      part_offre_pct: 5.0
+      description: >-
+        400 millions de jetons, soit 5 % de l'offre. Le déblocage devait
+        commencer le 17 septembre 2026 au rythme de 10 millions par mois ;
+        le 1er septembre 2026, le projet l'a reporté d'un an, au 17 septembre
+        2027.
+    motif_si_change: >-
+      Échéance reportée une fois déjà. Si la documentation du projet publie un
+      nouveau calendrier, corriger cette entrée à la main : aucune collecte
+      automatique ne la mettra à jour.
+
+  JUP:
+    statut: vesting_conclu
+    source: "vote de gouvernance « Jupiter Goes Green » (2026)"
+    verifie_le: "2026-09-08"
+    description: >-
+      Le calendrier de vesting s'est en grande partie achevé à la suite du
+      vote de gouvernance. Il n'y a pas d'échéance à venir à surveiller, ce
+      qui est une information en soi et non une absence de donnée.
+
+  TAO:
+    statut: non_applicable
+    source: "conception du protocole : émission continue avec halving"
+    verifie_le: "2026-09-08"
+    description: >-
+      Pas de mécanisme de vesting applicable : l'émission est continue, par
+      halving à la manière du bitcoin, sans allocation verrouillée pour des
+      investisseurs. Ce n'est pas un échec de collecte, c'est une propriété
+      du jeton.
+
+  KNTQ:
+    statut: inconnu
+    verifie_le: "2026-09-08"
+    description: >-
+      Aucune source de suivi de vesting identifiée. Probablement un lancement
+      sans allocation verrouillée, mais non confirmé : l'absence d'échéance
+      connue ne vaut pas absence de déblocage.
+
+  PONS:
+    statut: inconnu
+    verifie_le: "2026-09-08"
+    description: >-
+      Aucune source de suivi de vesting identifiée. Probablement un lancement
+      sans allocation verrouillée, mais non confirmé.
+
 crypto_regime:
   # MVRV : rapport entre capitalisation de marché et capitalisation réalisée.
   # Source retenue : API Community de Coin Metrics, métrique CapMVRVCur,

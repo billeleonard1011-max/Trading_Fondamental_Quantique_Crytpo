@@ -193,25 +193,74 @@ def test_seuil_par_valeur_respecte() -> None:
 
 
 def test_signaux_contradictoires_listes_sans_arbitrage() -> None:
-    """Chute du titre et déclaration d'initié coexistent sans être départagées.
+    """Chute du titre et achat d'initié coexistent sans être départagés.
 
     C'est le cas Pasqal : le titre s'effondre pendant qu'un administrateur
-    dépose un Form 4. Le module doit poser les deux faits côte à côte.
+    déclare un achat. Le module doit poser les deux faits côte à côte, en
+    nommant le déposant et son rôle.
     """
+    achat = {
+        "identite": {
+            "nom": "Bpifrance Investissement",
+            "role": "administrateur",
+            "titre_fonction": None,
+        },
+        "sens": "achat",
+        "nombre_titres": 1_300_000,
+        "valeur_totale_usd": 10_348_000.0,
+        "date_transaction": "2026-08-28",
+        "libelle_code": "achat sur le marché",
+    }
     mouvements = moves.detecter_mouvements(
         _scenario_pasqal(),
         _watchlist(["PSQL", "RGTI", "QBTS", "IONQ"]),
         _CONFIG,
         variation_taux_reels=0.07,
-        inities_par_ticker={"PSQL": {"disponible": True, "n_transactions": 1}},
+        inities_par_ticker={"PSQL": {"disponible": True, "transactions": [achat]}},
     )
     psql = next(m for m in mouvements if m.ticker == "PSQL")
     assert len(psql.signaux_contradictoires) == 1
 
     signal = psql.signaux_contradictoires[0]
-    assert "initié" in signal["nature"]
-    # Le texte doit constater, pas conclure.
-    assert "signalées, pas interprétées" in signal["constat"]
+    assert "achat d'initié" in signal["nature"]
+    # L'identité et le rôle sont cités.
+    assert "Bpifrance Investissement" in signal["constat"]
+    assert "administrateur" in signal["constat"]
+    assert "1 300 000" in signal["constat"]
+    # Le texte constate, il ne conclut pas.
+    assert "rapporté tel quel" in signal["constat"]
+    assert moves.verifier_absence_recommandation(psql.to_dict()) == []
+
+
+def test_identite_manquante_se_rabat_sur_le_montant() -> None:
+    """Sans identité, l'opération est décrite par son sens et son montant."""
+    achat_anonyme = {
+        "identite": None,
+        "sens": "achat",
+        "nombre_titres": 1_300_000,
+        "valeur_totale_usd": 10_348_000.0,
+        "date_transaction": "2026-08-28",
+    }
+    signaux = moves._signaux_contradictoires(-19.7, {"transactions": [achat_anonyme]}, [])
+    assert len(signaux) == 1
+    assert "un déposant non identifié" in signaux[0]["constat"]
+    assert "1 300 000" in signaux[0]["constat"]
+
+
+def test_operation_de_sens_indetermine_nest_pas_une_contradiction() -> None:
+    """Un exercice d'options n'est pas un contrepoint à une baisse.
+
+    Ces opérations ne traduisent aucune décision de marché : les présenter
+    comme un signal contraire serait trompeur.
+    """
+    exercice = {
+        "identite": {"nom": "Un dirigeant", "role": "dirigeant"},
+        "sens": "indetermine",
+        "code_transaction": "M",
+        "libelle_code": "exercice d'un instrument dérivé",
+        "nombre_titres": 25_000,
+    }
+    assert moves._signaux_contradictoires(-19.7, {"transactions": [exercice]}, []) == []
 
 
 def test_actualite_non_remontee_sur_un_mouvement_sectoriel() -> None:

@@ -20,7 +20,8 @@ Exécution :
 
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any
 
 import pandas as pd
@@ -182,16 +183,85 @@ def test_stablecoins_charge_inexploitable() -> None:
         assert resultat["motif"]
 
 
-def test_flux_etf_declares_indisponibles_avec_les_tentatives() -> None:
-    """L'absence de source est déclarée, avec la liste de ce qui a été essayé."""
-    resultat = regime.get_flux_etf()
+def test_flux_etf_lus_depuis_la_source_directe() -> None:
+    """Les flux ETF sont désormais mesurés, plus déclarés indisponibles.
+
+    Farside, réinterrogé avec des en-têtes de navigateur, répond et publie le
+    tableau réel. Le test vérifie l'analyse de ce tableau sur un extrait figé,
+    y compris la convention comptable des parenthèses pour les sorties.
+    """
+    from dataio import etf_flows
+
+    html = """
+    <table>
+      <tr><th></th><th>IBIT</th><th>FBTC</th><th>Total</th></tr>
+      <tr><td>03 Sep 2026</td><td>454.0</td><td>74.4</td><td>730.8</td></tr>
+      <tr><td>04 Sep 2026</td><td>117.4</td><td>(20.1)</td><td>174.6</td></tr>
+      <tr><td>Total</td><td>64056</td><td>1</td><td>55686</td></tr>
+      <tr><td>Average</td><td>96.3</td><td>1</td><td>83.7</td></tr>
+    </table>
+    """
+    donnees, motif = etf_flows.tenter_farside(html=html)
+    assert motif == ""
+    assert donnees is not None
+    # Les lignes d'agrégat ne sont pas des dates : elles sont écartées.
+    assert donnees["n_jours"] == 2
+
+    derniere = donnees["lignes"][-1]
+    assert derniere["date"] == "2026-09-04"
+    assert derniere["flux_net_usd"] == pytest.approx(174.6e6)
+    # Les parenthèses valent un signe négatif.
+    assert derniere["detail_par_etf_usd"]["FBTC"] == pytest.approx(-20.1e6)
+
+
+def test_flux_etf_repli_sur_actifs_nets(tmp_path: Path) -> None:
+    """Sans Farside, le repli neutralise l'effet du prix sur l'actif net."""
+    from dataio import etf_flows
+
+    cache = tmp_path / "aum.json"
+    # Premier passage : rien à comparer, mais l'instantané est enregistré.
+    premier = etf_flows.get_flux_etf(
+        "btc", prix_btc=80_000.0, chemin_cache=cache,
+        aujourd_hui=date(2026, 9, 7), actifs_courants={"IBIT": 60e9},
+        essayer_farside=False,
+    )
+    assert premier["disponible"] is False
+    assert "aucun instantané antérieur" in premier["motif"]
+
+    # Prix stable et actif net stable : le flux doit être quasi nul.
+    stable = etf_flows.get_flux_etf(
+        "btc", prix_btc=80_000.0, chemin_cache=cache,
+        aujourd_hui=date(2026, 9, 8), actifs_courants={"IBIT": 60e9},
+        essayer_farside=False,
+    )
+    assert stable["disponible"] is True
+    assert stable["flux_net_usd"] == pytest.approx(0.0, abs=1.0)
+
+    # Prix stable et actif net en forte hausse : flux nettement positif.
+    hausse = etf_flows.get_flux_etf(
+        "btc", prix_btc=80_000.0, chemin_cache=cache,
+        aujourd_hui=date(2026, 9, 9), actifs_courants={"IBIT": 66e9},
+        essayer_farside=False,
+    )
+    assert hausse["flux_net_usd"] == pytest.approx(6e9, rel=1e-6)
+    assert hausse["est_approximation"] is True
+
+
+def test_flux_etf_repli_refuse_sans_prix(tmp_path: Path) -> None:
+    """Sans prix des deux côtés, une variation d'actif net n'est pas un flux."""
+    from dataio import etf_flows
+
+    cache = tmp_path / "aum.json"
+    etf_flows.get_flux_etf(
+        "btc", prix_btc=None, chemin_cache=cache, aujourd_hui=date(2026, 9, 7),
+        actifs_courants={"IBIT": 60e9}, essayer_farside=False,
+    )
+    resultat = etf_flows.get_flux_etf(
+        "btc", prix_btc=80_000.0, chemin_cache=cache, aujourd_hui=date(2026, 9, 8),
+        actifs_courants={"IBIT": 66e9}, essayer_farside=False,
+    )
     assert resultat["disponible"] is False
-    assert resultat["flux_net_usd"] is None
-    assert resultat["alimente_le_regime"] is False
-    assert len(resultat["sources_testees"]) >= 4
-    # Le motif doit nommer les échecs constatés, pas rester vague.
-    for nom in ("CoinGlass", "SoSoValue", "DefiLlama", "Farside"):
-        assert nom in resultat["motif"]
+    assert "effet de marché ne peut pas être neutralisé" in resultat["motif"]
 
 
 def test_analyse_complete_sans_reseau() -> None:
@@ -203,12 +273,30 @@ def test_analyse_complete_sans_reseau() -> None:
             "eth": {"disponible": True, "valeur": 1.12},
         },
         stablecoins={"disponible": True, "croissance_pct": 1.4},
+        prix_realise_par_actif={
+            "btc": {"disponible": True, "prix_realise_usd": 53_178.0},
+            "eth": {"disponible": True, "prix_realise_usd": 2_254.0},
+        },
+        flux_etf_par_actif={
+            "btc": {"disponible": True, "flux_net_usd": 174.6e6},
+            "eth": {"disponible": True, "flux_net_usd": 25.9e6},
+        },
     )
     assert resultat["disponible"]
     assert resultat["regimes"]["btc"]["regime"] == regime.ACCUMULATION
     assert resultat["regimes"]["eth"]["regime"] == regime.ACCUMULATION
-    assert resultat["flux_etf"]["disponible"] is False
     assert "prévision" in resultat["avertissement"]
+
+    # Les deux actifs sont aussi exposés à la racine, de structure identique.
+    for actif in ("btc", "eth"):
+        bloc = resultat[f"regime_{actif}"]
+        assert bloc["actif"] == actif
+        assert bloc["regime"] == regime.ACCUMULATION
+        assert bloc["invalidation"]["condition"].strip()
+
+    # Les seuils viennent du bitcoin : l'ether doit porter l'avertissement.
+    assert resultat["regime_btc"]["avertissement_calibrage"] == ""
+    assert "calibrées sur l'histoire de BTC" in resultat["regime_eth"]["avertissement_calibrage"]
 
 
 def test_un_actif_muet_ne_fait_pas_tomber_lautre() -> None:
@@ -220,6 +308,8 @@ def test_un_actif_muet_ne_fait_pas_tomber_lautre() -> None:
             "eth": {"disponible": False, "motif": "métrique absente"},
         },
         stablecoins={"disponible": False},
+        prix_realise_par_actif={"btc": {"disponible": False}, "eth": {"disponible": False}},
+        flux_etf_par_actif={"btc": {"disponible": False}, "eth": {"disponible": False}},
     )
     assert resultat["regimes"]["btc"]["regime"] == regime.EXPANSION
     assert resultat["regimes"]["eth"]["disponible"] is False
@@ -311,14 +401,75 @@ def test_deux_sources_muettes_ne_plantent_pas() -> None:
     assert positioning.analyser_funding(funding, source)["disponible"] is False
 
 
-def test_deblocages_declares_indisponibles() -> None:
-    """L'absence de calendrier de déblocage est déclarée, pas devinée."""
-    resultat = positioning.get_deblocages_tokens(["JUP", "TAO"])
-    assert resultat["disponible"] is False
-    assert "402" in resultat["motif"] and "401" in resultat["motif"]
-    assert resultat["jetons_concernes"] == ["JUP", "TAO"]
-    # La conséquence du manque doit être écrite, pas laissée à deviner.
-    assert "sans que ce rapport l'ait annoncé" in resultat["consequence"]
+def test_cinq_statuts_de_deblocage_distincts() -> None:
+    """Chacun des cinq statuts sort distinctement, sans faux calendrier.
+
+    La distinction entre « inconnu » et « non_applicable » est le cœur du
+    test : le premier dit qu'on ignore, le second qu'il n'y a rien à savoir.
+    Les confondre rassurerait à tort sur un jeton dont on ne sait rien.
+    """
+    watchlist = [
+        {"symbol": s} for s in ("ASTER", "JUP", "TAO", "KNTQ", "PONS", "LINK")
+    ]
+    configuration = {
+        "ASTER": {
+            "statut": "actif",
+            "source": "https://docs.asterdex.com/usdaster-token/tokenomics",
+            "prochain_deblocage_connu": {
+                "date": "2027-09-17",
+                "jetons": 400_000_000,
+                "part_offre_pct": 5.0,
+                "description": "Report d'un an annoncé le 1er septembre 2026.",
+            },
+            "motif_si_change": "Échéance déjà reportée une fois.",
+        },
+        "JUP": {"statut": "vesting_conclu", "description": "Calendrier achevé."},
+        "TAO": {"statut": "non_applicable", "description": "Émission continue par halving."},
+        "KNTQ": {"statut": "inconnu"},
+        "PONS": {"statut": "inconnu"},
+    }
+    resultat = positioning.get_deblocages_tokens(
+        watchlist, configuration, aujourd_hui=date(2026, 9, 8)
+    )
+    par_symbole = {j["symbole"]: j for j in resultat["jetons"]}
+
+    # Les cinq statuts attendus, tous différents.
+    assert par_symbole["ASTER"]["statut"] == "actif"
+    assert par_symbole["JUP"]["statut"] == "vesting_conclu"
+    assert par_symbole["TAO"]["statut"] == "non_applicable"
+    assert par_symbole["KNTQ"]["statut"] == "inconnu"
+    assert par_symbole["PONS"]["statut"] == "inconnu"
+    # Un jeton non renseigné n'est pas « sans déblocage », il est « absent ».
+    assert par_symbole["LINK"]["statut"] == "absent"
+
+    # Seul ASTER porte une échéance ; aucun faux calendrier ailleurs.
+    assert par_symbole["ASTER"]["prochain_deblocage"]["date"] == "2027-09-17"
+    assert par_symbole["ASTER"]["prochain_deblocage"]["jetons"] == 400_000_000
+    assert par_symbole["ASTER"]["jours_avant_deblocage"] == 374
+    for symbole in ("JUP", "TAO", "KNTQ", "PONS", "LINK"):
+        assert par_symbole[symbole]["prochain_deblocage"] is None
+        assert par_symbole[symbole]["jours_avant_deblocage"] is None
+
+    # « inconnu » n'est pas « disponible » ; « non_applicable » l'est, parce
+    # qu'on sait qu'il n'y a rien à surveiller.
+    assert par_symbole["KNTQ"]["disponible"] is False
+    assert par_symbole["TAO"]["disponible"] is True
+    assert par_symbole["JUP"]["disponible"] is True
+    assert "non confirmé" in par_symbole["PONS"]["motif"]
+    assert resultat["n_echeances_a_venir"] == 1
+
+
+def test_echeance_de_deblocage_passee_signalee() -> None:
+    """Une échéance dépassée est signalée pour révision, pas laissée telle quelle."""
+    resultat = positioning.get_deblocages_tokens(
+        [{"symbol": "ASTER"}],
+        {"ASTER": {"statut": "actif", "prochain_deblocage_connu": {"date": "2026-01-01"}}},
+        aujourd_hui=date(2026, 9, 8),
+    )
+    jeton = resultat["jetons"][0]
+    assert jeton["prochain_deblocage"]["passe"] is True
+    assert "à revérifier" in jeton["motif"]
+    assert resultat["n_echeances_a_venir"] == 0
 
 
 def test_positions_suivies_et_jeton_absent() -> None:

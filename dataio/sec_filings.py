@@ -23,6 +23,34 @@ Ce module rapporte ces faits. Il ne les interprète pas, et surtout il ne
 qualifie jamais un achat d'initié de bon ou de mauvais signe : un dirigeant
 achète pour des raisons qu'aucune donnée publique ne révèle.
 
+Lecture des Form 4 : extraction complète, puis dégradation par paliers
+----------------------------------------------------------------------
+Le schéma ``ownershipDocument`` expose l'identité et le rôle du déclarant
+(``rptOwnerName``, ``isDirector``, ``isOfficer``, ``isTenPercentOwner``,
+``officerTitle``) et le détail de chaque opération (``transactionCode``,
+``transactionShares``, ``transactionPricePerShare``). Le module tente
+l'extraction complète, puis dégrade sans jamais rien fabriquer :
+
+1. identité illisible mais opération lisible → ``identite`` à ``None``,
+   opération conservée, motif renseigné ;
+2. sens de l'opération illisible → ``sens`` à ``indetermine``, la référence
+   et le lien du dépôt restent publiés ;
+3. rien d'exploitable → aucune transaction, motif explicite.
+
+Un dépôt porte souvent **plusieurs** opérations : l'exercice d'options suivi
+de la revente des titres en est le cas courant. Elles sont toutes renvoyées.
+
+Sur le code d'opération, et pourquoi ``sens`` reste souvent indéterminé
+----------------------------------------------------------------------
+Seuls ``P`` (achat sur le marché) et ``S`` (vente sur le marché) traduisent
+une décision discrétionnaire. Les autres codes n'en sont pas : ``M`` est
+l'exercice d'un instrument dérivé, ``A`` une attribution, ``F`` une retenue
+fiscale, ``G`` une donation. Les classer en « achat » parce que des titres
+sont acquis serait un contresens — un exercice d'options programmé n'a pas
+le sens d'un achat en séance. Ces opérations sortent donc en
+``indetermine``, avec leur ``code_transaction`` et son libellé, pour que le
+lecteur juge sur pièces.
+
 Sur le *runway* : pourquoi seulement XBRL
 ------------------------------------------
 Le calcul de trésorerie restante ne s'appuie que sur les données structurées
@@ -90,13 +118,34 @@ CONCEPTS_CONSOMMATION: Final[tuple[str, ...]] = (
 #: Durée d'un trimestre, en jours, pour ramener un flux à une cadence.
 JOURS_PAR_TRIMESTRE: Final[float] = 91.25
 
+#: Libellé des codes d'opération des Form 4, tels que la SEC les définit.
+#: Seuls P et S sont des décisions de marché ; les autres sont mécaniques.
+CODES_TRANSACTION: Final[dict[str, str]] = {
+    "P": "achat sur le marché",
+    "S": "vente sur le marché",
+    "M": "exercice d'un instrument dérivé",
+    "A": "attribution ou octroi par l'émetteur",
+    "F": "titres retenus pour l'impôt",
+    "G": "donation",
+    "D": "cession à l'émetteur",
+    "C": "conversion d'un instrument dérivé",
+    "X": "exercice d'une option d'achat",
+    "J": "opération de nature autre",
+    "V": "opération déclarée volontairement par anticipation",
+}
+
+#: Codes traduisibles en un sens de marché. Les autres restent indéterminés.
+SENS_PAR_CODE: Final[dict[str, str]] = {"P": "achat", "S": "vente"}
+
 __all__ = [
     "Filing",
     "InsiderTransaction",
+    "CODES_TRANSACTION",
     "get_cik",
     "get_recent_filings",
     "estimate_cash_runway",
     "detect_insider_activity",
+    "parser_form4",
 ]
 
 
@@ -494,41 +543,288 @@ def estimate_cash_runway(
 # ---------------------------------------------------------------------------
 @dataclass(slots=True, frozen=True)
 class InsiderTransaction:
-    """Un dépôt Form 4, sans interprétation.
+    """Une opération déclarée dans un Form 4.
 
-    Le sens d'une transaction d'initié n'est pas lisible depuis le formulaire
-    seul : une vente peut être un plan programmé, un achat une souscription
-    contractuelle. Le module rapporte donc le fait et sa date, jamais un avis.
+    Le sens d'une opération d'initié n'est pas interprété : une vente peut
+    être un plan programmé, un achat une souscription contractuelle. Le
+    module rapporte le fait, sa date et son montant, jamais un avis.
 
     Attributes:
-        date_depot: date du dépôt.
-        age_jours: ancienneté en jours.
-        deposant: nom du déclarant, quand il est lisible.
-        role: fonction déclarée, si disponible.
+        ticker: symbole de l'émetteur.
+        date_transaction: date de l'opération, à défaut celle du dépôt.
+        identite: nom et rôle du déclarant. ``None`` si illisible.
         sens: ``achat``, ``vente`` ou ``indetermine``.
-        accession: identifiant du dépôt.
-        url: adresse de consultation.
+        code_transaction: code brut de la SEC (``P``, ``S``, ``M``...).
+        libelle_code: traduction du code en français.
+        nombre_titres: quantité déclarée.
+        prix_unitaire: prix par titre.
+        valeur_totale_usd: produit des deux précédents, quand ils existent.
+        url_depot: adresse de consultation du dépôt.
+        motif: raison d'une extraction partielle, vide sinon.
     """
 
-    date_depot: date
-    age_jours: int
-    deposant: str
-    role: str
+    ticker: str
+    date_transaction: str
+    identite: dict[str, Any] | None
     sens: str
-    accession: str
-    url: str
+    url_depot: str
+    code_transaction: str = ""
+    libelle_code: str = ""
+    nombre_titres: int | None = None
+    prix_unitaire: float | None = None
+    valeur_totale_usd: float | None = None
+    motif: str = ""
 
     def to_dict(self) -> dict[str, Any]:
-        """Sérialise la transaction pour le rapport JSON."""
+        """Sérialise l'opération pour le rapport JSON."""
         return {
-            "date_depot": self.date_depot.strftime("%Y-%m-%d"),
-            "age_jours": self.age_jours,
-            "deposant": self.deposant,
-            "role": self.role,
+            "ticker": self.ticker,
+            "date_transaction": self.date_transaction,
+            "identite": None if self.identite is None else dict(self.identite),
             "sens": self.sens,
-            "accession": self.accession,
-            "url": self.url,
+            "code_transaction": self.code_transaction,
+            "libelle_code": self.libelle_code,
+            "nombre_titres": self.nombre_titres,
+            "prix_unitaire": self.prix_unitaire,
+            "valeur_totale_usd": self.valeur_totale_usd,
+            "url_depot": self.url_depot,
+            "motif": self.motif,
         }
+
+
+def _texte_xml(noeud: Any, chemin: str) -> str | None:
+    """Lit le texte d'un sous-élément, en tolérant son absence.
+
+    Le schéma des Form 4 enveloppe la plupart des champs dans un sous-élément
+    ``<value>``, mais pas tous, et pas dans toutes les versions du schéma. La
+    fonction essaie donc le chemin tel quel puis suffixé de ``/value``.
+
+    Args:
+        noeud: élément XML de départ.
+        chemin: chemin relatif recherché.
+
+    Returns:
+        Le texte, ou ``None`` s'il est absent ou vide.
+    """
+    if noeud is None:
+        return None
+    for candidat in (chemin, f"{chemin}/value"):
+        element = noeud.find(candidat)
+        if element is not None and element.text and element.text.strip():
+            return element.text.strip()
+    return None
+
+
+def _identite_declarant(racine: Any) -> tuple[dict[str, Any] | None, str]:
+    """Extrait le nom et le rôle du déclarant.
+
+    Args:
+        racine: racine du document ``ownershipDocument``.
+
+    Returns:
+        Couple ``(identite, motif)``. ``identite`` est ``None`` si le nom est
+        introuvable, et le motif dit alors pourquoi.
+    """
+    proprietaire = racine.find("reportingOwner")
+    if proprietaire is None:
+        return None, "bloc reportingOwner absent du dépôt"
+
+    nom = _texte_xml(proprietaire, "reportingOwnerId/rptOwnerName")
+    if not nom:
+        return None, "nom du déclarant absent du dépôt"
+
+    relation = proprietaire.find("reportingOwnerRelationship")
+    role: str | None = None
+    titre: str | None = None
+    if relation is not None:
+        def _vrai(champ: str) -> bool:
+            """Un drapeau du schéma vaut « 1 » ou « true » selon les dépôts."""
+            valeur = _texte_xml(relation, champ)
+            return str(valeur).strip().lower() in {"1", "true"} if valeur else False
+
+        # Ordre de priorité : le rôle le plus engageant l'emporte quand
+        # plusieurs drapeaux sont levés — un dirigeant qui siège au conseil
+        # est d'abord un administrateur au regard de la déclaration.
+        if _vrai("isDirector"):
+            role = "administrateur"
+        elif _vrai("isOfficer"):
+            role = "dirigeant"
+        elif _vrai("isTenPercentOwner"):
+            role = "actionnaire_10pct"
+        titre = _texte_xml(relation, "officerTitle")
+
+    return {"nom": nom, "role": role, "titre_fonction": titre}, ""
+
+
+def _nombre(texte: str | None) -> float | None:
+    """Convertit un champ numérique du dépôt, en tolérant les séparateurs.
+
+    Args:
+        texte: valeur brute.
+
+    Returns:
+        La valeur, ou ``None`` si elle n'est pas lisible.
+    """
+    if texte is None:
+        return None
+    try:
+        return float(str(texte).replace(",", "").strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def parser_form4(
+    xml_brut: str | bytes,
+    ticker: str = "",
+    url_depot: str = "",
+    date_depot: str = "",
+) -> tuple[list[InsiderTransaction], str]:
+    """Extrait les opérations d'un Form 4, avec dégradation par paliers.
+
+    Args:
+        xml_brut: contenu du fichier ``form4.xml``.
+        ticker: symbole de l'émetteur, repris dans chaque opération.
+        url_depot: adresse de consultation, reprise dans chaque opération.
+        date_depot: date du dépôt, utilisée si l'opération n'en porte pas.
+
+    Returns:
+        Couple ``(transactions, motif)``. La liste est vide quand rien n'est
+        exploitable, et le motif dit alors pourquoi. Elle contient une entrée
+        par opération déclarée : un même dépôt en porte souvent plusieurs.
+    """
+    import xml.etree.ElementTree as ET
+
+    texte = xml_brut.decode("utf-8", "replace") if isinstance(xml_brut, bytes) else str(xml_brut)
+
+    # Tous les dépôts ne publient pas un fichier XML nu. Quand le document
+    # séparé est absent, on récupère la soumission complète, qui est un
+    # conteneur SGML : en-têtes EDGAR, puis le XML entre balises <XML>.
+    # ElementTree refuse ce préambule. On isole donc le document lui-même,
+    # ce qui traite d'un coup les deux formes rencontrées sur EDGAR.
+    debut = texte.find("<ownershipDocument")
+    if debut != -1:
+        fin = texte.rfind("</ownershipDocument>")
+        if fin != -1:
+            texte = texte[debut : fin + len("</ownershipDocument>")]
+
+    try:
+        racine = ET.fromstring(texte)
+    except ET.ParseError as exc:
+        return [], f"XML du Form 4 illisible ({exc})"
+
+    identite, motif_identite = _identite_declarant(racine)
+    symbole = ticker or _texte_xml(racine, "issuer/issuerTradingSymbol") or ""
+    date_document = _texte_xml(racine, "periodOfReport") or date_depot
+
+    transactions: list[InsiderTransaction] = []
+    for balise in ("nonDerivativeTransaction", "derivativeTransaction"):
+        for operation in racine.iter(balise):
+            code = (_texte_xml(operation, "transactionCoding/transactionCode") or "").strip().upper()
+            titres = _nombre(_texte_xml(operation, "transactionAmounts/transactionShares"))
+            prix = _nombre(_texte_xml(operation, "transactionAmounts/transactionPricePerShare"))
+            date_operation = _texte_xml(operation, "transactionDate") or date_document or ""
+
+            # Palier 2 : sans code lisible, l'opération est publiée mais son
+            # sens reste indéterminé plutôt que deviné.
+            sens = SENS_PAR_CODE.get(code, "indetermine")
+            valeur = titres * prix if (titres is not None and prix) else None
+
+            motifs: list[str] = []
+            if motif_identite:
+                motifs.append(motif_identite)
+            if not code:
+                motifs.append("code d'opération absent : sens indéterminé")
+            elif sens == "indetermine":
+                motifs.append(
+                    f"code {code} — {CODES_TRANSACTION.get(code, 'code non répertorié')} : "
+                    "ce n'est pas une décision d'achat ou de vente sur le marché"
+                )
+            if titres is None:
+                motifs.append("nombre de titres illisible")
+
+            transactions.append(
+                InsiderTransaction(
+                    ticker=symbole,
+                    date_transaction=date_operation,
+                    identite=identite,
+                    sens=sens,
+                    code_transaction=code,
+                    libelle_code=CODES_TRANSACTION.get(code, "code non répertorié" if code else ""),
+                    nombre_titres=None if titres is None else int(round(titres)),
+                    prix_unitaire=prix,
+                    valeur_totale_usd=valeur,
+                    url_depot=url_depot,
+                    motif=" ; ".join(motifs),
+                )
+            )
+
+    if not transactions:
+        # Palier 3 : le dépôt existe mais aucune opération n'en sort. On
+        # renvoie tout de même une entrée de référence, pour que le dépôt
+        # reste visible avec son lien.
+        return (
+            [
+                InsiderTransaction(
+                    ticker=symbole,
+                    date_transaction=date_document or date_depot,
+                    identite=identite,
+                    sens="indetermine",
+                    url_depot=url_depot,
+                    motif=(
+                        "aucune opération exploitable dans le dépôt"
+                        + (f" ; {motif_identite}" if motif_identite else "")
+                    ),
+                )
+            ],
+            "aucune opération exploitable : seule la référence du dépôt est publiée",
+        )
+
+    return transactions, ""
+
+
+def _telecharger_form4(cik: str, accession: str) -> tuple[str | None, str]:
+    """Télécharge le XML d'un Form 4 depuis les archives EDGAR.
+
+    Args:
+        cik: CIK sur dix chiffres.
+        accession: numéro d'accession avec tirets.
+
+    Returns:
+        Couple ``(contenu, motif)``.
+    """
+    sans_tirets = accession.replace("-", "")
+    base = f"{URL_ARCHIVES}/{int(cik)}/{sans_tirets}"
+    # Le nom du document varie : « form4.xml » est le cas courant, mais
+    # certains déposants nomment le fichier autrement. On lit donc l'index
+    # du dépôt pour retrouver le XML réellement présent.
+    # « form4.xml » et « ownership.xml » sont les deux noms courants ; la
+    # soumission complète .txt sert de dernier recours et sera dégagée de son
+    # enveloppe SGML par parser_form4.
+    for url in (
+        f"{base}/form4.xml",
+        f"{base}/ownership.xml",
+        f"{base}/{accession}.txt",
+    ):
+        try:
+            reponse = requests.get(url, timeout=TIMEOUT, headers=_entetes())
+            if reponse.status_code == 200 and "<ownershipDocument" in reponse.text:
+                return reponse.text, ""
+        except requests.RequestException as exc:
+            _LOG.debug("Form 4 injoignable sur %s : %s", url, exc)
+            continue
+
+    try:
+        index = requests.get(f"{base}/", timeout=TIMEOUT, headers=_entetes())
+        index.raise_for_status()
+        noms = re.findall(r'href="[^"]*?/([A-Za-z0-9_.\-]+\.xml)"', index.text)
+        for nom in dict.fromkeys(noms):
+            reponse = requests.get(f"{base}/{nom}", timeout=TIMEOUT, headers=_entetes())
+            if reponse.status_code == 200 and "<ownershipDocument" in reponse.text:
+                return reponse.text, ""
+    except requests.RequestException as exc:
+        return None, f"index du dépôt injoignable ({type(exc).__name__})"
+
+    return None, "aucun document XML de Form 4 trouvé dans le dépôt"
 
 
 def detect_insider_activity(
@@ -536,24 +832,25 @@ def detect_insider_activity(
     days: int = 14,
     aujourd_hui: date | None = None,
     submissions: dict[str, Any] | None = None,
+    ticker: str = "",
+    xml_par_accession: dict[str, str] | None = None,
 ) -> dict[str, Any]:
-    """Relève les Form 4 récents d'une société.
-
-    Le sens de la transaction n'est pas extrait du document lui-même : le
-    Form 4 est un XML dont la structure varie, et en lire le détail
-    demanderait un analyseur dédié. Le module signale donc l'existence et la
-    date des dépôts, et laisse le lien pour consultation. ``sens`` reste
-    ``indetermine`` tant que cet analyseur n'existe pas — c'est un manque
-    déclaré, pas une valeur devinée.
+    """Relève et détaille les Form 4 récents d'une société.
 
     Args:
         cik: identifiant de la société.
         days: profondeur de recherche, en jours.
         aujourd_hui: date de référence, pour les tests.
         submissions: charge déjà obtenue, pour les tests.
+        ticker: symbole, repris dans les opérations.
+        xml_par_accession: contenus XML déjà obtenus, indexés par numéro
+            d'accession. Fournis, aucun appel réseau n'est effectué — c'est
+            ce qui rend l'analyse testable hors ligne.
 
     Returns:
-        Dictionnaire avec ``disponible``, le nombre de dépôts et leur détail.
+        Dictionnaire avec ``disponible``, le nombre d'opérations et leur
+        détail. Chaque opération porte toujours un ``sens``, fût-il
+        ``indetermine``.
     """
     identifiant = _normaliser_cik(cik)
     reference = aujourd_hui or date.today()
@@ -565,6 +862,7 @@ def detect_insider_activity(
             "disponible": False,
             "motif": "historique des dépôts SEC injoignable",
             "cik": identifiant,
+            "n_depots": 0,
             "n_transactions": 0,
             "transactions": [],
         }
@@ -573,34 +871,80 @@ def detect_insider_activity(
         identifiant, types=["4"], days=days, aujourd_hui=reference, submissions=submissions
     )
     nom_societe = str(submissions.get("name", ""))
+    symbole = ticker or (submissions.get("tickers") or [""])[0]
 
-    transactions = [
-        InsiderTransaction(
-            date_depot=d.date_depot,
-            age_jours=d.age_jours,
-            # Le nom du déclarant n'est pas dans l'index des dépôts : il est
-            # dans le document. Faute de l'analyser, on nomme la société et on
-            # laisse le lien plutôt que d'inventer un déposant.
-            deposant="",
-            role="",
-            sens="indetermine",
-            accession=d.accession,
-            url=d.url,
-        ).to_dict()
-        for d in depots
-    ]
+    transactions: list[dict[str, Any]] = []
+    motifs_depots: list[str] = []
+
+    for depot in depots:
+        if xml_par_accession is not None:
+            xml_brut = xml_par_accession.get(depot.accession)
+            motif = "" if xml_brut else "XML non fourni pour ce dépôt"
+        else:
+            xml_brut, motif = _telecharger_form4(identifiant, depot.accession)
+
+        if not xml_brut:
+            # Palier 3 : le dépôt reste visible même sans son contenu.
+            motifs_depots.append(f"{depot.accession} : {motif}")
+            transactions.append(
+                InsiderTransaction(
+                    ticker=symbole,
+                    date_transaction=depot.date_depot.strftime("%Y-%m-%d"),
+                    identite=None,
+                    sens="indetermine",
+                    url_depot=depot.url,
+                    motif=motif,
+                ).to_dict()
+            )
+            continue
+
+        operations, motif_analyse = parser_form4(
+            xml_brut,
+            ticker=symbole,
+            url_depot=depot.url,
+            date_depot=depot.date_depot.strftime("%Y-%m-%d"),
+        )
+        if motif_analyse:
+            motifs_depots.append(f"{depot.accession} : {motif_analyse}")
+
+        if not operations:
+            # Palier 3 au niveau de l'appelant : une analyse en échec ne doit
+            # pas faire disparaître le dépôt de la sortie. Le lien reste
+            # publié, avec le motif, plutôt qu'un silence.
+            transactions.append(
+                InsiderTransaction(
+                    ticker=symbole,
+                    date_transaction=depot.date_depot.strftime("%Y-%m-%d"),
+                    identite=None,
+                    sens="indetermine",
+                    url_depot=depot.url,
+                    motif=motif_analyse or "dépôt non analysable",
+                ).to_dict()
+            )
+            continue
+
+        transactions.extend(o.to_dict() for o in operations)
+
+    achats = [t for t in transactions if t["sens"] == "achat"]
+    ventes = [t for t in transactions if t["sens"] == "vente"]
 
     return {
         "disponible": True,
         "motif": "",
         "cik": identifiant,
         "societe": nom_societe,
+        "ticker": symbole,
         "fenetre_jours": days,
+        "n_depots": len(depots),
         "n_transactions": len(transactions),
+        "n_achats_marche": len(achats),
+        "n_ventes_marche": len(ventes),
         "transactions": transactions,
+        "motifs_par_depot": motifs_depots,
         "limite_connue": (
-            "Le sens (achat ou vente) et le nom du déclarant ne sont pas extraits : "
-            "ils figurent dans le XML du Form 4, dont la structure varie. Les dépôts "
-            "sont signalés avec leur lien, sans être interprétés."
+            "Seuls les codes P (achat sur le marché) et S (vente sur le marché) "
+            "donnent un sens. Les autres opérations — exercices d'options, "
+            "attributions, retenues fiscales — sortent en « indetermine » avec leur "
+            "code : les compter comme des achats serait un contresens."
         ),
     }

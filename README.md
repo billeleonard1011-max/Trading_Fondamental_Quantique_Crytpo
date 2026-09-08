@@ -56,6 +56,8 @@ config/
                               thèmes GDELT
   fomc_calendar_cache.json    Cache des réunions du FOMC, régénéré
                               automatiquement — ne pas éditer à la main
+  etf_aum_cache.json          Actifs nets des ETF, accumulés jour après jour
+  rotation_cache.json         Dominance BTC, accumulée jour après jour
 core/
   indicators.py               Indicateurs causaux + contrôle anti-look-ahead
   strategy.py                 Contrat Signal / Position / RiskConfig / Strategy
@@ -65,7 +67,8 @@ dataio/
   news.py                     Flux RSS et GDELT, intensité, déduplication
   crypto.py                   CoinGecko : OHLC, contexte, instantané
   cot.py                      Positionnement CFTC sur l'or (COMEX 088691)
-  sec_filings.py              EDGAR : dépôts, trésorerie XBRL, initiés
+  sec_filings.py              EDGAR : dépôts, trésorerie XBRL, Form 4 détaillés
+  etf_flows.py                Flux des ETF spot BTC et ETH (Farside, repli AUM)
   gold_flows.py               Ratio or/argent, minières/or, encours GLD
   calendar.py                 Publications macro (FRED) et réunions du FOMC,
                               collectées sur le site de la Fed, avec cache
@@ -80,10 +83,12 @@ modules/
   quantum/
     moves.py                  Mouvements marqués : sectoriel ou spécifique
     industry.py               Trésorerie, financements, entrants, corrélation
+    feed.py                   Fil d'actualité continu, format unifié
     run.py                    Orchestration et publication du JSON
   crypto/
     regime.py                 Régime de marché par le MVRV, avec invalidation
-    positioning.py            Funding, open interest, positions suivies
+    positioning.py            Funding, open interest, positions, déblocages
+    rotation.py               Dominance BTC, ratio ETH/BTC, largeur de marché
     run.py                    Orchestration et publication du JSON
 report/                       Rendu du rapport et page de suivi (à venir)
 docs/
@@ -99,6 +104,8 @@ tests/
   test_fomc_calendar.py       Analyse de la page de la Fed, cache, alerte
   test_quantum_moves.py       Épisode Pasqal, anti-recommandation, corrélation
   test_crypto_regime.py       Régimes et invalidation, funding, positions
+  test_crypto_rotation.py     Synthèse de rotation, réserves, largeur
+  test_quantum_feed.py        Fil unifié, non-réanalyse, Form 4
   fixtures/                   Extrait figé de la page FOMC, pour tester
                               l'analyse sans réseau
 reports/
@@ -123,6 +130,8 @@ requirements.txt
 | Coin Metrics Community | MVRV (`CapMVRVCur`) | Gratuit | Non | 6 000 requêtes / 20 s ; `CapRealUSD` réservé aux offres payantes |
 | DefiLlama | Offre de stablecoins | Gratuit | Non | `/emissions` (déblocages) réservé à l'offre payante |
 | Binance / Bybit | Funding et open interest des perpétuels | Gratuit | Non | Données publiques de marché uniquement |
+| Farside Investors | Flux des ETF spot BTC et ETH | Gratuit | Non | Exige des **en-têtes de navigateur** : 403 avec un User-Agent générique |
+| blockchaincenter | Indice de saison des altcoins | Gratuit | Non | Page HTML sans API : sert de recoupement, pas de source principale |
 | Flux RSS | Titres et chapeaux | Gratuit | Non | Flux figés sans erreur visible |
 | CoinGecko | Prix et contexte crypto | Gratuit | Facultative — `COINGECKO_API_KEY` | Code 429 fréquent sans clé |
 | CFTC (Socrata) | Positionnement futures or | Gratuit | Facultative — `CFTC_APP_TOKEN` | Publication vendredi, données de mardi |
@@ -231,6 +240,19 @@ mécaniquement : `modules/quantum/run.py` passe le rapport au crible de
 `verifier_absence_recommandation` **avant publication** et refuse d'écrire si
 une formulation interdite apparaît.
 
+### Fil d'actualité quantique
+
+```bash
+python -m modules.quantum.feed                  # collecte, explique, publie
+python -m modules.quantum.feed --sans-analyse   # sans appel OpenAI
+```
+
+Conçu pour tourner toutes les quinze à trente minutes, pas une fois par jour :
+le workflow quotidien ne l'appelle donc pas. Le calendrier sera réglé avec la
+page web. Le format de sortie est un contrat partagé avec les fils crypto et
+géopolitique à venir — voir
+[docs/schema_quantum_crypto.md](docs/schema_quantum_crypto.md).
+
 ### Diagnostic des flux d'actualité
 
 Ce script effectue des appels réseau ; il est volontairement séparé des tests.
@@ -328,11 +350,18 @@ Veille quantique et crypto
 - [x] Détection de nouveaux entrants, corrélation entre positions
 - [x] Régime crypto par le MVRV, avec condition d'invalidation
 - [x] Funding et open interest des perpétuels, percentile 90 jours
-- [ ] Flux des ETF spot BTC : aucune source gratuite et fiable
-      (CoinGlass, SoSoValue, DefiLlama, Farside testés et écartés)
-- [ ] Calendrier des déblocages de jetons : réservé aux offres payantes
-      (DefiLlama 402, CryptoRank 401)
-- [ ] Sens et déposant des Form 4 : demanderait un analyseur du XML
+- [x] Flux des ETF spot BTC et ETH : mesurés chez Farside, qui répond avec
+      des en-têtes de navigateur — le 403 initial venait de l'outil d'appel
+- [x] Form 4 détaillés : identité, rôle, sens, montants, avec dégradation
+      par paliers quand le schéma d'un dépôt diffère
+- [x] Régime crypto étendu à l'ether, avec avertissement de calibrage
+- [x] Rotation BTC / alts : dominance, ratio ETH/BTC, largeur de marché
+- [x] Déblocages de jetons : cinq statuts distincts, saisis à la main
+- [x] Fil d'actualité quantique au format unifié
+- [ ] Comportement des détenteurs de long terme : aucune métrique gratuite
+      d'ancienneté des pièces
+- [ ] Déblocages de KNTQ et PONS : aucune source de suivi identifiée
+- [ ] Fils crypto et géopolitique, sur le patron du fil quantique
 
 La stratégie réelle n'est pas encore écrite. `ExampleTrendStrategy` n'existe
 que pour illustrer la forme attendue : ses règles n'ont fait l'objet d'aucun

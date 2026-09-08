@@ -438,6 +438,7 @@ def expliquer(
     donnees: dict[str, Any],
     configuration: dict[str, Any] | None = None,
     client: Any | None = None,
+    consigne: str | None = None,
 ) -> ResultatExplication:
     """Explique une métrique, avec vérification numérique puis repli.
 
@@ -448,6 +449,12 @@ def expliquer(
         configuration: bloc ``explication`` de ``config/gold.yaml``.
         client: client OpenAI déjà construit. Utile aux tests : un client
             factice permet de vérifier tout le circuit sans réseau.
+        consigne: consigne système de remplacement, pour un appelant dont le
+            besoin diffère — le fil d'actualité quantique, par exemple.
+            :data:`CONSIGNE_SYSTEME` s'applique par défaut. Les contraintes
+            numériques et l'interdiction de recommander restent vérifiées
+            mécaniquement quelle que soit la consigne : elles ne dépendent pas
+            de ce que le texte demande au modèle.
 
     Returns:
         Le résultat, en mode ``openai`` ou ``gabarit``.
@@ -475,7 +482,7 @@ def expliquer(
 
     charge = json.dumps(donnees, ensure_ascii=False, indent=2, default=str)
     messages = [
-        {"role": "system", "content": CONSIGNE_SYSTEME},
+        {"role": "system", "content": consigne or CONSIGNE_SYSTEME},
         {
             "role": "user",
             "content": (

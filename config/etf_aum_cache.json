@@ -1,0 +1,19 @@
+{
+  "_commentaire": "Instantanés d'actifs nets des ETF spot bitcoin, accumulés par dataio/etf_flows.py. yfinance ne donne aucun historique : sans ce cache, aucune variation n'est calculable. Régénéré automatiquement.",
+  "max_instantanes": 90,
+  "instantanes": [
+    {
+      "date": "2026-09-08",
+      "actifs_nets_usd": {
+        "IBIT": 61435101184.0,
+        "FBTC": 13866148864.0,
+        "ARKB": 2684241152.0,
+        "BITB": 2976455424.0,
+        "HODL": 1213350528.0,
+        "BRRR": 453297856.0
+      },
+      "total_usd": 82628595008.0,
+      "prix_btc_usd": 78523.0
+    }
+  ]
+}

@@ -415,6 +415,72 @@ def _constat(
     return " ".join(phrases)
 
 
+def _decrire_declarant(identite: dict[str, Any] | None) -> str:
+    """Nomme le déclarant d'une opération, ou constate qu'il est inconnu.
+
+    Args:
+        identite: bloc ``identite`` d'une opération, éventuellement ``None``.
+
+    Returns:
+        Une désignation lisible, jamais vide.
+    """
+    if not identite or not identite.get("nom"):
+        return "un déposant non identifié"
+
+    roles = {
+        "administrateur": "administrateur",
+        "dirigeant": "dirigeant",
+        "actionnaire_10pct": "actionnaire à plus de 10 %",
+    }
+    nom = str(identite["nom"])
+    role = roles.get(str(identite.get("role") or ""), "")
+    titre = str(identite.get("titre_fonction") or "").strip()
+
+    if role and titre:
+        return f"{nom}, {role} ({titre})"
+    if role:
+        return f"{nom}, {role}"
+    return nom
+
+
+def _decrire_operation(operation: dict[str, Any]) -> str:
+    """Décrit une opération d'initié en une phrase factuelle.
+
+    La description dit ce qui est déclaré et rien de plus. Elle ne juge pas
+    l'opération et ne la présente jamais comme un signal à suivre.
+
+    Args:
+        operation: opération sérialisée par ``sec_filings``.
+
+    Returns:
+        La description, en français.
+    """
+    qui = _decrire_declarant(operation.get("identite"))
+    titres = operation.get("nombre_titres")
+    quantite = f"{int(titres):,}".replace(",", " ") if titres else "un nombre non précisé de"
+
+    sens = str(operation.get("sens", "indetermine"))
+    if sens == "achat":
+        action = f"achat de {quantite} titres sur le marché"
+    elif sens == "vente":
+        action = f"vente de {quantite} titres sur le marché"
+    else:
+        libelle = str(operation.get("libelle_code") or "opération de nature non précisée")
+        action = f"opération portant sur {quantite} titres ({libelle})"
+
+    phrase = f"{action} par {qui}"
+    valeur = operation.get("valeur_totale_usd")
+    if valeur:
+        # Le séparateur de milliers est remplacé sur le seul nombre : appliqué
+        # à la phrase entière, il effacerait aussi la virgule de ponctuation.
+        montant = f"{float(valeur):,.0f}".replace(",", " ")
+        phrase += f", pour {montant} $"
+    date_operation = operation.get("date_transaction")
+    if date_operation:
+        phrase += f", déclarée le {date_operation}"
+    return phrase
+
+
 def _signaux_contradictoires(
     variation: float,
     activite_inities: dict[str, Any],
@@ -423,9 +489,14 @@ def _signaux_contradictoires(
     """Relève les éléments qui pointent dans des sens opposés.
 
     Le module ne tranche pas : il pose les faits côte à côte. Un titre qui
-    chute pendant qu'un administrateur dépose un Form 4 est une situation
+    chute pendant qu'un administrateur déclare un achat est une situation
     ambiguë, et la présenter comme telle est plus honnête que de choisir
     laquelle des deux observations compte.
+
+    Les opérations dont le sens reste indéterminé — exercices d'options,
+    attributions, retenues fiscales — ne sont **pas** comptées comme des
+    contradictions : elles ne traduisent aucune décision de marché, et les
+    présenter comme un contrepoint à une baisse serait trompeur.
 
     Args:
         variation: variation du jour.
@@ -436,17 +507,33 @@ def _signaux_contradictoires(
         Liste de tensions constatées.
     """
     signaux: list[dict[str, str]] = []
+    operations = list(activite_inities.get("transactions") or [])
 
-    n_inities = int(activite_inities.get("n_transactions", 0) or 0)
-    if n_inities and variation < 0.0:
+    achats = [o for o in operations if o.get("sens") == "achat"]
+    ventes = [o for o in operations if o.get("sens") == "vente"]
+
+    if achats and variation < 0.0:
+        details = " ; ".join(_decrire_operation(o) for o in achats[:3])
         signaux.append(
             {
-                "nature": "baisse du titre et déclaration d'initié le même jour",
+                "nature": "baisse du titre et achat d'initié déclaré",
                 "constat": (
-                    f"Le titre recule de {abs(variation):.1f} % alors que {n_inities} "
-                    "déclaration(s) de transaction d'initié ont été déposées récemment. "
-                    "Le sens de ces transactions n'est pas extrait du formulaire : elles "
-                    "sont signalées, pas interprétées."
+                    f"Le titre recule de {abs(variation):.1f} % alors qu'un achat sur le "
+                    f"marché a été déclaré : {details}. Le fait est rapporté tel quel — "
+                    "les motifs d'un initié ne figurent dans aucune donnée publique."
+                ),
+            }
+        )
+
+    if ventes and variation > 0.0:
+        details = " ; ".join(_decrire_operation(o) for o in ventes[:3])
+        signaux.append(
+            {
+                "nature": "hausse du titre et vente d'initié déclarée",
+                "constat": (
+                    f"Le titre progresse de {variation:.1f} % alors qu'une vente sur le "
+                    f"marché a été déclarée : {details}. Une vente peut relever d'un plan "
+                    "programmé à l'avance : le fait est signalé, pas interprété."
                 ),
             }
         )

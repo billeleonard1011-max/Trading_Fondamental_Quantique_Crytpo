@@ -46,13 +46,34 @@ genre d'approximation silencieuse que ce projet s'interdit. Coin Metrics
 publiant le ratio directement, la question ne se pose pas ; s'il cessait de
 le publier, le module renverrait ``disponible: false``.
 
-Flux des ETF spot : non alimenté
---------------------------------
-Aucune source gratuite et fiable n'a été trouvée. Quatre pistes ont été
-testées le 7 septembre 2026 et toutes ont échoué : CoinGlass (500),
-SoSoValue (404), DefiLlama (400), Farside (403). Le bloc est donc publié
-avec ``disponible: false`` et le détail des tentatives, plutôt que rempli
-par une approximation.
+Flux des ETF spot : désormais mesurés
+-------------------------------------
+Ils avaient été jugés inaccessibles sur un 403 de Farside. Réinterrogée avec
+des en-têtes de navigateur complets, la source répond et publie le tableau
+réel, pour le bitcoin comme pour l'ether — voir :mod:`dataio.etf_flows`. Le
+refus venait de l'empreinte de l'outil d'appel, pas d'un blocage de la
+donnée. Un repli par variation des actifs nets reste codé au cas où.
+
+Extension à l'ether, et ce qui ne se transpose pas
+--------------------------------------------------
+Les mêmes métriques sont cherchées pour l'ether, et trois des quatre
+existent : MVRV et capitalisation de marché chez Coin Metrics, flux ETF chez
+Farside. Le **prix réalisé** n'est pas publié en accès gratuit, mais il se
+déduit exactement : la capitalisation réalisée vaut la capitalisation de
+marché divisée par le MVRV, puisque c'est ainsi que le ratio est défini. Ce
+n'est pas une approximation, c'est de l'algèbre sur deux grandeurs publiées.
+
+Le **comportement des détenteurs de long terme** n'a en revanche aucune
+source gratuite, ni pour l'ether ni pour le bitcoin : le catalogue Community
+ne contient aucune métrique d'ancienneté des pièces. Le bloc sort
+``disponible: false``.
+
+Un avertissement accompagne systématiquement le régime de l'ether : **les
+seuils de MVRV sont calibrés sur l'histoire du bitcoin**. Les distributions
+diffèrent — au 7 septembre 2026, le MVRV du bitcoin est à 1,51 et celui de
+l'ether à 1,10 —, et appliquer les mêmes bornes aux deux est une convention
+de lecture, pas un résultat mesuré. Le signaler est le minimum ; le taire
+reviendrait à présenter une approximation comme une mesure.
 """
 
 from __future__ import annotations
@@ -101,6 +122,8 @@ _ENTETES: Final[dict[str, str]] = {
 __all__ = [
     "REGIMES",
     "get_mvrv",
+    "get_prix_realise",
+    "get_comportement_detenteurs_lt",
     "get_croissance_stablecoins",
     "get_flux_etf",
     "classer_regime",
@@ -201,6 +224,121 @@ def get_mvrv(actif: str = "btc", charge: Any | None = None) -> dict[str, Any]:
     }
 
 
+def get_prix_realise(actif: str = "btc", charge: Any | None = None) -> dict[str, Any]:
+    """Déduit la capitalisation réalisée et le prix réalisé d'un actif.
+
+    ``CapRealUSD`` n'est pas exposée en accès gratuit, mais le MVRV l'est, et
+    il est *défini* comme le rapport de la capitalisation de marché à la
+    capitalisation réalisée. La seconde s'obtient donc exactement en divisant
+    la première par le ratio. Rien n'est estimé ici : c'est une identité
+    algébrique entre trois grandeurs publiées.
+
+    Args:
+        actif: ``btc`` ou ``eth``.
+        charge: réponse déjà obtenue, pour les tests hors ligne.
+
+    Returns:
+        Bloc avec ``disponible``, la capitalisation réalisée et, quand
+        l'offre en circulation est connue, le prix réalisé par unité.
+    """
+    identifiant = actif.strip().lower()
+    echec = {
+        "disponible": False,
+        "actif": identifiant,
+        "capitalisation_realisee_usd": None,
+        "prix_realise_usd": None,
+        "source": "Coin Metrics Community (déduit de CapMrktCurUSD / CapMVRVCur)",
+    }
+
+    if charge is None:
+        charge = _appeler(
+            URL_COINMETRICS,
+            {
+                "assets": identifiant,
+                "metrics": "CapMVRVCur,CapMrktCurUSD,SplyCur",
+                "frequency": "1d",
+                "page_size": 10,
+            },
+        )
+
+    if not isinstance(charge, dict) or not charge.get("data"):
+        return {**echec, "motif": "Coin Metrics n'a renvoyé aucune observation"}
+
+    points = [
+        p for p in charge["data"]
+        if p.get("CapMVRVCur") is not None and p.get("CapMrktCurUSD") is not None
+    ]
+    if not points:
+        return {**echec, "motif": "capitalisation de marché ou MVRV absent"}
+
+    points.sort(key=lambda p: str(p.get("time", "")))
+    dernier = points[-1]
+    try:
+        mvrv = float(dernier["CapMVRVCur"])
+        capitalisation = float(dernier["CapMrktCurUSD"])
+    except (TypeError, ValueError):
+        return {**echec, "motif": "valeurs non numériques"}
+
+    if mvrv <= 0.0:
+        return {**echec, "motif": "MVRV nul ou négatif : la division est impossible"}
+
+    realisee = capitalisation / mvrv
+    offre = dernier.get("SplyCur")
+    prix_realise: float | None = None
+    try:
+        if offre is not None and float(offre) > 0.0:
+            prix_realise = realisee / float(offre)
+    except (TypeError, ValueError):
+        prix_realise = None
+
+    return {
+        "disponible": True,
+        "motif": "",
+        "actif": identifiant,
+        "date": str(dernier.get("time", ""))[:10],
+        "capitalisation_marche_usd": capitalisation,
+        "capitalisation_realisee_usd": realisee,
+        "offre_en_circulation": None if offre is None else float(offre),
+        "prix_realise_usd": prix_realise,
+        "source": "Coin Metrics Community (déduit de CapMrktCurUSD / CapMVRVCur)",
+        "methode": (
+            "Le MVRV étant par définition le rapport de la capitalisation de marché "
+            "à la capitalisation réalisée, cette dernière s'obtient exactement par "
+            "division. Aucune estimation n'intervient."
+        ),
+    }
+
+
+def get_comportement_detenteurs_lt(actif: str = "btc") -> dict[str, Any]:
+    """Signale l'absence de source gratuite sur les détenteurs de long terme.
+
+    Les métriques d'ancienneté des pièces — part de l'offre immobile depuis
+    plus de cent cinquante jours, dépenses des détenteurs anciens — sont
+    l'apanage des fournisseurs payants. Le catalogue Community de Coin
+    Metrics en compte trente et une, et aucune ne mesure l'âge des pièces.
+    Aucun appel réseau n'est fait : l'absence est structurelle, la
+    réinterroger chaque jour coûterait du temps pour un échec connu.
+
+    Args:
+        actif: actif concerné, repris pour information.
+
+    Returns:
+        Bloc marqué indisponible, avec le motif.
+    """
+    return {
+        "disponible": False,
+        "actif": actif.strip().lower(),
+        "motif": (
+            "aucune métrique gratuite d'ancienneté des pièces. Le catalogue Community "
+            "de Coin Metrics (31 métriques, vérifié le 8 septembre 2026) n'expose ni "
+            "part de l'offre dormante, ni dépenses des détenteurs anciens : ces "
+            "grandeurs sont réservées aux offres payantes."
+        ),
+        "part_offre_dormante": None,
+        "alimente_le_regime": False,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Offre de stablecoins
 # ---------------------------------------------------------------------------
@@ -278,31 +416,24 @@ def get_croissance_stablecoins(
 
 
 # ---------------------------------------------------------------------------
-# Flux ETF : non alimenté
+# Flux des ETF spot
 # ---------------------------------------------------------------------------
-def get_flux_etf() -> dict[str, Any]:
-    """Signale l'absence de source gratuite pour les flux des ETF spot.
+def get_flux_etf(actif: str = "btc", **kwargs: Any) -> dict[str, Any]:
+    """Renvoie le flux net des ETF spot d'un actif.
 
-    Aucun appel réseau n'est fait : les quatre sources candidates ont été
-    testées et écartées, et les réinterroger à chaque exécution coûterait du
-    temps pour un échec connu d'avance. Le bloc conserve la liste des
-    adresses testées afin que la vérification reste rejouable à la main.
+    Délègue à :mod:`dataio.etf_flows`, qui lit le tableau de Farside et
+    dispose d'un repli par variation des actifs nets.
+
+    Args:
+        actif: ``btc`` ou ``eth``.
+        **kwargs: arguments transmis tels quels, utiles aux tests.
 
     Returns:
-        Bloc marqué indisponible, avec le détail des tentatives.
+        Le bloc de flux, tel que produit par la couche de données.
     """
-    return {
-        "disponible": False,
-        "motif": (
-            "aucune source gratuite et fiable de flux nets des ETF spot BTC. "
-            "Quatre pistes testées le 7 septembre 2026, toutes en échec : "
-            "CoinGlass (HTTP 500), SoSoValue (404), DefiLlama (400), Farside (403). "
-            "Les agrégateurs qui publient ces flux les réservent à leurs offres payantes."
-        ),
-        "flux_net_usd": None,
-        "sources_testees": [{"nom": n, "url": u} for n, u in SOURCES_ETF_TESTEES],
-        "alimente_le_regime": False,
-    }
+    from dataio import etf_flows
+
+    return etf_flows.get_flux_etf(actif=actif, **kwargs)
 
 
 # ---------------------------------------------------------------------------
@@ -469,54 +600,152 @@ def classer_regime(
     }
 
 
+def analyser_actif(
+    actif: str,
+    seuils: dict[str, float],
+    croissance_stablecoins_pct: float | None,
+    seuil_croissance_pct: float,
+    mvrv: dict[str, Any] | None = None,
+    prix_realise: dict[str, Any] | None = None,
+    flux_etf: dict[str, Any] | None = None,
+    actif_de_calibrage: str = "btc",
+) -> dict[str, Any]:
+    """Assemble le régime d'un actif et les métriques qui le documentent.
+
+    Args:
+        actif: ``btc`` ou ``eth``.
+        seuils: bornes de MVRV.
+        croissance_stablecoins_pct: croissance de l'offre, commune au marché.
+        seuil_croissance_pct: croissance jugée significative.
+        mvrv: mesure déjà obtenue, pour les tests.
+        prix_realise: mesure déjà obtenue, pour les tests.
+        flux_etf: mesure déjà obtenue, pour les tests.
+        actif_de_calibrage: actif sur l'histoire duquel les seuils ont été
+            établis. Tout autre actif reçoit un avertissement explicite.
+
+    Returns:
+        Bloc de régime, enrichi des métriques et de leurs indisponibilités.
+    """
+    identifiant = actif.strip().lower()
+
+    if mvrv is None:
+        mvrv = get_mvrv(identifiant)
+    if prix_realise is None:
+        prix_realise = get_prix_realise(identifiant)
+    if flux_etf is None:
+        flux_etf = get_flux_etf(identifiant)
+
+    valeur = mvrv.get("valeur") if mvrv.get("disponible") else None
+    bloc = classer_regime(
+        valeur, croissance_stablecoins_pct,
+        seuils=seuils, seuil_croissance_pct=seuil_croissance_pct,
+    )
+
+    # Les bornes viennent de l'histoire d'un seul actif. Les appliquer à un
+    # autre est une convention de lecture, pas un résultat mesuré : le taire
+    # ferait passer une approximation pour une mesure.
+    if identifiant != actif_de_calibrage:
+        bloc["seuils_calibres_sur"] = actif_de_calibrage
+        bloc["avertissement_calibrage"] = (
+            f"Les bornes de MVRV appliquées ici sont calibrées sur l'histoire de "
+            f"{actif_de_calibrage.upper()}. Les distributions de MVRV diffèrent d'un "
+            f"actif à l'autre : ce classement de {identifiant.upper()} est une "
+            "convention de lecture, pas un seuil mesuré sur son propre historique."
+        )
+    else:
+        bloc["seuils_calibres_sur"] = actif_de_calibrage
+        bloc["avertissement_calibrage"] = ""
+
+    bloc["actif"] = identifiant
+    bloc["metriques"] = {
+        "mvrv": mvrv,
+        "prix_realise": prix_realise,
+        "detenteurs_long_terme": get_comportement_detenteurs_lt(identifiant),
+        "flux_etf_spot": flux_etf,
+    }
+    bloc["metriques_indisponibles"] = [
+        nom for nom, m in bloc["metriques"].items() if not m.get("disponible")
+    ]
+    return bloc
+
+
 def analyser_regime(
     configuration: dict[str, Any],
     mvrv_par_actif: dict[str, dict[str, Any]] | None = None,
     stablecoins: dict[str, Any] | None = None,
+    prix_realise_par_actif: dict[str, dict[str, Any]] | None = None,
+    flux_etf_par_actif: dict[str, dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
-    """Produit le bloc régime du rapport crypto.
+    """Produit le bloc régime du rapport crypto, un bloc par actif suivi.
 
     Args:
         configuration: bloc ``crypto_regime`` de la configuration.
         mvrv_par_actif: MVRV déjà collectés, pour les tests.
         stablecoins: croissance déjà collectée, pour les tests.
+        prix_realise_par_actif: prix réalisés déjà collectés, pour les tests.
+        flux_etf_par_actif: flux déjà collectés, pour les tests.
 
     Returns:
-        Bloc sérialisable, un régime par actif suivi.
+        Bloc sérialisable. Outre le dictionnaire ``regimes`` indexé par
+        actif, il expose ``regime_btc`` et ``regime_eth`` à la racine, de
+        structure identique, pour que la page web n'ait pas à connaître la
+        liste des actifs suivis.
     """
     actifs = [str(a).lower() for a in (configuration.get("actifs") or ["btc"])]
     seuils = dict(configuration.get("seuils_mvrv") or {})
     fenetre = int(configuration.get("fenetre_stablecoins_jours", 30))
     seuil_croissance = float(configuration.get("seuil_croissance_stablecoins_pct", 2.0))
+    calibrage = str(configuration.get("actif_de_calibrage", "btc")).lower()
 
-    if mvrv_par_actif is None:
-        mvrv_par_actif = {a: get_mvrv(a) for a in actifs}
     if stablecoins is None:
         stablecoins = get_croissance_stablecoins(fenetre_jours=fenetre)
-
     croissance = stablecoins.get("croissance_pct") if stablecoins.get("disponible") else None
 
     regimes: dict[str, Any] = {}
     for actif in actifs:
-        mesure = dict(mvrv_par_actif.get(actif) or {})
-        valeur = mesure.get("valeur") if mesure.get("disponible") else None
-        bloc = classer_regime(
-            valeur, croissance, seuils=seuils, seuil_croissance_pct=seuil_croissance
+        regimes[actif] = analyser_actif(
+            actif,
+            seuils=seuils,
+            croissance_stablecoins_pct=croissance,
+            seuil_croissance_pct=seuil_croissance,
+            mvrv=(mvrv_par_actif or {}).get(actif),
+            prix_realise=(prix_realise_par_actif or {}).get(actif),
+            flux_etf=(flux_etf_par_actif or {}).get(actif),
+            actif_de_calibrage=calibrage,
         )
-        bloc["mvrv_source"] = mesure
-        regimes[actif] = bloc
 
     disponibles = [a for a, b in regimes.items() if b.get("disponible")]
-    return {
+    resultat: dict[str, Any] = {
         "disponible": bool(disponibles),
         "motif": "" if disponibles else "aucun MVRV exploitable",
         "actifs": actifs,
+        "actif_de_calibrage": calibrage,
         "regimes": regimes,
         "offre_stablecoins": stablecoins,
-        "flux_etf": get_flux_etf(),
         "avertissement": (
             "Un régime décrit l'état courant du marché et la condition qui le "
             "rendrait caduc. Ce n'est ni une prévision de prix, ni une indication "
             "de ce qu'il conviendrait de faire."
         ),
     }
+    # Accès direct par actif, à la racine, comme demandé par les consommateurs
+    # du JSON qui ne veulent pas parcourir un dictionnaire.
+    for actif in ("btc", "eth"):
+        resultat[f"regime_{actif}"] = regimes.get(
+            actif,
+            {
+                "disponible": False,
+                "actif": actif,
+                "motif": f"actif « {actif} » absent de la configuration crypto_regime.actifs",
+                "regime": None,
+                "invalidation": {
+                    "variable": "configuration",
+                    "seuil": None,
+                    "condition": (
+                        f"Ajouter « {actif} » à crypto_regime.actifs pour que ce "
+                        "régime soit calculé."
+                    ),
+                },
+            },
+        )
+    return resultat

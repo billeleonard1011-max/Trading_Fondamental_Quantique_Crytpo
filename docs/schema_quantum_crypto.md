@@ -77,15 +77,106 @@ Le MVRV donne l'axe principal ; l'offre de stablecoins **nuance sans
 renverser** — un seul indicateur secondaire ne doit pas suffire à basculer
 une lecture, et la nuance est écrite dans un champ à part.
 
-## Les deux trous, déclarés à chaque exécution
+## Le fil d'actualité quantique
+
+`reports/quantum/feed_latest.json` (liste, plus récent en premier) et
+`reports/quantum/feed_historique.jsonl` (ajout seul). Produits par
+`python -m modules.quantum.feed`, conçu pour tourner toutes les quinze à
+trente minutes — le workflow quotidien ne l'appelle donc pas.
+
+### Format unifié, fermé
+
+Ce format est un contrat : les fils crypto et géopolitique à venir le
+reprendront tel quel. Un test vérifie qu'un item porte exactement ces clés,
+ni plus ni moins.
+
+| Champ | Type | Sens |
+|---|---|---|
+| `id` | texte | Empreinte du titre normalisé, stable d'une adresse à l'autre |
+| `categorie` | texte | `quantique`, `crypto` ou `geopolitique` — ensemble fermé |
+| `titre_affiche` | texte | Titre de l'article, cité verbatim |
+| `horodatage_utc` | texte | Date de publication |
+| `source_nom` | texte | Nom de la source |
+| `url_source` | texte | Adresse de l'article |
+| `a_une_analyse_interne` | booléen | Une explication a-t-elle été produite |
+| `analyse_interne` | texte ou `null` | L'explication, `null` si l'item était déjà connu |
+| `tickers_ou_themes_lies` | liste | Valeurs suivies et acteurs cités |
+| `nouveaute` | booléen | Item vu pour la première fois |
+
+L'identifiant repose sur le **titre normalisé**, pas sur l'URL : une même
+dépêche circule sous plusieurs adresses, et se fier à l'URL la rendrait
+éternellement « nouvelle ».
+
+### Ce qui n'apparaît jamais
+
+`config/universe.yaml` porte une liste `feed_quantique.exclusions`. Pasqal et
+PSQL y figurent : le titre sert d'exemple de calibration dans la
+documentation du module, il n'est pas dans `quantum_watchlist`, et le voir
+surgir dans le fil laisserait croire qu'il est suivi. L'exclusion est
+nécessaire parce que Pasqal figure par ailleurs légitimement parmi les
+acteurs connus du secteur, ce qui suffirait à rendre l'item pertinent. À
+retirer le jour où le titre entre dans la watchlist.
+
+## Rotation BTC / alts
+
+`reports/crypto/latest.json` → `rotation`. Trois mesures indépendantes, dont
+la synthèse ne tranche que si au moins deux se prononcent **dans le même
+sens** ; sinon l'état reste `indetermine`, ce qui est une réponse.
+
+`synthese.contributions` donne le vote de chaque mesure et, en cas
+d'abstention, son motif. Deux réserves y figurent obligatoirement :
+
+- `ratio_eth_btc.fiabilite_historique` vaut toujours `reduite_depuis_2024`,
+  même quand la mesure échoue. La relation entre ce ratio et la rotation
+  s'est affaiblie : captation de valeur par les Layer 2, divergence des flux
+  ETF entre BTC et ETH.
+- `largeur_marche.horizon_effectif_jours` peut différer de
+  `horizon_demande_jours`. L'indice de référence raisonne à 90 jours, mais
+  l'API gratuite de CoinGecko ne renseigne pas ce champ — il revient `null`
+  pour les cent actifs. Le module retient le plus long horizon réellement
+  disponible et le déclare. La comparaison reste valide, tous les actifs
+  étant mesurés sur le même horizon.
+
+Le calcul interne est recoupé avec l'indice public de blockchaincenter, lu
+par extraction HTML. Un écart entre les deux est attendu : ni l'horizon ni le
+panier ne coïncident exactement.
+
+## Déblocages de jetons
+
+`positionnement.deblocages_tokens`. Aucune source gratuite n'existe —
+DefiLlama réserve `/emissions` à son offre payante (402), CryptoRank exige
+une clé (401) —, les échéances sont donc saisies à la main dans
+`config/universe.yaml`, sur le modèle du calendrier FOMC.
+
+Cinq statuts, et leur distinction est le cœur du bloc :
+
+| Statut | Sens |
+|---|---|
+| `actif` | Calendrier connu, échéance à venir |
+| `vesting_conclu` | Calendrier arrivé à son terme |
+| `non_applicable` | Le jeton n'a pas de mécanisme de vesting |
+| `inconnu` | Aucune source identifiée — **une ignorance, pas une absence de déblocage** |
+| `absent` | Jeton non renseigné |
+
+`inconnu` et `non_applicable` ne doivent jamais être confondus : le premier
+dit qu'on ignore, le second qu'il n'y a rien à savoir. Les présenter pareil
+rassurerait à tort sur un jeton dont on ne sait rien.
+
+## Les trous restants, déclarés à chaque exécution
 
 `meta.indicateurs_non_alimentes` les remonte à la racine, pour qu'on n'ait
 pas à fouiller les blocs pour s'en apercevoir.
 
 | Indicateur | Pourquoi |
 |---|---|
-| Flux nets des ETF spot BTC | Aucune source gratuite. CoinGlass (500), SoSoValue (404), DefiLlama (400), Farside (403) testés le 7 septembre 2026. |
-| Calendrier des déblocages de jetons | DefiLlama réserve `/emissions` à son offre payante (402), CryptoRank exige une clé (401). |
+| Comportement des détenteurs de long terme | Aucune métrique gratuite d'ancienneté des pièces : le catalogue Community de Coin Metrics en compte 31, dont aucune sur l'âge des pièces. |
+| Calendrier de déblocage de certains jetons | Statut `inconnu` pour KNTQ et PONS, non renseigné pour les grandes capitalisations. |
+
+Les **flux des ETF spot** ne sont plus dans cette liste : Farside, réinterrogé
+avec des en-têtes de navigateur complets, répond et publie le tableau réel
+pour BTC comme pour ETH. Le 403 initial venait de l'empreinte de l'outil
+d'appel, pas d'un blocage de la donnée — la leçon vaut d'être retenue pour
+les autres sources écartées sur un code d'erreur.
 
 Un troisième manque est déclaré dans `dataio/sec_filings.py` : le **sens** et
 le **déposant** d'un Form 4 ne sont pas extraits. Ils figurent dans un XML

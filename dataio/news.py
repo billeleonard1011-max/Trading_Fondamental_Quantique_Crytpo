@@ -50,6 +50,7 @@ __all__ = [
     "NewsItem",
     "fetch_rss",
     "fetch_gdelt",
+    "construire_requete_gdelt",
     "gdelt_volume_journalier",
     "gdelt_intensity",
     "dedupe",
@@ -323,6 +324,42 @@ def _date_gdelt(valeur: str | None) -> datetime | None:
         except ValueError:
             continue
     return None
+
+
+def construire_requete_gdelt(termes: list[str]) -> str:
+    """Assemble une liste de termes en une requête GDELT valide.
+
+    Deux règles de la syntaxe GDELT, apprises de ses messages d'erreur et non
+    de sa documentation :
+
+    * un terme **entre guillemets** doit être assez long, sinon l'API répond
+      « The specified phrase is too short ». Un mot isolé court comme ``IonQ``
+      doit donc rester **sans** guillemets, tandis qu'une expression de
+      plusieurs mots en a besoin pour être cherchée telle quelle ;
+    * les parenthèses ne sont admises qu'autour d'alternatives ``OR`` — d'où
+      le message « Parentheses may only be used around OR'd statements ». On
+      ne parenthèse donc jamais un ``AND``.
+
+    Args:
+        termes: mots-clés à combiner en alternative.
+
+    Returns:
+        La requête, vide si aucun terme exploitable n'est fourni.
+    """
+    morceaux: list[str] = []
+    for terme in termes:
+        propre = str(terme).strip()
+        if not propre:
+            continue
+        # Une expression de plusieurs mots se cherche telle quelle ; un mot
+        # isolé se passe de guillemets, que GDELT refuserait s'il est court.
+        morceaux.append(f'"{propre}"' if " " in propre else propre)
+
+    if not morceaux:
+        return ""
+    if len(morceaux) == 1:
+        return morceaux[0]
+    return "(" + " OR ".join(morceaux) + ")"
 
 
 def fetch_gdelt(

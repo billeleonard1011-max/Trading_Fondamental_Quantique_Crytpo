@@ -135,6 +135,14 @@ jobs:
           mkdir -p reports/crypto
           python -m modules.crypto.run
 
+      # NOTE — Le fil d'actualité quantique (python -m modules.quantum.feed)
+      # n'est volontairement pas branché ici. Il est conçu pour tourner
+      # beaucoup plus souvent que ce workflow quotidien : une cadence de
+      # quinze à trente minutes serait cohérente avec son objet. Le
+      # calendrier définitif sera réglé en même temps que la page web, qui
+      # déterminera la fraîcheur réellement utile. L'ajouter au rythme
+      # quotidien maintenant lui ferait manquer sa raison d'être.
+
       - name: Publier le rapport dans le dépôt
         run: |
           git config user.name "github-actions[bot]"
@@ -146,6 +154,10 @@ jobs:
           # créée et vieillirait jusqu'à déclencher l'alerte de renouvellement,
           # alors même que la collecte fonctionne.
           git add config/fomc_calendar_cache.json
+          # Caches accumulés par les modules : sans eux versionnés, ni la
+          # variation d'actif net des ETF ni la tendance de dominance ne
+          # seraient calculables d'une exécution à l'autre.
+          git add config/etf_aum_cache.json config/rotation_cache.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Aucune sortie nouvelle : rien à publier."
           else
