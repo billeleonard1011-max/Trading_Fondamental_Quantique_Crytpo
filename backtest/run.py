@@ -235,14 +235,23 @@ def ecrire_journal(trades: list[moteur.Trade], chemin: Path) -> bool:
 # Chargement des données
 # ---------------------------------------------------------------------------
 def charger_donnees(
-    debut: date, fin: date, dossier: Path | None = None
+    debut: date,
+    fin: date,
+    dossier: Path | None = None,
+    hors_ligne: bool = False,
 ) -> tuple[pd.DataFrame, pd.Series]:
-    """Charge XAUUSD et EUR/USD depuis le cache, ou les télécharge.
+    """Charge XAUUSD et EUR/USD, depuis le cache de ticks ou par téléchargement.
+
+    Le cache de ticks fait office de source : il n'y a pas de fichier
+    intermédiaire à tenir à jour, donc pas de risque qu'il diverge des ticks
+    dont il est issu. La reconstruction du M1 coûte quelques secondes, ce qui
+    est sans commune mesure avec le téléchargement.
 
     Args:
         debut: premier jour inclus.
         fin: dernier jour inclus.
         dossier: dossier des données.
+        hors_ligne: ``True`` pour se limiter à ce que le cache contient.
 
     Returns:
         Couple ``(bougies M1 de l'or, taux EUR/USD quotidiens)``.
@@ -250,39 +259,36 @@ def charger_donnees(
     racine = dossier or DOSSIER_DONNEES
     from dataio import dukascopy as dk
 
-    series: dict[str, pd.DataFrame] = {}
-    for instrument in ("XAUUSD", "EURUSD"):
-        chemin = racine / f"{instrument}_M1.parquet"
-        if chemin.exists():
-            cadre = pd.read_parquet(chemin)
-            _LOG.info("%s lu depuis le cache : %d bougie(s).", instrument, len(cadre))
-        else:
-            _LOG.info("%s absent du cache : téléchargement.", instrument)
-            cadre = dk.charger_m1(instrument, debut, fin)
-            if not cadre.empty:
-                chemin.parent.mkdir(parents=True, exist_ok=True)
-                cadre.to_parquet(chemin)
-        series[instrument] = cadre
+    or_m1 = dk.charger_m1_depuis_cache("XAUUSD", racine)
+    if or_m1.empty and not hors_ligne:
+        _LOG.info("Cache XAUUSD vide : téléchargement.")
+        or_m1 = dk.charger_m1("XAUUSD", debut, fin, racine)
 
-    or_m1 = series["XAUUSD"]
     if not or_m1.empty:
         masque = (or_m1.index >= pd.Timestamp(debut, tz="UTC")) & (
             or_m1.index <= pd.Timestamp(fin, tz="UTC") + pd.Timedelta(days=1)
         )
         or_m1 = or_m1[masque]
 
-    # Le taux de change n'a besoin que d'une valeur par jour : c'est la
-    # granularité à laquelle la stratégie dimensionne ses positions.
-    eurusd = series["EURUSD"]
+    # Le taux de change ne sert qu'au dimensionnement, qui se fait à la
+    # journée : un taux par jour suffit, et n'en demander qu'un par jour
+    # divise par vingt-quatre le nombre de requêtes.
+    if hors_ligne:
+        brut = dk.charger_m1_depuis_cache("EURUSD", racine)
+        eurusd = (
+            brut["close"].resample("1D").last().dropna()
+            if not brut.empty
+            else pd.Series(dtype="float64")
+        )
+    else:
+        eurusd = dk.charger_taux_quotidien("EURUSD", debut, fin, dossier_cache=racine)
+
     if eurusd.empty:
         _LOG.error(
             "EUR/USD indisponible : le dimensionnement en euros est impossible et "
             "aucun trade ne sera pris."
         )
-        return or_m1, pd.Series(dtype="float64")
-
-    quotidien = eurusd["close"].resample("1D").last().dropna()
-    return or_m1, quotidien
+    return or_m1, eurusd
 
 
 # ---------------------------------------------------------------------------
@@ -302,6 +308,11 @@ def main(argv: list[str] | None = None) -> int:
     analyseur.add_argument("--marge-stop", type=float, default=bt_exec.MARGE_STOP_DEFAUT)
     analyseur.add_argument("--expiration", type=int, default=moteur.EXPIRATION_DEFAUT)
     analyseur.add_argument("--tirages", type=int, default=propfirm.N_TIRAGES)
+    analyseur.add_argument(
+        "--hors-ligne",
+        action="store_true",
+        help="n'utilise que le cache de ticks, sans aucun téléchargement.",
+    )
     analyseur.add_argument("--verbeux", action="store_true")
     arguments = analyseur.parse_args(argv)
 
@@ -318,7 +329,7 @@ def main(argv: list[str] | None = None) -> int:
         _LOG.error("Dates invalides : format attendu AAAA-MM-JJ.")
         return 1
 
-    m1, eurusd = charger_donnees(debut, fin)
+    m1, eurusd = charger_donnees(debut, fin, hors_ligne=arguments.hors_ligne)
     if m1.empty:
         _LOG.error("Aucune bougie XAUUSD : backtest impossible.")
         return 1

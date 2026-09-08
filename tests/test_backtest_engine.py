@@ -348,3 +348,22 @@ def test_les_abandons_sont_comptes() -> None:
     assert all(v >= 0 for v in bt.abandons.values())
     # Le scénario doit exercer le moteur, sinon le test ne prouve rien.
     assert bt.trades or sum(bt.abandons.values()) > 0
+
+
+def test_monte_carlo_signale_un_echantillon_trop_court() -> None:
+    """Une probabilité de rupture nulle sur trop peu de trades est signalée.
+
+    Si la somme de toutes les pertes n'atteint pas le seuil, aucune
+    permutation ne peut casser le compte : le zéro mesure alors la brièveté
+    de l'historique, pas la solidité de la stratégie. Le lire comme une bonne
+    nouvelle serait l'erreur exacte que cet avertissement empêche.
+    """
+    court = propfirm.monte_carlo([-55.0, 60.0, -55.0], n_tirages=200)
+    assert court["probabilite_breach"] == 0.0
+    assert court["echantillon_suffisant"] is False
+    assert "brièveté de l'historique" in court["avertissement"]
+
+    # Avec assez de pertes cumulées, l'avertissement disparaît.
+    long = propfirm.monte_carlo([-55.0] * 40 + [60.0] * 20, n_tirages=200)
+    assert long["echantillon_suffisant"] is True
+    assert long["avertissement"] == ""

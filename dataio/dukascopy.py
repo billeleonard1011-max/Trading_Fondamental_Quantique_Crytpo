@@ -129,6 +129,8 @@ __all__ = [
     "decoder_bi5",
     "telecharger_heure",
     "charger_m1",
+    "charger_m1_depuis_cache",
+    "charger_taux_quotidien",
 ]
 
 
@@ -432,3 +434,139 @@ def charger_m1(
         m1.index.max() if len(m1) else "—",
     )
     return m1
+
+
+def charger_m1_depuis_cache(
+    instrument: str, dossier_cache: Path | None = None
+) -> pd.DataFrame:
+    """Reconstruit le M1 à partir des seuls fichiers déjà téléchargés.
+
+    Aucun appel réseau : la fonction se contente de ce que le cache contient.
+    Elle sert à travailler hors ligne, et à repartir d'un téléchargement
+    interrompu sans attendre qu'il reprenne — Dukascopy se dégradant à
+    l'usage, une session longue laisse souvent un cache partiel exploitable.
+
+    Args:
+        instrument: symbole, présent dans :data:`INSTRUMENTS`.
+        dossier_cache: racine du cache.
+
+    Returns:
+        Bougies M1 reconstruites, vides si le cache ne contient rien.
+    """
+    description = INSTRUMENTS.get(instrument.upper())
+    if description is None:
+        _LOG.error("Instrument %s inconnu : diviseur non déclaré.", instrument)
+        return pd.DataFrame()
+
+    racine = (dossier_cache or DOSSIER_DONNEES) / "dukascopy" / description.nom
+    if not racine.exists():
+        _LOG.warning("Aucun cache pour %s.", instrument)
+        return pd.DataFrame()
+
+    morceaux: list[pd.DataFrame] = []
+    for chemin in sorted(racine.rglob("*.bi5")):
+        # L'arborescence porte la date : AAAA/MM/JJ/HHh.bi5, en mois réel.
+        try:
+            heure = int(chemin.stem.rstrip("h"))
+            jour = int(chemin.parent.name)
+            mois = int(chemin.parent.parent.name)
+            annee = int(chemin.parent.parent.parent.name)
+            moment = datetime(annee, mois, jour, heure, tzinfo=timezone.utc)
+        except (ValueError, IndexError):
+            _LOG.warning("Chemin de cache inattendu : %s", chemin)
+            continue
+        try:
+            ticks = decoder_bi5(chemin.read_bytes(), description, moment)
+        except (OSError, ValueError) as exc:
+            _LOG.warning("Fichier de cache illisible (%s) : %s", chemin, exc)
+            continue
+        if not ticks.empty:
+            morceaux.append(ticks)
+
+    if not morceaux:
+        _LOG.warning("Cache de %s vide ou illisible.", instrument)
+        return pd.DataFrame()
+
+    ticks = pd.concat(morceaux).sort_index()
+    ticks = ticks[~ticks.index.duplicated(keep="first")]
+    groupes = ticks.resample("1min")
+    m1 = pd.DataFrame(
+        {
+            "open": groupes["bid"].first(),
+            "high": groupes["bid"].max(),
+            "low": groupes["bid"].min(),
+            "close": groupes["bid"].last(),
+            "volume": groupes["bid"].count(),
+            "spread_moyen": (ticks["ask"] - ticks["bid"]).resample("1min").mean(),
+        }
+    ).dropna(subset=["open", "high", "low", "close"])
+
+    _LOG.info(
+        "%s reconstruit depuis le cache : %d bougie(s) M1, du %s au %s.",
+        instrument, len(m1),
+        m1.index.min() if len(m1) else "—", m1.index.max() if len(m1) else "—",
+    )
+    return m1
+
+
+def charger_taux_quotidien(
+    instrument: str,
+    debut: date,
+    fin: date,
+    heure_reference: int = 12,
+    dossier_cache: Path | None = None,
+) -> pd.Series:
+    """Récupère un taux de change par jour, à une heure de référence.
+
+    Le dimensionnement des positions se fait à la journée : un taux par jour
+    suffit, et n'en télécharger qu'un divise par vingt-quatre le nombre de
+    requêtes. Sur un serveur qui se dégrade à l'usage, la différence n'est pas
+    cosmétique — elle décide si la série est complète ou trouée.
+
+    L'heure retenue est la mi-journée, moment le plus liquide et le moins
+    susceptible d'être vide.
+
+    Args:
+        instrument: symbole, par exemple ``EURUSD``.
+        debut: premier jour inclus.
+        fin: dernier jour inclus.
+        heure_reference: heure UTC prélevée chaque jour.
+        dossier_cache: racine du cache.
+
+    Returns:
+        Série des taux de clôture, indexée par jour. Les jours manquants sont
+        complétés par le dernier taux connu **antérieur**, jamais postérieur.
+    """
+    description = INSTRUMENTS.get(instrument.upper())
+    if description is None:
+        _LOG.error("Instrument %s inconnu.", instrument)
+        return pd.Series(dtype="float64")
+
+    valeurs: dict[pd.Timestamp, float] = {}
+    jour = debut
+    while jour <= fin:
+        if jour.weekday() < 5:
+            moment = datetime(jour.year, jour.month, jour.day, heure_reference, tzinfo=timezone.utc)
+            contenu = telecharger_heure(description.nom, moment, dossier_cache)
+            if contenu:
+                try:
+                    ticks = decoder_bi5(contenu, description, moment)
+                except ValueError as exc:
+                    _LOG.error("Décodage incohérent : %s", exc)
+                    raise
+                if not ticks.empty:
+                    valeurs[pd.Timestamp(jour, tz="UTC")] = float(ticks["bid"].iloc[-1])
+        jour += timedelta(days=1)
+
+    if not valeurs:
+        _LOG.error("%s : aucun taux récupéré.", instrument)
+        return pd.Series(dtype="float64")
+
+    serie = pd.Series(valeurs).sort_index()
+    # Compléter les jours sans cotation par le dernier taux connu : reprendre
+    # un taux postérieur reviendrait à connaître l'avenir sur une grandeur qui
+    # change tous les jours.
+    calendrier = pd.date_range(serie.index.min(), pd.Timestamp(fin, tz="UTC"), freq="D")
+    serie = serie.reindex(calendrier).ffill()
+    _LOG.info("%s : %d taux quotidien(s).", instrument, int(serie.notna().sum()))
+    return serie.dropna()

@@ -69,6 +69,7 @@ dataio/
   cot.py                      Positionnement CFTC sur l'or (COMEX 088691)
   sec_filings.py              EDGAR : dépôts, trésorerie XBRL, Form 4 détaillés
   etf_flows.py                Flux des ETF spot BTC et ETH (Farside, repli AUM)
+  dukascopy.py                Ticks XAUUSD et EUR/USD, agrégés en M1, mis en cache
   gold_flows.py               Ratio or/argent, minières/or, encours GLD
   calendar.py                 Publications macro (FRED) et réunions du FOMC,
                               collectées sur le site de la Fed, avec cache
@@ -90,6 +91,13 @@ modules/
     positioning.py            Funding, open interest, positions, déblocages
     rotation.py               Dominance BTC, ratio ETH/BTC, largeur de marché
     run.py                    Orchestration et publication du JSON
+backtest/
+  data.py                     Agrégation des unités depuis une seule série M1
+  ict.py                      Order blocks, jambes, FVG, Fibonacci OTE
+  execution.py                Coûts, dimensionnement en euros, stop
+  propfirm.py                 Règles FTMO et Monte Carlo
+  moteur.py                   Moteur causal, barre par barre
+  run.py                      Quatre variantes d'objectif, comparées
 report/                       Rendu du rapport et page de suivi (à venir)
 docs/
   schema_or.md                Structure du JSON produit par le moteur or
@@ -106,6 +114,8 @@ tests/
   test_crypto_regime.py       Régimes et invalidation, funding, positions
   test_crypto_rotation.py     Synthèse de rotation, réserves, largeur
   test_quantum_feed.py        Fil unifié, non-réanalyse, Form 4
+  test_ict_patterns.py        Motifs ICT et leurs cas limites
+  test_backtest_engine.py     Anti-look-ahead, dimensionnement, prop firm
   fixtures/                   Extrait figé de la page FOMC, pour tester
                               l'analyse sans réseau
 reports/
@@ -132,6 +142,7 @@ requirements.txt
 | Binance / Bybit | Funding et open interest des perpétuels | Gratuit | Non | Données publiques de marché uniquement |
 | Farside Investors | Flux des ETF spot BTC et ETH | Gratuit | Non | Exige des **en-têtes de navigateur** : 403 avec un User-Agent générique |
 | blockchaincenter | Indice de saison des altcoins | Gratuit | Non | Page HTML sans API : sert de recoupement, pas de source principale |
+| Dukascopy | Ticks XAUUSD et EUR/USD | Gratuit | Non | Se dégrade à l'usage (503) ; mois indexé à zéro dans les URL |
 | Flux RSS | Titres et chapeaux | Gratuit | Non | Flux figés sans erreur visible |
 | CoinGecko | Prix et contexte crypto | Gratuit | Facultative — `COINGECKO_API_KEY` | Code 429 fréquent sans clé |
 | CFTC (Socrata) | Positionnement futures or | Gratuit | Facultative — `CFTC_APP_TOKEN` | Publication vendredi, données de mardi |
@@ -258,6 +269,21 @@ le workflow quotidien ne l'appelle donc pas. Le calendrier sera réglé avec la
 page web. Le format de sortie est un contrat partagé avec les fils crypto et
 géopolitique à venir — voir
 [docs/schema_quantum_crypto.md](docs/schema_quantum_crypto.md).
+
+### Backtester la stratégie ICT
+
+```bash
+python -m backtest.run --debut 2025-03-01 --fin 2025-03-31
+python -m backtest.run --hors-ligne          # sans aucun téléchargement
+python -m backtest.run --spread 0.80 --slippage 0.50
+```
+
+Les quatre variantes d'objectif sont jouées sur les mêmes setups. Le moteur
+n'a accès, à chaque barre, qu'aux bougies déjà closes : la propriété est
+vérifiée par troncature **et** par perturbation des barres futures.
+
+Les zones d'ombre de l'énoncé de la stratégie ne sont pas tranchées en
+silence : elles sortent dans `meta.choix_interpretation` du JSON de synthèse.
 
 ### Diagnostic des flux d'actualité
 

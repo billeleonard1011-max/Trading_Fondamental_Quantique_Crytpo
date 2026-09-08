@@ -241,6 +241,25 @@ def monte_carlo(
     distribution = np.asarray(soldes, dtype="float64")
     n_breach = comptes[BREACH_JOURNALIER] + comptes[BREACH_TOTAL]
 
+    # Un échantillon trop court rend le résultat vrai mais sans portée : si la
+    # somme des pertes possibles n'atteint pas le seuil, aucune permutation ne
+    # peut casser le compte, et une probabilité de rupture nulle ne dit rien
+    # de la stratégie — seulement de la taille de l'échantillon. Le signaler
+    # vaut mieux que de laisser lire un zéro rassurant.
+    perte_totale_possible = float(-tableau[tableau < 0].sum()) if (tableau < 0).any() else 0.0
+    echantillon_suffisant = perte_totale_possible >= reglages.perte_totale_max
+    avertissement = (
+        ""
+        if echantillon_suffisant
+        else (
+            f"Échantillon trop court pour que la question ait un sens : la somme de "
+            f"toutes les pertes observées vaut {perte_totale_possible:.0f} €, en deçà du "
+            f"seuil de {reglages.perte_totale_max:.0f} €. Aucune permutation ne peut "
+            "donc casser le compte, et la probabilité de rupture nulle mesure la "
+            "brièveté de l'historique, pas la solidité de la stratégie."
+        )
+    )
+
     return {
         "disponible": True,
         "motif": "",
@@ -262,6 +281,9 @@ def monte_carlo(
             if n_breach
             else {}
         ),
+        "echantillon_suffisant": echantillon_suffisant,
+        "avertissement": avertissement,
+        "perte_cumulee_possible_eur": perte_totale_possible,
         "solde_median": float(np.median(distribution)),
         "solde_moyen": float(distribution.mean()),
         "solde_p05": float(np.percentile(distribution, 5)),
