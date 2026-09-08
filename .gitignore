@@ -11,6 +11,9 @@ venv/
 
 # Caches de données (jamais versionnés : volumineux et reconstructibles)
 .cache/
+# Ticks Dukascopy et séries agrégées : plusieurs centaines de mégaoctets,
+# entièrement reconstructibles depuis la source.
+data/
 data/cache/
 cache/
 *.parquet.tmp
