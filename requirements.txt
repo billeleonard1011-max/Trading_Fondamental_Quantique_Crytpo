@@ -6,6 +6,13 @@ PyYAML>=6.0
 feedparser>=6.0
 yfinance>=0.2.40
 lxml>=5.0
+
+# Décompression Brotli. Indispensable et non optionnelle : certains serveurs
+# derrière Cloudflare renvoient du « Content-Encoding: br » même lorsque la
+# requête n'annonce que gzip et deflate. Sans ce paquet, requests rend alors
+# les octets compressés tels quels, feedparser échoue sur « not well-formed
+# (invalid token) », et le flux paraît mort alors qu'il fonctionne.
+brotli>=1.1
 jinja2>=3.1
 
 # Couche pédagogique (modules/gold/explain.py). Facultative à l'exécution :

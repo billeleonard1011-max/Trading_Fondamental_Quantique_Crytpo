@@ -327,3 +327,34 @@ def test_form4_xml_illisible_ne_leve_pas_dexception() -> None:
     operations, motif = sec.parser_form4("ceci n'est pas du XML")
     assert operations == []
     assert "illisible" in motif
+
+
+# ---------------------------------------------------------------------------
+# 5. Construction des requêtes GDELT
+# ---------------------------------------------------------------------------
+def test_requete_gdelt_respecte_les_regles_de_lapi() -> None:
+    """Les trois règles de syntaxe apprises des refus de l'API sont tenues.
+
+    Elles ne figurent pas dans la documentation : ce sont ses messages
+    d'erreur qui les ont révélées, un flux entier restant vide en attendant.
+    """
+    from dataio.news import construire_requete_gdelt
+
+    # Un mot court sans guillemets : « "IonQ" » serait refusé comme trop court.
+    assert construire_requete_gdelt(["IonQ"]) == "IonQ"
+
+    # Un mot à tiret entre guillemets : sans eux, « illegal character ».
+    assert construire_requete_gdelt(["D-Wave"]) == '"D-Wave"'
+
+    # Une expression de plusieurs mots entre guillemets.
+    assert construire_requete_gdelt(["Rigetti Computing"]) == '"Rigetti Computing"'
+
+    # Alternative correctement parenthésée.
+    assert construire_requete_gdelt(["Rigetti", "D-Wave Quantum"]) == (
+        '(Rigetti OR "D-Wave Quantum")'
+    )
+
+    # Une liste vide ne produit pas une requête vide mais rien du tout, que
+    # l'appelant doit savoir ignorer.
+    assert construire_requete_gdelt([]) == ""
+    assert construire_requete_gdelt(["", "  "]) == ""

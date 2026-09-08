@@ -135,13 +135,18 @@ jobs:
           mkdir -p reports/crypto
           python -m modules.crypto.run
 
-      # NOTE — Le fil d'actualité quantique (python -m modules.quantum.feed)
-      # n'est volontairement pas branché ici. Il est conçu pour tourner
-      # beaucoup plus souvent que ce workflow quotidien : une cadence de
-      # quinze à trente minutes serait cohérente avec son objet. Le
-      # calendrier définitif sera réglé en même temps que la page web, qui
-      # déterminera la fraîcheur réellement utile. L'ajouter au rythme
-      # quotidien maintenant lui ferait manquer sa raison d'être.
+      - name: Fil d'actualité quantique
+        # Ce module est conçu pour tourner bien plus souvent que ce workflow
+        # quotidien : une cadence de quinze à trente minutes serait cohérente
+        # avec son objet, et le calendrier définitif sera réglé avec la page
+        # web. Il est néanmoins appelé ici, pour deux raisons : une exécution
+        # par jour vaut mieux qu'aucune en attendant, et l'historique en ajout
+        # seul garantit qu'aucun item ne sera réexpliqué quand la cadence
+        # passera à quinze minutes.
+        continue-on-error: true
+        run: |
+          mkdir -p reports/quantum
+          python -m modules.quantum.feed
 
       - name: Publier le rapport dans le dépôt
         run: |

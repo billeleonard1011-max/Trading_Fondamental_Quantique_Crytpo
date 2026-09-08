@@ -80,8 +80,22 @@ feeds:
     tags: [quantique, recherche]
     weight: 0.6
 
+  # Ce flux avait été diagnostiqué « mal formé » à tort. Il est servi derrière
+  # Cloudflare, qui renvoie du Brotli même quand la requête n'annonce que gzip
+  # et deflate ; sans le paquet brotli, requests rendait les octets compressés
+  # et feedparser échouait. Le flux fonctionne, il donne dix entrées d'actualité
+  # industrielle. Voir la note sur la compression dans dataio/news.py.
   - name: "Quantum Computing Report"
     url: "https://quantumcomputingreport.com/feed/"
+    tags: [quantique, industrie]
+    weight: 0.7
+
+  # Actualité économique et industrielle du secteur : levées de fonds,
+  # contrats, politiques publiques. Complète Phys.org, qui ne couvre que la
+  # recherche académique et ne cite donc presque jamais de société cotée —
+  # c'est ce qui laissait le fil quantique sans matière.
+  - name: "The Quantum Insider"
+    url: "https://thequantuminsider.com/feed/"
     tags: [quantique, industrie]
     weight: 0.7
 

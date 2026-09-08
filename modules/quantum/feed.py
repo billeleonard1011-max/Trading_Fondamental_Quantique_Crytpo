@@ -275,16 +275,28 @@ def _entites_liees(
     """
     normalise = _normaliser(titre)
     liees: list[str] = []
+    # Termes déjà couverts par une valeur suivie. Sans cette mémoire, une
+    # société présente à la fois dans la watchlist et parmi les acteurs
+    # connus ressortirait deux fois — « RGTI » puis « Rigetti » —, ce qui
+    # laisserait croire à deux entités distinctes.
+    couverts: set[str] = set()
 
     for entree in watchlist:
         ticker = str(entree.get("ticker", "")).upper()
         termes = [str(entree.get("name", ""))] + list(entree.get("keywords") or [])
-        if any(_normaliser(t) and _normaliser(t) in normalise for t in termes if t):
+        cles = [_normaliser(t) for t in termes if t]
+        if any(cle and cle in normalise for cle in cles):
             liees.append(ticker)
+            couverts.update(c for c in cles if c)
 
     for acteur in incumbents:
         cle = _normaliser(acteur)
-        if cle and cle in normalise and acteur not in liees:
+        if not cle or cle not in normalise:
+            continue
+        # Un acteur déjà désigné par son ticker n'est pas une entité de plus.
+        if any(cle in couvert or couvert in cle for couvert in couverts):
+            continue
+        if acteur not in liees:
             liees.append(acteur)
 
     return liees

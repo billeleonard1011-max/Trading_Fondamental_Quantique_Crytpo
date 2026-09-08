@@ -42,6 +42,16 @@ MAX_RECORDS_GDELT: Final[int] = 250
 #: Attente initiale, en secondes, après un refus pour dépassement de débit.
 ATTENTE_429_SECONDES: Final[float] = float(os.environ.get("GDELT_ATTENTE_429", "5"))
 
+#: En-têtes communs aux appels sortants.
+#:
+#: Note sur la compression : plusieurs flux servis derrière Cloudflare
+#: renvoient du Brotli (« Content-Encoding: br ») même quand la requête
+#: n'annonce que gzip et deflate — comportement vérifié, et contraire à la
+#: négociation attendue. Sans le paquet ``brotli`` installé, requests rend
+#: alors les octets compressés tels quels : feedparser échoue sur « not
+#: well-formed (invalid token) » et le flux passe pour mort alors qu'il
+#: fonctionne. C'est pourquoi ``brotli`` figure dans requirements.txt comme
+#: dépendance de plein droit, et non comme un agrément.
 _ENTETES: Final[dict[str, str]] = {
     "User-Agent": "Mozilla/5.0 (compatible; veille-marches/1.0)"
 }
@@ -336,6 +346,10 @@ def construire_requete_gdelt(termes: list[str]) -> str:
       « The specified phrase is too short ». Un mot isolé court comme ``IonQ``
       doit donc rester **sans** guillemets, tandis qu'une expression de
       plusieurs mots en a besoin pour être cherchée telle quelle ;
+    * un mot contenant un tiret ou un point doit en revanche être mis entre
+      guillemets malgré sa brièveté, faute de quoi l'API répond « One or more
+      of your keywords contained an illegal character » — c'est le cas de
+      ``D-Wave`` ;
     * les parenthèses ne sont admises qu'autour d'alternatives ``OR`` — d'où
       le message « Parentheses may only be used around OR'd statements ». On
       ne parenthèse donc jamais un ``AND``.
@@ -351,9 +365,15 @@ def construire_requete_gdelt(termes: list[str]) -> str:
         propre = str(terme).strip()
         if not propre:
             continue
-        # Une expression de plusieurs mots se cherche telle quelle ; un mot
-        # isolé se passe de guillemets, que GDELT refuserait s'il est court.
-        morceaux.append(f'"{propre}"' if " " in propre else propre)
+        # Trois cas, tous dictés par des refus observés de l'API :
+        #   - expression de plusieurs mots : guillemets obligatoires ;
+        #   - mot contenant un tiret ou un point : guillemets obligatoires
+        #     aussi, GDELT répondant sinon « One or more of your keywords
+        #     contained an illegal character », ce que « D-Wave » déclenche ;
+        #   - mot simple : surtout pas de guillemets, un terme court entre
+        #     guillemets étant rejeté comme « phrase too short ».
+        a_besoin_de_guillemets = " " in propre or any(c in propre for c in "-.&/")
+        morceaux.append(f'"{propre}"' if a_besoin_de_guillemets else propre)
 
     if not morceaux:
         return ""
