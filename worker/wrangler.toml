@@ -13,7 +13,7 @@ compatibility_date = "2026-01-01"
 MODELE = "gpt-4o-mini"
 # Restreindre à l'origine du site une fois l'URL GitHub Pages connue.
 # Laissé large au départ pour que le premier essai fonctionne.
-ORIGINE_AUTORISEE = "*"
+ORIGINE_AUTORISEE = "https://billeleonard1011-max.github.io"
 
 # Espace KV de la limitation de débit.
 #

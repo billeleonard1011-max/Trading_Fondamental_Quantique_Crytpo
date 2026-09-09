@@ -8,7 +8,7 @@
 
 export const CONFIG = {
   /** Adresse du proxy Cloudflare qui relaie les questions à l'assistant. */
-  urlAssistant: "",
+  urlAssistant: "https://assistant-suivi-marches.leonardbille.workers.dev",
 
   /** Chemins des rapports, relatifs à la racine du site publié. */
   sources: {
