@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr" data-theme="clair">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Débrief du soir — suivi des marchés</title>
+<link rel="stylesheet" href="css/style.css">
+<script>
+  try {
+    var t = localStorage.getItem("theme-suivi");
+    if (t === "sombre") document.documentElement.setAttribute("data-theme", "sombre");
+  } catch (e) {}
+</script>
+</head>
+<body>
+<div class="enveloppe">
+  <header class="entete">
+    <h1>Débrief du soir</h1>
+    <span class="horodatage" id="horodatage">chargement…</span>
+    <nav>
+      <a href="index.html">Retour à l'accueil</a>
+      <button class="theme" type="button">Thème sombre</button>
+    </nav>
+  </header>
+  <main id="debrief"><p class="fil-vide">Chargement…</p></main>
+  <footer class="pied">
+    <p>Le score de fiabilité mesure la tenue des biais passés. Il ne prédit rien
+    et ne constitue pas un conseil d'investissement.</p>
+  </footer>
+</div>
+<script type="module" src="js/debrief.js"></script>
+</body>
+</html>

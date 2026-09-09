@@ -1,0 +1,25 @@
+# Configuration du Worker Cloudflare.
+#
+# Aucun secret ici : ce fichier est versionné. La clé OpenAI est ajoutée
+# séparément par « wrangler secret put », voir README.md.
+
+name = "assistant-suivi-marches"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# Variables non sensibles.
+[vars]
+# Modèle utilisé. gpt-4o-mini suffit pour de la reformulation sous contrainte.
+MODELE = "gpt-4o-mini"
+# Restreindre à l'origine du site une fois l'URL GitHub Pages connue.
+# Laissé large au départ pour que le premier essai fonctionne.
+ORIGINE_AUTORISEE = "*"
+
+# Espace KV de la limitation de débit.
+#
+# À créer avec « wrangler kv namespace create LIMITEUR », puis recopier
+# l'identifiant renvoyé ci-dessous. Sans cet espace le Worker fonctionne,
+# mais sans limitation : un visiteur pourrait consommer tout le crédit.
+[[kv_namespaces]]
+binding = "LIMITEUR"
+id = "REMPLACER_PAR_L_IDENTIFIANT_KV"

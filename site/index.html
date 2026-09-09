@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr" data-theme="clair">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suivi des marchés — or, quantique, crypto</title>
+<meta name="description" content="Lecture quotidienne de l'or, du secteur quantique et des positions crypto. Analyse, pas de conseil.">
+<link rel="stylesheet" href="css/style.css">
+<!--
+  Le thème est appliqué avant le premier rendu : sans cela, la page
+  s'afficherait en clair puis basculerait en sombre sous les yeux du lecteur.
+-->
+<script>
+  try {
+    var t = localStorage.getItem("theme-suivi");
+    if (t === "sombre") document.documentElement.setAttribute("data-theme", "sombre");
+  } catch (e) {}
+</script>
+</head>
+<body>
+<div class="enveloppe">
+
+  <header class="entete">
+    <h1>Suivi des marchés</h1>
+    <span class="horodatage" id="horodatage">chargement…</span>
+    <nav>
+      <a href="debrief.html">Débrief du soir</a>
+      <button class="theme" type="button">Thème sombre</button>
+    </nav>
+  </header>
+
+  <section aria-label="Prix des actifs suivis">
+    <div class="bande-prix" id="bande-prix">
+      <p class="fil-vide">Chargement des prix…</p>
+    </div>
+  </section>
+
+  <main id="rubriques" aria-label="Analyses">
+    <p class="fil-vide">Chargement des analyses…</p>
+  </main>
+
+  <section class="fil" aria-label="Fil d'actualité">
+    <h2>Fil d'actualité</h2>
+    <div class="fil-onglets" role="tablist" id="fil-onglets"></div>
+    <div id="fil-contenu"></div>
+  </section>
+
+  <section class="assistant" aria-label="Assistant">
+    <h2>Poser une question</h2>
+    <div class="assistant-suggestions" id="assistant-suggestions"></div>
+    <form class="assistant-saisie" id="assistant-formulaire">
+      <input type="text" id="assistant-question" autocomplete="off"
+             placeholder="Une question sur les données du jour…"
+             aria-label="Votre question">
+      <button type="submit">Demander</button>
+    </form>
+    <div class="assistant-reponse" id="assistant-reponse" hidden></div>
+    <p class="assistant-note">
+      L'assistant explique les données du jour. Il ne recommande jamais d'acheter,
+      de vendre ni de se positionner, et n'utilise que les chiffres qui lui sont
+      transmis.
+    </p>
+  </section>
+
+  <footer class="pied">
+    <p>Outil personnel de lecture de marché. Les analyses présentées ne sont
+    <strong>pas des conseils d'investissement</strong>. Aucune donnée de compte,
+    de position ou de montant n'est publiée sur ce site.</p>
+  </footer>
+
+</div>
+<script type="module" src="js/accueil.js"></script>
+</body>
+</html>

@@ -116,6 +116,16 @@ tests/
   test_quantum_feed.py        Fil unifié, non-réanalyse, Form 4
   test_ict_patterns.py        Motifs ICT et leurs cas limites
   test_backtest_engine.py     Anti-look-ahead, dimensionnement, prop firm
+site/
+  index.html, news.html, debrief.html   Pages du site public
+  js/                          Modules ES : rendu, données, assistant, thème
+  css/style.css                Palette claire/sombre, responsive
+  tests/site.test.js           36 tests, sans navigateur (node --test)
+worker/
+  src/index.js                 Proxy Cloudflare : appelle OpenAI, limite le débit
+  wrangler.toml                Configuration du Worker (aucun secret)
+  README.md                    Déploiement pas à pas
+  tests/worker.test.js         12 tests, KV et fetch OpenAI simulés
   fixtures/                   Extrait figé de la page FOMC, pour tester
                               l'analyse sans réseau
 reports/
@@ -285,6 +295,59 @@ vérifiée par troncature **et** par perturbation des barres futures.
 Les zones d'ombre de l'énoncé de la stratégie ne sont pas tranchées en
 silence : elles sortent dans `meta.choix_interpretation` du JSON de synthèse.
 
+### Site web de suivi (GitHub Pages)
+
+Interface publique de lecture, en HTML/CSS/JS purs, sans framework ni étape
+de compilation : `site/index.html` en est le point d'entrée.
+
+**Emplacement retenu : `/site` à la racine du dépôt, avec GitHub Pages
+configuré pour servir la racine du dépôt** (`Settings → Pages → Source :
+Deploy from a branch → main → / (root)`). Ce choix, plutôt que `docs/site/`,
+tient à une contrainte simple : les JSON sont lus **par chemins relatifs
+directement depuis le dépôt**, sans être copiés. Comme `reports/` vit à la
+racine, servir la racine entière garde `site/` et `reports/` dans la même
+arborescence sans réécrire un seul chemin. Un `index.html` à la racine
+redirige vers `site/index.html`, et `.nojekyll` désactive le traitement
+Jekyll, inutile ici et parfois intrusif sur des fichiers Markdown déjà
+présents dans `docs/`.
+
+Le site consomme :
+- `reports/gold/latest.json`, `reports/quantum/latest.json`,
+  `reports/quantum/feed_latest.json`, `reports/crypto/latest.json` ;
+- `reports/gold/historique_biais.jsonl`, pour le débrief du soir.
+
+**Règle de confidentialité, vérifiée par test** : ce site est public. Aucune
+taille de position, montant investi, solde ou donnée de règle de société de
+financement ne doit y apparaître — `site/tests/site.test.js` scanne les
+rapports réellement servis et le contexte envoyé à l'assistant pour
+détecter tout champ de cette nature avant publication.
+
+```bash
+node --test site/tests/site.test.js     # 36 tests, sans navigateur ni réseau
+```
+
+Pages : `index.html` (accueil), `news.html` (détail d'un article),
+`debrief.html` (bilan du soir). Deux thèmes (clair par défaut, sombre),
+bascule mémorisée dans `localStorage`.
+
+### Assistant et proxy Cloudflare Worker
+
+L'assistant du site ne parle jamais directement à OpenAI : le code du
+navigateur est public, une clé qui s'y trouverait serait récupérée en
+quelques secondes. `worker/` contient le proxy Cloudflare qui détient la
+clé, applique une limitation de débit par adresse IP (Cloudflare KV), et
+impose côté serveur les mêmes contraintes que `modules/gold/explain.py` —
+n'utiliser que les chiffres fournis, ne jamais recommander d'acheter ou de
+vendre.
+
+Étapes de déploiement détaillées, pour quelqu'un qui n'a jamais utilisé
+Cloudflare : [worker/README.md](worker/README.md). Une fois déployé,
+reporter l'adresse obtenue dans `site/js/config.js` (`urlAssistant`).
+
+```bash
+node --test worker/tests/worker.test.js  # 12 tests, KV et OpenAI simulés
+```
+
 ### Diagnostic des flux d'actualité
 
 Ce script effectue des appels réseau ; il est volontairement séparé des tests.
@@ -367,11 +430,15 @@ Moteur d'analyse fondamentale de l'or
 
 Reste à construire
 
-- [ ] Stratégie réelle sur XAUUSD (ICT / order flow) dans `core/strategy.py`
-- [ ] Backtester consommant l'interface `Strategy`
+- [x] Stratégie ICT formalisée et backtester causal sur XAUUSD (`backtest/`)
+- [x] Site web de suivi, statique, publié sur GitHub Pages (`site/`)
+- [x] Assistant public avec proxy Cloudflare Worker (`worker/`)
 - [ ] Rapport quotidien rendu par Jinja2 dans `report/`
-- [ ] Page web de suivi
 - [ ] Indicateur TradingView (Pine Script)
+- [ ] Déploiement effectif du Worker sur un compte Cloudflare — le code et
+      les 12 tests sont prêts, mais l'authentification interactive requise
+      par `wrangler login` ne peut pas être faite depuis l'automatisation ;
+      voir [worker/README.md](worker/README.md)
 Veille quantique et crypto
 
 - [x] Client EDGAR : dépôts, trésorerie XBRL, activité d'initiés

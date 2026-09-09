@@ -1,0 +1,291 @@
+/*
+ * Feuille de style unique. Deux thèmes, une seule palette.
+ *
+ * Le thème clair — crème et bleu nuit — est le défaut. Le thème sombre
+ * reprend les mêmes teintes en inversant les rôles, de sorte qu'une capture
+ * dans l'un se reconnaisse dans l'autre.
+ *
+ * Les couleurs ne sont définies qu'ici, en variables. Rien de coloré n'est
+ * écrit en dur ailleurs : le bouton de bascule n'a ainsi qu'un attribut à
+ * changer, et il n'existe aucun coin de page qui garderait l'ancien thème.
+ */
+
+:root {
+  --fond: #faf6ec;
+  --fond-carte: #fffdf7;
+  --fond-creux: #f2ecdd;
+  --texte: #1b2a4a;
+  --texte-doux: #55618099;
+  --trait: #d9d0ba;
+  --accent: #1b2a4a;
+  --positif: #1f6b4a;
+  --negatif: #9b2c2c;
+  --alerte: #8a5a12;
+  --alerte-fond: #fbf0d8;
+  --rayon: 8px;
+  --ombre: 0 1px 2px rgba(27, 42, 74, 0.06);
+  color-scheme: light;
+}
+
+[data-theme="sombre"] {
+  --fond: #141a26;
+  --fond-carte: #1c2434;
+  --fond-creux: #232d40;
+  --texte: #e8e2d4;
+  --texte-doux: #a9b2c4;
+  --trait: #33405a;
+  --accent: #e8e2d4;
+  --positif: #6bbf95;
+  --negatif: #e08585;
+  --alerte: #e0b063;
+  --alerte-fond: #2e2716;
+  --ombre: none;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--texte);
+  font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+.enveloppe { max-width: 1100px; margin: 0 auto; padding: 16px; }
+
+/* --- En-tête ------------------------------------------------------------ */
+.entete {
+  display: flex; align-items: baseline; gap: 12px;
+  flex-wrap: wrap; padding-bottom: 12px; border-bottom: 1px solid var(--trait);
+}
+.entete h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+.entete .horodatage { color: var(--texte-doux); font-size: 13px; }
+.entete nav { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+.entete nav a { color: var(--texte); font-size: 14px; }
+
+button.theme {
+  background: var(--fond-carte); color: var(--texte);
+  border: 1px solid var(--trait); border-radius: var(--rayon);
+  padding: 6px 10px; cursor: pointer; font-size: 13px;
+}
+button.theme:hover { background: var(--fond-creux); }
+
+/* --- Bande de prix ------------------------------------------------------ */
+.bande-prix {
+  display: grid; gap: 8px; margin: 14px 0;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+.prix-vignette {
+  background: var(--fond-carte); border: 1px solid var(--trait);
+  border-radius: var(--rayon); padding: 8px 10px; box-shadow: var(--ombre);
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 8px;
+}
+.prix-symbole { font-weight: 600; font-size: 13px; letter-spacing: 0.02em; }
+.prix-valeur { font-variant-numeric: tabular-nums; font-size: 15px; text-align: right; }
+.prix-variation { font-size: 13px; font-variant-numeric: tabular-nums; }
+.prix-variation--positif { color: var(--positif); }
+.prix-variation--negatif { color: var(--negatif); }
+.prix-variation--neutre { color: var(--texte-doux); }
+.prix-heure { font-size: 11px; color: var(--texte-doux); text-align: right; }
+
+/* --- Rubriques dépliables ---------------------------------------------- */
+.rubrique {
+  background: var(--fond-carte); border: 1px solid var(--trait);
+  border-radius: var(--rayon); margin-bottom: 10px; overflow: hidden;
+}
+.rubrique-tete {
+  display: flex; align-items: center; gap: 10px; width: 100%;
+  padding: 12px 14px; background: none; border: 0; cursor: pointer;
+  color: inherit; font: inherit; text-align: left;
+}
+.rubrique-tete:hover { background: var(--fond-creux); }
+.rubrique-tete h2 { font-size: 16px; margin: 0; flex: 0 0 auto; }
+.rubrique-resume { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.rubrique-chevron { margin-left: auto; color: var(--texte-doux); transition: transform .15s; }
+.rubrique[open] .rubrique-chevron { transform: rotate(90deg); }
+.rubrique-corps { padding: 0 14px 14px; }
+
+.badge {
+  display: inline-block; padding: 2px 8px; border-radius: 999px;
+  font-size: 12px; font-weight: 600; border: 1px solid var(--trait);
+  background: var(--fond-creux);
+}
+.badge--positif { color: var(--positif); border-color: currentColor; }
+.badge--negatif { color: var(--negatif); border-color: currentColor; }
+.badge--alerte { color: var(--alerte); border-color: currentColor; background: var(--alerte-fond); }
+.resume-detail { font-size: 13px; color: var(--texte-doux); }
+
+/* --- Métriques clés ----------------------------------------------------- */
+.cles {
+  display: grid; gap: 10px; margin-bottom: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.cle {
+  background: var(--fond-creux); border-radius: var(--rayon); padding: 10px 12px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.cle--silence { background: var(--alerte-fond); border: 1px solid var(--alerte); }
+.cle-libelle { font-size: 12px; color: var(--texte-doux); text-transform: uppercase;
+  letter-spacing: 0.04em; }
+.cle-valeur { font-size: 22px; font-variant-numeric: tabular-nums; }
+.cle-detail { font-size: 12px; color: var(--texte-doux); }
+.silence-alerte { font-size: 12px; color: var(--alerte); font-weight: 600; margin-top: 4px; }
+
+/* --- Trame commune ------------------------------------------------------ */
+.trame-section { margin: 14px 0; }
+.trame-section h4 {
+  font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--texte-doux); margin: 0 0 6px;
+}
+.trame-invalidation { border-left: 3px solid var(--trait); padding-left: 10px; }
+.avertissement { color: var(--alerte); font-size: 14px; }
+.constat { font-size: 14px; color: var(--texte-doux); margin: 4px 0; }
+.contradiction {
+  font-size: 14px; background: var(--alerte-fond); padding: 8px 10px;
+  border-radius: var(--rayon); margin: 6px 0;
+}
+
+/* --- Indisponibilité ---------------------------------------------------- */
+.indisponible {
+  font-size: 14px; color: var(--texte-doux); background: var(--fond-creux);
+  padding: 8px 10px; border-radius: var(--rayon); margin: 4px 0;
+}
+.pastille {
+  display: inline-block; font-size: 11px; text-transform: uppercase;
+  letter-spacing: 0.04em; border: 1px solid var(--trait); border-radius: 999px;
+  padding: 1px 7px; margin-right: 6px;
+}
+.age { font-size: 12px; color: var(--texte-doux); }
+.age--datee { color: var(--alerte); font-weight: 600; }
+
+/* --- Échelle historique ------------------------------------------------- */
+.echelle { margin: 8px 0; }
+.echelle-piste {
+  position: relative; height: 6px; border-radius: 999px;
+  background: linear-gradient(90deg, var(--fond-creux), var(--trait));
+}
+.echelle-curseur {
+  position: absolute; top: -4px; width: 3px; height: 14px;
+  background: var(--accent); border-radius: 2px; transform: translateX(-1px);
+}
+.echelle-bornes {
+  display: flex; justify-content: space-between; font-size: 11px;
+  color: var(--texte-doux); margin-top: 4px;
+}
+.echelle-valeur { font-variant-numeric: tabular-nums; }
+.echelle-absente { font-size: 13px; color: var(--texte-doux); font-style: italic; }
+
+.metrique { border-top: 1px solid var(--trait); padding-top: 10px; margin-top: 10px; }
+.metrique header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.metrique h4 { margin: 0; font-size: 14px; text-transform: none; letter-spacing: 0; }
+.metrique-valeur { font-size: 20px; font-variant-numeric: tabular-nums; margin: 0; }
+.metrique-sens { font-size: 14px; }
+.precedents { font-size: 14px; background: var(--fond-creux); padding: 8px 10px;
+  border-radius: var(--rayon); }
+.precedents--absents { color: var(--texte-doux); font-style: italic; background: none; padding: 0; }
+
+button.aide {
+  margin-left: 6px; width: 18px; height: 18px; border-radius: 50%;
+  border: 1px solid var(--trait); background: var(--fond-creux);
+  color: var(--texte-doux); font-size: 11px; cursor: pointer; line-height: 1;
+}
+button.aide:hover { color: var(--texte); border-color: var(--texte); }
+
+/* --- Listes ------------------------------------------------------------- */
+.liste-detail, .composantes, .invalidations { list-style: none; padding: 0; margin: 0; }
+.liste-detail > li, .composantes > li {
+  display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap;
+  padding: 5px 0; border-bottom: 1px solid var(--trait); font-size: 14px;
+}
+.liste-detail > li:last-child, .composantes > li:last-child { border-bottom: 0; }
+.composante-barre {
+  flex: 1 1 80px; height: 5px; background: var(--fond-creux);
+  border-radius: 999px; overflow: hidden; min-width: 60px;
+}
+.composante-remplissage { display: block; height: 100%; }
+.composante-remplissage--positif { background: var(--positif); }
+.composante-remplissage--negatif { background: var(--negatif); }
+.composante-valeur { font-variant-numeric: tabular-nums; font-size: 13px; }
+.composante-motif, .composante--absente { color: var(--texte-doux); font-size: 13px; }
+.invalidations > li { padding: 4px 0; font-size: 14px; }
+.mouvements > li { display: block; }
+
+.sources { margin-top: 12px; font-size: 13px; color: var(--texte-doux); }
+.sources summary { cursor: pointer; }
+.sources ul { padding-left: 18px; margin: 6px 0; }
+.sources .note { font-style: italic; }
+
+/* --- Fil de news -------------------------------------------------------- */
+.fil { margin-top: 20px; }
+.fil-onglets { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.fil-onglet {
+  background: var(--fond-carte); border: 1px solid var(--trait);
+  border-radius: 999px; padding: 5px 12px; cursor: pointer;
+  font-size: 13px; color: var(--texte);
+}
+.fil-onglet[aria-selected="true"] { background: var(--texte); color: var(--fond); }
+.fil-liste { list-style: none; padding: 0; margin: 0; }
+.fil-item {
+  background: var(--fond-carte); border: 1px solid var(--trait);
+  border-radius: var(--rayon); padding: 10px 12px; margin-bottom: 8px;
+}
+.fil-item--nouveau { border-left: 3px solid var(--alerte); }
+.fil-item a { color: var(--texte); text-decoration: none; font-weight: 500; }
+.fil-item a:hover { text-decoration: underline; }
+.fil-meta { font-size: 12px; color: var(--texte-doux); margin-top: 4px;
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.fil-vide { color: var(--texte-doux); font-style: italic; padding: 14px;
+  background: var(--fond-creux); border-radius: var(--rayon); }
+
+/* --- Assistant ---------------------------------------------------------- */
+.assistant { margin-top: 24px; border-top: 1px solid var(--trait); padding-top: 16px; }
+.assistant h2 { font-size: 16px; margin: 0 0 8px; }
+.assistant-suggestions { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+.assistant-suggestion {
+  background: var(--fond-creux); border: 1px solid var(--trait);
+  border-radius: 999px; padding: 5px 11px; font-size: 13px;
+  cursor: pointer; color: var(--texte); text-align: left;
+}
+.assistant-saisie { display: flex; gap: 8px; }
+.assistant-saisie input {
+  flex: 1; padding: 10px 12px; border: 1px solid var(--trait);
+  border-radius: var(--rayon); background: var(--fond-carte); color: var(--texte);
+  font: inherit; min-width: 0;
+}
+.assistant-saisie button {
+  padding: 10px 16px; border: 0; border-radius: var(--rayon);
+  background: var(--texte); color: var(--fond); cursor: pointer; font: inherit;
+}
+.assistant-reponse {
+  margin-top: 12px; background: var(--fond-carte); border: 1px solid var(--trait);
+  border-radius: var(--rayon); padding: 12px; white-space: pre-wrap; font-size: 14px;
+}
+.assistant-note { font-size: 12px; color: var(--texte-doux); margin-top: 8px; }
+
+/* --- Debrief ------------------------------------------------------------ */
+.tableau { width: 100%; border-collapse: collapse; font-size: 14px; }
+.tableau th, .tableau td {
+  text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--trait);
+}
+.tableau th { font-size: 12px; text-transform: uppercase; color: var(--texte-doux); }
+.tableau td { font-variant-numeric: tabular-nums; }
+.tableau-enveloppe { overflow-x: auto; }
+
+.pied { margin-top: 32px; padding-top: 12px; border-top: 1px solid var(--trait);
+  font-size: 12px; color: var(--texte-doux); }
+
+/* --- Mobile ------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .enveloppe { padding: 10px; }
+  .entete h1 { font-size: 17px; }
+  .entete nav { margin-left: 0; width: 100%; }
+  .bande-prix { grid-template-columns: repeat(auto-fit, minmax(104px, 1fr)); }
+  .cles { grid-template-columns: 1fr; }
+  .cle-valeur { font-size: 19px; }
+  .rubrique-tete { padding: 10px; flex-wrap: wrap; }
+  .rubrique-chevron { margin-left: auto; }
+  .assistant-saisie { flex-direction: column; }
+  .metrique header { flex-direction: column; align-items: flex-start; gap: 2px; }
+}

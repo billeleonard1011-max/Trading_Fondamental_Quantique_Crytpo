@@ -81,6 +81,26 @@ jobs:
         # moins d'une seconde. Un échec ici doit empêcher la publication.
         run: python -m pytest tests/ -q
 
+      - name: Installer Node.js pour les tests du site
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Exécuter les tests du site public
+        # Ces tests protègent deux invariants : aucune donnée de compte ne
+        # s'affiche, et un rapport absent ou malformé n'emporte pas le reste
+        # de la page. Un échec ici doit empêcher la publication d'un site
+        # cassé ou d'une fuite de champ privé.
+        run: node --test site/tests/site.test.js
+
+      - name: Exécuter les tests du Worker (proxy assistant)
+        # Le Worker n'est pas déployé depuis ce dépôt — Cloudflare exige une
+        # authentification interactive que l'automatisation ne peut pas
+        # fournir. Ce test vérifie la logique (limitation de débit, absence
+        # de fuite de clé, gestion des erreurs) avec un KV et un fetch
+        # OpenAI simulés, sans compte ni réseau.
+        run: node --test worker/tests/worker.test.js
+
       - name: Vérifier la causalité des indicateurs
         # Garde-fou : si un indicateur se met à regarder le futur, le rapport
         # ne doit pas être publié. Une erreur silencieuse ici invaliderait

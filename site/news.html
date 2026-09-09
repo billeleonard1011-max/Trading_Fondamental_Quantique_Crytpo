@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr" data-theme="clair">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Actualité — suivi des marchés</title>
+<link rel="stylesheet" href="css/style.css">
+<script>
+  try {
+    var t = localStorage.getItem("theme-suivi");
+    if (t === "sombre") document.documentElement.setAttribute("data-theme", "sombre");
+  } catch (e) {}
+</script>
+</head>
+<body>
+<div class="enveloppe">
+  <header class="entete">
+    <h1>Actualité</h1>
+    <nav>
+      <a href="index.html">Retour à l'accueil</a>
+      <button class="theme" type="button">Thème sombre</button>
+    </nav>
+  </header>
+  <main id="detail"><p class="fil-vide">Chargement…</p></main>
+  <footer class="pied">
+    <p>L'analyse ci-dessus est produite à partir des seules données collectées.
+    Elle n'est pas un conseil d'investissement.</p>
+  </footer>
+</div>
+<script type="module" src="js/news.js"></script>
+</body>
+</html>
