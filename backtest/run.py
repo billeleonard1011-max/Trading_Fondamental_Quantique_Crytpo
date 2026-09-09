@@ -234,7 +234,8 @@ def ecrire_journal(trades: list[moteur.Trade], chemin: Path) -> bool:
         ``True`` si l'écriture a réussi.
     """
     colonnes = [
-        "horodatage_entree", "horodatage_sortie", "sens", "unite_ob", "type_jambe",
+        "horodatage_entree", "horodatage_sortie", "sens", "unite_ob",
+        "ob_haut", "ob_bas", "ob_ouverture_bougie1", "type_jambe",
         "unite_fvg", "type_entree", "prix_entree", "stop", "objectif", "prix_sortie",
         "lots", "resultat_eur", "resultat_r", "motif_sortie", "heure_entree",
     ]

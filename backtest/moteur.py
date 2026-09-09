@@ -89,6 +89,9 @@ class Trade:
     horodatage_sortie: pd.Timestamp | None = None
     sens: str = ""
     unite_ob: str = ""
+    ob_haut: float = 0.0
+    ob_bas: float = 0.0
+    ob_ouverture_bougie1: pd.Timestamp | None = None
     type_jambe: str = ""
     unite_fvg: str = ""
     type_entree: str = ""
@@ -109,6 +112,11 @@ class Trade:
             "horodatage_sortie": "" if self.horodatage_sortie is None else str(self.horodatage_sortie),
             "sens": self.sens,
             "unite_ob": self.unite_ob,
+            "ob_haut": round(self.ob_haut, 4),
+            "ob_bas": round(self.ob_bas, 4),
+            "ob_ouverture_bougie1": (
+                "" if self.ob_ouverture_bougie1 is None else str(self.ob_ouverture_bougie1)
+            ),
             "type_jambe": self.type_jambe,
             "unite_fvg": self.unite_fvg,
             "type_entree": self.type_entree,
@@ -544,6 +552,9 @@ class Backtest:
             horodatage_entree=fin_barre,
             sens=sens,
             unite_ob=setup.ob.unite,
+            ob_haut=setup.ob.haut,
+            ob_bas=setup.ob.bas,
+            ob_ouverture_bougie1=setup.ob.ouverture_bougie1,
             type_jambe=setup.type_jambe,
             unite_fvg=setup.unite_fvg,
             type_entree=type_entree,
