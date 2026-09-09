@@ -1,0 +1,113 @@
+{
+  "cas": [
+    {
+      "nom": "fvg_haussier",
+      "cadre": [
+        {
+          "t": 0,
+          "ouverture": 100.0,
+          "haut": 101.0,
+          "bas": 99.0,
+          "cloture": 100.5,
+          "volume": 1.0
+        },
+        {
+          "t": 3600000,
+          "ouverture": 100.5,
+          "haut": 106.0,
+          "bas": 100.0,
+          "cloture": 105.0,
+          "volume": 1.0
+        },
+        {
+          "t": 7200000,
+          "ouverture": 105.0,
+          "haut": 107.0,
+          "bas": 102.0,
+          "cloture": 106.0,
+          "volume": 1.0
+        }
+      ],
+      "sens": null,
+      "attendu": [
+        {
+          "unite": "M5",
+          "sens": "haussier",
+          "haut": 102.0,
+          "bas": 101.0,
+          "finMotif": 7500000
+        }
+      ]
+    },
+    {
+      "nom": "fvg_baissier",
+      "cadre": [
+        {
+          "t": 0,
+          "ouverture": 105.0,
+          "haut": 107.0,
+          "bas": 104.0,
+          "cloture": 105.5,
+          "volume": 1.0
+        },
+        {
+          "t": 3600000,
+          "ouverture": 105.5,
+          "haut": 106.0,
+          "bas": 100.0,
+          "cloture": 100.5,
+          "volume": 1.0
+        },
+        {
+          "t": 7200000,
+          "ouverture": 100.5,
+          "haut": 103.0,
+          "bas": 99.0,
+          "cloture": 100.0,
+          "volume": 1.0
+        }
+      ],
+      "sens": null,
+      "attendu": [
+        {
+          "unite": "M5",
+          "sens": "baissier",
+          "haut": 104.0,
+          "bas": 103.0,
+          "finMotif": 7500000
+        }
+      ]
+    },
+    {
+      "nom": "fvg_absent_recouvrement",
+      "cadre": [
+        {
+          "t": 0,
+          "ouverture": 100.0,
+          "haut": 103.0,
+          "bas": 99.0,
+          "cloture": 102.0,
+          "volume": 1.0
+        },
+        {
+          "t": 3600000,
+          "ouverture": 102.0,
+          "haut": 106.0,
+          "bas": 101.0,
+          "cloture": 105.0,
+          "volume": 1.0
+        },
+        {
+          "t": 7200000,
+          "ouverture": 105.0,
+          "haut": 107.0,
+          "bas": 102.5,
+          "cloture": 106.0,
+          "volume": 1.0
+        }
+      ],
+      "sens": null,
+      "attendu": []
+    }
+  ]
+}

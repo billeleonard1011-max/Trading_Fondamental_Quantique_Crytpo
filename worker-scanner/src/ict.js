@@ -1,0 +1,185 @@
+/**
+ * Motifs ICT : order blocks, jambes et FVG.
+ *
+ * Port fidèle de backtest/ict.py (version déjà nettoyée de la classification
+ * normale/violente et du Fibonacci/OTE, retirés du moteur Python). Voir
+ * worker-scanner/README.md pour la démarche de portage et
+ * tests/parite.test.js pour la preuve d'identité des résultats.
+ *
+ * Aucune règle n'est inventée ici : les mêmes choix d'interprétation que
+ * ceux du backtest s'appliquent, cités dans les commentaires « CHOIX
+ * D'INTERPRÉTATION » comme côté Python.
+ */
+
+import { DUREES_MS } from "./agregation.js";
+
+export const HAUSSIER = "haussier";
+export const BAISSIER = "baissier";
+
+/**
+ * Nombre de bougies exigées de chaque côté pour valider un point de
+ * retournement. Décide du découpage de la jambe, donc de la fenêtre où
+ * chercher le FVG.
+ */
+export const SENSIBILITE_SWING = 4;
+
+/**
+ * Cherche le motif d'order block en trois bougies consécutives.
+ *
+ * Le motif, sans condition supplémentaire :
+ * - bougie 1 — la zone, fourchette complète mèches comprises ;
+ * - bougie 2 — de sens opposé à la première, clôturant au-delà de son
+ *   extrême (sous son plus bas si la bougie 1 est haussière, au-dessus de
+ *   son plus haut si elle est baissière) ;
+ * - bougie 3 — sens indifférent, mais son extrême ne doit pas revenir
+ *   toucher celui de la bougie 1 (inégalité stricte).
+ *
+ * Une bougie 1 haussière donne un order block baissier (zone de vente) ;
+ * une bougie 1 baissière donne un order block haussier.
+ *
+ * @param {Array} cadre Bougies OHLC de l'unité, closes, triées par ouverture.
+ * @param {string} unite Nom de l'unité, repris dans les zones produites.
+ * @returns {Array<object>} Zones trouvées, dans l'ordre chronologique.
+ */
+export function detecterOrderBlocks(cadre, unite) {
+  if (!cadre || cadre.length < 3) return [];
+  const duree = DUREES_MS[unite] || 0;
+  const zones = [];
+
+  for (let i = 0; i < cadre.length - 2; i += 1) {
+    const b1 = cadre[i];
+    const b1Haussiere = b1.cloture > b1.ouverture;
+    const b1Baissiere = b1.cloture < b1.ouverture;
+    if (!b1Haussiere && !b1Baissiere) continue;
+
+    const j = i + 1;
+    const k = i + 2;
+    const b2 = cadre[j];
+    const b3 = cadre[k];
+    const b2Haussiere = b2.cloture > b2.ouverture;
+    const b2Baissiere = b2.cloture < b2.ouverture;
+
+    let sens;
+    let meche;
+    if (b1Haussiere) {
+      if (!(b2Baissiere && b2.cloture < b1.bas)) continue;
+      if (b3.haut >= b1.bas) continue;
+      sens = BAISSIER;
+      meche = b2.haut;
+    } else {
+      if (!(b2Haussiere && b2.cloture > b1.haut)) continue;
+      if (b3.bas <= b1.haut) continue;
+      sens = HAUSSIER;
+      meche = b2.bas;
+    }
+
+    zones.push({
+      unite,
+      sens,
+      haut: b1.haut,
+      bas: b1.bas,
+      ouvertureBougie1: b1.t,
+      // La zone n'est connue qu'une fois la troisième bougie close.
+      finMotif: b3.t + duree,
+      mecheBougie2: meche,
+      mitige: false,
+      horodatageMitigation: null,
+    });
+  }
+
+  return zones;
+}
+
+/**
+ * Repère les points de retournement d'une série de bougies.
+ *
+ * Un sommet est une bougie dont le plus haut dépasse strictement celui des
+ * `sensibilite` bougies de chaque côté. Un retournement à la position `i`
+ * n'est confirmé qu'à la position `i + sensibilite` : l'appelant doit n'en
+ * utiliser que des confirmés (voir origineDeJambe).
+ *
+ * @param {Array} cadre Bougies OHLC, dans l'ordre chronologique.
+ * @param {number} sensibilite Nombre de bougies exigées de chaque côté.
+ * @returns {{sommets: number[], creux: number[]}} Positions des sommets et des creux.
+ */
+export function detecterSwings(cadre, sensibilite = SENSIBILITE_SWING) {
+  const k = Math.max(Math.trunc(sensibilite), 1);
+  if (!cadre || cadre.length < 2 * k + 1) return { sommets: [], creux: [] };
+
+  const sommets = [];
+  const creux = [];
+  for (let i = k; i < cadre.length - k; i += 1) {
+    const hautCourant = cadre[i].haut;
+    const basCourant = cadre[i].bas;
+    let sommet = true;
+    let creuxIci = true;
+    for (let d = 1; d <= k; d += 1) {
+      if (cadre[i - d].haut >= hautCourant || cadre[i + d].haut >= hautCourant) sommet = false;
+      if (cadre[i - d].bas <= basCourant || cadre[i + d].bas <= basCourant) creuxIci = false;
+    }
+    if (sommet) sommets.push(i);
+    if (creuxIci) creux.push(i);
+  }
+  return { sommets, creux };
+}
+
+/**
+ * Situe le départ de la jambe qui va chercher l'order block.
+ *
+ * La jambe est le dernier segment directionnel menant à la zone : elle part
+ * du dernier point de retournement confirmé, pas de l'extrême le plus
+ * lointain. Un order block baissier (zone de vente) est atteint par le
+ * bas : la jambe est haussière et part du dernier creux ; l'inverse pour un
+ * order block haussier.
+ *
+ * @param {Array} cadre Bougies de l'unité de l'order block, closes, la
+ *   dernière étant celle du contact avec la zone.
+ * @param {string} sensOb Sens de l'order block.
+ * @param {number} sensibilite Nombre de bougies exigées de chaque côté.
+ * @returns {number|null} Position du départ de la jambe, ou `null` si aucun
+ *   retournement confirmé ne précède le contact.
+ */
+export function origineDeJambe(cadre, sensOb, sensibilite = SENSIBILITE_SWING) {
+  const k = Math.max(Math.trunc(sensibilite), 1);
+  const { sommets, creux } = detecterSwings(cadre, k);
+  const candidats = sensOb === BAISSIER ? creux : sommets;
+  if (candidats.length === 0) return null;
+
+  const derniere = cadre.length - 1;
+  const confirmes = candidats.filter((i) => i + k <= derniere);
+  if (confirmes.length === 0) return null;
+  return confirmes[confirmes.length - 1];
+}
+
+/**
+ * Cherche les écarts de valeur (FVG) en trois bougies.
+ *
+ * Un écart haussier existe quand le plus haut de la première bougie reste
+ * sous le plus bas de la troisième ; l'écart baissier est le symétrique.
+ *
+ * @param {Array} cadre Bougies OHLC de l'unité, closes.
+ * @param {string} unite Nom de l'unité.
+ * @param {string|null} sens Ne garder que les écarts de ce sens. Tous si `null`.
+ * @returns {Array<object>} Écarts trouvés, dans l'ordre chronologique.
+ */
+export function detecterFvg(cadre, unite, sens = null) {
+  if (!cadre || cadre.length < 3) return [];
+  const duree = DUREES_MS[unite] || 0;
+  const ecarts = [];
+
+  for (let i = 0; i < cadre.length - 2; i += 1) {
+    const k = i + 2;
+    const b1 = cadre[i];
+    const b3 = cadre[k];
+    let trouve = null;
+    if (b1.haut < b3.bas) {
+      trouve = { unite, sens: HAUSSIER, haut: b3.bas, bas: b1.haut, finMotif: b3.t + duree };
+    } else if (b1.bas > b3.haut) {
+      trouve = { unite, sens: BAISSIER, haut: b1.bas, bas: b3.haut, finMotif: b3.t + duree };
+    } else {
+      continue;
+    }
+    if (sens === null || trouve.sens === sens) ecarts.push(trouve);
+  }
+  return ecarts;
+}

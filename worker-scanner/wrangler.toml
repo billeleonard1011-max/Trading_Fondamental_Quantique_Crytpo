@@ -1,0 +1,29 @@
+# Configuration du Worker "scanner en direct".
+#
+# Aucun secret ici : ce fichier est versionné. Ni Binance ni Frankfurter ne
+# demandent de clé (vérifié par appel réel, voir README.md).
+#
+# Séparé du Worker existant de l'assistant (../worker/) : deux
+# préoccupations différentes, pas de raison de les mélanger dans le même
+# projet Wrangler.
+
+name = "scanner-or-direct"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# Toutes les minutes. Vérifié faisable sur le plan gratuit (partie 1 de
+# l'étude de faisabilité) : 1440 déclenchements par jour, ~1,4 % du quota de
+# 100 000 requêtes/jour, et le temps CPU (10 ms/invocation) ne compte que le
+# calcul actif — jamais l'attente réseau vers Binance ou Frankfurter.
+[triggers]
+crons = ["* * * * *"]
+
+# Base D1 : journal des trades et état persisté du moteur (voir schema.sql).
+# À créer avec « wrangler d1 create scanner-or », puis recopier l'identifiant
+# renvoyé ci-dessous. Sans cette liaison, le Worker plante à l'exécution
+# (aucune donnée à écrire) — pas de dégradation silencieuse possible sur
+# l'état lui-même, qui n'a pas de source de repli.
+[[d1_databases]]
+binding = "DB"
+database_name = "scanner-or"
+database_id = "À_REMPLACER_APRES_wrangler_d1_create"

@@ -1,0 +1,426 @@
+{
+  "cas": [
+    {
+      "nom": "palier_sensibilite_2",
+      "cadre": [
+        {
+          "t": 0,
+          "ouverture": 0.5,
+          "haut": 1.0,
+          "bas": 0.0,
+          "cloture": 0.8,
+          "volume": 1.0
+        },
+        {
+          "t": 3600000,
+          "ouverture": 1.5,
+          "haut": 2.0,
+          "bas": 1.0,
+          "cloture": 1.8,
+          "volume": 1.0
+        },
+        {
+          "t": 7200000,
+          "ouverture": 2.5,
+          "haut": 3.0,
+          "bas": 2.0,
+          "cloture": 2.8,
+          "volume": 1.0
+        },
+        {
+          "t": 10800000,
+          "ouverture": 3.5,
+          "haut": 4.0,
+          "bas": 3.0,
+          "cloture": 3.8,
+          "volume": 1.0
+        },
+        {
+          "t": 14400000,
+          "ouverture": 4.5,
+          "haut": 5.0,
+          "bas": 4.0,
+          "cloture": 4.8,
+          "volume": 1.0
+        },
+        {
+          "t": 18000000,
+          "ouverture": 3.5,
+          "haut": 4.0,
+          "bas": 3.0,
+          "cloture": 3.8,
+          "volume": 1.0
+        },
+        {
+          "t": 21600000,
+          "ouverture": 2.5,
+          "haut": 3.0,
+          "bas": 2.0,
+          "cloture": 2.8,
+          "volume": 1.0
+        },
+        {
+          "t": 25200000,
+          "ouverture": 1.5,
+          "haut": 2.0,
+          "bas": 1.0,
+          "cloture": 1.8,
+          "volume": 1.0
+        },
+        {
+          "t": 28800000,
+          "ouverture": 0.5,
+          "haut": 1.0,
+          "bas": 0.0,
+          "cloture": 0.8,
+          "volume": 1.0
+        }
+      ],
+      "sensibilite": 2,
+      "attendu": {
+        "sommets": [
+          4
+        ],
+        "creux": []
+      }
+    },
+    {
+      "nom": "palier_sensibilite_3",
+      "cadre": [
+        {
+          "t": 0,
+          "ouverture": 0.5,
+          "haut": 1.0,
+          "bas": 0.0,
+          "cloture": 0.8,
+          "volume": 1.0
+        },
+        {
+          "t": 3600000,
+          "ouverture": 1.5,
+          "haut": 2.0,
+          "bas": 1.0,
+          "cloture": 1.8,
+          "volume": 1.0
+        },
+        {
+          "t": 7200000,
+          "ouverture": 2.5,
+          "haut": 3.0,
+          "bas": 2.0,
+          "cloture": 2.8,
+          "volume": 1.0
+        },
+        {
+          "t": 10800000,
+          "ouverture": 3.5,
+          "haut": 4.0,
+          "bas": 3.0,
+          "cloture": 3.8,
+          "volume": 1.0
+        },
+        {
+          "t": 14400000,
+          "ouverture": 4.5,
+          "haut": 5.0,
+          "bas": 4.0,
+          "cloture": 4.8,
+          "volume": 1.0
+        },
+        {
+          "t": 18000000,
+          "ouverture": 3.5,
+          "haut": 4.0,
+          "bas": 3.0,
+          "cloture": 3.8,
+          "volume": 1.0
+        },
+        {
+          "t": 21600000,
+          "ouverture": 2.5,
+          "haut": 3.0,
+          "bas": 2.0,
+          "cloture": 2.8,
+          "volume": 1.0
+        },
+        {
+          "t": 25200000,
+          "ouverture": 1.5,
+          "haut": 2.0,
+          "bas": 1.0,
+          "cloture": 1.8,
+          "volume": 1.0
+        },
+        {
+          "t": 28800000,
+          "ouverture": 0.5,
+          "haut": 1.0,
+          "bas": 0.0,
+          "cloture": 0.8,
+          "volume": 1.0
+        }
+      ],
+      "sensibilite": 3,
+      "attendu": {
+        "sommets": [
+          4
+        ],
+        "creux": []
+      }
+    },
+    {
+      "nom": "palier_sensibilite_4",
+      "cadre": [
+        {
+          "t": 0,
+          "ouverture": 0.5,
+          "haut": 1.0,
+          "bas": 0.0,
+          "cloture": 0.8,
+          "volume": 1.0
+        },
+        {
+          "t": 3600000,
+          "ouverture": 1.5,
+          "haut": 2.0,
+          "bas": 1.0,
+          "cloture": 1.8,
+          "volume": 1.0
+        },
+        {
+          "t": 7200000,
+          "ouverture": 2.5,
+          "haut": 3.0,
+          "bas": 2.0,
+          "cloture": 2.8,
+          "volume": 1.0
+        },
+        {
+          "t": 10800000,
+          "ouverture": 3.5,
+          "haut": 4.0,
+          "bas": 3.0,
+          "cloture": 3.8,
+          "volume": 1.0
+        },
+        {
+          "t": 14400000,
+          "ouverture": 4.5,
+          "haut": 5.0,
+          "bas": 4.0,
+          "cloture": 4.8,
+          "volume": 1.0
+        },
+        {
+          "t": 18000000,
+          "ouverture": 3.5,
+          "haut": 4.0,
+          "bas": 3.0,
+          "cloture": 3.8,
+          "volume": 1.0
+        },
+        {
+          "t": 21600000,
+          "ouverture": 2.5,
+          "haut": 3.0,
+          "bas": 2.0,
+          "cloture": 2.8,
+          "volume": 1.0
+        },
+        {
+          "t": 25200000,
+          "ouverture": 1.5,
+          "haut": 2.0,
+          "bas": 1.0,
+          "cloture": 1.8,
+          "volume": 1.0
+        },
+        {
+          "t": 28800000,
+          "ouverture": 0.5,
+          "haut": 1.0,
+          "bas": 0.0,
+          "cloture": 0.8,
+          "volume": 1.0
+        }
+      ],
+      "sensibilite": 4,
+      "attendu": {
+        "sommets": [
+          4
+        ],
+        "creux": []
+      }
+    },
+    {
+      "nom": "origine_dernier_retournement",
+      "cadre": [
+        {
+          "t": 0,
+          "ouverture": 10.0,
+          "haut": 10.5,
+          "bas": 9.0,
+          "cloture": 9.5,
+          "volume": 1.0
+        },
+        {
+          "t": 3600000,
+          "ouverture": 8.0,
+          "haut": 8.5,
+          "bas": 7.0,
+          "cloture": 7.5,
+          "volume": 1.0
+        },
+        {
+          "t": 7200000,
+          "ouverture": 6.0,
+          "haut": 6.5,
+          "bas": 5.0,
+          "cloture": 5.5,
+          "volume": 1.0
+        },
+        {
+          "t": 10800000,
+          "ouverture": 4.0,
+          "haut": 4.5,
+          "bas": 3.0,
+          "cloture": 3.5,
+          "volume": 1.0
+        },
+        {
+          "t": 14400000,
+          "ouverture": 2.0,
+          "haut": 2.5,
+          "bas": 1.0,
+          "cloture": 1.5,
+          "volume": 1.0
+        },
+        {
+          "t": 18000000,
+          "ouverture": 4.0,
+          "haut": 4.5,
+          "bas": 3.0,
+          "cloture": 3.5,
+          "volume": 1.0
+        },
+        {
+          "t": 21600000,
+          "ouverture": 6.0,
+          "haut": 6.5,
+          "bas": 5.0,
+          "cloture": 5.5,
+          "volume": 1.0
+        },
+        {
+          "t": 25200000,
+          "ouverture": 8.0,
+          "haut": 8.5,
+          "bas": 7.0,
+          "cloture": 7.5,
+          "volume": 1.0
+        },
+        {
+          "t": 28800000,
+          "ouverture": 10.0,
+          "haut": 10.5,
+          "bas": 9.0,
+          "cloture": 9.5,
+          "volume": 1.0
+        },
+        {
+          "t": 32400000,
+          "ouverture": 9.0,
+          "haut": 9.5,
+          "bas": 8.0,
+          "cloture": 8.5,
+          "volume": 1.0
+        },
+        {
+          "t": 36000000,
+          "ouverture": 8.0,
+          "haut": 8.5,
+          "bas": 7.0,
+          "cloture": 7.5,
+          "volume": 1.0
+        },
+        {
+          "t": 39600000,
+          "ouverture": 7.0,
+          "haut": 7.5,
+          "bas": 6.0,
+          "cloture": 6.5,
+          "volume": 1.0
+        },
+        {
+          "t": 43200000,
+          "ouverture": 5.0,
+          "haut": 5.5,
+          "bas": 4.0,
+          "cloture": 4.5,
+          "volume": 1.0
+        },
+        {
+          "t": 46800000,
+          "ouverture": 7.0,
+          "haut": 7.5,
+          "bas": 6.0,
+          "cloture": 6.5,
+          "volume": 1.0
+        },
+        {
+          "t": 50400000,
+          "ouverture": 9.0,
+          "haut": 9.5,
+          "bas": 8.0,
+          "cloture": 8.5,
+          "volume": 1.0
+        },
+        {
+          "t": 54000000,
+          "ouverture": 11.0,
+          "haut": 11.5,
+          "bas": 10.0,
+          "cloture": 10.5,
+          "volume": 1.0
+        },
+        {
+          "t": 57600000,
+          "ouverture": 13.0,
+          "haut": 13.5,
+          "bas": 12.0,
+          "cloture": 12.5,
+          "volume": 1.0
+        },
+        {
+          "t": 61200000,
+          "ouverture": 15.0,
+          "haut": 15.5,
+          "bas": 14.0,
+          "cloture": 14.5,
+          "volume": 1.0
+        },
+        {
+          "t": 64800000,
+          "ouverture": 17.0,
+          "haut": 17.5,
+          "bas": 16.0,
+          "cloture": 16.5,
+          "volume": 1.0
+        },
+        {
+          "t": 68400000,
+          "ouverture": 19.0,
+          "haut": 19.5,
+          "bas": 18.0,
+          "cloture": 18.5,
+          "volume": 1.0
+        }
+      ],
+      "sensObOuSens": "baissier",
+      "sensibilite": 4,
+      "attendu": {
+        "origine": 12
+      }
+    }
+  ]
+}

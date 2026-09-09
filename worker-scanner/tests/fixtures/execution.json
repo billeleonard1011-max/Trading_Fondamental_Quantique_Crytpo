@@ -1,0 +1,97 @@
+{
+  "stop": [
+    {
+      "sens": "haussier",
+      "obHaut": 105.0,
+      "obBas": 100.0,
+      "mecheBougie2": 101.0,
+      "marge": 1.0,
+      "attendu": 99.0
+    },
+    {
+      "sens": "baissier",
+      "obHaut": 105.0,
+      "obBas": 100.0,
+      "mecheBougie2": 104.0,
+      "marge": 1.0,
+      "attendu": 106.0
+    },
+    {
+      "sens": "haussier",
+      "obHaut": 105.0,
+      "obBas": 100.0,
+      "mecheBougie2": 97.0,
+      "marge": 1.0,
+      "attendu": 96.0
+    },
+    {
+      "sens": "baissier",
+      "obHaut": 105.0,
+      "obBas": 100.0,
+      "mecheBougie2": 108.0,
+      "marge": 1.0,
+      "attendu": 109.0
+    }
+  ],
+  "dimensionnement": [
+    {
+      "distanceStopUsd": 5.0,
+      "tauxEurusd": 1.08,
+      "attendu": {
+        "prenable": true,
+        "lots": 0.11,
+        "perteEur": 50.925925925925924
+      }
+    },
+    {
+      "distanceStopUsd": 1.5,
+      "tauxEurusd": 1.1,
+      "attendu": {
+        "prenable": true,
+        "lots": 0.4,
+        "perteEur": 54.54545454545454
+      }
+    },
+    {
+      "distanceStopUsd": 50.0,
+      "tauxEurusd": 0.9,
+      "attendu": {
+        "prenable": true,
+        "lots": 0.01,
+        "perteEur": 55.55555555555556
+      }
+    },
+    {
+      "distanceStopUsd": 0.0,
+      "tauxEurusd": 1.08,
+      "attendu": {
+        "prenable": false,
+        "lots": 0.0,
+        "perteEur": null
+      }
+    },
+    {
+      "distanceStopUsd": 5.0,
+      "tauxEurusd": 0.0,
+      "attendu": {
+        "prenable": false,
+        "lots": 0.0,
+        "perteEur": null
+      }
+    }
+  ],
+  "couts": [
+    {
+      "prix": 100.0,
+      "sens": "haussier",
+      "entree": 100.92,
+      "sortie": 99.7
+    },
+    {
+      "prix": 100.0,
+      "sens": "baissier",
+      "entree": 99.08,
+      "sortie": 100.3
+    }
+  ]
+}
