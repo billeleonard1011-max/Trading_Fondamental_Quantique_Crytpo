@@ -1,0 +1,127 @@
+# Fils d'actualité (quantique, crypto, géopolitique) : séparés du rapport
+# quotidien de l'or.
+#
+# Pourquoi un workflow distinct
+# ------------------------------
+# Les trois fils dépendent de GDELT, qui limite le débit sans le publier :
+# chaque requête au-delà de la première déclenche des 429 et une attente
+# exponentielle. Sur trois fils (dix jetons crypto, une dizaine de valeurs
+# quantiques, quatre thèmes géopolitiques), c'est près de vingt requêtes
+# GDELT séquentielles par exécution, ce qui a mesuré ~10 minutes à lui seul
+# lors de l'ajout des fils crypto et géopolitique — largement plus que la
+# variance habituelle du reste du pipeline (~1 minute). Les garder dans le
+# même job que le rapport or aurait fait dépendre la publication d'un
+# chiffre réellement tradé (l'or) de la disponibilité d'une API externe que
+# rien ici ne contrôle. Ce workflow tourne donc à part : une lenteur ou un
+# échec GDELT ne retarde plus jamais reports/gold/latest.json.
+#
+# Les trois fils restent dans le même job (donc la même exécution) pour
+# préserver la mutualisation du cache GDELT de dataio.news : une requête
+# identique à celle déjà posée par un autre fil dans les 30 dernières
+# minutes est servie depuis le cache plutôt que reposée.
+#
+# Cadence : alignée sur celle du rapport quotidien pour commencer, par
+# prudence sur le budget de minutes Actions plutôt que sur la cadence de
+# quinze-trente minutes évoquée dans modules/quantum/feed.py. À resserrer
+# une fois le coût réel observé sur quelques jours.
+
+name: Fils d'actualité
+
+on:
+  schedule:
+    - cron: "35 11 * * 1-5"   # du lundi au vendredi, 11:35 UTC — décalé de
+                               # cinq minutes après le rapport quotidien,
+                               # sans dépendance entre les deux workflows.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Un fil à la fois, mais indépendant du rapport quotidien : les deux
+# workflows peuvent tourner en parallèle sans se marcher dessus, puisqu'ils
+# publient chacun dans des fichiers disjoints (reports/{quantum,crypto,geopolitique}/feed_*).
+concurrency:
+  group: fils-actualite
+  cancel-in-progress: false
+
+jobs:
+  fils:
+    name: Collecter et publier les trois fils
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      # Couche pédagogique des trois fils. Facultative : sans elle, les
+      # explications basculent sur les gabarits déterministes et les fils
+      # restent complets.
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Installer Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fil d'actualité quantique
+        continue-on-error: true
+        run: |
+          mkdir -p reports/quantum
+          python -m modules.quantum.feed
+
+      - name: Fil d'actualité crypto
+        continue-on-error: true
+        run: |
+          mkdir -p reports/crypto
+          python -m modules.crypto.feed
+
+      - name: Fil d'actualité géopolitique
+        # Relit reports/gold/latest.json (publié par le workflow "Rapport
+        # quotidien") pour réutiliser l'intensité par thème déjà calculée
+        # plutôt que la recalculer. Si ce rapport n'existe pas encore ou est
+        # d'une exécution antérieure, le fil reste fonctionnel : la mesure
+        # d'intensité manque simplement pour les nouveaux items.
+        continue-on-error: true
+        run: |
+          mkdir -p reports/geopolitique
+          python -m modules.geopolitique.feed
+
+      - name: Publier les fils dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/quantum/feed_latest.json reports/quantum/feed_historique.jsonl \
+                  reports/crypto/feed_latest.json reports/crypto/feed_historique.jsonl \
+                  reports/geopolitique/feed_latest.json reports/geopolitique/feed_historique.jsonl \
+                  2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "Aucun item nouveau : rien à publier."
+          else
+            git commit -m "Fils d'actualité du $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Archiver les fils en artefact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fils-actualite-${{ github.run_number }}
+          path: |
+            reports/quantum/feed_latest.json
+            reports/crypto/feed_latest.json
+            reports/geopolitique/feed_latest.json
+          retention-days: 30
+          if-no-files-found: warn

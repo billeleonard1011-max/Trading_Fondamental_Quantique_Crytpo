@@ -281,9 +281,24 @@ def charger_donnees(
     from dataio import dukascopy as dk
 
     or_m1 = dk.charger_m1_depuis_cache("XAUUSD", racine)
-    if or_m1.empty and not hors_ligne:
-        _LOG.info("Cache XAUUSD vide : téléchargement.")
-        or_m1 = dk.charger_m1("XAUUSD", debut, fin, racine)
+    # Le cache global peut être non vide (une autre période déjà téléchargée)
+    # sans pour autant couvrir la fenêtre demandée : ne regarder que la
+    # vacuité globale laisserait une nouvelle période silencieusement sans
+    # données. Les deux bornes doivent être couvertes, pas seulement l'une
+    # des deux.
+    couvre_debut = not or_m1.empty and or_m1.index.min() <= pd.Timestamp(debut, tz="UTC")
+    couvre_fin = not or_m1.empty and or_m1.index.max() >= pd.Timestamp(fin, tz="UTC")
+    if not (couvre_debut and couvre_fin) and not hors_ligne:
+        _LOG.info(
+            "Cache XAUUSD ne couvre pas %s → %s : téléchargement (le cache déjà "
+            "présent pour d'autres périodes n'est ni supprimé ni retéléchargé).",
+            debut, fin,
+        )
+        dk.charger_m1("XAUUSD", debut, fin, racine)
+        # Recombiné avec tout le cache, y compris les autres périodes déjà
+        # présentes : c'est le même fichier de cache qui sert de source pour
+        # toutes les fenêtres, jamais réécrit ni tronqué.
+        or_m1 = dk.charger_m1_depuis_cache("XAUUSD", racine)
 
     if not or_m1.empty:
         masque = (or_m1.index >= pd.Timestamp(debut, tz="UTC")) & (

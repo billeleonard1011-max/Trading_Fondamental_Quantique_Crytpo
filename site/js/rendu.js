@@ -146,7 +146,7 @@ export function rendreLibelleAvecInfobulle(id, texteAffiche = null) {
     ${echapper(texte)}
     <button type="button" class="infobulle-declencheur"
             aria-label="Qu'est-ce que ${echapper(texte)} ?" aria-expanded="false">i</button>
-    <span class="infobulle-bulle" role="tooltip">${echapper(explication)}</span>
+    <span class="infobulle-bulle">${echapper(explication)}</span>
   </span>`;
 }
 

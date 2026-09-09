@@ -155,35 +155,12 @@ jobs:
           mkdir -p reports/crypto
           python -m modules.crypto.run
 
-      - name: Fil d'actualité quantique
-        # Ce module est conçu pour tourner bien plus souvent que ce workflow
-        # quotidien : une cadence de quinze à trente minutes serait cohérente
-        # avec son objet, et le calendrier définitif sera réglé avec la page
-        # web. Il est néanmoins appelé ici, pour deux raisons : une exécution
-        # par jour vaut mieux qu'aucune en attendant, et l'historique en ajout
-        # seul garantit qu'aucun item ne sera réexpliqué quand la cadence
-        # passera à quinze minutes.
-        continue-on-error: true
-        run: |
-          mkdir -p reports/quantum
-          python -m modules.quantum.feed
-
-      - name: Fil d'actualité crypto
-        # Même patron que le fil quantique ci-dessus, mêmes raisons de
-        # tourner ici en attendant une cadence dédiée plus rapprochée.
-        continue-on-error: true
-        run: |
-          mkdir -p reports/crypto
-          python -m modules.crypto.feed
-
-      - name: Fil d'actualité géopolitique
-        # Exécuté après le rapport or : il relit l'intensité par thème déjà
-        # calculée par modules.gold.geopolitics dans reports/gold/latest.json
-        # au lieu de la recalculer par un second appel GDELT identique.
-        continue-on-error: true
-        run: |
-          mkdir -p reports/geopolitique
-          python -m modules.geopolitique.feed
+      # Les trois fils d'actualité (quantique, crypto, géopolitique) tournent
+      # dans un workflow séparé (.github/workflows/fils_actualite.yml) : ils
+      # dépendent de GDELT, dont le débit limité sans préavis a mesuré
+      # ~10 minutes à lui seul, ce qui aurait fait dépendre la publication du
+      # rapport or — l'instrument réellement tradé — de la disponibilité
+      # d'une API externe hors de notre contrôle.
 
       - name: Publier le rapport dans le dépôt
         run: |

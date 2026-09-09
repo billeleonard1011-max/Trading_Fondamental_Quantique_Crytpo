@@ -293,31 +293,38 @@ button.aide:hover { color: var(--texte); border-color: var(--texte); }
 /* --- Infobulles ----------------------------------------------------------
  * Survol sur ordinateur (:hover, :focus-within pour le clavier), tap sur
  * mobile où le survol n'existe pas (.infobulle--ouverte, basculée en JS par
- * installerInfobulles()). Les deux mécanismes affichent la même bulle : pas
+ * installerInfobulles()). Les deux mécanismes affichent le même bloc : pas
  * de logique dupliquée entre les deux cas d'usage.
+ *
+ * Volontairement pas de bulle flottante positionnée en absolu : la plus
+ * longue des six explications de composantes dépasse 400 caractères, et
+ * .rubrique porte overflow:hidden pour ses coins arrondis — une bulle
+ * absolue aurait fini rognée par ce conteneur, ou débordée de l'écran près
+ * des bords. Le texte se déplie donc dans le flux normal, juste sous
+ * l'étiquette : il ne peut alors ni être rogné (il pousse la mise en page
+ * au lieu d'être découpé par un ancêtre) ni déborder de l'écran (sa largeur
+ * est celle, déjà responsive, de son conteneur bloc).
  */
-.infobulle { position: relative; display: inline-flex; align-items: center; gap: 4px; }
 .infobulle-declencheur {
-  width: 16px; height: 16px; border-radius: 50%; flex: 0 0 auto;
-  border: 1px solid var(--trait); background: var(--fond-creux);
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 16px; height: 16px; margin-left: 4px; vertical-align: middle;
+  border-radius: 50%; border: 1px solid var(--trait); background: var(--fond-creux);
   color: var(--texte-doux); font: italic 600 11px/1 Georgia, serif;
-  cursor: pointer; padding: 0; line-height: 1;
+  cursor: pointer; padding: 0;
 }
 .infobulle-declencheur:hover, .infobulle-declencheur:focus-visible {
   color: var(--texte); border-color: var(--texte);
 }
 .infobulle-bulle {
-  display: none; position: absolute; z-index: 20; bottom: calc(100% + 8px);
-  left: 50%; transform: translateX(-50%);
-  width: max-content; max-width: min(280px, 80vw);
-  background: var(--texte); color: var(--fond);
-  font-size: 12px; line-height: 1.5; font-weight: 400;
-  text-transform: none; letter-spacing: normal;
-  padding: 8px 10px; border-radius: var(--rayon); box-shadow: 0 4px 12px rgba(0,0,0,0.18);
-}
-.infobulle-bulle::after {
-  content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-  border: 5px solid transparent; border-top-color: var(--texte);
+  display: none; margin: 6px 0 2px; padding: 8px 10px;
+  background: var(--fond-creux); border-left: 3px solid var(--trait);
+  border-radius: var(--rayon);
+  font-size: 12.5px; line-height: 1.5; font-weight: 400; font-style: normal;
+  text-transform: none; letter-spacing: normal; color: var(--texte);
+  max-width: 100%; box-sizing: border-box;
+  /* Un span devient ici un bloc : il se détache du flux en ligne du
+     déclencheur et occupe, sur sa propre ligne, toute la largeur du bloc
+     englobant (la carte de la rubrique, déjà contrainte en mobile). */
 }
 .infobulle:hover .infobulle-bulle,
 .infobulle:focus-within .infobulle-bulle,
@@ -380,5 +387,4 @@ button.aide:hover { color: var(--texte); border-color: var(--texte); }
 
 @media (max-width: 480px) {
   .watchlist { grid-template-columns: 1fr 1fr; }
-  .infobulle-bulle { max-width: 70vw; }
 }

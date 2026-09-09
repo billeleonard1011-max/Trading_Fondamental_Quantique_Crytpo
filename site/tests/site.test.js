@@ -22,7 +22,8 @@ import { ABSENT, compteARebours, echapper, estDatee, libelleAge, nombre, pourcen
   from "../js/format.js";
 import { chargerJson, chargerJsonl, lire } from "../js/donnees.js";
 import {
-  champsInterdits, rendreEchelle, rendreIndisponible, rendrePrecedents, rendrePrix,
+  champsInterdits, rendreEchelle, rendreIndisponible, rendreLibelleAvecInfobulle,
+  rendrePrecedents, rendrePrix,
 } from "../js/rendu.js";
 import {
   rubriqueCrypto, rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
@@ -31,6 +32,7 @@ import { filtrer, rendreFil, rendreVide } from "../js/fil.js";
 import { construireContexte, demander, suggestions } from "../js/assistant.js";
 import { evaluerFiabilite, rendreFiabilite } from "../js/debrief.js";
 import { rendreDetail } from "../js/news.js";
+import { EXPLICATIONS } from "../js/libelles.js";
 
 /** Charge un rapport réel du dépôt. */
 function rapport(chemin) {
@@ -382,6 +384,25 @@ test("aucune largeur fixe ne déborde d'un écran de 375 px", () => {
   for (const valeur of minmax) {
     assert.ok(valeur <= largeurUtile, `minmax(${valeur}px) déborde sur mobile`);
   }
+});
+
+test("l'infobulle la plus longue n'est ni tronquée ni positionnée en absolu", () => {
+  // .rubrique porte overflow:hidden pour ses coins arrondis (voir plus bas
+  // dans la feuille de style) : une bulle en position:absolute finirait
+  // rognée par ce conteneur, ou déborderait de l'écran près des bords. Le
+  // texte doit se déplier dans le flux normal à la place.
+  const css = readFileSync(new URL("../css/style.css", import.meta.url), "utf8");
+  const regleBulle = css.match(/\.infobulle-bulle\s*\{[^}]*\}/)[0];
+  assert.doesNotMatch(regleBulle, /position\s*:\s*absolute/);
+
+  const plusLongue = Object.entries(EXPLICATIONS)
+    .sort((a, b) => b[1].length - a[1].length)[0];
+  const [id, texte] = plusLongue;
+  assert.ok(texte.length > 400, `attendu un texte de test long, eu ${texte.length} car. (${id})`);
+
+  const html = rendreLibelleAvecInfobulle(id);
+  const attendu = echapper(texte).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  assert.match(html, new RegExp(attendu));
 });
 
 test("les contenus larges peuvent défiler au lieu de déborder", () => {
