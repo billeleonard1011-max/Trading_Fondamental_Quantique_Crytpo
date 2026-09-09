@@ -364,6 +364,35 @@ def test_les_citations_externes_ne_declenchent_pas_le_controle() -> None:
     assert moves.verifier_absence_recommandation(sortie_fautive)
 
 
+def test_les_citations_externes_du_format_fil_ne_declenchent_pas_le_controle() -> None:
+    """Un titre d'actualité cité dans le format de sortie unifié des fils est une citation.
+
+    Cas réel observé en collectant le fil crypto : un communiqué de presse
+    titré « Best Crypto To Buy Now : Bitcoin Stalls Near $80K... » a bloqué
+    la publication de tout le fil, alors que le module ne fait que citer ce
+    titre externe dans ``titre_affiche`` — le même champ que ``titre``
+    ci-dessus, sous le nom qu'il porte dans le format de sortie des fils.
+    """
+    item = {
+        "id": "abc123",
+        "categorie": "crypto",
+        "titre_affiche": "Best Crypto To Buy Now: Bitcoin Stalls Near $80K as Alpha",
+        "horodatage_utc": "2026-09-09T10:00:00+00:00",
+        "source_nom": "GDELT/openpr.com",
+        "url_source": "https://www.openpr.com/news/4625504/best-crypto-to-buy-now",
+        "a_une_analyse_interne": False,
+        "analyse_interne": None,
+        "tickers_ou_themes_lies": ["BTC"],
+        "nouveaute": True,
+    }
+    assert moves.verifier_absence_recommandation([item]) == []
+
+    # Mais la même formulation dans l'analyse rédigée par le module reste attrapée.
+    fautif = dict(item)
+    fautif["analyse_interne"] = "Best Crypto To Buy Now selon cette dépêche."
+    assert moves.verifier_absence_recommandation([fautif])
+
+
 def test_chemin_de_linfraction_localise() -> None:
     """Une infraction doit être localisable, sinon elle est incorrigible."""
     infractions = moves.verifier_absence_recommandation(

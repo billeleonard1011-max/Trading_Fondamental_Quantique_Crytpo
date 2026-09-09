@@ -9,7 +9,9 @@ Modules
 ``regime``       Classification en accumulation, expansion, distribution ou
                  capitulation, à partir du MVRV et de l'offre de stablecoins.
 ``positioning``  Funding et open interest des perpétuels, positions suivies.
+``rotation``     Synthèse de rotation entre bitcoin et alts.
+``feed``         Fil d'actualité crypto, même patron que le fil quantique.
 ``run``          Orchestration et publication du JSON quotidien.
 """
 
-__all__ = ["regime", "positioning", "run"]
+__all__ = ["regime", "positioning", "rotation", "feed", "run"]

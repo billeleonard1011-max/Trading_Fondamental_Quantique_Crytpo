@@ -15,6 +15,8 @@ export const CONFIG = {
     or: "../reports/gold/latest.json",
     quantique: "../reports/quantum/latest.json",
     filQuantique: "../reports/quantum/feed_latest.json",
+    filCrypto: "../reports/crypto/feed_latest.json",
+    filGeopolitique: "../reports/geopolitique/feed_latest.json",
     crypto: "../reports/crypto/latest.json",
     historiqueBiais: "../reports/gold/historique_biais.jsonl",
   },

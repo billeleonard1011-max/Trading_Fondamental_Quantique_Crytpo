@@ -289,3 +289,96 @@ button.aide:hover { color: var(--texte); border-color: var(--texte); }
   .assistant-saisie { flex-direction: column; }
   .metrique header { flex-direction: column; align-items: flex-start; gap: 2px; }
 }
+
+/* --- Infobulles ----------------------------------------------------------
+ * Survol sur ordinateur (:hover, :focus-within pour le clavier), tap sur
+ * mobile où le survol n'existe pas (.infobulle--ouverte, basculée en JS par
+ * installerInfobulles()). Les deux mécanismes affichent la même bulle : pas
+ * de logique dupliquée entre les deux cas d'usage.
+ */
+.infobulle { position: relative; display: inline-flex; align-items: center; gap: 4px; }
+.infobulle-declencheur {
+  width: 16px; height: 16px; border-radius: 50%; flex: 0 0 auto;
+  border: 1px solid var(--trait); background: var(--fond-creux);
+  color: var(--texte-doux); font: italic 600 11px/1 Georgia, serif;
+  cursor: pointer; padding: 0; line-height: 1;
+}
+.infobulle-declencheur:hover, .infobulle-declencheur:focus-visible {
+  color: var(--texte); border-color: var(--texte);
+}
+.infobulle-bulle {
+  display: none; position: absolute; z-index: 20; bottom: calc(100% + 8px);
+  left: 50%; transform: translateX(-50%);
+  width: max-content; max-width: min(280px, 80vw);
+  background: var(--texte); color: var(--fond);
+  font-size: 12px; line-height: 1.5; font-weight: 400;
+  text-transform: none; letter-spacing: normal;
+  padding: 8px 10px; border-radius: var(--rayon); box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+}
+.infobulle-bulle::after {
+  content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  border: 5px solid transparent; border-top-color: var(--texte);
+}
+.infobulle:hover .infobulle-bulle,
+.infobulle:focus-within .infobulle-bulle,
+.infobulle.infobulle--ouverte .infobulle-bulle {
+  display: block;
+}
+
+/* --- Composante désactivée du biais --------------------------------------
+ * Doit se voir au premier coup d'œil qu'elle ne compte pas dans le score :
+ * texte atténué, pastille dédiée, et le motif toujours affiché en clair.
+ */
+.composante--desactivee {
+  opacity: 0.7; font-style: italic;
+}
+.composante-pastille-off {
+  display: inline-block; font-size: 10px; text-transform: uppercase;
+  letter-spacing: 0.04em; border: 1px solid var(--alerte); color: var(--alerte);
+  border-radius: 999px; padding: 0 6px; margin-left: 6px;
+}
+
+/* --- Fraîcheur des données -------------------------------------------------
+ * L'âge doit sauter aux yeux sans qu'on ait besoin de le chercher : une
+ * ligne dédiée en tête de rubrique, distincte du contenu qu'elle qualifie.
+ */
+.fraicheur {
+  font-size: 12px; color: var(--texte-doux); margin: 0 0 10px;
+  display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap;
+}
+.fraicheur strong { color: var(--texte); font-weight: 600; }
+
+/* --- Watchlist crypto ------------------------------------------------------ */
+.watchlist { list-style: none; padding: 0; margin: 10px 0; display: grid;
+  gap: 8px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.watchlist-jeton {
+  background: var(--fond-creux); border-radius: var(--rayon); padding: 10px 12px;
+}
+.watchlist-entete { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.watchlist-symbole { font-weight: 700; font-size: 14px; }
+.watchlist-prix { font-variant-numeric: tabular-nums; font-size: 14px; }
+.watchlist-variations { display: flex; gap: 10px; font-size: 12px; margin-top: 4px;
+  font-variant-numeric: tabular-nums; color: var(--texte-doux); }
+.watchlist-variations span strong { color: inherit; }
+.watchlist-statut {
+  margin: 6px 0 0; padding: 4px 8px; border-radius: 4px; font-size: 12px;
+  border-left: 3px solid var(--texte-doux);
+}
+/* Cinq statuts de déblocage, cinq traitements visuels distincts : les
+   confondre ferait passer une simple absence de source (inconnu) pour une
+   garantie qu'aucun déblocage n'est prévu (non_applicable), ou un vesting
+   déjà achevé pour un calendrier encore actif. */
+.watchlist-statut--actif { border-left-style: solid; border-left-color: var(--alerte); background: var(--alerte-fond); }
+.watchlist-statut--vesting_conclu { border-left-style: solid; border-left-color: var(--positif); }
+.watchlist-statut--non_applicable { border-left-style: solid; border-left-color: var(--texte-doux); font-style: italic; opacity: 0.85; }
+.watchlist-statut--inconnu { border-left-style: dashed; border-left-color: var(--alerte); background: var(--alerte-fond); }
+.watchlist-statut--absent { border-left-style: dotted; border-left-color: var(--texte-doux); opacity: 0.7; }
+.watchlist-avertissement {
+  margin-top: 6px; font-size: 12px; color: var(--alerte); background: var(--alerte-fond);
+  padding: 5px 8px; border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+  .watchlist { grid-template-columns: 1fr 1fr; }
+  .infobulle-bulle { max-width: 70vw; }
+}

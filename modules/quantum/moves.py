@@ -83,8 +83,18 @@ MOTIFS_RECOMMANDATION: Final[tuple[str, ...]] = (
 #: que le module recommande quoi que ce soit : c'est une citation, pas un
 #: avis. Les exclure évite un faux positif qui, à force, ferait désactiver le
 #: garde-fou — ce qui serait bien pire que de laisser passer une citation.
+#:
+#: ``titre_affiche`` et ``url_source`` sont les mêmes citations que ``titre``
+#: et ``url`` ci-dessus, sous les noms qu'elles portent dans le format de
+#: sortie unifié des fils (``feed.CLES_ITEM``) plutôt que dans le contexte
+#: interne d'analyse : un fil entier serait sinon bloqué par le titre d'une
+#: seule dépêche externe, aperçu en pratique sur un communiqué crypto
+#: (« Best Crypto To Buy Now »).
 CLES_CITATION: Final[frozenset[str]] = frozenset(
-    {"titre", "url", "resume", "description", "source", "query", "keywords", "libelle_source"}
+    {
+        "titre", "url", "resume", "description", "source", "query", "keywords",
+        "libelle_source", "titre_affiche", "url_source",
+    }
 )
 
 #: Clés portant les avertissements du système sur sa propre nature.

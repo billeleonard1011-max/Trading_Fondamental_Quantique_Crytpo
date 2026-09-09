@@ -8,13 +8,14 @@
 import { CONFIG } from "./config.js";
 import { chargerTout, lire } from "./donnees.js";
 import { ABSENT, dateHeure, echapper, heure } from "./format.js";
-import { rendrePrix } from "./rendu.js";
+import { installerInfobulles, rendrePrix } from "./rendu.js";
 import {
   rubriqueCrypto, rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
 } from "./rubriques.js";
-import { LIBELLES, rendreFil } from "./fil.js";
+import { rendreFil } from "./fil.js";
 import { construireContexte, demander, suggestions } from "./assistant.js";
 import { installerTheme } from "./theme.js";
+import { libelle } from "./libelles.js";
 
 /** État global de la page, rempli une fois au chargement. */
 let etatGlobal = {};
@@ -127,7 +128,7 @@ function installerFil(items) {
 
   onglets.innerHTML = CONFIG.categories
     .map((c) => `<button class="fil-onglet" role="tab" type="button"
-      data-categorie="${c}" aria-selected="${c === "tout"}">${echapper(LIBELLES[c])}</button>`)
+      data-categorie="${c}" aria-selected="${c === "tout"}">${echapper(libelle(c))}</button>`)
     .join("");
   onglets.addEventListener("click", (evenement) => {
     const bouton = evenement.target.closest(".fil-onglet");
@@ -200,9 +201,17 @@ async function demarrer() {
     installerAccordeon();
   }
 
-  const fil = lire(etatGlobal, "filQuantique.donnees", []) || [];
-  installerFil(Array.isArray(fil) ? fil : []);
+  // Trois fils indépendants, un par domaine, fusionnés ici : chaque item
+  // porte déjà sa propre catégorie, et un fil absent ou vide (crypto et
+  // géopolitique peuvent ne pas encore avoir tourné) ne prive pas les
+  // autres d'affichage.
+  const fils = ["filQuantique", "filCrypto", "filGeopolitique"]
+    .map((cle) => lire(etatGlobal, `${cle}.donnees`, []))
+    .filter((donnees) => Array.isArray(donnees))
+    .flat();
+  installerFil(fils);
   installerAssistant();
+  installerInfobulles();
 }
 
 // Le module s'exécute au chargement dans le navigateur, mais reste importable

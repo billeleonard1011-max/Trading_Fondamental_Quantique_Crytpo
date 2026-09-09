@@ -14,6 +14,8 @@ Les deux canaux sont complémentaires :
 
 from __future__ import annotations
 
+import hashlib
+import json
 import logging
 import os
 import re
@@ -21,6 +23,7 @@ import time
 import unicodedata
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any, Final, Iterable
 
 import requests
@@ -32,6 +35,23 @@ URL_GDELT: Final = "https://api.gdeltproject.org/api/v2/doc/doc"
 
 #: Délai maximal, en secondes, accordé à un appel réseau.
 TIMEOUT: Final[float] = float(os.environ.get("HTTP_TIMEOUT", "20"))
+
+#: Dossier du cache GDELT. Un job GitHub Actions démarre sur un système de
+#: fichiers vide : le cache ne survit donc pas d'une exécution à l'autre, il
+#: ne sert qu'à mutualiser les appels *au sein d'une même exécution* — la
+#: chaîne géopolitique de l'or, le fil quantique et les fils crypto et
+#: géopolitique interrogent souvent des requêtes GDELT identiques ou très
+#: proches dans la même minute.
+CACHE_DIR: Final = Path(
+    os.environ.get(
+        "GDELT_CACHE_DIR", str(Path(__file__).resolve().parents[1] / ".cache" / "gdelt")
+    )
+)
+
+#: Durée de vie du cache, en secondes. Assez courte pour ne jamais masquer un
+#: vrai changement de couverture, assez longue pour couvrir la poignée de
+#: minutes que dure une exécution du workflow.
+CACHE_TTL_SECONDES: Final[float] = float(os.environ.get("GDELT_CACHE_TTL_SECONDES", "1800"))
 
 #: Ratio de volume au-delà duquel une couverture est jugée anormale.
 SEUIL_ALERTE_INTENSITE: Final[float] = 2.0
@@ -269,6 +289,60 @@ def fetch_rss(feeds: list[dict[str, Any]], hours: int = 24) -> list[NewsItem]:
 # ---------------------------------------------------------------------------
 # Canal 2 : GDELT
 # ---------------------------------------------------------------------------
+def _cle_cache_gdelt(parametres: dict[str, Any]) -> str:
+    """Calcule la clé de cache d'un jeu de paramètres GDELT.
+
+    Args:
+        parametres: paramètres de la requête ``_appel_gdelt``.
+
+    Returns:
+        Empreinte hexadécimale stable, indépendante de l'ordre des clés.
+    """
+    brut = json.dumps(parametres, sort_keys=True, ensure_ascii=False, default=str)
+    return hashlib.sha256(brut.encode("utf-8")).hexdigest()
+
+
+def _lire_cache_gdelt(cle: str) -> dict[str, Any] | None:
+    """Relit une réponse GDELT mise en cache, si elle est encore fraîche.
+
+    Une erreur de lecture ou un cache expiré vaut absence : l'appelant
+    referra l'appel réseau, la dégradation est donc sans risque.
+
+    Args:
+        cle: clé calculée par :func:`_cle_cache_gdelt`.
+
+    Returns:
+        La charge JSON mise en cache, ou ``None``.
+    """
+    fichier = CACHE_DIR / f"{cle}.json"
+    try:
+        age = time.time() - fichier.stat().st_mtime
+        if age > CACHE_TTL_SECONDES:
+            return None
+        return json.loads(fichier.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def _ecrire_cache_gdelt(cle: str, charge: dict[str, Any]) -> None:
+    """Enregistre une réponse GDELT dans le cache.
+
+    Un échec d'écriture (dossier en lecture seule, disque plein) ne doit
+    jamais interrompre l'appelant : seule la mutualisation est perdue.
+
+    Args:
+        cle: clé calculée par :func:`_cle_cache_gdelt`.
+        charge: charge JSON à mettre en cache.
+    """
+    try:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        (CACHE_DIR / f"{cle}.json").write_text(
+            json.dumps(charge, ensure_ascii=False), encoding="utf-8"
+        )
+    except OSError as exc:
+        _LOG.debug("Cache GDELT non écrit (%s) : sans effet sur le résultat.", exc)
+
+
 def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] | None:
     """Appelle l'API GDELT et renvoie la charge JSON.
 
@@ -278,6 +352,12 @@ def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] 
     exponentielle est donc appliquée sur ce seul code : les autres erreurs
     ne sont pas réessayées, elles ne s'arrangeraient pas en patientant.
 
+    Un cache disque de courte durée (voir :data:`CACHE_TTL_SECONDES`) évite
+    de répéter le même appel plusieurs fois dans la même exécution : la
+    chaîne de transmission géopolitique de l'or et les fils quantique, crypto
+    et géopolitique interrogent souvent des requêtes identiques ou très
+    proches.
+
     Args:
         parametres: paramètres de requête.
         essais: nombre maximal de tentatives.
@@ -285,6 +365,12 @@ def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] 
     Returns:
         Dictionnaire JSON, ou ``None`` en cas d'échec.
     """
+    cle = _cle_cache_gdelt(parametres)
+    en_cache = _lire_cache_gdelt(cle)
+    if en_cache is not None:
+        _LOG.debug("GDELT « %s » servi depuis le cache.", parametres.get("query", "")[:60])
+        return en_cache
+
     reponse = None
     for tentative in range(1, max(int(essais), 1) + 1):
         try:
@@ -310,11 +396,14 @@ def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] 
 
     # GDELT répond parfois en texte brut pour signaler une requête invalide.
     try:
-        return reponse.json()
+        charge = reponse.json()
     except ValueError:
         extrait = reponse.text.strip()[:200]
         _LOG.warning("Réponse GDELT non JSON (%s) : %s", parametres.get("mode"), extrait)
         return None
+
+    _ecrire_cache_gdelt(cle, charge)
+    return charge
 
 
 def _date_gdelt(valeur: str | None) -> datetime | None:

@@ -216,23 +216,32 @@ crypto_watchlist:
   - symbol: "BTC"
     coingecko_id: "bitcoin"
     position: true
+    keywords: ["Bitcoin"]
   - symbol: "ETH"
     coingecko_id: "ethereum"
     position: true
+    # "ETH" nu est ambigu (Éthiopie en code ISO, ETH Zürich) : on s'en tient
+    # aux formes non ambiguës.
+    keywords: ["Ethereum", "Ether"]
   - symbol: "SOL"
     coingecko_id: "solana"
     position: true
+    keywords: ["Solana"]
   - symbol: "DOGE"
     coingecko_id: "dogecoin"
     position: true
+    keywords: ["Dogecoin"]
   - symbol: "ASTER"
     coingecko_id: "aster-2"
     position: true
     note: "DEX de perpétuels (asterdex.com). Vérifié : ne pas confondre avec astar/ASTR, aster-inu ni astherus-*."
+    # Bare "Aster" est ambigu (astar/ASTR, aster-inu) : voir la note ci-dessus.
+    keywords: ["Aster DEX", "AsterDex", "Aster perpetuals"]
   - symbol: "KNTQ"
     coingecko_id: "kinetiq"
     position: true
     note: "Staking liquide sur Hyperliquid (kinetiq.xyz). Distinct de kinetic-staked-hype (kHYPE)."
+    keywords: ["Kinetiq"]
   - symbol: "PONS"
     coingecko_id: "pons"
     position: true
@@ -243,16 +252,31 @@ crypto_watchlist:
       calibrés sur BTC/ETH n'ont aucun sens ici. Traité à part par
       modules/crypto/positioning.py.
     jeune_et_volatil: true
+    # Bare "PONS" est un mot anglais courant (acronymes, ponts) : imprécis
+    # sans qualificatif.
+    keywords: ["PONS token", "PONS crypto", "PONS Robinhood Chain"]
   - symbol: "JUP"
     coingecko_id: "jupiter-exchange-solana"
     position: true
     note: "Jupiter (Solana). Distinct de « jupiter » qui désigne Jupiter Project."
+    keywords: ["Jupiter exchange", "Jupiter DEX", "Jupiter Solana"]
   - symbol: "TAO"
     coingecko_id: "bittensor"
     position: true
+    keywords: ["Bittensor", "TAO crypto"]
   - symbol: "LINK"
     coingecko_id: "chainlink"
     position: true
+    keywords: ["Chainlink"]
+
+# Réglages du fil d'actualité crypto (modules/crypto/feed.py), même patron
+# que feed_quantique : mêmes canaux de collecte, même déduplication, même
+# format de sortie.
+feed_crypto:
+  tags_flux: ["crypto"]
+  fenetre_heures: 24
+  max_analyses_par_execution: 8
+  exclusions: []
 
 # Paramètres de modules/crypto.
 # --- Déblocages de jetons ---------------------------------------------------

@@ -102,6 +102,15 @@ geopolitique:
       query: '("new sanctions" OR "sanctions package" OR "asset freeze" OR "export controls" OR "secondary sanctions")'
     - nom: "Tensions sur les réserves de change"
       query: '("central bank gold" OR "gold reserves" OR "de-dollarization" OR "reserve diversification" OR "foreign exchange reserves")'
+  # Réglages du fil d'actualité géopolitique (modules/geopolitique/feed.py).
+  # Les thèmes ci-dessus servent aussi de filtre de pertinence du fil : un
+  # item n'est retenu que s'il correspond à un thème qui a un canal de
+  # transmission connu vers l'or, plutôt que toute actualité internationale.
+  feed:
+    tags_flux: ["geopolitique"]
+    fenetre_heures: 24
+    max_analyses_par_execution: 8
+    exclusions: []
 
 # ---------------------------------------------------------------------------
 # Précédents historiques

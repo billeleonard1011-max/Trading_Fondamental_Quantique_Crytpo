@@ -8,6 +8,24 @@
  */
 
 /**
+ * Ajoute un paramètre anti-cache à une adresse.
+ *
+ * ``fetch(url, {cache: "no-store"})`` ne contrôle que le cache HTTP local du
+ * navigateur : le CDN de GitHub Pages sert le JSON avec un
+ * ``Cache-Control: max-age=600`` qui lui est indifférent, et peut donc
+ * renvoyer une version vieille de dix minutes malgré cette option. Un
+ * paramètre de requête qui change à chaque appel contourne le cache d'arête,
+ * puisqu'il fabrique une URL que le CDN n'a encore jamais vue.
+ *
+ * @param {string} url Adresse d'origine.
+ * @returns {string} L'adresse avec un paramètre ``v`` ajouté.
+ */
+function contournerLeCache(url) {
+  const separateur = url.includes("?") ? "&" : "?";
+  return `${url}${separateur}v=${Date.now()}`;
+}
+
+/**
  * Charge un document JSON, sans jamais lever d'exception à l'appelant.
  *
  * @param {string} url Adresse du document.
@@ -16,7 +34,7 @@
  */
 export async function chargerJson(url, recuperer = globalThis.fetch) {
   try {
-    const reponse = await recuperer(url, { cache: "no-store" });
+    const reponse = await recuperer(contournerLeCache(url), { cache: "no-store" });
     if (!reponse.ok) {
       return {
         disponible: false,
@@ -50,7 +68,7 @@ export async function chargerJson(url, recuperer = globalThis.fetch) {
  */
 export async function chargerJsonl(url, recuperer = globalThis.fetch) {
   try {
-    const reponse = await recuperer(url, { cache: "no-store" });
+    const reponse = await recuperer(contournerLeCache(url), { cache: "no-store" });
     if (!reponse.ok) {
       return {
         disponible: false,

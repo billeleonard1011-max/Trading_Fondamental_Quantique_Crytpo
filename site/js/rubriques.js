@@ -8,11 +8,12 @@
 
 import { CONFIG } from "./config.js";
 import { lire } from "./donnees.js";
-import { ABSENT, echapper, compteARebours, nombre, pourcent } from "./format.js";
+import { ABSENT, echapper, compteARebours, dateHeure, nombre, pourcent } from "./format.js";
 import {
-  rendreAge, rendreBadge, rendreIndisponible, rendreMetrique,
-  rendrePrecedents, rendreTrame, tonDuBiais,
+  rendreAge, rendreBadge, rendreIndisponible, rendreLibelleAvecInfobulle,
+  rendreMetrique, rendrePrecedents, rendreTrame, tonDuBiais,
 } from "./rendu.js";
+import { libelle } from "./libelles.js";
 
 /**
  * Rend l'en-tête chiffré de la rubrique Or.
@@ -25,6 +26,18 @@ function enTeteOr(or) {
   const cot = lire(or, "positionnement_cot", {});
   const cal = lire(or, "calendrier", {});
   const morceaux = [];
+
+  // Horodatage de la dernière exécution complète du moteur, avant toute
+  // métrique : c'est la première question à laquelle un lecteur pressé a
+  // droit — « ces chiffres datent de quand ? ». Rendu hors de la grille des
+  // métriques clés, sur sa propre ligne.
+  const horodatageMoteur = lire(or, "meta.horodatage_utc", null);
+  const dateRapport = lire(or, "meta.date", null);
+  const ligneFraicheur = `<p class="fraicheur">
+    Dernière exécution complète du moteur :
+    <strong>${horodatageMoteur ? echapper(dateHeure(horodatageMoteur)) : ABSENT}</strong>
+    ${dateRapport ? `(rapport du ${echapper(dateRapport)})` : ""}
+  </p>`;
 
   // Écart à la juste valeur.
   if (jv.disponible && jv.fiable) {
@@ -81,7 +94,7 @@ function enTeteOr(or) {
       ${rendreIndisponible(cal.motif || "aucune échéance connue")}</div>`);
   }
 
-  return `<div class="cles">${morceaux.join("")}</div>`;
+  return `${ligneFraicheur}<div class="cles">${morceaux.join("")}</div>`;
 }
 
 /**
@@ -117,15 +130,25 @@ export function rubriqueOr(etat) {
   // ne s'explique ni ne s'améliore.
   const composantes = (biais.composantes || [])
     .map((c) => {
+      const etiquette = rendreLibelleAvecInfobulle(c.nom);
       if (!c.disponible) {
-        return `<li class="composante composante--absente">
-          <span>${echapper(c.nom)}</span>
-          <span class="composante-motif">${echapper(c.motif)}</span></li>`;
+        // Doit sauter aux yeux que cette ligne ne contribue pas au score :
+        // une composante muette comptée comme neutre ferait passer une
+        // absence d'information pour un signal d'équilibre. Pour l'écart de
+        // juste valeur désactivé pour R² insuffisant, jv.lecture porte déjà
+        // l'explication complète — chiffres compris — écrite par le module
+        // qui a fait le calcul ; on la réutilise plutôt que d'en réécrire
+        // une, générique, côté navigateur.
+        const detail = c.nom === "ecart_juste_valeur" && jv.lecture ? jv.lecture : c.motif;
+        return `<li class="composante composante--absente composante--desactivee">
+          <span>${etiquette}
+            <span class="composante-pastille-off">exclue du calcul</span></span>
+          <span class="composante-motif">${echapper(detail)}</span></li>`;
       }
       const largeur = Math.min(100, Math.abs(Number(c.contribution)) * 250);
       const sens = Number(c.contribution) >= 0 ? "positif" : "negatif";
       return `<li class="composante">
-        <span>${echapper(c.nom)}</span>
+        <span>${etiquette}</span>
         <span class="composante-barre">
           <i class="composante-remplissage composante-remplissage--${sens}"
              style="width:${largeur}%"></i></span>
@@ -228,8 +251,12 @@ export function rubriqueGeopolitique(etat) {
   const chaine = lire(geo, "chaine_de_transmission", {});
   const maillons = Object.entries(chaine.maillons || {})
     .map(([cle, m]) => {
+      // m.libelle est toujours renseigné par modules/gold/geopolitics.py en
+      // pratique ; le repli sur libelle(cle) est défensif pour un maillon
+      // futur qui oublierait de le fournir.
+      const etiquette = echapper(m.libelle || libelle(cle));
       if (!m.disponible) {
-        return `<li class="composante--absente"><span>${echapper(m.libelle || cle)}</span>
+        return `<li class="composante--absente"><span>${etiquette}</span>
           <span class="composante-motif">${echapper(m.motif)}</span></li>`;
       }
       const v = m.variation === null || m.variation === undefined
@@ -237,7 +264,7 @@ export function rubriqueGeopolitique(etat) {
         : `${nombre(m.variation, m.unite_variation === "points de base" ? 0 : 1, true)} ${
             echapper(m.unite_variation || "")
           }`;
-      return `<li><span>${echapper(m.libelle || cle)}</span><span>${v}</span></li>`;
+      return `<li><span>${etiquette}</span><span>${v}</span></li>`;
     })
     .join("");
 
@@ -289,7 +316,7 @@ export function rubriqueQuantique(etat) {
   const listeMouvements = (mouvements.mouvements || [])
     .map((m) => `<li>
       <strong>${echapper(m.ticker)}</strong> ${pourcent(m.variation_pct)}
-      ${rendreBadge(m.classification, m.classification === "sectoriel" ? "neutre" : "alerte")}
+      ${rendreBadge(libelle(m.classification, m.classification), m.classification === "sectoriel" ? "neutre" : "alerte")}
       <p class="constat">${echapper(m.constat)}</p>
       ${(m.signaux_contradictoires || []).map((s) =>
         `<p class="contradiction"><strong>${echapper(s.nature)}</strong> — ${echapper(s.constat)}</p>`).join("")}
@@ -315,6 +342,95 @@ export function rubriqueQuantique(etat) {
     }),
     ton,
   };
+}
+
+/**
+ * Rend la liste de suivi des dix cryptos de ``config/universe.yaml``.
+ *
+ * Chaque jeton affiche son prix, ses variations et son statut de déblocage
+ * de jetons. Les statuts ne se valent pas : un calendrier connu (``actif``),
+ * un vesting achevé, un mécanisme inexistant par nature (``non_applicable``)
+ * et une simple absence de source (``inconnu``) racontent quatre histoires
+ * différentes — les confondre ferait passer une ignorance pour une garantie
+ * d'absence de risque. Chacun porte donc sa propre classe visuelle.
+ *
+ * @param {object} c Rapport crypto complet (``etat.donnees``).
+ * @returns {string} HTML de la grille de suivi, ou un message d'absence.
+ */
+function rendreWatchlistCrypto(c) {
+  const positions = lire(c, "positionnement.positions", {});
+  if (!positions.disponible) {
+    return `<p class="avertissement">Suivi des positions crypto indisponible :
+      ${echapper(positions.motif || "motif non précisé")}.</p>`;
+  }
+
+  const jetons = positions.positions || [];
+  const deblocages = lire(c, "positionnement.deblocages_tokens", {});
+  const statutsParSymbole = new Map(
+    (deblocages.jetons || []).map((j) => [j.symbole, j]),
+  );
+
+  const cartes = jetons
+    .map((j) => {
+      if (!j.disponible) {
+        return `<li class="watchlist-jeton">
+          <div class="watchlist-entete">
+            <span class="watchlist-symbole">${echapper(j.symbole)}</span>
+          </div>
+          <p class="composante-motif">${echapper(j.motif || "donnée indisponible")}</p>
+        </li>`;
+      }
+
+      const d = statutsParSymbole.get(j.symbole) || null;
+      const statut = d ? d.statut : null;
+      // signification_statut est déjà écrit par modules/crypto/positioning.py
+      // pour ce jeton précis (« calendrier connu, échéance à venir », etc.) ;
+      // on l'affiche tel quel plutôt que de le réduire à une info-bulle, pour
+      // qu'un statut ne se lise jamais seul. La classe watchlist-statut--X
+      // distingue visuellement les cinq statuts : les confondre ferait
+      // passer une simple absence de source (inconnu) pour une garantie
+      // qu'aucun déblocage n'est prévu (non_applicable).
+      const explicationStatut = d && d.signification_statut ? d.signification_statut : "";
+      const badgeStatut = statut
+        ? `<p class="watchlist-statut watchlist-statut--${echapper(statut)}">
+            <strong>${echapper(libelle(statut))}</strong>${
+              explicationStatut ? ` — ${echapper(explicationStatut)}` : ""
+            }
+          </p>`
+        : "";
+
+      const prochain = d && d.prochain_deblocage;
+      const ligneProchain = prochain
+        ? `<p class="composante-motif">Prochaine échéance : ${echapper(prochain.date)}
+            (${nombre(prochain.part_offre_pct, 1)} % de l'offre)</p>`
+        : "";
+
+      const avertissement = j.avertissement
+        ? `<p class="watchlist-avertissement">${echapper(j.avertissement)}</p>`
+        : "";
+
+      return `<li class="watchlist-jeton">
+        <div class="watchlist-entete">
+          <span class="watchlist-symbole">${echapper(j.symbole)}</span>
+          <span class="watchlist-prix">${nombre(j.prix_usd, j.prix_usd < 1 ? 4 : 2)} $</span>
+        </div>
+        <div class="watchlist-variations">
+          <span>24h <strong>${pourcent(j.variation_24h_pct)}</strong></span>
+          <span>7j <strong>${pourcent(j.variation_7j_pct)}</strong></span>
+          <span>30j <strong>${pourcent(j.variation_30j_pct)}</strong></span>
+        </div>
+        ${badgeStatut}
+        ${ligneProchain}
+        ${avertissement}
+      </li>`;
+    })
+    .join("");
+
+  const limite = deblocages.limite_connue
+    ? `<p class="composante-motif">${echapper(deblocages.limite_connue)}</p>`
+    : "";
+
+  return `<ul class="watchlist">${cartes}</ul>${limite}`;
 }
 
 /**
@@ -345,7 +461,7 @@ export function rubriqueCrypto(etat) {
 
   const regime = (bloc, nom) => {
     if (!bloc.disponible) return `<li>${nom} : ${echapper(bloc.motif || "indisponible")}</li>`;
-    return `<li><strong>${nom}</strong> — ${echapper(bloc.regime)} (MVRV ${nombre(bloc.mvrv, 2)})
+    return `<li><strong>${nom}</strong> — ${rendreLibelleAvecInfobulle(bloc.regime)} (MVRV ${nombre(bloc.mvrv, 2)})
       <p class="constat">${echapper(bloc.description || "")}</p>
       ${bloc.avertissement_calibrage
         ? `<p class="avertissement">${echapper(bloc.avertissement_calibrage)}</p>` : ""}
@@ -353,8 +469,8 @@ export function rubriqueCrypto(etat) {
   };
 
   const contributions = (rotation.contributions || [])
-    .map((x) => `<li><span>${echapper(x.mesure)}</span>
-      <span>${x.vote ? echapper(x.vote) : "abstention"}</span>
+    .map((x) => `<li><span>${rendreLibelleAvecInfobulle(x.mesure)}</span>
+      <span>${x.vote ? echapper(libelle(x.vote)) : "abstention"}</span>
       ${x.abstention ? `<span class="composante-motif">${echapper(x.motif_abstention)}</span>` : ""}</li>`)
     .join("");
 
@@ -362,21 +478,32 @@ export function rubriqueCrypto(etat) {
     .map((x) => `<li>${echapper(x.indicateur)} : ${echapper(x.motif)}</li>`)
     .join("");
 
+  const dateRapport = lire(c, "meta.date", null);
+  const ligneFraicheurCrypto = `<p class="fraicheur">
+    Dernière exécution complète du moteur crypto :
+    <strong>${echapper(dateHeure(lire(c, "meta.horodatage_utc", null)))}</strong>
+    ${dateRapport ? `(rapport du ${echapper(dateRapport)})` : ""}
+  </p>`;
+
   return {
     resume,
-    corps: rendreTrame({
-      etat: `<ul class="liste-detail">${regime(btc, "Bitcoin")}${regime(eth, "Ether")}</ul>`,
-      changement: contributions
-        ? `<ul class="liste-detail">${contributions}</ul>`
-        : "",
-      impact: `<p>${echapper(rotation.justification || "Rotation non évaluée.")}</p>`,
-      invalidation: `<p>${echapper(lire(rotation, "invalidation.condition", "Non publiée."))}</p>`,
-      sources: `<ul>
-        <li>${echapper(lire(c, "regime._meta.source", ABSENT))}
-          ${rendreAge(lire(c, "regime._meta"), CONFIG.seuilsAge.defaut)}</li>
-        ${nonAlimentes ? `<li>Indicateurs non alimentés :<ul>${nonAlimentes}</ul></li>` : ""}
-      </ul>`,
-    }),
+    corps: `
+      ${ligneFraicheurCrypto}
+      <h3>Suivi des dix cryptos</h3>
+      ${rendreWatchlistCrypto(c)}
+      ${rendreTrame({
+        etat: `<ul class="liste-detail">${regime(btc, "Bitcoin")}${regime(eth, "Ether")}</ul>`,
+        changement: contributions
+          ? `<ul class="liste-detail">${contributions}</ul>`
+          : "",
+        impact: `<p>${echapper(rotation.justification || "Rotation non évaluée.")}</p>`,
+        invalidation: `<p>${echapper(lire(rotation, "invalidation.condition", "Non publiée."))}</p>`,
+        sources: `<ul>
+          <li>${echapper(lire(c, "regime._meta.source", ABSENT))}
+            ${rendreAge(lire(c, "regime._meta"), CONFIG.seuilsAge.defaut)}</li>
+          ${nonAlimentes ? `<li>Indicateurs non alimentés :<ul>${nonAlimentes}</ul></li>` : ""}
+        </ul>`,
+      })}`,
     ton: "neutre",
   };
 }

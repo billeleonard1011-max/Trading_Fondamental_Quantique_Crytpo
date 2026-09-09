@@ -1,43 +1,39 @@
 /**
  * Fil de news : onglets par catégorie, et état vide explicite.
  *
- * Les fils crypto et géopolitique n'existent pas encore. Leurs onglets sont
- * néanmoins présents : une catégorie qui n'apparaîtrait qu'une fois remplie
- * laisserait croire que rien n'a été prévu, alors que le format unifié les
- * attend déjà.
+ * Les trois fils (quantique, crypto, géopolitique) partagent le même format
+ * de sortie et le même module de collecte : modules/quantum/feed.py,
+ * modules/crypto/feed.py et modules/geopolitique/feed.py.
  */
 
 import { echapper, ecoule } from "./format.js";
 import { rendreBadge } from "./rendu.js";
 
-/** Libellés affichés pour chaque onglet. */
-export const LIBELLES = {
-  tout: "Tout",
-  quantique: "Quantique",
-  crypto: "Crypto",
-  geopolitique: "Géopolitique",
-};
-
 /**
  * Message d'état vide, adapté à la catégorie.
  *
- * Un fil vide n'a pas la même signification selon la catégorie : le fil
- * quantique existe et n'a rien trouvé, les deux autres ne sont pas encore
- * construits. Afficher le même message pour les trois serait trompeur.
+ * Chaque fil ne garde que les articles pertinents pour son domaine
+ * (valeur suivie, jeton suivi, ou thème à canal de transmission connu vers
+ * l'or) : un fil vide dit le plus souvent qu'aucun article de la période ne
+ * correspondait, pas qu'il n'a rien collecté.
  *
  * @param {string} categorie Catégorie concernée.
  * @returns {string} HTML de l'état vide.
  */
 export function rendreVide(categorie) {
-  if (categorie === "crypto" || categorie === "geopolitique") {
-    return `<p class="fil-vide">Le fil ${echapper(LIBELLES[categorie])} n'est pas encore
-      construit. Son onglet est déjà là parce que le format de sortie l'attend :
-      les items arriveront sans changement d'interface.</p>`;
-  }
   if (categorie === "quantique") {
     return `<p class="fil-vide">Aucune actualité quantique retenue sur la période.
       Le fil ne garde que les articles citant une valeur suivie ou un acteur connu
       du secteur.</p>`;
+  }
+  if (categorie === "crypto") {
+    return `<p class="fil-vide">Aucune actualité crypto retenue sur la période.
+      Le fil ne garde que les articles citant un jeton suivi.</p>`;
+  }
+  if (categorie === "geopolitique") {
+    return `<p class="fil-vide">Aucune actualité géopolitique retenue sur la période.
+      Le fil ne garde que les articles relevant d'un thème à canal de transmission
+      connu vers l'or (énergie, conflits majeurs, sanctions, réserves de change).</p>`;
   }
   return `<p class="fil-vide">Aucune actualité disponible.</p>`;
 }

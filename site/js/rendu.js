@@ -17,6 +17,7 @@
  */
 
 import { ABSENT, echapper, libelleAge, nombre, pourcent } from "./format.js";
+import { explicationPour, libelle } from "./libelles.js";
 
 /**
  * Motifs de champs qui ne doivent jamais paraître sur un site public.
@@ -121,6 +122,75 @@ export function rendreEchelle(percentile, borneBasse, borneHaute) {
         <span>${echapper(borneHaute)}</span>
       </div>
     </div>`;
+}
+
+/**
+ * Rend un libellé accompagné, si une explication existe, d'une infobulle.
+ *
+ * Au survol sur ordinateur, au tap sur l'icône sur mobile où le survol
+ * n'existe pas : {@link installerInfobulles} branche l'équivalent tactile.
+ * Sans explication disponible pour cet identifiant, seul le libellé est
+ * rendu — pas d'icône vide qui n'ouvrirait rien.
+ *
+ * @param {string} id Identifiant technique, traduit via libelles.js.
+ * @param {string} [texteAffiche] Texte à afficher à la place du libellé
+ *   traduit, quand l'appelant a déjà son propre texte (un nom de thème
+ *   géopolitique par exemple, déjà lisible depuis la configuration).
+ * @returns {string} HTML du libellé, avec ou sans infobulle.
+ */
+export function rendreLibelleAvecInfobulle(id, texteAffiche = null) {
+  const texte = texteAffiche !== null ? texteAffiche : libelle(id);
+  const explication = explicationPour(id);
+  if (!explication) return echapper(texte);
+  return `<span class="infobulle">
+    ${echapper(texte)}
+    <button type="button" class="infobulle-declencheur"
+            aria-label="Qu'est-ce que ${echapper(texte)} ?" aria-expanded="false">i</button>
+    <span class="infobulle-bulle" role="tooltip">${echapper(explication)}</span>
+  </span>`;
+}
+
+/**
+ * Branche l'ouverture/fermeture des infobulles au tap, pour le tactile.
+ *
+ * Le survol fonctionne nativement en CSS sur ordinateur. Sur un écran
+ * tactile, il n'y a pas de survol : cette fonction fait du clic sur l'icône
+ * un basculement, et referme toute infobulle ouverte dès qu'on touche
+ * ailleurs sur la page — sans quoi une bulle resterait affichée
+ * indéfiniment après le premier appui.
+ *
+ * Idempotente : peut être rappelée après chaque nouveau rendu sans
+ * dupliquer les écouteurs, puisqu'elle est attachée une seule fois au
+ * document au premier appel.
+ */
+let infobullesInstallees = false;
+export function installerInfobulles() {
+  if (infobullesInstallees) return;
+  infobullesInstallees = true;
+
+  document.addEventListener("click", (evenement) => {
+    const declencheur = evenement.target.closest(".infobulle-declencheur");
+    const toutes = document.querySelectorAll(".infobulle.infobulle--ouverte");
+
+    if (declencheur) {
+      const parent = declencheur.closest(".infobulle");
+      const etaitOuverte = parent.classList.contains("infobulle--ouverte");
+      for (const autre of toutes) autre.classList.remove("infobulle--ouverte");
+      if (!etaitOuverte) {
+        parent.classList.add("infobulle--ouverte");
+        declencheur.setAttribute("aria-expanded", "true");
+      } else {
+        declencheur.setAttribute("aria-expanded", "false");
+      }
+      return;
+    }
+    // Un clic ailleurs referme tout ce qui était ouvert.
+    for (const autre of toutes) {
+      autre.classList.remove("infobulle--ouverte");
+      const bouton = autre.querySelector(".infobulle-declencheur");
+      if (bouton) bouton.setAttribute("aria-expanded", "false");
+    }
+  });
 }
 
 /**

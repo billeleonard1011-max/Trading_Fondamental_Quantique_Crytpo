@@ -168,6 +168,23 @@ jobs:
           mkdir -p reports/quantum
           python -m modules.quantum.feed
 
+      - name: Fil d'actualité crypto
+        # Même patron que le fil quantique ci-dessus, mêmes raisons de
+        # tourner ici en attendant une cadence dédiée plus rapprochée.
+        continue-on-error: true
+        run: |
+          mkdir -p reports/crypto
+          python -m modules.crypto.feed
+
+      - name: Fil d'actualité géopolitique
+        # Exécuté après le rapport or : il relit l'intensité par thème déjà
+        # calculée par modules.gold.geopolitics dans reports/gold/latest.json
+        # au lieu de la recalculer par un second appel GDELT identique.
+        continue-on-error: true
+        run: |
+          mkdir -p reports/geopolitique
+          python -m modules.geopolitique.feed
+
       - name: Publier le rapport dans le dépôt
         run: |
           git config user.name "github-actions[bot]"

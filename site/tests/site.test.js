@@ -180,7 +180,7 @@ test("aucune clé d'API dans les fichiers servis", () => {
     "site/js/config.js", "site/js/accueil.js", "site/js/assistant.js",
     "site/js/donnees.js", "site/js/format.js", "site/js/rendu.js",
     "site/js/rubriques.js", "site/js/fil.js", "site/js/news.js",
-    "site/js/debrief.js", "site/js/theme.js",
+    "site/js/debrief.js", "site/js/theme.js", "site/js/libelles.js",
   ];
   for (const chemin of fichiers) {
     const contenu = readFileSync(new URL(`../../${chemin}`, import.meta.url), "utf8");
@@ -224,12 +224,14 @@ test("une vignette sans prix affiche un tiret, pas un zéro", () => {
 // ---------------------------------------------------------------------------
 // 5. Fil de news
 // ---------------------------------------------------------------------------
-test("les catégories sans module affichent un état vide explicite", () => {
-  for (const categorie of ["crypto", "geopolitique"]) {
-    const html = rendreVide(categorie);
-    assert.match(html, /n'est pas encore\s+construit/);
-  }
+test("chaque catégorie a son propre message d'état vide, non générique", () => {
+  assert.match(rendreVide("crypto"), /Aucune actualité crypto/);
+  assert.match(rendreVide("geopolitique"), /Aucune actualité géopolitique/);
   assert.match(rendreVide("quantique"), /Aucune actualité quantique/);
+  // Trois messages distincts : un texte générique ferait croire à un fil
+  // non construit plutôt qu'à une période sans article pertinent.
+  assert.notEqual(rendreVide("crypto"), rendreVide("geopolitique"));
+  assert.notEqual(rendreVide("crypto"), rendreVide("quantique"));
 });
 
 test("le filtre par catégorie ne rend que la bonne catégorie", () => {
