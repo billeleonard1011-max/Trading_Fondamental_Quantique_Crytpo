@@ -341,7 +341,6 @@ def test_les_abandons_sont_comptes() -> None:
 
     assert set(bt.abandons) >= {
         moteur.ABANDON_SANS_FVG,
-        moteur.ABANDON_SANS_OTE,
         moteur.ABANDON_TAILLE,
         moteur.ABANDON_EXPIRATION,
     }
@@ -423,24 +422,6 @@ def test_touches_simultanees_comptees() -> None:
     for detail in bt.detail_touches_simultanees:
         assert detail["n_zones"] > 1
         assert "unites" in detail and "unites_distinctes" in detail
-
-
-def test_la_jambe_part_du_dernier_retournement_et_non_du_plus_lointain() -> None:
-    """La nouvelle définition raccourcit la jambe, et cela se voit.
-
-    Avec l'ancienne convention — l'extrême le plus lointain depuis la
-    formation de la zone —, la jambe englobait tout l'historique intermédiaire
-    et se trouvait presque toujours classée « normale », les hésitations
-    fournissant des bougies contraires en quantité.
-    """
-    m1 = _serie_m1(6000)
-    taux = _taux_eurusd(m1)
-    bt = moteur.Backtest(m1, taux, moteur.ConfigBacktest(sensibilite_swing=4))
-    bt.executer()
-
-    # La jambe étant bornée par un retournement, elle reste courte.
-    for trade in bt.trades:
-        assert trade.type_jambe in {ict.NORMALE, ict.VIOLENTE}
 
 
 def test_monte_carlo_avec_zero_tirage() -> None:

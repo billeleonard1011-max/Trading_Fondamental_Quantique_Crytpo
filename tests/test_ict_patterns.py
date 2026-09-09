@@ -1,4 +1,4 @@
-"""Tests des motifs ICT : order blocks, jambes, FVG et Fibonacci.
+"""Tests des motifs ICT : order blocks, jambes et FVG.
 
 Les motifs sont construits à la main, bougie par bougie, pour que chaque cas
 limite soit vérifiable de tête. Un motif détecté par erreur produit un trade
@@ -128,80 +128,7 @@ def test_ob_bougie1_sans_corps_ignoree() -> None:
 
 
 # ---------------------------------------------------------------------------
-# 2. Classification de la jambe
-# ---------------------------------------------------------------------------
-def test_jambe_violente_toutes_bougies_meme_sens() -> None:
-    """Sans aucune bougie contraire, la jambe est violente."""
-    cadre = _bougies([(i, i + 1.2, i - 0.1, i + 1.0) for i in range(1, 7)])
-    classification, detail = ict.classifier_jambe(cadre)
-    assert classification == ict.VIOLENTE
-    assert detail["n_contraires"] == 0
-
-
-def test_jambe_normale_avec_bougie_contraire_marquee() -> None:
-    """Une bougie contraire au corps franc casse la violence."""
-    lignes = [(i, i + 1.2, i - 0.1, i + 1.0) for i in range(1, 6)]
-    # Bougie contraire de corps 1.0, comparable aux autres.
-    lignes.append((6.0, 6.2, 4.8, 5.0))
-    classification, detail = ict.classifier_jambe(_bougies(lignes))
-    assert classification == ict.NORMALE
-    assert detail["n_contraires"] == 1
-    assert detail["n_contraires_negligeables"] == 0
-
-
-def test_jambe_violente_malgre_une_bougie_contraire_negligeable() -> None:
-    """Une bougie contraire minuscule ne casse pas la violence."""
-    lignes = [(float(i), i + 1.2, i - 0.1, float(i + 1)) for i in range(1, 6)]
-    # Corps moyen des bougies motrices : 1.0. Corps contraire : 0.1, soit 10 %.
-    lignes.append((6.0, 6.2, 5.8, 5.9))
-    classification, detail = ict.classifier_jambe(_bougies(lignes))
-    assert classification == ict.VIOLENTE
-    assert detail["n_contraires"] == 1
-    assert detail["n_contraires_negligeables"] == 1
-
-
-def test_jambe_cas_limite_exactement_30_pourcent() -> None:
-    """Une bougie contraire à exactement 30 % du corps moyen casse la violence.
-
-    Le seuil est franchi de façon stricte : « moins de 30 % » exclut 30 %.
-    Ce cas limite décide de la classification, donc du type d'entrée, donc du
-    trade — il mérite d'être verrouillé.
-    """
-    # Cinq bougies de corps 1.0, puis une contraire dont on ajuste le corps
-    # pour que la moyenne de tous les corps rende le rapport exact.
-    lignes = [(float(i), i + 1.2, i - 0.1, float(i + 1)) for i in range(1, 6)]
-
-    # Avec cinq corps de 1.0 et un corps contraire c : moyenne = (5 + c) / 6.
-    # On veut c = 0.30 × (5 + c) / 6, soit c = 1.5 / 5.7.
-    corps = 1.5 / 5.7
-    lignes.append((6.0, 6.2, 6.0 - corps - 0.1, 6.0 - corps))
-    cadre = _bougies(lignes)
-
-    corps_reels = (cadre["close"] - cadre["open"]).abs()
-    rapport = corps_reels.iloc[-1] / corps_reels.mean()
-    assert rapport == pytest.approx(0.30, abs=1e-9), "Le cas limite doit valoir 30 %."
-
-    classification, _ = ict.classifier_jambe(cadre)
-    assert classification == ict.NORMALE, "À 30 % pile, la bougie compte."
-
-    # Juste en dessous, elle est négligeable et la jambe reste violente.
-    lignes[-1] = (6.0, 6.2, 6.0 - corps * 0.9 - 0.1, 6.0 - corps * 0.9)
-    assert ict.classifier_jambe(_bougies(lignes))[0] == ict.VIOLENTE
-
-
-def test_jambe_trois_bougies_contraires_negligeables_cassent() -> None:
-    """Au-delà de deux bougies contraires, même minuscules, la jambe est normale."""
-    lignes = [(float(i), i + 1.2, i - 0.1, float(i + 1)) for i in range(1, 8)]
-    for k in (2, 4, 6):
-        base = lignes[k][0]
-        lignes[k] = (base, base + 0.2, base - 0.15, base - 0.05)
-    classification, detail = ict.classifier_jambe(_bougies(lignes))
-    assert detail["n_contraires"] == 3
-    assert classification == ict.NORMALE
-
-
-# ---------------------------------------------------------------------------
-# 3. Fair value gaps
+# 2. Fair value gaps
 # ---------------------------------------------------------------------------
 def test_fvg_haussier_et_baissier() -> None:
     """Les deux sens d'écart sont reconnus, avec leurs bornes."""
@@ -248,67 +175,7 @@ def test_fvg_filtre_par_sens() -> None:
 
 
 # ---------------------------------------------------------------------------
-# 4. Sommet mobile du Fibonacci
-# ---------------------------------------------------------------------------
-def test_sommet_se_fige_a_la_premiere_bougie_sans_nouvel_extreme() -> None:
-    """Le sommet suit les nouveaux extrêmes et se fige au premier échec.
-
-    La comparaison porte sur la bougie **précédente**, pas sur le maximum
-    courant : une bougie qui ne dépasse pas celle d'avant fige le sommet,
-    même si le prix remonte ensuite.
-    """
-    # Plus hauts : 10, 11, 12, 11.5, 13 → le sommet se fige à 12, position 2.
-    cadre = _bougies([
-        (9.0, 10.0, 8.0, 9.5),
-        (9.5, 11.0, 9.0, 10.5),
-        (10.5, 12.0, 10.0, 11.5),
-        (11.5, 11.5, 10.5, 11.0),   # ne dépasse pas 12 : fige ici
-        (11.0, 13.0, 10.8, 12.5),   # postérieur, ne doit rien changer
-    ])
-    position, valeur = ict.sommet_fibonacci(cadre, ict.HAUSSIER)
-    assert position == 2
-    assert valeur == 12.0
-
-
-def test_sommet_ne_se_fige_ni_avant_ni_apres() -> None:
-    """Le sommet ne se fige pas tant que chaque bougie fait un nouvel extrême."""
-    cadre = _bougies([(float(i), float(i + 1), float(i - 1), float(i)) for i in range(5)])
-    position, valeur = ict.sommet_fibonacci(cadre, ict.HAUSSIER)
-    # Aucune bougie n'échoue : le sommet est la dernière, encore provisoire.
-    assert position == len(cadre) - 1
-    assert valeur == pytest.approx(5.0)
-
-
-def test_sommet_baissier_symetrique() -> None:
-    """Sur un mouvement baissier, le sommet suit les plus bas."""
-    cadre = _bougies([
-        (10.0, 10.5, 9.0, 9.5),
-        (9.5, 9.8, 8.0, 8.5),
-        (8.5, 8.8, 7.0, 7.5),
-        (7.5, 8.0, 7.5, 7.8),   # ne descend pas sous 7.0 : fige
-    ])
-    position, valeur = ict.sommet_fibonacci(cadre, ict.BAISSIER)
-    assert position == 2
-    assert valeur == 7.0
-
-
-def test_sommet_sur_cadre_vide() -> None:
-    """Un cadre vide ne lève pas d'exception."""
-    assert ict.sommet_fibonacci(pd.DataFrame(), ict.HAUSSIER) == (None, None)
-
-
-def test_zone_ote_bornes_et_niveau_cle() -> None:
-    """La zone OTE se calcule en retracement depuis le sommet."""
-    zone = ict.zone_ote(origine=100.0, sommet=200.0)
-    assert zone["debut"] == pytest.approx(200.0 - 61.8)
-    assert zone["fin"] == pytest.approx(200.0 - 79.0)
-    assert zone["cle"] == pytest.approx(200.0 - 72.0)
-    assert zone["bas"] == pytest.approx(121.0)
-    assert zone["haut"] == pytest.approx(138.2)
-
-
-# ---------------------------------------------------------------------------
-# 5. Agrégation et bougies closes
+# 3. Agrégation et bougies closes
 # ---------------------------------------------------------------------------
 def test_agregation_depuis_m1() -> None:
     """Les unités supérieures se construisent depuis la seule série M1."""
@@ -351,7 +218,7 @@ def test_fenetre_close_exclut_la_bougie_en_cours() -> None:
 
 
 # ---------------------------------------------------------------------------
-# 6. Points de retournement et origine de la jambe
+# 4. Points de retournement et origine de la jambe
 # ---------------------------------------------------------------------------
 def test_swings_detectes_avec_la_sensibilite_demandee() -> None:
     """Un sommet doit dépasser strictement ses voisins de chaque côté."""
@@ -451,9 +318,9 @@ def test_origine_absente_sur_serie_sans_retournement() -> None:
 def test_sensibilite_change_le_decoupage() -> None:
     """Une sensibilité plus fine repère des retournements plus proches.
 
-    C'est le mécanisme par lequel ce paramètre agit sur la classification :
-    une jambe plus courte contient moins de bougies contraires, donc a plus
-    de chances d'être jugée violente.
+    C'est le mécanisme par lequel ce paramètre agit sur la fenêtre de
+    recherche du FVG : une jambe plus courte borne cette fenêtre plus près
+    de l'order block.
     """
     valeurs = [9, 7, 5, 6, 5, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]
     cadre = _bougies([(v + 1.0, v + 1.5, float(v), v + 0.5) for v in valeurs])

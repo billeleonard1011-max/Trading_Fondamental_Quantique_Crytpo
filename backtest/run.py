@@ -11,7 +11,7 @@ structurel, puis ratios 1:1,5, 1:2 et 1:3 — sont jouées sur exactement les
 mêmes données et les mêmes setups, ce qui rend leur comparaison directe.
 
 Ce module mesure une stratégie. Il n'en recommande aucune, et ne conclut pas
-à sa place : les répartitions par unité de temps, par type de jambe et par
+à sa place : les répartitions par unité de temps, par unité de FVG et par
 heure sont là pour que l'utilisateur voie **où** se trouve l'espérance, y
 compris quand la réponse est « nulle part ».
 """
@@ -185,7 +185,6 @@ def executer_variantes(
             "ratio_tp": ratio if mode == "ratio" else None,
             "metriques": metriques(backtest.trades),
             "par_unite_ob": repartir(backtest.trades, "unite_ob"),
-            "par_type_jambe": repartir(backtest.trades, "type_jambe"),
             "par_unite_fvg": repartir(backtest.trades, "unite_fvg"),
             "par_type_entree": repartir(backtest.trades, "type_entree"),
             "par_heure": repartir(backtest.trades, "heure_entree"),
@@ -235,7 +234,7 @@ def ecrire_journal(trades: list[moteur.Trade], chemin: Path) -> bool:
     """
     colonnes = [
         "horodatage_entree", "horodatage_sortie", "sens", "unite_ob",
-        "ob_haut", "ob_bas", "ob_ouverture_bougie1", "type_jambe",
+        "ob_haut", "ob_bas", "ob_ouverture_bougie1",
         "unite_fvg", "type_entree", "prix_entree", "stop", "objectif", "prix_sortie",
         "lots", "resultat_eur", "resultat_r", "motif_sortie", "heure_entree",
     ]
@@ -393,8 +392,8 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     # Sensibilité du découpage de la jambe : le paramètre décide de la
-    # classification, donc du type d'entrée. Savoir s'il change matériellement
-    # les résultats compte autant que les résultats eux-mêmes.
+    # fenêtre où le FVG est cherché. Savoir s'il change matériellement les
+    # résultats compte autant que les résultats eux-mêmes.
     comparaison_sensibilite: dict[str, Any] = {}
     if arguments.comparer_sensibilite:
         for valeur in (3, 4, 5):
@@ -406,7 +405,6 @@ def main(argv: list[str] | None = None) -> int:
             comparaison_sensibilite[str(valeur)] = {
                 nom: {
                     "metriques": sous["metriques"],
-                    "par_type_jambe": sous["par_type_jambe"],
                     "n_abandons_total": sous["n_abandons_total"],
                 }
                 for nom, sous in bloc.items()

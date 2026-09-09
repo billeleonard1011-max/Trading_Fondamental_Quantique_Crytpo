@@ -49,7 +49,6 @@ PROFONDEUR_JAMBE: Final[int] = 50
 
 #: Motifs d'abandon d'un setup.
 ABANDON_SANS_FVG: Final = "aucun_fvg_trouve"
-ABANDON_SANS_OTE: Final = "retour_ote_jamais_survenu"
 ABANDON_TAILLE: Final = "taille_non_prenable"
 ABANDON_EXPIRATION: Final = "expiration_sans_confirmation"
 
@@ -69,8 +68,8 @@ class ConfigBacktest:
         unites_ob: unités où chercher les order blocks.
         sensibilite_swing: nombre de bougies exigées de chaque côté pour
             valider un point de retournement, sur l'unité de l'order block.
-            Ce paramètre décide du découpage de la jambe, donc de sa
-            classification, donc du type d'entrée.
+            Ce paramètre décide du découpage de la jambe, donc de la fenêtre
+            où chercher le FVG.
     """
 
     execution: bt_exec.ConfigExecution = field(default_factory=bt_exec.ConfigExecution)
@@ -92,7 +91,6 @@ class Trade:
     ob_haut: float = 0.0
     ob_bas: float = 0.0
     ob_ouverture_bougie1: pd.Timestamp | None = None
-    type_jambe: str = ""
     unite_fvg: str = ""
     type_entree: str = ""
     prix_entree: float = 0.0
@@ -117,7 +115,6 @@ class Trade:
             "ob_ouverture_bougie1": (
                 "" if self.ob_ouverture_bougie1 is None else str(self.ob_ouverture_bougie1)
             ),
-            "type_jambe": self.type_jambe,
             "unite_fvg": self.unite_fvg,
             "type_entree": self.type_entree,
             "prix_entree": round(self.prix_entree, 4),
@@ -137,18 +134,11 @@ class _Setup:
     """Setup en cours d'instruction, entre la touche et l'entrée."""
 
     ob: ict.OrderBlock
-    type_jambe: str
-    detail_jambe: dict[str, Any]
     debut: pd.Timestamp
-    etat: str = "attente_fvg"
     fvg: ict.FairValueGap | None = None
     unite_fvg: str = ""
     fvg_touche: bool = False
-    origine_fib: float | None = None
-    sommet_fib: float | None = None
-    ote: dict[str, float] | None = None
     barres: int = 0
-    ote_atteinte: bool = False
 
 
 class Backtest:
@@ -194,7 +184,6 @@ class Backtest:
         self.detail_touches_simultanees: list[dict[str, Any]] = []
         self.abandons: dict[str, int] = {
             ABANDON_SANS_FVG: 0,
-            ABANDON_SANS_OTE: 0,
             ABANDON_TAILLE: 0,
             ABANDON_EXPIRATION: 0,
         }
@@ -225,7 +214,7 @@ class Backtest:
         l'order block, pas de l'extrême le plus lointain depuis la formation
         de la zone. Un mouvement qui erre pendant vingt bougies avant de
         partir franchement vers l'order block ne doit pas voir ses hésitations
-        comptées dans la classification de sa violence.
+        élargir la fenêtre où le FVG est cherché.
 
         Args:
             ob: zone touchée.
@@ -348,15 +337,7 @@ class Backtest:
                         zone.horodatage_mitigation = fin_barre
                         jambe = self._jambe(zone, fin_barre)
                         if len(jambe) >= 2:
-                            type_jambe, detail = ict.classifier_jambe(jambe)
-                            nouvelles.append(
-                                _Setup(
-                                    ob=zone,
-                                    type_jambe=type_jambe,
-                                    detail_jambe=detail,
-                                    debut=jambe.index[0],
-                                )
-                            )
+                            nouvelles.append(_Setup(ob=zone, debut=jambe.index[0]))
                         continue
                     if not zone.mitige:
                         restantes.append(zone)
@@ -440,72 +421,31 @@ class Backtest:
         """
         achat = setup.ob.sens == ict.HAUSSIER
 
-        # -- Étape 1 : trouver puis confirmer le FVG ------------------------
-        if setup.etat == "attente_fvg":
-            if setup.fvg is None:
-                setup.fvg, setup.unite_fvg = self._chercher_fvg(
-                    setup.ob, setup.debut, fin_barre
-                )
-                if setup.fvg is None:
-                    return ABANDON_SANS_FVG
-
-            ecart = setup.fvg
-            if not setup.fvg_touche:
-                if bas[i] <= ecart.haut and haut[i] >= ecart.bas:
-                    setup.fvg_touche = True
-                return None
-
-            # CHOIX D'INTERPRÉTATION — « clôturer au-delà » est entendu comme
-            # dépasser la borne du FVG située dans le sens du trade.
-            confirme = cloture[i] > ecart.haut if achat else cloture[i] < ecart.bas
-            if not confirme:
-                return None
-
-            if setup.type_jambe == ict.NORMALE:
-                return self._ouvrir(setup, cloture[i], fin_barre, "marche")
-
-            # Jambe violente : on passe au retracement de Fibonacci.
-            setup.etat = "attente_ote"
-            setup.origine_fib = ecart.bas if achat else ecart.haut
-            setup.sommet_fib = cloture[i]
-            return None
-
-        # -- Étape 2 : sommet mobile puis retour dans la zone OTE ----------
-        if setup.etat == "attente_ote":
-            if setup.ote is None:
-                # Le sommet suit chaque nouvel extrême et se fige dès qu'une
-                # barre n'en fait pas de nouveau. On le suit ici barre après
-                # barre, ce qui est la seule façon causale de le faire.
-                extreme = haut[i] if achat else bas[i]
-                progresse = (
-                    extreme > setup.sommet_fib if achat else extreme < setup.sommet_fib
-                )
-                if progresse:
-                    setup.sommet_fib = float(extreme)
-                    return None
-                # Première barre sans nouvel extrême : le sommet est figé.
-                setup.ote = ict.zone_ote(setup.origine_fib, setup.sommet_fib)
-                return None
-
-            zone = setup.ote
-            if not setup.ote_atteinte:
-                if bas[i] <= zone["haut"] and haut[i] >= zone["bas"]:
-                    setup.ote_atteinte = True
-                return None
-
-            # CHOIX D'INTERPRÉTATION — sortie de la zone dans le sens du
-            # trade, soit au-delà de la borne à 61,8 %.
-            confirme = (
-                cloture[i] > zone["debut"] if achat else cloture[i] < zone["debut"]
+        # -- Trouver puis confirmer le FVG, seule mécanique d'entrée --------
+        if setup.fvg is None:
+            setup.fvg, setup.unite_fvg = self._chercher_fvg(
+                setup.ob, setup.debut, fin_barre
             )
-            if confirme:
-                return self._ouvrir(setup, cloture[i], fin_barre, "ote")
+            if setup.fvg is None:
+                return ABANDON_SANS_FVG
+
+        ecart = setup.fvg
+        if not setup.fvg_touche:
+            if bas[i] <= ecart.haut and haut[i] >= ecart.bas:
+                setup.fvg_touche = True
             return None
 
-        return None
+        # CHOIX D'INTERPRÉTATION — « clôturer au-delà » est entendu comme
+        # dépasser la borne du FVG située dans le sens du trade.
+        confirme = cloture[i] > ecart.haut if achat else cloture[i] < ecart.bas
+        if not confirme:
+            return None
+
+        # Confirmation acquise : entrée au marché, toujours, sans exception.
+        return self._ouvrir(setup, cloture[i], fin_barre)
 
     def _ouvrir(
-        self, setup: _Setup, prix: float, fin_barre: pd.Timestamp, type_entree: str
+        self, setup: _Setup, prix: float, fin_barre: pd.Timestamp
     ) -> tuple[Trade, float, float, float] | str:
         """Ouvre une position si la taille tient dans la fourchette de risque.
 
@@ -513,7 +453,6 @@ class Backtest:
             setup: setup confirmé.
             prix: prix théorique d'entrée.
             fin_barre: instant d'entrée.
-            type_entree: ``marche`` ou ``ote``.
 
         Returns:
             Le trade et ses niveaux, ou un motif d'abandon.
@@ -546,7 +485,7 @@ class Backtest:
             if objectif is None:
                 # Aucun niveau de liquidité devant : la stratégie ne prévoit
                 # pas de repli, le setup est abandonné.
-                return ABANDON_SANS_OTE if type_entree == "ote" else ABANDON_EXPIRATION
+                return ABANDON_EXPIRATION
 
         trade = Trade(
             horodatage_entree=fin_barre,
@@ -555,9 +494,8 @@ class Backtest:
             ob_haut=setup.ob.haut,
             ob_bas=setup.ob.bas,
             ob_ouverture_bougie1=setup.ob.ouverture_bougie1,
-            type_jambe=setup.type_jambe,
             unite_fvg=setup.unite_fvg,
-            type_entree=type_entree,
+            type_entree="marche",
             prix_entree=prix_entree,
             stop=stop,
             objectif=objectif,

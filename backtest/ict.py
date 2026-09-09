@@ -1,4 +1,4 @@
-"""Motifs ICT : order blocks, jambes, FVG et retracement de Fibonacci.
+"""Motifs ICT : order blocks, jambes et FVG.
 
 Ce module ne contient que de la détection de motifs sur des bougies déjà
 closes. Il ne place aucun ordre et ne connaît ni compte ni risque : tout ce
@@ -26,27 +26,12 @@ _LOG: Final = logging.getLogger(__name__)
 HAUSSIER: Final = "haussier"
 BAISSIER: Final = "baissier"
 
-#: Classifications de jambe.
-NORMALE: Final = "normale"
-VIOLENTE: Final = "violente"
-
-#: Part du corps moyen sous laquelle une bougie contraire est tolérée.
-SEUIL_CORPS_CONTRAIRE: Final[float] = 0.30
-
-#: Nombre de bougies contraires tolérées sous ce seuil.
-MAX_BOUGIES_CONTRAIRES: Final[int] = 2
-
 #: Nombre de bougies exigées de chaque côté pour valider un point de
 #: retournement. Une valeur basse repère des swings ténus et découpe des
 #: jambes courtes ; une valeur haute ne retient que les retournements francs
 #: et allonge les jambes. Le paramètre est exposé partout parce qu'il décide
-#: du découpage de la jambe, donc de sa classification, donc du type d'entrée.
+#: du découpage de la jambe, donc de la fenêtre où chercher le FVG.
 SENSIBILITE_SWING: Final[int] = 4
-
-#: Bornes de la zone OTE, et niveau clé.
-OTE_DEBUT: Final[float] = 0.618
-OTE_FIN: Final[float] = 0.79
-OTE_CLE: Final[float] = 0.72
 
 #: Zones d'ombre de l'énoncé, tranchées ici faute de règle explicite. Elles
 #: sont republiées telles quelles par le backtest.
@@ -76,23 +61,6 @@ CHOIX_INTERPRETATION: Final[tuple[dict[str, str], ...]] = (
         ),
     },
     {
-        "sujet": "mouvement M5 servant de base au Fibonacci",
-        "manque": "L'énoncé dit « le mouvement M5 de confirmation » sans le borner.",
-        "choix": (
-            "Le mouvement part de l'extrême atteint au moment de la confirmation "
-            "du FVG, dans le sens du trade, et se prolonge tant que le prix fait "
-            "de nouveaux extrêmes."
-        ),
-    },
-    {
-        "sujet": "clôture « au-delà » de la zone OTE",
-        "manque": "Même imprécision que pour le FVG.",
-        "choix": (
-            "La borne la moins profonde, soit 61,8 % : le prix entre dans la zone "
-            "puis en ressort dans le sens du trade."
-        ),
-    },
-    {
         "sujet": "stop au-delà de la mèche de la bougie 2",
         "manque": (
             "L'énoncé dit « au-delà de cette mèche » sans préciser de combien."
@@ -109,14 +77,9 @@ __all__ = [
     "origine_de_jambe",
     "HAUSSIER",
     "BAISSIER",
-    "NORMALE",
-    "VIOLENTE",
     "CHOIX_INTERPRETATION",
     "detecter_order_blocks",
-    "classifier_jambe",
     "detecter_fvg",
-    "sommet_fibonacci",
-    "zone_ote",
 ]
 
 
@@ -356,84 +319,6 @@ def origine_de_jambe(
 
 
 # ---------------------------------------------------------------------------
-# Classification de la jambe
-# ---------------------------------------------------------------------------
-def classifier_jambe(
-    cadre: pd.DataFrame,
-    seuil: float = SEUIL_CORPS_CONTRAIRE,
-    max_contraires: int = MAX_BOUGIES_CONTRAIRES,
-) -> tuple[str, dict[str, Any]]:
-    """Dit si une jambe est violente ou normale.
-
-    Une jambe est **violente** quand toutes ses bougies vont dans le même
-    sens. La tolérance est double, et les deux volets comptent : une bougie à
-    contre-sens ne casse la condition que si son corps atteint au moins
-    ``seuil`` du corps moyen de la jambe, et il en faut plus de
-    ``max_contraires`` sous ce seuil pour disqualifier la jambe.
-
-    Le seuil est franchi de façon **stricte** : un corps valant exactement
-    30 % du corps moyen compte comme une vraie bougie contraire. C'est le cas
-    limite retenu par les tests.
-
-    Args:
-        cadre: bougies de la jambe, sur l'unité de l'order block.
-        seuil: part du corps moyen sous laquelle une bougie est négligeable.
-        max_contraires: nombre de bougies négligeables tolérées.
-
-    Returns:
-        Couple ``(classification, détail)``. Le détail expose le décompte,
-        pour que le journal des trades soit vérifiable à la main.
-    """
-    detail: dict[str, Any] = {
-        "n_bougies": 0,
-        "sens_dominant": "",
-        "n_contraires": 0,
-        "n_contraires_negligeables": 0,
-        "corps_moyen": 0.0,
-        "seuil_applique": seuil,
-    }
-    if cadre is None or cadre.empty:
-        return NORMALE, detail
-
-    ouverture = cadre["open"].to_numpy(dtype="float64")
-    cloture = cadre["close"].to_numpy(dtype="float64")
-    corps = np.abs(cloture - ouverture)
-    detail["n_bougies"] = int(len(cadre))
-    corps_moyen = float(corps.mean()) if corps.size else 0.0
-    detail["corps_moyen"] = corps_moyen
-
-    # Le sens dominant est celui du déplacement net de la jambe : c'est lui
-    # qui définit ce qu'est une bougie « à contre-sens ».
-    net = float(cloture[-1] - ouverture[0])
-    dominant = HAUSSIER if net >= 0 else BAISSIER
-    detail["sens_dominant"] = dominant
-
-    if dominant == HAUSSIER:
-        contraires = corps[(cloture - ouverture) < 0]
-    else:
-        contraires = corps[(cloture - ouverture) > 0]
-
-    detail["n_contraires"] = int(contraires.size)
-    if contraires.size == 0:
-        return VIOLENTE, detail
-
-    if corps_moyen <= 0.0:
-        # Des bougies sans corps ne permettent aucune comparaison relative.
-        return NORMALE, detail
-
-    negligeables = contraires[contraires < seuil * corps_moyen]
-    detail["n_contraires_negligeables"] = int(negligeables.size)
-
-    # Une bougie contraire au-delà du seuil casse la violence, quel qu'en
-    # soit le nombre ; en deçà, il en faut plus que le maximum toléré.
-    if negligeables.size < contraires.size:
-        return NORMALE, detail
-    if contraires.size > max_contraires:
-        return NORMALE, detail
-    return VIOLENTE, detail
-
-
-# ---------------------------------------------------------------------------
 # Fair value gaps
 # ---------------------------------------------------------------------------
 @dataclass(slots=True)
@@ -505,86 +390,3 @@ def detecter_fvg(cadre: pd.DataFrame, unite: str, sens: str | None = None) -> li
             ecarts.append(trouve)
 
     return ecarts
-
-
-# ---------------------------------------------------------------------------
-# Fibonacci à sommet mobile
-# ---------------------------------------------------------------------------
-def sommet_fibonacci(
-    cadre: pd.DataFrame, sens: str
-) -> tuple[int | None, float | None]:
-    """Suit l'extrême d'un mouvement jusqu'à ce qu'il se fige.
-
-    Le sommet suit chaque nouvel extrême et **se fige dès qu'une bougie n'en
-    fait pas un nouveau par rapport à la bougie précédente**. La comparaison
-    porte donc sur la bougie qui précède immédiatement, non sur le maximum
-    courant : une bougie qui ne dépasse pas la précédente fige le sommet même
-    si le maximum du mouvement est plus ancien.
-
-    La fonction ne regarde jamais au-delà de la bougie qui fige le sommet :
-    c'est ce qui la rend utilisable en temps réel, et le test de causalité
-    vérifie qu'elle rend le même résultat sur un historique tronqué.
-
-    Args:
-        cadre: bougies du mouvement, dans l'ordre chronologique.
-        sens: ``haussier`` pour suivre les plus hauts, ``baissier`` pour les
-            plus bas.
-
-    Returns:
-        Couple ``(position, valeur)`` du sommet figé. ``(None, None)`` si le
-        cadre est vide. Si aucune bougie ne fige le sommet, la dernière
-        disponible est rendue — le sommet est alors encore provisoire.
-    """
-    if cadre is None or cadre.empty:
-        return None, None
-
-    if sens == HAUSSIER:
-        extremes = cadre["high"].to_numpy(dtype="float64")
-        progresse = lambda a, b: a > b  # noqa: E731 - lisible tel quel
-    else:
-        extremes = cadre["low"].to_numpy(dtype="float64")
-        progresse = lambda a, b: a < b  # noqa: E731
-
-    position = 0
-    for i in range(1, len(extremes)):
-        if progresse(extremes[i], extremes[i - 1]):
-            position = i
-            continue
-        # Première bougie sans nouvel extrême : le sommet est figé ici.
-        return position, float(extremes[position])
-
-    return position, float(extremes[position])
-
-
-def zone_ote(
-    origine: float,
-    sommet: float,
-    debut: float = OTE_DEBUT,
-    fin: float = OTE_FIN,
-    cle: float = OTE_CLE,
-) -> dict[str, float]:
-    """Calcule la zone de retracement optimale d'un mouvement.
-
-    Les niveaux sont exprimés en retracement depuis le sommet vers l'origine :
-    61,8 % est le plus proche du sommet, 79 % le plus profond.
-
-    Args:
-        origine: extrême de départ du mouvement, point fixe.
-        sommet: extrême d'arrivée, une fois figé.
-        debut: borne la moins profonde de la zone.
-        fin: borne la plus profonde.
-        cle: niveau clé publié à titre indicatif.
-
-    Returns:
-        Dictionnaire des niveaux : ``debut``, ``fin``, ``cle``, plus les
-        bornes ordonnées ``bas`` et ``haut``.
-    """
-    amplitude = sommet - origine
-    niveaux = {
-        "debut": sommet - amplitude * debut,
-        "fin": sommet - amplitude * fin,
-        "cle": sommet - amplitude * cle,
-    }
-    niveaux["bas"] = min(niveaux["debut"], niveaux["fin"])
-    niveaux["haut"] = max(niveaux["debut"], niveaux["fin"])
-    return niveaux
