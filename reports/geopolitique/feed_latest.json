@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "9b52fb07d0b055ba",
+    "categorie": "geopolitique",
+    "titre_affiche": "China Foreign Exchange Reserves Continue to Climb",
+    "horodatage_utc": "2026-09-08T18:45:00+00:00",
+    "source_nom": "GDELT/finance.yahoo.com",
+    "url_source": "https://finance.yahoo.com/markets/currencies/articles/china-foreign-exchange-reserves-continue-091800864.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle relève du thème suivi pour l'or : Tensions sur les réserves de change. Ce thème affiche une couverture de 0.4× sa moyenne sur 30 jours, trajectoire en essoufflement.",
+    "tickers_ou_themes_lies": [
+      "Tensions sur les réserves de change"
+    ],
+    "nouveaute": true
+  }
+]
