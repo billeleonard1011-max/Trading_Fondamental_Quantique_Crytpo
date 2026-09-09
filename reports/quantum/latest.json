@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-09",
-    "horodatage_utc": "2026-09-09T13:41:34.802469+00:00",
+    "horodatage_utc": "2026-09-09T15:24:43.750974+00:00",
     "domaine": "valeurs quantiques cotées",
     "version_moteur": "1.0",
     "valeurs_suivies": [
@@ -37,7 +37,7 @@
     },
     "_meta": {
       "source": "yfinance (secours Stooq)",
-      "horodatage_collecte_utc": "2026-09-09T13:37:34.211141+00:00",
+      "horodatage_collecte_utc": "2026-09-09T15:20:31.416954+00:00",
       "date_donnee": "2026-09-08",
       "age_jours": 1
     }
@@ -51,7 +51,7 @@
     "variation_marche_pct": -0.08345896889334625,
     "_meta": {
       "source": "FRED DFII10 + QQQ (yfinance)",
-      "horodatage_collecte_utc": "2026-09-09T13:37:34.754208+00:00",
+      "horodatage_collecte_utc": "2026-09-09T15:20:32.231518+00:00",
       "date_donnee": "2026-09-09",
       "age_jours": 0
     }
@@ -68,7 +68,7 @@
     "mouvements": [],
     "_meta": {
       "source": "analyse interne (prix + FRED + EDGAR + GDELT)",
-      "horodatage_collecte_utc": "2026-09-09T13:39:43.941568+00:00",
+      "horodatage_collecte_utc": "2026-09-09T15:23:05.592632+00:00",
       "date_donnee": "2026-09-08",
       "age_jours": 1
     }
@@ -168,7 +168,7 @@
     },
     "_meta": {
       "source": "EDGAR XBRL + GDELT + prix",
-      "horodatage_collecte_utc": "2026-09-09T13:41:34.802366+00:00",
+      "horodatage_collecte_utc": "2026-09-09T15:24:43.750869+00:00",
       "date_donnee": "2026-09-09",
       "age_jours": 0
     }
