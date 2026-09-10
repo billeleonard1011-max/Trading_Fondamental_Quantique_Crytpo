@@ -52,7 +52,56 @@ ABANDON_SANS_FVG: Final = "aucun_fvg_trouve"
 ABANDON_TAILLE: Final = "taille_non_prenable"
 ABANDON_EXPIRATION: Final = "expiration_sans_confirmation"
 
-__all__ = ["ConfigBacktest", "Trade", "Backtest"]
+#: Nombre maximal de zones de liquidité retenues pour une sortie par paliers.
+#: Les candidats (extrêmes de la veille, de la session asiatique, order blocks
+#: actifs) peuvent être cinq ou six devant le prix ; au-delà de trois, les
+#: tranches deviennent trop fines pour dire quoi que ce soit et la dernière
+#: cible est si lointaine qu'elle n'est presque jamais atteinte.
+MAX_ZONES_PALIERS: Final[int] = 3
+
+#: Part de la position close à la première zone touchée (TP1). Le solde se
+#: répartit à parts égales sur les zones suivantes ; avec une seule zone au
+#: total, elle prend 100 % — il n'y a alors pas de palier.
+FRACTION_TP1: Final[float] = 0.5
+
+#: Motifs de sortie d'une tranche.
+SORTIE_OBJECTIF: Final = "objectif"
+SORTIE_STOP: Final = "stop"
+SORTIE_BREAK_EVEN: Final = "break_even"
+
+__all__ = ["ConfigBacktest", "Palier", "Trade", "Backtest", "repartir_paliers"]
+
+
+def repartir_paliers(n_zones: int, fraction_tp1: float = FRACTION_TP1) -> list[float]:
+    """Répartit la position sur les zones de liquidité retenues.
+
+    Règle confirmée avec l'utilisateur : la première zone touchée emporte
+    ``fraction_tp1`` de la position, le solde se répartit à parts égales sur
+    les zones suivantes. Une zone unique prend tout — il n'y a alors pas de
+    palier, le comportement est celui d'une sortie unique classique.
+
+    Les parts sont des fractions, jamais des lots : le pas de lot du
+    dimensionnement est de 0,01 et vingt des quarante-quatre trades
+    historiques tiennent en 0,03 ou 0,04 lot, taille qu'aucun découpage en
+    trois ne peut respecter sans déformer le risque. Le moteur mesure ici une
+    mécanique, il ne place pas d'ordre.
+
+    Args:
+        n_zones: nombre de zones retenues, au moins une.
+        fraction_tp1: part de la position close à la première zone.
+
+    Returns:
+        Les parts, dans l'ordre des zones, de somme exactement 1.
+
+    Raises:
+        ValueError: si ``n_zones`` est nul ou négatif.
+    """
+    if n_zones <= 0:
+        raise ValueError("Une sortie par paliers exige au moins une zone.")
+    if n_zones == 1:
+        return [1.0]
+    reste = (1.0 - fraction_tp1) / (n_zones - 1)
+    return [fraction_tp1] + [reste] * (n_zones - 1)
 
 
 @dataclass(slots=True, frozen=True)
@@ -81,6 +130,59 @@ class ConfigBacktest:
 
 
 @dataclass(slots=True)
+class Palier:
+    """Une tranche de sortie, visant une zone de liquidité.
+
+    Le journal garde chaque tranche séparément — zone visée, part de la
+    position, prix de sortie, résultat en R — plutôt qu'un seul total : sans
+    ce détail, on ne peut pas dire si un trade doit son résultat au premier
+    palier ou aux suivants.
+
+    Attributes:
+        rang: 1 pour la première zone (TP1), 2 pour la suivante, etc.
+        zone: niveau de liquidité visé.
+        origine: d'où vient ce niveau (``veille_haut``, ``asie_bas``,
+            ``order_block``...). Identifiant technique : il passe par le
+            dictionnaire de libellés avant tout affichage.
+        fraction: part de la position portée par cette tranche.
+        ratio_risque: rapport (distance à la zone) / (distance au stop), tel
+            qu'affiché dans l'alerte au moment de l'entrée.
+        prix_sortie: prix net de sortie, coûts appliqués. ``None`` tant que
+            la tranche est ouverte.
+        horodatage_sortie: instant de la clôture de la tranche.
+        resultat_r: résultat de la tranche, en multiple du risque initial,
+            déjà pondéré par ``fraction``.
+        motif_sortie: ``objectif``, ``stop`` ou ``break_even``.
+    """
+
+    rang: int
+    zone: float
+    origine: str
+    fraction: float
+    ratio_risque: float
+    prix_sortie: float | None = None
+    horodatage_sortie: pd.Timestamp | None = None
+    resultat_r: float | None = None
+    motif_sortie: str = ""
+
+    def to_dict(self) -> dict[str, Any]:
+        """Sérialise la tranche pour le journal."""
+        return {
+            "rang": self.rang,
+            "zone": round(self.zone, 4),
+            "origine": self.origine,
+            "fraction": round(self.fraction, 4),
+            "ratio_risque": round(self.ratio_risque, 3),
+            "prix_sortie": None if self.prix_sortie is None else round(self.prix_sortie, 4),
+            "horodatage_sortie": (
+                "" if self.horodatage_sortie is None else str(self.horodatage_sortie)
+            ),
+            "resultat_r": None if self.resultat_r is None else round(self.resultat_r, 4),
+            "motif_sortie": self.motif_sortie,
+        }
+
+
+@dataclass(slots=True)
 class Trade:
     """Un trade effectivement pris, de l'entrée à la sortie."""
 
@@ -102,6 +204,11 @@ class Trade:
     resultat_r: float = 0.0
     motif_sortie: str = ""
     heure_entree: int = 0
+    #: Tranches de sortie, dans l'ordre des zones. Vide hors mode ``paliers``.
+    paliers: list[Palier] = field(default_factory=list)
+    #: Prix du FVG qui a confirmé l'entrée, pour l'alerte.
+    fvg_haut: float | None = None
+    fvg_bas: float | None = None
 
     def to_dict(self) -> dict[str, Any]:
         """Sérialise le trade pour le journal CSV."""
@@ -126,7 +233,27 @@ class Trade:
             "resultat_r": round(self.resultat_r, 3),
             "motif_sortie": self.motif_sortie,
             "heure_entree": self.heure_entree,
+            "fvg_haut": "" if self.fvg_haut is None else round(self.fvg_haut, 4),
+            "fvg_bas": "" if self.fvg_bas is None else round(self.fvg_bas, 4),
+            "n_paliers": len(self.paliers),
         }
+
+    def lignes_paliers(self) -> list[dict[str, Any]]:
+        """Sérialise les tranches, une ligne par tranche.
+
+        Le détail vit dans son propre journal plutôt que dans des colonnes
+        numérotées du journal principal : le nombre de tranches varie d'un
+        trade à l'autre, et des colonnes ``palier_3_*`` vides sur la plupart
+        des lignes se lisent mal.
+
+        Returns:
+            Une ligne par tranche, rattachée au trade par son horodatage
+            d'entrée.
+        """
+        return [
+            {"horodatage_entree": str(self.horodatage_entree), "sens": self.sens, **palier.to_dict()}
+            for palier in self.paliers
+        ]
 
 
 @dataclass(slots=True)
@@ -292,7 +419,15 @@ class Backtest:
                 prochaine_zone += 1
 
             # 2. Gestion de la position ouverte, sur cette barre seulement.
-            if position is not None:
+            if position is not None and position.paliers:
+                stop_courant, termine = self._avancer_paliers(
+                    position, i, haut, bas, fin_barre, ouverture_barre,
+                    stop_courant, risque_eur,
+                )
+                if termine:
+                    self.trades.append(position)
+                    position = None
+            elif position is not None:
                 sortie = None
                 if position.sens == ict.HAUSSIER:
                     # Convention : à égalité dans la même minute, le stop
@@ -396,6 +531,96 @@ class Backtest:
             len(self.trades), sum(self.abandons.values()),
         )
 
+    def _avancer_paliers(
+        self,
+        position: Trade,
+        i: int,
+        haut: np.ndarray,
+        bas: np.ndarray,
+        fin_barre: pd.Timestamp,
+        ouverture_barre: pd.Timestamp,
+        stop_courant: float,
+        risque_eur: float,
+    ) -> tuple[float, bool]:
+        """Fait avancer une position à sorties échelonnées, sur une barre.
+
+        Deux conventions, dans le prolongement de celles du moteur :
+
+        * **le stop reste prioritaire** : il est examiné avant les zones, et
+          s'il est touché il emporte tout le solde de la position ;
+        * **le passage à break-even ne prend effet qu'à la barre suivante**.
+          Le stop de la barre courante a déjà été évalué quand la première
+          tranche se clôture ; considérer le break-even actif dans la même
+          minute reviendrait à décider de l'ordre des évènements à
+          l'intérieur d'une bougie, que la série d'une minute ne donne pas.
+          L'hypothèse retenue est la moins flatteuse des deux.
+
+        Args:
+            position: trade en cours, porteur de ses tranches.
+            i: indice de la barre courante.
+            haut: hauts de la série M1.
+            bas: bas de la série M1.
+            fin_barre: instant de clôture de la barre.
+            ouverture_barre: instant d'ouverture, pour le taux de change.
+            stop_courant: stop en vigueur au début de la barre.
+            risque_eur: perte en euros au stop initial, dénominateur du R.
+
+        Returns:
+            Couple ``(stop en vigueur pour la barre suivante, position close)``.
+        """
+        achat = position.sens == ict.HAUSSIER
+        signe = 1.0 if achat else -1.0
+        taux = self._taux(ouverture_barre) or 1.0
+        au_break_even = stop_courant == position.prix_entree
+
+        def clore(palier: Palier, prix: float, motif: str) -> None:
+            """Clôture une tranche et lui impute sa part du résultat."""
+            prix_net = bt_exec.appliquer_couts_sortie(
+                prix, position.sens, self.config.execution
+            )
+            variation = (prix_net - position.prix_entree) * signe
+            resultat_eur = (
+                variation * bt_exec.ONCES_PAR_LOT * position.lots * palier.fraction / taux
+            )
+            palier.prix_sortie = prix_net
+            palier.horodatage_sortie = fin_barre
+            palier.motif_sortie = motif
+            palier.resultat_r = resultat_eur / risque_eur if risque_eur else 0.0
+            position.resultat_eur += resultat_eur
+            position.resultat_r += palier.resultat_r
+            position.prix_sortie = prix_net
+            position.horodatage_sortie = fin_barre
+            position.motif_sortie = motif
+
+        ouverts = [p for p in position.paliers if p.prix_sortie is None]
+        if not ouverts:
+            return stop_courant, True
+
+        # Le stop, d'abord : touché, il emporte tout le solde.
+        touche_stop = bas[i] <= stop_courant if achat else haut[i] >= stop_courant
+        if touche_stop:
+            motif = SORTIE_BREAK_EVEN if au_break_even else SORTIE_STOP
+            for palier in ouverts:
+                clore(palier, stop_courant, motif)
+            return stop_courant, True
+
+        # Puis les zones, dans l'ordre : une barre ample peut en franchir
+        # plusieurs, chacune se dénouant à son propre niveau.
+        for palier in ouverts:
+            atteinte = haut[i] >= palier.zone if achat else bas[i] <= palier.zone
+            if atteinte:
+                clore(palier, palier.zone, SORTIE_OBJECTIF)
+
+        reste = [p for p in position.paliers if p.prix_sortie is None]
+        if not reste:
+            return stop_courant, True
+
+        # Une tranche au moins vient de tomber : le solde passe à
+        # break-even, et le stop n'y bougera plus.
+        if len(reste) < len(ouverts) and not au_break_even:
+            stop_courant = position.prix_entree
+        return stop_courant, False
+
     def _avancer(
         self,
         setup: _Setup,
@@ -474,12 +699,38 @@ class Backtest:
         if not taille["prenable"]:
             return ABANDON_TAILLE
 
+        paliers: list[Palier] = []
         if self.config.mode_tp == "ratio":
             objectif = (
                 prix_entree + distance * self.config.ratio_tp
                 if achat
                 else prix_entree - distance * self.config.ratio_tp
             )
+        elif self.config.mode_tp == "paliers":
+            zones = self._niveaux_de_liquidite(prix_entree, achat, fin_barre)
+            if not zones:
+                # Même règle que la variante structurelle : sans niveau de
+                # liquidité devant, la stratégie ne prévoit pas de repli. Les
+                # deux variantes abandonnent donc les mêmes setups, ce qui les
+                # rend comparables sur exactement la même population.
+                return ABANDON_EXPIRATION
+            fractions = repartir_paliers(len(zones))
+            paliers = [
+                Palier(
+                    rang=rang,
+                    zone=niveau,
+                    origine=origine,
+                    fraction=fraction,
+                    ratio_risque=abs(niveau - prix_entree) / distance if distance else 0.0,
+                )
+                for rang, ((niveau, origine), fraction) in enumerate(
+                    zip(zones, fractions), start=1
+                )
+            ]
+            # L'objectif affiché reste la première zone : c'est celle qui
+            # décide de la sortie de la première tranche et du passage à
+            # break-even.
+            objectif = zones[0][0]
         else:
             objectif = self._objectif_structurel(setup, prix_entree, achat, fin_barre)
             if objectif is None:
@@ -501,17 +752,77 @@ class Backtest:
             objectif=objectif,
             lots=taille["lots"],
             heure_entree=int(pd.Timestamp(fin_barre).hour),
+            paliers=paliers,
+            fvg_haut=None if setup.fvg is None else setup.fvg.haut,
+            fvg_bas=None if setup.fvg is None else setup.fvg.bas,
         )
         return trade, stop, objectif, float(taille["perte_eur"])
+
+    def _niveaux_de_liquidite(
+        self,
+        prix: float,
+        achat: bool,
+        instant: pd.Timestamp,
+        maximum: int = MAX_ZONES_PALIERS,
+    ) -> list[tuple[float, str]]:
+        """Énumère les zones de liquidité devant le prix, de la plus proche
+        à la plus lointaine.
+
+        Les candidats sont ceux que la stratégie énumère : extrêmes de la
+        veille, extrêmes de la session asiatique du jour, et order blocks
+        encore actifs. Chaque niveau garde son origine, pour que l'alerte
+        puisse dire *quelle* liquidité elle vise plutôt qu'un simple prix.
+
+        Les doublons sont écartés : deux candidats peuvent tomber sur le même
+        prix — le haut de la veille et celui de la session asiatique
+        coïncident dès que le sommet du jour précédent a été fait le soir —,
+        et les compter deux fois donnerait deux tranches sur un seul niveau.
+
+        Args:
+            prix: prix d'entrée.
+            achat: sens de la position.
+            instant: instant de l'entrée.
+            maximum: nombre de zones retenues au plus.
+
+        Returns:
+            Couples ``(niveau, origine)``, triés du plus proche au plus
+            lointain, au plus ``maximum`` éléments. Liste vide si aucun
+            niveau n'est devant le prix.
+        """
+        veille, asiatique = self._niveaux_de_session(instant)
+        candidats: list[tuple[float, str]] = []
+        for niveau, origine in zip(veille, ("veille_haut", "veille_bas")):
+            candidats.append((niveau, origine))
+        for niveau, origine in zip(asiatique, ("asie_haut", "asie_bas")):
+            candidats.append((niveau, origine))
+
+        for zone in self.order_blocks:
+            if zone.mitige or zone.fin_motif > instant:
+                continue
+            candidats.append((zone.bas if achat else zone.haut, "order_block"))
+
+        devant = [(n, o) for n, o in candidats if (n > prix if achat else n < prix)]
+
+        # Dédoublonnage sur le niveau, en gardant la première origine
+        # rencontrée : l'ordre des candidats ci-dessus fait primer les
+        # extrêmes de session sur les order blocks, plus nombreux.
+        vus: dict[float, str] = {}
+        for niveau, origine in devant:
+            vus.setdefault(niveau, origine)
+
+        ordonnes = sorted(vus.items(), key=lambda c: c[0] if achat else -c[0])
+        return ordonnes[:maximum]
 
     def _objectif_structurel(
         self, setup: _Setup, prix: float, achat: bool, instant: pd.Timestamp
     ) -> float | None:
         """Cherche le niveau de liquidité le plus proche dans le sens du trade.
 
-        Les candidats sont ceux que la stratégie énumère : extrêmes de la
-        session asiatique du jour, extrêmes de la veille, et order blocks
-        encore actifs.
+        Le plus proche des niveaux énumérés par
+        :meth:`_niveaux_de_liquidite` — ni le dédoublonnage ni le plafond de
+        cette dernière ne peuvent changer *quel* niveau vient en tête, la
+        variante A garde donc exactement le comportement qu'elle avait avant
+        l'introduction des paliers.
 
         Args:
             setup: setup confirmé.
@@ -522,23 +833,8 @@ class Backtest:
         Returns:
             Le niveau retenu, ou ``None`` si aucun n'est devant le prix.
         """
-        niveaux: list[float] = []
-
-        veille, asiatique = self._niveaux_de_session(instant)
-        niveaux.extend(veille)
-        niveaux.extend(asiatique)
-
-        for zone in self.order_blocks:
-            if zone.mitige or zone.fin_motif > instant:
-                continue
-            niveaux.append(zone.bas if achat else zone.haut)
-
-        # Le niveau le plus proche devant le prix, dans le sens du trade.
-        if achat:
-            devant = [n for n in niveaux if n > prix]
-            return min(devant) if devant else None
-        devant = [n for n in niveaux if n < prix]
-        return max(devant) if devant else None
+        niveaux = self._niveaux_de_liquidite(prix, achat, instant)
+        return niveaux[0][0] if niveaux else None
 
     def _niveaux_de_session(
         self, instant: pd.Timestamp

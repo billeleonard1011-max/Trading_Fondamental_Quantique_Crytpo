@@ -1,4 +1,4 @@
-"""Point d'entrée du backtest : quatre variantes d'objectif, comparées.
+"""Point d'entrée du backtest : cinq variantes d'objectif, comparées.
 
 Exécution :
     python -m backtest.run
@@ -6,9 +6,10 @@ Exécution :
     python -m backtest.run --spread 0.80 --slippage 0.50
 
 Écrit dans ``reports/backtest/`` : le journal complet des trades en CSV pour
-chaque variante, et une synthèse JSON. Les quatre variantes — objectif
-structurel, puis ratios 1:1,5, 1:2 et 1:3 — sont jouées sur exactement les
-mêmes données et les mêmes setups, ce qui rend leur comparaison directe.
+chaque variante, et une synthèse JSON. Les cinq variantes — objectif
+structurel, ratios 1:1,5, 1:2 et 1:3, puis sortie par paliers sur les zones
+de liquidité successives — sont jouées sur exactement les mêmes données et
+les mêmes setups, ce qui rend leur comparaison directe.
 
 Ce module mesure une stratégie. Il n'en recommande aucune, et ne conclut pas
 à sa place : les répartitions par unité de temps, par unité de FVG et par
@@ -44,15 +45,24 @@ DOSSIER_DONNEES: Final = RACINE / "data"
 #: Dossier de publication des résultats.
 DOSSIER_RAPPORTS: Final = RACINE / "reports" / "backtest"
 
-#: Les quatre variantes d'objectif comparées.
+#: Les cinq variantes d'objectif comparées.
+#:
+#: ``C_paliers`` sort en plusieurs fois sur les zones de liquidité successives
+#: et passe à break-even dès la première atteinte ; les autres sortent d'un
+#: seul bloc. Elle partage la population de setups de ``A_structurel`` — les
+#: deux abandonnent quand aucun niveau n'est devant le prix —, ce qui rend la
+#: comparaison entre sortie unique et sortie échelonnée directement lisible.
 VARIANTES: Final[tuple[tuple[str, str, float], ...]] = (
     ("A_structurel", "structurel", 0.0),
     ("B_ratio_1.5", "ratio", 1.5),
     ("B_ratio_2", "ratio", 2.0),
     ("B_ratio_3", "ratio", 3.0),
+    ("C_paliers", "paliers", 0.0),
 )
 
-__all__ = ["metriques", "repartir", "executer_variantes", "main"]
+__all__ = [
+    "metriques", "repartir", "executer_variantes", "statistiques_paliers", "main",
+]
 
 
 # ---------------------------------------------------------------------------
@@ -150,7 +160,7 @@ def executer_variantes(
     n_tirages: int = propfirm.N_TIRAGES,
     sensibilite_swing: int = ict.SENSIBILITE_SWING,
 ) -> dict[str, Any]:
-    """Joue les quatre variantes d'objectif sur les mêmes données.
+    """Joue les cinq variantes d'objectif sur les mêmes données.
 
     Args:
         m1: bougies d'une minute de XAUUSD.
@@ -235,8 +245,10 @@ def ecrire_journal(trades: list[moteur.Trade], chemin: Path) -> bool:
     colonnes = [
         "horodatage_entree", "horodatage_sortie", "sens", "unite_ob",
         "ob_haut", "ob_bas", "ob_ouverture_bougie1",
-        "unite_fvg", "type_entree", "prix_entree", "stop", "objectif", "prix_sortie",
+        "unite_fvg", "fvg_haut", "fvg_bas",
+        "type_entree", "prix_entree", "stop", "objectif", "prix_sortie",
         "lots", "resultat_eur", "resultat_r", "motif_sortie", "heure_entree",
+        "n_paliers",
     ]
     try:
         chemin.parent.mkdir(parents=True, exist_ok=True)
@@ -247,6 +259,95 @@ def ecrire_journal(trades: list[moteur.Trade], chemin: Path) -> bool:
                 redacteur.writerow(trade.to_dict())
     except OSError as exc:
         _LOG.error("Journal non écrit (%s) : %s", chemin, exc)
+        return False
+    return True
+
+
+def statistiques_paliers(trades: list[moteur.Trade]) -> dict[str, Any]:
+    """Résume le comportement des tranches d'une variante à paliers.
+
+    Répond aux deux questions que la sortie échelonnée pose et que le total
+    d'un trade ne montre pas : chaque zone est-elle réellement atteinte, et
+    combien de fois le solde finit-il par sortir à break-even plutôt que sur
+    une zone.
+
+    Args:
+        trades: trades dénoués.
+
+    Returns:
+        Statistiques par rang de zone, et décompte des motifs de sortie.
+        ``{"disponible": False, ...}`` si aucun trade ne porte de tranche.
+    """
+    paliers = [p for trade in trades for p in trade.paliers]
+    if not paliers:
+        return {"disponible": False, "motif": "aucune tranche : aucun trade à paliers"}
+
+    par_rang: dict[str, Any] = {}
+    for rang in sorted({p.rang for p in paliers}):
+        lot = [p for p in paliers if p.rang == rang]
+        atteints = [p for p in lot if p.motif_sortie == moteur.SORTIE_OBJECTIF]
+        resolus = [p for p in lot if p.resultat_r is not None]
+        par_rang[str(rang)] = {
+            "n_tranches": len(lot),
+            "n_zone_atteinte": len(atteints),
+            "part_zone_atteinte": len(atteints) / len(lot),
+            "fraction_moyenne": sum(p.fraction for p in lot) / len(lot),
+            "ratio_risque_moyen": sum(p.ratio_risque for p in lot) / len(lot),
+            "resultat_r_moyen": (
+                sum(p.resultat_r for p in resolus) / len(resolus) if resolus else None
+            ),
+        }
+
+    motifs: dict[str, int] = {}
+    for palier in paliers:
+        motifs[palier.motif_sortie or "non_denoue"] = (
+            motifs.get(palier.motif_sortie or "non_denoue", 0) + 1
+        )
+
+    n_zones = [len(t.paliers) for t in trades if t.paliers]
+    return {
+        "disponible": True,
+        "n_trades_a_paliers": len(n_zones),
+        "n_zones_moyen": sum(n_zones) / len(n_zones),
+        "repartition_n_zones": {
+            str(n): n_zones.count(n) for n in sorted(set(n_zones))
+        },
+        "par_rang": par_rang,
+        "motifs_de_sortie": motifs,
+    }
+
+
+def ecrire_journal_paliers(trades: list[moteur.Trade], chemin: Path) -> bool:
+    """Écrit le détail des tranches de sortie, une ligne par tranche.
+
+    Sans ce détail, un trade à sorties échelonnées ne serait qu'un total
+    opaque : on ne saurait pas si le résultat vient de la première zone ou
+    des suivantes, ni combien de fois le solde est finalement sorti à
+    break-even.
+
+    Args:
+        trades: trades dénoués de la variante à paliers.
+        chemin: fichier de destination.
+
+    Returns:
+        ``True`` si l'écriture a réussi, ``False`` si aucune tranche n'existe
+        ou si le disque refuse.
+    """
+    lignes = [ligne for trade in trades for ligne in trade.lignes_paliers()]
+    if not lignes:
+        return False
+    colonnes = [
+        "horodatage_entree", "sens", "rang", "zone", "origine", "fraction",
+        "ratio_risque", "prix_sortie", "horodatage_sortie", "resultat_r", "motif_sortie",
+    ]
+    try:
+        chemin.parent.mkdir(parents=True, exist_ok=True)
+        with chemin.open("w", encoding="utf-8", newline="") as flux:
+            redacteur = csv.DictWriter(flux, fieldnames=colonnes)
+            redacteur.writeheader()
+            redacteur.writerows(lignes)
+    except OSError as exc:
+        _LOG.error("Journal des paliers non écrit (%s) : %s", chemin, exc)
         return False
     return True
 
@@ -416,8 +517,13 @@ def main(argv: list[str] | None = None) -> int:
     DOSSIER_RAPPORTS.mkdir(parents=True, exist_ok=True)
     for nom, bloc in resultats.items():
         chemin = DOSSIER_RAPPORTS / f"trades_{nom}.csv"
-        if ecrire_journal(bloc.pop("_trades"), chemin):
+        trades_variante = bloc.pop("_trades")
+        if ecrire_journal(trades_variante, chemin):
             bloc["chemin_journal"] = str(chemin.relative_to(RACINE))
+        chemin_paliers = DOSSIER_RAPPORTS / f"paliers_{nom}.csv"
+        if ecrire_journal_paliers(trades_variante, chemin_paliers):
+            bloc["chemin_journal_paliers"] = str(chemin_paliers.relative_to(RACINE))
+            bloc["paliers"] = statistiques_paliers(trades_variante)
 
     synthese = {
         "meta": {

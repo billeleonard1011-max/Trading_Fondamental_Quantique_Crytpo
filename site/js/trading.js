@@ -22,18 +22,39 @@ import { installerTheme } from "./theme.js";
 import { verifierAbsenceRecommandation } from "../../worker-scanner/src/recommandation.js";
 
 /** Les quatre variantes de TP suivies, dans l'ordre d'affichage. */
-export const VARIANTES = ["a", "b15", "b2", "b3"];
+export const VARIANTES = ["a", "b15", "b2", "b3", "c"];
 
 const LIBELLE_VARIANTE = {
   a: "Structurelle (A)",
   b15: "Ratio 1:1,5 (B)",
   b2: "Ratio 1:2 (B)",
   b3: "Ratio 1:3 (B)",
+  c: "Sortie par paliers (C)",
+};
+
+/** Libellés des origines de zone de liquidité.
+ *
+ * Les identifiants techniques (`veille_haut`, `asie_bas`...) ne doivent
+ * jamais s'afficher bruts : même règle que pour les autres libellés du site. */
+const LIBELLE_ORIGINE_ZONE = {
+  veille_haut: "haut de la veille",
+  veille_bas: "bas de la veille",
+  asie_haut: "haut de la session asiatique",
+  asie_bas: "bas de la session asiatique",
+  order_block: "order block encore actif",
+};
+
+/** Libellés des motifs de sortie d'une tranche. */
+const LIBELLE_MOTIF_SORTIE = {
+  objectif: "zone atteinte",
+  stop: "stop touché",
+  break_even: "sorti au prix d'entrée",
 };
 
 /** Correspondance avec les clés du rapport de backtest (reports/backtest/synthese.json). */
 const VARIANTE_VERS_BACKTEST = {
   a: "A_structurel", b15: "B_ratio_1.5", b2: "B_ratio_2", b3: "B_ratio_3",
+  c: "C_paliers",
 };
 
 /** Nombre de trades résolus en deçà duquel un taux de réussite ne veut rien dire. */
@@ -191,6 +212,42 @@ function ligneMetriques(libelleLigne, m) {
 }
 
 /**
+ * Rend le détail des tranches de la sortie par paliers.
+ *
+ * Le total d'un trade à paliers ne dit pas d'où vient son résultat : ce
+ * tableau montre chaque tranche — zone visée, part de la position, sortie
+ * effective et R apporté — pour qu'on voie si le résultat tient au premier
+ * palier ou aux suivants.
+ *
+ * @param {Array<object>|undefined} paliers Tranches publiées par /journal.
+ * @returns {string} HTML du détail, vide si le signal n'a pas de paliers.
+ */
+export function rendrePaliers(paliers) {
+  if (!Array.isArray(paliers) || paliers.length === 0) return "";
+  const lignes = paliers.map((p) => {
+    const origine = LIBELLE_ORIGINE_ZONE[p.origine] || p.origine;
+    const motif = p.motif_sortie
+      ? LIBELLE_MOTIF_SORTIE[p.motif_sortie] || p.motif_sortie
+      : "en cours";
+    return `<tr>
+      <td>${p.rang}</td>
+      <td>${echapper(origine)} à ${nombre(p.zone, 2)} $</td>
+      <td>1:${nombre(p.ratio_risque, 1)}</td>
+      <td>${nombre(p.fraction * 100, 0)} %</td>
+      <td>${echapper(motif)}</td>
+      <td>${p.r === null || p.r === undefined ? ABSENT : `${nombre(p.r, 2, true)} R`}</td>
+    </tr>`;
+  }).join("");
+  return `<div class="tableau-enveloppe trading-paliers">
+    <table class="tableau">
+      <thead><tr><th>Palier</th><th>Zone visée</th><th>R/R</th><th>Part</th>
+        <th>Sortie</th><th>Apport</th></tr></thead>
+      <tbody>${lignes}</tbody>
+    </table>
+  </div>`;
+}
+
+/**
  * Rend le fil des signaux détectés, du plus récent au plus ancien.
  *
  * @param {Array<object>} signaux Signaux renvoyés par /journal.
@@ -204,7 +261,9 @@ export function rendreFilAlertes(signaux, limite = 30) {
   const items = signaux.slice(0, limite).map((s) => {
     const detection = texteSurAudite(s.texte_detection);
     const variantesHtml = VARIANTES.map((v) => {
-      const variante = s.variantes[v];
+      // Un signal journalisé avant l'ajout d'une variante ne la porte pas :
+      // on l'affiche comme non suivie plutôt que de casser tout le fil.
+      const variante = (s.variantes && s.variantes[v]) || { statut: "sans_objectif", texte: null };
       const texte = texteSurAudite(variante.texte);
       return `<li class="trading-variante">
         <span class="trading-variante-entete">${echapper(LIBELLE_VARIANTE[v])}
@@ -219,6 +278,7 @@ export function rendreFilAlertes(signaux, limite = 30) {
         <span class="fil-meta">${echapper(dateHeure(s.horodatage_detection_utc))}</span>
       </div>
       <p>${detection ? echapper(detection) : "Texte de détection indisponible."}</p>
+      ${rendrePaliers(s.paliers)}
       <ul class="trading-variantes">${variantesHtml}</ul>
     </li>`;
   }).join("");

@@ -28,7 +28,7 @@ import {
 import {
   appliquerCoutsEntree, appliquerCoutsSortie, calculerStop, configExecutionDefaut, dimensionner,
 } from "../src/execution.js";
-import { etatInitial, traiterNouvellesBougies } from "../src/moteur.js";
+import { etatInitial, repartirPaliers, traiterNouvellesBougies } from "../src/moteur.js";
 
 const DOSSIER_FIXTURES = new URL("./fixtures/", import.meta.url);
 
@@ -229,4 +229,117 @@ test("parité — le moteur JS rejoue la même série et produit exactement les 
       );
     }
   }
+});
+
+// ---------------------------------------------------------------------------
+// 7. Sortie par paliers — le test qui compte pour la partie A
+// ---------------------------------------------------------------------------
+test("parité — repartirPaliers() reproduit repartir_paliers (Python)", () => {
+  const { repartitions } = fixture("paliers");
+  for (const [nZones, attendu] of Object.entries(repartitions)) {
+    const obtenu = repartirPaliers(Number(nZones));
+    assert.equal(obtenu.length, attendu.length, `${nZones} zone(s) : nombre de parts`);
+    obtenu.forEach((part, i) => assertProche(part, attendu[i], `${nZones} zones, part ${i}`));
+    assertProche(obtenu.reduce((s, p) => s + p, 0), 1.0, `${nZones} zones : somme des parts`);
+  }
+});
+
+test("parité — le moteur JS reproduit exactement les trades à paliers du backtest (Python)", () => {
+  const donnees = fixture("paliers");
+  const config = configExecutionDefaut();
+  config.spread = 0.62;
+  config.slippage = 0.3;
+  config.margeStop = 1.0;
+
+  // Seule la variante à paliers est active : cela reproduit exactement le
+  // blocage à une position du backtest Python pour cette variante, comme le
+  // fait déjà le test du moteur complet avec « b2 ».
+  const variantesActives = ["c"];
+
+  const parJour = new Map();
+  for (const bougie of donnees.m1) {
+    const jour = new Date(bougie.t).toISOString().slice(0, 10);
+    if (!parJour.has(jour)) parJour.set(jour, []);
+    parJour.get(jour).push(bougie);
+  }
+
+  let etat = etatInitial();
+  const fenetreCumulative = [];
+  const evenements = [];
+  for (const [jour, bougiesDuJour] of parJour) {
+    fenetreCumulative.push(...bougiesDuJour);
+    const taux = donnees.tauxEurusdParJour[jour] ?? null;
+    const resultat = traiterNouvellesBougies(etat, fenetreCumulative, config, taux, 4, variantesActives);
+    etat = resultat.etat;
+    evenements.push(...resultat.evenements);
+  }
+
+  const entrees = evenements.filter((e) => e.type === "entree");
+  const tranches = evenements.filter((e) => e.type === "resolution_palier");
+
+  assert.equal(
+    entrees.length, donnees.attenduNTrades,
+    `nombre de trades : JS=${entrees.length} Python=${donnees.attenduNTrades}`,
+  );
+
+  for (let i = 0; i < donnees.attenduTrades.length; i += 1) {
+    const attendu = donnees.attenduTrades[i];
+    const obtenu = entrees[i];
+
+    assert.equal(obtenu.horodatageDetection, attendu.horodatageEntree, `trade ${i} : horodatage d'entrée`);
+    assert.equal(obtenu.sens, attendu.sens, `trade ${i} : sens`);
+    assert.equal(obtenu.timeframeOb, attendu.uniteOb, `trade ${i} : unité d'order block`);
+    assert.equal(obtenu.timeframeFvg, attendu.uniteFvg, `trade ${i} : unité de FVG`);
+    assertProche(obtenu.prixEntree, attendu.prixEntree, `trade ${i} : prix d'entrée`);
+    assertProche(obtenu.stop, attendu.stop, `trade ${i} : stop`);
+    assertProche(obtenu.objectifs.c, attendu.objectif, `trade ${i} : première zone`);
+    assertProche(obtenu.lots, attendu.lots, `trade ${i} : lots`);
+    if (attendu.fvgHaut !== null) {
+      assertProche(obtenu.fvgHaut, attendu.fvgHaut, `trade ${i} : haut du FVG`);
+      assertProche(obtenu.fvgBas, attendu.fvgBas, `trade ${i} : bas du FVG`);
+    }
+
+    // Le détail des tranches, zone par zone.
+    assert.equal(
+      obtenu.paliers.length, attendu.paliers.length,
+      `trade ${i} : nombre de zones (JS=${obtenu.paliers.length} Python=${attendu.paliers.length})`,
+    );
+    for (let j = 0; j < attendu.paliers.length; j += 1) {
+      const p = attendu.paliers[j];
+      const q = obtenu.paliers[j];
+      assert.equal(q.rang, p.rang, `trade ${i} palier ${j} : rang`);
+      assertProche(q.zone, p.zone, `trade ${i} palier ${j} : zone visée`);
+      assert.equal(q.origine, p.origine, `trade ${i} palier ${j} : origine du niveau`);
+      assertProche(q.fraction, p.fraction, `trade ${i} palier ${j} : part de la position`);
+      assertProche(q.ratioRisque, p.ratioRisque, `trade ${i} palier ${j} : ratio risque/récompense`);
+
+      // Le dénouement de la tranche, tel que le journal le retiendra.
+      const tranche = tranches.find((t) => t.id === obtenu.id && t.rang === p.rang);
+      if (p.prixSortie === null) {
+        assert.equal(tranche, undefined, `trade ${i} palier ${j} : tranche non dénouée côté Python`);
+        continue;
+      }
+      assert.ok(tranche, `trade ${i} palier ${j} : aucune tranche dénouée côté JS`);
+      assertProche(tranche.prixSortie, p.prixSortie, `trade ${i} palier ${j} : prix de sortie`);
+      assert.equal(tranche.motifSortie, p.motifSortie, `trade ${i} palier ${j} : motif de sortie`);
+      assert.equal(
+        tranche.horodatageResolution, p.horodatageResolution,
+        `trade ${i} palier ${j} : horodatage de résolution`,
+      );
+    }
+  }
+});
+
+test("parité — le passage à break-even se voit dans les motifs de sortie des deux moteurs", () => {
+  const donnees = fixture("paliers");
+  const motifs = {};
+  for (const trade of donnees.attenduTrades) {
+    for (const p of trade.paliers) {
+      motifs[p.motifSortie || "non_denoue"] = (motifs[p.motifSortie || "non_denoue"] || 0) + 1;
+    }
+  }
+  assert.ok(
+    motifs.break_even > 0,
+    `la fixture doit contenir des sorties à break-even pour que la parité soit probante (motifs : ${JSON.stringify(motifs)})`,
+  );
 });

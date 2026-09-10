@@ -105,17 +105,61 @@ export async function insererEntree(db, entree) {
     .prepare(
       `INSERT INTO journal (
         id, horodatage_detection, timeframe_ob, ob_haut, ob_bas, sens, timeframe_fvg,
-        prix_entree, sl, tp_a, tp_b15, tp_b2, tp_b3,
-        statut_a, statut_b15, statut_b2, statut_b3, lots
-      ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+        fvg_haut, fvg_bas,
+        prix_entree, sl, tp_a, tp_b15, tp_b2, tp_b3, tp_c,
+        statut_a, statut_b15, statut_b2, statut_b3, statut_c, lots
+      ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
       ON CONFLICT(id) DO NOTHING`,
     )
     .bind(
       entree.id, entree.horodatageDetection, entree.timeframeOb, entree.obHaut, entree.obBas,
-      entree.sens, entree.timeframeFvg, entree.prixEntree, entree.stop,
+      entree.sens, entree.timeframeFvg,
+      entree.fvgHaut ?? null, entree.fvgBas ?? null,
+      entree.prixEntree, entree.stop,
       entree.objectifs.a, entree.objectifs.b15, entree.objectifs.b2, entree.objectifs.b3,
+      entree.objectifs.c ?? null,
       statutInitial("a"), statutInitial("b15"), statutInitial("b2"), statutInitial("b3"),
+      statutInitial("c"),
       entree.lots,
+    )
+    .run();
+
+  // Détail des tranches de la variante C. Idempotent comme l'entrée
+  // elle-même : rejouer une exécution ne duplique pas les paliers.
+  for (const palier of entree.paliers || []) {
+    await db
+      .prepare(
+        `INSERT INTO paliers (
+          id_signal, rang, zone, origine, fraction, ratio_risque, statut
+        ) VALUES (?,?,?,?,?,?,'ouvert')
+        ON CONFLICT(id_signal, rang) DO NOTHING`,
+      )
+      .bind(entree.id, palier.rang, palier.zone, palier.origine, palier.fraction, palier.ratioRisque)
+      .run();
+  }
+}
+
+/**
+ * Applique la résolution d'une tranche de la variante à paliers.
+ *
+ * Idempotent par la même clause que {@link appliquerResolution} : une
+ * tranche déjà dénouée n'est jamais réécrite.
+ *
+ * @param {D1Database} db Base D1.
+ * @param {object} evenement Événement `{type: "resolution_palier", ...}`.
+ * @returns {Promise<void>}
+ */
+export async function appliquerResolutionPalier(db, evenement) {
+  await db
+    .prepare(
+      `UPDATE paliers SET statut = ?, prix_sortie = ?, resultat_usd = ?,
+         motif_sortie = ?, horodatage_resolution = ?
+       WHERE id_signal = ? AND rang = ? AND statut = 'ouvert'`,
+    )
+    .bind(
+      evenement.statut, evenement.prixSortie, evenement.resultatUsd,
+      evenement.motifSortie, evenement.horodatageResolution,
+      evenement.id, evenement.rang,
     )
     .run();
 }
@@ -156,7 +200,8 @@ export async function appliquerResolution(db, resolution) {
     .prepare(
       `UPDATE journal SET horodatage_resolution = ? ` +
         `WHERE id = ? AND horodatage_resolution IS NULL ` +
-        `AND statut_a != 'ouvert' AND statut_b15 != 'ouvert' AND statut_b2 != 'ouvert' AND statut_b3 != 'ouvert'`,
+        `AND statut_a != 'ouvert' AND statut_b15 != 'ouvert' AND statut_b2 != 'ouvert' ` +
+        `AND statut_b3 != 'ouvert' AND statut_c != 'ouvert'`,
     )
     .bind(resolution.horodatageResolution, resolution.id)
     .run();
@@ -174,6 +219,8 @@ export async function appliquerEvenements(db, evenements) {
   for (const evenement of evenements) {
     if (evenement.type === "entree") {
       await insererEntree(db, evenement);
+    } else if (evenement.type === "resolution_palier") {
+      await appliquerResolutionPalier(db, evenement);
     } else if (evenement.type === "resolution") {
       await appliquerResolution(db, evenement);
     }

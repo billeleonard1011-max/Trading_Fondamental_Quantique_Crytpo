@@ -295,6 +295,74 @@ def fixture_moteur_complet() -> None:
     )
 
 
+def fixture_paliers() -> None:
+    """Sortie par paliers : trades et détail de chaque tranche.
+
+    C'est la fixture de parité de la partie A. Elle rejoue le vrai moteur
+    Python en ``mode_tp="paliers"`` sur la même série que
+    :func:`fixture_moteur_complet`, et publie non seulement les trades mais
+    **chaque tranche** — zone visée, origine du niveau, part de la position,
+    prix de sortie, motif et résultat en R. Le portage JavaScript doit
+    retrouver tout cela à l'identique, y compris le passage à break-even.
+    """
+    n = 20000
+    m1 = _serie_m1(n, graine=20260908)
+    taux = _taux_eurusd(m1)
+    config = moteur.ConfigBacktest(mode_tp="paliers")
+    bt = moteur.Backtest(m1, taux, config)
+    bt.executer()
+
+    def _ms(instant) -> int | None:
+        return None if instant is None else int(pd.Timestamp(instant).value // 1_000_000)
+
+    trades = [
+        {
+            "horodatageEntree": _ms(t.horodatage_entree),
+            "horodatageSortie": _ms(t.horodatage_sortie),
+            "sens": t.sens,
+            "uniteOb": t.unite_ob,
+            "uniteFvg": t.unite_fvg,
+            "prixEntree": round(t.prix_entree, 6),
+            "stop": round(t.stop, 6),
+            "objectif": round(t.objectif, 6),
+            "lots": t.lots,
+            "fvgHaut": None if t.fvg_haut is None else round(t.fvg_haut, 6),
+            "fvgBas": None if t.fvg_bas is None else round(t.fvg_bas, 6),
+            "paliers": [
+                {
+                    "rang": p.rang,
+                    "zone": round(p.zone, 6),
+                    "origine": p.origine,
+                    "fraction": round(p.fraction, 10),
+                    "ratioRisque": round(p.ratio_risque, 6),
+                    "prixSortie": None if p.prix_sortie is None else round(p.prix_sortie, 6),
+                    "horodatageResolution": _ms(p.horodatage_sortie),
+                    "motifSortie": p.motif_sortie,
+                }
+                for p in t.paliers
+            ],
+        }
+        for t in bt.trades
+    ]
+
+    ecrire(
+        "paliers",
+        {
+            "m1": _bougies_vers_json(m1),
+            "tauxEurusdParJour": {
+                str(idx.date()): float(v) for idx, v in taux.items()
+            },
+            "fractionTp1": moteur.FRACTION_TP1,
+            "maxZones": moteur.MAX_ZONES_PALIERS,
+            "attenduTrades": trades,
+            "attenduNTrades": len(trades),
+            "repartitions": {
+                str(n_zones): moteur.repartir_paliers(n_zones) for n_zones in range(1, 6)
+            },
+        },
+    )
+
+
 if __name__ == "__main__":
     fixture_agregation()
     fixture_fenetre_close()
@@ -303,4 +371,5 @@ if __name__ == "__main__":
     fixture_fvg()
     fixture_execution()
     fixture_moteur_complet()
+    fixture_paliers()
     print("Fixtures générées.")

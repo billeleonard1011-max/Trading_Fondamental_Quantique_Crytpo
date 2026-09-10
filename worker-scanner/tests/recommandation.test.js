@@ -9,7 +9,9 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { verifierAbsenceRecommandation } from "../src/recommandation.js";
-import { rendreAlerteEntree, rendreAlerteResolution, rendreEvenement } from "../src/alertes.js";
+import {
+  rendreAlerteEntree, rendreAlerteResolution, rendreEvenement, rendrePublicEntree,
+} from "../src/alertes.js";
 
 function entreeExemple() {
   return {
@@ -23,8 +25,15 @@ function entreeExemple() {
     timeframeFvg: "M5",
     prixEntree: 3000.0,
     stop: 2994.0,
-    objectifs: { a: 3010.0, b15: 3009.0, b2: 3012.0, b3: 3018.0 },
+    fvgBas: 2997.5,
+    fvgHaut: 2998.4,
+    objectifs: { a: 3010.0, b15: 3009.0, b2: 3012.0, b3: 3018.0, c: 3010.0 },
     lots: 0.07,
+    paliers: [
+      { rang: 1, zone: 3010.0, origine: "veille_haut", fraction: 0.5, ratioRisque: 1.6667 },
+      { rang: 2, zone: 3024.5, origine: "asie_haut", fraction: 0.25, ratioRisque: 4.0833 },
+      { rang: 3, zone: 3041.0, origine: "order_block", fraction: 0.25, ratioRisque: 6.8333 },
+    ],
   };
 }
 
@@ -100,4 +109,64 @@ test("rendreEvenement expose les infractions plutôt que de les corriger silenci
   // futur introduit une formulation interdite par erreur).
   const { infractions } = rendreEvenement(entreeExemple());
   assert.deepEqual(infractions, []);
+});
+
+// ---------------------------------------------------------------------------
+// Format enrichi de l'alerte (partie A1)
+// ---------------------------------------------------------------------------
+test("l'alerte donne le prix du FVG, pas seulement son unité", () => {
+  const texte = rendrePublicEntree(entreeExemple());
+  assert.match(texte, /FVG\) en M5 entre 2997\.50 et 2998\.40 \$/);
+});
+
+test("l'alerte dit explicitement quand le niveau du FVG manque, sans l'inventer", () => {
+  const entree = entreeExemple();
+  delete entree.fvgBas;
+  delete entree.fvgHaut;
+  const texte = rendrePublicEntree(entree);
+  assert.match(texte, /niveau n'a pas été journalisé/);
+  assert.doesNotMatch(texte, /entre undefined/);
+});
+
+test("l'alerte énumère les zones de liquidité, de la plus proche à la plus lointaine", () => {
+  const texte = rendrePublicEntree(entreeExemple());
+  const posPremiere = texte.indexOf("3010.00 $, rapport");
+  const posDeuxieme = texte.indexOf("3024.50");
+  const posTroisieme = texte.indexOf("3041.00");
+  assert.ok(posPremiere > 0 && posDeuxieme > posPremiere && posTroisieme > posDeuxieme,
+    "les zones doivent apparaître dans l'ordre de proximité");
+});
+
+test("chaque zone porte son ratio risque/récompense et sa part de position", () => {
+  const texte = rendrePublicEntree(entreeExemple());
+  assert.match(texte, /rapport risque\/récompense 1:1,7, 50 % de la position/);
+  assert.match(texte, /rapport risque\/récompense 1:4,1, 25 % de la position/);
+  assert.match(texte, /rapport risque\/récompense 1:6,8, 25 % de la position/);
+});
+
+test("les origines de zone sont traduites, jamais affichées en identifiant brut", () => {
+  const texte = rendrePublicEntree(entreeExemple());
+  assert.match(texte, /haut de la veille/);
+  assert.match(texte, /haut de la session asiatique/);
+  assert.match(texte, /order block encore actif/);
+  for (const brut of ["veille_haut", "asie_haut", "order_block"]) {
+    assert.doesNotMatch(texte, new RegExp(brut), `identifiant technique « ${brut} » affiché tel quel`);
+  }
+});
+
+test("l'alerte enrichie reste sans formulation de recommandation", () => {
+  assert.deepEqual(verifierAbsenceRecommandation({ texte: rendrePublicEntree(entreeExemple()) }), []);
+  assert.deepEqual(verifierAbsenceRecommandation({ texte: rendreAlerteEntree(entreeExemple()) }), []);
+});
+
+test("l'alerte publique enrichie ne laisse toujours pas fuiter la taille de position", () => {
+  const texte = rendrePublicEntree(entreeExemple());
+  assert.doesNotMatch(texte, /lot/i);
+});
+
+test("le texte accorde le participe avec le genre du sens", () => {
+  const achat = rendrePublicEntree(entreeExemple());
+  assert.match(achat, /un achat aurait été détecté à/);
+  const vente = rendrePublicEntree({ ...entreeExemple(), sens: "baissier" });
+  assert.match(vente, /une vente aurait été détectée à/);
 });

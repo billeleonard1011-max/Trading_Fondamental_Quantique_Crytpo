@@ -36,7 +36,7 @@ import { EXPLICATIONS } from "../js/libelles.js";
 import {
   agregerParMois, agregerSignaux, avertissementEchantillon, cleMois, estResolue,
   extraireMetriquesBacktest, libelleStatut, rendreComparaisonBacktest, rendreFilAlertes,
-  rendreTableauBordMensuel, texteSurAudite, tonStatut, VARIANTES,
+  rendrePaliers, rendreTableauBordMensuel, texteSurAudite, tonStatut, VARIANTES,
 } from "../js/trading.js";
 
 /** Charge un rapport réel du dépôt. */
@@ -473,7 +473,14 @@ function signalExemple(overrides = {}) {
           "2026-08-15 12:00 UTC, sortie à 3012.00 $.",
       },
       b3: { objectif: 3018, statut: "sans_objectif", prix_sortie: null, r: null, horodatage_resolution_utc: null, texte: null },
+      c: { objectif: 3010, statut: "ouvert", prix_sortie: null, r: null, horodatage_resolution_utc: null, texte: null },
     },
+    paliers: [
+      { rang: 1, zone: 3010, origine: "veille_haut", fraction: 0.5, ratio_risque: 1.67,
+        statut: "ouvert", motif_sortie: null, prix_sortie: null, r: null, horodatage_resolution_utc: null },
+      { rang: 2, zone: 3024.5, origine: "order_block", fraction: 0.5, ratio_risque: 4.08,
+        statut: "ouvert", motif_sortie: null, prix_sortie: null, r: null, horodatage_resolution_utc: null },
+    ],
     ...overrides,
   };
 }
@@ -615,6 +622,57 @@ test("la page Trading porte l'avertissement permanent et ne recommande jamais un
   assert.match(html, /multiple de risque/);
 });
 
-test("VARIANTES couvre exactement les quatre variantes du backtest", () => {
-  assert.deepEqual(VARIANTES, ["a", "b15", "b2", "b3"]);
+test("VARIANTES couvre exactement les cinq variantes du backtest", () => {
+  assert.deepEqual(VARIANTES, ["a", "b15", "b2", "b3", "c"]);
+});
+
+test("le détail des paliers montre chaque tranche, pas seulement un total", () => {
+  const html = rendrePaliers(signalExemple().paliers);
+  assert.match(html, /haut de la veille/);
+  assert.match(html, /order block encore actif/);
+  assert.match(html, /1:1,7/);
+  assert.match(html, /50 %/);
+});
+
+test("les origines de zone ne s'affichent jamais en identifiant brut", () => {
+  const html = rendrePaliers(signalExemple().paliers);
+  for (const brut of ["veille_haut", "order_block", "asie_bas"]) {
+    assert.doesNotMatch(html, new RegExp(brut), `identifiant technique « ${brut} » affiché tel quel`);
+  }
+});
+
+test("une tranche non dénouée affiche 'en cours', jamais un R de zéro trompeur", () => {
+  const html = rendrePaliers(signalExemple().paliers);
+  assert.match(html, /en cours/);
+  assert.match(html, new RegExp(ABSENT));
+});
+
+test("une tranche dénouée affiche son motif de sortie traduit et son apport en R", () => {
+  const paliers = [
+    { rang: 1, zone: 3010, origine: "veille_haut", fraction: 0.5, ratio_risque: 1.67,
+      statut: "gagnant", motif_sortie: "objectif", prix_sortie: 3010, r: 0.83,
+      horodatage_resolution_utc: "2026-08-15T12:00:00.000Z" },
+    { rang: 2, zone: 3024.5, origine: "order_block", fraction: 0.5, ratio_risque: 4.08,
+      statut: "perdant", motif_sortie: "break_even", prix_sortie: 3000, r: 0,
+      horodatage_resolution_utc: "2026-08-15T13:00:00.000Z" },
+  ];
+  const html = rendrePaliers(paliers);
+  assert.match(html, /zone atteinte/);
+  // L'apostrophe est échappée à l'insertion : c'est le comportement voulu.
+  assert.match(html, /sorti au prix d&#39;entrée/);
+  assert.match(html, /\+0,83 R/);
+  assert.doesNotMatch(html, /break_even/);
+});
+
+test("un signal sans paliers ne rend rien plutôt qu'un tableau vide", () => {
+  assert.equal(rendrePaliers([]), "");
+  assert.equal(rendrePaliers(undefined), "");
+});
+
+test("le fil reste rendu même si un signal ancien ne porte pas toutes les variantes", () => {
+  const ancien = signalExemple();
+  delete ancien.variantes.c;
+  const html = rendreFilAlertes([ancien]);
+  assert.match(html, /Sortie par paliers \(C\)/);
+  assert.match(html, /Sans objectif/);
 });

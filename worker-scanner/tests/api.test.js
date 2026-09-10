@@ -29,18 +29,24 @@ function ligneExemple(overrides = {}) {
     tp_b15: 3009.0,
     tp_b2: 3012.0,
     tp_b3: 3018.0,
+    fvg_haut: 2998.4,
+    fvg_bas: 2997.5,
+    tp_c: 3010.0,
     statut_a: "ouvert",
     statut_b15: "ouvert",
     statut_b2: "ouvert",
     statut_b3: "ouvert",
+    statut_c: "ouvert",
     prix_sortie_a: null,
     prix_sortie_b15: null,
     prix_sortie_b2: null,
     prix_sortie_b3: null,
+    prix_sortie_c: null,
     horodatage_resolution_a: null,
     horodatage_resolution_b15: null,
     horodatage_resolution_b2: null,
     horodatage_resolution_b3: null,
+    horodatage_resolution_c: null,
     horodatage_resolution: null,
     ...overrides,
   };
@@ -106,4 +112,82 @@ test("construireReponseJournal trie les métadonnées et compte les signaux", ()
   const reponse = construireReponseJournal([ligneExemple(), ligneExemple({ id: "sig-2" })], 1_800_000_500_000);
   assert.equal(reponse.meta.n_signaux, 2);
   assert.equal(reponse.meta.derniere_execution_utc, new Date(1_800_000_500_000).toISOString());
+});
+
+// ---------------------------------------------------------------------------
+// Sortie par paliers (partie A)
+// ---------------------------------------------------------------------------
+function paliersExemple(idSignal = "sig-1") {
+  return [
+    {
+      id_signal: idSignal, rang: 1, zone: 3012.0, origine: "veille_haut",
+      fraction: 0.5, ratio_risque: 2.0, statut: "gagnant", prix_sortie: 3012.0,
+      motif_sortie: "objectif", horodatage_resolution: 1_800_100_000_000,
+    },
+    {
+      id_signal: idSignal, rang: 2, zone: 3030.0, origine: "order_block",
+      fraction: 0.5, ratio_risque: 5.0, statut: "perdant", prix_sortie: 3000.0,
+      motif_sortie: "break_even", horodatage_resolution: 1_800_200_000_000,
+    },
+  ];
+}
+
+test("la route expose le détail de chaque tranche, jamais un total opaque", () => {
+  const ligne = ligneExemple({
+    statut_c: "gagnant", prix_sortie_c: 3000.0, horodatage_resolution_c: 1_800_200_000_000,
+  });
+  const reponse = construireReponseJournal([ligne], null, paliersExemple());
+  const [signal] = reponse.signaux;
+
+  assert.equal(signal.paliers.length, 2);
+  assert.equal(signal.paliers[0].rang, 1);
+  assert.equal(signal.paliers[0].origine, "veille_haut");
+  assert.equal(signal.paliers[0].motif_sortie, "objectif");
+  assert.equal(signal.paliers[1].motif_sortie, "break_even");
+});
+
+test("le R d'une tranche est pondéré par sa part de position", () => {
+  const reponse = construireReponseJournal([ligneExemple()], null, paliersExemple());
+  const [signal] = reponse.signaux;
+  // Tranche 1 : sortie à 3012 depuis 3000, stop 2994 → R brut 2, part 50 % → 1.
+  assert.equal(signal.paliers[0].r, 1);
+  // Tranche 2 : sortie au prix d'entrée → R brut 0, donc 0 quelle que soit la part.
+  assert.equal(signal.paliers[1].r, 0);
+});
+
+test("le R de la variante à paliers est la somme de ses tranches, pas un recalcul sur le dernier prix", () => {
+  const ligne = ligneExemple({
+    statut_c: "gagnant", prix_sortie_c: 3000.0, horodatage_resolution_c: 1_800_200_000_000,
+  });
+  const reponse = construireReponseJournal([ligne], null, paliersExemple());
+  const { c } = reponse.signaux[0].variantes;
+  // Un recalcul sur le seul dernier prix de sortie (3000, le prix d'entrée)
+  // donnerait 0 et effacerait le gain du premier palier.
+  assert.equal(c.r, 1);
+});
+
+test("le détail des tranches ne fait apparaître aucun montant en dollars", () => {
+  const ligne = ligneExemple({ statut_c: "gagnant", prix_sortie_c: 3000.0 });
+  const texte = JSON.stringify(construireReponseJournal([ligne], null, paliersExemple()));
+  assert.doesNotMatch(texte, /resultat_usd/);
+  assert.doesNotMatch(texte, /"lots"/);
+});
+
+test("le texte de résolution d'une sortie par paliers décrit chaque tranche", () => {
+  const ligne = ligneExemple({
+    statut_c: "gagnant", prix_sortie_c: 3000.0, horodatage_resolution_c: 1_800_200_000_000,
+  });
+  const reponse = construireReponseJournal([ligne], null, paliersExemple());
+  const texte = reponse.signaux[0].variantes.c.texte;
+  assert.match(texte, /50 % sur haut de la veille à 3012\.00 \$/);
+  assert.match(texte, /50 % au prix d'entrée/);
+  assert.deepEqual(verifierAbsenceRecommandation({ texte }), []);
+});
+
+test("l'alerte publie le niveau du FVG et les zones visées", () => {
+  const reponse = construireReponseJournal([ligneExemple()], null, paliersExemple());
+  const signal = reponse.signaux[0];
+  assert.equal(signal.fvg_haut, 2998.4);
+  assert.match(signal.texte_detection, /entre 2997\.50 et 2998\.40 \$/);
+  assert.match(signal.texte_detection, /haut de la veille à 3012\.00 \$/);
 });

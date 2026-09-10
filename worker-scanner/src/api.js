@@ -13,9 +13,9 @@
 
 import { rendreEvenementPublic } from "./alertes.js";
 
-const VARIANTES = ["a", "b15", "b2", "b3"];
+const VARIANTES = ["a", "b15", "b2", "b3", "c"];
 
-function entreeDepuisLigne(ligne) {
+function entreeDepuisLigne(ligne, paliers = []) {
   return {
     type: "entree",
     id: ligne.id,
@@ -25,9 +25,20 @@ function entreeDepuisLigne(ligne) {
     obBas: ligne.ob_bas,
     sens: ligne.sens,
     timeframeFvg: ligne.timeframe_fvg,
+    fvgHaut: ligne.fvg_haut,
+    fvgBas: ligne.fvg_bas,
     prixEntree: ligne.prix_entree,
     stop: ligne.sl,
-    objectifs: { a: ligne.tp_a, b15: ligne.tp_b15, b2: ligne.tp_b2, b3: ligne.tp_b3 },
+    objectifs: {
+      a: ligne.tp_a, b15: ligne.tp_b15, b2: ligne.tp_b2, b3: ligne.tp_b3, c: ligne.tp_c,
+    },
+    paliers: paliers.map((p) => ({
+      rang: p.rang,
+      zone: p.zone,
+      origine: p.origine,
+      fraction: p.fraction,
+      ratioRisque: p.ratio_risque,
+    })),
   };
 }
 
@@ -62,10 +73,42 @@ export function calculerR(sens, prixEntree, stop, prixSortie) {
  * @param {number|null} derniereExecutionMs Horodatage de la dernière exécution du moteur.
  * @returns {object} Charge JSON, triée du signal le plus récent au plus ancien.
  */
-export function construireReponseJournal(lignes, derniereExecutionMs) {
+export function construireReponseJournal(lignes, derniereExecutionMs, lignesPaliers = []) {
+  const paliersParSignal = new Map();
+  for (const p of lignesPaliers) {
+    if (!paliersParSignal.has(p.id_signal)) paliersParSignal.set(p.id_signal, []);
+    paliersParSignal.get(p.id_signal).push(p);
+  }
+  for (const liste of paliersParSignal.values()) liste.sort((x, y) => x.rang - y.rang);
+
   const signaux = lignes.map((ligne) => {
-    const entree = entreeDepuisLigne(ligne);
+    const paliers = paliersParSignal.get(ligne.id) || [];
+    const entree = entreeDepuisLigne(ligne, paliers);
     const { texte: texteDetection, infractions: infractionsDetection } = rendreEvenementPublic(entree);
+
+    // Détail des tranches de la variante C. Le résultat de chaque tranche
+    // est exprimé en multiple de risque, pondéré par sa part de position —
+    // jamais en dollars, comme partout ailleurs sur cette route.
+    const detailPaliers = paliers.map((p) => {
+      const resolue = p.statut === "gagnant" || p.statut === "perdant";
+      const rBrut = resolue
+        ? calculerR(entree.sens, entree.prixEntree, entree.stop, p.prix_sortie)
+        : null;
+      return {
+        rang: p.rang,
+        zone: p.zone,
+        origine: p.origine,
+        fraction: p.fraction,
+        ratio_risque: p.ratio_risque,
+        statut: p.statut,
+        motif_sortie: p.motif_sortie,
+        prix_sortie: resolue ? p.prix_sortie : null,
+        r: rBrut === null ? null : rBrut * p.fraction,
+        horodatage_resolution_utc: p.horodatage_resolution
+          ? new Date(p.horodatage_resolution).toISOString()
+          : null,
+      };
+    });
 
     const variantes = {};
     for (const variante of VARIANTES) {
@@ -78,15 +121,26 @@ export function construireReponseJournal(lignes, derniereExecutionMs) {
       if (resolue) {
         const rendu = rendreEvenementPublic({
           type: "resolution", variante, statut, prixSortie, horodatageResolution,
+          paliers: detailPaliers,
         });
         texteResolution = rendu.infractions.length === 0 ? rendu.texte : null;
+      }
+
+      // Variante C : le R du trade est la somme des R de ses tranches, jamais
+      // un calcul refait sur le seul dernier prix de sortie — celui-ci ne
+      // porte que la dernière part de la position.
+      let r = null;
+      if (resolue) {
+        r = variante === "c"
+          ? detailPaliers.reduce((somme, p) => somme + (p.r ?? 0), 0)
+          : calculerR(entree.sens, entree.prixEntree, entree.stop, prixSortie);
       }
 
       variantes[variante] = {
         objectif: entree.objectifs[variante],
         statut,
         prix_sortie: resolue ? prixSortie : null,
-        r: resolue ? calculerR(entree.sens, entree.prixEntree, entree.stop, prixSortie) : null,
+        r,
         horodatage_resolution_utc: horodatageResolution ? new Date(horodatageResolution).toISOString() : null,
         texte: texteResolution,
       };
@@ -100,8 +154,11 @@ export function construireReponseJournal(lignes, derniereExecutionMs) {
       ob_bas: entree.obBas,
       sens: entree.sens,
       timeframe_fvg: entree.timeframeFvg,
+      fvg_haut: entree.fvgHaut,
+      fvg_bas: entree.fvgBas,
       prix_entree: entree.prixEntree,
       stop: entree.stop,
+      paliers: detailPaliers,
       horodatage_resolution_utc: ligne.horodatage_resolution
         ? new Date(ligne.horodatage_resolution).toISOString()
         : null,

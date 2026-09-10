@@ -27,11 +27,13 @@ import { construireReponseJournal } from "./api.js";
  * schema.sql sur `prix_sortie_*`.
  */
 const COLONNES_JOURNAL_PUBLIQUES = [
-  "id", "horodatage_detection", "timeframe_ob", "ob_haut", "ob_bas", "sens", "timeframe_fvg",
-  "prix_entree", "sl", "tp_a", "tp_b15", "tp_b2", "tp_b3",
-  "statut_a", "statut_b15", "statut_b2", "statut_b3",
-  "prix_sortie_a", "prix_sortie_b15", "prix_sortie_b2", "prix_sortie_b3",
-  "horodatage_resolution_a", "horodatage_resolution_b15", "horodatage_resolution_b2", "horodatage_resolution_b3",
+  "id", "horodatage_detection", "timeframe_ob", "ob_haut", "ob_bas", "sens",
+  "timeframe_fvg", "fvg_haut", "fvg_bas",
+  "prix_entree", "sl", "tp_a", "tp_b15", "tp_b2", "tp_b3", "tp_c",
+  "statut_a", "statut_b15", "statut_b2", "statut_b3", "statut_c",
+  "prix_sortie_a", "prix_sortie_b15", "prix_sortie_b2", "prix_sortie_b3", "prix_sortie_c",
+  "horodatage_resolution_a", "horodatage_resolution_b15", "horodatage_resolution_b2",
+  "horodatage_resolution_b3", "horodatage_resolution_c",
   "horodatage_resolution",
 ].join(", ");
 
@@ -66,14 +68,23 @@ function entetesCors(origineAutorisee) {
  * @returns {Promise<Response>} Réponse JSON.
  */
 async function repondreJournal(env, cors) {
-  const [{ results: lignes }, etatLigne] = await Promise.all([
+  const [{ results: lignes }, etatLigne, { results: lignesPaliers }] = await Promise.all([
     env.DB.prepare(
       `SELECT ${COLONNES_JOURNAL_PUBLIQUES} FROM journal ORDER BY horodatage_detection DESC LIMIT ?`,
     ).bind(LIMITE_JOURNAL).all(),
     env.DB.prepare("SELECT mise_a_jour FROM etat_moteur WHERE id = 1").first(),
+    // Détail des tranches. `resultat_usd` n'est pas sélectionné : le site
+    // exprime la performance en multiple de risque, jamais en dollars.
+    env.DB.prepare(
+      `SELECT id_signal, rang, zone, origine, fraction, ratio_risque, statut,
+              prix_sortie, motif_sortie, horodatage_resolution
+       FROM paliers ORDER BY id_signal, rang`,
+    ).all(),
   ]);
 
-  const charge = construireReponseJournal(lignes, etatLigne ? etatLigne.mise_a_jour : null);
+  const charge = construireReponseJournal(
+    lignes, etatLigne ? etatLigne.mise_a_jour : null, lignesPaliers,
+  );
   return new Response(JSON.stringify(charge), {
     status: 200,
     headers: { "Content-Type": "application/json; charset=utf-8", ...cors },

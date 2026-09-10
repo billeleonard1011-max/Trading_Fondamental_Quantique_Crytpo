@@ -69,8 +69,44 @@ export const EXPIRATION_BARRES = 120;
 /** Profondeur maximale d'une jambe remontée avant l'order block, en bougies. */
 export const PROFONDEUR_JAMBE = 50;
 
-/** Les quatre variantes de TP, dans l'ordre du journal. */
-export const VARIANTES = Object.freeze(["a", "b15", "b2", "b3"]);
+/** Les cinq variantes de TP, dans l'ordre du journal.
+ *
+ * `c` est la sortie par paliers : elle vise les mêmes zones de liquidité que
+ * `a`, mais en sortant en plusieurs fois et en passant à break-even dès la
+ * première atteinte. */
+export const VARIANTES = Object.freeze(["a", "b15", "b2", "b3", "c"]);
+
+/** Nombre maximal de zones de liquidité retenues (identique au backtest). */
+export const MAX_ZONES_PALIERS = 3;
+
+/** Part de la position close à la première zone touchée (identique au backtest). */
+export const FRACTION_TP1 = 0.5;
+
+/** Motifs de sortie d'une tranche (mêmes noms que backtest/moteur.py). */
+export const SORTIE_OBJECTIF = "objectif";
+export const SORTIE_STOP = "stop";
+export const SORTIE_BREAK_EVEN = "break_even";
+
+/**
+ * Répartit la position sur les zones de liquidité retenues.
+ *
+ * Port de `backtest.moteur.repartir_paliers` : la première zone emporte
+ * {@link FRACTION_TP1} de la position, le solde se répartit à parts égales
+ * sur les suivantes ; une zone unique prend tout. Les parts sont des
+ * fractions, jamais des lots — le moteur mesure une mécanique, il ne place
+ * pas d'ordre.
+ *
+ * @param {number} nZones Nombre de zones retenues, au moins une.
+ * @param {number} fractionTp1 Part close à la première zone.
+ * @returns {number[]} Les parts, de somme exactement 1.
+ * @throws {Error} Si `nZones` est nul ou négatif.
+ */
+export function repartirPaliers(nZones, fractionTp1 = FRACTION_TP1) {
+  if (nZones <= 0) throw new Error("Une sortie par paliers exige au moins une zone.");
+  if (nZones === 1) return [1.0];
+  const reste = (1.0 - fractionTp1) / (nZones - 1);
+  return [fractionTp1, ...Array(nZones - 1).fill(reste)];
+}
 
 /** Motifs d'abandon d'un setup (mêmes noms que backtest/moteur.py). */
 export const ABANDON_SANS_FVG = "aucun_fvg_trouve";
@@ -119,30 +155,159 @@ function calculerObjectifs(prixEntree, distance, achat, orderBlocksActifs, bougi
 }
 
 /**
+ * Énumère les zones de liquidité devant le prix, de la plus proche à la plus
+ * lointaine.
+ *
+ * Port de `Backtest._niveaux_de_liquidite` : extrêmes de la veille, de la
+ * session asiatique (20h-minuit, heure de New York), et order blocks encore
+ * actifs (non mitigés, déjà formés). Chaque niveau garde son origine, pour
+ * que l'alerte dise *quelle* liquidité elle vise plutôt qu'un simple prix.
+ *
+ * Les doublons sont écartés, comme côté Python : le haut de la veille et
+ * celui de la session asiatique coïncident dès que le sommet du jour
+ * précédent a été fait le soir, et les compter deux fois donnerait deux
+ * tranches sur un seul niveau.
+ *
+ * @param {number} prix Prix d'entrée.
+ * @param {boolean} achat Sens de la position.
+ * @param {Array<object>} orderBlocksActifs OB non mitigés.
+ * @param {Array} bougiesM1 Fenêtre de bougies M1, pour les extrêmes de session.
+ * @param {number} instantMs Instant de l'entrée, en millisecondes UTC.
+ * @param {number} maximum Nombre de zones retenues au plus.
+ * @returns {Array<{niveau: number, origine: string}>} Zones ordonnées.
+ */
+function niveauxDeLiquidite(prix, achat, orderBlocksActifs, bougiesM1, instantMs, maximum = MAX_ZONES_PALIERS) {
+  const { veille, asiatique } = niveauxDeSession(bougiesM1, instantMs);
+  const candidats = [];
+  const originesSession = ["_haut", "_bas"];
+  veille.forEach((niveau, i) => candidats.push({ niveau, origine: `veille${originesSession[i]}` }));
+  asiatique.forEach((niveau, i) => candidats.push({ niveau, origine: `asie${originesSession[i]}` }));
+
+  for (const zone of orderBlocksActifs) {
+    if (zone.mitige || zone.finMotif > instantMs) continue;
+    candidats.push({ niveau: achat ? zone.bas : zone.haut, origine: "order_block" });
+  }
+
+  const devant = candidats.filter((c) => (achat ? c.niveau > prix : c.niveau < prix));
+
+  // Dédoublonnage sur le niveau, première origine gardée : l'ordre des
+  // candidats fait primer les extrêmes de session sur les order blocks.
+  const vus = new Map();
+  for (const c of devant) {
+    if (!vus.has(c.niveau)) vus.set(c.niveau, c.origine);
+  }
+
+  const ordonnes = Array.from(vus, ([niveau, origine]) => ({ niveau, origine }))
+    .sort((x, y) => (achat ? x.niveau - y.niveau : y.niveau - x.niveau));
+  return ordonnes.slice(0, maximum);
+}
+
+/**
+ * Fait avancer la variante à paliers d'une barre.
+ *
+ * Port de `Backtest._avancer_paliers`, avec ses deux conventions :
+ * le stop est examiné **avant** les zones et emporte tout le solde s'il est
+ * touché ; le passage à break-even ne prend effet qu'à la barre suivante,
+ * puisque le stop de la barre courante a déjà été évalué quand la première
+ * tranche se clôture. C'est l'hypothèse la moins flatteuse des deux, et la
+ * seule qui ne suppose rien de l'ordre des évènements dans la minute.
+ *
+ * Chaque tranche close produit son propre évènement `resolution_palier` ;
+ * quand la dernière tombe, un `resolution` agrégé clôt la variante, de sorte
+ * que le journal garde à la fois le détail et le total.
+ *
+ * @param {object} position Position ouverte, mutée sur place.
+ * @param {object} bougie Bougie M1 courante.
+ * @param {number} finBarre Instant de clôture de la barre.
+ * @param {object} config Configuration d'exécution.
+ * @param {Array<object>} evenements Journal d'évènements, complété sur place.
+ */
+function avancerPaliers(position, bougie, finBarre, config, evenements) {
+  const paliers = position.paliers || [];
+  if (!paliers.length) return;
+
+  const achat = position.sens === HAUSSIER;
+  const sensSigne = achat ? 1.0 : -1.0;
+  const auBreakEven = position.stopPaliers === position.prixEntree;
+
+  const clore = (palier, prix, motif) => {
+    const prixNet = appliquerCoutsSortie(prix, position.sens, config);
+    const resultatUsd =
+      (prixNet - position.prixEntree) * sensSigne * ONCES_PAR_LOT * position.lots * palier.fraction;
+    palier.prixSortie = prixNet;
+    palier.motifSortie = motif;
+    palier.resultatUsd = resultatUsd;
+    palier.horodatageResolution = finBarre;
+    evenements.push({
+      type: "resolution_palier",
+      id: position.id,
+      variante: "c",
+      rang: palier.rang,
+      zone: palier.zone,
+      origine: palier.origine,
+      fraction: palier.fraction,
+      statut: motif === SORTIE_OBJECTIF ? "gagnant" : "perdant",
+      motifSortie: motif,
+      prixSortie: prixNet,
+      resultatUsd,
+      horodatageResolution: finBarre,
+    });
+  };
+
+  const ouverts = paliers.filter((p) => p.prixSortie === null);
+  if (!ouverts.length) return;
+
+  // Le stop d'abord : touché, il emporte tout le solde.
+  const toucheStop = achat ? bougie.bas <= position.stopPaliers : bougie.haut >= position.stopPaliers;
+  if (toucheStop) {
+    const motif = auBreakEven ? SORTIE_BREAK_EVEN : SORTIE_STOP;
+    for (const palier of ouverts) clore(palier, position.stopPaliers, motif);
+  } else {
+    // Puis les zones, dans l'ordre : une barre ample peut en franchir
+    // plusieurs, chacune se dénouant à son propre niveau.
+    for (const palier of ouverts) {
+      const atteinte = achat ? bougie.haut >= palier.zone : bougie.bas <= palier.zone;
+      if (atteinte) clore(palier, palier.zone, SORTIE_OBJECTIF);
+    }
+  }
+
+  const reste = paliers.filter((p) => p.prixSortie === null);
+  if (reste.length) {
+    // Une tranche au moins vient de tomber : le solde passe à break-even,
+    // et le stop n'y bougera plus.
+    if (reste.length < ouverts.length && !auBreakEven) {
+      position.stopPaliers = position.prixEntree;
+    }
+    return;
+  }
+
+  // Dernière tranche close : la variante est résolue. Le total est la somme
+  // du détail, jamais un chiffre calculé à part.
+  const total = paliers.reduce((somme, p) => somme + p.resultatUsd, 0);
+  position.variantesResolues.c = true;
+  evenements.push({
+    type: "resolution",
+    id: position.id,
+    variante: "c",
+    statut: total > 0 ? "gagnant" : "perdant",
+    prixSortie: paliers[paliers.length - 1].prixSortie,
+    resultatUsd: total,
+    horodatageResolution: finBarre,
+  });
+}
+
+/**
  * Cherche le niveau de liquidité le plus proche dans le sens du trade.
  *
- * Port de `Backtest._objectif_structurel` : extrêmes de la veille, de la
- * session asiatique (20h-minuit, heure de New York), et order blocks encore
- * actifs (non mitigés, déjà formés).
+ * Le premier de {@link niveauxDeLiquidite} — ni le dédoublonnage ni le
+ * plafond ne changent quel niveau vient en tête, la variante A garde donc
+ * exactement le comportement qu'elle avait avant l'ajout des paliers.
  *
  * @returns {number|null} Le niveau retenu, ou `null` si aucun n'est devant le prix.
  */
 function objectifStructurel(prix, achat, orderBlocksActifs, bougiesM1, instantMs) {
-  const niveaux = [];
-  const { veille, asiatique } = niveauxDeSession(bougiesM1, instantMs);
-  niveaux.push(...veille, ...asiatique);
-
-  for (const zone of orderBlocksActifs) {
-    if (zone.mitige || zone.finMotif > instantMs) continue;
-    niveaux.push(achat ? zone.bas : zone.haut);
-  }
-
-  if (achat) {
-    const devant = niveaux.filter((n) => n > prix);
-    return devant.length ? Math.min(...devant) : null;
-  }
-  const devant = niveaux.filter((n) => n < prix);
-  return devant.length ? Math.max(...devant) : null;
+  const zones = niveauxDeLiquidite(prix, achat, orderBlocksActifs, bougiesM1, instantMs);
+  return zones.length ? zones[0].niveau : null;
 }
 
 /**
@@ -253,7 +418,13 @@ export function traiterNouvellesBougies(
   const evenements = [];
   let orderBlocksActifs = etat.orderBlocksActifs.map((o) => ({ ...o }));
   let setupsEnAttente = etat.setupsEnAttente.map((s) => ({ ...s }));
-  let position = etat.positionOuverte ? { ...etat.positionOuverte, variantesResolues: { ...etat.positionOuverte.variantesResolues } } : null;
+  let position = etat.positionOuverte
+    ? {
+        ...etat.positionOuverte,
+        variantesResolues: { ...etat.positionOuverte.variantesResolues },
+        paliers: (etat.positionOuverte.paliers || []).map((p) => ({ ...p })),
+      }
+    : null;
 
   const cadresParUnite = {};
   for (const unite of new Set([...UNITES_ORDER_BLOCK, ...UNITES_FVG, "M1"])) {
@@ -293,6 +464,10 @@ export function traiterNouvellesBougies(
     if (position) {
       for (const variante of VARIANTES) {
         if (position.variantesResolues[variante]) continue;
+        if (variante === "c") {
+          avancerPaliers(position, bougie, finBarre, config, evenements);
+          continue;
+        }
         const objectif = position.objectifs[variante];
         if (objectif === null) continue; // variante A sans objectif structurel
         let sortie = null;
@@ -411,6 +586,37 @@ export function traiterNouvellesBougies(
         const objectifs = calculerObjectifs(
           prixEntree, distance, achat, orderBlocksActifs, bougiesM1Fenetre, finBarre, variantesActives,
         );
+
+        // Zones de liquidité de la variante à paliers. Elles partagent la
+        // première cible avec la variante A : `objectifs.a` est le premier
+        // niveau de cette même liste (voir objectifStructurel).
+        const zones = variantesActives.includes("c")
+          ? niveauxDeLiquidite(prixEntree, achat, orderBlocksActifs, bougiesM1Fenetre, finBarre)
+          : [];
+        const fractions = zones.length ? repartirPaliers(zones.length) : [];
+        const paliers = zones.map((zone, i) => ({
+          rang: i + 1,
+          zone: zone.niveau,
+          origine: zone.origine,
+          fraction: fractions[i],
+          ratioRisque: distance ? Math.abs(zone.niveau - prixEntree) / distance : 0,
+          prixSortie: null,
+          resultatUsd: null,
+          motifSortie: "",
+          horodatageResolution: null,
+        }));
+        objectifs.c = zones.length ? zones[0].niveau : null;
+
+        // Aucune variante active n'a d'objectif : il n'y a rien à surveiller.
+        // Ouvrir ici produirait une entrée dégénérée — journalisée comme un
+        // signal alors qu'elle se résout dans la foulée — et, le temps d'une
+        // barre, elle empêcherait un setup réellement exploitable de se
+        // former. Le backtest abandonne ce cas (ABANDON_EXPIRATION) ; on
+        // l'abandonne aussi. Trouvé par le test de parité de la partie A :
+        // une de ces entrées fantômes masquait un trade que le Python prenait
+        // deux minutes plus tard.
+        if (variantesActives.every((v) => objectifs[v] === null)) continue;
+
         // Une variante sans objectif (A sans niveau structurel devant le
         // prix, ou une variante hors de variantesActives) est considérée
         // résolue d'emblée : elle ne bloquera jamais la formation d'un
@@ -423,19 +629,30 @@ export function traiterNouvellesBougies(
           obBas: setup.ob.bas,
           sens: setup.ob.sens,
           timeframeFvg: setup.uniteFvg,
+          fvgHaut: setup.fvg ? setup.fvg.haut : null,
+          fvgBas: setup.fvg ? setup.fvg.bas : null,
           prixEntree,
           stop,
           objectifs,
           lots: taille.lots,
+          paliers,
+          // Stop propre à la variante à paliers : il passera au prix d'entrée
+          // dès la première tranche close, sans toucher au stop des autres.
+          stopPaliers: stop,
           variantesResolues: Object.fromEntries(
             VARIANTES.map((v) => [v, objectifs[v] === null]),
           ),
         };
-        // Copie indépendante de variantesResolues dans l'événement : sans
-        // elle, l'événement partagerait la même référence que `position`
-        // et se mettrait à jour tout seul au fil des résolutions futures,
-        // rendant le journal d'entrée menteur a posteriori.
-        evenements.push({ type: "entree", ...position, variantesResolues: { ...position.variantesResolues } });
+        // Copies indépendantes de variantesResolues et des paliers dans
+        // l'événement : sans elles, l'événement partagerait la même référence
+        // que `position` et se mettrait à jour tout seul au fil des
+        // résolutions futures, rendant le journal d'entrée menteur a posteriori.
+        evenements.push({
+          type: "entree",
+          ...position,
+          variantesResolues: { ...position.variantesResolues },
+          paliers: position.paliers.map((p) => ({ ...p })),
+        });
         // Un trade pris : `break` (garde en tête de boucle) fait perdre les
         // setups pas encore visités, comme dans le backtest.
       }

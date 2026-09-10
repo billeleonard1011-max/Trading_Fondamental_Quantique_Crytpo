@@ -434,3 +434,136 @@ def test_monte_carlo_avec_zero_tirage() -> None:
     assert resultat["disponible"] is False
     assert "désactivée" in resultat["motif"]
     assert resultat["n_tirages"] == 0
+
+
+# ---------------------------------------------------------------------------
+# 8. Sortie par paliers (variante C)
+# ---------------------------------------------------------------------------
+def test_repartition_des_paliers_somme_toujours_a_un() -> None:
+    """Quel que soit le nombre de zones, la position est répartie en entier."""
+    for n in range(1, 6):
+        parts = moteur.repartir_paliers(n)
+        assert len(parts) == n
+        assert sum(parts) == pytest.approx(1.0)
+
+
+def test_repartition_des_paliers_suit_la_regle_confirmee() -> None:
+    """50 % à la première zone, le solde à parts égales sur les suivantes."""
+    assert moteur.repartir_paliers(1) == [1.0]
+    assert moteur.repartir_paliers(2) == pytest.approx([0.5, 0.5])
+    assert moteur.repartir_paliers(3) == pytest.approx([0.5, 0.25, 0.25])
+    assert moteur.repartir_paliers(4) == pytest.approx([0.5, 1 / 6, 1 / 6, 1 / 6])
+
+
+def test_repartition_des_paliers_refuse_zero_zone() -> None:
+    """Sans zone, il n'y a rien à répartir : l'erreur est explicite."""
+    with pytest.raises(ValueError):
+        moteur.repartir_paliers(0)
+
+
+def test_les_zones_de_liquidite_sont_ordonnees_et_plafonnees() -> None:
+    """Les zones sont rendues de la plus proche à la plus lointaine, sans doublon."""
+    m1 = _serie_m1()
+    backtest = moteur.Backtest(
+        m1, _taux_eurusd(m1), moteur.ConfigBacktest(mode_tp="paliers")
+    )
+    backtest.executer()
+
+    for trade in backtest.trades:
+        zones = [p.zone for p in trade.paliers]
+        assert len(zones) <= moteur.MAX_ZONES_PALIERS
+        assert len(zones) == len(set(zones)), "une zone ne doit pas compter deux fois"
+        if trade.sens == ict.HAUSSIER:
+            assert zones == sorted(zones), "achat : de la plus proche à la plus lointaine"
+            assert all(z > trade.prix_entree for z in zones)
+        else:
+            assert zones == sorted(zones, reverse=True)
+            assert all(z < trade.prix_entree for z in zones)
+
+
+def test_la_variante_structurelle_vise_la_premiere_zone_des_paliers() -> None:
+    """L'objectif de A est exactement la première zone retenue par C.
+
+    C'est ce qui rend les deux variantes comparables : même population de
+    setups, même première cible, seule la gestion de la sortie diffère.
+    """
+    m1 = _serie_m1()
+    taux = _taux_eurusd(m1)
+
+    structurel = moteur.Backtest(m1, taux, moteur.ConfigBacktest(mode_tp="structurel"))
+    structurel.executer()
+    paliers = moteur.Backtest(m1, taux, moteur.ConfigBacktest(mode_tp="paliers"))
+    paliers.executer()
+
+    par_entree = {t.horodatage_entree: t for t in paliers.trades}
+    communs = 0
+    for trade in structurel.trades:
+        jumeau = par_entree.get(trade.horodatage_entree)
+        if jumeau is None:
+            continue
+        communs += 1
+        assert jumeau.paliers[0].zone == pytest.approx(trade.objectif)
+    assert communs > 0, "les deux variantes doivent partager des entrées"
+
+
+def test_le_solde_passe_a_break_even_apres_la_premiere_zone() -> None:
+    """Une fois une tranche close, le solde ne peut plus sortir sous l'entrée."""
+    m1 = _serie_m1()
+    backtest = moteur.Backtest(
+        m1, _taux_eurusd(m1), moteur.ConfigBacktest(mode_tp="paliers")
+    )
+    backtest.executer()
+
+    vus = 0
+    for trade in backtest.trades:
+        if len(trade.paliers) < 2:
+            continue
+        premier = trade.paliers[0]
+        if premier.motif_sortie != moteur.SORTIE_OBJECTIF:
+            continue
+        vus += 1
+        for suivant in trade.paliers[1:]:
+            if suivant.motif_sortie == moteur.SORTIE_BREAK_EVEN:
+                assert suivant.prix_sortie is not None
+                # Sortie au prix d'entrée, aux coûts de sortie près : le
+                # résultat de la tranche reste très proche de zéro.
+                assert suivant.resultat_r == pytest.approx(0.0, abs=0.05)
+            assert suivant.motif_sortie != moteur.SORTIE_STOP, (
+                "le stop initial ne peut plus s'appliquer après le passage à break-even"
+            )
+    assert vus > 0, "l'échantillon doit contenir des trades ayant atteint leur TP1"
+
+
+def test_le_resultat_dun_trade_a_paliers_est_la_somme_de_ses_tranches() -> None:
+    """Le total affiché n'est jamais autre chose que la somme du détail."""
+    m1 = _serie_m1()
+    backtest = moteur.Backtest(
+        m1, _taux_eurusd(m1), moteur.ConfigBacktest(mode_tp="paliers")
+    )
+    backtest.executer()
+
+    assert backtest.trades, "l'échantillon doit produire des trades"
+    for trade in backtest.trades:
+        resolus = [p for p in trade.paliers if p.resultat_r is not None]
+        assert len(resolus) == len(trade.paliers), "toute tranche d'un trade clos est dénouée"
+        assert trade.resultat_r == pytest.approx(sum(p.resultat_r for p in resolus))
+        assert sum(p.fraction for p in trade.paliers) == pytest.approx(1.0)
+
+
+def test_le_journal_des_paliers_detaille_chaque_tranche() -> None:
+    """Le journal donne zone, part, prix de sortie et R par tranche."""
+    m1 = _serie_m1()
+    backtest = moteur.Backtest(
+        m1, _taux_eurusd(m1), moteur.ConfigBacktest(mode_tp="paliers")
+    )
+    backtest.executer()
+
+    lignes = [l for t in backtest.trades for l in t.lignes_paliers()]
+    assert lignes
+    for ligne in lignes:
+        for champ in ("rang", "zone", "origine", "fraction", "ratio_risque",
+                      "prix_sortie", "resultat_r", "motif_sortie"):
+            assert champ in ligne
+        assert ligne["origine"] in {
+            "veille_haut", "veille_bas", "asie_haut", "asie_bas", "order_block",
+        }

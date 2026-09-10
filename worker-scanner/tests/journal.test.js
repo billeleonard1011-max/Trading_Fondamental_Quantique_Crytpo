@@ -14,7 +14,8 @@ import { test } from "node:test";
 
 import { creerD1Test } from "./d1_test_adapter.js";
 import {
-  appliquerResolution, chargerEtat, enregistrerTauxDuJour, insererEntree, sauvegarderEtat, tauxDuJour,
+  appliquerResolution, appliquerResolutionPalier, chargerEtat, enregistrerTauxDuJour,
+  insererEntree, sauvegarderEtat, tauxDuJour,
 } from "../src/journal.js";
 import { etatInitial } from "../src/moteur.js";
 
@@ -31,8 +32,14 @@ function entreeExemple(id = "entree-1") {
     timeframeFvg: "M5",
     prixEntree: 3000.0,
     stop: 2994.0,
-    objectifs: { a: 3010.0, b15: 3009.0, b2: 3012.0, b3: 3018.0 },
+    objectifs: { a: 3010.0, b15: 3009.0, b2: 3012.0, b3: 3018.0, c: 3010.0 },
     lots: 0.07,
+    fvgHaut: 2998.4,
+    fvgBas: 2997.5,
+    paliers: [
+      { rang: 1, zone: 3010.0, origine: "veille_haut", fraction: 0.5, ratioRisque: 1.6667 },
+      { rang: 2, zone: 3024.5, origine: "asie_haut", fraction: 0.25, ratioRisque: 4.0833 },
+    ],
   };
 }
 
@@ -116,7 +123,17 @@ test("appliquerResolution met à jour la variante concernée et pose l'horodatag
   });
   ligne = await db.prepare("SELECT * FROM journal WHERE id = ?").bind("entree-2").first();
   assert.equal(ligne.statut_b3, "gagnant");
-  assert.equal(ligne.horodatage_resolution, 3000, "posé une fois la dernière variante résolue");
+  assert.equal(
+    ligne.horodatage_resolution, null,
+    "la variante à paliers est encore ouverte : pas de clôture globale",
+  );
+
+  await appliquerResolution(db, {
+    id: "entree-2", variante: "c", statut: "gagnant", prixSortie: 3010.0, resultatUsd: 35.0, horodatageResolution: 4000,
+  });
+  ligne = await db.prepare("SELECT * FROM journal WHERE id = ?").bind("entree-2").first();
+  assert.equal(ligne.statut_c, "gagnant");
+  assert.equal(ligne.horodatage_resolution, 4000, "posé une fois la dernière variante résolue");
 });
 
 test("une entrée résolue reste résolue : appliquer la même résolution deux fois ne change rien", async () => {
@@ -143,4 +160,59 @@ test("insererEntree est idempotent : la même entrée envoyée deux fois ne dupl
   await insererEntree(db, entreeExemple("entree-4"));
   const { results } = await db.prepare("SELECT * FROM journal WHERE id = ?").bind("entree-4").all();
   assert.equal(results.length, 1);
+});
+
+test("insererEntree journalise chaque tranche séparément, avec sa zone et sa part", async () => {
+  const db = creerD1Test(SCHEMA);
+  await insererEntree(db, entreeExemple("entree-paliers"));
+  const { results } = await db
+    .prepare("SELECT * FROM paliers WHERE id_signal = ? ORDER BY rang").bind("entree-paliers").all();
+
+  assert.equal(results.length, 2);
+  assert.equal(results[0].rang, 1);
+  assert.equal(results[0].zone, 3010.0);
+  assert.equal(results[0].origine, "veille_haut");
+  assert.equal(results[0].fraction, 0.5);
+  assert.equal(results[0].statut, "ouvert");
+  assert.equal(results[1].fraction, 0.25);
+});
+
+test("insererEntree ne duplique pas les paliers quand une exécution est rejouée", async () => {
+  const db = creerD1Test(SCHEMA);
+  await insererEntree(db, entreeExemple("entree-rejouee"));
+  await insererEntree(db, entreeExemple("entree-rejouee"));
+  const { results } = await db
+    .prepare("SELECT * FROM paliers WHERE id_signal = ?").bind("entree-rejouee").all();
+  assert.equal(results.length, 2);
+});
+
+test("une tranche dénouée garde son motif de sortie, et ne se réécrit pas", async () => {
+  const db = creerD1Test(SCHEMA);
+  await insererEntree(db, entreeExemple("entree-tranche"));
+
+  const resolution = {
+    id: "entree-tranche", rang: 1, statut: "gagnant", prixSortie: 3010.0,
+    resultatUsd: 35.0, motifSortie: "objectif", horodatageResolution: 1000,
+  };
+  await appliquerResolutionPalier(db, resolution);
+  await appliquerResolutionPalier(db, { ...resolution, prixSortie: 9999.0, horodatageResolution: 5000 });
+
+  const ligne = await db
+    .prepare("SELECT * FROM paliers WHERE id_signal = ? AND rang = 1").bind("entree-tranche").first();
+  assert.equal(ligne.statut, "gagnant");
+  assert.equal(ligne.motif_sortie, "objectif");
+  assert.equal(ligne.prix_sortie, 3010.0, "une tranche dénouée n'est jamais réécrite");
+  assert.equal(ligne.horodatage_resolution, 1000);
+});
+
+test("le solde sorti à break-even est journalisé comme tel, pas comme un stop", async () => {
+  const db = creerD1Test(SCHEMA);
+  await insererEntree(db, entreeExemple("entree-be"));
+  await appliquerResolutionPalier(db, {
+    id: "entree-be", rang: 2, statut: "perdant", prixSortie: 3000.0,
+    resultatUsd: -0.2, motifSortie: "break_even", horodatageResolution: 2000,
+  });
+  const ligne = await db
+    .prepare("SELECT * FROM paliers WHERE id_signal = ? AND rang = 2").bind("entree-be").first();
+  assert.equal(ligne.motif_sortie, "break_even");
 });
