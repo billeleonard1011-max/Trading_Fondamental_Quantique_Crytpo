@@ -30,6 +30,7 @@ import pandas as pd
 import yaml
 
 from dataio import crypto as crypto_io
+from modules import synthese
 from modules.crypto import positioning, regime, rotation
 
 _LOG: Final = logging.getLogger("modules.crypto.run")
@@ -240,6 +241,9 @@ def construire_rapport(
         "rotation": bloc_rotation,
         "positionnement": bloc_positionnement,
     }
+    # Synthèse composée en dernier, à partir des blocs déjà calculés.
+    rapport["synthese"] = synthese.synthetiser_crypto(rapport)
+
     return rapport
 
 

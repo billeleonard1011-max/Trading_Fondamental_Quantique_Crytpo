@@ -432,3 +432,10 @@ button.aide:hover { color: var(--texte); border-color: var(--texte); }
 }
 .contexte-macro p { margin: 0 0 6px; }
 .contexte-macro p:last-child { margin-bottom: 0; }
+
+/* --- Paragraphe de synthèse en tête de rubrique --------------------------- */
+.synthese {
+  font-size: 15px; line-height: 1.6; margin: 0 0 12px;
+  padding-left: 10px; border-left: 3px solid var(--accent);
+}
+.synthese--absente { color: var(--texte-doux); font-style: italic; border-left-color: var(--trait); }

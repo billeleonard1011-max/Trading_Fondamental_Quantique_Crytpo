@@ -62,6 +62,21 @@ MAX_RECORDS_GDELT: Final[int] = 250
 #: Attente initiale, en secondes, après un refus pour dépassement de débit.
 ATTENTE_429_SECONDES: Final[float] = float(os.environ.get("GDELT_ATTENTE_429", "5"))
 
+#: Intervalle minimal entre deux appels GDELT, en secondes.
+#:
+#: GDELT demande « one request every 5 seconds » et le fait respecter par un
+#: 429. Jusqu'ici on déclenchait le limiteur puis on encaissait le refus :
+#: sur une exécution qui enchaîne six requêtes (trois dossiers × volume +
+#: articles), un dossier au hasard perdait sa mesure — observé en production
+#: sur Iran-États-Unis, et sur Israël et Russie lors d'autres exécutions.
+#: Espacer volontairement les appels coûte quelques secondes et supprime la
+#: cause au lieu de la rattraper. Ce n'est pas une variable de confort : la
+#: baisser sous 5 secondes fait réapparaître les 429.
+INTERVALLE_MIN_GDELT: float = float(os.environ.get("GDELT_INTERVALLE_MIN", "5.5"))
+
+#: Instant du dernier appel GDELT réellement parti, pour l'espacement.
+_dernier_appel_gdelt: float = 0.0
+
 #: En-têtes communs aux appels sortants.
 #:
 #: Note sur la compression : plusieurs flux servis derrière Cloudflare
@@ -343,6 +358,25 @@ def _ecrire_cache_gdelt(cle: str, charge: dict[str, Any]) -> None:
         _LOG.debug("Cache GDELT non écrit (%s) : sans effet sur le résultat.", exc)
 
 
+def _espacer_appels_gdelt() -> None:
+    """Attend, si nécessaire, avant de laisser partir un appel GDELT.
+
+    Garantit :data:`INTERVALLE_MIN_GDELT` secondes entre deux appels partis
+    du processus, quel que soit l'appelant — les dossiers géopolitiques, les
+    trois fils d'actualité et la chaîne de transmission passent tous par ici.
+    Le cache court-circuite cette attente : un appel servi depuis le cache ne
+    part pas sur le réseau, il n'a donc rien à espacer.
+    """
+    global _dernier_appel_gdelt
+    if INTERVALLE_MIN_GDELT <= 0:
+        return
+    attente = INTERVALLE_MIN_GDELT - (time.monotonic() - _dernier_appel_gdelt)
+    if attente > 0:
+        _LOG.debug("Espacement GDELT : attente de %.1f s.", attente)
+        time.sleep(attente)
+    _dernier_appel_gdelt = time.monotonic()
+
+
 def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] | None:
     """Appelle l'API GDELT et renvoie la charge JSON.
 
@@ -374,6 +408,7 @@ def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] 
     reponse = None
     for tentative in range(1, max(int(essais), 1) + 1):
         try:
+            _espacer_appels_gdelt()
             reponse = requests.get(URL_GDELT, params=parametres, timeout=TIMEOUT, headers=_ENTETES)
             if reponse.status_code == 429 and tentative < essais:
                 attente = ATTENTE_429_SECONDES * (2 ** (tentative - 1))

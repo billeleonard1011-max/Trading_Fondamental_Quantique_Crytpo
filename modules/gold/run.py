@@ -45,6 +45,7 @@ import yaml
 from dataio import calendar as calendrier_macro
 from dataio import cot as cot_io
 from dataio import gold_flows, macro, market
+from modules import synthese
 from modules.gold import analogues, bias, explain, fair_value, geopolitics
 
 _LOG: Final = logging.getLogger("modules.gold.run")
@@ -559,6 +560,12 @@ def construire_rapport(
             prix_or=bloc_prix.get("prix"),
             date_rapport=str(jour),
         )
+
+    # --- Synthèses de rubrique ---------------------------------------------
+    # Composées en dernier : elles relient des blocs déjà calculés, et ne
+    # valent donc que si tout le reste du rapport est en place.
+    rapport["synthese"] = synthese.synthetiser_or(rapport)
+    rapport["geopolitique"]["synthese"] = synthese.synthetiser_geopolitique(rapport)
 
     return rapport
 

@@ -26,14 +26,14 @@ import {
   rendrePrecedents, rendrePrix,
 } from "../js/rendu.js";
 import {
-  estLieAUnDossier, normaliserTexteGeo, rendreContexteMacro, rubriqueCrypto,
-  rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
+  estLieAUnDossier, normaliserTexteGeo, rendreContexteMacro, rendreSynthese,
+  rubriqueCrypto, rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
 } from "../js/rubriques.js";
 import { filtrer, rendreFil, rendreVide } from "../js/fil.js";
 import { construireContexte, demander, suggestions } from "../js/assistant.js";
 import { evaluerFiabilite, rendreFiabilite } from "../js/debrief.js";
 import { rendreDetail } from "../js/news.js";
-import { EXPLICATIONS } from "../js/libelles.js";
+import { EXPLICATIONS, libelle } from "../js/libelles.js";
 import {
   agregerParMois, agregerSignaux, avertissementEchantillon, cleMois, estResolue,
   extraireMetriquesBacktest, libelleStatut, rendreComparaisonBacktest, rendreFilAlertes,
@@ -908,4 +908,81 @@ test("le contexte macro reste affiché même quand la géopolitique est muette",
   const { corps } = rubriqueGeopolitique({ disponible: true, donnees }, []);
   assert.match(corps, /Inflation à 2,4 %/);
   assert.match(corps, /GDELT hors service/);
+});
+
+// ---------------------------------------------------------------------------
+// 8. Aucun chiffre affiché sans son explication (audit généralisé)
+// ---------------------------------------------------------------------------
+//
+// Onze métriques s'affichaient en chiffre brut, sans dire ce qu'elles
+// mesurent ni dans quel sens les lire — « Couverture à 0,8× sa moyenne »
+// en était l'exemple le plus visible. Ce test fige la correction.
+test("les métriques auditées ont toutes une explication au dictionnaire", () => {
+  const attendues = [
+    "positionnement_cot", "score_composite", "conviction", "couverture_donnees",
+    "intensite_couverture", "trajectoire_couverture", "evenements_bilateraux",
+    "chaine_de_transmission", "correlation_positions", "mvrv", "part_offre_debloquee",
+  ];
+  for (const cle of attendues) {
+    assert.ok(EXPLICATIONS[cle], `métrique « ${cle} » affichée sans explication`);
+    assert.ok(EXPLICATIONS[cle].length > 80,
+      `l'explication de « ${cle} » est trop courte pour expliquer quoi que ce soit`);
+  }
+});
+
+test("chaque explication dit ce que la métrique mesure, pas seulement son nom", () => {
+  // Une explication qui se contente de répéter le libellé n'explique rien.
+  for (const [cle, texte] of Object.entries(EXPLICATIONS)) {
+    assert.ok(texte.trim().length > 40, `explication trop courte pour « ${cle} »`);
+    assert.notEqual(texte.trim().toLowerCase(), cle.replace(/_/g, " "),
+      `l'explication de « ${cle} » ne fait que répéter son nom`);
+  }
+});
+
+test("l'intensité de couverture géopolitique est affichée avec son explication", () => {
+  const donnees = etatGeoExemple([dossierExemple()]).donnees;
+  const { corps } = rubriqueGeopolitique({ disponible: true, donnees }, []);
+  assert.match(corps, /Intensité de couverture/);
+  assert.match(corps, /infobulle-bulle/, "l'explication doit être rendue à côté du chiffre");
+  assert.match(corps, /Trajectoire/);
+  assert.match(corps, /Chaîne de transmission vers l'or|Chaîne de transmission/);
+});
+
+// ---------------------------------------------------------------------------
+// 9. Paragraphe de synthèse en tête de rubrique
+// ---------------------------------------------------------------------------
+test("une synthèse publiable s'affiche telle que le moteur l'a produite", () => {
+  const html = rendreSynthese({
+    publiable: true, texte: "L'or a varié de +0,8 % sur vingt séances.", motif: "",
+  });
+  assert.match(html, /\+0,8 %/);
+  assert.doesNotMatch(html, /synthese--absente/);
+});
+
+test("une synthèse refusée affiche son motif, jamais un texte rafistolé", () => {
+  const html = rendreSynthese({
+    publiable: false, texte: "", motif: "paragraphe écarté : 42,7 sans correspondance",
+  });
+  assert.match(html, /sans correspondance/);
+  assert.match(html, /synthese--absente/);
+});
+
+test("une rubrique sans bloc de synthèse ne casse pas", () => {
+  assert.equal(rendreSynthese(null), "");
+  assert.equal(rendreSynthese(undefined), "");
+});
+
+test("la synthèse est rendue en tête de la rubrique Or", () => {
+  const or = {
+    disponible: true,
+    donnees: {
+      ...rapport("reports/gold/latest.json"),
+      synthese: { publiable: true, texte: "Phrase de synthèse du jour, 1,5 écart-type.", motif: "" },
+    },
+  };
+  const { corps } = rubriqueOr(or);
+  const posSynthese = corps.indexOf("Phrase de synthèse du jour");
+  const posFraicheur = corps.indexOf("fraicheur");
+  assert.ok(posSynthese >= 0, "la synthèse doit être rendue");
+  assert.ok(posSynthese < posFraicheur, "la synthèse doit précéder les métriques");
 });

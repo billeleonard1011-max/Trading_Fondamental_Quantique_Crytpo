@@ -64,14 +64,14 @@ function enTeteOr(or) {
   if (cot.disponible && cot.percentile_managed_money !== null) {
     morceaux.push(`
       <div class="cle">
-        <span class="cle-libelle">Positionnement spéculatif</span>
+        <span class="cle-libelle">${rendreLibelleAvecInfobulle("positionnement_cot", "Positionnement spéculatif")}</span>
         <span class="cle-valeur">${nombre(cot.percentile_managed_money, 0)}<sup>e</sup> pct</span>
         <span class="cle-detail">donnée du ${echapper(cot.date_observation || ABSENT)},
           ${cot.age_jours} jour(s)</span>
       </div>`);
   } else {
     morceaux.push(`<div class="cle cle--absente">
-      <span class="cle-libelle">Positionnement spéculatif</span>
+      <span class="cle-libelle">${rendreLibelleAvecInfobulle("positionnement_cot", "Positionnement spéculatif")}</span>
       ${rendreIndisponible(cot.motif)}</div>`);
   }
 
@@ -95,6 +95,27 @@ function enTeteOr(or) {
   }
 
   return `${ligneFraicheur}<div class="cles">${morceaux.join("")}</div>`;
+}
+
+/**
+ * Rend le paragraphe de synthèse en tête d'une rubrique.
+ *
+ * Le texte vient tel quel du moteur : il a déjà passé les deux garde-fous
+ * du projet (aucun chiffre absent des données du jour, aucune formulation
+ * de recommandation — voir modules/synthese.py). Le site ne le réécrit pas
+ * et n'en publie aucun qui aurait été refusé : dans ce cas c'est le motif
+ * du refus qui s'affiche, jamais un texte rafistolé.
+ *
+ * @param {object} bloc Bloc ``synthese`` d'un rapport.
+ * @returns {string} HTML du paragraphe, vide si le bloc est absent.
+ */
+export function rendreSynthese(bloc) {
+  if (!bloc) return "";
+  if (!bloc.publiable) {
+    return `<p class="synthese synthese--absente">${
+      echapper(bloc.motif || "synthèse non disponible")}</p>`;
+  }
+  return `<p class="synthese">${echapper(bloc.texte)}</p>`;
 }
 
 /**
@@ -174,6 +195,7 @@ export function rubriqueOr(etat) {
     : rendreIndisponible(jv.motif);
 
   const corps = `
+    ${rendreSynthese(lire(or, "synthese", null))}
     ${enTeteOr(or)}
     ${rendreTrame({
       etat: `<p>Biais <strong>${echapper(biais.biais || ABSENT)}</strong>,
@@ -304,13 +326,23 @@ function rendreDossierPanneau(dossier, meta, source) {
   const nouveaux = new Set((dossier.nouveaux_developpements || []).map((n) => n.id));
   const evenements = dossier.n_evenements_bilateraux === null || dossier.n_evenements_bilateraux === undefined
     ? `<p class="composante-motif">${echapper(dossier.motif_events || "activité par acteur non mesurée")}</p>`
-    : `<p>${dossier.n_evenements_bilateraux} événement(s) bilatéral(aux) dans le dernier
-        relevé GDELT Events (instantané, pas une tendance).</p>`;
+    : `<p>${rendreLibelleAvecInfobulle("evenements_bilateraux", "Événements bilatéraux")} :
+        ${dossier.n_evenements_bilateraux} dans le dernier relevé GDELT Events.</p>`;
 
+  const intensite = dossier.intensite_ratio === null || dossier.intensite_ratio === undefined
+    ? ABSENT
+    : `${nombre(dossier.intensite_ratio, 1)}×`;
   return rendreTrame({
-    etat: `<p>${echapper(dossier.etat_actuel)}</p>`,
+    etat: `<p>${echapper(dossier.etat_actuel)}</p>
+      <ul class="liste-detail">
+        <li><span>${rendreLibelleAvecInfobulle("intensite_couverture", "Intensité de couverture")}</span>
+          <span>${intensite} la normale</span></li>
+        <li><span>${rendreLibelleAvecInfobulle("trajectoire_couverture", "Trajectoire")}</span>
+          <span>${echapper(dossier.trajectoire || "non qualifiée")}</span></li>
+      </ul>`,
     changement: `${evenements}${rendreDeveloppements(dossier.developpements_recents, nouveaux)}`,
-    impact: `${rendreMaillonsDossier(dossier.chaine_de_transmission)}
+    impact: `<p>${rendreLibelleAvecInfobulle("chaine_de_transmission", "Chaîne de transmission vers l'or")}</p>
+      ${rendreMaillonsDossier(dossier.chaine_de_transmission)}
       <p class="metrique-sens">${echapper((dossier.deja_dans_les_prix || {}).commentaire || "Prime déjà payée : non évaluée.")}</p>`,
     invalidation: `<p>${echapper(dossier.invalidation)}</p>`,
     sources: `<ul><li>${echapper(source || ABSENT)}
@@ -467,7 +499,8 @@ export function rubriqueGeopolitique(etat, filGeopolitique = []) {
 
   return {
     resume,
-    corps: `${contexteMacro}
+    corps: `${rendreSynthese(geo.synthese || null)}
+      ${contexteMacro}
       <div class="geo-onglets fil-onglets" id="geo-onglets" role="tablist">${boutonsHtml}</div>
       <div class="geo-panneaux">${panneauxHtml}</div>`,
     ton,
@@ -539,7 +572,7 @@ export function rubriqueQuantique(etat) {
 
   return {
     resume,
-    corps: rendreTrame({
+    corps: rendreSynthese(lire(q, "synthese", null)) + rendreTrame({
       etat: `<p>${n === 0
         ? "Aucune valeur suivie ne dépasse son seuil de mouvement du jour."
         : `${n} valeur(s) au-delà de leur seuil.`}</p>`,
@@ -547,7 +580,8 @@ export function rubriqueQuantique(etat) {
         ? `<ul class="liste-detail mouvements">${listeMouvements}</ul>`
         : "<p>Aucun mouvement à expliquer aujourd'hui.</p>",
       impact: correlation.disponible
-        ? `<p>${echapper(correlation.avertissement || `Corrélation maximale de ${nombre(correlation.correlation_max, 2)} sur ${correlation.n_seances_effectives} séances.`)}</p>`
+        ? `<p>${rendreLibelleAvecInfobulle("correlation_positions", "Corrélation entre positions")} :
+            ${echapper(correlation.avertissement || `maximum de ${nombre(correlation.correlation_max, 2)} sur ${correlation.n_seances_effectives} séances.`)}</p>`
         : rendreIndisponible(correlation.motif),
       invalidation: `<p>Un mouvement classé sectoriel cesse de l'être si les autres
         valeurs suivies ne l'accompagnent plus avec une amplitude comparable.</p>`,
@@ -616,7 +650,7 @@ function rendreWatchlistCrypto(c) {
       const prochain = d && d.prochain_deblocage;
       const ligneProchain = prochain
         ? `<p class="composante-motif">Prochaine échéance : ${echapper(prochain.date)}
-            (${nombre(prochain.part_offre_pct, 1)} % de l'offre)</p>`
+            (${rendreLibelleAvecInfobulle("part_offre_debloquee", `${nombre(prochain.part_offre_pct, 1)} % de l'offre`)})</p>`
         : "";
 
       const avertissement = j.avertissement
@@ -675,7 +709,8 @@ export function rubriqueCrypto(etat) {
 
   const regime = (bloc, nom) => {
     if (!bloc.disponible) return `<li>${nom} : ${echapper(bloc.motif || "indisponible")}</li>`;
-    return `<li><strong>${nom}</strong> — ${rendreLibelleAvecInfobulle(bloc.regime)} (MVRV ${nombre(bloc.mvrv, 2)})
+    return `<li><strong>${nom}</strong> — ${rendreLibelleAvecInfobulle(bloc.regime)}
+      (${rendreLibelleAvecInfobulle("mvrv", "MVRV")} ${nombre(bloc.mvrv, 2)})
       <p class="constat">${echapper(bloc.description || "")}</p>
       ${bloc.avertissement_calibrage
         ? `<p class="avertissement">${echapper(bloc.avertissement_calibrage)}</p>` : ""}
@@ -702,6 +737,7 @@ export function rubriqueCrypto(etat) {
   return {
     resume,
     corps: `
+      ${rendreSynthese(lire(c, "synthese", null))}
       ${ligneFraicheurCrypto}
       <h3>Suivi des dix cryptos</h3>
       ${rendreWatchlistCrypto(c)}

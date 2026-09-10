@@ -34,6 +34,7 @@ import yaml
 
 from dataio import macro, market, news
 from dataio import sec_filings as sec
+from modules import synthese
 from modules.quantum import industry, moves
 
 _LOG: Final = logging.getLogger("modules.quantum.run")
@@ -332,6 +333,9 @@ def construire_rapport(
         "mouvements": bloc_mouvements,
         "secteur": bloc_secteur,
     }
+    # Synthèse composée en dernier, à partir des blocs déjà calculés.
+    rapport["synthese"] = synthese.synthetiser_quantique(rapport)
+
     return rapport
 
 

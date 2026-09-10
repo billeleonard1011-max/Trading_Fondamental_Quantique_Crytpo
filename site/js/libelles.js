@@ -139,6 +139,62 @@ export const EXPLICATIONS = {
     "Le détenteur moyen est en perte latente : ceux qui restent sont ceux " +
     "qui n'ont pas vendu à perte.",
 
+  // --- Métriques repérées sans explication lors de l'audit ------------------
+  // Un chiffre affiché sans ce qu'il signifie n'apprend rien : ces entrées
+  // comblent les cas relevés rubrique par rubrique.
+  score_composite:
+    "Moyenne des composantes du biais, chacune ramenée entre -1 et +1 puis " +
+    "pondérée. Positif, il penche à la hausse ; négatif, à la baisse. Son " +
+    "amplitude compte autant que son signe : à 0,05 les composantes se " +
+    "contredisent presque autant qu'elles s'accordent.",
+  conviction:
+    "Degré de confiance dans le biais, déduit de l'accord entre composantes " +
+    "et de la part de données réellement disponibles. Une conviction faible " +
+    "sur un biais haussier ne dit pas « ça va monter peu », mais « les " +
+    "signaux ne concordent pas assez pour trancher ».",
+  couverture_donnees:
+    "Part des composantes effectivement mesurées ce jour. À 40 %, le biais " +
+    "repose sur moins de la moitié de ce qu'il devrait voir : il reste " +
+    "publié, mais il vaut ce que vaut une lecture faite avec la moitié des " +
+    "instruments.",
+  intensite_couverture:
+    "Nombre d'articles des dernières 24 heures rapporté à la moyenne des 30 " +
+    "derniers jours. À 1×, la couverture est normale ; à 2×, le sujet fait " +
+    "deux fois plus parler que d'habitude. Une intensité qui monte signale " +
+    "une escalade en cours ; elle ne dit pas si l'or montera, seulement que " +
+    "l'attention se porte là.",
+  trajectoire_couverture:
+    "Compare les trois derniers jours de couverture aux quatre précédents. " +
+    "« En accélération » signale un sujet qui prend de l'ampleur, « en " +
+    "essoufflement » un sujet que le marché a fini de digérer — et un sujet " +
+    "digéré fait moins bouger les prix qu'un sujet naissant.",
+  evenements_bilateraux:
+    "Nombre d'événements impliquant les deux parties du conflit dans le " +
+    "dernier relevé GDELT, publié toutes les quinze minutes. C'est un " +
+    "instantané de l'activité diplomatique ou militaire récente, pas une " +
+    "tendance : un chiffre bas peut vouloir dire « calme » comme « relevé " +
+    "pris entre deux événements ».",
+  chaine_de_transmission:
+    "Un choc géopolitique n'atteint pas l'or directement : il passe par le " +
+    "pétrole, puis les anticipations d'inflation, puis les taux réels. " +
+    "Quand tous les maillons vont dans le sens attendu, la hausse de l'or a " +
+    "une explication vérifiable ; quand la chaîne est rompue, elle repose " +
+    "sur la seule peur — ce qui tient rarement aussi longtemps.",
+  correlation_positions:
+    "Corrélation la plus forte entre deux des valeurs suivies. Au-delà de " +
+    "0,70, elles montent et descendent ensemble : détenir les trois revient " +
+    "largement à détenir la même position en triple, et la diversification " +
+    "apparente est trompeuse.",
+  mvrv:
+    "Rapport entre la valeur de marché et le prix moyen d'achat réel des " +
+    "détenteurs. Sous 1, le détenteur moyen est en perte latente ; au-delà " +
+    "de 3, il porte une plus-value telle que la tentation de vendre " +
+    "augmente. C'est une mesure de pression vendeuse potentielle, pas une " +
+    "prévision de prix.",
+  part_offre_debloquee:
+    "Part de l'offre totale du jeton qui devient négociable à cette " +
+    "échéance. Plus elle est élevée, plus le nombre de vendeurs possibles " +
+    "augmente d'un coup, sans que la demande change pour autant.",
   actif: "Un calendrier de déblocage est connu, avec une échéance à venir.",
   vesting_conclu: "Le calendrier de déblocage est arrivé à son terme : plus d'échéance à venir.",
   non_applicable: "Ce jeton n'a pas de mécanisme de vesting — rien à surveiller par nature.",

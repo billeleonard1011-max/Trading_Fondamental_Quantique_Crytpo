@@ -100,3 +100,49 @@ def test_echec_decriture_du_cache_ne_casse_pas_lappel(tmp_path: Path, monkeypatc
 
     resultat = news._appel_gdelt({"query": "or", "mode": "artlist"})
     assert resultat == {"articles": [{"title": "Un article", "url": "https://x.test"}]}
+
+
+# ---------------------------------------------------------------------------
+# Espacement volontaire des appels GDELT
+# ---------------------------------------------------------------------------
+def test_deux_appels_distincts_sont_espaces(tmp_path: Path, monkeypatch) -> None:
+    """GDELT exige un appel toutes les 5 s : on attend au lieu de subir un 429.
+
+    Le défaut corrigé : six requêtes enchaînées (trois dossiers
+    géopolitiques × volume + articles) déclenchaient le limiteur, et un
+    dossier au hasard perdait sa mesure.
+    """
+    monkeypatch.setattr(news, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(news, "INTERVALLE_MIN_GDELT", 2.0)
+    monkeypatch.setattr(news, "_dernier_appel_gdelt", 0.0)
+
+    attentes: list[float] = []
+    monkeypatch.setattr(news.time, "sleep", lambda s: attentes.append(s))
+    monkeypatch.setattr(
+        news.requests, "get", lambda *a, **k: _ReponseFactice({"articles": []})
+    )
+
+    news._appel_gdelt({"query": "un", "mode": "artlist"})
+    news._appel_gdelt({"query": "deux", "mode": "artlist"})
+
+    assert attentes, "le deuxième appel doit attendre avant de partir"
+    assert attentes[-1] <= 2.0
+
+
+def test_un_appel_servi_par_le_cache_nattend_pas(tmp_path: Path, monkeypatch) -> None:
+    """Un appel qui ne part pas sur le réseau n'a rien à espacer."""
+    monkeypatch.setattr(news, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(news, "INTERVALLE_MIN_GDELT", 2.0)
+    monkeypatch.setattr(news, "_dernier_appel_gdelt", 0.0)
+    monkeypatch.setattr(
+        news.requests, "get", lambda *a, **k: _ReponseFactice({"articles": []})
+    )
+
+    parametres = {"query": "identique", "mode": "artlist"}
+    news._appel_gdelt(parametres)          # premier appel : va sur le réseau
+
+    attentes: list[float] = []
+    monkeypatch.setattr(news.time, "sleep", lambda s: attentes.append(s))
+    news._appel_gdelt(parametres)          # deuxième : servi par le cache
+
+    assert attentes == [], "un appel servi par le cache ne doit pas attendre"
