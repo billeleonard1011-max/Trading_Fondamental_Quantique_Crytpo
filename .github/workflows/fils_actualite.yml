@@ -99,20 +99,52 @@ jobs:
           python -m modules.geopolitique.feed
 
       - name: Publier les fils dans le dépôt
+        # Même mécanique que la publication du rapport or, et pour la même
+        # raison : ce workflow tourne toutes les quinze à trente minutes et
+        # croise régulièrement le rapport quotidien. Un « commit puis
+        # pull --rebase » s'arrête au premier conflit ; ici on replace HEAD
+        # sur l'état publié, on fusionne les journaux en ajout seul, et on
+        # réindexe les sorties — aucune fusion de contenu par git, donc
+        # aucun conflit possible. Voir .github/workflows/daily.yml.
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/quantum/feed_latest.json reports/quantum/feed_historique.jsonl \
-                  reports/crypto/feed_latest.json reports/crypto/feed_historique.jsonl \
-                  reports/geopolitique/feed_latest.json reports/geopolitique/feed_historique.jsonl \
-                  2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "Aucun item nouveau : rien à publier."
-          else
-            git commit -m "Fils d'actualité du $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
+
+          publier() {
+            git fetch --quiet origin "${GITHUB_REF_NAME}"
+            git reset --quiet --mixed "origin/${GITHUB_REF_NAME}"
+
+            # Les historiques de fil accumulent : les écraser ferait perdre
+            # la trace « déjà vu » des articles ajoutés par l'exécution
+            # concurrente, qui resurgiraient en nouveauté plus tard.
+            python -m scripts.fusionner_sorties "origin/${GITHUB_REF_NAME}"
+
+            git add reports/quantum/feed_latest.json reports/quantum/feed_historique.jsonl \
+                    reports/crypto/feed_latest.json reports/crypto/feed_historique.jsonl \
+                    reports/geopolitique/feed_latest.json reports/geopolitique/feed_historique.jsonl \
+                    2>/dev/null || true
+
+            if git diff --staged --quiet; then
+              echo "Aucun item nouveau : rien à publier."
+              return 0
+            fi
+
+            git commit --quiet -m "Fils d'actualité du $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push --quiet origin "HEAD:${GITHUB_REF_NAME}"
+          }
+
+          for tentative in 1 2 3; do
+            if publier; then
+              echo "Publication réussie (tentative ${tentative})."
+              exit 0
+            fi
+            echo "Publication refusée (tentative ${tentative}/3) : nouvelle tentative dans 10 s."
+            sleep 10
+          done
+
+          echo "::error::Publication impossible après 3 tentatives."
+          exit 1
 
       - name: Archiver les fils en artefact
         if: always()

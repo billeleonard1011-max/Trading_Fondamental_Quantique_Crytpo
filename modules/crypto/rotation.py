@@ -69,6 +69,26 @@ _LOG: Final = logging.getLogger(__name__)
 
 #: Cache des observations quotidiennes, versionné dans le dépôt : l'API ne
 #: publie pas d'historique de dominance, il faut donc le constituer.
+#:
+#: Pourquoi ce fichier est versionné alors qu'il est généré
+#: --------------------------------------------------------
+#: Il n'est pas régénérable. Chaque exécution y **ajoute** l'observation du
+#: jour ; l'API ne sait pas rendre les jours passés. Le supprimer du dépôt
+#: ferait donc repartir de zéro l'historique de dominance, et ni le
+#: percentile sur deux ans ni la tendance sur trente jours ne seraient plus
+#: calculables avant des mois. C'est une donnée accumulée, pas un cache
+#: d'accélération : la distinction décide de tout.
+#:
+#: Il vit sous ``config/`` pour des raisons historiques, à côté de fichiers
+#: écrits à la main. Cette cohabitation prête à confusion — elle a fait
+#: croire, lors d'un conflit de publication, que le fichier était édité
+#: manuellement. Vérification faite sur son historique git : hormis le commit
+#: qui l'a créé, il n'est écrit que par le workflow. Le conflit venait de
+#: deux exécutions automatiques concurrentes, pas d'une main humaine.
+#:
+#: En cas de publication concurrente, il se fusionne par union des dates
+#: (voir scripts/fusionner_sorties.py) : écraser une version perdrait
+#: l'observation de l'autre exécution.
 CACHE_ROTATION: Final = Path(__file__).resolve().parents[2] / "config" / "rotation_cache.json"
 
 #: Deux ans d'observations conservées au maximum.

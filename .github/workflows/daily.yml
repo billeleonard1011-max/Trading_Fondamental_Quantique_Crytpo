@@ -163,28 +163,75 @@ jobs:
       # d'une API externe hors de notre contrôle.
 
       - name: Publier le rapport dans le dépôt
+        # Le dépôt bouge pendant l'exécution : le workflow des fils tourne
+        # toutes les quinze à trente minutes, et une modification manuelle
+        # peut arriver à tout moment. La publication ne doit donc dépendre
+        # d'aucune chance de synchronisation.
+        #
+        # L'ancienne version faisait « commit puis pull --rebase » : un
+        # rebasage qui rencontre un conflit s'arrête et fait échouer le
+        # workflow — c'est exactement ce qui s'est produit en production.
+        # Le correctif supprime la possibilité même du conflit plutôt que
+        # d'essayer de le résoudre : on replace HEAD sur l'état publié le
+        # plus récent (« reset --mixed »), l'arbre de travail garde les
+        # sorties fraîchement générées, et seules les sorties sont
+        # réindexées. Aucune fusion n'a lieu, donc aucun conflit possible.
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/
-          # Le cache du calendrier FOMC est régénéré à chaque collecte
-          # réussie. Le versionner ici entretient le filet de sécurité : sans
-          # ce commit, la copie du dépôt resterait figée au jour où elle a été
-          # créée et vieillirait jusqu'à déclencher l'alerte de renouvellement,
-          # alors même que la collecte fonctionne.
-          git add config/fomc_calendar_cache.json
-          # Caches accumulés par les modules : sans eux versionnés, ni la
-          # variation d'actif net des ETF ni la tendance de dominance ne
-          # seraient calculables d'une exécution à l'autre.
-          git add config/etf_aum_cache.json config/rotation_cache.json 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "Aucune sortie nouvelle : rien à publier."
-          else
-            git commit -m "Rapport automatique du $(date -u '+%Y-%m-%d')"
-            # Le dépôt a pu bouger pendant l'exécution : on rejoue par-dessus.
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
+
+          publier() {
+            git fetch --quiet origin "${GITHUB_REF_NAME}"
+
+            # HEAD repart de l'état publié ; l'index le suit, l'arbre de
+            # travail (qui porte les sorties de cette exécution) est conservé.
+            # Les fichiers modifiés en amont que ce workflow ne produit pas
+            # restent ceux de l'amont : on ne les réindexe jamais.
+            git reset --quiet --mixed "origin/${GITHUB_REF_NAME}"
+
+            # Les journaux en ajout seul s'accumulent au lieu d'être
+            # recalculés : les écraser perdrait les lignes ajoutées par
+            # l'exécution concurrente. Ils sont donc fusionnés par union
+            # avant d'être réindexés (voir scripts/fusionner_sorties.py).
+            python -m scripts.fusionner_sorties "origin/${GITHUB_REF_NAME}"
+
+            git add reports/
+            # Le cache du calendrier FOMC est régénéré à chaque collecte
+            # réussie. Le versionner ici entretient le filet de sécurité :
+            # sans ce commit, la copie du dépôt resterait figée au jour où
+            # elle a été créée et vieillirait jusqu'à déclencher l'alerte de
+            # renouvellement, alors même que la collecte fonctionne.
+            git add config/fomc_calendar_cache.json
+            # Caches accumulés par les modules : sans eux versionnés, ni la
+            # variation d'actif net des ETF ni la tendance de dominance ne
+            # seraient calculables d'une exécution à l'autre.
+            git add config/etf_aum_cache.json config/rotation_cache.json 2>/dev/null || true
+
+            if git diff --staged --quiet; then
+              echo "Aucune sortie nouvelle : rien à publier."
+              return 0
+            fi
+
+            git commit --quiet -m "Rapport automatique du $(date -u '+%Y-%m-%d')"
+            git push --quiet origin "HEAD:${GITHUB_REF_NAME}"
+          }
+
+          # Un autre push peut encore survenir entre le fetch et le push :
+          # la fenêtre est étroite mais réelle. On réessaie, chaque tentative
+          # repartant du dernier état publié — l'opération est idempotente,
+          # le commit précédent étant défait par le reset de la suivante.
+          for tentative in 1 2 3; do
+            if publier; then
+              echo "Publication réussie (tentative ${tentative})."
+              exit 0
+            fi
+            echo "Publication refusée (tentative ${tentative}/3) : nouvelle tentative dans 10 s."
+            sleep 10
+          done
+
+          echo "::error::Publication impossible après 3 tentatives."
+          exit 1
 
       - name: Archiver le rapport en artefact
         # Doublon volontaire du commit : l'artefact reste consultable même si
