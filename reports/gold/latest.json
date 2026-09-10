@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-10",
-    "horodatage_utc": "2026-09-10T21:15:04.200724+00:00",
+    "horodatage_utc": "2026-09-10T23:29:49.323193+00:00",
     "instrument": "XAUUSD",
     "version_moteur": "2.1",
     "sources_en_echec": [],
@@ -18,10 +18,16 @@
     "variation_20j_pct": 0.7529089664613187,
     "_meta": {
       "source": "GC=F (yfinance)",
-      "horodatage_collecte_utc": "2026-09-10T21:08:59.519932+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:25:05.010982+00:00",
       "date_donnee": "2026-09-09",
       "age_jours": 1
-    }
+    },
+    "variation_63j_pct": 3.6619718309859106,
+    "variation_126j_pct": -15.55921305090946,
+    "variation_252j_pct": 21.382036817648075,
+    "plus_haut_252j": 5318.39990234375,
+    "plus_bas_252j": 3636.89990234375,
+    "position_intervalle_252j_pct": 46.3336364945733
   },
   "juste_valeur": {
     "date": "2026-09-09",
@@ -63,7 +69,7 @@
     "unite_prix": "USD par once",
     "_meta": {
       "source": "GC=F (yfinance) + FRED DFII10/DTWEXBGS",
-      "horodatage_collecte_utc": "2026-09-10T21:09:06.126604+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:25:11.572118+00:00",
       "date_donnee": "2026-09-09",
       "age_jours": 1
     }
@@ -84,7 +90,7 @@
     "lecture": "Managed money net à +136,771 contrats, soit le 73e percentile sur 260 semaines : positionnement acheteur nourri, sans être extrême. Donnée vieille de 9 jour(s).",
     "_meta": {
       "source": "api_socrata",
-      "horodatage_collecte_utc": "2026-09-10T21:09:06.843415+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:25:12.292350+00:00",
       "date_donnee": "2026-09-01",
       "age_jours": 9
     }
@@ -92,7 +98,7 @@
   "flux": {
     "_meta": {
       "source": "yfinance + SPDR (tentative)",
-      "horodatage_collecte_utc": "2026-09-10T21:09:08.429295+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:25:15.311702+00:00",
       "date_donnee": null,
       "age_jours": null
     },
@@ -157,10 +163,10 @@
   },
   "calendrier": {
     "disponible": true,
-    "horodatage_calcul_utc": "2026-09-10T21:09:08.429508+00:00",
+    "horodatage_calcul_utc": "2026-09-10T23:25:15.311826+00:00",
     "fenetre_silence_minutes": 120,
     "en_fenetre_de_silence": false,
-    "commentaire": "Prochaine échéance : Indice des prix à la consommation (CPI) dans 15 heure(s).",
+    "commentaire": "Prochaine échéance : Indice des prix à la consommation (CPI) dans 13 heure(s).",
     "avertissement_heures": "FRED ne publie que la date, jamais l'heure. Les heures affichées sont les heures officielles d'usage (fuseau de New York) : elles sont conventionnelles, pas garanties.",
     "horizon_couvert_jusquau": "2027-12-08",
     "n_reunions_a_venir_connues": 11,
@@ -185,8 +191,8 @@
         "horodatage_utc": "2026-09-11T12:30:00+00:00",
         "date": "2026-09-11",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 920,
-        "jours_restants": 0.64,
+        "minutes_restantes": 784,
+        "jours_restants": 0.54,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 10"
@@ -196,8 +202,8 @@
         "horodatage_utc": "2026-09-16T18:00:00+00:00",
         "date": "2026-09-16",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 8450,
-        "jours_restants": 5.87,
+        "minutes_restantes": 8314,
+        "jours_restants": 5.77,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -207,8 +213,8 @@
         "horodatage_utc": "2026-09-30T12:30:00+00:00",
         "date": "2026-09-30",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 28280,
-        "jours_restants": 19.64,
+        "minutes_restantes": 28144,
+        "jours_restants": 19.54,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 54"
@@ -218,8 +224,8 @@
         "horodatage_utc": "2026-10-02T12:30:00+00:00",
         "date": "2026-10-02",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 31160,
-        "jours_restants": 21.64,
+        "minutes_restantes": 31024,
+        "jours_restants": 21.54,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 50"
@@ -229,8 +235,8 @@
         "horodatage_utc": "2026-10-14T12:30:00+00:00",
         "date": "2026-10-14",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 48440,
-        "jours_restants": 33.64,
+        "minutes_restantes": 48304,
+        "jours_restants": 33.54,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 10"
@@ -240,8 +246,8 @@
         "horodatage_utc": "2026-10-28T18:00:00+00:00",
         "date": "2026-10-28",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 68930,
-        "jours_restants": 47.87,
+        "minutes_restantes": 68794,
+        "jours_restants": 47.77,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -249,7 +255,7 @@
     ],
     "_meta": {
       "source": "FRED releases + FOMC (federalreserve.gov)",
-      "horodatage_collecte_utc": "2026-09-10T21:09:09.618963+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:25:16.845741+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     }
@@ -316,9 +322,52 @@
         }
       }
     },
+    "recul": {
+      "disponible": true,
+      "horizons_seances": {
+        "3_mois": 63,
+        "6_mois": 126,
+        "12_mois": 252
+      },
+      "inflation": {
+        "actuel_pct": 2.64,
+        "il_y_a_6_mois_pct": 2.39,
+        "ecart_points": 0.25
+      },
+      "chomage": {
+        "actuel_pct": 4.1,
+        "il_y_a_6_mois_pct": 4.3,
+        "ecart_points": -0.2
+      },
+      "petrole": {
+        "actuel": 97.26,
+        "variation_3_mois_pct": 14.9,
+        "variation_6_mois_pct": 1.19
+      },
+      "dollar": {
+        "actuel": 118.07,
+        "variation_3_mois_pct": -1.04,
+        "variation_6_mois_pct": -1.55
+      },
+      "taux_reels": {
+        "actuel_pct": 2.46,
+        "il_y_a_6_mois_pct": 1.86,
+        "ecart_points_base": 60.0
+      },
+      "vix": {
+        "actuel": 16.46,
+        "moyenne_6_mois": 18.07,
+        "ecart_moyenne_pct": -8.91
+      },
+      "spread_credit": {
+        "actuel": 2.71,
+        "moyenne_6_mois": 2.8,
+        "ecart_moyenne_pct": -3.38
+      }
+    },
     "_meta": {
       "source": "FRED (séries macro) + ETF sectoriels (rotation cyclique/défensif)",
-      "horodatage_collecte_utc": "2026-09-10T21:09:12.757468+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:25:22.094952+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     }
@@ -326,12 +375,12 @@
   "geopolitique": {
     "disponible": true,
     "motif": "",
-    "horodatage_utc": "2026-09-10T21:15:04.159089+00:00",
+    "horodatage_utc": "2026-09-10T23:29:49.283167+00:00",
     "source": "GDELT (DOC : narratif et couverture ; Events : activité bilatérale par acteur) + FRED (maillons macro)",
-    "n_dossiers_mesures": 1,
+    "n_dossiers_mesures": 2,
     "n_dossiers_configures": 3,
-    "intensite_max": 1.029465363114734,
-    "dossier_dominant": "israel_gaza",
+    "intensite_max": 1.3819437622325834,
+    "dossier_dominant": "iran_etats_unis",
     "dossiers": [
       {
         "id": "israel_gaza",
@@ -346,89 +395,17 @@
         ],
         "disponible": true,
         "motif": "",
-        "intensite_ratio": 1.029465363114734,
-        "volume_24h": 2883.0,
+        "intensite_ratio": 1.152658408648755,
+        "volume_24h": 3228.0,
         "trajectoire": "en accélération",
         "anciennete_jours": 2,
         "n_evenements_bilateraux": 0,
         "motif_events": "",
         "exemple_evenement": null,
-        "developpements_recents": [
-          {
-            "id": "773722c42f44fe8f",
-            "titre": "Эхуд Ольмерт солидарен с нашими врагами",
-            "url": "https://www.7kanal.co.il/news/292379",
-            "source": "GDELT/7kanal.co.il",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          },
-          {
-            "id": "a5ad5d090681665e",
-            "titre": "Earthquake recorded after Israeli demolition of Lebanon infrastructure",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/earthquake-recorded-after-israel-demolition-lebanon-infrastructure",
-            "source": "GDELT/middleeasteye.net",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          },
-          {
-            "id": "fe9a9e43cb303ce3",
-            "titre": "Froma Harrop : September 11 seems like yesterday in New York City",
-            "url": "https://www.wctrib.com/opinion/columns/froma-harrop-september-11-seems-like-yesterday-in-new-york-city",
-            "source": "GDELT/wctrib.com",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          },
-          {
-            "id": "5e30ec163a177014",
-            "titre": "Drooni uhkasi Zelenskyin lentokonetta – väitteitä salamurhayrityksistä löytyy jo sodan alusta",
-            "url": "https://www.hs.fi/maailma/art-2000012264964.html",
-            "source": "GDELT/hs.fi",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          },
-          {
-            "id": "b2560044e91bc59b",
-            "titre": "Oscar - winning Israeli filmmaker documentary on Gaza war premieres at Venice Film Festival - Las Vegas Sun News",
-            "url": "https://lasvegassun.com/news/2026/sep/10/oscar-winning-israeli-filmmakers-documentary-on-ga/",
-            "source": "GDELT/lasvegassun.com",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          }
-        ],
-        "n_nouveaux_developpements": 5,
-        "nouveaux_developpements": [
-          {
-            "id": "773722c42f44fe8f",
-            "titre": "Эхуд Ольмерт солидарен с нашими врагами",
-            "url": "https://www.7kanal.co.il/news/292379",
-            "source": "GDELT/7kanal.co.il",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          },
-          {
-            "id": "a5ad5d090681665e",
-            "titre": "Earthquake recorded after Israeli demolition of Lebanon infrastructure",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/earthquake-recorded-after-israel-demolition-lebanon-infrastructure",
-            "source": "GDELT/middleeasteye.net",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          },
-          {
-            "id": "fe9a9e43cb303ce3",
-            "titre": "Froma Harrop : September 11 seems like yesterday in New York City",
-            "url": "https://www.wctrib.com/opinion/columns/froma-harrop-september-11-seems-like-yesterday-in-new-york-city",
-            "source": "GDELT/wctrib.com",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          },
-          {
-            "id": "5e30ec163a177014",
-            "titre": "Drooni uhkasi Zelenskyin lentokonetta – väitteitä salamurhayrityksistä löytyy jo sodan alusta",
-            "url": "https://www.hs.fi/maailma/art-2000012264964.html",
-            "source": "GDELT/hs.fi",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          },
-          {
-            "id": "b2560044e91bc59b",
-            "titre": "Oscar - winning Israeli filmmaker documentary on Gaza war premieres at Venice Film Festival - Las Vegas Sun News",
-            "url": "https://lasvegassun.com/news/2026/sep/10/oscar-winning-israeli-filmmakers-documentary-on-ga/",
-            "source": "GDELT/lasvegassun.com",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
-          }
-        ],
-        "etat_actuel": "Couverture à 1.0× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 2 jour(s) consécutif(s). 5 développement(s) nouveau(x) depuis la dernière vérification, dont « Эхуд Ольмерт солидарен с нашими врагами » (GDELT/7kanal.co.il) et 4 autre(s).",
+        "developpements_recents": [],
+        "n_nouveaux_developpements": 0,
+        "nouveaux_developpements": [],
+        "etat_actuel": "Couverture à 1.2× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 2 jour(s) consécutif(s). Aucun article récent trouvé sur ce dossier.",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "maillons": {
@@ -436,7 +413,7 @@
               "libelle": "Intensité de couverture du thème le plus actif",
               "disponible": true,
               "motif": "",
-              "valeur": 1.029465363114734,
+              "valeur": 1.152658408648755,
               "unite_variation": "× la normale",
               "variation": null
             },
@@ -492,7 +469,7 @@
           "motif": "z-score de juste valeur indisponible ou non fiable",
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 1.0× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (3/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre."
+        "invalidation": "Cette lecture s'appuie sur une couverture de 1.2× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (3/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre."
       },
       {
         "id": "iran_etats_unis",
@@ -504,32 +481,104 @@
           "nucléaire iranien",
           "Iran nuclear"
         ],
-        "disponible": false,
-        "motif": "GDELT n'a pas répondu.",
-        "intensite_ratio": null,
-        "volume_24h": null,
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 1.3819437622325834,
+        "volume_24h": 6306.0,
         "trajectoire": "",
         "anciennete_jours": null,
-        "n_evenements_bilateraux": 6,
+        "n_evenements_bilateraux": 5,
         "motif_events": "",
         "exemple_evenement": {
-          "code_evenement": "045",
-          "goldstein": 5.0,
-          "tonalite": -0.66539923954373,
-          "source_url": "https://www.deccanchronicle.com/opinion/columnists/can-india-salvage-a-fractured-brics-1986557"
+          "code_evenement": "030",
+          "goldstein": 4.0,
+          "tonalite": -3.79008746355685,
+          "source_url": "https://www.dailymail.com/news/article-16122039/skies-Lebanon-Israel-blow-Hezbollah-tunnels-magnitude-tremor.html"
         },
-        "developpements_recents": [],
-        "n_nouveaux_developpements": 0,
-        "nouveaux_developpements": [],
-        "etat_actuel": "Aucune mesure disponible pour Iran - États-Unis : GDELT n'a pas répondu..",
+        "developpements_recents": [
+          {
+            "id": "db79137377ac70ec",
+            "titre": "Svi komentari - Stiglo priznanje iz Pentagona : Iran je razneo Bahrein",
+            "url": "https://www.b92.net/svi-komentari/266566",
+            "source": "GDELT/b92.net",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          },
+          {
+            "id": "eb41102c78809220",
+            "titre": "Trump promete 5 mil dólares a estadounidenses si republicanos ganan el Congreso",
+            "url": "https://periodicocorreo.com.mx/nacional/2026/sep/10/trump-promete-5-mil-dolares-a-estadounidenses-si-republicanos-ganan-el-congreso-166430.html",
+            "source": "GDELT/periodicocorreo.com.mx",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          },
+          {
+            "id": "b5396077ef5b32e0",
+            "titre": "Advierten sobre las amenazas reales de la inteligencia artificial",
+            "url": "https://www.ultimahora.com/advierten-sobre-las-amenazas-reales-de-la-inteligencia-artificial",
+            "source": "GDELT/ultimahora.com",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          },
+          {
+            "id": "8ac5174c0781cb45",
+            "titre": "Rubio pledges US wont take unilateral action against drug trafficking despite recent strikes",
+            "url": "https://jamaica-gleaner.com/article/world-news/20260911/rubio-pledges-us-wont-take-unilateral-action-against-drug-trafficking",
+            "source": "GDELT/jamaica-gleaner.com",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          },
+          {
+            "id": "89fac90978354fe6",
+            "titre": "Bharat Mandapam lights up as Delhi gears up to host BRICS Summit 2026",
+            "url": "http://www.afghanistannews.net/news/279299438/bharat-mandapam-lights-up-as-delhi-gears-up-to-host-brics-summit-2026",
+            "source": "GDELT/afghanistannews.net",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          }
+        ],
+        "n_nouveaux_developpements": 5,
+        "nouveaux_developpements": [
+          {
+            "id": "db79137377ac70ec",
+            "titre": "Svi komentari - Stiglo priznanje iz Pentagona : Iran je razneo Bahrein",
+            "url": "https://www.b92.net/svi-komentari/266566",
+            "source": "GDELT/b92.net",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          },
+          {
+            "id": "eb41102c78809220",
+            "titre": "Trump promete 5 mil dólares a estadounidenses si republicanos ganan el Congreso",
+            "url": "https://periodicocorreo.com.mx/nacional/2026/sep/10/trump-promete-5-mil-dolares-a-estadounidenses-si-republicanos-ganan-el-congreso-166430.html",
+            "source": "GDELT/periodicocorreo.com.mx",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          },
+          {
+            "id": "b5396077ef5b32e0",
+            "titre": "Advierten sobre las amenazas reales de la inteligencia artificial",
+            "url": "https://www.ultimahora.com/advierten-sobre-las-amenazas-reales-de-la-inteligencia-artificial",
+            "source": "GDELT/ultimahora.com",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          },
+          {
+            "id": "8ac5174c0781cb45",
+            "titre": "Rubio pledges US wont take unilateral action against drug trafficking despite recent strikes",
+            "url": "https://jamaica-gleaner.com/article/world-news/20260911/rubio-pledges-us-wont-take-unilateral-action-against-drug-trafficking",
+            "source": "GDELT/jamaica-gleaner.com",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          },
+          {
+            "id": "89fac90978354fe6",
+            "titre": "Bharat Mandapam lights up as Delhi gears up to host BRICS Summit 2026",
+            "url": "http://www.afghanistannews.net/news/279299438/bharat-mandapam-lights-up-as-delhi-gears-up-to-host-brics-summit-2026",
+            "source": "GDELT/afghanistannews.net",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
+          }
+        ],
+        "etat_actuel": "Couverture à 1.4× sa moyenne sur 30 jours, trajectoire non qualifiée. 5 développement(s) nouveau(x) depuis la dernière vérification, dont « Svi komentari - Stiglo priznanje iz Pentagona : Iran je razneo Bahrein » (GDELT/b92.net) et 4 autre(s).",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "maillons": {
             "1_evenement": {
               "libelle": "Intensité de couverture du thème le plus actif",
-              "disponible": false,
-              "motif": "aucun thème mesurable",
-              "valeur": null,
+              "disponible": true,
+              "motif": "",
+              "valeur": 1.3819437622325834,
               "unite_variation": "× la normale",
               "variation": null
             },
@@ -585,7 +634,7 @@
           "motif": "z-score de juste valeur indisponible ou non fiable",
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
-        "invalidation": "Sans mesure de couverture, aucune invalidation ne peut être formulée."
+        "invalidation": "Cette lecture s'appuie sur une couverture de 1.4× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (3/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre."
       },
       {
         "id": "russie_ukraine",
@@ -603,87 +652,82 @@
         "volume_24h": null,
         "trajectoire": "",
         "anciennete_jours": null,
-        "n_evenements_bilateraux": 20,
+        "n_evenements_bilateraux": 0,
         "motif_events": "",
-        "exemple_evenement": {
-          "code_evenement": "043",
-          "goldstein": 2.8,
-          "tonalite": -0.4040404040404,
-          "source_url": "https://news.az/news/ukraines-zelenskyy-arrives-in-canada-updated"
-        },
+        "exemple_evenement": null,
         "developpements_recents": [
           {
-            "id": "bbb2d399243c95ae",
-            "titre": "Zelenskyy visits Canada to seek further military support for Ukraine - Las Vegas Sun News",
-            "url": "https://lasvegassun.com/news/2026/sep/10/zelenskyy-visits-canada-to-seek-further-military-s/",
-            "source": "GDELT/lasvegassun.com",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "df742d0276eabdb2",
+            "titre": "Weve Had Enough : Keith Self Says McKinney Residents Are Fighting Back | News Talk WBAP 820 AM and 93 . 3 FM",
+            "url": "https://www.wbap.com/2026/09/10/weve-had-enough-keith-self-says-mckinney-residents-are-fighting-back/",
+            "source": "GDELT/wbap.com",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           },
           {
-            "id": "bd251bde8fb48e4f",
-            "titre": "Ucraina // Cel puțin patru morți și 60 de răniți într - un atac rusesc asupra unui centru comercial în Pavlograd",
-            "url": "https://www.moldpres.md/rom/externe/ucraina-cel-putin-patru-morti-si-60-de-raniti-intr-un-atac-rusesc-asupra-unui-centru-comercial-in-pavlograd",
-            "source": "GDELT/moldpres.md",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "2fc2c575098e2c6d",
+            "titre": "Достатньо сильно . Зеленський озвучив втрати РФ на фронті",
+            "url": "https://gordonua.com/ukr/section-war/news-dostatno-sylno-zelenskyy-ozvuchyv-vtraty-rf-na-fronti-10-09-2026.html",
+            "source": "GDELT/gordonua.com",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           },
           {
-            "id": "20198c72ec9f8721",
-            "titre": "Ontario premier hopes Republicans lose House and Senate as Trump trade war escalates",
-            "url": "https://www.orlandosentinel.com/2026/09/10/canada-us-tariffs-doug-ford-election-2026/",
-            "source": "GDELT/orlandosentinel.com",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "469d5f0d9d44c140",
+            "titre": "Какие диеты соблюдали на Руси",
+            "url": "https://ekabu.ru/218409-kakie-diety-soblyudali-na-rusi.html",
+            "source": "GDELT/ekabu.ru",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           },
           {
-            "id": "c83685234407333c",
-            "titre": "The Echidna | How I was seduced by a stranger from China | The Rural",
-            "url": "https://www.therural.com.au/story/9347442/the-echidna-how-i-was-seduced-by-a-stranger-from-china/",
-            "source": "GDELT/therural.com.au",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "89fac90978354fe6",
+            "titre": "Bharat Mandapam lights up as Delhi gears up to host BRICS Summit 2026",
+            "url": "http://www.afghanistannews.net/news/279299438/bharat-mandapam-lights-up-as-delhi-gears-up-to-host-brics-summit-2026",
+            "source": "GDELT/afghanistannews.net",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           },
           {
-            "id": "95d97f82330f6fb0",
-            "titre": "Олександр Ревва куди зник - де він зараз , чи підтримав війну уродженець Донецька",
-            "url": "https://news.telegraf.com.ua/ukr/obshhestvo/5949626-prosiv-zupiniti-viynu-i-nazivav-zelenskogo-drugom-de-zaraz-donechchanin-oleksandr-revva-i-shcho-kazhe-pro-viynu",
-            "source": "GDELT/news.telegraf.com.ua",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "f98a0dd349cbf138",
+            "titre": "Щукин вручил удостоверение к ордену Мужества вдове погибшего Героя России Муслима Муслимова",
+            "url": "https://lezgigazet.ru/archives/437461/",
+            "source": "GDELT/lezgigazet.ru",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           }
         ],
         "n_nouveaux_developpements": 5,
         "nouveaux_developpements": [
           {
-            "id": "bbb2d399243c95ae",
-            "titre": "Zelenskyy visits Canada to seek further military support for Ukraine - Las Vegas Sun News",
-            "url": "https://lasvegassun.com/news/2026/sep/10/zelenskyy-visits-canada-to-seek-further-military-s/",
-            "source": "GDELT/lasvegassun.com",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "df742d0276eabdb2",
+            "titre": "Weve Had Enough : Keith Self Says McKinney Residents Are Fighting Back | News Talk WBAP 820 AM and 93 . 3 FM",
+            "url": "https://www.wbap.com/2026/09/10/weve-had-enough-keith-self-says-mckinney-residents-are-fighting-back/",
+            "source": "GDELT/wbap.com",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           },
           {
-            "id": "bd251bde8fb48e4f",
-            "titre": "Ucraina // Cel puțin patru morți și 60 de răniți într - un atac rusesc asupra unui centru comercial în Pavlograd",
-            "url": "https://www.moldpres.md/rom/externe/ucraina-cel-putin-patru-morti-si-60-de-raniti-intr-un-atac-rusesc-asupra-unui-centru-comercial-in-pavlograd",
-            "source": "GDELT/moldpres.md",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "2fc2c575098e2c6d",
+            "titre": "Достатньо сильно . Зеленський озвучив втрати РФ на фронті",
+            "url": "https://gordonua.com/ukr/section-war/news-dostatno-sylno-zelenskyy-ozvuchyv-vtraty-rf-na-fronti-10-09-2026.html",
+            "source": "GDELT/gordonua.com",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           },
           {
-            "id": "20198c72ec9f8721",
-            "titre": "Ontario premier hopes Republicans lose House and Senate as Trump trade war escalates",
-            "url": "https://www.orlandosentinel.com/2026/09/10/canada-us-tariffs-doug-ford-election-2026/",
-            "source": "GDELT/orlandosentinel.com",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "469d5f0d9d44c140",
+            "titre": "Какие диеты соблюдали на Руси",
+            "url": "https://ekabu.ru/218409-kakie-diety-soblyudali-na-rusi.html",
+            "source": "GDELT/ekabu.ru",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           },
           {
-            "id": "c83685234407333c",
-            "titre": "The Echidna | How I was seduced by a stranger from China | The Rural",
-            "url": "https://www.therural.com.au/story/9347442/the-echidna-how-i-was-seduced-by-a-stranger-from-china/",
-            "source": "GDELT/therural.com.au",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "89fac90978354fe6",
+            "titre": "Bharat Mandapam lights up as Delhi gears up to host BRICS Summit 2026",
+            "url": "http://www.afghanistannews.net/news/279299438/bharat-mandapam-lights-up-as-delhi-gears-up-to-host-brics-summit-2026",
+            "source": "GDELT/afghanistannews.net",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           },
           {
-            "id": "95d97f82330f6fb0",
-            "titre": "Олександр Ревва куди зник - де він зараз , чи підтримав війну уродженець Донецька",
-            "url": "https://news.telegraf.com.ua/ukr/obshhestvo/5949626-prosiv-zupiniti-viynu-i-nazivav-zelenskogo-drugom-de-zaraz-donechchanin-oleksandr-revva-i-shcho-kazhe-pro-viynu",
-            "source": "GDELT/news.telegraf.com.ua",
-            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+            "id": "f98a0dd349cbf138",
+            "titre": "Щукин вручил удостоверение к ордену Мужества вдове погибшего Героя России Муслима Муслимова",
+            "url": "https://lezgigazet.ru/archives/437461/",
+            "source": "GDELT/lezgigazet.ru",
+            "horodatage_utc": "2026-09-10T23:00:00+00:00"
           }
         ],
         "etat_actuel": "Aucune mesure disponible pour Russie - Ukraine : GDELT n'a pas répondu..",
@@ -755,16 +799,17 @@
     ],
     "_meta": {
       "source": "GDELT (DOC : narratif et couverture ; Events : activité bilatérale par acteur) + FRED (maillons macro)",
-      "horodatage_collecte_utc": "2026-09-10T21:15:04.160352+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:29:49.283923+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     },
     "synthese": {
-      "texte": "Sur les 3 dossiers suivis, Israël - Gaza est le plus couvert, à 1,0× sa moyenne des trente derniers jours (trajectoire en accélération). 1 dossier(s) voient leur couverture s'intensifier : Israël - Gaza. 5 développement(s) nouveau(x) depuis la dernière vérification. Pour 1 dossier(s), cette chaîne est rompue : la tension ne se transmet pas par les canaux mesurés.",
+      "texte": "Sur les trois dossiers suivis, Iran - États-Unis est le plus couvert, à 1,4× sa moyenne des trente derniers jours, trajectoire non qualifiée : une attention ordinaire, ce qui laisse la demande refuge sans moteur géopolitique net. Les autres dossiers mesurés, Israël - Gaza (en accélération), restent en retrait de celui-ci, ce qui concentre sur un seul sujet ce que la géopolitique peut apporter à la demande refuge. Pour Russie - Ukraine, la couverture n'est pas mesurable ce jour, ce qui laisse leur trajectoire hors de cette lecture. Le dernier relevé d'événements bilatéraux en compte 5 pour Iran - États-Unis, ce qui confirme une activité soutenue entre les deux parties, indépendamment de ce que la presse en dit. Des développements nouveaux sont apparus depuis la dernière vérification (Iran - États-Unis 5 et Russie - Ukraine 5), ce qui renouvelle la matière de ces dossiers et justifie d'en relire la trajectoire. Pour l'ensemble des dossiers, la chaîne pétrole → inflation anticipée → taux réels → or est rompue — les taux réels (+4 points de base) ne vont pas dans le sens attendu —, ce qui signifie que la tension ne se transmet pas par les canaux mesurés : si l'or y réagit, c'est sur la peur, et cela tient rarement longtemps. Savoir si cette prime est déjà payée n'est pas évaluable ce jour, le résidu de juste valeur n'étant pas fiable, ce qui interdit de dire si une escalade aurait encore de la place dans le prix. Ce tableau se lit dans un climat de marché risk-on (score d'appétit pour le risque +0,30) : les investisseurs cherchent le rendement, ce qui détourne des flux de la valeur refuge et rend une prime géopolitique plus difficile à installer dans le prix de l'or.",
       "publiable": true,
       "motif": "",
       "nombres_rejetes": [],
-      "infractions": []
+      "infractions": [],
+      "phrases_sans_consequence": []
     }
   },
   "analogues": {
@@ -1057,17 +1102,17 @@
     ],
     "_meta": {
       "source": "reconstruction interne (juste valeur + COT + FRED)",
-      "horodatage_collecte_utc": "2026-09-10T21:15:04.199839+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:29:49.322483+00:00",
       "date_donnee": "2026-08-11",
       "age_jours": 30
     }
   },
   "biais": {
-    "horodatage_utc": "2026-09-10T21:15:04.200642+00:00",
+    "horodatage_utc": "2026-09-10T23:29:49.323120+00:00",
     "biais": "neutre",
-    "score_composite": 0.0464,
+    "score_composite": 0.0968,
     "conviction": "faible",
-    "conviction_brute": 0.0163,
+    "conviction_brute": 0.0339,
     "concordance": 0.5,
     "couverture_donnees": 0.7,
     "couverture_min_requise": 0.6,
@@ -1135,13 +1180,13 @@
         "nom": "intensite_geopolitique",
         "disponible": true,
         "motif": "",
-        "score": 0.0295,
+        "score": 0.3819,
         "poids_configure": 0.1,
         "poids_effectif": 0.1429,
-        "contribution": 0.0042,
-        "valeur_source": 1.029465363114734,
+        "contribution": 0.0546,
+        "valeur_source": 1.3819437622325834,
         "sens": "directionnel",
-        "commentaire": "Couverture géopolitique à 1.0× la normale, prime pas encore intégrée : soutien possible."
+        "commentaire": "Couverture géopolitique à 1.4× la normale, prime pas encore intégrée : soutien possible."
       },
       {
         "nom": "confirmation_minieres",
@@ -1209,7 +1254,7 @@
     },
     "_meta": {
       "source": "agrégation interne",
-      "horodatage_collecte_utc": "2026-09-10T21:15:04.200684+00:00",
+      "horodatage_collecte_utc": "2026-09-10T23:29:49.323157+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     }
@@ -1258,10 +1303,11 @@
     "toutes_verifiees": false
   },
   "synthese": {
-    "texte": "L'or a varié de +0,8 % sur vingt séances et de +1,6 % sur cinq. L'écart à la juste valeur n'est pas interprétable ce jour : le modèle n'explique que 0,19 de la variance, sous le seuil de 0,50 exigé. Le dossier géopolitique le plus actif est Israël - Gaza, à 1,0× sa couverture habituelle, trajectoire en accélération. Le climat de marché est risk-on (score +0,30), ce qui pèse sur la demande de valeur refuge dans un sens ou dans l'autre. Au total, le biais mécanique ressort neutre (score +0,05, conviction faible), sur 70 % des composantes mesurées.",
+    "texte": "Sur un an, l'or a gagné 21,4 %, mais il a perdu 15,6 % sur six mois, avant de reprendre 3,7 % sur trois mois : la hausse annuelle est acquise de longue date, le semestre a été une correction et le trimestre un rebond partiel, ce qui signifie que la demande est revenue sans avoir effacé le repli. Il se tient ainsi à 46 % de l'intervalle de ses douze derniers mois, à mi-fourchette, ce qui le laisse sans excès dans un sens ni dans l'autre : ni prime d'une hausse à défendre, ni décote d'un actif délaissé. Pendant ce temps, les taux réels ont monté de 60 points de base sur six mois, à 2,46 %, ce qui renchérit la détention d'un actif sans rendement et retire un soutien à l'or. Le dollar s'est affaibli de 1,6 % sur la période, ce qui rend l'or moins cher pour les acheteurs hors dollar et soutient sa demande. Côté positionnement, le net spéculatif se situe au 73e percentile sur cinq ans, en allègement sur la semaine : les gros spéculateurs sont acheteurs sans excès, ce qui ne fait ni levier ni frein sur le prix. Le modèle de juste valeur, sous son seuil de fiabilité ce jour, ne dit pas si ce niveau est cher ou bon marché : la lecture repose sur le positionnement et le contexte. Le dossier géopolitique le plus suivi, Iran - États-Unis, est couvert à 1,4× sa normale, trajectoire non qualifiée : une attention ordinaire, ce qui laisse la demande refuge sans moteur géopolitique net. Le climat de marché mesuré dans le contexte macro est risk-on (score d'appétit pour le risque +0,30) : les investisseurs cherchent le rendement, ce qui détourne des flux de la valeur refuge — l'or doit alors tenir sur ses seuls fondamentaux. C'est le croisement de ces éléments qui donne un biais mécanique neutre (score +0,10, conviction faible, 70 % des composantes mesurées) : la confirmation par les minières (+0,14) et le positionnement spéculatif (-0,10) se compensent, ce qui explique un score proche de zéro. À l'approche de l'échéance « Indice des prix à la consommation (CPI) », cette lecture fondamentale a peu de prise sur les prochaines séances : c'est l'annonce qui décidera du mouvement immédiat.",
     "publiable": true,
     "motif": "",
     "nombres_rejetes": [],
-    "infractions": []
+    "infractions": [],
+    "phrases_sans_consequence": []
   }
 }
