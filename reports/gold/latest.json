@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-10",
-    "horodatage_utc": "2026-09-10T16:12:12.570764+00:00",
+    "horodatage_utc": "2026-09-10T21:15:04.200724+00:00",
     "instrument": "XAUUSD",
     "version_moteur": "2.1",
     "sources_en_echec": [],
@@ -18,7 +18,7 @@
     "variation_20j_pct": 0.7529089664613187,
     "_meta": {
       "source": "GC=F (yfinance)",
-      "horodatage_collecte_utc": "2026-09-10T16:08:39.962778+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:08:59.519932+00:00",
       "date_donnee": "2026-09-09",
       "age_jours": 1
     }
@@ -28,42 +28,42 @@
     "disponible": true,
     "motif": "",
     "prix_observe": 4416.0,
-    "prix_theorique": 3762.9600269105085,
-    "ecart_usd": 653.0399730894915,
-    "ecart_pct": 17.354422274468188,
-    "z_score": 0.5842676158489489,
-    "percentile_historique": 83.07146477445514,
-    "r2": 0.1910170020879841,
+    "prix_theorique": 3768.5882615375986,
+    "ecart_usd": 647.4117384624014,
+    "ecart_pct": 17.17915817628363,
+    "z_score": 0.5788132129528302,
+    "percentile_historique": 83.02078053725292,
+    "r2": 0.19102351541904472,
     "fiable": false,
     "seuil_r2": 0.5,
     "n_observations": 756,
     "coefficients": {
-      "constante": 36.99489235922612,
-      "taux_reel": 0.04771198930172016,
-      "dollar": -6.052405518122214
+      "constante": 36.995138936991175,
+      "taux_reel": 0.047846155487937914,
+      "dollar": -6.0525131218663075
     },
     "contributions": {
       "taux_reel": {
-        "coefficient": 0.04771198930172016,
-        "valeur_courante": 2.43,
-        "contribution_log": 0.020521204287496465,
-        "effet_pct": 2.0733211934206297,
-        "effet_usd": 63.18469129797045
+        "coefficient": 0.047846155487937914,
+        "valeur_courante": 2.46,
+        "contribution_log": 0.022012395952724445,
+        "effet_pct": 2.2256456234602595,
+        "effet_usd": 67.82679504906093
       },
       "dollar": {
-        "coefficient": -6.052405518122214,
+        "coefficient": -6.0525131218663075,
         "valeur_courante": 118.0732,
-        "contribution_log": 0.1903594948852443,
-        "effet_pct": 20.968439485159408,
-        "effet_usd": 639.0154984545044
+        "contribution_log": 0.19036287922463005,
+        "effet_pct": 20.96884888410635,
+        "effet_usd": 639.0279749324193
       }
     },
     "facteur_dominant": "dollar",
-    "lecture": "Le modèle n'explique plus que 19% des mouvements de l'or (seuil 50%) : l'écart de +17.4 % existe mais ne peut pas être interprété comme une prime de risque.",
+    "lecture": "Le modèle n'explique plus que 19% des mouvements de l'or (seuil 50%) : l'écart de +17.2 % existe mais ne peut pas être interprété comme une prime de risque.",
     "unite_prix": "USD par once",
     "_meta": {
       "source": "GC=F (yfinance) + FRED DFII10/DTWEXBGS",
-      "horodatage_collecte_utc": "2026-09-10T16:08:44.763392+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:09:06.126604+00:00",
       "date_donnee": "2026-09-09",
       "age_jours": 1
     }
@@ -84,7 +84,7 @@
     "lecture": "Managed money net à +136,771 contrats, soit le 73e percentile sur 260 semaines : positionnement acheteur nourri, sans être extrême. Donnée vieille de 9 jour(s).",
     "_meta": {
       "source": "api_socrata",
-      "horodatage_collecte_utc": "2026-09-10T16:08:45.452039+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:09:06.843415+00:00",
       "date_donnee": "2026-09-01",
       "age_jours": 9
     }
@@ -92,7 +92,7 @@
   "flux": {
     "_meta": {
       "source": "yfinance + SPDR (tentative)",
-      "horodatage_collecte_utc": "2026-09-10T16:08:47.112888+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:09:08.429295+00:00",
       "date_donnee": null,
       "age_jours": null
     },
@@ -157,10 +157,10 @@
   },
   "calendrier": {
     "disponible": true,
-    "horodatage_calcul_utc": "2026-09-10T16:08:47.113026+00:00",
+    "horodatage_calcul_utc": "2026-09-10T21:09:08.429508+00:00",
     "fenetre_silence_minutes": 120,
     "en_fenetre_de_silence": false,
-    "commentaire": "Prochaine échéance : Indice des prix à la consommation (CPI) dans 20 heure(s).",
+    "commentaire": "Prochaine échéance : Indice des prix à la consommation (CPI) dans 15 heure(s).",
     "avertissement_heures": "FRED ne publie que la date, jamais l'heure. Les heures affichées sont les heures officielles d'usage (fuseau de New York) : elles sont conventionnelles, pas garanties.",
     "horizon_couvert_jusquau": "2027-12-08",
     "n_reunions_a_venir_connues": 11,
@@ -185,8 +185,8 @@
         "horodatage_utc": "2026-09-11T12:30:00+00:00",
         "date": "2026-09-11",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 1221,
-        "jours_restants": 0.85,
+        "minutes_restantes": 920,
+        "jours_restants": 0.64,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 10"
@@ -196,8 +196,8 @@
         "horodatage_utc": "2026-09-16T18:00:00+00:00",
         "date": "2026-09-16",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 8751,
-        "jours_restants": 6.08,
+        "minutes_restantes": 8450,
+        "jours_restants": 5.87,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -207,8 +207,8 @@
         "horodatage_utc": "2026-09-30T12:30:00+00:00",
         "date": "2026-09-30",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 28581,
-        "jours_restants": 19.85,
+        "minutes_restantes": 28280,
+        "jours_restants": 19.64,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 54"
@@ -218,8 +218,8 @@
         "horodatage_utc": "2026-10-02T12:30:00+00:00",
         "date": "2026-10-02",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 31461,
-        "jours_restants": 21.85,
+        "minutes_restantes": 31160,
+        "jours_restants": 21.64,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 50"
@@ -229,8 +229,8 @@
         "horodatage_utc": "2026-10-14T12:30:00+00:00",
         "date": "2026-10-14",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 48741,
-        "jours_restants": 33.85,
+        "minutes_restantes": 48440,
+        "jours_restants": 33.64,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 10"
@@ -240,8 +240,8 @@
         "horodatage_utc": "2026-10-28T18:00:00+00:00",
         "date": "2026-10-28",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 69231,
-        "jours_restants": 48.08,
+        "minutes_restantes": 68930,
+        "jours_restants": 47.87,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -249,7 +249,7 @@
     ],
     "_meta": {
       "source": "FRED releases + FOMC (federalreserve.gov)",
-      "horodatage_collecte_utc": "2026-09-10T16:08:47.947083+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:09:09.618963+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     }
@@ -257,37 +257,37 @@
   "contexte_macro": {
     "disponible": true,
     "motif": "",
-    "texte": "Inflation à 2,6 % sur un an (indice CPI à 332,8), proche de la cible au regard de la cible de 2 % de la Réserve fédérale. Chômage à 4,1 %, en baisse de -0,3 point sur un an, le marché du travail se tend. Pétrole WTI à 91,48 $, +7,9 % sur un mois (en hausse). Courbe quasi plate (0,40 pt) : sortie d'inversion ou fin de cycle, sans direction affirmée. La pente est stable sur trois mois (+0.01 pt). Spread haut rendement à 2,71 %, soit le 20e percentile sur deux ans : complaisance du crédit, peu de prime pour le risque. Liquidité nette à 6737 Md$, en hausse de 12 Md$ (+0.2 %) sur un trimestre : vent porteur pour les actifs risqués. Appétit pour le risque risk-on (les investisseurs cherchent le rendement), sur 3 signal(aux) : VIX à 16,5, 37e percentile sur deux ans ; spread haut rendement à 2,71 %, 20e percentile sur deux ans ; les cycliques surperforment les défensives de 0,2 point(s) sur 21 séances (-1,3 % contre -1,5 %).",
+    "texte": "Inflation à 2,6 % sur un an (indice CPI à 332,8), proche de la cible au regard de la cible de 2 % de la Réserve fédérale. Chômage à 4,1 %, en baisse de -0,3 point sur un an, le marché du travail se tend. Pétrole WTI à 97,26 $, +14,5 % sur un mois (en hausse). Courbe quasi plate (0,39 pt) : sortie d'inversion ou fin de cycle, sans direction affirmée. La pente est stable sur trois mois (-0.01 pt). Spread haut rendement à 2,71 %, soit le 20e percentile sur deux ans : complaisance du crédit, peu de prime pour le risque. Liquidité nette à 6736 Md$, en hausse de 11 Md$ (+0.2 %) sur un trimestre : vent porteur pour les actifs risqués. Appétit pour le risque risk-on (les investisseurs cherchent le rendement), sur 3 signal(aux) : VIX à 16,5, 37e percentile sur deux ans ; spread haut rendement à 2,71 %, 20e percentile sur deux ans ; les cycliques surperforment les défensives de 0,2 point(s) sur 21 séances (-1,3 % contre -1,5 %).",
     "invalidation": "Cette lecture serait invalidée si : un basculement du score d'appétit pour le risque (actuellement +0,30) au-delà de ±0,25 renverserait la lecture « risk-on » ; une inflation repassant le seuil de 3 % (actuellement 2,6 %) changerait la contrainte qui pèse sur la Fed ; un spread haut rendement franchissant le 75e percentile (actuellement au 20e) ferait passer le crédit en régime tendu.",
     "axes_indisponibles": [],
     "dates_series": {
-      "CPIAUCSL": "2026-09-09",
-      "UNRATE": "2026-09-09",
-      "DCOILWTICO": "2026-09-09",
-      "VIXCLS": "2026-09-09",
-      "BAMLH0A0HYM2": "2026-09-09",
-      "T10Y2Y": "2026-09-09"
+      "CPIAUCSL": "2026-09-10",
+      "UNRATE": "2026-09-10",
+      "DCOILWTICO": "2026-09-10",
+      "VIXCLS": "2026-09-10",
+      "BAMLH0A0HYM2": "2026-09-10",
+      "T10Y2Y": "2026-09-10"
     },
-    "date_lecture": "2026-09-09",
+    "date_lecture": "2026-09-10",
     "regime": {
-      "date_lecture": "2026-09-09",
+      "date_lecture": "2026-09-10",
       "axes": {
         "courbe_des_taux": {
-          "valeur": 0.4,
+          "valeur": 0.39,
           "niveau": "plate",
-          "commentaire": "Courbe quasi plate (0,40 pt) : sortie d'inversion ou fin de cycle, sans direction affirmée. La pente est stable sur trois mois (+0.01 pt).",
+          "commentaire": "Courbe quasi plate (0,39 pt) : sortie d'inversion ou fin de cycle, sans direction affirmée. La pente est stable sur trois mois (-0.01 pt).",
           "disponible": true
         },
         "stress_credit": {
-          "valeur": 20.03968253968254,
+          "valeur": 20.238095238095237,
           "niveau": "calme",
           "commentaire": "Spread haut rendement à 2,71 %, soit le 20e percentile sur deux ans : complaisance du crédit, peu de prime pour le risque.",
           "disponible": true
         },
         "liquidite_nette": {
-          "valeur": 6736.772,
+          "valeur": 6735.883,
           "niveau": "en expansion",
-          "commentaire": "Liquidité nette à 6737 Md$, en hausse de 12 Md$ (+0.2 %) sur un trimestre : vent porteur pour les actifs risqués.",
+          "commentaire": "Liquidité nette à 6736 Md$, en hausse de 11 Md$ (+0.2 %) sur un trimestre : vent porteur pour les actifs risqués.",
           "disponible": true
         },
         "inflation": {
@@ -303,13 +303,13 @@
           "disponible": true
         },
         "petrole": {
-          "valeur": 7.915536156659209,
+          "valeur": 14.463928445333663,
           "niveau": "en hausse",
-          "commentaire": "Pétrole WTI à 91,48 $, +7,9 % sur un mois (en hausse).",
+          "commentaire": "Pétrole WTI à 97,26 $, +14,5 % sur un mois (en hausse).",
           "disponible": true
         },
         "appetit_risque": {
-          "valeur": 0.29860997713848964,
+          "valeur": 0.29596447449298696,
           "niveau": "risk-on",
           "commentaire": "Appétit pour le risque risk-on (les investisseurs cherchent le rendement), sur 3 signal(aux) : VIX à 16,5, 37e percentile sur deux ans ; spread haut rendement à 2,71 %, 20e percentile sur deux ans ; les cycliques surperforment les défensives de 0,2 point(s) sur 21 séances (-1,3 % contre -1,5 %).",
           "disponible": true
@@ -318,20 +318,20 @@
     },
     "_meta": {
       "source": "FRED (séries macro) + ETF sectoriels (rotation cyclique/défensif)",
-      "horodatage_collecte_utc": "2026-09-10T16:08:51.012809+00:00",
-      "date_donnee": "2026-09-09",
-      "age_jours": 1
+      "horodatage_collecte_utc": "2026-09-10T21:09:12.757468+00:00",
+      "date_donnee": "2026-09-10",
+      "age_jours": 0
     }
   },
   "geopolitique": {
     "disponible": true,
     "motif": "",
-    "horodatage_utc": "2026-09-10T16:12:12.524345+00:00",
+    "horodatage_utc": "2026-09-10T21:15:04.159089+00:00",
     "source": "GDELT (DOC : narratif et couverture ; Events : activité bilatérale par acteur) + FRED (maillons macro)",
-    "n_dossiers_mesures": 2,
+    "n_dossiers_mesures": 1,
     "n_dossiers_configures": 3,
-    "intensite_max": 0.8257054385666598,
-    "dossier_dominant": "russie_ukraine",
+    "intensite_max": 1.029465363114734,
+    "dossier_dominant": "israel_gaza",
     "dossiers": [
       {
         "id": "israel_gaza",
@@ -346,22 +346,89 @@
         ],
         "disponible": true,
         "motif": "",
-        "intensite_ratio": 0.7977196049942128,
-        "volume_24h": 2234.0,
+        "intensite_ratio": 1.029465363114734,
+        "volume_24h": 2883.0,
         "trajectoire": "en accélération",
-        "anciennete_jours": 0,
-        "n_evenements_bilateraux": 1,
+        "anciennete_jours": 2,
+        "n_evenements_bilateraux": 0,
         "motif_events": "",
-        "exemple_evenement": {
-          "code_evenement": "042",
-          "goldstein": 1.9,
-          "tonalite": -1.8510158013544,
-          "source_url": "https://mishpacha.com/free-to-surrender/"
-        },
-        "developpements_recents": [],
-        "n_nouveaux_developpements": 0,
-        "nouveaux_developpements": [],
-        "etat_actuel": "Couverture à 0.8× sa moyenne sur 30 jours, trajectoire en accélération. Aucun article récent trouvé sur ce dossier.",
+        "exemple_evenement": null,
+        "developpements_recents": [
+          {
+            "id": "773722c42f44fe8f",
+            "titre": "Эхуд Ольмерт солидарен с нашими врагами",
+            "url": "https://www.7kanal.co.il/news/292379",
+            "source": "GDELT/7kanal.co.il",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "a5ad5d090681665e",
+            "titre": "Earthquake recorded after Israeli demolition of Lebanon infrastructure",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/earthquake-recorded-after-israel-demolition-lebanon-infrastructure",
+            "source": "GDELT/middleeasteye.net",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "fe9a9e43cb303ce3",
+            "titre": "Froma Harrop : September 11 seems like yesterday in New York City",
+            "url": "https://www.wctrib.com/opinion/columns/froma-harrop-september-11-seems-like-yesterday-in-new-york-city",
+            "source": "GDELT/wctrib.com",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "5e30ec163a177014",
+            "titre": "Drooni uhkasi Zelenskyin lentokonetta – väitteitä salamurhayrityksistä löytyy jo sodan alusta",
+            "url": "https://www.hs.fi/maailma/art-2000012264964.html",
+            "source": "GDELT/hs.fi",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "b2560044e91bc59b",
+            "titre": "Oscar - winning Israeli filmmaker documentary on Gaza war premieres at Venice Film Festival - Las Vegas Sun News",
+            "url": "https://lasvegassun.com/news/2026/sep/10/oscar-winning-israeli-filmmakers-documentary-on-ga/",
+            "source": "GDELT/lasvegassun.com",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          }
+        ],
+        "n_nouveaux_developpements": 5,
+        "nouveaux_developpements": [
+          {
+            "id": "773722c42f44fe8f",
+            "titre": "Эхуд Ольмерт солидарен с нашими врагами",
+            "url": "https://www.7kanal.co.il/news/292379",
+            "source": "GDELT/7kanal.co.il",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "a5ad5d090681665e",
+            "titre": "Earthquake recorded after Israeli demolition of Lebanon infrastructure",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/earthquake-recorded-after-israel-demolition-lebanon-infrastructure",
+            "source": "GDELT/middleeasteye.net",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "fe9a9e43cb303ce3",
+            "titre": "Froma Harrop : September 11 seems like yesterday in New York City",
+            "url": "https://www.wctrib.com/opinion/columns/froma-harrop-september-11-seems-like-yesterday-in-new-york-city",
+            "source": "GDELT/wctrib.com",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "5e30ec163a177014",
+            "titre": "Drooni uhkasi Zelenskyin lentokonetta – väitteitä salamurhayrityksistä löytyy jo sodan alusta",
+            "url": "https://www.hs.fi/maailma/art-2000012264964.html",
+            "source": "GDELT/hs.fi",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "b2560044e91bc59b",
+            "titre": "Oscar - winning Israeli filmmaker documentary on Gaza war premieres at Venice Film Festival - Las Vegas Sun News",
+            "url": "https://lasvegassun.com/news/2026/sep/10/oscar-winning-israeli-filmmakers-documentary-on-ga/",
+            "source": "GDELT/lasvegassun.com",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          }
+        ],
+        "etat_actuel": "Couverture à 1.0× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 2 jour(s) consécutif(s). 5 développement(s) nouveau(x) depuis la dernière vérification, dont « Эхуд Ольмерт солидарен с нашими врагами » (GDELT/7kanal.co.il) et 4 autre(s).",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "maillons": {
@@ -369,7 +436,7 @@
               "libelle": "Intensité de couverture du thème le plus actif",
               "disponible": true,
               "motif": "",
-              "valeur": 0.7977196049942128,
+              "valeur": 1.029465363114734,
               "unite_variation": "× la normale",
               "variation": null
             },
@@ -377,31 +444,31 @@
               "libelle": "Pétrole brut WTI (DCOILWTICO)",
               "disponible": true,
               "motif": "",
-              "valeur": 91.48,
-              "valeur_precedente": 91.48,
-              "variation": 0.0,
+              "valeur": 97.26,
+              "valeur_precedente": 92.55,
+              "variation": 5.089141004862241,
               "unite_variation": "%",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "3_inflation_anticipee": {
               "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
               "disponible": true,
               "motif": "",
-              "valeur": 2.37,
-              "valeur_precedente": 2.34,
-              "variation": 3.000000000000025,
+              "valeur": 2.4,
+              "valeur_precedente": 2.35,
+              "variation": 4.999999999999982,
               "unite_variation": "points de base",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "4_taux_reels": {
               "libelle": "Taux réel 10 ans (DFII10)",
               "disponible": true,
               "motif": "",
-              "valeur": 2.43,
-              "valeur_precedente": 2.45,
-              "variation": -2.0000000000000018,
+              "valeur": 2.46,
+              "valeur_precedente": 2.42,
+              "variation": 4.0000000000000036,
               "unite_variation": "points de base",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "5_or": {
               "libelle": "Or au comptant",
@@ -417,7 +484,7 @@
           "n_maillons_mesures": 4,
           "n_maillons_conformes": 3,
           "chaine_rompue": true,
-          "commentaire": "Chaîne rompue : 3/4 maillon(s) conformes. Ne suivent pas la direction attendue : Pétrole brut WTI (DCOILWTICO) (+0.00 %)."
+          "commentaire": "Chaîne rompue : 3/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+4.00 points de base)."
         },
         "deja_dans_les_prix": {
           "valeur": null,
@@ -425,7 +492,7 @@
           "motif": "z-score de juste valeur indisponible ou non fiable",
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 0.8× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (3/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre."
+        "invalidation": "Cette lecture s'appuie sur une couverture de 1.0× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (3/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre."
       },
       {
         "id": "iran_etats_unis",
@@ -443,13 +510,13 @@
         "volume_24h": null,
         "trajectoire": "",
         "anciennete_jours": null,
-        "n_evenements_bilateraux": 11,
+        "n_evenements_bilateraux": 6,
         "motif_events": "",
         "exemple_evenement": {
-          "code_evenement": "062",
-          "goldstein": 7.4,
-          "tonalite": -7.01986754966887,
-          "source_url": "https://mishpacha.com/a-year-of-indecision/"
+          "code_evenement": "045",
+          "goldstein": 5.0,
+          "tonalite": -0.66539923954373,
+          "source_url": "https://www.deccanchronicle.com/opinion/columnists/can-india-salvage-a-fractured-brics-1986557"
         },
         "developpements_recents": [],
         "n_nouveaux_developpements": 0,
@@ -470,31 +537,31 @@
               "libelle": "Pétrole brut WTI (DCOILWTICO)",
               "disponible": true,
               "motif": "",
-              "valeur": 91.48,
-              "valeur_precedente": 91.48,
-              "variation": 0.0,
+              "valeur": 97.26,
+              "valeur_precedente": 92.55,
+              "variation": 5.089141004862241,
               "unite_variation": "%",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "3_inflation_anticipee": {
               "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
               "disponible": true,
               "motif": "",
-              "valeur": 2.37,
-              "valeur_precedente": 2.34,
-              "variation": 3.000000000000025,
+              "valeur": 2.4,
+              "valeur_precedente": 2.35,
+              "variation": 4.999999999999982,
               "unite_variation": "points de base",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "4_taux_reels": {
               "libelle": "Taux réel 10 ans (DFII10)",
               "disponible": true,
               "motif": "",
-              "valeur": 2.43,
-              "valeur_precedente": 2.45,
-              "variation": -2.0000000000000018,
+              "valeur": 2.46,
+              "valeur_precedente": 2.42,
+              "variation": 4.0000000000000036,
               "unite_variation": "points de base",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "5_or": {
               "libelle": "Or au comptant",
@@ -510,7 +577,7 @@
           "n_maillons_mesures": 4,
           "n_maillons_conformes": 3,
           "chaine_rompue": true,
-          "commentaire": "Chaîne rompue : 3/4 maillon(s) conformes. Ne suivent pas la direction attendue : Pétrole brut WTI (DCOILWTICO) (+0.00 %)."
+          "commentaire": "Chaîne rompue : 3/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+4.00 points de base)."
         },
         "deja_dans_les_prix": {
           "valeur": null,
@@ -530,32 +597,104 @@
           "Kremlin",
           "Zelensky"
         ],
-        "disponible": true,
-        "motif": "",
-        "intensite_ratio": 0.8257054385666598,
-        "volume_24h": 6363.0,
-        "trajectoire": "en essoufflement",
-        "anciennete_jours": 0,
-        "n_evenements_bilateraux": 9,
+        "disponible": false,
+        "motif": "GDELT n'a pas répondu.",
+        "intensite_ratio": null,
+        "volume_24h": null,
+        "trajectoire": "",
+        "anciennete_jours": null,
+        "n_evenements_bilateraux": 20,
         "motif_events": "",
         "exemple_evenement": {
-          "code_evenement": "040",
-          "goldstein": 1.0,
-          "tonalite": -1.58808933002481,
-          "source_url": "https://www.bankingnews.gr/diethni/articles/898606/trump-offers-deal-of-the-century-to-russia-for-ukraine-truce%20title="
+          "code_evenement": "043",
+          "goldstein": 2.8,
+          "tonalite": -0.4040404040404,
+          "source_url": "https://news.az/news/ukraines-zelenskyy-arrives-in-canada-updated"
         },
-        "developpements_recents": [],
-        "n_nouveaux_developpements": 0,
-        "nouveaux_developpements": [],
-        "etat_actuel": "Couverture à 0.8× sa moyenne sur 30 jours, trajectoire en essoufflement. Aucun article récent trouvé sur ce dossier.",
+        "developpements_recents": [
+          {
+            "id": "bbb2d399243c95ae",
+            "titre": "Zelenskyy visits Canada to seek further military support for Ukraine - Las Vegas Sun News",
+            "url": "https://lasvegassun.com/news/2026/sep/10/zelenskyy-visits-canada-to-seek-further-military-s/",
+            "source": "GDELT/lasvegassun.com",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "bd251bde8fb48e4f",
+            "titre": "Ucraina // Cel puțin patru morți și 60 de răniți într - un atac rusesc asupra unui centru comercial în Pavlograd",
+            "url": "https://www.moldpres.md/rom/externe/ucraina-cel-putin-patru-morti-si-60-de-raniti-intr-un-atac-rusesc-asupra-unui-centru-comercial-in-pavlograd",
+            "source": "GDELT/moldpres.md",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "20198c72ec9f8721",
+            "titre": "Ontario premier hopes Republicans lose House and Senate as Trump trade war escalates",
+            "url": "https://www.orlandosentinel.com/2026/09/10/canada-us-tariffs-doug-ford-election-2026/",
+            "source": "GDELT/orlandosentinel.com",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "c83685234407333c",
+            "titre": "The Echidna | How I was seduced by a stranger from China | The Rural",
+            "url": "https://www.therural.com.au/story/9347442/the-echidna-how-i-was-seduced-by-a-stranger-from-china/",
+            "source": "GDELT/therural.com.au",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "95d97f82330f6fb0",
+            "titre": "Олександр Ревва куди зник - де він зараз , чи підтримав війну уродженець Донецька",
+            "url": "https://news.telegraf.com.ua/ukr/obshhestvo/5949626-prosiv-zupiniti-viynu-i-nazivav-zelenskogo-drugom-de-zaraz-donechchanin-oleksandr-revva-i-shcho-kazhe-pro-viynu",
+            "source": "GDELT/news.telegraf.com.ua",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          }
+        ],
+        "n_nouveaux_developpements": 5,
+        "nouveaux_developpements": [
+          {
+            "id": "bbb2d399243c95ae",
+            "titre": "Zelenskyy visits Canada to seek further military support for Ukraine - Las Vegas Sun News",
+            "url": "https://lasvegassun.com/news/2026/sep/10/zelenskyy-visits-canada-to-seek-further-military-s/",
+            "source": "GDELT/lasvegassun.com",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "bd251bde8fb48e4f",
+            "titre": "Ucraina // Cel puțin patru morți și 60 de răniți într - un atac rusesc asupra unui centru comercial în Pavlograd",
+            "url": "https://www.moldpres.md/rom/externe/ucraina-cel-putin-patru-morti-si-60-de-raniti-intr-un-atac-rusesc-asupra-unui-centru-comercial-in-pavlograd",
+            "source": "GDELT/moldpres.md",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "20198c72ec9f8721",
+            "titre": "Ontario premier hopes Republicans lose House and Senate as Trump trade war escalates",
+            "url": "https://www.orlandosentinel.com/2026/09/10/canada-us-tariffs-doug-ford-election-2026/",
+            "source": "GDELT/orlandosentinel.com",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "c83685234407333c",
+            "titre": "The Echidna | How I was seduced by a stranger from China | The Rural",
+            "url": "https://www.therural.com.au/story/9347442/the-echidna-how-i-was-seduced-by-a-stranger-from-china/",
+            "source": "GDELT/therural.com.au",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          },
+          {
+            "id": "95d97f82330f6fb0",
+            "titre": "Олександр Ревва куди зник - де він зараз , чи підтримав війну уродженець Донецька",
+            "url": "https://news.telegraf.com.ua/ukr/obshhestvo/5949626-prosiv-zupiniti-viynu-i-nazivav-zelenskogo-drugom-de-zaraz-donechchanin-oleksandr-revva-i-shcho-kazhe-pro-viynu",
+            "source": "GDELT/news.telegraf.com.ua",
+            "horodatage_utc": "2026-09-10T20:45:00+00:00"
+          }
+        ],
+        "etat_actuel": "Aucune mesure disponible pour Russie - Ukraine : GDELT n'a pas répondu..",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "maillons": {
             "1_evenement": {
               "libelle": "Intensité de couverture du thème le plus actif",
-              "disponible": true,
-              "motif": "",
-              "valeur": 0.8257054385666598,
+              "disponible": false,
+              "motif": "aucun thème mesurable",
+              "valeur": null,
               "unite_variation": "× la normale",
               "variation": null
             },
@@ -563,31 +702,31 @@
               "libelle": "Pétrole brut WTI (DCOILWTICO)",
               "disponible": true,
               "motif": "",
-              "valeur": 91.48,
-              "valeur_precedente": 91.48,
-              "variation": 0.0,
+              "valeur": 97.26,
+              "valeur_precedente": 92.55,
+              "variation": 5.089141004862241,
               "unite_variation": "%",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "3_inflation_anticipee": {
               "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
               "disponible": true,
               "motif": "",
-              "valeur": 2.37,
-              "valeur_precedente": 2.34,
-              "variation": 3.000000000000025,
+              "valeur": 2.4,
+              "valeur_precedente": 2.35,
+              "variation": 4.999999999999982,
               "unite_variation": "points de base",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "4_taux_reels": {
               "libelle": "Taux réel 10 ans (DFII10)",
               "disponible": true,
               "motif": "",
-              "valeur": 2.43,
-              "valeur_precedente": 2.45,
-              "variation": -2.0000000000000018,
+              "valeur": 2.46,
+              "valeur_precedente": 2.42,
+              "variation": 4.0000000000000036,
               "unite_variation": "points de base",
-              "date": "2026-09-09"
+              "date": "2026-09-10"
             },
             "5_or": {
               "libelle": "Or au comptant",
@@ -603,7 +742,7 @@
           "n_maillons_mesures": 4,
           "n_maillons_conformes": 3,
           "chaine_rompue": true,
-          "commentaire": "Chaîne rompue : 3/4 maillon(s) conformes. Ne suivent pas la direction attendue : Pétrole brut WTI (DCOILWTICO) (+0.00 %)."
+          "commentaire": "Chaîne rompue : 3/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+4.00 points de base)."
         },
         "deja_dans_les_prix": {
           "valeur": null,
@@ -611,14 +750,21 @@
           "motif": "z-score de juste valeur indisponible ou non fiable",
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 0.8× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (3/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre."
+        "invalidation": "Sans mesure de couverture, aucune invalidation ne peut être formulée."
       }
     ],
     "_meta": {
       "source": "GDELT (DOC : narratif et couverture ; Events : activité bilatérale par acteur) + FRED (maillons macro)",
-      "horodatage_collecte_utc": "2026-09-10T16:12:12.524368+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:15:04.160352+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
+    },
+    "synthese": {
+      "texte": "Sur les 3 dossiers suivis, Israël - Gaza est le plus couvert, à 1,0× sa moyenne des trente derniers jours (trajectoire en accélération). 1 dossier(s) voient leur couverture s'intensifier : Israël - Gaza. 5 développement(s) nouveau(x) depuis la dernière vérification. Pour 1 dossier(s), cette chaîne est rompue : la tension ne se transmet pas par les canaux mesurés.",
+      "publiable": true,
+      "motif": "",
+      "nombres_rejetes": [],
+      "infractions": []
     }
   },
   "analogues": {
@@ -640,7 +786,7 @@
     "precedents": [
       {
         "date": "2026-08-04",
-        "distance": 0.1697,
+        "distance": 0.182,
         "etat": {
           "z_fair_value": 0.7946,
           "percentile_cot": 71.1538,
@@ -655,7 +801,7 @@
       },
       {
         "date": "2026-07-14",
-        "distance": 0.3732,
+        "distance": 0.3862,
         "etat": {
           "z_fair_value": 0.9126,
           "percentile_cot": 65.0,
@@ -670,7 +816,7 @@
       },
       {
         "date": "2023-11-28",
-        "distance": 0.4039,
+        "distance": 0.4332,
         "etat": {
           "z_fair_value": 0.8985,
           "percentile_cot": 74.6154,
@@ -685,7 +831,7 @@
       },
       {
         "date": "2026-06-23",
-        "distance": 0.4848,
+        "distance": 0.4985,
         "etat": {
           "z_fair_value": 1.0672,
           "percentile_cot": 63.8462,
@@ -700,7 +846,7 @@
       },
       {
         "date": "2026-06-02",
-        "distance": 0.6985,
+        "distance": 0.7196,
         "etat": {
           "z_fair_value": 1.2291,
           "percentile_cot": 62.3077,
@@ -715,7 +861,7 @@
       },
       {
         "date": "2024-01-08",
-        "distance": 0.7275,
+        "distance": 0.7594,
         "etat": {
           "z_fair_value": 0.8865,
           "percentile_cot": 71.1538,
@@ -730,7 +876,7 @@
       },
       {
         "date": "2025-04-08",
-        "distance": 0.8847,
+        "distance": 0.9039,
         "etat": {
           "z_fair_value": 1.6784,
           "percentile_cot": 75.0,
@@ -745,7 +891,7 @@
       },
       {
         "date": "2023-11-07",
-        "distance": 0.913,
+        "distance": 0.923,
         "etat": {
           "z_fair_value": 0.6613,
           "percentile_cot": 46.1538,
@@ -760,7 +906,7 @@
       },
       {
         "date": "2025-01-13",
-        "distance": 0.9183,
+        "distance": 0.9254,
         "etat": {
           "z_fair_value": 1.6329,
           "percentile_cot": 90.0,
@@ -775,7 +921,7 @@
       },
       {
         "date": "2023-07-18",
-        "distance": 0.934,
+        "distance": 0.9665,
         "etat": {
           "z_fair_value": 0.6927,
           "percentile_cot": 75.3846,
@@ -790,7 +936,7 @@
       },
       {
         "date": "2024-12-19",
-        "distance": 0.9996,
+        "distance": 1.0085,
         "etat": {
           "z_fair_value": 1.7226,
           "percentile_cot": 91.1538,
@@ -805,7 +951,7 @@
       },
       {
         "date": "2023-06-07",
-        "distance": 1.0223,
+        "distance": 1.0523,
         "etat": {
           "z_fair_value": 0.8907,
           "percentile_cot": 61.1538,
@@ -820,7 +966,7 @@
       },
       {
         "date": "2026-03-23",
-        "distance": 1.0437,
+        "distance": 1.0606,
         "etat": {
           "z_fair_value": 1.521,
           "percentile_cot": 52.6923,
@@ -834,23 +980,8 @@
         "drawdown_max_pct": -0.649
       },
       {
-        "date": "2025-08-19",
-        "distance": 1.0821,
-        "etat": {
-          "z_fair_value": 1.9091,
-          "percentile_cot": 77.6923,
-          "regime_taux_reels": 1.95
-        },
-        "rendements_pct": {
-          "1": 0.905,
-          "5": 2.27,
-          "20": 11.118
-        },
-        "drawdown_max_pct": 0.0
-      },
-      {
         "date": "2026-05-12",
-        "distance": 1.0835,
+        "distance": 1.1002,
         "etat": {
           "z_fair_value": 1.4144,
           "percentile_cot": 49.2308,
@@ -862,6 +993,21 @@
           "20": -12.173
         },
         "drawdown_max_pct": -12.173
+      },
+      {
+        "date": "2025-07-31",
+        "distance": 1.1007,
+        "etat": {
+          "z_fair_value": 1.9382,
+          "percentile_cot": 76.9231,
+          "regime_taux_reels": 1.98
+        },
+        "rendements_pct": {
+          "1": 1.655,
+          "5": 3.252,
+          "20": 4.209
+        },
+        "drawdown_max_pct": 0.0
       }
     ],
     "agregation": {
@@ -869,7 +1015,7 @@
         "disponible": true,
         "n_cas": 15,
         "rendement_median_pct": 0.15,
-        "rendement_moyen_pct": 0.341,
+        "rendement_moyen_pct": 0.391,
         "proportion_haussiers": 0.6,
         "pire_pct": -3.38,
         "meilleur_pct": 3.672,
@@ -879,7 +1025,7 @@
         "disponible": true,
         "n_cas": 15,
         "rendement_median_pct": 0.246,
-        "rendement_moyen_pct": 0.797,
+        "rendement_moyen_pct": 0.863,
         "proportion_haussiers": 0.533,
         "pire_pct": -5.103,
         "meilleur_pct": 8.432,
@@ -889,7 +1035,7 @@
         "disponible": true,
         "n_cas": 15,
         "rendement_median_pct": 3.239,
-        "rendement_moyen_pct": 2.731,
+        "rendement_moyen_pct": 2.27,
         "proportion_haussiers": 0.733,
         "pire_pct": -12.173,
         "meilleur_pct": 13.913,
@@ -902,27 +1048,27 @@
       }
     },
     "etat_du_jour": {
-      "z_fair_value": 0.5842676158489489,
+      "z_fair_value": 0.5788132129528302,
       "percentile_cot": 73.46153846153847,
-      "regime_taux_reels": 2.43
+      "regime_taux_reels": 2.46
     },
     "variables_sans_historique": [
       "stress_geopolitique"
     ],
     "_meta": {
       "source": "reconstruction interne (juste valeur + COT + FRED)",
-      "horodatage_collecte_utc": "2026-09-10T16:12:12.569989+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:15:04.199839+00:00",
       "date_donnee": "2026-08-11",
       "age_jours": 30
     }
   },
   "biais": {
-    "horodatage_utc": "2026-09-10T16:12:12.570681+00:00",
+    "horodatage_utc": "2026-09-10T21:15:04.200642+00:00",
     "biais": "neutre",
-    "score_composite": 0.0971,
+    "score_composite": 0.0464,
     "conviction": "faible",
-    "conviction_brute": 0.0243,
-    "concordance": 0.3571,
+    "conviction_brute": 0.0163,
+    "concordance": 0.5,
     "couverture_donnees": 0.7,
     "couverture_min_requise": 0.6,
     "donnees_partielles": false,
@@ -945,7 +1091,7 @@
         "poids_configure": 0.3,
         "poids_effectif": 0.0,
         "contribution": 0.0,
-        "valeur_source": 0.5842676158489489,
+        "valeur_source": 0.5788132129528302,
         "sens": "contrarien",
         "commentaire": ""
       },
@@ -965,23 +1111,23 @@
         "nom": "dynamique_taux_reels",
         "disponible": true,
         "motif": "",
-        "score": -0.05,
+        "score": -0.35,
         "poids_configure": 0.2,
         "poids_effectif": 0.2857,
-        "contribution": -0.0143,
-        "valeur_source": 0.010000000000000231,
+        "contribution": -0.1,
+        "valeur_source": 0.06999999999999984,
         "sens": "directionnel",
-        "commentaire": "Les taux réels montent de 1 points de base sur 20 séances, ce qui alourdit le coût de détention de l'or."
+        "commentaire": "Les taux réels montent de 7 points de base sur 20 séances, ce qui alourdit le coût de détention de l'or."
       },
       {
         "nom": "tendance_dollar",
         "disponible": true,
         "motif": "",
-        "score": 0.4385,
+        "score": 0.4663,
         "poids_configure": 0.15,
         "poids_effectif": 0.2143,
-        "contribution": 0.094,
-        "valeur_source": -0.8770302364296212,
+        "contribution": 0.0999,
+        "valeur_source": -0.9326692665507674,
         "sens": "directionnel",
         "commentaire": "Le dollar s'affaiblit de 0.9 % sur 20 séances, ce qui soutient l'or."
       },
@@ -989,13 +1135,13 @@
         "nom": "intensite_geopolitique",
         "disponible": true,
         "motif": "",
-        "score": -0.1743,
+        "score": 0.0295,
         "poids_configure": 0.1,
         "poids_effectif": 0.1429,
-        "contribution": -0.0249,
-        "valeur_source": 0.8257054385666598,
+        "contribution": 0.0042,
+        "valeur_source": 1.029465363114734,
         "sens": "directionnel",
-        "commentaire": "Couverture géopolitique à 0.8× la normale, rien d'anormal."
+        "commentaire": "Couverture géopolitique à 1.0× la normale, prime pas encore intégrée : soutien possible."
       },
       {
         "nom": "confirmation_minieres",
@@ -1021,7 +1167,7 @@
         "variable": "taux réel 10 ans (DFII10), variation 20 séances",
         "seuil": 0.0,
         "operateur": "change de signe",
-        "lecture": "Le moteur principal s'inverse si les taux réels rebaissent (variation actuelle : +1 points de base)."
+        "lecture": "Le moteur principal s'inverse si les taux réels rebaissent (variation actuelle : +7 points de base)."
       }
     ],
     "precedents_historiques": {
@@ -1029,7 +1175,7 @@
         "disponible": true,
         "n_cas": 15,
         "rendement_median_pct": 0.15,
-        "rendement_moyen_pct": 0.341,
+        "rendement_moyen_pct": 0.391,
         "proportion_haussiers": 0.6,
         "pire_pct": -3.38,
         "meilleur_pct": 3.672,
@@ -1039,7 +1185,7 @@
         "disponible": true,
         "n_cas": 15,
         "rendement_median_pct": 0.246,
-        "rendement_moyen_pct": 0.797,
+        "rendement_moyen_pct": 0.863,
         "proportion_haussiers": 0.533,
         "pire_pct": -5.103,
         "meilleur_pct": 8.432,
@@ -1049,7 +1195,7 @@
         "disponible": true,
         "n_cas": 15,
         "rendement_median_pct": 3.239,
-        "rendement_moyen_pct": 2.731,
+        "rendement_moyen_pct": 2.27,
         "proportion_haussiers": 0.733,
         "pire_pct": -12.173,
         "meilleur_pct": 13.913,
@@ -1063,7 +1209,7 @@
     },
     "_meta": {
       "source": "agrégation interne",
-      "horodatage_collecte_utc": "2026-09-10T16:12:12.570723+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:15:04.200684+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     }
@@ -1071,7 +1217,7 @@
   "explications": {
     "explications": {
       "juste_valeur": {
-        "texte": "L'or ne verse aucun intérêt : le détenir coûte le rendement réel auquel on renonce. Le modèle estime ce que vaudrait l'or si seuls les taux réels et le dollar comptaient, puis mesure l'écart avec le prix observé. Cet écart est la prime payée pour autre chose : risque géopolitique, achats de banques centrales.\n\nLe modèle n'explique plus que 19% des mouvements de l'or (seuil 50%) : l'écart de +17.4 % existe mais ne peut pas être interprété comme une prime de risque.\n\nCet écart dit si le mouvement récent est justifié par les fondamentaux ou s'il repose sur une prime de peur, laquelle peut s'évaporer sans qu'aucun fondamental ne change.\n\nAucun précédent historique exploitable n'accompagne cette métrique : soit la configuration est trop rare, soit la base n'atteint pas le nombre de cas minimal exigé.",
+        "texte": "L'or ne verse aucun intérêt : le détenir coûte le rendement réel auquel on renonce. Le modèle estime ce que vaudrait l'or si seuls les taux réels et le dollar comptaient, puis mesure l'écart avec le prix observé. Cet écart est la prime payée pour autre chose : risque géopolitique, achats de banques centrales.\n\nLe modèle n'explique plus que 19% des mouvements de l'or (seuil 50%) : l'écart de +17.2 % existe mais ne peut pas être interprété comme une prime de risque.\n\nCet écart dit si le mouvement récent est justifié par les fondamentaux ou s'il repose sur une prime de peur, laquelle peut s'évaporer sans qu'aucun fondamental ne change.\n\nAucun précédent historique exploitable n'accompagne cette métrique : soit la configuration est trop rare, soit la base n'atteint pas le nombre de cas minimal exigé.",
         "mode": "gabarit",
         "modele": "",
         "tentatives": 0,
@@ -1110,5 +1256,12 @@
     "n_openai": 0,
     "n_gabarit": 4,
     "toutes_verifiees": false
+  },
+  "synthese": {
+    "texte": "L'or a varié de +0,8 % sur vingt séances et de +1,6 % sur cinq. L'écart à la juste valeur n'est pas interprétable ce jour : le modèle n'explique que 0,19 de la variance, sous le seuil de 0,50 exigé. Le dossier géopolitique le plus actif est Israël - Gaza, à 1,0× sa couverture habituelle, trajectoire en accélération. Le climat de marché est risk-on (score +0,30), ce qui pèse sur la demande de valeur refuge dans un sens ou dans l'autre. Au total, le biais mécanique ressort neutre (score +0,05, conviction faible), sur 70 % des composantes mesurées.",
+    "publiable": true,
+    "motif": "",
+    "nombres_rejetes": [],
+    "infractions": []
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-10",
-    "horodatage_utc": "2026-09-10T16:16:38.116464+00:00",
+    "horodatage_utc": "2026-09-10T21:17:45.029103+00:00",
     "domaine": "positions crypto",
     "version_moteur": "1.0",
     "jetons_suivis": [
@@ -370,19 +370,19 @@
     },
     "_meta": {
       "source": "Coin Metrics (CapMVRVCur) + DefiLlama (offre de stablecoins)",
-      "horodatage_collecte_utc": "2026-09-10T16:16:36.197418+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:17:43.027263+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     }
   },
   "rotation": {
     "disponible": true,
-    "horodatage_utc": "2026-09-10T16:16:38.116341+00:00",
+    "horodatage_utc": "2026-09-10T21:17:45.028960+00:00",
     "dominance_btc": {
       "disponible": true,
       "motif": "",
-      "valeur_pct": 58.523384489188956,
-      "dominance_eth_pct": 11.258150418394596,
+      "valeur_pct": 58.47050584162305,
+      "dominance_eth_pct": 11.321451511289109,
       "variation_30j_points": null,
       "tendance": "",
       "percentile": null,
@@ -397,23 +397,23 @@
       "explication_fiabilite": "La relation entre ce ratio et la rotation vers les alts s'est affaiblie depuis 2024-2025. Une partie de la valeur autrefois captée par la couche de base d'Ethereum se loge désormais dans ses Layer 2, dont les jetons ne sont pas l'ether ; et les flux des ETF spot ont divergé entre bitcoin et ether, ce qui déplace le ratio pour des raisons de collecte institutionnelle sans rapport avec l'appétit pour le risque. Un ratio en hausse ne signale donc plus une rotation avec la fiabilité qu'il avait avant 2024.",
       "disponible": true,
       "motif": "",
-      "valeur": 0.03167134391397786,
-      "variation_30j_pct": 8.170302283973285,
+      "valeur": 0.03185007092129359,
+      "variation_30j_pct": 8.780726472481426,
       "tendance": "en hausse",
-      "percentile": 58.9041095890411,
+      "percentile": 59.726027397260275,
       "fenetre_demandee_jours": 730,
       "fenetre_effective_jours": 365,
       "motif_fenetre": "percentile calculé sur 365 jours au lieu des 730 demandés : l'API gratuite de CoinGecko plafonne son historique à 365 jours",
       "source": "CoinGecko (prix ETH et BTC)",
-      "lecture": "Ratio ETH/BTC à 0.03167, +8.2 % sur 30 jours, 59e percentile sur 365 jours."
+      "lecture": "Ratio ETH/BTC à 0.03185, +8.8 % sur 30 jours, 60e percentile sur 365 jours."
     },
     "largeur_marche": {
       "disponible": true,
       "motif": "",
-      "part_surperformant_btc_pct": 38.0,
+      "part_surperformant_btc_pct": 36.0,
       "n_actifs_panier": 50,
-      "n_surperformants": 19,
-      "performance_btc_pct": 21.2,
+      "n_surperformants": 18,
+      "performance_btc_pct": 21.7,
       "horizon_demande_jours": 90,
       "horizon_effectif_jours": 30,
       "motif_horizon": "horizon ramené à 30 jours : l'API gratuite de CoinGecko ne renseigne pas la variation à 90 jours. Tous les actifs restent comparés sur le même horizon.",
@@ -421,7 +421,7 @@
       "seuil_btc_pct": 25.0,
       "exclusions": "stablecoins, jetons emballés ou mis en jalonnement, bitcoin lui-même",
       "source": "CoinGecko /coins/markets, calcul interne",
-      "lecture": "19 des 50 plus grandes capitalisations (38 %) font mieux que le bitcoin sur 30 jours, lequel varie de +21.2 %."
+      "lecture": "18 des 50 plus grandes capitalisations (36 %) font mieux que le bitcoin sur 30 jours, lequel varie de +21.7 %."
     },
     "indice_externe_recoupement": {
       "disponible": true,
@@ -431,8 +431,8 @@
       "source": "https://www.blockchaincenter.net/altcoin-season-index/",
       "methode_annoncee": "Part des 50 premières capitalisations ayant fait mieux que le bitcoin sur 90 jours ; au-delà de 75, la source parle de saison des altcoins.",
       "fragilite": "Valeur extraite d'une page HTML, sans API. Un changement de mise en page la rendrait indisponible : elle sert de recoupement, pas de source principale.",
-      "ecart_avec_calcul_interne_points": 1.0,
-      "commentaire_ecart": "Le calcul interne donne 38 et la source publique 37, soit +1 point(s) d'écart. Les deux ne mesurent pas exactement la même chose : l'horizon et le panier diffèrent, et l'écart est attendu plutôt qu'anormal."
+      "ecart_avec_calcul_interne_points": -1.0,
+      "commentaire_ecart": "Le calcul interne donne 36 et la source publique 37, soit -1 point(s) d'écart. Les deux ne mesurent pas exactement la même chose : l'horizon et le panier diffèrent, et l'écart est attendu plutôt qu'anormal."
     },
     "synthese": {
       "etat": "indetermine",
@@ -444,7 +444,7 @@
           "mesure": "dominance_btc",
           "vote": null,
           "abstention": true,
-          "valeur": 58.523384489188956,
+          "valeur": 58.47050584162305,
           "variation_30j_points": null,
           "motif_abstention": "3 observation(s) en cache : l'API ne publie pas d'historique de dominance, la profondeur se constitue jour après jour et le percentile apparaîtra à partir de 30 observations."
         },
@@ -452,8 +452,8 @@
           "mesure": "ratio_eth_btc",
           "vote": "rotation_alts",
           "abstention": false,
-          "valeur": 0.03167134391397786,
-          "variation_30j_pct": 8.170302283973285,
+          "valeur": 0.03185007092129359,
+          "variation_30j_pct": 8.780726472481426,
           "fiabilite_historique": "reduite_depuis_2024",
           "poids_reduit": true,
           "motif_abstention": ""
@@ -462,7 +462,7 @@
           "mesure": "largeur_marche",
           "vote": null,
           "abstention": true,
-          "valeur": 38.0,
+          "valeur": 36.0,
           "horizon_effectif_jours": 30,
           "motif_abstention": "part comprise entre 25 % et 75 % : aucun des deux régimes n'est net"
         }
@@ -476,7 +476,7 @@
     "avertissement": "Cet état décrit où va l'argent, pas où il devrait aller. Aucune de ces mesures ne constitue une indication d'achat ou de vente.",
     "_meta": {
       "source": "CoinGecko (dominance, prix, capitalisations) + blockchaincenter",
-      "horodatage_collecte_utc": "2026-09-10T16:16:38.116366+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:17:45.028991+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     }
@@ -507,55 +507,55 @@
           "coingecko_id": "bitcoin",
           "disponible": true,
           "motif": "",
-          "prix_usd": 76963.0,
-          "variation_24h_pct": -2.00894,
-          "variation_7j_pct": -4.1,
-          "variation_30j_pct": 21.2,
-          "capitalisation_usd": 1545632221462.0
+          "prix_usd": 77227.0,
+          "variation_24h_pct": -1.21401,
+          "variation_7j_pct": -5.5,
+          "variation_30j_pct": 21.7,
+          "capitalisation_usd": 1551122898324.0
         },
         {
           "symbole": "ETH",
           "coingecko_id": "ethereum",
           "disponible": true,
           "motif": "",
-          "prix_usd": 2437.58,
-          "variation_24h_pct": -2.02485,
-          "variation_7j_pct": -2.0,
-          "variation_30j_pct": 30.3,
-          "capitalisation_usd": 297501673257.0
+          "prix_usd": 2459.66,
+          "variation_24h_pct": -0.25109,
+          "variation_7j_pct": -2.2,
+          "variation_30j_pct": 30.9,
+          "capitalisation_usd": 300191697778.0
         },
         {
           "symbole": "SOL",
           "coingecko_id": "solana",
           "disponible": true,
           "motif": "",
-          "prix_usd": 99.38,
-          "variation_24h_pct": -3.42667,
-          "variation_7j_pct": -5.1,
-          "variation_30j_pct": 32.5,
-          "capitalisation_usd": 58267610602.0
+          "prix_usd": 99.97,
+          "variation_24h_pct": -2.22548,
+          "variation_7j_pct": -4.9,
+          "variation_30j_pct": 32.4,
+          "capitalisation_usd": 58628422533.0
         },
         {
           "symbole": "DOGE",
           "coingecko_id": "dogecoin",
           "disponible": true,
           "motif": "",
-          "prix_usd": 0.083346,
-          "variation_24h_pct": -6.16725,
-          "variation_7j_pct": -4.7,
-          "variation_30j_pct": 19.4,
-          "capitalisation_usd": 12990813028.0
+          "prix_usd": 0.084138,
+          "variation_24h_pct": -2.91993,
+          "variation_7j_pct": -5.8,
+          "variation_30j_pct": 18.6,
+          "capitalisation_usd": 13118016061.0
         },
         {
           "symbole": "ASTER",
           "coingecko_id": "aster-2",
           "disponible": true,
           "motif": "",
-          "prix_usd": 0.700811,
-          "variation_24h_pct": -5.21838,
-          "variation_7j_pct": -3.6,
-          "variation_30j_pct": 17.2,
-          "capitalisation_usd": 1895629936.0,
+          "prix_usd": 0.705298,
+          "variation_24h_pct": -3.83055,
+          "variation_7j_pct": -3.5,
+          "variation_30j_pct": 16.2,
+          "capitalisation_usd": 1907421272.0,
           "note": "DEX de perpétuels (asterdex.com). Vérifié : ne pas confondre avec astar/ASTR, aster-inu ni astherus-*."
         },
         {
@@ -563,11 +563,11 @@
           "coingecko_id": "kinetiq",
           "disponible": true,
           "motif": "",
-          "prix_usd": 0.198073,
-          "variation_24h_pct": -9.84865,
-          "variation_7j_pct": 2.9,
-          "variation_30j_pct": 107.1,
-          "capitalisation_usd": 55554753.0,
+          "prix_usd": 0.198642,
+          "variation_24h_pct": -9.13136,
+          "variation_7j_pct": 0.3,
+          "variation_30j_pct": 107.3,
+          "capitalisation_usd": 55714991.0,
           "note": "Staking liquide sur Hyperliquid (kinetiq.xyz). Distinct de kinetic-staked-hype (kHYPE)."
         },
         {
@@ -575,11 +575,11 @@
           "coingecko_id": "pons",
           "disponible": true,
           "motif": "",
-          "prix_usd": 0.556769,
-          "variation_24h_pct": -20.3043,
-          "variation_7j_pct": -6.6,
-          "variation_30j_pct": 1065.1,
-          "capitalisation_usd": 396677877.0,
+          "prix_usd": 0.580376,
+          "variation_24h_pct": -9.63319,
+          "variation_7j_pct": -2.9,
+          "variation_30j_pct": 1290.7,
+          "capitalisation_usd": 413497381.0,
           "note": "Token de launchpad memecoin sur Robinhood Chain, lancé mi-juillet 2026. Extrêmement jeune et volatil (variations de plusieurs centaines de % en quelques semaines) : les seuils d'alerte et les hypothèses de régime calibrés sur BTC/ETH n'ont aucun sens ici. Traité à part par modules/crypto/positioning.py.",
           "jeune_et_volatil": true,
           "avertissement": "Jeton récent et très volatil : les repères de régime et les seuils calibrés sur BTC ou ETH ne s'appliquent pas ici."
@@ -589,11 +589,11 @@
           "coingecko_id": "jupiter-exchange-solana",
           "disponible": true,
           "motif": "",
-          "prix_usd": 0.223238,
-          "variation_24h_pct": -9.7731,
-          "variation_7j_pct": -2.8,
-          "variation_30j_pct": 27.9,
-          "capitalisation_usd": 741182735.0,
+          "prix_usd": 0.229709,
+          "variation_24h_pct": -3.80026,
+          "variation_7j_pct": -4.0,
+          "variation_30j_pct": 29.2,
+          "capitalisation_usd": 762098045.0,
           "note": "Jupiter (Solana). Distinct de « jupiter » qui désigne Jupiter Project."
         },
         {
@@ -601,11 +601,11 @@
           "coingecko_id": "bittensor",
           "disponible": true,
           "motif": "",
-          "prix_usd": 238.77,
-          "variation_24h_pct": -7.19167,
-          "variation_7j_pct": 5.6,
-          "variation_30j_pct": 19.8,
-          "capitalisation_usd": 2292910755.0
+          "prix_usd": 240.32,
+          "variation_24h_pct": -5.99273,
+          "variation_7j_pct": 4.3,
+          "variation_30j_pct": 20.9,
+          "capitalisation_usd": 2308125581.0
         },
         {
           "symbole": "LINK",
@@ -613,10 +613,10 @@
           "disponible": true,
           "motif": "",
           "prix_usd": 11.59,
-          "variation_24h_pct": -3.11077,
-          "variation_7j_pct": -1.6,
-          "variation_30j_pct": 35.9,
-          "capitalisation_usd": 8673788761.0
+          "variation_24h_pct": -1.52916,
+          "variation_7j_pct": -2.2,
+          "variation_30j_pct": 34.6,
+          "capitalisation_usd": 8672511667.0
         }
       ],
       "source": "CoinGecko"
@@ -761,9 +761,16 @@
     },
     "_meta": {
       "source": "Binance / Bybit (dérivés) + CoinGecko (positions)",
-      "horodatage_collecte_utc": "2026-09-10T16:16:36.816409+00:00",
+      "horodatage_collecte_utc": "2026-09-10T21:17:43.743733+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 0
     }
+  },
+  "synthese": {
+    "texte": "Côté régimes, le bitcoin en régime accumulation (MVRV 1,47) et l'ether en régime accumulation (MVRV 1,09) — le MVRV rapporte la valeur de marché au prix moyen d'achat réel des détenteurs, et mesure donc une pression vendeuse potentielle, pas une prévision. La rotation entre bitcoin et alternatives est indéterminée sur 1 mesure(s) exploitable(s). Sur les 10 jetons suivis dont le prix est mesuré, 0 progressent sur 24 heures.",
+    "publiable": true,
+    "motif": "",
+    "nombres_rejetes": [],
+    "infractions": []
   }
 }
