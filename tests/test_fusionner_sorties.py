@@ -153,3 +153,15 @@ def test_fusionner_tout_ne_touche_pas_un_fichier_deja_a_jour(tmp_path: Path, mon
     monkeypatch.setattr(fusion, "_version_publiee", lambda ref, c: '{"id": "a"}\n')
 
     assert fusion.fusionner_tout("origin/main", racine=tmp_path) == []
+
+
+# ---------------------------------------------------------------------------
+# Cohérence des chemins
+# ---------------------------------------------------------------------------
+def test_le_fichier_fusionne_par_union_est_celui_que_le_module_ecrit() -> None:
+    """Déplacer l'historique de dominance sans suivre ici réintroduirait le conflit."""
+    from modules.crypto import rotation
+
+    relatif = rotation.CACHE_ROTATION.relative_to(fusion.RACINE).as_posix()
+    assert relatif == fusion.FICHIER_OBSERVATIONS
+    assert relatif.startswith("reports/"), "un journal accumulé se publie avec reports/, jamais depuis config/"

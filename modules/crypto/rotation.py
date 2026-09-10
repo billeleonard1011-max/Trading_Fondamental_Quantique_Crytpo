@@ -79,17 +79,18 @@ _LOG: Final = logging.getLogger(__name__)
 #: calculables avant des mois. C'est une donnée accumulée, pas un cache
 #: d'accélération : la distinction décide de tout.
 #:
-#: Il vit sous ``config/`` pour des raisons historiques, à côté de fichiers
-#: écrits à la main. Cette cohabitation prête à confusion — elle a fait
-#: croire, lors d'un conflit de publication, que le fichier était édité
-#: manuellement. Vérification faite sur son historique git : hormis le commit
-#: qui l'a créé, il n'est écrit que par le workflow. Le conflit venait de
-#: deux exécutions automatiques concurrentes, pas d'une main humaine.
+#: Il vit sous ``reports/crypto/``, avec les autres journaux accumulés par
+#: le workflow (``feed_historique.jsonl``), et non sous ``config/`` : il y a
+#: longtemps côtoyé des fichiers écrits à la main, ce qui a fait croire, lors
+#: d'un conflit de publication, qu'il était édité manuellement. Il ne l'est
+#: jamais — seul le workflow y écrit. ``data/`` n'aurait pas convenu non
+#: plus : ce dossier est ignoré par git parce que reconstructible, tout le
+#: contraire de celui-ci.
 #:
 #: En cas de publication concurrente, il se fusionne par union des dates
 #: (voir scripts/fusionner_sorties.py) : écraser une version perdrait
 #: l'observation de l'autre exécution.
-CACHE_ROTATION: Final = Path(__file__).resolve().parents[2] / "config" / "rotation_cache.json"
+CACHE_ROTATION: Final = Path(__file__).resolve().parents[2] / "reports" / "crypto" / "rotation_historique.json"
 
 #: Deux ans d'observations conservées au maximum.
 MAX_OBSERVATIONS: Final[int] = 760

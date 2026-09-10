@@ -18,7 +18,7 @@ Elles ne se traitent pas de la même façon, et les confondre perd des données 
   donc pas.
 
 * **Les journaux en ajout seul** (``*_historique.jsonl``, et le cache de
-  dominance ``rotation_cache.json``) *accumulent*. Y écraser la version
+  dominance ``rotation_historique.json``) *accumulent*. Y écraser la version
   publiée ferait disparaître les lignes ajoutées par l'exécution concurrente
   — pour les fils, cela veut dire des articles qui perdent leur trace de
   « déjà vu » et resurgissent en nouveauté quelques heures plus tard. Ces
@@ -52,7 +52,7 @@ FICHIERS_JSONL: Final[tuple[str, ...]] = (
 )
 
 #: Cache d'observations quotidiennes accumulées (voir modules/crypto/rotation.py).
-FICHIER_OBSERVATIONS: Final = "config/rotation_cache.json"
+FICHIER_OBSERVATIONS: Final = "reports/crypto/rotation_historique.json"
 
 __all__ = ["fusionner_lignes", "fusionner_observations", "fusionner_tout"]
 
