@@ -1,41 +1,71 @@
 [
   {
-    "id": "f16c8216b4031f78",
+    "id": "0ff0b05609fee442",
     "categorie": "crypto",
-    "titre_affiche": "Algorand names former Chainlink executive William Herkelrath as CEO",
-    "horodatage_utc": "2026-09-09T13:00:00+00:00",
+    "titre_affiche": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
+    "horodatage_utc": "2026-09-10T13:00:00+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/09/algorand-names-former-chainlink-executive-william-herkelrath-as-ceo",
+    "url_source": "https://www.coindesk.com/tech/2026/09/10/crypto-researchers-cut-bitcoin-and-ethereum-quantum-attack-estimate-by-50",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : LINK. Le cours de LINK varie de -2.77823 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
-      "LINK"
+      "BTC",
+      "ETH"
     ],
     "nouveaute": true
   },
   {
-    "id": "2efa23b3926f624f",
+    "id": "39674e48a1d7a5a8",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoinden ayı piyasasına ters sinyal",
-    "horodatage_utc": "2026-09-09T12:30:00+00:00",
-    "source_nom": "GDELT/haberler.com",
-    "url_source": "https://www.haberler.com/kripto-para/bitcoinden-ayi-piyasasina-ters-sinyal-20222329-haberi/",
+    "titre_affiche": "Researchers halve quantum resource benchmark for key operation in Bitcoin, Ethereum attack",
+    "horodatage_utc": "2026-09-10T13:00:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/ecosystems/2026-09-10-researchers-halve-quantum-resource-benchmark-for-key-operation-in-bitcoin-ethereum-attack-414121",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/haberler.com. Elle mentionne : BTC. Le cours de BTC varie de -0.73208 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC, ETH. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "f0c3a9dbb32d6221",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin traders dial down bullish plays ahead of U.S. inflation data",
+    "horodatage_utc": "2026-09-10T11:15:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/09/10/bitcoin-traders-dial-down-bullish-plays-ahead-of-u-s-inflation-data",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "nouveaute": true
   },
   {
-    "id": "476339dd60fb8434",
+    "id": "95918917ed6f4542",
     "categorie": "crypto",
-    "titre_affiche": "XRP , Bitcoin , Ethereum and Solana Are All Up More Than 20 % in a Month and Still Down for the Year . Which Recovers First ?",
-    "horodatage_utc": "2026-09-09T12:30:00+00:00",
-    "source_nom": "GDELT/finance.yahoo.com",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/xrp-bitcoin-ethereum-solana-more-120014287.html",
+    "titre_affiche": "Bitcoin Hodlers Selling Les As Sell - Side Risk Returns To Lows",
+    "horodatage_utc": "2026-09-10T11:00:00+00:00",
+    "source_nom": "GDELT/cointelegraph.com",
+    "url_source": "https://cointelegraph.com/markets/bitcoin-sell-side-risk-returns-rare-lows-fade",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC, ETH, SOL. Le cours de BTC varie de -0.73208 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par GDELT/cointelegraph.com. Elle mentionne : BTC. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "0e5bba26ea142ede",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETF Outflows Reach $167M as Ether and Solana ETFs Rebound",
+    "horodatage_utc": "2026-09-10T11:00:00+00:00",
+    "source_nom": "GDELT/cointelegraph.com",
+    "url_source": "https://cointelegraph.com/markets/bitcoin-etfs-shed-167m-after-strongest-three-week-inflow-run-of-2026",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/cointelegraph.com. Elle mentionne : BTC, ETH, SOL. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH",
@@ -44,257 +74,188 @@
     "nouveaute": true
   },
   {
-    "id": "5a944d7c53496071",
+    "id": "19289d8c2c7548f8",
     "categorie": "crypto",
-    "titre_affiche": "Crypto mystery : Who moved 600 Bitcoins from 2010 ?",
-    "horodatage_utc": "2026-09-09T12:30:00+00:00",
-    "source_nom": "GDELT/jpost.com",
-    "url_source": "http://www.jpost.com/business-and-innovation/tech-and-start-ups/article-908108",
+    "titre_affiche": "Coinbase CEO Brian Armstrong says bitcoin has bottomed for current cycle, expects uptrend over next two years",
+    "horodatage_utc": "2026-09-10T10:31:54+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-10-coinbase-ceo-brian-armstrong-says-bitcoin-has-bottomed-for-current-cycle-expects-uptrend-over-next-two-years-414104",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/jpost.com. Elle mentionne : BTC. Le cours de BTC varie de -0.73208 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "nouveaute": true
   },
   {
-    "id": "94330b4276bcc7b8",
+    "id": "300b0ed936001c93",
     "categorie": "crypto",
-    "titre_affiche": "RSK Smart Bitcoin ( RBTC ) Price Up 3 . 5 % Over Last 7 Days",
-    "horodatage_utc": "2026-09-09T12:15:00+00:00",
+    "titre_affiche": "Bitcoin trades near $78,000 as memecoins, small caps lead a broad crypto retreat",
+    "horodatage_utc": "2026-09-10T10:24:14+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/10/bitcoin-trades-near-usd78-000-as-memecoins-small-caps-lead-a-broad-crypto-retreat",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "707f8642422c189e",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Recovery Momentum Faces Resistance Near $86K",
+    "horodatage_utc": "2026-09-10T10:15:00+00:00",
+    "source_nom": "GDELT/dailyforex.com",
+    "url_source": "https://www.dailyforex.com/forex-technical-analysis/2026/09/bitcoin-forecast-9-september-2026/249542",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailyforex.com. Elle mentionne : BTC. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "a809c26dd1dbcd64",
+    "categorie": "crypto",
+    "titre_affiche": "Bienville Capital Management LLC Sells 117 , 877 Shares of iShares Bitcoin Trust ETF $IBIT",
+    "horodatage_utc": "2026-09-10T08:30:00+00:00",
     "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/09/09/rsk-smart-bitcoin-rbtc-price-up-3-5-over-last-7-days.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : BTC. Le cours de BTC varie de -0.73208 % sur les dernières 24 heures.",
+    "url_source": "https://www.themarketsdaily.com/2026/09/10/bienville-capital-management-llc-sells-117877-shares-of-ishares-bitcoin-trust-etf-ibit.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "nouveaute": true
   },
   {
-    "id": "e5cfbadd2faad1a6",
+    "id": "c92f71d9df0d21d4",
     "categorie": "crypto",
-    "titre_affiche": "Germany moves to tax bitcoin like stocks as new draft bill targets tax-free gains",
-    "horodatage_utc": "2026-09-09T12:13:59+00:00",
+    "titre_affiche": "Live updates: Bitcoin slumps as ECB hikes rates and U.S. core PPI eases, but remains hot",
+    "horodatage_utc": "2026-09-10T07:45:46+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/09/germany-moves-to-tax-bitcoin-like-stocks-as-new-draft-bill-targets-tax-free-gains",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de -0.73208 % sur les dernières 24 heures.",
+    "url_source": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "nouveaute": true
   },
   {
-    "id": "6b38db9d1cad9945",
+    "id": "a8569439750a3788",
     "categorie": "crypto",
-    "titre_affiche": "Ethereum RWA Ecosystem 2026 : Why $17 . 7B Is Only Half the Story",
-    "horodatage_utc": "2026-09-09T11:00:00+00:00",
-    "source_nom": "GDELT/memeburn.com",
-    "url_source": "https://memeburn.com/ethereum-rwa-ecosystem-2026-why-17-7b-is-only-half-the-story/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/memeburn.com. Elle mentionne : ETH. Le cours de ETH varie de -0.09038 % sur les dernières 24 heures.",
+    "titre_affiche": "SGX's bitcoin and ether perpetual futures are now open to U.S. institutions",
+    "horodatage_utc": "2026-09-10T07:01:44+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/10/sgx-s-bitcoin-and-ether-perpetual-futures-are-now-open-to-u-s-institutions",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "bdf7d2db55b89ab7",
+    "categorie": "crypto",
+    "titre_affiche": "Dogecoin sinks 5% to lead majors' losses, with bitcoin holding $78,000 level",
+    "horodatage_utc": "2026-09-10T05:30:15+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/10/dogecoin-sinks-5-to-lead-majors-losses-with-bitcoin-holding-usd78-000-level",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "DOGE"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "a276d043a1db5cfd",
+    "categorie": "crypto",
+    "titre_affiche": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
+    "horodatage_utc": "2026-09-09T17:56:26+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "7b89489494f707b4",
+    "categorie": "crypto",
+    "titre_affiche": "Bittensor Commons Announces Exploit Summit , A Two - Day Decentralized AI Conference in Montreal , September 28 - 29 , 2026",
+    "horodatage_utc": "2026-09-09T17:45:00+00:00",
+    "source_nom": "GDELT/standard-freeholder.com",
+    "url_source": "https://www.standard-freeholder.com/press-releases/newsfile/bittensor-commons-announces-exploit-summit-a-two-day-decentralized-ai-conference-in-montreal-september-28-29-2026/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "TAO"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "967614b6cdfed939",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin miners are missing the crypto rally as exchanges, stablecoins surge",
+    "horodatage_utc": "2026-09-09T17:36:02+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-09-bitcoin-miners-are-missing-the-crypto-rally-as-exchanges-stablecoins-surge-413848",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "44a3492b762113dd",
+    "categorie": "crypto",
+    "titre_affiche": "BrandingBuzz . Agency : Bittensor Commons Announces Exploit Summit , A Two - Day Decentralized AI Conference in Montreal , September 28 - 29 , 2026",
+    "horodatage_utc": "2026-09-09T16:45:00+00:00",
+    "source_nom": "GDELT/finanznachrichten.de",
+    "url_source": "https://www.finanznachrichten.de/nachrichten-2026-09/69536611-brandingbuzz-agency-bittensor-commons-announces-exploit-summit-a-two-day-decentralized-ai-conference-in-montreal-september-28-29-2026-296.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "TAO"
+    ],
+    "nouveaute": true
+  },
+  {
+    "id": "20e170a621f97eeb",
+    "categorie": "crypto",
+    "titre_affiche": "Tether pushes into private credit with $400 million fund with Fasanara",
+    "horodatage_utc": "2026-09-09T15:51:25+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "nouveaute": true
   },
   {
-    "id": "6d0aae75df7314c6",
+    "id": "58d530fc80bd5e55",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin climbs as oil tops $100, equities drop after Iran strikes",
-    "horodatage_utc": "2026-09-09T10:47:23+00:00",
+    "titre_affiche": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
+    "horodatage_utc": "2026-09-09T15:30:00+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/09/bitcoin-climbs-as-oil-tops-usd100-equities-drop-after-iran-strikes",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de -0.73208 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "ce3093f2d8224f30",
-    "categorie": "crypto",
-    "titre_affiche": "Solana Price Prediction : SOL Poised Hit $120 After Transaction",
-    "horodatage_utc": "2026-09-09T10:30:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4625927/solana-price-prediction-sol-poised-hit-120-after-transaction",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "b9169845d1ee5b2a",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin climbs past $79,000 as Brent Crude tops $100 for first time since July",
-    "horodatage_utc": "2026-09-09T07:20:51+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "bd0a43a568b4eb55",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin recovers toward $79,000 as Zcash records a $500 million ETF haul",
-    "horodatage_utc": "2026-09-09T04:35:55+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/09/bitcoin-recovers-toward-usd79-000-as-zcash-records-a-usd500-million-etf-haul",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "5fae9ddb668a1505",
-    "categorie": "crypto",
-    "titre_affiche": "On the Chain : Bitcoin slips below US$79 , 000 as rate fears return",
-    "horodatage_utc": "2026-09-09T04:30:00+00:00",
-    "source_nom": "GDELT/proactiveinvestors.com.au",
-    "url_source": "https://www.proactiveinvestors.com.au/companies/news/1098252/on-the-chain-bitcoin-slips-below-us-79-000-as-rate-fears-return-1098252.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "b571d87f6eb516da",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Starts the Week Flat , But Chainlink Is Flying Here Why",
-    "horodatage_utc": "2026-09-09T03:30:00+00:00",
-    "source_nom": "GDELT/finance.yahoo.com",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-starts-week-flat-chainlink-154234766.html",
+    "url_source": "https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
-      "LINK"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "3bc2589472598ed8",
-    "categorie": "crypto",
-    "titre_affiche": "Crypto Market Today , Sept . 8 : Bitcoin Slides as Fed Hike Odds Pass 60 %",
-    "horodatage_utc": "2026-09-08T23:15:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/coverage/stock-market-today/2026/09/08/crypto-market-today-sept-8-bitcoin-slides-as-fed-hike-odds-pass-60/?source=iedfolrf0000001",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "71c528586434eeea",
-    "categorie": "crypto",
-    "titre_affiche": "Best Crypto To Buy Now : Bitcoin Stalls Near $80K as AlphaPepe",
-    "horodatage_utc": "2026-09-08T22:00:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4625504/best-crypto-to-buy-now-bitcoin-stalls-near-80k-as-alphapepe",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "3813ef3e8e61eae4",
-    "categorie": "crypto",
-    "titre_affiche": "Solana Is Up 36 % in a Month , ETH Is Up 29 %, XRP Is Up 35 % and Bitcoin Is Up Only 20 %. Which Gain Actually Holds ?",
-    "horodatage_utc": "2026-09-08T22:00:00+00:00",
-    "source_nom": "GDELT/247wallst.com",
-    "url_source": "https://247wallst.com/investing/cryptocurrency/2026/09/08/solana-is-up-36-in-a-month-eth-is-up-29-xrp-is-up-35-and-bitcoin-is-up-only-20-which-gain-actually-holds/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "SOL"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "2e5ebb99821624e1",
-    "categorie": "crypto",
-    "titre_affiche": "DeFi Development closes Strategy-style $11 million CHAD offering to grow Solana treasury",
-    "horodatage_utc": "2026-09-08T18:33:27+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-08-defi-development-closes-strategy-style-11-million-chad-offering-grow-solana-treasury-413892",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "1d7ef6328a2cd041",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Price Prediction : We Asked ChatGPT if BTC Can Reclaim $87 , 500 by December 31",
-    "horodatage_utc": "2026-09-08T17:15:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/bitcoin-price-prediction-asked-chatgpt-163748000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "43b37f154365c80d",
-    "categorie": "crypto",
-    "titre_affiche": "Strive adds 1,375 bitcoin as SATA approaches ‘billion-dollar’ milestone",
-    "horodatage_utc": "2026-09-08T15:11:59+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-08-strive-adds-1375-bitcoin-sata-approaches-billion-dollar-milestone-413800",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "06a25e7ba698db05",
-    "categorie": "crypto",
-    "titre_affiche": "Altcoin Open Interest Just Passed Bitcoin for the First Time Since December 2024 . What That Actually Signals",
-    "horodatage_utc": "2026-09-08T14:30:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/altcoin-open-interest-just-passed-133922000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": false
-  },
-  {
-    "id": "b64d540d8463f682",
-    "categorie": "crypto",
-    "titre_affiche": "Bitmine nears 5% of Ethereum supply after buying 28,086 ETH",
-    "horodatage_utc": "2026-09-08T13:51:54+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-08-bitmine-nears-5-of-ethereum-supply-after-buying-28086-eth-413790",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
       "ETH"
     ],
-    "nouveaute": false
+    "nouveaute": true
   }
 ]
