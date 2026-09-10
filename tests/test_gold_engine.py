@@ -142,7 +142,7 @@ def test_theme_installe_mais_prime_faible_nest_pas_deja_paye() -> None:
     resultat = geopolitics._deja_dans_les_prix([theme], z_score_prime=0.2)
 
     assert resultat["valeur"] is False
-    assert "ne les valorise pas encore" in resultat["commentaire"]
+    assert "ne le valorise pas encore" in resultat["commentaire"]
 
 
 def test_sans_z_score_on_refuse_de_conclure() -> None:
@@ -173,7 +173,15 @@ def test_chaine_de_transmission_signale_une_rupture() -> None:
     chaine = geopolitics.chaine_de_transmission(macro_series, prix_or, intensite_max=2.0)
     assert chaine["chaine_rompue"] is True
     assert chaine["n_maillons_conformes"] < chaine["n_maillons_mesures"]
-    assert "4_taux_reels" in chaine["commentaire"]
+    # Le libellé lisible du maillon en rupture apparaît, jamais son
+    # identifiant technique brut — même catégorie de bug que les
+    # identifiants non traduits ailleurs sur le site.
+    assert "Taux réel 10 ans" in chaine["commentaire"]
+    assert "4_taux_reels" not in chaine["commentaire"]
+    # La formulation vague est bannie : le maillon en rupture est cité avec
+    # sa variation mesurée, jamais une affirmation sans chiffre.
+    assert "points de base" in chaine["commentaire"]
+    assert "canaux habituels" not in chaine["commentaire"]
 
     # Les taux se lisent en points de base, jamais en pourcentage.
     assert chaine["maillons"]["4_taux_reels"]["unite_variation"] == "points de base"

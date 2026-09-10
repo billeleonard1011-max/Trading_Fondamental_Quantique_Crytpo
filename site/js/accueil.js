@@ -10,7 +10,7 @@ import { chargerTout, lire } from "./donnees.js";
 import { ABSENT, dateHeure, echapper, heure } from "./format.js";
 import { installerInfobulles, rendrePrix } from "./rendu.js";
 import {
-  rubriqueCrypto, rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
+  installerOngletsGeopolitique, rubriqueCrypto, rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
 } from "./rubriques.js";
 import { rendreFil } from "./fil.js";
 import { construireContexte, demander, suggestions } from "./assistant.js";
@@ -79,7 +79,11 @@ function bandePrix(etat) {
 function rubriques(etat) {
   const blocs = [
     { id: "or", titre: "Or", contenu: rubriqueOr(etat.or), ouvert: true },
-    { id: "geo", titre: "Géopolitique", contenu: rubriqueGeopolitique(etat.or), ouvert: false },
+    {
+      id: "geo", titre: "Géopolitique",
+      contenu: rubriqueGeopolitique(etat.or, lire(etat, "filGeopolitique.donnees", [])),
+      ouvert: false,
+    },
     { id: "quantique", titre: "Quantique", contenu: rubriqueQuantique(etat.quantique), ouvert: false },
     { id: "crypto", titre: "Crypto", contenu: rubriqueCrypto(etat.crypto), ouvert: false },
   ];
@@ -199,6 +203,7 @@ async function demarrer() {
   if (zone) {
     zone.innerHTML = rubriques(etatGlobal);
     installerAccordeon();
+    installerOngletsGeopolitique();
   }
 
   // Trois fils indépendants, un par domaine, fusionnés ici : chaque item

@@ -400,7 +400,7 @@ def test_rapport_complet_survit_a_lechec_des_deux_sources(
 
     from dataio import gold_flows, macro, market, news
     from dataio import cot as cot_io
-    from modules.gold import run as moteur
+    from modules.gold import geopolitics, run as moteur
 
     # --- Toutes les sources externes sont coupées -------------------------
     def _injoignable(*args: Any, **kwargs: Any) -> Any:
@@ -424,6 +424,15 @@ def test_rapport_complet_survit_a_lechec_des_deux_sources(
     monkeypatch.setattr(
         news, "gdelt_intensity", lambda *a, **k: {"disponible": False, "commentaire": "coupé"}
     )
+    # Narratif (GDELT DOC) et activité par acteur (GDELT Events) des dossiers
+    # géopolitiques : deux dépendances réseau propres à la partie B, coupées
+    # comme le reste plutôt qu'oubliées — sans quoi ce test, qui prétend
+    # couper toutes les sources externes, en laisserait deux passer.
+    monkeypatch.setattr(news, "fetch_gdelt", lambda *a, **k: [])
+    monkeypatch.setattr(
+        geopolitics.gdelt_events, "recuperer_dernier_export",
+        lambda *a, **k: ([], "coupé"),
+    )
     # Le cache FOMC pointe vers un fichier qui n'existe pas.
     monkeypatch.setattr(cal, "CACHE_FOMC", tmp_path / "cache_absent.json")
 
@@ -431,7 +440,7 @@ def test_rapport_complet_survit_a_lechec_des_deux_sources(
         "juste_valeur": {"debut_historique": "2024-01-01"},
         "cot": {},
         "calendrier": _CONFIG_CAL,
-        "geopolitique": {"themes": []},
+        "geopolitique": {},
         "analogues": {},
         "biais": {"ponderations": {}},
         "explication": {"activee": False},

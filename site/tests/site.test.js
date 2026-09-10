@@ -26,7 +26,8 @@ import {
   rendrePrecedents, rendrePrix,
 } from "../js/rendu.js";
 import {
-  rubriqueCrypto, rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
+  estLieAUnDossier, normaliserTexteGeo, rubriqueCrypto, rubriqueGeopolitique,
+  rubriqueOr, rubriqueQuantique,
 } from "../js/rubriques.js";
 import { filtrer, rendreFil, rendreVide } from "../js/fil.js";
 import { construireContexte, demander, suggestions } from "../js/assistant.js";
@@ -675,4 +676,121 @@ test("le fil reste rendu même si un signal ancien ne porte pas toutes les varia
   const html = rendreFilAlertes([ancien]);
   assert.match(html, /Sortie par paliers \(C\)/);
   assert.match(html, /Sans objectif/);
+});
+
+// ---------------------------------------------------------------------------
+// 5. Onglet Géopolitique — dossiers de conflits nommés
+// ---------------------------------------------------------------------------
+function dossierExemple(overrides = {}) {
+  return {
+    id: "israel_gaza",
+    nom_affiche: "Israël - Gaza",
+    mots_cles: ["Israël", "Gaza", "Hamas"],
+    disponible: true,
+    motif: "",
+    intensite_ratio: 2.5,
+    volume_24h: 800,
+    trajectoire: "en accélération",
+    anciennete_jours: 3,
+    n_evenements_bilateraux: 4,
+    motif_events: "",
+    exemple_evenement: { code_evenement: "172", goldstein: -5.0, tonalite: -3.3, source_url: "https://exemple.test/ev" },
+    developpements_recents: [
+      { id: "abc123", titre: "Ceasefire talks resume", url: "https://exemple.test/a", source: "Reuters", horodatage_utc: "2026-08-30T10:00:00Z" },
+    ],
+    n_nouveaux_developpements: 1,
+    nouveaux_developpements: [
+      { id: "abc123", titre: "Ceasefire talks resume", url: "https://exemple.test/a", source: "Reuters", horodatage_utc: "2026-08-30T10:00:00Z" },
+    ],
+    etat_actuel: "Couverture à 2.5x sa moyenne, en accélération. 1 développement nouveau.",
+    chaine_de_transmission: {
+      maillons: {
+        "2_petrole": { libelle: "Pétrole brut WTI (DCOILWTICO)", disponible: true, variation: 1.2, unite_variation: "%" },
+        "5_or": { libelle: "Or au comptant", disponible: false, motif: "série absente" },
+      },
+      commentaire: "Chaîne rompue : 1/2 maillon(s) conformes. Ne suivent pas la direction attendue : Or au comptant (série absente).",
+      chaine_rompue: true,
+    },
+    deja_dans_les_prix: { commentaire: "Non. Ni dossier installé ni prime élevée." },
+    invalidation: "Un retour sous 1,0x viderait cette lecture de sa justification.",
+    ...overrides,
+  };
+}
+
+function etatGeoExemple(dossiers) {
+  return {
+    disponible: true,
+    donnees: {
+      geopolitique: {
+        disponible: true, motif: "", source: "GDELT (DOC + Events) + FRED",
+        n_dossiers_mesures: dossiers.length, n_dossiers_configures: dossiers.length,
+        intensite_max: Math.max(...dossiers.map((d) => d.intensite_ratio || 0)),
+        dossier_dominant: dossiers[0].id,
+        dossiers,
+        _meta: { source: "GDELT", age_jours: 0 },
+      },
+    },
+  };
+}
+
+test("normaliserTexteGeo retire les accents et la ponctuation", () => {
+  assert.equal(normaliserTexteGeo("Détroit d'Ormuz !"), "detroit d ormuz");
+  assert.equal(normaliserTexteGeo(""), "");
+  assert.equal(normaliserTexteGeo(null), "");
+});
+
+test("estLieAUnDossier détecte un mot-clé partagé, insensible à la casse et aux accents", () => {
+  const dossiers = [{ mots_cles: ["Israël", "Gaza"] }];
+  assert.ok(estLieAUnDossier("ISRAEL frappe un objectif", dossiers));
+  assert.ok(estLieAUnDossier("Nouvelles tensions à Gaza", dossiers));
+  assert.ok(!estLieAUnDossier("Résultats trimestriels d'une banque", dossiers));
+});
+
+test("rubriqueGeopolitique affiche un onglet par dossier plus un onglet Autres", () => {
+  const etat = etatGeoExemple([dossierExemple(), dossierExemple({ id: "russie_ukraine", nom_affiche: "Russie - Ukraine", mots_cles: ["Russie", "Ukraine"] })]);
+  const { corps } = rubriqueGeopolitique(etat.or ?? etat, []);
+  assert.match(corps, /Israël - Gaza/);
+  assert.match(corps, /Russie - Ukraine/);
+  assert.match(corps, /Autres/);
+  assert.match(corps, /geo-onglet/);
+});
+
+test("rubriqueGeopolitique ne fait apparaître aucun identifiant technique brut", () => {
+  const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple()]).donnees };
+  const { corps } = rubriqueGeopolitique(etat, []);
+  for (const brut of ["2_petrole", "3_inflation_anticipee", "4_taux_reels", "5_or"]) {
+    assert.doesNotMatch(corps, new RegExp(`>${brut}<`), `identifiant technique brut affiché : ${brut}`);
+  }
+  assert.match(corps, /Pétrole brut WTI/);
+  assert.match(corps, /Or au comptant/);
+});
+
+test("rubriqueGeopolitique signale un dossier indisponible avec son motif", () => {
+  const dossier = dossierExemple({ disponible: false, motif: "GDELT indisponible pour ce dossier" });
+  const etat = { disponible: true, donnees: etatGeoExemple([dossier]).donnees };
+  const { corps } = rubriqueGeopolitique(etat, []);
+  assert.match(corps, /GDELT indisponible pour ce dossier/);
+});
+
+test("rubriqueGeopolitique répartit vers 'Autres' ce qui ne relève d'aucun dossier", () => {
+  const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple()]).donnees };
+  const filGeopolitique = [
+    { titre_affiche: "Nouvelle escalade à Gaza", url_source: "https://exemple.test/1", source_nom: "AP", horodatage_utc: "2026-08-30T09:00:00Z" },
+    { titre_affiche: "Sommet économique en Amérique latine", url_source: "https://exemple.test/2", source_nom: "AFP", horodatage_utc: "2026-08-30T08:00:00Z" },
+  ];
+  const { corps } = rubriqueGeopolitique(etat, filGeopolitique);
+  assert.match(corps, /Sommet économique en Amérique latine/);
+});
+
+test("rubriqueGeopolitique affiche l'intensité maximale et le dossier dominant en résumé", () => {
+  const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple()]).donnees };
+  const { resume } = rubriqueGeopolitique(etat, []);
+  assert.match(resume, /2,5×/);
+  assert.match(resume, /Israël - Gaza/);
+});
+
+test("rubriqueGeopolitique reste indisponible explicite quand le bloc geopolitique est absent", () => {
+  const { corps, resume } = rubriqueGeopolitique({ disponible: true, donnees: { geopolitique: { disponible: false, motif: "GDELT hors service" } } }, []);
+  assert.match(corps, /GDELT hors service/);
+  assert.match(resume, /indisponible/);
 });

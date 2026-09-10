@@ -1,0 +1,40 @@
+# Dossiers de conflits suivis par l'onglet Géopolitique (modules/gold/geopolitics.py).
+#
+# Remplace l'ancienne organisation par thèmes économiques abstraits (tensions
+# énergétiques, sanctions...) : l'utilisateur veut suivre des conflits nommés
+# et identifiables dans la durée, pas des scores d'intensité déconnectés de
+# tout narratif. Voir modules/gold/geopolitics.py::analyser_dossiers.
+#
+# Structure pensée pour qu'on en ajoute d'autres facilement (Taiwan-Chine...) :
+# ajouter une entrée ici suffit, rien à changer dans le code.
+#
+#   id             identifiant stable, utilisé dans l'historique persistant
+#                  (reports/gold/geopolitique_historique.jsonl) et par le
+#                  site (onglet par dossier) — ne jamais le renommer une fois
+#                  publié, l'historique en dépend.
+#   nom_affiche    libellé lisible.
+#   acteurs_gdelt  codes CAMEO (base Events de GDELT), pour le signal
+#                  d'activité par acteur — voir dataio/gdelt_events.py.
+#   mots_cles      termes de la requête GDELT DOC (narratif et intensité de
+#                  couverture), combinés en alternative (OR). GDELT indexe
+#                  très majoritairement des sources en anglais : les termes
+#                  français demandés sont gardés (ils captent la couverture
+#                  francophone), complétés par leurs équivalents anglais —
+#                  vérifié par appel réel (voir la vérification B1), des
+#                  mots-clés uniquement français renvoient un mélange de
+#                  langues peu pertinent (arabe, serbe...) faute de terme
+#                  assez spécifique pour le filtrage anglais dominant.
+
+dossiers:
+  - id: israel_gaza
+    nom_affiche: "Israël - Gaza"
+    acteurs_gdelt: ["ISR", "PSE"]
+    mots_cles: ["Israël", "Israel", "Gaza", "Hamas", "Cisjordanie", "West Bank"]
+  - id: iran_etats_unis
+    nom_affiche: "Iran - États-Unis"
+    acteurs_gdelt: ["IRN", "USA"]
+    mots_cles: ["Iran", "détroit d'Ormuz", "strait of Hormuz", "nucléaire iranien", "Iran nuclear"]
+  - id: russie_ukraine
+    nom_affiche: "Russie - Ukraine"
+    acteurs_gdelt: ["RUS", "UKR"]
+    mots_cles: ["Russie", "Russia", "Ukraine", "Kremlin", "Zelensky"]

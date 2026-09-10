@@ -202,54 +202,51 @@ export function rubriqueOr(etat) {
 }
 
 /**
- * Rend la rubrique Géopolitique, tirée du rapport or.
+ * Réduit un texte à une forme comparable : minuscules, sans accent.
  *
- * @param {object} etat État de chargement de la source or.
- * @returns {{resume: string, corps: string, ton: string}} Contenu de la rubrique.
+ * Même normalisation que ``modules.geopolitique.feed._normaliser`` côté
+ * Python — reproduite ici plutôt que partagée, JS et Python ne pouvant pas
+ * exécuter le même code source (voir worker-scanner/README.md pour la même
+ * contrainte, déjà rencontrée pour le scanner en direct).
+ *
+ * @param {string} texte Texte à normaliser.
+ * @returns {string} Le texte en minuscules, sans accent ni ponctuation.
  */
-export function rubriqueGeopolitique(etat) {
-  if (!etat || !etat.disponible) {
-    return {
-      resume: rendreBadge("indisponible", "alerte"),
-      corps: rendreIndisponible(etat ? etat.motif : "rapport non chargé"),
-      ton: "alerte",
-    };
-  }
-  const geo = lire(etat.donnees, "geopolitique", {});
-  if (!geo.disponible) {
-    return {
-      resume: rendreBadge("indisponible", "alerte"),
-      corps: rendreIndisponible(geo.motif),
-      ton: "alerte",
-    };
-  }
+export function normaliserTexteGeo(texte) {
+  return String(texte || "")
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\w\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-  const intensite = geo.intensite_max;
-  const ton = intensite !== null && Number(intensite) >= 2 ? "alerte" : "neutre";
-  const resume = [
-    rendreBadge(
-      intensite === null || intensite === undefined
-        ? "intensité inconnue"
-        : `${nombre(intensite, 1)}× la normale`,
-      ton,
-    ),
-    `<span class="resume-detail">${geo.n_themes_mesures}/${geo.n_themes_configures} thèmes mesurés</span>`,
-  ].join(" ");
+/**
+ * Dit si un titre relève d'un des dossiers de conflit configurés.
+ *
+ * @param {string} titre Titre de l'article.
+ * @param {Array<object>} dossiers Dossiers du rapport, avec leurs ``mots_cles``.
+ * @returns {boolean} ``true`` si un mot-clé d'un dossier apparaît dans le titre.
+ */
+export function estLieAUnDossier(titre, dossiers) {
+  const normalise = normaliserTexteGeo(titre);
+  if (!normalise) return false;
+  return (dossiers || []).some((d) =>
+    (d.mots_cles || []).some((mc) => {
+      const cle = normaliserTexteGeo(mc);
+      return cle && normalise.includes(cle);
+    }),
+  );
+}
 
-  const themes = (geo.themes || [])
-    .map((t) => {
-      if (!t.disponible) {
-        return `<li class="composante--absente"><span>${echapper(t.nom)}</span>
-          <span class="composante-motif">${echapper(t.motif)}</span></li>`;
-      }
-      return `<li><span>${echapper(t.nom)}</span>
-        <span>${t.intensite_ratio === null ? ABSENT : `${nombre(t.intensite_ratio, 1)}×`}</span>
-        <span class="composante-motif">${echapper(t.trajectoire || "trajectoire non mesurée")}</span></li>`;
-    })
-    .join("");
-
-  const chaine = lire(geo, "chaine_de_transmission", {});
-  const maillons = Object.entries(chaine.maillons || {})
+/**
+ * Rend la liste des maillons de la chaîne de transmission d'un dossier.
+ *
+ * @param {object} chaine Bloc ``chaine_de_transmission`` d'un dossier.
+ * @returns {string} HTML de la liste, vide si aucun maillon.
+ */
+function rendreMaillonsDossier(chaine) {
+  const maillons = Object.entries((chaine || {}).maillons || {})
     .map(([cle, m]) => {
       // m.libelle est toujours renseigné par modules/gold/geopolitics.py en
       // pratique ; le repli sur libelle(cle) est défensif pour un maillon
@@ -267,22 +264,180 @@ export function rubriqueGeopolitique(etat) {
       return `<li><span>${etiquette}</span><span>${v}</span></li>`;
     })
     .join("");
+  return maillons ? `<ul class="liste-detail chaine">${maillons}</ul>` : "";
+}
 
-  const deja = lire(geo, "deja_dans_les_prix", {});
+/**
+ * Rend une liste de développements (articles nommés et sourcés).
+ *
+ * @param {Array<object>} items Articles, avec ``titre``, ``url``, ``source``,
+ *   ``horodatage_utc``.
+ * @param {Set<string>} nouveaux Identifiants des items à mettre en évidence
+ *   comme nouveaux depuis la dernière vérification.
+ * @returns {string} HTML de la liste, ou un message explicite si elle est vide.
+ */
+function rendreDeveloppements(items, nouveaux = new Set()) {
+  if (!items || !items.length) {
+    return `<p class="fil-vide">Aucun développement récent trouvé.</p>`;
+  }
+  const lignes = items.map((it) => `
+    <li class="fil-item ${nouveaux.has(it.id) ? "fil-item--nouveau" : ""}">
+      <a href="${echapper(it.url)}" target="_blank" rel="noopener noreferrer">${echapper(it.titre)}</a>
+      <div class="fil-meta"><span>${echapper(it.source || "")}</span>
+        <span>${echapper(dateHeure(it.horodatage_utc))}</span></div>
+    </li>`).join("");
+  return `<ul class="fil-liste">${lignes}</ul>`;
+}
+
+/**
+ * Rend le panneau d'un dossier de conflit.
+ *
+ * @param {object} dossier Dossier mesuré (voir modules/gold/geopolitics.py::Dossier).
+ * @param {object} meta Bloc ``_meta`` du rapport géopolitique, pour l'âge de la donnée.
+ * @param {string} source Source déclarée du bloc géopolitique.
+ * @returns {string} HTML du panneau.
+ */
+function rendreDossierPanneau(dossier, meta, source) {
+  if (!dossier.disponible) {
+    return rendreIndisponible(dossier.motif);
+  }
+  const nouveaux = new Set((dossier.nouveaux_developpements || []).map((n) => n.id));
+  const evenements = dossier.n_evenements_bilateraux === null || dossier.n_evenements_bilateraux === undefined
+    ? `<p class="composante-motif">${echapper(dossier.motif_events || "activité par acteur non mesurée")}</p>`
+    : `<p>${dossier.n_evenements_bilateraux} événement(s) bilatéral(aux) dans le dernier
+        relevé GDELT Events (instantané, pas une tendance).</p>`;
+
+  return rendreTrame({
+    etat: `<p>${echapper(dossier.etat_actuel)}</p>`,
+    changement: `${evenements}${rendreDeveloppements(dossier.developpements_recents, nouveaux)}`,
+    impact: `${rendreMaillonsDossier(dossier.chaine_de_transmission)}
+      <p class="metrique-sens">${echapper((dossier.deja_dans_les_prix || {}).commentaire || "Prime déjà payée : non évaluée.")}</p>`,
+    invalidation: `<p>${echapper(dossier.invalidation)}</p>`,
+    sources: `<ul><li>${echapper(source || ABSENT)}
+      ${rendreAge(meta, CONFIG.seuilsAge.geopolitique)}</li></ul>`,
+  });
+}
+
+/**
+ * Rend le panneau « Autres » : actualités géopolitiques hors des dossiers suivis.
+ *
+ * @param {Array<object>} filGeopolitique Items du fil géopolitique général.
+ * @param {Array<object>} dossiers Dossiers configurés, pour exclure ce qui leur est déjà lié.
+ * @returns {string} HTML du panneau.
+ */
+function rendreAutresPanneau(filGeopolitique, dossiers) {
+  const autres = (filGeopolitique || []).filter(
+    (item) => !estLieAUnDossier(item.titre_affiche || item.titre, dossiers),
+  );
+  if (!autres.length) {
+    return `<p class="fil-vide">Aucune actualité géopolitique hors des dossiers suivis pour l'instant.</p>`;
+  }
+  const lignes = autres.slice(0, 15).map((it) => `
+    <li class="fil-item">
+      <a href="${echapper(it.url_source || it.url || "#")}" target="_blank" rel="noopener noreferrer">
+        ${echapper(it.titre_affiche || it.titre)}</a>
+      <div class="fil-meta"><span>${echapper(it.source_nom || it.source || "")}</span>
+        <span>${echapper(dateHeure(it.horodatage_utc))}</span></div>
+    </li>`).join("");
+  return `<ul class="fil-liste">${lignes}</ul>
+    <p class="metrique-sens">Ne relève d'aucun dossier suivi pour l'or (voir
+    config/geopolitique_dossiers.yaml) — affiché à titre d'information, sans impact chiffré.</p>`;
+}
+
+/**
+ * Rend la rubrique Géopolitique : un onglet par dossier de conflit suivi,
+ * plus un onglet « Autres » pour ce qui n'entre dans aucun dossier configuré.
+ *
+ * Remplace l'ancienne organisation par thèmes économiques abstraits
+ * (tensions énergétiques, sanctions...) : l'utilisateur suit des conflits
+ * nommés dans la durée, pas des scores d'intensité déconnectés de tout
+ * narratif — voir modules/gold/geopolitics.py::analyser_dossiers.
+ *
+ * @param {object} etat État de chargement de la source or.
+ * @param {Array<object>} filGeopolitique Items du fil géopolitique général,
+ *   pour l'onglet « Autres ». Tableau vide si non chargé.
+ * @returns {{resume: string, corps: string, ton: string}} Contenu de la rubrique.
+ */
+export function rubriqueGeopolitique(etat, filGeopolitique = []) {
+  if (!etat || !etat.disponible) {
+    return {
+      resume: rendreBadge("indisponible", "alerte"),
+      corps: rendreIndisponible(etat ? etat.motif : "rapport non chargé"),
+      ton: "alerte",
+    };
+  }
+  const geo = lire(etat.donnees, "geopolitique", {});
+  if (!geo.disponible) {
+    return {
+      resume: rendreBadge("indisponible", "alerte"),
+      corps: rendreIndisponible(geo.motif),
+      ton: "alerte",
+    };
+  }
+
+  const dossiers = geo.dossiers || [];
+  const intensite = geo.intensite_max;
+  const ton = intensite !== null && Number(intensite) >= 2 ? "alerte" : "neutre";
+  const dominant = dossiers.find((d) => d.id === geo.dossier_dominant);
+  const resume = [
+    rendreBadge(
+      intensite === null || intensite === undefined
+        ? "intensité inconnue"
+        : `${nombre(intensite, 1)}× la normale`,
+      ton,
+    ),
+    `<span class="resume-detail">${
+      dominant ? echapper(dominant.nom_affiche) : `${geo.n_dossiers_mesures}/${geo.n_dossiers_configures} dossiers mesurés`
+    }</span>`,
+  ].join(" ");
+
+  const meta = lire(etat.donnees, "geopolitique._meta");
+  const onglets = [
+    ...dossiers.map((d) => ({ id: d.id, libelle: d.nom_affiche })),
+    { id: "autres", libelle: "Autres" },
+  ];
+  const boutonsHtml = onglets
+    .map((o, i) => `<button class="fil-onglet geo-onglet" type="button" role="tab"
+      data-dossier="${echapper(o.id)}" aria-selected="${i === 0}">${echapper(o.libelle)}</button>`)
+    .join("");
+  const panneauxHtml = [
+    ...dossiers.map((d, i) => `<div class="geo-panneau" data-dossier="${echapper(d.id)}" ${i === 0 ? "" : "hidden"}>
+      ${rendreDossierPanneau(d, meta, geo.source)}</div>`),
+    `<div class="geo-panneau" data-dossier="autres" hidden>
+      ${rendreAutresPanneau(filGeopolitique, dossiers)}</div>`,
+  ].join("");
 
   return {
     resume,
-    corps: rendreTrame({
-      etat: `<p>${echapper(geo.theme_dominant || "Aucun thème dominant")} —
-        ${chaine.commentaire ? echapper(chaine.commentaire) : "chaîne non mesurée"}</p>`,
-      changement: themes ? `<ul class="liste-detail">${themes}</ul>` : "",
-      impact: maillons ? `<ul class="liste-detail chaine">${maillons}</ul>` : "",
-      invalidation: `<p>${echapper(deja.commentaire || "Prime déjà payée : non évaluée.")}</p>`,
-      sources: `<ul><li>${echapper(geo.source || ABSENT)}
-        ${rendreAge(lire(etat.donnees, "geopolitique._meta"), CONFIG.seuilsAge.geopolitique)}</li></ul>`,
-    }),
+    corps: `<div class="geo-onglets fil-onglets" id="geo-onglets" role="tablist">${boutonsHtml}</div>
+      <div class="geo-panneaux">${panneauxHtml}</div>`,
     ton,
   };
+}
+
+/**
+ * Installe la bascule entre les onglets de dossiers de la rubrique Géopolitique.
+ *
+ * Même principe que ``installerFil`` (accueil.js) : un seul écouteur posé
+ * une fois, qui bascule la visibilité plutôt que de reconstruire le HTML —
+ * les panneaux sont déjà tous rendus, plus léger à cacher qu'à reconstruire
+ * au clic.
+ */
+export function installerOngletsGeopolitique() {
+  const conteneur = document.getElementById("geo-onglets");
+  if (!conteneur) return;
+  conteneur.addEventListener("click", (evenement) => {
+    const bouton = evenement.target.closest(".geo-onglet");
+    if (!bouton) return;
+    const cible = bouton.dataset.dossier;
+    for (const b of conteneur.querySelectorAll(".geo-onglet")) {
+      b.setAttribute("aria-selected", String(b.dataset.dossier === cible));
+    }
+    const panneaux = conteneur.parentElement.querySelectorAll(".geo-panneau");
+    for (const p of panneaux) {
+      p.hidden = p.dataset.dossier !== cible;
+    }
+  });
 }
 
 /**

@@ -386,18 +386,26 @@ def construire_rapport(
             }
         )
 
-    # --- Géopolitique ------------------------------------------------------
-    _LOG.info("Mesure de l'intensité géopolitique...")
+    # --- Géopolitique (dossiers de conflits nommés) -------------------------
+    _LOG.info("Mesure des dossiers géopolitiques...")
     z_prime = lecture_fv.z_score if (lecture_fv.disponible and lecture_fv.fiable) else None
-    bloc_geo = geopolitics.analyser_geopolitique(
-        cfg_geo,
+    bloc_geo = geopolitics.analyser_dossiers(
         series_macro=series_fred if not series_fred.empty else None,
         prix_or=prix_or if not prix_or.empty else None,
         z_score_prime=z_prime,
+        fenetre=int(cfg_geo.get("fenetre_trajectoire_jours", geopolitics.FENETRE_TRAJECTOIRE)),
+        seuil_acceleration=float(cfg_geo.get("seuil_acceleration", 1.15)),
+        seuil_essoufflement=float(cfg_geo.get("seuil_essoufflement", 0.85)),
     )
     bloc_geo["_meta"] = _meta(bloc_geo.get("source", "GDELT"), jour, jour)
     if not bloc_geo.get("disponible"):
         echecs.append("géopolitique (GDELT)")
+    # bloc_geo["_dossiers_objets"] (objets Dossier, non sérialisables tels
+    # quels) traverse volontairement jusqu'à rapport["geopolitique"] : main()
+    # le retire juste avant publier() et s'en sert pour mettre à jour
+    # l'historique des développements — seulement si le rapport est
+    # réellement publié, jamais sur un essai à blanc (--sans-explication ou
+    # un test qui appelle construire_rapport() sans publier).
 
     # --- Précédents historiques -------------------------------------------
     _LOG.info("Recherche des précédents historiques...")
@@ -585,9 +593,17 @@ def main(argv: list[str] | None = None) -> int:
         avec_explication=not arguments.sans_explication,
     )
 
+    # Retiré avant publication : ce sont des objets Python (geopolitics.Dossier),
+    # pas des données à sérialiser. Conservé le temps de mettre à jour
+    # l'historique des développements géopolitiques, seulement une fois le
+    # rapport effectivement écrit.
+    dossiers_mesures = rapport.get("geopolitique", {}).pop("_dossiers_objets", [])
+
     chemins = publier(rapport)
     if chemins is None:
         return 1
+    if dossiers_mesures:
+        geopolitics.publier_historique_dossiers(dossiers_mesures)
 
     meta = rapport["meta"]
     biais_final = rapport["biais"]

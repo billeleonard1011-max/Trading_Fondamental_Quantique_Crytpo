@@ -416,3 +416,8 @@ button.aide:hover { color: var(--texte); border-color: var(--texte); }
 @media (max-width: 480px) {
   .trading-variantes { grid-template-columns: 1fr; }
 }
+
+/* --- Dossiers géopolitiques (onglets par conflit nommé) -------------------
+ * Réutilise .fil-onglets / .fil-onglet (déjà stylées, déjà theme-aware) :
+ * un onglet par dossier n'a besoin d'aucune règle de couleur propre. */
+.geo-panneaux { margin-top: 4px; }
