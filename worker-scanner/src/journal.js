@@ -135,14 +135,18 @@ export async function insererEntree(db, entree) {
 export async function appliquerResolution(db, resolution) {
   const colStatut = `statut_${resolution.variante}`;
   const colResultat = `resultat_${resolution.variante}_usd`;
+  const colPrixSortie = `prix_sortie_${resolution.variante}`;
   const colHorodatage = `horodatage_resolution_${resolution.variante}`;
 
   await db
     .prepare(
-      `UPDATE journal SET ${colStatut} = ?, ${colResultat} = ?, ${colHorodatage} = ? ` +
+      `UPDATE journal SET ${colStatut} = ?, ${colResultat} = ?, ${colPrixSortie} = ?, ${colHorodatage} = ? ` +
         `WHERE id = ? AND ${colStatut} = 'ouvert'`,
     )
-    .bind(resolution.statut, resolution.resultatUsd, resolution.horodatageResolution, resolution.id)
+    .bind(
+      resolution.statut, resolution.resultatUsd, resolution.prixSortie,
+      resolution.horodatageResolution, resolution.id,
+    )
     .run();
 
   // Horodatage global de résolution : posé une fois que plus aucune

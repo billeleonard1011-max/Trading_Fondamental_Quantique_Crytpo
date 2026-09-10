@@ -1,6 +1,6 @@
 # Configuration du Worker "scanner en direct".
 #
-# Aucun secret ici : ce fichier est versionné. Ni Binance ni Frankfurter ne
+# Aucun secret ici : ce fichier est versionné. Ni Kraken ni Frankfurter ne
 # demandent de clé (vérifié par appel réel, voir README.md).
 #
 # Séparé du Worker existant de l'assistant (../worker/) : deux
@@ -14,9 +14,17 @@ compatibility_date = "2026-01-01"
 # Toutes les minutes. Vérifié faisable sur le plan gratuit (partie 1 de
 # l'étude de faisabilité) : 1440 déclenchements par jour, ~1,4 % du quota de
 # 100 000 requêtes/jour, et le temps CPU (10 ms/invocation) ne compte que le
-# calcul actif — jamais l'attente réseau vers Binance ou Frankfurter.
+# calcul actif — jamais l'attente réseau vers Kraken ou Frankfurter.
 [triggers]
 crons = ["* * * * *"]
+
+# Origine autorisée à interroger la route /journal (onglet Trading du site,
+# partie 4). Même convention que ../worker/wrangler.toml : une variable, pas
+# une valeur codée en dur dans le code, pour que le Worker reste utilisable
+# depuis un environnement de prévisualisation en changeant seulement cette
+# ligne.
+[vars]
+ORIGINE_AUTORISEE = "https://billeleonard1011-max.github.io"
 
 # Base D1 : journal des trades et état persisté du moteur (voir schema.sql).
 # À créer avec « wrangler d1 create scanner-or », puis recopier l'identifiant

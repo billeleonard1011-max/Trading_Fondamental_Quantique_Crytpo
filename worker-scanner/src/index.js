@@ -17,6 +17,68 @@ import { etatInitial, traiterNouvellesBougies } from "./moteur.js";
 import { configExecutionDefaut } from "./execution.js";
 import { chargerEtat, sauvegarderEtat, tauxDuJour, enregistrerTauxDuJour, appliquerEvenements } from "./journal.js";
 import { rendreEvenement } from "./alertes.js";
+import { construireReponseJournal } from "./api.js";
+
+/**
+ * Colonnes lues par la route /journal. Choisies explicitement — plutôt que
+ * `SELECT *` suivi d'un tri — pour que `lots` et `resultat_*_usd` (donnée
+ * de position et de compte) ne soient jamais chargés en mémoire ici, pas
+ * seulement omis à l'affichage. Voir src/api.js et le commentaire de
+ * schema.sql sur `prix_sortie_*`.
+ */
+const COLONNES_JOURNAL_PUBLIQUES = [
+  "id", "horodatage_detection", "timeframe_ob", "ob_haut", "ob_bas", "sens", "timeframe_fvg",
+  "prix_entree", "sl", "tp_a", "tp_b15", "tp_b2", "tp_b3",
+  "statut_a", "statut_b15", "statut_b2", "statut_b3",
+  "prix_sortie_a", "prix_sortie_b15", "prix_sortie_b2", "prix_sortie_b3",
+  "horodatage_resolution_a", "horodatage_resolution_b15", "horodatage_resolution_b2", "horodatage_resolution_b3",
+  "horodatage_resolution",
+].join(", ");
+
+/** Nombre maximal de signaux renvoyés par la route /journal. */
+const LIMITE_JOURNAL = 2000;
+
+/**
+ * En-têtes de partage entre origines pour la route /journal.
+ *
+ * Même convention que worker/src/index.js (l'assistant) : l'origine
+ * autorisée vient d'une variable d'environnement, jamais codée en dur, pour
+ * que le même Worker reste utilisable en local (Pages de prévisualisation,
+ * `wrangler dev`) sans modifier le code.
+ *
+ * @param {string} origineAutorisee Origine autorisée, ou ``*`` si absente.
+ * @returns {object} En-têtes CORS.
+ */
+function entetesCors(origineAutorisee) {
+  return {
+    "Access-Control-Allow-Origin": origineAutorisee || "*",
+    "Access-Control-Allow-Methods": "GET, OPTIONS",
+  };
+}
+
+/**
+ * Gère la route /journal : lit le journal D1 (colonnes publiques
+ * uniquement) et l'état du moteur, et renvoie la charge JSON pour l'onglet
+ * Trading du site.
+ *
+ * @param {object} env Liaisons du Worker (D1 notamment).
+ * @param {object} cors En-têtes CORS à joindre à la réponse.
+ * @returns {Promise<Response>} Réponse JSON.
+ */
+async function repondreJournal(env, cors) {
+  const [{ results: lignes }, etatLigne] = await Promise.all([
+    env.DB.prepare(
+      `SELECT ${COLONNES_JOURNAL_PUBLIQUES} FROM journal ORDER BY horodatage_detection DESC LIMIT ?`,
+    ).bind(LIMITE_JOURNAL).all(),
+    env.DB.prepare("SELECT mise_a_jour FROM etat_moteur WHERE id = 1").first(),
+  ]);
+
+  const charge = construireReponseJournal(lignes, etatLigne ? etatLigne.mise_a_jour : null);
+  return new Response(JSON.stringify(charge), {
+    status: 200,
+    headers: { "Content-Type": "application/json; charset=utf-8", ...cors },
+  });
+}
 
 /**
  * Fenêtre glissante de bougies M1 conservées, en minutes.
@@ -117,17 +179,24 @@ export default {
     ctx.waitUntil(traiterExecution(env));
   },
 
-  // Un gestionnaire fetch minimal : Cloudflare exige que le Worker en
-  // déclare un, même s'il n'est pas destiné à être appelé directement (le
-  // déclenchement se fait par Cron Trigger). Utile aussi pour vérifier
-  // manuellement, via workflow_dispatch équivalent ou un simple curl, que
-  // le Worker est bien déployé.
+  // Le déclenchement normal se fait par Cron Trigger ; ce gestionnaire fetch
+  // sert à la vérification manuelle (/declencher-manuellement) et à la
+  // route consommée par l'onglet Trading du site (/journal, partie 4).
   async fetch(request, env, ctx) {
-    if (new URL(request.url).pathname === "/declencher-manuellement") {
+    const cors = entetesCors(env.ORIGINE_AUTORISEE);
+    const chemin = new URL(request.url).pathname;
+
+    if (request.method === "OPTIONS") {
+      return new Response(null, { status: 204, headers: cors });
+    }
+    if (chemin === "/journal") {
+      return repondreJournal(env, cors);
+    }
+    if (chemin === "/declencher-manuellement") {
       await traiterExecution(env);
       return new Response("Exécution manuelle terminée. Voir les journaux Cloudflare.", { status: 200 });
     }
-    return new Response("Scanner en direct : voir /declencher-manuellement pour un test manuel.", { status: 200 });
+    return new Response("Scanner en direct : voir /declencher-manuellement ou /journal.", { status: 200 });
   },
 };
 

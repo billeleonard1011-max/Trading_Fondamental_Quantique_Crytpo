@@ -103,6 +103,7 @@ test("appliquerResolution met à jour la variante concernée et pose l'horodatag
   let ligne = await db.prepare("SELECT * FROM journal WHERE id = ?").bind("entree-2").first();
   assert.equal(ligne.statut_a, "gagnant");
   assert.equal(ligne.resultat_a_usd, 70.0);
+  assert.equal(ligne.prix_sortie_a, 3010.0, "le prix de sortie est persisté séparément du résultat en dollars");
   assert.equal(ligne.horodatage_resolution, null, "il reste des variantes ouvertes : pas de clôture globale");
 
   for (const variante of ["b15", "b2"]) {

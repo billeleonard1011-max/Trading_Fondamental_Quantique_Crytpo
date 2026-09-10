@@ -79,6 +79,71 @@ export function rendreAlerteResolution(resolution) {
 }
 
 /**
+ * Rend le texte public d'une détection, pour l'onglet Trading du site.
+ *
+ * Différence avec {@link rendreAlerteEntree} : pas de taille de position.
+ * Le site est public et ne publie jamais de donnée de compte, de position
+ * ou de montant (règle du site, voir site/js/rendu.js::MOTIFS_INTERDITS) —
+ * la variante destinée aux journaux Cloudflare (privés, réservés au
+ * propriétaire via `wrangler tail`) reste la seule à mentionner les lots.
+ *
+ * @param {object} entree Ligne du journal, mise en forme par src/api.js.
+ * @returns {string} Texte au conditionnel passé, jamais à l'impératif.
+ */
+export function rendrePublicEntree(entree) {
+  const sensTexte = entree.sens === "haussier" ? "un achat" : "une vente";
+  const objectifs = [
+    entree.objectifs.a !== null ? `structurel à ${entree.objectifs.a.toFixed(2)} $` : "structurel non disponible pour ce signal",
+    `1:1,5 à ${entree.objectifs.b15 !== null ? entree.objectifs.b15.toFixed(2) : "—"} $`,
+    `1:2 à ${entree.objectifs.b2 !== null ? entree.objectifs.b2.toFixed(2) : "—"} $`,
+    `1:3 à ${entree.objectifs.b3 !== null ? entree.objectifs.b3.toFixed(2) : "—"} $`,
+  ].join(", ");
+
+  return (
+    `D'après la mécanique suivie, ${sensTexte} aurait été détecté à ` +
+    `${entree.prixEntree.toFixed(2)} $ le ${horodatage(entree.horodatageDetection)}, ` +
+    `sur un order block ${entree.timeframeOb} [${entree.obBas.toFixed(2)}, ${entree.obHaut.toFixed(2)}] $, ` +
+    `confirmé par un écart de valeur (FVG) en ${entree.timeframeFvg}. ` +
+    `Stop de la mécanique : ${entree.stop.toFixed(2)} $. Objectifs suivis : ${objectifs}.`
+  );
+}
+
+/**
+ * Rend le texte public d'une résolution, pour l'onglet Trading du site.
+ *
+ * Différence avec {@link rendreAlerteResolution} : pas de résultat en
+ * dollars (dépend de la taille de position, donc de données de compte). Le
+ * site exprime la performance en multiple de risque (R), calculé côté site
+ * à partir du prix d'entrée, du stop et de ce prix de sortie — jamais à
+ * partir d'un montant.
+ *
+ * @param {object} resolution Résolution mise en forme par src/api.js.
+ * @returns {string} Texte au passé, jamais à l'impératif.
+ */
+export function rendrePublicResolution(resolution) {
+  const issue = resolution.statut === "gagnant" ? "atteint son objectif" : "touché son stop";
+  return (
+    `La variante ${LIBELLE_VARIANTE[resolution.variante] || resolution.variante} du signal aurait ` +
+    `${issue} le ${horodatage(resolution.horodatageResolution)}, ` +
+    `sortie à ${resolution.prixSortie.toFixed(2)} $.`
+  );
+}
+
+/**
+ * Rend un événement public (entrée ou résolution) et vérifie l'absence de
+ * toute formulation de recommandation avant de le renvoyer. Pendant public
+ * de {@link rendreEvenement}, pour la route /journal.
+ *
+ * @param {object} evenement Objet `{type: "entree"|"resolution", ...}`.
+ * @returns {{texte: string, infractions: Array}} Le texte, et les infractions.
+ */
+export function rendreEvenementPublic(evenement) {
+  const texte = evenement.type === "entree" ? rendrePublicEntree(evenement) : rendrePublicResolution(evenement);
+  const infractions = verifierAbsenceRecommandation({ texte });
+  return { texte, infractions };
+}
+
+/**
  * Rend un événement (entrée ou résolution) et vérifie l'absence de toute
  * formulation de recommandation avant de le renvoyer.
  *

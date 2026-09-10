@@ -46,6 +46,18 @@ CREATE TABLE IF NOT EXISTS journal (
   resultat_b2_usd REAL,
   resultat_b3_usd REAL,
   lots REAL NOT NULL,
+  -- Prix de sortie : un fait de marché (contrairement à resultat_*_usd et
+  -- lots, qui dépendent de la taille de position). C'est le seul des deux
+  -- que l'onglet Trading du site expose (voir route /journal dans
+  -- index.js) : le site ne publie jamais de donnée de compte, de position
+  -- ou de montant (règle du site, voir site/js/rendu.js::MOTIFS_INTERDITS).
+  -- Le site calcule un multiple de risque (R) à partir de ce prix, du prix
+  -- d'entrée et du stop — comparable à la colonne resultat_r du backtest,
+  -- sans jamais faire transiter de somme en dollars ni de taille de lot.
+  prix_sortie_a REAL,
+  prix_sortie_b15 REAL,
+  prix_sortie_b2 REAL,
+  prix_sortie_b3 REAL,
   horodatage_resolution_a INTEGER,
   horodatage_resolution_b15 INTEGER,
   horodatage_resolution_b2 INTEGER,

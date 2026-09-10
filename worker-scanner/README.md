@@ -155,8 +155,7 @@ PAXG est un jeton adossé à de l'or physique, coté en dollars sur Kraken
 avec l'ancienne source Binance) : un proxy, pas le prix XAUUSD d'un
 courtier. Ce scanner mesure la mécanique de la stratégie sur ce proxy ; il
 ne simule pas une exécution réelle chez un courtier, et peut diverger
-légèrement du prix réel — à rappeler sur l'onglet Trading du site (partie 4,
-à venir).
+légèrement du prix réel — rappelé sur l'onglet Trading du site (partie 4).
 
 ## Structure
 
@@ -171,9 +170,10 @@ src/
   journal.js        lecture/écriture D1 (état + journal)
   recommandation.js garde-fou anti-recommandation (port de modules/quantum/moves.py)
   alertes.js        rendu textuel des événements, toujours au conditionnel
-  index.js           point d'entrée du Worker (scheduled())
+  api.js            construction de la réponse JSON de la route /journal (partie 4)
+  index.js           point d'entrée du Worker (scheduled() et fetch())
 schema.sql          schéma D1
-wrangler.toml       configuration du Worker (Cron, liaison D1)
+wrangler.toml       configuration du Worker (Cron, liaison D1, origine CORS)
 tests/
   fixtures/generer.py + *.json   fixtures partagées Python ↔ JS
   parite.test.js                 le test le plus important : identité avec le backtest
@@ -181,8 +181,30 @@ tests/
   journal.test.js                D1 (via node:sqlite), statuts, idempotence
   recommandation.test.js         garde-fou + textes réels du scanner
   resilience.test.js             pannes Kraken/Frankfurter, état jamais corrompu
+  api.test.js                    route /journal : ni lots ni résultat en dollars, jamais
   d1_test_adapter.js             adaptateur D1 minimal pour les tests
 ```
+
+## Route /journal (partie 4 : l'onglet Trading du site)
+
+`GET /journal` renvoie le journal en JSON, pour l'onglet Trading du site
+(`site/trading.html` / `site/js/trading.js`). Deux garanties tiennent cette
+route :
+
+- **Confidentialité** : `lots` et `resultat_*_usd` (taille de position et
+  résultat en dollars, donc des données de compte) ne sont ni sélectionnés
+  par la requête SQL, ni lus par `src/api.js` — la donnée n'existe donc pas
+  en mémoire à cet endroit, pas seulement filtrée à l'affichage. La
+  performance publiée est un multiple de risque (R), calculé à partir du
+  prix d'entrée, du stop et du prix de sortie (`prix_sortie_*`, ajouté au
+  schéma pour cet usage) : -1 pile au stop, +ratio pile à l'objectif.
+- **Anti-recommandation** : chaque texte (`texte_detection`, `variantes.*.texte`)
+  repasse par `verifierAbsenceRecommandation()` avant d'être inclus ; un
+  texte fautif devient `null` plutôt que d'être corrigé à la volée (voir
+  `rendreEvenementPublic` dans `alertes.js`).
+
+CORS restreint à l'origine du site (`ORIGINE_AUTORISEE` dans
+`wrangler.toml`), même convention que `../worker/wrangler.toml`.
 
 ## Déploiement
 
@@ -207,14 +229,19 @@ npx wrangler tail scanner-or-direct --format=pretty     # dans un terminal
 curl https://scanner-or-direct.leonardbille.workers.dev/declencher-manuellement
 ```
 
-## Ce qu'il reste (partie 4 du prompt)
+## État des quatre parties du prompt
 
-- La partie 3 (structure du journal) est réalisée : c'est `schema.sql`, en
-  production.
-- La partie 4 (onglet Trading du site : fil d'alertes, tableau de bord
-  mensuel, comparaison avec le backtest historique, avertissement permanent)
-  n'est pas construite. Elle suppose un moyen pour le site statique de lire
-  le journal D1 — D1 n'a pas d'API HTTP publique en dehors d'un Worker : il
-  faut une route `fetch()` sur ce Worker qui expose le journal en JSON pour
-  que le site puisse le consommer, comme il le fait déjà pour les rapports
-  `reports/*.json`.
+- Partie 1 (faisabilité) : faite, avec une correction découverte en
+  production (Binance → Kraken, voir ci-dessus).
+- Partie 2 (le Worker) : faite, déployée, Cron actif.
+- Partie 3 (structure du journal) : faite, c'est `schema.sql`, en production.
+- Partie 4 (onglet Trading du site) : faite — route `/journal` ci-dessus,
+  et `site/trading.html` / `site/js/trading.js` côté site (fil d'alertes,
+  tableau de bord mensuel par variante, comparaison avec le backtest
+  historique en multiple de risque R, avertissement permanent).
+
+Ce qui reste réellement : le journal est encore vide (le scanner tourne
+depuis peu, aucun signal réel détecté au moment de l'écriture de cette
+ligne) — le premier vrai signal validera la chaîne complète, de la
+détection à la résolution, sur une donnée réelle plutôt que sur les
+fixtures de test.
