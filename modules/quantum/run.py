@@ -175,11 +175,26 @@ def construire_rapport(
     date_prix = max(
         (pd.Timestamp(c.index[-1]) for c in prix.values() if not c.empty), default=None
     )
+    # Trois et six mois (63 et 126 séances) : la synthèse situe chaque valeur
+    # dans une trajectoire, pas seulement dans sa séance.
+    variations_longues: dict[str, dict[str, float]] = {}
+    for ticker, cadre in prix.items():
+        clotures = cadre["close"].dropna()
+        bloc: dict[str, float] = {}
+        for nom, recul in (("3_mois", 63), ("6_mois", 126)):
+            if len(clotures) > recul and float(clotures.iloc[-1 - recul]):
+                bloc[f"variation_{nom}_pct"] = round(
+                    (float(clotures.iloc[-1]) / float(clotures.iloc[-1 - recul]) - 1.0) * 100.0, 2,
+                )
+        if bloc:
+            variations_longues[ticker] = bloc
+
     bloc_prix = {
         "disponible": bool(variations),
         "motif": "" if variations else "aucun historique de prix exploitable",
         "variations_du_jour": {t: round(float(v["variation_pct"]), 3) for t, v in variations.items()},
         "clotures": {t: round(float(v["cloture"]), 4) for t, v in variations.items()},
+        "variations_longues": variations_longues,
         "_meta": _meta("yfinance (secours Stooq)", date_prix, jour),
     }
 
@@ -333,6 +348,11 @@ def construire_rapport(
         "mouvements": bloc_mouvements,
         "secteur": bloc_secteur,
     }
+    # Le facteur commun (appétit pour le risque, inflation, liquidité) vient
+    # du rapport or, produit juste avant dans le même workflow : les trois
+    # rubriques raisonnent sur la même lecture macro, chacune pour son actif.
+    # Embarqué dans le rapport pour que ses chiffres soient vérifiables.
+    rapport["facteur_commun"] = synthese.facteur_commun(synthese.charger_rapport_or())
     # Synthèse composée en dernier, à partir des blocs déjà calculés.
     rapport["synthese"] = synthese.synthetiser_quantique(rapport)
 

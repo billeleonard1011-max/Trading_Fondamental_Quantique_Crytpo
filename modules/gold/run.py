@@ -296,11 +296,23 @@ def construire_rapport(
         "variation_20j_pct": None,
         "_meta": _meta(source_prix, None if prix_or.empty else prix_or.index[-1], jour),
     }
-    for horizon in (5, 20):
+    # Cinq et vingt séances pour le court terme ; trois, six et douze mois
+    # (63, 126 et 252 séances) pour situer le prix dans une trajectoire — la
+    # synthèse s'appuie dessus, l'archive des rapports étant trop courte.
+    for horizon in (5, 20, 63, 126, 252):
         if len(prix_or) > horizon:
             precedent = float(prix_or.iloc[-1 - horizon])
             if precedent:
                 bloc_prix[f"variation_{horizon}j_pct"] = (float(prix_or.iloc[-1]) / precedent - 1.0) * 100.0
+    if len(prix_or) > 252:
+        fenetre = prix_or.iloc[-252:]
+        haut, bas, courant = float(fenetre.max()), float(fenetre.min()), float(prix_or.iloc[-1])
+        bloc_prix["plus_haut_252j"] = haut
+        bloc_prix["plus_bas_252j"] = bas
+        # 0 = au plus bas de l'année, 100 = au plus haut.
+        bloc_prix["position_intervalle_252j_pct"] = (
+            (courant - bas) / (haut - bas) * 100.0 if haut > bas else None
+        )
 
     # --- Séries FRED -------------------------------------------------------
     _LOG.info("Chargement des séries FRED...")
@@ -423,6 +435,9 @@ def construire_rapport(
         regime_macro, series_fred if not series_fred.empty else None
     )
     bloc_contexte["regime"] = regime_macro.to_dict()
+    bloc_contexte["recul"] = macro.recul_historique(
+        series_fred if not series_fred.empty else None
+    )
     bloc_contexte["_meta"] = _meta(
         "FRED (séries macro) + ETF sectoriels (rotation cyclique/défensif)",
         regime_macro.date_lecture,

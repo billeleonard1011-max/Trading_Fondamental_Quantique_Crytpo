@@ -190,3 +190,50 @@ def test_le_narratif_ne_contient_aucune_formulation_vague_sans_chiffre() -> None
         "on peut penser",
     ):
         assert creuse not in contexte["texte"].lower()
+
+
+# ---------------------------------------------------------------------------
+# 3. Recul historique — le récit long terme vient des séries, pas des rapports
+# ---------------------------------------------------------------------------
+def test_recul_historique_situe_chaque_serie_sur_six_mois() -> None:
+    recul = macro.recul_historique(_series_macro(n=600))
+    assert recul["disponible"]
+    for cle in ("inflation", "chomage", "petrole", "vix", "spread_credit"):
+        assert cle in recul, f"série {cle} absente du recul"
+    assert recul["petrole"]["variation_6_mois_pct"] is not None
+    assert recul["inflation"]["il_y_a_6_mois_pct"] is not None
+    # Les séries absentes de la fabrique ne sont pas comblées.
+    assert "taux_reels" not in recul and "dollar" not in recul
+
+
+def test_recul_historique_mesure_les_taux_reels_en_points_de_base() -> None:
+    df = _series_macro(n=600)
+    df["DFII10"] = np.linspace(1.8, 2.3, len(df))     # +50 pb sur la fenêtre
+    recul = macro.recul_historique(df)
+    taux = recul["taux_reels"]
+    assert taux["actuel_pct"] == 2.3
+    assert taux["ecart_points_base"] > 0
+    assert abs(taux["ecart_points_base"] - (2.3 - taux["il_y_a_6_mois_pct"]) * 100) < 0.6
+
+
+def test_recul_historique_ne_comble_jamais_une_serie_trop_courte() -> None:
+    court = _series_macro(n=80)          # moins de six mois de séances
+    recul = macro.recul_historique(court)
+    assert "inflation" not in recul      # un an d'historique requis
+    assert "vix" not in recul            # six mois requis
+
+
+def test_recul_historique_sans_donnees_est_marque_indisponible() -> None:
+    recul = macro.recul_historique(pd.DataFrame())
+    assert recul["disponible"] is False
+    assert "inflation" not in recul
+
+
+def test_recul_historique_arrondit_pour_etre_citable() -> None:
+    """Deux décimales au plus : au-delà, le vérificateur numérique lit un séparateur de milliers."""
+    recul = macro.recul_historique(_series_macro(n=600))
+    for bloc in recul.values():
+        if isinstance(bloc, dict):
+            for valeur in bloc.values():
+                if isinstance(valeur, float):
+                    assert round(valeur, 2) == valeur

@@ -241,6 +241,8 @@ def construire_rapport(
         "rotation": bloc_rotation,
         "positionnement": bloc_positionnement,
     }
+    # Facteur commun lu dans le rapport or du jour (voir modules/quantum/run.py).
+    rapport["facteur_commun"] = synthese.facteur_commun(synthese.charger_rapport_or())
     # Synthèse composée en dernier, à partir des blocs déjà calculés.
     rapport["synthese"] = synthese.synthetiser_crypto(rapport)
 

@@ -54,6 +54,7 @@ __all__ = [
     "get_many",
     "compute_macro_regime",
     "rediger_contexte_macro",
+    "recul_historique",
     "AxisReading",
     "MacroRegime",
 ]
@@ -900,3 +901,116 @@ def _invalidation_macro(regime: MacroRegime) -> str:
             "sont indisponibles."
         )
     return "Cette lecture serait invalidée si : " + " ; ".join(conditions) + "."
+
+
+# ---------------------------------------------------------------------------
+# Recul historique : où en sont les séries à trois, six et douze mois
+# ---------------------------------------------------------------------------
+def _valeur_il_y_a(serie: pd.Series, seances: int) -> float | None:
+    """Valeur d'une série un nombre de séances en arrière.
+
+    Args:
+        serie: série triée par date, sans trous.
+        seances: recul, en séances.
+
+    Returns:
+        La valeur, ou ``None`` si l'historique est trop court.
+    """
+    propre = serie.dropna()
+    if len(propre) <= seances:
+        return None
+    return float(propre.iloc[-1 - seances])
+
+
+def recul_historique(df: pd.DataFrame | None) -> dict[str, Any]:
+    """Situe chaque série macro par rapport à son passé récent.
+
+    L'archive des rapports du projet ne remonte qu'à quelques jours ; les
+    séries, elles, remontent à des années. C'est donc ici, et non dans les
+    rapports passés, que se construit le récit à plusieurs mois : où en
+    était l'inflation il y a six mois, ce qu'a fait le pétrole sur un
+    trimestre, si le VIX est au-dessus ou en dessous de sa moyenne semestrielle.
+
+    Chaque bloc ne contient que ce qui est réellement mesurable : une série
+    absente ou trop courte n'y figure pas — rien n'est comblé.
+
+    Args:
+        df: DataFrame issu de :func:`get_many`.
+
+    Returns:
+        Un dictionnaire par série disponible, plus ``disponible`` et
+        ``horizons_seances``. Toutes les valeurs sont arrondies à deux
+        décimales, pour être citables telles quelles dans un texte.
+    """
+    trois_mois, six_mois, un_an = 63, 126, JOURS_OUVRES_PAR_AN
+    resultat: dict[str, Any] = {
+        "disponible": False,
+        "horizons_seances": {"3_mois": trois_mois, "6_mois": six_mois, "12_mois": un_an},
+    }
+    if df is None or df.empty:
+        return resultat
+
+    def _r(valeur: float | None, decimales: int = 2) -> float | None:
+        return None if valeur is None else round(valeur, decimales)
+
+    # Inflation en glissement annuel, aujourd'hui et il y a six mois.
+    if "CPIAUCSL" in df.columns:
+        cpi = df["CPIAUCSL"].dropna()
+        now, an, six, six_an = (
+            _valeur_il_y_a(cpi, 0), _valeur_il_y_a(cpi, un_an),
+            _valeur_il_y_a(cpi, six_mois), _valeur_il_y_a(cpi, six_mois + un_an),
+        )
+        if now and an and six and six_an:
+            actuel = (now / an - 1.0) * 100.0
+            passe = (six / six_an - 1.0) * 100.0
+            resultat["inflation"] = {
+                "actuel_pct": _r(actuel), "il_y_a_6_mois_pct": _r(passe),
+                "ecart_points": _r(actuel - passe),
+            }
+
+    # Chômage : niveau actuel contre six mois plus tôt.
+    if "UNRATE" in df.columns:
+        now, six = _valeur_il_y_a(df["UNRATE"], 0), _valeur_il_y_a(df["UNRATE"], six_mois)
+        if now is not None and six is not None:
+            resultat["chomage"] = {
+                "actuel_pct": _r(now), "il_y_a_6_mois_pct": _r(six), "ecart_points": _r(now - six),
+            }
+
+    # Séries de prix : variation sur trois et six mois.
+    for cle, serie_id in (("petrole", "DCOILWTICO"), ("dollar", "DTWEXBGS")):
+        if serie_id in df.columns:
+            serie = df[serie_id]
+            now = _valeur_il_y_a(serie, 0)
+            bloc: dict[str, Any] = {"actuel": _r(now)}
+            for nom, recul in (("3_mois", trois_mois), ("6_mois", six_mois)):
+                passe = _valeur_il_y_a(serie, recul)
+                if now is not None and passe:
+                    bloc[f"variation_{nom}_pct"] = _r((now / passe - 1.0) * 100.0)
+            if len(bloc) > 1:
+                resultat[cle] = bloc
+
+    # Taux réels : écart en points de base sur six mois.
+    if "DFII10" in df.columns:
+        now, six = _valeur_il_y_a(df["DFII10"], 0), _valeur_il_y_a(df["DFII10"], six_mois)
+        if now is not None and six is not None:
+            resultat["taux_reels"] = {
+                "actuel_pct": _r(now), "il_y_a_6_mois_pct": _r(six),
+                "ecart_points_base": _r((now - six) * 100.0, 0),
+            }
+
+    # VIX et spread : niveau actuel contre moyenne semestrielle.
+    for cle, serie_id in (("vix", "VIXCLS"), ("spread_credit", "BAMLH0A0HYM2")):
+        if serie_id in df.columns:
+            serie = df[serie_id].dropna()
+            if len(serie) > six_mois:
+                now = float(serie.iloc[-1])
+                moyenne = float(serie.iloc[-six_mois:].mean())
+                resultat[cle] = {
+                    "actuel": _r(now), "moyenne_6_mois": _r(moyenne),
+                    "ecart_moyenne_pct": _r((now / moyenne - 1.0) * 100.0) if moyenne else None,
+                }
+
+    resultat["disponible"] = any(
+        cle not in ("disponible", "horizons_seances") for cle in resultat
+    )
+    return resultat
