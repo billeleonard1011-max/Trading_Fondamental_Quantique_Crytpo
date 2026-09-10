@@ -78,9 +78,15 @@ URL_FARSIDE_PAR_ACTIF: Final[dict[str, str]] = {
 #: Page par défaut, conservée pour compatibilité des appels existants.
 URL_FARSIDE: Final = URL_FARSIDE_PAR_ACTIF["btc"]
 
-#: Cache des actifs nets, versionné dans le dépôt : sans lui, aucune
+#: Historique des actifs nets, versionné dans le dépôt : sans lui, aucune
 #: variation n'est calculable puisque yfinance ne donne aucun historique.
-CACHE_AUM: Final = Path(__file__).resolve().parents[1] / "config" / "etf_aum_cache.json"
+#: Ce n'est pas un cache régénérable mais une donnée accumulée jour après
+#: jour, d'où sa place sous ``reports/crypto/`` avec les autres journaux du
+#: workflow — et non sous ``config/`` (fichiers écrits à la main) ni
+#: ``data/`` (ignoré par git comme reconstructible). En cas de publication
+#: concurrente, il se fusionne par union des dates
+#: (voir scripts/fusionner_sorties.py).
+CACHE_AUM: Final = Path(__file__).resolve().parents[1] / "reports" / "crypto" / "etf_aum_historique.json"
 
 #: Nombre d'instantanés conservés, pour que le fichier reste petit.
 MAX_INSTANTANES: Final[int] = 90

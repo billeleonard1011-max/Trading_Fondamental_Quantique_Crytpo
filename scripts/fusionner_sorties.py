@@ -17,8 +17,9 @@ Elles ne se traitent pas de la même façon, et les confondre perd des données 
   est toujours la bonne : elle écrase, sans fusion. Ce script ne les touche
   donc pas.
 
-* **Les journaux en ajout seul** (``*_historique.jsonl``, et le cache de
-  dominance ``rotation_historique.json``) *accumulent*. Y écraser la version
+* **Les journaux en ajout seul** (``*_historique.jsonl``, et les historiques
+  d'observations datées ``rotation_historique.json`` et
+  ``etf_aum_historique.json``) *accumulent*. Y écraser la version
   publiée ferait disparaître les lignes ajoutées par l'exécution concurrente
   — pour les fils, cela veut dire des articles qui perdent leur trace de
   « déjà vu » et resurgissent en nouveauté quelques heures plus tard. Ces
@@ -51,8 +52,18 @@ FICHIERS_JSONL: Final[tuple[str, ...]] = (
     "reports/geopolitique/feed_historique.jsonl",
 )
 
-#: Cache d'observations quotidiennes accumulées (voir modules/crypto/rotation.py).
-FICHIER_OBSERVATIONS: Final = "reports/crypto/rotation_historique.json"
+#: Historiques d'observations datées, accumulés par les modules : chemin,
+#: clé de la liste d'observations, clé du plafond de profondeur.
+#: Chaque entrée porte une date unique par observation ; c'est ce qui
+#: permet la fusion par union (voir modules/crypto/rotation.py et
+#: dataio/etf_flows.py).
+FICHIERS_OBSERVATIONS: Final[tuple[tuple[str, str, str], ...]] = (
+    ("reports/crypto/rotation_historique.json", "observations", "max_observations"),
+    ("reports/crypto/etf_aum_historique.json", "instantanes", "max_instantanes"),
+)
+
+#: Conservé pour les appels existants : le premier historique d'observations.
+FICHIER_OBSERVATIONS: Final = FICHIERS_OBSERVATIONS[0][0]
 
 __all__ = ["fusionner_lignes", "fusionner_observations", "fusionner_tout"]
 
@@ -84,8 +95,10 @@ def fusionner_lignes(publiees: str, locales: str) -> str:
     return "\n".join(retenues) + ("\n" if retenues else "")
 
 
-def fusionner_observations(publiees: str, locales: str) -> str:
-    """Fusionne deux caches d'observations quotidiennes, une par date.
+def fusionner_observations(
+    publiees: str, locales: str, cle_liste: str = "observations", cle_plafond: str = "max_observations",
+) -> str:
+    """Fusionne deux historiques d'observations quotidiennes, une par date.
 
     À date identique, l'observation locale gagne : elle vient d'être mesurée,
     l'autre est au mieux du même jour. Le plafond de profondeur du fichier
@@ -94,6 +107,9 @@ def fusionner_observations(publiees: str, locales: str) -> str:
     Args:
         publiees: contenu JSON déjà sur la branche.
         locales: contenu JSON produit par cette exécution.
+        cle_liste: clé de la liste d'observations (``observations``,
+            ``instantanes``).
+        cle_plafond: clé du plafond de profondeur.
 
     Returns:
         Le contenu fusionné, sérialisé en JSON.
@@ -112,19 +128,19 @@ def fusionner_observations(publiees: str, locales: str) -> str:
     base = _charger(publiees)
     local = _charger(locales)
     if not local:
-        raise ValueError("cache de dominance local illisible : fusion refusée")
+        raise ValueError("historique d'observations local illisible : fusion refusée")
 
     par_date: dict[str, dict[str, Any]] = {}
     for source in (base, local):  # le local écrase à date égale
-        for observation in source.get("observations") or []:
+        for observation in source.get(cle_liste) or []:
             if isinstance(observation, dict) and observation.get("date"):
                 par_date[str(observation["date"])] = observation
 
-    plafond = int(local.get("max_observations") or len(par_date))
+    plafond = int(local.get(cle_plafond) or len(par_date))
     observations = [par_date[d] for d in sorted(par_date)][-plafond:]
 
     fusionne = dict(local)
-    fusionne["observations"] = observations
+    fusionne[cle_liste] = observations
     return json.dumps(fusionne, ensure_ascii=False, indent=2) + "\n"
 
 
@@ -170,19 +186,22 @@ def fusionner_tout(reference: str, racine: Path = RACINE) -> list[str]:
             fichier.write_text(contenu, encoding="utf-8")
             fusionnes.append(chemin)
 
-    fichier = racine / FICHIER_OBSERVATIONS
-    if fichier.exists():
-        publiee = _version_publiee(reference, FICHIER_OBSERVATIONS)
-        if publiee is not None:
-            locale = fichier.read_text(encoding="utf-8")
-            try:
-                contenu = fusionner_observations(publiee, locale)
-            except ValueError as exc:
-                _LOG.error("%s non fusionné : %s", FICHIER_OBSERVATIONS, exc)
-            else:
-                if contenu != locale:
-                    fichier.write_text(contenu, encoding="utf-8")
-                    fusionnes.append(FICHIER_OBSERVATIONS)
+    for chemin, cle_liste, cle_plafond in FICHIERS_OBSERVATIONS:
+        fichier = racine / chemin
+        if not fichier.exists():
+            continue
+        publiee = _version_publiee(reference, chemin)
+        if publiee is None:
+            continue
+        locale = fichier.read_text(encoding="utf-8")
+        try:
+            contenu = fusionner_observations(publiee, locale, cle_liste, cle_plafond)
+        except ValueError as exc:
+            _LOG.error("%s non fusionné : %s", chemin, exc)
+            continue
+        if contenu != locale:
+            fichier.write_text(contenu, encoding="utf-8")
+            fusionnes.append(chemin)
 
     return fusionnes
 

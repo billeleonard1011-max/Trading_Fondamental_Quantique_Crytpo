@@ -158,10 +158,25 @@ def test_fusionner_tout_ne_touche_pas_un_fichier_deja_a_jour(tmp_path: Path, mon
 # ---------------------------------------------------------------------------
 # Cohérence des chemins
 # ---------------------------------------------------------------------------
-def test_le_fichier_fusionne_par_union_est_celui_que_le_module_ecrit() -> None:
-    """Déplacer l'historique de dominance sans suivre ici réintroduirait le conflit."""
+def test_les_historiques_fusionnes_par_union_sont_ceux_que_les_modules_ecrivent() -> None:
+    """Déplacer un historique sans suivre ici réintroduirait le conflit de publication."""
+    from dataio import etf_flows
     from modules.crypto import rotation
 
-    relatif = rotation.CACHE_ROTATION.relative_to(fusion.RACINE).as_posix()
-    assert relatif == fusion.FICHIER_OBSERVATIONS
-    assert relatif.startswith("reports/"), "un journal accumulé se publie avec reports/, jamais depuis config/"
+    fusionnes = {chemin: (liste, plafond) for chemin, liste, plafond in fusion.FICHIERS_OBSERVATIONS}
+    for fichier, cle_liste, cle_plafond in (
+        (rotation.CACHE_ROTATION, "observations", "max_observations"),
+        (etf_flows.CACHE_AUM, "instantanes", "max_instantanes"),
+    ):
+        relatif = fichier.relative_to(fusion.RACINE).as_posix()
+        assert relatif in fusionnes, f"{relatif} n'est pas fusionné par union"
+        assert fusionnes[relatif] == (cle_liste, cle_plafond), f"{relatif} : clés de fusion erronées"
+        assert relatif.startswith("reports/"), "un journal accumulé se publie avec reports/, jamais depuis config/"
+
+
+def test_les_instantanes_etf_fusionnent_avec_leurs_propres_cles() -> None:
+    publiee = json.dumps({"max_instantanes": 90, "instantanes": [{"date": "2026-09-08", "total_usd": 1.0}]})
+    locale = json.dumps({"max_instantanes": 90, "instantanes": [{"date": "2026-09-09", "total_usd": 2.0}]})
+    fusionne = json.loads(fusion.fusionner_observations(publiee, locale, "instantanes", "max_instantanes"))
+    assert [i["date"] for i in fusionne["instantanes"]] == ["2026-09-08", "2026-09-09"]
+    assert "observations" not in fusionne

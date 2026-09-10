@@ -203,11 +203,9 @@ jobs:
             # elle a été créée et vieillirait jusqu'à déclencher l'alerte de
             # renouvellement, alors même que la collecte fonctionne.
             git add config/fomc_calendar_cache.json
-            # Cache accumulé par le module ETF : sans lui versionné, la
-            # variation d'actif net ne serait pas calculable d'une exécution
-            # à l'autre. (L'historique de dominance BTC vit désormais sous
-            # reports/crypto/rotation_historique.json, indexé avec reports/.)
-            git add config/etf_aum_cache.json 2>/dev/null || true
+            # Les historiques accumulés par les modules crypto (dominance
+            # BTC, actifs nets des ETF) vivent sous reports/crypto/ : ils
+            # sont indexés avec reports/ et fusionnés par union ci-dessus.
 
             if git diff --staged --quiet; then
               echo "Aucune sortie nouvelle : rien à publier."

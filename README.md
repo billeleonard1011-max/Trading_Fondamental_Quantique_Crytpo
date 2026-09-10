@@ -56,7 +56,6 @@ config/
                               thèmes GDELT
   fomc_calendar_cache.json    Cache des réunions du FOMC, régénéré
                               automatiquement — ne pas éditer à la main
-  etf_aum_cache.json          Actifs nets des ETF, accumulés jour après jour
 core/
   indicators.py               Indicateurs causaux + contrôle anti-look-ahead
   strategy.py                 Contrat Signal / Position / RiskConfig / Strategy
