@@ -33,6 +33,11 @@ import { construireContexte, demander, suggestions } from "../js/assistant.js";
 import { evaluerFiabilite, rendreFiabilite } from "../js/debrief.js";
 import { rendreDetail } from "../js/news.js";
 import { EXPLICATIONS } from "../js/libelles.js";
+import {
+  agregerParMois, agregerSignaux, avertissementEchantillon, cleMois, estResolue,
+  extraireMetriquesBacktest, libelleStatut, rendreComparaisonBacktest, rendreFilAlertes,
+  rendreTableauBordMensuel, texteSurAudite, tonStatut, VARIANTES,
+} from "../js/trading.js";
 
 /** Charge un rapport réel du dépôt. */
 function rapport(chemin) {
@@ -415,7 +420,7 @@ test("les contenus larges peuvent défiler au lieu de déborder", () => {
 });
 
 test("chaque page déclare le viewport mobile", () => {
-  for (const page of ["site/index.html", "site/news.html", "site/debrief.html"]) {
+  for (const page of ["site/index.html", "site/news.html", "site/debrief.html", "site/trading.html"]) {
     const html = readFileSync(new URL(`../../${page}`, import.meta.url), "utf8");
     assert.match(html, /name="viewport"[^>]*width=device-width/, `${page} sans viewport`);
   }
@@ -437,4 +442,179 @@ test("les deux thèmes définissent la palette complète", () => {
   for (const variable of couleurs) {
     assert.ok(enSombre.has(variable), `${variable} n'est pas redéfini en thème sombre`);
   }
+});
+
+// ---------------------------------------------------------------------------
+// 4. Onglet Trading (scanner en direct)
+// ---------------------------------------------------------------------------
+
+/** Fabrique un signal /journal, avec une variante b2 résolue par défaut. */
+function signalExemple(overrides = {}) {
+  return {
+    id: "sig-1",
+    horodatage_detection_utc: "2026-08-15T10:00:00.000Z",
+    timeframe_ob: "M15",
+    ob_haut: 2999, ob_bas: 2995,
+    sens: "haussier",
+    timeframe_fvg: "M5",
+    prix_entree: 3000, stop: 2994,
+    horodatage_resolution_utc: "2026-08-15T12:00:00.000Z",
+    texte_detection: "D'après la mécanique suivie, un achat aurait été détecté à 3000.00 $ " +
+      "le 2026-08-15 10:00 UTC, sur un order block M15 [2995.00, 2999.00] $, confirmé par " +
+      "un écart de valeur (FVG) en M5. Stop de la mécanique : 2994.00 $. Objectifs suivis : " +
+      "structurel à 3020.00 $, 1:1,5 à 3009.00 $, 1:2 à 3012.00 $, 1:3 à 3018.00 $.",
+    variantes: {
+      a: { objectif: 3020, statut: "ouvert", prix_sortie: null, r: null, horodatage_resolution_utc: null, texte: null },
+      b15: { objectif: 3009, statut: "ouvert", prix_sortie: null, r: null, horodatage_resolution_utc: null, texte: null },
+      b2: {
+        objectif: 3012, statut: "gagnant", prix_sortie: 3012, r: 2,
+        horodatage_resolution_utc: "2026-08-15T12:00:00.000Z",
+        texte: "La variante ratio 1:2 (B) du signal aurait atteint son objectif le " +
+          "2026-08-15 12:00 UTC, sortie à 3012.00 $.",
+      },
+      b3: { objectif: 3018, statut: "sans_objectif", prix_sortie: null, r: null, horodatage_resolution_utc: null, texte: null },
+    },
+    ...overrides,
+  };
+}
+
+test("estResolue ne considère gagnant et perdant comme des issues, pas ouvert ni sans_objectif", () => {
+  assert.equal(estResolue("gagnant"), true);
+  assert.equal(estResolue("perdant"), true);
+  assert.equal(estResolue("ouvert"), false);
+  assert.equal(estResolue("sans_objectif"), false);
+});
+
+test("tonStatut et libelleStatut couvrent les quatre statuts possibles", () => {
+  for (const statut of ["gagnant", "perdant", "ouvert", "sans_objectif"]) {
+    assert.notEqual(tonStatut(statut), undefined);
+    assert.notEqual(libelleStatut(statut), statut === "gagnant" ? undefined : null);
+  }
+});
+
+test("agregerSignaux calcule taux de réussite, espérance et profit factor en R, pas en dollars", () => {
+  const signaux = [
+    signalExemple({ id: "s1" }), // b2 : gagnant, R=2
+    signalExemple({
+      id: "s2",
+      variantes: {
+        ...signalExemple().variantes,
+        b2: { objectif: 3012, statut: "perdant", prix_sortie: 2994, r: -1, horodatage_resolution_utc: "2026-08-16T00:00:00.000Z", texte: "x" },
+      },
+    }),
+  ];
+  const m = agregerSignaux(signaux, "b2");
+  assert.equal(m.n_trades, 2);
+  assert.equal(m.n_gagnants, 1);
+  assert.equal(m.n_perdants, 1);
+  assert.equal(m.taux_reussite, 0.5);
+  assert.equal(m.esperance_r, 0.5); // (2 + -1) / 2
+  assert.equal(m.profit_factor, 2); // gains=2, pertes=|-1|=1
+});
+
+test("agregerSignaux ne confond jamais 'aucun trade' avec un taux de zéro", () => {
+  const m = agregerSignaux([signalExemple()], "a"); // "a" reste ouvert dans le fixture
+  assert.equal(m.n_trades, 0);
+  assert.equal(m.taux_reussite, null);
+  assert.equal(m.esperance_r, null);
+  assert.equal(m.profit_factor, null);
+});
+
+test("agregerSignaux ne compte pas 'sans_objectif' comme un trade résolu", () => {
+  const m = agregerSignaux([signalExemple()], "b3");
+  assert.equal(m.n_trades, 0);
+});
+
+test("cleMois extrait l'année-mois d'un horodatage ISO", () => {
+  assert.equal(cleMois("2026-08-15T12:00:00.000Z"), "2026-08");
+  assert.equal(cleMois(null), null);
+});
+
+test("agregerParMois groupe et trie du mois le plus récent au plus ancien", () => {
+  const signaux = [
+    signalExemple({ id: "aout" }),
+    signalExemple({
+      id: "sept",
+      variantes: {
+        ...signalExemple().variantes,
+        b2: { objectif: 3012, statut: "gagnant", prix_sortie: 3012, r: 2, horodatage_resolution_utc: "2026-09-01T00:00:00.000Z", texte: "x" },
+      },
+    }),
+  ];
+  const lignes = agregerParMois(signaux, "b2");
+  assert.deepEqual(lignes.map((l) => l.mois), ["2026-09", "2026-08"]);
+  assert.equal(lignes[0].n_trades, 1);
+});
+
+test("extraireMetriquesBacktest lit le rapport réel et reste dans les mêmes unités (R) que le scanner", () => {
+  const synthese = rapport("reports/backtest/synthese.json");
+  const m = extraireMetriquesBacktest(synthese, "b2");
+  assert.equal(m.disponible, true);
+  assert.ok(m.n_trades > 0);
+  assert.ok(m.taux_reussite >= 0 && m.taux_reussite <= 1);
+  assert.equal(typeof m.esperance_r, "number");
+});
+
+test("extraireMetriquesBacktest dit explicitement l'absence plutôt que de renvoyer des zéros", () => {
+  const m = extraireMetriquesBacktest({ variantes: {} }, "b2");
+  assert.equal(m.disponible, false);
+  assert.ok(m.motif);
+});
+
+test("avertissementEchantillon avertit sous le seuil et se tait au-dessus", () => {
+  assert.match(avertissementEchantillon(5, 30), /Échantillon réduit/);
+  assert.equal(avertissementEchantillon(30, 30), "");
+});
+
+test("texteSurAudite laisse passer un texte propre et bloque une formulation de recommandation", () => {
+  assert.equal(texteSurAudite("Le moteur aurait détecté un achat à 3000 $."), "Le moteur aurait détecté un achat à 3000 $.");
+  assert.equal(texteSurAudite("Il faudrait acheter maintenant."), null);
+  assert.equal(texteSurAudite(null), null);
+});
+
+test("rendreFilAlertes affiche un message explicite quand aucun signal n'existe", () => {
+  assert.match(rendreFilAlertes([]), /fil-vide/);
+});
+
+test("rendreFilAlertes n'affiche jamais de lot ni de montant en dollars", () => {
+  const html = rendreFilAlertes([signalExemple()]);
+  assert.doesNotMatch(html, /\blots?\b/i);
+  assert.doesNotMatch(html, /[$]\s*\d/, "aucun montant en dollars, seuls des prix de marché");
+  assert.match(html, /aurait été détecté/);
+  assert.match(html, /Objectif atteint/);
+});
+
+test("rendreFilAlertes ne montre pas le texte d'une variante toujours ouverte", () => {
+  const html = rendreFilAlertes([signalExemple()]);
+  assert.match(html, /En cours/); // badge de la variante "a", ouverte
+});
+
+test("rendreTableauBordMensuel distingue les variantes sans trade résolu, sans afficher un taux de zéro", () => {
+  const html = rendreTableauBordMensuel([signalExemple()]);
+  assert.match(html, /Aucun trade résolu pour cette variante/); // variantes a, b15, b3
+  assert.match(html, /2026-08/); // le mois de résolution de b2
+});
+
+test("rendreComparaisonBacktest confronte scanner et backtest dans la même unité (R)", () => {
+  const backtest = { disponible: true, donnees: rapport("reports/backtest/synthese.json") };
+  const html = rendreComparaisonBacktest([signalExemple()], backtest);
+  assert.match(html, /scanner en direct/);
+  assert.match(html, /backtest 2025-2026/);
+  assert.doesNotMatch(html, /[$]\s*\d/);
+});
+
+test("rendreComparaisonBacktest affiche le motif quand le rapport de backtest est indisponible", () => {
+  const html = rendreComparaisonBacktest([signalExemple()], { disponible: false, motif: "hors ligne" });
+  assert.match(html, /hors ligne/);
+});
+
+test("la page Trading porte l'avertissement permanent et ne recommande jamais un trade", () => {
+  const html = readFileSync(new URL("../trading.html", import.meta.url), "utf8");
+  assert.match(html, /ne recommande jamais/);
+  assert.match(html, /PAXG/);
+  assert.match(html, /multiple de risque/);
+});
+
+test("VARIANTES couvre exactement les quatre variantes du backtest", () => {
+  assert.deepEqual(VARIANTES, ["a", "b15", "b2", "b3"]);
 });

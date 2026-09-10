@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr" data-theme="clair">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trading — scanner en direct — suivi des marchés</title>
+<meta name="description" content="Ce que la mécanique du backtest aurait détecté en direct sur l'or (proxy PAXG). Un journal, pas des conseils.">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  try {
+    var t = localStorage.getItem("theme-suivi");
+    if (t === "sombre") document.documentElement.setAttribute("data-theme", "sombre");
+  } catch (e) {}
+</script>
+</head>
+<body>
+<div class="enveloppe">
+  <header class="entete">
+    <h1>Scanner en direct</h1>
+    <span class="horodatage" id="horodatage">chargement…</span>
+    <nav>
+      <a href="index.html">Retour à l'accueil</a>
+      <button class="theme" type="button">Thème sombre</button>
+    </nav>
+  </header>
+
+  <p class="avertissement trading-avertissement-permanent">
+    <strong>Ce système ne recommande jamais de prendre un trade.</strong> Il rejoue,
+    minute par minute sur les prix réels, la même mécanique que le backtest et journalise
+    ce qu'elle aurait détecté — toujours au passé ou au conditionnel. Trois limites à garder
+    en tête en lisant cette page : les prix suivis sont ceux du jeton <strong>PAXG</strong>
+    (adossé à l'or physique), un proxy qui peut diverger du cours XAUUSD d'un courtier ;
+    aucune taille de position, résultat en dollars ou donnée de compte n'est publiée ici,
+    la performance est exprimée en multiple de risque (R) ; et l'échantillon de trades en
+    direct est encore petit — un taux de réussite sur peu de trades se lit comme une
+    anecdote, pas comme une performance.
+  </p>
+
+  <p class="fraicheur" id="trading-fraicheur" hidden></p>
+
+  <main aria-label="Scanner en direct">
+    <section class="trame-section" aria-label="Fil des signaux détectés">
+      <h2>Fil des signaux détectés</h2>
+      <div id="trading-fil"><p class="fil-vide">Chargement du journal…</p></div>
+    </section>
+
+    <section class="trame-section" aria-label="Tableau de bord mensuel">
+      <h2>Tableau de bord mensuel</h2>
+      <div id="trading-dashboard"><p class="fil-vide">Chargement des métriques…</p></div>
+    </section>
+
+    <section class="trame-section" aria-label="Comparaison avec le backtest historique">
+      <h2>Comparaison avec le backtest historique (2025-2026)</h2>
+      <p class="metrique-sens">Mêmes métriques, mêmes unités (multiple de risque R) des deux
+        côtés : le scanner en direct applique la mécanique sur les prix réels depuis son
+        déploiement, le backtest la rejoue sur l'historique 2025-2026. Un écart entre les
+        deux peut venir d'un échantillon encore trop petit côté scanner, autant que d'une
+        différence réelle entre les prix PAXG suivis en direct et l'historique XAUUSD du
+        backtest.</p>
+      <div id="trading-comparaison"><p class="fil-vide">Chargement de la comparaison…</p></div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <p>Ce scanner mesure une mécanique, il ne conseille rien : aucune de ses sorties ne
+    constitue un conseil d'investissement. Aucune donnée de compte, de position ou de
+    montant n'est publiée sur cette page.</p>
+  </footer>
+</div>
+<script type="module" src="js/trading.js"></script>
+</body>
+</html>

@@ -388,3 +388,31 @@ button.aide:hover { color: var(--texte); border-color: var(--texte); }
 @media (max-width: 480px) {
   .watchlist { grid-template-columns: 1fr 1fr; }
 }
+
+/* --- Trading (scanner en direct) -------------------------------------------
+ * L'avertissement permanent doit se voir avant tout le reste de la page,
+ * pas seulement se lire dans un pied de page qu'on scrolle sans y prêter
+ * attention : encadré, en tête, avec la même couleur d'alerte que le reste
+ * du site pour rester cohérent plutôt que d'inventer une nouvelle teinte.
+ */
+.trading-avertissement-permanent {
+  background: var(--alerte-fond); border: 1px solid var(--alerte);
+  border-radius: var(--rayon); padding: 12px 14px; margin: 14px 0;
+  font-size: 14px; line-height: 1.5;
+}
+.trading-signal { display: block; }
+.trading-signal-entete {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 8px; font-weight: 600;
+}
+.trading-variantes { list-style: none; padding: 0; margin: 8px 0 0;
+  display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.trading-variante {
+  background: var(--fond-creux); border-radius: var(--rayon); padding: 6px 8px; font-size: 13px;
+}
+.trading-variante-entete { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.trading-variante-texte { margin: 4px 0 0; color: var(--texte-doux); font-size: 12.5px; }
+
+@media (max-width: 480px) {
+  .trading-variantes { grid-template-columns: 1fr; }
+}

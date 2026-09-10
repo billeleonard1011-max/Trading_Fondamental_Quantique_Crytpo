@@ -10,6 +10,13 @@ export const CONFIG = {
   /** Adresse du proxy Cloudflare qui relaie les questions à l'assistant. */
   urlAssistant: "https://assistant-suivi-marches.leonardbille.workers.dev",
 
+  /**
+   * Adresse du Worker du scanner en direct (voir worker-scanner/). La route
+   * /journal ne renvoie que des colonnes sûres — jamais de taille de
+   * position ni de résultat en dollars, voir worker-scanner/src/api.js.
+   */
+  urlScanner: "https://scanner-or-direct.leonardbille.workers.dev/journal",
+
   /** Chemins des rapports, relatifs à la racine du site publié. */
   sources: {
     or: "../reports/gold/latest.json",
@@ -19,7 +26,16 @@ export const CONFIG = {
     filGeopolitique: "../reports/geopolitique/feed_latest.json",
     crypto: "../reports/crypto/latest.json",
     historiqueBiais: "../reports/gold/historique_biais.jsonl",
+    backtest: "../reports/backtest/synthese.json",
   },
+
+  /**
+   * Âge, en minutes, au-delà duquel la dernière exécution du scanner est
+   * signalée comme en retard. Le Cron Trigger tourne chaque minute (voir
+   * worker-scanner/wrangler.toml) : un seuil en minutes, pas en jours comme
+   * les autres rapports, qui sont mis à jour une fois par jour.
+   */
+  seuilRetardScannerMinutes: 10,
 
   /**
    * Âge, en jours, au-delà duquel une donnée est signalée comme datée.
