@@ -421,3 +421,14 @@ button.aide:hover { color: var(--texte); border-color: var(--texte); }
  * Réutilise .fil-onglets / .fil-onglet (déjà stylées, déjà theme-aware) :
  * un onglet par dossier n'a besoin d'aucune règle de couleur propre. */
 .geo-panneaux { margin-top: 4px; }
+
+/* --- Contexte macro en prose ----------------------------------------------
+ * En tête de la rubrique Géopolitique : le décor général avant les
+ * développements spécifiques. Encadré léger pour le distinguer des dossiers
+ * sans le faire passer pour une alerte. */
+.contexte-macro {
+  background: var(--fond-creux); border-radius: var(--rayon);
+  padding: 10px 12px; margin-bottom: 12px;
+}
+.contexte-macro p { margin: 0 0 6px; }
+.contexte-macro p:last-child { margin-bottom: 0; }

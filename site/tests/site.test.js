@@ -26,8 +26,8 @@ import {
   rendrePrecedents, rendrePrix,
 } from "../js/rendu.js";
 import {
-  estLieAUnDossier, normaliserTexteGeo, rubriqueCrypto, rubriqueGeopolitique,
-  rubriqueOr, rubriqueQuantique,
+  estLieAUnDossier, normaliserTexteGeo, rendreContexteMacro, rubriqueCrypto,
+  rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
 } from "../js/rubriques.js";
 import { filtrer, rendreFil, rendreVide } from "../js/fil.js";
 import { construireContexte, demander, suggestions } from "../js/assistant.js";
@@ -793,4 +793,119 @@ test("rubriqueGeopolitique reste indisponible explicite quand le bloc geopolitiq
   const { corps, resume } = rubriqueGeopolitique({ disponible: true, donnees: { geopolitique: { disponible: false, motif: "GDELT hors service" } } }, []);
   assert.match(corps, /GDELT hors service/);
   assert.match(resume, /indisponible/);
+});
+
+// ---------------------------------------------------------------------------
+// 6. Le rapport réellement publié doit rester affichable
+// ---------------------------------------------------------------------------
+//
+// Ce bloc existe à cause d'un bug réel : le site a affiché
+// « undefined/undefined dossiers mesurés » et un seul onglet vide, parce
+// qu'il lisait une structure (dossiers) que le rapport publié ce jour-là ne
+// portait pas encore. Le rendu doit rester lisible quelle que soit la
+// version du rapport servi — c'est l'invariant, pas la présence des dossiers.
+test("la rubrique Géopolitique n'affiche jamais « undefined » sur le rapport réel", () => {
+  const or = { disponible: true, donnees: rapport("reports/gold/latest.json") };
+  const { resume, corps } = rubriqueGeopolitique(or, []);
+  assert.doesNotMatch(resume + corps, /undefined/,
+    "un champ absent du rapport publié est rendu tel quel dans la page");
+});
+
+test("un rapport sans dossiers explique pourquoi au lieu de rendre une page vide", () => {
+  // Forme d'avant les dossiers de conflits : uniquement des thèmes.
+  const ancien = {
+    disponible: true,
+    donnees: {
+      geopolitique: {
+        disponible: true, horodatage_utc: "2026-09-10T15:12:13Z",
+        n_themes_mesures: 4, n_themes_configures: 4, intensite_max: 0.9,
+        themes: [], chaine_de_transmission: {}, deja_dans_les_prix: {},
+      },
+    },
+  };
+  const { resume, corps } = rubriqueGeopolitique(ancien, []);
+  assert.doesNotMatch(resume + corps, /undefined/);
+  assert.match(corps, /antérieur au suivi par dossiers/);
+  assert.match(corps, /10\/09/, "la date du rapport en cause doit être citée");
+});
+
+test("un rapport avec dossiers rend bien un onglet par dossier", () => {
+  const avec = {
+    disponible: true,
+    donnees: etatGeoExemple([
+      dossierExemple(),
+      dossierExemple({ id: "russie_ukraine", nom_affiche: "Russie - Ukraine" }),
+    ]).donnees,
+  };
+  const { corps } = rubriqueGeopolitique(avec, []);
+  const onglets = corps.match(/data-dossier="[^"]+"/g) || [];
+  // Deux dossiers + « Autres », chacun présent en bouton et en panneau.
+  assert.equal(onglets.length, 6, `attendu 3 onglets et 3 panneaux, eu ${onglets.length} marqueurs`);
+  assert.match(corps, /data-dossier="israel_gaza"/);
+  assert.match(corps, /data-dossier="russie_ukraine"/);
+  assert.match(corps, /data-dossier="autres"/);
+});
+
+// ---------------------------------------------------------------------------
+// 7. Contexte macro en prose
+// ---------------------------------------------------------------------------
+function contexteMacroExemple(overrides = {}) {
+  return {
+    disponible: true,
+    motif: "",
+    texte: "Inflation à 2,4 % sur un an (indice CPI à 322,1), proche de la cible. "
+      + "Chômage à 4,3 %, en hausse de +0,4 point sur un an. "
+      + "Appétit pour le risque neutre, sur 2 signal(aux) : VIX à 16.5, 37e percentile sur deux ans.",
+    invalidation: "Cette lecture serait invalidée si : une inflation repassant le seuil de 3 % "
+      + "(actuellement 2,4 %) changerait la contrainte qui pèse sur la Fed.",
+    axes_indisponibles: [{ axe: "petrole", motif: "Série(s) requise(s) absente(s) : DCOILWTICO." }],
+    dates_series: { CPIAUCSL: "2026-08-31", VIXCLS: "2026-09-09" },
+    date_lecture: "2026-09-09",
+    ...overrides,
+  };
+}
+
+test("le contexte macro affiche sa prose, son invalidation et ses dates", () => {
+  const html = rendreContexteMacro(contexteMacroExemple());
+  assert.match(html, /Inflation à 2,4 %/);
+  assert.match(html, /Cette lecture serait invalidée si/);
+  assert.match(html, /CPIAUCSL au 2026-08-31/);
+});
+
+test("le contexte macro nomme les axes indisponibles, traduits", () => {
+  const html = rendreContexteMacro(contexteMacroExemple());
+  assert.match(html, /Pétrole/);
+  assert.match(html, /DCOILWTICO/);
+  assert.doesNotMatch(html, />petrole</, "identifiant technique brut affiché");
+});
+
+test("un contexte macro indisponible affiche son motif, pas un bloc vide", () => {
+  const html = rendreContexteMacro({ disponible: false, motif: "FRED injoignable" });
+  assert.match(html, /FRED injoignable/);
+  assert.match(html, /indisponible/);
+});
+
+test("un rapport sans bloc contexte_macro ne casse pas la rubrique", () => {
+  assert.equal(rendreContexteMacro(null), "");
+  assert.equal(rendreContexteMacro(undefined), "");
+});
+
+test("le contexte macro s'affiche en tête de la rubrique, avant les dossiers", () => {
+  const donnees = etatGeoExemple([dossierExemple()]).donnees;
+  donnees.contexte_macro = contexteMacroExemple();
+  const { corps } = rubriqueGeopolitique({ disponible: true, donnees }, []);
+  const posMacro = corps.indexOf("Contexte macro et appétit");
+  const posOnglets = corps.indexOf("geo-onglets");
+  assert.ok(posMacro >= 0, "le contexte macro doit être rendu");
+  assert.ok(posMacro < posOnglets, "le contexte macro doit précéder les onglets de dossiers");
+});
+
+test("le contexte macro reste affiché même quand la géopolitique est muette", () => {
+  const donnees = {
+    geopolitique: { disponible: false, motif: "GDELT hors service" },
+    contexte_macro: contexteMacroExemple(),
+  };
+  const { corps } = rubriqueGeopolitique({ disponible: true, donnees }, []);
+  assert.match(corps, /Inflation à 2,4 %/);
+  assert.match(corps, /GDELT hors service/);
 });

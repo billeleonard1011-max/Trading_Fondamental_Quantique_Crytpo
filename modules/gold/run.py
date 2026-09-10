@@ -68,7 +68,20 @@ SYMBOLE_OR: Final = "GC=F"
 SYMBOLE_OR_REPLI: Final = "GLD"
 
 #: Séries FRED nécessaires au moteur.
-SERIES_FRED: Final[tuple[str, ...]] = ("DFII10", "DTWEXBGS", "DCOILWTICO", "T10YIE")
+SERIES_FRED: Final[tuple[str, ...]] = (
+    "DFII10", "DTWEXBGS", "DCOILWTICO", "T10YIE",
+    # Contexte macro en prose (dataio.macro.rediger_contexte_macro) : les
+    # quatre premières servaient déjà à la juste valeur et à la chaîne de
+    # transmission, celles-ci s'y ajoutent pour l'inflation, l'emploi, la
+    # courbe, le crédit et l'appétit pour le risque.
+    "CPIAUCSL", "UNRATE", "VIXCLS", "BAMLH0A0HYM2", "T10Y2Y", "DGS10", "DGS2",
+    "WALCL", "RRPONTSYD",
+)
+
+#: ETF sectoriels servant à mesurer la rotation cyclique/défensif, l'un des
+#: trois signaux d'appétit pour le risque. Repris de config/universe.yaml
+#: (bloc ``groupes``) via dataio.macro, pour n'avoir qu'une définition.
+TICKERS_SECTEURS: Final[tuple[str, ...]] = macro.GROUPE_CYCLIQUES + macro.GROUPE_DEFENSIFS
 
 #: Horizon des variations utilisées par le biais, en séances.
 HORIZON_BIAIS: Final[int] = 20
@@ -386,6 +399,37 @@ def construire_rapport(
             }
         )
 
+    # --- Contexte macro en prose -------------------------------------------
+    # Placé avant la géopolitique : le décor général d'abord, les
+    # développements spécifiques ensuite — c'est aussi l'ordre d'affichage
+    # dans l'onglet Géopolitique du site.
+    _LOG.info("Lecture du contexte macro...")
+    prix_secteurs = pd.DataFrame()
+    try:
+        univers = market.get_universe(list(TICKERS_SECTEURS), start=debut, end=fin)
+        if univers:
+            prix_secteurs = pd.DataFrame(
+                {ticker: cadre["close"] for ticker, cadre in univers.items()}
+            )
+    except Exception as exc:  # noqa: BLE001 - une source muette ne casse rien
+        _LOG.warning("Prix sectoriels indisponibles (%s) : rotation non mesurée.", exc)
+
+    regime_macro = macro.compute_macro_regime(
+        series_fred if not series_fred.empty else pd.DataFrame(),
+        prix_secteurs if not prix_secteurs.empty else None,
+    )
+    bloc_contexte = macro.rediger_contexte_macro(
+        regime_macro, series_fred if not series_fred.empty else None
+    )
+    bloc_contexte["regime"] = regime_macro.to_dict()
+    bloc_contexte["_meta"] = _meta(
+        "FRED (séries macro) + ETF sectoriels (rotation cyclique/défensif)",
+        regime_macro.date_lecture,
+        jour,
+    )
+    if not bloc_contexte.get("disponible"):
+        echecs.append("contexte macro")
+
     # --- Géopolitique (dossiers de conflits nommés) -------------------------
     _LOG.info("Mesure des dossiers géopolitiques...")
     z_prime = lecture_fv.z_score if (lecture_fv.disponible and lecture_fv.fiable) else None
@@ -485,6 +529,7 @@ def construire_rapport(
         "positionnement_cot": bloc_cot,
         "flux": bloc_flux,
         "calendrier": bloc_calendrier,
+        "contexte_macro": bloc_contexte,
         "geopolitique": bloc_geo,
         "analogues": bloc_analogues,
         "biais": bloc_biais,

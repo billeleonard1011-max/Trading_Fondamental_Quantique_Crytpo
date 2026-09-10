@@ -345,6 +345,41 @@ function rendreAutresPanneau(filGeopolitique, dossiers) {
 }
 
 /**
+ * Rend le contexte macro en prose, en tête de la rubrique Géopolitique.
+ *
+ * Le décor général d'abord (inflation, emploi, pétrole, appétit pour le
+ * risque), les développements géopolitiques spécifiques ensuite. Le texte
+ * vient tel quel de dataio/macro.py::rediger_contexte_macro : chaque phrase
+ * y est déjà adossée à un chiffre daté, le site n'en réécrit aucune.
+ *
+ * @param {object} contexte Bloc ``contexte_macro`` du rapport or.
+ * @returns {string} HTML de la section, vide si le bloc est absent.
+ */
+export function rendreContexteMacro(contexte) {
+  if (!contexte) return "";
+  if (!contexte.disponible) {
+    return `<div class="trame-section contexte-macro"><h4>Contexte macro</h4>
+      ${rendreIndisponible(contexte.motif)}</div>`;
+  }
+
+  const dates = Object.entries(contexte.dates_series || {})
+    .map(([serie, date]) => `${echapper(serie)} au ${echapper(date)}`)
+    .join(", ");
+  const muets = (contexte.axes_indisponibles || [])
+    .map((a) => `<li class="composante--absente"><span>${echapper(libelle(a.axe))}</span>
+      <span class="composante-motif">${echapper(a.motif)}</span></li>`)
+    .join("");
+
+  return `<div class="trame-section contexte-macro">
+    <h4>Contexte macro et appétit pour le risque</h4>
+    <p>${echapper(contexte.texte)}</p>
+    ${contexte.invalidation ? `<p class="metrique-sens">${echapper(contexte.invalidation)}</p>` : ""}
+    ${muets ? `<ul class="liste-detail">${muets}</ul>` : ""}
+    ${dates ? `<p class="fraicheur">Données : ${dates}.</p>` : ""}
+  </div>`;
+}
+
+/**
  * Rend la rubrique Géopolitique : un onglet par dossier de conflit suivi,
  * plus un onglet « Autres » pour ce qui n'entre dans aucun dossier configuré.
  *
@@ -367,18 +402,41 @@ export function rubriqueGeopolitique(etat, filGeopolitique = []) {
     };
   }
   const geo = lire(etat.donnees, "geopolitique", {});
+  // Le contexte macro ne dépend pas des dossiers : il s'affiche même quand
+  // la géopolitique est muette, puisqu'il vient d'une autre source.
+  const contexteMacro = rendreContexteMacro(lire(etat.donnees, "contexte_macro", null));
   if (!geo.disponible) {
     return {
       resume: rendreBadge("indisponible", "alerte"),
-      corps: rendreIndisponible(geo.motif),
+      corps: `${contexteMacro}${rendreIndisponible(geo.motif)}`,
       ton: "alerte",
     };
   }
 
-  const dossiers = geo.dossiers || [];
+  // Rapport produit avant l'introduction des dossiers de conflits : il ne
+  // porte que l'ancienne structure par thèmes. Le dire explicitement, avec
+  // la date du rapport en cause, plutôt que d'afficher « undefined/undefined
+  // dossiers mesurés » et un seul onglet vide — c'est exactement le genre de
+  // valeur sans explication que le projet s'interdit partout ailleurs.
+  if (!Array.isArray(geo.dossiers)) {
+    const quand = geo.horodatage_utc ? dateHeure(geo.horodatage_utc) : ABSENT;
+    return {
+      resume: rendreBadge("en attente du prochain rapport", "alerte"),
+      corps: contexteMacro + rendreIndisponible(
+        `ce rapport (${quand}) est antérieur au suivi par dossiers de conflits : ` +
+        "il ne porte que l'ancienne structure par thèmes. Les dossiers " +
+        "apparaîtront à la prochaine exécution du moteur or.",
+      ),
+      ton: "alerte",
+    };
+  }
+
+  const dossiers = geo.dossiers;
   const intensite = geo.intensite_max;
   const ton = intensite !== null && Number(intensite) >= 2 ? "alerte" : "neutre";
   const dominant = dossiers.find((d) => d.id === geo.dossier_dominant);
+  const mesures = geo.n_dossiers_mesures ?? dossiers.filter((d) => d.disponible).length;
+  const configures = geo.n_dossiers_configures ?? dossiers.length;
   const resume = [
     rendreBadge(
       intensite === null || intensite === undefined
@@ -387,7 +445,7 @@ export function rubriqueGeopolitique(etat, filGeopolitique = []) {
       ton,
     ),
     `<span class="resume-detail">${
-      dominant ? echapper(dominant.nom_affiche) : `${geo.n_dossiers_mesures}/${geo.n_dossiers_configures} dossiers mesurés`
+      dominant ? echapper(dominant.nom_affiche) : `${mesures}/${configures} dossiers mesurés`
     }</span>`,
   ].join(" ");
 
@@ -409,7 +467,8 @@ export function rubriqueGeopolitique(etat, filGeopolitique = []) {
 
   return {
     resume,
-    corps: `<div class="geo-onglets fil-onglets" id="geo-onglets" role="tablist">${boutonsHtml}</div>
+    corps: `${contexteMacro}
+      <div class="geo-onglets fil-onglets" id="geo-onglets" role="tablist">${boutonsHtml}</div>
       <div class="geo-panneaux">${panneauxHtml}</div>`,
     ton,
   };

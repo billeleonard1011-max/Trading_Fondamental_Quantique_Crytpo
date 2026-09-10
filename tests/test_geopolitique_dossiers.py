@@ -318,3 +318,65 @@ def test_analyser_dossiers_expose_les_objets_pour_lhistorique() -> None:
     objets = bloc["_dossiers_objets"]
     assert len(objets) == 1
     assert isinstance(objets[0], geopolitics.Dossier)
+
+
+# ---------------------------------------------------------------------------
+# 7. Contrat avec le site — les champs que site/js/rubriques.js lit vraiment
+# ---------------------------------------------------------------------------
+#
+# Ce bloc existe à cause d'un bug réel : le rapport publiait
+# « chaine_de_transmission » et le site lisait « chaine_transmission ». Rien
+# ne plantait — la section « Impact chiffré » se vidait silencieusement. Un
+# test de contrat sur les noms de champs est le seul moyen d'attraper ça.
+def test_le_bloc_publie_porte_les_champs_que_le_site_lit() -> None:
+    """Contrat de nommage entre analyser_dossiers() et site/js/rubriques.js."""
+    dossiers_precalcules = [
+        geopolitics.mesurer_dossier(
+            _dossier_cfg(), volumes=_volumes([10.0] * 14),
+            intensite=_intensite(1.5), articles=[_article("Un développement")],
+        ),
+    ]
+    bloc = geopolitics.analyser_dossiers(dossiers_precalcules=dossiers_precalcules)
+
+    for cle in ("disponible", "dossiers", "intensite_max", "dossier_dominant",
+                "n_dossiers_mesures", "n_dossiers_configures", "source"):
+        assert cle in bloc, f"le site lit « {cle} », absent du bloc publié"
+
+    assert isinstance(bloc["dossiers"], list) and bloc["dossiers"]
+    for dossier in bloc["dossiers"]:
+        for cle in ("id", "nom_affiche", "mots_cles", "disponible", "motif",
+                    "intensite_ratio", "trajectoire", "etat_actuel",
+                    "developpements_recents", "nouveaux_developpements",
+                    "chaine_de_transmission", "deja_dans_les_prix", "invalidation",
+                    "n_evenements_bilateraux", "motif_events"):
+            assert cle in dossier, f"le site lit « dossier.{cle} », absent du dossier publié"
+
+
+def test_les_developpements_publies_portent_ce_quil_faut_pour_les_afficher() -> None:
+    """Un développement sans titre ni lien ne serait pas affichable."""
+    dossier = geopolitics.mesurer_dossier(
+        _dossier_cfg(), identifiants_connus=set(),
+        volumes=_volumes([10.0] * 14), intensite=_intensite(1.5),
+        articles=[_article("Un titre réel", url="https://exemple.test/x", source="Reuters")],
+    ).to_dict()
+
+    assert dossier["developpements_recents"], "aucun développement à afficher"
+    for item in dossier["developpements_recents"]:
+        for cle in ("id", "titre", "url", "source", "horodatage_utc"):
+            assert cle in item, f"le site lit « {cle} » sur chaque développement"
+        assert item["titre"] and item["url"]
+
+
+def test_le_bloc_serialise_ne_contient_aucun_objet_python() -> None:
+    """Tout doit passer en JSON : un objet Python ferait échouer la publication."""
+    import json
+
+    dossiers_precalcules = [
+        geopolitics.mesurer_dossier(_dossier_cfg(), volumes=_volumes([10.0] * 14),
+                                     intensite=_intensite(1.5), articles=[]),
+    ]
+    bloc = geopolitics.analyser_dossiers(dossiers_precalcules=dossiers_precalcules)
+    # _dossiers_objets est la seule clé non sérialisable, et elle est
+    # explicitement retirée par run.py avant publication.
+    bloc.pop("_dossiers_objets")
+    json.dumps(bloc)  # ne doit pas lever

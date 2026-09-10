@@ -46,6 +46,15 @@ export const LIBELLES = {
   inconnu: "Inconnu",
   absent: "Non suivi",
 
+  // Axes du contexte macro (dataio/macro.py::compute_macro_regime).
+  inflation: "Inflation",
+  chomage: "Chômage",
+  petrole: "Pétrole",
+  appetit_risque: "Appétit pour le risque",
+  courbe_des_taux: "Courbe des taux",
+  stress_credit: "Stress du crédit",
+  liquidite_nette: "Liquidité nette",
+
   // Maillons de la chaîne de transmission géopolitique, en repli si jamais
   // le module ne fournit pas de libellé (voir modules/gold/geopolitics.py).
   "1_evenement": "Intensité de l'événement",
