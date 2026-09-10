@@ -180,9 +180,15 @@ export function rendrePublicResolution(resolution) {
   // Variante à paliers : une seule phrase ne peut pas résumer plusieurs
   // sorties à des prix différents. Le texte détaille alors chaque tranche.
   if (resolution.variante === "c" && Array.isArray(resolution.paliers) && resolution.paliers.length) {
+    // La raison du break-even est dite une fois, en fin de phrase, plutôt
+    // que répétée à chaque tranche concernée.
+    const auBreakEven = resolution.paliers.some((p) => p.motif_sortie === "break_even");
+    const rappel = auBreakEven
+      ? ", le stop du solde ayant été ramené au prix d'entrée après la première zone"
+      : "";
     return (
       `La sortie par paliers (C) du signal se serait dénouée le ` +
-      `${horodatage(resolution.horodatageResolution)} : ${rendreTranches(resolution.paliers)}.`
+      `${horodatage(resolution.horodatageResolution)} : ${rendreTranches(resolution.paliers)}${rappel}.`
     );
   }
   const issue = resolution.statut === "gagnant" ? "atteint son objectif" : "touché son stop";
@@ -208,7 +214,7 @@ function rendreTranches(paliers) {
         return `${part} sur ${origine} à ${Number(p.zone).toFixed(2)} $`;
       }
       if (p.motif_sortie === "break_even") {
-        return `${part} au prix d'entrée, le stop ayant été ramené là après la première zone`;
+        return `${part} au prix d'entrée`;
       }
       if (p.motif_sortie === "stop") {
         return `${part} au stop`;
