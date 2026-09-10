@@ -131,9 +131,18 @@ Résumées ici, détaillées avec sources dans la conversation d'origine :
   CPU (10 ms/invocation) ne compte que le calcul JS actif, jamais l'attente
   réseau — d'où l'exigence d'un moteur incrémental plutôt qu'un rejeu complet
   à chaque tick.
-- **API Binance PAXGUSDT** : vérifiée par appel réel. Endpoint public, aucune
-  clé, granularité 1 minute (et même 1 seconde) disponible, poids de requête
-  sans commune mesure avec un appel par minute (limite de 6000/minute).
+- **API Binance PAXGUSDT** : vérifiée par appel réel *depuis le bac à sable*
+  — endpoint public, aucune clé, granularité 1 minute disponible. **Mais
+  invalidée après déploiement réel** : Binance renvoie 403 à toute requête
+  provenant du réseau sortant de Cloudflare Workers, y compris via le miroir
+  `data-api.binance.vision` et avec un en-tête `User-Agent` de navigateur —
+  un blocage au niveau IP/ASN, confirmé par `wrangler tail` sur le Worker
+  déployé. Ce que la vérification de faisabilité en bac à sable ne pouvait
+  pas détecter : le blocage ne s'applique qu'au réseau sortant de Cloudflare,
+  pas à celui d'où partait la vérification initiale. Remplacé par
+  **Kraken** (`api.kraken.com/0/public/OHLC`, paire `PAXGUSD`) : même
+  garanties (public, aucune clé, granularité 1 minute), et vérifié joignable
+  depuis ce Worker une fois déployé.
 - **D1 plutôt que KV** : la piste initiale (KV pour l'état transitoire)
   ne tient pas sur le plan gratuit — KV plafonne à 1000 écritures/jour,
   et un Worker qui écrit son état à chaque tick en fait 1440. D1 autorise
@@ -141,11 +150,13 @@ Résumées ici, détaillées avec sources dans la conversation d'origine :
 
 ## PAXG, proxy de l'or — pas XAUUSD
 
-PAXG est un jeton adossé à de l'or physique, coté en dollars sur Binance :
-un proxy, pas le prix XAUUSD d'un courtier. Ce scanner mesure la mécanique
-de la stratégie sur ce proxy ; il ne simule pas une exécution réelle chez un
-courtier, et peut diverger légèrement du prix réel — à rappeler sur l'onglet
-Trading du site (partie 4, à venir).
+PAXG est un jeton adossé à de l'or physique, coté en dollars sur Kraken
+(paire PAXG/USD, directement en dollars — plus d'intermédiaire USDT comme
+avec l'ancienne source Binance) : un proxy, pas le prix XAUUSD d'un
+courtier. Ce scanner mesure la mécanique de la stratégie sur ce proxy ; il
+ne simule pas une exécution réelle chez un courtier, et peut diverger
+légèrement du prix réel — à rappeler sur l'onglet Trading du site (partie 4,
+à venir).
 
 ## Structure
 
@@ -155,7 +166,7 @@ src/
   ict.js            port de backtest/ict.py (order blocks, swings, FVG)
   execution.js      port de backtest/execution.py (stop, taille, coûts)
   moteur.js         port de backtest/moteur.py, incrémental (voir plus haut)
-  binance.js        récupération des bougies PAXGUSDT
+  kraken.js         récupération des bougies PAXG/USD
   taux.js           taux EUR/USD quotidien (Frankfurter)
   journal.js        lecture/écriture D1 (état + journal)
   recommandation.js garde-fou anti-recommandation (port de modules/quantum/moves.py)
@@ -169,26 +180,41 @@ tests/
   agregation/ict/execution regroupés dans parite.test.js (mêmes fonctions)
   journal.test.js                D1 (via node:sqlite), statuts, idempotence
   recommandation.test.js         garde-fou + textes réels du scanner
-  resilience.test.js             pannes Binance/Frankfurter, état jamais corrompu
+  resilience.test.js             pannes Kraken/Frankfurter, état jamais corrompu
   d1_test_adapter.js             adaptateur D1 minimal pour les tests
 ```
 
-## Déploiement (pas encore fait — à faire avant la première exécution réelle)
+## Déploiement
+
+**Fait.** Worker actif à `https://scanner-or-direct.leonardbille.workers.dev`,
+Cron Trigger `* * * * *` (toutes les minutes), base D1 `scanner-or` créée et
+peuplée en continu. Procédure suivie (pour référence ou redéploiement) :
 
 ```bash
 cd worker-scanner
-wrangler d1 create scanner-or                       # copier l'ID renvoyé dans wrangler.toml
-wrangler d1 execute scanner-or --file=schema.sql --remote
-wrangler deploy
+npx wrangler d1 create scanner-or                       # copier l'ID renvoyé dans wrangler.toml
+npx wrangler d1 execute scanner-or --file=schema.sql --remote
+npx wrangler deploy
 ```
 
-## Ce qu'il reste (parties 3 et 4 du prompt)
+Vérification post-déploiement (le seul moyen fiable de savoir si une source
+de données externe est réellement joignable *depuis Cloudflare*, la
+vérification en bac à sable ne suffit pas — voir la mésaventure Binance
+ci-dessus) :
 
-- La partie 3 (structure du journal) est déjà réalisée : c'est `schema.sql`.
+```bash
+npx wrangler tail scanner-or-direct --format=pretty     # dans un terminal
+curl https://scanner-or-direct.leonardbille.workers.dev/declencher-manuellement
+```
+
+## Ce qu'il reste (partie 4 du prompt)
+
+- La partie 3 (structure du journal) est réalisée : c'est `schema.sql`, en
+  production.
 - La partie 4 (onglet Trading du site : fil d'alertes, tableau de bord
   mensuel, comparaison avec le backtest historique, avertissement permanent)
   n'est pas construite. Elle suppose un moyen pour le site statique de lire
   le journal D1 — D1 n'a pas d'API HTTP publique en dehors d'un Worker : il
-  faudra très probablement une route `fetch()` sur ce Worker (ou un second
-  petit Worker) qui expose le journal en JSON pour que le site puisse le
-  consommer, comme il le fait déjà pour les rapports `reports/*.json`.
+  faut une route `fetch()` sur ce Worker qui expose le journal en JSON pour
+  que le site puisse le consommer, comme il le fait déjà pour les rapports
+  `reports/*.json`.

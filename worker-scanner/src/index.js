@@ -1,5 +1,5 @@
 /**
- * Scanner en direct : applique la mécanique du backtest sur PAXGUSDT,
+ * Scanner en direct : applique la mécanique du backtest sur PAXG/USD,
  * minute par minute, et journalise chaque signal détecté.
  *
  * Ce Worker ne recommande jamais de prendre un trade — voir README.md et
@@ -11,7 +11,7 @@
  * tests/resilience.test.js.
  */
 
-import { recupererBougiesRecentes } from "./binance.js";
+import { recupererBougiesRecentes } from "./kraken.js";
 import { jourUtc, recupererTauxEurusd } from "./taux.js";
 import { etatInitial, traiterNouvellesBougies } from "./moteur.js";
 import { configExecutionDefaut } from "./execution.js";
@@ -43,11 +43,11 @@ async function traiterExecution(env) {
   // 1. Bougies récentes. Sans elles, rien à faire cette minute : l'état
   // persisté n'est pas touché, la prochaine exécution rattrapera le
   // terrain perdu (les bougies manquées seront comprises dans le prochain
-  // lot récupéré, jusqu'à la limite de l'historique demandé à Binance).
-  const { disponible: binanceOk, bougies: nouvellesBougies, motif: motifBinance } =
+  // lot récupéré, jusqu'à la limite de l'historique renvoyé par Kraken).
+  const { disponible: krakenOk, bougies: nouvellesBougies, motif: motifKraken } =
     await recupererBougiesRecentes(10);
-  if (!binanceOk) {
-    console.error(`Binance indisponible : ${motifBinance}. Exécution passée, état inchangé.`);
+  if (!krakenOk) {
+    console.error(`Kraken indisponible : ${motifKraken}. Exécution passée, état inchangé.`);
     return;
   }
   if (nouvellesBougies.length === 0) {

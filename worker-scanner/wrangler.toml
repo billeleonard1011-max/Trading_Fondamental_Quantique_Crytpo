@@ -26,4 +26,4 @@ crons = ["* * * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "scanner-or"
-database_id = "À_REMPLACER_APRES_wrangler_d1_create"
+database_id = "3cd91863-f7f7-4c77-90dc-0cade6ca691b"

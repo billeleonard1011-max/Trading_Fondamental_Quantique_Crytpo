@@ -31,7 +31,7 @@ function avecFetchFactice(implementation, corps) {
   });
 }
 
-test("une panne réseau totale de Binance laisse l'état persisté intact", async () => {
+test("une panne réseau totale de Kraken laisse l'état persisté intact", async () => {
   const db = creerD1Test(SCHEMA);
   const etatDepart = {
     ...etatInitial(),
@@ -52,7 +52,7 @@ test("une panne réseau totale de Binance laisse l'état persisté intact", asyn
   assert.equal(results.length, 0, "aucune ligne de journal ne doit apparaître sans nouvelle donnée");
 });
 
-test("une réponse Binance en erreur HTTP (503) dégrade sans lever d'exception", async () => {
+test("une réponse Kraken en erreur HTTP (503) dégrade sans lever d'exception", async () => {
   const db = creerD1Test(SCHEMA);
   await sauvegarderEtat(db, { ...etatInitial(), bougiesM1: [] });
 
@@ -64,7 +64,7 @@ test("une réponse Binance en erreur HTTP (503) dégrade sans lever d'exception"
   );
 });
 
-test("une réponse Binance illisible (JSON invalide) dégrade sans lever d'exception", async () => {
+test("une réponse Kraken illisible (JSON invalide) dégrade sans lever d'exception", async () => {
   const db = creerD1Test(SCHEMA);
   await sauvegarderEtat(db, { ...etatInitial(), bougiesM1: [] });
 
@@ -76,13 +76,17 @@ test("une réponse Binance illisible (JSON invalide) dégrade sans lever d'excep
   );
 });
 
-test("Binance disponible mais Frankfurter en panne : les positions déjà ouvertes restent surveillées", async () => {
+test("Kraken disponible mais Frankfurter en panne : les positions déjà ouvertes restent surveillées", async () => {
   const db = creerD1Test(SCHEMA);
-  // Horodatages relatifs à maintenant : binance.js écarte toute bougie dont
+  // Horodatages relatifs à maintenant : kraken.js écarte toute bougie dont
   // la clôture n'est pas encore passée, un horodatage figé dans le passé
   // finirait par tomber dans le futur du point de vue du test.
   const maintenant = Date.now();
-  const debutBougie = maintenant - 60_000;
+  // 61 s (pas 60) : kraken.js calcule la clôture comme (t + 60 s), qui doit
+  // rester strictement dans le passé pour que la bougie ne soit pas écartée
+  // comme "encore en formation" — une marge d'une seconde absorbe l'arrondi
+  // du Math.floor() ci-dessous.
+  const debutBougie = maintenant - 61_000;
 
   // Position ouverte, achetée à 3000 $, stop 2994 $, objectif ratio 2 à 3012 $ :
   // aucune des deux n'a besoin du taux EUR/USD pour être détectée.
@@ -105,15 +109,15 @@ test("Binance disponible mais Frankfurter en panne : les positions déjà ouvert
   // la détection réelle de "pos-1" (avant la fenêtre de ce test).
   await insererEntree(db, position);
 
+  // Format Kraken : [tempsSecondes, open, high, low, close, vwap, volume, nbTransactions].
   const bougieGagnante = [
-    debutBougie, "3013.00", "3013.50", "3012.90", "3013.20", "1.0",
-    debutBougie + 59_999, "0", 1, "0", "0", "0",
+    Math.floor(debutBougie / 1000), "3013.00", "3013.50", "3012.90", "3013.20", "3013.10", "1.0", 1,
   ];
 
   await avecFetchFactice(
     async (url) => {
-      if (String(url).includes("binance.com")) {
-        return { ok: true, status: 200, json: async () => [bougieGagnante] };
+      if (String(url).includes("kraken.com")) {
+        return { ok: true, status: 200, json: async () => ({ error: [], result: { PAXGUSD: [bougieGagnante] } }) };
       }
       // Frankfurter en panne : ne doit pas empêcher la résolution de la position.
       throw new Error("Frankfurter indisponible");
