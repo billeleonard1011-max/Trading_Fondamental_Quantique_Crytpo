@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-11",
-    "horodatage_utc": "2026-09-11T19:36:36.416478+00:00",
+    "horodatage_utc": "2026-09-11T22:07:58.011406+00:00",
     "domaine": "valeurs quantiques cotées",
     "version_moteur": "1.0",
     "valeurs_suivies": [
@@ -9,11 +9,9 @@
       "QBTS",
       "IONQ"
     ],
-    "sources_en_echec": [
-      "intensité GDELT du secteur"
-    ],
-    "donnees_partielles": true,
-    "avertissement": "1 source(s) indisponible(s) : intensité GDELT du secteur. Chaque bloc concerné porte son motif.",
+    "sources_en_echec": [],
+    "donnees_partielles": false,
+    "avertissement": "",
     "nature_du_rapport": "Ce rapport décrit des faits de marché et leur contexte. Il ne contient aucune recommandation d'achat, de vente ou de positionnement, et n'a pas vocation à en contenir.",
     "controle_anti_recommandation": {
       "effectue": true,
@@ -51,7 +49,7 @@
     },
     "_meta": {
       "source": "yfinance (secours Stooq)",
-      "horodatage_collecte_utc": "2026-09-11T19:29:58.009962+00:00",
+      "horodatage_collecte_utc": "2026-09-11T21:59:50.657818+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 1
     }
@@ -60,12 +58,12 @@
     "disponible": true,
     "motif": "",
     "serie_taux_reels": "DFII10",
-    "variation_taux_reels_points": 0.029999999999999805,
+    "variation_taux_reels_points": 0.08999999999999986,
     "reference_marche": "QQQ",
     "variation_marche_pct": -1.0637845546144553,
     "_meta": {
       "source": "FRED DFII10 + QQQ (yfinance)",
-      "horodatage_collecte_utc": "2026-09-11T19:29:58.479348+00:00",
+      "horodatage_collecte_utc": "2026-09-11T21:59:51.161145+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
@@ -82,7 +80,7 @@
     "mouvements": [],
     "_meta": {
       "source": "analyse interne (prix + FRED + EDGAR + GDELT)",
-      "horodatage_collecte_utc": "2026-09-11T19:31:31.090436+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:04:44.337260+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 1
     }
@@ -141,13 +139,13 @@
       ]
     },
     "financements_et_contrats": {
-      "disponible": false,
-      "motif": "GDELT n'a pas répondu.",
-      "ratio_couverture": null,
-      "volume_24h": 0,
-      "moyenne_journaliere_30j": 0.0,
+      "disponible": true,
+      "motif": "",
+      "ratio_couverture": 1.9808743169398906,
+      "volume_24h": 25.0,
+      "moyenne_journaliere_30j": 12.620689655172415,
       "alerte": false,
-      "lecture": "Intensité de couverture non mesurée."
+      "lecture": "Couverture des financements et contrats du secteur à 2.0 fois sa normale sur 24 heures."
     },
     "nouveaux_entrants": {
       "disponible": false,
@@ -182,7 +180,7 @@
     },
     "_meta": {
       "source": "EDGAR XBRL + GDELT + prix",
-      "horodatage_collecte_utc": "2026-09-11T19:36:36.416373+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:07:58.011305+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
@@ -207,9 +205,9 @@
       "valeur": 17.26
     },
     "taux_reels": {
-      "actuel_pct": 2.46,
+      "actuel_pct": 2.55,
       "il_y_a_6_mois_pct": 1.88,
-      "ecart_points_base": 58.0
+      "ecart_points_base": 67.0
     },
     "vix": {
       "actuel": 17.84,
@@ -218,7 +216,7 @@
     }
   },
   "synthese": {
-    "texte": "Sur trois mois, IONQ -35,0 %, QBTS -28,3 %, RGTI -22,0 % : un recul commun à tout le secteur, ce qui désigne un désengagement d'ensemble plutôt qu'une déception propre à une société. Sur six mois, le bilan est IONQ +7,5 %, QBTS -11,9 %, RGTI -10,5 %, ce qui implique que le trimestre précédent les avait portés bien plus haut : le secteur a rendu en trois mois une large part de ses gains antérieurs, ce qui laisse IONQ encore en avance sur le semestre et QBTS et RGTI sous leur niveau de départ. Sur la séance, aucune valeur suivie ne dépasse son seuil de mouvement, ce qui signifie que rien de propre au secteur ne s'est joué aujourd'hui et que sa direction reste celle des flux généraux. La corrélation la plus forte entre deux des valeurs atteint 0,94 sur 60 séances, ce qui signifie que les détenir ensemble revient largement à détenir la même position : la diversification apparente entre elles est trompeuse. Les taux réels n'ont bougé que de +0,03 point sur la séance, ce qui n'explique aucun mouvement du secteur par le coût de l'argent. Sur six mois, ils ont monté de 58 points de base, ce qui a renchéri durablement le financement des sociétés qui brûlent du cash et se refinancent par émission d'actions. Le climat de marché relevé pour l'or vaut ici aussi : neutre (score d'appétit pour le risque +0,17), aucun flux de rotation ne pousse ni ne freine les valeurs spéculatives, ce qui laisse chaque titre à ses propres nouvelles.",
+    "texte": "Sur trois mois, IONQ -35,0 %, QBTS -28,3 %, RGTI -22,0 % : un recul commun à tout le secteur, ce qui désigne un désengagement d'ensemble plutôt qu'une déception propre à une société. Sur six mois, le bilan est IONQ +7,5 %, QBTS -11,9 %, RGTI -10,5 %, ce qui implique que le trimestre précédent les avait portés bien plus haut : le secteur a rendu en trois mois une large part de ses gains antérieurs, ce qui laisse IONQ encore en avance sur le semestre et QBTS et RGTI sous leur niveau de départ. Sur la séance, aucune valeur suivie ne dépasse son seuil de mouvement, ce qui signifie que rien de propre au secteur ne s'est joué aujourd'hui et que sa direction reste celle des flux généraux. La corrélation la plus forte entre deux des valeurs atteint 0,94 sur 60 séances, ce qui signifie que les détenir ensemble revient largement à détenir la même position : la diversification apparente entre elles est trompeuse. Les taux réels ont monté de 0,09 point sur la séance, ce qui pèse sur les valeurs à profits lointains, dont la valeur actualisée diminue quand le taux monte. Sur six mois, ils ont monté de 67 points de base, ce qui a renchéri durablement le financement des sociétés qui brûlent du cash et se refinancent par émission d'actions. Le climat de marché relevé pour l'or vaut ici aussi : neutre (score d'appétit pour le risque +0,17), aucun flux de rotation ne pousse ni ne freine les valeurs spéculatives, ce qui laisse chaque titre à ses propres nouvelles.",
     "publiable": true,
     "motif": "",
     "nombres_rejetes": [],
