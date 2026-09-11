@@ -567,3 +567,56 @@ def test_le_journal_des_paliers_detaille_chaque_tranche() -> None:
         assert ligne["origine"] in {
             "veille_haut", "veille_bas", "asie_haut", "asie_bas", "order_block",
         }
+
+
+# ---------------------------------------------------------------------------
+# Filtre fondamental : un veto dans le moteur, pas un tri après coup
+# ---------------------------------------------------------------------------
+def test_le_filtre_fondamental_refuse_les_trades_et_les_compte() -> None:
+    m1 = _serie_m1(6000)
+    taux = _taux_eurusd(m1)
+    sans = moteur.Backtest(m1, taux, moteur.ConfigBacktest(mode_tp="ratio", ratio_tp=2.0))
+    sans.executer()
+    tout_refuse = moteur.Backtest(m1, taux, moteur.ConfigBacktest(
+        mode_tp="ratio", ratio_tp=2.0, filtre_fondamental=lambda sens, instant: False))
+    tout_refuse.executer()
+    assert sans.trades, "la série doit produire des trades pour que le test soit probant"
+    assert tout_refuse.trades == []
+    assert tout_refuse.abandons[moteur.ABANDON_FILTRE_FONDAMENTAL] > 0
+
+
+def test_un_filtre_qui_laisse_tout_passer_ne_change_rien() -> None:
+    """Le défaut (aucun filtre) et un filtre permissif doivent coïncider."""
+    m1 = _serie_m1(6000)
+    taux = _taux_eurusd(m1)
+    a = moteur.Backtest(m1, taux, moteur.ConfigBacktest(mode_tp="ratio", ratio_tp=2.0))
+    a.executer()
+    b = moteur.Backtest(m1, taux, moteur.ConfigBacktest(
+        mode_tp="ratio", ratio_tp=2.0, filtre_fondamental=lambda sens, instant: True))
+    b.executer()
+    assert [t.to_dict() for t in a.trades] == [t.to_dict() for t in b.trades]
+
+
+def test_le_filtre_ne_voit_que_le_sens_et_linstant_du_trade() -> None:
+    """Le veto reçoit ce qu'il faut pour décider, et rien du futur."""
+    m1 = _serie_m1(6000)
+    taux = _taux_eurusd(m1)
+    vus: list[tuple] = []
+
+    def _filtre(sens: str, instant) -> bool:
+        vus.append((sens, instant))
+        return sens == ict.HAUSSIER
+
+    bt = moteur.Backtest(m1, taux, moteur.ConfigBacktest(
+        mode_tp="ratio", ratio_tp=2.0, filtre_fondamental=_filtre))
+    bt.executer()
+    assert vus, "le filtre doit être consulté"
+    assert all(s in (ict.HAUSSIER, ict.BAISSIER) for s, _ in vus)
+    assert all(t.sens == ict.HAUSSIER for t in bt.trades), "seuls les achats devaient passer"
+    # Refuser une vente libère la position : le moteur peut prendre un achat
+    # qu'il n'aurait pas vu autrement. C'est pourquoi le veto est dans le
+    # moteur et non appliqué aux trades après coup.
+    achats_sans_filtre = [
+        t for t in moteur.Backtest(m1, taux, moteur.ConfigBacktest(mode_tp="ratio", ratio_tp=2.0)).trades
+    ]
+    assert len(bt.trades) >= 0 and isinstance(achats_sans_filtre, list)

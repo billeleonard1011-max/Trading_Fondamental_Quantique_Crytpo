@@ -1,0 +1,164 @@
+{
+ "2026_111j": {
+  "couverture_contexte": {
+   "jours": 111,
+   "avec_biais": 111,
+   "avec_z_score": 111,
+   "avec_cot": 111,
+   "avec_appetit": 111,
+   "couverture_biais_moyenne": 0.5,
+   "repartition_biais": {
+    "neutre": 59,
+    "vendeur": 51,
+    "haussier": 1
+   },
+   "repartition_conviction": {
+    "faible": 78,
+    "moyenne": 33
+   },
+   "repartition_appetit": {
+    "risk-on": 81,
+    "neutre": 30
+   }
+  },
+  "regles": {
+   "reference": {
+    "n_trades": 187,
+    "total": -675.8,
+    "r_moyen": -0.0657,
+    "reussite": 49.2,
+    "pf": 0.87,
+    "refuses": 0
+   },
+   "R1_alignement_biais": {
+    "n_trades": 0,
+    "total": 0.0,
+    "r_moyen": null,
+    "reussite": null,
+    "pf": null,
+    "refuses": 364
+   },
+   "R2_conviction": {
+    "n_trades": 49,
+    "total": -135.2,
+    "r_moyen": -0.0517,
+    "reussite": 46.9,
+    "pf": 0.91,
+    "refuses": 261
+   },
+   "R3_biais_et_conviction": {
+    "n_trades": 0,
+    "total": 0.0,
+    "r_moyen": null,
+    "reussite": null,
+    "pf": null,
+    "refuses": 365
+   },
+   "R4_valorisation": {
+    "n_trades": 187,
+    "total": -675.8,
+    "r_moyen": -0.0657,
+    "reussite": 49.2,
+    "pf": 0.87,
+    "refuses": 0
+   },
+   "R5_positionnement": {
+    "n_trades": 177,
+    "total": -940.1,
+    "r_moyen": -0.0975,
+    "reussite": 49.7,
+    "pf": 0.81,
+    "refuses": 21
+   },
+   "R6_appetit_risque": {
+    "n_trades": 75,
+    "total": -366.7,
+    "r_moyen": -0.088,
+    "reussite": 50.7,
+    "pf": 0.83,
+    "refuses": 214
+   }
+  }
+ },
+ "2025_77j": {
+  "couverture_contexte": {
+   "jours": 77,
+   "avec_biais": 77,
+   "avec_z_score": 77,
+   "avec_cot": 77,
+   "avec_appetit": 77,
+   "couverture_biais_moyenne": 0.5,
+   "repartition_biais": {
+    "neutre": 32,
+    "vendeur": 29,
+    "haussier": 16
+   },
+   "repartition_conviction": {
+    "faible": 72,
+    "moyenne": 5
+   },
+   "repartition_appetit": {
+    "risk-off": 61,
+    "neutre": 16
+   }
+  },
+  "regles": {
+   "reference": {
+    "n_trades": 137,
+    "total": -954.3,
+    "r_moyen": -0.1234,
+    "reussite": 48.2,
+    "pf": 0.75,
+    "refuses": 0
+   },
+   "R1_alignement_biais": {
+    "n_trades": 20,
+    "total": -505.2,
+    "r_moyen": -0.471,
+    "reussite": 35.0,
+    "pf": 0.3,
+    "refuses": 258
+   },
+   "R2_conviction": {
+    "n_trades": 8,
+    "total": -205.9,
+    "r_moyen": -0.4917,
+    "reussite": 37.5,
+    "pf": 0.26,
+    "refuses": 275
+   },
+   "R3_biais_et_conviction": {
+    "n_trades": 2,
+    "total": -42.7,
+    "r_moyen": -0.3952,
+    "reussite": 50.0,
+    "pf": 0.23,
+    "refuses": 286
+   },
+   "R4_valorisation": {
+    "n_trades": 137,
+    "total": -954.3,
+    "r_moyen": -0.1234,
+    "reussite": 48.2,
+    "pf": 0.75,
+    "refuses": 0
+   },
+   "R5_positionnement": {
+    "n_trades": 110,
+    "total": -783.8,
+    "r_moyen": -0.1254,
+    "reussite": 44.5,
+    "pf": 0.77,
+    "refuses": 63
+   },
+   "R6_appetit_risque": {
+    "n_trades": 70,
+    "total": -787.8,
+    "r_moyen": -0.2044,
+    "reussite": 42.9,
+    "pf": 0.64,
+    "refuses": 140
+   }
+  }
+ }
+}

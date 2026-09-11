@@ -93,6 +93,9 @@ FRACTION_FIBO_DEFAUT: Final[float] = 0.5
 #: récents. Voir ict.CHOIX_INTERPRETATION (« niveaux actifs suivis »).
 MAX_NIVEAUX_PAR_UNITE: Final[int] = 40
 
+#: Abandon dû au filtre fondamental : le contexte du jour a opposé son veto.
+ABANDON_FILTRE_FONDAMENTAL: Final = "refuse_par_le_filtre_fondamental"
+
 #: Motifs d'abandon propres au setup sweep.
 ABANDON_SANS_REFERENCE: Final = "aucun_mouvement_de_reference"
 ABANDON_SANS_STRUCTUREL: Final = "aucun_niveau_structurel"
@@ -106,6 +109,7 @@ __all__ = [
     "ConfigBacktest", "Palier", "Trade", "Backtest", "repartir_paliers",
     "SETUP_ORDER_BLOCK", "SETUP_SWEEP",
     "OBJECTIF_SWEEP_FIBO", "OBJECTIF_SWEEP_FIBO_STRUCTUREL", "OBJECTIF_SWEEP_STRUCTUREL",
+    "ABANDON_FILTRE_FONDAMENTAL",
 ]
 
 
@@ -184,6 +188,15 @@ class ConfigBacktest:
     #: qu'un dollar sur ce stop : la tripler ne l'élargit que d'un cinquième.
     #: 1,0 laisse le comportement d'origine.
     multiplicateur_stop: float = 1.0
+    #: Veto du contexte fondamental, appelé juste avant d'ouvrir.
+    #:
+    #: Reçoit ``(sens, instant)`` et rend ``True`` pour laisser passer. Le
+    #: veto agit **dans** le moteur et non par tri des trades après coup :
+    #: une seule position est tenue à la fois, refuser un trade libère donc
+    #: la place pour un autre — ce qu'un tri a posteriori ne reproduirait
+    #: pas. ``None`` laisse tout passer, et c'est le défaut : les résultats
+    #: publiés jusqu'ici mesurent la mécanique pure.
+    filtre_fondamental: Callable[[str, pd.Timestamp], bool] | None = None
     #: Famille d'objectif du setup sweep.
     objectif_sweep: str = OBJECTIF_SWEEP_FIBO
     #: Unité d'ancrage du mouvement de référence du Fibonacci.
@@ -448,6 +461,7 @@ class Backtest:
             ABANDON_EXPIRATION: 0,
             ABANDON_SANS_REFERENCE: 0,
             ABANDON_SANS_STRUCTUREL: 0,
+            ABANDON_FILTRE_FONDAMENTAL: 0,
         }
         #: Sweeps confirmés, y compris ceux survenus pendant une position
         #: ouverte (le niveau est consommé, aucun setup n'est ouvert).
@@ -911,6 +925,11 @@ class Backtest:
         Returns:
             Le trade et ses niveaux, ou un motif d'abandon.
         """
+        if self.config.filtre_fondamental is not None and not self.config.filtre_fondamental(
+            setup.sens, fin_barre
+        ):
+            return ABANDON_FILTRE_FONDAMENTAL
+
         if setup.origine == SETUP_SWEEP:
             return self._ouvrir_sweep(setup, prix, fin_barre)
 

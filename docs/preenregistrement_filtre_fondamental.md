@@ -106,3 +106,68 @@ probabilité qu'un résultat sans edge soit positif des deux côtés). Une
 règle qui passe ne prouverait donc rien à elle seule — elle deviendrait une
 hypothèse à confirmer sur des données non encore regardées, et devrait être
 annoncée comme telle, pas comme un résultat.
+
+---
+
+# Résultats
+
+Exécutés après le commit du pré-enregistrement ci-dessus. Aucune règle,
+aucun seuil et aucun critère n'a été modifié entre les deux.
+
+## Verdict : aucune règle ne passe
+
+| Règle | 2026 (111 j) | 2025 (77 j) | Critère |
+|---|---|---|---|
+| *référence, sans filtre* | 187 tr · −676 € · R −0,066 | 137 tr · −954 € · R −0,123 | — |
+| R1 alignement du biais | **0 trade** | 20 tr · −505 € · R −0,471 | échec |
+| R2 conviction minimale | 49 tr · −135 € · R −0,052 | 8 tr · −206 € · R −0,492 | échec |
+| R3 biais et conviction | **0 trade** | 2 tr · −43 € · R −0,395 | échec |
+| R4 valorisation | *non testable* | *non testable* | non testable |
+| R5 positionnement | 177 tr · −940 € · R −0,098 | 110 tr · −784 € · R −0,125 | échec |
+| R6 appétit pour le risque | 75 tr · −367 € · R −0,088 | 70 tr · −788 € · R −0,204 | échec |
+
+Aucune règle n'atteint un R moyen positif, sur aucune des deux périodes.
+Le critère exigeait les trois conditions ensemble ; ici la première n'est
+jamais remplie. Il n'y a donc rien à départager, et aucune place pour un
+choix a posteriori.
+
+Une seule règle améliore le R moyen sur une période — R2 sur 2026, de
+−0,066 à −0,052 — et elle le dégrade massivement sur l'autre (−0,492).
+C'est le même comportement que les trois leviers précédents.
+
+## Trois limites, à déclarer avec le résultat
+
+**R4 n'a pas pu être testée.** Le modèle de juste valeur affiche un R²
+médian de 0,069 et un maximum de 0,177, toujours sous le seuil de 0,50 que
+le projet s'impose à lui-même. Le z-score existe mais le projet le refuse
+comme non fiable, et la règle le respecte. Ce n'est pas « aucun effet »,
+c'est « signal indisponible » — et c'est cohérent avec le rapport en
+production, qui affiche la même indisponibilité.
+
+**Le biais recomposé ne porte que trois composantes sur six** (50 % de
+couverture) : positionnement COT, dynamique des taux réels, tendance du
+dollar. Sont absentes la juste valeur (non fiable), l'intensité
+géopolitique (non reconstructible) et la confirmation par les minières (non
+collectée). R1, R2 et R3 testent donc un biais affaibli, pas celui que le
+rapport quotidien publie.
+
+**Conséquence directe, visible dans les données** : sur 111 jours de 2026,
+le biais reconstruit n'est « haussier » qu'**un seul jour**, contre 51
+« vendeur » et 59 « neutre ». R1 et R3 ne laissent alors passer aucun
+achat, et comme le setup ne produisait presque que des achats sur cette
+période, elles rendent zéro trade. Un filtre qui refuse tout ne démontre
+rien.
+
+## Ce que l'étude établit, et ce qu'elle n'établit pas
+
+**Établi** : le contexte fondamental reconstructible sans look-ahead —
+positionnement, taux réels, dollar, appétit pour le risque — ne sépare pas
+les bons trades des mauvais. Les six règles échouent, et quatre d'entre
+elles *dégradent* le résultat par rapport à l'absence de filtre.
+
+**Non établi** : que le biais complet, à six composantes, soit sans valeur.
+Il n'a pas été testé, faute de pouvoir le reconstruire. Le tester
+demanderait de laisser tourner le rapport quotidien pendant plusieurs mois
+et d'accumuler les contextes réellement publiés — l'archive n'en compte que
+trois aujourd'hui. C'est la seule façon honnête de le faire : en collectant
+les contextes au fil de l'eau, jamais en les recalculant après coup.
