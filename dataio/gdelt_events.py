@@ -11,9 +11,14 @@ en CSV zippé, publiés toutes les quinze minutes, sans clé ni compte — véri
 par téléchargement réel d'un export (voir la vérification B1 du prompt
 « sorties par paliers + géopolitique »).
 
-Ce module ne télécharge que le **dernier** export publié : un instantané de
-l'activité récente par acteur, pas une tendance. La tendance de couverture
-est déjà mesurée par ``dataio.news.gdelt_intensity()`` sur 30 jours ; les
+:func:`recuperer_dernier_export` ne télécharge que le **dernier** export
+publié : un instantané. Pour découvrir des sujets, c'est trop mince — un
+export de quinze minutes contient une vingtaine d'événements de conflit
+entre pays distincts, et le « sujet le plus actif » y est une paire à deux
+événements. :func:`recuperer_exports_recents` agrège donc les exports des
+dernières heures (URLs déterministes, une toutes les quinze minutes, sans
+limite de débit : c'est un hébergement statique). La tendance de couverture
+sur trente jours reste mesurée par ``dataio.news.gdelt_intensity()`` ; les
 deux se complètent, ils ne se recouvrent pas.
 
 Colonnes lues, sur les 61 du format GDELT 2.0 Events (indices 0-based,
@@ -29,6 +34,7 @@ import io
 import logging
 import os
 import zipfile
+from datetime import datetime, timedelta, timezone
 from typing import Any, Final
 
 import requests
@@ -37,6 +43,13 @@ _LOG: Final = logging.getLogger(__name__)
 
 #: Index des exports publiés, mis à jour toutes les quinze minutes.
 URL_DERNIERE_MISE_A_JOUR: Final = "http://data.gdeltproject.org/gdeltv2/lastupdate.txt"
+
+#: Gabarit d'un export daté : horodatage UTC arrondi au quart d'heure.
+URL_EXPORT: Final = "http://data.gdeltproject.org/gdeltv2/{horodatage}.export.CSV.zip"
+
+#: Profondeur par défaut de l'agrégation, en heures, et pas entre exports.
+HEURES_EXPORTS_DEFAUT: Final[int] = 24
+PAS_EXPORT_MINUTES: Final[int] = 15
 
 #: Délai maximal, en secondes, accordé à un appel réseau.
 TIMEOUT: Final[float] = float(os.environ.get("HTTP_TIMEOUT", "20"))
@@ -53,7 +66,7 @@ _COL_TONALITE: Final[int] = 34
 _COL_SOURCE_URL: Final[int] = 60
 _NB_COLONNES_MIN: Final[int] = 61
 
-__all__ = ["recuperer_dernier_export", "compter_evenements_par_acteurs"]
+__all__ = ["recuperer_dernier_export", "recuperer_exports_recents", "compter_evenements_par_acteurs", "compter_evenements_region"]
 
 
 def recuperer_dernier_export(
@@ -108,6 +121,79 @@ def recuperer_dernier_export(
     return lignes, ""
 
 
+def _lire_archive(contenu: bytes) -> list[list[str]] | None:
+    """Décompresse un export et le lit en lignes ; ``None`` si l'archive est corrompue."""
+    try:
+        with zipfile.ZipFile(io.BytesIO(contenu)) as archive:
+            noms = archive.namelist()
+            if not noms:
+                return None
+            texte = archive.read(noms[0]).decode("utf-8", errors="replace")
+    except zipfile.BadZipFile:
+        return None
+    return list(csv.reader(io.StringIO(texte), delimiter="\t"))
+
+
+def recuperer_exports_recents(
+    heures: int = HEURES_EXPORTS_DEFAUT,
+    recuperer: Any = None,
+    maintenant: datetime | None = None,
+) -> tuple[list[list[str]], dict[str, Any]]:
+    """Agrège les exports Events des dernières heures.
+
+    Les exports sont publiés toutes les quinze minutes à une URL déduite de
+    l'horodatage : aucun index à télécharger. Un export manquant (retard de
+    publication, trou) est simplement ignoré et compté ; l'agrégation n'a
+    pas besoin d'être complète pour être utile, mais le rapport dit combien
+    d'exports ont réellement été lus.
+
+    Args:
+        heures: profondeur de l'agrégation.
+        recuperer: implémentation de ``requests.get``, injectable pour les
+            tests hors ligne.
+        maintenant: instant de référence UTC, pour les tests.
+
+    Returns:
+        ``(lignes, meta)`` — toutes les lignes des exports lus, et
+        ``meta = {"n_exports_lus", "n_exports_attendus", "heures", "motif"}``.
+        ``lignes`` est vide et ``motif`` explique pourquoi si rien n'a pu
+        être lu — jamais d'exception.
+    """
+    get = recuperer or requests.get
+    ref = (maintenant or datetime.now(timezone.utc)).astimezone(timezone.utc)
+    # Le dernier export disponible date d'un quart d'heure révolu, et sa
+    # publication prend quelques minutes : on part du quart d'heure précédent.
+    arrondi = ref.replace(second=0, microsecond=0, minute=(ref.minute // PAS_EXPORT_MINUTES) * PAS_EXPORT_MINUTES)
+    arrondi -= timedelta(minutes=PAS_EXPORT_MINUTES)
+    n_attendus = max(int(heures * 60 / PAS_EXPORT_MINUTES), 1)
+
+    lignes: list[list[str]] = []
+    lus = 0
+    derniere_erreur = ""
+    for k in range(n_attendus):
+        instant = arrondi - timedelta(minutes=PAS_EXPORT_MINUTES * k)
+        url = URL_EXPORT.format(horodatage=instant.strftime("%Y%m%d%H%M%S"))
+        try:
+            reponse = get(url, timeout=TIMEOUT, headers=_ENTETES)
+            reponse.raise_for_status()
+        except requests.RequestException as exc:
+            derniere_erreur = f"{url} : {exc}"
+            continue
+        contenu = _lire_archive(reponse.content)
+        if contenu is None:
+            derniere_erreur = f"{url} : archive corrompue"
+            continue
+        lignes.extend(contenu)
+        lus += 1
+
+    meta = {"n_exports_lus": lus, "n_exports_attendus": n_attendus, "heures": heures, "motif": ""}
+    if not lus:
+        meta["motif"] = f"aucun export GDELT Events lisible sur {heures} h ({derniere_erreur or 'aucune réponse'})"
+    elif lus < n_attendus:
+        _LOG.info("GDELT Events : %d export(s) lu(s) sur %d attendus (%s).", lus, n_attendus, derniere_erreur)
+    return lignes, meta
+
+
 def compter_evenements_par_acteurs(
     lignes: list[list[str]], acteurs: list[str]
 ) -> dict[str, Any]:
@@ -139,6 +225,50 @@ def compter_evenements_par_acteurs(
         and {ligne[_COL_ACTOR1_PAYS], ligne[_COL_ACTOR2_PAYS]} >= acteurs_voulus
     ]
 
+    if not correspondants:
+        return {"n_evenements": 0, "exemple": None}
+
+    premiere = correspondants[0]
+
+    def _flottant(valeur: str) -> float | None:
+        try:
+            return float(valeur)
+        except (TypeError, ValueError):
+            return None
+
+    return {
+        "n_evenements": len(correspondants),
+        "exemple": {
+            "code_evenement": premiere[_COL_CODE_EVENEMENT],
+            "goldstein": _flottant(premiere[_COL_GOLDSTEIN]),
+            "tonalite": _flottant(premiere[_COL_TONALITE]),
+            "source_url": premiere[_COL_SOURCE_URL],
+        },
+    }
+
+
+def compter_evenements_region(lignes: list[list[str]], pays: list[str]) -> dict[str, Any]:
+    """Compte les événements dont les **deux** acteurs sont dans une région.
+
+    Sert aux dossiers régionaux (« Moyen-Orient ») : un événement entre le
+    Yémen et l'Arabie saoudite n'appartient à aucun dossier bilatéral, mais
+    il appartient à la région — et c'est là qu'une attaque qui fait monter
+    le pétrole doit se rattacher, pas dans « Autres ».
+
+    Args:
+        lignes: lignes brutes d'un export Events.
+        pays: codes CAMEO des pays de la région.
+
+    Returns:
+        Même forme que :func:`compter_evenements_par_acteurs`.
+    """
+    voulus = set(pays)
+    correspondants = [
+        ligne for ligne in lignes
+        if len(ligne) >= _NB_COLONNES_MIN
+        and ligne[_COL_ACTOR1_PAYS] in voulus and ligne[_COL_ACTOR2_PAYS] in voulus
+        and ligne[_COL_ACTOR1_PAYS] != ligne[_COL_ACTOR2_PAYS]
+    ]
     if not correspondants:
         return {"n_evenements": 0, "exemple": None}
 

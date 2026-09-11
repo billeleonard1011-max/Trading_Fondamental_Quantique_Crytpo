@@ -38,7 +38,7 @@ from __future__ import annotations
 import json
 import logging
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Final
@@ -49,6 +49,7 @@ import yaml
 
 from dataio import news
 from dataio import gdelt_events
+from modules.geopolitique import sujets
 from modules.geopolitique.feed import identifiant_item
 
 _LOG: Final = logging.getLogger(__name__)
@@ -58,6 +59,14 @@ HORIZON_MAILLON: Final[int] = 5
 
 #: Fenêtre d'observation de la trajectoire d'un thème, en jours.
 FENETRE_TRAJECTOIRE: Final[int] = 7
+
+#: Profondeur de la couverture demandée à GDELT DOC, en jours. L'API couvre
+#: trois mois glissants : les demander en une seule requête donne à la
+#: pertinence marché (modules/geopolitique/sujets.py) une soixantaine de
+#: séances au lieu d'une vingtaine, sans appel supplémentaire. L'intensité
+#: et la trajectoire, elles, restent lues sur les trente derniers jours.
+JOURS_PERTINENCE: Final[int] = 90
+JOURS_INTENSITE: Final[int] = 30
 
 #: Ancienneté au-delà de laquelle un thème est considéré comme installé.
 ANCIENNETE_INSTALLEE: Final[int] = 14
@@ -125,6 +134,9 @@ class Theme:
     anciennete_jours: int | None = None
     disponible: bool = False
     motif: str = ""
+    #: Couverture journalière sur trente jours, gardée pour la mesure de
+    #: pertinence marché (modules/geopolitique/sujets.py) — pas sérialisée.
+    volumes: dict[str, float] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         """Sérialise le thème pour le rapport JSON."""
@@ -242,13 +254,17 @@ def analyser_theme(
     Returns:
         La lecture du thème, éventuellement marquée indisponible.
     """
-    # Les volumes journaliers sont chargés d'abord, puis passés à
-    # gdelt_intensity : intensité et trajectoire se calculent à partir de la
-    # même série, en une seule requête au lieu de deux identiques.
+    # Les volumes journaliers sont chargés d'abord — sur trois mois, en une
+    # seule requête —, puis passés à gdelt_intensity : intensité et
+    # trajectoire se calculent sur les trente derniers jours de la même
+    # série, la pertinence marché sur la série entière.
     if volumes is None:
-        volumes, motif_volumes = news.gdelt_volume_journalier(query, timespan="30d")
+        volumes, motif_volumes = news.gdelt_volume_journalier(query, timespan=f"{JOURS_PERTINENCE}d")
     else:
         motif_volumes = ""
+    volumes_complets = dict(volumes or {})
+    if len(volumes_complets) > JOURS_INTENSITE:
+        volumes = {j: volumes_complets[j] for j in sorted(volumes_complets)[-JOURS_INTENSITE:]}
     if intensite is None:
         intensite = news.gdelt_intensity(query, volumes=volumes or None)
 
@@ -273,6 +289,7 @@ def analyser_theme(
         ratio_trajectoire=ratio_trajectoire,
         anciennete_jours=_anciennete(volumes),
         disponible=True,
+        volumes=volumes_complets,
     )
 
 
@@ -326,11 +343,24 @@ def _variation(serie: pd.Series | None, horizon: int, en_pourcentage: bool) -> d
     }
 
 
+#: Canaux de transmission vers l'or, par nature de dossier.
+#:
+#: ``petrole`` (conflits, régions) : événement → pétrole → anticipations
+#: d'inflation → taux réels → or, chaque maillon avec son sens attendu.
+#: ``taux`` (politique monétaire) : événement → taux réels → or ; cohérent
+#: quand les deux bougent en sens contraire, quel que soit le sens.
+#: ``risque`` (commerce, technologie) : événement → VIX → or ; cohérent
+#: quand les deux montent ou baissent ensemble — la fuite vers la sécurité.
+CANAUX: Final[dict[str, str]] = {"petrole": "pétrole", "taux": "taux réels", "risque": "aversion au risque"}
+SERIE_VIX: Final = "VIXCLS"
+
+
 def chaine_de_transmission(
     series_macro: pd.DataFrame | None,
     prix_or: pd.Series | None,
     intensite_max: float | None = None,
     horizon: int = HORIZON_MAILLON,
+    canal: str = "petrole",
 ) -> dict[str, Any]:
     """Mesure chaque maillon entre l'événement et l'or.
 
@@ -345,10 +375,13 @@ def chaine_de_transmission(
         prix_or: série du prix de l'or.
         intensite_max: intensité du thème le plus actif, premier maillon.
         horizon: nombre de séances de la variation.
+        canal: ``petrole``, ``taux`` ou ``risque`` (voir :data:`CANAUX`).
 
     Returns:
-        Dictionnaire décrivant les cinq maillons et la cohérence d'ensemble.
+        Dictionnaire décrivant les maillons et la cohérence d'ensemble.
     """
+    if canal not in ("petrole", "taux", "risque"):
+        canal = "petrole"
     cadre = series_macro if series_macro is not None else pd.DataFrame()
 
     def _colonne(nom: str) -> pd.Series | None:
@@ -381,6 +414,14 @@ def chaine_de_transmission(
             **_variation(prix_or, horizon, en_pourcentage=True),
         },
     }
+    if canal == "taux":
+        maillons = {k: maillons[k] for k in ("1_evenement", "4_taux_reels", "5_or")}
+    elif canal == "risque":
+        maillons = {
+            "1_evenement": maillons["1_evenement"],
+            "3_vix": {"libelle": "VIX (aversion au risque)", **_variation(_colonne(SERIE_VIX), horizon, en_pourcentage=True)},
+            "5_or": maillons["5_or"],
+        }
 
     # Cohérence : la chaîne « théorique » veut pétrole en hausse, anticipations
     # en hausse, taux réels en baisse, or en hausse. On compte les maillons
@@ -394,9 +435,17 @@ def chaine_de_transmission(
     mesures = [
         (cle, maillons[cle]["variation"], sens)
         for cle, sens in attendus.items()
-        if maillons[cle].get("disponible") and maillons[cle].get("variation") is not None
+        if cle in maillons and maillons[cle].get("disponible") and maillons[cle].get("variation") is not None
     ]
     conformes = [cle for cle, variation, sens in mesures if variation * sens > 0]
+
+    # Les canaux « taux » et « risque » n'ont pas de sens absolu attendu : ce
+    # qui compte est la relation entre les deux maillons mesurés. Taux réels
+    # et or en sens contraire, VIX et or dans le même sens : cohérent.
+    if canal in ("taux", "risque") and len(mesures) == 2:
+        (_, v_amont, _), (_, v_or, _) = mesures
+        coherent = (v_amont * v_or < 0) if canal == "taux" else (v_amont * v_or > 0)
+        conformes = [cle for cle, _, _ in mesures] if coherent else [mesures[1][0]]
 
     if not mesures:
         commentaire = "Chaîne non mesurable : aucune série disponible."
@@ -427,6 +476,7 @@ def chaine_de_transmission(
 
     return {
         "horizon_seances": horizon,
+        "canal": canal,
         "maillons": maillons,
         "n_maillons_mesures": len(mesures),
         "n_maillons_conformes": len(conformes),
@@ -581,6 +631,25 @@ class Dossier:
     chaine_transmission: dict[str, Any] = field(default_factory=dict)
     deja_dans_les_prix: dict[str, Any] = field(default_factory=dict)
     invalidation: str = ""
+    #: ``conflit`` (bilatéral), ``regional`` ou ``thematique``.
+    type: str = "conflit"
+    #: Codes CAMEO des deux parties (bilatéral) ou des pays de la région :
+    #: gardés pour rattacher les paires découvertes même quand les dossiers
+    #: sont fournis déjà mesurés.
+    acteurs: list[str] = field(default_factory=list)
+    pays: list[str] = field(default_factory=list)
+    #: Canal de transmission vers l'or (voir :data:`CANAUX`).
+    canal: str = "petrole"
+    #: Imposé par la configuration : suivi quoi que mesure le système.
+    epingle: bool = False
+    #: Coïncidence entre pics de couverture et mouvements de marché
+    #: (modules/geopolitique/sujets.py::pertinence_marche).
+    pertinence: dict[str, Any] = field(default_factory=dict)
+    #: Statut et rang dans le classement des sujets.
+    classement: dict[str, Any] = field(default_factory=dict)
+    #: Paires d'acteurs découvertes dans l'export Events et rattachées à ce
+    #: dossier (régional surtout).
+    sujets_rattaches: list[dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         """Sérialise le dossier pour le rapport JSON."""
@@ -608,6 +677,12 @@ class Dossier:
             "chaine_de_transmission": self.chaine_transmission,
             "deja_dans_les_prix": self.deja_dans_les_prix,
             "invalidation": self.invalidation,
+            "type": self.type,
+            "canal": self.canal,
+            "epingle": self.epingle,
+            "pertinence": self.pertinence,
+            "classement": self.classement,
+            "sujets_rattaches": self.sujets_rattaches,
         }
 
 
@@ -629,6 +704,17 @@ def charger_dossiers_config(chemin: Path | None = None) -> list[dict[str, Any]]:
         _LOG.error("Configuration des dossiers géopolitiques illisible (%s) : %s", fichier, exc)
         return []
     return list(contenu.get("dossiers") or [])
+
+
+def charger_reglages_decouverte(chemin: Path | None = None) -> dict[str, Any]:
+    """Charge le bloc ``decouverte`` de la configuration (vide si absent)."""
+    fichier = chemin or FICHIER_DOSSIERS_DEFAUT
+    try:
+        with fichier.open("r", encoding="utf-8") as flux:
+            contenu = yaml.safe_load(flux) or {}
+    except (OSError, yaml.YAMLError):
+        return {}
+    return dict(contenu.get("decouverte") or {})
 
 
 def _etat_actuel_dossier(
@@ -750,6 +836,10 @@ def mesurer_dossier(
     nom = str(dossier_cfg.get("nom_affiche", ident or "dossier sans nom"))
     mots_cles = [str(m) for m in dossier_cfg.get("mots_cles") or []]
     acteurs = [str(a) for a in dossier_cfg.get("acteurs_gdelt") or []]
+    pays = [str(p) for p in dossier_cfg.get("pays") or []]
+    type_dossier = str(dossier_cfg.get("type") or ("regional" if pays else "conflit"))
+    canal = str(dossier_cfg.get("canal") or "petrole")
+    epingle = bool(dossier_cfg.get("epingle", False))
     connus = identifiants_connus or set()
 
     query = news.construire_requete_gdelt(mots_cles) if mots_cles else ""
@@ -766,13 +856,18 @@ def mesurer_dossier(
     # voir dataio/gdelt_events.py pour pourquoi seul le dernier export compte.
     n_evenements: int | None = None
     exemple_evenement: dict[str, Any] | None = None
-    if len(acteurs) == 2:
+    if len(acteurs) == 2 or pays:
         if lignes_events is not None:
-            resultat_events = gdelt_events.compter_evenements_par_acteurs(lignes_events, acteurs)
+            resultat_events = (
+                gdelt_events.compter_evenements_par_acteurs(lignes_events, acteurs)
+                if len(acteurs) == 2 else gdelt_events.compter_evenements_region(lignes_events, pays)
+            )
             n_evenements = resultat_events["n_evenements"]
             exemple_evenement = resultat_events["exemple"]
         elif not motif_events:
             motif_events = "export GDELT Events non fourni"
+    elif not motif_events:
+        motif_events = "dossier thématique : pas d'activité par acteur"
 
     # Narratif : des articles réels, nommés et sourcés — pas seulement un
     # ratio d'intensité déconnecté de tout événement concret.
@@ -790,7 +885,7 @@ def mesurer_dossier(
     ]
     nouveaux = [d for d in developpements if d["id"] not in connus]
 
-    chaine = chaine_de_transmission(series_macro, prix_or, intensite_max=theme.intensite_ratio)
+    chaine = chaine_de_transmission(series_macro, prix_or, intensite_max=theme.intensite_ratio, canal=canal)
     deja_paye = _deja_dans_les_prix([theme], z_score_prime)
 
     return Dossier(
@@ -807,6 +902,11 @@ def mesurer_dossier(
         chaine_transmission=chaine,
         deja_dans_les_prix=deja_paye,
         invalidation=_invalidation_dossier(theme, chaine),
+        type=type_dossier,
+        acteurs=acteurs,
+        pays=pays,
+        canal=canal,
+        epingle=epingle,
     )
 
 
@@ -879,6 +979,42 @@ def publier_historique_dossiers(dossiers: list[Dossier], chemin: Path | None = N
         _LOG.warning("Historique des dossiers géopolitiques non écrit (%s) : %s", fichier, exc)
 
 
+def _mesurer_sujet_libre(
+    nom: str, requete: str, marches: pd.DataFrame | None, min_obs: int,
+    mesurer: bool, fenetre: int,
+) -> dict[str, Any]:
+    """Mesure couverture, trajectoire et pertinence d'un sujet sans dossier.
+
+    Une requête vide (code pays inconnu) ou ``mesurer=False`` donne un sujet
+    listé mais non mesuré, avec son motif.
+    """
+    if not requete:
+        return {"disponible": False, "motif": "aucune requête composable pour ce sujet",
+                "intensite_ratio": None, "trajectoire": "", "pertinence": sujets.pertinence_marche(None, marches)}
+    if not mesurer:
+        return {"disponible": False, "motif": "mesure GDELT non demandée",
+                "intensite_ratio": None, "trajectoire": "", "pertinence": sujets.pertinence_marche(None, marches)}
+    theme = analyser_theme(nom=nom, query=requete, fenetre=fenetre)
+    return {
+        "disponible": theme.disponible, "motif": theme.motif,
+        "intensite_ratio": theme.intensite_ratio, "trajectoire": theme.trajectoire,
+        "volume_24h": theme.volume_24h,
+        "pertinence": sujets.pertinence_marche(theme.volumes, marches, min_observations=min_obs),
+    }
+
+
+def _articles_sujet(requete: str, mesurer: bool, maximum: int = 5) -> list[dict[str, Any]]:
+    """Quelques articles nommés et sourcés pour un sujet du filet « Autres »."""
+    if not requete or not mesurer:
+        return []
+    articles = news.fetch_gdelt(requete, timespan="48h", max_records=maximum, tags=["autres"])
+    return [
+        {"id": identifiant_item(a.titre, a.url), "titre": a.titre, "url": a.url, "source": a.source,
+         "horodatage_utc": a.date.isoformat() if a.date else None}
+        for a in articles[:maximum]
+    ]
+
+
 def analyser_dossiers(
     dossiers_configures: list[dict[str, Any]] | None = None,
     series_macro: pd.DataFrame | None = None,
@@ -891,6 +1027,10 @@ def analyser_dossiers(
     dossiers_precalcules: list[Dossier] | None = None,
     lignes_events: list[list[str]] | None = None,
     motif_events: str | None = None,
+    themes_generiques: list[dict[str, Any]] | None = None,
+    reglages_decouverte: dict[str, Any] | None = None,
+    marches: pd.DataFrame | None = None,
+    mesurer_candidats: bool = True,
 ) -> dict[str, Any]:
     """Produit le bloc géopolitique du rapport, dossier de conflit par dossier.
 
@@ -914,13 +1054,42 @@ def analyser_dossiers(
         motif_events: motif d'indisponibilité de l'export Events, s'il y a
             lieu (évite un second appel réseau quand l'échec est déjà connu).
 
+        themes_generiques: thèmes GDELT génériques (``gold.yaml``,
+            ``geopolitique.themes``) : seconde source de candidats, et
+            matière du filet « Autres ».
+        reglages_decouverte: bloc ``decouverte`` de la configuration
+            (``max_candidats``, ``max_candidats_mesures``,
+            ``min_observations``).
+        marches: mouvements journaliers des actifs suivis (voir
+            :func:`modules.geopolitique.sujets.marches_journaliers`).
+            ``None`` les dérive de ``series_macro`` et ``prix_or``.
+        mesurer_candidats: ``False`` pour n'effectuer aucun appel GDELT DOC
+            pour les candidats et thèmes (tests hors ligne) — ils sont
+            alors listés sans mesure, jamais inventés.
+
     Returns:
-        Dictionnaire prêt à être sérialisé. L'écriture de l'historique n'est
-        PAS faite ici (voir :func:`publier_historique_dossiers`) : cette
-        fonction reste pure, ce qui la rend testable sans toucher au disque.
+        Dictionnaire prêt à être sérialisé, avec en plus ``classement``
+        (tous les sujets, du plus pertinent au moins), ``candidats`` (paires
+        découvertes dans l'export Events) et ``autres`` (sujets significatifs
+        hors de tout dossier). L'écriture de l'historique n'est PAS faite ici
+        (voir :func:`publier_historique_dossiers`) : cette fonction reste
+        pure, ce qui la rend testable sans toucher au disque.
     """
+    reglages = dict(reglages_decouverte or {})
+    min_obs = int(reglages.get("min_observations", sujets.MIN_OBSERVATIONS))
+    if marches is None:
+        marches = sujets.marches_journaliers(series_macro, prix_or)
+    events_meta: dict[str, Any] = {
+        "n_exports_lus": None, "n_exports_attendus": None,
+        "heures": int(reglages.get("heures_events", gdelt_events.HEURES_EXPORTS_DEFAUT)), "motif": "",
+    }
+
     if dossiers_precalcules is not None:
         dossiers = list(dossiers_precalcules)
+        configs = [
+            {"id": d.id, "nom_affiche": d.nom_affiche, "acteurs_gdelt": d.acteurs, "pays": d.pays, "mots_cles": d.mots_cles}
+            for d in dossiers
+        ]
     else:
         configs = (
             dossiers_configures if dossiers_configures is not None else charger_dossiers_config()
@@ -928,7 +1097,10 @@ def analyser_dossiers(
         connus = identifiants_connus if identifiants_connus is not None else charger_historique_dossiers()
 
         if lignes_events is None and motif_events is None:
-            lignes_events, motif_events = gdelt_events.recuperer_dernier_export()
+            lignes_events, events_meta = gdelt_events.recuperer_exports_recents(
+                heures=int(reglages.get("heures_events", gdelt_events.HEURES_EXPORTS_DEFAUT)),
+            )
+            motif_events = events_meta.get("motif", "")
         motif_events = motif_events or ""
         if motif_events:
             _LOG.warning(
@@ -953,9 +1125,13 @@ def analyser_dossiers(
         # minute d'attente. Seuls les échecs GDELT sont réessayés — un dossier
         # sans mot-clé configuré ne s'arrangera pas en patientant.
         for k in range(REESSAIS_DOSSIER):
+            # Remesuré : GDELT muet, ou intensité obtenue sans la série de
+            # volumes (la requête longue a échoué, la courte a réussi) — sans
+            # cette série, ni trajectoire ni pertinence marché.
             a_reessayer = [
                 i for i, d in enumerate(dossiers)
-                if not d.theme.disponible and "GDELT" in (d.theme.motif or "")
+                if (not d.theme.disponible and "GDELT" in (d.theme.motif or ""))
+                or (d.theme.disponible and not d.theme.volumes)
             ]
             if not a_reessayer:
                 break
@@ -967,6 +1143,77 @@ def analyser_dossiers(
             time.sleep(pause)
             for i in a_reessayer:
                 dossiers[i] = _mesurer(configs[i])
+
+    # --- Pertinence marché de chaque dossier ---------------------------------
+    dossiers = [
+        replace(d, pertinence=sujets.pertinence_marche(d.theme.volumes, marches, min_observations=min_obs))
+        for d in dossiers
+    ]
+
+    # --- Candidats : paires d'acteurs de l'export, thèmes génériques ---------
+    candidats = sujets.candidats_evenements(
+        lignes_events or [], configs, max_candidats=int(reglages.get("max_candidats", 5)),
+    )
+    par_id = {d.id: i for i, d in enumerate(dossiers)}
+    for c in candidats:
+        r = c.get("rattachement")
+        if r and r["id"] in par_id:
+            i = par_id[r["id"]]
+            dossiers[i] = replace(dossiers[i], sujets_rattaches=dossiers[i].sujets_rattaches + [
+                {k: c[k] for k in ("paire", "libelle", "n_evenements", "mentions", "part", "goldstein_moyen")}
+            ])
+    hors_dossier = [c for c in candidats if not c.get("rattachement")]
+
+    max_mesures = int(reglages.get("max_candidats_mesures", 3))
+    for c in hors_dossier[:max_mesures]:
+        c.update(_mesurer_sujet_libre(c["libelle"], c["requete"], marches, min_obs, mesurer_candidats, fenetre))
+    for c in hors_dossier[max_mesures:]:
+        c.update({"disponible": False, "motif": "au-delà du nombre de candidats mesurés par exécution",
+                  "intensite_ratio": None, "pertinence": sujets.pertinence_marche(None, marches)})
+
+    themes_mesures: list[dict[str, Any]] = []
+    for t in themes_generiques or []:
+        nom, query = str(t.get("nom", "")), str(t.get("query", ""))
+        if not nom or not query:
+            continue
+        bloc = {"type": "theme", "libelle": nom, "requete": query}
+        bloc.update(_mesurer_sujet_libre(nom, query, marches, min_obs, mesurer_candidats, fenetre))
+        themes_mesures.append(bloc)
+
+    # --- Classement de tous les sujets ---------------------------------------
+    entrees = [
+        {"nom": d.nom_affiche, "id": d.id, "type": d.type, "origine": "dossier", "epingle": d.epingle,
+         "intensite_ratio": d.theme.intensite_ratio, "trajectoire": d.theme.trajectoire,
+         "disponible": d.theme.disponible, "pertinence": d.pertinence}
+        for d in dossiers
+    ] + [
+        {"nom": c["libelle"], "id": "", "type": "paire", "origine": "decouverte", "epingle": False,
+         "intensite_ratio": c.get("intensite_ratio"), "trajectoire": c.get("trajectoire", ""),
+         "disponible": bool(c.get("disponible")), "pertinence": c.get("pertinence") or {}}
+        for c in hors_dossier
+    ] + [
+        {"nom": t["libelle"], "id": "", "type": "theme", "origine": "theme_generique", "epingle": False,
+         "intensite_ratio": t.get("intensite_ratio"), "trajectoire": t.get("trajectoire", ""),
+         "disponible": bool(t.get("disponible")), "pertinence": t.get("pertinence") or {}}
+        for t in themes_mesures
+    ]
+    classement = sujets.classer(entrees)
+    statuts = {e["id"]: e for e in classement if e.get("id")}
+    dossiers = [
+        replace(d, classement={k: statuts[d.id][k] for k in ("statut", "rang", "donnees_suffisantes")})
+        if d.id in statuts else d
+        for d in dossiers
+    ]
+
+    # --- Filet « Autres » : significatif et hors de tout dossier --------------
+    autres: list[dict[str, Any]] = []
+    for sujet in hors_dossier + themes_mesures:
+        retenu, critere = sujets.est_significatif(sujet)
+        if retenu:
+            autres.append({k: v for k, v in sujet.items() if k != "pertinence"} | {
+                "critere": critere, "pertinence": sujet.get("pertinence") or {},
+                "articles": _articles_sujet(sujet.get("requete", ""), mesurer_candidats),
+            })
 
     disponibles = [d for d in dossiers if d.theme.disponible]
     intensites = [d.theme.intensite_ratio for d in disponibles if d.theme.intensite_ratio is not None]
@@ -990,6 +1237,20 @@ def analyser_dossiers(
         "intensite_max": intensite_max,
         "dossier_dominant": dossier_dominant,
         "dossiers": [d.to_dict() for d in dossiers],
+        "classement": classement,
+        "candidats": candidats,
+        "autres": autres,
+        "events_meta": events_meta,
+        # Seuils de lecture de la pertinence, publiés pour que la prose puisse
+        # les citer (le vérificateur numérique n'accepte que les nombres du rapport).
+        "criteres_pertinence": {"reagit": sujets.SEUIL_REAGIT, "inerte": sujets.SEUIL_INERTE,
+                                "min_observations": min_obs, "min_pics": sujets.MIN_PICS},
+        "criteres_autres": {
+            "intensite_min": sujets.SEUIL_INTENSITE_SIGNIFICATIVE,
+            "evenements_min_paire": sujets.MIN_EVENEMENTS_PAIRE,
+            "part_min_paire": sujets.PART_MIN_PAIRE,
+            "min_observations": min_obs,
+        },
         # Objets Dossier, pour l'appelant qui voudrait publier l'historique
         # (voir publier_historique_dossiers) sans refaire la mesure. Même
         # convention que backtest/run.py::executer_variantes avec "_trades" :

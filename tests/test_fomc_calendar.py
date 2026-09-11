@@ -433,6 +433,10 @@ def test_rapport_complet_survit_a_lechec_des_deux_sources(
         geopolitics.gdelt_events, "recuperer_dernier_export",
         lambda *a, **k: ([], "coupé"),
     )
+    monkeypatch.setattr(
+        geopolitics.gdelt_events, "recuperer_exports_recents",
+        lambda *a, **k: ([], {"n_exports_lus": 0, "n_exports_attendus": 96, "heures": 24, "motif": "coupé"}),
+    )
     # Le cache FOMC pointe vers un fichier qui n'existe pas.
     monkeypatch.setattr(cal, "CACHE_FOMC", tmp_path / "cache_absent.json")
 

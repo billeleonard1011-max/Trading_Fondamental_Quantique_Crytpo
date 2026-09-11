@@ -327,13 +327,27 @@ function rendreDossierPanneau(dossier, meta, source) {
   const evenements = dossier.n_evenements_bilateraux === null || dossier.n_evenements_bilateraux === undefined
     ? `<p class="composante-motif">${echapper(dossier.motif_events || "activité par acteur non mesurée")}</p>`
     : `<p>${rendreLibelleAvecInfobulle("evenements_bilateraux", "Événements bilatéraux")} :
-        ${dossier.n_evenements_bilateraux} dans le dernier relevé GDELT Events.</p>`;
+        ${dossier.n_evenements_bilateraux} dans les exports GDELT Events des dernières heures.</p>`;
 
   const intensite = dossier.intensite_ratio === null || dossier.intensite_ratio === undefined
     ? ABSENT
     : `${nombre(dossier.intensite_ratio, 1)}×`;
+  const cl = dossier.classement || {};
+  const pert = dossier.pertinence || {};
+  const statutLibelle = { epingle: "épinglé", actif: "actif", veille: "veille", candidat: "candidat" }[cl.statut] || "";
+  const pertinenceHtml = pert.disponible
+    ? `<p class="metrique-sens">${echapper(pert.commentaire || "")}</p>`
+    : pert.motif
+      ? `<p class="metrique-sens">Pertinence marché non classable : ${echapper(pert.motif)}.</p>`
+      : "";
+  const rattaches = (dossier.sujets_rattaches || []).map((sj) =>
+    `${echapper(sj.libelle)} (${sj.n_evenements} événement(s))`).join(", ");
   return rendreTrame({
     etat: `<p>${echapper(dossier.etat_actuel)}</p>
+      ${statutLibelle ? `<p>Statut dans le classement : <strong>${statutLibelle}</strong>${
+        cl.rang ? `, rang ${cl.rang}` : ""}${cl.donnees_suffisantes === false ? " — données insuffisantes pour classer" : ""}.</p>` : ""}
+      ${pertinenceHtml}
+      ${rattaches ? `<p class="metrique-sens">Paires d'acteurs rattachées à ce dossier : ${rattaches}.</p>` : ""}
       <ul class="liste-detail">
         <li><span>${rendreLibelleAvecInfobulle("intensite_couverture", "Intensité de couverture")}</span>
           <span>${intensite} la normale</span></li>
@@ -357,30 +371,78 @@ function rendreDossierPanneau(dossier, meta, source) {
  * @param {Array<object>} dossiers Dossiers configurés, pour exclure ce qui leur est déjà lié.
  * @returns {string} HTML du panneau.
  */
-function rendreAutresPanneau(filGeopolitique, dossiers) {
+function rendreAutresPanneau(filGeopolitique, dossiers, autresSujets = [], criteres = {}) {
+  const sujets = Array.isArray(autresSujets) ? autresSujets : [];
   const autres = (filGeopolitique || []).filter(
     (item) => !estLieAUnDossier(item.titre_affiche || item.titre, dossiers),
   );
-  if (!autres.length) {
-    // Dire d'où vient ce panneau plutôt que laisser croire à une veille
-    // mondiale : il ne reçoit que le fil géopolitique, lui-même restreint
-    // aux quatre thèmes à canal de transmission connu vers l'or.
-    return `<p class="fil-vide">Rien à afficher. Cet onglet ne couvre pas « le reste du monde » :
-      il reprend le fil géopolitique du site, qui ne retient qu'un article dont le titre
-      correspond à l'un des quatre thèmes suivis pour l'or (tensions énergétiques, conflits
-      majeurs, sanctions, réserves de change), et en retire ce qui relève déjà d'un dossier.
-      Vide, il signifie que ce fil n'a rien retenu — pas qu'il ne se passe rien ailleurs.</p>`;
-  }
-  const lignes = autres.slice(0, 15).map((it) => `
+  const seuil = criteres.intensite_min === undefined ? ABSENT : `${nombre(criteres.intensite_min, 1)}×`;
+  const explication = `<p class="metrique-sens">Filet de sécurité pour l'imprévu : sujets découverts
+    dans le dernier export GDELT Events (paires de pays en conflit) et thèmes génériques (énergie,
+    conflits, sanctions, réserves), retenus quand leur couverture atteint ${seuil} sa normale ou
+    qu'une paire concentre une part notable des événements — et qui ne relèvent d'aucun dossier.
+    Si un même type d'événement y revient souvent, c'est qu'il manque un dossier dédié.</p>`;
+
+  const blocsSujets = sujets.map((sj) => {
+    const p = sj.pertinence || {};
+    const pertinence = p.disponible
+      ? echapper(p.commentaire || "")
+      : `Classement impossible : ${echapper(p.motif || "données insuffisantes")}.`;
+    const articles = (sj.articles || []).map((a) => `
+      <li class="fil-item"><a href="${echapper(a.url)}" target="_blank" rel="noopener noreferrer">${echapper(a.titre)}</a>
+        <div class="fil-meta"><span>${echapper(a.source || "")}</span><span>${echapper(dateHeure(a.horodatage_utc))}</span></div></li>`).join("");
+    return `<div class="autres-sujet">
+      <h4>${echapper(sj.libelle)} <span class="badge badge--neutre">${echapper(sj.critere || "")}</span></h4>
+      <p class="metrique-sens">${pertinence}</p>
+      ${articles ? `<ul class="fil-liste">${articles}</ul>` : ""}
+    </div>`;
+  }).join("");
+
+  const lignesFil = autres.slice(0, 15).map((it) => `
     <li class="fil-item">
       <a href="${echapper(it.url_source || it.url || "#")}" target="_blank" rel="noopener noreferrer">
         ${echapper(it.titre_affiche || it.titre)}</a>
       <div class="fil-meta"><span>${echapper(it.source_nom || it.source || "")}</span>
         <span>${echapper(dateHeure(it.horodatage_utc))}</span></div>
     </li>`).join("");
-  return `<ul class="fil-liste">${lignes}</ul>
-    <p class="metrique-sens">Ne relève d'aucun dossier suivi pour l'or (voir
-    config/geopolitique_dossiers.yaml) — affiché à titre d'information, sans impact chiffré.</p>`;
+  const fil = lignesFil ? `<ul class="fil-liste">${lignesFil}</ul>` : "";
+
+  if (!blocsSujets && !fil) {
+    return `<p class="fil-vide">Rien n'atteint les seuils de significativité dans le dernier relevé :
+      aucune paire de pays ni aucun thème générique hors dossier ne dépasse ${seuil} sa couverture
+      normale. Cela ne signifie pas qu'il ne se passe rien ailleurs — seulement que rien, hors des
+      dossiers suivis, ne sort de l'ordinaire mesuré.</p>${explication}`;
+  }
+  return `${blocsSujets}${fil}${explication}`;
+}
+
+/**
+ * Rend le classement des sujets par pertinence marché, en tête de rubrique.
+ *
+ * @param {Array<object>} classement Bloc ``geopolitique.classement`` du rapport.
+ * @returns {string} HTML, vide si le rapport ne porte pas de classement.
+ */
+function rendreClassementSujets(classement) {
+  if (!Array.isArray(classement) || !classement.length) return "";
+  const libelles = { epingle: "épinglé", actif: "actif", veille: "veille", candidat: "candidat" };
+  const lignes = classement.map((c) => {
+    const p = c.pertinence || {};
+    const mesure = p.disponible
+      ? `${nombre(p.score, 2)}× sur ${p.n_observations} séances (${echapper(p.lecture)}${
+          p.fiabilite === "faible" ? ", fiabilité faible" : ""})`
+      : `données insuffisantes${p.motif ? ` — ${echapper(p.motif)}` : ""}`;
+    const intens = c.intensite_ratio === null || c.intensite_ratio === undefined ? ABSENT : `${nombre(c.intensite_ratio, 1)}×`;
+    return `<li class="classement-sujet classement-sujet--${echapper(c.statut)}">
+      <span>${c.rang}. ${echapper(c.nom)} <span class="badge badge--neutre">${echapper(libelles[c.statut] || c.statut)}</span></span>
+      <span>couverture ${intens} · pertinence marché ${mesure}</span></li>`;
+  }).join("");
+  return `<div class="trame-section classement-sujets"><h4>Classement des sujets par pertinence marché</h4>
+    <p class="metrique-sens">Pertinence : de combien les actifs suivis (pétrole, taux réels, VIX, or)
+    bougent plus les jours de pic de couverture du sujet que les autres jours, sur trois mois.
+    Une coïncidence mesurée, pas une causalité. « Actif » : réaction nette ; « veille » : mesuré,
+    sans réaction nette (« inerte » quand le marché n'y réagit plus du tout) ; « candidat » :
+    pas assez d'observations pour conclure ; « épinglé » : suivi par choix, quoi que dise la mesure.</p>
+    <ul class="liste-detail">${lignes}</ul></div>`;
 }
 
 /**
@@ -489,8 +551,9 @@ export function rubriqueGeopolitique(etat, filGeopolitique = []) {
   ].join(" ");
 
   const meta = lire(etat.donnees, "geopolitique._meta");
+  const suffixe = { veille: " · veille", candidat: " · candidat" };
   const onglets = [
-    ...dossiers.map((d) => ({ id: d.id, libelle: d.nom_affiche })),
+    ...dossiers.map((d) => ({ id: d.id, libelle: d.nom_affiche + (suffixe[(d.classement || {}).statut] || "") })),
     { id: "autres", libelle: "Autres" },
   ];
   const boutonsHtml = onglets
@@ -501,13 +564,14 @@ export function rubriqueGeopolitique(etat, filGeopolitique = []) {
     ...dossiers.map((d, i) => `<div class="geo-panneau" data-dossier="${echapper(d.id)}" ${i === 0 ? "" : "hidden"}>
       ${rendreDossierPanneau(d, meta, geo.source)}</div>`),
     `<div class="geo-panneau" data-dossier="autres" hidden>
-      ${rendreAutresPanneau(filGeopolitique, dossiers)}</div>`,
+      ${rendreAutresPanneau(filGeopolitique, dossiers, geo.autres, geo.criteres_autres || {})}</div>`,
   ].join("");
 
   return {
     resume,
     corps: `${rendreSynthese(geo.synthese || null)}
       ${contexteMacro}
+      ${rendreClassementSujets(geo.classement)}
       <div class="geo-onglets fil-onglets" id="geo-onglets" role="tablist">${boutonsHtml}</div>
       <div class="geo-panneaux">${panneauxHtml}</div>`,
     ton,

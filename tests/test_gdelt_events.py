@@ -156,3 +156,62 @@ def test_valeurs_non_numeriques_ne_levent_pas_dexception() -> None:
     resultat = ge.compter_evenements_par_acteurs([ligne], ["ISR", "PSE"])
     assert resultat["exemple"]["goldstein"] is None
     assert resultat["exemple"]["tonalite"] is None
+
+
+# ---------------------------------------------------------------------------
+# recuperer_exports_recents : agrégation des dernières heures
+# ---------------------------------------------------------------------------
+from datetime import datetime, timezone
+
+
+def _get_exports(disponibles: set[str], zip_bytes: bytes, corrompu: set[str] = frozenset()):
+    """``requests.get`` factice : 200 pour les horodatages listés, 404 sinon."""
+    appels: list[str] = []
+
+    def get(url: str, timeout: float, headers: dict) -> _ReponseFactice:
+        appels.append(url)
+        horodatage = url.rsplit("/", 1)[-1].split(".")[0]
+        if horodatage in corrompu:
+            return _ReponseFactice(contenu=b"pas une archive")
+        if horodatage in disponibles:
+            return _ReponseFactice(contenu=zip_bytes)
+        return _ReponseFactice(ok=False, statut=404)
+
+    get.appels = appels
+    return get
+
+
+def test_lagregation_lit_les_exports_disponibles_et_compte_les_manquants() -> None:
+    """Un export absent (retard de publication) est ignoré, pas fatal — et compté."""
+    maintenant = datetime(2026, 9, 11, 10, 7, tzinfo=timezone.utc)
+    # Dernier export attendu : 09:45 (quart d'heure précédent celui de 10:00).
+    disponibles = {"20260911094500", "20260911093000", "20260911090000"}
+    get = _get_exports(disponibles, _zip_evenements([_ligne_evenement("ISR", "PSE")] * 3))
+    lignes, meta = ge.recuperer_exports_recents(heures=1, recuperer=get, maintenant=maintenant)
+    assert meta["n_exports_attendus"] == 4 and meta["n_exports_lus"] == 3
+    assert len(lignes) == 9 and meta["motif"] == ""
+    assert get.appels[0].endswith("20260911094500.export.CSV.zip")
+    assert get.appels[-1].endswith("20260911090000.export.CSV.zip")
+
+
+def test_lagregation_sans_aucun_export_lisible_explique_pourquoi() -> None:
+    maintenant = datetime(2026, 9, 11, 10, 7, tzinfo=timezone.utc)
+    get = _get_exports(set(), b"")
+    lignes, meta = ge.recuperer_exports_recents(heures=1, recuperer=get, maintenant=maintenant)
+    assert lignes == [] and meta["n_exports_lus"] == 0
+    assert "aucun export" in meta["motif"]
+
+
+def test_une_archive_corrompue_nemporte_pas_les_autres() -> None:
+    maintenant = datetime(2026, 9, 11, 10, 7, tzinfo=timezone.utc)
+    get = _get_exports({"20260911094500", "20260911093000"}, _zip_evenements([_ligne_evenement("RUS", "UKR")]),
+                       corrompu={"20260911093000"})
+    lignes, meta = ge.recuperer_exports_recents(heures=1, recuperer=get, maintenant=maintenant)
+    assert meta["n_exports_lus"] == 1 and len(lignes) == 1
+
+
+def test_compter_evenements_region_exige_les_deux_acteurs_dans_la_region() -> None:
+    lignes = [_ligne_evenement("YEM", "SAU"), _ligne_evenement("SAU", "USA"), _ligne_evenement("IRN", "IRN")]
+    resultat = ge.compter_evenements_region(lignes, ["YEM", "SAU", "IRN"])
+    assert resultat["n_evenements"] == 1        # SAU–USA sort de la région, IRN–IRN n'est pas bilatéral
+    assert ge.compter_evenements_region([], ["YEM"]) == {"n_evenements": 0, "exemple": None}

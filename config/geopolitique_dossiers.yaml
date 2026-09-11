@@ -15,6 +15,14 @@
 #   nom_affiche    libellé lisible.
 #   acteurs_gdelt  codes CAMEO (base Events de GDELT), pour le signal
 #                  d'activité par acteur — voir dataio/gdelt_events.py.
+#   type           conflit (bilatéral, défaut), regional (un ensemble de pays,
+#                  champ ``pays``) ou thematique (aucun acteur ; canal ci-dessous).
+#   canal          chaîne de transmission vers l'or (modules/gold/geopolitics.py
+#                  ::CANAUX) : petrole (défaut), taux, risque.
+#   epingle        true pour suivre le dossier quoi que mesure le classement
+#                  (modules/geopolitique/sujets.py) — le jugement humain garde
+#                  la main ; false ou absent : le dossier est classé comme les
+#                  sujets découverts, et peut être rétrogradé en veille.
 #   mots_cles      termes de la requête GDELT DOC (narratif et intensité de
 #                  couverture), combinés en alternative (OR). GDELT indexe
 #                  très majoritairement des sources en anglais : les termes
@@ -38,3 +46,47 @@ dossiers:
     nom_affiche: "Russie - Ukraine"
     acteurs_gdelt: ["RUS", "UKR"]
     mots_cles: ["Russie", "Russia", "Ukraine", "Kremlin", "Zelensky"]
+
+  # --- Dossier régional : ce qui se passe au Moyen-Orient hors des deux
+  # dossiers bilatéraux ci-dessus (Houthis-Arabie saoudite, Liban, Irak...).
+  # Une attaque qui fait monter le pétrole sans impliquer exactement les
+  # acteurs d'un dossier bilatéral se rattache ici, jamais dans « Autres ».
+  - id: moyen_orient
+    nom_affiche: "Moyen-Orient (région)"
+    type: regional
+    canal: petrole
+    pays: ["ISR", "PSE", "IRN", "IRQ", "SAU", "YEM", "SYR", "LBN", "JOR", "EGY",
+           "ARE", "QAT", "KWT", "BHR", "OMN", "TUR"]
+    mots_cles: ["Moyen-Orient", "Middle East", "mer Rouge", "Red Sea", "Houthi",
+                "Hezbollah", "Golfe persique", "Persian Gulf", "oil facility attack"]
+
+  # --- Dossiers thématiques permanents : ils structurent le contexte plutôt
+  # que de produire des événements ponctuels, d'où l'épingle.
+  - id: politique_monetaire
+    nom_affiche: "Politique monétaire (Fed, BCE)"
+    type: thematique
+    canal: taux
+    epingle: true
+    mots_cles: ["Federal Reserve", "FOMC", "Fed rate decision", "Powell", "rate cut",
+                "rate hike", "ECB rate", "BCE taux", "Lagarde"]
+  - id: semiconducteurs_ia
+    nom_affiche: "Semi-conducteurs et IA (contrôles à l'export)"
+    type: thematique
+    canal: risque
+    epingle: true
+    mots_cles: ["chip export controls", "semiconductor export", "AI chips China",
+                "Nvidia export", "CHIPS Act", "AI regulation", "AI Act"]
+  - id: commerce_international
+    nom_affiche: "Commerce international (droits de douane)"
+    type: thematique
+    canal: risque
+    epingle: true
+    mots_cles: ["tariffs", "trade war", "droits de douane", "trade deal", "import duties",
+                "trade restrictions", "WTO dispute"]
+
+# Découverte automatique de sujets (modules/geopolitique/sujets.py).
+decouverte:
+  heures_events: 24            # exports GDELT Events agrégés (un par quart d'heure)
+  max_candidats: 5             # paires d'acteurs retenues dans les exports Events
+  max_candidats_mesures: 3     # dont mesurées par GDELT DOC (une requête chacune)
+  min_observations: 20         # séances communes couverture × marché pour classer

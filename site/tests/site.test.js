@@ -795,6 +795,52 @@ test("rubriqueGeopolitique reste indisponible explicite quand le bloc geopolitiq
   assert.match(resume, /indisponible/);
 });
 
+test("rubriqueGeopolitique affiche le classement et le statut de chaque dossier", () => {
+  const donnees = etatGeoExemple([
+    dossierExemple({ classement: { statut: "veille", rang: 2, donnees_suffisantes: true },
+      pertinence: { disponible: true, score: 0.7, n_observations: 28, lecture: "inerte",
+        commentaire: "Sur 28 séances communes, les 4 jours de pic voient les actifs bouger 0,7 fois plus." } }),
+  ]).donnees;
+  donnees.geopolitique.classement = [
+    { rang: 1, nom: "Sanctions", statut: "actif", donnees_suffisantes: true, intensite_ratio: 1.8,
+      pertinence: { disponible: true, score: 1.9, n_observations: 27, lecture: "réagit" } },
+    { rang: 2, nom: "Israël - Gaza", id: "israel_gaza", statut: "veille", donnees_suffisantes: true, intensite_ratio: 1.1,
+      pertinence: { disponible: true, score: 0.7, n_observations: 28, lecture: "inerte" } },
+    { rang: 3, nom: "Yemen – Saudi Arabia", statut: "candidat", donnees_suffisantes: false, intensite_ratio: null,
+      pertinence: { disponible: false, motif: "8 séance(s) commune(s) entre couverture et marché, 20 requises" } },
+  ];
+  const { corps } = rubriqueGeopolitique({ disponible: true, donnees }, []);
+  assert.match(corps, /Classement des sujets/);
+  assert.match(corps, /1\. Sanctions/);
+  assert.match(corps, /Israël - Gaza · veille/, "le statut veille doit apparaître dans l'onglet");
+  assert.match(corps, /données insuffisantes — 8 séance/, "l'insuffisance de données doit être écrite");
+  assert.match(corps, /Statut dans le classement : <strong>veille<\/strong>/);
+});
+
+test("l'onglet Autres liste les sujets significatifs du rapport et explique ses seuils", () => {
+  const donnees = etatGeoExemple([dossierExemple()]).donnees;
+  donnees.geopolitique.autres = [{
+    type: "paire", libelle: "Yemen – Saudi Arabia", critere: "12 événements de conflit, 4,1 % de l'export",
+    pertinence: { disponible: false, motif: "8 séance(s) commune(s), 20 requises" },
+    articles: [{ titre: "Attaque contre une installation pétrolière", url: "https://exemple.test/y", source: "Reuters", horodatage_utc: "2026-09-11T08:00:00Z" }],
+  }];
+  donnees.geopolitique.criteres_autres = { intensite_min: 1.5 };
+  const { corps } = rubriqueGeopolitique({ disponible: true, donnees }, []);
+  assert.match(corps, /Yemen – Saudi Arabia/);
+  assert.match(corps, /12 événements de conflit/);
+  assert.match(corps, /Attaque contre une installation pétrolière/);
+  assert.match(corps, /1,5×/);
+});
+
+test("l'onglet Autres vide dit ce qu'il mesure au lieu de laisser croire au calme mondial", () => {
+  const donnees = etatGeoExemple([dossierExemple()]).donnees;
+  donnees.geopolitique.autres = [];
+  donnees.geopolitique.criteres_autres = { intensite_min: 1.5 };
+  const { corps } = rubriqueGeopolitique({ disponible: true, donnees }, []);
+  assert.match(corps, /ne signifie pas qu'il ne se passe rien ailleurs/);
+  assert.doesNotMatch(corps, /undefined/);
+});
+
 // ---------------------------------------------------------------------------
 // 6. Le rapport réellement publié doit rester affichable
 // ---------------------------------------------------------------------------

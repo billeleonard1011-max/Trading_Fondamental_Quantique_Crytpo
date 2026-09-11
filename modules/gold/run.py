@@ -456,6 +456,11 @@ def construire_rapport(
         fenetre=int(cfg_geo.get("fenetre_trajectoire_jours", geopolitics.FENETRE_TRAJECTOIRE)),
         seuil_acceleration=float(cfg_geo.get("seuil_acceleration", 1.15)),
         seuil_essoufflement=float(cfg_geo.get("seuil_essoufflement", 0.85)),
+        # Les thèmes génériques nourrissent la découverte de sujets et le
+        # filet « Autres » ; les réglages de découverte viennent du même
+        # fichier que les dossiers (bloc ``decouverte``).
+        themes_generiques=list(cfg_geo.get("themes") or []),
+        reglages_decouverte=geopolitics.charger_reglages_decouverte(),
     )
     bloc_geo["_meta"] = _meta(bloc_geo.get("source", "GDELT"), jour, jour)
     if not bloc_geo.get("disponible"):

@@ -791,25 +791,40 @@ def synthetiser_geopolitique(rapport: dict[str, Any]) -> dict[str, Any]:
 
     # Événements bilatéraux : une source distincte de la couverture, qui existe
     # même pour les dossiers dont l'intensité n'est pas mesurable.
+    # Événements : les dossiers bilatéraux se comparent entre eux ; un dossier
+    # régional agrège des dizaines de paires et se cite à part.
     evenements = [d for d in tous if isinstance(d.get("n_evenements_bilateraux"), (int, float))]
-    if evenements:
-        plus_actif = max(evenements, key=lambda d: d["n_evenements_bilateraux"])
+    bilateraux = [d for d in evenements if d.get("type", "conflit") == "conflit"]
+    regionaux = [d for d in evenements if d.get("type") == "regional" and int(d["n_evenements_bilateraux"]) > 0]
+    if bilateraux:
+        plus_actif = max(bilateraux, key=lambda d: d["n_evenements_bilateraux"])
         n = int(plus_actif["n_evenements_bilateraux"])
+        region = ""
+        if regionaux:
+            r = max(regionaux, key=lambda d: d["n_evenements_bilateraux"])
+            region = f", et {int(r['n_evenements_bilateraux'])} à l'intérieur de la région {_nom(r)} toutes paires confondues"
         if n >= 5:
             phrases.append(
-                f"Le dernier relevé d'événements bilatéraux en compte {n} pour {_nom(plus_actif)}, ce qui "
+                f"Le relevé d'événements GDELT des dernières heures en compte {n} pour {_nom(plus_actif)}{region}, ce qui "
                 "confirme une activité soutenue entre les deux parties, indépendamment de ce que la presse en dit."
             )
         elif n >= 1:
             phrases.append(
-                f"Le dernier relevé d'événements bilatéraux en compte {n} pour {_nom(plus_actif)}, ce qui "
-                "relativise l'intensité médiatique : peu d'actes entre les deux parties sur l'instantané mesuré."
+                f"Le relevé d'événements GDELT des dernières heures en compte {n} pour {_nom(plus_actif)}{region}, ce qui "
+                "relativise l'intensité médiatique : peu d'actes entre les deux parties sur la période relevée."
             )
         else:
             phrases.append(
-                "Le dernier relevé d'événements bilatéraux est vide pour tous les dossiers, ce qui ne pèse "
-                "pas : un instantané de quelques minutes est trop court pour contredire la couverture."
+                "Le relevé d'événements GDELT des dernières heures est vide pour les dossiers bilatéraux, ce qui ne pèse "
+                "pas : rien n'y contredit la couverture, rien ne la confirme non plus."
             )
+    elif regionaux:
+        r = max(regionaux, key=lambda d: d["n_evenements_bilateraux"])
+        phrases.append(
+            f"Le relevé d'événements GDELT des dernières heures en compte {int(r['n_evenements_bilateraux'])} à "
+            f"l'intérieur de la région {_nom(r)}, toutes paires confondues, ce qui confirme une activité soutenue "
+            "dans la région, indépendamment de ce que la presse en dit."
+        )
 
     # Développements nouveaux, dossier par dossier (les comptes sont ceux des données).
     nouveaux = [(d, int(d.get("n_nouveaux_developpements") or 0)) for d in tous]
@@ -842,7 +857,8 @@ def synthetiser_geopolitique(rapport: dict[str, Any]) -> dict[str, Any]:
         qui = "l'ensemble des dossiers" if len(rompues) == len(tous) and len(tous) > 1 else _liste([_nom(d) for d in rompues])
         nom_chaine = "cette chaîne" if completes else f"la chaîne {_CHAINE}"
         ruptures = _maillons_en_rupture(_lire(rompues[0], "chaine_de_transmission.maillons", {}) or {})
-        detail = f" — {_liste(ruptures)} ne vont pas dans le sens attendu —" if ruptures else ""
+        verbe = "ne va pas" if len(ruptures) == 1 else "ne vont pas"
+        detail = f" — {_liste(ruptures)} {verbe} dans le sens attendu —" if ruptures else ""
         phrases.append(
             f"Pour {qui}, {nom_chaine} est rompue{detail}, ce qui signifie que la tension ne se transmet pas "
             "par les canaux mesurés : si l'or y réagit, c'est sur la peur, et cela tient rarement longtemps."
@@ -852,6 +868,49 @@ def synthetiser_geopolitique(rapport: dict[str, Any]) -> dict[str, Any]:
             f"La chaîne {_CHAINE} n'est mesurable pour aucun dossier ce jour, ce qui laisse ouverte la "
             "question de savoir si la tension atteint l'or par les canaux économiques ou par la seule peur."
         )
+
+    # Classement par pertinence marché : qui bouge encore les prix, qui ne
+    # bouge plus rien, et pour qui on ne peut pas conclure.
+    classement = [c for c in (geo.get("classement") or []) if isinstance(c, dict)]
+    if classement:
+        actifs = [c for c in classement if c.get("statut") == "actif"]
+        veille = [c for c in classement if c.get("statut") == "veille"]
+        insuffisants = [c for c in classement if not c.get("donnees_suffisantes")]
+        if actifs:
+            tete = actifs[0]
+            score = _lire(tete, "pertinence.score")
+            phrases.append(
+                f"Parmi les sujets classés par pertinence marché, {tete.get('nom')} ressort en tête"
+                + (f" : ses jours de pic de couverture voient les actifs bouger {_fr(float(score), 2)} fois plus que les autres jours" if score is not None else "")
+                + ", ce qui en fait le sujet dont l'actualité se lit encore dans les prix."
+            )
+        inertes = [c for c in veille if _lire(c, "pertinence.lecture") == "inerte"]
+        neutres = [c for c in veille if _lire(c, "pertinence.lecture") != "inerte"]
+        if inertes:
+            noms = _liste([str(c.get("nom")) for c in inertes[:3]])
+            phrases.append(
+                f"{noms} {'sont' if len(inertes) > 1 else 'est'} en veille et inerte{'s' if len(inertes) > 1 else ''} : "
+                "la couverture est mesurée mais le marché n'y réagit plus, ce qui signifie que le sujet est intégré "
+                "dans les prix — gardé, car il peut se réactiver."
+            )
+        if neutres:
+            detail = _liste([
+                f"{c.get('nom')} ({_fr(float(_lire(c, 'pertinence.score')), 2)})" if _lire(c, "pertinence.score") is not None else str(c.get("nom"))
+                for c in neutres[:3]
+            ])
+            seuil = _lire(geo, "criteres_pertinence.reagit")
+            repere = f" — il faudrait dépasser {_fr(float(seuil), 1)} pour parler de réaction" if seuil is not None else ""
+            phrases.append(
+                f"{detail} {'sont' if len(neutres) > 1 else 'est'} en veille : la couverture est mesurée, mais "
+                f"{'leurs' if len(neutres) > 1 else 'ses'} jours de pic ne se distinguent pas nettement des autres "
+                f"séances{repere}, ce qui ne permet pas de dire que cette actualité déplace encore les prix."
+            )
+        if insuffisants:
+            noms = _liste([str(c.get("nom")) for c in insuffisants[:3]])
+            phrases.append(
+                f"Pour {noms}, le classement n'est pas encore possible faute d'observations suffisantes, "
+                "ce qui interdit d'en tirer une lecture de marché aujourd'hui."
+            )
 
     deja = _lire(geo, "deja_dans_les_prix", {})
     if deja.get("disponible") and deja.get("z_score_prime") is not None:

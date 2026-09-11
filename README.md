@@ -74,7 +74,8 @@ dataio/
 modules/
   gold/
     fair_value.py             Juste valeur par taux réels et dollar, z-score
-    geopolitics.py            Intensité GDELT et chaîne de transmission
+    geopolitics.py            Dossiers géopolitiques (conflits, régions,
+                              thématiques), chaîne de transmission par canal
     analogues.py              Précédents historiques et leurs suites
     bias.py                   Biais quotidien décomposé par composante
     explain.py                Explications vérifiées numériquement
@@ -84,6 +85,10 @@ modules/
     industry.py               Trésorerie, financements, entrants, corrélation
     feed.py                   Fil d'actualité continu, format unifié
     run.py                    Orchestration et publication du JSON
+  geopolitique/
+    feed.py                   Fil d'actualité géopolitique (thèmes génériques)
+    sujets.py                 Découverte des sujets (GDELT Events), pertinence
+                              marché, classement actif / veille / candidat
   crypto/
     regime.py                 Régime de marché par le MVRV, avec invalidation
     positioning.py            Funding, open interest, positions, déblocages

@@ -77,10 +77,17 @@ def test_charge_les_trois_dossiers_de_depart() -> None:
     """La configuration réelle du dépôt définit les trois dossiers demandés."""
     dossiers = geopolitics.charger_dossiers_config()
     ids = [d["id"] for d in dossiers]
-    assert ids == ["israel_gaza", "iran_etats_unis", "russie_ukraine"]
+    # Les trois conflits de départ, dans l'ordre, puis le régional et les
+    # thématiques permanents (élargissement au-delà des conflits).
+    assert ids[:3] == ["israel_gaza", "iran_etats_unis", "russie_ukraine"]
+    natures = {d["id"]: d.get("type", "conflit") for d in dossiers}
+    assert natures["moyen_orient"] == "regional" and dossiers[3].get("pays")
+    assert {natures[i] for i in ("politique_monetaire", "semiconducteurs_ia", "commerce_international")} == {"thematique"}
+    assert all(d.get("epingle") for d in dossiers if d.get("type") == "thematique")
+    assert geopolitics.charger_reglages_decouverte()["min_observations"] == 20
     for d in dossiers:
         assert d["nom_affiche"]
-        assert len(d["acteurs_gdelt"]) == 2
+        assert d.get("type", "conflit") != "conflit" or len(d["acteurs_gdelt"]) == 2
         assert d["mots_cles"]
 
 
