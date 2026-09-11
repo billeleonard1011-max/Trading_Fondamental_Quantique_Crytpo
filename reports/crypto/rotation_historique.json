@@ -1,0 +1,11 @@
+{
+  "_commentaire": "Observations quotidiennes de dominance, accumulées par modules/crypto/rotation.py. L'API ne publie pas d'historique de dominance : sans ce cache, ni tendance ni percentile ne sont calculables. Régénéré automatiquement, ne pas éditer à la main.",
+  "max_observations": 760,
+  "observations": [
+    {
+      "date": "2026-09-11",
+      "dominance_btc_pct": 58.17778485771198,
+      "dominance_eth_pct": 11.64642734988863
+    }
+  ]
+}

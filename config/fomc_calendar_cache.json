@@ -1,7 +1,7 @@
 {
   "_commentaire": "Cache du calendrier FOMC, régénéré automatiquement par dataio/calendar.py à chaque collecte réussie. Ne pas éditer à la main : toute modification sera écrasée à la prochaine exécution.",
   "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-  "derniere_collecte_reussie": "2026-09-10",
+  "derniere_collecte_reussie": "2026-09-11",
   "n_reunions": 56,
   "reunions": [
     {
