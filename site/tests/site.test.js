@@ -26,7 +26,7 @@ import {
   rendrePrecedents, rendrePrix,
 } from "../js/rendu.js";
 import {
-  estLieAUnDossier, normaliserTexteGeo, rendreContexteMacro, rendreSynthese,
+  estLieAUnDossier, itemRelieAUnDossier, normaliserTexteGeo, rendreContexteMacro, rendreSynthese,
   rubriqueCrypto, rubriqueGeopolitique, rubriqueOr, rubriqueQuantique,
 } from "../js/rubriques.js";
 import { filtrer, rendreFil, rendreVide } from "../js/fil.js";
@@ -853,6 +853,21 @@ test("rubriqueGeopolitique signale un dossier indisponible avec son motif", () =
   const etat = { disponible: true, donnees: etatGeoExemple([dossier]).donnees };
   const { corps } = rubriqueGeopolitique(etat, []);
   assert.match(corps, /GDELT indisponible pour ce dossier/);
+});
+
+test("un item reconnu par son chapô va dans l'onglet du dossier, pas dans Autres", () => {
+  // Le moteur reconnaît désormais le titre ET le chapô ; il publie le
+  // rattachement dans tickers_ou_themes_lies. Le site doit le suivre plutôt
+  // que de refaire le test sur le seul titre.
+  const dossiers = [{ id: "moyen_orient", nom_affiche: "Moyen-Orient (région)", mots_cles: ["Houthi", "mer Rouge"] }];
+  const item = {
+    titre_affiche: "Spokesperson to make a statement at 9 AM ET",
+    tickers_ou_themes_lies: ["Moyen-Orient (région)"],
+  };
+  assert.ok(itemRelieAUnDossier(item, dossiers), "le rattachement du moteur doit primer");
+  // Repli sur le titre pour un item publié avant ce rattachement.
+  assert.ok(itemRelieAUnDossier({ titre_affiche: "Houthi statement" }, dossiers));
+  assert.ok(!itemRelieAUnDossier({ titre_affiche: "Sommet économique", tickers_ou_themes_lies: ["Sanctions"] }, dossiers));
 });
 
 test("rubriqueGeopolitique répartit vers 'Autres' ce qui ne relève d'aucun dossier", () => {

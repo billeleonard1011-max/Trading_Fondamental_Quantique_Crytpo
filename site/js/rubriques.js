@@ -262,6 +262,31 @@ export function estLieAUnDossier(titre, dossiers) {
 }
 
 /**
+ * Dit si un item du fil relève d'un dossier suivi.
+ *
+ * Le rattachement décidé par le moteur prime : ``tickers_ou_themes_lies``
+ * porte le nom d'affichage des dossiers reconnus, à partir du titre **et**
+ * du chapô (voir modules/geopolitique/feed.py::_entites_liees). Le test sur
+ * le seul titre ne sert plus que de repli, pour les items publiés avant ce
+ * rattachement — sans lui, un item reconnu par son chapô atterrirait dans
+ * « Autres » alors que le moteur l'a rangé dans un dossier.
+ *
+ * @param {object} item Item du fil géopolitique.
+ * @param {Array<object>} dossiers Dossiers configurés.
+ * @returns {boolean} ``true`` si l'item relève d'un dossier.
+ */
+export function itemRelieAUnDossier(item, dossiers) {
+  const lies = (item && item.tickers_ou_themes_lies) || [];
+  if (lies.length) {
+    const noms = new Set(
+      (dossiers || []).map((d) => normaliserTexteGeo(d.nom_affiche || "")).filter(Boolean),
+    );
+    if (lies.some((l) => noms.has(normaliserTexteGeo(l)))) return true;
+  }
+  return estLieAUnDossier((item && (item.titre_affiche || item.titre)) || "", dossiers);
+}
+
+/**
  * Rend la liste des maillons de la chaîne de transmission d'un dossier.
  *
  * @param {object} chaine Bloc ``chaine_de_transmission`` d'un dossier.
@@ -374,9 +399,7 @@ function rendreDossierPanneau(dossier, meta, source) {
  */
 function rendreAutresPanneau(filGeopolitique, dossiers, autresSujets = [], criteres = {}) {
   const sujets = Array.isArray(autresSujets) ? autresSujets : [];
-  const autres = (filGeopolitique || []).filter(
-    (item) => !estLieAUnDossier(item.titre_affiche || item.titre, dossiers),
-  );
+  const autres = (filGeopolitique || []).filter((item) => !itemRelieAUnDossier(item, dossiers));
   const seuil = criteres.intensite_min === undefined ? ABSENT : `${nombre(criteres.intensite_min, 1)}×`;
   const explication = `<p class="metrique-sens">Filet de sécurité pour l'imprévu : sujets découverts
     dans le dernier export GDELT Events (paires de pays en conflit) et thèmes génériques (énergie,

@@ -264,3 +264,112 @@ def test_themes_reels_de_gold_yaml_sont_exploitables() -> None:
     for theme in themes:
         termes = feed._termes_theme(theme["query"])
         assert termes, f"Aucun terme extrait pour {theme['nom']!r}"
+
+
+# ---------------------------------------------------------------------------
+# Le filtre de pertinence : titre ET chapô, mots-clés des dossiers
+# ---------------------------------------------------------------------------
+_DOSSIERS = [
+    {"id": "israel_gaza", "nom_affiche": "Israël - Gaza", "mots_cles": ["Israël", "Gaza", "Hamas"]},
+    {"id": "moyen_orient", "nom_affiche": "Moyen-Orient (région)", "mots_cles": ["Houthi", "mer Rouge", "Red Sea"]},
+    {"id": "politique_monetaire", "nom_affiche": "Politique monétaire (Fed, BCE)",
+     "mots_cles": ["Federal Reserve", "FOMC", "Powell"]},
+]
+
+
+def _item(titre: str, resume: str = "") -> news.NewsItem:
+    return news.NewsItem(
+        titre=titre, url=f"https://exemple.test/{abs(hash(titre))}", source="Reuters",
+        date=datetime(2026, 9, 11, 10, 0, tzinfo=timezone.utc), resume=resume,
+    )
+
+
+def _fil(articles, connus=None):
+    return feed.construire_fil(
+        _CONFIG, articles, identifiants_connus=connus or set(), dossiers=_DOSSIERS,
+    )
+
+
+def test_un_item_reconnu_par_son_seul_chapo_est_retenu() -> None:
+    """Le défaut corrigé : le chapô était rempli par fetch_rss et ignoré."""
+    articles = [_item("Spokesperson to make a statement at 9 AM ET",
+                      "The Houthi movement said it would address shipping in the Red Sea.")]
+    items = _fil(articles)
+    assert len(items) == 1
+    assert "Moyen-Orient (région)" in items[0]["tickers_ou_themes_lies"]
+
+
+def test_le_titre_seul_suffit_toujours() -> None:
+    items = _fil([_item("Powell signals a pause in rate decisions")])
+    assert len(items) == 1
+    assert "Politique monétaire (Fed, BCE)" in items[0]["tickers_ou_themes_lies"]
+
+
+def test_le_fait_divers_qui_avait_motive_le_durcissement_reste_ecarte() -> None:
+    """« home invasion » : le mot nu « invasion » n'est le mot-clé d'aucun dossier."""
+    ecartes = [
+        _item("Police investigate a home invasion in a quiet suburb",
+              "Two suspects fled after the home invasion, local police said."),
+        _item("Migration debate divides parliament",
+              "Lawmakers clashed over an invasion of migrants, one member said."),
+    ]
+    assert _fil(ecartes) == []
+
+
+def test_un_terme_ne_se_declenche_pas_au_milieu_dun_mot() -> None:
+    """« Iran » ne doit pas sortir de « Tirana », mais doit sortir d'« Iranian »."""
+    dossiers = [{"id": "iran_etats_unis", "nom_affiche": "Iran - États-Unis", "mots_cles": ["Iran"]}]
+    faux = feed.construire_fil(_CONFIG, [_item("Tirana hosts a regional summit")], set(), dossiers=dossiers)
+    assert faux == []
+    vrai = feed.construire_fil(_CONFIG, [_item("Iranian officials meet negotiators")], set(), dossiers=dossiers)
+    assert len(vrai) == 1 and "Iran - États-Unis" in vrai[0]["tickers_ou_themes_lies"]
+
+
+def test_un_theme_generique_retenu_sans_dossier_releve_de_autres() -> None:
+    """Rattaché à un thème, à aucun dossier : l'onglet « Autres » est sa place."""
+    items = _fil([_item("Traders weigh the outlook", "A disruption to oil supply tightened the market.")])
+    assert len(items) == 1
+    noms_dossiers = {d["nom_affiche"] for d in _DOSSIERS}
+    assert not noms_dossiers & set(items[0]["tickers_ou_themes_lies"])
+    assert items[0]["tickers_ou_themes_lies"]
+
+
+def test_un_mot_cle_dun_seul_caractere_ne_filtre_rien() -> None:
+    """Un mot-clé trop court est ignoré plutôt que d'ouvrir la porte à tout."""
+    dossiers = [{"id": "x", "nom_affiche": "X", "mots_cles": ["or"]}]
+    assert feed.construire_fil(_CONFIG, [_item("New order book rules")], set(), dossiers=dossiers) == []
+
+
+def test_les_doublons_sont_ecartes_comme_pour_les_autres_sources() -> None:
+    """Même titre via deux sources : un seul item, la déduplication est commune."""
+    a = news.NewsItem(titre="Hamas responds to the latest proposal", url="https://a.test/1",
+                      source="Reuters", date=datetime(2026, 9, 11, 10, 0, tzinfo=timezone.utc))
+    b = news.NewsItem(titre="Hamas responds to the latest proposal!", url="https://b.test/2",
+                      source="GDELT", date=datetime(2026, 9, 11, 10, 5, tzinfo=timezone.utc))
+    assert len(_fil(news.dedupe([a, b]))) == 1
+
+
+def test_un_item_deja_traite_nest_jamais_retraite() -> None:
+    articles = [_item("Gaza talks resume", "Negotiators returned to the table.")]
+    premiers = _fil(articles)
+    assert premiers[0]["nouveaute"] is True
+    connus = {premiers[0]["id"]}
+    seconds = _fil(articles, connus)
+    assert seconds[0]["nouveaute"] is False
+    assert seconds[0]["analyse_interne"] is None
+
+
+def test_dossiers_illisibles_degradent_sans_casser_le_fil() -> None:
+    """Sans dossiers, les thèmes génériques tiennent encore le fil."""
+    items = feed.construire_fil(
+        _CONFIG, [_item("Oil supply disruption widens"), _item("Gaza talks resume")],
+        set(), dossiers=[],
+    )
+    assert len(items) == 1                       # le thème énergie reste, Gaza n'a plus de dossier
+    assert "Gaza" not in " ".join(items[0]["tickers_ou_themes_lies"])
+
+
+def test_les_exclusions_lisent_aussi_le_chapo() -> None:
+    config = {**_CONFIG, "feed": {**_CONFIG.get("feed", {}), "exclusions": ["home invasion"]}}
+    articles = [_item("Hamas statement", "Unrelated mention of a home invasion in the same bulletin.")]
+    assert feed.construire_fil(config, articles, set(), dossiers=_DOSSIERS) == []

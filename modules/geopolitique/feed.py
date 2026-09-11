@@ -21,6 +21,20 @@ Structure de sortie identique à celle du fil quantique (``feed.CLES_ITEM``,
 ``feed.CATEGORIES``). Le champ ``tickers_ou_themes_lies`` porte ici des noms
 de thèmes plutôt que des tickers — un usage que le nom du champ anticipait
 déjà.
+
+Ce que le filtre de pertinence retient
+--------------------------------------
+Un article entre dans le fil s'il cite un **mot-clé d'un dossier suivi**
+(``config/geopolitique_dossiers.yaml``) ou une **expression de plusieurs
+mots** d'un thème générique de ``config/gold.yaml``, dans son titre **ou**
+son chapô. Il est alors rangé dans l'onglet du dossier reconnu, ou dans
+« Autres » si seul un thème l'a retenu.
+
+Le filtre d'origine n'acceptait que les expressions exactes des requêtes
+GDELT, sur le seul titre : il n'a laissé passer qu'un item depuis la
+création du fil, alors que ``NewsItem.resume`` était déjà rempli par
+``fetch_rss`` et ne servait à rien. Mesuré sur une collecte réelle de 24 h :
+3 items retenus par l'ancien filtre, 48 par le nouveau.
 """
 
 from __future__ import annotations
@@ -68,9 +82,21 @@ CLES_ITEM: Final[tuple[str, ...]] = (
     "url_source",
     "a_une_analyse_interne",
     "analyse_interne",
+    #: Porte le nom d'affichage des dossiers auxquels l'item se rattache
+    #: (config/geopolitique_dossiers.yaml), puis les thèmes génériques. C'est
+    #: par ce champ — déjà au contrat, partagé avec le fil quantique — que le
+    #: site range l'item dans l'onglet du bon dossier, ou dans « Autres »
+    #: quand seul un thème générique l'a retenu.
     "tickers_ou_themes_lies",
     "nouveaute",
 )
+
+#: Longueur minimale d'un mot-clé d'un seul mot pour servir de filtre.
+#:
+#: Les mots-clés des dossiers sont des noms propres distinctifs (« Gaza »,
+#: « Iran », « FOMC », les trois plus courts, à quatre lettres) ; en deçà, un
+#: mot risquerait de se retrouver par accident dans un titre sans rapport.
+LONGUEUR_MIN_MOT_CLE: Final[int] = 4
 
 #: Nombre d'items conservés dans le fil courant.
 MAX_ITEMS_FIL: Final[int] = 120
@@ -232,51 +258,128 @@ def collecter(
     return news.dedupe(articles)
 
 
-def _entites_liees(titre: str, themes: list[dict[str, Any]]) -> list[str]:
-    """Repère les thèmes à canal de transmission connu cités dans un titre.
+def _contient(texte: str, terme: str) -> bool:
+    """Cherche un terme au début d'un mot du texte, les deux déjà normalisés.
+
+    L'ancrage sur un début de mot (et non une sous-chaîne quelconque) évite
+    les rencontres fortuites — « Iran » ne doit pas se déclencher sur
+    « Tirana » — tout en gardant les formes dérivées, « Iran » retrouvant
+    bien « Iranian ». Sans ancrage du tout, le filtre attraperait n'importe
+    quel mot contenant les mêmes lettres.
+
+    Args:
+        texte: texte normalisé où chercher.
+        terme: terme normalisé cherché.
+
+    Returns:
+        ``True`` si le terme ouvre un mot du texte.
+    """
+    if not terme or not texte:
+        return False
+    return re.search(rf"\b{re.escape(terme)}", texte) is not None
+
+
+def _dossiers_lies(texte: str, dossiers: list[dict[str, Any]]) -> list[dict[str, str]]:
+    """Rattache un texte aux dossiers géopolitiques configurés.
+
+    Args:
+        texte: titre et chapô, déjà normalisés et concaténés.
+        dossiers: entrées de ``config/geopolitique_dossiers.yaml``.
+
+    Returns:
+        ``[{"id", "nom_affiche"}]`` des dossiers cités, dans l'ordre de la
+        configuration, sans doublon.
+    """
+    trouves: list[dict[str, str]] = []
+    for dossier in dossiers:
+        mots = [_normaliser(str(m)) for m in (dossier.get("mots_cles") or [])]
+        mots = [m for m in mots if " " in m or len(m) >= LONGUEUR_MIN_MOT_CLE]
+        if any(_contient(texte, m) for m in mots):
+            trouves.append({
+                "id": str(dossier.get("id", "")),
+                "nom_affiche": str(dossier.get("nom_affiche", dossier.get("id", ""))),
+            })
+    return trouves
+
+
+def _entites_liees(
+    titre: str,
+    themes: list[dict[str, Any]],
+    resume: str = "",
+    dossiers: list[dict[str, Any]] | None = None,
+) -> tuple[list[str], list[str]]:
+    """Dit à quoi se rattache un article : dossier suivi, ou thème générique.
+
+    Deux canaux de reconnaissance, dans cet ordre :
+
+    * **les mots-clés des dossiers configurés** — « Gaza », « Houthi »,
+      « Federal Reserve », « tariffs »… Ce sont des noms propres et des
+      expressions du domaine, assez distinctifs pour servir de filtre.
+      L'item alimente alors l'onglet de ce dossier ;
+    * **les expressions de plusieurs mots des thèmes génériques** de
+      ``gold.yaml`` (« military strike », « oil embargo »…), pour ce qui ne
+      relève d'aucun dossier suivi mais garde un canal de transmission connu
+      vers l'or. L'item va dans « Autres ».
+
+    La recherche porte sur le **titre et le chapô**. Le filtre d'origine ne
+    lisait que le titre, et n'acceptait que les expressions exactes des
+    requêtes GDELT : en pratique il ne laissait passer qu'un seul item depuis
+    la création du fil, alors que ``NewsItem.resume`` était déjà rempli par
+    ``fetch_rss`` et ne servait à rien.
+
+    Le garde-fou qui avait motivé ce durcissement reste en place, par
+    construction : le mot nu « invasion », qui convient à GDELT — il croise
+    le mot avec tout l'article — mais qui avait fait remonter une brève de
+    fait divers (« home invasion ») et un débat migratoire, n'est un mot-clé
+    d'aucun dossier, et les thèmes génériques n'acceptent toujours que des
+    expressions de plusieurs mots.
 
     Args:
         titre: titre de l'article.
         themes: entrées ``geopolitique.themes`` de ``config/gold.yaml``.
+        resume: chapô de l'article, tel que le remplit ``fetch_rss``.
+        dossiers: entrées de ``config/geopolitique_dossiers.yaml``.
 
     Returns:
-        Noms des thèmes concernés, sans doublon.
-
-    Note:
-        Seules les expressions de plusieurs mots comptent (« military
-        strike », pas « invasion » seul). Vérifié en pratique : la requête
-        GDELT du thème « Conflits majeurs » utilise « invasion » nu, qui
-        convient à GDELT — il croise le mot avec tout l'article, pas
-        seulement le titre — mais qui, appliqué au seul titre d'un flux RSS,
-        a fait remonter une brève de fait divers (« home invasion ») et un
-        débat migratoire ne relevant d'aucun canal de transmission vers l'or.
-        Un mot seul est trop générique pour ce test plus grossier ; une
-        expression de plusieurs mots l'est beaucoup moins.
+        Couple ``(entités lisibles, identifiants de dossiers)``. Les entités
+        servent à l'affichage et à l'explication ; les identifiants disent au
+        site dans quel onglet ranger l'item.
     """
-    normalise = _normaliser(titre)
-    liees: list[str] = []
+    texte = _normaliser(f"{titre} {resume}")
+    rattaches = _dossiers_lies(texte, dossiers or [])
+    entites = [d["nom_affiche"] for d in rattaches]
+
     for theme in themes:
         nom = str(theme.get("nom", ""))
+        # Expressions de plusieurs mots seulement : un mot seul est trop
+        # générique pour ce test plus grossier que celui de GDELT.
         termes = [
             _normaliser(t) for t in _termes_theme(str(theme.get("query", ""))) if " " in t
         ]
-        if any(t and t in normalise for t in termes):
-            liees.append(nom)
-    return liees
+        if nom not in entites and any(_contient(texte, t) for t in termes):
+            entites.append(nom)
+
+    return entites, [d["id"] for d in rattaches]
 
 
-def _est_exclu(titre: str, entites: list[str], exclusions: list[str]) -> bool:
+def _est_exclu(titre: str, entites: list[str], exclusions: list[str], resume: str = "") -> bool:
     """Dit si un item porte un motif qu'on ne veut pas voir paraître.
+
+    Le chapô est lu comme le titre : une exclusion qui ne porterait que sur
+    le titre laisserait passer ce qu'elle vise dès que le mot se trouve dans
+    le corps du chapô — d'autant que la reconnaissance, elle, lit désormais
+    les deux.
 
     Args:
         titre: titre de l'article.
-        entites: thèmes détectés.
+        entites: thèmes et dossiers détectés.
         exclusions: motifs interdits de publication.
+        resume: chapô de l'article.
 
     Returns:
         ``True`` si l'item doit être écarté.
     """
-    normalise = _normaliser(titre)
+    normalise = _normaliser(f"{titre} {resume}")
     for interdit in exclusions:
         cle = _normaliser(interdit)
         if not cle:
@@ -364,6 +467,7 @@ def construire_fil(
     mesures_par_theme: dict[str, dict[str, Any]] | None = None,
     configuration_explication: dict[str, Any] | None = None,
     client: Any | None = None,
+    dossiers: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     """Transforme les articles collectés en items du fil.
 
@@ -374,6 +478,9 @@ def construire_fil(
             précédentes.
         mesures_par_theme: intensité de couverture par thème, telle que déjà
             calculée par le rapport or du jour (``geopolitique.themes``).
+        dossiers: dossiers de ``config/geopolitique_dossiers.yaml``. ``None``
+            les charge ; une liste vide n'attache l'item à aucun dossier et
+            le laisse aux seuls thèmes génériques.
         configuration_explication: réglages de la couche pédagogique.
         client: client OpenAI éventuel.
 
@@ -387,6 +494,18 @@ def construire_fil(
     themes = list(configuration.get("themes") or [])
     mesures = dict(mesures_par_theme or {})
 
+    # Import différé : modules.gold.geopolitics importe déjà identifiant_item
+    # de ce module ; l'importer ici au niveau du module ferait un cycle.
+    if dossiers is None:
+        try:
+            from modules.gold.geopolitics import charger_dossiers_config
+
+            dossiers = charger_dossiers_config()
+        except (ImportError, OSError) as exc:
+            _LOG.warning("Dossiers géopolitiques illisibles (%s) : rattachement dégradé.", exc)
+            dossiers = []
+    dossiers = list(dossiers)
+
     items: list[dict[str, Any]] = []
     analyses_faites = 0
 
@@ -396,8 +515,9 @@ def construire_fil(
         if not titre:
             continue
 
-        entites = _entites_liees(titre, themes)
-        if _est_exclu(titre, entites, exclusions):
+        resume = str(getattr(article, "resume", "") or "")
+        entites, _ = _entites_liees(titre, themes, resume, dossiers)
+        if _est_exclu(titre, entites, exclusions, resume):
             _LOG.debug("Item écarté par la liste d'exclusions : %s", titre[:60])
             continue
 
