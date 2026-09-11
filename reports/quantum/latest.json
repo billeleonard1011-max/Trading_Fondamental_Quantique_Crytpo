@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-11",
-    "horodatage_utc": "2026-09-11T18:37:47.267845+00:00",
+    "horodatage_utc": "2026-09-11T19:36:36.416478+00:00",
     "domaine": "valeurs quantiques cotées",
     "version_moteur": "1.0",
     "valeurs_suivies": [
@@ -9,9 +9,11 @@
       "QBTS",
       "IONQ"
     ],
-    "sources_en_echec": [],
-    "donnees_partielles": false,
-    "avertissement": "",
+    "sources_en_echec": [
+      "intensité GDELT du secteur"
+    ],
+    "donnees_partielles": true,
+    "avertissement": "1 source(s) indisponible(s) : intensité GDELT du secteur. Chaque bloc concerné porte son motif.",
     "nature_du_rapport": "Ce rapport décrit des faits de marché et leur contexte. Il ne contient aucune recommandation d'achat, de vente ou de positionnement, et n'a pas vocation à en contenir.",
     "controle_anti_recommandation": {
       "effectue": true,
@@ -49,7 +51,7 @@
     },
     "_meta": {
       "source": "yfinance (secours Stooq)",
-      "horodatage_collecte_utc": "2026-09-11T18:29:39.825494+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:29:58.009962+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 1
     }
@@ -63,7 +65,7 @@
     "variation_marche_pct": -1.0637845546144553,
     "_meta": {
       "source": "FRED DFII10 + QQQ (yfinance)",
-      "horodatage_collecte_utc": "2026-09-11T18:29:40.774390+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:29:58.479348+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
@@ -80,7 +82,7 @@
     "mouvements": [],
     "_meta": {
       "source": "analyse interne (prix + FRED + EDGAR + GDELT)",
-      "horodatage_collecte_utc": "2026-09-11T18:36:16.198895+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:31:31.090436+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 1
     }
@@ -139,13 +141,13 @@
       ]
     },
     "financements_et_contrats": {
-      "disponible": true,
-      "motif": "",
-      "ratio_couverture": 1.7431693989071038,
-      "volume_24h": 22.0,
-      "moyenne_journaliere_30j": 12.620689655172415,
+      "disponible": false,
+      "motif": "GDELT n'a pas répondu.",
+      "ratio_couverture": null,
+      "volume_24h": 0,
+      "moyenne_journaliere_30j": 0.0,
       "alerte": false,
-      "lecture": "Couverture des financements et contrats du secteur à 1.7 fois sa normale sur 24 heures."
+      "lecture": "Intensité de couverture non mesurée."
     },
     "nouveaux_entrants": {
       "disponible": false,
@@ -180,7 +182,7 @@
     },
     "_meta": {
       "source": "EDGAR XBRL + GDELT + prix",
-      "horodatage_collecte_utc": "2026-09-11T18:37:47.267743+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:36:36.416373+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }

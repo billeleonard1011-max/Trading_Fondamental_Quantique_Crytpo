@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-11",
-    "horodatage_utc": "2026-09-11T18:29:37.074629+00:00",
+    "horodatage_utc": "2026-09-11T19:29:55.447587+00:00",
     "instrument": "XAUUSD",
     "version_moteur": "2.1",
     "sources_en_echec": [],
@@ -18,7 +18,7 @@
     "variation_20j_pct": -1.0070517210006846,
     "_meta": {
       "source": "GC=F (yfinance)",
-      "horodatage_collecte_utc": "2026-09-11T18:07:00.167984+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:16:29.489793+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 1
     },
@@ -34,27 +34,27 @@
     "disponible": true,
     "motif": "",
     "prix_observe": 4364.5,
-    "prix_theorique": 3776.1600347674016,
-    "ecart_usd": 588.3399652325984,
-    "ecart_pct": 15.580376885929256,
-    "z_score": 0.5295278460454582,
+    "prix_theorique": 3776.160034767395,
+    "ecart_usd": 588.3399652326052,
+    "ecart_pct": 15.580376885929464,
+    "z_score": 0.5295278460454588,
     "percentile_historique": 81.98631872308081,
-    "r2": 0.1926892194570058,
+    "r2": 0.19268921945700557,
     "fiable": false,
     "seuil_r2": 0.5,
     "n_observations": 756,
     "coefficients": {
       "constante": 37.05967781177259,
-      "taux_reel": 0.04952553752792078,
+      "taux_reel": 0.04952553752792088,
       "dollar": -6.066484769710629
     },
     "contributions": {
       "taux_reel": {
-        "coefficient": 0.04952553752792078,
+        "coefficient": 0.04952553752792088,
         "valeur_courante": 2.46,
-        "contribution_log": 0.022751612676517038,
-        "effet_pct": 2.3012404673496745,
-        "effet_usd": 70.20689546624052
+        "contribution_log": 0.022751612676517086,
+        "effet_pct": 2.3012404673496967,
+        "effet_usd": 70.20689546624119
       },
       "dollar": {
         "coefficient": -6.066484769710629,
@@ -69,7 +69,7 @@
     "unite_prix": "USD par once",
     "_meta": {
       "source": "GC=F (yfinance) + FRED DFII10/DTWEXBGS",
-      "horodatage_collecte_utc": "2026-09-11T18:07:06.990257+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:16:34.898647+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 1
     }
@@ -90,7 +90,7 @@
     "lecture": "Managed money net à +136,771 contrats, soit le 73e percentile sur 260 semaines : positionnement acheteur nourri, sans être extrême. Donnée vieille de 10 jour(s).",
     "_meta": {
       "source": "api_socrata",
-      "horodatage_collecte_utc": "2026-09-11T18:07:07.746899+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:16:35.609060+00:00",
       "date_donnee": "2026-09-01",
       "age_jours": 10
     }
@@ -98,7 +98,7 @@
   "flux": {
     "_meta": {
       "source": "yfinance + SPDR (tentative)",
-      "horodatage_collecte_utc": "2026-09-11T18:07:10.659570+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:16:37.228443+00:00",
       "date_donnee": null,
       "age_jours": null
     },
@@ -163,10 +163,10 @@
   },
   "calendrier": {
     "disponible": true,
-    "horodatage_calcul_utc": "2026-09-11T18:07:10.659721+00:00",
+    "horodatage_calcul_utc": "2026-09-11T19:16:37.228595+00:00",
     "fenetre_silence_minutes": 120,
     "en_fenetre_de_silence": false,
-    "commentaire": "Prochaine échéance : Décision de politique monétaire (FOMC) avec projections économiques dans 119 heure(s).",
+    "commentaire": "Prochaine échéance : Décision de politique monétaire (FOMC) avec projections économiques dans 118 heure(s).",
     "avertissement_heures": "FRED ne publie que la date, jamais l'heure. Les heures affichées sont les heures officielles d'usage (fuseau de New York) : elles sont conventionnelles, pas garanties.",
     "horizon_couvert_jusquau": "2027-12-08",
     "n_reunions_a_venir_connues": 11,
@@ -191,8 +191,8 @@
         "horodatage_utc": "2026-09-16T18:00:00+00:00",
         "date": "2026-09-16",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 7192,
-        "jours_restants": 4.99,
+        "minutes_restantes": 7123,
+        "jours_restants": 4.95,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -202,8 +202,8 @@
         "horodatage_utc": "2026-09-30T12:30:00+00:00",
         "date": "2026-09-30",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 27022,
-        "jours_restants": 18.77,
+        "minutes_restantes": 26953,
+        "jours_restants": 18.72,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 54"
@@ -213,8 +213,8 @@
         "horodatage_utc": "2026-10-02T12:30:00+00:00",
         "date": "2026-10-02",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 29902,
-        "jours_restants": 20.77,
+        "minutes_restantes": 29833,
+        "jours_restants": 20.72,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 50"
@@ -224,8 +224,8 @@
         "horodatage_utc": "2026-10-14T12:30:00+00:00",
         "date": "2026-10-14",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 47182,
-        "jours_restants": 32.77,
+        "minutes_restantes": 47113,
+        "jours_restants": 32.72,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 10"
@@ -235,8 +235,8 @@
         "horodatage_utc": "2026-10-28T18:00:00+00:00",
         "date": "2026-10-28",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 67672,
-        "jours_restants": 46.99,
+        "minutes_restantes": 67603,
+        "jours_restants": 46.95,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -246,8 +246,8 @@
         "horodatage_utc": "2026-10-29T12:30:00+00:00",
         "date": "2026-10-29",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 68782,
-        "jours_restants": 47.77,
+        "minutes_restantes": 68713,
+        "jours_restants": 47.72,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 54"
@@ -255,7 +255,7 @@
     ],
     "_meta": {
       "source": "FRED releases + FOMC (federalreserve.gov)",
-      "horodatage_collecte_utc": "2026-09-11T18:07:11.544692+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:16:38.112264+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
@@ -367,7 +367,7 @@
     },
     "_meta": {
       "source": "FRED (séries macro) + ETF sectoriels (rotation cyclique/défensif)",
-      "horodatage_collecte_utc": "2026-09-11T18:07:15.876928+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:16:40.728116+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
@@ -375,12 +375,12 @@
   "geopolitique": {
     "disponible": true,
     "motif": "",
-    "horodatage_utc": "2026-09-11T18:29:36.990840+00:00",
+    "horodatage_utc": "2026-09-11T19:29:55.325977+00:00",
     "source": "GDELT (DOC : narratif et couverture ; Events : activité bilatérale par acteur) + FRED (maillons macro)",
-    "n_dossiers_mesures": 5,
+    "n_dossiers_mesures": 2,
     "n_dossiers_configures": 8,
-    "intensite_max": 1.544607190412783,
-    "dossier_dominant": "semiconducteurs_ia",
+    "intensite_max": 1.6881356458550068,
+    "dossier_dominant": "moyen_orient",
     "dossiers": [
       {
         "id": "israel_gaza",
@@ -393,457 +393,96 @@
           "Cisjordanie",
           "West Bank"
         ],
-        "disponible": true,
-        "motif": "",
-        "intensite_ratio": 0.9899198980966613,
-        "volume_24h": 2787.0,
-        "trajectoire": "en accélération",
-        "anciennete_jours": 3,
-        "n_evenements_bilateraux": 393,
-        "motif_events": "",
-        "exemple_evenement": {
-          "code_evenement": "120",
-          "goldstein": -4.0,
-          "tonalite": -9.58702064896758,
-          "source_url": "https://nypost.com/2026/09/11/opinion/new-boycott-of-west-bank-jews-is-based-on-lies/"
-        },
-        "developpements_recents": [],
-        "n_nouveaux_developpements": 0,
-        "nouveaux_developpements": [],
-        "etat_actuel": "Couverture à 1.0× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 3 jour(s) consécutif(s). Aucun article récent trouvé sur ce dossier.",
-        "chaine_de_transmission": {
-          "horizon_seances": 5,
-          "canal": "petrole",
-          "maillons": {
-            "1_evenement": {
-              "libelle": "Intensité de couverture du thème le plus actif",
-              "disponible": true,
-              "motif": "",
-              "valeur": 0.9899198980966613,
-              "unite_variation": "× la normale",
-              "variation": null
-            },
-            "2_petrole": {
-              "libelle": "Pétrole brut WTI (DCOILWTICO)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 97.26,
-              "valeur_precedente": 92.69,
-              "variation": 4.930413205308026,
-              "unite_variation": "%",
-              "date": "2026-09-11"
-            },
-            "3_inflation_anticipee": {
-              "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 2.4,
-              "valeur_precedente": 2.35,
-              "variation": 4.999999999999982,
-              "unite_variation": "points de base",
-              "date": "2026-09-11"
-            },
-            "4_taux_reels": {
-              "libelle": "Taux réel 10 ans (DFII10)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 2.46,
-              "valeur_precedente": 2.43,
-              "variation": 2.9999999999999805,
-              "unite_variation": "points de base",
-              "date": "2026-09-11"
-            },
-            "5_or": {
-              "libelle": "Or au comptant",
-              "disponible": true,
-              "motif": "",
-              "valeur": 4364.5,
-              "valeur_precedente": 4366.2998046875,
-              "variation": -0.041220364336136406,
-              "unite_variation": "%",
-              "date": "2026-09-10"
-            }
-          },
-          "n_maillons_mesures": 4,
-          "n_maillons_conformes": 2,
-          "chaine_rompue": true,
-          "commentaire": "Chaîne rompue : 2/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+3.00 points de base), Or au comptant (-0.04 %)."
-        },
-        "deja_dans_les_prix": {
-          "valeur": null,
-          "disponible": false,
-          "motif": "z-score de juste valeur indisponible ou non fiable",
-          "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
-        },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 1.0× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (2/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
-        "type": "conflit",
-        "canal": "petrole",
-        "epingle": false,
-        "pertinence": {
-          "disponible": true,
-          "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 9,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {
-            "petrole": 0.87,
-            "taux_reels": 1.5,
-            "vix": 1.45,
-            "or": 1.63
-          },
-          "score": 1.48,
-          "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,48 fois plus que les autres jours (le pétrole 0,87, les taux réels 1,50, le VIX 1,45, l'or 1,63), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
-          "motif": ""
-        },
-        "classement": {
-          "statut": "veille",
-          "rang": 1,
-          "donnees_suffisantes": true,
-          "historique": {
-            "jours_observes": 0,
-            "changement": "nouveau",
-            "statut_precedent": null,
-            "lecture_precedente": null,
-            "date_precedente": null,
-            "jours_consecutifs_statut": 1,
-            "inerte_depuis_jours": 0,
-            "score_moyen_30j": null,
-            "tendance_score": ""
-          }
-        },
-        "sujets_rattaches": [
-          {
-            "paire": [
-              "ISR",
-              "PSE"
-            ],
-            "libelle": "Israel – Palestinian",
-            "n_evenements": 227,
-            "mentions": 781,
-            "part": 0.0421,
-            "goldstein_moyen": -7.24
-          }
-        ]
-      },
-      {
-        "id": "iran_etats_unis",
-        "nom_affiche": "Iran - États-Unis",
-        "mots_cles": [
-          "Iran",
-          "détroit d'Ormuz",
-          "strait of Hormuz",
-          "nucléaire iranien",
-          "Iran nuclear"
-        ],
-        "disponible": true,
-        "motif": "",
-        "intensite_ratio": 1.216024204392649,
-        "volume_24h": 5613.0,
-        "trajectoire": "",
-        "anciennete_jours": null,
-        "n_evenements_bilateraux": 473,
-        "motif_events": "",
-        "exemple_evenement": {
-          "code_evenement": "020",
-          "goldstein": 3.0,
-          "tonalite": -4.22535211267606,
-          "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/11/trump-says-us-is-not-attacking-iran-in-039full039-because-of-the-midterm-elections"
-        },
-        "developpements_recents": [],
-        "n_nouveaux_developpements": 0,
-        "nouveaux_developpements": [],
-        "etat_actuel": "Couverture à 1.2× sa moyenne sur 30 jours, trajectoire non qualifiée. Aucun article récent trouvé sur ce dossier.",
-        "chaine_de_transmission": {
-          "horizon_seances": 5,
-          "canal": "petrole",
-          "maillons": {
-            "1_evenement": {
-              "libelle": "Intensité de couverture du thème le plus actif",
-              "disponible": true,
-              "motif": "",
-              "valeur": 1.216024204392649,
-              "unite_variation": "× la normale",
-              "variation": null
-            },
-            "2_petrole": {
-              "libelle": "Pétrole brut WTI (DCOILWTICO)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 97.26,
-              "valeur_precedente": 92.69,
-              "variation": 4.930413205308026,
-              "unite_variation": "%",
-              "date": "2026-09-11"
-            },
-            "3_inflation_anticipee": {
-              "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 2.4,
-              "valeur_precedente": 2.35,
-              "variation": 4.999999999999982,
-              "unite_variation": "points de base",
-              "date": "2026-09-11"
-            },
-            "4_taux_reels": {
-              "libelle": "Taux réel 10 ans (DFII10)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 2.46,
-              "valeur_precedente": 2.43,
-              "variation": 2.9999999999999805,
-              "unite_variation": "points de base",
-              "date": "2026-09-11"
-            },
-            "5_or": {
-              "libelle": "Or au comptant",
-              "disponible": true,
-              "motif": "",
-              "valeur": 4364.5,
-              "valeur_precedente": 4366.2998046875,
-              "variation": -0.041220364336136406,
-              "unite_variation": "%",
-              "date": "2026-09-10"
-            }
-          },
-          "n_maillons_mesures": 4,
-          "n_maillons_conformes": 2,
-          "chaine_rompue": true,
-          "commentaire": "Chaîne rompue : 2/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+3.00 points de base), Or au comptant (-0.04 %)."
-        },
-        "deja_dans_les_prix": {
-          "valeur": null,
-          "disponible": false,
-          "motif": "z-score de juste valeur indisponible ou non fiable",
-          "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
-        },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 1.2× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (2/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
-        "type": "conflit",
-        "canal": "petrole",
-        "epingle": false,
-        "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
-        },
-        "classement": {
-          "statut": "candidat",
-          "rang": 5,
-          "donnees_suffisantes": false,
-          "historique": {
-            "jours_observes": 0,
-            "changement": "nouveau",
-            "statut_precedent": null,
-            "lecture_precedente": null,
-            "date_precedente": null,
-            "jours_consecutifs_statut": 1,
-            "inerte_depuis_jours": 0,
-            "score_moyen_30j": null,
-            "tendance_score": ""
-          }
-        },
-        "sujets_rattaches": [
-          {
-            "paire": [
-              "IRN",
-              "USA"
-            ],
-            "libelle": "Iran – United States",
-            "n_evenements": 211,
-            "mentions": 862,
-            "part": 0.0392,
-            "goldstein_moyen": -6.65
-          }
-        ]
-      },
-      {
-        "id": "russie_ukraine",
-        "nom_affiche": "Russie - Ukraine",
-        "mots_cles": [
-          "Russie",
-          "Russia",
-          "Ukraine",
-          "Kremlin",
-          "Zelensky"
-        ],
-        "disponible": true,
-        "motif": "",
-        "intensite_ratio": 1.0184778550219582,
-        "volume_24h": 7901.0,
-        "trajectoire": "en accélération",
-        "anciennete_jours": 3,
-        "n_evenements_bilateraux": 670,
-        "motif_events": "",
-        "exemple_evenement": {
-          "code_evenement": "190",
-          "goldstein": -10.0,
-          "tonalite": -5.83941605839416,
-          "source_url": "https://www.democracynow.org/2026/9/11/headlines/russia_bombs_shopping_malls_and_gas_stations_in_ukraine_after_kyiv_orders_strikes_deep_inside_russia"
-        },
-        "developpements_recents": [],
-        "n_nouveaux_developpements": 0,
-        "nouveaux_developpements": [],
-        "etat_actuel": "Couverture à 1.0× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 3 jour(s) consécutif(s). Aucun article récent trouvé sur ce dossier.",
-        "chaine_de_transmission": {
-          "horizon_seances": 5,
-          "canal": "petrole",
-          "maillons": {
-            "1_evenement": {
-              "libelle": "Intensité de couverture du thème le plus actif",
-              "disponible": true,
-              "motif": "",
-              "valeur": 1.0184778550219582,
-              "unite_variation": "× la normale",
-              "variation": null
-            },
-            "2_petrole": {
-              "libelle": "Pétrole brut WTI (DCOILWTICO)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 97.26,
-              "valeur_precedente": 92.69,
-              "variation": 4.930413205308026,
-              "unite_variation": "%",
-              "date": "2026-09-11"
-            },
-            "3_inflation_anticipee": {
-              "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 2.4,
-              "valeur_precedente": 2.35,
-              "variation": 4.999999999999982,
-              "unite_variation": "points de base",
-              "date": "2026-09-11"
-            },
-            "4_taux_reels": {
-              "libelle": "Taux réel 10 ans (DFII10)",
-              "disponible": true,
-              "motif": "",
-              "valeur": 2.46,
-              "valeur_precedente": 2.43,
-              "variation": 2.9999999999999805,
-              "unite_variation": "points de base",
-              "date": "2026-09-11"
-            },
-            "5_or": {
-              "libelle": "Or au comptant",
-              "disponible": true,
-              "motif": "",
-              "valeur": 4364.5,
-              "valeur_precedente": 4366.2998046875,
-              "variation": -0.041220364336136406,
-              "unite_variation": "%",
-              "date": "2026-09-10"
-            }
-          },
-          "n_maillons_mesures": 4,
-          "n_maillons_conformes": 2,
-          "chaine_rompue": true,
-          "commentaire": "Chaîne rompue : 2/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+3.00 points de base), Or au comptant (-0.04 %)."
-        },
-        "deja_dans_les_prix": {
-          "valeur": null,
-          "disponible": false,
-          "motif": "z-score de juste valeur indisponible ou non fiable",
-          "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
-        },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 1.0× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (2/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
-        "type": "conflit",
-        "canal": "petrole",
-        "epingle": false,
-        "pertinence": {
-          "disponible": true,
-          "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 10,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {
-            "petrole": 1.28,
-            "taux_reels": 1.16,
-            "vix": 1.45,
-            "or": 1.67
-          },
-          "score": 1.36,
-          "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 10 jours de pic de couverture voient les actifs bouger 1,36 fois plus que les autres jours (le pétrole 1,28, les taux réels 1,16, le VIX 1,45, l'or 1,67), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
-          "motif": ""
-        },
-        "classement": {
-          "statut": "veille",
-          "rang": 3,
-          "donnees_suffisantes": true,
-          "historique": {
-            "jours_observes": 0,
-            "changement": "nouveau",
-            "statut_precedent": null,
-            "lecture_precedente": null,
-            "date_precedente": null,
-            "jours_consecutifs_statut": 1,
-            "inerte_depuis_jours": 0,
-            "score_moyen_30j": null,
-            "tendance_score": ""
-          }
-        },
-        "sujets_rattaches": [
-          {
-            "paire": [
-              "RUS",
-              "UKR"
-            ],
-            "libelle": "Russia – Ukraine",
-            "n_evenements": 335,
-            "mentions": 1405,
-            "part": 0.0622,
-            "goldstein_moyen": -7.44
-          }
-        ]
-      },
-      {
-        "id": "moyen_orient",
-        "nom_affiche": "Moyen-Orient (région)",
-        "mots_cles": [
-          "Moyen-Orient",
-          "Middle East",
-          "mer Rouge",
-          "Red Sea",
-          "Houthi",
-          "Hezbollah",
-          "Golfe persique",
-          "Persian Gulf",
-          "oil facility attack"
-        ],
         "disponible": false,
         "motif": "GDELT n'a pas répondu.",
         "intensite_ratio": null,
         "volume_24h": null,
         "trajectoire": "",
         "anciennete_jours": null,
-        "n_evenements_bilateraux": 2098,
+        "n_evenements_bilateraux": 382,
         "motif_events": "",
         "exemple_evenement": {
-          "code_evenement": "010",
-          "goldstein": 0.0,
-          "tonalite": -4.53563714902808,
-          "source_url": "https://www.middleeastmonitor.com/20260911-israel-blows-up-school-destroys-tunnels-in-southern-lebanon-despite-framework-agreement/"
+          "code_evenement": "051",
+          "goldstein": 3.4,
+          "tonalite": -5.01618122977346,
+          "source_url": "https://www.wlky.com/article/yemens-iranian-backed-houthis-seize-an-island-in-a-key-strait-opening-a-new-front-in-the-iran-war/73687393"
         },
-        "developpements_recents": [],
-        "n_nouveaux_developpements": 0,
-        "nouveaux_developpements": [],
-        "etat_actuel": "Aucune mesure disponible pour Moyen-Orient (région) : GDELT n'a pas répondu..",
+        "developpements_recents": [
+          {
+            "id": "050260fc390eb7f4",
+            "titre": "The dark truth about 9 / 11 conspiracy theories",
+            "url": "https://www.spiked-online.com/2026/09/11/the-dark-truth-about-9-11-conspiracy-theories/",
+            "source": "GDELT/spiked-online.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "01769f9d07987115",
+            "titre": "Lamola calls for stronger BRICS amid Israel , US - Iran war divisions",
+            "url": "https://www.jacarandafm.com/news/news/lamola-stronger-brics-israel-us-iran-war-divisions/",
+            "source": "GDELT/jacarandafm.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "014e2bb5b761f5c6",
+            "titre": "İsrail ordusu , eski Kassam Tugayları komutanına yönelik suikast görüntülerini paylaştı",
+            "url": "https://www.bursahakimiyet.com.tr/dunya/israil-ordusu-eski-kassam-tugaylari-komutanina-yonelik-suikast-goruntulerini-paylasti-1707989",
+            "source": "GDELT/bursahakimiyet.com.tr",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "f13e630f3c1549e8",
+            "titre": "Houthi advance in Yemen raises concerns about key shipping choke point",
+            "url": "https://www.baltimoresun.com/2026/09/11/iran-bab-el-mandeb-strait/",
+            "source": "GDELT/baltimoresun.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "1e5a051373479881",
+            "titre": "إعلان إماراتي - ألماني مشترك يؤكد ضرورة منع",
+            "url": "https://www.alanba.com.kw/1375906",
+            "source": "GDELT/alanba.com.kw",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          }
+        ],
+        "n_nouveaux_developpements": 5,
+        "nouveaux_developpements": [
+          {
+            "id": "050260fc390eb7f4",
+            "titre": "The dark truth about 9 / 11 conspiracy theories",
+            "url": "https://www.spiked-online.com/2026/09/11/the-dark-truth-about-9-11-conspiracy-theories/",
+            "source": "GDELT/spiked-online.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "01769f9d07987115",
+            "titre": "Lamola calls for stronger BRICS amid Israel , US - Iran war divisions",
+            "url": "https://www.jacarandafm.com/news/news/lamola-stronger-brics-israel-us-iran-war-divisions/",
+            "source": "GDELT/jacarandafm.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "014e2bb5b761f5c6",
+            "titre": "İsrail ordusu , eski Kassam Tugayları komutanına yönelik suikast görüntülerini paylaştı",
+            "url": "https://www.bursahakimiyet.com.tr/dunya/israil-ordusu-eski-kassam-tugaylari-komutanina-yonelik-suikast-goruntulerini-paylasti-1707989",
+            "source": "GDELT/bursahakimiyet.com.tr",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "f13e630f3c1549e8",
+            "titre": "Houthi advance in Yemen raises concerns about key shipping choke point",
+            "url": "https://www.baltimoresun.com/2026/09/11/iran-bab-el-mandeb-strait/",
+            "source": "GDELT/baltimoresun.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "1e5a051373479881",
+            "titre": "إعلان إماراتي - ألماني مشترك يؤكد ضرورة منع",
+            "url": "https://www.alanba.com.kw/1375906",
+            "source": "GDELT/alanba.com.kw",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          }
+        ],
+        "etat_actuel": "Aucune mesure disponible pour Israël - Gaza : GDELT n'a pas répondu..",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "canal": "petrole",
@@ -909,6 +548,514 @@
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
         "invalidation": "Sans mesure de couverture, aucune invalidation ne peut être formulée.",
+        "type": "conflit",
+        "canal": "petrole",
+        "epingle": false,
+        "pertinence": {
+          "disponible": false,
+          "suffisant": false,
+          "n_observations": 0,
+          "n_pics": 0,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {},
+          "score": null,
+          "lecture": "",
+          "commentaire": "",
+          "motif": "aucune série de couverture sur trente jours"
+        },
+        "classement": {
+          "statut": "candidat",
+          "rang": 4,
+          "donnees_suffisantes": false,
+          "historique": {
+            "jours_observes": 0,
+            "changement": "nouveau",
+            "statut_precedent": null,
+            "lecture_precedente": null,
+            "date_precedente": null,
+            "jours_consecutifs_statut": 1,
+            "inerte_depuis_jours": 0,
+            "score_moyen_30j": null,
+            "tendance_score": ""
+          }
+        },
+        "sujets_rattaches": [
+          {
+            "paire": [
+              "ISR",
+              "PSE"
+            ],
+            "libelle": "Israel – Palestinian",
+            "n_evenements": 217,
+            "mentions": 756,
+            "part": 0.0402,
+            "goldstein_moyen": -7.3
+          }
+        ],
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
+      },
+      {
+        "id": "iran_etats_unis",
+        "nom_affiche": "Iran - États-Unis",
+        "mots_cles": [
+          "Iran",
+          "détroit d'Ormuz",
+          "strait of Hormuz",
+          "nucléaire iranien",
+          "Iran nuclear"
+        ],
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 1.2628193635141192,
+        "volume_24h": 5829.0,
+        "trajectoire": "en accélération",
+        "anciennete_jours": 3,
+        "n_evenements_bilateraux": 467,
+        "motif_events": "",
+        "exemple_evenement": {
+          "code_evenement": "013",
+          "goldstein": 0.4,
+          "tonalite": -2.94416243654823,
+          "source_url": "https://www.al-monitor.com/originals/2026/09/analysis-saudi-tensions-iran-backed-houthis-escalate-mediator-pakistan-faces"
+        },
+        "developpements_recents": [
+          {
+            "id": "56decb9dcc9a4053",
+            "titre": "Yunanistandan Türkiye itirafı ! Türklerin gücü göz ardı edilemez",
+            "url": "https://www.yeniakit.com.tr/haber/yunanistandan-turkiye-itirafi-turklerin-gucu-goz-ardi-edilemez-2022290.html",
+            "source": "GDELT/yeniakit.com.tr",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "7df938d7419634ba",
+            "titre": "Десять миллионов за главарей « Аль - Каиды »",
+            "url": "https://haqqin.az/newsarchive/392916",
+            "source": "GDELT/haqqin.az",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "df8345e6eed80990",
+            "titre": "Geopolitical shifts present opportunity for India to strengthen global economic role : India - Brazil Chamber of Commerce fellow",
+            "url": "http://www.venezuelastar.com/news/279300817/geopolitical-shifts-present-opportunity-for-india-to-strengthen-global-economic-role-india-brazil-chamber-of-commerce-fellow",
+            "source": "GDELT/venezuelastar.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "6ebf5d659babcebb",
+            "titre": "Terrorists Used Popular AI Chatbot To Try To Build Ballistic Missiles",
+            "url": "https://wbex.iheart.com/content/2026-09-11-terrorists-used-popular-ai-chatbot-to-try-to-build-ballistic-missiles/",
+            "source": "GDELT/wbex.iheart.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "01769f9d07987115",
+            "titre": "Lamola calls for stronger BRICS amid Israel , US - Iran war divisions",
+            "url": "https://www.jacarandafm.com/news/news/lamola-stronger-brics-israel-us-iran-war-divisions/",
+            "source": "GDELT/jacarandafm.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          }
+        ],
+        "n_nouveaux_developpements": 5,
+        "nouveaux_developpements": [
+          {
+            "id": "56decb9dcc9a4053",
+            "titre": "Yunanistandan Türkiye itirafı ! Türklerin gücü göz ardı edilemez",
+            "url": "https://www.yeniakit.com.tr/haber/yunanistandan-turkiye-itirafi-turklerin-gucu-goz-ardi-edilemez-2022290.html",
+            "source": "GDELT/yeniakit.com.tr",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "7df938d7419634ba",
+            "titre": "Десять миллионов за главарей « Аль - Каиды »",
+            "url": "https://haqqin.az/newsarchive/392916",
+            "source": "GDELT/haqqin.az",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "df8345e6eed80990",
+            "titre": "Geopolitical shifts present opportunity for India to strengthen global economic role : India - Brazil Chamber of Commerce fellow",
+            "url": "http://www.venezuelastar.com/news/279300817/geopolitical-shifts-present-opportunity-for-india-to-strengthen-global-economic-role-india-brazil-chamber-of-commerce-fellow",
+            "source": "GDELT/venezuelastar.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "6ebf5d659babcebb",
+            "titre": "Terrorists Used Popular AI Chatbot To Try To Build Ballistic Missiles",
+            "url": "https://wbex.iheart.com/content/2026-09-11-terrorists-used-popular-ai-chatbot-to-try-to-build-ballistic-missiles/",
+            "source": "GDELT/wbex.iheart.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          },
+          {
+            "id": "01769f9d07987115",
+            "titre": "Lamola calls for stronger BRICS amid Israel , US - Iran war divisions",
+            "url": "https://www.jacarandafm.com/news/news/lamola-stronger-brics-israel-us-iran-war-divisions/",
+            "source": "GDELT/jacarandafm.com",
+            "horodatage_utc": "2026-09-11T19:00:00+00:00"
+          }
+        ],
+        "etat_actuel": "Couverture à 1.3× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 3 jour(s) consécutif(s). 5 développement(s) nouveau(x) depuis la dernière vérification, dont « Yunanistandan Türkiye itirafı ! Türklerin gücü göz ardı edilemez » (GDELT/yeniakit.com.tr) et 4 autre(s).",
+        "chaine_de_transmission": {
+          "horizon_seances": 5,
+          "canal": "petrole",
+          "maillons": {
+            "1_evenement": {
+              "libelle": "Intensité de couverture du thème le plus actif",
+              "disponible": true,
+              "motif": "",
+              "valeur": 1.2628193635141192,
+              "unite_variation": "× la normale",
+              "variation": null
+            },
+            "2_petrole": {
+              "libelle": "Pétrole brut WTI (DCOILWTICO)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 97.26,
+              "valeur_precedente": 92.69,
+              "variation": 4.930413205308026,
+              "unite_variation": "%",
+              "date": "2026-09-11"
+            },
+            "3_inflation_anticipee": {
+              "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 2.4,
+              "valeur_precedente": 2.35,
+              "variation": 4.999999999999982,
+              "unite_variation": "points de base",
+              "date": "2026-09-11"
+            },
+            "4_taux_reels": {
+              "libelle": "Taux réel 10 ans (DFII10)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 2.46,
+              "valeur_precedente": 2.43,
+              "variation": 2.9999999999999805,
+              "unite_variation": "points de base",
+              "date": "2026-09-11"
+            },
+            "5_or": {
+              "libelle": "Or au comptant",
+              "disponible": true,
+              "motif": "",
+              "valeur": 4364.5,
+              "valeur_precedente": 4366.2998046875,
+              "variation": -0.041220364336136406,
+              "unite_variation": "%",
+              "date": "2026-09-10"
+            }
+          },
+          "n_maillons_mesures": 4,
+          "n_maillons_conformes": 2,
+          "chaine_rompue": true,
+          "commentaire": "Chaîne rompue : 2/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+3.00 points de base), Or au comptant (-0.04 %)."
+        },
+        "deja_dans_les_prix": {
+          "valeur": null,
+          "disponible": false,
+          "motif": "z-score de juste valeur indisponible ou non fiable",
+          "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
+        },
+        "invalidation": "Cette lecture s'appuie sur une couverture de 1.3× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (2/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
+        "type": "conflit",
+        "canal": "petrole",
+        "epingle": false,
+        "pertinence": {
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 11,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {
+            "petrole": 1.3,
+            "taux_reels": 1.18,
+            "vix": 1.3,
+            "or": 1.51
+          },
+          "score": 1.3,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 11 jours de pic de couverture voient les actifs bouger 1,3 fois plus que les autres jours (le pétrole 1,30, les taux réels 1,18, le VIX 1,30, l'or 1,51), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
+        },
+        "classement": {
+          "statut": "veille",
+          "rang": 1,
+          "donnees_suffisantes": true,
+          "historique": {
+            "jours_observes": 0,
+            "changement": "nouveau",
+            "statut_precedent": null,
+            "lecture_precedente": null,
+            "date_precedente": null,
+            "jours_consecutifs_statut": 1,
+            "inerte_depuis_jours": 0,
+            "score_moyen_30j": null,
+            "tendance_score": ""
+          }
+        },
+        "sujets_rattaches": [
+          {
+            "paire": [
+              "IRN",
+              "USA"
+            ],
+            "libelle": "Iran – United States",
+            "n_evenements": 210,
+            "mentions": 850,
+            "part": 0.0389,
+            "goldstein_moyen": -6.57
+          }
+        ],
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
+      },
+      {
+        "id": "russie_ukraine",
+        "nom_affiche": "Russie - Ukraine",
+        "mots_cles": [
+          "Russie",
+          "Russia",
+          "Ukraine",
+          "Kremlin",
+          "Zelensky"
+        ],
+        "disponible": false,
+        "motif": "GDELT n'a pas répondu.",
+        "intensite_ratio": null,
+        "volume_24h": null,
+        "trajectoire": "",
+        "anciennete_jours": null,
+        "n_evenements_bilateraux": 654,
+        "motif_events": "",
+        "exemple_evenement": {
+          "code_evenement": "138",
+          "goldstein": -7.0,
+          "tonalite": -5.59610705596107,
+          "source_url": "https://www.business-standard.com/opinion/columns/why-ai-should-worry-us-more-than-nukes-126091101502_1.html"
+        },
+        "developpements_recents": [],
+        "n_nouveaux_developpements": 0,
+        "nouveaux_developpements": [],
+        "etat_actuel": "Aucune mesure disponible pour Russie - Ukraine : GDELT n'a pas répondu..",
+        "chaine_de_transmission": {
+          "horizon_seances": 5,
+          "canal": "petrole",
+          "maillons": {
+            "1_evenement": {
+              "libelle": "Intensité de couverture du thème le plus actif",
+              "disponible": false,
+              "motif": "aucun thème mesurable",
+              "valeur": null,
+              "unite_variation": "× la normale",
+              "variation": null
+            },
+            "2_petrole": {
+              "libelle": "Pétrole brut WTI (DCOILWTICO)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 97.26,
+              "valeur_precedente": 92.69,
+              "variation": 4.930413205308026,
+              "unite_variation": "%",
+              "date": "2026-09-11"
+            },
+            "3_inflation_anticipee": {
+              "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 2.4,
+              "valeur_precedente": 2.35,
+              "variation": 4.999999999999982,
+              "unite_variation": "points de base",
+              "date": "2026-09-11"
+            },
+            "4_taux_reels": {
+              "libelle": "Taux réel 10 ans (DFII10)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 2.46,
+              "valeur_precedente": 2.43,
+              "variation": 2.9999999999999805,
+              "unite_variation": "points de base",
+              "date": "2026-09-11"
+            },
+            "5_or": {
+              "libelle": "Or au comptant",
+              "disponible": true,
+              "motif": "",
+              "valeur": 4364.5,
+              "valeur_precedente": 4366.2998046875,
+              "variation": -0.041220364336136406,
+              "unite_variation": "%",
+              "date": "2026-09-10"
+            }
+          },
+          "n_maillons_mesures": 4,
+          "n_maillons_conformes": 2,
+          "chaine_rompue": true,
+          "commentaire": "Chaîne rompue : 2/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+3.00 points de base), Or au comptant (-0.04 %)."
+        },
+        "deja_dans_les_prix": {
+          "valeur": null,
+          "disponible": false,
+          "motif": "z-score de juste valeur indisponible ou non fiable",
+          "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
+        },
+        "invalidation": "Sans mesure de couverture, aucune invalidation ne peut être formulée.",
+        "type": "conflit",
+        "canal": "petrole",
+        "epingle": false,
+        "pertinence": {
+          "disponible": false,
+          "suffisant": false,
+          "n_observations": 0,
+          "n_pics": 0,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {},
+          "score": null,
+          "lecture": "",
+          "commentaire": "",
+          "motif": "aucune série de couverture sur trente jours"
+        },
+        "classement": {
+          "statut": "candidat",
+          "rang": 5,
+          "donnees_suffisantes": false,
+          "historique": {
+            "jours_observes": 0,
+            "changement": "nouveau",
+            "statut_precedent": null,
+            "lecture_precedente": null,
+            "date_precedente": null,
+            "jours_consecutifs_statut": 1,
+            "inerte_depuis_jours": 0,
+            "score_moyen_30j": null,
+            "tendance_score": ""
+          }
+        },
+        "sujets_rattaches": [
+          {
+            "paire": [
+              "RUS",
+              "UKR"
+            ],
+            "libelle": "Russia – Ukraine",
+            "n_evenements": 318,
+            "mentions": 1358,
+            "part": 0.0589,
+            "goldstein_moyen": -7.46
+          }
+        ],
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
+      },
+      {
+        "id": "moyen_orient",
+        "nom_affiche": "Moyen-Orient (région)",
+        "mots_cles": [
+          "Moyen-Orient",
+          "Middle East",
+          "mer Rouge",
+          "Red Sea",
+          "Houthi",
+          "Hezbollah",
+          "Golfe persique",
+          "Persian Gulf",
+          "oil facility attack"
+        ],
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 1.6881356458550068,
+        "volume_24h": 3749.0,
+        "trajectoire": "",
+        "anciennete_jours": null,
+        "n_evenements_bilateraux": 2097,
+        "motif_events": "",
+        "exemple_evenement": {
+          "code_evenement": "010",
+          "goldstein": 0.0,
+          "tonalite": -2.26986128625473,
+          "source_url": "https://www.al-monitor.com/originals/2026/09/iranian-arms-and-advice-helped-yemens-houthis-seize-key-red-sea-city-sources-say"
+        },
+        "developpements_recents": [],
+        "n_nouveaux_developpements": 0,
+        "nouveaux_developpements": [],
+        "etat_actuel": "Couverture à 1.7× sa moyenne sur 30 jours, trajectoire non qualifiée. Aucun article récent trouvé sur ce dossier.",
+        "chaine_de_transmission": {
+          "horizon_seances": 5,
+          "canal": "petrole",
+          "maillons": {
+            "1_evenement": {
+              "libelle": "Intensité de couverture du thème le plus actif",
+              "disponible": true,
+              "motif": "",
+              "valeur": 1.6881356458550068,
+              "unite_variation": "× la normale",
+              "variation": null
+            },
+            "2_petrole": {
+              "libelle": "Pétrole brut WTI (DCOILWTICO)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 97.26,
+              "valeur_precedente": 92.69,
+              "variation": 4.930413205308026,
+              "unite_variation": "%",
+              "date": "2026-09-11"
+            },
+            "3_inflation_anticipee": {
+              "libelle": "Anticipations d'inflation 10 ans (T10YIE)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 2.4,
+              "valeur_precedente": 2.35,
+              "variation": 4.999999999999982,
+              "unite_variation": "points de base",
+              "date": "2026-09-11"
+            },
+            "4_taux_reels": {
+              "libelle": "Taux réel 10 ans (DFII10)",
+              "disponible": true,
+              "motif": "",
+              "valeur": 2.46,
+              "valeur_precedente": 2.43,
+              "variation": 2.9999999999999805,
+              "unite_variation": "points de base",
+              "date": "2026-09-11"
+            },
+            "5_or": {
+              "libelle": "Or au comptant",
+              "disponible": true,
+              "motif": "",
+              "valeur": 4364.5,
+              "valeur_precedente": 4366.2998046875,
+              "variation": -0.041220364336136406,
+              "unite_variation": "%",
+              "date": "2026-09-10"
+            }
+          },
+          "n_maillons_mesures": 4,
+          "n_maillons_conformes": 2,
+          "chaine_rompue": true,
+          "commentaire": "Chaîne rompue : 2/4 maillon(s) conformes. Ne suivent pas la direction attendue : Taux réel 10 ans (DFII10) (+3.00 points de base), Or au comptant (-0.04 %)."
+        },
+        "deja_dans_les_prix": {
+          "valeur": null,
+          "disponible": false,
+          "motif": "z-score de juste valeur indisponible ou non fiable",
+          "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
+        },
+        "invalidation": "Cette lecture s'appuie sur une couverture de 1.7× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (2/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
         "type": "regional",
         "canal": "petrole",
         "epingle": false,
@@ -927,7 +1074,7 @@
         },
         "classement": {
           "statut": "candidat",
-          "rang": 7,
+          "rang": 3,
           "donnees_suffisantes": false,
           "historique": {
             "jours_observes": 0,
@@ -941,7 +1088,22 @@
             "tendance_score": ""
           }
         },
-        "sujets_rattaches": []
+        "sujets_rattaches": [
+          {
+            "paire": [
+              "SAU",
+              "YEM"
+            ],
+            "libelle": "Saudi Arabia – Yemen",
+            "n_evenements": 103,
+            "mentions": 337,
+            "part": 0.0191,
+            "goldstein_moyen": -7.43
+          }
+        ],
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
       },
       {
         "id": "politique_monetaire",
@@ -957,100 +1119,28 @@
           "BCE taux",
           "Lagarde"
         ],
-        "disponible": true,
-        "motif": "",
-        "intensite_ratio": 1.1239009717723276,
-        "volume_24h": 670.0,
-        "trajectoire": "en accélération",
-        "anciennete_jours": 3,
+        "disponible": false,
+        "motif": "pas encore mesuré : son tour vient dans la rotation des dossiers",
+        "intensite_ratio": null,
+        "volume_24h": null,
+        "trajectoire": "",
+        "anciennete_jours": null,
         "n_evenements_bilateraux": null,
         "motif_events": "dossier thématique : pas d'activité par acteur",
         "exemple_evenement": null,
-        "developpements_recents": [
-          {
-            "id": "c0292bbf74ea0906",
-            "titre": "Pimco : inflazione united states superiore alle attese - PAROLA AL MERCATO - 2 -",
-            "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/finanza/dettaglio/pimco-inflazione-usa-superiore-alle-attese-parola-al-mercato-2-nRC_11092026_1835_581187199.html",
-            "source": "GDELT/borsaitaliana.it",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          },
-          {
-            "id": "79a8ceda7113ede5",
-            "titre": "Looking back at the economic aftershocks of 9 / 11",
-            "url": "https://www.bostonherald.com/2026/09/11/looking-back-at-the-economic-aftershocks-of-9-11/",
-            "source": "GDELT/bostonherald.com",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          },
-          {
-            "id": "0b8dddf1530f04dd",
-            "titre": "U . S . Wholesale Prices Up 5 . 4 % From A Year Ago As Diesel Surges 24 %",
-            "url": "https://www.wbap.com/2026/09/11/u-s-wholesale-prices-up-5-4-from-a-year-ago-as-diesel-surges-24/",
-            "source": "GDELT/wbap.com",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          },
-          {
-            "id": "fb104d43c9b1f0e6",
-            "titre": "Women hold more U . S . jobs than men but still earn far less starting the day they graduate",
-            "url": "https://fortune.com/2026/09/11/women-hold-more-us-jobs-men-earn-less-salary/",
-            "source": "GDELT/fortune.com",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          },
-          {
-            "id": "79a8ceda7113ede5",
-            "titre": "Looking back at the economic aftershocks of 9 / 11",
-            "url": "https://www.ocregister.com/2026/09/11/looking-back-at-the-economic-aftershocks-of-9-11/",
-            "source": "GDELT/ocregister.com",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          }
-        ],
-        "n_nouveaux_developpements": 5,
-        "nouveaux_developpements": [
-          {
-            "id": "c0292bbf74ea0906",
-            "titre": "Pimco : inflazione united states superiore alle attese - PAROLA AL MERCATO - 2 -",
-            "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/finanza/dettaglio/pimco-inflazione-usa-superiore-alle-attese-parola-al-mercato-2-nRC_11092026_1835_581187199.html",
-            "source": "GDELT/borsaitaliana.it",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          },
-          {
-            "id": "79a8ceda7113ede5",
-            "titre": "Looking back at the economic aftershocks of 9 / 11",
-            "url": "https://www.bostonherald.com/2026/09/11/looking-back-at-the-economic-aftershocks-of-9-11/",
-            "source": "GDELT/bostonherald.com",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          },
-          {
-            "id": "0b8dddf1530f04dd",
-            "titre": "U . S . Wholesale Prices Up 5 . 4 % From A Year Ago As Diesel Surges 24 %",
-            "url": "https://www.wbap.com/2026/09/11/u-s-wholesale-prices-up-5-4-from-a-year-ago-as-diesel-surges-24/",
-            "source": "GDELT/wbap.com",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          },
-          {
-            "id": "fb104d43c9b1f0e6",
-            "titre": "Women hold more U . S . jobs than men but still earn far less starting the day they graduate",
-            "url": "https://fortune.com/2026/09/11/women-hold-more-us-jobs-men-earn-less-salary/",
-            "source": "GDELT/fortune.com",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          },
-          {
-            "id": "79a8ceda7113ede5",
-            "titre": "Looking back at the economic aftershocks of 9 / 11",
-            "url": "https://www.ocregister.com/2026/09/11/looking-back-at-the-economic-aftershocks-of-9-11/",
-            "source": "GDELT/ocregister.com",
-            "horodatage_utc": "2026-09-11T18:00:00+00:00"
-          }
-        ],
-        "etat_actuel": "Couverture à 1.1× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 3 jour(s) consécutif(s). 5 développement(s) nouveau(x) depuis la dernière vérification, dont « Pimco : inflazione united states superiore alle attese - PAROLA AL MERCATO - 2 - » (GDELT/borsaitaliana.it) et 4 autre(s).",
+        "developpements_recents": [],
+        "n_nouveaux_developpements": 0,
+        "nouveaux_developpements": [],
+        "etat_actuel": "Aucune mesure disponible pour Politique monétaire (Fed, BCE) : pas encore mesuré : son tour vient dans la rotation des dossiers.",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "canal": "taux",
           "maillons": {
             "1_evenement": {
               "libelle": "Intensité de couverture du thème le plus actif",
-              "disponible": true,
-              "motif": "",
-              "valeur": 1.1239009717723276,
+              "disponible": false,
+              "motif": "aucun thème mesurable",
+              "valeur": null,
               "unite_variation": "× la normale",
               "variation": null
             },
@@ -1086,33 +1176,27 @@
           "motif": "z-score de juste valeur indisponible ou non fiable",
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 1.1× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est cohérente sur 2/2 maillon(s) mesuré(s) : un maillon qui cesse de suivre (pétrole ou taux réels, notamment) romprait cette cohérence.",
+        "invalidation": "Sans mesure de couverture, aucune invalidation ne peut être formulée.",
         "type": "thematique",
         "canal": "taux",
         "epingle": true,
         "pertinence": {
-          "disponible": true,
-          "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 9,
+          "disponible": false,
+          "suffisant": false,
+          "n_observations": 0,
+          "n_pics": 0,
           "min_observations": 20,
           "min_pics": 3,
-          "ratios": {
-            "petrole": 0.8,
-            "taux_reels": 1.26,
-            "vix": 1.86,
-            "or": 1.09
-          },
-          "score": 1.18,
-          "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,18 fois plus que les autres jours (le pétrole 0,80, les taux réels 1,26, le VIX 1,86, l'or 1,09), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
-          "motif": ""
+          "ratios": {},
+          "score": null,
+          "lecture": "",
+          "commentaire": "",
+          "motif": "aucune série de couverture sur trente jours"
         },
         "classement": {
           "statut": "epingle",
-          "rang": 4,
-          "donnees_suffisantes": true,
+          "rang": 6,
+          "donnees_suffisantes": false,
           "historique": {
             "jours_observes": 0,
             "changement": "nouveau",
@@ -1125,7 +1209,10 @@
             "tendance_score": ""
           }
         },
-        "sujets_rattaches": []
+        "sujets_rattaches": [],
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
       },
       {
         "id": "semiconducteurs_ia",
@@ -1139,28 +1226,28 @@
           "AI regulation",
           "AI Act"
         ],
-        "disponible": true,
-        "motif": "",
-        "intensite_ratio": 1.544607190412783,
-        "volume_24h": 40.0,
-        "trajectoire": "en accélération",
-        "anciennete_jours": 3,
+        "disponible": false,
+        "motif": "pas encore mesuré : son tour vient dans la rotation des dossiers",
+        "intensite_ratio": null,
+        "volume_24h": null,
+        "trajectoire": "",
+        "anciennete_jours": null,
         "n_evenements_bilateraux": null,
         "motif_events": "dossier thématique : pas d'activité par acteur",
         "exemple_evenement": null,
         "developpements_recents": [],
         "n_nouveaux_developpements": 0,
         "nouveaux_developpements": [],
-        "etat_actuel": "Couverture à 1.5× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 3 jour(s) consécutif(s). Aucun article récent trouvé sur ce dossier.",
+        "etat_actuel": "Aucune mesure disponible pour Semi-conducteurs et IA (contrôles à l'export) : pas encore mesuré : son tour vient dans la rotation des dossiers.",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "canal": "risque",
           "maillons": {
             "1_evenement": {
               "libelle": "Intensité de couverture du thème le plus actif",
-              "disponible": true,
-              "motif": "",
-              "valeur": 1.544607190412783,
+              "disponible": false,
+              "motif": "aucun thème mesurable",
+              "valeur": null,
               "unite_variation": "× la normale",
               "variation": null
             },
@@ -1196,33 +1283,27 @@
           "motif": "z-score de juste valeur indisponible ou non fiable",
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 1.5× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (0/1 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
+        "invalidation": "Sans mesure de couverture, aucune invalidation ne peut être formulée.",
         "type": "thematique",
         "canal": "risque",
         "epingle": true,
         "pertinence": {
-          "disponible": true,
-          "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 11,
+          "disponible": false,
+          "suffisant": false,
+          "n_observations": 0,
+          "n_pics": 0,
           "min_observations": 20,
           "min_pics": 3,
-          "ratios": {
-            "petrole": 1.24,
-            "taux_reels": 2.39,
-            "vix": 1.39,
-            "or": 1.4
-          },
-          "score": 1.4,
-          "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 11 jours de pic de couverture voient les actifs bouger 1,4 fois plus que les autres jours (le pétrole 1,24, les taux réels 2,39, le VIX 1,39, l'or 1,40), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
-          "motif": ""
+          "ratios": {},
+          "score": null,
+          "lecture": "",
+          "commentaire": "",
+          "motif": "aucune série de couverture sur trente jours"
         },
         "classement": {
           "statut": "epingle",
-          "rang": 2,
-          "donnees_suffisantes": true,
+          "rang": 7,
+          "donnees_suffisantes": false,
           "historique": {
             "jours_observes": 0,
             "changement": "nouveau",
@@ -1235,7 +1316,10 @@
             "tendance_score": ""
           }
         },
-        "sujets_rattaches": []
+        "sujets_rattaches": [],
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
       },
       {
         "id": "commerce_international",
@@ -1250,7 +1334,7 @@
           "WTO dispute"
         ],
         "disponible": false,
-        "motif": "GDELT n'a pas répondu.",
+        "motif": "pas encore mesuré : son tour vient dans la rotation des dossiers",
         "intensite_ratio": null,
         "volume_24h": null,
         "trajectoire": "",
@@ -1258,82 +1342,10 @@
         "n_evenements_bilateraux": null,
         "motif_events": "dossier thématique : pas d'activité par acteur",
         "exemple_evenement": null,
-        "developpements_recents": [
-          {
-            "id": "53b8dd61b5a249b9",
-            "titre": "Trade war escalation could threaten Canada credit rating",
-            "url": "https://financialpost.com/news/trade-war-escalation-could-threaten-canada-credit-rating",
-            "source": "GDELT/financialpost.com",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          },
-          {
-            "id": "1f783c83d281fb48",
-            "titre": "Jean Charest : Here why Canada will one day thank Donald Trump",
-            "url": "https://financialpost.com/news/economy/jean-charest-canada-one-day-thank-donald-trump",
-            "source": "GDELT/financialpost.com",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          },
-          {
-            "id": "75137d8b2f166a15",
-            "titre": "Internaționala incoerenței",
-            "url": "https://www.viata-libera.ro/editorial/264007-internationala-incoerentei",
-            "source": "GDELT/viata-libera.ro",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          },
-          {
-            "id": "14744bb42c1c6432",
-            "titre": "Ga . economist reacts to Trump $5K promise if GOP wins midterms",
-            "url": "https://www.walb.com/2026/09/11/ga-economist-reacts-trumps-5k-promise-if-gop-wins-midterms/",
-            "source": "GDELT/walb.com",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          },
-          {
-            "id": "582c72a666013e04",
-            "titre": "Cheap imports , smuggling threaten Nigerian jobs , workers war",
-            "url": "https://punchng.com/cheap-imports-smuggling-threaten-nigerian-jobs-textile-workers-warn/",
-            "source": "GDELT/punchng.com",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          }
-        ],
-        "n_nouveaux_developpements": 5,
-        "nouveaux_developpements": [
-          {
-            "id": "53b8dd61b5a249b9",
-            "titre": "Trade war escalation could threaten Canada credit rating",
-            "url": "https://financialpost.com/news/trade-war-escalation-could-threaten-canada-credit-rating",
-            "source": "GDELT/financialpost.com",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          },
-          {
-            "id": "1f783c83d281fb48",
-            "titre": "Jean Charest : Here why Canada will one day thank Donald Trump",
-            "url": "https://financialpost.com/news/economy/jean-charest-canada-one-day-thank-donald-trump",
-            "source": "GDELT/financialpost.com",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          },
-          {
-            "id": "75137d8b2f166a15",
-            "titre": "Internaționala incoerenței",
-            "url": "https://www.viata-libera.ro/editorial/264007-internationala-incoerentei",
-            "source": "GDELT/viata-libera.ro",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          },
-          {
-            "id": "14744bb42c1c6432",
-            "titre": "Ga . economist reacts to Trump $5K promise if GOP wins midterms",
-            "url": "https://www.walb.com/2026/09/11/ga-economist-reacts-trumps-5k-promise-if-gop-wins-midterms/",
-            "source": "GDELT/walb.com",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          },
-          {
-            "id": "582c72a666013e04",
-            "titre": "Cheap imports , smuggling threaten Nigerian jobs , workers war",
-            "url": "https://punchng.com/cheap-imports-smuggling-threaten-nigerian-jobs-textile-workers-warn/",
-            "source": "GDELT/punchng.com",
-            "horodatage_utc": "2026-09-11T17:45:00+00:00"
-          }
-        ],
-        "etat_actuel": "Aucune mesure disponible pour Commerce international (droits de douane) : GDELT n'a pas répondu..",
+        "developpements_recents": [],
+        "n_nouveaux_developpements": 0,
+        "nouveaux_developpements": [],
+        "etat_actuel": "Aucune mesure disponible pour Commerce international (droits de douane) : pas encore mesuré : son tour vient dans la rotation des dossiers.",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "canal": "risque",
@@ -1411,7 +1423,10 @@
             "tendance_score": ""
           }
         },
-        "sujets_rattaches": []
+        "sujets_rattaches": [],
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
       },
       {
         "id": "matieres_premieres",
@@ -1438,7 +1453,7 @@
           "oil production cut"
         ],
         "disponible": false,
-        "motif": "GDELT n'a pas répondu.",
+        "motif": "pas encore mesuré : son tour vient dans la rotation des dossiers",
         "intensite_ratio": null,
         "volume_24h": null,
         "trajectoire": "",
@@ -1449,7 +1464,7 @@
         "developpements_recents": [],
         "n_nouveaux_developpements": 0,
         "nouveaux_developpements": [],
-        "etat_actuel": "Aucune mesure disponible pour Matières premières (précieux, cuivre, pétrole) : GDELT n'a pas répondu..",
+        "etat_actuel": "Aucune mesure disponible pour Matières premières (précieux, cuivre, pétrole) : pas encore mesuré : son tour vient dans la rotation des dossiers.",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "canal": "petrole",
@@ -1547,61 +1562,20 @@
             "tendance_score": ""
           }
         },
-        "sujets_rattaches": []
+        "sujets_rattaches": [],
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
       }
     ],
     "classement": [
       {
-        "nom": "Israël - Gaza",
-        "id": "israel_gaza",
+        "nom": "Iran - États-Unis",
+        "id": "iran_etats_unis",
         "type": "conflit",
         "origine": "dossier",
         "epingle": false,
-        "intensite_ratio": 0.9899198980966613,
-        "trajectoire": "en accélération",
-        "disponible": true,
-        "pertinence": {
-          "disponible": true,
-          "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 9,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {
-            "petrole": 0.87,
-            "taux_reels": 1.5,
-            "vix": 1.45,
-            "or": 1.63
-          },
-          "score": 1.48,
-          "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,48 fois plus que les autres jours (le pétrole 0,87, les taux réels 1,50, le VIX 1,45, l'or 1,63), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
-          "motif": ""
-        },
-        "statut": "veille",
-        "donnees_suffisantes": true,
-        "rang": 1,
-        "cle": "israel_gaza",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
-        "nom": "Semi-conducteurs et IA (contrôles à l'export)",
-        "id": "semiconducteurs_ia",
-        "type": "thematique",
-        "origine": "dossier",
-        "epingle": true,
-        "intensite_ratio": 1.544607190412783,
+        "intensite_ratio": 1.2628193635141192,
         "trajectoire": "en accélération",
         "disponible": true,
         "pertinence": {
@@ -1612,146 +1586,20 @@
           "min_observations": 20,
           "min_pics": 3,
           "ratios": {
-            "petrole": 1.24,
-            "taux_reels": 2.39,
-            "vix": 1.39,
-            "or": 1.4
+            "petrole": 1.3,
+            "taux_reels": 1.18,
+            "vix": 1.3,
+            "or": 1.51
           },
-          "score": 1.4,
+          "score": 1.3,
           "lecture": "neutre",
           "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 11 jours de pic de couverture voient les actifs bouger 1,4 fois plus que les autres jours (le pétrole 1,24, les taux réels 2,39, le VIX 1,39, l'or 1,40), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
-          "motif": ""
-        },
-        "statut": "epingle",
-        "donnees_suffisantes": true,
-        "rang": 2,
-        "cle": "semiconducteurs_ia",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
-        "nom": "Russie - Ukraine",
-        "id": "russie_ukraine",
-        "type": "conflit",
-        "origine": "dossier",
-        "epingle": false,
-        "intensite_ratio": 1.0184778550219582,
-        "trajectoire": "en accélération",
-        "disponible": true,
-        "pertinence": {
-          "disponible": true,
-          "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 10,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {
-            "petrole": 1.28,
-            "taux_reels": 1.16,
-            "vix": 1.45,
-            "or": 1.67
-          },
-          "score": 1.36,
-          "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 10 jours de pic de couverture voient les actifs bouger 1,36 fois plus que les autres jours (le pétrole 1,28, les taux réels 1,16, le VIX 1,45, l'or 1,67), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "commentaire": "Sur 62 séances communes, les 11 jours de pic de couverture voient les actifs bouger 1,3 fois plus que les autres jours (le pétrole 1,30, les taux réels 1,18, le VIX 1,30, l'or 1,51), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
           "motif": ""
         },
         "statut": "veille",
         "donnees_suffisantes": true,
-        "rang": 3,
-        "cle": "russie_ukraine",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
-        "nom": "Politique monétaire (Fed, BCE)",
-        "id": "politique_monetaire",
-        "type": "thematique",
-        "origine": "dossier",
-        "epingle": true,
-        "intensite_ratio": 1.1239009717723276,
-        "trajectoire": "en accélération",
-        "disponible": true,
-        "pertinence": {
-          "disponible": true,
-          "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 9,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {
-            "petrole": 0.8,
-            "taux_reels": 1.26,
-            "vix": 1.86,
-            "or": 1.09
-          },
-          "score": 1.18,
-          "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,18 fois plus que les autres jours (le pétrole 0,80, les taux réels 1,26, le VIX 1,86, l'or 1,09), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
-          "motif": ""
-        },
-        "statut": "epingle",
-        "donnees_suffisantes": true,
-        "rang": 4,
-        "cle": "politique_monetaire",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
-        "nom": "Iran - États-Unis",
-        "id": "iran_etats_unis",
-        "type": "conflit",
-        "origine": "dossier",
-        "epingle": false,
-        "intensite_ratio": 1.216024204392649,
-        "trajectoire": "",
-        "disponible": true,
-        "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
-        },
-        "statut": "candidat",
-        "donnees_suffisantes": false,
-        "rang": 5,
+        "rang": 1,
         "cle": "iran_etats_unis",
         "historique": {
           "jours_observes": 0,
@@ -1766,31 +1614,37 @@
         }
       },
       {
-        "nom": "Canada – United States",
+        "nom": "Sanctions",
         "id": "",
-        "type": "paire",
-        "origine": "decouverte",
+        "type": "theme",
+        "origine": "theme_generique",
         "epingle": false,
-        "intensite_ratio": 0.7764701786149507,
-        "trajectoire": "",
+        "intensite_ratio": 0.42579365079365084,
+        "trajectoire": "en accélération",
         "disponible": true,
         "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 9,
           "min_observations": 20,
           "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
+          "ratios": {
+            "petrole": 1.36,
+            "taux_reels": 1.5,
+            "vix": 1.19,
+            "or": 0.87
+          },
+          "score": 1.27,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,27 fois plus que les autres jours (le pétrole 1,36, les taux réels 1,50, le VIX 1,19, l'or 0,87), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
         },
-        "statut": "candidat",
-        "donnees_suffisantes": false,
-        "rang": 6,
-        "cle": "sujet:Canada – United States",
+        "statut": "veille",
+        "donnees_suffisantes": true,
+        "rang": 2,
+        "cle": "sujet:Sanctions",
         "historique": {
           "jours_observes": 0,
           "changement": "nouveau",
@@ -1807,6 +1661,44 @@
         "nom": "Moyen-Orient (région)",
         "id": "moyen_orient",
         "type": "regional",
+        "origine": "dossier",
+        "epingle": false,
+        "intensite_ratio": 1.6881356458550068,
+        "trajectoire": "",
+        "disponible": true,
+        "pertinence": {
+          "disponible": false,
+          "suffisant": false,
+          "n_observations": 0,
+          "n_pics": 0,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {},
+          "score": null,
+          "lecture": "",
+          "commentaire": "",
+          "motif": "aucune série de couverture sur trente jours"
+        },
+        "statut": "candidat",
+        "donnees_suffisantes": false,
+        "rang": 3,
+        "cle": "moyen_orient",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Israël - Gaza",
+        "id": "israel_gaza",
+        "type": "conflit",
         "origine": "dossier",
         "epingle": false,
         "intensite_ratio": null,
@@ -1827,8 +1719,122 @@
         },
         "statut": "candidat",
         "donnees_suffisantes": false,
+        "rang": 4,
+        "cle": "israel_gaza",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Russie - Ukraine",
+        "id": "russie_ukraine",
+        "type": "conflit",
+        "origine": "dossier",
+        "epingle": false,
+        "intensite_ratio": null,
+        "trajectoire": "",
+        "disponible": false,
+        "pertinence": {
+          "disponible": false,
+          "suffisant": false,
+          "n_observations": 0,
+          "n_pics": 0,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {},
+          "score": null,
+          "lecture": "",
+          "commentaire": "",
+          "motif": "aucune série de couverture sur trente jours"
+        },
+        "statut": "candidat",
+        "donnees_suffisantes": false,
+        "rang": 5,
+        "cle": "russie_ukraine",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Politique monétaire (Fed, BCE)",
+        "id": "politique_monetaire",
+        "type": "thematique",
+        "origine": "dossier",
+        "epingle": true,
+        "intensite_ratio": null,
+        "trajectoire": "",
+        "disponible": false,
+        "pertinence": {
+          "disponible": false,
+          "suffisant": false,
+          "n_observations": 0,
+          "n_pics": 0,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {},
+          "score": null,
+          "lecture": "",
+          "commentaire": "",
+          "motif": "aucune série de couverture sur trente jours"
+        },
+        "statut": "epingle",
+        "donnees_suffisantes": false,
+        "rang": 6,
+        "cle": "politique_monetaire",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Semi-conducteurs et IA (contrôles à l'export)",
+        "id": "semiconducteurs_ia",
+        "type": "thematique",
+        "origine": "dossier",
+        "epingle": true,
+        "intensite_ratio": null,
+        "trajectoire": "",
+        "disponible": false,
+        "pertinence": {
+          "disponible": false,
+          "suffisant": false,
+          "n_observations": 0,
+          "n_pics": 0,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {},
+          "score": null,
+          "lecture": "",
+          "commentaire": "",
+          "motif": "aucune série de couverture sur trente jours"
+        },
+        "statut": "epingle",
+        "donnees_suffisantes": false,
         "rang": 7,
-        "cle": "moyen_orient",
+        "cle": "semiconducteurs_ia",
         "historique": {
           "jours_observes": 0,
           "changement": "nouveau",
@@ -1918,7 +1924,7 @@
         }
       },
       {
-        "nom": "Israel – United States",
+        "nom": "Canada – United States",
         "id": "",
         "type": "paire",
         "origine": "decouverte",
@@ -1942,7 +1948,7 @@
         "statut": "candidat",
         "donnees_suffisantes": false,
         "rang": 10,
-        "cle": "sujet:Israel – United States",
+        "cle": "sujet:Canada – United States",
         "historique": {
           "jours_observes": 0,
           "changement": "nouveau",
@@ -2032,44 +2038,6 @@
         }
       },
       {
-        "nom": "Sanctions",
-        "id": "",
-        "type": "theme",
-        "origine": "theme_generique",
-        "epingle": false,
-        "intensite_ratio": null,
-        "trajectoire": "",
-        "disponible": false,
-        "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
-        },
-        "statut": "candidat",
-        "donnees_suffisantes": false,
-        "rang": 13,
-        "cle": "sujet:Sanctions",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
         "nom": "Tensions sur les réserves de change",
         "id": "",
         "type": "theme",
@@ -2093,7 +2061,7 @@
         },
         "statut": "candidat",
         "donnees_suffisantes": false,
-        "rang": 14,
+        "rang": 13,
         "cle": "sujet:Tensions sur les réserves de change",
         "historique": {
           "jours_observes": 0,
@@ -2116,10 +2084,10 @@
           "UKR"
         ],
         "libelle": "Russia – Ukraine",
-        "n_evenements": 335,
-        "mentions": 1405,
-        "part": 0.0622,
-        "goldstein_moyen": -7.44,
+        "n_evenements": 318,
+        "mentions": 1358,
+        "part": 0.0589,
+        "goldstein_moyen": -7.46,
         "rattachement": {
           "type": "dossier",
           "id": "russie_ukraine",
@@ -2134,10 +2102,10 @@
           "USA"
         ],
         "libelle": "Iran – United States",
-        "n_evenements": 211,
-        "mentions": 862,
-        "part": 0.0392,
-        "goldstein_moyen": -6.65,
+        "n_evenements": 210,
+        "mentions": 850,
+        "part": 0.0389,
+        "goldstein_moyen": -6.57,
         "rattachement": {
           "type": "dossier",
           "id": "iran_etats_unis",
@@ -2152,10 +2120,10 @@
           "PSE"
         ],
         "libelle": "Israel – Palestinian",
-        "n_evenements": 227,
-        "mentions": 781,
-        "part": 0.0421,
-        "goldstein_moyen": -7.24,
+        "n_evenements": 217,
+        "mentions": 756,
+        "part": 0.0402,
+        "goldstein_moyen": -7.3,
         "rattachement": {
           "type": "dossier",
           "id": "israel_gaza",
@@ -2170,44 +2138,12 @@
           "USA"
         ],
         "libelle": "Canada – United States",
-        "n_evenements": 118,
-        "mentions": 413,
-        "part": 0.0219,
-        "goldstein_moyen": -5.4,
+        "n_evenements": 126,
+        "mentions": 434,
+        "part": 0.0233,
+        "goldstein_moyen": -5.95,
         "rattachement": null,
         "requete": "Canada \"United States\"",
-        "disponible": true,
-        "motif": "",
-        "intensite_ratio": 0.7764701786149507,
-        "trajectoire": "",
-        "volume_24h": 769.0,
-        "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
-        }
-      },
-      {
-        "type": "paire",
-        "paire": [
-          "ISR",
-          "USA"
-        ],
-        "libelle": "Israel – United States",
-        "n_evenements": 122,
-        "mentions": 343,
-        "part": 0.0226,
-        "goldstein_moyen": -5.68,
-        "rattachement": null,
-        "requete": "Israel \"United States\"",
         "disponible": false,
         "motif": "GDELT n'a pas répondu.",
         "intensite_ratio": null,
@@ -2226,6 +2162,24 @@
           "commentaire": "",
           "motif": "aucune série de couverture sur trente jours"
         }
+      },
+      {
+        "type": "paire",
+        "paire": [
+          "SAU",
+          "YEM"
+        ],
+        "libelle": "Saudi Arabia – Yemen",
+        "n_evenements": 103,
+        "mentions": 337,
+        "part": 0.0191,
+        "goldstein_moyen": -7.43,
+        "rattachement": {
+          "type": "region",
+          "id": "moyen_orient",
+          "nom_affiche": "Moyen-Orient (région)"
+        },
+        "requete": "\"Saudi Arabia\" Yemen"
       }
     ],
     "autres": [],
@@ -2249,12 +2203,12 @@
     },
     "_meta": {
       "source": "GDELT (DOC : narratif et couverture ; Events : activité bilatérale par acteur) + FRED (maillons macro)",
-      "horodatage_collecte_utc": "2026-09-11T18:29:37.044548+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:29:55.402699+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     },
     "synthese": {
-      "texte": "Sur les huit dossiers suivis, Semi-conducteurs et IA (contrôles à l'export) est le plus couvert, à 1,5× sa moyenne des trente derniers jours, trajectoire en accélération : une escalade en cours, ce qui nourrit la demande refuge tant qu'elle dure. Les autres dossiers mesurés, Iran - États-Unis (trajectoire non qualifiée), Politique monétaire (Fed, BCE) (en accélération), Russie - Ukraine (en accélération) et Israël - Gaza (en accélération), restent en retrait de celui-ci, ce qui concentre sur un seul sujet ce que la géopolitique peut apporter à la demande refuge. Pour Moyen-Orient (région), Commerce international (droits de douane) et Matières premières (précieux, cuivre, pétrole), la couverture n'est pas mesurable ce jour, ce qui laisse leur trajectoire hors de cette lecture. Le relevé d'événements GDELT des dernières heures en compte 670 pour Russie - Ukraine, et 2098 à l'intérieur de la région Moyen-Orient (région) toutes paires confondues, ce qui confirme une activité soutenue entre les deux parties, indépendamment de ce que la presse en dit. Des développements nouveaux sont apparus depuis la dernière vérification (Politique monétaire (Fed, BCE) 5 et Commerce international (droits de douane) 5), ce qui renouvelle la matière de ces dossiers et justifie d'en relire la trajectoire. Pour Politique monétaire (Fed, BCE), la chaîne pétrole → inflation anticipée → taux réels → or est cohérente, ce qui donne au mouvement de l'or une explication vérifiable en amont : il ne tient pas à la seule peur. Pour Israël - Gaza, Iran - États-Unis, Russie - Ukraine, Moyen-Orient (région), Semi-conducteurs et IA (contrôles à l'export), Commerce international (droits de douane) et Matières premières (précieux, cuivre, pétrole), cette chaîne est rompue — les taux réels (+3 points de base) et l'or (-0,04 %) ne vont pas dans le sens attendu —, ce qui signifie que la tension ne se transmet pas par les canaux mesurés : si l'or y réagit, c'est sur la peur, et cela tient rarement longtemps. Israël - Gaza (1,48) et Russie - Ukraine (1,36) sont en veille : la couverture est mesurée, mais leurs jours de pic ne se distinguent pas nettement des autres séances — il faudrait dépasser 1,5 pour parler de réaction, ce qui ne permet pas de dire que cette actualité déplace encore les prix. Pour Iran - États-Unis, Canada – United States et Moyen-Orient (région), le classement n'est pas encore possible faute d'observations suffisantes, ce qui interdit d'en tirer une lecture de marché aujourd'hui. Savoir si cette prime est déjà payée n'est pas évaluable ce jour, le résidu de juste valeur n'étant pas fiable, ce qui interdit de dire si une escalade aurait encore de la place dans le prix. Ce tableau se lit dans un climat de marché neutre (score d'appétit pour le risque +0,17) : ni fuite vers la sécurité ni course au rendement, ce qui laisse à la géopolitique seule le soin de déplacer la demande refuge.",
+      "texte": "Sur les huit dossiers suivis, Moyen-Orient (région) est le plus couvert, à 1,7× sa moyenne des trente derniers jours, trajectoire non qualifiée : une attention soutenue et stable, ce qui maintient la prime de risque sans la faire grandir. Les autres dossiers mesurés, Iran - États-Unis (en accélération), restent en retrait de celui-ci, ce qui concentre sur un seul sujet ce que la géopolitique peut apporter à la demande refuge. Pour Israël - Gaza, Russie - Ukraine, Politique monétaire (Fed, BCE), Semi-conducteurs et IA (contrôles à l'export), Commerce international (droits de douane) et Matières premières (précieux, cuivre, pétrole), la couverture n'est pas mesurable ce jour, ce qui laisse leur trajectoire hors de cette lecture. Le relevé d'événements GDELT des dernières heures en compte 654 pour Russie - Ukraine, et 2097 à l'intérieur de la région Moyen-Orient (région) toutes paires confondues, ce qui confirme une activité soutenue entre les deux parties, indépendamment de ce que la presse en dit. Des développements nouveaux sont apparus depuis la dernière vérification (Israël - Gaza 5 et Iran - États-Unis 5), ce qui renouvelle la matière de ces dossiers et justifie d'en relire la trajectoire. Pour Politique monétaire (Fed, BCE), la chaîne pétrole → inflation anticipée → taux réels → or est cohérente, ce qui donne au mouvement de l'or une explication vérifiable en amont : il ne tient pas à la seule peur. Pour Israël - Gaza, Iran - États-Unis, Russie - Ukraine, Moyen-Orient (région), Semi-conducteurs et IA (contrôles à l'export), Commerce international (droits de douane) et Matières premières (précieux, cuivre, pétrole), cette chaîne est rompue — les taux réels (+3 points de base) et l'or (-0,04 %) ne vont pas dans le sens attendu —, ce qui signifie que la tension ne se transmet pas par les canaux mesurés : si l'or y réagit, c'est sur la peur, et cela tient rarement longtemps. Iran - États-Unis (1,30) et Sanctions (1,27) sont en veille : la couverture est mesurée, mais leurs jours de pic ne se distinguent pas nettement des autres séances — il faudrait dépasser 1,5 pour parler de réaction, ce qui ne permet pas de dire que cette actualité déplace encore les prix. Pour Moyen-Orient (région), Israël - Gaza et Russie - Ukraine, le classement n'est pas encore possible faute d'observations suffisantes, ce qui interdit d'en tirer une lecture de marché aujourd'hui. Savoir si cette prime est déjà payée n'est pas évaluable ce jour, le résidu de juste valeur n'étant pas fiable, ce qui interdit de dire si une escalade aurait encore de la place dans le prix. Ce tableau se lit dans un climat de marché neutre (score d'appétit pour le risque +0,17) : ni fuite vers la sécurité ni course au rendement, ce qui laisse à la géopolitique seule le soin de déplacer la demande refuge.",
       "publiable": true,
       "motif": "",
       "nombres_rejetes": [],
@@ -2543,7 +2497,7 @@
       }
     },
     "etat_du_jour": {
-      "z_fair_value": 0.5295278460454582,
+      "z_fair_value": 0.5295278460454588,
       "percentile_cot": 73.46153846153847,
       "regime_taux_reels": 2.46
     },
@@ -2552,17 +2506,17 @@
     ],
     "_meta": {
       "source": "reconstruction interne (juste valeur + COT + FRED)",
-      "horodatage_collecte_utc": "2026-09-11T18:29:37.074019+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:29:55.446775+00:00",
       "date_donnee": "2026-08-12",
       "age_jours": 30
     }
   },
   "biais": {
-    "horodatage_utc": "2026-09-11T18:29:37.074559+00:00",
+    "horodatage_utc": "2026-09-11T19:29:55.447483+00:00",
     "biais": "neutre",
-    "score_composite": 0.1208,
+    "score_composite": 0.1413,
     "conviction": "faible",
-    "conviction_brute": 0.0423,
+    "conviction_brute": 0.0495,
     "concordance": 0.5,
     "couverture_donnees": 0.7,
     "couverture_min_requise": 0.6,
@@ -2586,7 +2540,7 @@
         "poids_configure": 0.3,
         "poids_effectif": 0.0,
         "contribution": 0.0,
-        "valeur_source": 0.5295278460454582,
+        "valeur_source": 0.5295278460454588,
         "sens": "contrarien",
         "commentaire": ""
       },
@@ -2630,13 +2584,13 @@
         "nom": "intensite_geopolitique",
         "disponible": true,
         "motif": "",
-        "score": 0.5446,
+        "score": 0.6881,
         "poids_configure": 0.1,
         "poids_effectif": 0.1429,
-        "contribution": 0.0778,
-        "valeur_source": 1.544607190412783,
+        "contribution": 0.0983,
+        "valeur_source": 1.6881356458550068,
         "sens": "directionnel",
-        "commentaire": "Couverture géopolitique à 1.5× la normale, prime pas encore intégrée : soutien possible."
+        "commentaire": "Couverture géopolitique à 1.7× la normale, prime pas encore intégrée : soutien possible."
       },
       {
         "nom": "confirmation_minieres",
@@ -2704,7 +2658,7 @@
     },
     "_meta": {
       "source": "agrégation interne",
-      "horodatage_collecte_utc": "2026-09-11T18:29:37.074595+00:00",
+      "horodatage_collecte_utc": "2026-09-11T19:29:55.447548+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
@@ -2753,7 +2707,7 @@
     "toutes_verifiees": false
   },
   "synthese": {
-    "texte": "Sur un an, l'or a gagné 19,8 %, mais il a perdu 15,5 % sur six mois, avant de reprendre 6,2 % sur trois mois : la hausse annuelle est acquise de longue date, le semestre a été une correction et le trimestre un rebond partiel, ce qui signifie que la demande est revenue sans avoir effacé le repli. Il se tient ainsi à 43 % de l'intervalle de ses douze derniers mois, à mi-fourchette, ce qui le laisse sans excès dans un sens ni dans l'autre : ni prime d'une hausse à défendre, ni décote d'un actif délaissé. Pendant ce temps, les taux réels ont monté de 58 points de base sur six mois, à 2,46 %, ce qui renchérit la détention d'un actif sans rendement et retire un soutien à l'or. Le dollar s'est affaibli de 1,8 % sur la période, ce qui rend l'or moins cher pour les acheteurs hors dollar et soutient sa demande. L'inflation a remonté de 2,0 % à 2,6 % sur six mois, ce qui entretient la contrainte sur la Réserve fédérale et repousse la baisse des taux qui allégerait le coût de l'or. Côté positionnement, le net spéculatif se situe au 73e percentile sur cinq ans, en allègement sur la semaine : les gros spéculateurs sont acheteurs sans excès, ce qui ne fait ni levier ni frein sur le prix. Le modèle de juste valeur, sous son seuil de fiabilité ce jour, ne dit pas si ce niveau est cher ou bon marché : la lecture repose sur le positionnement et le contexte. Le dossier géopolitique le plus suivi, Semi-conducteurs et IA (contrôles à l'export), est couvert à 1,5× sa normale, trajectoire en accélération : une escalade en cours, ce qui nourrit la demande refuge tant qu'elle dure. Le climat de marché mesuré dans le contexte macro est neutre (score d'appétit pour le risque +0,17) : ni fuite vers la sécurité ni course au rendement, ce qui laisse l'or sans flux de rotation net et rend ses propres facteurs décisifs. C'est le croisement de ces éléments qui donne un biais mécanique neutre (score +0,12, conviction faible, 70 % des composantes mesurées) : la confirmation par les minières (+0,14) et le positionnement spéculatif (-0,10) se compensent, ce qui explique le sens du score. À l'approche de l'échéance « Décision de politique monétaire (FOMC) avec projections économiques », cette lecture fondamentale a peu de prise sur les prochaines séances : c'est l'annonce qui décidera du mouvement immédiat.",
+    "texte": "Sur un an, l'or a gagné 19,8 %, mais il a perdu 15,5 % sur six mois, avant de reprendre 6,2 % sur trois mois : la hausse annuelle est acquise de longue date, le semestre a été une correction et le trimestre un rebond partiel, ce qui signifie que la demande est revenue sans avoir effacé le repli. Il se tient ainsi à 43 % de l'intervalle de ses douze derniers mois, à mi-fourchette, ce qui le laisse sans excès dans un sens ni dans l'autre : ni prime d'une hausse à défendre, ni décote d'un actif délaissé. Pendant ce temps, les taux réels ont monté de 58 points de base sur six mois, à 2,46 %, ce qui renchérit la détention d'un actif sans rendement et retire un soutien à l'or. Le dollar s'est affaibli de 1,8 % sur la période, ce qui rend l'or moins cher pour les acheteurs hors dollar et soutient sa demande. L'inflation a remonté de 2,0 % à 2,6 % sur six mois, ce qui entretient la contrainte sur la Réserve fédérale et repousse la baisse des taux qui allégerait le coût de l'or. Côté positionnement, le net spéculatif se situe au 73e percentile sur cinq ans, en allègement sur la semaine : les gros spéculateurs sont acheteurs sans excès, ce qui ne fait ni levier ni frein sur le prix. Le modèle de juste valeur, sous son seuil de fiabilité ce jour, ne dit pas si ce niveau est cher ou bon marché : la lecture repose sur le positionnement et le contexte. Le dossier géopolitique le plus suivi, Moyen-Orient (région), est couvert à 1,7× sa normale, trajectoire non qualifiée : une attention soutenue et stable, ce qui maintient la prime de risque sans la faire grandir. Le climat de marché mesuré dans le contexte macro est neutre (score d'appétit pour le risque +0,17) : ni fuite vers la sécurité ni course au rendement, ce qui laisse l'or sans flux de rotation net et rend ses propres facteurs décisifs. C'est le croisement de ces éléments qui donne un biais mécanique neutre (score +0,14, conviction faible, 70 % des composantes mesurées) : la confirmation par les minières (+0,14) et le positionnement spéculatif (-0,10) se compensent, ce qui explique le sens du score. À l'approche de l'échéance « Décision de politique monétaire (FOMC) avec projections économiques », cette lecture fondamentale a peu de prise sur les prochaines séances : c'est l'annonce qui décidera du mouvement immédiat.",
     "publiable": true,
     "motif": "",
     "nombres_rejetes": [],
