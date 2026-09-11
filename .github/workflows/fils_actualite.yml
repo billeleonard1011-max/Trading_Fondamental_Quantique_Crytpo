@@ -20,18 +20,36 @@
 # identique à celle déjà posée par un autre fil dans les 30 dernières
 # minutes est servie depuis le cache plutôt que reposée.
 #
-# Cadence : alignée sur celle du rapport quotidien pour commencer, par
-# prudence sur le budget de minutes Actions plutôt que sur la cadence de
-# quinze-trente minutes évoquée dans modules/quantum/feed.py. À resserrer
-# une fois le coût réel observé sur quelques jours.
+# Cadence : toutes les trente minutes, avec GDELT une fois sur quatre
+# -------------------------------------------------------------------
+# Les flux RSS n'ont ni limite de débit ni coût : ce sont eux qui portent la
+# fraîcheur, et depuis la correction du filtre de pertinence, l'essentiel du
+# fil géopolitique. GDELT est l'inverse — lent (son limiteur impose huit
+# secondes entre deux appels), limité en débit, et il nous renvoie déjà des
+# 429 à dix-neuf appels par exécution.
+#
+# Les deux sont donc découplés dans une seule et même exécution :
+#   * chaque exécution collecte les flux RSS — une à deux minutes ;
+#   * une exécution sur quatre (heures paires, première demi-heure)
+#     interroge aussi GDELT — huit à dix minutes.
+#
+# Un seul workflow plutôt que deux : le groupe de concurrence garantit alors
+# qu'aucune exécution n'en double une autre, ce qui évite à la fois les
+# écritures concurrentes sur les mêmes fichiers et la course sur le compteur
+# d'analyses quotidiennes (modules/quota_llm.py).
+#
+# Volume GDELT résultant : onze appels toutes les deux heures, soit environ
+# cent trente par jour — contre neuf cent douze si chacune des quarante-huit
+# exécutions l'interrogeait.
 
 name: Fils d'actualité
 
 on:
   schedule:
-    - cron: "35 11 * * 1-5"   # du lundi au vendredi, 11:35 UTC — décalé de
-                               # cinq minutes après le rapport quotidien,
-                               # sans dépendance entre les deux workflows.
+    # Toutes les trente minutes, tous les jours : les cryptos cotent le
+    # week-end et l'actualité ne s'arrête pas. Le dépôt étant public, les
+    # minutes GitHub Actions sont gratuites et illimitées.
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -48,7 +66,7 @@ jobs:
   fils:
     name: Collecter et publier les trois fils
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 25
 
     env:
       # Couche pédagogique des trois fils. Facultative : sans elle, les
@@ -75,17 +93,36 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Décider si GDELT est interrogé à cette exécution
+        # GDELT une fois sur quatre : heures paires, première demi-heure.
+        # GitHub met les crons en file d'attente et les déclenche parfois
+        # avec plusieurs minutes de retard ; le test sur la demi-heure
+        # absorbe ce décalage. Un retard de plus de trente minutes fait
+        # simplement sauter un passage GDELT — sans conséquence, le suivant
+        # aura lieu deux heures plus tard.
+        id: cadence
+        run: |
+          heure=$(date -u +%-H)
+          minute=$(date -u +%-M)
+          if [ $((heure % 2)) -eq 0 ] && [ "$minute" -lt 30 ]; then
+            echo "options=" >> "$GITHUB_OUTPUT"
+            echo "Cette exécution interroge GDELT."
+          else
+            echo "options=--sans-gdelt" >> "$GITHUB_OUTPUT"
+            echo "Cette exécution ne collecte que les flux RSS."
+          fi
+
       - name: Fil d'actualité quantique
         continue-on-error: true
         run: |
           mkdir -p reports/quantum
-          python -m modules.quantum.feed
+          python -m modules.quantum.feed ${{ steps.cadence.outputs.options }}
 
       - name: Fil d'actualité crypto
         continue-on-error: true
         run: |
           mkdir -p reports/crypto
-          python -m modules.crypto.feed
+          python -m modules.crypto.feed ${{ steps.cadence.outputs.options }}
 
       - name: Fil d'actualité géopolitique
         # Relit reports/gold/latest.json (publié par le workflow "Rapport
@@ -96,7 +133,7 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p reports/geopolitique
-          python -m modules.geopolitique.feed
+          python -m modules.geopolitique.feed ${{ steps.cadence.outputs.options }}
 
       - name: Publier les fils dans le dépôt
         # Même mécanique que la publication du rapport or, et pour la même
@@ -117,12 +154,15 @@ jobs:
 
             # Les historiques de fil accumulent : les écraser ferait perdre
             # la trace « déjà vu » des articles ajoutés par l'exécution
-            # concurrente, qui resurgiraient en nouveauté plus tard.
+            # concurrente, qui resurgiraient en nouveauté plus tard. Les fils
+            # publiés se fusionnent aussi, par union : une exécution sans
+            # GDELT n'a qu'une vue partielle et ne doit pas amputer le fil.
             python -m scripts.fusionner_sorties "origin/${GITHUB_REF_NAME}"
 
             git add reports/quantum/feed_latest.json reports/quantum/feed_historique.jsonl \
                     reports/crypto/feed_latest.json reports/crypto/feed_historique.jsonl \
                     reports/geopolitique/feed_latest.json reports/geopolitique/feed_historique.jsonl \
+                    reports/quota_llm.json \
                     2>/dev/null || true
 
             if git diff --staged --quiet; then

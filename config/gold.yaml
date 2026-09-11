@@ -166,6 +166,18 @@ explication:
   modele: "gpt-4o-mini"     # suffisant et économique pour de la reformulation
   temperature: 0.2
   max_tokens: 700
+  # Plafond quotidien d'analyses, tous fils confondus (voir
+  # modules/quota_llm.py). Le plafond par exécution (huit par fil) ne borne
+  # plus rien depuis que les fils tournent toutes les trente minutes : sans
+  # celui-ci, la dépense serait multipliée par la cadence.
+  #
+  # 120 par jour = cinq fois le volume d'avant, pour une cadence quarante-huit
+  # fois plus rapide. Coût estimé sur gpt-4o-mini (0,15 $/M jetons en entrée,
+  # 0,60 $/M en sortie), avec ~900 jetons en entrée et ~350 en sortie par
+  # analyse : environ 0,04 $ par jour, soit ~1,25 $ par mois. Sans plafond,
+  # la même cadence autoriserait 1 152 analyses/jour, soit ~12 $ par mois.
+  # Mettre 0 désactive complètement la couche pédagogique.
+  max_analyses_par_jour: 120
   # Tolérance d'arrondi du vérificateur numérique : un nombre du texte doit
   # correspondre à une valeur du JSON d'entrée à cette tolérance relative près.
   tolerance_relative: 0.02

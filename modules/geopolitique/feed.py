@@ -51,6 +51,7 @@ from typing import Any, Final
 
 from dataio import news
 from modules.gold import explain
+from modules import quota_llm
 from modules.quantum import moves
 
 _LOG: Final = logging.getLogger(__name__)
@@ -206,6 +207,7 @@ def collecter(
     configuration: dict[str, Any],
     flux_rss: list[dict[str, Any]] | None = None,
     articles_precollectes: list[Any] | None = None,
+    avec_gdelt: bool = True,
 ) -> list[news.NewsItem]:
     """Rassemble les actualités géopolitiques pertinentes pour l'or.
 
@@ -218,6 +220,10 @@ def collecter(
         configuration: bloc ``geopolitique`` de ``config/gold.yaml``.
         flux_rss: flux déclarés dans ``config/feeds.yaml``.
         articles_precollectes: articles déjà obtenus, pour les tests hors ligne.
+        avec_gdelt: ``False`` pour ne collecter que les flux RSS. GDELT est
+            la partie lente et limitée en débit de la collecte ; la voie
+            rapide (toutes les trente minutes) s'en passe, la voie lente
+            l'interroge (voir .github/workflows/).
 
     Returns:
         Articles dédupliqués, du plus récent au plus ancien.
@@ -240,6 +246,10 @@ def collecter(
         articles.extend(news.fetch_rss(retenus, hours=fenetre))
     else:
         _LOG.info("Aucun flux RSS étiqueté %s.", " / ".join(sorted(tags_voulus)))
+
+    if not avec_gdelt:
+        _LOG.info("Collecte sans GDELT : flux RSS seuls.")
+        return news.dedupe(articles)
 
     # Canal 2 : une requête GDELT par thème à canal de transmission connu.
     for theme in configuration.get("themes") or []:
@@ -490,6 +500,18 @@ def construire_fil(
     reglages = dict(configuration.get("feed") or {})
     exclusions = [str(e) for e in (reglages.get("exclusions") or [])]
     max_analyses = int(reglages.get("max_analyses_par_execution", 8))
+    # Plafond quotidien, commun aux trois fils : le plafond par exécution ne
+    # borne plus rien dès que le workflow tourne toutes les trente minutes
+    # (voir modules/quota_llm.py).
+    reglages_llm = dict(configuration_explication or {})
+    plafond_jour = int(reglages_llm.get("max_analyses_par_jour", quota_llm.MAX_ANALYSES_PAR_JOUR))
+    budget_jour = quota_llm.restant(plafond_jour)
+    if budget_jour < max_analyses:
+        _LOG.info(
+            "Plafond quotidien d'analyses : %d restante(s) sur %d pour aujourd'hui.",
+            budget_jour, plafond_jour,
+        )
+    max_analyses = min(max_analyses, budget_jour)
 
     themes = list(configuration.get("themes") or [])
     mesures = dict(mesures_par_theme or {})
@@ -508,6 +530,7 @@ def construire_fil(
 
     items: list[dict[str, Any]] = []
     analyses_faites = 0
+    analyses_llm = 0
 
     for article in articles:
         titre = str(getattr(article, "titre", "") or "")
@@ -547,8 +570,16 @@ def construire_fil(
                 "horodatage_utc": horodatage,
                 "theme_mesure": mesure,
             }
-            analyse, _ = _analyser_item(contexte, configuration_explication, client)
+            analyse, par_modele = _analyser_item(contexte, configuration_explication, client)
+            # Deux compteurs, et ils ne mesurent pas la même chose :
+            # ``analyses_faites`` borne le nombre de tentatives de cette
+            # exécution ; ``analyses_llm`` ne compte que les appels
+            # réellement facturés. Un repli sur le gabarit déterministe —
+            # clé absente, couche désactivée, réponse rejetée par le
+            # garde-fou — ne coûte rien et ne doit rien consommer du budget
+            # quotidien.
             analyses_faites += 1
+            analyses_llm += int(bool(par_modele))
 
         items.append(
             {
@@ -564,6 +595,11 @@ def construire_fil(
                 "nouveaute": nouveaute,
             }
         )
+
+    # Le compteur du jour n'est incrémenté qu'une fois les analyses faites :
+    # une exécution interrompue avant ce point n'aura rien facturé, donc rien
+    # à décompter.
+    quota_llm.consommer(analyses_llm)
 
     items.sort(key=lambda i: i["horodatage_utc"], reverse=True)
     _LOG.info(
@@ -658,6 +694,11 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="collecte et publie sans produire d'explication.",
     )
+    analyseur.add_argument(
+        "--sans-gdelt",
+        action="store_true",
+        help="ne collecte que les flux RSS : rapide et sans limite de débit.",
+    )
     arguments = analyseur.parse_args(argv)
 
     logging.basicConfig(
@@ -682,7 +723,7 @@ def main(argv: list[str] | None = None) -> int:
     if arguments.sans_analyse:
         reglages_explication["activee"] = False
 
-    articles = collecter(configuration, flux_rss=flux)
+    articles = collecter(configuration, flux_rss=flux, avec_gdelt=not arguments.sans_gdelt)
     mesures = _mesures_depuis_le_rapport(RACINE / "reports" / "gold" / "latest.json")
     items = construire_fil(
         configuration,

@@ -417,6 +417,51 @@ reporter l'adresse obtenue dans `site/js/config.js` (`urlAssistant`).
 node --test worker/tests/worker.test.js  # 12 tests, KV et OpenAI simulés
 ```
 
+### Cadence des fils d'actualité et budget du modèle de langage
+
+`fils_actualite.yml` tourne **toutes les trente minutes**, avec les deux
+canaux découplés :
+
+* **chaque exécution** collecte les flux RSS — une à deux minutes, ni limite
+  de débit ni coût ;
+* **une exécution sur quatre** (heures paires, première demi-heure)
+  interroge aussi GDELT.
+
+Ce découplage vient d'une mesure : GDELT imposait dix-neuf appels par
+exécution, dont onze pour le seul fil crypto, et sept des quatorze minutes
+de l'exécution. Interroger GDELT quarante-huit fois par jour aurait porté
+le volume à neuf cent douze appels quotidiens sur une source qui nous
+renvoie déjà des 429. Les requêtes crypto sont par ailleurs groupées — un
+appel par groupe de jetons au lieu d'un par jeton —, ce qui ramène le total
+à onze appels, soit environ cent trente par jour.
+
+Le fil publié (`*_feed_latest.json`) se fusionne désormais par union sur
+l'identifiant d'item : une exécution sans GDELT n'a qu'une vue partielle et
+ne doit pas amputer le fil (voir `scripts/fusionner_sorties.py`).
+
+```bash
+python -m modules.geopolitique.feed --sans-gdelt   # voie rapide : flux RSS seuls
+python -m modules.crypto.feed                      # collecte complète
+```
+
+**Budget du modèle de langage.** Chaque fil explique au plus huit nouveautés
+par exécution. Ce plafond suffisait tant que les fils tournaient une fois
+par jour ; à quarante-huit exécutions il n'aurait plus rien borné. Un
+plafond **quotidien** commun aux trois fils s'y ajoute
+(`explication.max_analyses_par_jour` dans `config/gold.yaml`, cent vingt par
+défaut, `0` pour couper la couche pédagogique), tenu par un compteur
+versionné dans `reports/quota_llm.json` — un exécuteur GitHub est éphémère,
+un compteur non publié repartirait de zéro à chaque exécution.
+
+Coût estimé sur `gpt-4o-mini`, avec environ neuf cents jetons en entrée et
+trois cent cinquante en sortie par analyse :
+
+| Volume | Par jour | Par mois |
+|---|---|---|
+| 24 analyses (cadence d'avant) | 0,01 $ | 0,25 $ |
+| **120 analyses (plafond retenu)** | **0,04 $** | **1,25 $** |
+| 1 152 analyses (48 exécutions sans plafond) | 0,40 $ | 11,92 $ |
+
 ### Diagnostic des flux d'actualité
 
 Ce script effectue des appels réseau ; il est volontairement séparé des tests.

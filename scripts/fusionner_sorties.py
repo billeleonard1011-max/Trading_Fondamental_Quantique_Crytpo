@@ -12,10 +12,17 @@ Deux natures de fichiers, deux résolutions
 ------------------------------------------
 Elles ne se traitent pas de la même façon, et les confondre perd des données :
 
-* **Les instantanés recalculés** (``*_latest.json``, ``reports/gold/*.json``)
-  sont refaits intégralement à chaque exécution. La version la plus récente
-  est toujours la bonne : elle écrase, sans fusion. Ce script ne les touche
-  donc pas.
+* **Les instantanés recalculés** (``reports/gold/*.json``) sont refaits
+  intégralement à chaque exécution. La version la plus récente est toujours
+  la bonne : elle écrase, sans fusion. Ce script ne les touche donc pas.
+
+* **Les fils publiés** (``*_feed_latest.json``) ont cessé d'être des
+  instantanés le jour où les exécutions ont été dédoublées : la plupart ne
+  collectent que les flux RSS, et n'interrogent GDELT qu'une fois toutes les
+  deux heures. Une exécution sans GDELT qui écraserait le fil publié en
+  retirerait tous les articles venus de là — le fil rétrécirait toutes les
+  trente minutes pour regrossir toutes les deux heures. Ils se fusionnent
+  donc par union sur l'identifiant d'item, les plus récents d'abord.
 
 * **Les journaux en ajout seul** (``*_historique.jsonl``, et les historiques
   d'observations datées ``rotation_historique.json`` et
@@ -66,7 +73,28 @@ FICHIERS_OBSERVATIONS: Final[tuple[tuple[str, str, str], ...]] = (
 #: Conservé pour les appels existants : le premier historique d'observations.
 FICHIER_OBSERVATIONS: Final = FICHIERS_OBSERVATIONS[0][0]
 
-__all__ = ["fusionner_lignes", "fusionner_observations", "fusionner_tout"]
+#: Fils publiés, fusionnés par union sur l'identifiant d'item.
+FICHIERS_FIL: Final[tuple[str, ...]] = (
+    "reports/quantum/feed_latest.json",
+    "reports/crypto/feed_latest.json",
+    "reports/geopolitique/feed_latest.json",
+)
+
+#: Items conservés dans un fil fusionné. Même valeur que ``MAX_ITEMS_FIL``
+#: des trois modules de fil : au-delà, le fil publié grossirait sans fin.
+MAX_ITEMS_FIL: Final[int] = 120
+
+#: Compteur d'analyses du jour (voir modules/quota_llm.py). Fusionné en
+#: retenant le plus grand des deux compteurs de la même journée : deux
+#: exécutions concurrentes peuvent sous-compter de quelques analyses, ce qui
+#: coûte un millième de dollar — l'inverse, sur-compter, couperait la couche
+#: pédagogique avant l'heure.
+FICHIER_QUOTA: Final = "reports/quota_llm.json"
+
+__all__ = [
+    "fusionner_fil", "fusionner_lignes", "fusionner_observations", "fusionner_quota",
+    "fusionner_tout",
+]
 
 
 def fusionner_lignes(publiees: str, locales: str) -> str:
@@ -145,6 +173,87 @@ def fusionner_observations(
     return json.dumps(fusionne, ensure_ascii=False, indent=2) + "\n"
 
 
+def fusionner_fil(publiee: str, locale: str, maximum: int = MAX_ITEMS_FIL) -> str:
+    """Fusionne deux versions d'un fil publié, sans perdre d'item.
+
+    L'item local gagne à identifiant égal : il porte l'analyse et l'état de
+    nouveauté les plus récents. L'ordre final est chronologique inverse, le
+    plus récent en tête, comme le produisent les modules de fil.
+
+    Args:
+        publiee: contenu JSON déjà sur la branche.
+        locale: contenu JSON produit par cette exécution.
+        maximum: nombre d'items conservés.
+
+    Returns:
+        Le fil fusionné, sérialisé en JSON.
+
+    Raises:
+        ValueError: si le fil local n'est pas une liste exploitable —
+            publier un fil illisible effacerait celui qui est en ligne.
+    """
+    def _charger(brut: str) -> list[dict[str, Any]]:
+        try:
+            contenu = json.loads(brut)
+        except (json.JSONDecodeError, TypeError):
+            return []
+        return [i for i in contenu if isinstance(i, dict)] if isinstance(contenu, list) else []
+
+    base = _charger(publiee)
+    try:
+        brut_local = json.loads(locale)
+    except (json.JSONDecodeError, TypeError) as exc:
+        raise ValueError(f"fil local illisible : {exc}") from exc
+    if not isinstance(brut_local, list):
+        raise ValueError("fil local illisible : une liste d'items est attendue")
+    local = [i for i in brut_local if isinstance(i, dict)]
+
+    par_id: dict[str, dict[str, Any]] = {}
+    for source in (base, local):          # le local écrase à identifiant égal
+        for item in source:
+            identifiant = str(item.get("id") or "")
+            if identifiant:
+                par_id[identifiant] = item
+
+    items = sorted(par_id.values(), key=lambda i: str(i.get("horodatage_utc") or ""), reverse=True)
+    return json.dumps(items[:maximum], ensure_ascii=False, indent=2) + "\n"
+
+
+def fusionner_quota(publiee: str, locale: str) -> str:
+    """Fusionne deux compteurs d'analyses du jour.
+
+    À jour identique, le plus grand des deux compteurs gagne : il reflète le
+    plus grand nombre d'analyses dont on ait la trace. À jour différent, le
+    compteur local gagne — c'est celui du jour courant.
+
+    Args:
+        publiee: contenu JSON déjà sur la branche.
+        locale: contenu JSON produit par cette exécution.
+
+    Returns:
+        Le contenu fusionné, sérialisé en JSON.
+
+    Raises:
+        ValueError: si le compteur local est illisible — le publier
+            écraserait le plafond de la journée par une valeur inconnue.
+    """
+    def _charger(brut: str) -> dict[str, Any]:
+        try:
+            contenu = json.loads(brut)
+        except (json.JSONDecodeError, TypeError):
+            return {}
+        return contenu if isinstance(contenu, dict) else {}
+
+    base, local = _charger(publiee), _charger(locale)
+    if not local:
+        raise ValueError("compteur d'analyses local illisible : fusion refusée")
+    if str(base.get("jour")) != str(local.get("jour")):
+        return json.dumps(local, ensure_ascii=False, indent=2) + "\n"
+    fusionne = dict(local)
+    fusionne["analyses"] = max(int(base.get("analyses") or 0), int(local.get("analyses") or 0))
+    return json.dumps(fusionne, ensure_ascii=False, indent=2) + "\n"
+
+
 def _version_publiee(reference: str, chemin: str) -> str | None:
     """Lit un fichier tel qu'il est sur la branche distante.
 
@@ -186,6 +295,37 @@ def fusionner_tout(reference: str, racine: Path = RACINE) -> list[str]:
         if contenu != locale:
             fichier.write_text(contenu, encoding="utf-8")
             fusionnes.append(chemin)
+
+    for chemin in FICHIERS_FIL:
+        fichier = racine / chemin
+        if not fichier.exists():
+            continue
+        publiee = _version_publiee(reference, chemin)
+        if publiee is None:
+            continue
+        locale = fichier.read_text(encoding="utf-8")
+        try:
+            contenu = fusionner_fil(publiee, locale)
+        except ValueError as exc:
+            _LOG.error("%s non fusionné : %s", chemin, exc)
+            continue
+        if contenu != locale:
+            fichier.write_text(contenu, encoding="utf-8")
+            fusionnes.append(chemin)
+
+    fichier = racine / FICHIER_QUOTA
+    if fichier.exists():
+        publiee = _version_publiee(reference, FICHIER_QUOTA)
+        if publiee is not None:
+            locale = fichier.read_text(encoding="utf-8")
+            try:
+                contenu = fusionner_quota(publiee, locale)
+            except ValueError as exc:
+                _LOG.error("%s non fusionné : %s", FICHIER_QUOTA, exc)
+            else:
+                if contenu != locale:
+                    fichier.write_text(contenu, encoding="utf-8")
+                    fusionnes.append(FICHIER_QUOTA)
 
     for chemin, cle_liste, cle_plafond in FICHIERS_OBSERVATIONS:
         fichier = racine / chemin

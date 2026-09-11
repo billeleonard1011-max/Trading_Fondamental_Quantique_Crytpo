@@ -36,6 +36,7 @@ from typing import Any, Final
 
 from dataio import news
 from modules.gold import explain
+from modules import quota_llm
 from modules.quantum import moves
 
 _LOG: Final = logging.getLogger(__name__)
@@ -161,6 +162,7 @@ def collecter(
     flux_rss: list[dict[str, Any]] | None = None,
     requetes_gdelt: list[dict[str, Any]] | None = None,
     articles_precollectes: list[Any] | None = None,
+    avec_gdelt: bool = True,
 ) -> list[news.NewsItem]:
     """Rassemble les actualités crypto, tous canaux confondus.
 
@@ -174,6 +176,10 @@ def collecter(
         flux_rss: flux déclarés dans ``config/feeds.yaml``.
         requetes_gdelt: requêtes ``gdelt_queries`` de ``config/feeds.yaml``.
         articles_precollectes: articles déjà obtenus, pour les tests hors ligne.
+        avec_gdelt: ``False`` pour ne collecter que les flux RSS. GDELT est
+            la partie lente et limitée en débit de la collecte ; la voie
+            rapide (toutes les trente minutes) s'en passe, la voie lente
+            l'interroge (voir .github/workflows/).
 
     Returns:
         Articles dédupliqués, du plus récent au plus ancien.
@@ -197,20 +203,32 @@ def collecter(
     else:
         _LOG.info("Aucun flux RSS étiqueté %s.", " / ".join(sorted(tags_voulus)))
 
-    # Canal 2 : recherche par mots-clés, jeton par jeton.
-    for entree in configuration.get("crypto_watchlist") or []:
-        mots = list(entree.get("keywords") or [])
-        if not mots:
-            continue
+    if not avec_gdelt:
+        _LOG.info("Collecte sans GDELT : flux RSS seuls.")
+        return news.dedupe(articles)
+
+    # Canal 2 : recherche par mots-clés, jetons groupés.
+    #
+    # Une requête par jeton coûtait dix appels GDELT — la moitié du temps
+    # d'exécution des trois fils réunis, sur une source qui limite le débit.
+    # Les grouper en alternatives ``OR`` n'enlève rien : le rattachement au
+    # jeton ne vient pas de l'étiquette GDELT mais de _entites_liees(), qui
+    # relit les mots-clés dans le titre de chaque article.
+    for groupe in _grouper_watchlist(configuration.get("crypto_watchlist") or []):
+        mots = [m for entree in groupe for m in (entree.get("keywords") or [])]
         requete = news.construire_requete_gdelt(mots)
         if not requete:
             continue
+        symboles = [str(e.get("symbol", "")) for e in groupe]
         articles.extend(
             news.fetch_gdelt(
                 requete,
                 timespan=f"{fenetre}h",
-                max_records=25,
-                tags=["crypto", str(entree.get("symbol", ""))],
+                # Relevé par groupe et non par jeton : le plafond monte en
+                # proportion, sans quoi un jeton très couvert évincerait les
+                # autres du même groupe.
+                max_records=50,
+                tags=["crypto", *symboles],
             )
         )
 
@@ -232,6 +250,46 @@ def collecter(
         )
 
     return news.dedupe(articles)
+
+
+#: Nombre maximal de mots-clés réunis dans une seule requête GDELT.
+#:
+#: La watchlist crypto compte dix jetons pour dix-huit mots-clés : trois
+#: requêtes suffisent. Un plafond évite la requête interminable qu'une
+#: watchlist qui grandirait finirait par produire, et que GDELT refuserait.
+MAX_TERMES_PAR_REQUETE: Final[int] = 8
+
+
+def _grouper_watchlist(
+    watchlist: list[dict[str, Any]], max_termes: int = MAX_TERMES_PAR_REQUETE
+) -> list[list[dict[str, Any]]]:
+    """Répartit les jetons suivis en groupes interrogeables d'un seul appel.
+
+    Les jetons sans mot-clé sont écartés : ils ne peuvent rien apporter à
+    une requête par mots-clés, et les garder ferait un groupe vide.
+
+    Args:
+        watchlist: entrées ``crypto_watchlist``.
+        max_termes: nombre maximal de mots-clés par requête.
+
+    Returns:
+        Groupes d'entrées, dans l'ordre de la configuration.
+    """
+    groupes: list[list[dict[str, Any]]] = []
+    courant: list[dict[str, Any]] = []
+    termes_courants = 0
+    for entree in watchlist:
+        mots = [m for m in (entree.get("keywords") or []) if str(m).strip()]
+        if not mots:
+            continue
+        if courant and termes_courants + len(mots) > max(int(max_termes), 1):
+            groupes.append(courant)
+            courant, termes_courants = [], 0
+        courant.append(entree)
+        termes_courants += len(mots)
+    if courant:
+        groupes.append(courant)
+    return groupes
 
 
 def _entites_liees(titre: str, watchlist: list[dict[str, Any]]) -> list[str]:
@@ -374,12 +432,25 @@ def construire_fil(
     reglages = dict(configuration.get("feed_crypto") or {})
     exclusions = [str(e) for e in (reglages.get("exclusions") or [])]
     max_analyses = int(reglages.get("max_analyses_par_execution", 8))
+    # Plafond quotidien, commun aux trois fils : le plafond par exécution ne
+    # borne plus rien dès que le workflow tourne toutes les trente minutes
+    # (voir modules/quota_llm.py).
+    reglages_llm = dict(configuration_explication or {})
+    plafond_jour = int(reglages_llm.get("max_analyses_par_jour", quota_llm.MAX_ANALYSES_PAR_JOUR))
+    budget_jour = quota_llm.restant(plafond_jour)
+    if budget_jour < max_analyses:
+        _LOG.info(
+            "Plafond quotidien d'analyses : %d restante(s) sur %d pour aujourd'hui.",
+            budget_jour, plafond_jour,
+        )
+    max_analyses = min(max_analyses, budget_jour)
 
     watchlist = list(configuration.get("crypto_watchlist") or [])
     variations = dict(variations_par_symbole or {})
 
     items: list[dict[str, Any]] = []
     analyses_faites = 0
+    analyses_llm = 0
 
     for article in articles:
         titre = str(getattr(article, "titre", "") or "")
@@ -419,8 +490,16 @@ def construire_fil(
                 "horodatage_utc": horodatage,
                 "mouvement_du_jour": mouvement,
             }
-            analyse, _ = _analyser_item(contexte, configuration_explication, client)
+            analyse, par_modele = _analyser_item(contexte, configuration_explication, client)
+            # Deux compteurs, et ils ne mesurent pas la même chose :
+            # ``analyses_faites`` borne le nombre de tentatives de cette
+            # exécution ; ``analyses_llm`` ne compte que les appels
+            # réellement facturés. Un repli sur le gabarit déterministe —
+            # clé absente, couche désactivée, réponse rejetée par le
+            # garde-fou — ne coûte rien et ne doit rien consommer du budget
+            # quotidien.
             analyses_faites += 1
+            analyses_llm += int(bool(par_modele))
 
         items.append(
             {
@@ -436,6 +515,11 @@ def construire_fil(
                 "nouveaute": nouveaute,
             }
         )
+
+    # Le compteur du jour n'est incrémenté qu'une fois les analyses faites :
+    # une exécution interrompue avant ce point n'aura rien facturé, donc rien
+    # à décompter.
+    quota_llm.consommer(analyses_llm)
 
     items.sort(key=lambda i: i["horodatage_utc"], reverse=True)
     _LOG.info(
@@ -533,6 +617,11 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="collecte et publie sans produire d'explication.",
     )
+    analyseur.add_argument(
+        "--sans-gdelt",
+        action="store_true",
+        help="ne collecte que les flux RSS : rapide et sans limite de débit.",
+    )
     arguments = analyseur.parse_args(argv)
 
     logging.basicConfig(
@@ -559,7 +648,10 @@ def main(argv: list[str] | None = None) -> int:
     if arguments.sans_analyse:
         reglages_explication["activee"] = False
 
-    articles = collecter(configuration, flux_rss=flux, requetes_gdelt=requetes_gdelt)
+    articles = collecter(
+        configuration, flux_rss=flux, requetes_gdelt=requetes_gdelt,
+        avec_gdelt=not arguments.sans_gdelt,
+    )
     variations = _variations_depuis_le_rapport(RACINE / "reports" / "crypto" / "latest.json")
     items = construire_fil(
         configuration,
