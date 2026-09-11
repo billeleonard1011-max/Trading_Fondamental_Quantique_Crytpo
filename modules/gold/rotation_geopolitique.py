@@ -210,6 +210,14 @@ def choisir_lot(
     pas enregistré, reste donc le plus ancien, et repasse à l'exécution
     suivante au lieu d'attendre un cycle entier.
 
+    Le lot est rendu **dans l'ordre de mesure**, le plus ancien en tête, et
+    non dans l'ordre du fichier. Ce n'est pas cosmétique : le budget d'attente
+    de GDELT est commun à toute l'exécution, donc consommé par les premiers
+    mesurés. Les derniers de la liste n'avaient droit qu'à une tentative sans
+    repli, systématiquement, ce qui pénalisait toujours les mêmes. Le donner à
+    celui qui attend depuis le plus longtemps est la seule répartition qui ne
+    crée pas d'affamé.
+
     Args:
         identifiants: dossiers configurés, dans l'ordre du fichier.
         mesures: dernières mesures connues.
@@ -218,7 +226,8 @@ def choisir_lot(
         jour: jour de référence.
 
     Returns:
-        Les identifiants à mesurer, dans l'ordre de la configuration.
+        Les identifiants à mesurer, du plus anciennement mesuré au plus
+        récent. À ancienneté égale, l'ordre du fichier tranche.
     """
     if taille <= 0:
         return []
@@ -232,8 +241,7 @@ def choisir_lot(
         anciennete = (reference - mesure.mesure_du).days if mesure else 10**6
         return (-anciennete, rangs[identifiant])
 
-    retenus = set(sorted(identifiants, key=_cle)[:taille])
-    return [i for i in identifiants if i in retenus]
+    return sorted(identifiants, key=_cle)[:taille]
 
 
 def enregistrer(

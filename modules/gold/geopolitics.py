@@ -269,6 +269,26 @@ def analyser_theme(
     if intensite is None:
         intensite = news.gdelt_intensity(query, volumes=volumes or None)
 
+    # Repli sur la série courte quand la longue a échoué.
+    #
+    # La requête sur quatre-vingt-dix jours et celle sur trente jours sont deux
+    # appels distincts, et GDELT en refuse une bonne part au hasard : la longue
+    # peut échouer quand la courte passe. Cette série-là était jusqu'ici
+    # utilisée pour calculer le ratio, puis jetée — le dossier affichait donc
+    # une intensité sans série, ne mémorisait rien, et restait indéfiniment
+    # dans la file de la rotation en consommant un créneau sur quatre.
+    #
+    # Trente jours suffisent à la trajectoire et à l'ancienneté ; seule la
+    # pertinence marché y perd en observations, et elle dit déjà quand elle en
+    # manque. Une série courte vaut mieux qu'aucune.
+    if not volumes_complets and intensite.get("volumes"):
+        volumes_complets = dict(intensite["volumes"])
+        volumes = volumes_complets
+        _LOG.info(
+            "Série longue indisponible pour « %s » : repli sur les %d jours de la mesure d'intensité.",
+            nom, len(volumes_complets),
+        )
+
     if not intensite.get("disponible") and not volumes:
         return Theme(
             nom=nom,
@@ -1413,28 +1433,36 @@ def analyser_dossiers(
         # depuis un exécuteur GitHub. Un lot des moins récemment mesurés suffit
         # à tenir chaque dossier à jour, et divise la pression par deux.
         mesures_connues = rotation_geopolitique.lire()
-        lot = set(rotation_geopolitique.choisir_lot(
-            [str(cfg.get("id", "")) for cfg in configs],
+        par_identifiant = {str(cfg.get("id", "")): cfg for cfg in configs}
+        lot = rotation_geopolitique.choisir_lot(
+            list(par_identifiant),
             mesures_connues,
             taille=int(reglages.get("dossiers_par_execution", rotation_geopolitique.TAILLE_LOT)),
-        ))
+        )
         if lot:
             _LOG.info(
-                "Rotation des dossiers : %d mesuré(s) cette fois-ci (%s).",
-                len(lot), ", ".join(sorted(lot)),
+                "Rotation des dossiers : %d mesuré(s) cette fois-ci, du plus ancien au plus récent (%s).",
+                len(lot), ", ".join(lot),
             )
 
-        dossiers: list[Dossier] = []
-        for cfg in configs:
-            identifiant = str(cfg.get("id", ""))
-            connue = mesures_connues.get(identifiant)
-            if identifiant in lot:
-                dossiers.append(_mesurer(cfg))
-                continue
+        # Mesurés dans l'ordre du lot — le plus anciennement mesuré d'abord —
+        # et non dans celui du fichier : le budget d'attente de GDELT est
+        # commun à l'exécution, donc consommé par les premiers. Le donner à
+        # ceux qui attendent depuis le plus longtemps évite d'affamer
+        # toujours les mêmes.
+        mesures_du_jour = {identifiant: _mesurer(par_identifiant[identifiant]) for identifiant in lot}
+
+        # Rangés dans l'ordre du fichier, lui : c'est celui que le rapport et
+        # le site présentent au lecteur.
+        dossiers: list[Dossier] = [
+            mesures_du_jour[identifiant]
+            if identifiant in mesures_du_jour
             # Hors du lot : reprise de la dernière mesure connue, si elle a
             # encore un sens. Une série de plus d'une semaine ne dit plus rien
             # du jour, et la publier datée ne suffirait pas à la rendre juste.
-            dossiers.append(_reprendre(cfg, connue, _mesurer))
+            else _reprendre(cfg, mesures_connues.get(identifiant), _mesurer)
+            for identifiant, cfg in par_identifiant.items()
+        ]
 
         def _a_remesurer(d: Dossier) -> bool:
             """Dit si un dossier mérite une nouvelle tentative réseau.

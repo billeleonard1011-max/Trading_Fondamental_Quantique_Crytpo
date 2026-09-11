@@ -773,7 +773,15 @@ def gdelt_intensity(
 
     Returns:
         Dictionnaire : ``query``, ``volume_24h``, ``moyenne_journaliere_30j``,
-        ``ratio``, ``alerte``, ``jours_observes``, ``disponible``, ``commentaire``.
+        ``ratio``, ``alerte``, ``jours_observes``, ``disponible``,
+        ``commentaire``, et ``volumes`` — la série effectivement obtenue.
+
+        ``volumes`` est rendu pour que l'appelant n'ait pas à la redemander.
+        Elle était auparavant utilisée puis jetée : un dossier dont la requête
+        longue échouait et dont la courte réussissait affichait donc une
+        intensité sans série, ne pouvait rien mémoriser, et restait
+        indéfiniment dans la file de la rotation. Observé deux exécutions de
+        suite sur le dossier Moyen-Orient.
     """
     resultat: dict[str, Any] = {
         "query": query,
@@ -784,6 +792,7 @@ def gdelt_intensity(
         "jours_observes": 0,
         "disponible": False,
         "commentaire": "",
+        "volumes": {},
     }
 
     # Les volumes journaliers portent déjà toute l'information nécessaire.
@@ -797,6 +806,11 @@ def gdelt_intensity(
     if not par_jour:
         resultat["commentaire"] = motif
         return resultat
+
+    # Rendue dès qu'elle existe, même quand le ratio n'est pas calculable :
+    # une série d'un seul jour reste une série, et l'appelant la mémorisera
+    # plutôt que de la redemander.
+    resultat["volumes"] = dict(par_jour)
 
     if len(par_jour) < 2:
         resultat["commentaire"] = "Moins de deux jours de données : ratio non calculable."

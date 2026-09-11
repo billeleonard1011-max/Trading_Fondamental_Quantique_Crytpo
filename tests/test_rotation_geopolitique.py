@@ -62,10 +62,17 @@ def test_a_anciennete_egale_lordre_de_configuration_tranche() -> None:
     assert rotation.choisir_lot(["c", "b", "a"], mesures, taille=2, jour=JOUR) == ["c", "b"]
 
 
-def test_le_lot_est_rendu_dans_lordre_de_la_configuration() -> None:
-    """L'ordre de mesure suit le fichier, pas l'ancienneté : plus lisible."""
+def test_le_lot_est_rendu_dans_lordre_de_mesure_pas_celui_du_fichier() -> None:
+    """Le plus anciennement mesuré passe en premier, et ce n'est pas cosmétique.
+
+    Le budget d'attente de GDELT est commun à toute l'exécution, donc consommé
+    par les dossiers mesurés en premier. Suivre l'ordre du fichier revenait à
+    n'accorder de repli qu'aux premiers de la liste, toujours les mêmes, et à
+    laisser les derniers avec une tentative sèche. Servir d'abord celui qui
+    attend depuis le plus longtemps est la seule répartition sans affamé.
+    """
     mesures = {"a": _mesure("a", date(2026, 9, 10)), "b": _mesure("b", date(2026, 9, 1))}
-    assert rotation.choisir_lot(["a", "b"], mesures, taille=2, jour=JOUR) == ["a", "b"]
+    assert rotation.choisir_lot(["a", "b"], mesures, taille=2, jour=JOUR) == ["b", "a"]
 
 
 def test_un_lot_nul_ne_mesure_rien() -> None:
@@ -362,3 +369,84 @@ def test_lexecution_suivante_mesure_lautre_moitie(
     for d in reprises:
         assert d["mesure_du"], "une reprise doit dire de quand elle date"
         assert d["age_mesure_jours"] is not None
+
+
+# ---------------------------------------------------------------------------
+# 7. Le repli sur la série courte, qui débloque un dossier prisonnier du lot
+# ---------------------------------------------------------------------------
+def test_la_serie_courte_sert_de_repli_a_la_longue(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Le défaut observé : la série de la mesure d'intensité était jetée.
+
+    La requête sur quatre-vingt-dix jours et celle sur trente jours sont deux
+    appels distincts, et GDELT en refuse une bonne part au hasard. Quand la
+    longue échouait et la courte passait, le dossier affichait une intensité
+    sans série, ne mémorisait rien, et restait indéfiniment dans la file de la
+    rotation en consommant un créneau sur quatre. Constaté deux exécutions de
+    suite sur le dossier Moyen-Orient.
+    """
+    courte = {f"2026-09-{j:02d}": 50.0 + j for j in range(1, 12)}
+
+    def _longue_echoue(query, timespan=None, **k):
+        # Quatre-vingt-dix jours : refusée. Trente jours : servie.
+        if timespan and timespan.startswith("30"):
+            return dict(courte), ""
+        return {}, "GDELT n'a pas répondu."
+
+    monkeypatch.setattr(geopolitics.news, "gdelt_volume_journalier", _longue_echoue)
+    monkeypatch.setattr(geopolitics.news, "fetch_gdelt", lambda *a, **k: [])
+
+    theme = geopolitics.analyser_theme("Essai", "(essai)")
+    assert theme.disponible, "l'intensité doit rester calculable"
+    assert theme.volumes == courte, "la série courte doit être conservée, pas jetée"
+
+
+def test_un_dossier_a_serie_courte_sort_de_la_file_de_rotation(
+    monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+) -> None:
+    """Conséquence qui compte : il est mémorisé, donc il cède son créneau.
+
+    Sans le repli, ce dossier revenait dans le lot à chaque exécution sans
+    jamais progresser, au détriment des sept autres.
+    """
+    courte = {f"2026-09-{j:02d}": 50.0 + j for j in range(1, 12)}
+    monkeypatch.setattr(rotation, "FICHIER_MESURES", tmp_path / "mesures.json")
+    monkeypatch.setattr(
+        geopolitics.news, "gdelt_volume_journalier",
+        lambda query, timespan=None, **k: (dict(courte), "") if (timespan or "").startswith("30")
+        else ({}, "GDELT n'a pas répondu."),
+    )
+    monkeypatch.setattr(geopolitics.news, "fetch_gdelt", lambda *a, **k: [])
+
+    geopolitics.analyser_dossiers(
+        dossiers_configures=[_CFG], identifiants_connus={},
+        lignes_events=[], motif_events="", themes_generiques=[],
+        reglages_decouverte={"dossiers_par_execution": 1, "max_candidats": 0, "max_candidats_mesures": 0},
+    )
+    memorisees = rotation.lire(tmp_path / "mesures.json")
+    assert "essai" in memorisees, "un dossier à série courte doit être mémorisé"
+    assert memorisees["essai"].volumes == courte
+
+
+def test_gdelt_intensity_rend_la_serie_quelle_a_obtenue(monkeypatch: pytest.MonkeyPatch) -> None:
+    """La série est au contrat de sortie : c'est ce qui permet le repli."""
+    from dataio import news
+
+    serie = {"2026-09-10": 10.0, "2026-09-11": 30.0}
+    monkeypatch.setattr(news, "gdelt_volume_journalier", lambda *a, **k: (dict(serie), ""))
+    resultat = news.gdelt_intensity("(essai)")
+    assert resultat["volumes"] == serie
+    assert resultat["disponible"] is True
+
+    # Série fournie par l'appelant : rendue telle quelle, sans appel.
+    resultat = news.gdelt_intensity("(essai)", volumes=serie)
+    assert resultat["volumes"] == serie
+
+
+def test_une_intensite_indisponible_rend_une_serie_vide(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Rien à mémoriser, et le champ existe quand même : pas de KeyError."""
+    from dataio import news
+
+    monkeypatch.setattr(news, "gdelt_volume_journalier", lambda *a, **k: ({}, "GDELT muet."))
+    resultat = news.gdelt_intensity("(essai)")
+    assert resultat["volumes"] == {}
+    assert resultat["disponible"] is False
