@@ -41,7 +41,7 @@ import time
 from dataclasses import dataclass, field, replace
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Final
+from typing import Any, Callable, Final
 
 import numpy as np
 import pandas as pd
@@ -51,6 +51,7 @@ from dataio import news
 from dataio import gdelt_events
 from modules.geopolitique import sujets
 from modules.geopolitique.feed import identifiant_item
+from modules.gold import rotation_geopolitique
 
 _LOG: Final = logging.getLogger(__name__)
 
@@ -585,7 +586,15 @@ def _deja_dans_les_prix(
 
 #: Nombre de nouvelles mesures accordées à un dossier que GDELT n'a pas servi,
 #: et pause avant la première (doublée à chaque fois).
-REESSAIS_DOSSIER: int = 2
+#:
+#: Ramené de deux à une. Chaque remesure coûte deux requêtes GDELT par dossier
+#: concerné, et ces requêtes-là sont précisément celles que GDELT refuse quand
+#: il limite. Elles étaient indispensables tant qu'un échec faisait perdre le
+#: dossier ; depuis que la dernière mesure connue est reprise et datée (voir
+#: :mod:`modules.gold.rotation_geopolitique`), perdre la mesure du jour ne fait
+#: plus perdre le dossier, et insister deux fois de plus ne rachète qu'une
+#: fraîcheur d'un jour contre un tiers du budget de requêtes.
+REESSAIS_DOSSIER: int = 1
 ATTENTE_REESSAI_DOSSIER_SECONDES: float = 20.0
 
 
@@ -650,6 +659,16 @@ class Dossier:
     #: Paires d'acteurs découvertes dans l'export Events et rattachées à ce
     #: dossier (régional surtout).
     sujets_rattaches: list[dict[str, Any]] = field(default_factory=list)
+    #: Vrai quand la mesure publiée n'est pas celle du jour mais la dernière
+    #: connue, reprise faute d'avoir pu interroger GDELT (rotation, ou refus).
+    reprise: bool = False
+    #: Jour où GDELT a réellement servi cette mesure, au format ``AAAA-MM-JJ``.
+    #: Propagé tel quel d'une reprise à l'autre : sans cela, une reprise de
+    #: reprise paraîtrait fraîche.
+    mesure_du: str = ""
+    #: Âge de la mesure en jours. ``0`` pour une mesure du jour, ``None``
+    #: quand aucune mesure n'est disponible.
+    age_mesure_jours: int | None = None
 
     def to_dict(self) -> dict[str, Any]:
         """Sérialise le dossier pour le rapport JSON."""
@@ -683,6 +702,12 @@ class Dossier:
             "pertinence": self.pertinence,
             "classement": self.classement,
             "sujets_rattaches": self.sujets_rattaches,
+            # Fraîcheur de la mesure. Même convention que le positionnement
+            # COT, publié avec son `age_jours` : un chiffre daté vaut mieux
+            # qu'un « indisponible », à condition que la date paraisse.
+            "reprise": self.reprise,
+            "mesure_du": self.mesure_du,
+            "age_mesure_jours": self.age_mesure_jours,
         }
 
 
@@ -790,6 +815,58 @@ def _invalidation_dossier(theme: Theme, chaine: dict[str, Any]) -> str:
             "elle redeviendrait significative si les maillons manquants se remettaient à suivre."
         )
     return " ".join(morceaux)
+
+
+def _reprendre(
+    cfg: dict[str, Any],
+    connue: rotation_geopolitique.Mesure | None,
+    mesurer: Callable[..., Dossier],
+) -> Dossier:
+    """Publie un dossier hors du lot : sa dernière mesure, ou rien, mais daté.
+
+    Trois cas, et aucun n'appelle le réseau :
+
+    * **mesure connue et encore valable** — elle est republiée telle quelle,
+      avec son âge. C'est le principe déjà appliqué au positionnement COT,
+      publié avec quatre jours de retard et son ``age_jours`` : un chiffre
+      daté vaut mieux qu'un « indisponible » ;
+    * **mesure trop ancienne** — au-delà d'une semaine, l'intensité ne dit
+      plus rien du jour. Le dossier est publié indisponible, et le motif
+      donne la date et l'âge plutôt qu'un vague « GDELT indisponible » ;
+    * **aucune mesure** — démarrage à froid. Le motif dit que le tour du
+      dossier n'est pas encore venu, ce qui se résout en un cycle.
+
+    Args:
+        cfg: entrée de ``config/geopolitique_dossiers.yaml``.
+        connue: dernière mesure enregistrée, ou ``None``.
+        mesurer: fonction de mesure, appelée sans réseau grâce aux volumes.
+
+    Returns:
+        Le dossier, marqué ``reprise`` quand un chiffre est republié.
+    """
+    if connue is None:
+        return mesurer(cfg, volumes={}, intensite={
+            "disponible": False,
+            "commentaire": "pas encore mesuré : son tour vient dans la rotation des dossiers",
+        })
+
+    age = rotation_geopolitique.age_jours(connue)
+    if rotation_geopolitique.est_perimee(connue):
+        return mesurer(cfg, volumes={}, intensite={
+            "disponible": False,
+            "commentaire": (
+                f"dernière mesure du {connue.mesure_du} ({age} jours) : trop ancienne "
+                f"pour dire quoi que ce soit de la couverture du jour"
+            ),
+        })
+
+    dossier = mesurer(cfg, volumes=connue.volumes)
+    return replace(
+        dossier,
+        reprise=True,
+        mesure_du=str(connue.mesure_du),
+        age_mesure_jours=age,
+    )
 
 
 def mesurer_dossier(
@@ -1303,16 +1380,76 @@ def analyser_dossiers(
                 motif_events,
             )
 
-        def _mesurer(cfg: dict[str, Any]) -> Dossier:
+        def _mesurer(
+            cfg: dict[str, Any],
+            volumes: dict[str, float] | None = None,
+            intensite: dict[str, Any] | None = None,
+        ) -> Dossier:
+            """Mesure un dossier, ou le reconstitue sans toucher au réseau.
+
+            ``volumes`` fourni, aucun appel réseau n'est émis : la trajectoire,
+            l'ancienneté et la pertinence marché se recalculent sur la série
+            reprise, exactement comme le jour où elle a été obtenue. Une série
+            vide accompagnée d'une ``intensite`` indisponible produit un
+            dossier non mesuré, toujours sans réseau.
+            """
             return mesurer_dossier(
                 cfg, connus.get(str(cfg.get("id", "")), set()),
                 fenetre=fenetre, seuil_acceleration=seuil_acceleration,
                 seuil_essoufflement=seuil_essoufflement,
                 series_macro=series_macro, prix_or=prix_or, z_score_prime=z_score_prime,
                 lignes_events=lignes_events, motif_events=motif_events,
+                volumes=volumes, intensite=intensite,
+                # Une reprise ne va pas rechercher d'articles : ce serait le
+                # second appel réseau que la rotation cherche justement à
+                # éviter.
+                articles=[] if volumes is not None else None,
             )
 
-        dossiers = [_mesurer(cfg) for cfg in configs]
+        # --- Rotation : qui est mesuré cette fois-ci -------------------------
+        #
+        # Mesurer les huit dossiers à chaque exécution demandait jusqu'à
+        # quarante-huit requêtes GDELT, dont GDELT refusait la quasi-totalité
+        # depuis un exécuteur GitHub. Un lot des moins récemment mesurés suffit
+        # à tenir chaque dossier à jour, et divise la pression par deux.
+        mesures_connues = rotation_geopolitique.lire()
+        lot = set(rotation_geopolitique.choisir_lot(
+            [str(cfg.get("id", "")) for cfg in configs],
+            mesures_connues,
+            taille=int(reglages.get("dossiers_par_execution", rotation_geopolitique.TAILLE_LOT)),
+        ))
+        if lot:
+            _LOG.info(
+                "Rotation des dossiers : %d mesuré(s) cette fois-ci (%s).",
+                len(lot), ", ".join(sorted(lot)),
+            )
+
+        dossiers: list[Dossier] = []
+        for cfg in configs:
+            identifiant = str(cfg.get("id", ""))
+            connue = mesures_connues.get(identifiant)
+            if identifiant in lot:
+                dossiers.append(_mesurer(cfg))
+                continue
+            # Hors du lot : reprise de la dernière mesure connue, si elle a
+            # encore un sens. Une série de plus d'une semaine ne dit plus rien
+            # du jour, et la publier datée ne suffirait pas à la rendre juste.
+            dossiers.append(_reprendre(cfg, connue, _mesurer))
+
+        def _a_remesurer(d: Dossier) -> bool:
+            """Dit si un dossier mérite une nouvelle tentative réseau.
+
+            Remesuré : GDELT muet, ou intensité obtenue sans la série de
+            volumes (la requête longue a échoué, la courte a réussi) — sans
+            cette série, ni trajectoire ni pertinence marché. Un dossier
+            repris n'est jamais remesuré : il est hors du lot par choix.
+            """
+            if d.reprise:
+                return False
+            return bool(
+                (not d.theme.disponible and "GDELT" in (d.theme.motif or ""))
+                or (d.theme.disponible and not d.theme.volumes)
+            )
 
         # Un dossier que GDELT n'a pas servi est remesuré après une pause
         # croissante, plutôt que marqué indisponible au premier refus : le
@@ -1320,14 +1457,7 @@ def analyser_dossiers(
         # minute d'attente. Seuls les échecs GDELT sont réessayés — un dossier
         # sans mot-clé configuré ne s'arrangera pas en patientant.
         for k in range(REESSAIS_DOSSIER):
-            # Remesuré : GDELT muet, ou intensité obtenue sans la série de
-            # volumes (la requête longue a échoué, la courte a réussi) — sans
-            # cette série, ni trajectoire ni pertinence marché.
-            a_reessayer = [
-                i for i, d in enumerate(dossiers)
-                if (not d.theme.disponible and "GDELT" in (d.theme.motif or ""))
-                or (d.theme.disponible and not d.theme.volumes)
-            ]
+            a_reessayer = [i for i, d in enumerate(dossiers) if _a_remesurer(d)]
             if not a_reessayer:
                 break
             pause = ATTENTE_REESSAI_DOSSIER_SECONDES * (2 ** k)
@@ -1338,6 +1468,31 @@ def analyser_dossiers(
             time.sleep(pause)
             for i in a_reessayer:
                 dossiers[i] = _mesurer(configs[i])
+
+        # --- Reprise de secours : le lot a été tenté, GDELT n'a pas répondu --
+        #
+        # Un dossier du lot dont la mesure échoue malgré sa remesure reprend sa
+        # dernière série connue, plutôt que de paraître indisponible. C'est ce
+        # qui rend la remesure moins précieuse, et donc REESSAIS_DOSSIER plus
+        # petit : perdre la mesure du jour ne fait plus perdre le dossier.
+        for i, dossier in enumerate(dossiers):
+            if dossier.reprise or dossier.theme.volumes:
+                continue
+            connue = mesures_connues.get(str(configs[i].get("id", "")))
+            if connue is None or rotation_geopolitique.est_perimee(connue):
+                continue
+            _LOG.info(
+                "Mesure du jour manquante pour %s : reprise de celle du %s.",
+                dossier.nom_affiche, connue.mesure_du,
+            )
+            dossiers[i] = _reprendre(configs[i], connue, _mesurer)
+
+        # La rotation ne retient que les séries fraîchement obtenues : une
+        # reprise enregistrée rajeunirait sa date et sortirait le dossier de la
+        # file d'attente pour de bon.
+        obtenues = rotation_geopolitique.depuis_dossiers(dossiers)
+        if obtenues:
+            rotation_geopolitique.enregistrer({**mesures_connues, **obtenues})
 
     # --- Pertinence marché de chaque dossier ---------------------------------
     dossiers = [

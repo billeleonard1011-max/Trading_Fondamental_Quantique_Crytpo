@@ -372,6 +372,28 @@ function rendreDeveloppements(items, nouveaux = new Set()) {
 }
 
 /**
+ * Dit de quand date la mesure d'intensité d'un dossier, si ce n'est pas du jour.
+ *
+ * Les dossiers sont mesurés par rotation, quatre par exécution : celui qui
+ * n'est pas du lot republie sa dernière mesure connue plutôt que de paraître
+ * indisponible. Un chiffre d'hier vaut mieux qu'un trou, à la seule condition
+ * qu'il porte sa date — sans quoi il se lirait comme la couverture du jour.
+ * C'est la convention déjà appliquée au positionnement COT.
+ *
+ * @param {object} dossier Dossier publié.
+ * @returns {string} Mention de fraîcheur, vide si la mesure est du jour.
+ */
+function rendreFraicheurMesure(dossier) {
+  if (!dossier || !dossier.reprise) return "";
+  const age = dossier.age_mesure_jours;
+  const quand = dossier.mesure_du ? ` du ${echapper(dossier.mesure_du)}` : "";
+  const jours = age === null || age === undefined
+    ? ""
+    : ` — ${age === 0 ? "mesure du jour" : `${age} jour(s)`}`;
+  return `<span class="cle-detail">mesure${quand}${jours}, non renouvelée aujourd'hui</span>`;
+}
+
+/**
  * Rend le panneau d'un dossier de conflit.
  *
  * @param {object} dossier Dossier mesuré (voir modules/gold/geopolitics.py::Dossier).
@@ -392,6 +414,11 @@ function rendreDossierPanneau(dossier, meta, source) {
   const intensite = dossier.intensite_ratio === null || dossier.intensite_ratio === undefined
     ? ABSENT
     : `${nombre(dossier.intensite_ratio, 1)}×`;
+  // Fraîcheur de la mesure. Les dossiers sont mesurés par rotation, quatre par
+  // exécution : celui qui n'est pas du lot republie sa dernière mesure connue.
+  // Le chiffre ne doit alors jamais paraître comme celui du jour — même
+  // convention que le positionnement COT et son age_jours.
+  const frais = rendreFraicheurMesure(dossier);
   const cl = dossier.classement || {};
   const pert = dossier.pertinence || {};
   const statutLibelle = { epingle: "épinglé", actif: "actif", veille: "veille", candidat: "candidat" }[cl.statut] || "";
@@ -411,7 +438,7 @@ function rendreDossierPanneau(dossier, meta, source) {
       ${rattaches ? `<p class="metrique-sens">Paires d'acteurs rattachées à ce dossier : ${rattaches}.</p>` : ""}
       <ul class="liste-detail">
         <li><span>${rendreLibelleAvecInfobulle("intensite_couverture", "Intensité de couverture")}</span>
-          <span>${intensite} la normale</span></li>
+          <span>${intensite} la normale${frais}</span></li>
         <li><span>${rendreLibelleAvecInfobulle("trajectoire_couverture", "Trajectoire")}</span>
           <span>${echapper(dossier.trajectoire || "non qualifiée")}</span></li>
       </ul>`,

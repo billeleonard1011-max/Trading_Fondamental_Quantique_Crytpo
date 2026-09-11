@@ -936,6 +936,37 @@ test("un item publié avant le champ portée se range en dernier sans disparaît
     "l'item sans portée se range en dernier, malgré sa date plus récente");
 });
 
+test("une mesure reprise affiche sa date, une mesure du jour n'affiche rien", () => {
+  // Les dossiers sont mesurés par rotation, quatre par exécution. Celui qui
+  // n'est pas du lot republie sa dernière mesure connue : le chiffre doit
+  // alors porter sa date, sans quoi il se lirait comme la couverture du jour.
+  const repris = { disponible: true, donnees: etatGeoExemple([dossierExemple({
+    reprise: true, mesure_du: "2026-09-09", age_mesure_jours: 2,
+  })]).donnees };
+  const corpsRepris = rubriqueGeopolitique(repris, []).corps;
+  assert.match(corpsRepris, /2,5×/);
+  assert.match(corpsRepris, /2026-09-09/);
+  assert.match(corpsRepris, /non renouvelée aujourd&#39;hui|non renouvelée aujourd'hui/);
+
+  // Cas normal : rien à signaler, donc rien d'affiché.
+  const dujour = { disponible: true, donnees: etatGeoExemple([dossierExemple({
+    reprise: false, mesure_du: "", age_mesure_jours: null,
+  })]).donnees };
+  const corpsDuJour = rubriqueGeopolitique(dujour, []).corps;
+  assert.match(corpsDuJour, /2,5×/);
+  assert.doesNotMatch(corpsDuJour, /non renouvelée/);
+});
+
+test("un dossier en attente de son tour explique pourquoi, au lieu d'un trou", () => {
+  // Démarrage à froid de la rotation : le motif doit se comprendre sans
+  // connaître le mécanisme.
+  const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple({
+    disponible: false,
+    motif: "pas encore mesuré : son tour vient dans la rotation des dossiers",
+  })]).donnees };
+  assert.match(rubriqueGeopolitique(etat, []).corps, /son tour vient dans la rotation/);
+});
+
 test("rubriqueGeopolitique affiche l'intensité maximale et le dossier dominant en résumé", () => {
   const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple()]).donnees };
   const { resume } = rubriqueGeopolitique(etat, []);

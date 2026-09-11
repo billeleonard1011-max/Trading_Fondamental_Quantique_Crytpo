@@ -15,6 +15,7 @@ import pytest
 from dataio import news
 from modules import quota_llm
 from modules.gold import geopolitics
+from modules.gold import rotation_geopolitique
 
 
 @pytest.fixture(autouse=True)
@@ -43,4 +44,23 @@ def _quota_llm_isole(monkeypatch: pytest.MonkeyPatch, tmp_path_factory: pytest.T
     """
     monkeypatch.setattr(
         quota_llm, "FICHIER_QUOTA", tmp_path_factory.mktemp("quota") / "quota_llm.json"
+    )
+
+
+@pytest.fixture(autouse=True)
+def _rotation_geopolitique_isolee(
+    monkeypatch: pytest.MonkeyPatch, tmp_path_factory: pytest.TempPathFactory
+) -> None:
+    """Isole l'état de rotation des dossiers, pour la même raison que le quota.
+
+    Constaté en écrivant la rotation : ``analyser_dossiers`` enregistre les
+    séries de volumes obtenues, et la suite avait déjà rempli le fichier du
+    dépôt de mesures fictives. Elles auraient daté d'aujourd'hui des dossiers
+    jamais mesurés, qui seraient alors sortis de la file d'attente réelle — une
+    rotation faussée, silencieusement, par la suite de tests.
+    """
+    monkeypatch.setattr(
+        rotation_geopolitique,
+        "FICHIER_MESURES",
+        tmp_path_factory.mktemp("rotation") / "geopolitique_dernieres_mesures.json",
     )

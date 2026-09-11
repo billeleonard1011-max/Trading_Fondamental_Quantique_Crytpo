@@ -118,6 +118,29 @@ dossiers:
 
 # Découverte automatique de sujets (modules/geopolitique/sujets.py).
 decouverte:
+  # Rotation des dossiers (modules/gold/rotation_geopolitique.py).
+  #
+  # Quatre dossiers sur huit par exécution, soit un cycle de deux exécutions.
+  # Un dossier hors du lot republie sa dernière mesure connue, avec son âge,
+  # plutôt que de paraître indisponible.
+  #
+  # Pourquoi quatre, calculé à 21,0 s par requête GDELT mesurées sur
+  # l'exécution CI du 11 septembre 2026 :
+  #
+  #   lot  requêtes  phase géo  job total  cycle      délai max
+  #     8        48    16,8 min   25,8 min  1 exéc.   3 jours
+  #     6        40    14,0 min   23,0 min  2 exéc.   4 jours
+  #     4        32    11,2 min   20,2 min  2 exéc.   4 jours   ← retenu
+  #     3        28     9,8 min   18,8 min  3 exéc.   5 jours
+  #     2        24     8,4 min   17,4 min  4 exéc.   6 jours
+  #
+  # Trois ferait gagner 1,4 min de plus, mais porterait le cycle à trois
+  # exécutions et le délai maximum à cinq jours : le rapport ne tourne que du
+  # lundi au vendredi, et un cycle qui traverse un week-end coûte deux jours.
+  # Les durées ci-dessus supposent que TOUTES les mesures échouent et
+  # déclenchent leur remesure, soit le pire cas ; si elles aboutissent du
+  # premier coup, le lot de quatre tient en 24 requêtes et 17,4 min de job.
+  dossiers_par_execution: 4
   heures_events: 24            # exports GDELT Events agrégés (un par quart d'heure)
   max_candidats: 5             # paires d'acteurs retenues dans les exports Events
   max_candidats_mesures: 3     # dont mesurées par GDELT DOC (une requête chacune)
