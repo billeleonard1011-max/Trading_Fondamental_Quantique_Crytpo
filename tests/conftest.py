@@ -19,10 +19,17 @@ from modules.gold import geopolitics
 
 @pytest.fixture(autouse=True)
 def _sans_espacement_gdelt(monkeypatch: pytest.MonkeyPatch) -> None:
-    """Supprime l'attente entre appels GDELT pour la durée d'un test."""
+    """Supprime l'attente entre appels GDELT pour la durée d'un test.
+
+    Le budget d'attente du processus est aussi remis à neuf : il est global
+    par construction, et toute la suite tourne dans un seul processus. Sans
+    cette remise à zéro, un test qui l'épuise ferait échouer les suivants
+    selon l'ordre d'exécution, ce qui est la pire espèce de test instable.
+    """
     monkeypatch.setattr(news, "INTERVALLE_MIN_GDELT", 0.0)
     monkeypatch.setattr(news, "ATTENTE_429_SECONDES", 0.0)
     monkeypatch.setattr(geopolitics, "ATTENTE_REESSAI_DOSSIER_SECONDES", 0.0)
+    news.reinitialiser_budget_gdelt()
 
 
 @pytest.fixture(autouse=True)

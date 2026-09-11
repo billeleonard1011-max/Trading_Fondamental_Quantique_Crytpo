@@ -89,6 +89,36 @@ INTERVALLE_MIN_GDELT: float = float(os.environ.get("GDELT_INTERVALLE_MIN", "8"))
 #: Instant du dernier appel GDELT réellement parti, pour l'espacement.
 _dernier_appel_gdelt: float = 0.0
 
+#: Temps total, en secondes, que ce processus accepte de passer à patienter
+#: entre deux tentatives GDELT.
+#:
+#: Pourquoi un budget global, et pas seulement un nombre d'essais par requête
+#: -------------------------------------------------------------------------
+#: Le repli par requête est bon quand GDELT ne refuse que passagèrement : la
+#: deuxième ou la troisième tentative passe. Il devient destructeur quand le
+#: refus est systématique, ce qui est le cas sur les exécuteurs GitHub, dont
+#: les adresses sont partagées et que GDELT limite durement. Mesuré sur les
+#: exécutions CI du 11 septembre 2026 : 53 refus 429, douze requêtes
+#: abandonnées après quatre tentatives, six abouties. Chaque abandon coûte
+#: 15 + 30 + 60 secondes d'attente, soit vingt et une minutes de pure
+#: temporisation — et le job a été tué au bout de ses 45 minutes, à la même
+#: étape, trois exécutions de suite, sans jamais rien publier.
+#:
+#: Un rapport partiel qui paraît vaut mieux qu'un rapport complet qui
+#: n'existe pas. Le budget rend cette règle mécanique : tant qu'il reste, une
+#: requête a droit à toutes ses tentatives ; une fois épuisé, les suivantes
+#: échouent à la première et le dossier concerné est publié comme
+#: indisponible, avec son motif. C'est la dégradation gracieuse que le reste
+#: du projet applique partout ailleurs.
+#:
+#: 300 secondes laissent passer environ trois séries complètes de tentatives,
+#: assez pour absorber une limitation passagère, trop peu pour dépasser le
+#: délai d'expiration du job.
+BUDGET_ATTENTE_GDELT: float = float(os.environ.get("GDELT_BUDGET_ATTENTE", "300"))
+
+#: Temps déjà passé à patienter dans ce processus, décompté du budget.
+_attente_gdelt_consommee: float = 0.0
+
 #: En-têtes communs aux appels sortants.
 #:
 #: Note sur la compression : plusieurs flux servis derrière Cloudflare
@@ -111,7 +141,29 @@ __all__ = [
     "gdelt_volume_journalier",
     "gdelt_intensity",
     "dedupe",
+    "reinitialiser_budget_gdelt",
+    "budget_gdelt_restant",
 ]
+
+
+def reinitialiser_budget_gdelt() -> None:
+    """Rend au processus la totalité de son budget d'attente GDELT.
+
+    Un processus qui démarre part d'un budget neuf ; cette fonction existe
+    pour les tests, qui s'exécutent tous dans le même processus et se
+    légueraient sinon un budget déjà entamé.
+    """
+    global _attente_gdelt_consommee
+    _attente_gdelt_consommee = 0.0
+
+
+def budget_gdelt_restant() -> float:
+    """Dit combien de secondes d'attente le processus peut encore s'offrir.
+
+    Returns:
+        Le solde, jamais négatif.
+    """
+    return max(BUDGET_ATTENTE_GDELT - _attente_gdelt_consommee, 0.0)
 
 
 @dataclass(slots=True)
@@ -402,6 +454,14 @@ def _appel_gdelt(parametres: dict[str, Any], essais: int = 4) -> dict[str, Any] 
     un dossier géopolitique entier au premier coup, ce qui a été observé en
     production sur Russie - Ukraine malgré l'espacement des appels.
 
+    Le repli est borné par un **budget d'attente commun à tout le processus**
+    (:data:`BUDGET_ATTENTE_GDELT`). Réessayer indéfiniment requête par requête
+    ne répare rien quand GDELT refuse systématiquement, et coûte alors plus
+    que l'exécution n'a de temps : trois exécutions CI de suite ont été tuées
+    à leur délai d'expiration sans rien publier. Une fois le budget épuisé,
+    les requêtes suivantes échouent à la première tentative et leur dossier
+    paraît comme indisponible, avec son motif.
+
     Un cache disque de courte durée (voir :data:`CACHE_TTL_SECONDES`) évite
     de répéter le même appel plusieurs fois dans la même exécution : la
     chaîne de transmission géopolitique de l'or et les fils quantique, crypto
@@ -421,6 +481,37 @@ def _appel_gdelt(parametres: dict[str, Any], essais: int = 4) -> dict[str, Any] 
         _LOG.debug("GDELT « %s » servi depuis le cache.", parametres.get("query", "")[:60])
         return en_cache
 
+    global _attente_gdelt_consommee
+
+    def _patienter(secondes: float, motif: str, tentative: int) -> bool:
+        """Attend entre deux tentatives, si le budget du processus le permet.
+
+        Args:
+            secondes: attente demandée par le repli exponentiel.
+            motif: ce que GDELT a répondu, pour le journal.
+            tentative: numéro de la tentative qui vient d'échouer.
+
+        Returns:
+            ``True`` si l'attente a eu lieu et qu'une nouvelle tentative doit
+            suivre, ``False`` si le budget est épuisé et qu'il faut renoncer.
+        """
+        global _attente_gdelt_consommee
+        if _attente_gdelt_consommee + secondes > BUDGET_ATTENTE_GDELT:
+            _LOG.warning(
+                "Budget d'attente GDELT épuisé (%.0f s) : %s abandonné sans réessayer. "
+                "Le dossier concerné sera publié comme indisponible plutôt que de "
+                "faire dépasser l'exécution.",
+                BUDGET_ATTENTE_GDELT, motif,
+            )
+            return False
+        _attente_gdelt_consommee += secondes
+        _LOG.info(
+            "GDELT %s : nouvelle tentative dans %.0f s (%d/%d), budget d'attente %.0f/%.0f s.",
+            motif, secondes, tentative, essais, _attente_gdelt_consommee, BUDGET_ATTENTE_GDELT,
+        )
+        time.sleep(secondes)
+        return True
+
     reponse = None
     essais = max(int(essais), 1)
     for tentative in range(1, essais + 1):
@@ -429,26 +520,20 @@ def _appel_gdelt(parametres: dict[str, Any], essais: int = 4) -> dict[str, Any] 
             _espacer_appels_gdelt()
             reponse = requests.get(URL_GDELT, params=parametres, timeout=TIMEOUT_GDELT, headers=_ENTETES)
         except (requests.Timeout, requests.ConnectionError) as exc:
-            if tentative < essais:
-                _LOG.info(
-                    "GDELT n'a pas répondu à temps (%s) : nouvelle tentative dans %.0f s (%d/%d).",
-                    parametres.get("mode"), attente, tentative, essais,
-                )
-                time.sleep(attente)
+            if tentative < essais and _patienter(
+                attente, f"n'a pas répondu à temps ({parametres.get('mode')})", tentative
+            ):
                 continue
-            _LOG.warning("GDELT injoignable (%s) après %d tentatives : %s", parametres.get("mode"), essais, exc)
+            _LOG.warning("GDELT injoignable (%s) après %d tentative(s) : %s", parametres.get("mode"), tentative, exc)
             return None
         except requests.RequestException as exc:
             _LOG.warning("GDELT injoignable (%s) : %s", parametres.get("mode"), exc)
             return None
 
         passager = reponse.status_code == 429 or reponse.status_code >= 500
-        if passager and tentative < essais:
-            _LOG.info(
-                "GDELT répond %d : nouvelle tentative dans %.0f s (%d/%d).",
-                reponse.status_code, attente, tentative, essais,
-            )
-            time.sleep(attente)
+        if passager and tentative < essais and _patienter(
+            attente, f"répond {reponse.status_code}", tentative
+        ):
             continue
         try:
             reponse.raise_for_status()
