@@ -13,7 +13,7 @@
 
 import { recupererBougiesRecentes } from "./kraken.js";
 import { jourUtc, recupererTauxEurusd } from "./taux.js";
-import { etatInitial, traiterNouvellesBougies } from "./moteur.js";
+import { VARIANTES_OB, etatInitial, traiterNouvellesBougies } from "./moteur.js";
 import { configExecutionDefaut } from "./execution.js";
 import { chargerEtat, sauvegarderEtat, tauxDuJour, enregistrerTauxDuJour, appliquerEvenements } from "./journal.js";
 import { rendreEvenement } from "./alertes.js";
@@ -42,6 +42,28 @@ const COLONNES_JOURNAL_PUBLIQUES = [
   "prix_sortie_s1", "prix_sortie_s2", "prix_sortie_s3",
   "horodatage_resolution_s1", "horodatage_resolution_s2", "horodatage_resolution_s3",
 ].join(", ");
+
+/**
+ * Variantes suivies en direct, et donc setups joués : le moteur déduit les
+ * setups actifs de cette liste (voir moteur.js::traiterNouvellesBougies).
+ *
+ * Le setup de prise de liquidité (sweep) en est retiré. Mesuré sur cent
+ * quatre-vingt-huit jours répartis sur deux périodes disjointes, il perd
+ * dans les trente-deux configurations testées, et il empêchait quatre-vingts
+ * à quatre-vingt-seize setups d'order block de se former en occupant la
+ * position. Le code, ses tests et sa parité restent en place : il suffit de
+ * remettre ses variantes ici, ou de poser VARIANTES_ACTIVES dans
+ * l'environnement du Worker, pour le rejouer si l'historique s'étend.
+ *
+ * @param {object} env Variables d'environnement du Worker.
+ * @returns {string[]} Variantes à suivre.
+ */
+function variantesActives(env) {
+  const brut = String((env && env.VARIANTES_ACTIVES) || "").trim();
+  if (!brut) return [...VARIANTES_OB];
+  const demandees = brut.split(",").map((v) => v.trim()).filter(Boolean);
+  return demandees.length ? demandees : [...VARIANTES_OB];
+}
 
 /** Nombre maximal de signaux renvoyés par la route /journal. */
 const LIMITE_JOURNAL = 2000;
@@ -163,6 +185,8 @@ async function traiterExecution(env) {
     fenetre,
     configExecutionDefaut(),
     taux,
+    4,
+    variantesActives(env),
   );
 
   // 5. Journalisation. Les infractions au garde-fou anti-recommandation ne

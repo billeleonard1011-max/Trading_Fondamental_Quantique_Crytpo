@@ -316,3 +316,30 @@ test("construireReponseJournal expose le setup et le niveau balayé, et n'affich
   assert.match(signal.texte_detection, /balayage d'un ancien plus bas M15/);
   assert.doesNotMatch(JSON.stringify(charge), /"lots"|resultat_s1_usd/);
 });
+
+// ---------------------------------------------------------------------------
+// Le sweep n'est plus joué en direct
+// ---------------------------------------------------------------------------
+import { VARIANTES_OB, VARIANTES_SWEEP, etatInitial, traiterNouvellesBougies } from "../src/moteur.js";
+import { configExecutionDefaut } from "../src/execution.js";
+
+test("le moteur ne forme aucun setup sweep quand seules les variantes OB sont suivies", () => {
+  // Une série qui produit des niveaux de liquidité et des sweeps : avec les
+  // variantes OB seules, aucun signal ne doit en venir.
+  const bougies = [];
+  let prix = 3000;
+  for (let i = 0; i < 4000; i += 1) {
+    prix += Math.sin(i / 7) * 1.6 + Math.cos(i / 23) * 0.9;
+    bougies.push({ t: Date.UTC(2026, 8, 1) + i * 60_000, ouverture: prix, haut: prix + 0.8, bas: prix - 0.8, cloture: prix, volume: 1 });
+  }
+  const { evenements } = traiterNouvellesBougies(
+    etatInitial(), bougies, configExecutionDefaut(), 1.08, 4, [...VARIANTES_OB],
+  );
+  const entrees = evenements.filter((e) => e.type === "entree");
+  assert.ok(entrees.every((e) => e.setup !== "sweep"), "aucune entrée ne doit venir du sweep");
+  for (const e of entrees) {
+    for (const v of VARIANTES_SWEEP) {
+      assert.equal(e.objectifs[v], null, `la variante ${v} ne doit pas être suivie`);
+    }
+  }
+});

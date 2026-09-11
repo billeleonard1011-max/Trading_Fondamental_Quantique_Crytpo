@@ -364,3 +364,44 @@ def test_la_priorite_ob_refuse_des_sweeps_et_ne_change_rien_au_setup_ob_seul() -
     # doit rester sans effet sur un backtest OB seul, qui n'ouvre aucun sweep.
     ob = moteur.Backtest(m1, taux, moteur.ConfigBacktest(mode_tp="ratio", ratio_tp=2.0, priorite_ob=True)); ob.executer()
     assert ob.interferences["sweep_refuse_priorite_ob"] == 0
+
+
+# ---------------------------------------------------------------------------
+# 8. Élargissement du stop (mesure de la friction)
+# ---------------------------------------------------------------------------
+def test_le_multiplicateur_de_stop_elargit_sans_changer_le_cote() -> None:
+    m1 = _serie_m1(8000)
+    taux = _taux_eurusd(m1)
+    base = moteur.Backtest(m1, taux, _config()); base.executer()
+    large = moteur.Backtest(m1, taux, _config(multiplicateur_stop=2.0)); large.executer()
+    assert base.trades and large.trades
+    for t in large.trades:
+        if t.sens == ict.HAUSSIER:
+            assert t.stop < t.prix_entree, "un stop d'achat reste sous l'entrée"
+        else:
+            assert t.stop > t.prix_entree, "un stop de vente reste au-dessus"
+    d_base = sum(abs(t.prix_entree - t.stop) for t in base.trades) / len(base.trades)
+    d_large = sum(abs(t.prix_entree - t.stop) for t in large.trades) / len(large.trades)
+    assert d_large > d_base * 1.5, f"le stop doit s'élargir nettement ({d_base:.2f} → {d_large:.2f})"
+
+
+def test_un_multiplicateur_de_un_ne_change_rien() -> None:
+    """Le défaut doit laisser les résultats publiés intacts."""
+    m1 = _serie_m1(6000)
+    taux = _taux_eurusd(m1)
+    a = moteur.Backtest(m1, taux, _config()); a.executer()
+    b = moteur.Backtest(m1, taux, _config(multiplicateur_stop=1.0)); b.executer()
+    assert [t.to_dict() for t in a.trades] == [t.to_dict() for t in b.trades]
+
+
+def test_le_risque_en_euros_reste_dans_la_fourchette_malgre_un_stop_large() -> None:
+    """Le dimensionnement compense : la taille baisse quand le stop s'élargit."""
+    m1 = _serie_m1(8000)
+    taux = _taux_eurusd(m1)
+    large = moteur.Backtest(m1, taux, _config(multiplicateur_stop=3.0)); large.executer()
+    assert large.trades
+    for t in large.trades:
+        risque = abs(t.prix_entree - t.stop) * bt_exec.ONCES_PAR_LOT * t.lots / 1.08
+        assert bt_exec.PERTE_MIN_EUR * 0.9 <= risque <= bt_exec.PERTE_MAX_EUR * 1.1, (
+            f"risque hors fourchette : {risque:.1f} €"
+        )

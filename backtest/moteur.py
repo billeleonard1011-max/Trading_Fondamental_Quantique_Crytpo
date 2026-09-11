@@ -174,6 +174,16 @@ class ConfigBacktest:
     #: Marge du stop au-delà de la mèche du sweep. ``None`` reprend la marge
     #: du setup OB, pour rester cohérent entre les deux ; paramétrable à part.
     marge_stop_sweep: float | None = None
+    #: Élargit le stop, en multiple de sa distance à l'entrée, après calcul.
+    #:
+    #: Sert à mesurer ce que la friction coûte : spread et slippage valent
+    #: environ 1,84 $ par aller-retour, soit près de 0,19 R sur un stop
+    #: médian de 9,5 $. Élargir le stop dilue ce coût fixe dans un risque
+    #: plus grand — et le dimensionnement réduit la taille en proportion,
+    #: si bien que le risque en euros ne bouge pas. La marge, elle, ne pèse
+    #: qu'un dollar sur ce stop : la tripler ne l'élargit que d'un cinquième.
+    #: 1,0 laisse le comportement d'origine.
+    multiplicateur_stop: float = 1.0
     #: Famille d'objectif du setup sweep.
     objectif_sweep: str = OBJECTIF_SWEEP_FIBO
     #: Unité d'ancrage du mouvement de référence du Fibonacci.
@@ -912,6 +922,7 @@ class Backtest:
             sens, setup.ob.haut, setup.ob.bas, setup.ob.meche_bougie2,
             self.config.execution.marge_stop,
         )
+        stop = self._elargir_stop(stop, prix_entree, achat)
         distance = abs(prix_entree - stop)
         taux = self._taux(fin_barre)
         if taux is None:
@@ -982,6 +993,27 @@ class Backtest:
         )
         return trade, stop, objectif, float(taille["perte_eur"])
 
+    def _elargir_stop(self, stop: float, prix_entree: float, achat: bool) -> float:
+        """Éloigne le stop de l'entrée, en multiple de sa distance d'origine.
+
+        Le stop garde son côté : un stop d'achat ne peut que descendre. À
+        multiplicateur 1,0 — le défaut — la valeur est rendue telle quelle,
+        au flottant près, de sorte que les résultats publiés ne bougent pas.
+
+        Args:
+            stop: niveau calculé par la règle du setup.
+            prix_entree: prix d'entrée, coûts appliqués.
+            achat: sens de la position.
+
+        Returns:
+            Le niveau élargi.
+        """
+        multiplicateur = float(self.config.multiplicateur_stop)
+        if multiplicateur == 1.0:
+            return stop
+        distance = abs(prix_entree - stop) * multiplicateur
+        return prix_entree - distance if achat else prix_entree + distance
+
     # -- Setup sweep ---------------------------------------------------------
     def _ouvrir_sweep(
         self, setup: _Setup, prix: float, fin_barre: pd.Timestamp
@@ -1010,6 +1042,7 @@ class Backtest:
             if self.config.marge_stop_sweep is None else self.config.marge_stop_sweep
         )
         stop = niveau.extreme_sweep - marge if achat else niveau.extreme_sweep + marge
+        stop = self._elargir_stop(stop, prix_entree, achat)
         distance = abs(prix_entree - stop)
         taux = self._taux(fin_barre)
         if taux is None:
