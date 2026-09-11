@@ -21,6 +21,8 @@ Exécution :
 
 from __future__ import annotations
 
+import json
+from pathlib import Path
 from typing import Any
 
 import numpy as np
@@ -467,3 +469,90 @@ def test_valeurs_autorisees_incluent_les_chiffres_des_commentaires() -> None:
     """Les commentaires déjà rédigés contiennent des chiffres exacts, citables."""
     autorisees = explain.valeurs_autorisees({"lecture": "L'or cote 12,4 % plus haut."})
     assert any(abs(v - 12.4) < 1e-9 for v in autorisees)
+
+
+# ---------------------------------------------------------------------------
+# Archivage du contexte fondamental : ce qui rendra l'étude rejouable
+# ---------------------------------------------------------------------------
+def _biais_complet() -> dict:
+    import yaml
+
+    cfg = yaml.safe_load(Path("config/gold.yaml").read_text(encoding="utf-8")).get("biais") or {}
+    return bias.calculer_biais(
+        cfg,
+        fair_value={"disponible": True, "fiable": True, "z_score": 1.82, "r2": 0.71},
+        cot={"disponible": True, "percentile_managed_money": 73.5, "age_jours": 9},
+        geopolitique={"disponible": True, "intensite_max": 2.4},
+        delta_taux_reels=0.12, delta_dollar=-1.4,
+    )
+
+
+def test_larchive_porte_les_six_composantes_avec_leur_valeur_brute(tmp_path: Path) -> None:
+    """Sans la valeur brute, une règle « COT > 75e percentile » est intestable.
+
+    C'est exactement ce qui a manqué pour tester le biais complet : les
+    contributions, déjà pondérées et renormalisées, ne permettent pas de
+    retrouver le percentile d'origine.
+    """
+    fichier = tmp_path / "historique.jsonl"
+    assert bias.enregistrer_biais(_biais_complet(), fichier, prix_or=4416.0, date_rapport="2026-09-11")
+    ligne = json.loads(fichier.read_text(encoding="utf-8").strip())
+
+    assert set(ligne["composantes"]) == set(bias.COMPOSANTES), "les six composantes, présentes ou non"
+    assert ligne["composantes"]["positionnement_cot"]["valeur_source"] == 73.5
+    assert ligne["composantes"]["ecart_juste_valeur"]["valeur_source"] == 1.82
+    assert ligne["composantes"]["dynamique_taux_reels"]["valeur_source"] == 0.12
+
+
+def test_une_composante_absente_est_distinguee_dune_composante_neutre(tmp_path: Path) -> None:
+    """Muette et neutre ne sont pas la même chose ; l'archive doit les séparer."""
+    fichier = tmp_path / "historique.jsonl"
+    bias.enregistrer_biais(_biais_complet(), fichier, prix_or=4416.0, date_rapport="2026-09-11")
+    minieres = json.loads(fichier.read_text(encoding="utf-8").strip())["composantes"]["confirmation_minieres"]
+    assert minieres["disponible"] is False
+    assert minieres["valeur_source"] is None
+    assert minieres["motif"], "l'absence doit porter son motif"
+
+
+def test_larchive_garde_le_contexte_macro_et_la_geopolitique(tmp_path: Path) -> None:
+    fichier = tmp_path / "historique.jsonl"
+    bias.enregistrer_biais(
+        _biais_complet(), fichier, prix_or=4416.0, date_rapport="2026-09-11",
+        contexte_macro={"regime": {"axes": {
+            "appetit_risque": {"disponible": True, "valeur": -0.42, "niveau": "risk-off"},
+            "liquidite_nette": {"disponible": False, "motif": "WALCL indisponible"},
+        }}},
+        geopolitique={"disponible": True, "intensite_max": 2.4, "dossier_dominant": "israel_gaza",
+                      "n_dossiers_mesures": 3, "deja_dans_les_prix": {"valeur": True}},
+    )
+    ligne = json.loads(fichier.read_text(encoding="utf-8").strip())
+    assert ligne["contexte_macro"]["appetit_risque"]["niveau"] == "risk-off"
+    assert ligne["contexte_macro"]["liquidite_nette"]["disponible"] is False
+    assert ligne["geopolitique"]["dossier_dominant"] == "israel_gaza"
+    assert ligne["geopolitique"]["deja_dans_les_prix"] is True
+
+
+def test_larchive_est_en_ajout_seul_et_ne_relit_jamais_le_fichier(tmp_path: Path) -> None:
+    fichier = tmp_path / "historique.jsonl"
+    for jour in ("2026-09-10", "2026-09-11", "2026-09-12"):
+        bias.enregistrer_biais(_biais_complet(), fichier, prix_or=4416.0, date_rapport=jour)
+    lignes = [json.loads(l) for l in fichier.read_text(encoding="utf-8").splitlines() if l.strip()]
+    assert [l["date"] for l in lignes] == ["2026-09-10", "2026-09-11", "2026-09-12"]
+
+
+def test_larchive_reste_compatible_avec_les_lignes_deja_publiees(tmp_path: Path) -> None:
+    """Les champs d'origine ne bougent pas : l'archive existante reste lisible."""
+    fichier = tmp_path / "historique.jsonl"
+    bias.enregistrer_biais(_biais_complet(), fichier, prix_or=4416.0, date_rapport="2026-09-11")
+    ligne = json.loads(fichier.read_text(encoding="utf-8").strip())
+    for cle in ("date", "horodatage_utc", "biais", "score_composite", "conviction",
+                "couverture_donnees", "donnees_partielles", "prix_or_au_moment_du_biais",
+                "contributions", "evaluation"):
+        assert cle in ligne, f"champ historique disparu : {cle}"
+
+
+def test_larchive_du_contexte_est_fusionnee_par_union() -> None:
+    """Deux publications concurrentes ne doivent pas perdre une journée."""
+    from scripts import fusionner_sorties as fusion
+
+    assert "reports/gold/historique_biais.jsonl" in fusion.FICHIERS_JSONL

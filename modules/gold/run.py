@@ -575,7 +575,13 @@ def construire_rapport(
             "motif": "explications désactivées par l'appelant (--sans-explication)",
         }
 
-    # --- Historique d'auto-évaluation --------------------------------------
+    # --- Historique du contexte fondamental --------------------------------
+    # Écrit à chaque exécution, en ajout seul : c'est l'archive sur laquelle
+    # une étude future pourra tester le biais complet, avec les six
+    # composantes telles qu'elles ont réellement été publiées ce jour-là.
+    # Reconstruire ce contexte après coup n'est pas possible pour la
+    # géopolitique et donne un biais amputé pour le reste — d'où l'archivage
+    # au fil de l'eau (voir docs/preenregistrement_filtre_fondamental.md).
     chemin_historique = cfg_biais.get("fichier_historique")
     if chemin_historique:
         bias.enregistrer_biais(
@@ -583,6 +589,8 @@ def construire_rapport(
             RACINE / str(chemin_historique),
             prix_or=bloc_prix.get("prix"),
             date_rapport=str(jour),
+            contexte_macro=rapport.get("contexte_macro"),
+            geopolitique=bloc_geo,
         )
 
     # --- Synthèses de rubrique ---------------------------------------------

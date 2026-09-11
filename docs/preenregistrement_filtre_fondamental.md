@@ -171,3 +171,32 @@ demanderait de laisser tourner le rapport quotidien pendant plusieurs mois
 et d'accumuler les contextes réellement publiés — l'archive n'en compte que
 trois aujourd'hui. C'est la seule façon honnête de le faire : en collectant
 les contextes au fil de l'eau, jamais en les recalculant après coup.
+
+
+## Suite : l'archivage du contexte réel, mis en place le 11 septembre 2026
+
+Le rapport quotidien écrit désormais, à chaque exécution, une ligne par jour
+dans `reports/gold/historique_biais.jsonl` (ajout seul, fusionné par union
+comme les autres historiques). Chaque ligne porte :
+
+* les **six composantes du biais** avec leur **valeur brute**
+  (`valeur_source`), leur score, leur contribution, leur poids effectif et,
+  quand elles manquent, leur motif d'absence — une composante muette n'est
+  pas une composante neutre ;
+* les **axes du régime macro** (appétit pour le risque, inflation, liquidité
+  nette, stress de crédit), chacun avec sa disponibilité ;
+* l'**intensité géopolitique**, le dossier dominant et la prime déjà payée —
+  la seule grandeur qui ne se reconstruit pas après coup, et donc la seule
+  qui rendait l'étude impossible ;
+* le prix de l'or au moment du biais, pour la notation à un, cinq et vingt
+  jours.
+
+La valeur brute est le point qui compte : les contributions, déjà pondérées
+et renormalisées, ne permettent pas de retrouver le percentile ou le
+z-score d'origine, dont une règle comme R4 ou R5 a besoin.
+
+**L'étude sera rejouable telle quelle** — mêmes six règles, même critère —
+lorsque l'archive couvrira assez de jours. Elle n'en comptait que trois au
+moment de cette première tentative. Rien de ce qui est écrit plus haut ne
+devra être modifié pour cela : c'est l'intérêt d'avoir fixé les règles
+d'avance.

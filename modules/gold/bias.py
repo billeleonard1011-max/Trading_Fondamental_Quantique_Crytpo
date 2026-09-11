@@ -617,28 +617,52 @@ def enregistrer_biais(
     chemin: str | Path,
     prix_or: float | None,
     date_rapport: str,
+    contexte_macro: dict[str, Any] | None = None,
+    geopolitique: dict[str, Any] | None = None,
 ) -> bool:
-    """Ajoute le biais du jour à l'historique d'auto-évaluation.
+    """Ajoute le contexte fondamental du jour à l'historique, en ajout seul.
 
     Le format est le JSON par lignes : un objet par ligne, ajouté sans
     relire le fichier. Un rapport quotidien ne doit pas charger quinze ans
     d'historique en mémoire pour y ajouter une ligne.
 
-    Le prix de l'or au moment du biais est enregistré avec lui : c'est ce qui
-    permettra, dans un mois, de noter le biais à 1, 5 et 20 jours sans avoir
-    à reconstituer quel prix il regardait. Les champs d'évaluation sont créés
-    vides, prêts à être remplis par le module de notation à venir.
+    Ce que la ligne porte, et pourquoi
+    -----------------------------------
+    Trois usages, qui dictent trois groupes de champs :
+
+    * **noter le biais après coup** — le prix de l'or au moment du biais est
+      enregistré avec lui, pour pouvoir mesurer à un, cinq et vingt jours ce
+      qui a suivi sans reconstituer quel prix il regardait ;
+    * **rejouer un filtre fondamental sur le backtest** — d'où la **valeur
+      brute** de chaque composante (``valeur_source``), et pas seulement sa
+      contribution pondérée. Une règle du type « refuser un achat quand le
+      positionnement dépasse le 75ᵉ percentile » a besoin du percentile ; la
+      contribution, déjà pondérée et renormalisée, ne permet pas de le
+      retrouver. C'est précisément ce qui a manqué pour tester le biais
+      complet : voir docs/preenregistrement_filtre_fondamental.md, où la
+      reconstruction a dû se contenter de trois composantes sur six ;
+    * **savoir ce qui manquait ce jour-là** — chaque composante garde sa
+      disponibilité et son motif d'absence. Une composante muette n'est pas
+      une composante neutre, et une étude future doit pouvoir faire la
+      différence.
 
     Args:
         biais: sortie de :func:`calculer_biais`.
         chemin: fichier d'historique, au format JSONL.
         prix_or: prix de l'or à la date du rapport.
         date_rapport: date du rapport, au format ISO.
+        contexte_macro: bloc ``contexte_macro`` du rapport, dont les axes du
+            régime sont repris (appétit pour le risque, inflation, liquidité,
+            stress de crédit).
+        geopolitique: bloc ``geopolitique`` du rapport, dont l'intensité et
+            le dossier dominant sont repris.
 
     Returns:
         ``True`` si la ligne a été écrite.
     """
     fichier = Path(chemin)
+    composantes = list(biais.get("composantes") or [])
+    axes = ((contexte_macro or {}).get("regime") or {}).get("axes") or {}
     ligne = {
         "date": date_rapport,
         "horodatage_utc": biais.get("horodatage_utc"),
@@ -649,7 +673,33 @@ def enregistrer_biais(
         "donnees_partielles": biais.get("donnees_partielles"),
         "prix_or_au_moment_du_biais": prix_or,
         "contributions": {
-            c["nom"]: c["contribution"] for c in biais.get("composantes", []) if c.get("disponible")
+            c["nom"]: c["contribution"] for c in composantes if c.get("disponible")
+        },
+        # Les six composantes, disponibles ou non, avec leur valeur brute :
+        # c'est ce groupe qui rend l'historique rejouable.
+        "composantes": {
+            c.get("nom"): {
+                "disponible": bool(c.get("disponible")),
+                "valeur_source": c.get("valeur_source"),
+                "score": c.get("score"),
+                "contribution": c.get("contribution"),
+                "poids_effectif": c.get("poids_effectif"),
+                "sens": c.get("sens"),
+                "motif": c.get("motif") or "",
+            }
+            for c in composantes
+        },
+        "contexte_macro": {
+            nom: {"disponible": bool(a.get("disponible")), "valeur": a.get("valeur"),
+                  "niveau": a.get("niveau"), "motif": a.get("motif") or ""}
+            for nom, a in axes.items()
+        },
+        "geopolitique": {
+            "disponible": bool((geopolitique or {}).get("disponible")),
+            "intensite_max": (geopolitique or {}).get("intensite_max"),
+            "dossier_dominant": (geopolitique or {}).get("dossier_dominant"),
+            "n_dossiers_mesures": (geopolitique or {}).get("n_dossiers_mesures"),
+            "deja_dans_les_prix": ((geopolitique or {}).get("deja_dans_les_prix") or {}).get("valeur"),
         },
         # À remplir plus tard par le module de notation : c'est ce qui
         # permettra au système de se noter lui-même.
@@ -664,5 +714,9 @@ def enregistrer_biais(
         _LOG.warning("Historique des biais non écrit (%s) : %s", fichier, exc)
         return False
 
-    _LOG.info("Biais du %s ajouté à %s.", date_rapport, fichier)
+    n_dispo = sum(1 for c in ligne["composantes"].values() if c["disponible"])
+    _LOG.info(
+        "Contexte fondamental du %s ajouté à %s (%d/%d composantes mesurées).",
+        date_rapport, fichier, n_dispo, len(ligne["composantes"]),
+    )
     return True
