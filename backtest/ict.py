@@ -1,4 +1,4 @@
-"""Motifs ICT : order blocks, jambes et FVG.
+"""Motifs ICT : order blocks, jambes, FVG et niveaux de liquidité (sweep).
 
 Ce module ne contient que de la détection de motifs sur des bougies déjà
 closes. Il ne place aucun ordre et ne connaît ni compte ni risque : tout ce
@@ -32,6 +32,17 @@ BAISSIER: Final = "baissier"
 #: et allonge les jambes. Le paramètre est exposé partout parce qu'il décide
 #: du découpage de la jambe, donc de la fenêtre où chercher le FVG.
 SENSIBILITE_SWING: Final[int] = 4
+
+#: Nombre de bougies exigées de chaque côté d'un pivot pour en faire un
+#: niveau de liquidité (setup sweep). Distinct de la sensibilité des swings
+#: de jambe : les deux se testent séparément (3, 4, 5).
+SENSIBILITE_PIVOT: Final[int] = 4
+
+#: Côtés d'un niveau de liquidité : un ancien plus haut porte des stops
+#: au-dessus (balayé par le haut, vendu à la clôture en dessous) ; un ancien
+#: plus bas, l'inverse.
+COTE_HAUT: Final = "haut"
+COTE_BAS: Final = "bas"
 
 #: Zones d'ombre de l'énoncé, tranchées ici faute de règle explicite. Elles
 #: sont republiées telles quelles par le backtest.
@@ -67,12 +78,69 @@ CHOIX_INTERPRETATION: Final[tuple[dict[str, str], ...]] = (
         ),
         "choix": "La même marge que dans le cas nominal, appliquée au-delà de la mèche.",
     },
+    # --- Setup sweep -------------------------------------------------------
+    {
+        "sujet": "sweep : unité de la bougie qui « clôture de l'autre côté »",
+        "manque": "L'énoncé dit « une bougie clôture » sans dire de quelle unité.",
+        "choix": (
+            "Une bougie de l'unité du niveau balayé (M15 pour un niveau M15). La "
+            "traversée, elle, est lue sur M1 : une mèche au-delà suffit, et "
+            "l'extrême du sweep est le plus bas (ou plus haut) atteint depuis la "
+            "première minute au-delà du niveau jusqu'à la clôture qui le reprend."
+        ),
+    },
+    {
+        "sujet": "sweep : fenêtre de recherche du FVG",
+        "manque": "L'énoncé reprend la confirmation du setup OB sans dire d'où part la recherche.",
+        "choix": (
+            "Du début du sweep (première bougie M1 au-delà du niveau) jusqu'à "
+            "l'instant courant, en M5 puis M3 puis M1 — l'équivalent de la jambe "
+            "du setup OB."
+        ),
+    },
+    {
+        "sujet": "sweep : niveaux actifs suivis simultanément",
+        "manque": "L'énoncé dit « plusieurs niveaux » sans borne.",
+        "choix": (
+            "Tous les niveaux non balayés, plafonnés aux plus récents par unité "
+            "(quarante par défaut) : sans plafond, un niveau traversé de cent "
+            "dollars resterait suivi pendant des mois et l'état du scanner en "
+            "direct grossirait sans limite. Un niveau évincé n'est jamais réinséré."
+        ),
+    },
+    {
+        "sujet": "sweep : mouvement de référence du Fibonacci",
+        "manque": "« Le dernier mouvement directionnel précédant le sweep » n'est pas borné.",
+        "choix": (
+            "Sur l'unité d'ancrage choisie, du dernier retournement confirmé "
+            "(même règle de swing que la jambe du setup OB) jusqu'à l'extrême du "
+            "sweep. La cible est à 0,72 de ce mouvement, mesurée depuis l'extrême. "
+            "Sans retournement confirmé, ou si la cible est déjà dépassée à "
+            "l'entrée, le setup est abandonné."
+        ),
+    },
+    {
+        "sujet": "sweep : niveau structurel de la variante 2",
+        "manque": "Le solde vise « le premier niveau non balayé » sans dire s'il peut être plus proche que le 0,72.",
+        "choix": (
+            "Le premier niveau non balayé au-delà de la cible 0,72 : un palier "
+            "structurel plus proche que le premier palier n'aurait aucun sens. "
+            "La variante 3, elle, vise le premier niveau au-delà de l'entrée."
+        ),
+    },
 )
 
 __all__ = [
     "OrderBlock",
     "FairValueGap",
+    "NiveauLiquidite",
     "SENSIBILITE_SWING",
+    "SENSIBILITE_PIVOT",
+    "COTE_HAUT",
+    "COTE_BAS",
+    "detecter_niveaux_liquidite",
+    "avancer_niveau",
+    "confirmer_balayage",
     "detecter_swings",
     "origine_de_jambe",
     "HAUSSIER",
@@ -390,3 +458,178 @@ def detecter_fvg(cadre: pd.DataFrame, unite: str, sens: str | None = None) -> li
             ecarts.append(trouve)
 
     return ecarts
+
+
+# ---------------------------------------------------------------------------
+# Niveaux de liquidité (setup sweep)
+# ---------------------------------------------------------------------------
+@dataclass(slots=True)
+class NiveauLiquidite:
+    """Un pivot devenu réserve de liquidité, et l'état de son balayage.
+
+    Le prix s'est retourné là : des positions s'y sont créées, leurs stops
+    s'accumulent juste au-delà. Le marché a un intérêt structurel à venir
+    les chercher — c'est le sweep —, puis à clôturer de l'autre côté du
+    niveau, ce qui révèle le piège. Ce second temps est le signal.
+
+    Attributes:
+        unite: unité de temps du pivot.
+        cote: ``haut`` (ancien plus haut, balayé par le haut, vendu) ou
+            ``bas`` (ancien plus bas, balayé par le bas, acheté).
+        prix: le niveau lui-même.
+        formation: ouverture de la bougie pivot.
+        connu_a: clôture de la bougie ``i + sensibilité`` : le niveau
+            n'existe pour le moteur qu'à partir de cet instant, puisqu'il
+            faut voir les bougies de droite pour savoir que c'était un pivot.
+        en_sweep: ``True`` dès qu'une bougie M1 a dépassé le niveau sans
+            qu'une bougie de l'unité ait encore clôturé de l'autre côté.
+        extreme_sweep: le point le plus loin atteint pendant la prise de
+            liquidité — c'est là que se place le stop, au-delà.
+        debut_sweep: ouverture de la première bougie M1 au-delà du niveau.
+        balaye: ``True`` une fois le sweep confirmé ; le niveau ne ressert
+            jamais.
+        horodatage_balayage: instant de la clôture qui a confirmé le sweep.
+    """
+
+    unite: str
+    cote: str
+    prix: float
+    formation: pd.Timestamp
+    connu_a: pd.Timestamp
+    en_sweep: bool = False
+    extreme_sweep: float | None = None
+    debut_sweep: pd.Timestamp | None = None
+    balaye: bool = False
+    horodatage_balayage: pd.Timestamp | None = None
+    #: ``True`` quand le niveau a été évincé de la liste active par le plafond
+    #: par unité : il ne sert plus ni au sweep ni comme cible structurelle —
+    #: le scanner en direct, qui ne garde que la liste active, ne le voit pas.
+    evince: bool = False
+
+    @property
+    def sens_trade(self) -> str:
+        """Sens du trade qu'un balayage de ce niveau déclenche."""
+        return HAUSSIER if self.cote == COTE_BAS else BAISSIER
+
+    def to_dict(self) -> dict[str, Any]:
+        """Sérialise le niveau pour le journal et les alertes."""
+        return {
+            "unite": self.unite,
+            "cote": self.cote,
+            "prix": self.prix,
+            "formation": str(self.formation),
+            "connu_a": str(self.connu_a),
+            "en_sweep": self.en_sweep,
+            "extreme_sweep": self.extreme_sweep,
+            "debut_sweep": "" if self.debut_sweep is None else str(self.debut_sweep),
+            "balaye": self.balaye,
+        }
+
+
+def detecter_niveaux_liquidite(
+    cadre: pd.DataFrame, unite: str, sensibilite: int = SENSIBILITE_PIVOT
+) -> list[NiveauLiquidite]:
+    """Repère les pivots d'une unité et en fait des niveaux de liquidité.
+
+    Un pivot haut est une bougie dont le plus haut dépasse strictement celui
+    des ``sensibilite`` bougies de chaque côté (voir :func:`detecter_swings`,
+    même règle, même comparaison stricte). Point de causalité : le niveau
+    porte l'instant où il **devient connu** — la clôture de la bougie
+    ``i + sensibilite`` —, jamais celui du pivot lui-même. Un moteur qui le
+    consulterait avant cet instant lirait l'avenir.
+
+    Args:
+        cadre: bougies OHLC de l'unité, closes, indexées par ouverture.
+        unite: nom de l'unité, repris dans les niveaux produits.
+        sensibilite: nombre de bougies exigées de chaque côté.
+
+    Returns:
+        Niveaux, triés par instant de connaissance (à égalité, le plus haut
+        avant le plus bas).
+    """
+    k = max(int(sensibilite), 1)
+    if cadre is None or len(cadre) < 2 * k + 1:
+        return []
+
+    from backtest.data import DUREES
+
+    duree = DUREES.get(unite, pd.Timedelta(0))
+    sommets, creux = detecter_swings(cadre, k)
+    haut = cadre["high"].to_numpy(dtype="float64")
+    bas = cadre["low"].to_numpy(dtype="float64")
+    index = cadre.index
+
+    niveaux = [
+        NiveauLiquidite(unite, COTE_HAUT, float(haut[i]), index[i], index[i + k] + duree) for i in sommets
+    ] + [
+        NiveauLiquidite(unite, COTE_BAS, float(bas[i]), index[i], index[i + k] + duree) for i in creux
+    ]
+    # Tri stable : à instant de connaissance égal, les sommets (énumérés en
+    # premier) précèdent les creux — le portage JavaScript fait de même.
+    niveaux.sort(key=lambda n: n.connu_a)
+    _LOG.debug("%s : %d niveau(x) de liquidité (sensibilité %d).", unite, len(niveaux), k)
+    return niveaux
+
+
+def avancer_niveau(niveau: NiveauLiquidite, haut: float, bas: float, ouverture: pd.Timestamp) -> bool:
+    """Met à jour l'état de sweep d'un niveau avec une bougie M1.
+
+    Une mèche au-delà suffit à ouvrir le sweep (inégalité stricte : toucher
+    le niveau exactement n'est pas le dépasser). Tant que le sweep dure,
+    l'extrême suit le point le plus loin atteint.
+
+    Args:
+        niveau: niveau actif, muté sur place.
+        haut: plus haut de la bougie M1.
+        bas: plus bas de la bougie M1.
+        ouverture: ouverture de la bougie M1.
+
+    Returns:
+        ``True`` si la bougie a dépassé le niveau.
+    """
+    if niveau.balaye:
+        return False
+    if niveau.cote == COTE_BAS:
+        depasse = bas < niveau.prix
+        extreme = bas
+        plus_loin = niveau.extreme_sweep is None or extreme < niveau.extreme_sweep
+    else:
+        depasse = haut > niveau.prix
+        extreme = haut
+        plus_loin = niveau.extreme_sweep is None or extreme > niveau.extreme_sweep
+    if not depasse:
+        return False
+    if not niveau.en_sweep:
+        niveau.en_sweep = True
+        niveau.debut_sweep = ouverture
+        niveau.extreme_sweep = float(extreme)
+    elif plus_loin:
+        niveau.extreme_sweep = float(extreme)
+    return True
+
+
+def confirmer_balayage(niveau: NiveauLiquidite, cloture: float, instant: pd.Timestamp) -> bool:
+    """Teste si une clôture de l'unité du niveau confirme le sweep.
+
+    Le niveau doit être en sweep, et la bougie clôturer **strictement** de
+    l'autre côté : au-dessus d'un plus bas balayé, en dessous d'un plus haut
+    balayé. Une clôture qui reste du côté du sweep laisse le niveau actif —
+    traversé sans clôture de l'autre côté, c'est le cas intéressant, pas un
+    échec.
+
+    Args:
+        niveau: niveau actif, muté sur place s'il est confirmé.
+        cloture: clôture de la bougie de l'unité du niveau.
+        instant: instant de cette clôture.
+
+    Returns:
+        ``True`` si le sweep est confirmé ; le niveau est alors ``balaye``.
+    """
+    if niveau.balaye or not niveau.en_sweep:
+        return False
+    reprise = cloture > niveau.prix if niveau.cote == COTE_BAS else cloture < niveau.prix
+    if not reprise:
+        return False
+    niveau.balaye = True
+    niveau.horodatage_balayage = instant
+    return True

@@ -363,6 +363,119 @@ def fixture_paliers() -> None:
     )
 
 
+# ---------------------------------------------------------------------------
+# 8. Setup sweep : niveaux, cycle de vie, moteur complet par variante
+# ---------------------------------------------------------------------------
+def _niveau_vers_json(n) -> dict:
+    return {
+        "unite": n.unite, "cote": n.cote, "prix": n.prix,
+        "formation": int(pd.Timestamp(n.formation).value // 1_000_000),
+        "connuA": int(pd.Timestamp(n.connu_a).value // 1_000_000),
+    }
+
+
+def fixture_niveaux() -> None:
+    """Détection des pivots (trois sensibilités) et cycle de vie d'un niveau."""
+    cas = []
+    m1 = _serie_m1(3000, graine=11)
+    m15 = bt_data.agreger(m1, "M15")
+    for k in (3, 4, 5):
+        cas.append({"nom": f"m15_sensibilite_{k}", "unite": "M15", "sensibilite": k,
+                    "cadre": _bougies_vers_json(m15),
+                    "attendu": [_niveau_vers_json(n) for n in ict.detecter_niveaux_liquidite(m15, "M15", k)]})
+    h1 = bt_data.agreger(_serie_m1(6000, graine=12), "H1")
+    cas.append({"nom": "h1_sensibilite_4", "unite": "H1", "sensibilite": 4, "cadre": _bougies_vers_json(h1),
+                "attendu": [_niveau_vers_json(n) for n in ict.detecter_niveaux_liquidite(h1, "H1", 4)]})
+
+    # Cycle de vie : une séquence de bougies M1 puis de clôtures d'unité,
+    # rejouée pas à pas ; chaque étape publie l'état attendu du niveau.
+    t0 = pd.Timestamp("2026-01-05 00:00", tz="UTC")
+    sequences = []
+    for cote, prix, etapes in [
+        (ict.COTE_BAS, 100.0, [("m1", 100.4, 99.6), ("cloture", 99.9), ("m1", 100.2, 99.1), ("cloture", 100.3), ("m1", 100.5, 98.0), ("cloture", 100.6)]),
+        (ict.COTE_HAUT, 100.0, [("m1", 100.0, 99.0), ("cloture", 99.5), ("m1", 101.2, 99.8), ("m1", 101.9, 100.3), ("cloture", 99.7), ("m1", 102.0, 99.0)]),
+    ]:
+        niveau = ict.NiveauLiquidite("M15", cote, prix, t0, t0)
+        trace = []
+        for i, etape in enumerate(etapes):
+            instant = t0 + pd.Timedelta(minutes=i)
+            if etape[0] == "m1":
+                retour = ict.avancer_niveau(niveau, etape[1], etape[2], instant)
+            else:
+                retour = ict.confirmer_balayage(niveau, etape[1], instant)
+            trace.append({"etape": etape, "instantMs": int(instant.value // 1_000_000), "retour": retour,
+                          "etat": {"enSweep": niveau.en_sweep, "extremeSweep": niveau.extreme_sweep,
+                                   "debutSweep": None if niveau.debut_sweep is None else int(niveau.debut_sweep.value // 1_000_000),
+                                   "balaye": niveau.balaye}})
+        sequences.append({"cote": cote, "prix": prix, "trace": trace})
+    ecrire("niveaux", {"cas": cas, "sequences": sequences})
+
+
+def _trades_sweep_vers_json(trades: list) -> list[dict]:
+    def _ms(instant) -> int | None:
+        return None if instant is None else int(pd.Timestamp(instant).value // 1_000_000)
+    return [
+        {
+            "setup": t.setup,
+            "horodatageEntree": _ms(t.horodatage_entree),
+            "horodatageSortie": _ms(t.horodatage_sortie),
+            "sens": t.sens,
+            "uniteDetection": t.unite_detection,
+            "uniteFvg": t.unite_fvg,
+            "niveauPrix": t.niveau_prix, "niveauCote": t.niveau_cote, "niveauUnite": t.niveau_unite,
+            "niveauFormation": _ms(t.niveau_formation),
+            "sweepExtreme": t.sweep_extreme, "sweepDebut": _ms(t.sweep_debut),
+            "referencePrix": t.reference_prix, "uniteFibo": t.unite_fibo,
+            "prixEntree": round(t.prix_entree, 6), "stop": round(t.stop, 6), "objectif": round(t.objectif, 6),
+            "prixSortie": round(t.prix_sortie, 6), "lots": t.lots, "motifSortie": t.motif_sortie,
+            "fvgHaut": None if t.fvg_haut is None else round(t.fvg_haut, 6),
+            "fvgBas": None if t.fvg_bas is None else round(t.fvg_bas, 6),
+            "paliers": [
+                {"rang": p.rang, "zone": round(p.zone, 6), "origine": p.origine, "fraction": round(p.fraction, 10),
+                 "ratioRisque": round(p.ratio_risque, 6),
+                 "prixSortie": None if p.prix_sortie is None else round(p.prix_sortie, 6),
+                 "horodatageResolution": _ms(p.horodatage_sortie), "motifSortie": p.motif_sortie}
+                for p in t.paliers
+            ],
+        }
+        for t in trades
+    ]
+
+
+def fixture_sweep() -> None:
+    """Le moteur Python en mode sweep seul, une exécution par variante du scanner.
+
+    Le test JS rejoue la même série avec variantesActives réduite à la
+    variante correspondante (« s1 », « s2 », « s3 »), ce qui reproduit le
+    blocage à une position du backtest — même démarche que moteur_complet.
+    La quatrième exécution joue les deux setups ensemble (order block en
+    objectif structurel + sweep S1) : côté JS, variantesActives = ["a", "s1"].
+    """
+    n = 20000
+    m1 = _serie_m1(n, graine=20260908)
+    taux = _taux_eurusd(m1)
+    executions = {
+        "s1": dict(setups=(moteur.SETUP_SWEEP,), objectif_sweep=moteur.OBJECTIF_SWEEP_FIBO),
+        "s2": dict(setups=(moteur.SETUP_SWEEP,), objectif_sweep=moteur.OBJECTIF_SWEEP_FIBO_STRUCTUREL, fraction_fibo=0.5, break_even_sweep=True),
+        "s3": dict(setups=(moteur.SETUP_SWEEP,), objectif_sweep=moteur.OBJECTIF_SWEEP_STRUCTUREL),
+        "ensemble_a_s1": dict(setups=(moteur.SETUP_ORDER_BLOCK, moteur.SETUP_SWEEP), mode_tp="structurel", objectif_sweep=moteur.OBJECTIF_SWEEP_FIBO),
+    }
+    sortie = {"m1": _bougies_vers_json(m1), "tauxEurusdParJour": {str(idx.date()): float(v) for idx, v in taux.items()},
+              "sensibilitePivot": ict.SENSIBILITE_PIVOT, "uniteFibo": "M15", "executions": {}}
+    for nom, reglages in executions.items():
+        bt = moteur.Backtest(m1, taux, moteur.ConfigBacktest(**reglages))
+        bt.executer()
+        sortie["executions"][nom] = {
+            "variantesActives": ["a", "s1"] if nom == "ensemble_a_s1" else [nom],
+            "attenduTrades": _trades_sweep_vers_json(bt.trades),
+            "attenduNTrades": len(bt.trades),
+            "nSweepsConfirmes": bt.sweeps_confirmes,
+            "nNiveaux": len(bt.niveaux),
+        }
+        print(f"  {nom} : {len(bt.trades)} trade(s), {bt.sweeps_confirmes} sweep(s) confirmé(s)")
+    ecrire("sweep", sortie)
+
+
 if __name__ == "__main__":
     fixture_agregation()
     fixture_fenetre_close()
@@ -372,4 +485,6 @@ if __name__ == "__main__":
     fixture_execution()
     fixture_moteur_complet()
     fixture_paliers()
+    fixture_niveaux()
+    fixture_sweep()
     print("Fixtures générées.")

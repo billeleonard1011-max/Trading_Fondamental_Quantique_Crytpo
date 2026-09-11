@@ -37,7 +37,7 @@ import { EXPLICATIONS, libelle } from "../js/libelles.js";
 import {
   agregerParMois, agregerSignaux, avertissementEchantillon, cleMois, estResolue,
   extraireMetriquesBacktest, libelleStatut, rendreComparaisonBacktest, rendreFilAlertes,
-  rendrePaliers, rendreTableauBordMensuel, texteSurAudite, tonStatut, VARIANTES,
+  rendrePaliers, rendreTableauBordMensuel, texteSurAudite, tonStatut, VARIANTES, VARIANTES_PAR_SETUP,
 } from "../js/trading.js";
 
 /** Charge un rapport réel du dépôt. */
@@ -623,8 +623,29 @@ test("la page Trading porte l'avertissement permanent et ne recommande jamais un
   assert.match(html, /multiple de risque/);
 });
 
-test("VARIANTES couvre exactement les cinq variantes du backtest", () => {
-  assert.deepEqual(VARIANTES, ["a", "b15", "b2", "b3", "c"]);
+test("VARIANTES couvre les cinq variantes du setup order block et les trois du setup sweep", () => {
+  assert.deepEqual(VARIANTES, ["a", "b15", "b2", "b3", "c", "s1", "s2", "s3"]);
+  // Un signal n'affiche que les variantes de son setup, jamais celles de l'autre.
+  assert.deepEqual(VARIANTES_PAR_SETUP.order_block, ["a", "b15", "b2", "b3", "c"]);
+  assert.deepEqual(VARIANTES_PAR_SETUP.sweep, ["s1", "s2", "s3"]);
+  assert.deepEqual([...VARIANTES_PAR_SETUP.order_block, ...VARIANTES_PAR_SETUP.sweep], VARIANTES);
+});
+
+test("un signal sweep se présente comme un balayage, avec ses seules variantes", () => {
+  const signal = {
+    id: "s", setup: "sweep", sens: "haussier", timeframe_ob: "M15", niveau_unite: "M15", niveau_cote: "bas",
+    horodatage_detection_utc: "2026-09-10T14:32:00Z", texte_detection: null, paliers: [],
+    variantes: {
+      s1: { statut: "gagnant", texte: null }, s2: { statut: "ouvert", texte: null }, s3: { statut: "ouvert", texte: null },
+      a: { statut: "sans_objectif", texte: null },
+    },
+  };
+  const html = rendreFilAlertes([signal]);
+  assert.match(html, /balayage d'un ancien plus bas M15/);
+  assert.match(html, /prise de liquidité \(sweep\)/);
+  assert.match(html, /Sweep — sortie complète au 0,72/);
+  assert.doesNotMatch(html, /Structurelle \(A\)/, "les variantes de l'order block ne s'affichent pas sur un sweep");
+  assert.doesNotMatch(html, /undefined/);
 });
 
 test("le détail des paliers montre chaque tranche, pas seulement un total", () => {

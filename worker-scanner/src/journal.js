@@ -100,15 +100,21 @@ export async function enregistrerTauxDuJour(db, jour, taux) {
  * @returns {Promise<void>}
  */
 export async function insererEntree(db, entree) {
-  const statutInitial = (v) => (entree.objectifs[v] === null ? "sans_objectif" : "ouvert");
+  const objectifs = entree.objectifs || {};
+  const objectif = (v) => (objectifs[v] === undefined ? null : objectifs[v]);
+  const statutInitial = (v) => (objectif(v) === null ? "sans_objectif" : "ouvert");
+  const setup = entree.setup || "order_block";
   await db
     .prepare(
       `INSERT INTO journal (
         id, horodatage_detection, timeframe_ob, ob_haut, ob_bas, sens, timeframe_fvg,
         fvg_haut, fvg_bas,
         prix_entree, sl, tp_a, tp_b15, tp_b2, tp_b3, tp_c,
-        statut_a, statut_b15, statut_b2, statut_b3, statut_c, lots
-      ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+        statut_a, statut_b15, statut_b2, statut_b3, statut_c, lots,
+        setup, niveau_prix, niveau_cote, niveau_unite, niveau_formation, sweep_extreme,
+        reference_prix, unite_fibo,
+        tp_s1, tp_s2, tp_s3, statut_s1, statut_s2, statut_s3
+      ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
       ON CONFLICT(id) DO NOTHING`,
     )
     .bind(
@@ -116,25 +122,31 @@ export async function insererEntree(db, entree) {
       entree.sens, entree.timeframeFvg,
       entree.fvgHaut ?? null, entree.fvgBas ?? null,
       entree.prixEntree, entree.stop,
-      entree.objectifs.a, entree.objectifs.b15, entree.objectifs.b2, entree.objectifs.b3,
-      entree.objectifs.c ?? null,
+      objectif("a"), objectif("b15"), objectif("b2"), objectif("b3"), objectif("c"),
       statutInitial("a"), statutInitial("b15"), statutInitial("b2"), statutInitial("b3"),
       statutInitial("c"),
       entree.lots,
+      setup, entree.niveauPrix ?? null, entree.niveauCote ?? null, entree.niveauUnite ?? null,
+      entree.niveauFormation ?? null, entree.sweepExtreme ?? null,
+      entree.referencePrix ?? null, entree.uniteFibo ?? null,
+      objectif("s1"), objectif("s2"), objectif("s3"),
+      statutInitial("s1"), statutInitial("s2"), statutInitial("s3"),
     )
     .run();
 
-  // Détail des tranches de la variante C. Idempotent comme l'entrée
-  // elle-même : rejouer une exécution ne duplique pas les paliers.
+  // Détail des tranches (variante C d'un order block, variante s2 d'un
+  // sweep). Idempotent comme l'entrée elle-même : rejouer une exécution ne
+  // duplique pas les paliers.
+  const variantePaliers = setup === "sweep" ? "s2" : "c";
   for (const palier of entree.paliers || []) {
     await db
       .prepare(
         `INSERT INTO paliers (
-          id_signal, rang, zone, origine, fraction, ratio_risque, statut
-        ) VALUES (?,?,?,?,?,?,'ouvert')
+          id_signal, rang, zone, origine, fraction, ratio_risque, statut, variante
+        ) VALUES (?,?,?,?,?,?,'ouvert',?)
         ON CONFLICT(id_signal, rang) DO NOTHING`,
       )
-      .bind(entree.id, palier.rang, palier.zone, palier.origine, palier.fraction, palier.ratioRisque)
+      .bind(entree.id, palier.rang, palier.zone, palier.origine, palier.fraction, palier.ratioRisque, variantePaliers)
       .run();
   }
 }
@@ -201,7 +213,8 @@ export async function appliquerResolution(db, resolution) {
       `UPDATE journal SET horodatage_resolution = ? ` +
         `WHERE id = ? AND horodatage_resolution IS NULL ` +
         `AND statut_a != 'ouvert' AND statut_b15 != 'ouvert' AND statut_b2 != 'ouvert' ` +
-        `AND statut_b3 != 'ouvert' AND statut_c != 'ouvert'`,
+        `AND statut_b3 != 'ouvert' AND statut_c != 'ouvert' ` +
+        `AND statut_s1 != 'ouvert' AND statut_s2 != 'ouvert' AND statut_s3 != 'ouvert'`,
     )
     .bind(resolution.horodatageResolution, resolution.id)
     .run();

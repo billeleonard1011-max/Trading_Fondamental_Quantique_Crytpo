@@ -191,3 +191,80 @@ test("l'alerte publie le niveau du FVG et les zones visées", () => {
   assert.match(signal.texte_detection, /entre 2997\.50 et 2998\.40 \$/);
   assert.match(signal.texte_detection, /haut de la veille à 3012\.00 \$/);
 });
+
+// ---------------------------------------------------------------------------
+// Setup sweep : le signal dit d'où il vient
+// ---------------------------------------------------------------------------
+import { rendreAlerteEntree, rendreEvenementPublic } from "../src/alertes.js";
+
+function entreeSweep() {
+  return {
+    type: "entree", id: "sweep-1", setup: "sweep",
+    horodatageDetection: Date.UTC(2026, 8, 10, 14, 32),
+    timeframeOb: "M15", obHaut: 4412.1, obBas: 4412.1,
+    niveauPrix: 4412.1, niveauCote: "bas", niveauUnite: "M15",
+    niveauFormation: Date.UTC(2026, 8, 10, 9, 15), sweepExtreme: 4410.3, sweepDebut: Date.UTC(2026, 8, 10, 14, 20),
+    referencePrix: 4440.0, uniteFibo: "M15",
+    sens: "haussier", timeframeFvg: "M5", fvgHaut: 4414.2, fvgBas: 4413.1,
+    prixEntree: 4415.0, stop: 4409.3,
+    objectifs: { a: null, b15: null, b2: null, b3: null, c: null, s1: 4431.7, s2: 4431.7, s3: 4438.0 },
+    lots: 0.09,
+    paliers: [
+      { rang: 1, zone: 4431.7, origine: "fibonacci_0_72", fraction: 0.5, ratioRisque: 2.93 },
+      { rang: 2, zone: 4438.0, origine: "niveau_haut", fraction: 0.5, ratioRisque: 4.04 },
+    ],
+  };
+}
+
+test("l'alerte d'un sweep dit quel niveau a été balayé, quand il s'est formé et jusqu'où la mèche est allée", () => {
+  const texte = rendreAlerteEntree(entreeSweep());
+  assert.match(texte, /balayage d'un ancien plus bas M15 à 4412\.10 \$/);
+  assert.match(texte, /formé le 2026-09-10 09:15 UTC/);
+  assert.match(texte, /mèche du sweep à 4410\.30 \$/);
+  assert.match(texte, /0,72 du mouvement de référence à 4431\.70 \$/);
+  assert.match(texte, /niveau structurel seul à 4438\.00 \$/);
+  assert.match(texte, /ancien plus haut non balayé/);
+  assert.doesNotMatch(texte, /order block M15 \[/, "un sweep ne se présente pas comme un order block");
+  assert.doesNotMatch(texte, /fibonacci_0_72|niveau_haut/, "aucun identifiant technique brut");
+});
+
+test("les textes d'un sweep restent conformes au garde-fou anti-recommandation", () => {
+  const entree = rendreEvenementPublic(entreeSweep());
+  assert.equal(entree.infractions.length, 0, JSON.stringify(entree.infractions));
+  const resolution = rendreEvenementPublic({
+    type: "resolution", setup: "sweep", variante: "s2", statut: "gagnant", prixSortie: 4438.0,
+    horodatageResolution: Date.UTC(2026, 8, 10, 16, 5),
+    paliers: [
+      { rang: 1, zone: 4431.7, origine: "fibonacci_0_72", fraction: 0.5, motif_sortie: "objectif" },
+      { rang: 2, zone: 4438.0, origine: "niveau_haut", fraction: 0.5, motif_sortie: "objectif" },
+    ],
+  });
+  assert.equal(resolution.infractions.length, 0);
+  assert.match(resolution.texte, /0,72 puis niveau structurel \(sweep, variante 2\)/);
+  assert.match(resolution.texte, /50 % sur 0,72 du mouvement de référence à 4431\.70 \$/);
+});
+
+test("construireReponseJournal expose le setup et le niveau balayé, et n'affiche que les variantes du setup", () => {
+  const ligne = {
+    id: "sweep-1", setup: "sweep", horodatage_detection: 1_800_000_000_000,
+    timeframe_ob: "M15", ob_haut: 4412.1, ob_bas: 4412.1, sens: "haussier", timeframe_fvg: "M5",
+    fvg_haut: 4414.2, fvg_bas: 4413.1, prix_entree: 4415.0, sl: 4409.3,
+    niveau_prix: 4412.1, niveau_cote: "bas", niveau_unite: "M15", niveau_formation: 1_799_990_000_000,
+    sweep_extreme: 4410.3, reference_prix: 4440.0, unite_fibo: "M15",
+    tp_a: null, tp_b15: null, tp_b2: null, tp_b3: null, tp_c: null, tp_s1: 4431.7, tp_s2: 4431.7, tp_s3: 4438.0,
+    statut_a: "sans_objectif", statut_b15: "sans_objectif", statut_b2: "sans_objectif", statut_b3: "sans_objectif", statut_c: "sans_objectif",
+    statut_s1: "gagnant", statut_s2: "ouvert", statut_s3: "ouvert",
+    prix_sortie_s1: 4431.4, horodatage_resolution_s1: 1_800_000_600_000,
+  };
+  const charge = construireReponseJournal([ligne], null, []);
+  const signal = charge.signaux[0];
+  assert.equal(signal.setup, "sweep");
+  assert.equal(signal.niveau_prix, 4412.1);
+  assert.equal(signal.niveau_cote, "bas");
+  assert.match(signal.niveau_formation_utc, /^2027-/);
+  assert.equal(signal.variantes.s1.statut, "gagnant");
+  assert.ok(signal.variantes.s1.r > 2.5, `R attendu proche de 2,9, obtenu ${signal.variantes.s1.r}`);
+  assert.equal(signal.variantes.a.statut, "sans_objectif");
+  assert.match(signal.texte_detection, /balayage d'un ancien plus bas M15/);
+  assert.doesNotMatch(JSON.stringify(charge), /"lots"|resultat_s1_usd/);
+});

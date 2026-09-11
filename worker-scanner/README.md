@@ -206,6 +206,42 @@ route :
 CORS restreint à l'origine du site (`ORIGINE_AUTORISEE` dans
 `wrangler.toml`), même convention que `../worker/wrangler.toml`.
 
+## Second setup : prise de liquidité (sweep)
+
+Le moteur joue deux setups sur la même position (voir
+`backtest/moteur.py`) : l'order block (variantes `a`, `b15`, `b2`, `b3`, `c`)
+et le sweep (variantes `s1` sortie complète au 0,72 du mouvement de
+référence, `s2` 0,72 puis premier niveau non balayé — 50/50 avec break-even
+par défaut, réglable par `optionsSweepDefaut()` —, `s3` niveau structurel
+seul). Une entrée ne porte qu'une famille : les variantes de l'autre setup
+sont `sans_objectif` d'emblée. Les setups joués se déduisent de
+`variantesActives` : c'est ce qui permet au test de parité de rejouer une
+seule variante à la fois, exactement comme le backtest.
+
+Parité (`tests/parite.test.js`, fixtures `niveaux.json` et `sweep.json`
+générées par `tests/fixtures/generer.py`) : détection des pivots pour trois
+sensibilités, cycle de vie d'un niveau pas à pas, puis le moteur complet
+pour `s1`, `s2`, `s3` et pour les deux setups ensemble (`a` + `s1`) — identité
+trade par trade, tranche par tranche.
+
+Trois points de portage à connaître, tous vérifiés par cette parité :
+
+* les niveaux nouvellement connus sont ceux dont `connuA` dépasse la **fin**
+  de la dernière bougie traitée (pas son ouverture) — sinon un niveau connu
+  pile à la fin du tour précédent serait réinséré et balayé deux fois ;
+* les clôtures d'unité examinées à chaque bougie M1 sont celles closes dans
+  `(fin précédente, fin courante]`, dans l'ordre H1, M30, M15 puis
+  chronologique — l'ordre d'insertion des setups en dépend ;
+* les cibles structurelles ne voient ni les niveaux en sweep, ni les niveaux
+  balayés, ni ceux évincés par le plafond — côté Python, un drapeau `evince`
+  reproduit la liste active du scanner.
+
+Le journal D1 porte les colonnes `setup`, `niveau_*`, `sweep_extreme`,
+`reference_prix`, `unite_fibo` et les colonnes `*_s1`, `*_s2`, `*_s3` ; la
+table `paliers` porte `variante` (`c` ou `s2`). Base existante : appliquer
+`migrations/0002_sweep.sql` avant de déployer cette version, sinon les
+insertions échouent sur colonne inconnue.
+
 ## Déploiement
 
 **Fait.** Worker actif à `https://scanner-or-direct.leonardbille.workers.dev`,

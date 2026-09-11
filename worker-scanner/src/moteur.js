@@ -48,12 +48,19 @@
 
 import {
   BAISSIER,
+  COTE_BAS,
+  COTE_HAUT,
   HAUSSIER,
+  SENSIBILITE_PIVOT,
+  avancerNiveau,
+  confirmerBalayage,
   detecterFvg,
+  detecterNiveauxLiquidite,
   detecterOrderBlocks,
   origineDeJambe,
+  sensTradeNiveau,
 } from "./ict.js";
-import { agreger, fenetreClose, UNITES_FVG, UNITES_ORDER_BLOCK } from "./agregation.js";
+import { DUREES_MS, agreger, fenetreClose, UNITES_FVG, UNITES_ORDER_BLOCK } from "./agregation.js";
 import {
   ONCES_PAR_LOT,
   appliquerCoutsEntree,
@@ -69,12 +76,59 @@ export const EXPIRATION_BARRES = 120;
 /** Profondeur maximale d'une jambe remontée avant l'order block, en bougies. */
 export const PROFONDEUR_JAMBE = 50;
 
-/** Les cinq variantes de TP, dans l'ordre du journal.
+/** Les deux setups d'entrée (mêmes noms que backtest/moteur.py). */
+export const SETUP_ORDER_BLOCK = "order_block";
+export const SETUP_SWEEP = "sweep";
+
+/** Variantes de TP du setup order block, dans l'ordre du journal.
  *
  * `c` est la sortie par paliers : elle vise les mêmes zones de liquidité que
  * `a`, mais en sortant en plusieurs fois et en passant à break-even dès la
  * première atteinte. */
-export const VARIANTES = Object.freeze(["a", "b15", "b2", "b3", "c"]);
+export const VARIANTES_OB = Object.freeze(["a", "b15", "b2", "b3", "c"]);
+
+/** Variantes de TP du setup sweep : `s1` tout au 0,72 du mouvement de
+ * référence ; `s2` une part au 0,72 puis le solde sur le premier niveau non
+ * balayé au-delà (répartition et break-even réglés par les options) ; `s3`
+ * tout sur le premier niveau non balayé au-delà de l'entrée. */
+export const VARIANTES_SWEEP = Object.freeze(["s1", "s2", "s3"]);
+
+/** Toutes les variantes suivies. Une position n'en porte qu'une famille :
+ * les variantes de l'autre setup ont un objectif `null` et sont considérées
+ * résolues d'emblée. */
+export const VARIANTES = Object.freeze([...VARIANTES_OB, ...VARIANTES_SWEEP]);
+
+/** Retracement du mouvement de référence visé par `s1` et `s2` (identique au backtest). */
+export const RATIO_FIBO = 0.72;
+
+/** Part close au 0,72 dans `s2` (identique à backtest FRACTION_FIBO_DEFAUT). */
+export const FRACTION_FIBO = 0.5;
+
+/** Niveaux de liquidité actifs conservés au plus par unité (identique au backtest). */
+export const MAX_NIVEAUX_PAR_UNITE = 40;
+
+/** Origines des cibles du setup sweep (mêmes noms que backtest/moteur.py). */
+export const ORIGINE_FIBO = "fibonacci_0_72";
+export const ORIGINE_NIVEAU_HAUT = "niveau_haut";
+export const ORIGINE_NIVEAU_BAS = "niveau_bas";
+
+/**
+ * Réglages du setup sweep, avec leurs valeurs par défaut — les mêmes que
+ * ConfigBacktest côté Python.
+ *
+ * @returns {object} `{sensibilitePivot, uniteFibo, fractionFibo, breakEvenS2, margeStopSweep, maxNiveauxParUnite}`.
+ */
+export function optionsSweepDefaut() {
+  return {
+    sensibilitePivot: SENSIBILITE_PIVOT,
+    uniteFibo: "M15",
+    fractionFibo: FRACTION_FIBO,
+    breakEvenS2: true,
+    // `null` reprend la marge du setup OB (config.margeStop).
+    margeStopSweep: null,
+    maxNiveauxParUnite: MAX_NIVEAUX_PAR_UNITE,
+  };
+}
 
 /** Nombre maximal de zones de liquidité retenues (identique au backtest). */
 export const MAX_ZONES_PALIERS = 3;
@@ -120,6 +174,7 @@ export const ABANDON_EXPIRATION = "expiration_sans_confirmation";
 export function etatInitial() {
   return {
     orderBlocksActifs: [],
+    niveauxActifs: [],
     setupsEnAttente: [],
     positionOuverte: null,
     derniereBougieTraiteeT: null,
@@ -151,6 +206,10 @@ function calculerObjectifs(prixEntree, distance, achat, orderBlocksActifs, bougi
     b15: actif("b15") ? ratio(1.5) : null,
     b2: actif("b2") ? ratio(2.0) : null,
     b3: actif("b3") ? ratio(3.0) : null,
+    // Une entrée sur order block ne porte aucune variante du setup sweep.
+    s1: null,
+    s2: null,
+    s3: null,
   };
 }
 
@@ -222,13 +281,15 @@ function niveauxDeLiquidite(prix, achat, orderBlocksActifs, bougiesM1, instantMs
  * @param {object} config Configuration d'exécution.
  * @param {Array<object>} evenements Journal d'évènements, complété sur place.
  */
-function avancerPaliers(position, bougie, finBarre, config, evenements) {
+function avancerPaliers(position, bougie, finBarre, config, evenements, variante = "c") {
   const paliers = position.paliers || [];
   if (!paliers.length) return;
 
   const achat = position.sens === HAUSSIER;
   const sensSigne = achat ? 1.0 : -1.0;
   const auBreakEven = position.stopPaliers === position.prixEntree;
+  // Une variante jouée sans break-even (s2 « sans_be ») garde son stop initial.
+  const breakEvenActif = position.breakEvenActif !== false;
 
   const clore = (palier, prix, motif) => {
     const prixNet = appliquerCoutsSortie(prix, position.sens, config);
@@ -241,7 +302,7 @@ function avancerPaliers(position, bougie, finBarre, config, evenements) {
     evenements.push({
       type: "resolution_palier",
       id: position.id,
-      variante: "c",
+      variante,
       rang: palier.rang,
       zone: palier.zone,
       origine: palier.origine,
@@ -275,7 +336,7 @@ function avancerPaliers(position, bougie, finBarre, config, evenements) {
   if (reste.length) {
     // Une tranche au moins vient de tomber : le solde passe à break-even,
     // et le stop n'y bougera plus.
-    if (reste.length < ouverts.length && !auBreakEven) {
+    if (reste.length < ouverts.length && !auBreakEven && breakEvenActif) {
       position.stopPaliers = position.prixEntree;
     }
     return;
@@ -284,11 +345,11 @@ function avancerPaliers(position, bougie, finBarre, config, evenements) {
   // Dernière tranche close : la variante est résolue. Le total est la somme
   // du détail, jamais un chiffre calculé à part.
   const total = paliers.reduce((somme, p) => somme + p.resultatUsd, 0);
-  position.variantesResolues.c = true;
+  position.variantesResolues[variante] = true;
   evenements.push({
     type: "resolution",
     id: position.id,
-    variante: "c",
+    variante,
     statut: total > 0 ? "gagnant" : "perdant",
     prixSortie: paliers[paliers.length - 1].prixSortie,
     resultatUsd: total,
@@ -373,11 +434,57 @@ function isolerJambe(ob, instantMs, cadresParUnite, sensibiliteSwing) {
 }
 
 /**
- * Cherche un FVG de sens opposé à la zone, en M5 puis M3 puis M1.
- * Port de `Backtest._chercher_fvg`.
+ * Situe l'origine du dernier mouvement directionnel précédant le sweep.
+ * Port de `Backtest._reference_fibo` : sur l'unité d'ancrage, la descente
+ * qui a mené au sweep d'un plus bas part du dernier sommet confirmé (même
+ * règle de swing que la jambe du setup OB).
+ *
+ * @returns {number|null} Prix d'origine du mouvement, ou `null` s'il n'est pas mesurable.
  */
-function chercherFvg(ob, debutMs, instantMs, cadresParUnite) {
-  const sensVoulu = ob.sens === HAUSSIER ? BAISSIER : HAUSSIER;
+function referenceFibo(niveau, achat, instantMs, cadresParUnite, uniteFibo, sensibiliteSwing) {
+  let cadre = fenetreClose(cadresParUnite[uniteFibo], uniteFibo, instantMs);
+  if (!cadre.length) return null;
+  cadre = cadre.slice(-PROFONDEUR_JAMBE);
+  const depart = origineDeJambe(cadre, achat ? HAUSSIER : BAISSIER, sensibiliteSwing);
+  if (depart === null) return null;
+  const origine = achat ? cadre[depart].haut : cadre[depart].bas;
+  if (achat ? origine <= niveau.extremeSweep : origine >= niveau.extremeSweep) return null;
+  return origine;
+}
+
+/**
+ * Énumère les niveaux de liquidité non balayés au-delà d'un seuil, du plus
+ * proche au plus lointain. Port de `Backtest._niveaux_structurels` :
+ * niveaux de pivot actifs non traversés (un ancien plus haut pour un achat,
+ * un ancien plus bas pour une vente) puis order blocks actifs.
+ *
+ * @returns {Array<{niveau: number, origine: string}>} Cibles ordonnées.
+ */
+function niveauxStructurels(seuil, achat, niveauxActifs, orderBlocksActifs, instantMs) {
+  const coteVoulu = achat ? COTE_HAUT : COTE_BAS;
+  const candidats = [];
+  for (const n of niveauxActifs) {
+    if (n.connuA > instantMs || n.balaye || n.enSweep || n.cote !== coteVoulu) continue;
+    candidats.push({ niveau: n.prix, origine: achat ? ORIGINE_NIVEAU_HAUT : ORIGINE_NIVEAU_BAS });
+  }
+  for (const zone of orderBlocksActifs) {
+    if (zone.mitige || zone.finMotif > instantMs) continue;
+    candidats.push({ niveau: achat ? zone.bas : zone.haut, origine: "order_block" });
+  }
+  const devant = candidats.filter((c) => (achat ? c.niveau > seuil : c.niveau < seuil));
+  const vus = new Map();
+  for (const c of devant) if (!vus.has(c.niveau)) vus.set(c.niveau, c.origine);
+  return Array.from(vus, ([niveau, origine]) => ({ niveau, origine }))
+    .sort((x, y) => (achat ? x.niveau - y.niveau : y.niveau - x.niveau));
+}
+
+/**
+ * Cherche un FVG dans le sens du trade, en M5 puis M3 puis M1.
+ * Port de `Backtest._chercher_fvg` : pour un achat, l'écart cherché est
+ * baissier — c'est sa borne haute que la clôture doit dépasser.
+ */
+function chercherFvg(sensTrade, debutMs, instantMs, cadresParUnite) {
+  const sensVoulu = sensTrade === HAUSSIER ? BAISSIER : HAUSSIER;
   for (const unite of UNITES_FVG) {
     let cadre = fenetreClose(cadresParUnite[unite], unite, instantMs);
     cadre = cadre.filter((b) => b.t >= debutMs && b.t <= instantMs);
@@ -398,11 +505,14 @@ function chercherFvg(ob, debutMs, instantMs, cadresParUnite) {
  * @param {object} config Réglages d'exécution (voir configExecutionDefaut()).
  * @param {number} tauxEurusd Taux EUR/USD du jour, pour le dimensionnement.
  * @param {number} sensibiliteSwing Sensibilité du swing (par défaut celle d'ict.js).
- * @param {string[]} variantesActives Variantes suivies (par défaut les
- *   quatre). Une position ne bloque de nouveaux setups que tant qu'au moins
- *   une variante active reste non résolue. Réduire à une seule variante
- *   reproduit exactement le blocage du backtest Python pour cette variante
- *   — c'est ce que fait le test de parité.
+ * @param {string[]} variantesActives Variantes suivies (par défaut toutes).
+ *   Les setups joués s'en déduisent : l'order block si une variante `a`…`c`
+ *   est active, le sweep si une variante `s1`…`s3` l'est. Une position ne
+ *   bloque de nouveaux setups que tant qu'au moins une variante active
+ *   reste non résolue. Réduire à une seule variante reproduit exactement le
+ *   blocage du backtest Python pour cette variante — c'est ce que fait le
+ *   test de parité.
+ * @param {object} options Réglages du setup sweep (voir optionsSweepDefaut()).
  * @returns {{etat: object, evenements: Array<object>}} Le nouvel état, et les
  *   événements survenus (entrée ouverte, variante résolue) que l'appelant
  *   doit journaliser.
@@ -414,9 +524,12 @@ export function traiterNouvellesBougies(
   tauxEurusd = null,
   sensibiliteSwing = 4,
   variantesActives = VARIANTES,
+  options = {},
 ) {
+  const reglages = { ...optionsSweepDefaut(), ...options };
   const evenements = [];
   let orderBlocksActifs = etat.orderBlocksActifs.map((o) => ({ ...o }));
+  let niveauxActifs = (etat.niveauxActifs || []).map((n) => ({ ...n }));
   let setupsEnAttente = etat.setupsEnAttente.map((s) => ({ ...s }));
   let position = etat.positionOuverte
     ? {
@@ -426,14 +539,19 @@ export function traiterNouvellesBougies(
       }
     : null;
 
+  const joueOb = variantesActives.some((v) => VARIANTES_OB.includes(v));
+  const joueSweep = variantesActives.some((v) => VARIANTES_SWEEP.includes(v));
+
   const cadresParUnite = {};
-  for (const unite of new Set([...UNITES_ORDER_BLOCK, ...UNITES_FVG, "M1"])) {
+  for (const unite of new Set([...UNITES_ORDER_BLOCK, ...UNITES_FVG, "M1", reglages.uniteFibo])) {
     cadresParUnite[unite] = agreger(bougiesM1Fenetre, unite);
   }
 
   // Order blocks nouvellement formés depuis la dernière exécution : on ne
   // regarde que les bougies dont le motif se termine après la dernière
   // bougie déjà traitée, pour ne jamais réinsérer une zone déjà connue.
+  // Les order blocks sont détectés même quand leur setup n'est pas joué :
+  // ils servent de niveaux structurels au setup sweep, comme dans le backtest.
   const seuilConnaissance = etat.derniereBougieTraiteeT ?? -Infinity;
   for (const unite of UNITES_ORDER_BLOCK) {
     const zones = detecterOrderBlocks(cadresParUnite[unite], unite);
@@ -452,24 +570,57 @@ export function traiterNouvellesBougies(
   // stratégie — exactement le cas que touches_simultanees documente.
   orderBlocksActifs.sort((a, b) => a.finMotif - b.finMotif);
 
+  // Niveaux de liquidité devenus connus depuis la dernière exécution. Le
+  // seuil est la **fin** de la dernière bougie traitée, pas son ouverture :
+  // le backtest les insère dès que `connu_a <= fin_barre`, un niveau connu
+  // pile à la fin de la dernière bougie a donc déjà été inséré au tour
+  // précédent — le réinsérer le ferait balayer deux fois.
+  const finDerniereTraitee = etat.derniereBougieTraiteeT === null ? -Infinity : etat.derniereBougieTraiteeT + 60_000;
+  const niveauxNouveaux = [];
+  if (joueSweep) {
+    // Même ordre d'énumération que Backtest.__init__ (unites_sweep = H1, M30,
+    // M15) avant un tri stable par instant de connaissance.
+    for (const unite of UNITES_ORDER_BLOCK) {
+      for (const niveau of detecterNiveauxLiquidite(cadresParUnite[unite], unite, reglages.sensibilitePivot)) {
+        if (niveau.connuA > finDerniereTraitee) niveauxNouveaux.push(niveau);
+      }
+    }
+    niveauxNouveaux.sort((a, b) => a.connuA - b.connuA);
+  }
+  let prochainNiveau = 0;
+
   const nouvellesBougies = bougiesM1Fenetre.filter(
     (b) => etat.derniereBougieTraiteeT === null || b.t > etat.derniereBougieTraiteeT,
   );
 
+  let finPrecedente = finDerniereTraitee;
   for (const bougie of nouvellesBougies) {
     const finBarre = bougie.t + 60_000;
     const { haut, bas, cloture } = bougie;
+
+    // 1b. Niveaux devenus connus à la clôture de cette barre, plafonnés par
+    // unité aux plus récents (identique au backtest : le plus ancien de
+    // l'unité est évincé, jamais réinséré).
+    while (prochainNiveau < niveauxNouveaux.length && niveauxNouveaux[prochainNiveau].connuA <= finBarre) {
+      const nouveau = niveauxNouveaux[prochainNiveau];
+      niveauxActifs.push(nouveau);
+      prochainNiveau += 1;
+      const memes = niveauxActifs.filter((n) => n.unite === nouveau.unite);
+      if (memes.length > reglages.maxNiveauxParUnite) {
+        niveauxActifs.splice(niveauxActifs.indexOf(memes[0]), 1);
+      }
+    }
 
     // 2. Résolution de la position ouverte, sur cette barre seulement.
     if (position) {
       for (const variante of VARIANTES) {
         if (position.variantesResolues[variante]) continue;
-        if (variante === "c") {
-          avancerPaliers(position, bougie, finBarre, config, evenements);
+        if (variante === "c" || variante === "s2") {
+          avancerPaliers(position, bougie, finBarre, config, evenements, variante);
           continue;
         }
         const objectif = position.objectifs[variante];
-        if (objectif === null) continue; // variante A sans objectif structurel
+        if (objectif === null) continue; // variante sans objectif
         let sortie = null;
         if (position.sens === HAUSSIER) {
           if (bas <= position.stop) sortie = { prix: position.stop, motif: "stop" };
@@ -500,20 +651,23 @@ export function traiterNouvellesBougies(
     }
 
     // 3. Mitigation des zones : une zone touchée cesse d'être offerte.
+    const nouvelles = [];
     if (!position) {
       const restantes = [];
-      const nouvelles = [];
       for (const zone of orderBlocksActifs) {
         const toucheMaintenant = !zone.mitige && zone.finMotif <= finBarre
           && !(bas > zone.haut || haut < zone.bas);
         if (toucheMaintenant) {
           zone.mitige = true;
           zone.horodatageMitigation = finBarre;
-          const jambe = isolerJambe(zone, finBarre, cadresParUnite, sensibiliteSwing);
-          if (jambe.length >= 2) {
-            nouvelles.push({
-              ob: zone, debut: jambe[0].t, fvg: null, uniteFvg: "", fvgTouche: false, barres: 0,
-            });
+          if (joueOb) {
+            const jambe = isolerJambe(zone, finBarre, cadresParUnite, sensibiliteSwing);
+            if (jambe.length >= 2) {
+              nouvelles.push({
+                origine: SETUP_ORDER_BLOCK, sens: zone.sens,
+                ob: zone, niveau: null, debut: jambe[0].t, fvg: null, uniteFvg: "", fvgTouche: false, barres: 0,
+              });
+            }
           }
           // Zone consommée par la touche : elle ne reste pas active, comme
           // dans le backtest (continue, jamais réinsérée dans restantes).
@@ -522,7 +676,6 @@ export function traiterNouvellesBougies(
         if (!zone.mitige) restantes.push(zone);
       }
       orderBlocksActifs = restantes;
-      setupsEnAttente.push(...nouvelles);
     } else {
       // Position ouverte : les zones touchées le sont quand même, mais
       // aucun setup n'est ouvert — la stratégie ne prévoit pas de cumuler.
@@ -533,6 +686,35 @@ export function traiterNouvellesBougies(
         }
       }
     }
+
+    // 3b. Sweeps : la traversée se lit sur la barre M1 (une mèche suffit),
+    // la confirmation sur la clôture d'une bougie de l'unité du niveau — les
+    // bougies closes entre la fin de la barre précédente et celle-ci, dans
+    // l'ordre. L'extrême de cette barre est connu avant qu'une bougie qui
+    // la contient ne soit examinée. Un sweep confirmé pendant une position
+    // ouverte consomme le niveau sans ouvrir de setup.
+    if (joueSweep && niveauxActifs.length) {
+      for (const niveau of niveauxActifs) avancerNiveau(niveau, haut, bas, bougie.t);
+      for (const unite of UNITES_ORDER_BLOCK) {
+        const duree = DUREES_MS[unite];
+        for (const b of cadresParUnite[unite]) {
+          const fin = b.t + duree;
+          if (fin <= finPrecedente || fin > finBarre) continue;
+          for (const niveau of niveauxActifs) {
+            if (niveau.unite !== unite || !niveau.enSweep) continue;
+            if (confirmerBalayage(niveau, b.cloture, fin) && !position) {
+              nouvelles.push({
+                origine: SETUP_SWEEP, sens: sensTradeNiveau(niveau),
+                ob: null, niveau: { ...niveau }, debut: niveau.debutSweep,
+                fvg: null, uniteFvg: "", fvgTouche: false, barres: 0,
+              });
+            }
+          }
+        }
+      }
+      niveauxActifs = niveauxActifs.filter((n) => !n.balaye);
+    }
+    if (!position) setupsEnAttente.push(...nouvelles);
 
     // 4. Instruction des setups en cours (seulement si aucune position).
     //
@@ -545,10 +727,7 @@ export function traiterNouvellesBougies(
     // créé à l'étape 3 de ce même tour) n'est jamais ajouté à `encore` et
     // disparaît donc purement et simplement. Ce n'est pas un gel suivi
     // d'une reprise : c'est un abandon silencieux, au même titre qu'une
-    // expiration ou un FVG introuvable. Une première version de ce fichier
-    // les gelait et les reprenait après coup — plus généreux que le
-    // backtest, et faux : vérifié par le test de parité, qui exigeait un
-    // trade que le backtest, lui, n'a jamais pris.
+    // expiration ou un FVG introuvable.
     if (!position) {
       const encore = [];
       for (const setup of setupsEnAttente) {
@@ -556,14 +735,17 @@ export function traiterNouvellesBougies(
         setup.barres += 1;
         if (setup.barres > EXPIRATION_BARRES) continue; // abandon : expiration_sans_confirmation
 
+        // Un setup persisté par une version antérieure ne porte ni origine ni sens.
+        const sens = setup.sens ?? setup.ob.sens;
+        const origine = setup.origine ?? SETUP_ORDER_BLOCK;
         if (setup.fvg === null) {
-          const trouve = chercherFvg(setup.ob, setup.debut, finBarre, cadresParUnite);
+          const trouve = chercherFvg(sens, setup.debut, finBarre, cadresParUnite);
           setup.fvg = trouve.fvg;
           setup.uniteFvg = trouve.unite;
           if (setup.fvg === null) continue; // abandon : aucun_fvg_trouve
         }
 
-        const achat = setup.ob.sens === HAUSSIER;
+        const achat = sens === HAUSSIER;
         if (!setup.fvgTouche) {
           if (bas <= setup.fvg.haut && haut >= setup.fvg.bas) setup.fvgTouche = true;
           encore.push(setup);
@@ -576,58 +758,116 @@ export function traiterNouvellesBougies(
         if (!confirme) { encore.push(setup); continue; }
 
         // Confirmation acquise : entrée au marché, toujours, sans exception.
-        const prixEntree = appliquerCoutsEntree(cloture, setup.ob.sens, config);
-        const stop = calculerStop(setup.ob.sens, setup.ob.haut, setup.ob.bas, setup.ob.mecheBougie2, config.margeStop);
+        const prixEntree = appliquerCoutsEntree(cloture, sens, config);
+        let stop;
+        if (origine === SETUP_SWEEP) {
+          const marge = reglages.margeStopSweep ?? config.margeStop;
+          stop = achat ? setup.niveau.extremeSweep - marge : setup.niveau.extremeSweep + marge;
+        } else {
+          stop = calculerStop(sens, setup.ob.haut, setup.ob.bas, setup.ob.mecheBougie2, config.margeStop);
+        }
         const distance = Math.abs(prixEntree - stop);
         if (tauxEurusd === null || tauxEurusd <= 0) continue; // abandon : taille_non_prenable
         const taille = dimensionner(distance, tauxEurusd, config);
         if (!taille.prenable) continue; // abandon : taille_non_prenable
 
-        const objectifs = calculerObjectifs(
-          prixEntree, distance, achat, orderBlocksActifs, bougiesM1Fenetre, finBarre, variantesActives,
-        );
+        const actif = (v) => variantesActives.includes(v);
+        let objectifs;
+        let paliers = [];
+        let breakEvenActif = true;
+        let champsSweep = {};
 
-        // Zones de liquidité de la variante à paliers. Elles partagent la
-        // première cible avec la variante A : `objectifs.a` est le premier
-        // niveau de cette même liste (voir objectifStructurel).
-        const zones = variantesActives.includes("c")
-          ? niveauxDeLiquidite(prixEntree, achat, orderBlocksActifs, bougiesM1Fenetre, finBarre)
-          : [];
-        const fractions = zones.length ? repartirPaliers(zones.length) : [];
-        const paliers = zones.map((zone, i) => ({
-          rang: i + 1,
-          zone: zone.niveau,
-          origine: zone.origine,
-          fraction: fractions[i],
-          ratioRisque: distance ? Math.abs(zone.niveau - prixEntree) / distance : 0,
-          prixSortie: null,
-          resultatUsd: null,
-          motifSortie: "",
-          horodatageResolution: null,
-        }));
-        objectifs.c = zones.length ? zones[0].niveau : null;
+        if (origine === SETUP_SWEEP) {
+          const niveau = setup.niveau;
+          // Mouvement de référence, seulement si une variante Fibonacci est
+          // suivie — comme le backtest ne le calcule qu'en mode S1 ou S2.
+          let reference = null;
+          let cible = null;
+          if (actif("s1") || actif("s2")) {
+            reference = referenceFibo(niveau, achat, finBarre, cadresParUnite, reglages.uniteFibo, sensibiliteSwing);
+            if (reference !== null) {
+              const amplitude = Math.abs(reference - niveau.extremeSweep);
+              cible = achat ? niveau.extremeSweep + amplitude * RATIO_FIBO : niveau.extremeSweep - amplitude * RATIO_FIBO;
+              // Une cible déjà dépassée à l'entrée n'est pas un objectif.
+              if (achat ? cible <= prixEntree : cible >= prixEntree) cible = null;
+            }
+          }
+          objectifs = { a: null, b15: null, b2: null, b3: null, c: null, s1: null, s2: null, s3: null };
+          if (actif("s1") && cible !== null) objectifs.s1 = cible;
+          if (actif("s2") && cible !== null) {
+            const structurels = niveauxStructurels(cible, achat, niveauxActifs, orderBlocksActifs, finBarre);
+            if (structurels.length) {
+              const fraction = reglages.fractionFibo;
+              paliers = [
+                { rang: 1, zone: cible, origine: ORIGINE_FIBO, fraction,
+                  ratioRisque: distance ? Math.abs(cible - prixEntree) / distance : 0,
+                  prixSortie: null, resultatUsd: null, motifSortie: "", horodatageResolution: null },
+                { rang: 2, zone: structurels[0].niveau, origine: structurels[0].origine, fraction: 1.0 - fraction,
+                  ratioRisque: distance ? Math.abs(structurels[0].niveau - prixEntree) / distance : 0,
+                  prixSortie: null, resultatUsd: null, motifSortie: "", horodatageResolution: null },
+              ];
+              objectifs.s2 = cible;
+              breakEvenActif = reglages.breakEvenS2;
+            }
+          }
+          if (actif("s3")) {
+            const structurels = niveauxStructurels(prixEntree, achat, niveauxActifs, orderBlocksActifs, finBarre);
+            if (structurels.length) objectifs.s3 = structurels[0].niveau;
+          }
+          champsSweep = {
+            setup: SETUP_SWEEP,
+            // Pour un sweep, la « zone » journalisée est le niveau lui-même.
+            timeframeOb: niveau.unite, obHaut: niveau.prix, obBas: niveau.prix,
+            niveauPrix: niveau.prix, niveauCote: niveau.cote, niveauUnite: niveau.unite,
+            niveauFormation: niveau.formation, sweepExtreme: niveau.extremeSweep, sweepDebut: niveau.debutSweep,
+            referencePrix: reference, uniteFibo: reference !== null ? reglages.uniteFibo : "",
+          };
+        } else {
+          objectifs = calculerObjectifs(
+            prixEntree, distance, achat, orderBlocksActifs, bougiesM1Fenetre, finBarre, variantesActives,
+          );
+          // Zones de liquidité de la variante à paliers. Elles partagent la
+          // première cible avec la variante A : `objectifs.a` est le premier
+          // niveau de cette même liste (voir objectifStructurel).
+          const zones = actif("c")
+            ? niveauxDeLiquidite(prixEntree, achat, orderBlocksActifs, bougiesM1Fenetre, finBarre)
+            : [];
+          const fractions = zones.length ? repartirPaliers(zones.length) : [];
+          paliers = zones.map((zone, i) => ({
+            rang: i + 1,
+            zone: zone.niveau,
+            origine: zone.origine,
+            fraction: fractions[i],
+            ratioRisque: distance ? Math.abs(zone.niveau - prixEntree) / distance : 0,
+            prixSortie: null,
+            resultatUsd: null,
+            motifSortie: "",
+            horodatageResolution: null,
+          }));
+          objectifs.c = zones.length ? zones[0].niveau : null;
+          champsSweep = {
+            setup: SETUP_ORDER_BLOCK,
+            timeframeOb: setup.ob.unite, obHaut: setup.ob.haut, obBas: setup.ob.bas,
+          };
+        }
 
         // Aucune variante active n'a d'objectif : il n'y a rien à surveiller.
         // Ouvrir ici produirait une entrée dégénérée — journalisée comme un
         // signal alors qu'elle se résout dans la foulée — et, le temps d'une
         // barre, elle empêcherait un setup réellement exploitable de se
-        // former. Le backtest abandonne ce cas (ABANDON_EXPIRATION) ; on
-        // l'abandonne aussi. Trouvé par le test de parité de la partie A :
-        // une de ces entrées fantômes masquait un trade que le Python prenait
-        // deux minutes plus tard.
+        // former. Le backtest abandonne ce cas ; on l'abandonne aussi.
         if (variantesActives.every((v) => objectifs[v] === null)) continue;
 
         // Une variante sans objectif (A sans niveau structurel devant le
-        // prix, ou une variante hors de variantesActives) est considérée
-        // résolue d'emblée : elle ne bloquera jamais la formation d'un
-        // nouveau setup, faute d'avoir quoi que ce soit à surveiller.
+        // prix, une variante hors de variantesActives, ou les variantes de
+        // l'autre setup) est considérée résolue d'emblée : elle ne bloquera
+        // jamais la formation d'un nouveau setup.
+        const prefixe = origine === SETUP_SWEEP ? `${finBarre}-sweep-${setup.niveau.unite}` : `${finBarre}-${setup.ob.unite}`;
         position = {
-          id: `${finBarre}-${setup.ob.unite}-${setup.ob.sens}`,
+          id: `${prefixe}-${sens}`,
           horodatageDetection: finBarre,
-          timeframeOb: setup.ob.unite,
-          obHaut: setup.ob.haut,
-          obBas: setup.ob.bas,
-          sens: setup.ob.sens,
+          ...champsSweep,
+          sens,
           timeframeFvg: setup.uniteFvg,
           fvgHaut: setup.fvg ? setup.fvg.haut : null,
           fvgBas: setup.fvg ? setup.fvg.bas : null,
@@ -637,8 +877,10 @@ export function traiterNouvellesBougies(
           lots: taille.lots,
           paliers,
           // Stop propre à la variante à paliers : il passera au prix d'entrée
-          // dès la première tranche close, sans toucher au stop des autres.
+          // dès la première tranche close (si le break-even est actif), sans
+          // toucher au stop des autres.
           stopPaliers: stop,
+          breakEvenActif,
           variantesResolues: Object.fromEntries(
             VARIANTES.map((v) => [v, objectifs[v] === null]),
           ),
@@ -658,11 +900,14 @@ export function traiterNouvellesBougies(
       }
       setupsEnAttente = encore;
     }
+
+    finPrecedente = finBarre;
   }
 
   return {
     etat: {
       orderBlocksActifs,
+      niveauxActifs,
       setupsEnAttente,
       positionOuverte: position,
       derniereBougieTraiteeT: nouvellesBougies.length

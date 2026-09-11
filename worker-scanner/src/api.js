@@ -13,12 +13,19 @@
 
 import { rendreEvenementPublic } from "./alertes.js";
 
-const VARIANTES = ["a", "b15", "b2", "b3", "c"];
+const VARIANTES = ["a", "b15", "b2", "b3", "c", "s1", "s2", "s3"];
+
+/** Variantes à paliers, avec le setup qui les porte. */
+const VARIANTES_A_PALIERS = { order_block: "c", sweep: "s2" };
 
 function entreeDepuisLigne(ligne, paliers = []) {
+  // Une ligne journalisée avant le second setup ne porte pas ces colonnes :
+  // elle est un order block, sans variante sweep.
+  const setup = ligne.setup || "order_block";
   return {
     type: "entree",
     id: ligne.id,
+    setup,
     horodatageDetection: ligne.horodatage_detection,
     timeframeOb: ligne.timeframe_ob,
     obHaut: ligne.ob_haut,
@@ -29,8 +36,16 @@ function entreeDepuisLigne(ligne, paliers = []) {
     fvgBas: ligne.fvg_bas,
     prixEntree: ligne.prix_entree,
     stop: ligne.sl,
+    niveauPrix: ligne.niveau_prix ?? null,
+    niveauCote: ligne.niveau_cote ?? null,
+    niveauUnite: ligne.niveau_unite ?? null,
+    niveauFormation: ligne.niveau_formation ?? null,
+    sweepExtreme: ligne.sweep_extreme ?? null,
+    referencePrix: ligne.reference_prix ?? null,
+    uniteFibo: ligne.unite_fibo ?? null,
     objectifs: {
       a: ligne.tp_a, b15: ligne.tp_b15, b2: ligne.tp_b2, b3: ligne.tp_b3, c: ligne.tp_c,
+      s1: ligne.tp_s1 ?? null, s2: ligne.tp_s2 ?? null, s3: ligne.tp_s3 ?? null,
     },
     paliers: paliers.map((p) => ({
       rang: p.rang,
@@ -112,7 +127,8 @@ export function construireReponseJournal(lignes, derniereExecutionMs, lignesPali
 
     const variantes = {};
     for (const variante of VARIANTES) {
-      const statut = ligne[`statut_${variante}`];
+      // Colonne absente (ligne antérieure au second setup) : variante non suivie.
+      const statut = ligne[`statut_${variante}`] ?? "sans_objectif";
       const prixSortie = ligne[`prix_sortie_${variante}`];
       const horodatageResolution = ligne[`horodatage_resolution_${variante}`];
       const resolue = statut === "gagnant" || statut === "perdant";
@@ -121,7 +137,7 @@ export function construireReponseJournal(lignes, derniereExecutionMs, lignesPali
       if (resolue) {
         const rendu = rendreEvenementPublic({
           type: "resolution", variante, statut, prixSortie, horodatageResolution,
-          paliers: detailPaliers,
+          paliers: detailPaliers, setup: entree.setup,
         });
         texteResolution = rendu.infractions.length === 0 ? rendu.texte : null;
       }
@@ -131,7 +147,7 @@ export function construireReponseJournal(lignes, derniereExecutionMs, lignesPali
       // porte que la dernière part de la position.
       let r = null;
       if (resolue) {
-        r = variante === "c"
+        r = variante === VARIANTES_A_PALIERS[entree.setup]
           ? detailPaliers.reduce((somme, p) => somme + (p.r ?? 0), 0)
           : calculerR(entree.sens, entree.prixEntree, entree.stop, prixSortie);
       }
@@ -148,8 +164,16 @@ export function construireReponseJournal(lignes, derniereExecutionMs, lignesPali
 
     return {
       id: entree.id,
+      setup: entree.setup,
       horodatage_detection_utc: new Date(entree.horodatageDetection).toISOString(),
       timeframe_ob: entree.timeframeOb,
+      niveau_prix: entree.niveauPrix,
+      niveau_cote: entree.niveauCote,
+      niveau_unite: entree.niveauUnite,
+      niveau_formation_utc: entree.niveauFormation ? new Date(entree.niveauFormation).toISOString() : null,
+      sweep_extreme: entree.sweepExtreme,
+      reference_prix: entree.referencePrix,
+      unite_fibo: entree.uniteFibo,
       ob_haut: entree.obHaut,
       ob_bas: entree.obBas,
       sens: entree.sens,

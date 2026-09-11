@@ -343,3 +343,158 @@ test("parité — le passage à break-even se voit dans les motifs de sortie des
     `la fixture doit contenir des sorties à break-even pour que la parité soit probante (motifs : ${JSON.stringify(motifs)})`,
   );
 });
+
+// ---------------------------------------------------------------------------
+// 8. Setup sweep — niveaux de liquidité, cycle de vie, moteur complet
+// ---------------------------------------------------------------------------
+import { avancerNiveau, confirmerBalayage, detecterNiveauxLiquidite } from "../src/ict.js";
+
+test("parité — detecterNiveauxLiquidite() reproduit detecter_niveaux_liquidite pour les sensibilités 3, 4 et 5", () => {
+  const { cas } = fixture("niveaux");
+  for (const c of cas) {
+    const resultat = detecterNiveauxLiquidite(c.cadre, c.unite, c.sensibilite);
+    assert.equal(resultat.length, c.attendu.length, `${c.nom} : nombre de niveaux`);
+    for (let i = 0; i < resultat.length; i += 1) {
+      assert.equal(resultat[i].cote, c.attendu[i].cote, `${c.nom}[${i}].cote`);
+      assertProche(resultat[i].prix, c.attendu[i].prix, `${c.nom}[${i}].prix`);
+      assert.equal(resultat[i].formation, c.attendu[i].formation, `${c.nom}[${i}].formation`);
+      assert.equal(resultat[i].connuA, c.attendu[i].connuA, `${c.nom}[${i}].connuA`);
+    }
+  }
+});
+
+test("parité — avancerNiveau() et confirmerBalayage() suivent exactement le cycle de vie Python", () => {
+  const { sequences } = fixture("niveaux");
+  for (const seq of sequences) {
+    const niveau = {
+      unite: "M15", cote: seq.cote, prix: seq.prix, formation: 0, connuA: 0,
+      enSweep: false, extremeSweep: null, debutSweep: null, balaye: false, horodatageBalayage: null,
+    };
+    seq.trace.forEach((etape, i) => {
+      const retour = etape.etape[0] === "m1"
+        ? avancerNiveau(niveau, etape.etape[1], etape.etape[2], etape.instantMs)
+        : confirmerBalayage(niveau, etape.etape[1], etape.instantMs);
+      assert.equal(retour, etape.retour, `${seq.cote} étape ${i} : retour`);
+      assert.equal(niveau.enSweep, etape.etat.enSweep, `${seq.cote} étape ${i} : enSweep`);
+      assert.equal(niveau.balaye, etape.etat.balaye, `${seq.cote} étape ${i} : balaye`);
+      assert.equal(niveau.debutSweep, etape.etat.debutSweep, `${seq.cote} étape ${i} : debutSweep`);
+      if (etape.etat.extremeSweep === null) assert.equal(niveau.extremeSweep, null, `${seq.cote} étape ${i} : extremeSweep`);
+      else assertProche(niveau.extremeSweep, etape.etat.extremeSweep, `${seq.cote} étape ${i} : extremeSweep`);
+    });
+  }
+});
+
+/**
+ * Rejoue une exécution de la fixture sweep à travers le moteur JS, jour par
+ * jour (le taux EUR/USD change chaque jour, comme Backtest._taux()).
+ */
+function rejouerSweep(donnees, execution) {
+  const config = configExecutionDefaut();
+  config.spread = 0.62;
+  config.slippage = 0.3;
+  config.margeStop = 1.0;
+  const options = { sensibilitePivot: donnees.sensibilitePivot, uniteFibo: donnees.uniteFibo, fractionFibo: 0.5, breakEvenS2: true };
+
+  const parJour = new Map();
+  for (const bougie of donnees.m1) {
+    const jour = new Date(bougie.t).toISOString().slice(0, 10);
+    if (!parJour.has(jour)) parJour.set(jour, []);
+    parJour.get(jour).push(bougie);
+  }
+  let etat = etatInitial();
+  const fenetreCumulative = [];
+  const evenements = [];
+  for (const [jour, bougiesDuJour] of parJour) {
+    fenetreCumulative.push(...bougiesDuJour);
+    const taux = donnees.tauxEurusdParJour[jour] ?? null;
+    const resultat = traiterNouvellesBougies(etat, fenetreCumulative, config, taux, 4, execution.variantesActives, options);
+    etat = resultat.etat;
+    evenements.push(...resultat.evenements);
+  }
+  return evenements;
+}
+
+for (const nom of ["s1", "s2", "s3"]) {
+  test(`parité — le moteur JS reproduit exactement les trades sweep de la variante ${nom} (Python)`, () => {
+    const donnees = fixture("sweep");
+    const execution = donnees.executions[nom];
+    const evenements = rejouerSweep(donnees, execution);
+    const entrees = evenements.filter((e) => e.type === "entree");
+    const resolutions = evenements.filter((e) => e.type === "resolution" && e.variante === nom);
+    const tranches = evenements.filter((e) => e.type === "resolution_palier");
+
+    assert.equal(entrees.length, execution.attenduNTrades, `${nom} : nombre de trades JS=${entrees.length} Python=${execution.attenduNTrades}`);
+    for (let i = 0; i < execution.attenduTrades.length; i += 1) {
+      const attendu = execution.attenduTrades[i];
+      const obtenu = entrees[i];
+      assert.equal(obtenu.setup, "sweep", `trade ${i} : setup`);
+      assert.equal(obtenu.horodatageDetection, attendu.horodatageEntree, `trade ${i} : horodatage d'entrée`);
+      assert.equal(obtenu.sens, attendu.sens, `trade ${i} : sens`);
+      assert.equal(obtenu.niveauUnite, attendu.uniteDetection, `trade ${i} : unité du niveau`);
+      assert.equal(obtenu.niveauCote, attendu.niveauCote, `trade ${i} : côté du niveau`);
+      assertProche(obtenu.niveauPrix, attendu.niveauPrix, `trade ${i} : niveau balayé`);
+      assert.equal(obtenu.niveauFormation, attendu.niveauFormation, `trade ${i} : formation du niveau`);
+      assertProche(obtenu.sweepExtreme, attendu.sweepExtreme, `trade ${i} : extrême du sweep`);
+      assert.equal(obtenu.sweepDebut, attendu.sweepDebut, `trade ${i} : début du sweep`);
+      assert.equal(obtenu.timeframeFvg, attendu.uniteFvg, `trade ${i} : unité de FVG`);
+      assertProche(obtenu.prixEntree, attendu.prixEntree, `trade ${i} : prix d'entrée`);
+      assertProche(obtenu.stop, attendu.stop, `trade ${i} : stop`);
+      assertProche(obtenu.objectifs[nom], attendu.objectif, `trade ${i} : objectif ${nom}`);
+      assertProche(obtenu.lots, attendu.lots, `trade ${i} : lots`);
+      if (attendu.referencePrix !== null) {
+        assertProche(obtenu.referencePrix, attendu.referencePrix, `trade ${i} : origine du mouvement de référence`);
+        assert.equal(obtenu.uniteFibo, attendu.uniteFibo, `trade ${i} : unité d'ancrage`);
+      }
+
+      if (nom === "s2") {
+        assert.equal(obtenu.paliers.length, attendu.paliers.length, `trade ${i} : nombre de paliers`);
+        attendu.paliers.forEach((p, j) => {
+          const q = obtenu.paliers[j];
+          assertProche(q.zone, p.zone, `trade ${i} palier ${j} : zone`);
+          assert.equal(q.origine, p.origine, `trade ${i} palier ${j} : origine`);
+          assertProche(q.fraction, p.fraction, `trade ${i} palier ${j} : part`);
+          const tranche = tranches.find((t) => t.id === obtenu.id && t.rang === p.rang);
+          if (p.prixSortie === null) { assert.equal(tranche, undefined, `trade ${i} palier ${j} : non dénoué côté Python`); return; }
+          assert.ok(tranche, `trade ${i} palier ${j} : aucune tranche dénouée côté JS`);
+          assertProche(tranche.prixSortie, p.prixSortie, `trade ${i} palier ${j} : prix de sortie`);
+          assert.equal(tranche.motifSortie, p.motifSortie, `trade ${i} palier ${j} : motif`);
+          assert.equal(tranche.horodatageResolution, p.horodatageResolution, `trade ${i} palier ${j} : horodatage`);
+        });
+      } else {
+        const resolution = resolutions.find((r) => r.id === obtenu.id);
+        if (attendu.horodatageSortie === null) { assert.equal(resolution, undefined, `trade ${i} : non dénoué côté Python`); continue; }
+        assert.ok(resolution, `trade ${i} : aucune résolution côté JS`);
+        assert.equal(resolution.horodatageResolution, attendu.horodatageSortie, `trade ${i} : horodatage de sortie`);
+        assertProche(resolution.prixSortie, attendu.prixSortie, `trade ${i} : prix de sortie`);
+        assert.equal(resolution.statut, attendu.motifSortie === "objectif" ? "gagnant" : "perdant", `trade ${i} : statut`);
+      }
+    }
+  });
+}
+
+test("parité — les deux setups ensemble (order block structurel + sweep S1) produisent les mêmes trades que Python", () => {
+  const donnees = fixture("sweep");
+  const execution = donnees.executions.ensemble_a_s1;
+  const evenements = rejouerSweep(donnees, execution);
+  const entrees = evenements.filter((e) => e.type === "entree");
+  assert.equal(entrees.length, execution.attenduNTrades, `nombre de trades JS=${entrees.length} Python=${execution.attenduNTrades}`);
+  for (let i = 0; i < execution.attenduTrades.length; i += 1) {
+    const attendu = execution.attenduTrades[i];
+    const obtenu = entrees[i];
+    assert.equal(obtenu.setup, attendu.setup, `trade ${i} : setup`);
+    assert.equal(obtenu.horodatageDetection, attendu.horodatageEntree, `trade ${i} : horodatage d'entrée`);
+    assert.equal(obtenu.sens, attendu.sens, `trade ${i} : sens`);
+    assert.equal(obtenu.timeframeOb, attendu.uniteDetection, `trade ${i} : unité de détection`);
+    assertProche(obtenu.prixEntree, attendu.prixEntree, `trade ${i} : prix d'entrée`);
+    assertProche(obtenu.stop, attendu.stop, `trade ${i} : stop`);
+    const variante = attendu.setup === "sweep" ? "s1" : "a";
+    assertProche(obtenu.objectifs[variante], attendu.objectif, `trade ${i} : objectif ${variante}`);
+    const resolution = evenements.find((e) => e.type === "resolution" && e.id === obtenu.id && e.variante === variante);
+    if (attendu.horodatageSortie === null) continue;
+    assert.ok(resolution, `trade ${i} : aucune résolution côté JS`);
+    assert.equal(resolution.horodatageResolution, attendu.horodatageSortie, `trade ${i} : horodatage de sortie`);
+    assertProche(resolution.prixSortie, attendu.prixSortie, `trade ${i} : prix de sortie`);
+  }
+  const setups = new Set(entrees.map((e) => e.setup));
+  assert.ok(setups.has("sweep") && setups.has("order_block"), "les deux setups doivent produire des trades pour que la parité soit probante");
+});

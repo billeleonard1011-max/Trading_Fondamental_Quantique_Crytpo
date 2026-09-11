@@ -35,6 +35,12 @@ const COLONNES_JOURNAL_PUBLIQUES = [
   "horodatage_resolution_a", "horodatage_resolution_b15", "horodatage_resolution_b2",
   "horodatage_resolution_b3", "horodatage_resolution_c",
   "horodatage_resolution",
+  // Setup sweep : ce que l'alerte doit dire (niveau balayé, sa formation).
+  "setup", "niveau_prix", "niveau_cote", "niveau_unite", "niveau_formation", "sweep_extreme",
+  "reference_prix", "unite_fibo",
+  "tp_s1", "tp_s2", "tp_s3", "statut_s1", "statut_s2", "statut_s3",
+  "prix_sortie_s1", "prix_sortie_s2", "prix_sortie_s3",
+  "horodatage_resolution_s1", "horodatage_resolution_s2", "horodatage_resolution_s3",
 ].join(", ");
 
 /** Nombre maximal de signaux renvoyés par la route /journal. */
@@ -77,7 +83,7 @@ async function repondreJournal(env, cors) {
     // exprime la performance en multiple de risque, jamais en dollars.
     env.DB.prepare(
       `SELECT id_signal, rang, zone, origine, fraction, ratio_risque, statut,
-              prix_sortie, motif_sortie, horodatage_resolution
+              prix_sortie, motif_sortie, horodatage_resolution, variante
        FROM paliers ORDER BY id_signal, rang`,
     ).all(),
   ]);

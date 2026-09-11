@@ -21,8 +21,15 @@ import { champsInterdits, rendreBadge, rendreIndisponible } from "./rendu.js";
 import { installerTheme } from "./theme.js";
 import { verifierAbsenceRecommandation } from "../../worker-scanner/src/recommandation.js";
 
-/** Les quatre variantes de TP suivies, dans l'ordre d'affichage. */
-export const VARIANTES = ["a", "b15", "b2", "b3", "c"];
+/** Les variantes de TP suivies, dans l'ordre d'affichage : cinq pour le
+ * setup order block, trois pour le setup sweep. */
+export const VARIANTES = ["a", "b15", "b2", "b3", "c", "s1", "s2", "s3"];
+
+/** Variantes portées par chaque setup : un signal n'affiche que les siennes. */
+export const VARIANTES_PAR_SETUP = {
+  order_block: ["a", "b15", "b2", "b3", "c"],
+  sweep: ["s1", "s2", "s3"],
+};
 
 const LIBELLE_VARIANTE = {
   a: "Structurelle (A)",
@@ -30,7 +37,12 @@ const LIBELLE_VARIANTE = {
   b2: "Ratio 1:2 (B)",
   b3: "Ratio 1:3 (B)",
   c: "Sortie par paliers (C)",
+  s1: "Sweep — sortie complète au 0,72",
+  s2: "Sweep — 0,72 puis niveau structurel",
+  s3: "Sweep — niveau structurel seul",
 };
+
+const LIBELLE_SETUP = { order_block: "order block", sweep: "prise de liquidité (sweep)" };
 
 /** Libellés des origines de zone de liquidité.
  *
@@ -42,6 +54,9 @@ const LIBELLE_ORIGINE_ZONE = {
   asie_haut: "haut de la session asiatique",
   asie_bas: "bas de la session asiatique",
   order_block: "order block encore actif",
+  fibonacci_0_72: "0,72 du mouvement de référence",
+  niveau_haut: "ancien plus haut non balayé",
+  niveau_bas: "ancien plus bas non balayé",
 };
 
 /** Libellés des motifs de sortie d'une tranche. */
@@ -55,6 +70,9 @@ const LIBELLE_MOTIF_SORTIE = {
 const VARIANTE_VERS_BACKTEST = {
   a: "A_structurel", b15: "B_ratio_1.5", b2: "B_ratio_2", b3: "B_ratio_3",
   c: "C_paliers",
+  // Setup sweep, ancrage Fibonacci M15 et répartition 50/50 avec break-even :
+  // les mêmes réglages que le scanner (voir worker-scanner/src/moteur.js).
+  s1: "sweep_S1_fibo", s2: "sweep_S2_fibo_structurel_50_50_be", s3: "sweep_S3_structurel",
 };
 
 /** Nombre de trades résolus en deçà duquel un taux de réussite ne veut rien dire. */
@@ -260,7 +278,13 @@ export function rendreFilAlertes(signaux, limite = 30) {
   }
   const items = signaux.slice(0, limite).map((s) => {
     const detection = texteSurAudite(s.texte_detection);
-    const variantesHtml = VARIANTES.map((v) => {
+    // Un signal journalisé avant le second setup ne porte pas `setup` : c'est un order block.
+    const setup = s.setup || "order_block";
+    const variantesDuSignal = VARIANTES_PAR_SETUP[setup] || VARIANTES_PAR_SETUP.order_block;
+    const declencheur = setup === "sweep"
+      ? `balayage d'un ancien ${s.niveau_cote === "haut" ? "plus haut" : "plus bas"} ${echapper(s.niveau_unite || s.timeframe_ob)}`
+      : `order block ${echapper(s.timeframe_ob)}`;
+    const variantesHtml = variantesDuSignal.map((v) => {
       // Un signal journalisé avant l'ajout d'une variante ne la porte pas :
       // on l'affiche comme non suivie plutôt que de casser tout le fil.
       const variante = (s.variantes && s.variantes[v]) || { statut: "sans_objectif", texte: null };
@@ -274,7 +298,8 @@ export function rendreFilAlertes(signaux, limite = 30) {
 
     return `<li class="fil-item trading-signal">
       <div class="trading-signal-entete">
-        <span>${echapper(s.sens === "haussier" ? "Achat" : "Vente")} — order block ${echapper(s.timeframe_ob)}</span>
+        <span>${echapper(s.sens === "haussier" ? "Achat" : "Vente")} — ${declencheur}
+          <span class="badge badge--neutre">${echapper(LIBELLE_SETUP[setup] || setup)}</span></span>
         <span class="fil-meta">${echapper(dateHeure(s.horodatage_detection_utc))}</span>
       </div>
       <p>${detection ? echapper(detection) : "Texte de détection indisponible."}</p>

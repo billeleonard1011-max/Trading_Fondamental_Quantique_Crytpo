@@ -18,7 +18,13 @@ const LIBELLE_VARIANTE = {
   b2: "ratio 1:2 (B)",
   b3: "ratio 1:3 (B)",
   c: "sortie par paliers (C)",
+  s1: "sortie complète au 0,72 (sweep, variante 1)",
+  s2: "0,72 puis niveau structurel (sweep, variante 2)",
+  s3: "niveau structurel seul (sweep, variante 3)",
 };
+
+/** Variantes à paliers, par setup : la seule dont la résolution se détaille tranche par tranche. */
+const VARIANTE_A_PALIERS = { order_block: "c", sweep: "s2" };
 
 /** Libellés des origines de zone de liquidité.
  *
@@ -32,7 +38,53 @@ const LIBELLE_ORIGINE_ZONE = {
   asie_haut: "haut de la session asiatique",
   asie_bas: "bas de la session asiatique",
   order_block: "order block encore actif",
+  fibonacci_0_72: "0,72 du mouvement de référence",
+  niveau_haut: "ancien plus haut non balayé",
+  niveau_bas: "ancien plus bas non balayé",
 };
+
+/**
+ * Décrit le déclencheur d'une entrée : la zone d'order block, ou le niveau
+ * balayé — avec son unité, son prix, quand il s'est formé et jusqu'où la
+ * mèche du sweep est allée. C'est ce qui dit de quel setup vient le signal.
+ *
+ * @param {object} entree Événement d'entrée, ou ligne mise en forme par api.js.
+ * @returns {string} Fragment de phrase, sans point final.
+ */
+function rendreDeclencheur(entree) {
+  if (entree.setup === "sweep") {
+    const cote = entree.niveauCote === "haut" ? "plus haut" : "plus bas";
+    const prix = typeof entree.niveauPrix === "number" ? `${entree.niveauPrix.toFixed(2)} $` : "niveau non journalisé";
+    const forme = entree.niveauFormation ? `, formé le ${horodatage(entree.niveauFormation)}` : "";
+    const meche = typeof entree.sweepExtreme === "number" ? `, mèche du sweep à ${entree.sweepExtreme.toFixed(2)} $` : "";
+    return `sur le balayage d'un ancien ${cote} ${entree.niveauUnite || entree.timeframeOb} à ${prix}${forme}${meche}`;
+  }
+  return `sur un order block ${entree.timeframeOb} [${entree.obBas.toFixed(2)}, ${entree.obHaut.toFixed(2)}] $`;
+}
+
+/**
+ * Énumère les objectifs suivis d'une entrée, selon son setup.
+ *
+ * @param {object} entree Événement d'entrée.
+ * @returns {string} Énumération lisible.
+ */
+function rendreObjectifs(entree) {
+  const o = entree.objectifs || {};
+  const prix = (v) => (typeof o[v] === "number" ? `${o[v].toFixed(2)} $` : "—");
+  if (entree.setup === "sweep") {
+    return [
+      o.s1 !== null && o.s1 !== undefined ? `0,72 du mouvement de référence à ${prix("s1")}` : "0,72 non disponible pour ce signal",
+      o.s2 !== null && o.s2 !== undefined ? `0,72 puis niveau structurel (première cible à ${prix("s2")})` : "0,72 puis structurel non disponible",
+      o.s3 !== null && o.s3 !== undefined ? `niveau structurel seul à ${prix("s3")}` : "structurel seul non disponible pour ce signal",
+    ].join(", ");
+  }
+  return [
+    o.a !== null && o.a !== undefined ? `structurel à ${prix("a")}` : "structurel non disponible pour ce signal",
+    `1:1,5 à ${prix("b15")}`,
+    `1:2 à ${prix("b2")}`,
+    `1:3 à ${prix("b3")}`,
+  ].join(", ");
+}
 
 /**
  * Rend la liste ordonnée des zones de liquidité visées.
@@ -87,12 +139,7 @@ export function rendreAlerteEntree(entree) {
   const achat = entree.sens === "haussier";
   const sensTexte = achat ? "un achat" : "une vente";
   const accord = achat ? "détecté" : "détectée";
-  const objectifs = [
-    entree.objectifs.a !== null ? `structurel à ${entree.objectifs.a.toFixed(2)} $` : "structurel non disponible pour ce signal",
-    `1:1,5 à ${entree.objectifs.b15 !== null ? entree.objectifs.b15.toFixed(2) : "—"} $`,
-    `1:2 à ${entree.objectifs.b2 !== null ? entree.objectifs.b2.toFixed(2) : "—"} $`,
-    `1:3 à ${entree.objectifs.b3 !== null ? entree.objectifs.b3.toFixed(2) : "—"} $`,
-  ].join(", ");
+  const objectifs = rendreObjectifs(entree);
 
   // Pas de phrase de dénégation finale ("ceci n'est pas une recommandation") :
   // écrire ce mot pour le nier le fait détecter par le garde-fou lui-même
@@ -104,7 +151,7 @@ export function rendreAlerteEntree(entree) {
   return (
     `D'après la mécanique suivie, ${sensTexte} aurait été ${accord} à ` +
     `${entree.prixEntree.toFixed(2)} $ le ${horodatage(entree.horodatageDetection)}, ` +
-    `sur un order block ${entree.timeframeOb} [${entree.obBas.toFixed(2)}, ${entree.obHaut.toFixed(2)}] $, ` +
+    `${rendreDeclencheur(entree)}, ` +
     `confirmé par ${rendreFvg(entree)}. ` +
     `Stop de la mécanique : ${entree.stop.toFixed(2)} $. Objectifs suivis : ${objectifs}.` +
     `${rendreZones(entree.paliers)} ` +
@@ -147,17 +194,12 @@ export function rendrePublicEntree(entree) {
   const achat = entree.sens === "haussier";
   const sensTexte = achat ? "un achat" : "une vente";
   const accord = achat ? "détecté" : "détectée";
-  const objectifs = [
-    entree.objectifs.a !== null ? `structurel à ${entree.objectifs.a.toFixed(2)} $` : "structurel non disponible pour ce signal",
-    `1:1,5 à ${entree.objectifs.b15 !== null ? entree.objectifs.b15.toFixed(2) : "—"} $`,
-    `1:2 à ${entree.objectifs.b2 !== null ? entree.objectifs.b2.toFixed(2) : "—"} $`,
-    `1:3 à ${entree.objectifs.b3 !== null ? entree.objectifs.b3.toFixed(2) : "—"} $`,
-  ].join(", ");
+  const objectifs = rendreObjectifs(entree);
 
   return (
     `D'après la mécanique suivie, ${sensTexte} aurait été ${accord} à ` +
     `${entree.prixEntree.toFixed(2)} $ le ${horodatage(entree.horodatageDetection)}, ` +
-    `sur un order block ${entree.timeframeOb} [${entree.obBas.toFixed(2)}, ${entree.obHaut.toFixed(2)}] $, ` +
+    `${rendreDeclencheur(entree)}, ` +
     `confirmé par ${rendreFvg(entree)}. ` +
     `Stop de la mécanique : ${entree.stop.toFixed(2)} $. Objectifs suivis : ${objectifs}.` +
     `${rendreZones(entree.paliers)}`
@@ -179,7 +221,8 @@ export function rendrePublicEntree(entree) {
 export function rendrePublicResolution(resolution) {
   // Variante à paliers : une seule phrase ne peut pas résumer plusieurs
   // sorties à des prix différents. Le texte détaille alors chaque tranche.
-  if (resolution.variante === "c" && Array.isArray(resolution.paliers) && resolution.paliers.length) {
+  const varianteAPaliers = VARIANTE_A_PALIERS[resolution.setup || "order_block"];
+  if (resolution.variante === varianteAPaliers && Array.isArray(resolution.paliers) && resolution.paliers.length) {
     // La raison du break-even est dite une fois, en fin de phrase, plutôt
     // que répétée à chaque tranche concernée.
     const auBreakEven = resolution.paliers.some((p) => p.motif_sortie === "break_even");
@@ -187,7 +230,7 @@ export function rendrePublicResolution(resolution) {
       ? ", le stop du solde ayant été ramené au prix d'entrée après la première zone"
       : "";
     return (
-      `La sortie par paliers (C) du signal se serait dénouée le ` +
+      `La ${LIBELLE_VARIANTE[resolution.variante]} du signal se serait dénouée le ` +
       `${horodatage(resolution.horodatageResolution)} : ${rendreTranches(resolution.paliers)}${rappel}.`
     );
   }

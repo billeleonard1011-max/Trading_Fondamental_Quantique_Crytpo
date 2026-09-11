@@ -298,6 +298,46 @@ vérifiée par troncature **et** par perturbation des barres futures.
 Les zones d'ombre de l'énoncé de la stratégie ne sont pas tranchées en
 silence : elles sortent dans `meta.choix_interpretation` du JSON de synthèse.
 
+#### Second setup : prise de liquidité (sweep)
+
+Indépendant du setup order block, joué séparément ou avec lui (une seule
+position à la fois) :
+
+* **niveau de liquidité** : un pivot strict (`sensibilite_pivot` bougies de
+  chaque côté, testé à 3, 4 et 5), détecté en M15, M30 et H1, connu seulement
+  à la clôture de la bougie `i + k` ;
+* **sweep** : une mèche M1 au-delà du niveau ouvre le sweep ; **une bougie de
+  l'unité du niveau qui clôture de l'autre côté** le confirme. Un niveau
+  traversé sans clôture de l'autre côté reste actif ; un niveau balayé sort
+  définitivement de la liste ;
+* **confirmation et entrée** : FVG dans le sens du trade (M5, puis M3, puis
+  M1), touche, clôture au-delà, entrée au marché — la même chaîne que
+  l'order block ; **stop** au-delà de la mèche du sweep (`marge_stop_sweep`,
+  par défaut la marge du setup OB) ;
+* **objectifs**, trois familles : `S1_fibo` (tout à 0,72 du dernier mouvement
+  directionnel précédant le sweep, ancré sur M15, M30 ou H1),
+  `S2_fibo_structurel` (une part au 0,72, le solde sur le premier niveau non
+  balayé au-delà — répartitions 50/50, 33/67, 67/33, avec ou sans
+  break-even), `S3_structurel` (tout sur le premier niveau non balayé au-delà
+  de l'entrée).
+
+```bash
+python -m backtest.run --sweep --hors-ligne          # matrice complète : variantes × ancrage Fibonacci × pivot, puis avec l'order block
+python -m backtest.run --sweep --sensibilite-pivot 3
+```
+
+Sorties : `reports/backtest/sweep_synthese.json` (blocs `par_fibo`,
+`par_sensibilite_pivot`, `ensemble` ventilé `par_setup`), les journaux
+`trades_sweep_*.csv` / `paliers_sweep_*.csv` (ancrage M15) et
+`trades_ensemble_*.csv`. Les variantes par défaut sont aussi reprises dans
+`synthese.json` sous `sweep_*`, pour la comparaison du site avec le scanner.
+Les zones d'ombre de l'énoncé tranchées ici (unité de la bougie de
+confirmation, fenêtre du FVG, plafond de niveaux actifs, mouvement de
+référence, niveau structurel de la variante 2) sont listées dans
+`backtest/ict.py::CHOIX_INTERPRETATION` et republiées dans chaque synthèse.
+Un script Pine autonome, `pine/liquidite_sweep.pine`, dessine les niveaux
+actifs du timeframe affiché et marque les sweeps confirmés.
+
 ### Site web de suivi (GitHub Pages)
 
 Interface publique de lecture, en HTML/CSS/JS purs, sans framework ni étape
@@ -437,7 +477,9 @@ Reste à construire
 - [x] Site web de suivi, statique, publié sur GitHub Pages (`site/`)
 - [x] Assistant public avec proxy Cloudflare Worker (`worker/`)
 - [ ] Rapport quotidien rendu par Jinja2 dans `report/`
-- [ ] Indicateur TradingView (Pine Script)
+- [~] Indicateur TradingView (Pine Script) : `pine/liquidite_sweep.pine` couvre les
+      niveaux de liquidité et les sweeps ; les order blocks restent dans l'indicateur
+      existant de l'utilisateur, hors dépôt
 - [ ] Déploiement effectif du Worker sur un compte Cloudflare — le code et
       les 12 tests sont prêts, mais l'authentification interactive requise
       par `wrangler login` ne peut pas être faite depuis l'automatisation ;

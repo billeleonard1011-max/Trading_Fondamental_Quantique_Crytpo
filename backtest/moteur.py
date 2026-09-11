@@ -69,7 +69,44 @@ SORTIE_OBJECTIF: Final = "objectif"
 SORTIE_STOP: Final = "stop"
 SORTIE_BREAK_EVEN: Final = "break_even"
 
-__all__ = ["ConfigBacktest", "Palier", "Trade", "Backtest", "repartir_paliers"]
+#: Les deux setups d'entrée. Ils coexistent (une seule position à la fois,
+#: la stratégie ne cumule pas) et se testent séparément ou ensemble.
+SETUP_ORDER_BLOCK: Final = "order_block"
+SETUP_SWEEP: Final = "sweep"
+
+#: Les trois familles d'objectif du setup sweep.
+#: ``S1_fibo`` : tout à 0,72 du mouvement de référence ; ``S2_fibo_structurel`` :
+#: une part à 0,72, le solde sur le premier niveau non balayé au-delà ;
+#: ``S3_structurel`` : tout sur le premier niveau non balayé au-delà de l'entrée.
+OBJECTIF_SWEEP_FIBO: Final = "S1_fibo"
+OBJECTIF_SWEEP_FIBO_STRUCTUREL: Final = "S2_fibo_structurel"
+OBJECTIF_SWEEP_STRUCTUREL: Final = "S3_structurel"
+
+#: Retracement du mouvement de référence visé par les variantes 1 et 2.
+RATIO_FIBO_DEFAUT: Final[float] = 0.72
+
+#: Part de la position close au 0,72 dans la variante 2 (le reste vise le
+#: niveau structurel). Les trois répartitions demandées sont 0,5, 0,33 et 0,67.
+FRACTION_FIBO_DEFAUT: Final[float] = 0.5
+
+#: Niveaux de liquidité actifs conservés au plus par unité — les plus
+#: récents. Voir ict.CHOIX_INTERPRETATION (« niveaux actifs suivis »).
+MAX_NIVEAUX_PAR_UNITE: Final[int] = 40
+
+#: Motifs d'abandon propres au setup sweep.
+ABANDON_SANS_REFERENCE: Final = "aucun_mouvement_de_reference"
+ABANDON_SANS_STRUCTUREL: Final = "aucun_niveau_structurel"
+
+#: Origines des cibles du setup sweep, traduites avant tout affichage.
+ORIGINE_FIBO: Final = "fibonacci_0_72"
+ORIGINE_NIVEAU_HAUT: Final = "niveau_haut"
+ORIGINE_NIVEAU_BAS: Final = "niveau_bas"
+
+__all__ = [
+    "ConfigBacktest", "Palier", "Trade", "Backtest", "repartir_paliers",
+    "SETUP_ORDER_BLOCK", "SETUP_SWEEP",
+    "OBJECTIF_SWEEP_FIBO", "OBJECTIF_SWEEP_FIBO_STRUCTUREL", "OBJECTIF_SWEEP_STRUCTUREL",
+]
 
 
 def repartir_paliers(n_zones: int, fraction_tp1: float = FRACTION_TP1) -> list[float]:
@@ -127,6 +164,25 @@ class ConfigBacktest:
     ratio_tp: float = 2.0
     unites_ob: tuple[str, ...] = bt_data.UNITES_ORDER_BLOCK
     sensibilite_swing: int = ict.SENSIBILITE_SWING
+    #: Setups d'entrée joués. Par défaut l'order block seul : les résultats
+    #: et fixtures de parité existants restent inchangés.
+    setups: tuple[str, ...] = (SETUP_ORDER_BLOCK,)
+    #: Unités où les niveaux de liquidité sont détectés.
+    unites_sweep: tuple[str, ...] = bt_data.UNITES_ORDER_BLOCK
+    #: Bougies exigées de chaque côté d'un pivot (testé à 3, 4 et 5).
+    sensibilite_pivot: int = ict.SENSIBILITE_PIVOT
+    #: Marge du stop au-delà de la mèche du sweep. ``None`` reprend la marge
+    #: du setup OB, pour rester cohérent entre les deux ; paramétrable à part.
+    marge_stop_sweep: float | None = None
+    #: Famille d'objectif du setup sweep.
+    objectif_sweep: str = OBJECTIF_SWEEP_FIBO
+    #: Unité d'ancrage du mouvement de référence du Fibonacci.
+    unite_fibo: str = "M15"
+    ratio_fibo: float = RATIO_FIBO_DEFAUT
+    #: Variante 2 : part close au 0,72, et passage à break-even du solde.
+    fraction_fibo: float = FRACTION_FIBO_DEFAUT
+    break_even_sweep: bool = True
+    max_niveaux_par_unite: int = MAX_NIVEAUX_PAR_UNITE
 
 
 @dataclass(slots=True)
@@ -209,10 +265,35 @@ class Trade:
     #: Prix du FVG qui a confirmé l'entrée, pour l'alerte.
     fvg_haut: float | None = None
     fvg_bas: float | None = None
+    #: Setup d'origine et unité de détection (unité de l'OB ou du niveau) :
+    #: la ventilation « par timeframe de détection » lit ce champ commun.
+    setup: str = SETUP_ORDER_BLOCK
+    unite_detection: str = ""
+    #: Setup sweep : le niveau balayé, quand il s'est formé, l'extrême du
+    #: sweep — ce que l'alerte doit dire.
+    niveau_prix: float | None = None
+    niveau_cote: str = ""
+    niveau_unite: str = ""
+    niveau_formation: pd.Timestamp | None = None
+    sweep_extreme: float | None = None
+    sweep_debut: pd.Timestamp | None = None
+    unite_fibo: str = ""
+    reference_prix: float | None = None
+    #: ``False`` pour une variante à paliers sans passage à break-even.
+    break_even_actif: bool = True
 
     def to_dict(self) -> dict[str, Any]:
         """Sérialise le trade pour le journal CSV."""
         return {
+            "setup": self.setup,
+            "unite_detection": self.unite_detection,
+            "niveau_prix": "" if self.niveau_prix is None else round(self.niveau_prix, 4),
+            "niveau_cote": self.niveau_cote,
+            "niveau_unite": self.niveau_unite,
+            "niveau_formation": "" if self.niveau_formation is None else str(self.niveau_formation),
+            "sweep_extreme": "" if self.sweep_extreme is None else round(self.sweep_extreme, 4),
+            "unite_fibo": self.unite_fibo,
+            "reference_prix": "" if self.reference_prix is None else round(self.reference_prix, 4),
             "horodatage_entree": str(self.horodatage_entree),
             "horodatage_sortie": "" if self.horodatage_sortie is None else str(self.horodatage_sortie),
             "sens": self.sens,
@@ -258,14 +339,27 @@ class Trade:
 
 @dataclass(slots=True)
 class _Setup:
-    """Setup en cours d'instruction, entre la touche et l'entrée."""
+    """Setup en cours d'instruction, entre le déclencheur et l'entrée.
 
-    ob: ict.OrderBlock
+    Deux origines : la touche d'un order block (``ob`` renseigné) ou la
+    confirmation d'un sweep (``niveau`` renseigné). La suite — FVG, touche,
+    clôture au-delà, entrée au marché — est la même pour les deux.
+    """
+
+    origine: str
+    sens: str
     debut: pd.Timestamp
+    ob: ict.OrderBlock | None = None
+    niveau: ict.NiveauLiquidite | None = None
     fvg: ict.FairValueGap | None = None
     unite_fvg: str = ""
     fvg_touche: bool = False
     barres: int = 0
+
+    @property
+    def unite(self) -> str:
+        """Unité de détection : celle de l'OB ou du niveau."""
+        return self.ob.unite if self.ob is not None else (self.niveau.unite if self.niveau else "")
 
 
 class Backtest:
@@ -302,6 +396,29 @@ class Backtest:
             )
         self.order_blocks.sort(key=lambda o: o.fin_motif)
 
+        # Niveaux de liquidité du setup sweep, avec l'instant où chacun devient
+        # connu (clôture de la bougie i + sensibilité) — même discipline que
+        # les order blocks. Vides si le setup n'est pas joué.
+        self.niveaux: list[ict.NiveauLiquidite] = []
+        if SETUP_SWEEP in self.config.setups:
+            for unite in self.config.unites_sweep:
+                self.niveaux.extend(
+                    ict.detecter_niveaux_liquidite(
+                        self.cadres[unite], unite, self.config.sensibilite_pivot
+                    )
+                )
+            self.niveaux.sort(key=lambda n: n.connu_a)
+        # Clôtures des bougies de chaque unité de sweep, dans l'ordre : le
+        # moteur y lit « une bougie de l'unité vient de clore » sans jamais
+        # regarder une clôture future. Les trous (week-end) ne posent pas de
+        # problème : une bougie est traitée quand sa fin est passée, quelle
+        # que soit la minute où le moteur s'en aperçoit.
+        self.clotures_unites: dict[str, tuple[np.ndarray, np.ndarray]] = {}
+        for unite in self.config.unites_sweep:
+            cadre = self.cadres[unite]
+            fins = (cadre.index + bt_data.DUREES[unite]).to_numpy()
+            self.clotures_unites[unite] = (fins, cadre["close"].to_numpy(dtype="float64"))
+
         self.trades: list[Trade] = []
         # Combien de fois plusieurs zones, d'unités différentes, sont
         # touchées dans la même minute. La stratégie ne dit pas laquelle
@@ -313,7 +430,12 @@ class Backtest:
             ABANDON_SANS_FVG: 0,
             ABANDON_TAILLE: 0,
             ABANDON_EXPIRATION: 0,
+            ABANDON_SANS_REFERENCE: 0,
+            ABANDON_SANS_STRUCTUREL: 0,
         }
+        #: Sweeps confirmés, y compris ceux survenus pendant une position
+        #: ouverte (le niveau est consommé, aucun setup n'est ouvert).
+        self.sweeps_confirmes: int = 0
 
     # -- Outils ------------------------------------------------------------
     def _taux(self, moment: pd.Timestamp) -> float | None:
@@ -364,20 +486,28 @@ class Backtest:
         return cadre.iloc[depart:]
 
     def _chercher_fvg(
-        self, ob: ict.OrderBlock, debut: pd.Timestamp, instant: pd.Timestamp
+        self, sens_trade: str, debut: pd.Timestamp, instant: pd.Timestamp
     ) -> tuple[ict.FairValueGap | None, str]:
-        """Cherche un FVG de sens opposé à la zone, en M5 puis M3 puis M1.
+        """Cherche un FVG dans le sens du trade, en M5 puis M3 puis M1.
+
+        Pour un order block, le sens du trade est celui de la zone, et le
+        FVG cherché est de sens opposé à la zone (voir ict.CHOIX_INTERPRETATION) ;
+        pour un sweep, c'est le sens de la reprise. Dans les deux cas c'est
+        l'appelant qui dit quel sens de FVG il veut.
 
         Args:
-            ob: zone touchée.
-            debut: début de la jambe.
-            instant: instant du contact.
+            sens_trade: ``haussier`` (achat) ou ``baissier`` (vente).
+            debut: début de la fenêtre (jambe, ou début du sweep).
+            instant: instant courant.
 
         Returns:
             Couple ``(écart, unité)``. L'écart est ``None`` si aucune des
             trois unités n'en fournit.
         """
-        sens_voulu = ict.BAISSIER if ob.sens == ict.HAUSSIER else ict.HAUSSIER
+        # CHOIX D'INTERPRÉTATION (inchangé) : pour un achat, l'écart cherché est
+        # baissier — c'est la borne haute d'un FVG baissier que la clôture
+        # doit dépasser ; symétrique pour une vente.
+        sens_voulu = ict.BAISSIER if sens_trade == ict.HAUSSIER else ict.HAUSSIER
         for unite in bt_data.UNITES_FVG:
             cadre = bt_data.fenetre_close(self.cadres[unite], unite, instant)
             cadre = cadre[(cadre.index >= debut) & (cadre.index <= instant)]
@@ -401,22 +531,43 @@ class Backtest:
 
         prochaine_zone = 0
         zones_actives: list[ict.OrderBlock] = []
+        prochain_niveau = 0
+        niveaux_actifs: list[ict.NiveauLiquidite] = []
+        pointeurs_clotures: dict[str, int] = {unite: 0 for unite in self.clotures_unites}
         setups: list[_Setup] = []
         position: Trade | None = None
         stop_courant = objectif_courant = 0.0
         risque_eur = 0.0
+        joue_ob = SETUP_ORDER_BLOCK in self.config.setups
+        joue_sweep = SETUP_SWEEP in self.config.setups
 
         for i in range(len(index)):
             ouverture_barre = index[i]
             fin_barre = ouverture_barre + duree_m1
 
-            # 1. Zones devenues connues à la clôture de cette barre.
+            # 1. Zones devenues connues à la clôture de cette barre. Les
+            # order blocks restent détectés même quand leur setup n'est pas
+            # joué : ils servent de niveaux structurels au setup sweep.
             while (
                 prochaine_zone < len(self.order_blocks)
                 and self.order_blocks[prochaine_zone].fin_motif <= fin_barre
             ):
                 zones_actives.append(self.order_blocks[prochaine_zone])
                 prochaine_zone += 1
+
+            # 1b. Niveaux de liquidité devenus connus, plafonnés par unité
+            # aux plus récents (voir ict.CHOIX_INTERPRETATION).
+            while (
+                prochain_niveau < len(self.niveaux)
+                and self.niveaux[prochain_niveau].connu_a <= fin_barre
+            ):
+                nouveau = self.niveaux[prochain_niveau]
+                niveaux_actifs.append(nouveau)
+                prochain_niveau += 1
+                memes = [n for n in niveaux_actifs if n.unite == nouveau.unite]
+                if len(memes) > self.config.max_niveaux_par_unite:
+                    memes[0].evince = True
+                    niveaux_actifs.remove(memes[0])
 
             # 2. Gestion de la position ouverte, sur cette barre seulement.
             if position is not None and position.paliers:
@@ -463,35 +614,25 @@ class Backtest:
                     position = None
 
             # 3. Mitigation des zones : une zone touchée cesse d'être offerte.
+            nouvelles: list[_Setup] = []
             if position is None:
-                nouvelles: list[_Setup] = []
                 restantes: list[ict.OrderBlock] = []
                 for zone in zones_actives:
                     if not zone.mitige and zone.contient(haut[i], bas[i]):
                         zone.mitige = True
                         zone.horodatage_mitigation = fin_barre
-                        jambe = self._jambe(zone, fin_barre)
-                        if len(jambe) >= 2:
-                            nouvelles.append(_Setup(ob=zone, debut=jambe.index[0]))
+                        if joue_ob:
+                            jambe = self._jambe(zone, fin_barre)
+                            if len(jambe) >= 2:
+                                nouvelles.append(_Setup(
+                                    origine=SETUP_ORDER_BLOCK, sens=zone.sens,
+                                    debut=jambe.index[0], ob=zone,
+                                ))
                         continue
                     if not zone.mitige:
                         restantes.append(zone)
                 zones_actives = restantes
 
-                # Plusieurs zones touchées dans la même minute : la stratégie
-                # ne tranche pas, on note le cas pour pouvoir en décider.
-                if len(nouvelles) > 1:
-                    unites = sorted({s.ob.unite for s in nouvelles})
-                    self.touches_simultanees += 1
-                    self.detail_touches_simultanees.append(
-                        {
-                            "horodatage": str(fin_barre),
-                            "n_zones": len(nouvelles),
-                            "unites": unites,
-                            "unites_distinctes": len(unites) > 1,
-                        }
-                    )
-                setups.extend(nouvelles)
             else:
                 # Position ouverte : les zones touchées sont tout de même
                 # mitigées — le prix y est passé —, mais aucun setup n'est
@@ -504,6 +645,51 @@ class Backtest:
                         continue
                     restantes.append(zone)
                 zones_actives = restantes
+
+            # 3b. Sweeps : la traversée se lit sur la barre M1 (une mèche
+            # suffit), la confirmation sur la clôture d'une bougie de l'unité
+            # du niveau. L'ordre compte : l'extrême de cette barre est connu
+            # avant qu'une bougie qui la contient ne soit examinée. Un sweep
+            # confirmé pendant une position ouverte consomme le niveau sans
+            # ouvrir de setup — même règle que la mitigation des zones.
+            if joue_sweep and niveaux_actifs:
+                for niveau in niveaux_actifs:
+                    ict.avancer_niveau(niveau, haut[i], bas[i], ouverture_barre)
+                for unite, (fins, clotures_unite) in self.clotures_unites.items():
+                    ptr = pointeurs_clotures[unite]
+                    while ptr < len(fins) and fins[ptr] <= fin_barre:
+                        instant_cloture = pd.Timestamp(fins[ptr])
+                        cloture_unite = float(clotures_unite[ptr])
+                        for niveau in niveaux_actifs:
+                            if niveau.unite != unite or not niveau.en_sweep:
+                                continue
+                            if ict.confirmer_balayage(niveau, cloture_unite, instant_cloture):
+                                self.sweeps_confirmes += 1
+                                if position is None:
+                                    nouvelles.append(_Setup(
+                                        origine=SETUP_SWEEP, sens=niveau.sens_trade,
+                                        debut=niveau.debut_sweep, niveau=niveau,
+                                    ))
+                        ptr += 1
+                    pointeurs_clotures[unite] = ptr
+                niveaux_actifs = [n for n in niveaux_actifs if not n.balaye]
+
+            if position is None:
+                # Plusieurs déclencheurs dans la même minute : la stratégie
+                # ne tranche pas, on note le cas pour pouvoir en décider.
+                if len(nouvelles) > 1:
+                    unites = sorted({s.unite for s in nouvelles})
+                    self.touches_simultanees += 1
+                    self.detail_touches_simultanees.append(
+                        {
+                            "horodatage": str(fin_barre),
+                            "n_zones": len(nouvelles),
+                            "unites": unites,
+                            "unites_distinctes": len(unites) > 1,
+                            "setups": sorted({s.origine for s in nouvelles}),
+                        }
+                    )
+                setups.extend(nouvelles)
 
             # 4. Instruction des setups en cours.
             if position is None:
@@ -616,8 +802,9 @@ class Backtest:
             return stop_courant, True
 
         # Une tranche au moins vient de tomber : le solde passe à
-        # break-even, et le stop n'y bougera plus.
-        if len(reste) < len(ouverts) and not au_break_even:
+        # break-even, et le stop n'y bougera plus — sauf pour une variante
+        # jouée sans break-even, où le stop initial reste en place.
+        if len(reste) < len(ouverts) and not au_break_even and position.break_even_actif:
             stop_courant = position.prix_entree
         return stop_courant, False
 
@@ -644,12 +831,12 @@ class Backtest:
             Le trade ouvert et ses niveaux, un motif d'abandon, ou ``None``
             si le setup reste en attente.
         """
-        achat = setup.ob.sens == ict.HAUSSIER
+        achat = setup.sens == ict.HAUSSIER
 
         # -- Trouver puis confirmer le FVG, seule mécanique d'entrée --------
         if setup.fvg is None:
             setup.fvg, setup.unite_fvg = self._chercher_fvg(
-                setup.ob, setup.debut, fin_barre
+                setup.sens, setup.debut, fin_barre
             )
             if setup.fvg is None:
                 return ABANDON_SANS_FVG
@@ -682,6 +869,9 @@ class Backtest:
         Returns:
             Le trade et ses niveaux, ou un motif d'abandon.
         """
+        if setup.origine == SETUP_SWEEP:
+            return self._ouvrir_sweep(setup, prix, fin_barre)
+
         sens = setup.ob.sens
         achat = sens == ict.HAUSSIER
         prix_entree = bt_exec.appliquer_couts_entree(prix, sens, self.config.execution)
@@ -755,8 +945,188 @@ class Backtest:
             paliers=paliers,
             fvg_haut=None if setup.fvg is None else setup.fvg.haut,
             fvg_bas=None if setup.fvg is None else setup.fvg.bas,
+            setup=SETUP_ORDER_BLOCK,
+            unite_detection=setup.ob.unite,
         )
         return trade, stop, objectif, float(taille["perte_eur"])
+
+    # -- Setup sweep ---------------------------------------------------------
+    def _ouvrir_sweep(
+        self, setup: _Setup, prix: float, fin_barre: pd.Timestamp
+    ) -> tuple[Trade, float, float, float] | str:
+        """Ouvre une position sur un sweep confirmé.
+
+        Stop au-delà de la mèche du sweep ; objectif selon la famille
+        configurée (voir :data:`OBJECTIF_SWEEP_FIBO` et suivantes).
+
+        Args:
+            setup: setup sweep confirmé par son FVG.
+            prix: prix théorique d'entrée.
+            fin_barre: instant d'entrée.
+
+        Returns:
+            Le trade et ses niveaux, ou un motif d'abandon.
+        """
+        niveau = setup.niveau
+        assert niveau is not None and niveau.extreme_sweep is not None
+        sens = setup.sens
+        achat = sens == ict.HAUSSIER
+        prix_entree = bt_exec.appliquer_couts_entree(prix, sens, self.config.execution)
+
+        marge = (
+            self.config.execution.marge_stop
+            if self.config.marge_stop_sweep is None else self.config.marge_stop_sweep
+        )
+        stop = niveau.extreme_sweep - marge if achat else niveau.extreme_sweep + marge
+        distance = abs(prix_entree - stop)
+        taux = self._taux(fin_barre)
+        if taux is None:
+            return ABANDON_TAILLE
+        taille = bt_exec.dimensionner(distance, taux, self.config.execution)
+        if not taille["prenable"]:
+            return ABANDON_TAILLE
+
+        objectif_sweep = self.config.objectif_sweep
+        paliers: list[Palier] = []
+        reference: float | None = None
+        cible_fibo: float | None = None
+        if objectif_sweep in (OBJECTIF_SWEEP_FIBO, OBJECTIF_SWEEP_FIBO_STRUCTUREL):
+            reference = self._reference_fibo(niveau, achat, fin_barre)
+            if reference is None:
+                return ABANDON_SANS_REFERENCE
+            amplitude = abs(reference - niveau.extreme_sweep)
+            cible_fibo = (
+                niveau.extreme_sweep + amplitude * self.config.ratio_fibo
+                if achat else niveau.extreme_sweep - amplitude * self.config.ratio_fibo
+            )
+            # Une cible déjà dépassée à l'entrée n'est pas un objectif.
+            if (cible_fibo <= prix_entree) if achat else (cible_fibo >= prix_entree):
+                return ABANDON_SANS_REFERENCE
+
+        if objectif_sweep == OBJECTIF_SWEEP_FIBO:
+            objectif = float(cible_fibo)
+        elif objectif_sweep == OBJECTIF_SWEEP_FIBO_STRUCTUREL:
+            structurels = self._niveaux_structurels(float(cible_fibo), achat, fin_barre)
+            if not structurels:
+                return ABANDON_SANS_STRUCTUREL
+            niveau_struct, origine_struct = structurels[0]
+            fraction = self.config.fraction_fibo
+            paliers = [
+                Palier(rang=1, zone=float(cible_fibo), origine=ORIGINE_FIBO, fraction=fraction,
+                       ratio_risque=abs(cible_fibo - prix_entree) / distance if distance else 0.0),
+                Palier(rang=2, zone=niveau_struct, origine=origine_struct, fraction=1.0 - fraction,
+                       ratio_risque=abs(niveau_struct - prix_entree) / distance if distance else 0.0),
+            ]
+            objectif = float(cible_fibo)
+        elif objectif_sweep == OBJECTIF_SWEEP_STRUCTUREL:
+            structurels = self._niveaux_structurels(prix_entree, achat, fin_barre)
+            if not structurels:
+                return ABANDON_SANS_STRUCTUREL
+            objectif = structurels[0][0]
+        else:
+            raise ValueError(f"Famille d'objectif sweep inconnue : {objectif_sweep}")
+
+        trade = Trade(
+            horodatage_entree=fin_barre,
+            sens=sens,
+            unite_ob="",
+            unite_fvg=setup.unite_fvg,
+            type_entree="marche",
+            prix_entree=prix_entree,
+            stop=stop,
+            objectif=objectif,
+            lots=taille["lots"],
+            heure_entree=int(pd.Timestamp(fin_barre).hour),
+            paliers=paliers,
+            fvg_haut=None if setup.fvg is None else setup.fvg.haut,
+            fvg_bas=None if setup.fvg is None else setup.fvg.bas,
+            setup=SETUP_SWEEP,
+            unite_detection=niveau.unite,
+            niveau_prix=niveau.prix,
+            niveau_cote=niveau.cote,
+            niveau_unite=niveau.unite,
+            niveau_formation=niveau.formation,
+            sweep_extreme=niveau.extreme_sweep,
+            sweep_debut=niveau.debut_sweep,
+            unite_fibo=self.config.unite_fibo if reference is not None else "",
+            reference_prix=reference,
+            break_even_actif=self.config.break_even_sweep,
+        )
+        return trade, stop, objectif, float(taille["perte_eur"])
+
+    def _reference_fibo(
+        self, niveau: ict.NiveauLiquidite, achat: bool, instant: pd.Timestamp
+    ) -> float | None:
+        """Situe l'origine du dernier mouvement directionnel précédant le sweep.
+
+        Sur l'unité d'ancrage, le mouvement qui a mené au sweep d'un plus bas
+        est une descente : elle part du dernier sommet confirmé. Même règle
+        de swing (et même précaution de causalité) que la jambe du setup OB.
+
+        Args:
+            niveau: niveau balayé.
+            achat: sens du trade.
+            instant: instant courant.
+
+        Returns:
+            Le prix d'origine du mouvement, ou ``None`` s'il n'est pas
+            mesurable (aucun retournement confirmé, ou origine du mauvais
+            côté de l'extrême).
+        """
+        unite = self.config.unite_fibo
+        cadre = bt_data.fenetre_close(self.cadres[unite], unite, instant)
+        if cadre.empty:
+            return None
+        cadre = cadre.iloc[-PROFONDEUR_JAMBE:]
+        # Achat : jambe descendante, origine à un sommet — c'est le cas que
+        # origine_de_jambe traite pour un order block haussier.
+        depart = ict.origine_de_jambe(
+            cadre, ict.HAUSSIER if achat else ict.BAISSIER, self.config.sensibilite_swing
+        )
+        if depart is None:
+            return None
+        origine = float(cadre["high"].iloc[depart]) if achat else float(cadre["low"].iloc[depart])
+        extreme = float(niveau.extreme_sweep)
+        if (origine <= extreme) if achat else (origine >= extreme):
+            return None
+        return origine
+
+    def _niveaux_structurels(
+        self, seuil: float, achat: bool, instant: pd.Timestamp
+    ) -> list[tuple[float, str]]:
+        """Énumère les niveaux de liquidité non balayés au-delà d'un seuil.
+
+        Candidats : les niveaux de pivot encore actifs et non traversés, sur
+        toutes les unités suivies (un ancien plus haut pour un achat, un
+        ancien plus bas pour une vente), et les order blocks actifs — la
+        liste que l'énoncé donne pour les variantes 2 et 3.
+
+        Args:
+            seuil: prix au-delà duquel chercher (entrée, ou cible 0,72).
+            achat: sens du trade.
+            instant: instant courant.
+
+        Returns:
+            Couples ``(niveau, origine)``, du plus proche au plus lointain.
+        """
+        candidats: list[tuple[float, str]] = []
+        cote_voulu = ict.COTE_HAUT if achat else ict.COTE_BAS
+        for niveau in self.niveaux:
+            if (
+                niveau.connu_a > instant or niveau.balaye or niveau.en_sweep
+                or niveau.evince or niveau.cote != cote_voulu
+            ):
+                continue
+            candidats.append((niveau.prix, ORIGINE_NIVEAU_HAUT if achat else ORIGINE_NIVEAU_BAS))
+        for zone in self.order_blocks:
+            if zone.mitige or zone.fin_motif > instant:
+                continue
+            candidats.append((zone.bas if achat else zone.haut, "order_block"))
+        devant = [(n, o) for n, o in candidats if (n > seuil if achat else n < seuil)]
+        vus: dict[float, str] = {}
+        for niveau, origine in devant:
+            vus.setdefault(niveau, origine)
+        return sorted(vus.items(), key=lambda c: c[0] if achat else -c[0])
 
     def _niveaux_de_liquidite(
         self,

@@ -1,0 +1,124 @@
+// @version=6
+// Niveaux de liquidité et prises de liquidité (sweep) — XAUUSD.
+//
+// Contrepartie visuelle du setup « sweep » de backtest/ict.py et
+// worker-scanner/src/ict.js. Mêmes règles, mêmes conventions :
+//
+//   * un niveau est un pivot strict : un plus haut (ou plus bas) qui dépasse
+//     ceux des `k` bougies de chaque côté. Il n'est dessiné qu'à partir de la
+//     bougie `i + k`, quand il devient connu — jamais avant ;
+//   * le prix « traverse » le niveau dès qu'une mèche le dépasse ; le niveau
+//     reste actif tant qu'aucune bougie n'a clôturé de l'autre côté ;
+//   * une bougie qui clôture de l'autre côté (au-dessus d'un plus bas balayé,
+//     en dessous d'un plus haut balayé) confirme le sweep : le niveau est
+//     marqué puis retiré de la liste active.
+//
+// Affichage par timeframe, comme les order blocks de l'indicateur existant :
+// on ne voit que les niveaux du timeframe affiché. Le script ne calcule rien
+// hors des unités M15, M30 et H1 — sur un autre timeframe il ne dessine rien,
+// et le dit.
+//
+// Ce script ne recommande rien : il montre où le moteur voit de la liquidité
+// et où il l'a vue prise. Aucun signal d'achat ou de vente n'est émis.
+
+indicator("Liquidité — niveaux et sweeps", overlay = true, max_lines_count = 200, max_labels_count = 200)
+
+// --- Réglages ---------------------------------------------------------------
+sensibilite   = input.int(4, "Bougies de chaque côté du pivot", minval = 1, maxval = 10,
+     tooltip = "Même paramètre que sensibilite_pivot du backtest (testé à 3, 4 et 5).")
+maxNiveaux    = input.int(40, "Niveaux actifs conservés (par côté)", minval = 5, maxval = 100,
+     tooltip = "Plafond des niveaux suivis, les plus récents gardés — même valeur que MAX_NIVEAUX_PAR_UNITE.")
+couleurHaut   = input.color(color.new(color.red, 0), "Ancien plus haut (vente au sweep)")
+couleurBas    = input.color(color.new(color.teal, 0), "Ancien plus bas (achat au sweep)")
+couleurSweep  = input.color(color.new(color.orange, 0), "Sweep confirmé")
+montrerSweeps = input.bool(true, "Marquer les sweeps confirmés")
+
+// --- Timeframe affiché : seul M15, M30 et H1 sont couverts -------------------
+tfCouvert = timeframe.period == "15" or timeframe.period == "30" or timeframe.period == "60"
+if barstate.islastconfirmedhistory and not tfCouvert
+    label.new(bar_index, high, "Niveaux de liquidité : uniquement en M15, M30 ou H1 (timeframe affiché : " + timeframe.period + ")",
+         style = label.style_label_down, color = color.new(color.gray, 20), textcolor = color.white)
+
+// --- Détection causale des pivots ---------------------------------------------
+// ta.pivothigh(k, k) ne renvoie une valeur qu'à la bougie i + k : c'est
+// exactement l'instant de connaissance du moteur (connu_a), aucune lecture
+// vers la droite n'est possible.
+pivotHaut = ta.pivothigh(high, sensibilite, sensibilite)
+pivotBas  = ta.pivotlow(low, sensibilite, sensibilite)
+
+// --- État des niveaux actifs ---------------------------------------------------
+// Un niveau est une ligne horizontale qui part de sa bougie de formation ;
+// son état de sweep est porté par des tableaux parallèles.
+var lignesHaut   = array.new<line>()
+var prixHaut     = array.new<float>()
+var enSweepHaut  = array.new<bool>()
+var extremeHaut  = array.new<float>()
+
+var lignesBas    = array.new<line>()
+var prixBas      = array.new<float>()
+var enSweepBas   = array.new<bool>()
+var extremeBas   = array.new<float>()
+
+ajouterNiveau(lignes, prix, enSweep, extremes, niveau, indexFormation, couleur) =>
+    l = line.new(indexFormation, niveau, bar_index, niveau, color = couleur, width = 1, extend = extend.none)
+    array.push(lignes, l)
+    array.push(prix, niveau)
+    array.push(enSweep, false)
+    array.push(extremes, na)
+    // Plafond : le plus ancien est évincé, jamais réinséré (comme le moteur).
+    if array.size(lignes) > maxNiveaux
+        line.delete(array.shift(lignes))
+        array.shift(prix)
+        array.shift(enSweep)
+        array.shift(extremes)
+
+if tfCouvert and barstate.isconfirmed
+    if not na(pivotHaut)
+        ajouterNiveau(lignesHaut, prixHaut, enSweepHaut, extremeHaut, pivotHaut, bar_index - sensibilite, couleurHaut)
+    if not na(pivotBas)
+        ajouterNiveau(lignesBas, prixBas, enSweepBas, extremeBas, pivotBas, bar_index - sensibilite, couleurBas)
+
+// --- Traversée et confirmation, sur la bougie close du timeframe ---------------
+// Le moteur lit la traversée sur M1 ; ici la mèche de la bougie du timeframe
+// en est l'enveloppe (son plus haut est le plus haut des M1 qu'elle contient),
+// donc « une mèche au-delà » se lit à l'identique. La confirmation est la
+// clôture de cette même bougie, de l'autre côté du niveau.
+traiterCote(lignes, prix, enSweep, extremes, coteHaut) =>
+    i = 0
+    while i < array.size(lignes)
+        niveau = array.get(prix, i)
+        depasse = coteHaut ? high > niveau : low < niveau
+        if depasse
+            extreme = coteHaut ? high : low
+            if not array.get(enSweep, i)
+                array.set(enSweep, i, true)
+                array.set(extremes, i, extreme)
+            else
+                courant = array.get(extremes, i)
+                array.set(extremes, i, coteHaut ? math.max(courant, extreme) : math.min(courant, extreme))
+        // La ligne suit le temps tant que le niveau est actif.
+        line.set_x2(array.get(lignes, i), bar_index)
+        reprise = coteHaut ? close < niveau : close > niveau
+        if array.get(enSweep, i) and reprise
+            // Sweep confirmé : marqué, puis retiré de la liste active.
+            if montrerSweeps
+                label.new(bar_index, coteHaut ? high : low,
+                     (coteHaut ? "Sweep ▼ " : "Sweep ▲ ") + str.tostring(niveau, format.mintick) +
+                     "\nmèche " + str.tostring(array.get(extremes, i), format.mintick),
+                     style = coteHaut ? label.style_label_down : label.style_label_up,
+                     color = color.new(couleurSweep, 20), textcolor = color.white, size = size.small)
+            line.set_color(array.get(lignes, i), color.new(couleurSweep, 60))
+            line.set_style(array.get(lignes, i), line.style_dotted)
+            array.remove(lignes, i)
+            array.remove(prix, i)
+            array.remove(enSweep, i)
+            array.remove(extremes, i)
+        else
+            // Un niveau traversé sans clôture de l'autre côté reste actif : en
+            // pointillé tant que le sweep dure.
+            line.set_style(array.get(lignes, i), array.get(enSweep, i) ? line.style_dashed : line.style_solid)
+            i += 1
+
+if tfCouvert and barstate.isconfirmed
+    traiterCote(lignesHaut, prixHaut, enSweepHaut, extremeHaut, true)
+    traiterCote(lignesBas, prixBas, enSweepBas, extremeBas, false)
