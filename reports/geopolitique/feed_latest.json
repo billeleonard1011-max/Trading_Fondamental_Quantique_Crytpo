@@ -1,15 +1,15 @@
 [
   {
-    "id": "fa247a73093fe301",
+    "id": "05505b80395db679",
     "categorie": "geopolitique",
-    "titre_affiche": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
-    "horodatage_utc": "2026-09-11T20:15:49+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3bafb3ae-ba94-44f0-984c-ec7c9f54a5e0?syn-25a6b1a6=1",
+    "titre_affiche": "M 6.6 - 115 km NNE of Teluknaga, Indonesia",
+    "horodatage_utc": "2026-09-11T22:15:38+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
+      "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -18,7 +18,7 @@
     "id": "1e2ec549451c84fa",
     "categorie": "geopolitique",
     "titre_affiche": "Oracle posts 30% revenue growth fueled by AI cloud demand as debts hits $125 billion",
-    "horodatage_utc": "2026-09-11T20:04:35+00:00",
+    "horodatage_utc": "2026-09-11T22:11:10+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html",
     "a_une_analyse_interne": false,
@@ -33,7 +33,7 @@
     "id": "b4f1a266d8880c92",
     "categorie": "geopolitique",
     "titre_affiche": "Houthis seize Red Sea islands in lightning offensive",
-    "horodatage_utc": "2026-09-11T19:07:57+00:00",
+    "horodatage_utc": "2026-09-11T20:56:15+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/976fa0d6-ed09-4a6f-be02-ff4317b45f40?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
@@ -43,6 +43,52 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "64bfbd6cabd135fc",
+    "categorie": "geopolitique",
+    "titre_affiche": "JPMorgan cut off Situational Awareness lending after AI losses",
+    "horodatage_utc": "2026-09-11T20:51:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/916eea1b-d483-49e1-9a70-53b4df8f9870?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fa247a73093fe301",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
+    "horodatage_utc": "2026-09-11T20:21:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3bafb3ae-ba94-44f0-984c-ec7c9f54a5e0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "3cded7350c86d45a",
+    "categorie": "geopolitique",
+    "titre_affiche": "172-year-old bank sees 400% upside for 'federal bank' token",
+    "horodatage_utc": "2026-09-11T17:33:49+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/crypto/articles/172-old-bank-sees-400-173349444.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "4924f35368a85266",
@@ -245,6 +291,22 @@
     "nouveaute": false
   },
   {
+    "id": "b6a1cf1e940e0d54",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold price today, Friday, September 11, 2026: Gold opens at lowest level in over a month ahead of CPI data",
+    "horodatage_utc": "2026-09-11T11:10:16+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-11-2026-gold-opens-at-lowest-level-in-over-a-month-ahead-of-cpi-data-111016419.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Inflation et prix"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "91919553c04e9a53",
     "categorie": "geopolitique",
     "titre_affiche": "Mortgage and refinance interest rates today, Friday, September 11, 2026: Rates shoot up ahead of CPI data",
@@ -258,7 +320,7 @@
       "Inflation et prix"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9a97f8cd1d16a8f4",
