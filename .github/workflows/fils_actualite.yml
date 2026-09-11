@@ -159,14 +159,36 @@ jobs:
             # GDELT n'a qu'une vue partielle et ne doit pas amputer le fil.
             python -m scripts.fusionner_sorties "origin/${GITHUB_REF_NAME}"
 
-            git add reports/quantum/feed_latest.json reports/quantum/feed_historique.jsonl \
-                    reports/crypto/feed_latest.json reports/crypto/feed_historique.jsonl \
-                    reports/geopolitique/feed_latest.json reports/geopolitique/feed_historique.jsonl \
-                    reports/quota_llm.json \
-                    2>/dev/null || true
+            # Un par un, et seulement s'il existe.
+            #
+            # « git add a b c » abandonne TOUT dès qu'un chemin manque : il
+            # sort en « fatal: pathspec did not match any files » sans rien
+            # indexer. Avec « 2>/dev/null || true », l'échec ne se voyait pas,
+            # et l'étape suivante concluait « Aucun item nouveau » puis
+            # annonçait une publication réussie.
+            #
+            # Le chemin qui manquait : reports/quota_llm.json n'est écrit que
+            # si une analyse a réellement été facturée. Une exécution qui se
+            # replie sur le gabarit déterministe ne le crée pas — et perdait
+            # alors les trois fils qu'elle venait de construire. Mesuré : le
+            # fil géopolitique du 11 septembre 17:49 avait bien produit
+            # 40 items, jetés à cette ligne.
+            for fichier in reports/quantum/feed_latest.json reports/quantum/feed_historique.jsonl \
+                           reports/crypto/feed_latest.json reports/crypto/feed_historique.jsonl \
+                           reports/geopolitique/feed_latest.json reports/geopolitique/feed_historique.jsonl \
+                           reports/quota_llm.json; do
+              if [ -f "${fichier}" ]; then
+                git add "${fichier}"
+              fi
+            done
 
             if git diff --staged --quiet; then
-              echo "Aucun item nouveau : rien à publier."
+              # Cas normal quand rien n'a bougé depuis la dernière exécution,
+              # toutes les trente minutes. Mais c'est aussi ce qu'affichait le
+              # workflow quand l'indexation échouait en silence : une
+              # annotation rend le cas visible dans l'onglet Actions au lieu
+              # de se lire comme un succès ordinaire.
+              echo "::warning::Aucun item nouveau : rien n'a été publié. Normal si les fils n'ont rien de neuf ; à examiner si les journaux ci-dessus annoncent des items."
               return 0
             fi
 
