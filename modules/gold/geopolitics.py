@@ -1518,7 +1518,7 @@ def analyser_dossiers(
         # La rotation ne retient que les séries fraîchement obtenues : une
         # reprise enregistrée rajeunirait sa date et sortirait le dossier de la
         # file d'attente pour de bon.
-        obtenues = rotation_geopolitique.depuis_dossiers(dossiers)
+        obtenues = rotation_geopolitique.depuis_dossiers(dossiers, mesures_connues)
         if obtenues:
             rotation_geopolitique.enregistrer({**mesures_connues, **obtenues})
 

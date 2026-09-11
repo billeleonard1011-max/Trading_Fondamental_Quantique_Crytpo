@@ -450,3 +450,69 @@ def test_une_intensite_indisponible_rend_une_serie_vide(monkeypatch: pytest.Monk
     resultat = news.gdelt_intensity("(essai)")
     assert resultat["volumes"] == {}
     assert resultat["disponible"] is False
+
+
+# ---------------------------------------------------------------------------
+# 8. La série s'accumule au lieu de se faire remplacer
+# ---------------------------------------------------------------------------
+class _ThemeFactice:
+    def __init__(self, volumes): self.volumes = volumes
+
+
+class _DossierFactice:
+    def __init__(self, identifiant, volumes, reprise=False):
+        self.id, self.theme, self.reprise = identifiant, _ThemeFactice(volumes), reprise
+
+
+def test_une_serie_courte_ne_remplace_pas_une_serie_longue() -> None:
+    """GDELT sert tantôt 90 jours, tantôt 30 : remplacer ferait perdre l'historique.
+
+    Le défaut observé en production : Israël - Gaza est passé de 86 jours de
+    volumes à 30 en une exécution, parce que la requête longue avait échoué et
+    que la courte l'avait remplacée. Répété, cela finirait par rendre la
+    pertinence marché, qui demande vingt observations, non calculable.
+    """
+    longue = {f"2026-07-{j:02d}": 10.0 for j in range(1, 32)}
+    longue.update({f"2026-08-{j:02d}": 20.0 for j in range(1, 32)})
+    connues = {"a": rotation.Mesure("a", date(2026, 9, 1), longue)}
+    courte = {f"2026-09-{j:02d}": 30.0 for j in range(1, 12)}
+
+    obtenues = rotation.depuis_dossiers(
+        [_DossierFactice("a", courte)], connues, jour=JOUR,
+    )
+    fusionnee = obtenues["a"].volumes
+    assert len(fusionnee) == len(longue) + len(courte)
+    assert set(longue) <= set(fusionnee), "l'historique doit survivre"
+    assert set(courte) <= set(fusionnee), "la mesure du jour doit entrer"
+    assert obtenues["a"].mesure_du == JOUR
+
+
+def test_la_valeur_du_jour_lemporte_a_date_egale() -> None:
+    """GDELT réévalue le volume d'une journée encore en cours."""
+    connues = {"a": rotation.Mesure("a", date(2026, 9, 10), {"2026-09-10": 5.0})}
+    obtenues = rotation.depuis_dossiers(
+        [_DossierFactice("a", {"2026-09-10": 42.0})], connues, jour=JOUR,
+    )
+    assert obtenues["a"].volumes["2026-09-10"] == 42.0
+
+
+def test_la_serie_conservee_est_plafonnee() -> None:
+    """Sans plafond, le fichier grossirait sans fin sans rien servir de plus."""
+    ancienne = {f"2026-{m:02d}-{j:02d}": 1.0 for m in (3, 4, 5, 6, 7) for j in range(1, 29)}
+    connues = {"a": rotation.Mesure("a", date(2026, 8, 1), ancienne)}
+    obtenues = rotation.depuis_dossiers(
+        [_DossierFactice("a", {"2026-09-11": 2.0})], connues, jour=JOUR,
+    )
+    volumes = obtenues["a"].volumes
+    assert len(volumes) == rotation.MAX_JOURS_SERIE
+    assert "2026-09-11" in volumes, "le plus récent est toujours gardé"
+    assert max(volumes) == "2026-09-11"
+
+
+def test_un_dossier_repris_ne_touche_pas_a_sa_serie_memorisee() -> None:
+    """Une reprise n'apporte rien de neuf : ni date ni série ne bougent."""
+    connues = {"a": rotation.Mesure("a", date(2026, 9, 5), {"2026-09-05": 1.0})}
+    obtenues = rotation.depuis_dossiers(
+        [_DossierFactice("a", {"2026-09-05": 1.0}, reprise=True)], connues, jour=JOUR,
+    )
+    assert obtenues == {}

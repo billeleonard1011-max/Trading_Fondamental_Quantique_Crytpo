@@ -80,6 +80,13 @@ FICHIER_MESURES: Final = RACINE / "reports" / "gold" / "geopolitique_dernieres_m
 #: deux jours de plus.
 TAILLE_LOT: Final[int] = 4
 
+#: Profondeur maximale de la série conservée pour un dossier, en jours.
+#:
+#: Même horizon que ``modules.gold.geopolitics.JOURS_PERTINENCE`` : au-delà, la
+#: série ne sert plus ni à l'intensité (30 jours) ni à la pertinence marché
+#: (90 jours), et le fichier grossirait sans fin.
+MAX_JOURS_SERIE: Final[int] = 90
+
 #: Âge au-delà duquel une mesure reprise cesse d'être publiée.
 #:
 #: L'intensité rapporte le volume des dernières 24 h à la moyenne des trente
@@ -291,21 +298,35 @@ def enregistrer(
     return True
 
 
-def depuis_dossiers(dossiers: list[Any], jour: date | None = None) -> dict[str, Mesure]:
+def depuis_dossiers(
+    dossiers: list[Any],
+    connues: dict[str, Mesure] | None = None,
+    jour: date | None = None,
+) -> dict[str, Mesure]:
     """Extrait les mesures réellement obtenues d'une liste de dossiers mesurés.
 
-    Seuls les dossiers dont GDELT a servi la série de volumes sont retenus :
+    Seuls les dossiers dont GDELT a servi une série de volumes sont retenus :
     un dossier repris n'a rien de neuf à enregistrer, et l'enregistrer
     rajeunirait sa date au point de le sortir indéfiniment de la rotation.
 
+    La série obtenue est **fusionnée** avec celle déjà connue, par union sur la
+    date, et non substituée. GDELT sert tantôt quatre-vingt-dix jours, tantôt
+    trente selon laquelle de ses deux requêtes aboutit ; remplacer purement et
+    simplement ferait perdre soixante jours d'historique à chaque mesure
+    courte, et la pertinence marché, qui demande vingt observations, finirait
+    par ne plus être calculable. Observé sur Israël - Gaza, passé de 86 jours
+    à 30 en une exécution.
+
     Args:
         dossiers: objets ``Dossier`` de :mod:`modules.gold.geopolitics`.
+        connues: mesures déjà enregistrées, dont la série est complétée.
         jour: jour de la mesure.
 
     Returns:
         Mesures par identifiant, pour les seuls dossiers fraîchement mesurés.
     """
     reference = _aujourd_hui(jour)
+    anterieures = connues or {}
     obtenues: dict[str, Mesure] = {}
     for dossier in dossiers:
         if getattr(dossier, "reprise", False):
@@ -313,5 +334,13 @@ def depuis_dossiers(dossiers: list[Any], jour: date | None = None) -> dict[str, 
         volumes = dict(getattr(getattr(dossier, "theme", None), "volumes", {}) or {})
         if not volumes:
             continue
-        obtenues[str(dossier.id)] = Mesure(str(dossier.id), reference, volumes)
+        identifiant = str(dossier.id)
+        precedente = anterieures.get(identifiant)
+        if precedente is not None:
+            # Les valeurs du jour l'emportent à date égale : GDELT réévalue le
+            # volume d'une journée encore en cours.
+            volumes = {**precedente.volumes, **volumes}
+        if len(volumes) > MAX_JOURS_SERIE:
+            volumes = {j: volumes[j] for j in sorted(volumes)[-MAX_JOURS_SERIE:]}
+        obtenues[identifiant] = Mesure(identifiant, reference, volumes)
     return obtenues
