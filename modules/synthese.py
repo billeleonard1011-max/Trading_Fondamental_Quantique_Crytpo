@@ -911,6 +911,30 @@ def synthetiser_geopolitique(rapport: dict[str, Any]) -> dict[str, Any]:
                 f"Pour {noms}, le classement n'est pas encore possible faute d'observations suffisantes, "
                 "ce qui interdit d'en tirer une lecture de marché aujourd'hui."
             )
+        # Le temps long : ce que l'historique du classement ajoute à la photo du jour.
+        promus = [c for c in classement if _lire(c, "historique.changement") == "promu"]
+        retrogrades = [c for c in classement if _lire(c, "historique.changement") == "rétrogradé"]
+        if promus or retrogrades:
+            morceaux = []
+            if promus:
+                morceaux.append(f"{_liste([str(c.get('nom')) for c in promus[:3]])} {'montent' if len(promus) > 1 else 'monte'} d'un cran")
+            if retrogrades:
+                morceaux.append(f"{_liste([str(c.get('nom')) for c in retrogrades[:3]])} {'reculent' if len(retrogrades) > 1 else 'recule'}")
+            phrases.append(
+                f"Par rapport au dernier classement, {' et '.join(morceaux)}, ce qui déplace l'attention "
+                "sans qu'un seul jour suffise à la fixer : c'est la durée qui confirme."
+            )
+        durables = sorted(
+            (c for c in classement if int(_lire(c, "historique.inerte_depuis_jours", 0) or 0) >= 5),
+            key=lambda c: -int(_lire(c, "historique.inerte_depuis_jours", 0) or 0),
+        )
+        if durables:
+            c = durables[0]
+            n = int(_lire(c, "historique.inerte_depuis_jours", 0))
+            phrases.append(
+                f"{c.get('nom')} est inerte depuis {n} jours de classement consécutifs, ce qui n'est plus une "
+                "photo du jour : le marché a cessé d'y réagir de façon durable."
+            )
 
     deja = _lire(geo, "deja_dans_les_prix", {})
     if deja.get("disponible") and deja.get("z_score_prime") is not None:

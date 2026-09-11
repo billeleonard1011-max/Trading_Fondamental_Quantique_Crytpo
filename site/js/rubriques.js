@@ -335,6 +335,7 @@ function rendreDossierPanneau(dossier, meta, source) {
   const cl = dossier.classement || {};
   const pert = dossier.pertinence || {};
   const statutLibelle = { epingle: "épinglé", actif: "actif", veille: "veille", candidat: "candidat" }[cl.statut] || "";
+  const mouvement = rendreMouvementSujet(cl.historique);
   const pertinenceHtml = pert.disponible
     ? `<p class="metrique-sens">${echapper(pert.commentaire || "")}</p>`
     : pert.motif
@@ -345,7 +346,7 @@ function rendreDossierPanneau(dossier, meta, source) {
   return rendreTrame({
     etat: `<p>${echapper(dossier.etat_actuel)}</p>
       ${statutLibelle ? `<p>Statut dans le classement : <strong>${statutLibelle}</strong>${
-        cl.rang ? `, rang ${cl.rang}` : ""}${cl.donnees_suffisantes === false ? " — données insuffisantes pour classer" : ""}.</p>` : ""}
+        cl.rang ? `, rang ${cl.rang}` : ""}${cl.donnees_suffisantes === false ? " — données insuffisantes pour classer" : ""}${mouvement}.</p>` : ""}
       ${pertinenceHtml}
       ${rattaches ? `<p class="metrique-sens">Paires d'acteurs rattachées à ce dossier : ${rattaches}.</p>` : ""}
       <ul class="liste-detail">
@@ -417,6 +418,32 @@ function rendreAutresPanneau(filGeopolitique, dossiers, autresSujets = [], crite
 }
 
 /**
+ * Rend, en une courte mention, le mouvement d'un sujet dans le temps.
+ *
+ * L'historique du classement (reports/gold/geopolitique_classement_historique.jsonl)
+ * dit si le sujet vient d'être promu ou rétrogradé, et depuis combien de
+ * jours de classement il est inerte — c'est la durée qui distingue un sujet
+ * réellement intégré dans les prix d'une photo du jour.
+ *
+ * @param {object} historique Bloc ``historique`` d'une entrée de classement.
+ * @returns {string} HTML, vide sans historique.
+ */
+function rendreMouvementSujet(historique) {
+  if (!historique || typeof historique !== "object") return "";
+  const morceaux = [];
+  if (historique.changement === "promu") morceaux.push("↑ promu");
+  if (historique.changement === "rétrogradé") morceaux.push("↓ rétrogradé");
+  if (historique.changement === "nouveau") morceaux.push("nouveau");
+  if (Number(historique.inerte_depuis_jours) >= 2) {
+    morceaux.push(`inerte depuis ${historique.inerte_depuis_jours} jours de classement`);
+  } else if (Number(historique.jours_consecutifs_statut) >= 2) {
+    morceaux.push(`${historique.jours_consecutifs_statut} jours dans ce statut`);
+  }
+  if (historique.tendance_score) morceaux.push(`score ${echapper(historique.tendance_score)}`);
+  return morceaux.length ? ` <span class="classement-mouvement">(${morceaux.join(", ")})</span>` : "";
+}
+
+/**
  * Rend le classement des sujets par pertinence marché, en tête de rubrique.
  *
  * @param {Array<object>} classement Bloc ``geopolitique.classement`` du rapport.
@@ -433,7 +460,8 @@ function rendreClassementSujets(classement) {
       : `données insuffisantes${p.motif ? ` — ${echapper(p.motif)}` : ""}`;
     const intens = c.intensite_ratio === null || c.intensite_ratio === undefined ? ABSENT : `${nombre(c.intensite_ratio, 1)}×`;
     return `<li class="classement-sujet classement-sujet--${echapper(c.statut)}">
-      <span>${c.rang}. ${echapper(c.nom)} <span class="badge badge--neutre">${echapper(libelles[c.statut] || c.statut)}</span></span>
+      <span>${c.rang}. ${echapper(c.nom)} <span class="badge badge--neutre">${echapper(libelles[c.statut] || c.statut)}</span>${
+        rendreMouvementSujet(c.historique)}</span>
       <span>couverture ${intens} · pertinence marché ${mesure}</span></li>`;
   }).join("");
   return `<div class="trame-section classement-sujets"><h4>Classement des sujets par pertinence marché</h4>

@@ -461,6 +461,10 @@ def construire_rapport(
         # fichier que les dossiers (bloc ``decouverte``).
         themes_generiques=list(cfg_geo.get("themes") or []),
         reglages_decouverte=geopolitics.charger_reglages_decouverte(),
+        # L'historique du classement dit si un sujet est promu, rétrogradé,
+        # ou inerte depuis plusieurs semaines — pas seulement sur la photo du jour.
+        historique_classement=geopolitics.charger_historique_classement(),
+        date_rapport=str(jour),
     )
     bloc_geo["_meta"] = _meta(bloc_geo.get("source", "GDELT"), jour, jour)
     if not bloc_geo.get("disponible"):
@@ -676,6 +680,9 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     if dossiers_mesures:
         geopolitics.publier_historique_dossiers(dossiers_mesures)
+    classement = rapport.get("geopolitique", {}).get("classement") or []
+    if classement:
+        geopolitics.publier_historique_classement(classement, rapport["meta"]["date"])
 
     meta = rapport["meta"]
     biais_final = rapport["biais"]

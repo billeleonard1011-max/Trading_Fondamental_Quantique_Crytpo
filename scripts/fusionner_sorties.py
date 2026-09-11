@@ -47,6 +47,7 @@ RACINE: Final = Path(__file__).resolve().parents[1]
 FICHIERS_JSONL: Final[tuple[str, ...]] = (
     "reports/gold/historique_biais.jsonl",
     "reports/gold/geopolitique_dossiers_historique.jsonl",
+    "reports/gold/geopolitique_classement_historique.jsonl",
     "reports/quantum/feed_historique.jsonl",
     "reports/crypto/feed_historique.jsonl",
     "reports/geopolitique/feed_historique.jsonl",

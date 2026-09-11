@@ -979,6 +979,194 @@ def publier_historique_dossiers(dossiers: list[Dossier], chemin: Path | None = N
         _LOG.warning("Historique des dossiers géopolitiques non écrit (%s) : %s", fichier, exc)
 
 
+#: Historique du classement des sujets : une ligne par sujet et par jour, en
+#: ajout seul. Même mécanique que les journaux sous reports/crypto/ : jamais
+#: réécrit, fusionné par union en cas de publication concurrente (voir
+#: scripts/fusionner_sorties.py). C'est lui qui permet de dire qu'un sujet
+#: est inerte depuis trois semaines plutôt que sur la photo du jour.
+FICHIER_HISTORIQUE_CLASSEMENT: Final = (
+    Path(__file__).resolve().parents[2] / "reports" / "gold" / "geopolitique_classement_historique.jsonl"
+)
+
+#: Fenêtres du résumé d'historique, en jours de classement.
+JOURS_RESUME_HISTORIQUE: Final[int] = 30
+JOURS_TENDANCE_SCORE: Final[int] = 7
+
+#: Niveau ordinal d'un statut, pour dire « promu » ou « rétrogradé ». Un
+#: sujet épinglé garde son statut quoi qu'il arrive : c'est sa lecture de
+#: pertinence qui bouge, et c'est elle qu'on compare.
+_NIVEAU_LECTURE: Final[dict[str, int]] = {"réagit": 3, "neutre": 2, "inerte": 1}
+
+
+def cle_sujet(entree: dict[str, Any]) -> str:
+    """Clé stable d'un sujet dans l'historique : l'identifiant du dossier, sinon son nom."""
+    return str(entree.get("id") or f"sujet:{entree.get('nom', '')}")
+
+
+def _niveau(statut: str, lecture: str | None) -> int:
+    if statut == "actif":
+        return 3
+    if statut == "candidat":
+        return 0
+    return _NIVEAU_LECTURE.get(lecture or "", 0 if statut == "epingle" else 1)
+
+
+def charger_historique_classement(chemin: Path | None = None) -> dict[str, list[dict[str, Any]]]:
+    """Relit l'historique du classement, par sujet, une entrée par jour.
+
+    Deux lignes pour le même jour (exécution relancée à la main) : la
+    dernière écrite l'emporte — c'est la mesure la plus fraîche.
+
+    Args:
+        chemin: fichier JSONL. ``None`` retient :data:`FICHIER_HISTORIQUE_CLASSEMENT`.
+
+    Returns:
+        Entrées triées par date, par clé de sujet. Vide si le fichier
+        n'existe pas encore (première exécution) ou est illisible.
+    """
+    fichier = chemin or FICHIER_HISTORIQUE_CLASSEMENT
+    par_sujet: dict[str, dict[str, dict[str, Any]]] = {}
+    try:
+        with fichier.open("r", encoding="utf-8") as flux:
+            for ligne in flux:
+                ligne = ligne.strip()
+                if not ligne:
+                    continue
+                try:
+                    entree = json.loads(ligne)
+                except json.JSONDecodeError:
+                    continue
+                cle, date = entree.get("cle"), entree.get("date")
+                if cle and date:
+                    par_sujet.setdefault(str(cle), {})[str(date)] = entree
+    except FileNotFoundError:
+        _LOG.info("Aucun historique de classement : première exécution.")
+    except OSError as exc:
+        _LOG.warning("Historique du classement illisible (%s) : %s", fichier, exc)
+    return {cle: [jours[d] for d in sorted(jours)] for cle, jours in par_sujet.items()}
+
+
+def resumer_historique_sujet(
+    entrees: list[dict[str, Any]], statut: str, lecture: str | None, score: float | None,
+    date: str | None = None,
+) -> dict[str, Any]:
+    """Situe le classement du jour dans l'historique d'un sujet.
+
+    Args:
+        entrees: lignes passées de ce sujet (voir
+            :func:`charger_historique_classement`), la journée en cours
+            exclue ou incluse — elle est écartée si sa date est ``date``.
+        statut, lecture, score: classement du jour.
+        date: date du jour, ``AAAA-MM-JJ``.
+
+    Returns:
+        ``jours_observes`` (jours de classement passés), ``changement``
+        (``nouveau`` / ``promu`` / ``rétrogradé`` / ``stable``),
+        ``statut_precedent``, ``lecture_precedente``, ``date_precedente``,
+        ``jours_consecutifs_statut`` (journée en cours comprise),
+        ``inerte_depuis_jours`` (idem, 0 si le sujet n'est pas inerte),
+        ``score_moyen_30j`` et ``tendance_score`` (moyenne des sept derniers
+        jours contre les sept précédents). Chaque nombre est citable.
+    """
+    passes = [e for e in entrees if date is None or e.get("date") != date]
+    resume: dict[str, Any] = {
+        "jours_observes": len(passes), "changement": "nouveau",
+        "statut_precedent": None, "lecture_precedente": None, "date_precedente": None,
+        "jours_consecutifs_statut": 1,
+        "inerte_depuis_jours": 1 if lecture == "inerte" else 0,
+        "score_moyen_30j": None, "tendance_score": "",
+    }
+    if not passes:
+        return resume
+
+    dernier = passes[-1]
+    resume.update({
+        "statut_precedent": dernier.get("statut"), "lecture_precedente": dernier.get("lecture"),
+        "date_precedente": dernier.get("date"),
+    })
+    avant = _niveau(str(dernier.get("statut", "")), dernier.get("lecture"))
+    apres = _niveau(statut, lecture)
+    resume["changement"] = "promu" if apres > avant else "rétrogradé" if apres < avant else "stable"
+
+    # Séries consécutives, en remontant depuis hier.
+    consecutifs = 1
+    for e in reversed(passes):
+        if e.get("statut") == statut and (statut not in ("veille", "epingle") or e.get("lecture") == lecture):
+            consecutifs += 1
+        else:
+            break
+    resume["jours_consecutifs_statut"] = consecutifs
+    if lecture == "inerte":
+        inerte = 1
+        for e in reversed(passes):
+            if e.get("lecture") == "inerte":
+                inerte += 1
+            else:
+                break
+        resume["inerte_depuis_jours"] = inerte
+
+    scores = [float(e["score"]) for e in passes[-JOURS_RESUME_HISTORIQUE:] if e.get("score") is not None]
+    if score is not None:
+        scores.append(float(score))
+    if scores:
+        resume["score_moyen_30j"] = round(sum(scores) / len(scores), 2)
+    if len(scores) >= 2 * JOURS_TENDANCE_SCORE:
+        recents = scores[-JOURS_TENDANCE_SCORE:]
+        precedents = scores[-2 * JOURS_TENDANCE_SCORE:-JOURS_TENDANCE_SCORE]
+        m_r, m_p = sum(recents) / len(recents), sum(precedents) / len(precedents)
+        resume["tendance_score"] = "en hausse" if m_r > m_p * 1.1 else "en baisse" if m_r < m_p * 0.9 else "stable"
+    return resume
+
+
+def publier_historique_classement(
+    classement: list[dict[str, Any]], date: str, chemin: Path | None = None,
+) -> int:
+    """Ajoute au fichier d'historique le classement du jour, un sujet par ligne.
+
+    Ajout seul, idempotent dans la journée : un sujet déjà consigné à cette
+    date n'est pas réécrit — relancer le rapport le même jour n'invente pas
+    une deuxième observation.
+
+    Args:
+        classement: bloc ``classement`` de :func:`analyser_dossiers`.
+        date: date du rapport, ``AAAA-MM-JJ``.
+        chemin: fichier JSONL. ``None`` retient :data:`FICHIER_HISTORIQUE_CLASSEMENT`.
+
+    Returns:
+        Nombre de lignes écrites.
+    """
+    fichier = chemin or FICHIER_HISTORIQUE_CLASSEMENT
+    deja = {
+        cle for cle, entrees in charger_historique_classement(fichier).items()
+        if any(e.get("date") == date for e in entrees)
+    }
+    horodatage = datetime.now(timezone.utc).isoformat()
+    lignes: list[str] = []
+    for c in classement:
+        cle = cle_sujet(c)
+        if cle in deja:
+            continue
+        p = c.get("pertinence") or {}
+        lignes.append(json.dumps({
+            "date": date, "cle": cle, "nom": c.get("nom"), "origine": c.get("origine"), "type": c.get("type"),
+            "statut": c.get("statut"), "rang": c.get("rang"),
+            "score": p.get("score"), "lecture": p.get("lecture") or None, "fiabilite": p.get("fiabilite"),
+            "n_observations": p.get("n_observations"), "n_pics": p.get("n_pics"),
+            "intensite_ratio": (round(float(c["intensite_ratio"]), 3) if c.get("intensite_ratio") is not None else None),
+            "horodatage_utc": horodatage,
+        }, ensure_ascii=False))
+    if not lignes:
+        return 0
+    try:
+        fichier.parent.mkdir(parents=True, exist_ok=True)
+        with fichier.open("a", encoding="utf-8") as flux:
+            flux.write("\n".join(lignes) + "\n")
+    except OSError as exc:
+        _LOG.warning("Historique du classement non écrit (%s) : %s", fichier, exc)
+        return 0
+    return len(lignes)
+
+
 def _mesurer_sujet_libre(
     nom: str, requete: str, marches: pd.DataFrame | None, min_obs: int,
     mesurer: bool, fenetre: int,
@@ -1031,6 +1219,8 @@ def analyser_dossiers(
     reglages_decouverte: dict[str, Any] | None = None,
     marches: pd.DataFrame | None = None,
     mesurer_candidats: bool = True,
+    historique_classement: dict[str, list[dict[str, Any]]] | None = None,
+    date_rapport: str | None = None,
 ) -> dict[str, Any]:
     """Produit le bloc géopolitique du rapport, dossier de conflit par dossier.
 
@@ -1066,6 +1256,11 @@ def analyser_dossiers(
         mesurer_candidats: ``False`` pour n'effectuer aucun appel GDELT DOC
             pour les candidats et thèmes (tests hors ligne) — ils sont
             alors listés sans mesure, jamais inventés.
+        historique_classement: sortie de :func:`charger_historique_classement`,
+            pour situer chaque sujet dans le temps (promu, rétrogradé, inerte
+            depuis N jours). ``None`` : aucun historique, tout est « nouveau ».
+        date_rapport: date du jour, ``AAAA-MM-JJ``, pour écarter une ligne
+            d'historique déjà écrite aujourd'hui.
 
     Returns:
         Dictionnaire prêt à être sérialisé, avec en plus ``classement``
@@ -1198,9 +1393,19 @@ def analyser_dossiers(
         for t in themes_mesures
     ]
     classement = sujets.classer(entrees)
+    historique = historique_classement or {}
+    for e in classement:
+        e["cle"] = cle_sujet(e)
+        p = e.get("pertinence") or {}
+        e["historique"] = resumer_historique_sujet(
+            historique.get(e["cle"], []), e["statut"], p.get("lecture") or None, p.get("score"), date_rapport,
+        )
     statuts = {e["id"]: e for e in classement if e.get("id")}
     dossiers = [
-        replace(d, classement={k: statuts[d.id][k] for k in ("statut", "rang", "donnees_suffisantes")})
+        replace(d, classement={
+            **{k: statuts[d.id][k] for k in ("statut", "rang", "donnees_suffisantes")},
+            "historique": statuts[d.id]["historique"],
+        })
         if d.id in statuts else d
         for d in dossiers
     ]

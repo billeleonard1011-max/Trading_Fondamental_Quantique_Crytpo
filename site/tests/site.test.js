@@ -817,6 +817,23 @@ test("rubriqueGeopolitique affiche le classement et le statut de chaque dossier"
   assert.match(corps, /Statut dans le classement : <strong>veille<\/strong>/);
 });
 
+test("le classement affiche promotions, rétrogradations et durée d'inertie", () => {
+  const donnees = etatGeoExemple([dossierExemple()]).donnees;
+  donnees.geopolitique.classement = [
+    { rang: 1, nom: "Sanctions", statut: "actif", donnees_suffisantes: true, intensite_ratio: 1.8,
+      pertinence: { disponible: true, score: 1.9, n_observations: 60, lecture: "réagit" },
+      historique: { changement: "promu", jours_consecutifs_statut: 1, inerte_depuis_jours: 0, jours_observes: 12 } },
+    { rang: 2, nom: "Conflits majeurs", statut: "veille", donnees_suffisantes: true, intensite_ratio: 0.5,
+      pertinence: { disponible: true, score: 0.6, n_observations: 60, lecture: "inerte" },
+      historique: { changement: "stable", jours_consecutifs_statut: 15, inerte_depuis_jours: 15, tendance_score: "en baisse" } },
+  ];
+  const { corps } = rubriqueGeopolitique({ disponible: true, donnees }, []);
+  assert.match(corps, /↑ promu/);
+  assert.match(corps, /inerte depuis 15 jours de classement/);
+  assert.match(corps, /score en baisse/);
+  assert.doesNotMatch(corps, /undefined/);
+});
+
 test("l'onglet Autres liste les sujets significatifs du rapport et explique ses seuils", () => {
   const donnees = etatGeoExemple([dossierExemple()]).donnees;
   donnees.geopolitique.autres = [{

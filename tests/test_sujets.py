@@ -347,3 +347,116 @@ def test_lintensite_se_lit_sur_trente_jours_et_la_pertinence_sur_toute_la_serie(
     assert theme.disponible
     assert theme.intensite_ratio == 2.0, "le ratio doit être 20/10 (trente jours), pas 20/55 (soixante jours)"
     assert len(theme.volumes) == 60, "la série entière reste disponible pour la pertinence marché"
+
+
+# ---------------------------------------------------------------------------
+# 8. Historique du classement : une ligne par sujet et par jour
+# ---------------------------------------------------------------------------
+from pathlib import Path
+
+
+def _classement_du_jour(score_ru: float = 0.6, lecture_ru: str = "inerte") -> list[dict[str, Any]]:
+    return [
+        {"nom": "Sanctions", "id": "", "origine": "theme_generique", "type": "theme", "statut": "actif", "rang": 1,
+         "intensite_ratio": 1.8, "pertinence": {"disponible": True, "score": 1.9, "lecture": "réagit", "fiabilite": "correcte",
+                                                 "n_observations": 60, "n_pics": 8}},
+        {"nom": "Russie - Ukraine", "id": "russie_ukraine", "origine": "dossier", "type": "conflit", "statut": "veille", "rang": 2,
+         "intensite_ratio": 0.4, "pertinence": {"disponible": True, "score": score_ru, "lecture": lecture_ru, "fiabilite": "correcte",
+                                                 "n_observations": 60, "n_pics": 10}},
+    ]
+
+
+def test_lhistorique_ecrit_une_ligne_par_sujet_et_par_jour_sans_doublon(tmp_path: Path) -> None:
+    fichier = tmp_path / "classement.jsonl"
+    assert geopolitics.publier_historique_classement(_classement_du_jour(), "2026-09-11", fichier) == 2
+    # Relancer le même jour n'invente pas une deuxième observation.
+    assert geopolitics.publier_historique_classement(_classement_du_jour(), "2026-09-11", fichier) == 0
+    assert geopolitics.publier_historique_classement(_classement_du_jour(), "2026-09-12", fichier) == 2
+    lignes = [l for l in fichier.read_text(encoding="utf-8").splitlines() if l.strip()]
+    assert len(lignes) == 4
+    historique = geopolitics.charger_historique_classement(fichier)
+    assert [e["date"] for e in historique["russie_ukraine"]] == ["2026-09-11", "2026-09-12"]
+    assert historique["sujet:Sanctions"][0]["score"] == 1.9
+
+
+def test_une_ligne_corrompue_nempeche_pas_de_lire_le_reste(tmp_path: Path) -> None:
+    fichier = tmp_path / "classement.jsonl"
+    fichier.write_text('{"date": "2026-09-10", "cle": "russie_ukraine", "statut": "veille"}\npas du json\n', encoding="utf-8")
+    assert list(geopolitics.charger_historique_classement(fichier)) == ["russie_ukraine"]
+    assert geopolitics.charger_historique_classement(tmp_path / "absent.jsonl") == {}
+
+
+def _entrees(*jours: tuple[str, str, str | None, float | None]) -> list[dict[str, Any]]:
+    return [{"date": d, "statut": s, "lecture": l, "score": sc} for d, s, l, sc in jours]
+
+
+def test_le_resume_dit_promu_retrograde_et_depuis_combien_de_jours() -> None:
+    passe = _entrees(("2026-09-08", "veille", "inerte", 0.6), ("2026-09-09", "veille", "inerte", 0.5),
+                     ("2026-09-10", "veille", "inerte", 0.7))
+    encore_inerte = geopolitics.resumer_historique_sujet(passe, "veille", "inerte", 0.65, "2026-09-11")
+    assert encore_inerte["changement"] == "stable" and encore_inerte["inerte_depuis_jours"] == 4
+    assert encore_inerte["jours_consecutifs_statut"] == 4 and encore_inerte["jours_observes"] == 3
+    promu = geopolitics.resumer_historique_sujet(passe, "actif", "réagit", 1.8, "2026-09-11")
+    assert promu["changement"] == "promu" and promu["inerte_depuis_jours"] == 0 and promu["jours_consecutifs_statut"] == 1
+    retrograde = geopolitics.resumer_historique_sujet(
+        _entrees(("2026-09-10", "actif", "réagit", 1.9)), "veille", "neutre", 1.1, "2026-09-11",
+    )
+    assert retrograde["changement"] == "rétrogradé" and retrograde["statut_precedent"] == "actif"
+    assert geopolitics.resumer_historique_sujet([], "candidat", None, None, "2026-09-11")["changement"] == "nouveau"
+
+
+def test_une_ligne_deja_ecrite_aujourdhui_nest_pas_comptee_comme_passee() -> None:
+    passe = _entrees(("2026-09-10", "veille", "inerte", 0.6), ("2026-09-11", "veille", "inerte", 0.6))
+    resume = geopolitics.resumer_historique_sujet(passe, "veille", "inerte", 0.6, "2026-09-11")
+    assert resume["jours_observes"] == 1 and resume["inerte_depuis_jours"] == 2
+
+
+def test_la_tendance_du_score_compare_deux_semaines() -> None:
+    passe = _entrees(*[(f"2026-08-{d:02d}", "veille", "neutre", 0.9) for d in range(1, 8)],
+                     *[(f"2026-08-{d:02d}", "veille", "neutre", 1.3) for d in range(8, 14)])
+    resume = geopolitics.resumer_historique_sujet(passe, "veille", "neutre", 1.4, "2026-08-14")
+    assert resume["tendance_score"] == "en hausse" and resume["score_moyen_30j"] is not None
+
+
+def test_le_classement_du_jour_est_annote_par_lhistorique() -> None:
+    marches, volumes = _marches(n=40, pics=[5, 12, 20, 33], amplitude=0.0)      # inerte aujourd'hui
+    dossier = geopolitics.mesurer_dossier(
+        {"id": "russie_ukraine", "nom_affiche": "Russie - Ukraine", "acteurs_gdelt": ["RUS", "UKR"], "mots_cles": ["Ukraine"]},
+        set(), volumes=volumes, intensite={"disponible": True, "ratio": 1.0, "volume_24h": 20.0, "alerte": False},
+        articles=[], lignes_events=[], motif_events="",
+    )
+    historique = {"russie_ukraine": _entrees(("2026-09-09", "veille", "inerte", 0.6), ("2026-09-10", "veille", "inerte", 0.5))}
+    bloc = geopolitics.analyser_dossiers(
+        dossiers_precalcules=[dossier], marches=marches, mesurer_candidats=False,
+        historique_classement=historique, date_rapport="2026-09-11",
+    )
+    entree = bloc["classement"][0]
+    assert entree["cle"] == "russie_ukraine" and entree["historique"]["inerte_depuis_jours"] == 3
+    assert bloc["dossiers"][0]["classement"]["historique"]["changement"] == "stable"
+
+
+def test_lhistorique_du_classement_est_fusionne_par_union() -> None:
+    """Sans cette ligne, une publication concurrente perdrait un jour de classement."""
+    from scripts import fusionner_sorties as fusion
+
+    relatif = geopolitics.FICHIER_HISTORIQUE_CLASSEMENT.relative_to(fusion.RACINE).as_posix()
+    assert relatif in fusion.FICHIERS_JSONL
+
+
+def test_la_synthese_cite_les_mouvements_et_linertie_durable() -> None:
+    rapport = {"geopolitique": {
+        "disponible": True, "dossiers": [], "motif": "aucun dossier mesurable",
+        "classement": [
+            {"nom": "Sanctions", "statut": "actif", "donnees_suffisantes": True,
+             "pertinence": {"disponible": True, "score": 1.9, "n_observations": 60},
+             "historique": {"changement": "promu", "inerte_depuis_jours": 0}},
+            {"nom": "Conflits majeurs", "statut": "veille", "donnees_suffisantes": True,
+             "pertinence": {"disponible": True, "score": 0.6, "lecture": "inerte"},
+             "historique": {"changement": "stable", "inerte_depuis_jours": 15}},
+        ],
+    }}
+    resultat = synthese.synthetiser_geopolitique(rapport)
+    assert resultat["publiable"], resultat["motif"]
+    assert "Sanctions monte d'un cran" in resultat["texte"]
+    assert "inerte depuis 15 jours de classement consécutifs" in resultat["texte"]
+    assert synthese.phrases_sans_consequence(resultat["texte"]) == []
