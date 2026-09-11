@@ -362,7 +362,14 @@ function rendreAutresPanneau(filGeopolitique, dossiers) {
     (item) => !estLieAUnDossier(item.titre_affiche || item.titre, dossiers),
   );
   if (!autres.length) {
-    return `<p class="fil-vide">Aucune actualité géopolitique hors des dossiers suivis pour l'instant.</p>`;
+    // Dire d'où vient ce panneau plutôt que laisser croire à une veille
+    // mondiale : il ne reçoit que le fil géopolitique, lui-même restreint
+    // aux quatre thèmes à canal de transmission connu vers l'or.
+    return `<p class="fil-vide">Rien à afficher. Cet onglet ne couvre pas « le reste du monde » :
+      il reprend le fil géopolitique du site, qui ne retient qu'un article dont le titre
+      correspond à l'un des quatre thèmes suivis pour l'or (tensions énergétiques, conflits
+      majeurs, sanctions, réserves de change), et en retire ce qui relève déjà d'un dossier.
+      Vide, il signifie que ce fil n'a rien retenu — pas qu'il ne se passe rien ailleurs.</p>`;
   }
   const lignes = autres.slice(0, 15).map((it) => `
     <li class="fil-item">

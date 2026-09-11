@@ -37,6 +37,7 @@ from __future__ import annotations
 
 import json
 import logging
+import time
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -532,6 +533,12 @@ def _deja_dans_les_prix(
 # conflit leur convient tout autant.
 
 
+#: Nombre de nouvelles mesures accordées à un dossier que GDELT n'a pas servi,
+#: et pause avant la première (doublée à chaque fois).
+REESSAIS_DOSSIER: int = 2
+ATTENTE_REESSAI_DOSSIER_SECONDES: float = 20.0
+
+
 @dataclass(slots=True, frozen=True)
 class Dossier:
     """Lecture complète d'un dossier de conflit.
@@ -929,16 +936,37 @@ def analyser_dossiers(
                 motif_events,
             )
 
-        dossiers = [
-            mesurer_dossier(
+        def _mesurer(cfg: dict[str, Any]) -> Dossier:
+            return mesurer_dossier(
                 cfg, connus.get(str(cfg.get("id", "")), set()),
                 fenetre=fenetre, seuil_acceleration=seuil_acceleration,
                 seuil_essoufflement=seuil_essoufflement,
                 series_macro=series_macro, prix_or=prix_or, z_score_prime=z_score_prime,
                 lignes_events=lignes_events, motif_events=motif_events,
             )
-            for cfg in configs
-        ]
+
+        dossiers = [_mesurer(cfg) for cfg in configs]
+
+        # Un dossier que GDELT n'a pas servi est remesuré après une pause
+        # croissante, plutôt que marqué indisponible au premier refus : le
+        # rapport n'est pas pressé, et un dossier manquant coûte plus qu'une
+        # minute d'attente. Seuls les échecs GDELT sont réessayés — un dossier
+        # sans mot-clé configuré ne s'arrangera pas en patientant.
+        for k in range(REESSAIS_DOSSIER):
+            a_reessayer = [
+                i for i, d in enumerate(dossiers)
+                if not d.theme.disponible and "GDELT" in (d.theme.motif or "")
+            ]
+            if not a_reessayer:
+                break
+            pause = ATTENTE_REESSAI_DOSSIER_SECONDES * (2 ** k)
+            _LOG.warning(
+                "GDELT muet pour %s : nouvelle mesure dans %.0f s (%d/%d).",
+                ", ".join(dossiers[i].nom_affiche for i in a_reessayer), pause, k + 1, REESSAIS_DOSSIER,
+            )
+            time.sleep(pause)
+            for i in a_reessayer:
+                dossiers[i] = _mesurer(configs[i])
 
     disponibles = [d for d in dossiers if d.theme.disponible]
     intensites = [d.theme.intensite_ratio for d in disponibles if d.theme.intensite_ratio is not None]

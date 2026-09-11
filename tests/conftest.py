@@ -13,9 +13,12 @@ from __future__ import annotations
 import pytest
 
 from dataio import news
+from modules.gold import geopolitics
 
 
 @pytest.fixture(autouse=True)
 def _sans_espacement_gdelt(monkeypatch: pytest.MonkeyPatch) -> None:
     """Supprime l'attente entre appels GDELT pour la durée d'un test."""
     monkeypatch.setattr(news, "INTERVALLE_MIN_GDELT", 0.0)
+    monkeypatch.setattr(news, "ATTENTE_429_SECONDES", 0.0)
+    monkeypatch.setattr(geopolitics, "ATTENTE_REESSAI_DOSSIER_SECONDES", 0.0)

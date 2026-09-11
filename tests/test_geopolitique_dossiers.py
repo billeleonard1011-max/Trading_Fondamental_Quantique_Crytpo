@@ -380,3 +380,40 @@ def test_le_bloc_serialise_ne_contient_aucun_objet_python() -> None:
     # explicitement retirée par run.py avant publication.
     bloc.pop("_dossiers_objets")
     json.dumps(bloc)  # ne doit pas lever
+
+
+# ---------------------------------------------------------------------------
+# Réessai d'un dossier que GDELT n'a pas servi
+# ---------------------------------------------------------------------------
+def test_un_dossier_muet_est_remesure_avant_detre_declare_indisponible(monkeypatch) -> None:
+    """Le défaut corrigé : Russie - Ukraine restait « GDELT n'a pas répondu » au premier refus."""
+    appels: list[str] = []
+    mesurer_reel = geopolitics.mesurer_dossier
+
+    def _faux_mesurer(cfg, connus, **kwargs):
+        appels.append(cfg["id"])
+        if len(appels) == 1:
+            return geopolitics.Dossier(
+                id=cfg["id"], nom_affiche=cfg["nom_affiche"],
+                theme=geopolitics.Theme(nom=cfg["nom_affiche"], motif="GDELT n'a pas répondu."),
+            )
+        return mesurer_reel(
+            cfg, connus, volumes=_volumes([10.0] * 14), articles=[], lignes_events=[], motif_events="",
+        )
+
+    monkeypatch.setattr(geopolitics, "mesurer_dossier", _faux_mesurer)
+    monkeypatch.setattr(geopolitics.time, "sleep", lambda s: None)
+    bloc = geopolitics.analyser_dossiers(
+        dossiers_configures=[_dossier_cfg()], identifiants_connus={}, lignes_events=[], motif_events="",
+    )
+    assert appels == [_dossier_cfg()["id"]] * 2
+    assert bloc["dossiers"][0]["disponible"] is True
+
+
+def test_un_dossier_sans_mot_cle_nest_pas_reessaye(monkeypatch) -> None:
+    """Attendre n'y changerait rien : pas de réessai, pas d'attente."""
+    monkeypatch.setattr(geopolitics.time, "sleep", lambda s: (_ for _ in ()).throw(AssertionError("attente inutile")))
+    bloc = geopolitics.analyser_dossiers(
+        dossiers_configures=[_dossier_cfg(mots_cles=[])], identifiants_connus={}, lignes_events=[], motif_events="",
+    )
+    assert bloc["dossiers"][0]["disponible"] is False

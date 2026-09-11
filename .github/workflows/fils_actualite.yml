@@ -48,7 +48,7 @@ jobs:
   fils:
     name: Collecter et publier les trois fils
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
 
     env:
       # Couche pédagogique des trois fils. Facultative : sans elle, les

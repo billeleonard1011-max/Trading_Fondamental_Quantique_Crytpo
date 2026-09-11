@@ -37,7 +37,10 @@ jobs:
   rapport:
     name: Générer et publier le rapport
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # 45 plutôt que 30 : les réessais GDELT (jusqu'à ~105 s par requête
+    # refusée, plus 20 puis 40 s par dossier remesuré) peuvent allonger
+    # l'exécution ; un rapport complet vaut ces minutes.
+    timeout-minutes: 45
 
     env:
       # Les clés proviennent des secrets du dépôt. Elles n'apparaissent
@@ -140,20 +143,44 @@ jobs:
           fi
 
       - name: Veille sur les valeurs quantiques
-        # continue-on-error : une panne de la veille quantique ne doit pas
-        # empêcher la publication du rapport or, qui porte l'instrument
-        # réellement tradé. Le code de sortie non nul reste visible dans
-        # l'onglet Actions.
-        continue-on-error: true
+        # Une panne de la veille quantique ne doit pas empêcher la
+        # publication du rapport or, qui porte l'instrument réellement
+        # tradé — mais elle ne doit pas non plus passer inaperçue :
+        # « continue-on-error » affichait l'étape en vert, et le site a
+        # servi pendant deux jours un rapport périmé sans que rien ne le
+        # dise. L'échec est désormais une annotation d'avertissement, visible
+        # dans le résumé de l'exécution.
         run: |
           mkdir -p reports/quantum
-          python -m modules.quantum.run
+          python -m modules.quantum.run \
+            || echo "::warning title=Veille quantique::échec, le rapport précédent reste publié (voir le journal de l'étape)"
 
       - name: Veille sur les positions crypto
-        continue-on-error: true
         run: |
           mkdir -p reports/crypto
-          python -m modules.crypto.run
+          python -m modules.crypto.run \
+            || echo "::warning title=Veille crypto::échec, le rapport précédent reste publié (voir le journal de l'étape)"
+
+      - name: Vérifier la fraîcheur des rapports
+        # Un rapport qui n'a pas été réécrit aujourd'hui est signalé ici,
+        # quelle que soit la raison : c'est la vérification que le site
+        # affichera bien des données du jour.
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, pathlib, datetime
+          aujourd_hui = datetime.date.today().isoformat()
+          for nom in ("gold", "quantum", "crypto"):
+              chemin = pathlib.Path(f"reports/{nom}/latest.json")
+              if not chemin.exists():
+                  print(f"::warning title=Rapport {nom}::aucun fichier latest.json")
+                  continue
+              date = json.loads(chemin.read_text(encoding="utf-8")).get("meta", {}).get("date")
+              if date != aujourd_hui:
+                  print(f"::warning title=Rapport {nom} périmé::daté du {date}, exécution du {aujourd_hui}")
+              else:
+                  print(f"Rapport {nom} : {date}")
+          PY
 
       # Les trois fils d'actualité (quantique, crypto, géopolitique) tournent
       # dans un workflow séparé (.github/workflows/fils_actualite.yml) : ils

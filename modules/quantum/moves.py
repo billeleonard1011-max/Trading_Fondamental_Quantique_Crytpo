@@ -90,10 +90,16 @@ MOTIFS_RECOMMANDATION: Final[tuple[str, ...]] = (
 #: interne d'analyse : un fil entier serait sinon bloqué par le titre d'une
 #: seule dépêche externe, aperçu en pratique sur un communiqué crypto
 #: (« Best Crypto To Buy Now »).
+#:
+#: ``exemple_titre`` est le titre d'article cité par la veille des nouveaux
+#: entrants (modules/quantum/industry.py). Son oubli a bloqué la publication
+#: du rapport quantique entier pendant deux jours sur des titres du type
+#: « Time to Sell? » — le site affichait alors un rapport périmé, sans que
+#: rien ne le signale.
 CLES_CITATION: Final[frozenset[str]] = frozenset(
     {
         "titre", "url", "resume", "description", "source", "query", "keywords",
-        "libelle_source", "titre_affiche", "url_source",
+        "libelle_source", "titre_affiche", "url_source", "exemple_titre",
     }
 )
 

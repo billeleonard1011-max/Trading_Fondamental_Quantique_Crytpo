@@ -533,3 +533,15 @@ def test_rapport_deja_controle_reste_controlable() -> None:
         }
     }
     assert moves.verifier_absence_recommandation(rapport) == []
+
+
+def test_le_titre_cite_par_la_veille_des_entrants_nest_pas_une_recommandation() -> None:
+    """Le défaut corrigé : « Time to Sell? » dans ``exemple_titre`` bloquait tout le rapport."""
+    rapport = {
+        "secteur": {"nouveaux_entrants": {"candidats": [
+            {"nom": "QBTS", "mentions": 8, "exemple_titre": "QBTS Trading Down 2.7% – Time to Sell?"},
+            {"nom": "IBM", "mentions": 6, "exemple_titre": "Which Is the Best to Buy Now?"},
+        ]}},
+        "lecture": "Deux sociétés reviennent dans la presse du secteur.",
+    }
+    assert moves.verifier_absence_recommandation(rapport) == []

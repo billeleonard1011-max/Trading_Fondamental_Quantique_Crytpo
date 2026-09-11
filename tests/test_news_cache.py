@@ -146,3 +146,69 @@ def test_un_appel_servi_par_le_cache_nattend_pas(tmp_path: Path, monkeypatch) ->
     news._appel_gdelt(parametres)          # deuxième : servi par le cache
 
     assert attentes == [], "un appel servi par le cache ne doit pas attendre"
+
+
+# ---------------------------------------------------------------------------
+# Réessais : délais dépassés et erreurs de serveur, pas seulement les 429
+# ---------------------------------------------------------------------------
+def test_un_delai_depasse_est_reessaye_puis_reussit(tmp_path: Path, monkeypatch) -> None:
+    """Le défaut corrigé : un « read timeout » perdait un dossier au premier coup."""
+    monkeypatch.setattr(news, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(news.time, "sleep", lambda s: None)
+    appels: list[int] = []
+
+    def _faux_get(url, params=None, timeout=None, headers=None):
+        appels.append(1)
+        if len(appels) < 3:
+            raise news.requests.Timeout("Read timed out.")
+        return _ReponseFactice({"articles": []})
+
+    monkeypatch.setattr(news.requests, "get", _faux_get)
+    assert news._appel_gdelt({"query": "or", "mode": "artlist"}) == {"articles": []}
+    assert len(appels) == 3
+
+
+def test_une_erreur_serveur_est_reessayee(tmp_path: Path, monkeypatch) -> None:
+    monkeypatch.setattr(news, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(news.time, "sleep", lambda s: None)
+    codes = iter([503, 200])
+
+    class _Reponse(_ReponseFactice):
+        def __init__(self, charge, code):
+            super().__init__(charge)
+            self.status_code = code
+
+    monkeypatch.setattr(news.requests, "get", lambda *a, **k: _Reponse({"articles": []}, next(codes)))
+    assert news._appel_gdelt({"query": "or", "mode": "artlist"}) == {"articles": []}
+
+
+def test_une_requete_invalide_nest_pas_reessayee(tmp_path: Path, monkeypatch) -> None:
+    """Un 400 ne s'arrange pas en patientant : un seul appel, pas quatre."""
+    monkeypatch.setattr(news, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(news.time, "sleep", lambda s: None)
+    appels: list[int] = []
+
+    class _Reponse400(_ReponseFactice):
+        status_code = 400
+
+        def raise_for_status(self):
+            raise news.requests.HTTPError("400 Bad Request")
+
+    def _faux_get(*a, **k):
+        appels.append(1)
+        return _Reponse400({})
+
+    monkeypatch.setattr(news.requests, "get", _faux_get)
+    assert news._appel_gdelt({"query": "(", "mode": "artlist"}) is None
+    assert len(appels) == 1
+
+
+def test_apres_epuisement_des_essais_lappel_echoue_proprement(tmp_path: Path, monkeypatch) -> None:
+    monkeypatch.setattr(news, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(news.time, "sleep", lambda s: None)
+
+    def _toujours_muet(*a, **k):
+        raise news.requests.Timeout("Read timed out.")
+
+    monkeypatch.setattr(news.requests, "get", _toujours_muet)
+    assert news._appel_gdelt({"query": "or", "mode": "artlist"}, essais=2) is None

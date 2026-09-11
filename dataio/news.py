@@ -36,6 +36,10 @@ URL_GDELT: Final = "https://api.gdeltproject.org/api/v2/doc/doc"
 #: Délai maximal, en secondes, accordé à un appel réseau.
 TIMEOUT: Final[float] = float(os.environ.get("HTTP_TIMEOUT", "20"))
 
+#: Délai propre à GDELT, plus long : des lectures de plus de vingt secondes
+#: ont été observées sur des requêtes de volume à 30 jours.
+TIMEOUT_GDELT: Final[float] = float(os.environ.get("GDELT_TIMEOUT", "40"))
+
 #: Dossier du cache GDELT. Un job GitHub Actions démarre sur un système de
 #: fichiers vide : le cache ne survit donc pas d'une exécution à l'autre, il
 #: ne sert qu'à mutualiser les appels *au sein d'une même exécution* — la
@@ -59,8 +63,11 @@ SEUIL_ALERTE_INTENSITE: Final[float] = 2.0
 #: Plafond imposé par GDELT sur le nombre d'articles renvoyés.
 MAX_RECORDS_GDELT: Final[int] = 250
 
-#: Attente initiale, en secondes, après un refus pour dépassement de débit.
-ATTENTE_429_SECONDES: Final[float] = float(os.environ.get("GDELT_ATTENTE_429", "5"))
+#: Attente initiale, en secondes, après un refus pour dépassement de débit
+#: (doublée à chaque tentative : 15, 30, 60 s). À 5 s de base, une requête
+#: épuisait encore ses essais en moins d'une minute — observé en local le
+#: 11 septembre 2026 ; le quota de GDELT se réarme visiblement plus lentement.
+ATTENTE_429_SECONDES: Final[float] = float(os.environ.get("GDELT_ATTENTE_429", "15"))
 
 #: Intervalle minimal entre deux appels GDELT, en secondes.
 #:
@@ -72,7 +79,12 @@ ATTENTE_429_SECONDES: Final[float] = float(os.environ.get("GDELT_ATTENTE_429", "
 #: Espacer volontairement les appels coûte quelques secondes et supprime la
 #: cause au lieu de la rattraper. Ce n'est pas une variable de confort : la
 #: baisser sous 5 secondes fait réapparaître les 429.
-INTERVALLE_MIN_GDELT: float = float(os.environ.get("GDELT_INTERVALLE_MIN", "5.5"))
+#:
+#: Relevé de 5,5 à 8 secondes : à 5,5 s, des 429 persistaient (les
+#: exécuteurs GitHub partagent leurs adresses, et le quota de GDELT est par
+#: adresse), ainsi que des lectures qui expiraient. Le rapport n'est pas
+#: pressé : deux minutes de plus contre des dossiers complets.
+INTERVALLE_MIN_GDELT: float = float(os.environ.get("GDELT_INTERVALLE_MIN", "8"))
 
 #: Instant du dernier appel GDELT réellement parti, pour l'espacement.
 _dernier_appel_gdelt: float = 0.0
@@ -377,14 +389,18 @@ def _espacer_appels_gdelt() -> None:
     _dernier_appel_gdelt = time.monotonic()
 
 
-def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] | None:
+def _appel_gdelt(parametres: dict[str, Any], essais: int = 4) -> dict[str, Any] | None:
     """Appelle l'API GDELT et renvoie la charge JSON.
 
-    GDELT limite le débit sans l'annoncer et répond alors par un code 429.
-    Deux requêtes consécutives suffisent à le déclencher, ce qui ferait
-    perdre un thème entier sur un simple enchaînement. Une attente
-    exponentielle est donc appliquée sur ce seul code : les autres erreurs
-    ne sont pas réessayées, elles ne s'arrangeraient pas en patientant.
+    GDELT limite le débit sans l'annoncer et répond alors par un code 429 ;
+    il lui arrive aussi de ne pas répondre à temps ou de renvoyer une erreur
+    de serveur passagère. Ces trois cas sont réessayés avec une attente
+    exponentielle : ils s'arrangent en patientant. Une erreur client autre
+    qu'un 429 (requête invalide) ne l'est pas — elle ne s'arrangerait pas.
+
+    Auparavant seul le 429 était réessayé : un délai dépassé faisait perdre
+    un dossier géopolitique entier au premier coup, ce qui a été observé en
+    production sur Russie - Ukraine malgré l'espacement des appels.
 
     Un cache disque de courte durée (voir :data:`CACHE_TTL_SECONDES`) évite
     de répéter le même appel plusieurs fois dans la même exécution : la
@@ -406,25 +422,40 @@ def _appel_gdelt(parametres: dict[str, Any], essais: int = 3) -> dict[str, Any] 
         return en_cache
 
     reponse = None
-    for tentative in range(1, max(int(essais), 1) + 1):
+    essais = max(int(essais), 1)
+    for tentative in range(1, essais + 1):
+        attente = ATTENTE_429_SECONDES * (2 ** (tentative - 1))
         try:
             _espacer_appels_gdelt()
-            reponse = requests.get(URL_GDELT, params=parametres, timeout=TIMEOUT, headers=_ENTETES)
-            if reponse.status_code == 429 and tentative < essais:
-                attente = ATTENTE_429_SECONDES * (2 ** (tentative - 1))
+            reponse = requests.get(URL_GDELT, params=parametres, timeout=TIMEOUT_GDELT, headers=_ENTETES)
+        except (requests.Timeout, requests.ConnectionError) as exc:
+            if tentative < essais:
                 _LOG.info(
-                    "GDELT limite le débit (429) : nouvelle tentative dans %.0f s (%d/%d).",
-                    attente,
-                    tentative,
-                    essais,
+                    "GDELT n'a pas répondu à temps (%s) : nouvelle tentative dans %.0f s (%d/%d).",
+                    parametres.get("mode"), attente, tentative, essais,
                 )
                 time.sleep(attente)
                 continue
-            reponse.raise_for_status()
-            break
+            _LOG.warning("GDELT injoignable (%s) après %d tentatives : %s", parametres.get("mode"), essais, exc)
+            return None
         except requests.RequestException as exc:
             _LOG.warning("GDELT injoignable (%s) : %s", parametres.get("mode"), exc)
             return None
+
+        passager = reponse.status_code == 429 or reponse.status_code >= 500
+        if passager and tentative < essais:
+            _LOG.info(
+                "GDELT répond %d : nouvelle tentative dans %.0f s (%d/%d).",
+                reponse.status_code, attente, tentative, essais,
+            )
+            time.sleep(attente)
+            continue
+        try:
+            reponse.raise_for_status()
+        except requests.RequestException as exc:
+            _LOG.warning("GDELT refuse la requête (%s) : %s", parametres.get("mode"), exc)
+            return None
+        break
 
     if reponse is None:
         return None
