@@ -338,6 +338,32 @@ référence, niveau structurel de la variante 2) sont listées dans
 Un script Pine autonome, `pine/liquidite_sweep.pine`, dessine les niveaux
 actifs du timeframe affiché et marque les sweeps confirmés.
 
+**Deux mesures à connaître avant d'utiliser ce setup** (août-septembre 2026,
+27 jours — beaucoup trop court pour conclure, voir l'avertissement ci-dessous) :
+
+* **la sensibilité du pivot pilote le signe du résultat**, de façon monotone
+  sur toute la plage testée : k = 2 donne +226 € (S1), k = 3 +58 €, k = 4
+  −148 €, k = 5 −450 €. Le R moyen par trade suit la même pente (+0,04 à
+  −0,19). Mais **85 à 88 % des niveaux finissent balayés quelle que soit la
+  sensibilité**, avec une durée de vie médiane de sept à neuf heures : la
+  détection ne sélectionne donc pas des réservoirs de liquidité rares, elle
+  décrit surtout le retour du prix sur ses extrêmes récents. Un pivot à deux
+  bougies en M15 est l'extrême d'une fenêtre de 75 minutes : la prémisse
+  « des positions s'y sont créées, donc des stops s'y accumulent » y est
+  faible. Un paramètre dont l'optimum est au bord de la plage testée, sur un
+  mois, est un signal d'alerte, pas un réglage ;
+* **les deux setups se gênent, et c'est l'order block qui paie.** Sur la même
+  période, l'order block seul fait 44 trades et +152 € ; joué avec le sweep,
+  il tombe à 36 trades et −152 €, parce que 22 touches de zone surviennent
+  pendant qu'une position sweep occupe la place (et 64 sweeps sont bloqués
+  par une position order block, l'inverse). La règle de priorité à l'essai
+  (`priorite_ob`, `proximite_ob_usd`) refuse un sweep quand un order block
+  actif de même sens est proche : à 10 $, elle rend à l'order block ses
+  trades et son résultat (+121 à +227 € selon la variante), mais dégrade
+  d'autant le sweep — elle déplace le problème, elle ne l'annule pas. La
+  seule façon de le supprimer serait d'autoriser une position par setup,
+  ce qui est une décision de stratégie, pas un correctif.
+
 ### Site web de suivi (GitHub Pages)
 
 Interface publique de lecture, en HTML/CSS/JS purs, sans framework ni étape

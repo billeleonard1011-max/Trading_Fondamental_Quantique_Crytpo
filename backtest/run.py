@@ -76,7 +76,12 @@ VARIANTES_SWEEP: Final[tuple[tuple[str, str, float, bool], ...]] = (
 
 #: Unités d'ancrage du Fibonacci et sensibilités de pivot comparées.
 UNITES_FIBO: Final[tuple[str, ...]] = ("M15", "M30", "H1")
-SENSIBILITES_PIVOT: Final[tuple[int, ...]] = (3, 4, 5)
+#: 2 inclus depuis la mesure du 11 septembre 2026 : la tendance observée sur
+#: 3, 4 et 5 (plus le pivot est fin, meilleur le résultat) se prolonge à 2,
+#: ce qui est précisément le signe qu'il faut la surveiller sur plus d'un
+#: mois avant d'y voir un edge — voir la note de README sur le sens
+#: structurel d'un pivot à deux bougies.
+SENSIBILITES_PIVOT: Final[tuple[int, ...]] = (2, 3, 4, 5)
 
 __all__ = [
     "metriques", "repartir", "executer_variantes", "executer_variantes_sweep",
@@ -265,6 +270,7 @@ def _bloc_resultats(backtest: moteur.Backtest, n_tirages: int) -> dict[str, Any]
         "n_abandons_total": sum(backtest.abandons.values()),
         "n_sweeps_confirmes": backtest.sweeps_confirmes,
         "n_niveaux_detectes": len(backtest.niveaux),
+        "interferences": dict(backtest.interferences),
         "touches_simultanees": backtest.touches_simultanees,
         "propfirm": (
             propfirm.monte_carlo(gains, n_tirages=n_tirages)

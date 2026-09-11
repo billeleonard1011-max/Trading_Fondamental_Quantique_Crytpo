@@ -335,3 +335,32 @@ def test_le_setup_ob_seul_est_strictement_inchange() -> None:
     ancien = moteur.Backtest(m1, taux, moteur.ConfigBacktest(mode_tp="ratio", ratio_tp=2.0)); ancien.executer()
     assert all(t.setup == moteur.SETUP_ORDER_BLOCK for t in ancien.trades)
     assert not ancien.niveaux, "aucun niveau n'est calculé quand le sweep n'est pas joué"
+
+
+# ---------------------------------------------------------------------------
+# 7. Interférence entre setups et règle de priorité (à l'essai)
+# ---------------------------------------------------------------------------
+def test_les_interferences_sont_comptees_quand_les_deux_setups_coexistent() -> None:
+    m1 = _serie_m1(12000)
+    taux = _taux_eurusd(m1)
+    bt = moteur.Backtest(m1, taux, _config(setups=(moteur.SETUP_ORDER_BLOCK, moteur.SETUP_SWEEP), mode_tp="ratio", ratio_tp=2.0))
+    bt.executer()
+    assert bt.interferences["sweep_refuse_priorite_ob"] == 0, "la règle est désactivée par défaut"
+    total = sum(bt.interferences.values())
+    assert total > 0, "deux setups sur la même position doivent se gêner au moins une fois"
+
+
+def test_la_priorite_ob_refuse_des_sweeps_et_ne_change_rien_au_setup_ob_seul() -> None:
+    m1 = _serie_m1(12000)
+    taux = _taux_eurusd(m1)
+    sans = moteur.Backtest(m1, taux, _config(setups=(moteur.SETUP_ORDER_BLOCK, moteur.SETUP_SWEEP), mode_tp="ratio", ratio_tp=2.0)); sans.executer()
+    avec = moteur.Backtest(m1, taux, _config(setups=(moteur.SETUP_ORDER_BLOCK, moteur.SETUP_SWEEP), mode_tp="ratio", ratio_tp=2.0,
+                                             priorite_ob=True, proximite_ob_usd=50.0)); avec.executer()
+    assert avec.interferences["sweep_refuse_priorite_ob"] > 0
+    n_sweep_avec = sum(1 for t in avec.trades if t.setup == moteur.SETUP_SWEEP)
+    n_sweep_sans = sum(1 for t in sans.trades if t.setup == moteur.SETUP_SWEEP)
+    assert n_sweep_avec < n_sweep_sans
+    # Sweep seul : la règle ne s'applique jamais (aucun OB joué... mais les OB existent) — elle
+    # doit rester sans effet sur un backtest OB seul, qui n'ouvre aucun sweep.
+    ob = moteur.Backtest(m1, taux, moteur.ConfigBacktest(mode_tp="ratio", ratio_tp=2.0, priorite_ob=True)); ob.executer()
+    assert ob.interferences["sweep_refuse_priorite_ob"] == 0

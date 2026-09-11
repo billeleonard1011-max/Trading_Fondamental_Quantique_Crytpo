@@ -183,6 +183,12 @@ class ConfigBacktest:
     fraction_fibo: float = FRACTION_FIBO_DEFAUT
     break_even_sweep: bool = True
     max_niveaux_par_unite: int = MAX_NIVEAUX_PAR_UNITE
+    #: Règle de priorité à l'essai : refuser un sweep si un order block actif
+    #: (connu, non mitigé), de même sens, est proche du prix de confirmation
+    #: — l'OB prime, le sweep ne doit pas occuper la position à sa place.
+    #: Désactivée par défaut : elle se mesure avant de se retenir.
+    priorite_ob: bool = False
+    proximite_ob_usd: float = 5.0
 
 
 @dataclass(slots=True)
@@ -436,6 +442,17 @@ class Backtest:
         #: Sweeps confirmés, y compris ceux survenus pendant une position
         #: ouverte (le niveau est consommé, aucun setup n'est ouvert).
         self.sweeps_confirmes: int = 0
+        #: Interférence entre setups : déclencheurs survenus pendant une
+        #: position ouverte de l'autre setup (zone touchée sans setup, sweep
+        #: confirmé sans setup), et setups perdus par le « break » quand
+        #: l'autre setup a confirmé le premier dans la même minute.
+        self.interferences: dict[str, int] = {
+            "ob_touche_pendant_position_sweep": 0,
+            "sweep_confirme_pendant_position_ob": 0,
+            "ob_perdu_par_confirmation_sweep": 0,
+            "sweep_perdu_par_confirmation_ob": 0,
+            "sweep_refuse_priorite_ob": 0,
+        }
 
     # -- Outils ------------------------------------------------------------
     def _taux(self, moment: pd.Timestamp) -> float | None:
@@ -642,6 +659,8 @@ class Backtest:
                     if zone.contient(haut[i], bas[i]):
                         zone.mitige = True
                         zone.horodatage_mitigation = fin_barre
+                        if joue_ob and position.setup == SETUP_SWEEP:
+                            self.interferences["ob_touche_pendant_position_sweep"] += 1
                         continue
                     restantes.append(zone)
                 zones_actives = restantes
@@ -666,10 +685,15 @@ class Backtest:
                             if ict.confirmer_balayage(niveau, cloture_unite, instant_cloture):
                                 self.sweeps_confirmes += 1
                                 if position is None:
+                                    if self._ob_prioritaire(niveau, cloture_unite, zones_actives):
+                                        self.interferences["sweep_refuse_priorite_ob"] += 1
+                                        continue
                                     nouvelles.append(_Setup(
                                         origine=SETUP_SWEEP, sens=niveau.sens_trade,
                                         debut=niveau.debut_sweep, niveau=niveau,
                                     ))
+                                elif position.setup == SETUP_ORDER_BLOCK:
+                                    self.interferences["sweep_confirme_pendant_position_ob"] += 1
                         ptr += 1
                     pointeurs_clotures[unite] = ptr
                 niveaux_actifs = [n for n in niveaux_actifs if not n.balaye]
@@ -709,6 +733,14 @@ class Backtest:
                         continue
 
                     position, stop_courant, objectif_courant, risque_eur = resultat
+                    # Les setups pas encore visités sont perdus (voir la note
+                    # de portage dans worker-scanner/src/moteur.js) : on
+                    # compte ceux que l'autre setup vient d'évincer.
+                    for perdu in setups[setups.index(setup) + 1:]:
+                        if perdu.origine != position.setup:
+                            cle = ("ob_perdu_par_confirmation_sweep" if perdu.origine == SETUP_ORDER_BLOCK
+                                   else "sweep_perdu_par_confirmation_ob")
+                            self.interferences[cle] += 1
                     break
                 setups = encore
 
@@ -1053,6 +1085,35 @@ class Backtest:
             break_even_actif=self.config.break_even_sweep,
         )
         return trade, stop, objectif, float(taille["perte_eur"])
+
+    def _ob_prioritaire(
+        self, niveau: ict.NiveauLiquidite, prix: float, zones_actives: list[ict.OrderBlock]
+    ) -> bool:
+        """Dit si un order block actif prime sur ce sweep (règle à l'essai).
+
+        Un order block connu, non mitigé, de même sens que le trade du sweep,
+        dont la borne la plus proche est à moins de ``proximite_ob_usd`` du
+        prix de confirmation : l'OB est la zone que le prix vient chercher,
+        le sweep ne doit pas occuper la position à sa place.
+
+        Args:
+            niveau: niveau dont le sweep vient d'être confirmé.
+            prix: clôture de confirmation.
+            zones_actives: order blocks actifs à cet instant.
+
+        Returns:
+            ``True`` si le sweep doit être refusé.
+        """
+        if not self.config.priorite_ob:
+            return False
+        sens = niveau.sens_trade
+        for zone in zones_actives:
+            if zone.mitige or zone.sens != sens:
+                continue
+            distance = min(abs(prix - zone.haut), abs(prix - zone.bas))
+            if zone.contient(prix, prix) or distance <= self.config.proximite_ob_usd:
+                return True
+        return False
 
     def _reference_fibo(
         self, niveau: ict.NiveauLiquidite, achat: bool, instant: pd.Timestamp
