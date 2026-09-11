@@ -1,5 +1,50 @@
 [
   {
+    "id": "616eb37851dd7c4f",
+    "categorie": "quantique",
+    "titre_affiche": "Infleqtion and Cisco Partner to Advance Distributed Neutral-Atom Quantum Networking Architectures",
+    "horodatage_utc": "2026-09-11T03:25:34+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/infleqtion-and-cisco-partner-to-advance-distributed-neutral-atom-quantum-networking-architectures/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Infleqtion"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "00af3d945af98629",
+    "categorie": "quantique",
+    "titre_affiche": "Xanadu and AMD Launch Open-Source Backline Extension for PennyLane",
+    "horodatage_utc": "2026-09-10T20:01:36+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/xanadu-and-amd-launch-open-source-backline-extension-for-pennylane/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Xanadu. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Xanadu"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5f9be92993effb19",
+    "categorie": "quantique",
+    "titre_affiche": "IBM Ventures Leads $8 Million Investment in BQP to Scale Quantum-Accelerated Physics Simulation",
+    "horodatage_utc": "2026-09-10T19:26:20+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ibm-ventures-leads-8-million-investment-in-bqp-to-scale-quantum-accelerated-physics-simulation/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "d19f8481be93f87d",
     "categorie": "quantique",
     "titre_affiche": "Infleqtion and Cisco Collaborate on Quantum Networking Research",
