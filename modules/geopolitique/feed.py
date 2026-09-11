@@ -11,7 +11,8 @@ Deux décisions, deux vocabulaires
 l'univers suivi, qu'il s'agisse d'un actif détenu (or, quantique, crypto),
 d'un canal de transmission connu vers ces actifs (pétrole, dollar, taux,
 inflation, banques centrales, actions et technologie, semi-conducteurs,
-matières premières, banques et crédit, croissance) ou de la géopolitique au
+matières premières, banques et crédit, croissance, cyberattaques,
+catastrophes naturelles, transition énergétique) ou de la géopolitique au
 sens large (conflits, sanctions, accords, élections, tensions commerciales).
 
 **Rattachement** — les dossiers de ``config/geopolitique_dossiers.yaml`` et

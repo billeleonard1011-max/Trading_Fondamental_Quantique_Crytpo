@@ -113,6 +113,10 @@ def test_les_canaux_dinfluence_sont_reconnus() -> None:
         "Copper output falls after a mine strike": "Matières premières",
         "Credit spreads widen amid banking stress": "Banques, crédit et appétit pour le risque",
         "Recession fears grow as payrolls disappoint": "Croissance et emploi",
+        "Ransomware shuts down a major pipeline operator":
+            "Cyberattaques sur infrastructures et plateformes",
+        "Hurricane forces Gulf of Mexico output cuts": "Catastrophes naturelles",
+        "New rules agreed for electric vehicle batteries": "Transition énergétique",
     }
     for titre, attendu in cas.items():
         verdict = admission.evaluer(titre, univers=univers)
@@ -144,6 +148,55 @@ def test_hors_univers_rien_nentre() -> None:
         "New museum opens with a retrospective on impressionist painting",
     ):
         assert admission.evaluer(titre, univers=univers) is None, titre
+
+
+def test_les_termes_ajoutes_ne_volent_rien_aux_domaines_voisins() -> None:
+    """Chaque collision trouvée à l'ajout des trois derniers domaines.
+
+    Trois pièges, tous mesurés avant d'être écartés : « freeze » aurait fait
+    passer « asset freeze » des sanctions aux catastrophes naturelles ; « SWIFT »
+    en sigle se déclenche sur l'adjectif anglais ; « hack » ancré au début d'un
+    mot attrape « hackathon ». Les trois vocabulaires ont été écrits en
+    conséquence, et ce test empêche qu'on les rouvre sans y repenser.
+    """
+    univers = _univers()
+
+    sanctions = admission.evaluer("Asset freeze targets the shadow fleet", univers=univers)
+    assert sanctions is not None
+    assert "Catastrophes naturelles" not in sanctions.libelles
+
+    assert admission.evaluer("A swift response from regulators", univers=univers) is None
+    assert admission.evaluer("Hackathon draws hundreds of students", univers=univers) is None
+
+    for titre in ("Exchange hacked for 50 million", "Hackers target a grid operator"):
+        verdict = admission.evaluer(titre, univers=univers)
+        assert verdict is not None, titre
+        assert "Cyberattaques sur infrastructures et plateformes" in verdict.libelles
+
+
+def test_le_nucleaire_iranien_nest_pas_de_la_transition_energetique() -> None:
+    """« nuclear » nu est absent du vocabulaire, et c'est voulu.
+
+    Il est déjà le mot-clé du dossier Iran - États-Unis. L'admettre comme
+    énergie propre rangerait le programme iranien parmi les renouvelables.
+    L'article entre quand même, par l'union avec les mots-clés du dossier.
+    """
+    verdict = admission.evaluer("Iran nuclear talks resume in Geneva", univers=_univers())
+    assert verdict is None or "Transition énergétique" not in verdict.libelles
+
+
+def test_une_catastrophe_non_sismique_nest_rattachee_a_aucun_dossier() -> None:
+    """Le rattachement géographique reste réservé aux séismes, faute de sévérité.
+
+    Une magnitude est une mesure comparable qui autorise un seuil ; un titre
+    d'inondation n'en porte aucune. Router « Wildfires force evacuation in
+    Chile » vers les matières premières sur la seule foi du pays serait une
+    attribution inventée. L'article est admis, il n'est pas attribué.
+    """
+    verdict = admission.evaluer("Wildfires force evacuation in Chile", univers=_univers())
+    assert verdict is not None
+    assert "Catastrophes naturelles" in verdict.libelles
+    assert "matieres_premieres" not in verdict.dossiers
 
 
 # ---------------------------------------------------------------------------

@@ -34,7 +34,8 @@
 #   influence     il nomme un canal de transmission connu vers ces actifs :
 #                 pétrole, dollar, taux, inflation, banques centrales, actions
 #                 et technologie, semi-conducteurs, matières premières, banques
-#                 et crédit, croissance et emploi.
+#                 et crédit, croissance et emploi, cyberattaques, catastrophes
+#                 naturelles, transition énergétique.
 #   contexte      il relève de la géopolitique au sens large — conflits,
 #                 sanctions, accords, élections, tensions commerciales — sans
 #                 nommer d'actif ni de canal. Admis, rangé en dernier.
@@ -453,6 +454,121 @@ domaines:
       - "industrial production"
       - "consumer confidence"
       - "confiance des consommateurs"
+
+  - id: cyberattaques
+    libelle: "Cyberattaques sur infrastructures et plateformes"
+    portee: influence
+    termes:
+      - "cyberattaque"
+      - "cyberattack"
+      - "cyber attack"
+      - "cybersécurité"
+      - "cybersecurity"
+      - "ransomware"
+      - "rançongiciel"
+      - "piratage"
+      # Les formes conjuguées, et non « hack » nu : ancré au début d'un mot,
+      # il rangeait « Hackathon draws hundreds of students » parmi les
+      # cyberattaques. Mesuré avant d'écrire cette ligne.
+      - "hacked"
+      - "hacking"
+      - "hacker"
+      - "data breach"
+      - "security breach"
+      - "fuite de données"
+      - "malware"
+      - "logiciel malveillant"
+      - "infrastructure critique"
+      - "critical infrastructure"
+      - "DDoS"
+      - "CISA"
+      - "panne informatique"
+      - "outage"
+      - "crypto theft"
+      - "vol de cryptomonnaies"
+      - "bridge exploit"
+      - "protocol exploit"
+
+  # Catastrophes naturelles autres que les séismes.
+  #
+  # Ce domaine ADMET, il ne rattache pas, et c'est délibéré. Le séisme est le
+  # seul cas où un titre porte une sévérité calibrée et comparable — la
+  # magnitude — qui autorise à conclure qu'un lieu nommé est une production
+  # menacée. Un titre d'ouragan ou d'inondation ne donne rien de tel, et
+  # router « Inondations au Chili » vers le dossier matières premières sur la
+  # seule foi du pays serait une attribution inventée. Quand la rupture
+  # d'offre est réelle, l'article la nomme (« oil output », « mine closure »)
+  # et le domaine matieres_premieres la rattache de lui-même.
+  - id: catastrophes_naturelles
+    libelle: "Catastrophes naturelles"
+    portee: influence
+    termes:
+      - "ouragan"
+      - "hurricane"
+      - "typhon"
+      - "typhoon"
+      - "cyclone"
+      - "tornade"
+      - "tornado"
+      - "inondation"
+      - "flooding"
+      - "flood"
+      - "sécheresse"
+      - "drought"
+      - "incendie"
+      - "wildfire"
+      - "feu de forêt"
+      - "éruption volcanique"
+      - "volcanic eruption"
+      - "volcano"
+      - "tsunami"
+      - "tempête"
+      - "storm"
+      - "vague de chaleur"
+      - "heatwave"
+      - "catastrophe naturelle"
+      - "natural disaster"
+      - "état d'urgence"
+      - "state of emergency"
+      - "évacuation"
+      - "evacuation"
+
+  # Transition énergétique : elle tire la demande de cuivre, de lithium et de
+  # nickel, et pèse sur le prix de l'énergie. Le terme « nucléaire » nu est
+  # volontairement absent : il est déjà le mot-clé du dossier Iran -
+  # États-Unis, et l'admettre ici rangerait le programme iranien parmi les
+  # énergies propres.
+  - id: transition_energetique
+    libelle: "Transition énergétique"
+    portee: influence
+    termes:
+      - "transition énergétique"
+      - "energy transition"
+      - "véhicule électrique"
+      - "electric vehicle"
+      - "batterie"
+      - "battery"
+      - "éolien"
+      - "wind power"
+      - "solaire"
+      - "solar power"
+      - "photovoltaïque"
+      - "photovoltaic"
+      - "hydrogène"
+      - "hydrogen"
+      - "nuclear power"
+      - "nuclear reactor"
+      - "centrale nucléaire"
+      - "décarbonation"
+      - "decarbonization"
+      - "net zero"
+      - "neutralité carbone"
+      - "marché carbone"
+      - "carbon price"
+      - "énergies renouvelables"
+      - "renewable energy"
+      - "grid storage"
+      - "stockage d'électricité"
 
   # --- Géopolitique au sens large -----------------------------------------
   - id: conflits

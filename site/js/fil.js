@@ -35,8 +35,9 @@ export function rendreVide(categorie) {
     return `<p class="fil-vide">Aucune actualité géopolitique ou de marché retenue sur la période. Le fil garde les
       articles qui touchent l'univers suivi : les actifs détenus (or, quantique, crypto),
       ce qui les influence (pétrole, dollar, taux, inflation, banques centrales, actions et
-      technologie, semi-conducteurs, matières premières, banques et crédit) et la géopolitique
-      au sens large (conflits, sanctions, accords, élections, tensions commerciales).</p>`;
+      technologie, semi-conducteurs, matières premières, banques et crédit, cyberattaques,
+      catastrophes naturelles, transition énergétique) et la géopolitique au sens large
+      (conflits, sanctions, accords, élections, tensions commerciales).</p>`;
   }
   return `<p class="fil-vide">Aucune actualité disponible.</p>`;
 }
