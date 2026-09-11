@@ -11,10 +11,30 @@
 # volontairement. Aucun contenu payant n'est récupéré : un flux ne donne que
 # le titre et le chapeau, jamais l'article complet.
 #
+# ATTENTION — « public » ne veut pas dire « libre d'usage automatisé ».
+# Vérification du 11 septembre 2026 : plusieurs éditeurs interdisent
+# explicitement la collecte automatisée de leurs flux, y compris quand ceux-ci
+# sont ouverts. Ont été écartés pour ce motif : FinancialJuice, OilPrice,
+# Bloomberg, South China Morning Post et Seeking Alpha. Les conditions de Dow
+# Jones (WSJ, MarketWatch) nomment même le cas de ce projet — voir la note
+# devant ces trois flux. Avant d'ajouter une source, lire ses conditions.
+#
 # Vérifier l'état des flux : python -m scripts.check_feeds
 
 feeds:
   # --- Presse financière de référence ---------------------------------------
+  #
+  # RÉSERVE À TRANCHER — les trois flux servis par feeds.content.dowjones.io
+  # (WSJ Markets, WSJ World News, MarketWatch Top Stories) relèvent des
+  # conditions de Dow Jones, qui visent nommément cet usage :
+  #   « you may not access or use the Content, including without limitation,
+  #     any Content made available through one of our RSS feeds, in any
+  #     commercial product or service, without our express written consent »
+  #   « you may not use articles […] to develop or operate an automated
+  #     trading system, or for text or data mining »
+  # C'est le même motif qui a fait écarter FinancialJuice et ACLED. Ces flux
+  # sont antérieurs à cette vérification et sont laissés en place en
+  # attendant l'arbitrage de l'utilisateur, pas parce qu'ils l'auraient passée.
   - name: "WSJ Markets"
     url: "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain"
     tags: [marches, macro, actions]
@@ -58,6 +78,15 @@ feeds:
     tags: [banque_centrale, macro, taux, or]
     weight: 1.0
 
+  # Discours et auditions : la Fed publie ses interventions dans un flux
+  # distinct de ses communiqués. Même source, même statut — œuvre du
+  # gouvernement fédéral américain, domaine public. Alimente le dossier
+  # « politique monétaire », dont c'est la matière première.
+  - name: "Federal Reserve - discours et auditions"
+    url: "https://www.federalreserve.gov/feeds/speeches.xml"
+    tags: [macro, banque_centrale, geopolitique]
+    weight: 1.0
+
   - name: "BCE - communiques"
     url: "https://www.ecb.europa.eu/rss/press.html"
     tags: [banque_centrale, macro, taux]
@@ -94,6 +123,34 @@ feeds:
   # contrats, politiques publiques. Complète Phys.org, qui ne couvre que la
   # recherche académique et ne cite donc presque jamais de société cotée —
   # c'est ce qui laissait le fil quantique sans matière.
+  # --- Aléas physiques à effet sur les matières premières --------------------
+  #
+  # Séismes de magnitude 4,5 et plus, flux Atom mis à jour en continu.
+  # L'intention : un séisme majeur dans une région minière ou pétrolière
+  # déplace l'offre avant toute couverture de presse.
+  #
+  # Statut juridique : « USGS-authored or produced data and information are
+  # considered to be in the U.S. Public Domain » (page Copyrights and
+  # Credits). Aucune restriction d'usage automatisé — c'est la source la plus
+  # clairement libre de toute la liste.
+  #
+  # MESURÉ LE 11 SEPTEMBRE 2026 : ce flux ne produit aujourd'hui aucun item
+  # retenu. Ses titres ont la forme « M 4.7 - 66 km WSW of Zhaotong, China » ;
+  # le filtre de pertinence compare aux mots-clés des dossiers, qui sont des
+  # noms d'acteurs et de thèmes, jamais des régions productrices. Le flux est
+  # donc collecté et intégralement écarté.
+  #
+  # Le rendre utile demande une dimension géographique que le projet n'a pas :
+  # un dossier « aléas physiques sur les matières premières » listant les
+  # régions minières et pétrolières (Chili et Pérou pour le cuivre, Golfe
+  # persique et golfe du Mexique pour le pétrole, Afrique du Sud et Nevada
+  # pour l'or). Laissé en place parce qu'il ne coûte rien et ne pollue pas —
+  # mais il ne rapporte rien non plus tant que ce dossier n'existe pas.
+  - name: "USGS - seismes 4.5 et plus"
+    url: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.atom"
+    tags: [or, energie, geopolitique]
+    weight: 1.0
+
   - name: "The Quantum Insider"
     url: "https://thequantuminsider.com/feed/"
     tags: [quantique, industrie]
