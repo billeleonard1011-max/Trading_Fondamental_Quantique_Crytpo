@@ -84,6 +84,38 @@ dossiers:
     mots_cles: ["tariffs", "trade war", "droits de douane", "trade deal", "import duties",
                 "trade restrictions", "WTO dispute"]
 
+  - id: matieres_premieres
+    nom_affiche: "Matières premières (précieux, cuivre, pétrole)"
+    type: thematique
+    # Canal pétrole : la chaîne mesurée est événement → brut → inflation
+    # anticipée → taux réels → or (modules/gold/geopolitics.py::CANAUX). C'est
+    # bien celle d'un choc d'offre sur une matière première, le pétrole en
+    # étant la jambe la plus liquide et la seule que FRED publie au quotidien.
+    canal: petrole
+    epingle: true
+    # Ces mots-clés servent à deux choses, et à deux choses seulement : la
+    # requête GDELT DOC qui mesure l'intensité de couverture du dossier, et le
+    # rattachement d'un article qui les cite. Ils ne décident PLUS de l'entrée
+    # d'un article dans le fil — c'est config/univers_admission.yaml qui s'en
+    # charge, sur un vocabulaire bien plus large.
+    mots_cles: ["copper price", "copper mine", "copper output", "cours du cuivre",
+                "precious metals", "métaux précieux", "gold mining", "gold miner",
+                "mine strike", "grève minière", "mining output", "mine closure",
+                "commodity prices", "prix des matières premières",
+                "rare earths", "terres rares", "lithium supply",
+                "OPEC output", "oil production cut"]
+    # Dimension géographique du dossier — les régions productrices.
+    #
+    # Elle ne tient pas dans `mots_cles` : « Chili » y ferait entrer toute
+    # l'actualité chilienne, élections comprises. Elle vit donc dans
+    # config/univers_admission.yaml, aux domaines regions_precieux,
+    # regions_cuivre et regions_petrole, où un nom de pays n'admet un article
+    # que s'il porte aussi une magnitude sismique suffisante — et où ces trois
+    # domaines renvoient ici par leur champ `dossier`.
+    #
+    # C'est ce qui rend le flux USGS exploitable : le titre d'un séisme ne
+    # nomme qu'un lieu et une magnitude, jamais le cuivre qu'on y extrait.
+
 # Découverte automatique de sujets (modules/geopolitique/sujets.py).
 decouverte:
   heures_events: 24            # exports GDELT Events agrégés (un par quart d'heure)

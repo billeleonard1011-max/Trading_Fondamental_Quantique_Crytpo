@@ -15,45 +15,18 @@
 # Vérification du 11 septembre 2026 : plusieurs éditeurs interdisent
 # explicitement la collecte automatisée de leurs flux, y compris quand ceux-ci
 # sont ouverts. Ont été écartés pour ce motif : FinancialJuice, OilPrice,
-# Bloomberg, South China Morning Post et Seeking Alpha. Les conditions de Dow
-# Jones (WSJ, MarketWatch) nomment même le cas de ce projet — voir la note
-# devant ces trois flux. Avant d'ajouter une source, lire ses conditions.
+# Bloomberg, South China Morning Post, Seeking Alpha et Dow Jones (WSJ Markets,
+# WSJ World News, MarketWatch) — voir la note en fin de fichier.
+# Avant d'ajouter une source, lire ses conditions.
 #
 # Vérifier l'état des flux : python -m scripts.check_feeds
 
 feeds:
   # --- Presse financière de référence ---------------------------------------
-  #
-  # RÉSERVE À TRANCHER — les trois flux servis par feeds.content.dowjones.io
-  # (WSJ Markets, WSJ World News, MarketWatch Top Stories) relèvent des
-  # conditions de Dow Jones, qui visent nommément cet usage :
-  #   « you may not access or use the Content, including without limitation,
-  #     any Content made available through one of our RSS feeds, in any
-  #     commercial product or service, without our express written consent »
-  #   « you may not use articles […] to develop or operate an automated
-  #     trading system, or for text or data mining »
-  # C'est le même motif qui a fait écarter FinancialJuice et ACLED. Ces flux
-  # sont antérieurs à cette vérification et sont laissés en place en
-  # attendant l'arbitrage de l'utilisateur, pas parce qu'ils l'auraient passée.
-  - name: "WSJ Markets"
-    url: "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain"
-    tags: [marches, macro, actions]
-    weight: 0.9
-
-  - name: "WSJ World News"
-    url: "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
-    tags: [geopolitique, macro]
-    weight: 0.9
-
   - name: "Financial Times"
     url: "https://www.ft.com/rss/home"
     tags: [marches, macro, geopolitique]
     weight: 0.9
-
-  - name: "MarketWatch Top Stories"
-    url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"
-    tags: [marches, actions]
-    weight: 0.6
 
   - name: "Yahoo Finance"
     url: "https://finance.yahoo.com/news/rssindex"
@@ -185,3 +158,28 @@ gdelt_queries:
   - name: "Risque geopolitique or"
     query: '("central bank gold" OR "gold reserves" OR "safe haven demand" OR "de-dollarization")'
     tags: [or, geopolitique, banque_centrale]
+
+# ---------------------------------------------------------------------------
+# Sources retirées, et pourquoi — à ne pas rajouter sans nouvelle vérification
+# ---------------------------------------------------------------------------
+#
+# Dow Jones — WSJ Markets, WSJ World News, MarketWatch Top Stories
+# (feeds.content.dowjones.io), retirés le 11 septembre 2026.
+#
+# Leurs conditions d'utilisation nomment précisément ce que fait ce projet :
+#   « you may not access or use the Content, including without limitation,
+#     any Content made available through one of our RSS feeds, in any
+#     commercial product or service, without our express written consent »
+#   « you may not use articles […] to develop or operate an automated
+#     trading system, or for text or data mining »
+#
+# C'est le motif qui avait déjà fait écarter FinancialJuice et ACLED. Les
+# garder tout en refusant d'autres sources pour la même clause aurait été un
+# deux poids deux mesures.
+#
+# Ce que le retrait coûte, mesuré sur une collecte réelle de 24 h le
+# 11 septembre 2026 : 49 articles bruts sur 172, et 10 items pertinents sur 23
+# — pétrole et Moyen-Orient, politique monétaire, Russie-Ukraine. C'est une
+# perte réelle, assumée, et compensée en partie par l'élargissement de
+# l'admission (config/univers_admission.yaml), qui fait entrer depuis les flux
+# restants des articles jusque-là écartés.

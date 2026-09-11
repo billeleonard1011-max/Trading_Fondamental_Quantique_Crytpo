@@ -71,8 +71,17 @@ CLES_ITEM: Final[tuple[str, ...]] = (
     "a_une_analyse_interne",
     "analyse_interne",
     "tickers_ou_themes_lies",
+    #: Distance de l'item aux actifs suivis, au même contrat que les autres
+    #: fils (voir modules/geopolitique/admission.py). Ce fil n'admet un article
+    #: que s'il nomme une valeur de la liste suivie : sa portée est donc
+    #: toujours directe, et le champ existe pour que les trois fils restent
+    #: lisibles de la même façon par le site.
+    "portee",
     "nouveaute",
 )
+
+#: Portée de tout item de ce fil : il n'entre que s'il nomme une valeur suivie.
+PORTEE_ITEM: Final[str] = "actif_direct"
 
 #: Nombre d'items conservés dans le fil courant.
 MAX_ITEMS_FIL: Final[int] = 120
@@ -512,6 +521,7 @@ def construire_fil(
                 "a_une_analyse_interne": analyse is not None,
                 "analyse_interne": analyse,
                 "tickers_ou_themes_lies": entites,
+                "portee": PORTEE_ITEM,
                 "nouveaute": nouveaute,
             }
         )

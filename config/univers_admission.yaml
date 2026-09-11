@@ -1,0 +1,707 @@
+# Vocabulaire d'ADMISSION des fils d'actualité — « est-ce que ça touche mon
+# univers ? », et rien d'autre.
+#
+# Pourquoi ce fichier existe séparément des dossiers
+# --------------------------------------------------
+# Jusqu'ici, les mots-clés de config/geopolitique_dossiers.yaml jouaient deux
+# rôles à la fois : décider si un article *entre* dans le fil, et décider dans
+# quel *onglet* le ranger. Les deux questions n'ont pourtant pas la même
+# réponse. « Dans quel dossier ranger cet article ? » doit être exigeant — un
+# dossier nommé n'a de sens que si ce qu'il contient lui correspond vraiment.
+# « Cet article me concerne-t-il ? » doit être large — ce qui m'intéresse
+# dépasse de loin les sept dossiers nommés.
+#
+# Confondre les deux revient à jeter tout ce qui compte sans rentrer dans une
+# case. Le cas mesuré : un séisme de magnitude 6 sous une région productrice de
+# cuivre était collecté par le flux USGS, puis intégralement écarté, parce que
+# son titre (« M 6.1 - 40 km W of Calama, Chile ») ne contient aucun mot-clé de
+# dossier. L'information n'était pas jugée peu importante : elle n'était pas
+# jugée du tout.
+#
+# Ce fichier ne porte donc QUE l'admission. Le rattachement reste aux dossiers
+# (config/geopolitique_dossiers.yaml). Un article admis qui ne correspond à
+# aucun dossier va dans « Autres », qui devient la destination normale de tout
+# ce qui compte sans rentrer dans une case nommée, et non plus une exception.
+#
+# Le garde-fou contre le bruit n'est pas l'admission mais le CLASSEMENT
+# ---------------------------------------------------------------------
+# Chaque domaine déclare sa « portée » : à quelle distance il se trouve des
+# actifs réellement suivis. Un article admis sans lien mesurable avec l'un
+# d'eux est rangé plus bas, jamais écarté.
+#
+#   actif_direct  l'article nomme un actif détenu ou suivi directement :
+#                 or et métaux précieux, informatique quantique, crypto-actifs.
+#   influence     il nomme un canal de transmission connu vers ces actifs :
+#                 pétrole, dollar, taux, inflation, banques centrales, actions
+#                 et technologie, semi-conducteurs, matières premières, banques
+#                 et crédit, croissance et emploi.
+#   contexte      il relève de la géopolitique au sens large — conflits,
+#                 sanctions, accords, élections, tensions commerciales — sans
+#                 nommer d'actif ni de canal. Admis, rangé en dernier.
+#
+# Champs d'un domaine
+# -------------------
+#   id            identifiant stable.
+#   libelle       nom affiché ; c'est lui qui paraît dans le fil, donc il doit
+#                 dire au lecteur pourquoi l'article est là.
+#   portee        actif_direct | influence | contexte (voir ci-dessus).
+#   dossier       facultatif : identifiant d'un dossier de
+#                 config/geopolitique_dossiers.yaml auquel rattacher l'article
+#                 admis par ce domaine. C'est le seul point de contact entre
+#                 les deux fichiers, et il va dans ce sens-là uniquement —
+#                 l'admission peut nourrir un dossier, jamais l'inverse.
+#   termes        vocabulaire ancré sur un DÉBUT de mot, comme partout dans le
+#                 projet : « Iran » retrouve « Iranian », jamais « Tirana ».
+#                 Un terme écrit entièrement en majuscules est lu comme un
+#                 sigle et comparé au mot entier — « TIPS » ne doit pas se
+#                 déclencher sur « tips for investors ». Un terme plus court
+#                 que `longueur_min_terme` qui n'est pas un sigle est ignoré :
+#                 c'est le sort de « or », dont les deux lettres se
+#                 retrouveraient dans la conjonction anglaise « or ».
+#   termes_exacts facultatif : termes toujours comparés au mot entier, quelle
+#                 que soit leur longueur. Les noms de pays des régions
+#                 productrices l'exigent — sans lui, « Mali » se déclencherait
+#                 sur « Malibu » — et c'est aussi ce qui permet de rattraper
+#                 l'or en français : « l'or » se normalise en « l or », dont
+#                 l'ancrage au début du mot attraperait « l'ordre ».
+#   exige_seisme  facultatif : true pour n'admettre que si le texte porte aussi
+#                 une magnitude sismique au moins égale au seuil réglé plus
+#                 bas. Réservé aux régions productrices : sans cette condition,
+#                 « Chine » ferait entrer toute l'actualité chinoise dans le
+#                 dossier matières premières.
+#
+# Les deux listes mêlent français et anglais. Les seize flux configurés et
+# GDELT sont aujourd'hui tous anglophones ; les termes français sont gardés
+# pour que l'ajout d'une source francophone n'oblige pas à rouvrir ce fichier.
+
+reglages:
+  longueur_min_terme: 4
+
+  # Magnitude minimale d'un séisme pour qu'un événement localisé soit admis.
+  #
+  # 6.0 n'est pas un arrondi de confort : en dessous, les dégâts sur une mine
+  # ou une infrastructure pétrolière ne sont pratiquement jamais rapportés, et
+  # le flux USGS 4.5+ produit une vingtaine d'entrées par jour dont aucune ne
+  # dit rien d'une production. Au-dessus, l'événement mérite au moins un
+  # regard. Conséquence assumée : la plupart des journées n'en comptent aucun,
+  # et c'est le résultat correct — il ne se passe pas tous les jours quelque
+  # chose sous une région productrice.
+  magnitude_seisme_min: 6.0
+
+domaines:
+  # --- Actifs suivis directement ------------------------------------------
+  - id: or_precieux
+    libelle: "Or et métaux précieux"
+    portee: actif_direct
+    termes:
+      - "or"                      # écarté par longueur_min_terme, gardé pour mémoire
+      - "bullion"
+      - "lingot"
+      - "once d'or"
+      - "XAU"
+      - "métal précieux"
+      - "métaux précieux"
+      - "precious metal"
+      - "argent métal"
+      - "silver price"
+      - "silver market"
+      - "platine"
+      - "platinum"
+      - "palladium"
+      - "mine d'or"
+      - "mines d'or"
+      - "gold mine"
+      - "gold miner"
+      - "gold mining"
+      - "Newmont"
+      - "Barrick"
+      - "réserves d'or"
+      - "gold reserves"
+      - "central bank gold"
+      - "achats d'or"
+      - "gold demand"
+      - "gold ETF"
+      - "COMEX"
+      - "LBMA"
+    termes_exacts:
+      # « gold » est comparé au mot entier, et non ancré au début d'un mot :
+      # mesuré sur une collecte réelle, l'ancrage rangeait « The Goldman Sachs
+      # deepens AI push » dans les métaux précieux. Rien n'est perdu — la
+      # normalisation coupe les traits d'union et les apostrophes, donc
+      # « gold-backed » et « gold's » se retrouvent encore — et « golden
+      # cross », qui est une figure de graphique et non le métal, cesse de
+      # déclencher.
+      - "gold"
+      # « or » seul est impossible : deux lettres qui sont la conjonction
+      # anglaise la plus courante. Les formes avec article, elles, ne se
+      # confondent avec rien.
+      - "l'or"
+      - "d'or"
+      - "de l'or"
+
+  - id: quantique
+    libelle: "Informatique quantique"
+    portee: actif_direct
+    termes:
+      - "quantique"
+      - "quantum computing"
+      - "quantum computer"
+      - "quantum processor"
+      - "quantum advantage"
+      - "quantum supremacy"
+      - "qubit"
+      - "post-quantum"
+      - "post-quantique"
+      - "IonQ"
+      - "Rigetti"
+      - "D-Wave"
+      - "Quantinuum"
+      - "PsiQuantum"
+
+  - id: crypto
+    libelle: "Crypto-actifs"
+    portee: actif_direct
+    termes:
+      - "bitcoin"
+      - "BTC"
+      - "ethereum"
+      - "cryptomonnaie"
+      - "cryptocurrency"
+      - "crypto-actif"
+      - "crypto asset"
+      - "crypto market"
+      - "crypto exchange"
+      - "stablecoin"
+      - "blockchain"
+      - "halving"
+      - "Coinbase"
+      - "Binance"
+      - "MiCA"
+
+  # --- Canaux de transmission vers ces actifs -----------------------------
+  - id: petrole_energie
+    libelle: "Pétrole et énergie"
+    portee: influence
+    termes:
+      - "pétrole"
+      - "oil price"
+      - "oil supply"
+      - "oil output"
+      - "oil production"
+      - "oil demand"
+      - "oil market"
+      - "oil futures"
+      - "crude"
+      - "brent"
+      - "WTI"
+      - "OPEP"
+      - "OPEC"
+      - "baril"
+      - "barrel"
+      - "raffinerie"
+      - "refinery"
+      - "oléoduc"
+      - "pipeline"
+      - "gaz naturel"
+      - "natural gas"
+      - "LNG"
+      - "GNL"
+      - "energy crisis"
+      - "crise énergétique"
+      - "strategic petroleum reserve"
+      - "réserve stratégique"
+      - "électricité"
+      - "power grid"
+    termes_exacts:
+      - "oil"
+      - "gas"
+
+  - id: dollar_devises
+    libelle: "Dollar et devises"
+    portee: influence
+    termes:
+      - "dollar"
+      - "greenback"
+      - "DXY"
+      - "zone euro"
+      - "euro area"
+      - "eurozone"
+      - "yuan"
+      - "renminbi"
+      - "yen"
+      - "taux de change"
+      - "exchange rate"
+      - "devise"
+      - "currency"
+      - "dédollarisation"
+      - "de-dollarization"
+      - "réserves de change"
+      - "foreign exchange reserves"
+    termes_exacts:
+      - "yen"
+
+  - id: taux_obligations
+    libelle: "Taux et obligations"
+    portee: influence
+    termes:
+      - "taux d'intérêt"
+      - "interest rate"
+      - "rendement"
+      - "yield"
+      - "obligation d'état"
+      - "treasury"
+      - "treasuries"
+      - "bund"
+      - "gilt"
+      - "courbe des taux"
+      - "yield curve"
+      - "taux réel"
+      - "real yield"
+      - "dette souveraine"
+      - "sovereign debt"
+      - "plafond de la dette"
+      - "debt ceiling"
+      - "credit rating"
+      - "notation souveraine"
+
+  - id: inflation_prix
+    libelle: "Inflation et prix"
+    portee: influence
+    termes:
+      - "inflation"
+      - "désinflation"
+      - "disinflation"
+      - "déflation"
+      - "deflation"
+      - "CPI"
+      - "PPI"
+      - "indice des prix"
+      - "consumer price"
+      - "producer price"
+      - "prix à la consommation"
+      - "coût de la vie"
+      - "cost of living"
+      - "inflation expectations"
+      - "anticipations d'inflation"
+      - "wage growth"
+      - "hausse des salaires"
+
+  - id: banques_centrales
+    libelle: "Banques centrales"
+    portee: influence
+    dossier: politique_monetaire
+    termes:
+      - "Federal Reserve"
+      - "FOMC"
+      - "Powell"
+      - "BCE"
+      - "ECB"
+      - "Banque centrale européenne"
+      - "Lagarde"
+      - "Bank of Japan"
+      - "BOJ"
+      - "Bank of England"
+      - "PBOC"
+      - "banque centrale"
+      - "central bank"
+      - "politique monétaire"
+      - "monetary policy"
+      - "rate cut"
+      - "rate hike"
+      - "baisse de taux"
+      - "hausse de taux"
+      - "quantitative easing"
+      - "quantitative tightening"
+      - "assouplissement quantitatif"
+      - "resserrement quantitatif"
+      - "liquidité"
+      - "liquidity"
+    termes_exacts:
+      # « Fed » est indissociable du sujet, et le mot entier ne se confond
+      # qu'avec le participe « fed » — rare dans une dépêche financière, et le
+      # prix d'une telle admission est un rang, pas une place volée.
+      - "Fed"
+
+  - id: actions_tech
+    libelle: "Actions et technologie"
+    portee: influence
+    termes:
+      - "Nasdaq"
+      - "S&P 500"
+      - "Dow Jones"
+      - "indice boursier"
+      - "stock index"
+      - "stock market"
+      - "equity market"
+      - "marché actions"
+      - "marchés actions"
+      - "bourse"
+      - "Wall Street"
+      - "tech stocks"
+      - "valeurs technologiques"
+      - "big tech"
+      - "Nvidia"
+      - "Microsoft"
+      - "Alphabet"
+      - "Amazon"
+      - "Tesla"
+      - "intelligence artificielle"
+      - "artificial intelligence"
+      - "data center"
+      - "centre de données"
+
+  - id: semiconducteurs
+    libelle: "Semi-conducteurs"
+    portee: influence
+    dossier: semiconducteurs_ia
+    termes:
+      - "semi-conducteur"
+      - "semiconductor"
+      - "puce électronique"
+      - "chip"
+      - "TSMC"
+      - "ASML"
+      - "foundry"
+      - "fonderie"
+      - "export controls"
+      - "contrôle à l'export"
+      - "CHIPS Act"
+      - "wafer"
+      - "lithographie"
+
+  - id: matieres_premieres
+    libelle: "Matières premières"
+    portee: influence
+    dossier: matieres_premieres
+    termes:
+      - "matières premières"
+      - "commodity"
+      - "commodities"
+      - "cuivre"
+      - "copper"
+      - "aluminium"
+      - "aluminum"
+      - "nickel"
+      - "zinc"
+      - "lithium"
+      - "cobalt"
+      - "terres rares"
+      - "rare earths"
+      - "uranium"
+      - "minerai"
+      - "iron ore"
+      - "minier"
+      - "minière"
+      - "mining"
+      - "smelter"
+      - "fonderie de métaux"
+      - "acier"
+      - "steel"
+      - "LME"
+      - "London Metal Exchange"
+      - "supply chain"
+      - "chaîne d'approvisionnement"
+      - "fret maritime"
+      - "shipping rates"
+
+  - id: banques_credit
+    libelle: "Banques, crédit et appétit pour le risque"
+    portee: influence
+    termes:
+      - "banque"
+      - "bank"
+      - "banking"
+      - "crise bancaire"
+      - "banking crisis"
+      - "faillite"
+      - "bankruptcy"
+      - "défaut de paiement"
+      - "credit spread"
+      - "spread de crédit"
+      - "high yield"
+      - "haut rendement"
+      - "financial stress"
+      - "stress financier"
+      - "VIX"
+      - "volatilité"
+      - "volatility"
+      - "risk appetite"
+      - "appétit pour le risque"
+      - "risk-off"
+      - "risk-on"
+      - "sell-off"
+      - "krach"
+
+  - id: croissance_emploi
+    libelle: "Croissance et emploi"
+    portee: influence
+    termes:
+      - "croissance"
+      - "growth"
+      - "GDP"
+      - "PIB"
+      - "récession"
+      - "recession"
+      - "chômage"
+      - "unemployment"
+      - "payrolls"
+      - "jobs report"
+      - "marché du travail"
+      - "labor market"
+      - "PMI"
+      - "production industrielle"
+      - "industrial production"
+      - "consumer confidence"
+      - "confiance des consommateurs"
+
+  # --- Géopolitique au sens large -----------------------------------------
+  - id: conflits
+    libelle: "Conflits et sécurité"
+    portee: contexte
+    termes:
+      - "guerre"
+      - "war"
+      - "warfare"
+      - "conflit"
+      - "conflict"
+      - "frappe aérienne"
+      - "airstrike"
+      - "military strike"
+      - "missile"
+      - "drone"
+      - "offensive"
+      - "invasion"
+      - "cessez-le-feu"
+      - "ceasefire"
+      - "armée"
+      - "military"
+      - "troops"
+      - "troupes"
+      - "OTAN"
+      - "NATO"
+      - "escalade"
+      - "escalation"
+      - "attentat"
+      - "terrorist"
+      - "insurgency"
+      - "coup d'état"
+      - "military coup"
+      - "mobilisation"
+      - "réarmement"
+      - "defence spending"
+      - "dépenses militaires"
+    termes_exacts:
+      - "war"
+
+  - id: sanctions_accords
+    libelle: "Sanctions, accords et diplomatie"
+    portee: contexte
+    termes:
+      - "sanction"
+      - "embargo"
+      - "asset freeze"
+      - "gel d'avoirs"
+      - "blacklist"
+      - "liste noire"
+      - "traité"
+      - "treaty"
+      - "accord commercial"
+      - "trade deal"
+      - "négociations"
+      - "negotiations"
+      - "sommet"
+      - "summit"
+      - "G7"
+      - "G20"
+      - "ONU"
+      - "United Nations"
+      - "OMC"
+      - "WTO"
+      - "FMI"
+      - "IMF"
+      - "diplomatie"
+      - "diplomatic"
+      - "ambassade"
+
+  - id: elections_politique
+    libelle: "Élections et politique intérieure"
+    portee: contexte
+    termes:
+      - "élection"
+      - "election"
+      - "présidentielle"
+      - "presidential"
+      - "scrutin"
+      - "référendum"
+      - "referendum"
+      - "parlement"
+      - "parliament"
+      - "coalition"
+      - "gouvernement"
+      - "government"
+      - "shutdown"
+      - "motion de censure"
+      - "no-confidence"
+      - "démission"
+      - "resignation"
+      - "Trump"
+      - "Xi Jinping"
+      - "Poutine"
+      - "Putin"
+
+  - id: commerce
+    libelle: "Tensions commerciales"
+    portee: contexte
+    dossier: commerce_international
+    termes:
+      - "droits de douane"
+      - "tariff"
+      - "guerre commerciale"
+      - "trade war"
+      - "protectionnisme"
+      - "protectionism"
+      - "import quota"
+      - "quota d'importation"
+      - "export restriction"
+      - "restriction à l'export"
+      - "subvention"
+      - "subsidy"
+      - "balance commerciale"
+      - "trade deficit"
+      - "trade surplus"
+
+  # --- Événements localisés : c'est ce bloc qui rend USGS exploitable ------
+  #
+  # Les noms de pays ci-dessous n'admettent RIEN à eux seuls : ils n'entrent en
+  # jeu qu'associés à une magnitude sismique au moins égale à
+  # `magnitude_seisme_min`. Sans cette condition, « Chine » ferait entrer toute
+  # l'actualité chinoise dans le dossier matières premières.
+  #
+  # Trois domaines plutôt qu'un seul, un par filière, pour que le libellé
+  # affiché dise ce qui est en jeu : « Séisme sous une région productrice de
+  # cuivre » se comprend sans rien savoir de la géologie du Chili, là où un
+  # libellé unique laisserait le lecteur deviner pourquoi ce pays compte. Un
+  # pays qui produit plusieurs filières apparaît dans plusieurs listes et
+  # ressort avec plusieurs libellés — ce qui est l'information exacte.
+  #
+  # Les noms sont comparés au mot entier (`termes_exacts`) : sans cela, « Mali »
+  # se déclencherait sur « Malibu ». Ce sont aussi les formes exactes qu'emploie
+  # le flux USGS dans ses titres (« M 6.1 - 40 km W of Calama, Chile »).
+
+  - id: regions_precieux
+    libelle: "Séisme sous une région productrice de métaux précieux"
+    portee: influence
+    dossier: matieres_premieres
+    exige_seisme: true
+    termes_exacts:
+      - "China"
+      - "Chine"
+      - "Australia"
+      - "Australie"
+      - "Russia"
+      - "Russie"
+      - "Canada"
+      - "Alaska"
+      - "Nevada"
+      - "Peru"
+      - "Pérou"
+      - "Ghana"
+      - "Mexico"
+      - "Mexique"
+      - "South Africa"
+      - "Afrique du Sud"
+      - "Uzbekistan"
+      - "Ouzbékistan"
+      - "Indonesia"
+      - "Indonésie"
+      - "Mali"
+      - "Burkina Faso"
+      - "Papua New Guinea"
+      - "Papouasie-Nouvelle-Guinée"
+      - "Zimbabwe"
+      - "Tanzania"
+      - "Tanzanie"
+      - "Brazil"
+      - "Brésil"
+      - "Argentina"
+      - "Argentine"
+      - "Bolivia"
+      - "Bolivie"
+      - "Poland"
+      - "Pologne"
+      - "Philippines"
+      - "Turkey"
+      - "Turquie"
+      - "Kazakhstan"
+      - "Sudan"
+      - "Soudan"
+
+  - id: regions_cuivre
+    libelle: "Séisme sous une région productrice de cuivre"
+    portee: influence
+    dossier: matieres_premieres
+    exige_seisme: true
+    termes_exacts:
+      - "Chile"
+      - "Chili"
+      - "Peru"
+      - "Pérou"
+      - "Congo"
+      - "Zambia"
+      - "Zambie"
+      - "China"
+      - "Chine"
+      - "Indonesia"
+      - "Indonésie"
+      - "Arizona"
+      - "Russia"
+      - "Russie"
+      - "Australia"
+      - "Australie"
+      - "Mexico"
+      - "Mexique"
+      - "Kazakhstan"
+      - "Mongolia"
+      - "Mongolie"
+      - "Panama"
+
+  - id: regions_petrole
+    libelle: "Séisme sous une région pétrolière"
+    portee: influence
+    dossier: matieres_premieres
+    exige_seisme: true
+    termes_exacts:
+      - "Saudi Arabia"
+      - "Arabie saoudite"
+      - "Russia"
+      - "Russie"
+      - "Texas"
+      - "Iraq"
+      - "Irak"
+      - "Iran"
+      - "United Arab Emirates"
+      - "Émirats arabes unis"
+      - "Kuwait"
+      - "Koweït"
+      - "Brazil"
+      - "Brésil"
+      - "Norway"
+      - "Norvège"
+      - "Kazakhstan"
+      - "Nigeria"
+      - "Libya"
+      - "Libye"
+      - "Venezuela"
+      - "Angola"
+      - "Algeria"
+      - "Algérie"
+      - "Qatar"
+      - "Oman"
+      - "Alberta"
+      - "Guyana"
+      - "Azerbaijan"
+      - "Azerbaïdjan"
+      - "Mexico"
+      - "Mexique"
+      - "Colombia"
+      - "Colombie"

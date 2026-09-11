@@ -16,6 +16,41 @@ import {
 import { libelle } from "./libelles.js";
 
 /**
+ * Rang de classement des items admis, par portée.
+ *
+ * Miroir de ``modules/geopolitique/admission.py::ORDRE_PORTEE``. Le moteur
+ * n'écarte plus un article parce qu'il ne rentre dans aucun dossier : il
+ * l'admet dès qu'il touche l'univers suivi, et lui attache la distance qui le
+ * sépare des actifs détenus. C'est ici que cette distance sert — à ordonner,
+ * jamais à masquer.
+ */
+const RANG_PORTEE = { actif_direct: 3, influence: 2, contexte: 1 };
+
+/**
+ * Ce que chaque portée veut dire, en clair.
+ *
+ * Un rang affiché sans sa signification ne serait qu'un chiffre de plus.
+ */
+const SENS_PORTEE = {
+  actif_direct: "nomme un actif suivi",
+  influence: "canal de transmission connu",
+  contexte: "contexte géopolitique",
+};
+
+/**
+ * Rang d'un item du fil, le plus bas si sa portée est absente ou inconnue.
+ *
+ * Un item publié avant l'introduction de ce champ n'a pas à disparaître : il
+ * se range en dernier, ce qui est le comportement le plus prudent.
+ *
+ * @param {object} item Item du fil.
+ * @returns {number} Rang, de 1 à 3.
+ */
+function rangPortee(item) {
+  return RANG_PORTEE[(item && item.portee) || ""] || 1;
+}
+
+/**
  * Rend l'en-tête chiffré de la rubrique Or.
  *
  * @param {object} or Rapport or.
@@ -266,7 +301,7 @@ export function estLieAUnDossier(titre, dossiers) {
  *
  * Le rattachement décidé par le moteur prime : ``tickers_ou_themes_lies``
  * porte le nom d'affichage des dossiers reconnus, à partir du titre **et**
- * du chapô (voir modules/geopolitique/feed.py::_entites_liees). Le test sur
+ * du chapô (voir modules/geopolitique/feed.py::_rattacher). Le test sur
  * le seul titre ne sert plus que de repli, pour les items publiés avant ce
  * rattachement — sans lui, un item reconnu par son chapô atterrirait dans
  * « Autres » alors que le moteur l'a rangé dans un dossier.
@@ -401,11 +436,16 @@ function rendreAutresPanneau(filGeopolitique, dossiers, autresSujets = [], crite
   const sujets = Array.isArray(autresSujets) ? autresSujets : [];
   const autres = (filGeopolitique || []).filter((item) => !itemRelieAUnDossier(item, dossiers));
   const seuil = criteres.intensite_min === undefined ? ABSENT : `${nombre(criteres.intensite_min, 1)}×`;
-  const explication = `<p class="metrique-sens">Filet de sécurité pour l'imprévu : sujets découverts
-    dans le dernier export GDELT Events (paires de pays en conflit) et thèmes génériques (énergie,
-    conflits, sanctions, réserves), retenus quand leur couverture atteint ${seuil} sa normale ou
-    qu'une paire concentre une part notable des événements — et qui ne relèvent d'aucun dossier.
-    Si un même type d'événement y revient souvent, c'est qu'il manque un dossier dédié.</p>`;
+  const explication = `<p class="metrique-sens">Destination normale de tout ce qui compte sans rentrer
+    dans un dossier nommé. En haut, les sujets découverts dans le dernier export GDELT Events (paires
+    de pays en conflit) et les thèmes génériques, retenus quand leur couverture atteint ${seuil} sa
+    normale ou qu'une paire concentre une part notable des événements. En dessous, les articles admis
+    parce qu'ils touchent l'univers suivi, classés par distance aux actifs détenus :
+    <strong>${echapper(SENS_PORTEE.actif_direct)}</strong> d'abord, puis
+    <strong>${echapper(SENS_PORTEE.influence)}</strong>, puis
+    <strong>${echapper(SENS_PORTEE.contexte)}</strong>. Un article sans lien mesurable avec un actif
+    suivi est rangé plus bas, jamais écarté. Si un même type d'événement revient souvent en haut de
+    cette liste, c'est qu'il manque un dossier dédié.</p>`;
 
   const blocsSujets = sujets.map((sj) => {
     const p = sj.pertinence || {};
@@ -422,14 +462,26 @@ function rendreAutresPanneau(filGeopolitique, dossiers, autresSujets = [], crite
     </div>`;
   }).join("");
 
-  const lignesFil = autres.slice(0, 15).map((it) => `
+  // Classement, et non filtrage : à portée égale, le plus récent d'abord.
+  const classes = autres.slice().sort((a, b) => {
+    const ecart = rangPortee(b) - rangPortee(a);
+    if (ecart !== 0) return ecart;
+    return String(b.horodatage_utc || "").localeCompare(String(a.horodatage_utc || ""));
+  });
+  const lignesFil = classes.slice(0, 15).map((it) => `
     <li class="fil-item">
       <a href="${echapper(it.url_source || it.url || "#")}" target="_blank" rel="noopener noreferrer">
         ${echapper(it.titre_affiche || it.titre)}</a>
       <div class="fil-meta"><span>${echapper(it.source_nom || it.source || "")}</span>
+        <span>${echapper((it.tickers_ou_themes_lies || []).join(", "))}</span>
+        <span>${echapper(SENS_PORTEE[it.portee] || "portée non renseignée")}</span>
         <span>${echapper(dateHeure(it.horodatage_utc))}</span></div>
     </li>`).join("");
-  const fil = lignesFil ? `<ul class="fil-liste">${lignesFil}</ul>` : "";
+  const reste = classes.length > 15
+    ? `<p class="metrique-sens">${classes.length - 15} autre(s) article(s) admis non montré(s) ici,
+       de portée égale ou plus lointaine.</p>`
+    : "";
+  const fil = lignesFil ? `<ul class="fil-liste">${lignesFil}</ul>${reste}` : "";
 
   if (!blocsSujets && !fil) {
     return `<p class="fil-vide">Rien n'atteint les seuils de significativité dans le dernier relevé :

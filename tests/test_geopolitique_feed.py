@@ -1,9 +1,20 @@
 """Tests du fil d'actualité géopolitique.
 
-Ce fil a une règle de pertinence différente des deux autres : un item n'y
-entre que s'il relève d'un thème à canal de transmission connu vers l'or
-(voir ``modules/gold/geopolitics.py``), pas simplement parce qu'il parle de
-géopolitique. C'est la propriété vérifiée en priorité ici.
+Ce fil prend deux décisions distinctes, et c'est ce que ces tests vérifient en
+priorité :
+
+* **admission** — un article entre s'il touche l'univers suivi
+  (``config/univers_admission.yaml``). Large, et par union : le vocabulaire
+  d'admission d'un côté, tout ce qu'un dossier ou un thème reconnaît de
+  l'autre ;
+* **rattachement** — une fois admis, il est rangé dans le dossier qui lui
+  correspond, ou dans « Autres », qui est une destination et non un rejet.
+
+Le garde-fou contre le bruit est le **classement**, pas le rejet : chaque item
+porte sa ``portee``, et un article sans lien mesurable avec un actif suivi est
+rangé plus bas. Plusieurs tests ci-dessous vérifiaient auparavant qu'un tel
+article était écarté ; ils vérifient désormais qu'il entre au rang le plus
+bas et sans dossier. Le changement est voulu, pas une régression.
 
 Aucun test n'accède au réseau.
 
@@ -156,19 +167,38 @@ def test_analyse_absente_est_nulle_pas_vide() -> None:
 # ---------------------------------------------------------------------------
 # 3. Pertinence : seul un canal de transmission connu vers l'or fait entrer
 # ---------------------------------------------------------------------------
-def test_actualite_sans_canal_de_transmission_ecartee() -> None:
-    """Une actualité géopolitique sans rapport avec un thème suivi n'entre pas.
+def test_une_actualite_hors_univers_nentre_pas() -> None:
+    """L'admission est large, pas illimitée : hors de l'univers, rien n'entre.
 
-    C'est la propriété qui distingue ce fil d'un fil géopolitique généraliste :
-    l'important n'est pas la gravité de l'événement mais l'existence d'un
-    canal de transmission déjà mesuré vers l'or.
+    C'est la seule chose que l'admission refuse encore. Un résultat sportif ne
+    touche aucun actif détenu, aucun canal de transmission vers eux, et aucune
+    question géopolitique : il n'a rien à faire dans ce fil.
+    """
+    items = feed.construire_fil(
+        _CONFIG,
+        [_article("Local team wins the regional football cup after extra time")],
+        set(),
+    )
+    assert items == []
+
+
+def test_une_election_entre_desormais_au_rang_le_plus_bas() -> None:
+    """Le cas qui motivait l'ancien rejet : il entre, et il est rangé en dernier.
+
+    Une élection ne nomme aucun actif suivi ni aucun canal de transmission
+    mesuré, mais elle relève de la géopolitique au sens large — donc de
+    l'univers. L'ancienne règle la jetait ; la nouvelle l'admet au rang
+    ``contexte``, derrière tout le reste, ce qui est le garde-fou demandé :
+    ranger plus bas, pas jeter.
     """
     items = feed.construire_fil(
         _CONFIG,
         [_article("Local elections held peacefully in a small country")],
         set(),
     )
-    assert items == []
+    assert len(items) == 1
+    assert items[0]["portee"] == "contexte"
+    assert items[0]["tickers_ou_themes_lies"], "un item admis doit dire pourquoi il est là"
 
 
 def test_theme_a_canal_de_transmission_retenu() -> None:
@@ -180,15 +210,20 @@ def test_theme_a_canal_de_transmission_retenu() -> None:
     assert items[0]["tickers_ou_themes_lies"] == ["Tensions énergétiques"]
 
 
-def test_mot_seul_trop_generique_nest_pas_un_canal_de_transmission() -> None:
-    """Un mot isolé et générique du thème ne suffit pas à faire entrer un item.
+def test_mot_seul_trop_generique_nattache_a_aucun_theme() -> None:
+    """Un mot isolé et générique du thème ne suffit toujours pas à le rattacher.
 
     Cas réel observé lors d'une exécution en direct : la requête GDELT du
     thème « Conflits majeurs » contient « invasion » nu (reprise telle quelle
     de modules/gold/geopolitics.py, où elle sert à mesurer un volume
     d'articles, pas à filtrer des titres un par un). Appliqué au seul titre
-    d'un flux RSS, ce mot a fait remonter un fait divers de cambriolage et un
-    débat migratoire, sans aucun rapport avec un conflit majeur.
+    d'un flux RSS, ce mot a fait remonter un fait divers de cambriolage.
+
+    Ce que ce test protège a changé de nature : l'article entre désormais,
+    parce que « invasion » appartient bien au vocabulaire des conflits. Ce
+    qu'il ne doit pas faire, c'est se présenter comme relevant du thème
+    mesuré « Conflits majeurs » — ce serait une étiquette fausse, et une
+    intensité de couverture affichée pour un cambriolage.
     """
     config = {
         "themes": [
@@ -201,7 +236,9 @@ def test_mot_seul_trop_generique_nest_pas_un_canal_de_transmission() -> None:
         [_article("Inmate loses bid for new trial in Huntingdon County home invasion")],
         set(),
     )
-    assert items == []
+    assert len(items) == 1
+    assert "Conflits majeurs" not in items[0]["tickers_ou_themes_lies"]
+    assert items[0]["portee"] == "contexte"
 
 
 def test_aucune_recommandation_dans_le_fil() -> None:
@@ -305,22 +342,41 @@ def test_le_titre_seul_suffit_toujours() -> None:
     assert "Politique monétaire (Fed, BCE)" in items[0]["tickers_ou_themes_lies"]
 
 
-def test_le_fait_divers_qui_avait_motive_le_durcissement_reste_ecarte() -> None:
-    """« home invasion » : le mot nu « invasion » n'est le mot-clé d'aucun dossier."""
-    ecartes = [
+def test_le_fait_divers_entre_mais_sans_dossier_et_au_rang_le_plus_bas() -> None:
+    """« home invasion » : admis, jamais rangé dans un dossier suivi.
+
+    L'ancienne règle jetait ces deux articles. La nouvelle les admet — le
+    vocabulaire des conflits contient « invasion » — mais le rattachement,
+    lui, reste exigeant : aucun dossier ne les prend, et leur rang est le plus
+    bas. C'est exactement la séparation demandée entre admettre et ranger.
+    """
+    articles = [
         _item("Police investigate a home invasion in a quiet suburb",
               "Two suspects fled after the home invasion, local police said."),
         _item("Migration debate divides parliament",
               "Lawmakers clashed over an invasion of migrants, one member said."),
     ]
-    assert _fil(ecartes) == []
+    items = _fil(articles)
+    assert len(items) == 2
+    noms_dossiers = {d["nom_affiche"] for d in _DOSSIERS}
+    for item in items:
+        assert not noms_dossiers & set(item["tickers_ou_themes_lies"])
+        assert item["portee"] == "contexte"
 
 
 def test_un_terme_ne_se_declenche_pas_au_milieu_dun_mot() -> None:
-    """« Iran » ne doit pas sortir de « Tirana », mais doit sortir d'« Iranian »."""
+    """« Iran » ne doit pas rattacher « Tirana », mais doit rattacher « Iranian ».
+
+    L'ancrage sur un début de mot est une propriété du **rattachement**, et
+    elle survit à l'élargissement de l'admission : « Tirana hosts a regional
+    summit » entre désormais dans le fil — un sommet relève de la diplomatie,
+    donc de l'univers — mais il ne doit surtout pas atterrir dans le dossier
+    Iran - États-Unis, où il n'a rien à faire.
+    """
     dossiers = [{"id": "iran_etats_unis", "nom_affiche": "Iran - États-Unis", "mots_cles": ["Iran"]}]
     faux = feed.construire_fil(_CONFIG, [_item("Tirana hosts a regional summit")], set(), dossiers=dossiers)
-    assert faux == []
+    assert len(faux) == 1
+    assert "Iran - États-Unis" not in faux[0]["tickers_ou_themes_lies"]
     vrai = feed.construire_fil(_CONFIG, [_item("Iranian officials meet negotiators")], set(), dossiers=dossiers)
     assert len(vrai) == 1 and "Iran - États-Unis" in vrai[0]["tickers_ou_themes_lies"]
 

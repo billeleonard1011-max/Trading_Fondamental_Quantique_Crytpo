@@ -880,6 +880,62 @@ test("rubriqueGeopolitique répartit vers 'Autres' ce qui ne relève d'aucun dos
   assert.match(corps, /Sommet économique en Amérique latine/);
 });
 
+test("l'onglet Autres classe par portée avant de classer par date", () => {
+  // Le moteur n'écarte plus un article parce qu'il ne rentre dans aucun
+  // dossier : il l'admet et lui attache sa distance aux actifs suivis. Le
+  // site s'en sert pour ordonner, jamais pour masquer — l'article le plus
+  // lointain reste présent, il passe seulement derrière.
+  const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple()]).donnees };
+  const filGeopolitique = [
+    { titre_affiche: "Élection présidentielle à second tour", url_source: "https://exemple.test/1",
+      source_nom: "AFP", horodatage_utc: "2026-08-30T12:00:00Z", portee: "contexte",
+      tickers_ou_themes_lies: ["Élections et politique intérieure"] },
+    { titre_affiche: "Le pétrole recule après la flambée", url_source: "https://exemple.test/2",
+      source_nom: "Reuters", horodatage_utc: "2026-08-30T10:00:00Z", portee: "influence",
+      tickers_ou_themes_lies: ["Pétrole et énergie"] },
+    { titre_affiche: "L'or inscrit un record à Londres", url_source: "https://exemple.test/3",
+      source_nom: "Reuters", horodatage_utc: "2026-08-30T08:00:00Z", portee: "actif_direct",
+      tickers_ou_themes_lies: ["Or et métaux précieux"] },
+  ];
+  const { corps } = rubriqueGeopolitique(etat, filGeopolitique);
+
+  // Les trois sont là : classer n'est pas filtrer.
+  for (const titre of ["Élection présidentielle", "Le pétrole recule", "L'or inscrit un record"]) {
+    assert.match(corps, new RegExp(titre.replace("'", "&#39;")));
+  }
+  // Et l'ordre inverse la chronologie, parce que la portée prime.
+  const rang = (t) => corps.indexOf(t.replace("'", "&#39;"));
+  assert.ok(rang("L&#39;or inscrit un record") < rang("Le pétrole recule"),
+    "un actif suivi passe devant un canal de transmission");
+  assert.ok(rang("Le pétrole recule") < rang("Élection présidentielle"),
+    "un canal de transmission passe devant le contexte");
+});
+
+test("l'onglet Autres explique l'échelle de classement au lieu d'afficher un rang nu", () => {
+  const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple()]).donnees };
+  const { corps } = rubriqueGeopolitique(etat, [
+    { titre_affiche: "Le pétrole recule", url_source: "https://exemple.test/2", source_nom: "Reuters",
+      horodatage_utc: "2026-08-30T10:00:00Z", portee: "influence", tickers_ou_themes_lies: ["Pétrole et énergie"] },
+  ]);
+  assert.match(corps, /Destination normale/);
+  assert.match(corps, /canal de transmission connu/);
+  assert.match(corps, /rangé plus bas, jamais écarté/);
+});
+
+test("un item publié avant le champ portée se range en dernier sans disparaître", () => {
+  const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple()]).donnees };
+  const { corps } = rubriqueGeopolitique(etat, [
+    { titre_affiche: "Dépêche ancienne sans portée", url_source: "https://exemple.test/1",
+      source_nom: "AFP", horodatage_utc: "2026-08-30T12:00:00Z" },
+    { titre_affiche: "Le pétrole recule", url_source: "https://exemple.test/2", source_nom: "Reuters",
+      horodatage_utc: "2026-08-30T08:00:00Z", portee: "influence", tickers_ou_themes_lies: ["Pétrole et énergie"] },
+  ]);
+  assert.match(corps, /Dépêche ancienne sans portée/);
+  assert.match(corps, /portée non renseignée/);
+  assert.ok(corps.indexOf("Le pétrole recule") < corps.indexOf("Dépêche ancienne"),
+    "l'item sans portée se range en dernier, malgré sa date plus récente");
+});
+
 test("rubriqueGeopolitique affiche l'intensité maximale et le dossier dominant en résumé", () => {
   const etat = { disponible: true, donnees: etatGeoExemple([dossierExemple()]).donnees };
   const { resume } = rubriqueGeopolitique(etat, []);

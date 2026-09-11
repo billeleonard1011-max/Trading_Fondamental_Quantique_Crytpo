@@ -1,19 +1,42 @@
 """Fil d'actualité géopolitique : chaque news expliquée dès sa collecte.
 
 Reprend le patron de :mod:`modules.quantum.feed`, avec une différence de
-fond : la pertinence n'est pas « c'est un événement géopolitique important »,
-mais « ce thème a un canal de transmission connu vers l'or ». Une actualité
-internationale qui ne relève d'aucun des quatre thèmes de
-:mod:`modules.gold.geopolitics` (tensions énergétiques, conflits majeurs,
-sanctions, tensions sur les réserves de change) n'entre pas dans ce fil, même
-si elle fait la une ailleurs — ce n'est pas ce fil qui juge la gravité d'un
-événement, c'est :mod:`modules.gold.geopolitics` qui a déjà défini, thème par
-thème, lequel a une prise mesurable sur l'or.
+fond : l'entrée dans le fil et le rangement dans un onglet sont deux décisions
+distinctes, prises par deux vocabulaires distincts.
 
-Les thèmes eux-mêmes ne sont donc pas redéfinis ici : ils viennent de
-``config/gold.yaml`` (bloc ``geopolitique.themes``), et l'intensité de
-couverture déjà calculée par le rapport or du jour est réutilisée telle
-quelle plutôt que recalculée une seconde fois par un appel GDELT identique.
+Deux décisions, deux vocabulaires
+---------------------------------
+**Admission** — :mod:`modules.geopolitique.admission`, à partir de
+``config/univers_admission.yaml``. Large : un article entre s'il touche
+l'univers suivi, qu'il s'agisse d'un actif détenu (or, quantique, crypto),
+d'un canal de transmission connu vers ces actifs (pétrole, dollar, taux,
+inflation, banques centrales, actions et technologie, semi-conducteurs,
+matières premières, banques et crédit, croissance) ou de la géopolitique au
+sens large (conflits, sanctions, accords, élections, tensions commerciales).
+
+**Rattachement** — les dossiers de ``config/geopolitique_dossiers.yaml`` et
+les thèmes de ``config/gold.yaml``. Strict : un dossier nommé ne vaut que si
+ce qu'il contient lui correspond. Un article admis qu'aucun dossier ne prend
+va dans « Autres », qui est la destination **normale** de tout ce qui compte
+sans rentrer dans une case nommée, et non plus une exception rare.
+
+Jusqu'ici les mots-clés des dossiers assuraient les deux rôles, ce qui rendait
+l'admission aussi étroite que le rangement. Le cas mesuré : un séisme sous une
+région productrice de cuivre, collecté par le flux USGS, était intégralement
+écarté parce que son titre (« M 6.1 - 40 km W of Calama, Chile ») ne contient
+aucun mot-clé de dossier.
+
+Le bruit est traité par le classement, pas par le rejet
+-------------------------------------------------------
+Chaque item porte sa ``portee`` — ``actif_direct``, ``influence`` ou
+``contexte`` — c'est-à-dire la distance du domaine le plus proche des actifs
+suivis. Un article admis sans lien mesurable avec l'un d'eux est rangé plus
+bas, jamais jeté. Le site s'en sert pour ordonner l'onglet « Autres ».
+
+Les thèmes ne sont pas redéfinis ici : ils viennent de ``config/gold.yaml``
+(bloc ``geopolitique.themes``), et l'intensité de couverture déjà calculée par
+le rapport or du jour est réutilisée telle quelle plutôt que recalculée une
+seconde fois par un appel GDELT identique.
 
 Format unifié
 -------------
@@ -22,19 +45,12 @@ Structure de sortie identique à celle du fil quantique (``feed.CLES_ITEM``,
 de thèmes plutôt que des tickers — un usage que le nom du champ anticipait
 déjà.
 
-Ce que le filtre de pertinence retient
---------------------------------------
-Un article entre dans le fil s'il cite un **mot-clé d'un dossier suivi**
-(``config/geopolitique_dossiers.yaml``) ou une **expression de plusieurs
-mots** d'un thème générique de ``config/gold.yaml``, dans son titre **ou**
-son chapô. Il est alors rangé dans l'onglet du dossier reconnu, ou dans
-« Autres » si seul un thème l'a retenu.
-
-Le filtre d'origine n'acceptait que les expressions exactes des requêtes
-GDELT, sur le seul titre : il n'a laissé passer qu'un item depuis la
-création du fil, alors que ``NewsItem.resume`` était déjà rempli par
-``fetch_rss`` et ne servait à rien. Mesuré sur une collecte réelle de 24 h :
-3 items retenus par l'ancien filtre, 48 par le nouveau.
+Ce que le lecteur voit dans ``tickers_ou_themes_lies``
+------------------------------------------------------
+Le nom d'affichage des dossiers reconnus, puis les thèmes génériques. Quand
+ni l'un ni l'autre ne prend l'article, le champ porte les **domaines
+d'admission** : c'est ce qui dit au lecteur par quoi l'article le concerne,
+plutôt que de le laisser dans un onglet sans raison affichée.
 """
 
 from __future__ import annotations
@@ -44,12 +60,12 @@ import json
 import logging
 import os
 import re
-import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Final
 
 from dataio import news
+from modules.geopolitique import admission as admission_univers
 from modules.gold import explain
 from modules import quota_llm
 from modules.quantum import moves
@@ -89,6 +105,12 @@ CLES_ITEM: Final[tuple[str, ...]] = (
     #: site range l'item dans l'onglet du bon dossier, ou dans « Autres »
     #: quand seul un thème générique l'a retenu.
     "tickers_ou_themes_lies",
+    #: Distance du domaine d'admission le plus proche des actifs suivis :
+    #: ``actif_direct``, ``influence`` ou ``contexte`` (voir
+    #: :data:`modules.geopolitique.admission.ORDRE_PORTEE`). C'est le
+    #: classement qui remplace le rejet : un article sans lien mesurable avec
+    #: un actif suivi est rangé plus bas, pas jeté.
+    "portee",
     "nouveaute",
 )
 
@@ -102,16 +124,18 @@ LONGUEUR_MIN_MOT_CLE: Final[int] = 4
 #: Nombre d'items conservés dans le fil courant.
 MAX_ITEMS_FIL: Final[int] = 120
 
-CONSIGNE_FEED: Final = """Tu expliques une actualité géopolitique à un lecteur qui suit l'or comme actif refuge.
+CONSIGNE_FEED: Final = """Tu expliques une actualité à un lecteur qui suit l'or comme actif refuge, et qui suit aussi le quantique et les crypto-actifs.
 
 RÈGLES ABSOLUES :
 1. N'utilise QUE les informations et les nombres du JSON fourni. N'invente aucun chiffre, aucune date, aucun montant.
 2. Ne recommande JAMAIS d'acheter, de vendre, de se positionner sur l'or ou un autre actif.
-3. Ne dis jamais que l'or va monter ou baisser : dis seulement par quel thème l'actualité passe et si ce thème est déjà bien couvert ou en accélération.
+3. Ne dis jamais qu'un actif va monter ou baisser : dis seulement par quel sujet l'actualité passe et si ce sujet est déjà bien couvert ou en accélération.
 4. Quand une information manque, dis-le au lieu de la contourner.
 5. Français simple, trois phrases au maximum, pas de liste.
 
-STRUCTURE : ce qui s'est passé ; à quel thème à canal de transmission vers l'or cela se rattache ; ce que dit la mesure de couverture de ce thème, si elle est disponible."""
+STRUCTURE : ce qui s'est passé ; à quel sujet suivi cela se rattache, en reprenant EXACTEMENT les rattachements fournis ; ce que dit la mesure de couverture de ce sujet, si elle est disponible.
+
+Si les rattachements fournis ne sont pas des dossiers suivis mais des domaines de l'univers surveillé, dis-le ainsi : l'actualité touche ce domaine sans relever d'un dossier en cours."""
 
 __all__ = [
     "CATEGORIES",
@@ -127,11 +151,12 @@ __all__ = [
 # ---------------------------------------------------------------------------
 # Identité et historique
 # ---------------------------------------------------------------------------
-def _normaliser(texte: str) -> str:
-    """Réduit un texte à une forme comparable : minuscules, sans accent."""
-    decompose = unicodedata.normalize("NFKD", (texte or "").lower())
-    sans_accent = "".join(c for c in decompose if not unicodedata.combining(c))
-    return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", sans_accent)).strip()
+#: Normalisation partagée avec l'admission : les deux côtés de toute
+#: comparaison — texte de l'article et terme de configuration — doivent passer
+#: par la même fonction, sans quoi « l'or » et « l or » ne se rencontreraient
+#: jamais. Définie dans :mod:`modules.geopolitique.admission`, qui ne dépend
+#: de rien d'autre, pour qu'il n'en existe qu'une version.
+_normaliser = admission_univers.normaliser
 
 
 def identifiant_item(titre: str, url: str) -> str:
@@ -251,7 +276,7 @@ def collecter(
         _LOG.info("Collecte sans GDELT : flux RSS seuls.")
         return news.dedupe(articles)
 
-    # Canal 2 : une requête GDELT par thème à canal de transmission connu.
+    # Canal 2 : une requête GDELT par thème mesuré (config/gold.yaml).
     for theme in configuration.get("themes") or []:
         query = str(theme.get("query", ""))
         if not query:
@@ -312,52 +337,75 @@ def _dossiers_lies(texte: str, dossiers: list[dict[str, Any]]) -> list[dict[str,
     return trouves
 
 
-def _entites_liees(
+def _rattacher(
     titre: str,
     themes: list[dict[str, Any]],
     resume: str = "",
     dossiers: list[dict[str, Any]] | None = None,
-) -> tuple[list[str], list[str]]:
-    """Dit à quoi se rattache un article : dossier suivi, ou thème générique.
+    admission: admission_univers.Admission | None = None,
+) -> tuple[list[str], list[str], bool]:
+    """Range un article **déjà admis** : dans un dossier, ou dans « Autres ».
 
-    Deux canaux de reconnaissance, dans cet ordre :
+    Le rattachement ne décide plus de l'entrée — c'est
+    :func:`modules.geopolitique.admission.evaluer` qui s'en charge, sur un
+    vocabulaire bien plus large. Cette fonction ne répond qu'à « où le
+    mettre ? », et a le droit d'être exigeante pour cela : un dossier nommé ne
+    vaut que si ce qu'il contient lui correspond vraiment.
+
+    Trois canaux de rangement, dans cet ordre :
 
     * **les mots-clés des dossiers configurés** — « Gaza », « Houthi »,
-      « Federal Reserve », « tariffs »… Ce sont des noms propres et des
-      expressions du domaine, assez distinctifs pour servir de filtre.
-      L'item alimente alors l'onglet de ce dossier ;
+      « Federal Reserve », « tariffs »… L'item alimente l'onglet de ce
+      dossier ;
+    * **le dossier désigné par un domaine d'admission** (champ ``dossier`` de
+      ``config/univers_admission.yaml``). C'est ce canal qui rattrape ce que
+      les mots-clés d'un dossier ne savent pas voir : le titre d'un séisme ne
+      nomme qu'un pays et une magnitude, jamais le cuivre qu'on y extrait ;
     * **les expressions de plusieurs mots des thèmes génériques** de
-      ``gold.yaml`` (« military strike », « oil embargo »…), pour ce qui ne
-      relève d'aucun dossier suivi mais garde un canal de transmission connu
-      vers l'or. L'item va dans « Autres ».
+      ``gold.yaml`` (« military strike », « oil embargo »…).
 
-    La recherche porte sur le **titre et le chapô**. Le filtre d'origine ne
-    lisait que le titre, et n'acceptait que les expressions exactes des
-    requêtes GDELT : en pratique il ne laissait passer qu'un seul item depuis
-    la création du fil, alors que ``NewsItem.resume`` était déjà rempli par
-    ``fetch_rss`` et ne servait à rien.
-
-    Le garde-fou qui avait motivé ce durcissement reste en place, par
-    construction : le mot nu « invasion », qui convient à GDELT — il croise
-    le mot avec tout l'article — mais qui avait fait remonter une brève de
-    fait divers (« home invasion ») et un débat migratoire, n'est un mot-clé
-    d'aucun dossier, et les thèmes génériques n'acceptent toujours que des
-    expressions de plusieurs mots.
+    Quand aucun des trois ne prend l'article, le champ affiché reprend les
+    **domaines d'admission** : l'item va dans « Autres », mais avec la raison
+    de sa présence écrite en toutes lettres plutôt qu'un onglet muet.
 
     Args:
         titre: titre de l'article.
         themes: entrées ``geopolitique.themes`` de ``config/gold.yaml``.
         resume: chapô de l'article, tel que le remplit ``fetch_rss``.
         dossiers: entrées de ``config/geopolitique_dossiers.yaml``.
+        admission: verdict d'admission de l'article, qui porte les domaines
+            reconnus et les dossiers vers lesquels ils renvoient.
 
     Returns:
-        Couple ``(entités lisibles, identifiants de dossiers)``. Les entités
-        servent à l'affichage et à l'explication ; les identifiants disent au
-        site dans quel onglet ranger l'item.
+        Triplet ``(entités lisibles, identifiants de dossiers, sujet mesuré)``.
+        Les entités servent à l'affichage et à l'explication ; les identifiants
+        disent au site dans quel onglet ranger l'item ; le booléen dit si un
+        dossier ou un thème — c'est-à-dire un sujet dont le projet mesure
+        l'intensité et la chaîne de transmission — a pris l'article, ce qui
+        pèse sur son rang.
     """
     texte = _normaliser(f"{titre} {resume}")
     rattaches = _dossiers_lies(texte, dossiers or [])
+    identifiants = [d["id"] for d in rattaches]
     entites = [d["nom_affiche"] for d in rattaches]
+
+    # Dossiers désignés par un domaine d'admission. Le sens est à sens unique
+    # et voulu : l'admission peut nourrir un dossier, jamais l'inverse.
+    par_identifiant = {str(d.get("id", "")): d for d in (dossiers or [])}
+    for identifiant in (admission.dossiers if admission else ()):
+        if identifiant in identifiants:
+            continue
+        dossier = par_identifiant.get(identifiant)
+        if dossier is None:
+            # Un domaine qui renvoie vers un dossier supprimé ne doit pas
+            # faire disparaître l'article : il ira dans « Autres ».
+            _LOG.warning(
+                "Domaine d'admission renvoyant vers un dossier inconnu (%s) : ignoré.",
+                identifiant,
+            )
+            continue
+        identifiants.append(identifiant)
+        entites.append(str(dossier.get("nom_affiche") or identifiant))
 
     for theme in themes:
         nom = str(theme.get("nom", ""))
@@ -369,7 +417,44 @@ def _entites_liees(
         if nom not in entites and any(_contient(texte, t) for t in termes):
             entites.append(nom)
 
-    return entites, [d["id"] for d in rattaches]
+    # Un dossier ou un thème l'a pris : l'article relève d'un sujet dont le
+    # projet mesure déjà l'intensité et la chaîne de transmission vers l'or.
+    sujet_mesure = bool(entites)
+
+    if not entites and admission is not None:
+        entites = list(admission.libelles)
+
+    return entites, identifiants, sujet_mesure
+
+
+def _portee(
+    admission: admission_univers.Admission | None,
+    sujet_mesure: bool,
+) -> str:
+    """Donne son rang à un article admis : à quelle distance des actifs suivis.
+
+    Deux sources de rang, et c'est la plus proche qui l'emporte :
+
+    * la **portée du domaine d'admission** le plus proche des actifs détenus ;
+    * le fait qu'un **dossier ou un thème** ait pris l'article. Un dossier
+      déclare son canal de transmission vers l'or, un thème de ``gold.yaml``
+      n'y figure que parce qu'il en a un : dans les deux cas le lien est
+      mesuré, donc au moins ``influence``.
+
+    Args:
+        admission: verdict d'admission, ou ``None`` si seul un dossier ou un
+            thème a reconnu l'article.
+        sujet_mesure: vrai si un dossier ou un thème l'a pris.
+
+    Returns:
+        ``actif_direct``, ``influence`` ou ``contexte``.
+    """
+    candidats = ["contexte"]
+    if admission is not None:
+        candidats.append(admission.portee)
+    if sujet_mesure:
+        candidats.append("influence")
+    return max(candidats, key=lambda p: admission_univers.ORDRE_PORTEE.get(p, 0))
 
 
 def _est_exclu(titre: str, entites: list[str], exclusions: list[str], resume: str = "") -> bool:
@@ -414,19 +499,23 @@ def _gabarit(donnees: dict[str, Any]) -> str:
     themes = donnees.get("entites_liees") or []
     phrases = [f"Actualité relayée par {donnees.get('source_nom', 'une source d’actualité')}."]
 
+    # Le champ porte soit des dossiers et thèmes suivis, soit — quand aucun ne
+    # prend l'article — les domaines de l'univers qui l'ont fait entrer. La
+    # phrase doit valoir dans les deux cas, sans annoncer un « thème suivi pour
+    # l'or » là où il n'y en a pas.
     if themes:
-        phrases.append(f"Elle relève du thème suivi pour l'or : {', '.join(themes)}.")
+        phrases.append(f"Elle se rattache à : {', '.join(themes)}.")
     else:
-        phrases.append("Elle ne relève d'aucun thème à canal de transmission connu vers l'or.")
+        phrases.append("Aucun rattachement n'a pu être établi pour cette actualité.")
 
     mesure = donnees.get("theme_mesure")
     if mesure and mesure.get("disponible") and mesure.get("intensite_ratio") is not None:
         phrases.append(
-            f"Ce thème affiche une couverture de {mesure['intensite_ratio']:.1f}× sa moyenne "
+            f"Ce sujet affiche une couverture de {mesure['intensite_ratio']:.1f}× sa moyenne "
             f"sur 30 jours, trajectoire {mesure.get('trajectoire') or 'non qualifiée'}."
         )
     else:
-        phrases.append("Aucune mesure récente de l'intensité de ce thème n'est disponible.")
+        phrases.append("Aucune mesure récente de l'intensité de ce sujet n'est disponible.")
     return " ".join(phrases)
 
 
@@ -478,6 +567,7 @@ def construire_fil(
     configuration_explication: dict[str, Any] | None = None,
     client: Any | None = None,
     dossiers: list[dict[str, Any]] | None = None,
+    univers: admission_univers.Univers | None = None,
 ) -> list[dict[str, Any]]:
     """Transforme les articles collectés en items du fil.
 
@@ -491,6 +581,8 @@ def construire_fil(
         dossiers: dossiers de ``config/geopolitique_dossiers.yaml``. ``None``
             les charge ; une liste vide n'attache l'item à aucun dossier et
             le laisse aux seuls thèmes génériques.
+        univers: vocabulaire d'admission (``config/univers_admission.yaml``).
+            ``None`` le charge une fois pour toute la boucle.
         configuration_explication: réglages de la couche pédagogique.
         client: client OpenAI éventuel.
 
@@ -528,7 +620,13 @@ def construire_fil(
             dossiers = []
     dossiers = list(dossiers)
 
+    # Chargé une seule fois : la compilation des quelque quatre cents motifs
+    # n'a pas à être refaite à chaque article.
+    if univers is None:
+        univers = admission_univers.charger_univers()
+
     items: list[dict[str, Any]] = []
+    ecartes_hors_univers = 0
     analyses_faites = 0
     analyses_llm = 0
 
@@ -539,15 +637,28 @@ def construire_fil(
             continue
 
         resume = str(getattr(article, "resume", "") or "")
-        entites, _ = _entites_liees(titre, themes, resume, dossiers)
-        if _est_exclu(titre, entites, exclusions, resume):
-            _LOG.debug("Item écarté par la liste d'exclusions : %s", titre[:60])
+
+        # ADMISSION — la seule question posée ici est « est-ce que ça touche
+        # l'univers suivi ? ». Un article qui n'en touche aucun pan n'a rien à
+        # faire dans le fil ; tout le reste entre, quitte à être rangé bas.
+        admission = admission_univers.evaluer(titre, resume, univers)
+
+        # RATTACHEMENT — une fois admis, l'article est rangé. Sans dossier, il
+        # va dans « Autres », ce qui est une destination et non un rejet.
+        entites, _, sujet_mesure = _rattacher(titre, themes, resume, dossiers, admission)
+
+        # L'admission est une UNION, jamais un remplacement : le vocabulaire
+        # large d'un côté, tout ce qu'un dossier ou un thème reconnaît de
+        # l'autre. Sans cette union, ajouter un dossier dont les mots-clés ne
+        # figurent pas au vocabulaire — « Gaza », « Houthi » — ferait
+        # disparaître son sujet du fil au lieu de l'y faire entrer. Par
+        # construction, l'élargissement ne peut donc rien retirer.
+        if admission is None and not entites:
+            ecartes_hors_univers += 1
             continue
 
-        # Un item qui ne relève d'aucun thème à canal de transmission connu
-        # vers l'or n'a pas sa place dans ce fil, même s'il fait la une
-        # ailleurs.
-        if not entites:
+        if _est_exclu(titre, entites, exclusions, resume):
+            _LOG.debug("Item écarté par la liste d'exclusions : %s", titre[:60])
             continue
 
         identifiant = identifiant_item(titre, url)
@@ -592,6 +703,7 @@ def construire_fil(
                 "a_une_analyse_interne": analyse is not None,
                 "analyse_interne": analyse,
                 "tickers_ou_themes_lies": entites,
+                "portee": _portee(admission, sujet_mesure),
                 "nouveaute": nouveaute,
             }
         )
@@ -602,11 +714,18 @@ def construire_fil(
     quota_llm.consommer(analyses_llm)
 
     items.sort(key=lambda i: i["horodatage_utc"], reverse=True)
+    repartition = ", ".join(
+        f"{portee} {sum(1 for i in items if i['portee'] == portee)}"
+        for portee in sorted(admission_univers.ORDRE_PORTEE, key=lambda p: -admission_univers.ORDRE_PORTEE[p])
+    )
     _LOG.info(
-        "Fil géopolitique : %d item(s), dont %d nouveau(x) et %d analysé(s).",
+        "Fil géopolitique : %d item(s), dont %d nouveau(x) et %d analysé(s). "
+        "Portée : %s. %d article(s) hors de l'univers suivi.",
         len(items),
         sum(1 for i in items if i["nouveaute"]),
         analyses_faites,
+        repartition,
+        ecartes_hors_univers,
     )
     return items
 

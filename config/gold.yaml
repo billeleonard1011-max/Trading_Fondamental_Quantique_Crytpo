@@ -103,11 +103,25 @@ geopolitique:
     - nom: "Tensions sur les réserves de change"
       query: '("central bank gold" OR "gold reserves" OR "de-dollarization" OR "reserve diversification" OR "foreign exchange reserves")'
   # Réglages du fil d'actualité géopolitique (modules/geopolitique/feed.py).
-  # Les thèmes ci-dessus servent aussi de filtre de pertinence du fil : un
-  # item n'est retenu que s'il correspond à un thème qui a un canal de
-  # transmission connu vers l'or, plutôt que toute actualité internationale.
+  #
+  # Les thèmes ci-dessus ne décident PLUS de l'entrée d'un article : ils
+  # servent au rattachement et à la mesure d'intensité. L'entrée est décidée
+  # par config/univers_admission.yaml, sur un vocabulaire bien plus large.
   feed:
-    tags_flux: ["geopolitique"]
+    # Étiquettes des flux que ce fil collecte.
+    #
+    # « geopolitique » seul ne laissait que trois flux — Financial Times, les
+    # discours de la Fed et USGS — après le retrait des sources Dow Jones. Un
+    # vocabulaire d'admission large n'aurait alors eu presque rien à examiner :
+    # l'étiquette faisait office de second filtre, en amont, avec le même
+    # défaut que celui qu'on vient de corriger.
+    #
+    # Sont exclues « crypto » et « quantique » : ces sources alimentent déjà
+    # leurs propres rubriques, et les verser ici ne ferait que publier deux
+    # fois les mêmes dépêches. Les ajouter tient en une ligne si l'on change
+    # d'avis.
+    tags_flux: ["geopolitique", "macro", "marches", "actions", "energie", "or",
+                "taux", "banque_centrale", "technologie", "semiconducteurs"]
     fenetre_heures: 24
     max_analyses_par_execution: 8
     exclusions: []

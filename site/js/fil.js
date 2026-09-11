@@ -12,10 +12,11 @@ import { rendreBadge } from "./rendu.js";
 /**
  * Message d'état vide, adapté à la catégorie.
  *
- * Chaque fil ne garde que les articles pertinents pour son domaine
- * (valeur suivie, jeton suivi, ou thème à canal de transmission connu vers
- * l'or) : un fil vide dit le plus souvent qu'aucun article de la période ne
- * correspondait, pas qu'il n'a rien collecté.
+ * Chaque fil ne garde que les articles pertinents pour son domaine : une
+ * valeur suivie, un jeton suivi, ou — pour le fil géopolitique — un article
+ * touchant l'univers surveillé (config/univers_admission.yaml). Un fil vide
+ * dit le plus souvent qu'aucun article de la période ne correspondait, pas
+ * qu'il n'a rien collecté.
  *
  * @param {string} categorie Catégorie concernée.
  * @returns {string} HTML de l'état vide.
@@ -31,9 +32,11 @@ export function rendreVide(categorie) {
       Le fil ne garde que les articles citant un jeton suivi.</p>`;
   }
   if (categorie === "geopolitique") {
-    return `<p class="fil-vide">Aucune actualité géopolitique retenue sur la période.
-      Le fil ne garde que les articles relevant d'un thème à canal de transmission
-      connu vers l'or (énergie, conflits majeurs, sanctions, réserves de change).</p>`;
+    return `<p class="fil-vide">Aucune actualité géopolitique ou de marché retenue sur la période. Le fil garde les
+      articles qui touchent l'univers suivi : les actifs détenus (or, quantique, crypto),
+      ce qui les influence (pétrole, dollar, taux, inflation, banques centrales, actions et
+      technologie, semi-conducteurs, matières premières, banques et crédit) et la géopolitique
+      au sens large (conflits, sanctions, accords, élections, tensions commerciales).</p>`;
   }
   return `<p class="fil-vide">Aucune actualité disponible.</p>`;
 }
