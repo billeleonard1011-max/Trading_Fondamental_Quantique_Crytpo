@@ -405,6 +405,33 @@ button.aide:hover { color: var(--texte); border-color: var(--texte); }
   display: flex; justify-content: space-between; align-items: baseline;
   gap: 8px; font-weight: 600;
 }
+/* Sens du trade : la première chose à voir sur la carte. */
+.trading-sens { font-size: 15px; letter-spacing: 0.01em; }
+.trading-sens--achat { color: var(--positif); }
+.trading-sens--vente { color: var(--negatif); }
+
+.trading-contexte { margin: 6px 0 0; }
+
+/* Niveaux d'exécution : une ligne par niveau, prix alignés à droite en
+   chiffres tabulaires pour que les décimales se superposent. */
+.trading-niveaux {
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  border: 1px solid var(--trait);
+  border-radius: var(--rayon);
+  background: var(--fond-creux);
+}
+.trading-niveau { display: flex; justify-content: space-between; gap: 12px; padding: 1px 0; }
+.trading-niveau dt { margin: 0; color: var(--texte-doux); }
+.trading-niveau dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+  font-weight: 500;
+}
+.trading-niveau--entree dd, .trading-niveau--stop dd { font-weight: 600; }
+.trading-niveau--stop dd { color: var(--negatif); }
+
 .trading-variantes { list-style: none; padding: 0; margin: 8px 0 0;
   display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .trading-variante {

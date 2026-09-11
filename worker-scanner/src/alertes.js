@@ -114,9 +114,108 @@ function rendreZones(paliers) {
 function rendreFvg(evenement) {
   const { fvgBas, fvgHaut, timeframeFvg } = evenement;
   if (typeof fvgBas !== "number" || typeof fvgHaut !== "number") {
+    // Cas réel : les signaux journalisés avant l'ajout des colonnes fvg_haut
+    // et fvg_bas (10 septembre 2026) n'ont jamais porté ce niveau. Le dire
+    // plutôt que de le recalculer après coup — une zone reconstruite avec le
+    // code d'aujourd'hui ne serait pas celle qui a confirmé ce signal-là.
     return `un écart de valeur (FVG) en ${timeframeFvg}, dont le niveau n'a pas été journalisé`;
   }
-  return `un écart de valeur (FVG) en ${timeframeFvg} entre ${fvgBas.toFixed(2)} et ${fvgHaut.toFixed(2)} $`;
+  return `un écart de valeur (FVG) en ${timeframeFvg} [${fvgBas.toFixed(2)}, ${fvgHaut.toFixed(2)}] $`;
+}
+
+/** Libellé court de la variante qui porte chaque objectif : sans lui, quatre
+ * nombres alignés ne veulent plus rien dire. */
+const LIBELLE_COURT_VARIANTE = {
+  a: "structurel",
+  b15: "1:1,5",
+  b2: "1:2",
+  b3: "1:3",
+  s1: "0,72 du mouvement de référence",
+  s3: "niveau structurel",
+};
+
+/** Variantes dont l'objectif tient en un prix, par setup, dans l'ordre des TP.
+ *
+ * La variante à paliers de chaque setup (`c`, `s2`) en est absente : elle ne
+ * vise pas un prix mais une suite de zones, détaillée dans son propre
+ * tableau. La faire figurer ici afficherait deux fois le même premier
+ * niveau, puisqu'elle partage sa première cible avec la variante
+ * structurelle.
+ */
+const VARIANTES_A_PRIX = {
+  order_block: ["a", "b15", "b2", "b3"],
+  sweep: ["s1", "s3"],
+};
+
+/**
+ * Énumère les niveaux d'exécution d'un signal, dans l'ordre d'affichage.
+ *
+ * Donnée structurée, pas une phrase : c'est le site (et le journal du
+ * Worker) qui la met en liste. Les libellés sont des constantes de ce
+ * module, comme les en-têtes du tableau des paliers — ils ne passent donc
+ * pas par le garde-fou anti-recommandation, qui contrôle la prose générée.
+ *
+ * Le prix d'entrée est libellé « Prix d'entrée » et non « point d'entrée » :
+ * cette dernière formulation figure dans les motifs interdits
+ * (`recommandation.js`), et affaiblir ce garde-fou pour un libellé serait un
+ * mauvais échange. Le sens est le même, le mot est factuel.
+ *
+ * @param {object} entree Événement d'entrée, ou signal mis en forme par api.js.
+ * @returns {Array<{cle: string, libelle: string, prix: number|null}>} Niveaux,
+ *   `prix` valant `null` quand la variante n'a pas d'objectif pour ce signal.
+ */
+export function niveauxExecution(entree) {
+  const setup = entree.setup === "sweep" ? "sweep" : "order_block";
+  const objectifs = entree.objectifs || {};
+  const niveaux = [
+    { cle: "entree", libelle: "Prix d'entrée", prix: entree.prixEntree },
+    { cle: "stop", libelle: "Stop loss", prix: entree.stop },
+  ];
+  VARIANTES_A_PRIX[setup].forEach((variante, rang) => {
+    const prix = objectifs[variante];
+    niveaux.push({
+      cle: variante,
+      libelle: `TP${rang + 1} (${LIBELLE_COURT_VARIANTE[variante]})`,
+      prix: typeof prix === "number" ? prix : null,
+    });
+  });
+  return niveaux;
+}
+
+/**
+ * Rend le contexte du setup, en une phrase : ce qui a été détecté, quand, et
+ * sur quelles zones. Les niveaux d'exécution n'y figurent pas — ils sont
+ * listés à part (voir {@link niveauxExecution}), parce que six prix noyés
+ * dans un paragraphe ne se lisent pas d'un coup d'œil.
+ *
+ * @param {object} entree Événement d'entrée.
+ * @returns {string} La phrase, au conditionnel passé.
+ */
+export function contexteEntree(entree) {
+  // Accord en genre : « un achat … détecté », « une vente … détectée ».
+  const achat = entree.sens === "haussier";
+  const sensTexte = achat ? "un achat" : "une vente";
+  const accord = achat ? "détecté" : "détectée";
+  return (
+    `D'après la mécanique suivie, ${sensTexte} aurait été ${accord} le ` +
+    `${horodatage(entree.horodatageDetection)}, ${rendreDeclencheur(entree)}, ` +
+    `confirmé par ${rendreFvg(entree)}.`
+  );
+}
+
+/**
+ * Met les niveaux d'exécution en lignes, pour les journaux du Worker (texte
+ * brut). Le site, lui, les rend en liste à partir de la même donnée.
+ *
+ * @param {object} entree Événement d'entrée.
+ * @returns {string} Une ligne par niveau, précédée d'un saut de ligne.
+ */
+function rendreNiveauxTexte(entree) {
+  const niveaux = niveauxExecution(entree);
+  const largeur = Math.max(...niveaux.map((n) => n.libelle.length));
+  return niveaux
+    .map((n) => `\n  ${n.libelle.padEnd(largeur)} : ${n.prix === null ? "non disponible pour ce signal" : `${n.prix.toFixed(2)} $`}`)
+    .join("");
 }
 
 /**
@@ -135,12 +234,6 @@ function horodatage(ms) {
  * @returns {string} Texte au conditionnel passé, jamais à l'impératif.
  */
 export function rendreAlerteEntree(entree) {
-  // Accord en genre : « un achat … détecté », « une vente … détectée ».
-  const achat = entree.sens === "haussier";
-  const sensTexte = achat ? "un achat" : "une vente";
-  const accord = achat ? "détecté" : "détectée";
-  const objectifs = rendreObjectifs(entree);
-
   // Pas de phrase de dénégation finale ("ceci n'est pas une recommandation") :
   // écrire ce mot pour le nier le fait détecter par le garde-fou lui-même
   // (vérifié en écrivant le test — voir modules/quantum/moves.py, où le
@@ -148,14 +241,12 @@ export function rendreAlerteEntree(entree) {
   // au conditionnel du début à la fin, sans qu'aucun mot du champ lexical
   // interdit n'y figure ; l'avertissement permanent de l'onglet Trading
   // (partie 4) porte la mise en garde une fois pour toutes, pas ce texte.
+  // Les zones commencent par une espace (elles se suivent en prose dans le
+  // texte public) : en liste, elles prennent leur propre ligne.
+  const zones = rendreZones(entree.paliers).replace(/^ /, "\n  ");
   return (
-    `D'après la mécanique suivie, ${sensTexte} aurait été ${accord} à ` +
-    `${entree.prixEntree.toFixed(2)} $ le ${horodatage(entree.horodatageDetection)}, ` +
-    `${rendreDeclencheur(entree)}, ` +
-    `confirmé par ${rendreFvg(entree)}. ` +
-    `Stop de la mécanique : ${entree.stop.toFixed(2)} $. Objectifs suivis : ${objectifs}.` +
-    `${rendreZones(entree.paliers)} ` +
-    `Taille correspondant au risque suivi : ${entree.lots} lot(s).`
+    `${contexteEntree(entree)}${rendreNiveauxTexte(entree)}${zones}` +
+    `\n  Taille correspondant au risque suivi : ${entree.lots} lot(s).`
   );
 }
 
@@ -190,20 +281,12 @@ export function rendreAlerteResolution(resolution) {
  * @returns {string} Texte au conditionnel passé, jamais à l'impératif.
  */
 export function rendrePublicEntree(entree) {
-  // Accord en genre : « un achat … détecté », « une vente … détectée ».
-  const achat = entree.sens === "haussier";
-  const sensTexte = achat ? "un achat" : "une vente";
-  const accord = achat ? "détecté" : "détectée";
-  const objectifs = rendreObjectifs(entree);
-
-  return (
-    `D'après la mécanique suivie, ${sensTexte} aurait été ${accord} à ` +
-    `${entree.prixEntree.toFixed(2)} $ le ${horodatage(entree.horodatageDetection)}, ` +
-    `${rendreDeclencheur(entree)}, ` +
-    `confirmé par ${rendreFvg(entree)}. ` +
-    `Stop de la mécanique : ${entree.stop.toFixed(2)} $. Objectifs suivis : ${objectifs}.` +
-    `${rendreZones(entree.paliers)}`
-  );
+  // Les niveaux d'exécution ne sont plus dans cette phrase : la route les
+  // publie en données structurées (`niveaux`, voir api.js) et le site les
+  // met en liste. Les zones de liquidité restent citées ici, en plus de leur
+  // tableau, parce qu'elles portent une lecture (quelle liquidité est visée)
+  // que la seule colonne de prix ne donne pas.
+  return `${contexteEntree(entree)}${rendreZones(entree.paliers)}`;
 }
 
 /**

@@ -216,3 +216,26 @@ test("le solde sorti à break-even est journalisé comme tel, pas comme un stop"
     .prepare("SELECT * FROM paliers WHERE id_signal = ? AND rang = 2").bind("entree-be").first();
   assert.equal(ligne.motif_sortie, "break_even");
 });
+
+
+test("insererEntree persiste les deux bornes du FVG, que l'alerte affiche ensuite", async () => {
+  // Le défaut constaté en production : les signaux du 10 septembre 2026
+  // affichaient « niveau non journalisé ». Ils précédaient l'ajout des
+  // colonnes ; ce test fige que le code d'aujourd'hui les écrit bien.
+  const db = creerD1Test(SCHEMA);
+  await insererEntree(db, entreeExemple("avec-fvg"));
+  const ligne = await db.prepare("SELECT fvg_haut, fvg_bas, timeframe_fvg FROM journal WHERE id = ?")
+    .bind("avec-fvg").first();
+  assert.equal(ligne.fvg_haut, 2998.4);
+  assert.equal(ligne.fvg_bas, 2997.5);
+  assert.equal(ligne.timeframe_fvg, "M5");
+});
+
+test("un setup sans FVG journalisé écrit null, jamais zéro", async () => {
+  const db = creerD1Test(SCHEMA);
+  const entree = { ...entreeExemple("sans-fvg"), fvgHaut: null, fvgBas: null };
+  await insererEntree(db, entree);
+  const ligne = await db.prepare("SELECT fvg_haut, fvg_bas FROM journal WHERE id = ?").bind("sans-fvg").first();
+  assert.equal(ligne.fvg_haut, null);
+  assert.equal(ligne.fvg_bas, null);
+});

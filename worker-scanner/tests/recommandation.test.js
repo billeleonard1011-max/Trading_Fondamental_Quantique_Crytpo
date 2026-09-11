@@ -90,7 +90,7 @@ test("rendreAlerteEntree dit explicitement quand l'objectif structurel manque", 
   const entree = entreeExemple();
   entree.objectifs.a = null;
   const texte = rendreAlerteEntree(entree);
-  assert.match(texte, /structurel non disponible/);
+  assert.match(texte, /TP1 \(structurel\)\s+: non disponible pour ce signal/);
   assert.deepEqual(verifierAbsenceRecommandation({ texte }), []);
 });
 
@@ -116,7 +116,7 @@ test("rendreEvenement expose les infractions plutôt que de les corriger silenci
 // ---------------------------------------------------------------------------
 test("l'alerte donne le prix du FVG, pas seulement son unité", () => {
   const texte = rendrePublicEntree(entreeExemple());
-  assert.match(texte, /FVG\) en M5 entre 2997\.50 et 2998\.40 \$/);
+  assert.match(texte, /FVG\) en M5 \[2997\.50, 2998\.40\] \$/);
 });
 
 test("l'alerte dit explicitement quand le niveau du FVG manque, sans l'inventer", () => {
@@ -166,7 +166,7 @@ test("l'alerte publique enrichie ne laisse toujours pas fuiter la taille de posi
 
 test("le texte accorde le participe avec le genre du sens", () => {
   const achat = rendrePublicEntree(entreeExemple());
-  assert.match(achat, /un achat aurait été détecté à/);
+  assert.match(achat, /un achat aurait été détecté le/);
   const vente = rendrePublicEntree({ ...entreeExemple(), sens: "baissier" });
-  assert.match(vente, /une vente aurait été détectée à/);
+  assert.match(vente, /une vente aurait été détectée le/);
 });

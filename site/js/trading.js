@@ -19,6 +19,7 @@ import { chargerJson } from "./donnees.js";
 import { ABSENT, dateHeure, echapper, nombre, pourcent } from "./format.js";
 import { champsInterdits, rendreBadge, rendreIndisponible } from "./rendu.js";
 import { installerTheme } from "./theme.js";
+import { niveauxExecution } from "../../worker-scanner/src/alertes.js";
 import { verifierAbsenceRecommandation } from "../../worker-scanner/src/recommandation.js";
 
 /** Les variantes de TP suivies, dans l'ordre d'affichage : cinq pour le
@@ -266,6 +267,43 @@ export function rendrePaliers(paliers) {
 }
 
 /**
+ * Rend les niveaux d'exécution d'un signal, en liste.
+ *
+ * Prose et niveaux sont séparés : le contexte du setup (quelles zones, quand)
+ * se lit en une phrase, les six prix qui décident de l'exécution se lisent
+ * d'un coup d'œil. Les libellés viennent du Worker
+ * (`worker-scanner/src/alertes.js::niveauxExecution`), pour que le site et
+ * les journaux nomment les mêmes choses de la même façon.
+ *
+ * @param {object} signal Signal renvoyé par /journal.
+ * @returns {string} HTML de la liste, vide si aucun niveau n'est connu.
+ */
+export function rendreNiveaux(signal) {
+  // La route publie `niveaux` ; le repli couvre une réponse plus ancienne,
+  // servie par un Worker pas encore redéployé.
+  const niveaux = Array.isArray(signal.niveaux) && signal.niveaux.length
+    ? signal.niveaux
+    : niveauxExecution({
+        setup: signal.setup,
+        prixEntree: signal.prix_entree,
+        stop: signal.stop,
+        objectifs: Object.fromEntries(
+          VARIANTES.map((v) => [v, (signal.variantes && signal.variantes[v] && signal.variantes[v].objectif) ?? null]),
+        ),
+      });
+  // Une variante sans objectif garde sa ligne, avec le tiret des valeurs
+  // absentes : la faire disparaître laisserait croire qu'elle n'est pas
+  // suivie, alors qu'elle l'est — son statut « sans objectif » figure juste
+  // en dessous.
+  const lignes = niveaux
+    .map((n) => `<div class="trading-niveau trading-niveau--${echapper(n.cle)}">
+      <dt>${echapper(n.libelle)}</dt>
+      <dd>${n.prix === null || n.prix === undefined ? ABSENT : `${nombre(n.prix, 2)} $`}</dd>
+    </div>`).join("");
+  return lignes ? `<dl class="trading-niveaux">${lignes}</dl>` : "";
+}
+
+/**
  * Rend le fil des signaux détectés, du plus récent au plus ancien.
  *
  * @param {Array<object>} signaux Signaux renvoyés par /journal.
@@ -296,13 +334,16 @@ export function rendreFilAlertes(signaux, limite = 30) {
       </li>`;
     }).join("");
 
+    const achat = s.sens === "haussier";
     return `<li class="fil-item trading-signal">
       <div class="trading-signal-entete">
-        <span>${echapper(s.sens === "haussier" ? "Achat" : "Vente")} — ${declencheur}
+        <span><strong class="trading-sens trading-sens--${achat ? "achat" : "vente"}">${
+          achat ? "Achat" : "Vente"}</strong> — ${declencheur}
           <span class="badge badge--neutre">${echapper(LIBELLE_SETUP[setup] || setup)}</span></span>
         <span class="fil-meta">${echapper(dateHeure(s.horodatage_detection_utc))}</span>
       </div>
-      <p>${detection ? echapper(detection) : "Texte de détection indisponible."}</p>
+      <p class="trading-contexte">${detection ? echapper(detection) : "Texte de détection indisponible."}</p>
+      ${rendreNiveaux(s)}
       ${rendrePaliers(s.paliers)}
       <ul class="trading-variantes">${variantesHtml}</ul>
     </li>`;

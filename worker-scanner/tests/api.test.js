@@ -184,18 +184,66 @@ test("le texte de résolution d'une sortie par paliers décrit chaque tranche", 
   assert.deepEqual(verifierAbsenceRecommandation({ texte }), []);
 });
 
-test("l'alerte publie le niveau du FVG et les zones visées", () => {
+test("l'alerte publie le niveau du FVG, entre crochets comme l'order block", () => {
   const reponse = construireReponseJournal([ligneExemple()], null, paliersExemple());
   const signal = reponse.signaux[0];
   assert.equal(signal.fvg_haut, 2998.4);
-  assert.match(signal.texte_detection, /entre 2997\.50 et 2998\.40 \$/);
+  assert.match(signal.texte_detection, /\(FVG\) en M5 \[2997\.50, 2998\.40\] \$/);
   assert.match(signal.texte_detection, /haut de la veille à 3012\.00 \$/);
+});
+
+test("un signal antérieur aux colonnes du FVG le dit, au lieu d'inventer un niveau", () => {
+  const ligne = { ...ligneExemple(), fvg_haut: null, fvg_bas: null };
+  const signal = construireReponseJournal([ligne], null, []).signaux[0];
+  assert.match(signal.texte_detection, /n'a pas été journalisé/);
+  assert.doesNotMatch(signal.texte_detection, /\[null/);
+});
+
+test("les niveaux d'exécution sont publiés en liste structurée, libellés par variante", () => {
+  const signal = construireReponseJournal([ligneExemple()], null, []).signaux[0];
+  assert.deepEqual(
+    signal.niveaux.map((n) => n.libelle),
+    ["Prix d'entrée", "Stop loss", "TP1 (structurel)", "TP2 (1:1,5)", "TP3 (1:2)", "TP4 (1:3)"],
+  );
+  assert.equal(signal.niveaux[0].prix, signal.prix_entree);
+  assert.equal(signal.niveaux[1].prix, signal.stop);
+  assert.equal(signal.niveaux[2].prix, signal.variantes.a.objectif);
+  // La variante à paliers vise une suite de zones, pas un prix : elle a son
+  // propre tableau et n'apparaît pas deux fois dans la liste.
+  assert.ok(!signal.niveaux.some((n) => n.cle === "c"));
+});
+
+test("un sweep liste ses propres variantes, jamais celles de l'order block", () => {
+  const niveaux = niveauxExecution(entreeSweep());
+  assert.deepEqual(
+    niveaux.map((n) => n.libelle),
+    ["Prix d'entrée", "Stop loss", "TP1 (0,72 du mouvement de référence)", "TP2 (niveau structurel)"],
+  );
+  assert.equal(niveaux[2].prix, 4431.7);
+});
+
+test("une variante sans objectif affiche son absence, pas un prix inventé", () => {
+  const ligne = { ...ligneExemple(), tp_a: null, statut_a: "sans_objectif" };
+  const signal = construireReponseJournal([ligne], null, []).signaux[0];
+  const tp1 = signal.niveaux.find((n) => n.cle === "a");
+  assert.equal(tp1.prix, null);
+});
+
+test("les libellés des niveaux ne déclenchent pas le garde-fou anti-recommandation", () => {
+  // « point d'entrée » est un motif interdit : le libellé retenu est « Prix
+  // d'entrée », factuel et hors du champ lexical de la recommandation.
+  for (const entree of [ligneExemple(), entreeSweep()]) {
+    const niveaux = niveauxExecution(entree.setup ? entree : { ...entree, prixEntree: 1, stop: 2, objectifs: {} });
+    for (const n of niveaux) {
+      assert.equal(verifierAbsenceRecommandation({ libelle: n.libelle }).length, 0, n.libelle);
+    }
+  }
 });
 
 // ---------------------------------------------------------------------------
 // Setup sweep : le signal dit d'où il vient
 // ---------------------------------------------------------------------------
-import { rendreAlerteEntree, rendreEvenementPublic } from "../src/alertes.js";
+import { niveauxExecution, rendreAlerteEntree, rendreEvenementPublic } from "../src/alertes.js";
 
 function entreeSweep() {
   return {
@@ -221,8 +269,8 @@ test("l'alerte d'un sweep dit quel niveau a été balayé, quand il s'est formé
   assert.match(texte, /balayage d'un ancien plus bas M15 à 4412\.10 \$/);
   assert.match(texte, /formé le 2026-09-10 09:15 UTC/);
   assert.match(texte, /mèche du sweep à 4410\.30 \$/);
-  assert.match(texte, /0,72 du mouvement de référence à 4431\.70 \$/);
-  assert.match(texte, /niveau structurel seul à 4438\.00 \$/);
+  assert.match(texte, /TP1 \(0,72 du mouvement de référence\) : 4431\.70 \$/);
+  assert.match(texte, /TP2 \(niveau structurel\)\s+: 4438\.00 \$/);
   assert.match(texte, /ancien plus haut non balayé/);
   assert.doesNotMatch(texte, /order block M15 \[/, "un sweep ne se présente pas comme un order block");
   assert.doesNotMatch(texte, /fibonacci_0_72|niveau_haut/, "aucun identifiant technique brut");

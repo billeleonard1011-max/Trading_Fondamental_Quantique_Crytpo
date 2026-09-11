@@ -37,7 +37,7 @@ import { EXPLICATIONS, libelle } from "../js/libelles.js";
 import {
   agregerParMois, agregerSignaux, avertissementEchantillon, cleMois, estResolue,
   extraireMetriquesBacktest, libelleStatut, rendreComparaisonBacktest, rendreFilAlertes,
-  rendrePaliers, rendreTableauBordMensuel, texteSurAudite, tonStatut, VARIANTES, VARIANTES_PAR_SETUP,
+  rendreNiveaux, rendrePaliers, rendreTableauBordMensuel, texteSurAudite, tonStatut, VARIANTES, VARIANTES_PAR_SETUP,
 } from "../js/trading.js";
 
 /** Charge un rapport réel du dépôt. */
@@ -629,6 +629,68 @@ test("VARIANTES couvre les cinq variantes du setup order block et les trois du s
   assert.deepEqual(VARIANTES_PAR_SETUP.order_block, ["a", "b15", "b2", "b3", "c"]);
   assert.deepEqual(VARIANTES_PAR_SETUP.sweep, ["s1", "s2", "s3"]);
   assert.deepEqual([...VARIANTES_PAR_SETUP.order_block, ...VARIANTES_PAR_SETUP.sweep], VARIANTES);
+});
+
+test("les niveaux d'exécution s'affichent en liste, un prix par ligne, libellés par variante", () => {
+  const signal = {
+    setup: "order_block", prix_entree: 4401.88, stop: 4412.61,
+    niveaux: [
+      { cle: "entree", libelle: "Prix d'entrée", prix: 4401.88 },
+      { cle: "stop", libelle: "Stop loss", prix: 4412.61 },
+      { cle: "a", libelle: "TP1 (structurel)", prix: 4396.86 },
+      { cle: "b15", libelle: "TP2 (1:1,5)", prix: 4385.79 },
+    ],
+  };
+  const html = rendreNiveaux(signal);
+  assert.match(html, /<dl class="trading-niveaux">/);
+  assert.match(html, /<dt>Prix d&#39;entrée<\/dt>\s*<dd>4\s401,88 \$<\/dd>/);
+  assert.match(html, /<dt>TP1 \(structurel\)<\/dt>/);
+  assert.match(html, /<dt>TP2 \(1:1,5\)<\/dt>/);
+  // Sans le libellé de variante, quatre nombres alignés ne veulent plus rien dire.
+  assert.doesNotMatch(html, /<dt>TP1<\/dt>/);
+  assert.doesNotMatch(html, /undefined/);
+});
+
+test("les niveaux se déduisent du signal quand la route ne les publie pas encore", () => {
+  const signal = {
+    setup: "order_block", prix_entree: 3000.0, stop: 2994.0,
+    variantes: { a: { objectif: 3010.0 }, b15: { objectif: 3009.0 }, b2: { objectif: 3012.0 }, b3: { objectif: 3018.0 } },
+  };
+  const html = rendreNiveaux(signal);
+  assert.match(html, /Prix d&#39;entrée<\/dt>\s*<dd>3\s000,00 \$/);
+  assert.match(html, /TP3 \(1:2\)<\/dt>\s*<dd>3\s012,00 \$/);
+});
+
+test("une variante sans objectif affiche l'absence, jamais un zéro trompeur", () => {
+  const html = rendreNiveaux({
+    setup: "order_block", prix_entree: 3000.0, stop: 2994.0,
+    niveaux: [
+      { cle: "entree", libelle: "Prix d'entrée", prix: 3000.0 },
+      { cle: "stop", libelle: "Stop loss", prix: 2994.0 },
+      { cle: "a", libelle: "TP1 (structurel)", prix: null },
+    ],
+  });
+  assert.match(html, /TP1 \(structurel\)<\/dt>\s*<dd>—<\/dd>/);
+  // Le zéro trompeur serait sur la ligne du TP, pas sur celles de l'entrée
+  // et du stop, qui valent bien 3 000,00 et 2 994,00 $.
+  assert.doesNotMatch(html, /TP1 \(structurel\)<\/dt>\s*<dd>0,00/);
+});
+
+test("la carte d'un signal met le sens en évidence et sépare contexte et niveaux", () => {
+  const signal = {
+    id: "x", setup: "order_block", sens: "baissier", timeframe_ob: "M15",
+    horodatage_detection_utc: "2026-09-10T08:33:00Z",
+    texte_detection: "D'après la mécanique suivie, une vente aurait été détectée le 2026-09-10 08:33 UTC.",
+    prix_entree: 4401.88, stop: 4412.61, paliers: [],
+    niveaux: [{ cle: "entree", libelle: "Prix d'entrée", prix: 4401.88 }, { cle: "stop", libelle: "Stop loss", prix: 4412.61 }],
+    variantes: { a: { statut: "ouvert", texte: null } },
+  };
+  const html = rendreFilAlertes([signal]);
+  assert.match(html, /class="trading-sens trading-sens--vente">Vente</);
+  assert.match(html, /class="trading-contexte"/);
+  assert.match(html, /class="trading-niveaux"/);
+  // Le contexte reste en prose, les prix n'y sont plus noyés.
+  assert.doesNotMatch(html, /trading-contexte">[^<]*4 401,88/);
 });
 
 test("un signal sweep se présente comme un balayage, avec ses seules variantes", () => {

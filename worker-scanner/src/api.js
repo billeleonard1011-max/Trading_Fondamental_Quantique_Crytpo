@@ -11,7 +11,7 @@
  * à l'affichage.
  */
 
-import { rendreEvenementPublic } from "./alertes.js";
+import { niveauxExecution, rendreEvenementPublic } from "./alertes.js";
 
 const VARIANTES = ["a", "b15", "b2", "b3", "c", "s1", "s2", "s3"];
 
@@ -182,6 +182,9 @@ export function construireReponseJournal(lignes, derniereExecutionMs, lignesPali
       fvg_bas: entree.fvgBas,
       prix_entree: entree.prixEntree,
       stop: entree.stop,
+      // Niveaux d'exécution en données structurées : le site les affiche en
+      // liste sans reconstruire les libellés de variante de son côté.
+      niveaux: niveauxExecution(entree),
       paliers: detailPaliers,
       horodatage_resolution_utc: ligne.horodatage_resolution
         ? new Date(ligne.horodatage_resolution).toISOString()
