@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-11",
-    "horodatage_utc": "2026-09-11T21:59:48.230482+00:00",
+    "horodatage_utc": "2026-09-11T22:23:22.653430+00:00",
     "instrument": "XAUUSD",
     "version_moteur": "2.1",
     "sources_en_echec": [],
@@ -18,7 +18,7 @@
     "variation_20j_pct": -1.0070517210006846,
     "_meta": {
       "source": "GC=F (yfinance)",
-      "horodatage_collecte_utc": "2026-09-11T21:46:56.376316+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:10:15.251164+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 1
     },
@@ -69,7 +69,7 @@
     "unite_prix": "USD par once",
     "_meta": {
       "source": "GC=F (yfinance) + FRED DFII10/DTWEXBGS",
-      "horodatage_collecte_utc": "2026-09-11T21:47:02.500885+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:10:18.975395+00:00",
       "date_donnee": "2026-09-10",
       "age_jours": 1
     }
@@ -90,7 +90,7 @@
     "lecture": "Managed money net à +134,972 contrats, soit le 72e percentile sur 260 semaines : positionnement acheteur nourri, sans être extrême. Donnée vieille de 3 jour(s).",
     "_meta": {
       "source": "api_socrata",
-      "horodatage_collecte_utc": "2026-09-11T21:47:03.151721+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:10:19.555774+00:00",
       "date_donnee": "2026-09-08",
       "age_jours": 3
     }
@@ -98,7 +98,7 @@
   "flux": {
     "_meta": {
       "source": "yfinance + SPDR (tentative)",
-      "horodatage_collecte_utc": "2026-09-11T21:47:05.581981+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:10:20.991092+00:00",
       "date_donnee": null,
       "age_jours": null
     },
@@ -163,10 +163,10 @@
   },
   "calendrier": {
     "disponible": true,
-    "horodatage_calcul_utc": "2026-09-11T21:47:05.582113+00:00",
+    "horodatage_calcul_utc": "2026-09-11T22:10:20.991224+00:00",
     "fenetre_silence_minutes": 120,
     "en_fenetre_de_silence": false,
-    "commentaire": "Prochaine échéance : Décision de politique monétaire (FOMC) avec projections économiques dans 116 heure(s).",
+    "commentaire": "Prochaine échéance : Décision de politique monétaire (FOMC) avec projections économiques dans 115 heure(s).",
     "avertissement_heures": "FRED ne publie que la date, jamais l'heure. Les heures affichées sont les heures officielles d'usage (fuseau de New York) : elles sont conventionnelles, pas garanties.",
     "horizon_couvert_jusquau": "2027-12-08",
     "n_reunions_a_venir_connues": 11,
@@ -191,8 +191,8 @@
         "horodatage_utc": "2026-09-16T18:00:00+00:00",
         "date": "2026-09-16",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 6972,
-        "jours_restants": 4.84,
+        "minutes_restantes": 6949,
+        "jours_restants": 4.83,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -202,8 +202,8 @@
         "horodatage_utc": "2026-09-30T12:30:00+00:00",
         "date": "2026-09-30",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 26802,
-        "jours_restants": 18.61,
+        "minutes_restantes": 26779,
+        "jours_restants": 18.6,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 54"
@@ -213,8 +213,8 @@
         "horodatage_utc": "2026-10-02T12:30:00+00:00",
         "date": "2026-10-02",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 29682,
-        "jours_restants": 20.61,
+        "minutes_restantes": 29659,
+        "jours_restants": 20.6,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 50"
@@ -224,8 +224,8 @@
         "horodatage_utc": "2026-10-14T12:30:00+00:00",
         "date": "2026-10-14",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 46962,
-        "jours_restants": 32.61,
+        "minutes_restantes": 46939,
+        "jours_restants": 32.6,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 10"
@@ -235,8 +235,8 @@
         "horodatage_utc": "2026-10-28T18:00:00+00:00",
         "date": "2026-10-28",
         "heure_locale_new_york": "14:00",
-        "minutes_restantes": 67452,
-        "jours_restants": 46.84,
+        "minutes_restantes": 67429,
+        "jours_restants": 46.83,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "calendrier officiel de la Réserve fédérale"
@@ -246,8 +246,8 @@
         "horodatage_utc": "2026-10-29T12:30:00+00:00",
         "date": "2026-10-29",
         "heure_locale_new_york": "08:30",
-        "minutes_restantes": 68562,
-        "jours_restants": 47.61,
+        "minutes_restantes": 68539,
+        "jours_restants": 47.6,
         "heure_conventionnelle": true,
         "impact_or": "fort",
         "source": "FRED release 54"
@@ -255,7 +255,7 @@
     ],
     "_meta": {
       "source": "FRED releases + FOMC (federalreserve.gov)",
-      "horodatage_collecte_utc": "2026-09-11T21:47:06.714424+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:10:21.803556+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
@@ -367,7 +367,7 @@
     },
     "_meta": {
       "source": "FRED (séries macro) + ETF sectoriels (rotation cyclique/défensif)",
-      "horodatage_collecte_utc": "2026-09-11T21:47:11.209519+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:10:24.879758+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
@@ -375,9 +375,9 @@
   "geopolitique": {
     "disponible": true,
     "motif": "",
-    "horodatage_utc": "2026-09-11T21:59:48.145229+00:00",
+    "horodatage_utc": "2026-09-11T22:23:22.554040+00:00",
     "source": "GDELT (DOC : narratif et couverture ; Events : activité bilatérale par acteur) + FRED (maillons macro)",
-    "n_dossiers_mesures": 6,
+    "n_dossiers_mesures": 7,
     "n_dossiers_configures": 8,
     "intensite_max": 1.9366954955514495,
     "dossier_dominant": "moyen_orient",
@@ -395,22 +395,22 @@
         ],
         "disponible": true,
         "motif": "",
-        "intensite_ratio": 1.0215319795213482,
-        "volume_24h": 2876.0,
+        "intensite_ratio": 1.1518874164074175,
+        "volume_24h": 3243.0,
         "trajectoire": "en accélération",
         "anciennete_jours": 3,
-        "n_evenements_bilateraux": 373,
+        "n_evenements_bilateraux": 379,
         "motif_events": "",
         "exemple_evenement": {
-          "code_evenement": "180",
-          "goldstein": -9.0,
-          "tonalite": -7.93650793650793,
-          "source_url": "https://english.wafa.ps/Pages/Details/174617"
+          "code_evenement": "0356",
+          "goldstein": 7.0,
+          "tonalite": -4.14617006324666,
+          "source_url": "https://truthout.org/articles/gazans-feel-despair-as-israeli-officials-cement-plans-for-permanent-occupation/"
         },
         "developpements_recents": [],
         "n_nouveaux_developpements": 0,
         "nouveaux_developpements": [],
-        "etat_actuel": "Couverture à 1.0× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 3 jour(s) consécutif(s). Aucun article récent trouvé sur ce dossier.",
+        "etat_actuel": "Couverture à 1.2× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 3 jour(s) consécutif(s). Aucun article récent trouvé sur ce dossier.",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "canal": "petrole",
@@ -419,7 +419,7 @@
               "libelle": "Intensité de couverture du thème le plus actif",
               "disponible": true,
               "motif": "",
-              "valeur": 1.0215319795213482,
+              "valeur": 1.1518874164074175,
               "unite_variation": "× la normale",
               "variation": null
             },
@@ -475,32 +475,32 @@
           "motif": "z-score de juste valeur indisponible ou non fiable",
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
-        "invalidation": "Cette lecture s'appuie sur une couverture de 1.0× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (2/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
+        "invalidation": "Cette lecture s'appuie sur une couverture de 1.2× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (2/4 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
         "type": "conflit",
         "canal": "petrole",
         "epingle": false,
         "pertinence": {
           "disponible": true,
           "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 9,
+          "n_observations": 22,
+          "n_pics": 6,
           "min_observations": 20,
           "min_pics": 3,
           "ratios": {
-            "petrole": 0.87,
-            "taux_reels": 1.39,
-            "vix": 1.45,
-            "or": 1.63
+            "petrole": 1.37,
+            "taux_reels": 1.08,
+            "vix": 0.98,
+            "or": 0.88
           },
-          "score": 1.42,
+          "score": 1.03,
           "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,42 fois plus que les autres jours (le pétrole 0,87, les taux réels 1,39, le VIX 1,45, l'or 1,63), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "fiabilite": "faible",
+          "commentaire": "Sur 22 séances communes, les 6 jours de pic de couverture voient les actifs bouger 1,03 fois plus que les autres jours (le pétrole 1,37, les taux réels 1,08, le VIX 0,98, l'or 0,88), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net. Fiabilité faible : 22 séances et 6 pics seulement, ce qui rend ce classement révisable à la prochaine mesure.",
           "motif": ""
         },
         "classement": {
           "statut": "veille",
-          "rang": 1,
+          "rang": 5,
           "donnees_suffisantes": true,
           "historique": {
             "jours_observes": 0,
@@ -521,15 +521,15 @@
               "PSE"
             ],
             "libelle": "Israel – Palestinian",
-            "n_evenements": 204,
-            "mentions": 738,
-            "part": 0.0392,
-            "goldstein_moyen": -7.52
+            "n_evenements": 205,
+            "mentions": 739,
+            "part": 0.0394,
+            "goldstein_moyen": -7.53
           }
         ],
-        "reprise": true,
-        "mesure_du": "2026-09-11",
-        "age_mesure_jours": 0
+        "reprise": false,
+        "mesure_du": "",
+        "age_mesure_jours": null
       },
       {
         "id": "iran_etats_unis",
@@ -547,13 +547,13 @@
         "volume_24h": 5829.0,
         "trajectoire": "en accélération",
         "anciennete_jours": 3,
-        "n_evenements_bilateraux": 491,
+        "n_evenements_bilateraux": 496,
         "motif_events": "",
         "exemple_evenement": {
-          "code_evenement": "1712",
-          "goldstein": -9.2,
-          "tonalite": -5.72390572390573,
-          "source_url": "https://www.sott.net/article/508345-Multiple-US-military-aircraft-damaged-in-Iranian-strikes-on-military-base-in-Jordan"
+          "code_evenement": "111",
+          "goldstein": -2.0,
+          "tonalite": -7.01298701298701,
+          "source_url": "https://hotair.com/john-s-2/2026/09/11/were-still-at-war-with-radical-islam-n3818899"
         },
         "developpements_recents": [],
         "n_nouveaux_developpements": 0,
@@ -648,7 +648,7 @@
         },
         "classement": {
           "statut": "veille",
-          "rang": 2,
+          "rang": 1,
           "donnees_suffisantes": true,
           "historique": {
             "jours_observes": 0,
@@ -669,10 +669,10 @@
               "USA"
             ],
             "libelle": "Iran – United States",
-            "n_evenements": 216,
-            "mentions": 822,
-            "part": 0.0415,
-            "goldstein_moyen": -6.28
+            "n_evenements": 223,
+            "mentions": 838,
+            "part": 0.0428,
+            "goldstein_moyen": -6.16
           }
         ],
         "reprise": true,
@@ -695,13 +695,13 @@
         "volume_24h": 9125.0,
         "trajectoire": "en accélération",
         "anciennete_jours": 3,
-        "n_evenements_bilateraux": 609,
+        "n_evenements_bilateraux": 611,
         "motif_events": "",
         "exemple_evenement": {
-          "code_evenement": "050",
-          "goldstein": 3.5,
-          "tonalite": -1.75246755489051,
-          "source_url": "https://www.clickondetroit.com/news/politics/2026/09/11/house-tees-up-vote-on-russia-sanctions-bill-but-prospects-for-passage-are-uncertain/"
+          "code_evenement": "180",
+          "goldstein": -9.0,
+          "tonalite": -5.23690773067332,
+          "source_url": "https://www.rigzone.com/news/wire/iea_says_ukraine_strikes_degrade_russian_oil_refining_sector-11-sep-2026-184597-article/"
         },
         "developpements_recents": [],
         "n_nouveaux_developpements": 0,
@@ -796,7 +796,7 @@
         },
         "classement": {
           "statut": "veille",
-          "rang": 5,
+          "rang": 9,
           "donnees_suffisantes": true,
           "historique": {
             "jours_observes": 0,
@@ -817,15 +817,15 @@
               "UKR"
             ],
             "libelle": "Russia – Ukraine",
-            "n_evenements": 287,
-            "mentions": 1242,
-            "part": 0.0551,
-            "goldstein_moyen": -7.58
+            "n_evenements": 289,
+            "mentions": 1254,
+            "part": 0.0555,
+            "goldstein_moyen": -7.59
           }
         ],
-        "reprise": false,
-        "mesure_du": "",
-        "age_mesure_jours": null
+        "reprise": true,
+        "mesure_du": "2026-09-11",
+        "age_mesure_jours": 0
       },
       {
         "id": "moyen_orient",
@@ -847,13 +847,13 @@
         "volume_24h": 4301.0,
         "trajectoire": "en accélération",
         "anciennete_jours": 3,
-        "n_evenements_bilateraux": 2065,
+        "n_evenements_bilateraux": 2078,
         "motif_events": "",
         "exemple_evenement": {
-          "code_evenement": "190",
-          "goldstein": -10.0,
-          "tonalite": -6.81145113524185,
-          "source_url": "https://www.navytimes.com/news/your-military/2026/09/11/the-us-militarys-next-significant-challenge-hiding/"
+          "code_evenement": "070",
+          "goldstein": 7.0,
+          "tonalite": -5.19902518277823,
+          "source_url": "https://slguardian.org/houthi-control-of-yemens-coast-threatens-a-global-energy-chokepoint/"
         },
         "developpements_recents": [],
         "n_nouveaux_developpements": 0,
@@ -948,7 +948,7 @@
         },
         "classement": {
           "statut": "veille",
-          "rang": 4,
+          "rang": 7,
           "donnees_suffisantes": true,
           "historique": {
             "jours_observes": 0,
@@ -963,9 +963,9 @@
           }
         },
         "sujets_rattaches": [],
-        "reprise": false,
-        "mesure_du": "",
-        "age_mesure_jours": null
+        "reprise": true,
+        "mesure_du": "2026-09-11",
+        "age_mesure_jours": 0
       },
       {
         "id": "politique_monetaire",
@@ -1063,7 +1063,7 @@
         },
         "classement": {
           "statut": "epingle",
-          "rang": 3,
+          "rang": 4,
           "donnees_suffisantes": true,
           "historique": {
             "jours_observes": 0,
@@ -1170,7 +1170,7 @@
         },
         "classement": {
           "statut": "epingle",
-          "rang": 6,
+          "rang": 10,
           "donnees_suffisantes": false,
           "historique": {
             "jours_observes": 0,
@@ -1185,9 +1185,9 @@
           }
         },
         "sujets_rattaches": [],
-        "reprise": false,
-        "mesure_du": "",
-        "age_mesure_jours": null
+        "reprise": true,
+        "mesure_du": "2026-09-11",
+        "age_mesure_jours": 0
       },
       {
         "id": "commerce_international",
@@ -1201,28 +1201,100 @@
           "trade restrictions",
           "WTO dispute"
         ],
-        "disponible": false,
-        "motif": "GDELT n'a pas répondu.",
-        "intensite_ratio": null,
-        "volume_24h": null,
-        "trajectoire": "",
-        "anciennete_jours": null,
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 1.01808432607431,
+        "volume_24h": 1388.0,
+        "trajectoire": "en accélération",
+        "anciennete_jours": 3,
         "n_evenements_bilateraux": null,
         "motif_events": "dossier thématique : pas d'activité par acteur",
         "exemple_evenement": null,
-        "developpements_recents": [],
-        "n_nouveaux_developpements": 0,
-        "nouveaux_developpements": [],
-        "etat_actuel": "Aucune mesure disponible pour Commerce international (droits de douane) : GDELT n'a pas répondu..",
+        "developpements_recents": [
+          {
+            "id": "6305e2778f85b60d",
+            "titre": "Ferguson , Dem governors predict a blue wave in November with Trump stances on tariffs , war",
+            "url": "http://www.chronline.com/stories/ferguson-dem-governors-predict-a-blue-wave-in-november-with-trumps-stances-on-tariffs,407960",
+            "source": "GDELT/chronline.com",
+            "horodatage_utc": "2026-09-11T21:45:00+00:00"
+          },
+          {
+            "id": "79690d7cf974348c",
+            "titre": "TMEC : México y Washington buscan acuerdo antes de elecciones de EU",
+            "url": "https://forbes.com.mx/tmec-mexico-y-washington-buscan-acuerdo-antes-de-elecciones-de-eu/",
+            "source": "GDELT/forbes.com.mx",
+            "horodatage_utc": "2026-09-11T21:45:00+00:00"
+          },
+          {
+            "id": "5eccafb6bb39ff43",
+            "titre": "Sudbury being sacrificed so jobs can move south : WSIB workers",
+            "url": "https://www.nugget.ca:443/news/sudbury-being-sacrificed-so-jobs-can-move-south-wsib-workers-take-our-poll",
+            "source": "GDELT/nugget.ca",
+            "horodatage_utc": "2026-09-11T21:30:00+00:00"
+          },
+          {
+            "id": "8a58af27af648097",
+            "titre": "Arturo Barrios ( PS ): Este Gobierno comete el mismo error que Piñera I , el creer que lo técnico supera a la política . Eso no es así",
+            "url": "https://www.theclinic.cl/2026/09/11/arturo-barrios-ps-este-gobierno-comete-el-mismo-error-que-pinera-i-el-creer-que-lo-tecnico-supera-a-la-politica-eso-no-es-asi/",
+            "source": "GDELT/theclinic.cl",
+            "horodatage_utc": "2026-09-11T21:30:00+00:00"
+          },
+          {
+            "id": "b2a756882c0ceef1",
+            "titre": "What Rubio Latin America tour means for Colombia , Ecuador , and Peru",
+            "url": "https://www.atlanticcouncil.org/dispatches/what-rubios-tour-means-for-colombia-ecuador-and-peru/",
+            "source": "GDELT/atlanticcouncil.org",
+            "horodatage_utc": "2026-09-11T21:30:00+00:00"
+          }
+        ],
+        "n_nouveaux_developpements": 5,
+        "nouveaux_developpements": [
+          {
+            "id": "6305e2778f85b60d",
+            "titre": "Ferguson , Dem governors predict a blue wave in November with Trump stances on tariffs , war",
+            "url": "http://www.chronline.com/stories/ferguson-dem-governors-predict-a-blue-wave-in-november-with-trumps-stances-on-tariffs,407960",
+            "source": "GDELT/chronline.com",
+            "horodatage_utc": "2026-09-11T21:45:00+00:00"
+          },
+          {
+            "id": "79690d7cf974348c",
+            "titre": "TMEC : México y Washington buscan acuerdo antes de elecciones de EU",
+            "url": "https://forbes.com.mx/tmec-mexico-y-washington-buscan-acuerdo-antes-de-elecciones-de-eu/",
+            "source": "GDELT/forbes.com.mx",
+            "horodatage_utc": "2026-09-11T21:45:00+00:00"
+          },
+          {
+            "id": "5eccafb6bb39ff43",
+            "titre": "Sudbury being sacrificed so jobs can move south : WSIB workers",
+            "url": "https://www.nugget.ca:443/news/sudbury-being-sacrificed-so-jobs-can-move-south-wsib-workers-take-our-poll",
+            "source": "GDELT/nugget.ca",
+            "horodatage_utc": "2026-09-11T21:30:00+00:00"
+          },
+          {
+            "id": "8a58af27af648097",
+            "titre": "Arturo Barrios ( PS ): Este Gobierno comete el mismo error que Piñera I , el creer que lo técnico supera a la política . Eso no es así",
+            "url": "https://www.theclinic.cl/2026/09/11/arturo-barrios-ps-este-gobierno-comete-el-mismo-error-que-pinera-i-el-creer-que-lo-tecnico-supera-a-la-politica-eso-no-es-asi/",
+            "source": "GDELT/theclinic.cl",
+            "horodatage_utc": "2026-09-11T21:30:00+00:00"
+          },
+          {
+            "id": "b2a756882c0ceef1",
+            "titre": "What Rubio Latin America tour means for Colombia , Ecuador , and Peru",
+            "url": "https://www.atlanticcouncil.org/dispatches/what-rubios-tour-means-for-colombia-ecuador-and-peru/",
+            "source": "GDELT/atlanticcouncil.org",
+            "horodatage_utc": "2026-09-11T21:30:00+00:00"
+          }
+        ],
+        "etat_actuel": "Couverture à 1.0× sa moyenne sur 30 jours, trajectoire en accélération. Au-dessus de sa normale depuis 3 jour(s) consécutif(s). 5 développement(s) nouveau(x) depuis la dernière vérification, dont « Ferguson , Dem governors predict a blue wave in November with Trump stances on tariffs , war » (GDELT/chronline.com) et 4 autre(s).",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "canal": "risque",
           "maillons": {
             "1_evenement": {
               "libelle": "Intensité de couverture du thème le plus actif",
-              "disponible": false,
-              "motif": "aucun thème mesurable",
-              "valeur": null,
+              "disponible": true,
+              "motif": "",
+              "valeur": 1.01808432607431,
               "unite_variation": "× la normale",
               "variation": null
             },
@@ -1258,27 +1330,33 @@
           "motif": "z-score de juste valeur indisponible ou non fiable",
           "commentaire": "Sans mesure de la prime, impossible de dire si le risque géopolitique est déjà payé."
         },
-        "invalidation": "Sans mesure de couverture, aucune invalidation ne peut être formulée.",
+        "invalidation": "Cette lecture s'appuie sur une couverture de 1.0× la normale : un retour sous 1,0× (couverture redevenue normale) la viderait de sa justification. La chaîne de transmission est déjà rompue (0/1 maillon(s) conformes) : elle redeviendrait significative si les maillons manquants se remettaient à suivre.",
         "type": "thematique",
         "canal": "risque",
         "epingle": true,
         "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 11,
           "min_observations": 20,
           "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
+          "ratios": {
+            "petrole": 0.79,
+            "taux_reels": 1.32,
+            "vix": 1.0,
+            "or": 0.91
+          },
+          "score": 0.96,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 11 jours de pic de couverture voient les actifs bouger 0,96 fois plus que les autres jours (le pétrole 0,79, les taux réels 1,32, le VIX 1,00, l'or 0,91), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
         },
         "classement": {
           "statut": "epingle",
-          "rang": 7,
-          "donnees_suffisantes": false,
+          "rang": 6,
+          "donnees_suffisantes": true,
           "historique": {
             "jours_observes": 0,
             "changement": "nouveau",
@@ -1321,7 +1399,7 @@
           "oil production cut"
         ],
         "disponible": false,
-        "motif": "pas encore mesuré : son tour vient dans la rotation des dossiers",
+        "motif": "GDELT n'a pas répondu.",
         "intensite_ratio": null,
         "volume_24h": null,
         "trajectoire": "",
@@ -1332,7 +1410,7 @@
         "developpements_recents": [],
         "n_nouveaux_developpements": 0,
         "nouveaux_developpements": [],
-        "etat_actuel": "Aucune mesure disponible pour Matières premières (précieux, cuivre, pétrole) : pas encore mesuré : son tour vient dans la rotation des dossiers.",
+        "etat_actuel": "Aucune mesure disponible pour Matières premières (précieux, cuivre, pétrole) : GDELT n'a pas répondu..",
         "chaine_de_transmission": {
           "horizon_seances": 5,
           "canal": "petrole",
@@ -1416,7 +1494,7 @@
         },
         "classement": {
           "statut": "epingle",
-          "rang": 8,
+          "rang": 11,
           "donnees_suffisantes": false,
           "historique": {
             "jours_observes": 0,
@@ -1437,50 +1515,6 @@
       }
     ],
     "classement": [
-      {
-        "nom": "Israël - Gaza",
-        "id": "israel_gaza",
-        "type": "conflit",
-        "origine": "dossier",
-        "epingle": false,
-        "intensite_ratio": 1.0215319795213482,
-        "trajectoire": "en accélération",
-        "disponible": true,
-        "pertinence": {
-          "disponible": true,
-          "suffisant": true,
-          "n_observations": 62,
-          "n_pics": 9,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {
-            "petrole": 0.87,
-            "taux_reels": 1.39,
-            "vix": 1.45,
-            "or": 1.63
-          },
-          "score": 1.42,
-          "lecture": "neutre",
-          "fiabilite": "correcte",
-          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,42 fois plus que les autres jours (le pétrole 0,87, les taux réels 1,39, le VIX 1,45, l'or 1,63), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
-          "motif": ""
-        },
-        "statut": "veille",
-        "donnees_suffisantes": true,
-        "rang": 1,
-        "cle": "israel_gaza",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
       {
         "nom": "Iran - États-Unis",
         "id": "iran_etats_unis",
@@ -1511,8 +1545,96 @@
         },
         "statut": "veille",
         "donnees_suffisantes": true,
-        "rang": 2,
+        "rang": 1,
         "cle": "iran_etats_unis",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Saudi Arabia – United States",
+        "id": "",
+        "type": "paire",
+        "origine": "decouverte",
+        "epingle": false,
+        "intensite_ratio": 3.959735146743021,
+        "trajectoire": "en accélération",
+        "disponible": true,
+        "pertinence": {
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 8,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {
+            "petrole": 1.3,
+            "taux_reels": 0.54,
+            "vix": 1.43,
+            "or": 0.99
+          },
+          "score": 1.15,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 8 jours de pic de couverture voient les actifs bouger 1,15 fois plus que les autres jours (le pétrole 1,30, les taux réels 0,54, le VIX 1,43, l'or 0,99), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
+        },
+        "statut": "veille",
+        "donnees_suffisantes": true,
+        "rang": 2,
+        "cle": "sujet:Saudi Arabia – United States",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Canada – United States",
+        "id": "",
+        "type": "paire",
+        "origine": "decouverte",
+        "epingle": false,
+        "intensite_ratio": 0.8966261620417116,
+        "trajectoire": "en accélération",
+        "disponible": true,
+        "pertinence": {
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 9,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {
+            "petrole": 1.06,
+            "taux_reels": 1.51,
+            "vix": 1.23,
+            "or": 0.56
+          },
+          "score": 1.15,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,15 fois plus que les autres jours (le pétrole 1,06, les taux réels 1,51, le VIX 1,23, l'or 0,56), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
+        },
+        "statut": "veille",
+        "donnees_suffisantes": true,
+        "rang": 3,
+        "cle": "sujet:Canada – United States",
         "historique": {
           "jours_observes": 0,
           "changement": "nouveau",
@@ -1555,8 +1677,96 @@
         },
         "statut": "epingle",
         "donnees_suffisantes": true,
-        "rang": 3,
+        "rang": 4,
         "cle": "politique_monetaire",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Israël - Gaza",
+        "id": "israel_gaza",
+        "type": "conflit",
+        "origine": "dossier",
+        "epingle": false,
+        "intensite_ratio": 1.1518874164074175,
+        "trajectoire": "en accélération",
+        "disponible": true,
+        "pertinence": {
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 22,
+          "n_pics": 6,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {
+            "petrole": 1.37,
+            "taux_reels": 1.08,
+            "vix": 0.98,
+            "or": 0.88
+          },
+          "score": 1.03,
+          "lecture": "neutre",
+          "fiabilite": "faible",
+          "commentaire": "Sur 22 séances communes, les 6 jours de pic de couverture voient les actifs bouger 1,03 fois plus que les autres jours (le pétrole 1,37, les taux réels 1,08, le VIX 0,98, l'or 0,88), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net. Fiabilité faible : 22 séances et 6 pics seulement, ce qui rend ce classement révisable à la prochaine mesure.",
+          "motif": ""
+        },
+        "statut": "veille",
+        "donnees_suffisantes": true,
+        "rang": 5,
+        "cle": "israel_gaza",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Commerce international (droits de douane)",
+        "id": "commerce_international",
+        "type": "thematique",
+        "origine": "dossier",
+        "epingle": true,
+        "intensite_ratio": 1.01808432607431,
+        "trajectoire": "en accélération",
+        "disponible": true,
+        "pertinence": {
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 11,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {
+            "petrole": 0.79,
+            "taux_reels": 1.32,
+            "vix": 1.0,
+            "or": 0.91
+          },
+          "score": 0.96,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 11 jours de pic de couverture voient les actifs bouger 0,96 fois plus que les autres jours (le pétrole 0,79, les taux réels 1,32, le VIX 1,00, l'or 0,91), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
+        },
+        "statut": "epingle",
+        "donnees_suffisantes": true,
+        "rang": 6,
+        "cle": "commerce_international",
         "historique": {
           "jours_observes": 0,
           "changement": "nouveau",
@@ -1599,7 +1809,7 @@
         },
         "statut": "veille",
         "donnees_suffisantes": true,
-        "rang": 4,
+        "rang": 7,
         "cle": "moyen_orient",
         "historique": {
           "jours_observes": 0,
@@ -1609,6 +1819,50 @@
           "date_precedente": null,
           "jours_consecutifs_statut": 1,
           "inerte_depuis_jours": 0,
+          "score_moyen_30j": null,
+          "tendance_score": ""
+        }
+      },
+      {
+        "nom": "Tensions énergétiques",
+        "id": "",
+        "type": "theme",
+        "origine": "theme_generique",
+        "epingle": false,
+        "intensite_ratio": 1.3930206289756852,
+        "trajectoire": "en accélération",
+        "disponible": true,
+        "pertinence": {
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 22,
+          "n_pics": 6,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {
+            "petrole": 0.86,
+            "taux_reels": 0.61,
+            "vix": 0.56,
+            "or": 0.7
+          },
+          "score": 0.66,
+          "lecture": "inerte",
+          "fiabilite": "faible",
+          "commentaire": "Sur 22 séances communes, les 6 jours de pic de couverture voient les actifs bouger 0,66 fois plus que les autres jours (le pétrole 0,86, les taux réels 0,61, le VIX 0,56, l'or 0,70), ce qui signifie que le marché ne réagit plus à son actualité : le sujet est intégré dans les prix. Fiabilité faible : 22 séances et 6 pics seulement, ce qui rend ce classement révisable à la prochaine mesure.",
+          "motif": ""
+        },
+        "statut": "veille",
+        "donnees_suffisantes": true,
+        "rang": 8,
+        "cle": "sujet:Tensions énergétiques",
+        "historique": {
+          "jours_observes": 0,
+          "changement": "nouveau",
+          "statut_precedent": null,
+          "lecture_precedente": null,
+          "date_precedente": null,
+          "jours_consecutifs_statut": 1,
+          "inerte_depuis_jours": 1,
           "score_moyen_30j": null,
           "tendance_score": ""
         }
@@ -1643,7 +1897,7 @@
         },
         "statut": "veille",
         "donnees_suffisantes": true,
-        "rang": 5,
+        "rang": 9,
         "cle": "russie_ukraine",
         "historique": {
           "jours_observes": 0,
@@ -1681,46 +1935,8 @@
         },
         "statut": "epingle",
         "donnees_suffisantes": false,
-        "rang": 6,
+        "rang": 10,
         "cle": "semiconducteurs_ia",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
-        "nom": "Commerce international (droits de douane)",
-        "id": "commerce_international",
-        "type": "thematique",
-        "origine": "dossier",
-        "epingle": true,
-        "intensite_ratio": null,
-        "trajectoire": "",
-        "disponible": false,
-        "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
-        },
-        "statut": "epingle",
-        "donnees_suffisantes": false,
-        "rang": 7,
-        "cle": "commerce_international",
         "historique": {
           "jours_observes": 0,
           "changement": "nouveau",
@@ -1757,122 +1973,8 @@
         },
         "statut": "epingle",
         "donnees_suffisantes": false,
-        "rang": 8,
-        "cle": "matieres_premieres",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
-        "nom": "Canada – United States",
-        "id": "",
-        "type": "paire",
-        "origine": "decouverte",
-        "epingle": false,
-        "intensite_ratio": null,
-        "trajectoire": "",
-        "disponible": false,
-        "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
-        },
-        "statut": "candidat",
-        "donnees_suffisantes": false,
-        "rang": 9,
-        "cle": "sujet:Canada – United States",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
-        "nom": "Saudi Arabia – United States",
-        "id": "",
-        "type": "paire",
-        "origine": "decouverte",
-        "epingle": false,
-        "intensite_ratio": null,
-        "trajectoire": "",
-        "disponible": false,
-        "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
-        },
-        "statut": "candidat",
-        "donnees_suffisantes": false,
-        "rang": 10,
-        "cle": "sujet:Saudi Arabia – United States",
-        "historique": {
-          "jours_observes": 0,
-          "changement": "nouveau",
-          "statut_precedent": null,
-          "lecture_precedente": null,
-          "date_precedente": null,
-          "jours_consecutifs_statut": 1,
-          "inerte_depuis_jours": 0,
-          "score_moyen_30j": null,
-          "tendance_score": ""
-        }
-      },
-      {
-        "nom": "Tensions énergétiques",
-        "id": "",
-        "type": "theme",
-        "origine": "theme_generique",
-        "epingle": false,
-        "intensite_ratio": null,
-        "trajectoire": "",
-        "disponible": false,
-        "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
-          "min_observations": 20,
-          "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
-        },
-        "statut": "candidat",
-        "donnees_suffisantes": false,
         "rang": 11,
-        "cle": "sujet:Tensions énergétiques",
+        "cle": "matieres_premieres",
         "historique": {
           "jours_observes": 0,
           "changement": "nouveau",
@@ -2008,10 +2110,10 @@
           "UKR"
         ],
         "libelle": "Russia – Ukraine",
-        "n_evenements": 287,
-        "mentions": 1242,
-        "part": 0.0551,
-        "goldstein_moyen": -7.58,
+        "n_evenements": 289,
+        "mentions": 1254,
+        "part": 0.0555,
+        "goldstein_moyen": -7.59,
         "rattachement": {
           "type": "dossier",
           "id": "russie_ukraine",
@@ -2026,10 +2128,10 @@
           "USA"
         ],
         "libelle": "Iran – United States",
-        "n_evenements": 216,
-        "mentions": 822,
-        "part": 0.0415,
-        "goldstein_moyen": -6.28,
+        "n_evenements": 223,
+        "mentions": 838,
+        "part": 0.0428,
+        "goldstein_moyen": -6.16,
         "rattachement": {
           "type": "dossier",
           "id": "iran_etats_unis",
@@ -2044,10 +2146,10 @@
           "PSE"
         ],
         "libelle": "Israel – Palestinian",
-        "n_evenements": 204,
-        "mentions": 738,
-        "part": 0.0392,
-        "goldstein_moyen": -7.52,
+        "n_evenements": 205,
+        "mentions": 739,
+        "part": 0.0394,
+        "goldstein_moyen": -7.53,
         "rattachement": {
           "type": "dossier",
           "id": "israel_gaza",
@@ -2062,29 +2164,35 @@
           "USA"
         ],
         "libelle": "Canada – United States",
-        "n_evenements": 131,
-        "mentions": 429,
-        "part": 0.0252,
-        "goldstein_moyen": -6.25,
+        "n_evenements": 132,
+        "mentions": 424,
+        "part": 0.0253,
+        "goldstein_moyen": -6.14,
         "rattachement": null,
         "requete": "Canada \"United States\"",
-        "disponible": false,
-        "motif": "GDELT n'a pas répondu.",
-        "intensite_ratio": null,
-        "trajectoire": "",
-        "volume_24h": null,
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 0.8966261620417116,
+        "trajectoire": "en accélération",
+        "volume_24h": 888.0,
         "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 9,
           "min_observations": 20,
           "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
+          "ratios": {
+            "petrole": 1.06,
+            "taux_reels": 1.51,
+            "vix": 1.23,
+            "or": 0.56
+          },
+          "score": 1.15,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 9 jours de pic de couverture voient les actifs bouger 1,15 fois plus que les autres jours (le pétrole 1,06, les taux réels 1,51, le VIX 1,23, l'or 0,56), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
         }
       },
       {
@@ -2100,27 +2208,74 @@
         "goldstein_moyen": -5.33,
         "rattachement": null,
         "requete": "\"Saudi Arabia\" \"United States\"",
-        "disponible": false,
-        "motif": "GDELT n'a pas répondu.",
-        "intensite_ratio": null,
-        "trajectoire": "",
-        "volume_24h": null,
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 3.959735146743021,
+        "trajectoire": "en accélération",
+        "volume_24h": 763.0,
         "pertinence": {
-          "disponible": false,
-          "suffisant": false,
-          "n_observations": 0,
-          "n_pics": 0,
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 8,
           "min_observations": 20,
           "min_pics": 3,
-          "ratios": {},
-          "score": null,
-          "lecture": "",
-          "commentaire": "",
-          "motif": "aucune série de couverture sur trente jours"
+          "ratios": {
+            "petrole": 1.3,
+            "taux_reels": 0.54,
+            "vix": 1.43,
+            "or": 0.99
+          },
+          "score": 1.15,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 8 jours de pic de couverture voient les actifs bouger 1,15 fois plus que les autres jours (le pétrole 1,30, les taux réels 0,54, le VIX 1,43, l'or 0,99), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
         }
       }
     ],
-    "autres": [],
+    "autres": [
+      {
+        "type": "paire",
+        "paire": [
+          "SAU",
+          "USA"
+        ],
+        "libelle": "Saudi Arabia – United States",
+        "n_evenements": 99,
+        "mentions": 411,
+        "part": 0.019,
+        "goldstein_moyen": -5.33,
+        "rattachement": null,
+        "requete": "\"Saudi Arabia\" \"United States\"",
+        "disponible": true,
+        "motif": "",
+        "intensite_ratio": 3.959735146743021,
+        "trajectoire": "en accélération",
+        "volume_24h": 763.0,
+        "critere": "couverture à 4,0× sa normale",
+        "pertinence": {
+          "disponible": true,
+          "suffisant": true,
+          "n_observations": 62,
+          "n_pics": 8,
+          "min_observations": 20,
+          "min_pics": 3,
+          "ratios": {
+            "petrole": 1.3,
+            "taux_reels": 0.54,
+            "vix": 1.43,
+            "or": 0.99
+          },
+          "score": 1.15,
+          "lecture": "neutre",
+          "fiabilite": "correcte",
+          "commentaire": "Sur 62 séances communes, les 8 jours de pic de couverture voient les actifs bouger 1,15 fois plus que les autres jours (le pétrole 1,30, les taux réels 0,54, le VIX 1,43, l'or 0,99), ce qui ne distingue pas ses jours de pic des autres : aucun effet de marché net.",
+          "motif": ""
+        },
+        "articles": []
+      }
+    ],
     "events_meta": {
       "n_exports_lus": 96,
       "n_exports_attendus": 96,
@@ -2141,12 +2296,12 @@
     },
     "_meta": {
       "source": "GDELT (DOC : narratif et couverture ; Events : activité bilatérale par acteur) + FRED (maillons macro)",
-      "horodatage_collecte_utc": "2026-09-11T21:59:48.199184+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:23:22.622441+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     },
     "synthese": {
-      "texte": "Sur les huit dossiers suivis, Moyen-Orient (région) est le plus couvert, à 1,9× sa moyenne des trente derniers jours, trajectoire en accélération : une escalade en cours, ce qui nourrit la demande refuge tant qu'elle dure. Les autres dossiers mesurés, Semi-conducteurs et IA (contrôles à l'export) (en accélération), Iran - États-Unis (en accélération), Russie - Ukraine (en accélération), Politique monétaire (Fed, BCE) (en accélération) et Israël - Gaza (en accélération), restent en retrait de celui-ci, ce qui concentre sur un seul sujet ce que la géopolitique peut apporter à la demande refuge. Pour Commerce international (droits de douane) et Matières premières (précieux, cuivre, pétrole), la couverture n'est pas mesurable ce jour, ce qui laisse leur trajectoire hors de cette lecture. Le relevé d'événements GDELT des dernières heures en compte 609 pour Russie - Ukraine, et 2065 à l'intérieur de la région Moyen-Orient (région) toutes paires confondues, ce qui confirme une activité soutenue entre les deux parties, indépendamment de ce que la presse en dit. Aucun développement nouveau depuis la dernière vérification, ce qui laisse la lecture d'hier valable : rien n'est venu la contredire. Pour Politique monétaire (Fed, BCE), la chaîne pétrole → inflation anticipée → taux réels → or est cohérente, ce qui donne au mouvement de l'or une explication vérifiable en amont : il ne tient pas à la seule peur. Pour Israël - Gaza, Iran - États-Unis, Russie - Ukraine, Moyen-Orient (région), Semi-conducteurs et IA (contrôles à l'export), Commerce international (droits de douane) et Matières premières (précieux, cuivre, pétrole), cette chaîne est rompue — les taux réels (+12 points de base) et l'or (-0,04 %) ne vont pas dans le sens attendu —, ce qui signifie que la tension ne se transmet pas par les canaux mesurés : si l'or y réagit, c'est sur la peur, et cela tient rarement longtemps. Russie - Ukraine est en veille et inerte : la couverture est mesurée mais le marché n'y réagit plus, ce qui signifie que le sujet est intégré dans les prix — gardé, car il peut se réactiver. Israël - Gaza (1,42), Iran - États-Unis (1,30) et Moyen-Orient (région) (0,80) sont en veille : la couverture est mesurée, mais leurs jours de pic ne se distinguent pas nettement des autres séances — il faudrait dépasser 1,5 pour parler de réaction, ce qui ne permet pas de dire que cette actualité déplace encore les prix. Pour Semi-conducteurs et IA (contrôles à l'export), Commerce international (droits de douane) et Matières premières (précieux, cuivre, pétrole), le classement n'est pas encore possible faute d'observations suffisantes, ce qui interdit d'en tirer une lecture de marché aujourd'hui. Savoir si cette prime est déjà payée n'est pas évaluable ce jour, le résidu de juste valeur n'étant pas fiable, ce qui interdit de dire si une escalade aurait encore de la place dans le prix. Ce tableau se lit dans un climat de marché neutre (score d'appétit pour le risque +0,17) : ni fuite vers la sécurité ni course au rendement, ce qui laisse à la géopolitique seule le soin de déplacer la demande refuge.",
+      "texte": "Sur les huit dossiers suivis, Moyen-Orient (région) est le plus couvert, à 1,9× sa moyenne des trente derniers jours, trajectoire en accélération : une escalade en cours, ce qui nourrit la demande refuge tant qu'elle dure. Les autres dossiers mesurés, Semi-conducteurs et IA (contrôles à l'export) (en accélération), Iran - États-Unis (en accélération), Russie - Ukraine (en accélération), Politique monétaire (Fed, BCE) (en accélération), Israël - Gaza (en accélération) et Commerce international (droits de douane) (en accélération), restent en retrait de celui-ci, ce qui concentre sur un seul sujet ce que la géopolitique peut apporter à la demande refuge. Pour Matières premières (précieux, cuivre, pétrole), la couverture n'est pas mesurable ce jour, ce qui laisse leur trajectoire hors de cette lecture. Le relevé d'événements GDELT des dernières heures en compte 611 pour Russie - Ukraine, et 2078 à l'intérieur de la région Moyen-Orient (région) toutes paires confondues, ce qui confirme une activité soutenue entre les deux parties, indépendamment de ce que la presse en dit. Des développements nouveaux sont apparus depuis la dernière vérification (Commerce international (droits de douane) 5), ce qui renouvelle la matière de ces dossiers et justifie d'en relire la trajectoire. Pour Politique monétaire (Fed, BCE), la chaîne pétrole → inflation anticipée → taux réels → or est cohérente, ce qui donne au mouvement de l'or une explication vérifiable en amont : il ne tient pas à la seule peur. Pour Israël - Gaza, Iran - États-Unis, Russie - Ukraine, Moyen-Orient (région), Semi-conducteurs et IA (contrôles à l'export), Commerce international (droits de douane) et Matières premières (précieux, cuivre, pétrole), cette chaîne est rompue — les taux réels (+12 points de base) et l'or (-0,04 %) ne vont pas dans le sens attendu —, ce qui signifie que la tension ne se transmet pas par les canaux mesurés : si l'or y réagit, c'est sur la peur, et cela tient rarement longtemps. Tensions énergétiques et Russie - Ukraine sont en veille et inertes : la couverture est mesurée mais le marché n'y réagit plus, ce qui signifie que le sujet est intégré dans les prix — gardé, car il peut se réactiver. Iran - États-Unis (1,30), Saudi Arabia – United States (1,15) et Canada – United States (1,15) sont en veille : la couverture est mesurée, mais leurs jours de pic ne se distinguent pas nettement des autres séances — il faudrait dépasser 1,5 pour parler de réaction, ce qui ne permet pas de dire que cette actualité déplace encore les prix. Pour Semi-conducteurs et IA (contrôles à l'export), Matières premières (précieux, cuivre, pétrole) et Conflits majeurs, le classement n'est pas encore possible faute d'observations suffisantes, ce qui interdit d'en tirer une lecture de marché aujourd'hui. Savoir si cette prime est déjà payée n'est pas évaluable ce jour, le résidu de juste valeur n'étant pas fiable, ce qui interdit de dire si une escalade aurait encore de la place dans le prix. Ce tableau se lit dans un climat de marché neutre (score d'appétit pour le risque +0,17) : ni fuite vers la sécurité ni course au rendement, ce qui laisse à la géopolitique seule le soin de déplacer la demande refuge.",
       "publiable": true,
       "motif": "",
       "nombres_rejetes": [],
@@ -2444,13 +2599,13 @@
     ],
     "_meta": {
       "source": "reconstruction interne (juste valeur + COT + FRED)",
-      "horodatage_collecte_utc": "2026-09-11T21:59:48.229851+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:23:22.652824+00:00",
       "date_donnee": "2026-08-12",
       "age_jours": 30
     }
   },
   "biais": {
-    "horodatage_utc": "2026-09-11T21:59:48.230406+00:00",
+    "horodatage_utc": "2026-09-11T22:23:22.653368+00:00",
     "biais": "neutre",
     "score_composite": 0.0565,
     "conviction": "faible",
@@ -2596,7 +2751,7 @@
     },
     "_meta": {
       "source": "agrégation interne",
-      "horodatage_collecte_utc": "2026-09-11T21:59:48.230446+00:00",
+      "horodatage_collecte_utc": "2026-09-11T22:23:22.653400+00:00",
       "date_donnee": "2026-09-11",
       "age_jours": 0
     }
