@@ -1,18 +1,123 @@
 [
   {
+    "id": "fd9208b66b68991f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bank Multifamily Delinquencies Dip as Credit Losses Rise",
+    "horodatage_utc": "2026-09-12T21:47:56+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/real-estate/articles/bank-multifamily-delinquencies-dip-credit-214756192.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7e518238bc7371ee",
+    "categorie": "geopolitique",
+    "titre_affiche": "10-Year Treasury Nears 5%, Raising CRE Financing Risk",
+    "horodatage_utc": "2026-09-12T21:37:14+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/real-estate/articles/10-treasury-nears-5-raising-213714187.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "025bb6d6aba3dd38",
+    "categorie": "geopolitique",
+    "titre_affiche": "Can XRP Flip Bitcoin?",
+    "horodatage_utc": "2026-09-12T21:24:32+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/crypto/articles/xrp-flip-bitcoin-212432380.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c0f67961764ef067",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
+    "horodatage_utc": "2026-09-12T21:20:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/nvidia-vs-amd-elon-musk-212000632.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "58f1e8bb8def2ccb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ethereum ETFs Took In $216 Million on Friday. Bitcoin’s Lost Money for a Fourth Day and XRP’s Took Zero",
+    "horodatage_utc": "2026-09-12T21:11:40+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/crypto/articles/ethereum-etfs-took-216-million-211140668.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d2eb7d8e6e6096ba",
+    "categorie": "geopolitique",
+    "titre_affiche": "Biogen Sees Pivotal Pipeline Moment as It Expands Beyond Neurology",
+    "horodatage_utc": "2026-09-12T21:01:58+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/healthcare/articles/biogen-sees-pivotal-pipeline-moment-210158269.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "66670c9ae044100c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Christine Lagarde: Interview with Ouest-France",
+    "horodatage_utc": "2026-09-12T20:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260912~3cc706f4d6.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "923b12a3769a425f",
     "categorie": "geopolitique",
     "titre_affiche": "A Tale of Two Dollars: Why Dollar General Outpaced Dollar Tree This Quarter",
     "horodatage_utc": "2026-09-12T17:09:15+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/markets/stocks/articles/tale-two-dollars-why-dollar-170915358.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c3e0813853a2af69",

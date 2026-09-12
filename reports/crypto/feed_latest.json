@@ -1,11 +1,11 @@
 [
   {
-    "id": "589251ff77be97be",
+    "id": "55c336e2ce65f8f2",
     "categorie": "crypto",
-    "titre_affiche": "Revolut says customer KYC, Bitcoin transaction data exposed after fake request from gov’t domain",
-    "horodatage_utc": "2026-09-12T18:57:08+00:00",
+    "titre_affiche": "CryptoQuant says bitcoin must clear resistance at $81,700 to confirm new bull market",
+    "horodatage_utc": "2026-09-12T21:39:49+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-12-cryptoquant-bitcoin-resistance-support-levels-414519",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,36 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "9c044e957777dff4",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
+    "horodatage_utc": "2026-09-12T21:09:06+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/09/12/bitcoin-suisse-plans-to-cut-up-to-half-its-swiss-jobs-as-it-shifts-work-abroad",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "589251ff77be97be",
+    "categorie": "crypto",
+    "titre_affiche": "Revolut says customer KYC, Bitcoin transaction data exposed after fake request from gov’t domain",
+    "horodatage_utc": "2026-09-12T18:57:08+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "9c85017390b10230",
