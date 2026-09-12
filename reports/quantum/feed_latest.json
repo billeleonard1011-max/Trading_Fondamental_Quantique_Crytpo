@@ -1,5 +1,51 @@
 [
   {
+    "id": "ebe233269705496c",
+    "categorie": "quantique",
+    "titre_affiche": "Bronstein , Gewirtz & Grossman , LLC Encourages D - Wave Quantum Inc . ( QBTS ) ...",
+    "horodatage_utc": "2026-09-11T17:45:00+00:00",
+    "source_nom": "GDELT/pr-inside.com",
+    "url_source": "https://www.pr-inside.com/bronstein-gewirtz-grossman-llc-encourages-d-wave-quantum-inc-qbts-r5221947.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/pr-inside.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e0221b1ef1ee259f",
+    "categorie": "quantique",
+    "titre_affiche": "Not IonQ , Not Rigetti Computing . This Quantum Computing Stock Could Be September Biggest Winner .",
+    "horodatage_utc": "2026-09-11T13:00:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/09/11/not-ionq-not-rigetti-computing-this-quantum-comput/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : RGTI, IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI",
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5699565c02d6241e",
+    "categorie": "quantique",
+    "titre_affiche": "3 Quantum Stocks to Buy If You Already Have IonQ",
+    "horodatage_utc": "2026-09-11T08:45:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/09/11/3-quantum-stocks-to-buy-if-you-already-have-ionq/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "616eb37851dd7c4f",
     "categorie": "quantique",
     "titre_affiche": "Infleqtion and Cisco Partner to Advance Distributed Neutral-Atom Quantum Networking Architectures",
