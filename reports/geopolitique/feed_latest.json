@@ -1,5 +1,81 @@
 [
   {
+    "id": "fa247a73093fe301",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
+    "horodatage_utc": "2026-09-12T10:50:57+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3bafb3ae-ba94-44f0-984c-ec7c9f54a5e0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ee3d60de79004d5d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Christine Lagarde: Europe seen from Normandy",
+    "horodatage_utc": "2026-09-12T10:15:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "698fa5847117cdb2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Canada seeks $1tn from investors looking for a haven from Trump",
+    "horodatage_utc": "2026-09-12T10:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4dc6710b-7911-44c6-b57a-2fb47b6b04ed?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "2cfd3f31cbc1a69c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Saturday, September 12, 2026: Mortgage rates up for the second straight day",
+    "horodatage_utc": "2026-09-12T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-september-12-2026-mortgage-rates-up-for-the-second-straight-day-100000822.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "05505b80395db679",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.6 - 115 km NNE of Teluknaga, Indonesia",
+    "horodatage_utc": "2026-09-12T09:55:55+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "f7d6cbbbdb76e54a",
     "categorie": "geopolitique",
     "titre_affiche": "De - dollarisation and its impact on commodities and global trade",
@@ -37,13 +113,13 @@
     "horodatage_utc": "2026-09-12T05:00:01+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/12/ai-data-centers-catastrophe-bonds-insurance.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e0e880f11864605b",
@@ -52,13 +128,13 @@
     "horodatage_utc": "2026-09-12T04:00:23+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/294b1de0-b055-4703-b3f6-975f179aad54?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2e3b2c696c5a908e",
@@ -67,13 +143,13 @@
     "horodatage_utc": "2026-09-12T04:00:22+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d4b4105e-d91f-48bb-820e-64290e916f5e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c3e3c8c40eebda5b",
@@ -82,27 +158,12 @@
     "horodatage_utc": "2026-09-12T04:00:13+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/94c2830e-cbec-43ed-b329-23a79060469a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "05505b80395db679",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.6 - 115 km NNE of Teluknaga, Indonesia",
-    "horodatage_utc": "2026-09-12T03:15:58+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
     "nouveaute": false
   },
   {
@@ -182,21 +243,6 @@
     "nouveaute": false
   },
   {
-    "id": "fa247a73093fe301",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
-    "horodatage_utc": "2026-09-11T20:21:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3bafb3ae-ba94-44f0-984c-ec7c9f54a5e0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "4b449be1cc01619f",
     "categorie": "geopolitique",
     "titre_affiche": "India Diplomatic Litmus Test at BRICS : Strategic Balancing in an Evolving World Order ...",
@@ -224,6 +270,37 @@
       "Catastrophes naturelles"
     ],
     "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2545a2d1003940f3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why Treasury’s $6 billion bond buyback didn’t lower mortgage rates",
+    "horodatage_utc": "2026-09-11T17:49:23+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/why-treasurys-6-billion-bond-buyback-didnt-lower-mortgage-rates-174923069.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9e3de4bf42f4b4c1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Is gold really a hedge against inflation?",
+    "horodatage_utc": "2026-09-11T17:41:22+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/is-gold-a-hedge-against-inflation-174122603.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Inflation et prix"
+    ],
+    "portee": "actif_direct",
     "nouveaute": true
   },
   {

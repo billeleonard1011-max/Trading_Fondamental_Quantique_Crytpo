@@ -1,5 +1,20 @@
 [
   {
+    "id": "a044410840134ca9",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
+    "horodatage_utc": "2026-09-12T10:11:01+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "32983b08850f6b42",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin, ether rise as inflation data does little to alter Fed interest rate outlook",
