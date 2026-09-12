@@ -1,13 +1,59 @@
 [
   {
-    "id": "ebe233269705496c",
+    "id": "e0221b1ef1ee259f",
     "categorie": "quantique",
-    "titre_affiche": "Bronstein , Gewirtz & Grossman , LLC Encourages D - Wave Quantum Inc . ( QBTS ) ...",
-    "horodatage_utc": "2026-09-11T17:45:00+00:00",
-    "source_nom": "GDELT/pr-inside.com",
-    "url_source": "https://www.pr-inside.com/bronstein-gewirtz-grossman-llc-encourages-d-wave-quantum-inc-qbts-r5221947.htm",
+    "titre_affiche": "Not IonQ , Not Rigetti Computing . This Quantum Computing Stock Could Be September Biggest Winner .",
+    "horodatage_utc": "2026-09-12T13:15:00+00:00",
+    "source_nom": "GDELT/finance.yahoo.com",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/not-ionq-not-rigetti-computing-112000437.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "RGTI",
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "fbd50f1cff0ccb66",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ ( NYSE : IONQ ) Insider John Raymond Sells 2 , 407 Shares of Stock",
+    "horodatage_utc": "2026-09-12T11:15:00+00:00",
+    "source_nom": "GDELT/tickerreport.com",
+    "url_source": "https://www.tickerreport.com/banking-finance/13582743/ionq-nyseionq-insider-john-raymond-sells-2407-shares-of-stock.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/pr-inside.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "analyse_interne": "Actualité relayée par GDELT/tickerreport.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d1ca32f5f7a9c883",
+    "categorie": "quantique",
+    "titre_affiche": "International Business Machines Corporation $IBM Shares Acquired by Van Den Berg Management I Inc .",
+    "horodatage_utc": "2026-09-12T11:00:00+00:00",
+    "source_nom": "GDELT/themarketsdaily.com",
+    "url_source": "https://www.themarketsdaily.com/2026/09/12/international-business-machines-corporation-ibm-shares-acquired-by-van-den-berg-management-i-inc.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8ca1a6da60ce73cc",
+    "categorie": "quantique",
+    "titre_affiche": "Prediction : D - Wave Quantum Revenue Triples Before 2030",
+    "horodatage_utc": "2026-09-12T09:15:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/09/12/prediction-d-wave-quantum-s-revenue-triples-before-2030/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
@@ -15,20 +61,64 @@
     "nouveaute": true
   },
   {
-    "id": "e0221b1ef1ee259f",
+    "id": "9f52b60386f1d742",
     "categorie": "quantique",
-    "titre_affiche": "Not IonQ , Not Rigetti Computing . This Quantum Computing Stock Could Be September Biggest Winner .",
-    "horodatage_utc": "2026-09-11T13:00:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/09/11/not-ionq-not-rigetti-computing-this-quantum-comput/",
+    "titre_affiche": "Van ECK Associates Corp Acquires 42 , 686 Shares of International Business Machines Corporation $IBM",
+    "horodatage_utc": "2026-09-12T09:15:00+00:00",
+    "source_nom": "GDELT/tickerreport.com",
+    "url_source": "https://www.tickerreport.com/banking-finance/13582527/van-eck-associates-corp-acquires-42686-shares-of-international-business-machines-corporation-ibm.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : RGTI, IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "analyse_interne": "Actualité relayée par GDELT/tickerreport.com. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
-      "RGTI",
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9f9ed13edc8e7a05",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ ( IONQ ) Buy Rating Reiterated at Rosenblatt Securities",
+    "horodatage_utc": "2026-09-12T06:15:00+00:00",
+    "source_nom": "GDELT/tickerreport.com",
+    "url_source": "https://www.tickerreport.com/banking-finance/13582265/ionqs-ionq-buy-rating-reiterated-at-rosenblatt-securities.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/tickerreport.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "cd95484e0b7b94d1",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ ( IONQ ) Overweight Rating Reiterated at Cantor Fitzgerald",
+    "horodatage_utc": "2026-09-12T06:00:00+00:00",
+    "source_nom": "GDELT/themarketsdaily.com",
+    "url_source": "https://www.themarketsdaily.com/2026/09/12/ionqs-ionq-overweight-rating-reiterated-at-cantor-fitzgerald-2.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ebe233269705496c",
+    "categorie": "quantique",
+    "titre_affiche": "Bronstein , Gewirtz & Grossman , LLC Encourages D - Wave Quantum Inc . ( QBTS ) ...",
+    "horodatage_utc": "2026-09-11T17:45:00+00:00",
+    "source_nom": "GDELT/pr-inside.com",
+    "url_source": "https://www.pr-inside.com/bronstein-gewirtz-grossman-llc-encourages-d-wave-quantum-inc-qbts-r5221947.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "5699565c02d6241e",

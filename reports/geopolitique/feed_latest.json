@@ -1,5 +1,430 @@
 [
   {
+    "id": "deb13c7690c3dac5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Economia russa , la Banca centrale vende tonnellate di lingotti doro dalle riserve : « Mai così tanto dal 1998 »",
+    "horodatage_utc": "2026-09-12T14:15:00+00:00",
+    "source_nom": "GDELT/ilgazzettino.it",
+    "url_source": "https://www.ilgazzettino.it:443/mondo/economia_russa_banca_centrale_vende_oro_lingotti_perche_cosa_c_e_dietro-9757156.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "122981d4ce156bf2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meet Wall Street’s 3 Safest High-Yield Dividend Stocks",
+    "horodatage_utc": "2026-09-12T14:00:44+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/meet-wall-street-3-safest-140044128.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations, Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a8bf1fd1d8654db0",
+    "categorie": "geopolitique",
+    "titre_affiche": "DPA : Trump spune că ar putea „ soluţiona un eventual război pentru Insulele Falkland - 12 . 09 . 2026",
+    "horodatage_utc": "2026-09-12T14:00:00+00:00",
+    "source_nom": "GDELT/bursa.ro",
+    "url_source": "https://www.bursa.ro/dpa-trump-spune-ca-ar-putea-8222solutiona8221-un-eventual-razboi-pentru-insulele-falkland-07232060",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/bursa.ro. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1d0638da9556c16a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump claims he could settle a war over the Falklands",
+    "horodatage_utc": "2026-09-12T14:00:00+00:00",
+    "source_nom": "GDELT/maitlandmercury.com.au",
+    "url_source": "https://www.maitlandmercury.com.au/story/9348988/trump-claims-he-could-settle-a-war-over-the-falklands/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/maitlandmercury.com.au. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "ba27feab6137c0f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Președintele american , Donald Trump , a declarat că ar fi încântat să vadă Irlanda unificată",
+    "horodatage_utc": "2026-09-12T14:00:00+00:00",
+    "source_nom": "GDELT/news.yam.md",
+    "url_source": "https://news.yam.md/ro/story/63490698",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/news.yam.md. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "351b99e86d30e41f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Rusia lleva al frente las reliquias de un príncipe guerrero medieval para « fortalecer el espíritu » de los soldados",
+    "horodatage_utc": "2026-09-12T14:00:00+00:00",
+    "source_nom": "GDELT/elcomercio.es",
+    "url_source": "https://www.elcomercio.es/internacional/europa/rusia-lleva-frente-reliquias-principe-guerrero-medieval-20260912134741-ntrc.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/elcomercio.es. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a314cacafac5fb3e",
+    "categorie": "geopolitique",
+    "titre_affiche": "BRICS leaders voice concern over Middle East , condemn unilateral sanctions at India summit",
+    "horodatage_utc": "2026-09-12T14:00:00+00:00",
+    "source_nom": "GDELT/dailyadvance.com",
+    "url_source": "http://www.dailyadvance.com/news/world/brics-leaders-voice-concern-over-middle-east-condemn-unilateral-sanctions-at-india-summit/article_6cdc9be2-15c3-5a92-8124-85454961f42d.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailyadvance.com. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2c8537ef0e2632ea",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold : Inflationsdaten treiben Fed - Zinserhöhungs - Wahrscheinlichkeit auf 67 bis 86 Prozent",
+    "horodatage_utc": "2026-09-12T14:00:00+00:00",
+    "source_nom": "GDELT/boerse-express.com",
+    "url_source": "https://www.boerse-express.com/news/articles/gold-inflationsdaten-treiben-fed-zinserhoehungs-wahrscheinlichkeit-auf-67-bis-86-prozent-946689",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/boerse-express.com. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1843da9fabf0f151",
+    "categorie": "geopolitique",
+    "titre_affiche": "Scott Bessent dismisses 'Bloomberg Terminal bros' as 10-year Treasury yield hits 4.94% despite $5.2B buyback",
+    "horodatage_utc": "2026-09-12T13:30:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-dismisses-bloomberg-terminal-133000792.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c177e9a0f89ca7a8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Саммит G20 в Майами будет ли присутствовать Путин мирный план",
+    "horodatage_utc": "2026-09-12T13:30:00+00:00",
+    "source_nom": "GDELT/obozrevatel.com",
+    "url_source": "https://www.obozrevatel.com/politics-news/priedet-li-putin-na-sammit-g20-v-majami-v-kremle-sdelali-zayavlenie.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d4da0cbd5e44dce2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Suspected military airstrike kills seven vigilantes , injures others in Niger",
+    "horodatage_utc": "2026-09-12T13:30:00+00:00",
+    "source_nom": "GDELT/dailypost.ng",
+    "url_source": "https://dailypost.ng/2026/09/12/suspected-military-airstrike-kills-seven-vigilantes-injures-others-in-niger/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a4b65007bd3ea669",
+    "categorie": "geopolitique",
+    "titre_affiche": "BRICS declaration urges maximum restraint in Middle East",
+    "horodatage_utc": "2026-09-12T13:15:00+00:00",
+    "source_nom": "GDELT/dw.com",
+    "url_source": "https://www.dw.com/en/brics-summit-leaders-urge-maximum-restraint-in-middle-east/live-79224239",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c2431dea8d2fbb36",
+    "categorie": "geopolitique",
+    "titre_affiche": "NVIDIA and Digital Realty’s Flexible AI Factory Faces a Test That More Funding Alone Can’t Solve",
+    "horodatage_utc": "2026-09-12T13:12:11+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/nvidia-digital-realty-flexible-ai-131211843.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a474d009c52d0ac3",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.5 - 126 km NNE of Teluknaga, Indonesia",
+    "horodatage_utc": "2026-09-12T13:05:17+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9c68a8c31c64da4d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ray Dalio and Bloomberg analysts reveal where to put $10,000 as stocks hit highs and bonds sell off in 2026",
+    "horodatage_utc": "2026-09-12T13:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-bloomberg-analysts-reveal-130000521.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cccdc0eb7430e449",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says united Ireland ‘inevitable’ and ‘a very cool thing’",
+    "horodatage_utc": "2026-09-12T12:56:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/70bd4f6c-a5f4-4e59-b773-614f0a5efd58?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "633ad417deab36c3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Inflation is outpacing wage growth again, squeezing Americans’ paychecks",
+    "horodatage_utc": "2026-09-12T12:49:15+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Inflation et prix",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "49ad55d9d4ccbb66",
+    "categorie": "geopolitique",
+    "titre_affiche": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
+    "horodatage_utc": "2026-09-12T12:48:22+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/?src=A00220&yptr=yahoo",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "84015c3b343efd02",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why stocks haven't tanked despite higher bond yields: Chart of the Day",
+    "horodatage_utc": "2026-09-12T12:33:46+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/news/why-stocks-havent-tanked-despite-higher-bond-yields-chart-of-the-day-123346395.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b398e5d40d16c145",
+    "categorie": "geopolitique",
+    "titre_affiche": "Flucht aus dem Dollar ? Gold explodiert – und hier wurden historische 80 , 4 g / t erbohrt",
+    "horodatage_utc": "2026-09-12T12:00:00+00:00",
+    "source_nom": "GDELT/boersennews.de",
+    "url_source": "https://www.boersennews.de/nachrichten/partner/mediafeed/flucht-aus-dem-dollar-gold-explodiert-und-hier-wurden-historische-80-4-g-t-erbohrt/5273889/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Dollar et devises"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "bf0f24fb9553e11d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump may be BRICS best recruitment agent | Opinions",
+    "horodatage_utc": "2026-09-12T11:45:00+00:00",
+    "source_nom": "GDELT/aljazeera.com",
+    "url_source": "https://www.aljazeera.com/opinions/2026/9/12/trump-may-be-bricss-best-recruitment-agent",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e52ce075044c6da0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Perma-Pipe’s (PPIH) Middle East Bet Just Got A Lot More Real",
+    "horodatage_utc": "2026-09-12T11:36:34+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/perma-pipe-ppih-middle-east-113634120.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "059a74493ae79fa6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Eli Lilly’s (LLY) GLP-1 Growth Made It a Core “Running Back” Stock for Jim Cramer",
+    "horodatage_utc": "2026-09-12T11:35:20+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-glp-1-113520085.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5f6e2a3756b257fb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer Said Robinhood Markets (NASDAQ:HOOD) Just Keeps On Growing",
+    "horodatage_utc": "2026-09-12T11:21:58+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-robinhood-markets-112158281.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "98e27de6dc557c58",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oracle Just Added $30 Billion in AI Contracts. Nvidia Investors Should Read the Fine Print",
+    "horodatage_utc": "2026-09-12T11:15:50+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/oracle-just-added-30-billion-111550996.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "64968fdf73254177",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer Discusses Adobe Inc. (NASDAQ:ADBE) & “False” Cuts",
+    "horodatage_utc": "2026-09-12T11:12:53+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-adobe-inc-111253006.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d8f509959589c948",
+    "categorie": "geopolitique",
+    "titre_affiche": "$5K Trump check? Peanuts. White House has even bigger, more realistic idea: $9K/year for US families. See who qualifies",
+    "horodatage_utc": "2026-09-12T11:05:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/economy/policy/articles/5k-trump-check-peanuts-white-110500118.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "ed8823481b68e6a8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer Wondered Whether Microsoft Corporation (NASDAQ:MSFT) Isn’t “That” Dependent On AI",
+    "horodatage_utc": "2026-09-12T10:56:32+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-wondered-whether-microsoft-105632101.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "fa247a73093fe301",
     "categorie": "geopolitique",
     "titre_affiche": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
@@ -21,13 +446,13 @@
     "horodatage_utc": "2026-09-12T10:15:00+00:00",
     "source_nom": "BCE - communiques",
     "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "698fa5847117cdb2",
@@ -36,14 +461,14 @@
     "horodatage_utc": "2026-09-12T10:00:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/4dc6710b-7911-44c6-b57a-2fb47b6b04ed?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Sanctions, accords et diplomatie",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2cfd3f31cbc1a69c",
@@ -76,19 +501,80 @@
     "nouveaute": false
   },
   {
+    "id": "6a6b3ddafe31a540",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold - Stratege Stöferle : Gold ist weiterhin extrem günstig",
+    "horodatage_utc": "2026-09-12T09:00:00+00:00",
+    "source_nom": "GDELT/finanzen.net",
+    "url_source": "https://www.finanzen.net/ratgeber/news/gold-stratege-stoeferle-gold-ist-weiterhin-extrem-guenstig-12-09-2026-01/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e6cd66fdbd1e95d0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold bull market is far from over – here how to invest",
+    "horodatage_utc": "2026-09-12T08:00:00+00:00",
+    "source_nom": "GDELT/moneyweek.com",
+    "url_source": "https://moneyweek.com/investments/gold/golds-bull-market-is-far-from-over",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "675d06155a51d626",
+    "categorie": "geopolitique",
+    "titre_affiche": "India foreign exchange reserves reach record high – Shafaqna English | International Shia News & Fatwas",
+    "horodatage_utc": "2026-09-12T07:00:00+00:00",
+    "source_nom": "GDELT/en.shafaqna.com",
+    "url_source": "https://en.shafaqna.com/476549/indias-foreign-exchange-reserves-reach-record-high/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Tensions sur les réserves de change"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e5d1db66594fd0e0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi , Putin and Modi meet at BRICS summit amid Trump pressure",
+    "horodatage_utc": "2026-09-12T06:45:00+00:00",
+    "source_nom": "GDELT/cnbc.com",
+    "url_source": "https://www.cnbc.com/2026/09/12/brics-summit-xi-putin-modi-trump.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "f7d6cbbbdb76e54a",
     "categorie": "geopolitique",
     "titre_affiche": "De - dollarisation and its impact on commodities and global trade",
     "horodatage_utc": "2026-09-12T05:45:00+00:00",
     "source_nom": "GDELT/economictimes.indiatimes.com",
     "url_source": "https://economictimes.indiatimes.com/markets/forex/forex-news/de-dollarisation-and-its-impact-on-commodities-and-global-trade/articleshow/134109334.cms",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cefe354f361b052f",
@@ -97,14 +583,14 @@
     "horodatage_utc": "2026-09-12T05:30:00+00:00",
     "source_nom": "GDELT/chiangraitimes.com",
     "url_source": "https://www.chiangraitimes.com/china/chinas-360b-yuan-bailout/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/chiangraitimes.com. Elle se rattache à : Dollar et devises, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Inflation et prix"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8a45ab120de78dd1",
@@ -173,13 +659,13 @@
     "horodatage_utc": "2026-09-11T23:00:00+00:00",
     "source_nom": "GDELT/timesofindia.indiatimes.com",
     "url_source": "https://timesofindia.indiatimes.com/business/india-business/rbi-moves-to-suck-out-excess-liquidity/articleshow/134093991.cms",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/timesofindia.indiatimes.com. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1e2ec549451c84fa",
@@ -203,13 +689,13 @@
     "horodatage_utc": "2026-09-11T21:30:00+00:00",
     "source_nom": "GDELT/australiannews.net",
     "url_source": "http://www.australiannews.net/news/279301346/india-china-energy-needs-will-shape-future-of-global-oil-demand-says-hardeep-puri",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/australiannews.net. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b4f1a266d8880c92",
@@ -579,21 +1065,6 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "deb13c7690c3dac5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Economia russa , la Banca centrale vende tonnellate di lingotti doro dalle riserve : « Mai così tanto dal 1998 »",
-    "horodatage_utc": "2026-09-11T12:30:00+00:00",
-    "source_nom": "GDELT/ilgazzettino.it",
-    "url_source": "https://www.ilgazzettino.it:443/esteri/russia_vendita_oro_banca_centrale_putin-9757324.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   },
   {
     "id": "c432117b45a8af6d",

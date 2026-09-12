@@ -1,18 +1,154 @@
 [
   {
+    "id": "7a263045a00dddb4",
+    "categorie": "crypto",
+    "titre_affiche": "Staked ether should be seen as the benchmark of the decentralized economy",
+    "horodatage_utc": "2026-09-12T14:00:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/opinion/2026/09/12/staked-ether-should-be-seen-as-the-benchmark-of-the-decentralized-economy",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6dbeb84d34030b86",
+    "categorie": "crypto",
+    "titre_affiche": "Iran Says It No Longer Bound by the Nuclear Treaty . What That Does to Oil , Gold , and Bitcoin",
+    "horodatage_utc": "2026-09-12T14:00:00+00:00",
+    "source_nom": "GDELT/finance.yahoo.com",
+    "url_source": "https://finance.yahoo.com/markets/commodities/articles/iran-says-no-longer-bound-132026940.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8f4ad338bc2b60a3",
+    "categorie": "crypto",
+    "titre_affiche": "Will the Fed Raise Rates on September 16 ? Polymarket Now Says 83 %. Here What It Means for XRP and Bitcoin",
+    "horodatage_utc": "2026-09-12T13:30:00+00:00",
+    "source_nom": "GDELT/finance.yahoo.com",
+    "url_source": "https://finance.yahoo.com/markets/crypto/articles/fed-raise-rates-september-16-124522934.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "800ac963a33fec42",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin - Prognose : Kommt die 100 . 000 - Dollar - Marke 2026 zurück ?",
+    "horodatage_utc": "2026-09-12T13:15:00+00:00",
+    "source_nom": "GDELT/finanzen.net",
+    "url_source": "https://www.finanzen.net/ratgeber/news/bitcoin-ueber-80-000-dollar-kommt-die-100-000er-marke-zurueck-12-09-2026-01/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "de55b09a437185a5",
+    "categorie": "crypto",
+    "titre_affiche": "ProShares Bitcoin & Ether Market Cap Weight ETF ( NYSEARCA : BETH ) Short Interest Update",
+    "horodatage_utc": "2026-09-12T12:00:00+00:00",
+    "source_nom": "GDELT/themarketsdaily.com",
+    "url_source": "https://www.themarketsdaily.com/2026/09/12/proshares-bitcoin-ether-market-cap-weight-etf-nysearcabeth-short-interest-update.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b647102ea34614ba",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum News : ETH ETF Inflows Return as AlphaPepe Low - Cap",
+    "horodatage_utc": "2026-09-12T11:45:00+00:00",
+    "source_nom": "GDELT/openpr.com",
+    "url_source": "https://www.openpr.com/news/4630023/ethereum-news-eth-etf-inflows-return-as-alphapepe-s-low-cap",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0739633d45e377d6",
+    "categorie": "crypto",
+    "titre_affiche": "7 Best Crypto Under $1 Picks as Bitcoin Struggles Near $77K",
+    "horodatage_utc": "2026-09-12T11:45:00+00:00",
+    "source_nom": "GDELT/openpr.com",
+    "url_source": "https://www.openpr.com/news/4630026/7-best-crypto-under-1-picks-as-bitcoin-struggles-near-77k",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ddf278d705c365e2",
+    "categorie": "crypto",
+    "titre_affiche": "6 Next Crypto To Explode Picks as Bitcoin Slips Below $78K",
+    "horodatage_utc": "2026-09-12T11:45:00+00:00",
+    "source_nom": "GDELT/openpr.com",
+    "url_source": "https://www.openpr.com/news/4630012/6-next-crypto-to-explode-picks-as-bitcoin-slips-below-78k",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "167a80c47c395065",
+    "categorie": "crypto",
+    "titre_affiche": "Solana News : Transaction V1 Goes Live as AlphaPepe Q1 2027",
+    "horodatage_utc": "2026-09-12T11:45:00+00:00",
+    "source_nom": "GDELT/openpr.com",
+    "url_source": "https://www.openpr.com/news/4630019/solana-news-transaction-v1-goes-live-as-alphapepe-s-q1-2027",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "a044410840134ca9",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
     "horodatage_utc": "2026-09-12T10:11:01+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "32983b08850f6b42",
