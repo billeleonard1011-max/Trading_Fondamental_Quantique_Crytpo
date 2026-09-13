@@ -1,5 +1,20 @@
 [
   {
+    "id": "80ea0dee6c550a11",
+    "categorie": "geopolitique",
+    "titre_affiche": "Benchmarking and bonuses: why Singapore pays its politicians like bankers",
+    "horodatage_utc": "2026-09-13T03:39:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fa47c0db-18a6-45d6-b35d-75942a0daae8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "3924a4c5465d6f1c",
     "categorie": "geopolitique",
     "titre_affiche": "China just launched a $19,170 electric vehicle",
@@ -908,6 +923,21 @@
     "nouveaute": false
   },
   {
+    "id": "04179913b363e2e5",
+    "categorie": "geopolitique",
+    "titre_affiche": "York Water’s (YORW) Rate Hike Just Rewrote Its Earnings Picture",
+    "horodatage_utc": "2026-09-12T09:58:48+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/york-water-yorw-rate-hike-095848522.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "05505b80395db679",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.6 - 115 km NNE of Teluknaga, Indonesia",
@@ -921,6 +951,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "992525ef58637b52",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer Waits for Oil to Fall Before Adding to FedEx Freight (FDXF)",
+    "horodatage_utc": "2026-09-12T09:10:11+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-waits-oil-fall-091011793.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "6a6b3ddafe31a540",
