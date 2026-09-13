@@ -1,5 +1,127 @@
 [
   {
+    "id": "e39d5be6e0bb3fb5",
+    "categorie": "geopolitique",
+    "titre_affiche": "The wages of American workers are under pressure. AI's potential role is drawing more attention",
+    "horodatage_utc": "2026-09-13T13:31:51+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/13/ai-jobs-pay-inflation.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Inflation et prix, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "55c3197455fd7fd7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iraq’s militias grow bolder in Iran war",
+    "horodatage_utc": "2026-09-13T12:39:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b60624fb-0a09-45e6-b148-b7a5ca38f83e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "13ece3f135e4edd8",
+    "categorie": "geopolitique",
+    "titre_affiche": "The calculated desperation of Trump-a-palooza",
+    "horodatage_utc": "2026-09-13T12:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d4604abb-d357-4ebd-b709-23902d1e1868?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1abfb9ff03d26fa3",
+    "categorie": "geopolitique",
+    "titre_affiche": "NFL and midterm elections set up prediction markets for a critical fall season",
+    "horodatage_utc": "2026-09-13T11:52:33+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/13/nfl-and-midterms-mark-key-fall-season-for-prediction-markets.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a9cfbc6593308f20",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia hits evacuated Kyiv-Warsaw train on line used by foreign leaders",
+    "horodatage_utc": "2026-09-13T11:47:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cdce9cd6-4857-4332-af34-ffc9ce45eadf",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9113f7f0d579e69a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+    "horodatage_utc": "2026-09-13T11:17:12+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5fa4db26ed32d1c5",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Trumpism’ spawns rare unity at Brics summit",
+    "horodatage_utc": "2026-09-13T10:50:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d17cda71-1c35-4abd-b4d5-773550b109cc?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a69de6fd9cbaa996",
+    "categorie": "geopolitique",
+    "titre_affiche": "How Russia’s new drones are changing the air war",
+    "horodatage_utc": "2026-09-13T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7f01b434-0209-4783-b8eb-5a095ca5bd4f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "80ea0dee6c550a11",
     "categorie": "geopolitique",
     "titre_affiche": "Benchmarking and bonuses: why Singapore pays its politicians like bankers",
