@@ -1,15 +1,211 @@
 [
   {
+    "id": "4c799c360d42f4d4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cognizant CFO: AI Pressures IT Spending, but BFSI Growth Stays Strong",
+    "horodatage_utc": "2026-09-13T17:02:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/cognizant-cfo-ai-pressures-spending-170200251.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f3eb043147f8b671",
+    "categorie": "geopolitique",
+    "titre_affiche": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+    "horodatage_utc": "2026-09-13T16:56:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a85f9b8b9226bef0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Billionaire Bill Ackman Trimmed This Big Tech Position to Back These 2 AI Contenders",
+    "horodatage_utc": "2026-09-13T16:50:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/billionaire-bill-ackman-trimmed-big-165000189.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "43e98eb751d3b551",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia CEO Jensen Huang doubles down on his big 2030 market bet",
+    "horodatage_utc": "2026-09-13T16:47:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-doubles-164700985.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9113f7f0d579e69a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+    "horodatage_utc": "2026-09-13T16:38:45+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "8ce0c027c224ad57",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
+    "horodatage_utc": "2026-09-13T16:11:39+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://www.investors.com/news/trump-urges-federal-reserve-to-cut-rates-market-bets-warsh-hike/?src=A00220&yptr=yahoo",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3169a89cc8fd0c22",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia strikes Ukraine train line moments after foreign dignitaries pass",
+    "horodatage_utc": "2026-09-13T16:11:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cdce9cd6-4857-4332-af34-ffc9ce45eadf?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8a6f3ad0551f0d83",
+    "categorie": "geopolitique",
+    "titre_affiche": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
+    "horodatage_utc": "2026-09-13T15:52:13+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "63a8290c98440c44",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump rejects calls from tech bosses for an AI slowdown",
+    "horodatage_utc": "2026-09-13T15:42:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "06f85d8c9ea7f6ec",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bank exits squeeze truck financing for mid-size fleets",
+    "horodatage_utc": "2026-09-13T15:40:06+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/small-business/articles/bank-exits-squeeze-truck-financing-154006871.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0de0a31d3b20163f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alibaba and Amazon Face the Same AI Spending Question: How Quickly Does Capacity Become Cash?",
+    "horodatage_utc": "2026-09-13T14:08:37+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/alibaba-amazon-face-same-ai-140837189.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8d601d8bc91b10f6",
+    "categorie": "geopolitique",
+    "titre_affiche": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
+    "horodatage_utc": "2026-09-13T14:02:10+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/nvidia-older-gpus-still-earn-140210350.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "e39d5be6e0bb3fb5",
     "categorie": "geopolitique",
     "titre_affiche": "The wages of American workers are under pressure. AI's potential role is drawing more attention",
-    "horodatage_utc": "2026-09-13T13:31:51+00:00",
+    "horodatage_utc": "2026-09-13T13:52:58+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/13/ai-jobs-pay-inflation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Inflation et prix, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Inflation et prix",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "d77d23b152420fdc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Red Violet (RDVT) Turns Record Growth Into Real Profit Gains",
+    "horodatage_utc": "2026-09-13T13:36:58+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/red-violet-rdvt-turns-record-133658483.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
@@ -31,19 +227,34 @@
     "nouveaute": true
   },
   {
+    "id": "9288ffc636c65d01",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi pipeline attack exposes potent Iraqi militia threat",
+    "horodatage_utc": "2026-09-13T12:39:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b60624fb-0a09-45e6-b148-b7a5ca38f83e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "13ece3f135e4edd8",
     "categorie": "geopolitique",
     "titre_affiche": "The calculated desperation of Trump-a-palooza",
     "horodatage_utc": "2026-09-13T12:00:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d4604abb-d357-4ebd-b709-23902d1e1868?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1abfb9ff03d26fa3",
@@ -52,13 +263,13 @@
     "horodatage_utc": "2026-09-13T11:52:33+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/13/nfl-and-midterms-mark-key-fall-season-for-prediction-markets.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a9cfbc6593308f20",
@@ -76,32 +287,31 @@
     "nouveaute": true
   },
   {
-    "id": "9113f7f0d579e69a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
-    "horodatage_utc": "2026-09-13T11:17:12+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "5fa4db26ed32d1c5",
     "categorie": "geopolitique",
     "titre_affiche": "‘Trumpism’ spawns rare unity at Brics summit",
     "horodatage_utc": "2026-09-13T10:50:58+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d17cda71-1c35-4abd-b4d5-773550b109cc?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "86c4817fc17a2ae8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Sunday, September 13, 2026: Mortgage rates surged higher in the last week",
+    "horodatage_utc": "2026-09-13T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-13-2026-mortgage-rates-surged-higher-in-the-last-week-100000138.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -376,6 +586,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "f851a98b0e9e57b8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Musk sent governments a message about the robot economy",
+    "horodatage_utc": "2026-09-12T17:47:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/economy/articles/musk-sent-governments-message-robot-174700228.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "649d6f2a34e45cd1",
@@ -1591,222 +1816,6 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "37c2688c6e43f890",
-    "categorie": "geopolitique",
-    "titre_affiche": "India BRICS strategy tested with Xi , Putin set to visit",
-    "horodatage_utc": "2026-09-11T14:30:00+00:00",
-    "source_nom": "GDELT/dw.com",
-    "url_source": "https://www.dw.com/en/indias-brics-strategy-tested-with-xi-putin-set-to-visit/a-79231879",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d598fcfd1c4cc630",
-    "categorie": "geopolitique",
-    "titre_affiche": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
-    "horodatage_utc": "2026-09-11T14:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "92f38a1901b6c67a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Rupee falls 1 % in three days as crude , foreign outflows weigh on currency",
-    "horodatage_utc": "2026-09-11T13:45:00+00:00",
-    "source_nom": "GDELT/business-standard.com",
-    "url_source": "https://www.business-standard.com/finance/news/rupee-falls-1-in-three-days-as-crude-foreign-outflows-weigh-on-currency-126091101066_1.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b72004a513f940cb",
-    "categorie": "geopolitique",
-    "titre_affiche": "CPI report, Oracle earnings, Trump’s cash promises and more in Morning Squawk",
-    "horodatage_utc": "2026-09-11T13:06:11+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/11/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Inflation et prix",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c432117b45a8af6d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bitcoin and ethereum prices today, Friday, September 11, 2026: Bitcoin falls below $77,000 with key inflation data on deck",
-    "horodatage_utc": "2026-09-11T11:39:05+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-11-2026-bitcoin-falls-below-77000-with-key-inflation-data-on-deck-113905130.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs",
-      "Inflation et prix"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3857b949d8644f20",
-    "categorie": "geopolitique",
-    "titre_affiche": "Silver price today, Friday, September 11, 2026: Silver prices turn negative leading up to CPI report",
-    "horodatage_utc": "2026-09-11T11:22:52+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-september-11-2026-silver-prices-turn-negative-leading-up-to-cpi-report-112252493.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux",
-      "Inflation et prix"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b6a1cf1e940e0d54",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold price today, Friday, September 11, 2026: Gold opens at lowest level in over a month ahead of CPI data",
-    "horodatage_utc": "2026-09-11T11:10:16+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-11-2026-gold-opens-at-lowest-level-in-over-a-month-ahead-of-cpi-data-111016419.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux",
-      "Inflation et prix"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "91919553c04e9a53",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mortgage and refinance interest rates today, Friday, September 11, 2026: Rates shoot up ahead of CPI data",
-    "horodatage_utc": "2026-09-11T10:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-11-2026-rates-shoot-up-ahead-of-cpi-data-100000037.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9a97f8cd1d16a8f4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Houthis used Anthropic AI to try to build ballistic missiles",
-    "horodatage_utc": "2026-09-11T09:02:54+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d8fb5f6a043e95dd",
-    "categorie": "geopolitique",
-    "titre_affiche": "US diesel hits record $6 a gallon on Iran supply shock",
-    "horodatage_utc": "2026-09-11T07:56:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ebfa69a3-323b-450d-8bfd-0b12e01d2a5b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "daf12687bc73b112",
-    "categorie": "geopolitique",
-    "titre_affiche": "Europe’s difficult choices on AI",
-    "horodatage_utc": "2026-09-11T04:00:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f054f927-b512-452a-b494-ea53f5ac1079",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ed0ba59f544d13c3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Man declares bankruptcy with 34 cents while hiding millions",
-    "horodatage_utc": "2026-09-10T23:41:36+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/man-declares-bankruptcy-34-cents-234136167.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a5ad11fdea58a4a8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Humans need to 'surf the wave' of AI rather than get swallowed by it, Chesky says at Communacopia",
-    "horodatage_utc": "2026-09-10T21:22:39+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/10/goldman-sachs-communacopia-technology-conference-ai-tech.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3942d8dddf705ef8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-    "horodatage_utc": "2026-09-10T20:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
