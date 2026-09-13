@@ -494,13 +494,28 @@ plus pernicieux : il ne provoque aucune erreur et vide la veille en silence.
 | `CFTC_APP_TOKEN` | Non | Relève la limite de débit de l'API Socrata de la CFTC. L'accès reste public sans jeton. |
 | `SEC_CONTACT_EMAIL` | Oui pour la veille quantique | Adresse de contact exigée par la SEC dans le User-Agent. Sans elle, EDGAR répond 403 et la trésorerie ne peut pas être estimée. |
 
-Le workflow tourne en cron à **11:30 UTC**, du lundi au vendredi, et peut être
+Le workflow tourne **tous les jours à minuit, heure de Paris**, et peut être
 lancé à la main depuis l'onglet `Actions`.
 
 GitHub Actions exécute les crons **en UTC, sans ajustement d'heure d'été** :
-11:30 UTC correspond à 13:30 à Paris l'été et 12:30 l'hiver. Le décalage d'une
-heure entre mars et octobre est normal. GitHub met aussi les crons en file
-d'attente aux heures chargées, un retard de quelques minutes est courant.
+minuit à Paris vaut 22:00 UTC en été et 23:00 UTC en hiver. Le workflow déclare
+donc **deux entrées cron**, et un job de garde n'en laisse passer qu'une, celle
+où `TZ=Europe/Paris` indique bien minuit. Vérifié sur les 365 jours de 2026,
+bascules d'heure comprises : exactement une exécution par jour, jamais zéro,
+jamais deux. GitHub met aussi les crons en file d'attente aux heures chargées,
+un retard de quelques minutes est courant.
+
+**Ce que cet horaire coûte en fraîcheur**, mesuré sur les rapports réellement
+publiés entre le 8 et le 12 septembre 2026 :
+
+| Donnée | À 11:30 UTC | À minuit Paris |
+|---|---|---|
+| Cours de l'or, juste valeur, ratio mines/or | veille | **avant-veille** |
+| Séries FRED (taux, dollar, VIX, spreads) | veille | veille |
+| Positionnement COT | lundi pour le rapport du vendredi | **samedi**, deux jours plus tôt |
+
+Le cours de l'or du jour J n'arrive chez la source qu'entre 23:29 et 00:23 UTC,
+donc après minuit à Paris. Décaler à 01:00 heure de Paris le récupérerait.
 
 ---
 

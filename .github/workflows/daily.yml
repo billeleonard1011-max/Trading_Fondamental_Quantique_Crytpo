@@ -1,16 +1,47 @@
 # Rapport quotidien : collecte des données, analyse, publication dans reports/.
 #
-# ATTENTION AUX HORAIRES
-# GitHub Actions exécute tous les crons en UTC, sans aucun ajustement d'heure
-# d'été. Un cron à 11:30 UTC se déclenche donc à 13:30 à Paris l'été (CEST,
-# UTC+2) et à 12:30 l'hiver (CET, UTC+1). Le décalage d'une heure entre mars
-# et octobre est normal, ce n'est pas une panne.
+# HORAIRE : minuit à Paris, tous les jours
 #
-# Repères pour le choix de l'heure :
-#   13:30 UTC = ouverture de la bourse de New York l'été (09:30 New York)
-#   14:30 UTC = ouverture de la bourse de New York l'hiver
-#   11:30 UTC retenu ici : après la clôture asiatique et la matinée
-#   européenne, avant l'ouverture américaine.
+# GitHub Actions n'exécute les crons qu'en UTC et ne connaît pas l'heure d'été.
+# Minuit à Paris vaut donc 22:00 UTC de la veille en été (CEST, UTC+2) et
+# 23:00 UTC en hiver (CET, UTC+1). Trois façons de s'en sortir ont été pesées :
+#
+#   1. une seule entrée cron, en acceptant une heure de dérive la moitié de
+#      l'année. Écarté : « minuit » deviendrait « 23 h ou minuit selon la
+#      saison », et le rapport basculerait de jour calendaire deux fois par an
+#      sans que rien ne le dise ;
+#   2. un déclenchement horaire avec un test de l'heure locale. Écarté :
+#      vingt-quatre démarrages de job par jour pour en garder un, alors que la
+#      date du basculement d'heure est connue à la seconde ;
+#   3. DEUX entrées cron, 22:00 et 23:00 UTC, et un job de garde qui ne laisse
+#      passer que celle où il est réellement minuit à Paris. Retenu.
+#
+# Le troisième donne minuit exact toute l'année, sans table de dates à tenir à
+# jour : c'est `TZ=Europe/Paris` qui tranche, donc la base de fuseaux du
+# système, mise à jour par l'image de l'exécuteur. Le coût est un démarrage de
+# job d'une dizaine de secondes par jour, celui qui s'arrête aussitôt.
+#
+# Le dépôt est public, donc les minutes Actions sont illimitées : passer de
+# cinq à sept exécutions par semaine ne coûte rien.
+#
+# CE QUE CET HORAIRE COÛTE EN FRAÎCHEUR
+# Mesuré sur les rapports réellement publiés entre le 8 et le 12 septembre
+# 2026, à des heures allant de 09:35 à 00:23 UTC :
+#
+#   * le cours de l'or du jour J n'apparaît chez la source qu'entre 23:29 et
+#     00:23 UTC. À minuit à Paris — 22:00 UTC en été, 23:00 en hiver — il n'est
+#     donc pas encore là. Le rapport du jour J porte la clôture de J-2, là où
+#     l'horaire de 11:30 UTC portait celle de J-1. La juste valeur et le ratio
+#     mines/or, qui en dérivent, reculent d'autant ;
+#   * les séries FRED du jour J paraissent entre 16:12 et 21:15 UTC le jour
+#     même : elles sont donc disponibles à minuit à Paris, comme elles
+#     l'étaient à 11:30 UTC. Aucune perte ;
+#   * le rapport COT du vendredi paraît vers 19:40 UTC. Minuit à Paris le
+#     samedi le capte, alors que l'ancien horaire attendait le lundi. Gain de
+#     deux jours.
+#
+# Reculer d'une heure — 01:00 à Paris au lieu de minuit — récupérerait la
+# clôture de l'or. C'est un arbitrage à trancher, pas un défaut.
 #
 # GitHub met par ailleurs les crons en file d'attente aux heures chargées :
 # un retard de quelques minutes à une heure est courant et n'indique rien
@@ -20,7 +51,10 @@ name: Rapport quotidien
 
 on:
   schedule:
-    - cron: "30 11 * * 1-5"   # du lundi au vendredi, 11:30 UTC
+    # Les deux entrées visent le même instant : minuit à Paris. Le job de
+    # garde `minuit` arrête celle qui tombe à côté selon la saison.
+    - cron: "0 22 * * *"      # minuit à Paris en heure d'été (CEST, UTC+2)
+    - cron: "0 23 * * *"      # minuit à Paris en heure d'hiver (CET, UTC+1)
   workflow_dispatch:           # déclenchement manuel depuis l'onglet Actions
 
 # Nécessaire pour que l'étape de commit puisse pousser dans le dépôt.
@@ -34,8 +68,36 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Garde d'horaire : des deux entrées cron, une seule tombe à minuit à Paris.
+  # L'autre s'arrête ici, en une dizaine de secondes, sans démarrer la collecte.
+  minuit:
+    name: Est-il minuit à Paris ?
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      executer: ${{ steps.heure.outputs.executer }}
+    steps:
+      - id: heure
+        run: |
+          # TZ=Europe/Paris délègue le calcul à la base de fuseaux du système,
+          # qui connaît les dates de bascule. Rien à tenir à jour ici.
+          heure_paris=$(TZ=Europe/Paris date +%-H)
+          horodatage=$(TZ=Europe/Paris date '+%Y-%m-%d %H:%M %Z')
+          if [ "${GITHUB_EVENT_NAME}" != "schedule" ]; then
+            echo "executer=true" >> "$GITHUB_OUTPUT"
+            echo "Déclenchement ${GITHUB_EVENT_NAME} : exécution sans condition d'heure (${horodatage})."
+          elif [ "${heure_paris}" -eq 0 ]; then
+            echo "executer=true" >> "$GITHUB_OUTPUT"
+            echo "Minuit à Paris (${horodatage}) : le rapport est produit."
+          else
+            echo "executer=false" >> "$GITHUB_OUTPUT"
+            echo "Il est ${heure_paris} h à Paris (${horodatage}) : c'est l'autre entrée cron qui produira le rapport aujourd'hui."
+          fi
+
   rapport:
     name: Générer et publier le rapport
+    needs: minuit
+    if: needs.minuit.outputs.executer == 'true'
     runs-on: ubuntu-latest
     # 45 plutôt que 30 : les réessais GDELT (jusqu'à ~105 s par requête
     # refusée, plus 20 puis 40 s par dossier remesuré) peuvent allonger
