@@ -1,5 +1,113 @@
 [
   {
+    "id": "29a089a6c26dd94c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
+    "horodatage_utc": "2026-09-14T20:34:23+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "325eb6a4a59c8d47",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI slowdown blast zone: Exposed chip names like Nvidia got hit while cyber names like Crowdstrike soared",
+    "horodatage_utc": "2026-09-14T20:23:48+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a15f9b5163568584",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
+    "horodatage_utc": "2026-09-14T20:11:20+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "3d64a2c3123eae28",
+    "categorie": "geopolitique",
+    "titre_affiche": "US tech stocks fall after big AI groups call for slowdown",
+    "horodatage_utc": "2026-09-14T20:10:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/aa8a1be7-abe0-44b7-bcd3-31fd0a44de08?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "3559455ab489d263",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ten-year Treasury yield hits 5% for first time since 2023",
+    "horodatage_utc": "2026-09-14T20:08:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/06cb850d-089a-4318-88d7-a410e9766b89?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "95931efed9b5318f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
+    "horodatage_utc": "2026-09-14T17:26:21+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/14/warshs-credibility-is-on-the-line-this-week-as-trump-policies-put-pressure-on-fed-to-hike.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Commerce international (droits de douane), Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)",
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c14abf6103bf82c2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump claims Russia and Ukraine have agreed energy truce",
+    "horodatage_utc": "2026-09-14T17:18:42+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d6f98d2e-9f0c-4414-a339-fe8462810276?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "8bef319b8f86cb55",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia, Broadcom Tumble In AI Rotation; These U.K.-Based Names Gain",
@@ -15,35 +123,19 @@
     "nouveaute": true
   },
   {
-    "id": "a15f9b5163568584",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
-    "horodatage_utc": "2026-09-14T16:31:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "103e0fa440165248",
     "categorie": "geopolitique",
     "titre_affiche": "Microsoft sets limits for future AI models as industry throttles frontier development",
     "horodatage_utc": "2026-09-14T16:31:00+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/14/microsoft-ai-model-limits-anthropic-openai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f70e1cf4f95d1c2d",
@@ -97,13 +189,13 @@
     "horodatage_utc": "2026-09-14T16:19:28+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/b01682ae-1d49-46bb-b23a-d6212574214d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "28104112f276017b",
@@ -181,21 +273,6 @@
     "nouveaute": true
   },
   {
-    "id": "3d64a2c3123eae28",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech stocks fall after big AI groups call for slowdown",
-    "horodatage_utc": "2026-09-14T15:51:03+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/aa8a1be7-abe0-44b7-bcd3-31fd0a44de08?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "1fbca4e5016c8194",
     "categorie": "geopolitique",
     "titre_affiche": "Stock Market Today: Dow Falls, Oil Jumps On Houthi Moves; Trump Hits Out At These AI Fears (Live Coverage)",
@@ -223,7 +300,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4e9bff47bda5b0f7",
@@ -253,7 +330,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9c109f73d7e8f393",
@@ -281,21 +358,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3559455ab489d263",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ten-year Treasury yield hits 5% for first time since 2023",
-    "horodatage_utc": "2026-09-14T14:51:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/06cb850d-089a-4318-88d7-a410e9766b89?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -344,7 +406,7 @@
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8b2f45d0910451b6",
@@ -359,7 +421,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "318126366428acc7",
@@ -374,7 +436,7 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1abfb9ff03d26fa3",
@@ -405,7 +467,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "171422644aa8fc6d",
@@ -862,7 +924,7 @@
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1ca60ad7775a2726",
@@ -1754,66 +1816,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3b9c38b0773c750b",
-    "categorie": "geopolitique",
-    "titre_affiche": "BRICS Declaration reflects India concerns : JNU professor Srikanth Kondapalli amid ongoing Summit",
-    "horodatage_utc": "2026-09-13T09:15:00+00:00",
-    "source_nom": "GDELT/zimbabwestar.com",
-    "url_source": "http://www.zimbabwestar.com/news/279304172/brics-declaration-reflects-india-concerns-jnu-professor-srikanth-kondapalli-amid-ongoing-summit",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "6a6b3ddafe31a540",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold - Stratege Stöferle : Gold ist weiterhin extrem günstig",
-    "horodatage_utc": "2026-09-13T08:45:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/ratgeber/news/gold-stratege-stoeferle-gold-ist-weiterhin-extrem-guenstig-13-09-2026-01/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "137ea7a167d045fd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenski rekao da se spreman sastati s Putinom na ovom mjestu , poklopili ga iz Moskve : Nemoguće",
-    "horodatage_utc": "2026-09-13T08:45:00+00:00",
-    "source_nom": "GDELT/dnevno.hr",
-    "url_source": "https://www.dnevno.hr/vijesti/zelenski-rekao-da-se-spreman-sastati-s-putinom-na-ovom-mjestu-poklopili-ga-iz-moskve-nemoguce-3415197/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "932e9f5d6a0e4315",
-    "categorie": "geopolitique",
-    "titre_affiche": "España llega a la recta final antes del invierno con menos gas almacenado y el precio disparado hasta 80 euros por la guerra de Irán",
-    "horodatage_utc": "2026-09-13T08:45:00+00:00",
-    "source_nom": "GDELT/larazon.es",
-    "url_source": "https://www.larazon.es/economia/espana-llega-recta-final-antes-invierno-menos-gas-almacenado-precio-disparado-80-euros-guerra-iran_202609136aa6597f7486a40f2c9c3201.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
