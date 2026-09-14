@@ -1,5 +1,81 @@
 [
   {
+    "id": "9de1b0bb1e290ad0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Swedish election on a knife-edge",
+    "horodatage_utc": "2026-09-14T04:47:45+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/00e3c084-06e3-47b4-8230-185760216e60?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "736d7f25b9d38ba3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil hits $108 after Gulf states postpone talks with Iran over Hormuz",
+    "horodatage_utc": "2026-09-14T04:42:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "693adca7a40bc67a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Japan’s central bank set for pivotal moment on rates",
+    "horodatage_utc": "2026-09-14T04:15:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4f6a427f-3975-470f-83bf-b21423df59c8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f3c3eb1c7fd1108e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Warsh and Trump on collision course as investors expect Fed to raise rates",
+    "horodatage_utc": "2026-09-14T04:00:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/904c6d93-a6b3-47f4-8b12-3d418cc74fa2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6054bcf403a70cdd",
+    "categorie": "geopolitique",
+    "titre_affiche": "European capitals barter over Christine Lagarde’s successor at ECB",
+    "horodatage_utc": "2026-09-14T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/898836da-322a-4bb8-9e62-f3c3d36b23b2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "1ca60ad7775a2726",
     "categorie": "geopolitique",
     "titre_affiche": "Gulf states postpone talks with Iran over Hormuz impasse",
@@ -61,22 +137,6 @@
     "nouveaute": true
   },
   {
-    "id": "9de1b0bb1e290ad0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Swedish election on a knife-edge",
-    "horodatage_utc": "2026-09-13T21:52:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/00e3c084-06e3-47b4-8230-185760216e60?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
     "id": "d66b80675d18038a",
     "categorie": "geopolitique",
     "titre_affiche": "Cybersecurity Is the Next Big Market for Artificial Intelligence (AI), According to Jensen Huang. This Super Stock-Split Stock Is the One to Own.",
@@ -129,13 +189,13 @@
     "horodatage_utc": "2026-09-13T21:34:22+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ba4e37ff8aac0c2d",
@@ -1750,66 +1810,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c177e9a0f89ca7a8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Саммит G20 в Майами будет ли присутствовать Путин мирный план",
-    "horodatage_utc": "2026-09-12T13:30:00+00:00",
-    "source_nom": "GDELT/obozrevatel.com",
-    "url_source": "https://www.obozrevatel.com/politics-news/priedet-li-putin-na-sammit-g20-v-majami-v-kremle-sdelali-zayavlenie.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d4da0cbd5e44dce2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Suspected military airstrike kills seven vigilantes , injures others in Niger",
-    "horodatage_utc": "2026-09-12T13:30:00+00:00",
-    "source_nom": "GDELT/dailypost.ng",
-    "url_source": "https://dailypost.ng/2026/09/12/suspected-military-airstrike-kills-seven-vigilantes-injures-others-in-niger/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "a4b65007bd3ea669",
-    "categorie": "geopolitique",
-    "titre_affiche": "BRICS declaration urges maximum restraint in Middle East",
-    "horodatage_utc": "2026-09-12T13:15:00+00:00",
-    "source_nom": "GDELT/dw.com",
-    "url_source": "https://www.dw.com/en/brics-summit-leaders-urge-maximum-restraint-in-middle-east/live-79224239",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c2431dea8d2fbb36",
-    "categorie": "geopolitique",
-    "titre_affiche": "NVIDIA and Digital Realty’s Flexible AI Factory Faces a Test That More Funding Alone Can’t Solve",
-    "horodatage_utc": "2026-09-12T13:12:11+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/nvidia-digital-realty-flexible-ai-131211843.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": false
