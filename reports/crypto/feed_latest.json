@@ -1,26 +1,41 @@
 [
   {
-    "id": "b4fc8290116a656b",
+    "id": "d14cff3cc3e2da88",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin climbs to $78,000 as crypto sits out the AI selloff",
-    "horodatage_utc": "2026-09-14T10:09:41+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/14/bitcoin-climbs-to-usd78-000-as-crypto-sits-out-the-ai-selloff",
+    "titre_affiche": "DeFi Development Corp expands Solana treasury to 2.39 million SOL, sets up $300 million CHAD ATM",
+    "horodatage_utc": "2026-09-14T14:40:16+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-14-defi-development-corp-expands-solana-treasury-2-39-million-sol-sets-300-million-chad-atm-414633",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
-      "BTC"
+      "SOL"
     ],
     "portee": "actif_direct",
     "nouveaute": true
   },
   {
-    "id": "a4c88dafe2368e0b",
+    "id": "6ccdbb0bc068d7b6",
     "categorie": "crypto",
-    "titre_affiche": "TD Cowen sees 90% upside for bitcoin treasury firm Smarter Web following proposed ‘MORE’ preferred IPO",
-    "horodatage_utc": "2026-09-14T09:29:39+00:00",
+    "titre_affiche": "Bitmine adds $68 million in ether as Tom Lee sees more upside catalysts ahead",
+    "horodatage_utc": "2026-09-14T12:58:42+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/09/14/bitmine-adds-usd68-million-in-ether-as-tom-lee-sees-more-upside-catalysts-ahead",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "aead94c7aabc1f9e",
+    "categorie": "crypto",
+    "titre_affiche": "Strategy repurchases $139 million of STRC shares, leaves bitcoin holdings unchanged",
+    "horodatage_utc": "2026-09-14T12:08:37+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-14-td-cowen-sees-90-upside-for-bitcoin-treasury-firm-smarter-web-following-proposed-more-preferred-ipo-414590",
+    "url_source": "https://www.theblock.co/news/business/2026-09-14-strategy-strc-bitcoin-mstr-414603",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -30,12 +45,28 @@
     "nouveaute": true
   },
   {
-    "id": "4f16bb867541822a",
+    "id": "d220e6a0f245a289",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin bucks tech selloff as AI safety concerns weigh on stocks",
-    "horodatage_utc": "2026-09-14T08:07:16+00:00",
+    "titre_affiche": "Dogecoin ETFs struggled for buyers while rival XRP and Solana funds pulled in $3 billion",
+    "horodatage_utc": "2026-09-14T12:08:35+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/14/bitcoin-bucks-tech-selloff-as-ai-safety-concerns-weigh-on-stocks",
+    "url_source": "https://www.coindesk.com/markets/2026/09/14/dogecoin-etfs-struggled-for-buyers-while-rival-xrp-and-solana-funds-pulled-in-usd3-billion",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL, DOGE. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL",
+      "DOGE"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "722da87b73b548c3",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin climbs as stocks drop, U.S. 10-year yield rises to 5%",
+    "horodatage_utc": "2026-09-14T11:44:21+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/14/live-updates-bitcoin-manages-small-gains-as-stocks-drop-on-ai-concern-oil-surges",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -43,6 +74,51 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "b4fc8290116a656b",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin climbs to $78,000 as crypto sits out the AI selloff",
+    "horodatage_utc": "2026-09-14T10:09:41+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/14/bitcoin-climbs-to-usd78-000-as-crypto-sits-out-the-ai-selloff",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "a4c88dafe2368e0b",
+    "categorie": "crypto",
+    "titre_affiche": "TD Cowen sees 90% upside for bitcoin treasury firm Smarter Web following proposed ‘MORE’ preferred IPO",
+    "horodatage_utc": "2026-09-14T09:29:39+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-14-td-cowen-sees-90-upside-for-bitcoin-treasury-firm-smarter-web-following-proposed-more-preferred-ipo-414590",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "4f16bb867541822a",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin bucks tech selloff as AI safety concerns weigh on stocks",
+    "horodatage_utc": "2026-09-14T08:07:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/14/bitcoin-bucks-tech-selloff-as-ai-safety-concerns-weigh-on-stocks",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "4510234419063d07",
