@@ -1,5 +1,20 @@
 [
   {
+    "id": "0d9acb2f03107008",
+    "categorie": "quantique",
+    "titre_affiche": "Quantum Machines Makes Quantum Computers Easier to Program With NVIDIA CUDA-Q And NVQLink",
+    "horodatage_utc": "2026-09-13T11:05:00+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/13/quantum-machines-makes-quantum-computers-easier-to-program-with-nvidia-cuda-q-and-nvqlink/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "201ae190f47d9cff",
     "categorie": "quantique",
     "titre_affiche": "BigBear . ai vs . IonQ : Weighing Whether to Invest in the Artificial Intelligence Company or the Quantum Computing Giant",
