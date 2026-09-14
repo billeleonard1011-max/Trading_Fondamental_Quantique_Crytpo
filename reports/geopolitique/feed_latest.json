@@ -1,19 +1,98 @@
 [
   {
+    "id": "439fb0a710e654fb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom",
+    "horodatage_utc": "2026-09-14T23:30:02+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "76922beaeb0f0472",
+    "categorie": "geopolitique",
+    "titre_affiche": "US military reveals it has weapons in space",
+    "horodatage_utc": "2026-09-14T23:04:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/09d62f21-8697-4518-bca0-3699b4dd866c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "2f69dab23c871deb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’",
+    "horodatage_utc": "2026-09-14T21:32:03+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/14/trump-phones-nvidia-huang-all-in-calls-data-center-opposition-hoax.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5af56e88668f9aac",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+    "horodatage_utc": "2026-09-14T21:03:32+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "95931efed9b5318f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
+    "horodatage_utc": "2026-09-14T20:49:03+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/14/warshs-credibility-is-on-the-line-this-week-as-trump-policies-put-pressure-on-fed-to-hike.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)",
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "29a089a6c26dd94c",
     "categorie": "geopolitique",
     "titre_affiche": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
     "horodatage_utc": "2026-09-14T20:34:23+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "325eb6a4a59c8d47",
@@ -26,6 +105,21 @@
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d236734e113aeedf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Carney urges EU to cement trade deal as Ottawa seeks pivot from US",
+    "horodatage_utc": "2026-09-14T20:19:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1a1d76fc-e02b-40ee-8afc-b45ab9f17c0f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -77,17 +171,16 @@
     "nouveaute": false
   },
   {
-    "id": "95931efed9b5318f",
+    "id": "a3660a4a910d718b",
     "categorie": "geopolitique",
-    "titre_affiche": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
-    "horodatage_utc": "2026-09-14T17:26:21+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/14/warshs-credibility-is-on-the-line-this-week-as-trump-policies-put-pressure-on-fed-to-hike.html",
+    "titre_affiche": "Debt settlement vs. bankruptcy: How to choose",
+    "horodatage_utc": "2026-09-14T17:56:57+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/personal-loans/article/debt-settlement-vs-bankruptcy-175657072.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Commerce international (droits de douane), Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)",
-      "Politique monétaire (Fed, BCE)"
+      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -99,13 +192,13 @@
     "horodatage_utc": "2026-09-14T17:18:42+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d6f98d2e-9f0c-4414-a339-fe8462810276?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8bef319b8f86cb55",
@@ -144,13 +237,13 @@
     "horodatage_utc": "2026-09-14T16:28:15+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/investing/article/how-gold-iras-fit-into-a-diversified-retirement-portfolio-162815731.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Or et métaux précieux"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "43014d6484d8942b",
@@ -318,6 +411,21 @@
     "nouveaute": true
   },
   {
+    "id": "484b161f2731a816",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bannon and Sanders unite over AI safety as Trump condemns warnings as a ‘hoax’",
+    "horodatage_utc": "2026-09-14T15:41:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bab5c4c5-5377-4dd0-8b46-d8c4ce9a36d5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "2cbbe84189818a91",
     "categorie": "geopolitique",
     "titre_affiche": "Christine Lagarde: A new age of capital: growth, sovereignty and AI",
@@ -482,7 +590,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7f152c3d73073252",
@@ -497,7 +605,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5e6fb370d47e3f52",
@@ -513,7 +621,7 @@
       "Pétrole et énergie"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9b8eb6f0b5c3552d",
@@ -1714,110 +1822,5 @@
     ],
     "portee": "contexte",
     "nouveaute": false
-  },
-  {
-    "id": "a9cfbc6593308f20",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia hits evacuated Kyiv-Warsaw train on line used by foreign leaders",
-    "horodatage_utc": "2026-09-13T11:47:41+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/cdce9cd6-4857-4332-af34-ffc9ce45eadf",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5fa4db26ed32d1c5",
-    "categorie": "geopolitique",
-    "titre_affiche": "‘Trumpism’ spawns rare unity at Brics summit",
-    "horodatage_utc": "2026-09-13T10:50:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d17cda71-1c35-4abd-b4d5-773550b109cc?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "86c4817fc17a2ae8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mortgage and refinance interest rates today, Sunday, September 13, 2026: Mortgage rates surged higher in the last week",
-    "horodatage_utc": "2026-09-13T10:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-13-2026-mortgage-rates-surged-higher-in-the-last-week-100000138.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "00654fe5d61b6838",
-    "categorie": "geopolitique",
-    "titre_affiche": "Real hardship and difficultie lie ahead in fight for Ukraine , says PM top security adviser",
-    "horodatage_utc": "2026-09-13T09:15:00+00:00",
-    "source_nom": "GDELT/lbc.co.uk",
-    "url_source": "https://www.lbc.co.uk/article/hardships-difficulties-ukraine-russia-uk-5HjdhLG_2/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "aee173722401f63c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Một sự kiện bất ngờ đã xảy ra ở Ukraine : Ông Zelensky khẩn cấp yêu cầu gặp ông Putin",
-    "horodatage_utc": "2026-09-13T09:15:00+00:00",
-    "source_nom": "GDELT/vietgiaitri.com",
-    "url_source": "https://vietgiaitri.com/mot-su-kien-bat-ngo-da-xay-ra-o-ukraine-ong-zelensky-khan-cap-yeu-cau-gap-ong-putin-20260913i7770612/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b5139cacbcb0cac3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia Imports Record Fuel From India As Ukraine Strikes Hit Refineries",
-    "horodatage_utc": "2026-09-13T09:15:00+00:00",
-    "source_nom": "GDELT/thenorthlines.com",
-    "url_source": "https://thenorthlines.com/russia-imports-record-fuel-from-india-as-ukraine-strikes-hit-refineries/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9af7e341a146bedd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israeli strike kills two people in Gaza , medics say",
-    "horodatage_utc": "2026-09-13T09:15:00+00:00",
-    "source_nom": "GDELT/straitstimes.com",
-    "url_source": "https://www.straitstimes.com/world/middle-east/israeli-strike-kills-two-people-in-gaza-medics-say2",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
