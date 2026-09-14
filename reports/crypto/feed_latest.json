@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-09-13T21:51:11+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b2b504a2c72c6780",
@@ -21,15 +21,15 @@
     "horodatage_utc": "2026-09-13T08:15:00+00:00",
     "source_nom": "GDELT/finanzen.net",
     "url_source": "https://www.finanzen.net/nachricht/devisen/das-sind-die-aktuellen-kurse-von-bitcoin-dogecoin-co-15931552",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC, ETH, DOGE. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH",
       "DOGE"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1f9b814de7d729a6",
@@ -38,13 +38,13 @@
     "horodatage_utc": "2026-09-13T07:45:00+00:00",
     "source_nom": "GDELT/brisbanetimes.com.au",
     "url_source": "https://www.brisbanetimes.com.au/world/europe/bitcoin-billionaires-give-nigel-farage-s-reform-uk-72m-in-48-hours-20260913-p60wx5.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/brisbanetimes.com.au. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dbd9ec2a1c4dc1ea",
@@ -53,13 +53,13 @@
     "horodatage_utc": "2026-09-13T07:00:00+00:00",
     "source_nom": "GDELT/thanhnien.vn",
     "url_source": "https://thanhnien.vn/gia-bitcoin-hom-nay-1392026-tuan-song-gio-cua-tien-so-18526091311191482.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/thanhnien.vn. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "975aab206d2e641a",
@@ -68,13 +68,13 @@
     "horodatage_utc": "2026-09-13T06:45:00+00:00",
     "source_nom": "GDELT/finance.yahoo.com",
     "url_source": "https://finance.yahoo.com/markets/crypto/articles/best-crypto-buy-now-xrp-223841295.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "14a0ecff38ba883f",
@@ -83,13 +83,13 @@
     "horodatage_utc": "2026-09-13T06:45:00+00:00",
     "source_nom": "GDELT/finanznachrichten.de",
     "url_source": "https://www.finanznachrichten.de/nachrichten-2026-09/69562756-ethereum-prognose-am-12-september-2026-eth-testet-2-600-dollar-und-analysten-nennen-2-950-dollar-712.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanznachrichten.de. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c36ea17b05417a78",
@@ -98,13 +98,13 @@
     "horodatage_utc": "2026-09-13T06:15:00+00:00",
     "source_nom": "GDELT/finance.yahoo.com",
     "url_source": "https://finance.yahoo.com/markets/crypto/articles/ripple-david-schwartz-says-xrp-222937740.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "72f3a67bee0bb173",
@@ -113,14 +113,14 @@
     "horodatage_utc": "2026-09-13T06:00:00+00:00",
     "source_nom": "GDELT/finance.yahoo.com",
     "url_source": "https://finance.yahoo.com/markets/crypto/articles/asked-chatgpt-whether-ethereum-bitcoin-220318468.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "db19b9f95bda282d",
@@ -135,7 +135,7 @@
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "88c41e84292e4ac0",
@@ -150,7 +150,7 @@
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "55c336e2ce65f8f2",
