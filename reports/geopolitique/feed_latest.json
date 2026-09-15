@@ -1,5 +1,82 @@
 [
   {
+    "id": "4107bc21566da226",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia CEO says battle over AI innovation and safety is ‘false choice’",
+    "horodatage_utc": "2026-09-15T20:55:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "83b64c6cd22c0c34",
+    "categorie": "geopolitique",
+    "titre_affiche": "Two camps have emerged in the debate over AI safety and regulation",
+    "horodatage_utc": "2026-09-15T20:12:00+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/ai-regulation-trump-nvidia-openai-anthropic.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0a980e87886c9289",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s Iran war has cost US $38bn and caused munitions ‘shortfall’",
+    "horodatage_utc": "2026-09-15T19:47:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e89bfb29-2aef-40ec-9c9d-b9c1afa783a8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "af1cb4ca677f1bf3",
+    "categorie": "geopolitique",
+    "titre_affiche": "UK ‘actively’ exploring joining Canada-led global defence bank",
+    "horodatage_utc": "2026-09-15T19:13:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4e14f546-332e-4723-b75c-8f6744329733?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque, Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Conflits et sécurité"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1c199304145b2846",
+    "categorie": "geopolitique",
+    "titre_affiche": "AWS says it can't restore service to Bahrain, UAE facilities 6 months after Iran strikes",
+    "horodatage_utc": "2026-09-15T19:04:46+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "95dd47c300537429",
     "categorie": "geopolitique",
     "titre_affiche": "Ten-year Treasury yield hits highest level since 2007",
@@ -37,13 +114,13 @@
     "horodatage_utc": "2026-09-15T17:31:17+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/15/hassett-ai-trump-government-regulation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "29b716355d525589",
@@ -82,15 +159,15 @@
     "horodatage_utc": "2026-09-15T15:26:00+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e14542d9-2bc5-49c8-8e7e-c9656b0a2d36?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Commerce international (droits de douane), Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Commerce international (droits de douane)",
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "193d862708bbe693",
@@ -380,7 +457,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4cf1f25942d6a9f0",
@@ -395,7 +472,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fc66a4d17c12d09b",
@@ -411,7 +488,7 @@
       "Taux et obligations"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d73136dc67cf8fce",
@@ -467,6 +544,21 @@
     "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-september-15-2026-rates-cross-the-7-threshold-100000413.html",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9a7c1b8b2ec2711c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Tuesday, September 15, 2026: Will they drop soon?",
+    "horodatage_utc": "2026-09-15T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-september-15-2026-rates-cross-the-7-threshold-100000413.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
@@ -1736,96 +1828,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "6959bdf5efbd4079",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil hits $108 after Saudi Arabia closes vital export pipeline",
-    "horodatage_utc": "2026-09-14T07:31:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0d4dec5b8cecd01b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Hostile forces using AI for ‘cognitive warfare’ against China, spy agency warns",
-    "horodatage_utc": "2026-09-14T05:15:49+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8715d1c6-054d-4eab-bcad-147acebfd2a9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "736d7f25b9d38ba3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil hits $108 after Gulf states postpone talks with Iran over Hormuz",
-    "horodatage_utc": "2026-09-14T04:42:40+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "693adca7a40bc67a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Japan’s central bank set for pivotal moment on rates",
-    "horodatage_utc": "2026-09-14T04:15:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4f6a427f-3975-470f-83bf-b21423df59c8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f3c3eb1c7fd1108e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Warsh and Trump on collision course as investors expect Fed to raise rates",
-    "horodatage_utc": "2026-09-14T04:00:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/904c6d93-a6b3-47f4-8b12-3d418cc74fa2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8de269471df62020",
-    "categorie": "geopolitique",
-    "titre_affiche": "Warsh and Trump on collision course",
-    "horodatage_utc": "2026-09-14T04:00:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/904c6d93-a6b3-47f4-8b12-3d418cc74fa2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
