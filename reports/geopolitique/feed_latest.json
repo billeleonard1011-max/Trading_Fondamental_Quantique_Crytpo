@@ -1,5 +1,98 @@
 [
   {
+    "id": "95dd47c300537429",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ten-year Treasury yield hits highest level since 2007",
+    "horodatage_utc": "2026-09-15T18:13:53+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "aa68e8fa4dc49639",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s opposition to AI rules undercuts industry's calls for a slowdown",
+    "horodatage_utc": "2026-09-15T17:38:35+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "b79721588b5cb5de",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump admin. says private sector can solve AI threats as critics balk",
+    "horodatage_utc": "2026-09-15T17:31:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/hassett-ai-trump-government-regulation.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "29b716355d525589",
+    "categorie": "geopolitique",
+    "titre_affiche": "US says Chinese groups used Binance to launder $61mn from Iranian oil deals",
+    "horodatage_utc": "2026-09-15T16:52:55+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a3830162-2f40-46b7-8259-0db45fe2acef?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1a9a2cb847f4b840",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran war has left US with munitions ‘shortfall’, Pentagon watchdog says",
+    "horodatage_utc": "2026-09-15T16:10:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e89bfb29-2aef-40ec-9c9d-b9c1afa783a8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0918846d3a301367",
+    "categorie": "geopolitique",
+    "titre_affiche": "US manufacturers hit by fresh burst of supply chain cost inflation",
+    "horodatage_utc": "2026-09-15T15:26:00+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e14542d9-2bc5-49c8-8e7e-c9656b0a2d36?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Commerce international (droits de douane), Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Commerce international (droits de douane)",
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "193d862708bbe693",
     "categorie": "geopolitique",
     "titre_affiche": "Dow drops 450 points as 10-year Treasury yield hits 5%",
@@ -121,22 +214,6 @@
     "nouveaute": true
   },
   {
-    "id": "95dd47c300537429",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ten-year Treasury yield hits highest level since 2007",
-    "horodatage_utc": "2026-09-15T13:43:03+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "57dc7bb09792046f",
     "categorie": "geopolitique",
     "titre_affiche": "Stock Market Today: Dow Falls As Yields, Oil Prices Rise With Fed Meeting Starting; Nvidia Rebounds (Live Coverage)",
@@ -164,7 +241,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6e72d2c6fea85251",
@@ -215,21 +292,6 @@
     "nouveaute": true
   },
   {
-    "id": "aa68e8fa4dc49639",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s opposition to AI rules undercuts industry's calls for a slowdown",
-    "horodatage_utc": "2026-09-15T13:06:22+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
     "id": "c0b88818ed20cb65",
     "categorie": "geopolitique",
     "titre_affiche": "Private sector is 'the right place' to solve AI threats, White House's Hassett says",
@@ -258,7 +320,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7d25fc54279c38ee",
@@ -273,7 +335,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2da6d250ba53647c",
@@ -379,7 +441,7 @@
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c9c152023392e37d",
@@ -394,7 +456,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "92bca25938b6ed49",
@@ -1765,65 +1827,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "6054bcf403a70cdd",
-    "categorie": "geopolitique",
-    "titre_affiche": "European capitals barter over Christine Lagarde’s successor at ECB",
-    "horodatage_utc": "2026-09-14T04:00:12+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/898836da-322a-4bb8-9e62-f3c3d36b23b2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f1529e00d27e6e19",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dubai’s $6bn island dream meets the reality of war",
-    "horodatage_utc": "2026-09-14T04:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3d6bc1b6-5d57-4f7f-9e5b-a0aa9bcab1e7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "1ca60ad7775a2726",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gulf states postpone talks with Iran over Hormuz impasse",
-    "horodatage_utc": "2026-09-13T22:37:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "66d5b446fcec11f0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
-    "horodatage_utc": "2026-09-13T22:07:18+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
