@@ -1,5 +1,81 @@
 [
   {
+    "id": "0ae8f089cf052051",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bessent to meet He Lifeng in New York ahead of Trump-Xi summit",
+    "horodatage_utc": "2026-09-15T22:32:47+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7cc04edd-2897-4655-99d4-ede1ccfcd91c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "83b64c6cd22c0c34",
+    "categorie": "geopolitique",
+    "titre_affiche": "Two camps have emerged in the debate over AI safety and regulation",
+    "horodatage_utc": "2026-09-15T22:16:45+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/ai-regulation-trump-nvidia-openai-anthropic.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "9865614a2970359c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia's Huang rips Anthropic's proposal for AI safety antitrust waiver: 'Completely unnecessary'",
+    "horodatage_utc": "2026-09-15T22:13:52+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/nvidia-huang-ai-slowdown-antitrust.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7b9b5fe62d437246",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia CEO Huang attending Trump's state dinner for China's Xi: Source",
+    "horodatage_utc": "2026-09-15T22:06:16+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/nvidia-jensen-huang-trump-xi.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a634ed94a2cc2045",
+    "categorie": "geopolitique",
+    "titre_affiche": "Landmark US crypto bill fails as Senate splits over Trump ethics concerns",
+    "horodatage_utc": "2026-09-15T21:31:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8d0c90f0-b6f6-4b89-8839-d6c8c5c03c54?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "4107bc21566da226",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia CEO says battle over AI innovation and safety is ‘false choice’",
@@ -15,18 +91,34 @@
     "nouveaute": true
   },
   {
-    "id": "83b64c6cd22c0c34",
+    "id": "4af07e00666ede2c",
     "categorie": "geopolitique",
-    "titre_affiche": "Two camps have emerged in the debate over AI safety and regulation",
-    "horodatage_utc": "2026-09-15T20:12:00+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/15/ai-regulation-trump-nvidia-openai-anthropic.html",
+    "titre_affiche": "Jensen Huang says battle over AI innovation and safety is ‘false choice’",
+    "horodatage_utc": "2026-09-15T20:55:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
+      "Actions et technologie"
     ],
     "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6780c82ac46948fe",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold and the U.S. dollar: Why they often move in opposite directions",
+    "horodatage_utc": "2026-09-15T20:41:12+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/gold-us-dollar-relationship-204112404.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux, Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Dollar et devises"
+    ],
+    "portee": "actif_direct",
     "nouveaute": true
   },
   {
@@ -68,13 +160,13 @@
     "horodatage_utc": "2026-09-15T19:04:46+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "95dd47c300537429",
@@ -521,6 +613,22 @@
     "nouveaute": false
   },
   {
+    "id": "b0d20580f76e0fe8",
+    "categorie": "geopolitique",
+    "titre_affiche": "The ex-JPMorgan banker facing Wall Street’s toughest turnaround job",
+    "horodatage_utc": "2026-09-15T10:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/43729997-e516-45a9-893b-de7bd729bc2f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "c9c152023392e37d",
     "categorie": "geopolitique",
     "titre_affiche": "Wall Street weighs prospect of an AI slowdown on data center buildout",
@@ -557,13 +665,13 @@
     "horodatage_utc": "2026-09-15T10:00:00+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-september-15-2026-rates-cross-the-7-threshold-100000413.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "310d663ab083bdb9",
@@ -1717,114 +1825,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a1387bc1959d9271",
-    "categorie": "geopolitique",
-    "titre_affiche": "Africa's biggest oil refinery opens to public ownership, sparking excitement among retail investors",
-    "horodatage_utc": "2026-09-14T08:55:34+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/energy/articles/africas-biggest-oil-refinery-opens-085534787.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5cf6c92523fe7cee",
-    "categorie": "geopolitique",
-    "titre_affiche": "Beijing launches drone buyback in crackdown after Citic Tower crash",
-    "horodatage_utc": "2026-09-14T08:52:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8ec31da9-9922-44e2-98c2-3225c9eb0e21?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2dec51d2eeb657f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Companies left China to dodge tariffs. Now some are heading back",
-    "horodatage_utc": "2026-09-14T08:17:43+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/economy/policy/articles/companies-left-china-dodge-tariffs-075131494.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9de1b0bb1e290ad0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Swedish election on a knife-edge",
-    "horodatage_utc": "2026-09-14T08:08:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/00e3c084-06e3-47b4-8230-185760216e60?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "51cef325a4ade513",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock market today: Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning spooks tech traders, oil prices jump",
-    "horodatage_utc": "2026-09-14T08:05:59+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a4f650ff15ea2e11",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock market today: Dow, S&P 500, Nasdaq fall as Anthropic's AI warning spooks tech traders, 10-year yield hits 5%",
-    "horodatage_utc": "2026-09-14T08:05:59+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5a1960b2efa23cef",
-    "categorie": "geopolitique",
-    "titre_affiche": "Soaring Oil Prices Put Fed on Track for September Rate Hike",
-    "horodatage_utc": "2026-09-14T08:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/economy/policy/articles/soaring-oil-prices-put-fed-080000535.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
     "nouveaute": true
