@@ -1,5 +1,432 @@
 [
   {
+    "id": "193d862708bbe693",
+    "categorie": "geopolitique",
+    "titre_affiche": "Dow drops 450 points as 10-year Treasury yield hits 5%",
+    "horodatage_utc": "2026-09-15T14:23:22+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/dow-drops-450-points-10-142322049.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8bc1a76cc113e4db",
+    "categorie": "geopolitique",
+    "titre_affiche": "Strong Volume Growth and Intact Pricing Lifted Masco Corporation (MAS) in Q2",
+    "horodatage_utc": "2026-09-15T14:16:40+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/strong-volume-growth-intact-pricing-141640064.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4c4f8d527e59252a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Generation Mining obtains $245m to fund Marathon Project in Ontario",
+    "horodatage_utc": "2026-09-15T14:11:54+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/commodities/articles/generation-mining-obtains-245m-fund-141154777.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a6a28799ff405214",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Fed Is Expected to Raise Interest Rates Wednesday. Should You Buy the S&P 500 Before It Does?",
+    "horodatage_utc": "2026-09-15T14:05:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/fed-expected-raise-interest-rates-140500682.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "11ea3fc7529b4816",
+    "categorie": "geopolitique",
+    "titre_affiche": "10-year Treasury hits 2007 high as oil stays above $100: AlphaCheck",
+    "horodatage_utc": "2026-09-15T14:00:49+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/article/10-year-treasury-hits-2007-high-as-oil-stays-above-100-alphacheck-140049622.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Pétrole et énergie, Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "65960b4f7118b685",
+    "categorie": "geopolitique",
+    "titre_affiche": "Supreme Court rejects Trump’s mail-in ballot restrictions for midterms",
+    "horodatage_utc": "2026-09-15T13:55:53+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b3674c9d-9db2-448d-bd57-f1c040de2d54?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "3d107d581eee64a7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Musk hints (again) at possible SpaceX, Tesla merger",
+    "horodatage_utc": "2026-09-15T13:50:29+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/article/musk-hints-again-at-possible-spacex-tesla-merger-135029754.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c81eec80deddc27e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia Rises To Key Level As Fed Rate-Decision Looms; Is Nvidia A Buy Now?",
+    "horodatage_utc": "2026-09-15T13:50:19+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://www.investors.com/research/nvidia-nvda-stock-ai-chips-tech-september-2026-buy-now-markets/?src=A00220&yptr=yahoo",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "95dd47c300537429",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ten-year Treasury yield hits highest level since 2007",
+    "horodatage_utc": "2026-09-15T13:43:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "57dc7bb09792046f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Stock Market Today: Dow Falls As Yields, Oil Prices Rise With Fed Meeting Starting; Nvidia Rebounds (Live Coverage)",
+    "horodatage_utc": "2026-09-15T13:41:04+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-oil-prices-nvidia-stock/?src=A00220&yptr=yahoo",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e01307e45135bd45",
+    "categorie": "geopolitique",
+    "titre_affiche": "How a Costco partner's bankruptcy could benefit its biggest rival",
+    "horodatage_utc": "2026-09-15T13:33:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/costco-partners-bankruptcy-could-benefit-133300901.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6e72d2c6fea85251",
+    "categorie": "geopolitique",
+    "titre_affiche": "China’s Yuan Crude Oil Futures Jump to Record High",
+    "horodatage_utc": "2026-09-15T13:30:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/energy/articles/china-yuan-crude-oil-futures-133000430.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cb91ada603be4441",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hong Kong Crypto Exchange CoinEx To Shutdown",
+    "horodatage_utc": "2026-09-15T13:29:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/crypto/articles/hong-kong-crypto-exchange-coinex-132900721.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Élections et politique intérieure"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7c49e5a3bd15b1be",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil prices edge higher as attacks, pipeline outage deepen Saudi supply concerns",
+    "horodatage_utc": "2026-09-15T13:15:53+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/news/oil-prices-rise-saudi-pipeline-003617502.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "aa68e8fa4dc49639",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s opposition to AI rules undercuts industry's calls for a slowdown",
+    "horodatage_utc": "2026-09-15T13:06:22+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "c0b88818ed20cb65",
+    "categorie": "geopolitique",
+    "titre_affiche": "Private sector is 'the right place' to solve AI threats, White House's Hassett says",
+    "horodatage_utc": "2026-09-15T12:46:38+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/hassett-ai-trump-government-regulation.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a5b0f87418c6ff91",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump calls AI fears a 'hoax', Treasury yields surge, Moynihan's warning and more in Morning Squawk",
+    "horodatage_utc": "2026-09-15T12:33:53+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/5-things-to-know-before-the-stock-market-opens.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7d25fc54279c38ee",
+    "categorie": "geopolitique",
+    "titre_affiche": "Potential AI slowdown is not ‘end of the world’ for data center real estate, says Digital Realty CEO",
+    "horodatage_utc": "2026-09-15T12:28:15+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/data-center-reit-ceo-ai-slowdown.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2da6d250ba53647c",
+    "categorie": "geopolitique",
+    "titre_affiche": "10-year Treasury yield hits highest level since 2007",
+    "horodatage_utc": "2026-09-15T12:19:42+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-hits-highest-level-since-2007-121942773.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "53b5b0614f62da7e",
+    "categorie": "geopolitique",
+    "titre_affiche": "China tightens control of overseas travel in sweeping new law",
+    "horodatage_utc": "2026-09-15T12:01:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3f2b2172-0c1a-4708-aba2-559eb37eabc8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "7e5ad6632a6e2bbf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bitcoin and ethereum prices today, Tuesday, September 15, 2026: Crypto prices sliding this morning ahead of Fed meeting",
+    "horodatage_utc": "2026-09-15T11:37:32+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-15-2026-crypto-prices-sliding-this-morning-ahead-of-fed-meeting-113732149.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "4cf1f25942d6a9f0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Silver prices today, Tuesday, September 15, 2026: Silver prices drop below $64 as Fed-decision day approaches",
+    "horodatage_utc": "2026-09-15T11:23:26+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-tuesday-september-15-2026-silver-prices-drop-below-64-as-fed-decision-day-approaches-112326237.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "fc66a4d17c12d09b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold prices today, Tuesday, September 15, 2026: Gold sees lowest open in weeks as Treasury yields keep rising",
+    "horodatage_utc": "2026-09-15T11:14:54+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-september-15-2026-gold-sees-lowest-open-in-weeks-as-treasury-yields-keep-rising-111454530.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Taux et obligations"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d73136dc67cf8fce",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russian warship fires flares at Danish helicopter over Baltic Sea",
+    "horodatage_utc": "2026-09-15T11:02:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b49762b0-2f8a-457d-bd3a-2820f1fff346?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2264f84e1a9f7b42",
+    "categorie": "geopolitique",
+    "titre_affiche": "Scott Bessent’s wobbly house",
+    "horodatage_utc": "2026-09-15T10:59:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/608a9f4e-0beb-4840-a37c-831a5265d7da?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c9c152023392e37d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Wall Street weighs prospect of an AI slowdown on data center buildout",
+    "horodatage_utc": "2026-09-15T10:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/15/investors-ai-slowdown-data-center-buildout.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "92bca25938b6ed49",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Tuesday, September 15, 2026: Rates cross the 7% threshold",
+    "horodatage_utc": "2026-09-15T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-september-15-2026-rates-cross-the-7-threshold-100000413.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "310d663ab083bdb9",
+    "categorie": "geopolitique",
+    "titre_affiche": "China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
+    "horodatage_utc": "2026-09-15T09:46:14+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "a99324d9e904544e",
     "categorie": "geopolitique",
     "titre_affiche": "Alnylam's Sell-Off Looks Ugly -- but Wall Street Still Sees a Much Brighter Picture",
@@ -136,6 +563,22 @@
     "nouveaute": true
   },
   {
+    "id": "6a9fbe4663fe53b3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Stock market today: Dow, S&P 500, Nasdaq fall after 10-year Treasury yield rises",
+    "horodatage_utc": "2026-09-15T08:13:07+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-15-dow-sp-500-nasdaq-081307838.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "7abbe068b17165b5",
     "categorie": "geopolitique",
     "titre_affiche": "Saudi Oil Pipeline Repairs Could Take Weeks After Drone Attack",
@@ -213,21 +656,6 @@
     "nouveaute": true
   },
   {
-    "id": "310d663ab083bdb9",
-    "categorie": "geopolitique",
-    "titre_affiche": "China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
-    "horodatage_utc": "2026-09-15T05:41:14+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "7bf3d375df3da2e8",
     "categorie": "geopolitique",
     "titre_affiche": "War ‘on all fronts’ tests Saudi Arabia’s crown prince",
@@ -240,12 +668,27 @@
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3fdc9ae5aa08c846",
     "categorie": "geopolitique",
     "titre_affiche": "Putin moves summit over Ukrainian drone threat",
+    "horodatage_utc": "2026-09-15T04:00:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ebca8754-9546-4668-85dd-a0d793c54d3c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "76291f176ad4b95c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin moves flagship summit over drone threat",
     "horodatage_utc": "2026-09-15T04:00:28+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/ebca8754-9546-4668-85dd-a0d793c54d3c?syn-25a6b1a6=1",
@@ -270,7 +713,7 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4b78b2100a7bd55f",
@@ -286,21 +729,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "65960b4f7118b685",
-    "categorie": "geopolitique",
-    "titre_affiche": "Supreme Court rejects Trump’s mail-in ballot restrictions for midterms",
-    "horodatage_utc": "2026-09-15T02:43:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b3674c9d-9db2-448d-bd57-f1c040de2d54?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -316,21 +744,6 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "53b5b0614f62da7e",
-    "categorie": "geopolitique",
-    "titre_affiche": "China tightens control of overseas travel in sweeping new law",
-    "horodatage_utc": "2026-09-15T00:28:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3f2b2172-0c1a-4708-aba2-559eb37eabc8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -1409,416 +1822,6 @@
     "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "66d6616f4965a8db",
-    "categorie": "geopolitique",
-    "titre_affiche": "DocuSign's 2026 Outlook: Artificial Intelligence Drives Future Revenue Growth",
-    "horodatage_utc": "2026-09-13T21:58:16+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/docusigns-2026-outlook-artificial-intelligence-215816259.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3918124deaf69418",
-    "categorie": "geopolitique",
-    "titre_affiche": "Data Center IPO Wave Reveals A Variety Of New Strategies In Booming Sector",
-    "horodatage_utc": "2026-09-13T21:53:18+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/real-estate/articles/data-center-ipo-wave-reveals-215318276.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d66b80675d18038a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cybersecurity Is the Next Big Market for Artificial Intelligence (AI), According to Jensen Huang. This Super Stock-Split Stock Is the One to Own.",
-    "horodatage_utc": "2026-09-13T21:50:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/cybersecurity-next-big-market-artificial-215000090.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a0de8e6cf81213e1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Adobe's user growth is soaring, but its stock rating isn't",
-    "horodatage_utc": "2026-09-13T21:47:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/adobes-user-growth-soaring-stock-214700533.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "63a8290c98440c44",
-    "categorie": "geopolitique",
-    "titre_affiche": "Donald Trump rejects calls from tech bosses for an AI slowdown",
-    "horodatage_utc": "2026-09-13T21:34:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "9dcf5c8744285de3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump rejects calls from tech bosses for AI slowdown",
-    "horodatage_utc": "2026-09-13T21:34:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "ba4e37ff8aac0c2d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cathie Wood Sees an Economic Boom Wall Street Isn’t Pricing In",
-    "horodatage_utc": "2026-09-13T21:10:05+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/economy/articles/cathie-wood-sees-economic-boom-211005109.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bb1db1964837c73b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ulta Beauty Sees Resilient Demand, Eyes Fragrance, Wellness Growth After Target Exit",
-    "horodatage_utc": "2026-09-13T21:01:57+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/ulta-beauty-sees-resilient-demand-210157617.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f99b9c90e32cefc7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Further Oil Price Spikes Could Rekindle Recession Fears",
-    "horodatage_utc": "2026-09-13T21:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/economy/policy/articles/further-oil-price-spikes-could-210000970.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "610e4e20b61717ff",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump scraps tariffs on Irish whiskey during visit to country",
-    "horodatage_utc": "2026-09-13T20:47:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/aa4465ff-5261-4c3b-874f-ce1a607efa70?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "815f9ef76c6cee28",
-    "categorie": "geopolitique",
-    "titre_affiche": "If I Could Only Buy 1 Artificial Intelligence (AI) Stock, This Would Be It",
-    "horodatage_utc": "2026-09-13T20:46:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/could-only-buy-1-artificial-204600089.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dd807a18e7bca01e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Amazon, Alphabet, and Microsoft: Which 2 to Buy and Which 1 to Avoid",
-    "horodatage_utc": "2026-09-13T20:28:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/amazon-alphabet-microsoft-2-buy-202800287.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4737c4a31d06409f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jeff Bezos Built Amazon Into a $1.8 Trillion Company. Here's How Andy Jassy Is Making It Worth Even More.",
-    "horodatage_utc": "2026-09-13T20:28:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-built-amazon-1-202800354.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "72adc387faf00d8d",
-    "categorie": "geopolitique",
-    "titre_affiche": "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
-    "horodatage_utc": "2026-09-13T19:55:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/options/articles/investment-safe-both-trump-democrats-220600903.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "e2ba2003dc126632",
-    "categorie": "geopolitique",
-    "titre_affiche": "Should You Buy Bristol Myers Squibb Stock Right Now for the Yield Alone?",
-    "horodatage_utc": "2026-09-13T19:53:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/buy-bristol-myers-squibb-stock-195300266.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ae5b8b0df18f2cdb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fund manager's Fed interest rate outlook will frustrate consumers",
-    "horodatage_utc": "2026-09-13T19:33:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/economy/policy/articles/fund-managers-fed-interest-rate-193300301.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "db9c3a6025c24208",
-    "categorie": "geopolitique",
-    "titre_affiche": "Boston Scientific (BSX) Didn’t Miss on Demand or Devices. A Cyberattack Just Broke Its Guidance.",
-    "horodatage_utc": "2026-09-13T19:31:11+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/healthcare/articles/boston-scientific-bsx-didn-t-193111827.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fde109edf99331d2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Just Promised You $5,000. There’s a Catch, and It Changes Everything About How You’d Spend It.",
-    "horodatage_utc": "2026-09-13T19:15:26+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/economy/policy/articles/trump-just-promised-5-000-191526139.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2a64948e50c37b7b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia (NVDA) Looks Cheap on Piper’s Forecasts, but the Earnings Assumptions Are the Real Test",
-    "horodatage_utc": "2026-09-13T19:13:28+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-looks-cheap-piper-191328167.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8b39352736f4dcff",
-    "categorie": "geopolitique",
-    "titre_affiche": "Intel (INTC) Is Winning From the CPU Shortage, but Its Foundry Valuation Needs More Proof",
-    "horodatage_utc": "2026-09-13T19:10:52+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/intel-intc-winning-cpu-shortage-191052125.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b4c3d4b8851e1dec",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump calls on Ukraine to stop striking Russian diesel refineries",
-    "horodatage_utc": "2026-09-13T19:08:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e3ba3f9a-9312-4d0b-99fd-2c80728f2dcd?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b121b55f0117b136",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump calls on Ukraine to stop striking Russian oil refineries",
-    "horodatage_utc": "2026-09-13T19:08:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e3ba3f9a-9312-4d0b-99fd-2c80728f2dcd?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c4f71936dc3d1912",
-    "categorie": "geopolitique",
-    "titre_affiche": "Meet the Magnificent Momentum-Driven ETF Obliterating the S&P 500 in 2026",
-    "horodatage_utc": "2026-09-13T19:05:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/meet-magnificent-momentum-driven-etf-190500364.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8a6f3ad0551f0d83",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
-    "horodatage_utc": "2026-09-13T19:02:04+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1282b41e7195ae7e",
-    "categorie": "geopolitique",
-    "titre_affiche": "T-Mobile US CEO Maps 5G, Broadband and AI Growth Strategy at Goldman Sachs Conference",
-    "horodatage_utc": "2026-09-13T19:02:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/t-mobile-us-ceo-maps-190200025.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6200203aa4d68dea",
-    "categorie": "geopolitique",
-    "titre_affiche": "The 10-Year Treasury Bond Yields Nearly 5% Right Now. Here's Why I'd Still Choose PepsiCo for Passive Income.",
-    "horodatage_utc": "2026-09-13T18:50:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/10-treasury-bond-yields-nearly-185000151.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "071e4bc689a33041",
-    "categorie": "geopolitique",
-    "titre_affiche": "Forget Chatbot Benchmarks. Google Just Found 1,000 Ways Into Microsoft’s Best Customers.",
-    "horodatage_utc": "2026-09-13T18:37:32+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/forget-chatbot-benchmarks-google-just-183732628.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true

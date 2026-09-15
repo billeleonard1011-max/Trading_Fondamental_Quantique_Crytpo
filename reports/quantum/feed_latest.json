@@ -1,11 +1,11 @@
 [
   {
-    "id": "15aa85bb39e38dfb",
+    "id": "e007f1cd25a69175",
     "categorie": "quantique",
-    "titre_affiche": "QC Design Integrates Plaquette Platform with NVIDIA CUDA-Q Logical for Hardware-Realistic FTQC Simulation",
-    "horodatage_utc": "2026-09-15T06:27:26+00:00",
+    "titre_affiche": "NVIDIA Unveils CUDA-Q Logical to Accelerate Fault-Tolerant System Orchestration Across Hardware Modalities",
+    "horodatage_utc": "2026-09-15T08:03:17+00:00",
     "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/qc-design-integrates-plaquette-platform-with-nvidia-cuda-q-logical-for-hardware-realistic-ftqc-simulation/",
+    "url_source": "https://quantumcomputingreport.com/nvidia-unveils-cuda-q-logical-to-accelerate-fault-tolerant-system-orchestration-across-hardware-modalities/",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,51 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "0124eb3e070436a0",
+    "categorie": "quantique",
+    "titre_affiche": "MITRE, Quantum Brilliance, NVIDIA, and SandboxAQ Introduce GPU-Accelerated Digital Twin Framework for Quantum Sensor Error Attribution",
+    "horodatage_utc": "2026-09-15T07:49:57+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/mitre-quantum-brilliance-nvidia-and-sandboxaq-introduce-gpu-accelerated-digital-twin-framework-for-quantum-sensor-error-attribution/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d92cd0000307ba6a",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Demonstrates Hybrid HPC and Quantum-AI Workflows Across Nine Peer-Reviewed Papers at IEEE Quantum Week 2026",
+    "horodatage_utc": "2026-09-15T07:36:05+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-demonstrates-hybrid-hpc-and-quantum-ai-workflows-across-nine-peer-reviewed-papers-at-ieee-quantum-week-2026/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "15aa85bb39e38dfb",
+    "categorie": "quantique",
+    "titre_affiche": "QC Design Integrates Plaquette Platform with NVIDIA CUDA-Q Logical for Hardware-Realistic FTQC Simulation",
+    "horodatage_utc": "2026-09-15T06:27:26+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/qc-design-integrates-plaquette-platform-with-nvidia-cuda-q-logical-for-hardware-realistic-ftqc-simulation/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "5f37b9329f6d9251",
@@ -21,13 +66,13 @@
     "horodatage_utc": "2026-09-15T06:17:23+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/iqm-adopts-nvidia-cuda-q-logical-framework-to-drive-open-architecture-fault-tolerant-system-benchmarking/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3fae0b95d290af12",
@@ -36,13 +81,13 @@
     "horodatage_utc": "2026-09-15T06:04:12+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ucla-caltech-and-nvidia-develop-fourier-neural-operator-for-quantum-control-sequence-synthesis/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "522a853ba689d2fa",
@@ -51,13 +96,13 @@
     "horodatage_utc": "2026-09-15T05:51:51+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/qcentroid-integrates-quantumops-platform-with-nvidia-cuda-q-for-enterprise-hybrid-application-workflows/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5d47e835e7cbab74",
@@ -66,14 +111,14 @@
     "horodatage_utc": "2026-09-15T05:39:15+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/bluequbit-launches-150000-quantum-flywheel-compute-grant-program-supported-by-aws-ibm-and-nvidia/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM",
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "27584d60640588ef",
@@ -82,14 +127,14 @@
     "horodatage_utc": "2026-09-15T05:32:44+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/quandela-and-nvidia-outline-photonic-qpu-integration-architecture-via-nvqlink/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quandela, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Quandela",
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a4b4279e47300037",
@@ -98,13 +143,13 @@
     "horodatage_utc": "2026-09-15T04:49:44+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/anyon-computing-unveils-open-source-real-time-control-plane-powered-by-nvidia-nvqlink/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "38b8211cfece82c7",
