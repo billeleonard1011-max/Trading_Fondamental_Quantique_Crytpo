@@ -1,5 +1,20 @@
 [
   {
+    "id": "fcbde2bebe14a465",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
+    "horodatage_utc": "2026-09-15T03:23:28+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/15/bitcoin-slips-to-usd77-800-as-senate-clarity-act-vote-nears-and-oil-prices-climb",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "e1c18379c5e89d80",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin production rebounds in August for BitFuFu, edges higher at CleanSpark as Canaan slips",
