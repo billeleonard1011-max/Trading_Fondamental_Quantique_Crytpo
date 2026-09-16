@@ -1,18 +1,34 @@
 [
   {
+    "id": "f4d5dbe1fbba0673",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ, ORNL, NVIDIA, and UT Knoxville Advance AI-Driven Generative Quantum Circuit Synthesis",
+    "horodatage_utc": "2026-09-16T19:04:43+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-ornl-nvidia-and-ut-knoxville-advance-ai-driven-generative-quantum-circuit-synthesis/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ",
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "066c0b8183b229fa",
     "categorie": "quantique",
     "titre_affiche": "IonQ and ORNL Demonstrate Generative AI for Quantum Optimization",
     "horodatage_utc": "2026-09-16T17:07:40+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/09/16/ionq-ornl-nvidia-tennessee-ai-quantum-optimization-tradeoff/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "46b21edcd198d53b",

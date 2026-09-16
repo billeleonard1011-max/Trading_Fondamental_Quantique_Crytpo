@@ -1,5 +1,21 @@
 [
   {
+    "id": "174e78e12dc8abfe",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin, ether swing after unanimous quarter-point Fed rate hike as Warsh takes aim at inflation",
+    "horodatage_utc": "2026-09-16T20:02:16+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-16-bitcoin-ether-swing-unanimous-quarter-point-fed-rate-hike-warsh-aim-inflation-415307",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "9e1830e60e8cdf4a",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin Core 32 enters final testing with faster validation, fee changes and security fixes",
@@ -93,6 +109,21 @@
     "id": "cfa1571dd3f7ee9c",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin slips as Fed hikes rates and suggests more to come",
+    "horodatage_utc": "2026-09-16T10:37:46+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/09/16/live-updates-zcash-climbs-6-as-majors-slide-ahead-of-fed-rate-decision",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d05c4ecccbf28210",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin steady as stocks slide following Fed rate hike, Warsh press conference",
     "horodatage_utc": "2026-09-16T10:37:46+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/09/16/live-updates-zcash-climbs-6-as-majors-slide-ahead-of-fed-rate-decision",
