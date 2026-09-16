@@ -1,5 +1,20 @@
 [
   {
+    "id": "b66016a38a79b5f1",
+    "categorie": "quantique",
+    "titre_affiche": "ParityQC Launches Parity Twine Optimizer via IBM Qiskit Functions Catalog",
+    "horodatage_utc": "2026-09-16T01:53:19+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/parityqc-launches-parity-twine-optimizer-via-ibm-qiskit-functions-catalog/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "93e0339201c9d0fd",
     "categorie": "quantique",
     "titre_affiche": "QC Design Integrates Plaquette With NVIDIA CUDA-Q Logical for Hardware-Realistic QEC Simulation",
