@@ -1,11 +1,26 @@
 [
   {
-    "id": "97fb5041accdd01a",
+    "id": "e3a33c73aa7542a8",
     "categorie": "crypto",
-    "titre_affiche": "XRP sinks 10% as the Clarity Act fails and bitcoin slides toward $76,000",
-    "horodatage_utc": "2026-09-16T03:37:45+00:00",
+    "titre_affiche": "Ethereum, Base give up on common wallet standard after months of talks",
+    "horodatage_utc": "2026-09-16T08:07:59+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/16/xrp-sinks-10-as-the-clarity-act-fails-and-bitcoin-slides-toward-usd76-000",
+    "url_source": "https://www.coindesk.com/tech/2026/09/16/ethereum-base-give-up-on-common-wallet-standard-after-months-of-talks",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "25b7cd416f088ff5",
+    "categorie": "crypto",
+    "titre_affiche": "Fed meeting is shaping up to be a nightmare for Warsh. Bitcoin might still shine",
+    "horodatage_utc": "2026-09-16T06:42:22+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/16/fed-meeting-is-shaping-up-to-be-a-nightmare-for-warsh-bitcoin-might-still-shine",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,19 +30,49 @@
     "nouveaute": true
   },
   {
+    "id": "f1be543809e2d9f8",
+    "categorie": "crypto",
+    "titre_affiche": "Zcash holders overwhelmingly back faster transactions and bitcoin-style halvings",
+    "horodatage_utc": "2026-09-16T05:54:04+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/16/zcash-holders-overwhelmingly-back-faster-transactions-and-bitcoin-style-halvings",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "97fb5041accdd01a",
+    "categorie": "crypto",
+    "titre_affiche": "XRP sinks 10% as the Clarity Act fails and bitcoin slides toward $76,000",
+    "horodatage_utc": "2026-09-16T03:37:45+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/16/xrp-sinks-10-as-the-clarity-act-fails-and-bitcoin-slides-toward-usd76-000",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "24dbcd2914e83a95",
     "categorie": "crypto",
     "titre_affiche": "‘Nothing truly structural’: Analysts downplay Clarity Act defeat as bitcoin, major crypto stocks dip",
     "horodatage_utc": "2026-09-16T02:48:42+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-09-15-analysts-downplay-clarity-act-415234",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "803085a94cec0c0c",
