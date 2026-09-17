@@ -1,11 +1,57 @@
 [
   {
-    "id": "3979bf95ae156fea",
+    "id": "b31dc9d65872f5c1",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin faces 2022 parallels as Federal Reserve resumes rate increases",
-    "horodatage_utc": "2026-09-17T08:41:48+00:00",
+    "titre_affiche": "Crypto for Advisors: Beyond bitcoin and ether",
+    "horodatage_utc": "2026-09-17T14:57:11+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/17/bitcoin-faces-2022-parallels-as-federal-reserve-resumes-rate-hikes",
+    "url_source": "https://www.coindesk.com/coindesk-indices/2026/09/17/crypto-for-advisors-beyond-bitcoin-and-ether",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "84fed686dc8e2dda",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum’s upcoming Glamsterdam upgrade clears rehearsal for a big jump in capacity",
+    "horodatage_utc": "2026-09-17T12:37:21+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/17/ethereum-s-upcoming-glamsterdam-upgrade-clears-rehearsal-for-a-big-jump-in-capacity",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9330089d71756e28",
+    "categorie": "crypto",
+    "titre_affiche": "Grayscale’s Pandl still sees bitcoin’s $58K low as the bottom, gives clients ‘green light’",
+    "horodatage_utc": "2026-09-17T11:47:30+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-17-grayscales-pandl-still-sees-bitcoins-58k-low-as-the-bottom-gives-clients-green-light-415346",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "09895a7369b1ccbf",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin continues near $76,000 as stocks surge following Fed rate hike",
+    "horodatage_utc": "2026-09-17T10:41:15+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/17/live-updates-zcash-jumps-17-as-usd345-million-of-liquidations-hit-crypto-traders",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,19 +61,34 @@
     "nouveaute": true
   },
   {
+    "id": "3979bf95ae156fea",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin faces 2022 parallels as Federal Reserve resumes rate increases",
+    "horodatage_utc": "2026-09-17T08:41:48+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/17/bitcoin-faces-2022-parallels-as-federal-reserve-resumes-rate-hikes",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "e6d4fb2560682efb",
     "categorie": "crypto",
     "titre_affiche": "U.S. diesel prices hit record high as bitcoin and gold struggle",
     "horodatage_utc": "2026-09-17T07:27:07+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/17/u-s-diesel-prices-hit-record-high-as-bitcoin-and-gold-struggle",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "162fb338d47b784a",
