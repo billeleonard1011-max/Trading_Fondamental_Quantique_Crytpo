@@ -1,5 +1,35 @@
 [
   {
+    "id": "162fb338d47b784a",
+    "categorie": "crypto",
+    "titre_affiche": "Zcash jumps 23% as bitcoin and major tokens rise despite Fed’s first hike since 2023",
+    "horodatage_utc": "2026-09-17T04:47:27+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/17/zcash-jumps-23-as-bitcoin-and-major-tokens-rise-despite-fed-s-first-hike-since-2023",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dff20516e5a30b25",
+    "categorie": "crypto",
+    "titre_affiche": "House committee moves to codify Trump’s Strategic Bitcoin Reserve",
+    "horodatage_utc": "2026-09-17T00:56:10+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/regulation/2026-09-16-house-committee-moves-bitcoin-reserve-bill-415317",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "174e78e12dc8abfe",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin, ether swing after unanimous quarter-point Fed rate hike as Warsh takes aim at inflation",
