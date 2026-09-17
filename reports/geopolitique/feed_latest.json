@@ -1,5 +1,81 @@
 [
   {
+    "id": "56868c7f6d89c8e9",
+    "categorie": "geopolitique",
+    "titre_affiche": "King Charles to press Nvidia, OpenAI, Anthropic leaders on AI safety at summit",
+    "horodatage_utc": "2026-09-17T10:23:31+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/17/king-charles-nvidia-openai-anthropic-ai.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b2f38cfd7a6e176f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Thursday, September 17, 2026: Fixed rates tick upward",
+    "horodatage_utc": "2026-09-17T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-thursday-september-17-2026-fixed-rates-tick-upward-100000901.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a899687204c50053",
+    "categorie": "geopolitique",
+    "titre_affiche": "China cuts US Treasury holdings to lowest level since 2008",
+    "horodatage_utc": "2026-09-17T07:43:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/69f02abc-e0dc-46e5-aa6c-61d209e095d9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9e8c26e3c2f16f96",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump suggests EU-Canada associate member deal would be ‘hostile act’",
+    "horodatage_utc": "2026-09-17T07:20:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7b0f8f90-b3ad-4640-916a-f8b5495920a3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "35efa1d3216bc5b6",
+    "categorie": "geopolitique",
+    "titre_affiche": "HSBC axes $38,000 school fee perk for new Hong Kong bankers",
+    "horodatage_utc": "2026-09-17T05:15:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3edfa4b0-a492-4627-b9ac-e6f11583242d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "4ef1ecd2c3e5ff6e",
     "categorie": "geopolitique",
     "titre_affiche": "US rate rise jolts yen ahead of Bank of Japan meeting",
@@ -21,10 +97,25 @@
     "horodatage_utc": "2026-09-17T04:00:31+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/fb8e1037-8c48-49d2-809e-950472bcbae5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "27f1aa411c71e4bd",
+    "categorie": "geopolitique",
+    "titre_affiche": "EU asks China to voluntarily limit hybrid car exports",
+    "horodatage_utc": "2026-09-17T04:00:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0b45cb01-7f62-41c5-8c48-10c47f2e1ae6?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -45,19 +136,34 @@
     "nouveaute": true
   },
   {
+    "id": "b6a1b1012728f8bb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Thousands of Barclays staff revolt against three-day office mandate",
+    "horodatage_utc": "2026-09-17T04:00:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ca551e46-8ced-4e63-ace1-bdf20caedce7",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "181598ea8b86ede3",
     "categorie": "geopolitique",
     "titre_affiche": "The era of AI warfare has arrived",
     "horodatage_utc": "2026-09-17T04:00:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/686429c0-daf3-42a5-9b7c-7ff06eb291ef?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4e2e208d84ccd889",
@@ -66,28 +172,13 @@
     "horodatage_utc": "2026-09-17T02:28:56+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/16/emil-michael-ai-regulation-trump.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "9e8c26e3c2f16f96",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump suggests EU-Canada associate member deal would be ‘hostile act’",
-    "horodatage_utc": "2026-09-17T00:30:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7b0f8f90-b3ad-4640-916a-f8b5495920a3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4b4289162ebef8ef",
@@ -1726,97 +1817,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5315c3bd9224ddad",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil climbs as Saudi pipeline outage, fresh attacks heighten supply concerns",
-    "horodatage_utc": "2026-09-15T06:55:51+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/news/oil-prices-rise-saudi-pipeline-003617502.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "30299e1007034205",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bristow’s (VTOL) Profit Nearly Doubles While A Government Problem Lingers",
-    "horodatage_utc": "2026-09-15T06:33:05+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/bristow-vtol-profit-nearly-doubles-063305925.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d10eb72c674a3a97",
-    "categorie": "geopolitique",
-    "titre_affiche": "FuboTV’s (FUBO) Revenue Explosion Meets A Skeptical Stock Market",
-    "horodatage_utc": "2026-09-15T06:29:44+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/media-advertising/articles/fubotv-fubo-revenue-explosion-meets-062944401.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7bf3d375df3da2e8",
-    "categorie": "geopolitique",
-    "titre_affiche": "War ‘on all fronts’ tests Saudi Arabia’s crown prince",
-    "horodatage_utc": "2026-09-15T04:00:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a143e08d-e979-410a-8e81-160fd4eba367?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3fdc9ae5aa08c846",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin moves summit over Ukrainian drone threat",
-    "horodatage_utc": "2026-09-15T04:00:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ebca8754-9546-4668-85dd-a0d793c54d3c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "76291f176ad4b95c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin moves flagship summit over drone threat",
-    "horodatage_utc": "2026-09-15T04:00:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ebca8754-9546-4668-85dd-a0d793c54d3c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
