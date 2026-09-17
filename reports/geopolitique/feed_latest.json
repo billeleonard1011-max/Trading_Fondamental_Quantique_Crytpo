@@ -3,13 +3,73 @@
     "id": "bb50e8a16baccb75",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.5 - 165 km W of Nikolski, Alaska",
-    "horodatage_utc": "2026-09-17T15:07:33+00:00",
+    "horodatage_utc": "2026-09-17T18:29:58+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "35b120a5261c4d6d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jensen Huang says Nvidia will sell twice as many chips next year",
+    "horodatage_utc": "2026-09-17T18:23:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "282ff4f1f7247e8e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amid calls for urgent AI action from Congress, House heads home to campaign",
+    "horodatage_utc": "2026-09-17T17:42:00+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/17/ai-crisis-congress-regulation.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4911bb0cc2e35d71",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hispanics feel ‘betrayed’ by Trump, top Republican says",
+    "horodatage_utc": "2026-09-17T17:10:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0b3d10cb-a321-429f-879d-86e1bee82efe?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "8c569c9a4c7a0b4a",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI needs to have 'reasonable guidelines,' Palantir's Karp tells CNBC",
+    "horodatage_utc": "2026-09-17T16:48:00+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/17/ai-safety-palantir-karp.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -51,14 +111,14 @@
     "horodatage_utc": "2026-09-17T14:30:25+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5374e3ae514dd9b0",
@@ -163,7 +223,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6d789bce223cacc8",
@@ -209,7 +269,7 @@
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5272a3fc049ec81b",
@@ -237,6 +297,21 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "10645ee898ec2910",
+    "categorie": "geopolitique",
+    "titre_affiche": "Turkish authorities rush to stem fallout from stock market scandal",
+    "horodatage_utc": "2026-09-17T11:59:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ef54585a-4d2f-4538-b185-9bff75ef2f5e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -317,6 +392,22 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "37610d474a18c000",
+    "categorie": "geopolitique",
+    "titre_affiche": "Wall Street warns trading boom is losing steam",
+    "horodatage_utc": "2026-09-17T10:00:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3bb7e0e8-6aef-4b6b-a5f0-f472a2655c1f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "b2f38cfd7a6e176f",
@@ -1727,96 +1818,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "a5b0f87418c6ff91",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump calls AI fears a 'hoax', Treasury yields surge, Moynihan's warning and more in Morning Squawk",
-    "horodatage_utc": "2026-09-15T12:33:53+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/15/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7d25fc54279c38ee",
-    "categorie": "geopolitique",
-    "titre_affiche": "Potential AI slowdown is not ‘end of the world’ for data center real estate, says Digital Realty CEO",
-    "horodatage_utc": "2026-09-15T12:28:15+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/15/data-center-reit-ceo-ai-slowdown.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2da6d250ba53647c",
-    "categorie": "geopolitique",
-    "titre_affiche": "10-year Treasury yield hits highest level since 2007",
-    "horodatage_utc": "2026-09-15T12:19:42+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-hits-highest-level-since-2007-121942773.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "53b5b0614f62da7e",
-    "categorie": "geopolitique",
-    "titre_affiche": "China tightens control of overseas travel in sweeping new law",
-    "horodatage_utc": "2026-09-15T12:01:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3f2b2172-0c1a-4708-aba2-559eb37eabc8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "7e5ad6632a6e2bbf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bitcoin and ethereum prices today, Tuesday, September 15, 2026: Crypto prices sliding this morning ahead of Fed meeting",
-    "horodatage_utc": "2026-09-15T11:37:32+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-15-2026-crypto-prices-sliding-this-morning-ahead-of-fed-meeting-113732149.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4cf1f25942d6a9f0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Silver prices today, Tuesday, September 15, 2026: Silver prices drop below $64 as Fed-decision day approaches",
-    "horodatage_utc": "2026-09-15T11:23:26+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-tuesday-september-15-2026-silver-prices-drop-below-64-as-fed-decision-day-approaches-112326237.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
