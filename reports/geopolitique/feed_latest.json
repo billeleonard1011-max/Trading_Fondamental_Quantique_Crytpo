@@ -1,9 +1,24 @@
 [
   {
+    "id": "a1f8c279a8668b0b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump administration approves $24bn sale of F-35 jets to Saudi Arabia",
+    "horodatage_utc": "2026-09-17T22:22:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9934acc6-6b06-4f2e-a37a-6cf0869092cb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "bb50e8a16baccb75",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.5 - 165 km W of Nikolski, Alaska",
-    "horodatage_utc": "2026-09-17T18:29:58+00:00",
+    "horodatage_utc": "2026-09-17T22:05:03+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
     "a_une_analyse_interne": false,
@@ -15,12 +30,42 @@
     "nouveaute": false
   },
   {
+    "id": "337dbf85ff5d69aa",
+    "categorie": "geopolitique",
+    "titre_affiche": "America’s AI chip talent crisis — why The U.S. needs 157,000 more workers",
+    "horodatage_utc": "2026-09-17T21:16:59+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/17/us-chipmakers-face-deep-labor-shortage-samsung-micron-sound-alarm.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "35b120a5261c4d6d",
     "categorie": "geopolitique",
     "titre_affiche": "Jensen Huang says Nvidia will sell twice as many chips next year",
-    "horodatage_utc": "2026-09-17T18:23:25+00:00",
+    "horodatage_utc": "2026-09-17T21:00:47+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "3d90d01d1ee9c56f",
+    "categorie": "geopolitique",
+    "titre_affiche": "House heads home to campaign amid calls for urgent AI action",
+    "horodatage_utc": "2026-09-17T20:41:54+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/17/ai-crisis-congress-regulation.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -60,19 +105,34 @@
     "nouveaute": true
   },
   {
+    "id": "07903a7be4f8c17a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hispanic voters feel ‘betrayed’ by Trump, top Republican says",
+    "horodatage_utc": "2026-09-17T17:10:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0b3d10cb-a321-429f-879d-86e1bee82efe?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "8c569c9a4c7a0b4a",
     "categorie": "geopolitique",
     "titre_affiche": "AI needs to have 'reasonable guidelines,' Palantir's Karp tells CNBC",
     "horodatage_utc": "2026-09-17T16:48:00+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/17/ai-safety-palantir-karp.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c277f279c1787910",
@@ -308,13 +368,13 @@
     "horodatage_utc": "2026-09-17T11:59:41+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/ef54585a-4d2f-4538-b185-9bff75ef2f5e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f9e4ae534af8fbc9",
@@ -400,14 +460,14 @@
     "horodatage_utc": "2026-09-17T10:00:03+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3bb7e0e8-6aef-4b6b-a5f0-f472a2655c1f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b2f38cfd7a6e176f",
@@ -525,6 +585,22 @@
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1d76e326469f6d9e",
+    "categorie": "geopolitique",
+    "titre_affiche": "The rebel offensive that shook Saudi Arabia",
+    "horodatage_utc": "2026-09-17T04:00:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d63eb228-87a6-4cce-99fb-777532cd4012?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1739,84 +1815,6 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e01307e45135bd45",
-    "categorie": "geopolitique",
-    "titre_affiche": "How a Costco partner's bankruptcy could benefit its biggest rival",
-    "horodatage_utc": "2026-09-15T13:33:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/costco-partners-bankruptcy-could-benefit-133300901.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6e72d2c6fea85251",
-    "categorie": "geopolitique",
-    "titre_affiche": "China’s Yuan Crude Oil Futures Jump to Record High",
-    "horodatage_utc": "2026-09-15T13:30:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/energy/articles/china-yuan-crude-oil-futures-133000430.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "cb91ada603be4441",
-    "categorie": "geopolitique",
-    "titre_affiche": "Hong Kong Crypto Exchange CoinEx To Shutdown",
-    "horodatage_utc": "2026-09-15T13:29:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/hong-kong-crypto-exchange-coinex-132900721.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs",
-      "Élections et politique intérieure"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "7c49e5a3bd15b1be",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil prices edge higher as attacks, pipeline outage deepen Saudi supply concerns",
-    "horodatage_utc": "2026-09-15T13:15:53+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/news/oil-prices-rise-saudi-pipeline-003617502.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c0b88818ed20cb65",
-    "categorie": "geopolitique",
-    "titre_affiche": "Private sector is 'the right place' to solve AI threats, White House's Hassett says",
-    "horodatage_utc": "2026-09-15T12:46:38+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/15/hassett-ai-trump-government-regulation.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]

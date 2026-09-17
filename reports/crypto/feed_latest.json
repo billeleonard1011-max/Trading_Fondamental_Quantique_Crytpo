@@ -1,11 +1,11 @@
 [
   {
-    "id": "cdf44935eb488077",
+    "id": "f49c8c48d7bb7b04",
     "categorie": "crypto",
-    "titre_affiche": "JPMorgan says bitcoin could get more support than gold if ETF hedging eases",
-    "horodatage_utc": "2026-09-17T17:48:51+00:00",
+    "titre_affiche": "US sanctions Iranian crypto exchange BitBank over alleged bitcoin transfers to IRGC",
+    "horodatage_utc": "2026-09-17T20:05:28+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-17-jpmorgan-bitcoin-gold-415421",
+    "url_source": "https://www.theblock.co/news/regulation/2026-09-17-us-sanctions-iranian-crypto-exchange-bitbank-alleged-bitcoin-transfers-to-irgc-415462",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "cdf44935eb488077",
+    "categorie": "crypto",
+    "titre_affiche": "JPMorgan says bitcoin could get more support than gold if ETF hedging eases",
+    "horodatage_utc": "2026-09-17T17:48:51+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-17-jpmorgan-bitcoin-gold-415421",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "b31dc9d65872f5c1",
@@ -74,6 +89,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
+  },
+  {
+    "id": "8daf1eaf29c7abb0",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin edges higher as Nasdaq climbs 1.7% in wake of Fed rate hike",
+    "horodatage_utc": "2026-09-17T10:41:15+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/17/live-updates-zcash-jumps-17-as-usd345-million-of-liquidations-hit-crypto-traders",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
   },
   {
     "id": "3979bf95ae156fea",
