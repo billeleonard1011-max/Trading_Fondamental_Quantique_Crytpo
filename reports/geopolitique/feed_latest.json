@@ -1,11 +1,11 @@
 [
   {
-    "id": "c490849d037d4178",
+    "id": "4b4289162ebef8ef",
     "categorie": "geopolitique",
-    "titre_affiche": "Amazon obtains right to buy stock in Generac, boosting power company's share price by over 40%",
-    "horodatage_utc": "2026-09-16T21:40:18+00:00",
+    "titre_affiche": "Snap tries to bring AR glasses to enterprise market, partnering with Nvidia, AWS and Salesforce",
+    "horodatage_utc": "2026-09-16T23:40:05+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/16/amazon-obtains-right-to-buy-up-to-340m-of-generac-boosting-stock-.html",
+    "url_source": "https://www.cnbc.com/2026/09/16/snap-enterprise-ai-service.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,12 +15,57 @@
     "nouveaute": true
   },
   {
-    "id": "ec8d478baf523768",
+    "id": "d024c833cd8c9fae",
     "categorie": "geopolitique",
-    "titre_affiche": "OpenAI CEO Sam Altman will attend state dinner for Trump-Xi summit in Washington",
-    "horodatage_utc": "2026-09-16T21:35:10+00:00",
+    "titre_affiche": "Holtec pulls IPO over ‘perfect storm’ in AI sector, founder says",
+    "horodatage_utc": "2026-09-16T23:22:35+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5f4a4fce-72bb-4ea6-862b-1da1234d5b25?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "962d59359f693914",
+    "categorie": "geopolitique",
+    "titre_affiche": "Fed defies Trump with first rate rise since 2023",
+    "horodatage_utc": "2026-09-16T23:18:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f5ce5c38-76e3-4212-8c60-4c868f6dee70?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f7d3ef6d8d9ab0a9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cramer bets AI spending will 'continue apace,' says he's not giving up on data center trade",
+    "horodatage_utc": "2026-09-16T23:00:33+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/16/openai-altman-trump-xi-summit.html",
+    "url_source": "https://www.cnbc.com/2026/09/16/cramer-ai-slowdown-stocks-dip.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ef276edfcbfed630",
+    "categorie": "geopolitique",
+    "titre_affiche": "Arm CEO says he's more confident its new AI chip can meet a loftier $2B revenue goal",
+    "horodatage_utc": "2026-09-16T22:52:20+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/16/jim-cramer-arm-ceo-ai-revenue-goal.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -30,19 +75,64 @@
     "nouveaute": true
   },
   {
+    "id": "b3c75769e7552235",
+    "categorie": "geopolitique",
+    "titre_affiche": "Walter and Boehly sell Chelsea FC stakes to Clearlake for £950mn",
+    "horodatage_utc": "2026-09-16T22:32:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a9099b59-b5ed-47e2-bdf3-ae26f5dd7317?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "c490849d037d4178",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon obtains right to buy stock in Generac, boosting power company's share price by over 40%",
+    "horodatage_utc": "2026-09-16T21:40:18+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/16/amazon-obtains-right-to-buy-up-to-340m-of-generac-boosting-stock-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ec8d478baf523768",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI CEO Sam Altman will attend state dinner for Trump-Xi summit in Washington",
+    "horodatage_utc": "2026-09-16T21:35:10+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/16/openai-altman-trump-xi-summit.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "861aad09a9f5060a",
     "categorie": "geopolitique",
     "titre_affiche": "Here are five key takeaways from Wednesday's Fed rate hike",
     "horodatage_utc": "2026-09-16T21:23:51+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/16/here-are-five-key-takeaways-from-wednesdays-fed-rate-hike.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3954549b5943460d",
@@ -66,21 +156,6 @@
     "horodatage_utc": "2026-09-16T21:03:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/61b5fbae-9dd6-4980-bd1f-effe54b72d84",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "962d59359f693914",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fed defies Trump with first rate rise since 2023",
-    "horodatage_utc": "2026-09-16T20:59:14+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f5ce5c38-76e3-4212-8c60-4c868f6dee70?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -218,13 +293,13 @@
     "horodatage_utc": "2026-09-16T16:47:40+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/markets/crypto/articles/mysterious-trader-moves-122-million-164740089.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2a1151ce774333b7",
@@ -655,13 +730,13 @@
     "horodatage_utc": "2026-09-16T04:00:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/ffe402ca-564a-457f-a861-18083a361e50?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "341ddc180622168e",
@@ -1746,84 +1821,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "95931efed9b5318f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
-    "horodatage_utc": "2026-09-14T20:49:03+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/14/warshs-credibility-is-on-the-line-this-week-as-trump-policies-put-pressure-on-fed-to-hike.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)",
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "29a089a6c26dd94c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
-    "horodatage_utc": "2026-09-14T20:34:23+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "325eb6a4a59c8d47",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI slowdown blast zone: Exposed chip names like Nvidia got hit while cyber names like Crowdstrike soared",
-    "horodatage_utc": "2026-09-14T20:23:48+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d236734e113aeedf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Carney urges EU to cement trade deal as Ottawa seeks pivot from US",
-    "horodatage_utc": "2026-09-14T20:19:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1a1d76fc-e02b-40ee-8afc-b45ab9f17c0f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a15f9b5163568584",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
-    "horodatage_utc": "2026-09-14T20:11:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
     ],
     "portee": "influence",
     "nouveaute": false
