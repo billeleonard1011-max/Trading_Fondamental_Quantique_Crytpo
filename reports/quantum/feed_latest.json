@@ -1,18 +1,33 @@
 [
   {
+    "id": "c248e646a27d08fd",
+    "categorie": "quantique",
+    "titre_affiche": "USC and Quantum Elements Demonstrate Surface Code Scaling on IBM Heavy-Hex Processors",
+    "horodatage_utc": "2026-09-18T05:36:20+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "e1f51e1f3a0e2934",
     "categorie": "quantique",
     "titre_affiche": "Alice & Bob Partners with CEA to Integrate Cat Qubit Software into HPC Infrastructure",
     "horodatage_utc": "2026-09-18T03:01:41+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/alice-bob-partners-with-cea-to-integrate-cat-qubit-software-into-hpc-infrastructure/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Alice & Bob. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Alice & Bob"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "eb8f6e77baa25d5e",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-09-17T23:57:12+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ionq-and-synopsys-accelerate-cae-computer-aided-engineering-workloads-by-14-6-via-trapped-ion-hardware/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f314a4c3534a8e74",

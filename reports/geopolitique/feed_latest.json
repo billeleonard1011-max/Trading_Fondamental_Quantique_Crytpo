@@ -1,8 +1,130 @@
 [
   {
+    "id": "50884be260f8d9ad",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Friday, September 18, 2026: Rates mostly higher following the Fed",
+    "horodatage_utc": "2026-09-18T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-18-2026-rates-mostly-higher-following-the-fed-100000327.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f5551e8b00d148e2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Yen sinks after BoJ raises rates to highest level since 1995",
+    "horodatage_utc": "2026-09-18T09:46:57+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/97a0bed5-0580-4ccc-bd3c-fe9a714259e2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "74ff75121c31ad68",
+    "categorie": "geopolitique",
+    "titre_affiche": "AirAsia's Fernandes refutes financial concerns, points to new growth plans",
+    "horodatage_utc": "2026-09-18T09:44:48+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/airasia-co-founder-tony-fernandes.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5d4f9c5f9ecdf524",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic and OpenAI hunt for smaller data center deals, sources tell CNBC, in race to deploy AI capacity",
+    "horodatage_utc": "2026-09-18T09:38:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/anthropic-openai-small-ai-data-center-deals.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b54261f6c188a89f",
+    "categorie": "geopolitique",
+    "titre_affiche": "A Chinese AI company just connected its model to Wall Street's leading data providers",
+    "horodatage_utc": "2026-09-18T08:41:11+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "bb50e8a16baccb75",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.5 - 165 km W of Nikolski, Alaska",
+    "horodatage_utc": "2026-09-18T08:30:07+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b6c7680391cec162",
+    "categorie": "geopolitique",
+    "titre_affiche": "ECB Consumer Expectations Survey results – August 2026",
+    "horodatage_utc": "2026-09-18T08:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "cec2bff05aad274a",
     "categorie": "geopolitique",
     "titre_affiche": "Venezuela nears deal to move $4bn gold reserve to New York",
+    "horodatage_utc": "2026-09-18T04:00:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8f1f3047-372d-425f-bcd6-cfe9d5d4890c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Or et métaux précieux, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Élections et politique intérieure"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3293ecb0b8bdbb7e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Venezuela nears deal to tap disputed $4bn gold reserve",
     "horodatage_utc": "2026-09-18T04:00:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8f1f3047-372d-425f-bcd6-cfe9d5d4890c?syn-25a6b1a6=1",
@@ -22,13 +144,13 @@
     "horodatage_utc": "2026-09-18T04:00:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/0e64746c-d531-4ceb-a700-e5e47289bfb3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "929b7110e13411d0",
@@ -52,13 +174,13 @@
     "horodatage_utc": "2026-09-18T03:31:31+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c4aa118e-a258-48bc-b50e-28e453a95db8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e5e3759bc77dc32d",
@@ -74,21 +196,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "bb50e8a16baccb75",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.5 - 165 km W of Nikolski, Alaska",
-    "horodatage_utc": "2026-09-18T02:30:05+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "a2d1f29e621ef0e1",
@@ -134,6 +241,22 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "1cd58dd89cc8037a",
+    "categorie": "geopolitique",
+    "titre_affiche": "$10,000 in a high-yield savings account or $10,000 in a CD: Which one will earn more in one year?",
+    "horodatage_utc": "2026-09-17T21:19:41+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/banking/article/10000-high-yield-savings-account-vs-cd-earnings-one-year-211941165.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "337dbf85ff5d69aa",
@@ -254,22 +377,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "b54261f6c188a89f",
-    "categorie": "geopolitique",
-    "titre_affiche": "A Chinese AI company just connected its model to Wall Street's leading data providers",
-    "horodatage_utc": "2026-09-17T14:30:25+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "5374e3ae514dd9b0",
@@ -1708,113 +1815,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "95dd47c300537429",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ten-year Treasury yield hits highest level since 2007",
-    "horodatage_utc": "2026-09-15T18:13:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "aa68e8fa4dc49639",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s opposition to AI rules undercuts industry's calls for a slowdown",
-    "horodatage_utc": "2026-09-15T17:38:35+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "29b716355d525589",
-    "categorie": "geopolitique",
-    "titre_affiche": "US says Chinese groups used Binance to launder $61mn from Iranian oil deals",
-    "horodatage_utc": "2026-09-15T16:52:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a3830162-2f40-46b7-8259-0db45fe2acef?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "1a9a2cb847f4b840",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran war has left US with munitions ‘shortfall’, Pentagon watchdog says",
-    "horodatage_utc": "2026-09-15T16:10:59+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e89bfb29-2aef-40ec-9c9d-b9c1afa783a8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0918846d3a301367",
-    "categorie": "geopolitique",
-    "titre_affiche": "US manufacturers hit by fresh burst of supply chain cost inflation",
-    "horodatage_utc": "2026-09-15T15:26:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e14542d9-2bc5-49c8-8e7e-c9656b0a2d36?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Commerce international (droits de douane)",
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "193d862708bbe693",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dow drops 450 points as 10-year Treasury yield hits 5%",
-    "horodatage_utc": "2026-09-15T14:23:22+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/dow-drops-450-points-10-142322049.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8bc1a76cc113e4db",
-    "categorie": "geopolitique",
-    "titre_affiche": "Strong Volume Growth and Intact Pricing Lifted Masco Corporation (MAS) in Q2",
-    "horodatage_utc": "2026-09-15T14:16:40+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/strong-volume-growth-intact-pricing-141640064.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]

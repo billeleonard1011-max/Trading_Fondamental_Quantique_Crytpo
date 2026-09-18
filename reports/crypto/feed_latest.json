@@ -1,18 +1,93 @@
 [
   {
+    "id": "9b3e01002fe21883",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
+    "horodatage_utc": "2026-09-18T10:07:33+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/18/bitcoin-weathers-september-storm-as-rate-hikes-and-clarity-act-setback-test-bulls",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6405431f844554fb",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: HYPE leads altcoin rally as bitcoin recovers toward $78,000",
+    "horodatage_utc": "2026-09-18T09:49:51+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/18/live-updates-hype-leads-altcoin-rally-as-bitcoin-recovers-toward-usd78-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "adae337f2fb36321",
+    "categorie": "crypto",
+    "titre_affiche": "Iran’s Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
+    "horodatage_utc": "2026-09-18T06:52:23+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/policy/2026/09/18/iran-s-strait-of-hormuz-toll-booth-ran-through-a-bitcoin-exchange-u-s-says",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6706987291b2e850",
+    "categorie": "crypto",
+    "titre_affiche": "Solana speeds up blocks by 17%, but transaction capacity stays the same",
+    "horodatage_utc": "2026-09-18T06:16:57+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/18/solana-speeds-up-blocks-by-17-but-transaction-capacity-stays-the-same",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6f2b0c18c51b10da",
+    "categorie": "crypto",
+    "titre_affiche": "Corporate treasuries bought just 5,900 bitcoin in 3 months. Other demand signals look weak, too.",
+    "horodatage_utc": "2026-09-18T05:43:21+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/18/corporate-treasuries-bought-just-5-900-bitcoin-in-3-months-other-demand-signals-look-weak-too",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "02b26a87077afce2",
     "categorie": "crypto",
     "titre_affiche": "Ethereum confirms Glamsterdam dates, but warns 'fake' builders could stall the chain",
     "horodatage_utc": "2026-09-18T05:23:29+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/09/18/ethereum-confirms-glamsterdam-dates-but-warns-fake-builders-could-stall-the-chain",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "195c2e73c6bd4a4f",
@@ -31,19 +106,34 @@
     "nouveaute": true
   },
   {
+    "id": "4f1d1af5884c7847",
+    "categorie": "crypto",
+    "titre_affiche": "Ether and XRP ETFs post outflows as crypto majors move higher",
+    "horodatage_utc": "2026-09-18T04:49:17+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "dafc7bde6d23f7b6",
     "categorie": "crypto",
     "titre_affiche": "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
     "horodatage_utc": "2026-09-18T03:03:38+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/17/boj-rate-hike",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f49c8c48d7bb7b04",
