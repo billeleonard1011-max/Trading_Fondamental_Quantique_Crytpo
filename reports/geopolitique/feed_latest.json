@@ -1,5 +1,96 @@
 [
   {
+    "id": "449d5e6fc46fc27e",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI cloud provider Nscale files to go public",
+    "horodatage_utc": "2026-09-18T21:01:08+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/nscale-ai-cloud-provider-ipo-nscl.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "77aa49b595d85f2a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump bans major US news outlets from White House",
+    "horodatage_utc": "2026-09-18T20:50:45+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4cd82226-3d4a-474d-bc3e-de2ed0b1e6f8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d436a7257d32c84c",
+    "categorie": "geopolitique",
+    "titre_affiche": "White House attacks Fed official after review of Silicon Valley Bank collapse",
+    "horodatage_utc": "2026-09-18T19:48:35+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/98c6db91-44c7-487e-a733-331a58766ba1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a6c7a8ac791d1674",
+    "categorie": "geopolitique",
+    "titre_affiche": "Elon Musk talks up AI safety while fighting regulation in wild week of strange alliances",
+    "horodatage_utc": "2026-09-18T19:15:24+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/after-decade-of-clashes-in-ai-elon-musk-forging-strange-alliances.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "21bc43479332035f",
+    "categorie": "geopolitique",
+    "titre_affiche": "California Gov. Newsom issues executive order to rein in AI 'before it's too late'",
+    "horodatage_utc": "2026-09-18T18:36:21+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/california-newsom-executive-order-ai.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "b64bef1ed4b06ada",
+    "categorie": "geopolitique",
+    "titre_affiche": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+    "horodatage_utc": "2026-09-18T18:28:31+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "b771265755968b89",
     "categorie": "geopolitique",
     "titre_affiche": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter",
@@ -30,21 +121,6 @@
     "nouveaute": false
   },
   {
-    "id": "b64bef1ed4b06ada",
-    "categorie": "geopolitique",
-    "titre_affiche": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
-    "horodatage_utc": "2026-09-18T16:33:43+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "f5551e8b00d148e2",
     "categorie": "geopolitique",
     "titre_affiche": "Yen sinks after BoJ raises rates to highest level since 1995",
@@ -60,18 +136,18 @@
     "nouveaute": false
   },
   {
-    "id": "21bc43479332035f",
+    "id": "2fc35cc1546d1c01",
     "categorie": "geopolitique",
-    "titre_affiche": "California Gov. Newsom issues executive order to rein in AI 'before it's too late'",
-    "horodatage_utc": "2026-09-18T15:02:50+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/18/california-newsom-executive-order-ai.html",
+    "titre_affiche": "Court shines a further light on who was at fault in SVB implosion",
+    "horodatage_utc": "2026-09-18T15:34:42+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/24dc8ce0-5331-4280-ad85-c2dddcef429d?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
+      "Banques, crédit et appétit pour le risque"
     ],
-    "portee": "contexte",
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -81,13 +157,13 @@
     "horodatage_utc": "2026-09-18T15:00:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ef4ba527c3679ea2",
@@ -96,13 +172,13 @@
     "horodatage_utc": "2026-09-18T15:00:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bb923e6278889c97",
@@ -232,13 +308,13 @@
     "horodatage_utc": "2026-09-18T13:00:02+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a528adc7-3a8c-4a00-826f-1fdde748efb5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b766e2a1e859a3b1",
@@ -521,14 +597,14 @@
     "horodatage_utc": "2026-09-17T21:19:41+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/banking/article/10000-high-yield-savings-account-vs-cd-earnings-one-year-211941165.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "337dbf85ff5d69aa",
@@ -1733,81 +1809,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c4c29cc31a4f8a67",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mortgage and refinance rates today, Wednesday, September 16, 2026: Rates ease somewhat ahead of the Fed's rate decision",
-    "horodatage_utc": "2026-09-16T10:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-wednesday-september-16-2026-rates-ease-somewhat-ahead-of-the-feds-rate-decision-100000213.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dd55947ec95d64b0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mortgage and refinance interest rates today, Wednesday, September 16, 2026: Rates ease somewhat ahead of the Fed's rate decision",
-    "horodatage_utc": "2026-09-16T10:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-wednesday-september-16-2026-rates-ease-somewhat-ahead-of-the-feds-rate-decision-100000213.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f5bfb2ee06680bb1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Crypto exchange Binance takes on tradfi by courting rich investors to join its expanded wealth-management platform",
-    "horodatage_utc": "2026-09-16T08:04:00+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/16/crypto-exchange-binance-expands-wealth-management-platform-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a60d112be0f18d3f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock market today: S&P 500 and Nasdaq rise ahead of crucial Fed interest rate decision",
-    "horodatage_utc": "2026-09-16T08:03:56+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "43acc568cca2167b",
-    "categorie": "geopolitique",
-    "titre_affiche": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
-    "horodatage_utc": "2026-09-16T08:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
     "nouveaute": false
