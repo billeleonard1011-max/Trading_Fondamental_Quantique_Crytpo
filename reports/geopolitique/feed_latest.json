@@ -1,5 +1,110 @@
 [
   {
+    "id": "b771265755968b89",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter",
+    "horodatage_utc": "2026-09-18T17:02:32+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "74ff75121c31ad68",
+    "categorie": "geopolitique",
+    "titre_affiche": "AirAsia's Fernandes refutes financial concerns, points to new growth plans",
+    "horodatage_utc": "2026-09-18T16:37:39+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/airasia-co-founder-tony-fernandes.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b64bef1ed4b06ada",
+    "categorie": "geopolitique",
+    "titre_affiche": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+    "horodatage_utc": "2026-09-18T16:33:43+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f5551e8b00d148e2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Yen sinks after BoJ raises rates to highest level since 1995",
+    "horodatage_utc": "2026-09-18T16:28:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/97a0bed5-0580-4ccc-bd3c-fe9a714259e2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "21bc43479332035f",
+    "categorie": "geopolitique",
+    "titre_affiche": "California Gov. Newsom issues executive order to rein in AI 'before it's too late'",
+    "horodatage_utc": "2026-09-18T15:02:50+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/california-newsom-executive-order-ai.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "96943d5f3df3bf4b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+    "horodatage_utc": "2026-09-18T15:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ef4ba527c3679ea2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+    "horodatage_utc": "2026-09-18T15:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "bb923e6278889c97",
     "categorie": "geopolitique",
     "titre_affiche": "Eisman: Tesla’s Multiple Is Crazy Unless You “Believe that Tesla’s Robotaxi Business will Conquer the World.” “Count Me As a Skeptic”",
@@ -21,28 +126,13 @@
     "horodatage_utc": "2026-09-18T14:36:55+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b771265755968b89",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter",
-    "horodatage_utc": "2026-09-18T14:25:43+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6d40a2a83e484b90",
@@ -66,13 +156,13 @@
     "horodatage_utc": "2026-09-18T14:20:46+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/18/chip-roy-ai-congress-regulate.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "20a42adfc157ea3d",
@@ -112,13 +202,13 @@
     "horodatage_utc": "2026-09-18T13:30:00+00:00",
     "source_nom": "Federal Reserve - discours et auditions",
     "url_source": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "44fd3fade1aaa7ec",
@@ -133,6 +223,21 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "42a808c88ce3e687",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi’s edge over Trump on AI",
+    "horodatage_utc": "2026-09-18T13:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a528adc7-3a8c-4a00-826f-1fdde748efb5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -163,7 +268,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "acb41e38d36f7559",
@@ -194,36 +299,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "f5551e8b00d148e2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Yen sinks after BoJ raises rates to highest level since 1995",
-    "horodatage_utc": "2026-09-18T09:46:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/97a0bed5-0580-4ccc-bd3c-fe9a714259e2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "74ff75121c31ad68",
-    "categorie": "geopolitique",
-    "titre_affiche": "AirAsia's Fernandes refutes financial concerns, points to new growth plans",
-    "horodatage_utc": "2026-09-18T09:44:48+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/18/airasia-co-founder-tony-fernandes.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "5d4f9c5f9ecdf524",
@@ -1733,83 +1808,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2b20c27e99906bf1",
-    "categorie": "geopolitique",
-    "titre_affiche": "World’s best-performing sovereign wealth fund expects equities pullback",
-    "horodatage_utc": "2026-09-16T04:55:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6b6a27bd-2725-4591-be8a-fda643c2ac5c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0b4569b2a3d0e583",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fed should defy Trump with rate rise, top economists say",
-    "horodatage_utc": "2026-09-16T04:00:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f62e467a-bcb6-423d-96f2-b2b1e08faaa8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4e95612921fbdded",
-    "categorie": "geopolitique",
-    "titre_affiche": "EU rebuffs Carney’s ‘unique alliance’ with Canada",
-    "horodatage_utc": "2026-09-16T04:00:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2e2e0c1e-51d6-49e2-9f4a-6ef793908b85?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "cb961a85a4bcc210",
-    "categorie": "geopolitique",
-    "titre_affiche": "US billionaires line up to bankroll Republicans’ election push",
-    "horodatage_utc": "2026-09-16T04:00:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2285c111-b103-4b04-96c7-fe26a3c04c3e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Catastrophes naturelles",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "25cca43e1dd35045",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran’s hidden leader stirs unease at home",
-    "horodatage_utc": "2026-09-16T04:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ffe402ca-564a-457f-a861-18083a361e50?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": false
