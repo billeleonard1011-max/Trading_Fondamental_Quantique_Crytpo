@@ -1,5 +1,51 @@
 [
   {
+    "id": "02b26a87077afce2",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum confirms Glamsterdam dates, but warns 'fake' builders could stall the chain",
+    "horodatage_utc": "2026-09-18T05:23:29+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/18/ethereum-confirms-glamsterdam-dates-but-warns-fake-builders-could-stall-the-chain",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "195c2e73c6bd4a4f",
+    "categorie": "crypto",
+    "titre_affiche": "Ether and XRP ETFs post outflows as bitcoin moves above $77,000",
+    "horodatage_utc": "2026-09-18T04:49:17+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dafc7bde6d23f7b6",
+    "categorie": "crypto",
+    "titre_affiche": "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
+    "horodatage_utc": "2026-09-18T03:03:38+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/17/boj-rate-hike",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "f49c8c48d7bb7b04",
     "categorie": "crypto",
     "titre_affiche": "US sanctions Iranian crypto exchange BitBank over alleged bitcoin transfers to IRGC",
