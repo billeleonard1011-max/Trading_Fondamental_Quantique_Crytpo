@@ -1,26 +1,11 @@
 [
   {
-    "id": "449d5e6fc46fc27e",
+    "id": "45f0e53eb14b2c55",
     "categorie": "geopolitique",
-    "titre_affiche": "AI cloud provider Nscale files to go public",
-    "horodatage_utc": "2026-09-18T21:01:08+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/18/nscale-ai-cloud-provider-ipo-nscl.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "77aa49b595d85f2a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump bans major US news outlets from White House",
-    "horodatage_utc": "2026-09-18T20:50:45+00:00",
+    "titre_affiche": "Trump says US has deal with Denmark for ‘control’ of Greenland’s security",
+    "horodatage_utc": "2026-09-18T22:48:00+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4cd82226-3d4a-474d-bc3e-de2ed0b1e6f8?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/2ecc74bd-2fba-4ca6-9f1c-f0a927ed983c?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -28,6 +13,96 @@
     ],
     "portee": "contexte",
     "nouveaute": true
+  },
+  {
+    "id": "77aa49b595d85f2a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump bans major US news outlets from White House",
+    "horodatage_utc": "2026-09-18T22:00:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4cd82226-3d4a-474d-bc3e-de2ed0b1e6f8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "571241cd96e4e5e8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says son paid back Russian businessman for wedding weekend gift",
+    "horodatage_utc": "2026-09-18T21:45:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/863ca377-cbc2-4ca1-bb3d-c2478571359e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1354aa5286bccf26",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.5 - 112 km ESE of Ust’-Kamchatsk Staryy, Russia",
+    "horodatage_utc": "2026-09-18T21:41:41+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiem",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "58a60751dbb9561f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
+    "horodatage_utc": "2026-09-18T21:37:38+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e7a96a6e55922385",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+    "horodatage_utc": "2026-09-18T21:35:55+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "449d5e6fc46fc27e",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI cloud provider Nscale files to go public",
+    "horodatage_utc": "2026-09-18T21:08:28+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/nscale-ai-cloud-provider-ipo-nscl.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "d436a7257d32c84c",
@@ -51,14 +126,14 @@
     "horodatage_utc": "2026-09-18T19:15:24+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/18/after-decade-of-clashes-in-ai-elon-musk-forging-strange-alliances.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "21bc43479332035f",
@@ -194,21 +269,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "e7a96a6e55922385",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
-    "horodatage_utc": "2026-09-18T14:36:55+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "6d40a2a83e484b90",
@@ -357,6 +417,37 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "62f6ea9e85c1c94e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Silver price today, Friday, September 18, 2026: Silver prices recover quickly, hitting weekly high today",
+    "horodatage_utc": "2026-09-18T11:08:54+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-september-18-2026-silver-prices-recover-quickly-hitting-weekly-high-today-110854090.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "744ae9a6821de4c1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold price today, Friday, September 18, 2026: Gold hits weekly high as inflation concerns fade",
+    "horodatage_utc": "2026-09-18T10:48:07+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-18-2026-gold-hits-weekly-high-as-inflation-concerns-fade-104807567.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Inflation et prix"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -1719,96 +1810,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d8467a00b80051a4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why Meta's Zuckerberg, Nvidia's Huang Say An AI Slowdown Is Not Needed",
-    "horodatage_utc": "2026-09-16T13:22:23+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://www.investors.com/news/technology/meta-stock-zuckerberg-ai-safety-nvidia-anthropic/?src=A00220&yptr=yahoo",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fab2de20bc9ba702",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Fed decision, Clarity Act fails in Senate, Ford's truck prices and more in Morning Squawk",
-    "horodatage_utc": "2026-09-16T12:42:32+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/16/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5c18b4147827e17b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bitcoin and ethereum prices today, Wednesday, September 16, 2026: Crypto prices tank after CLARITY Act fails and ahead of Fed decision",
-    "horodatage_utc": "2026-09-16T11:25:17+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "130c808b6b506114",
-    "categorie": "geopolitique",
-    "titre_affiche": "Silver price today, Wednesday, September 16, 2026: Silver prices rise in anticipation of the Fed",
-    "horodatage_utc": "2026-09-16T10:51:34+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-september-16-2026-silver-prices-rise-in-anticipation-of-the-fed-105134969.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9fe1c07b2d56c243",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold price today, Wednesday, September 16, 2026: Gold holds in the $4,300 range, awaiting the Fed's decision",
-    "horodatage_utc": "2026-09-16T10:40:38+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-16-2026-gold-holds-in-the-4300-range-awaiting-the-feds-decision-104038147.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "017822ca5e8f13cc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Best CD rates today, Wednesday, September 16, 2026: Earn up to 4.40% APY with Happen Bank",
-    "horodatage_utc": "2026-09-16T10:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-september-16-2026-earn-up-to-440-apy-with-happen-bank-100000125.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": false
