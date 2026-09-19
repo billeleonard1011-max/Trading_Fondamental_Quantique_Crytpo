@@ -1,5 +1,20 @@
 [
   {
+    "id": "d59e6dc71ee7f1f0",
+    "categorie": "crypto",
+    "titre_affiche": "'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
+    "horodatage_utc": "2026-09-19T12:13:57+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/19/the-orange-tie-stays-michael-saylor-responds-to-venture-capitalist-s-bitcoin-obituary",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b0e49f567385ae28",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin reclaims $80,000, Solana and Hyperliquid rally as crypto markets shrug off Clarity setback",

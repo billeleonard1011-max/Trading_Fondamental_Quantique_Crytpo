@@ -1,17 +1,107 @@
 [
   {
+    "id": "4b6cb92ccafb326e",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Stock Market's Biggest Companies Are Losing Their Grip. Here's the ETF I'd Buy If History Repeats.",
+    "horodatage_utc": "2026-09-19T15:05:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/stock-markets-biggest-companies-losing-150500940.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "813e0432b52ec1bc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Citi Forecasts Widening Memory Chip Shortages Through 2031 as AI Demand Expands",
+    "horodatage_utc": "2026-09-19T14:54:45+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/citi-forecasts-widening-memory-chip-145445169.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "864c153988f664f8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Dow Jones Futures: Will The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+    "horodatage_utc": "2026-09-19T13:16:31+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "428a4e12f6c2b569",
+    "categorie": "geopolitique",
+    "titre_affiche": "Stock Market Week Ahead: Keeping An Eye Out For Change",
+    "horodatage_utc": "2026-09-19T12:29:27+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://www.investors.com/research/investing-action-plan/stock-market-nasdaq-sp-500-analysis-meta-platforms-earnings/?src=A00220&yptr=yahoo",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ac47cce757611ee5",
     "categorie": "geopolitique",
     "titre_affiche": "Bitcoin is back at $80,000 as rest of crypto joins the rally: Chart of the Day",
     "horodatage_utc": "2026-09-19T11:59:55+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/markets/article/bitcoin-is-back-at-80000-as-rest-of-crypto-joins-the-rally-chart-of-the-day-115955499.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "b9c5fa9c4b8fb38b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nestlé Loses the Keys to Its Russian Business",
+    "horodatage_utc": "2026-09-19T11:55:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/nestl-loses-keys-russian-business-115500444.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e774a6bf1e7f1baa",
+    "categorie": "geopolitique",
+    "titre_affiche": "Air Products (APD) Is Doubling Down on the Gases Inside Chip Fabs",
+    "horodatage_utc": "2026-09-19T11:13:48+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/articles/air-products-apd-doubling-down-111348272.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -21,13 +111,13 @@
     "horodatage_utc": "2026-09-19T10:00:00+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-september-19-2026-mortgage-rates-move-lower-to-start-the-weekend-100000254.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0b0d366aeb893596",
@@ -1725,95 +1815,5 @@
     ],
     "portee": "contexte",
     "nouveaute": false
-  },
-  {
-    "id": "9bcabf567eb6b7e3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bank of America CFO Claims All Is Well as Stock Slides 7% in a Month",
-    "horodatage_utc": "2026-09-16T14:20:25+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-cfo-claims-well-142025288.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2173b66799eb5e6c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Unilever-McCormick deal comes under scrutiny of UK watchdog",
-    "horodatage_utc": "2026-09-16T14:18:54+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/unilever-mccormick-deal-comes-under-140457960.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d6852cdce2f61a95",
-    "categorie": "geopolitique",
-    "titre_affiche": "Forget the Rate Hike! The Fed’s Dot Plot Could Trigger a Massive Crypto Shock Today",
-    "horodatage_utc": "2026-09-16T14:13:52+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/forget-rate-hike-fed-dot-141352347.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f9e77490f1c9641f",
-    "categorie": "geopolitique",
-    "titre_affiche": "American Battery Technology (ABAT) Turns A Profit, But Faces A New Export Threat",
-    "horodatage_utc": "2026-09-16T14:13:23+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/american-battery-technology-abat-turns-141323855.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Transition énergétique. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Transition énergétique"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a7283c31c2852cdb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock Market Today: Nasdaq, S&P 500 Up Ahead Of Likely Fed Rate Increase; AI Leader Dell Jams (Live Coverage)",
-    "horodatage_utc": "2026-09-16T14:07:08+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-rate-hike-warsh-intel-sk-hynix/?src=A00220&yptr=yahoo",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "14e689c85b15f215",
-    "categorie": "geopolitique",
-    "titre_affiche": "Deutsche Bank To Offer Crypto Custody For Institutions",
-    "horodatage_utc": "2026-09-16T14:06:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/deutsche-bank-offer-crypto-custody-140600953.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
