@@ -1,5 +1,95 @@
 [
   {
+    "id": "659546cbfd327a9a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bank of America does the math on Apple's $1,200 iPhone offer",
+    "horodatage_utc": "2026-09-19T22:07:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-does-math-apples-220700012.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e8ea7e3caeec26c7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cardinal Health Targets 13%-15% EPS Growth as Specialty Momentum Builds",
+    "horodatage_utc": "2026-09-19T22:01:57+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/healthcare/articles/cardinal-health-targets-13-15-220157006.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7e0cd36aa5b57b14",
+    "categorie": "geopolitique",
+    "titre_affiche": "If a Stock Market Crash Is Coming, I'm Buying This 1 Vanguard ETF Without Hesitation",
+    "horodatage_utc": "2026-09-19T21:50:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/stock-market-crash-coming-im-215000554.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c690e2ddd829f92f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cathie Wood Never Sold Ark's Core Stake in Tesla Despite the Stock Trailing Every Other Magnificent Seven Name in 2026. Here's Why Her Multi-Year Conviction Hasn't Wavered.",
+    "horodatage_utc": "2026-09-19T21:25:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-never-sold-arks-212500140.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a54ae8dc6fd7c872",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cathie Wood sends bullish Bitcoin response to 'dead cat' warning",
+    "horodatage_utc": "2026-09-19T21:13:44+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/crypto/articles/cathie-wood-sends-bullish-bitcoin-211344354.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "60f78a406a0d4a7f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Fossil fuel emissions set to fall in after oil shock",
+    "horodatage_utc": "2026-09-19T21:03:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/energy/articles/fossil-fuel-emissions-set-fall-210300941.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "d506a4997d5f8189",
     "categorie": "geopolitique",
     "titre_affiche": "The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Dividend Stock Provides a Middle Ground for Long-Term Investors.",
@@ -22,13 +112,13 @@
     "horodatage_utc": "2026-09-19T20:09:32+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/markets/stocks/articles/interactive-brokers-ibkr-turns-every-200932877.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3752992926042f64",
@@ -53,13 +143,13 @@
     "horodatage_utc": "2026-09-19T19:49:36+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/technology/ai/articles/egain-egan-b-riley-roth-194936520.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8e6dd80c659bdf76",
@@ -68,13 +158,13 @@
     "horodatage_utc": "2026-09-19T19:49:31+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c6acd649406c9e76",
@@ -83,13 +173,13 @@
     "horodatage_utc": "2026-09-19T19:47:47+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/technology/ai/articles/infosys-infy-lands-brake-maker-194747627.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2b38aa3ef7cea98a",
@@ -98,13 +188,13 @@
     "horodatage_utc": "2026-09-19T19:35:09+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-notes-oil-behind-193509467.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e5e8dda7792043cf",
@@ -113,13 +203,13 @@
     "horodatage_utc": "2026-09-19T18:51:16+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/markets/crypto/articles/nasdaq-ndaq-just-made-harder-185116666.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7fd111e79ef18921",
@@ -134,7 +224,7 @@
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "87e42880fd78523f",
@@ -149,7 +239,7 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d257bd7d108a5c70",
@@ -1723,96 +1813,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "4b4289162ebef8ef",
-    "categorie": "geopolitique",
-    "titre_affiche": "Snap tries to bring AR glasses to enterprise market, partnering with Nvidia, AWS and Salesforce",
-    "horodatage_utc": "2026-09-16T23:40:05+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/16/snap-enterprise-ai-service.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d024c833cd8c9fae",
-    "categorie": "geopolitique",
-    "titre_affiche": "Holtec pulls IPO over ‘perfect storm’ in AI sector, founder says",
-    "horodatage_utc": "2026-09-16T23:22:35+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5f4a4fce-72bb-4ea6-862b-1da1234d5b25?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "962d59359f693914",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fed defies Trump with first rate rise since 2023",
-    "horodatage_utc": "2026-09-16T23:18:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f5ce5c38-76e3-4212-8c60-4c868f6dee70?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f7d3ef6d8d9ab0a9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cramer bets AI spending will 'continue apace,' says he's not giving up on data center trade",
-    "horodatage_utc": "2026-09-16T23:00:33+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/16/cramer-ai-slowdown-stocks-dip.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ef276edfcbfed630",
-    "categorie": "geopolitique",
-    "titre_affiche": "Arm CEO says he's more confident its new AI chip can meet a loftier $2B revenue goal",
-    "horodatage_utc": "2026-09-16T22:52:20+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/16/jim-cramer-arm-ceo-ai-revenue-goal.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b3c75769e7552235",
-    "categorie": "geopolitique",
-    "titre_affiche": "Walter and Boehly sell Chelsea FC stakes to Clearlake for £950mn",
-    "horodatage_utc": "2026-09-16T22:32:36+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a9099b59-b5ed-47e2-bdf3-ae26f5dd7317?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
     ],
     "portee": "contexte",
     "nouveaute": false
