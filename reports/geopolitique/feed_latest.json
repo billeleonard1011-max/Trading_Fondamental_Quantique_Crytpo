@@ -1,18 +1,48 @@
 [
   {
+    "id": "ac47cce757611ee5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bitcoin is back at $80,000 as rest of crypto joins the rally: Chart of the Day",
+    "horodatage_utc": "2026-09-19T11:59:55+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/article/bitcoin-is-back-at-80000-as-rest-of-crypto-joins-the-rally-chart-of-the-day-115955499.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "017115cb89265651",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Saturday, September 19, 2026: Mortgage rates move lower to start the weekend",
+    "horodatage_utc": "2026-09-19T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-september-19-2026-mortgage-rates-move-lower-to-start-the-weekend-100000254.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "0b0d366aeb893596",
     "categorie": "geopolitique",
     "titre_affiche": "A new arms race is unfolding on the ocean floor",
     "horodatage_utc": "2026-09-19T05:00:01+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/19/underwater-war-sea-drones-defense-tech.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5628aebc56e653c1",
@@ -21,14 +51,14 @@
     "horodatage_utc": "2026-09-19T04:00:23+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/05887f92-c777-48ab-8efa-9a39e7e18a9f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2098658d31464888",
@@ -53,13 +83,13 @@
     "horodatage_utc": "2026-09-19T01:29:25+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "45f0e53eb14b2c55",
@@ -1784,36 +1814,6 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1d9d5bd6f1be2911",
-    "categorie": "geopolitique",
-    "titre_affiche": "10-year Treasury sits below 5% as market awaits Fed decision: AlphaCheck",
-    "horodatage_utc": "2026-09-16T14:05:28+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/article/10-year-treasury-sits-below-5-as-market-awaits-fed-decision-alphacheck-140528141.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "722fcb147dbacb8e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Circle Unveils New Arc Blockchain",
-    "horodatage_utc": "2026-09-16T13:52:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/circle-unveils-arc-blockchain-135200065.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
     "nouveaute": true
   }
 ]
