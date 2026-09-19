@@ -1,18 +1,34 @@
 [
   {
+    "id": "2098658d31464888",
+    "categorie": "geopolitique",
+    "titre_affiche": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+    "horodatage_utc": "2026-09-19T00:53:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "45f0e53eb14b2c55",
     "categorie": "geopolitique",
     "titre_affiche": "Trump says US has deal with Denmark for ‘control’ of Greenland’s security",
     "horodatage_utc": "2026-09-18T22:48:00+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/2ecc74bd-2fba-4ca6-9f1c-f0a927ed983c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "77aa49b595d85f2a",
@@ -36,13 +52,13 @@
     "horodatage_utc": "2026-09-18T21:45:56+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/863ca377-cbc2-4ca1-bb3d-c2478571359e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1354aa5286bccf26",
@@ -51,13 +67,13 @@
     "horodatage_utc": "2026-09-18T21:41:41+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiem",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "58a60751dbb9561f",
@@ -66,13 +82,13 @@
     "horodatage_utc": "2026-09-18T21:37:38+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e7a96a6e55922385",
@@ -428,13 +444,13 @@
     "horodatage_utc": "2026-09-18T11:08:54+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-september-18-2026-silver-prices-recover-quickly-hitting-weekly-high-today-110854090.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Or et métaux précieux"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "744ae9a6821de4c1",
@@ -443,14 +459,14 @@
     "horodatage_utc": "2026-09-18T10:48:07+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-18-2026-gold-hits-weekly-high-as-inflation-concerns-fade-104807567.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Or et métaux précieux",
       "Inflation et prix"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "50884be260f8d9ad",
@@ -463,6 +479,21 @@
     "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "caed45eec18752d8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Friday, September 18, 2026: Rates climb above 7%",
+    "horodatage_utc": "2026-09-18T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-18-2026-rates-climb-above-7-100000327.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1780,36 +1811,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a812b36004bbd2cf",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Bull Case for Netflix’s (NFLX) New Growth Engine",
-    "horodatage_utc": "2026-09-16T13:25:31+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/bull-case-netflix-nflx-growth-132531860.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "28bcc3859ef4d617",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chinese oil prices hit record highs after attacks on Saudi pipeline",
-    "horodatage_utc": "2026-09-16T13:24:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3a88d016-9575-4c11-bd34-14606964a867?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": false
