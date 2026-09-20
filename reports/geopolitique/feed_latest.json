@@ -1,18 +1,78 @@
 [
   {
+    "id": "6c2c9f567d4960ab",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
+    "horodatage_utc": "2026-09-20T10:21:20+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e6ea4aa1a9d661be",
+    "categorie": "geopolitique",
+    "titre_affiche": "US retailer rations motor oil as prices quadruple and supplies run dry",
+    "horodatage_utc": "2026-09-20T10:00:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/64f90ab8-5fb0-4594-a900-d03e5ca051e3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3fef682d0d4b8947",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mortgage and refinance interest rates today, Sunday, September 20, 2026: Mortgage rates moved higher again compared to last week",
+    "horodatage_utc": "2026-09-20T10:00:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-20-2026-mortgage-rates-moved-higher-again-compared-to-last-week-100000702.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2475706407c2a2bc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
+    "horodatage_utc": "2026-09-20T07:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "68023936332aae47",
     "categorie": "geopolitique",
     "titre_affiche": "Israel’s settler economy braces for European sanctions",
     "horodatage_utc": "2026-09-20T04:00:11+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f780b2a4-13ff-44ec-8225-cf38d4f0c966?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "39fb25fd106c3259",
@@ -21,14 +81,14 @@
     "horodatage_utc": "2026-09-20T04:00:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c9d13509-7a93-40a9-b2d4-c3292028813a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Tensions énergétiques"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "adc170eed0a9bced",
@@ -53,13 +113,13 @@
     "horodatage_utc": "2026-09-20T04:00:03+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/ac104987-f43d-4e7d-97b6-057d98f7e422?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a4167d1574fadf7c",
@@ -68,14 +128,14 @@
     "horodatage_utc": "2026-09-20T04:00:03+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/0ecc81ad-2119-4763-90fb-ba5d399d913d",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine, Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine",
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "659546cbfd327a9a",
@@ -507,13 +567,13 @@
     "horodatage_utc": "2026-09-19T11:13:48+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/technology/articles/air-products-apd-doubling-down-111348272.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "017115cb89265651",
@@ -1755,66 +1815,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9e8c26e3c2f16f96",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump suggests EU-Canada associate member deal would be ‘hostile act’",
-    "horodatage_utc": "2026-09-17T07:20:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7b0f8f90-b3ad-4640-916a-f8b5495920a3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "35efa1d3216bc5b6",
-    "categorie": "geopolitique",
-    "titre_affiche": "HSBC axes $38,000 school fee perk for new Hong Kong bankers",
-    "horodatage_utc": "2026-09-17T05:15:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3edfa4b0-a492-4627-b9ac-e6f11583242d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4ef1ecd2c3e5ff6e",
-    "categorie": "geopolitique",
-    "titre_affiche": "US rate rise jolts yen ahead of Bank of Japan meeting",
-    "horodatage_utc": "2026-09-17T04:15:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5226dcb7-d89d-4b68-981f-b2736d7e4dca?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5c97b67943522d2c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump fails to bend the Fed to his will",
-    "horodatage_utc": "2026-09-17T04:00:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fb8e1037-8c48-49d2-809e-950472bcbae5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
     "nouveaute": false
