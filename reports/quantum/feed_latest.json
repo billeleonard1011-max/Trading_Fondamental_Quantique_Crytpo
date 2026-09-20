@@ -1,5 +1,20 @@
 [
   {
+    "id": "5e90469e79bc30cd",
+    "categorie": "quantique",
+    "titre_affiche": "IONQ Stock Surges On Tech Wins , But The Heavy Burn Persists",
+    "horodatage_utc": "2026-09-20T06:15:00+00:00",
+    "source_nom": "GDELT/finance.yahoo.com",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/ionq-stock-surges-tech-wins-223735798.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "997e5ab6ba933e5e",
     "categorie": "quantique",
     "titre_affiche": "IBM Research Demonstrates Hybrid Spacetime PEC to Reduce Error-Mitigation Sampling Overhead by 63×",
