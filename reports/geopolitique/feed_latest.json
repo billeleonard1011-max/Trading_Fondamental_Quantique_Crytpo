@@ -1,5 +1,110 @@
 [
   {
+    "id": "b31205b0663b1552",
+    "categorie": "geopolitique",
+    "titre_affiche": "German chancellor Merz vows to stay on despite ‘disaster’ in regional elections",
+    "horodatage_utc": "2026-09-20T20:11:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "b225041e02e29385",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon has some good news for its employees on minimum wage",
+    "horodatage_utc": "2026-09-20T20:07:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/economy/policy/articles/amazon-good-news-employees-minimum-200700480.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "521415c7319ae14f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Investors Can Now Invest in the Surging Tron Cryptocurrency Via an ETF. Here's What Crypto Investors Need to Know.",
+    "horodatage_utc": "2026-09-20T19:47:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/crypto/articles/investors-now-invest-surging-tron-194700381.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6ab53b4c93d4f7e5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Better Artificial Intelligence Stock: Advanced Micro Devices vs. SK Hynix",
+    "horodatage_utc": "2026-09-20T19:28:28+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/better-artificial-intelligence-stock-advanced-192828810.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "98018636a4920770",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why I'm Avoiding This Popular AI Stock Despite Its Growth Story",
+    "horodatage_utc": "2026-09-20T19:26:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/technology/ai/articles/why-im-avoiding-popular-ai-192600316.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2a81f5bbb1df1397",
+    "categorie": "geopolitique",
+    "titre_affiche": "Vera Bradley (VRA) Returns to Operating Profit. Can the Recovery Outlast Tariff Refunds?",
+    "horodatage_utc": "2026-09-20T18:51:54+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/vera-bradley-vra-returns-operating-185154105.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2f9f8f5425378b70",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trip.com (TCOM) Books RMB5.2 Billion Penalty. Can Overseas Growth Offset Domestic Pressure?",
+    "horodatage_utc": "2026-09-20T18:31:36+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/stocks/articles/trip-com-tcom-books-rmb5-183136873.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "4847a6057e2e3dd6",
     "categorie": "geopolitique",
     "titre_affiche": "AI, data center alarms dominate Congressional Black Caucus week in Washington",
@@ -57,21 +162,6 @@
       "Informatique quantique"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "b31205b0663b1552",
-    "categorie": "geopolitique",
-    "titre_affiche": "German chancellor Merz vows to stay on despite ‘disaster’ in regional elections",
-    "horodatage_utc": "2026-09-20T17:49:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -268,7 +358,7 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0f635c0fcf82e53a",
@@ -508,7 +598,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "348b1ce1f7d82396",
@@ -524,7 +614,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1866c62a6f0e288d",
@@ -539,7 +629,7 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "26b574f426ce152a",
@@ -554,7 +644,7 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "63b11bfc922b0d8b",
@@ -616,7 +706,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ccb3c9037659972c",
@@ -709,7 +799,7 @@
       "Dollar et devises"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e850417234e17b08",
@@ -740,7 +830,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "86ee2c88d36b90a6",
@@ -816,7 +906,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "db1fc6d5abe7533b",
@@ -1030,6 +1120,21 @@
     ],
     "portee": "contexte",
     "nouveaute": false
+  },
+  {
+    "id": "7e00039ff0aba32d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s regulatory rollback puts $400mn in US audit fees at risk",
+    "horodatage_utc": "2026-09-20T10:00:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b455ab48-76ef-4fd4-9137-1f666344ab45?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "3fef682d0d4b8947",
@@ -1709,112 +1814,6 @@
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2098658d31464888",
-    "categorie": "geopolitique",
-    "titre_affiche": "Google's Gemini becomes latest AI model to break out and hack computer systems",
-    "horodatage_utc": "2026-09-19T01:41:49+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f5ceeee302f53ada",
-    "categorie": "geopolitique",
-    "titre_affiche": "Google’s Gemini hacked three companies in new AI safety incident",
-    "horodatage_utc": "2026-09-19T01:29:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "45f0e53eb14b2c55",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says US has deal with Denmark for ‘control’ of Greenland’s security",
-    "horodatage_utc": "2026-09-18T22:48:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2ecc74bd-2fba-4ca6-9f1c-f0a927ed983c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "571241cd96e4e5e8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says son paid back Russian businessman for wedding weekend gift",
-    "horodatage_utc": "2026-09-18T21:45:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/863ca377-cbc2-4ca1-bb3d-c2478571359e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1354aa5286bccf26",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.5 - 112 km ESE of Ust’-Kamchatsk Staryy, Russia",
-    "horodatage_utc": "2026-09-18T21:41:41+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiem",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "58a60751dbb9561f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
-    "horodatage_utc": "2026-09-18T21:37:38+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "e7a96a6e55922385",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
-    "horodatage_utc": "2026-09-18T21:35:55+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": false
