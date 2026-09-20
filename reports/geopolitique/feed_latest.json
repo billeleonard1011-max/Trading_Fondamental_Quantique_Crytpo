@@ -3,13 +3,105 @@
     "id": "6c2c9f567d4960ab",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
-    "horodatage_utc": "2026-09-20T10:21:20+00:00",
+    "horodatage_utc": "2026-09-20T14:25:12+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b214cf9d4946ac78",
+    "categorie": "geopolitique",
+    "titre_affiche": "Don’t even think about retiring if this is you in 2026 — 5 red flags to watch (especially with Trump in the White House)",
+    "horodatage_utc": "2026-09-20T14:15:00+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/markets/articles/don-t-even-think-retiring-141500099.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "4847a6057e2e3dd6",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI, data center alarms dominate Congressional Black Caucus week in Washington",
+    "horodatage_utc": "2026-09-20T13:17:56+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/20/ai-data-center-alarms-dominate-cbc-week-in-washington.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "df3461e6acfec29a",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+    "horodatage_utc": "2026-09-20T12:47:23+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "033b1bed9906bfde",
+    "categorie": "geopolitique",
+    "titre_affiche": "CATL develops pick-up truck batteries for US despite trade barriers",
+    "horodatage_utc": "2026-09-20T11:58:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bfe6fc60-51b3-41f0-b6c9-32583735150e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Transition énergétique, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Transition énergétique",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b6a1d390865b0749",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine hits Moscow with ‘largest ever’ drone attack",
+    "horodatage_utc": "2026-09-20T11:32:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2b6f1b4b-4010-4e95-8b5c-dfb2e32cd7ae?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f95598e25de435fb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+    "horodatage_utc": "2026-09-20T11:25:08+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -21,12 +113,27 @@
     "horodatage_utc": "2026-09-20T10:00:03+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/64f90ab8-5fb0-4594-a900-d03e5ca051e3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e1e601e741546b7a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jon Ossoff’s Georgia race stirs talk of 2028 US presidential audition",
+    "horodatage_utc": "2026-09-20T10:00:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/90714056-d364-43d9-9411-9bde92f966b3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -36,13 +143,13 @@
     "horodatage_utc": "2026-09-20T10:00:00+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-20-2026-mortgage-rates-moved-higher-again-compared-to-last-week-100000702.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2475706407c2a2bc",
@@ -51,13 +158,13 @@
     "horodatage_utc": "2026-09-20T07:00:12+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "68023936332aae47",
@@ -1709,114 +1816,6 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b7787a1132d30a00",
-    "categorie": "geopolitique",
-    "titre_affiche": "Carney defends EU ties amid ‘ferocious storm’",
-    "horodatage_utc": "2026-09-17T11:02:19+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f6a3f875-ddfa-4fd7-8232-cb5a3699a5df?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "56868c7f6d89c8e9",
-    "categorie": "geopolitique",
-    "titre_affiche": "King Charles to press Nvidia, OpenAI, Anthropic leaders on AI safety at summit",
-    "horodatage_utc": "2026-09-17T10:23:31+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/17/king-charles-nvidia-openai-anthropic-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "37610d474a18c000",
-    "categorie": "geopolitique",
-    "titre_affiche": "Wall Street warns trading boom is losing steam",
-    "horodatage_utc": "2026-09-17T10:00:03+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3bb7e0e8-6aef-4b6b-a5f0-f472a2655c1f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b2f38cfd7a6e176f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mortgage and refinance interest rates today, Thursday, September 17, 2026: Fixed rates tick upward",
-    "horodatage_utc": "2026-09-17T10:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-thursday-september-17-2026-fixed-rates-tick-upward-100000901.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6e92d23522f4f907",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mortgage rates fell slightly after the Fed hiked rates: Mortgage and refinance interest rates today, Thursday, September 17, 2026",
-    "horodatage_utc": "2026-09-17T10:00:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rates-fell-slightly-after-the-fed-hiked-rates-mortgage-and-refinance-interest-rates-today-thursday-september-17-2026-100000901.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d1eec8ca3dc7890b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock market today: Dow, S&P 500, Nasdaq rise as Fed rate hike pacifies markets' inflation worries",
-    "horodatage_utc": "2026-09-17T08:12:48+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-17-dow-sp-500-nasdaq-081248626.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a899687204c50053",
-    "categorie": "geopolitique",
-    "titre_affiche": "China cuts US Treasury holdings to lowest level since 2008",
-    "horodatage_utc": "2026-09-17T07:43:48+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/69f02abc-e0dc-46e5-aa6c-61d209e095d9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
     "nouveaute": false
   }
 ]
