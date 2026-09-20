@@ -1,5 +1,83 @@
 [
   {
+    "id": "68023936332aae47",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel’s settler economy braces for European sanctions",
+    "horodatage_utc": "2026-09-20T04:00:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f780b2a4-13ff-44ec-8225-cf38d4f0c966?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "39fb25fd106c3259",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Gulf cargo trade that vanished",
+    "horodatage_utc": "2026-09-20T04:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c9d13509-7a93-40a9-b2d4-c3292028813a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "adc170eed0a9bced",
+    "categorie": "geopolitique",
+    "titre_affiche": "Low UK growth is a product of neglect",
+    "horodatage_utc": "2026-09-20T04:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/35d699ce-b6fc-44b9-981f-dc598e310e91",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dac2906ea0a64d01",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi Arabia quits China-led cross-border currency platform",
+    "horodatage_utc": "2026-09-20T04:00:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ac104987-f43d-4e7d-97b6-057d98f7e422?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a4167d1574fadf7c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia’s new air campaign seeks to destroy Ukrainian economy",
+    "horodatage_utc": "2026-09-20T04:00:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0ecc81ad-2119-4763-90fb-ba5d399d913d",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine, Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine",
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "659546cbfd327a9a",
     "categorie": "geopolitique",
     "titre_affiche": "Bank of America does the math on Apple's $1,200 iPhone offer",
@@ -1739,82 +1817,6 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "27f1aa411c71e4bd",
-    "categorie": "geopolitique",
-    "titre_affiche": "EU asks China to voluntarily limit hybrid car exports",
-    "horodatage_utc": "2026-09-17T04:00:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0b45cb01-7f62-41c5-8c48-10c47f2e1ae6?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1d76e326469f6d9e",
-    "categorie": "geopolitique",
-    "titre_affiche": "The rebel offensive that shook Saudi Arabia",
-    "horodatage_utc": "2026-09-17T04:00:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d63eb228-87a6-4cce-99fb-777532cd4012?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f5dfa375f96b2e97",
-    "categorie": "geopolitique",
-    "titre_affiche": "DeepMind offshoot nears $4bn valuation just a month after founding",
-    "horodatage_utc": "2026-09-17T04:00:11+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0b83cb60-0d07-49a7-a46a-654077a75b39?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b6a1b1012728f8bb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Thousands of Barclays staff revolt against three-day office mandate",
-    "horodatage_utc": "2026-09-17T04:00:11+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ca551e46-8ced-4e63-ace1-bdf20caedce7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "181598ea8b86ede3",
-    "categorie": "geopolitique",
-    "titre_affiche": "The era of AI warfare has arrived",
-    "horodatage_utc": "2026-09-17T04:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/686429c0-daf3-42a5-9b7c-7ff06eb291ef?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   }
 ]

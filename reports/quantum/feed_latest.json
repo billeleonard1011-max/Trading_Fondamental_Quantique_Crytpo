@@ -1,5 +1,20 @@
 [
   {
+    "id": "997e5ab6ba933e5e",
+    "categorie": "quantique",
+    "titre_affiche": "IBM Research Demonstrates Hybrid Spacetime PEC to Reduce Error-Mitigation Sampling Overhead by 63×",
+    "horodatage_utc": "2026-09-20T00:22:32+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ibm-research-demonstrates-hybrid-spacetime-pec-to-reduce-error-mitigation-sampling-overhead-by-63x/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "339d73428a953cc2",
     "categorie": "quantique",
     "titre_affiche": "EPB Commissions IonQ Forte Enterprise Quantum Computer in Chattanooga Hub",
