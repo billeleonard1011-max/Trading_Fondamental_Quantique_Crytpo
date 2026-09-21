@@ -1,11 +1,56 @@
 [
   {
-    "id": "9f30cbc5893d2456",
+    "id": "424572b8bd05830c",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
-    "horodatage_utc": "2026-09-21T04:03:43+00:00",
+    "titre_affiche": "‘Crypto bull market is underway,’ Tom Lee says as Bitmine nears 5% Ethereum supply target with 27,562 ETH buy",
+    "horodatage_utc": "2026-09-21T13:14:39+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-09-21-crypto-bull-market-underway-tom-lee-says-bitmine-nears-5-ethereum-supply-target-with-27562-eth-buy-415923",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "64444007228074a3",
+    "categorie": "crypto",
+    "titre_affiche": "Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto",
+    "horodatage_utc": "2026-09-21T13:11:15+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/21/bitcoin-rises-above-usd81-000-while-near-jumps-23-on-zcash-swap-traffic",
+    "url_source": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d09387ece2b34d97",
+    "categorie": "crypto",
+    "titre_affiche": "‘A little more orange’: Strategy buys 950 bitcoin for $76 million, bringing total holdings to 846,000 BTC",
+    "horodatage_utc": "2026-09-21T12:09:48+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-09-21-a-little-more-orange-strategy-bitcoin-michael-saylor-415893",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9a865852d302f4a7",
+    "categorie": "crypto",
+    "titre_affiche": "Strategy returns to bitcoin buys, adding $75 million of BTC last week",
+    "horodatage_utc": "2026-09-21T12:08:02+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/21/strategy-returns-to-bitcoin-buys-adding-usd75-million-of-btc-last-week",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,12 +60,12 @@
     "nouveaute": true
   },
   {
-    "id": "168faed09846e0bc",
+    "id": "e38da7ef427129b1",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin’s price has cleared a key hurdle that has historically preceded major bull runs",
-    "horodatage_utc": "2026-09-21T03:56:23+00:00",
+    "titre_affiche": "Bitcoin's 44% gain in third quarter teases full-blown crypto bull run",
+    "horodatage_utc": "2026-09-21T11:36:11+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/21/bitcoin-s-price-has-cleared-a-key-hurdle-that-has-historically-preceded-major-bull-runs",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/09/21/bitcoin-s-44-gain-in-third-quarter-teases-full-blown-crypto-bull-run",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -28,6 +73,111 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "eb304929392d9c43",
+    "categorie": "crypto",
+    "titre_affiche": "Perp futures linked to 'bitcoin VIX' debut on Hyperliquid",
+    "horodatage_utc": "2026-09-21T11:30:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/21/perp-futures-linked-to-bitcoin-vix-debut-on-hyperliquid",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5c6c7e8c08392ba5",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin taps $85,000 for first time since January as crypto short liquidations surge",
+    "horodatage_utc": "2026-09-21T10:56:54+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-21-bitcoin-taps-85000-for-first-time-since-january-as-crypto-short-liquidations-surge-415905",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "70cfaa494d8d2005",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin hits $85,000 as short squeeze forces out $648 million of bearish bets",
+    "horodatage_utc": "2026-09-21T10:30:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/21/bitcoin-hits-usd85-000-as-short-squeeze-forces-out-usd648-million-of-bearish-bets",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "4562c755d0121909",
+    "categorie": "crypto",
+    "titre_affiche": "X sues its own users for running a fake bitcoin news bot farm",
+    "horodatage_utc": "2026-09-21T10:15:44+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/21/x-sues-its-won-users-for-running-a-fake-bitcoin-news-bot-farm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "33171ba9f2f82496",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin tops $85,000, reclaims U.S. ETF cost basis for first time since January",
+    "horodatage_utc": "2026-09-21T08:39:26+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9f30cbc5893d2456",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
+    "horodatage_utc": "2026-09-21T04:03:43+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/21/bitcoin-rises-above-usd81-000-while-near-jumps-23-on-zcash-swap-traffic",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "168faed09846e0bc",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin’s price has cleared a key hurdle that has historically preceded major bull runs",
+    "horodatage_utc": "2026-09-21T03:56:23+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/21/bitcoin-s-price-has-cleared-a-key-hurdle-that-has-historically-preceded-major-bull-runs",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "13a440455f10d295",
@@ -1660,148 +1810,6 @@
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "300b0ed936001c93",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin trades near $78,000 as memecoins, small caps lead a broad crypto retreat",
-    "horodatage_utc": "2026-09-10T10:24:14+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/10/bitcoin-trades-near-usd78-000-as-memecoins-small-caps-lead-a-broad-crypto-retreat",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "707f8642422c189e",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Recovery Momentum Faces Resistance Near $86K",
-    "horodatage_utc": "2026-09-10T10:15:00+00:00",
-    "source_nom": "GDELT/dailyforex.com",
-    "url_source": "https://www.dailyforex.com/forex-technical-analysis/2026/09/bitcoin-forecast-9-september-2026/249542",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/dailyforex.com. Elle mentionne : BTC. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "a809c26dd1dbcd64",
-    "categorie": "crypto",
-    "titre_affiche": "Bienville Capital Management LLC Sells 117 , 877 Shares of iShares Bitcoin Trust ETF $IBIT",
-    "horodatage_utc": "2026-09-10T08:30:00+00:00",
-    "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/09/10/bienville-capital-management-llc-sells-117877-shares-of-ishares-bitcoin-trust-etf-ibit.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "c92f71d9df0d21d4",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin slumps as ECB hikes rates and U.S. core PPI eases, but remains hot",
-    "horodatage_utc": "2026-09-10T07:45:46+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "a8569439750a3788",
-    "categorie": "crypto",
-    "titre_affiche": "SGX's bitcoin and ether perpetual futures are now open to U.S. institutions",
-    "horodatage_utc": "2026-09-10T07:01:44+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/10/sgx-s-bitcoin-and-ether-perpetual-futures-are-now-open-to-u-s-institutions",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "bdf7d2db55b89ab7",
-    "categorie": "crypto",
-    "titre_affiche": "Dogecoin sinks 5% to lead majors' losses, with bitcoin holding $78,000 level",
-    "horodatage_utc": "2026-09-10T05:30:15+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/10/dogecoin-sinks-5-to-lead-majors-losses-with-bitcoin-holding-usd78-000-level",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "DOGE"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "a276d043a1db5cfd",
-    "categorie": "crypto",
-    "titre_affiche": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
-    "horodatage_utc": "2026-09-09T17:56:26+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "7b89489494f707b4",
-    "categorie": "crypto",
-    "titre_affiche": "Bittensor Commons Announces Exploit Summit , A Two - Day Decentralized AI Conference in Montreal , September 28 - 29 , 2026",
-    "horodatage_utc": "2026-09-09T17:45:00+00:00",
-    "source_nom": "GDELT/standard-freeholder.com",
-    "url_source": "https://www.standard-freeholder.com/press-releases/newsfile/bittensor-commons-announces-exploit-summit-a-two-day-decentralized-ai-conference-in-montreal-september-28-29-2026/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "TAO"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "967614b6cdfed939",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin miners are missing the crypto rally as exchanges, stablecoins surge",
-    "horodatage_utc": "2026-09-09T17:36:02+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-09-bitcoin-miners-are-missing-the-crypto-rally-as-exchanges-stablecoins-surge-413848",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "44a3492b762113dd",
-    "categorie": "crypto",
-    "titre_affiche": "BrandingBuzz . Agency : Bittensor Commons Announces Exploit Summit , A Two - Day Decentralized AI Conference in Montreal , September 28 - 29 , 2026",
-    "horodatage_utc": "2026-09-09T16:45:00+00:00",
-    "source_nom": "GDELT/finanznachrichten.de",
-    "url_source": "https://www.finanznachrichten.de/nachrichten-2026-09/69536611-brandingbuzz-agency-bittensor-commons-announces-exploit-summit-a-two-day-decentralized-ai-conference-in-montreal-september-28-29-2026-296.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "TAO"
     ],
     "nouveaute": true
   }
