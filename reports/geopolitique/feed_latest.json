@@ -1,5 +1,157 @@
 [
   {
+    "id": "6c2c9f567d4960ab",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
+    "horodatage_utc": "2026-09-21T05:12:06+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "309eac264c9ada67",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bessent hails US-China AI dialogue ahead of Trump-Xi meeting",
+    "horodatage_utc": "2026-09-21T04:11:57+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d29d769e-039c-4d11-9152-e63ccd397b32?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b73035bcd52aa03b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why the world’s hottest stock market is a national liability",
+    "horodatage_utc": "2026-09-21T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6f0ceb7d-597d-4c83-ac8b-0fe7c8bd74f9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cbc41b10598f0da2",
+    "categorie": "geopolitique",
+    "titre_affiche": "VW ejected from European blue-chip index in blow to crisis-hit carmaker",
+    "horodatage_utc": "2026-09-21T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/188611f3-2536-4bed-a2c0-bbc074e6f783?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5b8c33fc2219d0f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Fed and BoE step up scrutiny of bank exposure to trading firms after Jane Street loss",
+    "horodatage_utc": "2026-09-21T04:00:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f1d9d398-0666-44cf-96f4-390e6c3f5173?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "14aa8fa45d2f5f7d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Western companies lag China in sodium battery race",
+    "horodatage_utc": "2026-09-21T04:00:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0e4814df-e102-4874-97d6-f2b0ffaeda6a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2098658d31464888",
+    "categorie": "geopolitique",
+    "titre_affiche": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+    "horodatage_utc": "2026-09-21T03:51:31+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "dc9700034bc38a09",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.6 - 25 km SSW of Shikotan, Russia",
+    "horodatage_utc": "2026-09-21T03:06:30+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "94c289ef87620a4f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nik Storonsky’s plan for Revolut: a global bank with ‘effectively zero risk’",
+    "horodatage_utc": "2026-09-21T03:00:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/df52a49a-ab6a-4997-a609-169e830a26fa?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b31205b0663b1552",
+    "categorie": "geopolitique",
+    "titre_affiche": "German chancellor Merz vows to stay on despite ‘disaster’ in regional elections",
+    "horodatage_utc": "2026-09-21T02:08:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
     "id": "ff40b5a8fd1d8ee2",
     "categorie": "geopolitique",
     "titre_affiche": "US and China agree to dialogue on AI ahead of Trump-Xi meeting",
@@ -22,15 +174,15 @@
     "horodatage_utc": "2026-09-21T00:45:26+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Sanctions, accords et diplomatie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d8fb933af6cf65bc",
@@ -93,21 +245,6 @@
     "nouveaute": true
   },
   {
-    "id": "6c2c9f567d4960ab",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
-    "horodatage_utc": "2026-09-20T22:27:47+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "cb3959023d85f3dd",
     "categorie": "geopolitique",
     "titre_affiche": "3 Things You Need to Know Before Buying IonQ Stock",
@@ -166,21 +303,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "b31205b0663b1552",
-    "categorie": "geopolitique",
-    "titre_affiche": "German chancellor Merz vows to stay on despite ‘disaster’ in regional elections",
-    "horodatage_utc": "2026-09-20T21:47:35+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   },
   {
     "id": "5261672e7589d3e0",
@@ -1696,127 +1818,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "a54ae8dc6fd7c872",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cathie Wood sends bullish Bitcoin response to 'dead cat' warning",
-    "horodatage_utc": "2026-09-19T21:13:44+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/cathie-wood-sends-bullish-bitcoin-211344354.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "60f78a406a0d4a7f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fossil fuel emissions set to fall in after oil shock",
-    "horodatage_utc": "2026-09-19T21:03:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/energy/articles/fossil-fuel-emissions-set-fall-210300941.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d506a4997d5f8189",
-    "categorie": "geopolitique",
-    "titre_affiche": "The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Dividend Stock Provides a Middle Ground for Long-Term Investors.",
-    "horodatage_utc": "2026-09-19T20:30:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/p-500-yields-just-1-203000717.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f2fe83d858986233",
-    "categorie": "geopolitique",
-    "titre_affiche": "Interactive Brokers (IBKR) Turns Every Revenue Dollar Into 77 Cents of Pretax Profit",
-    "horodatage_utc": "2026-09-19T20:09:32+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/interactive-brokers-ibkr-turns-every-200932877.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3752992926042f64",
-    "categorie": "geopolitique",
-    "titre_affiche": "Equinix Sees AI Driving Data Center Demand, Interconnection Growth",
-    "horodatage_utc": "2026-09-19T20:02:14+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/equinix-sees-ai-driving-data-200214555.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "db58d200b216768c",
-    "categorie": "geopolitique",
-    "titre_affiche": "eGain (EGAN): B. Riley and Roth Capital Both Cut Targets as AI Growth Struggles to Offset Legacy Declines",
-    "horodatage_utc": "2026-09-19T19:49:36+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/egain-egan-b-riley-roth-194936520.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8e6dd80c659bdf76",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump announces ‘AI Force’ as alarm grows over technology’s advance",
-    "horodatage_utc": "2026-09-19T19:49:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "c6acd649406c9e76",
-    "categorie": "geopolitique",
-    "titre_affiche": "Infosys (INFY) Lands a Brake Maker as Growth Stays in Low Gear",
-    "horodatage_utc": "2026-09-19T19:47:47+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/infosys-infy-lands-brake-maker-194747627.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]

@@ -1,5 +1,35 @@
 [
   {
+    "id": "9f30cbc5893d2456",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
+    "horodatage_utc": "2026-09-21T04:03:43+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/21/bitcoin-rises-above-usd81-000-while-near-jumps-23-on-zcash-swap-traffic",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "168faed09846e0bc",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin’s price has cleared a key hurdle that has historically preceded major bull runs",
+    "horodatage_utc": "2026-09-21T03:56:23+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/21/bitcoin-s-price-has-cleared-a-key-hurdle-that-has-historically-preceded-major-bull-runs",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "13a440455f10d295",
     "categorie": "crypto",
     "titre_affiche": "ZetaChain votes to shut down Layer 1 network and move ZETA to Solana",
@@ -1772,35 +1802,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "TAO"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "20e170a621f97eeb",
-    "categorie": "crypto",
-    "titre_affiche": "Tether pushes into private credit with $400 million fund with Fasanara",
-    "horodatage_utc": "2026-09-09T15:51:25+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "58d530fc80bd5e55",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
-    "horodatage_utc": "2026-09-09T15:30:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
     ],
     "nouveaute": true
   }
