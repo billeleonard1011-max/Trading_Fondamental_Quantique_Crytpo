@@ -1,5 +1,127 @@
 [
   {
+    "id": "61eea77cd1a68ab4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
+    "horodatage_utc": "2026-09-21T22:25:33+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Iran - États-Unis, Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4be5be816dd752bb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump presses Zelenskyy to stop hitting Russian refineries",
+    "horodatage_utc": "2026-09-21T22:12:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/adb80fa3-b54a-4b3d-8ed2-0ebe55a5e05e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "17fc689fc4d6dddd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Texas Gov. Abbott orders data center permit halt weeks after issuing moratorium",
+    "horodatage_utc": "2026-09-21T22:08:45+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/21/texas-governor-abbott-ai-data-center-permits.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "388009a6a756ef82",
+    "categorie": "geopolitique",
+    "titre_affiche": "Burnham to call for global effort to control threats posed by AI",
+    "horodatage_utc": "2026-09-21T21:30:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/697c5196-3aa4-4c59-bad9-a455bcc1858f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "2b010f0dd06a469c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gulf states urge reset with Iran as conflict drags on",
+    "horodatage_utc": "2026-09-21T21:15:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2a0d724d-b2be-4539-a4ab-30ba919cd253?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "73e31c0247e377d7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meta leads tech rally as oil prices fall",
+    "horodatage_utc": "2026-09-21T20:43:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/18f9e0ac-b7d9-4648-803f-3e894990c626?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f8c56497cecea48c",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Stop the bleeding’: Republicans tell Trump to ban US diesel exports",
+    "horodatage_utc": "2026-09-21T20:29:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/319c7b67-b585-407e-a0da-6e23b1612180?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c6ea3694ed882cb0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Kremlin-backed forgery scheme moved $6.9bn through global banks",
+    "horodatage_utc": "2026-09-21T20:00:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3848a4ad-1426-4352-ba86-ef1279c4ffd1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ebd3845e0aa8c4ed",
     "categorie": "geopolitique",
     "titre_affiche": "Top Republicans tell Trump to ban US diesel exports ahead of midterms",
@@ -21,13 +143,13 @@
     "horodatage_utc": "2026-09-21T17:38:59+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/21/bitcoin-price-crypto-rally.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3749ee7a352d882f",
@@ -36,14 +158,14 @@
     "horodatage_utc": "2026-09-21T16:55:41+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/21/historic-lawsuit-sparks-flurry-of-option-activity-in-ny-times-stock.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "225514d0992ce2a4",
@@ -98,13 +220,13 @@
     "horodatage_utc": "2026-09-21T14:37:00+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-says-buy-tumbling-143700198.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d46bb201278cd934",
@@ -113,13 +235,13 @@
     "horodatage_utc": "2026-09-21T14:34:44+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-21-2026-crypto-prices-hit-highest-levels-in-8-months-143444230.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8592c18a0ffc19cc",
@@ -128,14 +250,14 @@
     "horodatage_utc": "2026-09-21T13:54:58+00:00",
     "source_nom": "Yahoo Finance",
     "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-september-21-2026-silver-prices-rising-ahead-of-us-china-summit-135458890.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Or et métaux précieux",
       "Sanctions, accords et diplomatie"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0ef8b94520adaeb3",
@@ -165,7 +287,7 @@
       "Moyen-Orient (région)"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5c28fb530567ba75",
@@ -441,21 +563,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "4be5be816dd752bb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump presses Zelenskyy to stop hitting Russian refineries",
-    "horodatage_utc": "2026-09-21T10:20:49+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/adb80fa3-b54a-4b3d-8ed2-0ebe55a5e05e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "e2a6a657245a29f5",
@@ -1712,114 +1819,6 @@
       "Iran - États-Unis",
       "Russie - Ukraine",
       "Sanctions"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8566f49e38b9a137",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Signs Russia - Iran Sanctions Bill , Putting New Pressure Tools At His Disposal",
-    "horodatage_utc": "2026-09-20T15:30:00+00:00",
-    "source_nom": "GDELT/globalsecurity.org",
-    "url_source": "https://www.globalsecurity.org/wmd/library/news/russia/2026/09/russia-260919-rferl02.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "217afdcf2bfd831d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Signs Law on Sanctions Against Russia",
-    "horodatage_utc": "2026-09-20T15:30:00+00:00",
-    "source_nom": "GDELT/globalsecurity.org",
-    "url_source": "https://www.globalsecurity.org/wmd/library/news/russia/2026/09/russia-260919-sputnik01.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "31b037c0d3706122",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chevron (CVX) Supercharges its Venezuela Bet with More Oil Rigs",
-    "horodatage_utc": "2026-09-20T15:18:37+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/energy/articles/chevron-cvx-supercharges-venezuela-bet-151837921.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3deb402758a88071",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dollar General CEO raises major red flag about consumers",
-    "horodatage_utc": "2026-09-20T15:17:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/economy/articles/dollar-general-ceo-raises-major-151700186.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e850417234e17b08",
-    "categorie": "geopolitique",
-    "titre_affiche": "Marathon Petroleum (MPC) Could Smash its All-Time High, UBS Says",
-    "horodatage_utc": "2026-09-20T15:06:34+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/marathon-petroleum-mpc-could-smash-150634017.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9063d9d190818e65",
-    "categorie": "geopolitique",
-    "titre_affiche": "Wall Street expects US to issue about $1tn of short-term debt as borrowing costs climb",
-    "horodatage_utc": "2026-09-20T15:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3fcee89f-b69d-4f4b-a944-39fe1c214fb8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "86ee2c88d36b90a6",
-    "categorie": "geopolitique",
-    "titre_affiche": "What are Iran latest conditions to end its war with the US ? | US - Israel war on Iran News",
-    "horodatage_utc": "2026-09-20T14:30:00+00:00",
-    "source_nom": "GDELT/aljazeera.com",
-    "url_source": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
