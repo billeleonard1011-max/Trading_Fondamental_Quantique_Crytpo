@@ -1,5 +1,38 @@
 [
   {
+    "id": "ff40b5a8fd1d8ee2",
+    "categorie": "geopolitique",
+    "titre_affiche": "US and China agree to dialogue on AI ahead of Trump-Xi meeting",
+    "horodatage_utc": "2026-09-21T01:11:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d29d769e-039c-4d11-9152-e63ccd397b32?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b7789f66a7e7a904",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bessent calls meeting with China Vice Premier He Lifeng 'successful' ahead of Trump-Xi summit",
+    "horodatage_utc": "2026-09-21T00:45:26+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "d8fb933af6cf65bc",
     "categorie": "geopolitique",
     "titre_affiche": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
@@ -1782,36 +1815,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2b38aa3ef7cea98a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jim Cramer Notes Oil Is Behind Pressure on Casey’s (CASY) and Texas Roadhouse (TXRH)",
-    "horodatage_utc": "2026-09-19T19:35:09+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-notes-oil-behind-193509467.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e5e8dda7792043cf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nasdaq (NDAQ) Just Made It Harder For Crypto Criminals To Hide",
-    "horodatage_utc": "2026-09-19T18:51:16+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/nasdaq-ndaq-just-made-harder-185116666.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": false
