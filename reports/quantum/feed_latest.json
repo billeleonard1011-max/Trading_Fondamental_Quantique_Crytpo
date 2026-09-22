@@ -1,5 +1,20 @@
 [
   {
+    "id": "492a10d14b9f3a3f",
+    "categorie": "quantique",
+    "titre_affiche": "Microsoft Gives DARPA Access to Majorana System, Opens Maryland Quantum Research Center",
+    "horodatage_utc": "2026-09-22T20:16:59+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/22/microsoft-gives-darpa-access-to-majorana-system-opens-maryland-quantum-research-center/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Microsoft. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Microsoft"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "8868e507b00bd5ac",
     "categorie": "quantique",
     "titre_affiche": "QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC",

@@ -1,17 +1,94 @@
 [
   {
+    "id": "f73662ec976aa3af",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
+    "horodatage_utc": "2026-09-22T22:03:33+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "2b1c82c5e2e92bd5",
+    "categorie": "geopolitique",
+    "titre_affiche": "US and Iran hold first talks since June as Trump threatens ‘annihilation’",
+    "horodatage_utc": "2026-09-22T21:26:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c4ca4c37c0045a35",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says he would back US diesel export ban",
+    "horodatage_utc": "2026-09-22T21:23:42+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/22d1154b-8bea-4f8d-bfc4-5db7761d3612?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "0a5b40e1ec8acc4f",
     "categorie": "geopolitique",
     "titre_affiche": "Qualcomm releases Android chip built for AI as memory shortage weighs on smartphone market",
-    "horodatage_utc": "2026-09-22T20:30:17+00:00",
+    "horodatage_utc": "2026-09-22T21:09:17+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/22/qualcomm-releases-android-chip-built-for-ai-amid-memory-shortage.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "3241a5140c5f601a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns",
+    "horodatage_utc": "2026-09-22T20:49:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "7e0ee99fbc13de4f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic and OpenAI release cheaper models as price war intensifies",
+    "horodatage_utc": "2026-09-22T20:31:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0e50a3c6-9731-4b29-a21e-4e0ff89a595e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -21,26 +98,26 @@
     "horodatage_utc": "2026-09-22T20:30:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
-    "id": "c4ca4c37c0045a35",
+    "id": "5e3b9cc746748ddb",
     "categorie": "geopolitique",
-    "titre_affiche": "Trump says he would back US diesel export ban",
-    "horodatage_utc": "2026-09-22T20:12:01+00:00",
+    "titre_affiche": "Nasdaq 100 rises to new high as ‘AI Fomo’ returns",
+    "horodatage_utc": "2026-09-22T20:28:13+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/22d1154b-8bea-4f8d-bfc4-5db7761d3612?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/2c60812b-77b4-4de5-a276-5e3eb2ceb5c3?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Russie - Ukraine",
-      "Moyen-Orient (région)"
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -67,25 +144,25 @@
     "horodatage_utc": "2026-09-22T20:00:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/152aa77b-977f-4607-8a09-77291f85d2a0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
-    "id": "f73662ec976aa3af",
+    "id": "b2f8673b21870469",
     "categorie": "geopolitique",
-    "titre_affiche": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
-    "horodatage_utc": "2026-09-22T19:30:03+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
+    "titre_affiche": "Top UK graft prosecutors joined Trump’s Venezuela oil baron during Swiss probe",
+    "horodatage_utc": "2026-09-22T20:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f2f37449-f9c7-4556-9f97-4cca735980e4?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Actions et technologie",
+      "Pétrole et énergie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
@@ -102,21 +179,6 @@
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3241a5140c5f601a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns",
-    "horodatage_utc": "2026-09-22T19:21:11+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1759,67 +1821,6 @@
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "cb7dc4c14fab2354",
-    "categorie": "geopolitique",
-    "titre_affiche": "Battered government bonds rebound as oil falls below $100",
-    "horodatage_utc": "2026-09-21T14:48:29+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/18f9e0ac-b7d9-4648-803f-3e894990c626?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "39654737ac4bb547",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bank of America says buy tumbling shares of aviation giant",
-    "horodatage_utc": "2026-09-21T14:37:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-says-buy-tumbling-143700198.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d46bb201278cd934",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bitcoin and ethereum prices today, Monday, September 21, 2026: Crypto prices hit highest levels in 8 months",
-    "horodatage_utc": "2026-09-21T14:34:44+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-21-2026-crypto-prices-hit-highest-levels-in-8-months-143444230.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "8592c18a0ffc19cc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Silver prices today, Monday, September 21, 2026: Silver prices rising ahead of U.S.-China summit",
-    "horodatage_utc": "2026-09-21T13:54:58+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-september-21-2026-silver-prices-rising-ahead-of-us-china-summit-135458890.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "actif_direct",
     "nouveaute": false
   }
 ]
