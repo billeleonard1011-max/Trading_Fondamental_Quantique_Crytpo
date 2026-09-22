@@ -1,5 +1,140 @@
 [
   {
+    "id": "4fd83a7ee2fbc203",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.9 - Volcano Islands, Japan region",
+    "horodatage_utc": "2026-09-22T06:30:53+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj3s",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "97b5bf1a2aa53b15",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.0 - Volcano Islands, Japan region",
+    "horodatage_utc": "2026-09-22T05:38:04+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj3k",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8f7e68e8a9e81b48",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+    "horodatage_utc": "2026-09-22T05:15:21+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "eb6baf299f8d0f54",
+    "categorie": "geopolitique",
+    "titre_affiche": "What Xi wants from his summit with Trump",
+    "horodatage_utc": "2026-09-22T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9bea08f4-c9e8-450a-9d0f-0af0bf47b64e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "767267a8734e11f6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Merz’s woes cast doubt over EU’s €2tn budget deal",
+    "horodatage_utc": "2026-09-22T04:00:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3c494ae7-67b3-4ca1-a9e2-f3a8356bc0a4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "c453c049f260857f",
+    "categorie": "geopolitique",
+    "titre_affiche": "How the cost of Japan’s money shapes the world",
+    "horodatage_utc": "2026-09-22T04:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f11485ba-39fb-422c-b0ff-5e71e1fe4f44?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cbf8056285332af1",
+    "categorie": "geopolitique",
+    "titre_affiche": "World’s biggest derivatives exchange finally set for $46bn market debut",
+    "horodatage_utc": "2026-09-22T03:21:37+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/23da023b-8be8-433d-9b11-49bc825076c9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "0193e08e8a064bab",
+    "categorie": "geopolitique",
+    "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
+    "horodatage_utc": "2026-09-22T02:41:10+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "58c07883cef24cb4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla makes a move on Southeast Asia's largest EV market. A homegrown giant awaits",
+    "horodatage_utc": "2026-09-22T02:22:23+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/tesla-vinfast-ev-vietnam.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "947cf4580141f3d5",
     "categorie": "geopolitique",
     "titre_affiche": "Trump and Mamdani strike friendly tone in New York City housing talks",
@@ -135,6 +270,22 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "8cca9063955c924d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global diesel shortage from Iran, Ukraine wars to last into 2027",
+    "horodatage_utc": "2026-09-21T18:17:21+00:00",
+    "source_nom": "Yahoo Finance",
+    "url_source": "https://finance.yahoo.com/energy/articles/global-diesel-shortage-iran-ukraine-181721706.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "ebd3845e0aa8c4ed",
@@ -1666,159 +1817,6 @@
       "Or et métaux précieux"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "9a4773a5302d6697",
-    "categorie": "geopolitique",
-    "titre_affiche": "Is This Cryptocurrency Still a Millionaire Maker?",
-    "horodatage_utc": "2026-09-20T17:05:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/cryptocurrency-still-millionaire-maker-170500826.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "8da3b704eb7f5e4f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dow Jones Futures Due: Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-    "horodatage_utc": "2026-09-20T17:04:35+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "348b1ce1f7d82396",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bessent meets China Vice Premier He Lifeng ahead of Trump-Xi summit",
-    "horodatage_utc": "2026-09-20T16:56:14+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "1866c62a6f0e288d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chevron CEO sends a strong message on oil price and the economy",
-    "horodatage_utc": "2026-09-20T16:47:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/energy/articles/chevron-ceo-sends-strong-message-164700338.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "26b574f426ce152a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Musk Says NVIDIA (NVDA) AI Chips Are Headed to Space With SpaceX (SPCX) Next Year",
-    "horodatage_utc": "2026-09-20T16:20:08+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/technology/ai/articles/musk-says-nvidia-nvda-ai-162008359.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "63b11bfc922b0d8b",
-    "categorie": "geopolitique",
-    "titre_affiche": "How The G - to - G Petroleum Framework Eased US Dollar Scarcity And Stabilized Kenya Economy",
-    "horodatage_utc": "2026-09-20T16:00:00+00:00",
-    "source_nom": "GDELT/ghafla.co.ke",
-    "url_source": "https://www.ghafla.co.ke/how-the-g-to-g-petroleum-framework-eased-us-dollar-scarcity-and-stabilized-kenyas-economy/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "970cc5521576b729",
-    "categorie": "geopolitique",
-    "titre_affiche": "Morgan Stanley Sees Marathon Petroleum (MPC) Breaking into New Highs",
-    "horodatage_utc": "2026-09-20T15:47:26+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sees-marathon-petroleum-154726182.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3526d7ff18a2a426",
-    "categorie": "geopolitique",
-    "titre_affiche": "Einschlag an Putins letztem Wahltag : Ukraine überzieht Moskau mit massiven Luftangriffen und trifft große Raffinerie",
-    "horodatage_utc": "2026-09-20T15:45:00+00:00",
-    "source_nom": "GDELT/tagesspiegel.de",
-    "url_source": "https://www.tagesspiegel.de/internationales/einschlag-an-putins-letztem-wahltag-ukraine-uberzieht-moskau-mit-massiven-luftangriffen-und-trifft-grosse-raffinerie-16076280.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2a7b24f8261aa0d9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says 250ft arch will be ‘military complex’ with drones and snipers",
-    "horodatage_utc": "2026-09-20T15:43:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/33b317b4-cd7b-486a-8707-4d65db837c6d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "ccb3c9037659972c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ką Rusijai reiškia „ pragariškos sankcijos : D . Trumpas gali pasukti ir kitu keliu",
-    "horodatage_utc": "2026-09-20T15:30:00+00:00",
-    "source_nom": "GDELT/lrytas.lt",
-    "url_source": "https://www.lrytas.lt/pasaulis/konfliktai-ir-saugumas/2026/09/20/news/ka-rusijai-reiskia-pragariskos-sankcijos-d-trumpas-gali-pasukti-ir-kitu-keliu-44075764/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]

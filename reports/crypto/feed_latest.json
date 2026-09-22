@@ -1,5 +1,81 @@
 [
   {
+    "id": "2dcea73ac1cef66b",
+    "categorie": "crypto",
+    "titre_affiche": "Whitehats move 52 bitcoin from the Coldcard hack to a recovery trust",
+    "horodatage_utc": "2026-09-22T06:27:28+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/22/whitehats-move-52-bitcoin-from-the-coldcard-hack-to-a-recovery-trust",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6d9a495646ac8b3e",
+    "categorie": "crypto",
+    "titre_affiche": "Onchain prediction market Trueo migrates to Ethereum; Vitalik Buterin welcomes ‘ethical’ market contender",
+    "horodatage_utc": "2026-09-22T06:01:24+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/defi/2026-09-22-trueo-ethereum-migration-415999",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e7e062830ddb937a",
+    "categorie": "crypto",
+    "titre_affiche": "Elon Musk's X brings bitcoin and stock trading closer to the timeline",
+    "horodatage_utc": "2026-09-22T05:26:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/22/elon-musk-s-x-brings-bitcoin-and-stock-trading-closer-to-the-timeline",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3468a052d2953372",
+    "categorie": "crypto",
+    "titre_affiche": "Dogecoin leads market rebound with 15% pump, bitcoin steady above $85,000",
+    "horodatage_utc": "2026-09-22T04:33:11+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/22/dogecoin-leads-market-rebound-with-15-pump-bitcoin-steady-above-usd85-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, DOGE. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "DOGE"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3b51a3b318aeb6fb",
+    "categorie": "crypto",
+    "titre_affiche": "Cardano joins Solana, XRP Ledger in race to power AI agent payments",
+    "horodatage_utc": "2026-09-22T04:15:45+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/21/cardano-joins-solana-xrp-ledger-in-race-to-power-ai-agent-payments",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b6c153bcbd22fbbf",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin could test $90,000 after shorts get squeezed, but traders warn leverage is building",
@@ -1739,80 +1815,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "830e3ee62d094761",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin pulls back as another golden cross fails to deliver",
-    "horodatage_utc": "2026-09-11T10:13:44+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/11/bitcoin-pulls-back-as-another-golden-cross-fails-to-deliver",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f5762e09c0ca3205",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
-    "horodatage_utc": "2026-09-11T04:46:15+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "85a77c1ac244ce48",
-    "categorie": "crypto",
-    "titre_affiche": "Bitwise shuts down Dogecoin ETF less than a year after launch",
-    "horodatage_utc": "2026-09-10T20:28:46+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-10-bitwise-shuts-down-dogecoin-etf-less-than-a-year-after-launch-414184",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : DOGE. Le cours de DOGE varie de 0.97126 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "DOGE"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "0ff0b05609fee442",
-    "categorie": "crypto",
-    "titre_affiche": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
-    "horodatage_utc": "2026-09-10T13:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/10/crypto-researchers-cut-bitcoin-and-ethereum-quantum-attack-estimate-by-50",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "39674e48a1d7a5a8",
-    "categorie": "crypto",
-    "titre_affiche": "Researchers halve quantum resource benchmark for key operation in Bitcoin, Ethereum attack",
-    "horodatage_utc": "2026-09-10T13:00:00+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-09-10-researchers-halve-quantum-resource-benchmark-for-key-operation-in-bitcoin-ethereum-attack-414121",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC, ETH. Le cours de BTC varie de -0.46872 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "nouveaute": true
   }
 ]
