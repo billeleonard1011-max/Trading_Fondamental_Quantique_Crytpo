@@ -1,5 +1,187 @@
 [
   {
+    "id": "0a5b40e1ec8acc4f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Qualcomm releases Android chip built for AI as memory shortage weighs on smartphone market",
+    "horodatage_utc": "2026-09-22T20:30:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/qualcomm-releases-android-chip-built-for-ai-amid-memory-shortage.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c51db52de700cb70",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board announces approval of application by BancFirst Corporation",
+    "horodatage_utc": "2026-09-22T20:30:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c4ca4c37c0045a35",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says he would back US diesel export ban",
+    "horodatage_utc": "2026-09-22T20:12:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/22d1154b-8bea-4f8d-bfc4-5db7761d3612?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0193e08e8a064bab",
+    "categorie": "geopolitique",
+    "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
+    "horodatage_utc": "2026-09-22T20:07:24+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "a55f6ea2fbdab22e",
+    "categorie": "geopolitique",
+    "titre_affiche": "US government and Gulf billionaires back Todd Boehly bid for Lukoil assets",
+    "horodatage_utc": "2026-09-22T20:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/152aa77b-977f-4607-8a09-77291f85d2a0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f73662ec976aa3af",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
+    "horodatage_utc": "2026-09-22T19:30:03+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a0fa9d5cbf95b15d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Macron calls on Russia and Ukraine to halt strikes on energy infrastructure",
+    "horodatage_utc": "2026-09-22T19:27:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/16d676c9-94c4-4df1-8fa6-56966b2c9aa7",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3241a5140c5f601a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns",
+    "horodatage_utc": "2026-09-22T19:21:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8127ef72bf29af85",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump threatens to ‘annihilate’ Iran in UN speech as officials hold bilateral meeting",
+    "horodatage_utc": "2026-09-22T18:19:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ec8f33432e94ce4e",
+    "categorie": "geopolitique",
+    "titre_affiche": "US proposes $10bn fund with Arab allies to bypass Hormuz",
+    "horodatage_utc": "2026-09-22T17:32:53+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/99ba134a-6252-45f3-b312-07b8752a5a98?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e7fa3f3cde8c7422",
+    "categorie": "geopolitique",
+    "titre_affiche": "Altman and Amodei expected to join UN Security Council meeting about AI",
+    "horodatage_utc": "2026-09-22T17:30:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "fd215c33e96ae540",
+    "categorie": "geopolitique",
+    "titre_affiche": "Circle lands $100 million from Binance to ramp up global USDC expansion",
+    "horodatage_utc": "2026-09-22T17:25:39+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/22/circle-lands-100-million-from-binance-to-ramp-up-global-usdc-expansion-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "4a2717f73f66061c",
     "categorie": "geopolitique",
     "titre_affiche": "Trump threatens to ‘annihilate’ Iran in combative UN speech",
@@ -133,7 +315,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cb0830d5c99e9f32",
@@ -211,21 +393,6 @@
     "nouveaute": true
   },
   {
-    "id": "0193e08e8a064bab",
-    "categorie": "geopolitique",
-    "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
-    "horodatage_utc": "2026-09-22T16:13:06+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
     "id": "622d91b055116627",
     "categorie": "geopolitique",
     "titre_affiche": "Saudi Pipeline Restart Fails to End Oil Market Tightness",
@@ -271,36 +438,6 @@
     "nouveaute": true
   },
   {
-    "id": "e7fa3f3cde8c7422",
-    "categorie": "geopolitique",
-    "titre_affiche": "Altman and Amodei expected to join UN Security Council meeting about AI",
-    "horodatage_utc": "2026-09-22T15:57:54+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "fd215c33e96ae540",
-    "categorie": "geopolitique",
-    "titre_affiche": "Circle lands $100 million from Binance to ramp up global USDC expansion",
-    "horodatage_utc": "2026-09-22T15:48:46+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/22/circle-lands-100-million-from-binance-to-ramp-up-global-usdc-expansion-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
     "id": "41a812324463b787",
     "categorie": "geopolitique",
     "titre_affiche": "EU to lift sanctions on two Russian oligarchs",
@@ -328,7 +465,7 @@
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d56946147b610e24",
@@ -343,7 +480,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7c5ee272427ba4a0",
@@ -358,7 +495,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f1820a120b1a261c",
@@ -1684,140 +1821,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "0ef8b94520adaeb3",
-    "categorie": "geopolitique",
-    "titre_affiche": "US news outlets to sue Trump administration over White House ban",
-    "horodatage_utc": "2026-09-21T13:45:50+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/63140a82-8af6-4af8-90bd-0325c5724e74?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "8a4ef551097a2250",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold prices today, Monday, September 21, 2026: Gold prices slip on Middle East tensions",
-    "horodatage_utc": "2026-09-21T13:35:31+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-september-21-2026-gold-prices-slip-on-middle-east-tensions-133531697.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "5c28fb530567ba75",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tech stocks haven't been this cheap since OpenAI launched ChatGPT",
-    "horodatage_utc": "2026-09-21T13:28:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/article/tech-stocks-havent-been-this-cheap-since-openai-launched-chatgpt-132800172.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bfddb55d281759d1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kuehne+Nagel signs long-term logistics deal with Amazon, AWS",
-    "horodatage_utc": "2026-09-21T13:15:53+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/kuehne-nagel-signs-long-term-131553578.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "809a94ef43f79c5f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Azure, AI Capex, and What to Expect Out of Microsoft Through The End of 2026",
-    "horodatage_utc": "2026-09-21T13:10:51+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/azure-ai-capex-expect-microsoft-131051881.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a948624863a880d1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oracle’s Co-CEOs Deliver Explosive Growth, but Stock Plunges 50% in Their First Year",
-    "horodatage_utc": "2026-09-21T13:05:35+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/oracle-co-ceos-deliver-explosive-130535126.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4847a6057e2e3dd6",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI, data center alarms dominate Congressional Black Caucus week in Washington",
-    "horodatage_utc": "2026-09-21T13:03:06+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/20/ai-data-center-alarms-dominate-cbc-week-in-washington.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "56741686919e0892",
-    "categorie": "geopolitique",
-    "titre_affiche": "The resilient stock market is flashing warning signs",
-    "horodatage_utc": "2026-09-21T13:02:13+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/article/the-resilient-stock-market-is-flashing-warning-signs-130213993.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "029bf814f3c09f5a",
-    "categorie": "geopolitique",
-    "titre_affiche": "UBS lifts palladium forecasts as supply squeeze bites",
-    "horodatage_utc": "2026-09-21T13:02:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/commodities/articles/ubs-lifts-palladium-forecasts-supply-130200667.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Or et métaux précieux. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
