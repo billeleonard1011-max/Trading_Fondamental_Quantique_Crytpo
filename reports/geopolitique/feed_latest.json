@@ -1,19 +1,65 @@
 [
   {
+    "id": "947cf4580141f3d5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump and Mamdani strike friendly tone in New York City housing talks",
+    "horodatage_utc": "2026-09-21T23:45:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/68d4f774-fbcb-48b3-9cd2-00b281d1beb6",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "f8c56497cecea48c",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Stop the bleeding’: Republicans tell Trump to ban US diesel exports",
+    "horodatage_utc": "2026-09-21T23:28:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/319c7b67-b585-407e-a0da-6e23b1612180?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "17fc689fc4d6dddd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Texas Gov. Abbott orders data center permit halt weeks after issuing moratorium",
+    "horodatage_utc": "2026-09-21T22:46:26+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/21/texas-governor-abbott-ai-data-center-permits.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "61eea77cd1a68ab4",
     "categorie": "geopolitique",
     "titre_affiche": "Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
     "horodatage_utc": "2026-09-21T22:25:33+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Iran - États-Unis, Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4be5be816dd752bb",
@@ -29,22 +75,6 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "17fc689fc4d6dddd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Texas Gov. Abbott orders data center permit halt weeks after issuing moratorium",
-    "horodatage_utc": "2026-09-21T22:08:45+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/21/texas-governor-abbott-ai-data-center-permits.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   },
   {
     "id": "388009a6a756ef82",
@@ -68,13 +98,13 @@
     "horodatage_utc": "2026-09-21T21:15:10+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/2a0d724d-b2be-4539-a4ab-30ba919cd253?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "73e31c0247e377d7",
@@ -83,28 +113,13 @@
     "horodatage_utc": "2026-09-21T20:43:41+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/18f9e0ac-b7d9-4648-803f-3e894990c626?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f8c56497cecea48c",
-    "categorie": "geopolitique",
-    "titre_affiche": "‘Stop the bleeding’: Republicans tell Trump to ban US diesel exports",
-    "horodatage_utc": "2026-09-21T20:29:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/319c7b67-b585-407e-a0da-6e23b1612180?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c6ea3694ed882cb0",
@@ -113,13 +128,13 @@
     "horodatage_utc": "2026-09-21T20:00:08+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3848a4ad-1426-4352-ba86-ef1279c4ffd1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ebd3845e0aa8c4ed",
@@ -1804,23 +1819,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f8ce1a7036c8f6dc",
-    "categorie": "geopolitique",
-    "titre_affiche": "China opposes US secondary sanctions under new Russia - Iran law , reserves right to take necessary measures to safeguard development interests",
-    "horodatage_utc": "2026-09-20T15:30:00+00:00",
-    "source_nom": "GDELT/globalsecurity.org",
-    "url_source": "https://www.globalsecurity.org/wmd/library/news/china/2026/09/china-260919-globaltimes01.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine",
-      "Sanctions"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
