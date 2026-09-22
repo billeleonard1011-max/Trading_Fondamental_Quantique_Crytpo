@@ -1,13 +1,88 @@
 [
   {
+    "id": "f07205960963189d",
+    "categorie": "quantique",
+    "titre_affiche": "Microsoft Quantum, QOLAB Propose Higher Bar For ‘Scalable’ Logical Qubits",
+    "horodatage_utc": "2026-09-22T11:48:45+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Microsoft. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Microsoft"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f81e4b72785bd745",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Just Raised 2026 Revenue Guidance . This Quantum Computing Pure - Play Looks Like a Brilliant Buy Now .",
+    "horodatage_utc": "2026-09-22T07:45:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/09/22/ionq-just-raised-2026-revenue-guidance-this-quantu/?source=iedfolrf0000001",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "bb7235ff58bf20f0",
     "categorie": "quantique",
     "titre_affiche": "IonQ and SDT Partner on Quantum Computing and Manufacturing in South Korea",
     "horodatage_utc": "2026-09-22T05:50:25+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/09/22/ionq-sdt-quantum-computing-networking-south-korea/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "efdf60ecac536e10",
+    "categorie": "quantique",
+    "titre_affiche": "D - Wave Quantum ( NASDAQ : QBTS ) Names BNP Paribas Technology Veteran Bernard Gavgani To Board And Cybersecurity Committee",
+    "horodatage_utc": "2026-09-22T02:15:00+00:00",
+    "source_nom": "GDELT/foreignpolicyjournal.com",
+    "url_source": "https://www.foreignpolicyjournal.com/2026/09/21/d-wave-quantum-nasdaq-qbts-names-bnp-paribas-technology-veteran-bernard-gavgani-to-board-and-cybersecurity-committee/",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d91c4ad4b54b5859",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ and SDT Announce the First Strategic Partnership to Bring Both Advanced Quantum Computing and Quantum Networking to the Asia - Pacific Region",
+    "horodatage_utc": "2026-09-21T23:00:00+00:00",
+    "source_nom": "GDELT/wallstreet-online.de",
+    "url_source": "https://www.wallstreet-online.de/nachricht/21412251-ionq-and-sdt-announce-the-first-strategic-partnership-to-bring-both-advanced-quantum-computing-and-quantum-networking-to-the-asia-pacific-region",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/wallstreet-online.de. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8a7487003427298f",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ ( NYSE : IONQ ) Stock Price Up 3 . 3 % – Here What Happened",
+    "horodatage_utc": "2026-09-21T22:15:00+00:00",
+    "source_nom": "GDELT/dailypolitical.com",
+    "url_source": "https://www.dailypolitical.com/2026/09/21/ionq-nyseionq-stock-price-up-3-3-heres-what-happened.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailypolitical.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
       "IONQ"
     ],

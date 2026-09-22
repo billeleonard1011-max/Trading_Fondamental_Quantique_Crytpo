@@ -1,11 +1,11 @@
 [
   {
-    "id": "2dcea73ac1cef66b",
+    "id": "8061131170bb48dc",
     "categorie": "crypto",
-    "titre_affiche": "Whitehats move 52 bitcoin from the Coldcard hack to a recovery trust",
-    "horodatage_utc": "2026-09-22T06:27:28+00:00",
+    "titre_affiche": "A $3.2 million 'bitcoin butterfly' option trade bets on $95,000 by the end of October",
+    "horodatage_utc": "2026-09-22T11:35:43+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/22/whitehats-move-52-bitcoin-from-the-coldcard-hack-to-a-recovery-trust",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/09/22/a-usd3-2-million-bitcoin-butterfly-option-trade-bets-on-usd95-000-by-the-end-of-october",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,16 +15,257 @@
     "nouveaute": true
   },
   {
+    "id": "d68f66931bb33056",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin arriti nivelin më të lartë në 8 muaj , kalon 85 mijë dollarë",
+    "horodatage_utc": "2026-09-22T11:00:00+00:00",
+    "source_nom": "GDELT/portalb.mk",
+    "url_source": "https://portalb.mk/bitcoin-arriti-nivelin-me-te-larte-ne-8-muaj-kalon-85-mije-dollare/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/portalb.mk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9abe2fd8a848c8df",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin arrin nivelin më të lartë në 8 muaj , k - Syri",
+    "horodatage_utc": "2026-09-22T11:00:00+00:00",
+    "source_nom": "GDELT/syri.net",
+    "url_source": "https://www.syri.net/ekonomi/918358/bitcoin-arrin-nivelin-me-te-larte-ne-8-muaj-kalon-85-mije-dollare/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/syri.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "440ad576933fa694",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin prek 85 , 000 dollarë , niveli më i lartë që nga janari - Business Magazine Albania",
+    "horodatage_utc": "2026-09-22T11:00:00+00:00",
+    "source_nom": "GDELT/businessmag.al",
+    "url_source": "https://businessmag.al/bitcoin-prek-85000-dollare-niveli-me-i-larte-qe-nga-janari/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/businessmag.al. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "cc24d8dbb3356d9b",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin & Co . aktuell : Wie sich Kryptowährungen am Mittag entwickeln",
+    "horodatage_utc": "2026-09-22T11:00:00+00:00",
+    "source_nom": "GDELT/finanzen.net",
+    "url_source": "https://www.finanzen.net/nachricht/devisen/aktueller-marktbericht-zu-bitcoin-co-15946307",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "81b17ea6ef772e90",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin arrin nivelin më të lartë në 8 muaj , kalon 85 mijë dollarë",
+    "horodatage_utc": "2026-09-22T11:00:00+00:00",
+    "source_nom": "GDELT/voxnews.al",
+    "url_source": "https://www.voxnews.al/kosovabota/bitcoin-arrin-nivelin-me-te-larte-ne-8-muaj-kalon-85-mije-dollare-i124808",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/voxnews.al. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "43a67f1a5a53073c",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin , yatırımcıların risk iştahıyla 86 bin doları aştı",
+    "horodatage_utc": "2026-09-22T11:00:00+00:00",
+    "source_nom": "GDELT/ensonhaber.com",
+    "url_source": "https://www.ensonhaber.com/fedden-yuksek-faiz-beklentisi-bitcoinin-hizini-artirdi-h1567653",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/ensonhaber.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "10836f148629d441",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
+    "horodatage_utc": "2026-09-22T10:59:03+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "97f235c4644b3933",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Oil falls as Iran signals possible Hormuz reopening, bitcoin holds near $86,000",
+    "horodatage_utc": "2026-09-22T10:20:12+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/22/live-updates-oil-falls-as-iran-signals-possible-hormuz-reopening-bitcoin-holds-near-usd86-000",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b04e04b1af3e3750",
+    "categorie": "crypto",
+    "titre_affiche": "ETF Bitcoin hút gần 1 tỷ USD chỉ trong một ngày",
+    "horodatage_utc": "2026-09-22T08:45:00+00:00",
+    "source_nom": "GDELT/stockbiz.vn",
+    "url_source": "https://stockbiz.vn/tin-tuc/etf-bitcoin-hut-gan-1-ty-usd-chi-trong-mot-ngay/41896453",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "202ec3eb95941e68",
+    "categorie": "crypto",
+    "titre_affiche": "Kryptomarkt 22 . September 2026 : Bitcoin 86 . 400 Dollar , Solana +9 %, ETH 2 . 720 Dollar , Japan BoJ , US PMI heute",
+    "horodatage_utc": "2026-09-22T08:45:00+00:00",
+    "source_nom": "GDELT/finanzen.net",
+    "url_source": "https://www.finanzen.net/nachricht/devisen/kryptomarkt-bitcoin-ueber-86-000-dollar-wochenstaerkste-krypto-rally-seit-august-solana-9-japan-im-blick-00-15946081",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6448dc58b96ff486",
+    "categorie": "crypto",
+    "titre_affiche": "Volltreffer gelandet : Neuer Bitcoin - Kauf bringt Strategy schon millionenschwere Gewinne | wallstreetONLINE",
+    "horodatage_utc": "2026-09-22T07:45:00+00:00",
+    "source_nom": "GDELT/wallstreet-online.de",
+    "url_source": "https://www.wallstreet-online.de/nachricht/21413337-volltreffer-gelandet-bitcoin-kauf-bringt-strategy-millionenschwere-gewinne",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ab32bb6beb22d78b",
+    "categorie": "crypto",
+    "titre_affiche": "Spot bitcoin ETFs attract nearly $1 billion in largest daily inflow in 11 months",
+    "horodatage_utc": "2026-09-22T07:44:17+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "4aecefd29b39a4e6",
+    "categorie": "crypto",
+    "titre_affiche": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
+    "horodatage_utc": "2026-09-22T07:40:41+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/22/spot-bitcoin-etfs-attracted-nearly-usd1-billion-on-monday-the-9th-largest-inflow-ever",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dc56597205014646",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin 87 bin dolara çıktı : Sırada ne var ?",
+    "horodatage_utc": "2026-09-22T07:15:00+00:00",
+    "source_nom": "GDELT/haberler.com",
+    "url_source": "https://www.haberler.com/kripto-para/bitcoin-87-bin-dolara-cikti-sirada-ne-var-20259368-haberi/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2dcea73ac1cef66b",
+    "categorie": "crypto",
+    "titre_affiche": "Whitehats move 52 bitcoin from the Coldcard hack to a recovery trust",
+    "horodatage_utc": "2026-09-22T06:27:28+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/22/whitehats-move-52-bitcoin-from-the-coldcard-hack-to-a-recovery-trust",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "6d9a495646ac8b3e",
     "categorie": "crypto",
     "titre_affiche": "Onchain prediction market Trueo migrates to Ethereum; Vitalik Buterin welcomes ‘ethical’ market contender",
     "horodatage_utc": "2026-09-22T06:01:24+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/defi/2026-09-22-trueo-ethereum-migration-415999",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "75c1afadce1fc4ed",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin retreats from $87 , 000 peak after sharp 15 % rally",
+    "horodatage_utc": "2026-09-22T06:00:00+00:00",
+    "source_nom": "GDELT/moneycontrol.com",
+    "url_source": "https://www.moneycontrol.com/news/business/personal-finance/bitcoin-retreats-from-87-000-peak-after-sharp-15-rally-14035089.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -36,13 +277,13 @@
     "horodatage_utc": "2026-09-22T05:26:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/22/elon-musk-s-x-brings-bitcoin-and-stock-trading-closer-to-the-timeline",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3468a052d2953372",
@@ -51,14 +292,14 @@
     "horodatage_utc": "2026-09-22T04:33:11+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/22/dogecoin-leads-market-rebound-with-15-pump-bitcoin-steady-above-usd85-000",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, DOGE. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "DOGE"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3b51a3b318aeb6fb",
@@ -67,13 +308,13 @@
     "horodatage_utc": "2026-09-22T04:15:45+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/09/21/cardano-joins-solana-xrp-ledger-in-race-to-power-ai-agent-payments",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b6c153bcbd22fbbf",
@@ -1566,248 +1807,6 @@
     "horodatage_utc": "2026-09-12T16:00:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7a263045a00dddb4",
-    "categorie": "crypto",
-    "titre_affiche": "Staked ether should be seen as the benchmark of the decentralized economy",
-    "horodatage_utc": "2026-09-12T14:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/opinion/2026/09/12/staked-ether-should-be-seen-as-the-benchmark-of-the-decentralized-economy",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "6dbeb84d34030b86",
-    "categorie": "crypto",
-    "titre_affiche": "Iran Says It No Longer Bound by the Nuclear Treaty . What That Does to Oil , Gold , and Bitcoin",
-    "horodatage_utc": "2026-09-12T14:00:00+00:00",
-    "source_nom": "GDELT/finance.yahoo.com",
-    "url_source": "https://finance.yahoo.com/markets/commodities/articles/iran-says-no-longer-bound-132026940.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "8f4ad338bc2b60a3",
-    "categorie": "crypto",
-    "titre_affiche": "Will the Fed Raise Rates on September 16 ? Polymarket Now Says 83 %. Here What It Means for XRP and Bitcoin",
-    "horodatage_utc": "2026-09-12T13:30:00+00:00",
-    "source_nom": "GDELT/finance.yahoo.com",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/fed-raise-rates-september-16-124522934.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "800ac963a33fec42",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin - Prognose : Kommt die 100 . 000 - Dollar - Marke 2026 zurück ?",
-    "horodatage_utc": "2026-09-12T13:15:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/ratgeber/news/bitcoin-ueber-80-000-dollar-kommt-die-100-000er-marke-zurueck-12-09-2026-01/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "de55b09a437185a5",
-    "categorie": "crypto",
-    "titre_affiche": "ProShares Bitcoin & Ether Market Cap Weight ETF ( NYSEARCA : BETH ) Short Interest Update",
-    "horodatage_utc": "2026-09-12T12:00:00+00:00",
-    "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/09/12/proshares-bitcoin-ether-market-cap-weight-etf-nysearcabeth-short-interest-update.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "b647102ea34614ba",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum News : ETH ETF Inflows Return as AlphaPepe Low - Cap",
-    "horodatage_utc": "2026-09-12T11:45:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4630023/ethereum-news-eth-etf-inflows-return-as-alphapepe-s-low-cap",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "0739633d45e377d6",
-    "categorie": "crypto",
-    "titre_affiche": "7 Best Crypto Under $1 Picks as Bitcoin Struggles Near $77K",
-    "horodatage_utc": "2026-09-12T11:45:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4630026/7-best-crypto-under-1-picks-as-bitcoin-struggles-near-77k",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ddf278d705c365e2",
-    "categorie": "crypto",
-    "titre_affiche": "6 Next Crypto To Explode Picks as Bitcoin Slips Below $78K",
-    "horodatage_utc": "2026-09-12T11:45:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4630012/6-next-crypto-to-explode-picks-as-bitcoin-slips-below-78k",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "167a80c47c395065",
-    "categorie": "crypto",
-    "titre_affiche": "Solana News : Transaction V1 Goes Live as AlphaPepe Q1 2027",
-    "horodatage_utc": "2026-09-12T11:45:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4630019/solana-news-transaction-v1-goes-live-as-alphapepe-s-q1-2027",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "a044410840134ca9",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
-    "horodatage_utc": "2026-09-12T10:11:01+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "32983b08850f6b42",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin, ether rise as inflation data does little to alter Fed interest rate outlook",
-    "horodatage_utc": "2026-09-11T17:40:54+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-11-bitcoin-ether-rise-inflation-data-does-little-alter-fed-interest-rate-outlook-414287",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "203b1bde1935c339",
-    "categorie": "crypto",
-    "titre_affiche": "‘Return the bitcoin’: Blockstream refuses ransom demand for remaining 600 BTC from Liquid exploit",
-    "horodatage_utc": "2026-09-11T11:21:17+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-09-11-return-the-bitcoin-blockstream-refuses-ransom-demand-for-remaining-600-btc-from-liquid-exploit-414247",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3e4b30f72f6bfb2a",
-    "categorie": "crypto",
-    "titre_affiche": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-    "horodatage_utc": "2026-09-11T11:20:26+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7e4fa1b3729f6980",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin gives up early gains as markets fully price in Fed rate hike",
-    "horodatage_utc": "2026-09-11T11:04:12+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.15563 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "20a9da274aa71df4",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin gives up early gains, with markets moving to price in multiple rate hikes",
-    "horodatage_utc": "2026-09-11T11:04:12+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "997773855b966dfa",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
-    "horodatage_utc": "2026-09-11T10:50:47+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/11/bitcoin-recovers-toward-usd77-300-as-zcash-leverage-unwinds",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
