@@ -1,5 +1,50 @@
 [
   {
+    "id": "e2c845ff69caf78d",
+    "categorie": "crypto",
+    "titre_affiche": "Solana starts testing upgrade that could cut finality from 12.8 seconds to 150 milliseconds",
+    "horodatage_utc": "2026-09-23T05:16:22+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/23/solana-starts-testing-upgrade-that-could-cut-finality-from-12-8-seconds-to-150-milliseconds",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9f2ee2c53f01fe7d",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin's on a streak it hasn't hit since 2012",
+    "horodatage_utc": "2026-09-23T05:12:42+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-on-a-streak-it-hasn-t-hit-since-2012",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "650f14c4c2929810",
+    "categorie": "crypto",
+    "titre_affiche": "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
+    "horodatage_utc": "2026-09-23T04:10:08+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/23/zcash-leads-crypto-majors-with-a-10-gain-as-bitcoin-holds-near-usd87-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "7f3a5566c95e0868",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin Retains $86 , 000 as Trump Pledges US - Iran Deal After Midterms",
@@ -1764,53 +1809,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4f16bb867541822a",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin bucks tech selloff as AI safety concerns weigh on stocks",
-    "horodatage_utc": "2026-09-14T08:07:16+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/14/bitcoin-bucks-tech-selloff-as-ai-safety-concerns-weigh-on-stocks",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4510234419063d07",
-    "categorie": "crypto",
-    "titre_affiche": "Symbiosis says it recovered 15 BTC after Bitcoin bridge exploit, offers attacker 20% bounty",
-    "horodatage_utc": "2026-09-13T21:51:11+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b2b504a2c72c6780",
-    "categorie": "crypto",
-    "titre_affiche": "Die wichtigsten Kryptos : Bitcoin , Dogecoin , Ethereum am Sonntagvormittag",
-    "horodatage_utc": "2026-09-13T08:15:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/nachricht/devisen/das-sind-die-aktuellen-kurse-von-bitcoin-dogecoin-co-15931552",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH",
-      "DOGE"
     ],
     "portee": "actif_direct",
     "nouveaute": false

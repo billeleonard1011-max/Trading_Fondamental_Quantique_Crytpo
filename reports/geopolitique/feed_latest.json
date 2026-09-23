@@ -1,5 +1,110 @@
 [
   {
+    "id": "c6994d5e966d4e93",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil price on track for longest losing streak in more than 12 months",
+    "horodatage_utc": "2026-09-23T05:35:38+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0a5a5b70-adea-40af-9933-1f7679f9f359?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "22c827463e39c9fb",
+    "categorie": "geopolitique",
+    "titre_affiche": "The battle between the Fed and Trump",
+    "horodatage_utc": "2026-09-23T04:00:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d2e5ed9c-a123-4275-afc7-14b75b9337a0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d769217f99ce9c1f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global banks warn UK windfall tax will trigger shift away from London",
+    "horodatage_utc": "2026-09-23T04:00:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ab694096-0acf-4e13-9726-ec339a082a99?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "297e01c4d1f15b00",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
+    "horodatage_utc": "2026-09-23T04:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d1090476-7be6-4bba-ae2a-f417499e820a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fc53bf199330fa39",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mark Carney and the limits of defying Donald Trump",
+    "horodatage_utc": "2026-09-23T04:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4a808a51-c6e9-4ade-b1f7-95c27fd1aa1e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "bb76c606ac65dae9",
+    "categorie": "geopolitique",
+    "titre_affiche": "How private equity ended up in limbo",
+    "horodatage_utc": "2026-09-23T04:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2b307c1e-cd98-4666-91d5-000b1dc7bbd1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2b1c82c5e2e92bd5",
+    "categorie": "geopolitique",
+    "titre_affiche": "US and Iran hold first talks since June as Trump threatens ‘annihilation’",
+    "horodatage_utc": "2026-09-23T02:04:20+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "0193e08e8a064bab",
     "categorie": "geopolitique",
     "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
@@ -41,21 +146,6 @@
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2b1c82c5e2e92bd5",
-    "categorie": "geopolitique",
-    "titre_affiche": "US and Iran hold first talks since June as Trump threatens ‘annihilation’",
-    "horodatage_utc": "2026-09-22T21:26:14+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1729,98 +1819,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "ebd3845e0aa8c4ed",
-    "categorie": "geopolitique",
-    "titre_affiche": "Top Republicans tell Trump to ban US diesel exports ahead of midterms",
-    "horodatage_utc": "2026-09-21T18:15:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/319c7b67-b585-407e-a0da-6e23b1612180?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9eb1a899ab84b4d3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Curaçao Chronicle | CBCS Raises Pledging Rate to 4 . 50 % as Global Risks and Reserve Decline Shape Monetary Policy",
-    "horodatage_utc": "2026-09-21T18:15:00+00:00",
-    "source_nom": "GDELT/curacaochronicle.com",
-    "url_source": "https://www.curacaochronicle.com/post/unknown/cbcs-raises-pledging-rate-to-450-as-global-risks-and-reserve-decline-shape-monetary-policy",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ecaf5d1b4f77487a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Central Banks Repatriate Gold from Western Vaults to Avoid Asset Freezes",
-    "horodatage_utc": "2026-09-21T18:15:00+00:00",
-    "source_nom": "GDELT/english.pravda.ru",
-    "url_source": "https://english.pravda.ru/news/business/169090-gold-reserve-repatriation/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)",
-      "Sanctions"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "799a01f59cefea9a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bitcoin hits highest level since January at $86,000, as the market debates whether the 'crypto winter' is over",
-    "horodatage_utc": "2026-09-21T17:38:59+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/21/bitcoin-price-crypto-rally.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3749ee7a352d882f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Historic lawsuit sparks flurry of option activity in this stock",
-    "horodatage_utc": "2026-09-21T16:55:41+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/21/historic-lawsuit-sparks-flurry-of-option-activity-in-ny-times-stock.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "225514d0992ce2a4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fed will need to be ‘aggressive’ on inflation, says top official",
-    "horodatage_utc": "2026-09-21T15:10:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e173bec6-352b-4b51-b3a4-382a9229bc86?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
