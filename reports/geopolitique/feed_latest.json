@@ -1,5 +1,81 @@
 [
   {
+    "id": "25da13bccd97511f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meta's standoff with Amazon over Muse could be a sign of things to come",
+    "horodatage_utc": "2026-09-23T23:39:10+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/23/metas-standoff-with-amazon-over-muse-comes-ahead-of-meta-connect.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "787ccd26ac9097b9",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI ‘agent’ hacked an Australian health service website",
+    "horodatage_utc": "2026-09-23T23:04:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/56133ef4-377b-4e35-a939-f199ceb64507?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8444c7cf51095c63",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi arrives for high-stakes summit with Trump",
+    "horodatage_utc": "2026-09-23T23:04:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8ff1b8fd-ff58-42a4-8e44-6a31f6db8154?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "374b035bcc70e040",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump faces Xi as strains with allies complicate U.S. pressure on China",
+    "horodatage_utc": "2026-09-23T22:45:50+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/23/trump-xi-china-summit-allies.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "d52741f4ae9f21c9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
+    "horodatage_utc": "2026-09-23T21:26:36+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "52fcaf74a5bb44e1",
     "categorie": "geopolitique",
     "titre_affiche": "Xi Jinping set to arrive for high-stakes summit with Donald Trump",
@@ -38,13 +114,13 @@
     "horodatage_utc": "2026-09-23T20:29:20+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2284990374a31aba",
@@ -53,19 +129,34 @@
     "horodatage_utc": "2026-09-23T20:00:08+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/fb42c5dd-1550-402c-8881-49a3902710a0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine, Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine",
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "45a6d389b06b0382",
     "categorie": "geopolitique",
     "titre_affiche": "Anthropic’s Dario Amodei calls for ‘narrow’ AI safety agreements",
+    "horodatage_utc": "2026-09-23T19:57:38+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/31a27312-8032-4957-be69-ba32561e8db3",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a52a417220780ba1",
+    "categorie": "geopolitique",
+    "titre_affiche": "UN live: Anthropic’s Dario Amodei calls for ‘narrow’ AI safety agreements",
     "horodatage_utc": "2026-09-23T19:57:38+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/31a27312-8032-4957-be69-ba32561e8db3",
@@ -84,13 +175,13 @@
     "horodatage_utc": "2026-09-23T19:00:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/05ffcb10-869e-4857-bed7-fcb025f8e02f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4ff81dd06c62bb55",
@@ -186,21 +277,6 @@
     "nouveaute": true
   },
   {
-    "id": "374b035bcc70e040",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump faces Xi as strains with allies complicate U.S. pressure on China",
-    "horodatage_utc": "2026-09-23T16:47:21+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/23/trump-xi-china-summit-allies.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
     "id": "da81737adff01b19",
     "categorie": "geopolitique",
     "titre_affiche": "10-Year Treasury Yield Jumps As Markets Bet On Two Fed Rate Hikes. Bessent Won't Fight It.",
@@ -237,13 +313,13 @@
     "horodatage_utc": "2026-09-23T16:27:08+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/7a98e756-92a3-45e4-9630-187d20685e79?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "15ce83f0365b5590",
@@ -347,22 +423,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d52741f4ae9f21c9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
-    "horodatage_utc": "2026-09-23T13:29:08+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi",
-      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1758,67 +1818,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bef11aa862fcd25d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Worsening El Nino threatens Asia with drought , potentially raising food prices globally",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/mankatofreepress.com",
-    "url_source": "https://www.mankatofreepress.com/news/business/worsening-el-nino-threatens-asia-with-drought-potentially-raising-food-prices-globally/article_7525af8b-4d22-5040-a1c6-2d442d764995.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ad4e2d197648957f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia , Ukraine strikes as Zelenskiy set to meet Trump",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/dailyadvertiser.com.au",
-    "url_source": "https://www.dailyadvertiser.com.au/story/9355577/russia-ukraine-strikes-as-zelenskiy-set-to-meet-trump/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1e41bc208434288f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran War : Trump Signs of Desperation Increase as Bessent Seeks to Bar Iran Airline Flights Right Before Official UN Visits ; More on Strait of Hormuz Fuel Transits",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/nakedcapitalism.com",
-    "url_source": "https://www.nakedcapitalism.com/2026/09/iran-war-trump-signs-of-desperation-increase-as-bessent-seeks-to-bar-iran-airline-flights-right-before-official-un-visits-more-on-strait-of-hormuz-fuel-transits.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3caa21a7e676b0cb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sterling steady after report says Iran may reopen Hormuz",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/sterling-steady-report-says-iran-102009000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
