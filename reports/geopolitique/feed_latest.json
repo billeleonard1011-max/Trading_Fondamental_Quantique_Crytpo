@@ -1,5 +1,35 @@
 [
   {
+    "id": "0193e08e8a064bab",
+    "categorie": "geopolitique",
+    "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
+    "horodatage_utc": "2026-09-22T23:43:43+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "3ba50a6332968642",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham",
+    "horodatage_utc": "2026-09-22T23:42:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0e03521f-c4f1-4242-8fff-0e34a27a26db?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "f73662ec976aa3af",
     "categorie": "geopolitique",
     "titre_affiche": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
@@ -22,13 +52,13 @@
     "horodatage_utc": "2026-09-22T21:26:14+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c4ca4c37c0045a35",
@@ -83,13 +113,13 @@
     "horodatage_utc": "2026-09-22T20:31:16+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/0e50a3c6-9731-4b29-a21e-4e0ff89a595e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c51db52de700cb70",
@@ -113,28 +143,13 @@
     "horodatage_utc": "2026-09-22T20:28:13+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/2c60812b-77b4-4de5-a276-5e3eb2ceb5c3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0193e08e8a064bab",
-    "categorie": "geopolitique",
-    "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
-    "horodatage_utc": "2026-09-22T20:07:24+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -159,14 +174,14 @@
     "horodatage_utc": "2026-09-22T20:00:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f2f37449-f9c7-4556-9f97-4cca735980e4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a0fa9d5cbf95b15d",
@@ -1807,20 +1822,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "df3461e6acfec29a",
-    "categorie": "geopolitique",
-    "titre_affiche": "‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
-    "horodatage_utc": "2026-09-21T15:04:04+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
