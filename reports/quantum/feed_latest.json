@@ -1,18 +1,79 @@
 [
   {
+    "id": "d7c5086a1fc15f31",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Bringing QPU to The NVIDIA Accelerated Quantum Research Center",
+    "horodatage_utc": "2026-09-23T12:01:50+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/23/ionq-bringing-qpu-to-the-nvidia-accelerated-quantum-research-center/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ",
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6ae829c22ab12822",
+    "categorie": "quantique",
+    "titre_affiche": "Xanadu Appoints Tara Deakin as Chief People Officer",
+    "horodatage_utc": "2026-09-23T08:30:26+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/23/xanadu-appoints-tara-deakin-chief-people-officer/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Xanadu. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Xanadu"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3cb28d42948fb5fb",
+    "categorie": "quantique",
+    "titre_affiche": "Fermilab and Microsoft Partner on Quantum Hardware Tools",
+    "horodatage_utc": "2026-09-23T08:14:19+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/23/fermilab-microsoft-partner-quantum-hardware-tools/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Microsoft. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Microsoft"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "82bea8fefacd8e3a",
+    "categorie": "quantique",
+    "titre_affiche": "QuEra Computing Opens Office in Discovery District Maryland",
+    "horodatage_utc": "2026-09-23T07:00:00+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/23/quera-computing-joins-maryland-capital-of-quantum/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QuEra"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "c74036cbc4564e4d",
     "categorie": "quantique",
     "titre_affiche": "IonQ Partners with SDT to Deploy Superion 256 Quantum System and Establish SiV Quantum Memory Assembly Hub in South Korea",
     "horodatage_utc": "2026-09-23T06:17:34+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ionq-partners-with-sdt-to-deploy-superion-256-quantum-system-and-establish-siv-quantum-memory-assembly-hub-in-south-korea/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9559108ac93afe99",
@@ -21,13 +82,13 @@
     "horodatage_utc": "2026-09-23T04:56:57+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/quera-computing-joins-marylands-capital-of-quantum-initiative-and-opens-facility-in-discovery-district/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QuEra"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b8690e1f7cd8e4a1",
@@ -36,13 +97,13 @@
     "horodatage_utc": "2026-09-23T04:44:17+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/quera-computing-and-hpe-partner-to-integrate-fault-tolerant-neutral-atom-qpus-with-on-premises-hpe-cray-supercomputers/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QuEra"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ce193fedd1067148",
@@ -51,13 +112,13 @@
     "horodatage_utc": "2026-09-23T03:46:48+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/microsoft-opens-15000-square-foot-quantum-research-center-and-hardware-makerspace-in-maryland-discovery-district/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Microsoft. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Microsoft"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "738550fe63d54572",
@@ -66,13 +127,13 @@
     "horodatage_utc": "2026-09-23T02:32:48+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/interview-with-matthias-troyer-vice-president-technical-fellow-at-microsoft/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Microsoft. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Microsoft"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "79945b1b628217b5",
@@ -81,13 +142,13 @@
     "horodatage_utc": "2026-09-23T01:00:53+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a21d47503c554704",
@@ -103,6 +164,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
+  },
+  {
+    "id": "6be09fb390fe296b",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Demonstrates End-to-End Real-Time Quantum Error Decoder",
+    "horodatage_utc": "2026-09-23T00:34:42+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/23/ionq-demonstrates-industrys-first-end-to-end-real-time-quantum-error-decoder/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
   },
   {
     "id": "492a10d14b9f3a3f",
