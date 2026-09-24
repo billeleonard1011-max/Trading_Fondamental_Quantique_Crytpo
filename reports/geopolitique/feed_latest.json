@@ -1,30 +1,76 @@
 [
   {
+    "id": "0193e08e8a064bab",
+    "categorie": "geopolitique",
+    "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
+    "horodatage_utc": "2026-09-24T01:54:35+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
     "id": "25da13bccd97511f",
     "categorie": "geopolitique",
     "titre_affiche": "Meta's standoff with Amazon over Muse could be a sign of things to come",
-    "horodatage_utc": "2026-09-23T23:39:10+00:00",
+    "horodatage_utc": "2026-09-24T01:45:23+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/23/metas-standoff-with-amazon-over-muse-comes-ahead-of-meta-connect.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
+  },
+  {
+    "id": "d52741f4ae9f21c9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
+    "horodatage_utc": "2026-09-24T01:44:14+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "787ccd26ac9097b9",
     "categorie": "geopolitique",
     "titre_affiche": "OpenAI ‘agent’ hacked an Australian health service website",
-    "horodatage_utc": "2026-09-23T23:04:28+00:00",
+    "horodatage_utc": "2026-09-24T01:25:44+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/56133ef4-377b-4e35-a939-f199ceb64507?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "1781f1fcf2d586ea",
+    "categorie": "geopolitique",
+    "titre_affiche": "US oil industry pushes back against proposed diesel export ban",
+    "horodatage_utc": "2026-09-23T23:44:57+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c902e192-8bbb-4f32-813c-ee255d3aebd0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -45,6 +91,38 @@
     "nouveaute": true
   },
   {
+    "id": "b54e390426c51632",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi arrives for high-stakes summit with Trump as leaders extend trade truce",
+    "horodatage_utc": "2026-09-23T23:04:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8ff1b8fd-ff58-42a4-8e44-6a31f6db8154?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ed64a34c7d833799",
+    "categorie": "geopolitique",
+    "titre_affiche": "HSBC moves board meeting from Dubai to London amid safety concerns",
+    "horodatage_utc": "2026-09-23T23:01:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8b470f65-6fc3-44b6-9295-e07008ce302d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "374b035bcc70e040",
     "categorie": "geopolitique",
     "titre_affiche": "Trump faces Xi as strains with allies complicate U.S. pressure on China",
@@ -57,22 +135,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "d52741f4ae9f21c9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
-    "horodatage_utc": "2026-09-23T21:26:36+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
     "nouveaute": false
   },
   {
@@ -380,6 +442,21 @@
       "Croissance et emploi"
     ],
     "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fdd094f3728ea75d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump lays a new trap for Takaichi",
+    "horodatage_utc": "2026-09-23T15:39:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8dfae006-c1ac-4713-8497-0e0e59e419f6?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -987,21 +1064,6 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0193e08e8a064bab",
-    "categorie": "geopolitique",
-    "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
-    "horodatage_utc": "2026-09-22T23:43:43+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -1758,66 +1820,6 @@
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "52b664b6ea51590b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Silver price today, Tuesday, September 22, 2026: Silver prices hit high mark ahead of U.S.- China talks this week",
-    "horodatage_utc": "2026-09-22T11:15:36+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-tuesday-september-22-2026-silver-prices-hit-high-mark-ahead-of-us--china-talks-this-week-111536074.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "cca56859450f098b",
-    "categorie": "geopolitique",
-    "titre_affiche": "How Does This F-35A Rollout Strengthen NATO Deterrence for Lockheed Martin (LMT)",
-    "horodatage_utc": "2026-09-22T11:13:22+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/does-f-35a-rollout-strengthen-111322313.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d0518db288e2ede2",
-    "categorie": "geopolitique",
-    "titre_affiche": "‘MBS will not forget’: Trump’s reluctance to fight Houthis rattles Saudi Arabia",
-    "horodatage_utc": "2026-09-22T11:00:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/99457bcb-d98f-4719-a203-688daefcc3f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c78635aa0ea57d7a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Aramco Poised to Resume Oil Exports at Red Sea Port",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/rigzone.com",
-    "url_source": "https://www.rigzone.com/news/wire/aramco_poised_to_resume_oil_exports_at_red_sea_port-22-sep-2026-184668-article/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
     ],
     "portee": "influence",
     "nouveaute": true
