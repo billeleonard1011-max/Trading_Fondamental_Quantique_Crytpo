@@ -1,13 +1,134 @@
 [
   {
+    "id": "f66fb0341de07201",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+    "horodatage_utc": "2026-09-24T18:30:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a8848b1684c79e6e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netanyahu addresses UN summit",
+    "horodatage_utc": "2026-09-24T18:05:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/979ae3ac-4623-4fe9-a771-43ce451a9e73",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a1137f3dbfc8a51b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Goldman reaped more than $200mn in fees from hedge fund Situational Awareness",
+    "horodatage_utc": "2026-09-24T18:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bdec4129-ccac-4149-aa53-90ddd50cb925?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "92b9341d0cbfd370",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi says US and China must ‘coexist in peace’ in historic White House visit",
+    "horodatage_utc": "2026-09-24T17:53:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/24c13fd3-5de5-4916-8300-ec3073027ff6?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "214c3ad54fe1168e",
     "categorie": "geopolitique",
     "titre_affiche": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
-    "horodatage_utc": "2026-09-24T14:26:05+00:00",
+    "horodatage_utc": "2026-09-24T17:12:04+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "55fdde7ee85a1239",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oracle sends 'force majeure' notice about data center project — stock sinks 4%",
+    "horodatage_utc": "2026-09-24T16:48:38+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2b2f1f5d807257a4",
+    "categorie": "geopolitique",
+    "titre_affiche": "US mortgage rates breach 7% as affordability pressures mount",
+    "horodatage_utc": "2026-09-24T16:12:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cabe2c29-9f66-470b-b7ac-b2bc324aa367?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5072ab15f7f0dbcc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia raises taxes to fund its war in Ukraine",
+    "horodatage_utc": "2026-09-24T15:52:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ded9ae05-3c5c-431e-926b-9cb1864e4fb0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3b2ad53a04d28f1b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
+    "horodatage_utc": "2026-09-24T15:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
@@ -36,13 +157,13 @@
     "horodatage_utc": "2026-09-24T14:16:27+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7b595cab1aeae34a",
@@ -452,7 +573,7 @@
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9d7175d29239b26a",
@@ -468,7 +589,7 @@
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "51a011b97d396369",
@@ -696,7 +817,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ae679bff8c2cb9f9",
@@ -712,7 +833,7 @@
       "Conflits et sécurité"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "987202f0d045edb1",
@@ -727,7 +848,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "52604728dfa7159a",
@@ -820,7 +941,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1fc23a0f095029f8",
@@ -835,7 +956,7 @@
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "134e6093c8ff9310",
@@ -1707,130 +1828,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "0975f6ac725c127b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bank of England does not need to raise interest rates, says OECD",
-    "horodatage_utc": "2026-09-23T09:36:38+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8cefcdba-2d5b-421b-969e-1a302b660fe5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e1917a334e916dc3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Almost ten million people took part in ECB survey on new euro banknotes",
-    "horodatage_utc": "2026-09-23T09:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e40f58f26a33af6a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Soybeans, planes and rare earths: What they say about fragile U.S.-China trade truce",
-    "horodatage_utc": "2026-09-23T08:25:41+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/23/trump-xi-summit-us-china-trade-rare-earth-soybean-plane.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5800d1523c758538",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock market today: Dow, S&P 500, Nasdaq futures slip as oil steadies, markets eye looming Trump-Xi meeting",
-    "horodatage_utc": "2026-09-23T08:05:56+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8e0d6768f01c72cd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock market today: Dow, S&P 500, Nasdaq fall as 10-year yield surges to 2007 high ahead of Trump-Xi meeting",
-    "horodatage_utc": "2026-09-23T08:05:56+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "421403f2f699e1d8",
-    "categorie": "geopolitique",
-    "titre_affiche": "OECD sounds alarm on surging government bond yields",
-    "horodatage_utc": "2026-09-23T08:00:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6c13ada9-f325-428b-b91e-bffcf92eddad?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c6994d5e966d4e93",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil price on track for longest losing streak in more than 12 months",
-    "horodatage_utc": "2026-09-23T05:35:38+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0a5a5b70-adea-40af-9933-1f7679f9f359?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "824a053b910fcf19",
-    "categorie": "geopolitique",
-    "titre_affiche": "Has Trump caged his China hawks?",
-    "horodatage_utc": "2026-09-23T04:10:54+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5b7decf1-08fd-43fc-b9f3-9870ffa5716f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]

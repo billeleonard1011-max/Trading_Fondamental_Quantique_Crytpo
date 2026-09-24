@@ -1,5 +1,20 @@
 [
   {
+    "id": "98c06a8390585d02",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ to Deploy Superion 256 Quantum Computer at Florida International University",
+    "horodatage_utc": "2026-09-24T14:01:55+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/09/24/ionq-superion-256-florida-international-university/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "2fb12f088b92781f",
     "categorie": "quantique",
     "titre_affiche": "IonQ Removes Major Quantum Barrier , Driving Investor Debate Over Commercial Timelines",
@@ -37,13 +52,13 @@
     "horodatage_utc": "2026-09-24T12:50:17+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Infleqtion"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "706f7e49bc593d71",
