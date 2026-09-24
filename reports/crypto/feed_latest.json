@@ -1,13 +1,73 @@
 [
   {
+    "id": "4338bcc76d9a829f",
+    "categorie": "crypto",
+    "titre_affiche": "The Average XRP Holder of the Past Year Is Down 12 % and Bitcoin Is in Profit . Which One Rallies Next ?",
+    "horodatage_utc": "2026-09-24T20:30:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/average-xrp-holder-past-down-194248000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "06b5089d1669be78",
+    "categorie": "crypto",
+    "titre_affiche": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
+    "horodatage_utc": "2026-09-24T19:17:47+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-09-24-solana-treasury-skyai-keeps-board-shareholder-protest-loses-equity-plan-vote-416298",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3a839fc917ff76fa",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin just topped a key long-term moving average. Here's what it might mean",
+    "horodatage_utc": "2026-09-24T18:46:58+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/24/bitcoin-just-topped-a-key-long-term-moving-average-here-s-what-it-might-mean",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "c91f0627ac02cf56",
     "categorie": "crypto",
     "titre_affiche": "JPMorgan says bitcoin crossing $85,000 production cost could ease miner selling pressure",
     "horodatage_utc": "2026-09-24T18:22:39+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-09-24-jpmorgan-bitcoin-production-cost-miners-relief-416283",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "513c7e67f6514a5d",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin BTC USD price drop today : Bitcoin is down 55 % from its peak - here why Tom Lee predicts crypto bull run as $15 . 6 billion options expiry looms",
+    "horodatage_utc": "2026-09-24T17:30:00+00:00",
+    "source_nom": "GDELT/economictimes.indiatimes.com",
+    "url_source": "https://economictimes.indiatimes.com/news/international/us/bitcoin-is-down-55-from-its-peak-heres-why-tom-lee-predicts-crypto-bull-run-as-15-6-billion-options-expiry-looms/articleshow/134465817.cms",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -21,13 +81,13 @@
     "horodatage_utc": "2026-09-24T15:26:34+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/24/bitcoin-s-bear-markets-are-getting-milder-the-bull-markets-may-be-next",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7baebe38cbcdca85",
@@ -36,8 +96,23 @@
     "horodatage_utc": "2026-09-24T14:49:28+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/coindesk-indices/2026/09/24/crypto-for-advisors-the-hidden-costs-of-holding-your-own-bitcoin",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "4c068609d89b9d8a",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Plunges With Big Bond Selloff",
+    "horodatage_utc": "2026-09-24T14:30:00+00:00",
+    "source_nom": "GDELT/rttnews.com",
+    "url_source": "https://www.rttnews.com/3693668/bitcoin-plunges-with-big-bond-selloff.aspx",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par GDELT/rttnews.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -73,6 +148,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
+  },
+  {
+    "id": "fa4ea5f847aa7408",
+    "categorie": "crypto",
+    "titre_affiche": "Can Uniswap Maintain Its Lead Over Ethereum Until October 19 ?",
+    "horodatage_utc": "2026-09-24T12:00:00+00:00",
+    "source_nom": "GDELT/247wallst.com",
+    "url_source": "https://247wallst.com/investing/cryptocurrency/2026/09/24/can-uniswap-maintain-its-lead-over-ethereum-until-october-19/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
   },
   {
     "id": "52c74a87ec1d24a9",
@@ -135,6 +225,21 @@
     "nouveaute": false
   },
   {
+    "id": "e557fb3a57493145",
+    "categorie": "crypto",
+    "titre_affiche": "CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
+    "horodatage_utc": "2026-09-24T09:00:00+00:00",
+    "source_nom": "GDELT/finance.yahoo.com",
+    "url_source": "https://finance.yahoo.com/markets/crypto/articles/cme-expands-crypto-futures-lineup-204603742.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "bec3cf75142cdb7f",
     "categorie": "crypto",
     "titre_affiche": "A week of AI coding cut a quantum-safe bitcoin transaction estimate from $320 to $66",
@@ -172,10 +277,26 @@
     "horodatage_utc": "2026-09-23T23:45:00+00:00",
     "source_nom": "GDELT/memeburn.com",
     "url_source": "https://memeburn.com/bitcoin-90k-strategy-btc-buy/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/memeburn.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "1cac7f5d6f405dff",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum vs . Chainlink : Which Will Benefit More From Tokenization ?",
+    "horodatage_utc": "2026-09-23T23:00:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/ethereum-vs-chainlink-benefit-more-222503000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : ETH, LINK. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH",
+      "LINK"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -1682,126 +1803,6 @@
     "horodatage_utc": "2026-09-16T09:57:12+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/16/bitcoin-s-coinbase-premium-sinks-to-one-month-low-here-s-why",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e3a33c73aa7542a8",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum, Base give up on common wallet standard after months of talks",
-    "horodatage_utc": "2026-09-16T08:07:59+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/16/ethereum-base-give-up-on-common-wallet-standard-after-months-of-talks",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "25b7cd416f088ff5",
-    "categorie": "crypto",
-    "titre_affiche": "Fed meeting is shaping up to be a nightmare for Warsh. Bitcoin might still shine",
-    "horodatage_utc": "2026-09-16T06:42:22+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/16/fed-meeting-is-shaping-up-to-be-a-nightmare-for-warsh-bitcoin-might-still-shine",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f1be543809e2d9f8",
-    "categorie": "crypto",
-    "titre_affiche": "Zcash holders overwhelmingly back faster transactions and bitcoin-style halvings",
-    "horodatage_utc": "2026-09-16T05:54:04+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/16/zcash-holders-overwhelmingly-back-faster-transactions-and-bitcoin-style-halvings",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "97fb5041accdd01a",
-    "categorie": "crypto",
-    "titre_affiche": "XRP sinks 10% as the Clarity Act fails and bitcoin slides toward $76,000",
-    "horodatage_utc": "2026-09-16T03:37:45+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/16/xrp-sinks-10-as-the-clarity-act-fails-and-bitcoin-slides-toward-usd76-000",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "24dbcd2914e83a95",
-    "categorie": "crypto",
-    "titre_affiche": "‘Nothing truly structural’: Analysts downplay Clarity Act defeat as bitcoin, major crypto stocks dip",
-    "horodatage_utc": "2026-09-16T02:48:42+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-15-analysts-downplay-clarity-act-415234",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "803085a94cec0c0c",
-    "categorie": "crypto",
-    "titre_affiche": "Solana lender Kamino taps Yieldstreet co-founder as CEO in Wall Street expansion",
-    "horodatage_utc": "2026-09-15T18:02:05+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "e41bc900c1049aee",
-    "categorie": "crypto",
-    "titre_affiche": "Solana lender Kamino taps fintech veteran Michael Weisz as CEO for massive U.S. expansion",
-    "horodatage_utc": "2026-09-15T18:02:05+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3f8b36c791e7d6e4",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin price recovery unlikely to lure AI-focused miners back, CoinShares says",
-    "horodatage_utc": "2026-09-15T15:37:47+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-15-bitcoin-price-recovery-unlikely-lure-ai-focused-miners-back-coinshares-says-414844",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
