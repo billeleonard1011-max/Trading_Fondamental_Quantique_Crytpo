@@ -1,5 +1,99 @@
 [
   {
+    "id": "134e6093c8ff9310",
+    "categorie": "geopolitique",
+    "titre_affiche": "Philip R. Lane: The outlook for the euro area economy",
+    "horodatage_utc": "2026-09-24T09:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "93650903a37a78b4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global bond sell-off spreads as oil holds above $100",
+    "horodatage_utc": "2026-09-24T08:24:34+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2d87f8bf-d529-4997-90c5-393ef65d280c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "84296b5fa3e1a65c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Judge orders White House to restore banned media’s access",
+    "horodatage_utc": "2026-09-24T06:57:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/72d1df1f-cc71-4e17-a442-0a4201ba41aa?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "ae2e8969d229d1bb",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI says agent hacked Australian government website without being told to do so",
+    "horodatage_utc": "2026-09-24T04:34:13+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b2ad4fd79456c3f0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Emerging markets sell foreign currency bonds at record rate",
+    "horodatage_utc": "2026-09-24T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e3c74df4-9131-44cd-bd31-49691112bc85?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Taux et obligations, Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Taux et obligations",
+      "Conflits et sécurité"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c089e9913734e464",
+    "categorie": "geopolitique",
+    "titre_affiche": "China's AI chip blitz arms Xi with a message for Trump: 'You can't choke us off'",
+    "horodatage_utc": "2026-09-24T03:38:03+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "0193e08e8a064bab",
     "categorie": "geopolitique",
     "titre_affiche": "Here's who we know is going to the Trump-Xi dinner so far",
@@ -108,19 +202,35 @@
     "nouveaute": true
   },
   {
+    "id": "b7c0f84802f0b309",
+    "categorie": "geopolitique",
+    "titre_affiche": "US and China extend trade truce as Trump welcomes Xi",
+    "horodatage_utc": "2026-09-23T23:04:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8ff1b8fd-ff58-42a4-8e44-6a31f6db8154?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ed64a34c7d833799",
     "categorie": "geopolitique",
     "titre_affiche": "HSBC moves board meeting from Dubai to London amid safety concerns",
     "horodatage_utc": "2026-09-23T23:01:09+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8b470f65-6fc3-44b6-9295-e07008ce302d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "374b035bcc70e040",
@@ -354,21 +464,6 @@
     "nouveaute": true
   },
   {
-    "id": "134e6093c8ff9310",
-    "categorie": "geopolitique",
-    "titre_affiche": "Philip R. Lane: The Outlook for the Euro Area Economy",
-    "horodatage_utc": "2026-09-23T16:30:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "42ab953c71e222f0",
     "categorie": "geopolitique",
     "titre_affiche": "Countries cancel Iran flights after US threatens to ‘shut down’ airlines",
@@ -451,13 +546,13 @@
     "horodatage_utc": "2026-09-23T15:39:32+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8dfae006-c1ac-4713-8497-0e0e59e419f6?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b717eff039c4ed4d",
@@ -1729,97 +1824,6 @@
     "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "75369bc347fe3ec0",
-    "categorie": "geopolitique",
-    "titre_affiche": "VS&Co (VSXY): Wall Street Debates Whether the Turnaround Is Already Priced In",
-    "horodatage_utc": "2026-09-22T11:57:40+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/markets/stocks/articles/vs-co-vsxy-wall-street-115740561.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Yahoo Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0def2a7e3c9f22c9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bitcoin and ethereum prices today, Tuesday, September 22, 2026: Crypto prices continue to surge to prices last seen in January",
-    "horodatage_utc": "2026-09-22T11:47:24+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-22-2026-crypto-prices-continue-to-surge-to-prices-last-seen-in-january-114724449.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a7b141c6bc0a11ec",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil and gas PE deals tumble as new platform buyouts dry up",
-    "horodatage_utc": "2026-09-22T11:39:50+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/energy/articles/oil-gas-pe-deals-tumble-113950178.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "202320575130f0c4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi Arabia restarts East-West oil pipeline, sources say",
-    "horodatage_utc": "2026-09-22T11:39:10+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/news/saudi-arabia-restarts-east-west-100845429.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "058cfcf97b2bea3e",
-    "categorie": "geopolitique",
-    "titre_affiche": "ING: Supply-Side Risks Stay Elevated Even as Oil Prices Pull Back",
-    "horodatage_utc": "2026-09-22T11:30:00+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://finance.yahoo.com/energy/articles/ing-supply-side-risks-stay-113000679.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e6c4b8b52b04076d",
-    "categorie": "geopolitique",
-    "titre_affiche": "12 S&P 500 Stocks Hit Trillion-Dollar Club — What Could Go Wrong?",
-    "horodatage_utc": "2026-09-22T11:28:11+00:00",
-    "source_nom": "Yahoo Finance",
-    "url_source": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-hit-trillion-dollar-club-what-could-go-wrong/?src=A00220&yptr=yahoo",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true

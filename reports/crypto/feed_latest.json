@@ -1,5 +1,36 @@
 [
   {
+    "id": "bec3cf75142cdb7f",
+    "categorie": "crypto",
+    "titre_affiche": "A week of AI coding cut a quantum-safe bitcoin transaction estimate from $320 to $66",
+    "horodatage_utc": "2026-09-24T05:24:56+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/24/a-week-of-ai-coding-cut-a-quantum-safe-bitcoin-transaction-estimate-from-usd320-to-usd66",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c35a4752337afeb3",
+    "categorie": "crypto",
+    "titre_affiche": "Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007",
+    "horodatage_utc": "2026-09-24T04:13:01+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/24/dogecoin-down-8-bitcoin-under-usd84-000-as-treasury-yields-hit-highest-level-since-2007",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, DOGE. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "DOGE"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "1c682a9ad5bed3f5",
     "categorie": "crypto",
     "titre_affiche": "‘BTC still has room to catch up’: Bitcoin’s $80,000 breakout draws institutional demand as analysts weigh durability",
@@ -1778,36 +1809,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e1c18379c5e89d80",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin production rebounds in August for BitFuFu, edges higher at CleanSpark as Canaan slips",
-    "horodatage_utc": "2026-09-14T18:01:35+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-14-bitcoin-production-rebounds-august-bitfufu-edges-higher-cleanspark-canaan-slips-414660",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "d14cff3cc3e2da88",
-    "categorie": "crypto",
-    "titre_affiche": "DeFi Development Corp expands Solana treasury to 2.39 million SOL, sets up $300 million CHAD ATM",
-    "horodatage_utc": "2026-09-14T14:40:16+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-14-defi-development-corp-expands-solana-treasury-2-39-million-sol-sets-300-million-chad-atm-414633",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
     ],
     "portee": "actif_direct",
     "nouveaute": false
