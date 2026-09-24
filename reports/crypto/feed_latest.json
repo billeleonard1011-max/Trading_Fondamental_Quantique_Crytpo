@@ -1,11 +1,41 @@
 [
   {
-    "id": "bec3cf75142cdb7f",
+    "id": "ab44f1e154cc50ed",
     "categorie": "crypto",
-    "titre_affiche": "A week of AI coding cut a quantum-safe bitcoin transaction estimate from $320 to $66",
-    "horodatage_utc": "2026-09-24T05:24:56+00:00",
+    "titre_affiche": "Solana Foundation hires Binance, Polygon veterans as it ramps up tokenized finance push",
+    "horodatage_utc": "2026-09-24T13:00:00+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/24/a-week-of-ai-coding-cut-a-quantum-safe-bitcoin-transaction-estimate-from-usd320-to-usd66",
+    "url_source": "https://www.coindesk.com/business/2026/09/24/solana-foundation-hires-binance-polygon-veterans-as-it-ramps-up-tokenized-finance-push",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "54eca5ce359b9e65",
+    "categorie": "crypto",
+    "titre_affiche": "Solana Foundation taps Binance, Polygon vets to drive institutional adoption and payments",
+    "horodatage_utc": "2026-09-24T13:00:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/ecosystems/2026-09-24-solana-foundation-taps-binance-polygon-vets-to-drive-institutional-adoption-and-payments-416254",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "52c74a87ec1d24a9",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin climbs from session lows as interest rates ease",
+    "horodatage_utc": "2026-09-24T11:20:12+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/24/live-updates-bitcoin-edges-lower-as-bond-yields-take-center-stage",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,17 +45,107 @@
     "nouveaute": true
   },
   {
+    "id": "1d4e0a928bdd63ff",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slides to $83,300 as bond yields hit highest level since 2007",
+    "horodatage_utc": "2026-09-24T10:30:28+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/24/bitcoin-steadies-near-usd84-000-after-bond-yields-hit-a-2007-high",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "da952826917b17ae",
+    "categorie": "crypto",
+    "titre_affiche": "Traders price in 4 Fed rate hikes by June 2027 as bitcoin slides below $83,000",
+    "horodatage_utc": "2026-09-24T10:11:51+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/24/traders-are-pricing-in-4-fed-rate-hikes-as-bitcoin-slides-below-usd83-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3ef6b60d1ac03789",
+    "categorie": "crypto",
+    "titre_affiche": "The data proves it: Bitcoin doesn't care about rising bond yields over long-term",
+    "horodatage_utc": "2026-09-24T09:48:09+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/24/the-data-proves-it-bitcoin-doesn-t-care-about-rising-bond-yields-over-long-term",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "bec3cf75142cdb7f",
+    "categorie": "crypto",
+    "titre_affiche": "A week of AI coding cut a quantum-safe bitcoin transaction estimate from $320 to $66",
+    "horodatage_utc": "2026-09-24T05:24:56+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/24/a-week-of-ai-coding-cut-a-quantum-safe-bitcoin-transaction-estimate-from-usd320-to-usd66",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "c35a4752337afeb3",
     "categorie": "crypto",
     "titre_affiche": "Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007",
     "horodatage_utc": "2026-09-24T04:13:01+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/24/dogecoin-down-8-bitcoin-under-usd84-000-as-treasury-yields-hit-highest-level-since-2007",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, DOGE. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "DOGE"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "d0dc724fbceb689c",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Eyes $90 , 000 After Strategy Buys 950 BTC",
+    "horodatage_utc": "2026-09-23T23:45:00+00:00",
+    "source_nom": "GDELT/memeburn.com",
+    "url_source": "https://memeburn.com/bitcoin-90k-strategy-btc-buy/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/memeburn.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d466ba034bb55cdf",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Cash Rallies 30 % Following CME Futures Announcement",
+    "horodatage_utc": "2026-09-23T21:30:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/bitcoin-cash-rallies-30-following-205441000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -1683,128 +1803,6 @@
     "horodatage_utc": "2026-09-15T10:41:35+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/15/bitcoin-gives-back-monday-s-gain-as-clarity-act-odds-fade-on-polymarket",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "72effab7f059490f",
-    "categorie": "crypto",
-    "titre_affiche": "Nigel Farage-backed Stack BTC plans to acquire a gold dealer for $16 million to fund bitcoin buy",
-    "horodatage_utc": "2026-09-15T10:06:40+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/15/nigel-farage-backed-stack-btc-eyes-usd16-million-gold-dealer-deal-to-fund-bitcoin-buy",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "be1ba202915dc84a",
-    "categorie": "crypto",
-    "titre_affiche": "Tonkeeper rebrands as Keeper with support for 7 networks, including Bitcoin and Ethereum",
-    "horodatage_utc": "2026-09-15T09:35:02+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-15-tonkeeper-rebrands-as-keeper-with-support-for-7-networks-including-bitcoin-and-ethereum-414807",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "2a6d96a204d2427e",
-    "categorie": "crypto",
-    "titre_affiche": "Zama expands confidential Morpho lineup after first vault hits $40 million, launches private swaps on Ethereum",
-    "horodatage_utc": "2026-09-15T07:05:03+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/defi/2026-09-15-zama-expands-confidential-morpho-lineup-after-first-vault-hits-40-million-launches-private-swaps-on-ethereum-414613",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f5858f1982bd7178",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act",
-    "horodatage_utc": "2026-09-15T06:37:24+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ebf7494553e18b68",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin slides to $76,000 ahead of Senate vote on Clarity Act",
-    "horodatage_utc": "2026-09-15T06:37:24+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "e795ac0d84fd0c13",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum, Base developers abandon effort to align account abstraction proposals",
-    "horodatage_utc": "2026-09-15T04:35:26+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-09-15-ethereum-base-account-abstraction-proposals-414775",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "eb546f909b1bcebf",
-    "categorie": "crypto",
-    "titre_affiche": "Solana transactions just got more than 3 times bigger, narrowing the gap with Ethereum",
-    "horodatage_utc": "2026-09-15T04:34:10+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/15/solana-transactions-just-got-more-than-3-times-bigger-giving-an-edge-over-ethereum",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH",
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "fcbde2bebe14a465",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
-    "horodatage_utc": "2026-09-15T03:23:28+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/15/bitcoin-slips-to-usd77-800-as-senate-clarity-act-vote-nears-and-oil-prices-climb",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
