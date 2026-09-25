@@ -1,15 +1,31 @@
 [
   {
-    "id": "c226b43d7be4e5de",
+    "id": "aa89d50ab894ddf0",
     "categorie": "geopolitique",
-    "titre_affiche": "Microsoft packages business AI in single app as it tries to compete with Anthropic",
-    "horodatage_utc": "2026-09-25T15:51:25+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/25/microsoft-copilot-ai-coding-anthropic.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "titre_affiche": "Houthis promise not to target European ships",
+    "horodatage_utc": "2026-09-25T19:03:34+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a255d9e6-ae6f-4b30-9ca6-b694663f547c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
-      "Actions et technologie"
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "38eab7dc133641ca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says Scott Bessent won't be AI czar",
+    "horodatage_utc": "2026-09-25T17:28:32+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/25/trump-bessent-ai-czar.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -18,13 +34,28 @@
     "id": "b67d9b8ef7315a91",
     "categorie": "geopolitique",
     "titre_affiche": "U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk",
-    "horodatage_utc": "2026-09-25T15:50:21+00:00",
+    "horodatage_utc": "2026-09-25T17:19:19+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "1365e3675ada3c9f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bond ructions point to new danger zone in markets",
+    "horodatage_utc": "2026-09-25T17:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4acbdc1f-d898-4966-b865-924470de0066?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -33,17 +64,63 @@
     "id": "f4ce5c7d75524d89",
     "categorie": "geopolitique",
     "titre_affiche": "US bond sell-off pushes long-term yields to new post-2004 high",
-    "horodatage_utc": "2026-09-25T15:37:02+00:00",
+    "horodatage_utc": "2026-09-25T16:47:47+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "7c6c157ecda06d8b",
+    "categorie": "geopolitique",
+    "titre_affiche": "US Supreme Court lets Trump vet voters’ immigration status",
+    "horodatage_utc": "2026-09-25T16:22:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/469c3f85-ee58-41ed-8289-33866a72549a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
+  },
+  {
+    "id": "6b434b6c3edac065",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran offers US new seven-day ceasefire proposal",
+    "horodatage_utc": "2026-09-25T16:16:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/917a9cba-6afd-4ba3-8742-2b7601ecc2ba?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "c226b43d7be4e5de",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft packages business AI in single app as it tries to compete with Anthropic",
+    "horodatage_utc": "2026-09-25T15:51:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/25/microsoft-copilot-ai-coding-anthropic.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "f4265247fe7328c1",
@@ -82,28 +159,13 @@
     "horodatage_utc": "2026-09-25T13:55:57+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/ad2f9563-7853-4a6a-b46c-fe6afeccbbc0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "aa89d50ab894ddf0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Houthis promise not to target European ships",
-    "horodatage_utc": "2026-09-25T12:47:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a255d9e6-ae6f-4b30-9ca6-b694663f547c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7c66df77f206103d",
@@ -127,13 +189,13 @@
     "horodatage_utc": "2026-09-25T12:39:30+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/25/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8da2d9b1c44d6118",
@@ -229,6 +291,22 @@
     "nouveaute": false
   },
   {
+    "id": "d9cbc021543913df",
+    "categorie": "geopolitique",
+    "titre_affiche": "Maga base recoils as Trump goes all-in on AI",
+    "horodatage_utc": "2026-09-25T04:00:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e8a815e6-a105-42ea-938e-352b8c8d5c3b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "458c784308483f88",
     "categorie": "geopolitique",
     "titre_affiche": "Pomp prevails over substance as Trump hosts Xi",
@@ -258,22 +336,6 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "6b434b6c3edac065",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran offers US new seven-day ceasefire proposal",
-    "horodatage_utc": "2026-09-25T02:17:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/917a9cba-6afd-4ba3-8742-2b7601ecc2ba?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   },
   {
     "id": "df32978debc4c372",
@@ -1756,66 +1818,6 @@
     "tickers_ou_themes_lies": [
       "Conflits et sécurité",
       "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "80f129599c45c59e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelensky diz que só vai a Moscovo num míssil – Observador",
-    "horodatage_utc": "2026-09-24T13:00:00+00:00",
-    "source_nom": "GDELT/observador.pt",
-    "url_source": "https://observador.pt/2026/09/24/zelensky-diz-que-so-vai-a-moscovo-num-missil-apos-convite-do-kremlin-peskov-nao-ve-declaracao-como-uma-recusa/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "da61966053d920a7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Analysts Say China 2026 Oil , Gas Demand Outlook Weakens | Peak Oil News and Message Boards",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/peakoil.com",
-    "url_source": "https://peakoil.com/consumption/analysts-say-china-2026-oil-gas-demand-outlook-weakens",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "52687aad776f5de7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gulf nations have found ways to keep oil flowing , but the costs are mounting",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/inquirer.com",
-    "url_source": "https://www.inquirer.com/news/nation-world/iran-war-oil-gas-prices-20260924.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "abb369e22ed1eae0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jimmy Kimmel Twists the Knife as Trump TV Tanks",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/thedailybeast.com",
-    "url_source": "https://www.thedailybeast.com/obsessed/jimmy-kimmel-twists-the-knife-as-trump-tv-flops/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
     ],
     "portee": "contexte",
     "nouveaute": true
