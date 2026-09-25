@@ -1,11 +1,41 @@
 [
   {
-    "id": "9a2940a21c7dcff9",
+    "id": "f11f6be24cf780c0",
     "categorie": "crypto",
-    "titre_affiche": "Altcoins rally across the board as bitcoin consolidates near $84,000",
-    "horodatage_utc": "2026-09-25T09:59:45+00:00",
+    "titre_affiche": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+    "horodatage_utc": "2026-09-25T14:41:53+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/25/altcoins-rally-across-the-board-as-bitcoin-consolidates-near-usd84-000",
+    "url_source": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "73b7d9dff9fa7dbc",
+    "categorie": "crypto",
+    "titre_affiche": "Tether confirms minimal EQIBank exposure following $89M US asset seizure",
+    "horodatage_utc": "2026-09-25T14:32:48+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "856e1f8d9eed7fa9",
+    "categorie": "crypto",
+    "titre_affiche": "Bond volatility surges while bitcoin and Wall Street stay calm",
+    "horodatage_utc": "2026-09-25T11:54:28+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +43,36 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "ab7e5bb722ce07ef",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin holders are cashing out, just not the way they did at prior market tops",
+    "horodatage_utc": "2026-09-25T11:29:04+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9a2940a21c7dcff9",
+    "categorie": "crypto",
+    "titre_affiche": "Altcoins rally across the board as bitcoin consolidates near $84,000",
+    "horodatage_utc": "2026-09-25T09:59:45+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/25/altcoins-rally-across-the-board-as-bitcoin-consolidates-near-usd84-000",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "a9a593741b75c115",
@@ -30,9 +90,39 @@
     "nouveaute": true
   },
   {
+    "id": "2f6cd69b40bee225",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit",
+    "horodatage_utc": "2026-09-25T09:13:01+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "8a236e5e52397b0f",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin steadies near $84,000 as the bond selloff pauses",
+    "horodatage_utc": "2026-09-25T07:09:11+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "01399ee959e2cdfb",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin reverses early gains; Saylor's Strategy moves toward daily dividends",
     "horodatage_utc": "2026-09-25T07:09:11+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
@@ -1719,95 +1809,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "8071de75c1e2fb5d",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin loses touch with the Dollar Index, U.S. stocks ahead of the Fed",
-    "horodatage_utc": "2026-09-16T11:16:51+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/09/16/bitcoin-loses-touch-with-the-dollar-index-u-s-stocks-ahead-of-the-fed",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "38ff91a681b10a7a",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin traders brace for Fed hike, but a surprise hold could pose bigger risk",
-    "horodatage_utc": "2026-09-16T11:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/15/bitcoin-traders-brace-for-fed-hike-but-a-surprise-hold-could-pose-bigger-risk",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3e97185e4e0e2f81",
-    "categorie": "crypto",
-    "titre_affiche": "Two Prime makes onchain finance push with $10 million-backed bitcoin yield vault",
-    "horodatage_utc": "2026-09-16T11:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/15/two-prime-makes-onchain-finance-push-with-usd10-million-backed-bitcoin-yield-vault",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4a02c4d31fc126da",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs shed $450 million as Clarity Act fails",
-    "horodatage_utc": "2026-09-16T10:48:44+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/16/bitcoin-etfs-shed-usd450-million-as-clarity-act-fails",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "0c3b72ffd43da713",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin holds near $76,000 as traders brace for first Fed rate hike in three years",
-    "horodatage_utc": "2026-09-16T10:37:46+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/16/live-updates-zcash-climbs-6-as-majors-slide-ahead-of-fed-rate-decision",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "cfa1571dd3f7ee9c",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin slips as Fed hikes rates and suggests more to come",
-    "horodatage_utc": "2026-09-16T10:37:46+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/16/live-updates-zcash-climbs-6-as-majors-slide-ahead-of-fed-rate-decision",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]

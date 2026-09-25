@@ -1,14 +1,151 @@
 [
   {
+    "id": "c226b43d7be4e5de",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft packages business AI in single app as it tries to compete with Anthropic",
+    "horodatage_utc": "2026-09-25T15:51:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/25/microsoft-copilot-ai-coding-anthropic.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b67d9b8ef7315a91",
+    "categorie": "geopolitique",
+    "titre_affiche": "U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk",
+    "horodatage_utc": "2026-09-25T15:50:21+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f4ce5c7d75524d89",
+    "categorie": "geopolitique",
+    "titre_affiche": "US bond sell-off pushes long-term yields to new post-2004 high",
+    "horodatage_utc": "2026-09-25T15:37:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "f4265247fe7328c1",
     "categorie": "geopolitique",
     "titre_affiche": "Trump and Xi dined with AI's biggest names. Here's what we know about tech talks so far",
-    "horodatage_utc": "2026-09-25T11:10:43+00:00",
+    "horodatage_utc": "2026-09-25T14:43:23+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/25/the-tech-download-trump-xi-ai-talks.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "49083d4be2d01db0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Here's who attended the Trump-Xi state dinner",
+    "horodatage_utc": "2026-09-25T14:41:24+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "bba79e850e0aace7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Private equity-backed Florida railway Brightline files for bankruptcy",
+    "horodatage_utc": "2026-09-25T13:55:57+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ad2f9563-7853-4a6a-b46c-fe6afeccbbc0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "aa89d50ab894ddf0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Houthis promise not to target European ships",
+    "horodatage_utc": "2026-09-25T12:47:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a255d9e6-ae6f-4b30-9ca6-b694663f547c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7c66df77f206103d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bitget crypto exchange hit by $350mn hack",
+    "horodatage_utc": "2026-09-25T12:46:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/14aed3cb-492e-45c1-b217-869790b6130d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b73ce2d9b28c3dc4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Yields keep rising, Novo's tough week, why cat product sales are surging and more in Morning Squawk",
+    "horodatage_utc": "2026-09-25T12:39:30+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/25/5-things-to-know-before-the-stock-market-opens.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8da2d9b1c44d6118",
+    "categorie": "geopolitique",
+    "titre_affiche": "Former US intelligence chief Avril Haines: ‘Trump trusts his gut more than the expertise’",
+    "horodatage_utc": "2026-09-25T12:00:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8f1030c3-9ad0-45b2-86bf-71d8dec27be4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
@@ -36,29 +173,14 @@
     "horodatage_utc": "2026-09-25T09:58:58+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/1477567d-64b0-431a-b707-e2a4f5a9f8dc?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "49083d4be2d01db0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Here's who attended the Trump-Xi state dinner",
-    "horodatage_utc": "2026-09-25T06:30:06+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f0e214ab018f0670",
@@ -136,6 +258,22 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "6b434b6c3edac065",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran offers US new seven-day ceasefire proposal",
+    "horodatage_utc": "2026-09-25T02:17:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/917a9cba-6afd-4ba3-8742-2b7601ecc2ba?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "df32978debc4c372",
@@ -1681,143 +1819,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "5abe0b9def6a54e0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Brent Oil Could Skyrocket Past $150 If Wars Continue . Bank of America Warns Supply Crunch Could Last Into 2027 .",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/ibtimes.com",
-    "url_source": "https://www.ibtimes.com/brent-oil-could-skyrocket-past-150-if-wars-continue-bank-america-warns-supply-crunch-could-last-3807772",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "afa10cf72e6a40c5",
-    "categorie": "geopolitique",
-    "titre_affiche": "We Now Know the Word That Going to Bury Donald Trump This November",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/newrepublic.com",
-    "url_source": "https://newrepublic.com/article/215784/diesel-gas-prices-bury-trump-midterm-elections",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "9adf491d7618470a",
-    "categorie": "geopolitique",
-    "titre_affiche": "EU grid power struggle : capitals push back against Brussels tariff rules",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/euronews.com",
-    "url_source": "https://www.euronews.com/2026/09/24/eu-grid-power-struggle-capitals-push-back-against-brussels-tariff-rules",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b0fd3da68c249f6c",
-    "categorie": "geopolitique",
-    "titre_affiche": "From Najaf to Hormuz : The forty - seven - year road that brought Iran revolution to the Gulf doorstep – Middle East Monitor",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/middleeastmonitor.com",
-    "url_source": "https://www.middleeastmonitor.com/20260924-from-najaf-to-hormuz-the-forty-seven-year-road-that-brought-irans-revolution-to-the-gulfs-doorstep/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bbdcba69327bd4f4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump TV Has So Few Viewers It Being Beaten by a Box Fan",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/thedailybeast.com",
-    "url_source": "https://www.thedailybeast.com/trump-tv-less-popular-than-a-black-screen-as-viewers-flee/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "8d9c112db7c89d20",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Warns US : War Could Reach Indian Ocean If Trump Attacks Again",
-    "horodatage_utc": "2026-09-24T12:30:00+00:00",
-    "source_nom": "GDELT/oneindia.com",
-    "url_source": "https://www.oneindia.com/international/iran-warns-us-war-could-reach-indian-ocean-if-trump-attacks-again-8214545.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "84bcb01ce0679262",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it",
-    "horodatage_utc": "2026-09-24T12:27:11+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "26f5e262601e09f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Palo Alto CEO says slowing down AI is ‘unrealistic’, extinction threat ‘extremely small’",
-    "horodatage_utc": "2026-09-24T12:24:37+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/24/palo-alto-networks-nikesh-arora-ai-slowdown.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ae679bff8c2cb9f9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lowe's is launching a drone delivery service in partnership with DoorDash, Alphabet",
-    "horodatage_utc": "2026-09-24T12:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/24/lowes-drones-delivery-doordash-alphabet.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Conflits et sécurité"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
