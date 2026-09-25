@@ -1,5 +1,50 @@
 [
   {
+    "id": "e2aca9e7860b7cfe",
+    "categorie": "quantique",
+    "titre_affiche": "Infleqtion Achieves 30 Entangled Logical Qubits on Sqale Neutral-Atom Quantum Processor",
+    "horodatage_utc": "2026-09-25T06:26:28+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/infleqtion-achieves-30-entangled-logical-qubits-on-sqale-neutral-atom-quantum-processor/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Infleqtion"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c6c34bf186b964f1",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Demonstrates Quantum Generative Modeling Advantage for High-Resolution Satellite Radar Change Detection",
+    "horodatage_utc": "2026-09-25T05:38:38+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-demonstrates-quantum-generative-modeling-advantage-for-high-resolution-satellite-radar-change-detection/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "79967eb4349a96fb",
+    "categorie": "quantique",
+    "titre_affiche": "Florida International University Contracts IonQ for On-Premises Superion 256 Trapped-Ion Quantum Computer",
+    "horodatage_utc": "2026-09-25T05:29:20+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/florida-international-university-contracts-ionq-for-on-premises-superion-256-trapped-ion-quantum-computer/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "0addc18f33b6fd8f",
     "categorie": "quantique",
     "titre_affiche": "D - Wave Quantum ( NYSE : QBTS ) Secures $100M In CHIPS Act Funding While Landing AT & T And NTT DOCOMO Deals",
