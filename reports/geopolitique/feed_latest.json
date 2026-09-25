@@ -1,5 +1,51 @@
 [
   {
+    "id": "39787551e5b616ae",
+    "categorie": "geopolitique",
+    "titre_affiche": "Here's who is attending the Trump-Xi state dinner",
+    "horodatage_utc": "2026-09-25T00:22:31+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b851b83ae4e87827",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran offers US new ‘7-day’ ceasefire proposal",
+    "horodatage_utc": "2026-09-25T00:08:46+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/917a9cba-6afd-4ba3-8742-2b7601ecc2ba?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "df32978debc4c372",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla poised to scale production of heavy-duty Semi trucks with opening of Nevada factory",
+    "horodatage_utc": "2026-09-24T22:41:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/24/tesla-aims-to-scale-semi-truck-production-with-nevada-factory-opening.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "c301787823c802f3",
     "categorie": "geopolitique",
     "titre_affiche": "Shale oil magnate says Exxon chief ‘threw me under the bus’ after $60bn takeover",
@@ -345,7 +391,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c6290b09ed77928a",
@@ -589,7 +635,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dc0cf54edbec91c0",
@@ -725,7 +771,7 @@
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f66fb0341de07201",
@@ -892,6 +938,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
+  },
+  {
+    "id": "dcb94063db6c1c18",
+    "categorie": "geopolitique",
+    "titre_affiche": "UAE halts Iranian flights over US sanctions",
+    "horodatage_utc": "2026-09-24T15:41:55+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0c5da9f2-f6aa-4514-910d-5337207e1233?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "3b2ad53a04d28f1b",
@@ -1759,65 +1820,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "6a6b3ddafe31a540",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold - Stratege Stöferle : Gold ist weiterhin extrem günstig",
-    "horodatage_utc": "2026-09-24T08:45:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/ratgeber/news/gold-stratege-stoeferle-gold-ist-weiterhin-extrem-guenstig-24-09-2026-01/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "93650903a37a78b4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Global bond sell-off spreads as oil holds above $100",
-    "horodatage_utc": "2026-09-24T08:24:34+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2d87f8bf-d529-4997-90c5-393ef65d280c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d28e7dcc470be6aa",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kazakhstan GDP grows 29 % to $306B over seven years",
-    "horodatage_utc": "2026-09-24T07:45:00+00:00",
-    "source_nom": "GDELT/trend.az",
-    "url_source": "https://www.trend.az/casia/kazakhstan/4227327.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1ecb15c1031bf933",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold rises despite Fed rate hike as real - yield link weakens , central - bank buying accelerates : Monarch PMS",
-    "horodatage_utc": "2026-09-24T07:30:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/mf/mf-news/gold-rises-despite-fed-rate-hike-as-real-yield-link-weakens-central-bank-buying-accelerates-monarch-pms/articleshow/134454278.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
