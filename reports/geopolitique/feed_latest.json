@@ -1,5 +1,67 @@
 [
   {
+    "id": "4e62f541ce9d5bf6",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI says governments among ‘dozens’ of organisations hacked by its agents",
+    "horodatage_utc": "2026-09-25T22:18:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/651024b1-d1ce-40c1-acae-a92c3505d3f1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cf24000da99320fb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
+    "horodatage_utc": "2026-09-25T20:30:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f8df1eaebad0cd0e",
+    "categorie": "geopolitique",
+    "titre_affiche": "US bond sell-off pushes long-term yields to highest since 2004",
+    "horodatage_utc": "2026-09-25T20:24:38+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d76a516203637018",
+    "categorie": "geopolitique",
+    "titre_affiche": "Soaring bond yields ‘not even close’ to cooling red-hot US economy, investors say",
+    "horodatage_utc": "2026-09-25T20:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bcf0715b-4292-428e-80ec-e6702d430aa4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "aa89d50ab894ddf0",
     "categorie": "geopolitique",
     "titre_affiche": "Houthis promise not to target European ships",
@@ -21,14 +83,14 @@
     "horodatage_utc": "2026-09-25T17:28:32+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/25/trump-bessent-ai-czar.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b67d9b8ef7315a91",
@@ -52,13 +114,13 @@
     "horodatage_utc": "2026-09-25T17:00:09+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/4acbdc1f-d898-4966-b865-924470de0066?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f4ce5c7d75524d89",
@@ -83,13 +145,13 @@
     "horodatage_utc": "2026-09-25T16:22:36+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/469c3f85-ee58-41ed-8289-33866a72549a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6b434b6c3edac065",
@@ -297,14 +359,14 @@
     "horodatage_utc": "2026-09-25T04:00:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e8a815e6-a105-42ea-938e-352b8c8d5c3b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "458c784308483f88",
@@ -1759,67 +1821,5 @@
     ],
     "portee": "contexte",
     "nouveaute": false
-  },
-  {
-    "id": "9d7175d29239b26a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Xi arrives in D.C., Treasury yields hit multiyear highs, McDonald's growth plan and more in Morning Squawk",
-    "horodatage_utc": "2026-09-24T13:00:04+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/24/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "51a011b97d396369",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sensex , Nifty Crash ! Why Indian Stock Market Fell Sharply Today",
-    "horodatage_utc": "2026-09-24T13:00:00+00:00",
-    "source_nom": "GDELT/pragativadi.com",
-    "url_source": "https://pragativadi.com/sensex-nifty-crash-why-indian-stock-market-fell-sharply-today/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6139b1b22e57aceb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Army chief : President Pezeshkians UN speech manifested steadfastness of Iran",
-    "horodatage_utc": "2026-09-24T13:00:00+00:00",
-    "source_nom": "GDELT/presstv.co.uk",
-    "url_source": "https://www.presstv.co.uk/Detail/2026/09/24/776916/Iran-Army-Hatami-Pezeshkian-UN",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fd01f75630f7f7fe",
-    "categorie": "geopolitique",
-    "titre_affiche": "La UE condenará la invasión de Ucrania en el G20 | Noticias La Tribuna de Toledo",
-    "horodatage_utc": "2026-09-24T13:00:00+00:00",
-    "source_nom": "GDELT/latribunadetoledo.es",
-    "url_source": "https://www.latribunadetoledo.es/noticia/zfb656e6c-38dd-47a6-abb5134a298e96b5/202609/la-ue-condenara-la-invasion-de-ucrania-en-el-g20",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]
