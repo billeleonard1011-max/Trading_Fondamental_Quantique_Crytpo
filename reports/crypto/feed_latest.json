@@ -1,5 +1,20 @@
 [
   {
+    "id": "90a2ae88fd62660a",
+    "categorie": "crypto",
+    "titre_affiche": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+    "horodatage_utc": "2026-09-26T13:00:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "82a9e897e80c89b9",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
@@ -1786,21 +1801,6 @@
     "horodatage_utc": "2026-09-17T07:27:07+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/17/u-s-diesel-prices-hit-record-high-as-bitcoin-and-gold-struggle",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "162fb338d47b784a",
-    "categorie": "crypto",
-    "titre_affiche": "Zcash jumps 23% as bitcoin and major tokens rise despite Fed’s first hike since 2023",
-    "horodatage_utc": "2026-09-17T04:47:27+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/17/zcash-jumps-23-as-bitcoin-and-major-tokens-rise-despite-fed-s-first-hike-since-2023",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

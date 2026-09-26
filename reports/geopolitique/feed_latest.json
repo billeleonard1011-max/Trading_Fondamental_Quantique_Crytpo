@@ -1,11 +1,27 @@
 [
   {
-    "id": "b16d380a60811e60",
+    "id": "708bd012731d8115",
     "categorie": "geopolitique",
-    "titre_affiche": "China wants in on U.S. AI data center boom. Here's why",
-    "horodatage_utc": "2026-09-26T12:00:01+00:00",
+    "titre_affiche": "Meta and Microsoft led tech stocks higher last week despite soaring bond yields",
+    "horodatage_utc": "2026-09-26T16:21:31+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/26/china-us-ai-data-centers.html",
+    "url_source": "https://www.cnbc.com/2026/09/26/meta-microsoft-led-tech-higher-this-week-despite-soaring-bond-yields.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "78e88e595c8f5dbd",
+    "categorie": "geopolitique",
+    "titre_affiche": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
+    "horodatage_utc": "2026-09-26T14:16:07+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,19 +31,66 @@
     "nouveaute": true
   },
   {
+    "id": "881c911b69863e63",
+    "categorie": "geopolitique",
+    "titre_affiche": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+    "horodatage_utc": "2026-09-26T13:30:06+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9da7c4f75940da69",
+    "categorie": "geopolitique",
+    "titre_affiche": "Manchester City verdict poses latest test to UK-UAE relations",
+    "horodatage_utc": "2026-09-26T12:34:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/36fd2644-9d0e-40b5-8a7a-ef33f302e652?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b16d380a60811e60",
+    "categorie": "geopolitique",
+    "titre_affiche": "China wants in on U.S. AI data center boom. Here's why",
+    "horodatage_utc": "2026-09-26T12:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/26/china-us-ai-data-centers.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "fb2876a0b99ea241",
     "categorie": "geopolitique",
     "titre_affiche": "Hackers hijack AI accounts and servers to fuel new cyber crime boom",
     "horodatage_utc": "2026-09-26T10:00:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3f406fbe-b72e-488f-9975-5b94e95dfe32?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f08784c3869aac1c",
@@ -81,13 +144,13 @@
     "horodatage_utc": "2026-09-26T04:00:32+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e6856a1a-77e4-42b5-bcd8-f91973ca9755?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4e62f541ce9d5bf6",
@@ -1753,66 +1816,6 @@
     "horodatage_utc": "2026-09-24T13:30:00+00:00",
     "source_nom": "GDELT/wjcl.com",
     "url_source": "https://www.wjcl.com/article/russian-strikes-ukraine-un-debates/73865641",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d1b6a1af9397fd8a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Danijos žvalgyba : Rusijos invazija į NATO šalis mažai tikėtina , bet neatmetama",
-    "horodatage_utc": "2026-09-24T13:30:00+00:00",
-    "source_nom": "GDELT/lrt.lt",
-    "url_source": "https://www.lrt.lt/naujienos/pasaulyje/6/3062218/danijos-zvalgyba-rusijos-invazija-i-nato-salis-mazai-tiketina-bet-neatmetama",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "364ae6680dd908f9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Raport duńskiego wywiadu wojskowego : Rosja może zaatakować kraj NATO w czasie trwającej wojny",
-    "horodatage_utc": "2026-09-24T13:30:00+00:00",
-    "source_nom": "GDELT/rp.pl",
-    "url_source": "https://www.rp.pl/konflikty-zbrojne/art45186811-dania-nie-wyklucza-ataku-rosji-na-panstwo-nato-to-jest-nowosc",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "357b17c4ebd46d47",
-    "categorie": "geopolitique",
-    "titre_affiche": "How Trump is unintentionally helping the world climate",
-    "horodatage_utc": "2026-09-24T13:30:00+00:00",
-    "source_nom": "GDELT/adn.com",
-    "url_source": "https://www.adn.com/nation-world/2026/09/24/how-trump-is-unintentionally-helping-the-worlds-climate/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "0af63cf99ee167fb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kremlin Says Invitation to Moscow Still Stands After Zelensky Told Hed Get There On a Rocket",
-    "horodatage_utc": "2026-09-24T13:30:00+00:00",
-    "source_nom": "GDELT/kyivpost.com",
-    "url_source": "https://www.kyivpost.com/post/85335",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
