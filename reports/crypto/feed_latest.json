@@ -1,33 +1,33 @@
 [
   {
+    "id": "82a9e897e80c89b9",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
+    "horodatage_utc": "2026-09-26T12:00:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "e5f467a1814688e2",
     "categorie": "crypto",
     "titre_affiche": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
     "horodatage_utc": "2026-09-26T05:00:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "82a9e897e80c89b9",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-    "horodatage_utc": "2026-09-26T04:02:13+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f11f6be24cf780c0",
