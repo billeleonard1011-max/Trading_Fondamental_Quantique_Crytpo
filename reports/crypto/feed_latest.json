@@ -1,5 +1,35 @@
 [
   {
+    "id": "e5f467a1814688e2",
+    "categorie": "crypto",
+    "titre_affiche": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
+    "horodatage_utc": "2026-09-26T05:00:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "82a9e897e80c89b9",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
+    "horodatage_utc": "2026-09-26T04:02:13+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "f11f6be24cf780c0",
     "categorie": "crypto",
     "titre_affiche": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
@@ -1775,37 +1805,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "dff20516e5a30b25",
-    "categorie": "crypto",
-    "titre_affiche": "House committee moves to codify Trump’s Strategic Bitcoin Reserve",
-    "horodatage_utc": "2026-09-17T00:56:10+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/regulation/2026-09-16-house-committee-moves-bitcoin-reserve-bill-415317",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "174e78e12dc8abfe",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin, ether swing after unanimous quarter-point Fed rate hike as Warsh takes aim at inflation",
-    "horodatage_utc": "2026-09-16T20:02:16+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-16-bitcoin-ether-swing-unanimous-quarter-point-fed-rate-hike-warsh-aim-inflation-415307",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": false
