@@ -1,58 +1,26 @@
 [
   {
-    "id": "708bd012731d8115",
+    "id": "c91e8804a59b928f",
     "categorie": "geopolitique",
-    "titre_affiche": "Meta and Microsoft led tech stocks higher last week despite soaring bond yields",
-    "horodatage_utc": "2026-09-26T16:21:31+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/26/meta-microsoft-led-tech-higher-this-week-despite-soaring-bond-yields.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "78e88e595c8f5dbd",
-    "categorie": "geopolitique",
-    "titre_affiche": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
-    "horodatage_utc": "2026-09-26T14:16:07+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "881c911b69863e63",
-    "categorie": "geopolitique",
-    "titre_affiche": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
-    "horodatage_utc": "2026-09-26T13:30:06+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9da7c4f75940da69",
-    "categorie": "geopolitique",
-    "titre_affiche": "Manchester City verdict poses latest test to UK-UAE relations",
-    "horodatage_utc": "2026-09-26T12:34:15+00:00",
+    "titre_affiche": "German and Russian foreign ministers meet for first time in over four years",
+    "horodatage_utc": "2026-09-26T19:01:46+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/36fd2644-9d0e-40b5-8a7a-ef33f302e652?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/ec92933f-7147-410e-8ade-ab09add476a7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9b4c175a521516e8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump and Xi to meet twice more after summit fails to resolve tensions",
+    "horodatage_utc": "2026-09-26T18:42:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bd99d372-d3d1-4972-a3fe-1bed8f71e14c?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -61,6 +29,100 @@
     ],
     "portee": "contexte",
     "nouveaute": true
+  },
+  {
+    "id": "67ac2a5b831bd5ef",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI expands review of model behavior after more rogue agent incidents emerge",
+    "horodatage_utc": "2026-09-26T17:10:32+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "bdae4830d572097c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump rejects Iran’s ceasefire proposal to reopen Strait of Hormuz",
+    "horodatage_utc": "2026-09-26T17:01:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4d71acf8-dda7-475e-88c5-5351f0176558?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "708bd012731d8115",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meta and Microsoft led tech stocks higher last week despite soaring bond yields",
+    "horodatage_utc": "2026-09-26T16:21:31+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/26/meta-microsoft-led-tech-higher-this-week-despite-soaring-bond-yields.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "78e88e595c8f5dbd",
+    "categorie": "geopolitique",
+    "titre_affiche": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
+    "horodatage_utc": "2026-09-26T14:16:07+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "881c911b69863e63",
+    "categorie": "geopolitique",
+    "titre_affiche": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+    "horodatage_utc": "2026-09-26T13:30:06+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "9da7c4f75940da69",
+    "categorie": "geopolitique",
+    "titre_affiche": "Manchester City verdict poses latest test to UK-UAE relations",
+    "horodatage_utc": "2026-09-26T12:34:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/36fd2644-9d0e-40b5-8a7a-ef33f302e652?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
   },
   {
     "id": "b16d380a60811e60",
@@ -91,6 +153,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "298ca9dc71fff862",
+    "categorie": "geopolitique",
+    "titre_affiche": "Medicines run short in Iran under US sanctions",
+    "horodatage_utc": "2026-09-26T07:15:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fb890a8d-f530-497e-8486-27186ee66b9b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "f08784c3869aac1c",
@@ -1740,82 +1817,6 @@
     "horodatage_utc": "2026-09-24T13:45:00+00:00",
     "source_nom": "GDELT/globalsecurity.org",
     "url_source": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260923-ukraine-mfa03.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2e161a0a3303798f",
-    "categorie": "geopolitique",
-    "titre_affiche": "State of emergency declared for Ohio flooding impact zones | Local",
-    "horodatage_utc": "2026-09-24T13:45:00+00:00",
-    "source_nom": "GDELT/daytondailynews.com",
-    "url_source": "https://www.daytondailynews.com/local/morning-briefing-murder-trial-caleb-flynn-s-mistress-takes-stand/article_6d6707b6-6e96-5c56-9c21-859496639bb7.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d9df0100f122e452",
-    "categorie": "geopolitique",
-    "titre_affiche": "AFGHANISTAN - KHOST - PAKISTANI AIRSTRIKES - AFTERMATH",
-    "horodatage_utc": "2026-09-24T13:45:00+00:00",
-    "source_nom": "GDELT/afghanistansun.com",
-    "url_source": "http://www.afghanistansun.com/news/279328635/afghanistan-khost-pakistani-airstrikes-aftermath",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "ae2e8969d229d1bb",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI says agent hacked Australian government website without being told to do so",
-    "horodatage_utc": "2026-09-24T13:32:14+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c55f52399dc9831e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran , US Remain Far Apart Despite Renewed Talks",
-    "horodatage_utc": "2026-09-24T13:30:00+00:00",
-    "source_nom": "GDELT/middleeaststar.com",
-    "url_source": "http://www.middleeaststar.com/news/279327991/iran-us-remain-far-apart-despite-renewed-talks",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c843848d1a4866f9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russian strikes kill 8 in Ukraine as the UN debates how to end the war",
-    "horodatage_utc": "2026-09-24T13:30:00+00:00",
-    "source_nom": "GDELT/wjcl.com",
-    "url_source": "https://www.wjcl.com/article/russian-strikes-ukraine-un-debates/73865641",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
