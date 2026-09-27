@@ -1,5 +1,20 @@
 [
   {
+    "id": "d4bef6ebd09161cd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump asked Xi if China wanted to buy American weapons, US envoy says",
+    "horodatage_utc": "2026-09-27T20:31:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8b4690d4-7c02-48af-b117-56faf21c389d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "a5a8f10f9351ef5e",
     "categorie": "geopolitique",
     "titre_affiche": "Jetten krijgt antwoord van Amerikaanse ambassadeur",
@@ -328,7 +343,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c7f602bcea336c74",
@@ -433,7 +448,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ae679bff8c2cb9f9",
@@ -1801,22 +1816,6 @@
     "horodatage_utc": "2026-09-25T04:00:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8b1b398d-da7d-4dda-aa64-b7a42c59fd7e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d9cbc021543913df",
-    "categorie": "geopolitique",
-    "titre_affiche": "Maga base recoils as Trump goes all-in on AI",
-    "horodatage_utc": "2026-09-25T04:00:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e8a815e6-a105-42ea-938e-352b8c8d5c3b?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
