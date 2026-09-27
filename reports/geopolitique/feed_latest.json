@@ -1,17 +1,47 @@
 [
   {
+    "id": "646bb4a0a6b42f7b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Terrorism arrests made in ‘major incident’ near RAF Fairford",
+    "horodatage_utc": "2026-09-27T16:47:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/875027a3-db29-40a6-b17c-fa97c30fd07b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "eff81c1c62655838",
     "categorie": "geopolitique",
     "titre_affiche": "Debt-hungry AI companies face increased risk as bond yields spike",
-    "horodatage_utc": "2026-09-27T11:00:01+00:00",
+    "horodatage_utc": "2026-09-27T15:35:34+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "18302115d9d74cd1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meta's Muse agent is attacking one of the economy's most profitable weak spots",
+    "horodatage_utc": "2026-09-27T14:33:22+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/27/meta-muse-ai-personal-agent.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -1800,35 +1830,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "dc0cf54edbec91c0",
-    "categorie": "geopolitique",
-    "titre_affiche": "World News : US and Iran discuss phased deal to reopen Hormuz and end US blockade , sources say",
-    "horodatage_utc": "2026-09-24T20:00:00+00:00",
-    "source_nom": "GDELT/gdnonline.com",
-    "url_source": "https://www.gdnonline.com:443/Details/1407575",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "58266c4a07bb9c77",
-    "categorie": "geopolitique",
-    "titre_affiche": "Super Intelligence will be a big topic : Trump ahead of bilateral talks with Xi",
-    "horodatage_utc": "2026-09-24T20:00:00+00:00",
-    "source_nom": "GDELT/beijingbulletin.com",
-    "url_source": "http://www.beijingbulletin.com/news/279329298/super-intelligence-will-be-a-big-topic-trump-ahead-of-bilateral-talks-with-xi",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]
