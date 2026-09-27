@@ -1,5 +1,20 @@
 [
   {
+    "id": "13206f7cc3b2947d",
+    "categorie": "quantique",
+    "titre_affiche": "Intchains Group ( NASDAQ : ICG ) and IonQ ( NYSE : IONQ ) Head to Head Review",
+    "horodatage_utc": "2026-09-27T08:30:00+00:00",
+    "source_nom": "GDELT/dailypolitical.com",
+    "url_source": "https://www.dailypolitical.com/2026/09/27/intchains-group-nasdaqicg-and-ionq-nyseionq-head-to-head-review.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailypolitical.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "49da0dc3bc01b616",
     "categorie": "quantique",
     "titre_affiche": "Who’s News: Strategic Appointments at D-Wave Quantum, Oxford Quantum Circuits, and Bifrost Electronics",
