@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-09-27T08:30:00+00:00",
     "source_nom": "GDELT/dailypolitical.com",
     "url_source": "https://www.dailypolitical.com/2026/09/27/intchains-group-nasdaqicg-and-ionq-nyseionq-head-to-head-review.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/dailypolitical.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "49da0dc3bc01b616",
