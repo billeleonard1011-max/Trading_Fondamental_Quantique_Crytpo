@@ -1,28 +1,13 @@
 [
   {
-    "id": "793c07400721b3a6",
+    "id": "c087fd720abf6d81",
     "categorie": "crypto",
-    "titre_affiche": "Tether is a ‘lifeline’ for Iranian regime, Senate Dems say in new report",
-    "horodatage_utc": "2026-09-28T16:16:40+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/policy/2026/09/28/tether-is-a-lifeline-for-iranian-regime-senate-dems-say-in-new-report",
+    "titre_affiche": "Why Does the Price of Bitcoin Keep Going Up ? The Answer Might Surprise You .",
+    "horodatage_utc": "2026-09-28T22:15:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/09/28/why-does-the-price-of-bitcoin-keep-going-up/?source=iedfolrf0000001",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "5766ae2727738906",
-    "categorie": "crypto",
-    "titre_affiche": "Strive pushes bitcoin holdings above 27,400 BTC with latest $94.5 million purchase",
-    "horodatage_utc": "2026-09-28T16:00:33+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-28-strive-pushes-bitcoin-holdings-above-27400-btc-latest-94-5-million-purchase-417035",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -30,12 +15,27 @@
     "nouveaute": true
   },
   {
-    "id": "3a6c6123722ae654",
+    "id": "014b41cae713262d",
     "categorie": "crypto",
-    "titre_affiche": "Tom Lee’s Bitmine tops 6 million ETH after buying another 17,362 ether",
-    "horodatage_utc": "2026-09-28T13:39:06+00:00",
+    "titre_affiche": "Bitcoin ETFs Are Seeing Their Biggest Inflows Since October 2025 . Is Bitcoin Finally Back ?",
+    "horodatage_utc": "2026-09-28T22:15:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/09/28/bitcoin-etfs-are-seeing-their-biggest-inflows-sinc/?source=iedfolrf0000001",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ebea9aca7221349c",
+    "categorie": "crypto",
+    "titre_affiche": "Tether’s USDT at center of Iran’s shadow banking network, new Senate Report says",
+    "horodatage_utc": "2026-09-28T19:10:42+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-28-tom-lees-bitmine-tops-6-million-eth-after-buying-another-17362-ether-416989",
+    "url_source": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -45,19 +45,64 @@
     "nouveaute": true
   },
   {
+    "id": "793c07400721b3a6",
+    "categorie": "crypto",
+    "titre_affiche": "Tether is a ‘lifeline’ for Iranian regime, Senate Dems say in new report",
+    "horodatage_utc": "2026-09-28T16:16:40+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/policy/2026/09/28/tether-is-a-lifeline-for-iranian-regime-senate-dems-say-in-new-report",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "5766ae2727738906",
+    "categorie": "crypto",
+    "titre_affiche": "Strive pushes bitcoin holdings above 27,400 BTC with latest $94.5 million purchase",
+    "horodatage_utc": "2026-09-28T16:00:33+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-09-28-strive-pushes-bitcoin-holdings-above-27400-btc-latest-94-5-million-purchase-417035",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "3a6c6123722ae654",
+    "categorie": "crypto",
+    "titre_affiche": "Tom Lee’s Bitmine tops 6 million ETH after buying another 17,362 ether",
+    "horodatage_utc": "2026-09-28T13:39:06+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-09-28-tom-lees-bitmine-tops-6-million-eth-after-buying-another-17362-ether-416989",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "f30057b277ff8739",
     "categorie": "crypto",
     "titre_affiche": "Chainlink launches new version of its crypto bridge tech 'CCIP' to give apps more control over their security",
     "horodatage_utc": "2026-09-28T12:30:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : LINK. Le cours de LINK varie de 0.30385 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "LINK"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c57978a393002359",
@@ -66,13 +111,13 @@
     "horodatage_utc": "2026-09-28T12:13:09+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/09/28/thorchain-rejects-bitget-request-to-block-hacker-as-usd6-million-moves-to-bitcoin",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "788b997e56f55e39",
@@ -81,13 +126,13 @@
     "horodatage_utc": "2026-09-28T12:11:11+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-09-28-even-more-orange-michael-saylor-strategy-bitcoin-416976",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "570c955801d19b9d",
@@ -96,6 +141,21 @@
     "horodatage_utc": "2026-09-28T10:15:04+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/28/bitcoin-falls-to-usd83-000-while-altcoins-unwind-friday-s-rally",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "8afca532516f2d71",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin slips back to $83,000 as bond yields surge to new cycle highs",
+    "horodatage_utc": "2026-09-28T10:02:37+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/09/28/live-updates-bitcoin-sinks-below-usd83-000-as-iran-talks-stall-and-oil-climbs",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -105,9 +165,9 @@
     "nouveaute": true
   },
   {
-    "id": "8afca532516f2d71",
+    "id": "e404f403a301fe30",
     "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin slips back to $83,000 as bond yields surge to new cycle highs",
+    "titre_affiche": "Live updates: Bitcoin remains under pressure as Iran denies report of peace progress",
     "horodatage_utc": "2026-09-28T10:02:37+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/09/28/live-updates-bitcoin-sinks-below-usd83-000-as-iran-talks-stall-and-oil-climbs",
@@ -132,7 +192,7 @@
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "23e25b3f6ce1750e",
@@ -1738,66 +1798,6 @@
     "horodatage_utc": "2026-09-21T11:36:11+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/daybook-us/2026/09/21/bitcoin-s-44-gain-in-third-quarter-teases-full-blown-crypto-bull-run",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "eb304929392d9c43",
-    "categorie": "crypto",
-    "titre_affiche": "Perp futures linked to 'bitcoin VIX' debut on Hyperliquid",
-    "horodatage_utc": "2026-09-21T11:30:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/21/perp-futures-linked-to-bitcoin-vix-debut-on-hyperliquid",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "5c6c7e8c08392ba5",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin taps $85,000 for first time since January as crypto short liquidations surge",
-    "horodatage_utc": "2026-09-21T10:56:54+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-21-bitcoin-taps-85000-for-first-time-since-january-as-crypto-short-liquidations-surge-415905",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "70cfaa494d8d2005",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin hits $85,000 as short squeeze forces out $648 million of bearish bets",
-    "horodatage_utc": "2026-09-21T10:30:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/21/bitcoin-hits-usd85-000-as-short-squeeze-forces-out-usd648-million-of-bearish-bets",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4562c755d0121909",
-    "categorie": "crypto",
-    "titre_affiche": "X sues its own users for running a fake bitcoin news bot farm",
-    "horodatage_utc": "2026-09-21T10:15:44+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/21/x-sues-its-won-users-for-running-a-fake-bitcoin-news-bot-farm",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

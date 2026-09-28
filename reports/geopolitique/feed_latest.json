@@ -1,18 +1,504 @@
 [
   {
+    "id": "0c59a9f06ed8ee62",
+    "categorie": "geopolitique",
+    "titre_affiche": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
+    "horodatage_utc": "2026-09-28T22:21:22+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fb44ec3b9253cbf0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer says these stocks can win even as oil and bond yields squeeze the market",
+    "horodatage_utc": "2026-09-28T22:15:57+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/28/jim-cramer-stocks-oil-bond-yields.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "aaf399039f1cc6f5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why gold and silver prices are on the decline as bond yields rise - National",
+    "horodatage_utc": "2026-09-28T22:15:00+00:00",
+    "source_nom": "GDELT/globalnews.ca",
+    "url_source": "https://globalnews.ca/news/12075923/bond-yields-gold-silver-prices/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/globalnews.ca. Elle se rattache à : Or et métaux précieux, Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Taux et obligations"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "72223e7698f3aaa4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saskatchewan farmers facing pressure from rising diesel costs , floods , trade uncertainty",
+    "horodatage_utc": "2026-09-28T22:15:00+00:00",
+    "source_nom": "GDELT/ckom.com",
+    "url_source": "https://www.ckom.com/2026/09/28/saskatchewan-farmers-facing-pressure-from-rising-diesel-costs-floods-trade-uncertainty/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/ckom.com. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7e9394baf4df2767",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Trump administration weakens fuel efficiency standards for new cars",
+    "horodatage_utc": "2026-09-28T22:15:00+00:00",
+    "source_nom": "GDELT/ideastream.org",
+    "url_source": "https://www.ideastream.org/npr-news/2026-09-28/the-trump-administration-weakens-fuel-efficiency-standards-for-new-cars",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/ideastream.org. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "31bd7e375cc3494a",
+    "categorie": "geopolitique",
+    "titre_affiche": "〈 能源盤後 〉 川普拒絕伊朗方案 油價小漲 Brent站回105美元",
+    "horodatage_utc": "2026-09-28T22:15:00+00:00",
+    "source_nom": "GDELT/news.cnyes.com",
+    "url_source": "https://news.cnyes.com/news/id/6617405",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/news.cnyes.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8666881316409045",
+    "categorie": "geopolitique",
+    "titre_affiche": "ASX to open flat ahead of RBA rate call ; Wall Street wobbles as bonds spike",
+    "horodatage_utc": "2026-09-28T22:15:00+00:00",
+    "source_nom": "GDELT/brisbanetimes.com.au",
+    "url_source": "https://www.brisbanetimes.com.au/business/markets/asx-to-open-flat-ahead-of-rba-rate-call-wall-street-wobbles-as-bonds-spike-20260929-p6118c.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/brisbanetimes.com.au. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8f6d0a344f2bf95c",
+    "categorie": "geopolitique",
+    "titre_affiche": "US Treasury threatens crackdown on Wall Street tax-avoidance strategies",
+    "horodatage_utc": "2026-09-28T22:00:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7c6d87b1-d7d9-49c3-b842-2600928fba38?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dfa19327b4a3d592",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mediators are working to broker U . S .- Iran deal even after Trump rejected latest proposal",
+    "horodatage_utc": "2026-09-28T22:00:00+00:00",
+    "source_nom": "GDELT/adn.com",
+    "url_source": "https://www.adn.com/nation-world/2026/09/28/mediators-are-working-to-broker-us-iran-deal-even-after-trump-rejected-latest-proposal/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "88c88e348e54c14c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mediators are working to broker a US - Iran deal , but major hurdles remain",
+    "horodatage_utc": "2026-09-28T22:00:00+00:00",
+    "source_nom": "GDELT/theintelligencer.net",
+    "url_source": "https://www.theintelligencer.net/news/top-headlines/2026/09/mediators-are-working-to-broker-a-us-iran-deal-but-major-hurdles-remain/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f9c647c05c9900b2",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Latest : Trump administration loosens fuel economy standards",
+    "horodatage_utc": "2026-09-28T22:00:00+00:00",
+    "source_nom": "GDELT/goskagit.com",
+    "url_source": "http://www.goskagit.com/news/politics/the-latest-trump-administration-loosens-fuel-economy-standards/article_160c06c7-d2cd-59b2-bbf3-c3fb9eccb7db.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "2e2108043f59fcd8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mediators working to broker US - Iran deal even after Trump rejection",
+    "horodatage_utc": "2026-09-28T22:00:00+00:00",
+    "source_nom": "GDELT/wmtw.com",
+    "url_source": "https://www.wmtw.com/article/us-iran-deal-mediators-trump-rejection/73927939",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8b55b1253410d36c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bond yields crank higher and pull US stocks further from their record",
+    "horodatage_utc": "2026-09-28T22:00:00+00:00",
+    "source_nom": "GDELT/woonsocketcall.com",
+    "url_source": "https://www.woonsocketcall.com/news/national_and_world_news/bond-yields-crank-higher-and-pull-us-stocks-further-from-their-record/article_df97bf69-fe2e-5995-a592-833becb0d9c4.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "72aad57be9fba29b",
+    "categorie": "geopolitique",
+    "titre_affiche": "The faulty premises underlying European war on Russia hyper - ventilation",
+    "horodatage_utc": "2026-09-28T22:00:00+00:00",
+    "source_nom": "GDELT/sott.net",
+    "url_source": "https://www.sott.net/article/508619-The-faulty-premises-underlying-Europeans-war-on-Russia-hyper-ventilation",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b3dd6baf21f0b0a1",
+    "categorie": "geopolitique",
+    "titre_affiche": "International Business : Stocks fall but oil gains",
+    "horodatage_utc": "2026-09-28T22:00:00+00:00",
+    "source_nom": "GDELT/gdnonline.com",
+    "url_source": "https://www.gdnonline.com:443/Details/1407950/Stocks-fall-but-oil-gains",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e5be5cecbbb9265f",
+    "categorie": "geopolitique",
+    "titre_affiche": "80 countries sign joint statement calling for reopening of Strait of Hormuz | Hellenic Shipping News Worldwide",
+    "horodatage_utc": "2026-09-28T21:45:00+00:00",
+    "source_nom": "GDELT/hellenicshippingnews.com",
+    "url_source": "https://www.hellenicshippingnews.com/80-countries-sign-joint-statement-calling-for-reopening-of-strait-of-hormuz/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7b9d36f3e2d93fb5",
+    "categorie": "geopolitique",
+    "titre_affiche": "South Korea fully secures August crude needs with US , Mediterranean , Oceania supplies",
+    "horodatage_utc": "2026-09-28T21:45:00+00:00",
+    "source_nom": "GDELT/hellenicshippingnews.com",
+    "url_source": "https://www.hellenicshippingnews.com/south-korea-fully-secures-august-crude-needs-with-us-mediterranean-oceania-supplies/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d3ffd4d23f5d6004",
+    "categorie": "geopolitique",
+    "titre_affiche": "US considers diesel export restrictions | Hellenic Shipping News Worldwide",
+    "horodatage_utc": "2026-09-28T21:45:00+00:00",
+    "source_nom": "GDELT/hellenicshippingnews.com",
+    "url_source": "https://www.hellenicshippingnews.com/us-considers-diesel-export-restrictions/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1ed541d4940db0aa",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mediators working to broker US - Iran deal even after Trump rejected latest Tehran proposal - Las Vegas Sun News",
+    "horodatage_utc": "2026-09-28T21:45:00+00:00",
+    "source_nom": "GDELT/lasvegassun.com",
+    "url_source": "https://lasvegassun.com/news/2026/sep/28/mediators-working-to-broker-us-iran-deal-even-afte/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ab6eeddd7e0108cd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bond sell-off deepens and oil rises as Iran-US deal hopes fade",
+    "horodatage_utc": "2026-09-28T21:38:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "089c78c1c03e9996",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump administration lowers fuel economy standards – NBC10 Philadelphia",
+    "horodatage_utc": "2026-09-28T21:30:00+00:00",
+    "source_nom": "GDELT/nbcphiladelphia.com",
+    "url_source": "https://www.nbcphiladelphia.com/news/national-international/trump-fuel-economy-standards-environment-critics/4470565/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b1569dee3e925d43",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran offers plan to reopen Strait of Hormuz",
+    "horodatage_utc": "2026-09-28T21:30:00+00:00",
+    "source_nom": "GDELT/sydneysun.com",
+    "url_source": "http://www.sydneysun.com/news/279333999/iran-offers-plan-to-reopen-strait-of-hormuz",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4a56cbceb1bf9a95",
+    "categorie": "geopolitique",
+    "titre_affiche": "LNG Canada partners expected to green - light multibillion - dollar expansion Tuesday",
+    "horodatage_utc": "2026-09-28T21:30:00+00:00",
+    "source_nom": "GDELT/theglobeandmail.com",
+    "url_source": "https://www.theglobeandmail.com/business/article-lng-canada-multibillion-dollar-expansion-september-28/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6c782d4a78f27b20",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ontario gas prices to fall , diesel to rise Wednesday",
+    "horodatage_utc": "2026-09-28T21:30:00+00:00",
+    "source_nom": "GDELT/parrysound.com",
+    "url_source": "https://www.parrysound.com/news/ontario-gas-price-prediction-for-sept-30/article_d58081f1-ecc2-542b-86a3-fd96566fed18.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "29b5642790d2a186",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump weighs response to Iran proposal",
+    "horodatage_utc": "2026-09-28T21:30:00+00:00",
+    "source_nom": "GDELT/2lt.com.au",
+    "url_source": "https://www.2lt.com.au/trump-weighs-response-to-iran-proposal/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cd4362fce19c0162",
+    "categorie": "geopolitique",
+    "titre_affiche": "The RBA has no choice but to hike rates as US currency crown slips",
+    "horodatage_utc": "2026-09-28T21:15:00+00:00",
+    "source_nom": "GDELT/abc.net.au",
+    "url_source": "https://www.abc.net.au/news/2026-09-29/us-dollar-trust-weakening-due-to-donald-trump-iran-war/107204644",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d4d6e69eb2594641",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil price impact on US inflation likely to ease in 2027 as supply and demand normalise : DBS",
+    "horodatage_utc": "2026-09-28T21:00:00+00:00",
+    "source_nom": "GDELT/thailandnews.net",
+    "url_source": "http://www.thailandnews.net/news/279337765/oil-price-impact-on-us-inflation-likely-to-ease-in-2027-as-supply-and-demand-normalise-dbs",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "af56a8595a4dafa9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Erdoğan bids to contain fallout from Turkey’s $18bn stock market scandal",
+    "horodatage_utc": "2026-09-28T20:57:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c72a016b-ad45-4cde-8020-dc1da7ab0839?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1129abfecf64f68d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netanyahu under pressure over reports he was warned about October 7",
+    "horodatage_utc": "2026-09-28T20:37:45+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f261c9cd-7169-4d16-97fc-9859099ce0f8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "21d273b1e3f76105",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI sparked Hugging Face bids with early investment offer ahead of Nvidia's $13 billion deal",
+    "horodatage_utc": "2026-09-28T20:36:55+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/28/openai-spark-hugging-face-bid-war-early-investment-bid-ahead-of-nvidia.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c409ba7baae6574d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Zuckerberg, Amodei among tech executives set to meet Trump Tuesday",
+    "horodatage_utc": "2026-09-28T20:00:45+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "63edb0e97ab6b40c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
+    "horodatage_utc": "2026-09-28T17:53:31+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "9e82a595c72614a2",
     "categorie": "geopolitique",
     "titre_affiche": "Jim Cramer says Nvidia’s record buyback could ‘change the trajectory’ of the stock",
     "horodatage_utc": "2026-09-28T16:44:44+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/28/jim-cramer-says-nvidias-record-buyback-could-change-the-trajectory-of-the-stock.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "78e88e595c8f5dbd",
@@ -36,13 +522,13 @@
     "horodatage_utc": "2026-09-28T15:55:50+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "057d2c5406705145",
@@ -60,19 +546,35 @@
     "nouveaute": true
   },
   {
+    "id": "ab54bd1126a6e59a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Michael Hudson : A Clean Slate - How the Oil War Aftermath Will Transform the World Economic Order",
+    "horodatage_utc": "2026-09-28T15:30:00+00:00",
+    "source_nom": "GDELT/nakedcapitalism.com",
+    "url_source": "https://www.nakedcapitalism.com/2026/09/michael-hudson-a-clean-slate-how-the-oil-wars-aftermath-will-transform-the-world-economic-order.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Conflits et sécurité"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "afa4f06f1c5e5299",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia share buyback plan gets $150 billion boost",
     "horodatage_utc": "2026-09-28T14:46:36+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/28/nvidia-share-buyback-plan-gets-150-billion-boost.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1ce5b6c58edce85c",
@@ -81,14 +583,14 @@
     "horodatage_utc": "2026-09-28T14:37:43+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "18302115d9d74cd1",
@@ -112,13 +614,13 @@
     "horodatage_utc": "2026-09-28T13:30:00+00:00",
     "source_nom": "BCE - communiques",
     "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "34af624ae5633c92",
@@ -127,13 +629,28 @@
     "horodatage_utc": "2026-09-28T12:22:35+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/28/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Conflits et sécurité"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "d801ef2dc26f266a",
+    "categorie": "geopolitique",
+    "titre_affiche": "From CumEx to Bitcoin : Wolfgang Walter Breaks It Down",
+    "horodatage_utc": "2026-09-28T11:30:00+00:00",
+    "source_nom": "GDELT/thecolu.mn",
+    "url_source": "https://thecolu.mn/5389/from-cumex-to-bitcoin-wolfgang-walter-breaks-it-down/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
     "nouveaute": true
   },
   {
@@ -143,12 +660,73 @@
     "horodatage_utc": "2026-09-28T11:23:16+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/88e87863-4cf6-4c4e-8858-f0099db350d4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "bd6b7f73f32770c9",
+    "categorie": "geopolitique",
+    "titre_affiche": "OPINION | Distorted Price Signals : Tariffs , interest rates , and global inflation in 2026",
+    "horodatage_utc": "2026-09-28T11:00:00+00:00",
+    "source_nom": "GDELT/moneycontrol.com",
+    "url_source": "https://www.moneycontrol.com/news/opinion/distorted-price-signals-tariffs-interest-rates-and-global-inflation-in-2026-14040079.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dc559bb3b8f5d8b9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Banking Industry , State Bank and Government Deepen Partnership to Boost Formal Remittance Inflows",
+    "horodatage_utc": "2026-09-28T11:00:00+00:00",
+    "source_nom": "GDELT/propakistani.pk",
+    "url_source": "https://propakistani.pk/2026/09/28/banking-industry-state-bank-and-government-deepen-partnership-to-boost-formal-remittance-inflows/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5bb3aaa8263f9ad7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pakistan , IMF talks to unlock $1 . 2 billion tranche starts today",
+    "horodatage_utc": "2026-09-28T09:45:00+00:00",
+    "source_nom": "GDELT/pakobserver.net",
+    "url_source": "https://pakobserver.net/pakistan-imf-talks-to-unlock-1-2-billion-tranche-starts-today/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e8fc240c2106c3f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pakistan , IMF Continue Talks on Fourth Economic Review",
+    "horodatage_utc": "2026-09-28T09:00:00+00:00",
+    "source_nom": "GDELT/express.pk",
+    "url_source": "https://www.express.pk/story/2835095/pakistan-imf-continue-talks-on-fourth-economic-review-2835095",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -164,7 +742,7 @@
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9a29ce07f23f0a4a",
@@ -207,6 +785,21 @@
     "analyse_interne": "Actualité relayée par GDELT/dailymail.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "af20c15d87d55ecc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Rupee pinned just shy of 96 / USD as RBI intervention counters oil woes",
+    "horodatage_utc": "2026-09-28T08:15:00+00:00",
+    "source_nom": "GDELT/economictimes.indiatimes.com",
+    "url_source": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-pinned-just-shy-of-96/usd-as-rbi-intervention-counters-oil-woes/articleshow/134535315.cms",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -287,6 +880,21 @@
     "nouveaute": true
   },
   {
+    "id": "a4edb6c1420a054e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Rupee falls 20 paise to 95 . 95 against US dollar in early trade",
+    "horodatage_utc": "2026-09-28T07:45:00+00:00",
+    "source_nom": "GDELT/newindianexpress.com",
+    "url_source": "https://www.newindianexpress.com/business/2026/Sep/28/rupee-falls-20-paise-to-9595-against-us-dollar-in-early-trade",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "8081ddd5acae0c3f",
     "categorie": "geopolitique",
     "titre_affiche": "Oil price rise puts more pressure on government bonds",
@@ -319,6 +927,21 @@
     "nouveaute": true
   },
   {
+    "id": "e25199186216e429",
+    "categorie": "geopolitique",
+    "titre_affiche": "Indian economy demonstrates resilience despite increased volatility amid re - escalating tensions in West Asia : RBI",
+    "horodatage_utc": "2026-09-28T07:30:00+00:00",
+    "source_nom": "GDELT/business-standard.com",
+    "url_source": "https://www.business-standard.com/markets/capital-market-news/indian-economy-demonstrates-resilience-despite-increased-volatility-amid-re-escalating-tensions-in-west-asia-rbi-126092800270_1.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "dbea3e71b7c0f54b",
     "categorie": "geopolitique",
     "titre_affiche": "Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold",
@@ -333,6 +956,21 @@
     ],
     "portee": "contexte",
     "nouveaute": false
+  },
+  {
+    "id": "688d35f99358779d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pakistan - IMF Talks Begin Today to Unlock $1 . 2 Billion Loan",
+    "horodatage_utc": "2026-09-28T07:00:00+00:00",
+    "source_nom": "GDELT/propakistani.pk",
+    "url_source": "https://propakistani.pk/2026/09/28/pakistan-imf-talks-begin-today-to-unlock-1-2-billion-loan/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "443985e39eebd8d0",
@@ -360,6 +998,21 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7bdc8a9056fdbff0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Weekly policy watch : Goyal - Greer meet , IIP , PMI and forex data in focus",
+    "horodatage_utc": "2026-09-28T06:00:00+00:00",
+    "source_nom": "GDELT/business-standard.com",
+    "url_source": "https://www.business-standard.com/economy/news/piyush-goyal-greer-us-tariff-iip-manufacturing-pmi-forex-reserves-september-126092800219_1.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1160,662 +1813,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "a538a8c7bded3b98",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sheikh Al - Khazali Rejects Iraq Participation in Blockade on Iran",
-    "horodatage_utc": "2026-09-27T14:00:00+00:00",
-    "source_nom": "GDELT/islamicinvitationturkey.com",
-    "url_source": "https://www.islamicinvitationturkey.com/sheikh-al-khazali-rejects-iraqs-participation-in-blockade-on-iran/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0bd711921694b35f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Top cleric urges Iraqis to break unjust , inhumane US aerial blockade on Iran",
-    "horodatage_utc": "2026-09-27T14:00:00+00:00",
-    "source_nom": "GDELT/islamicinvitationturkey.com",
-    "url_source": "https://www.islamicinvitationturkey.com/top-cleric-urges-iraqis-to-break-unjust-inhumane-us-aerial-blockade-on-iran/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e471bbad97051214",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Rejects Iran Plan To Reopen Strait Of Hormuz",
-    "horodatage_utc": "2026-09-27T12:45:00+00:00",
-    "source_nom": "GDELT/jamaicantimes.com",
-    "url_source": "http://www.jamaicantimes.com/news/279333708/trump-rejects-iran-plan-to-reopen-strait-of-hormuz",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e1cd2db8a05c2dde",
-    "categorie": "geopolitique",
-    "titre_affiche": "​US and China Finalise $30 Billion Tariff Deal , Launch Super Intelligence Dialogue After Xi - Trump Summit",
-    "horodatage_utc": "2026-09-27T12:30:00+00:00",
-    "source_nom": "GDELT/pragativadi.com",
-    "url_source": "https://pragativadi.com/us-and-china-finalise-30-billion-tariff-deal-launch-super-intelligence-dialogue-after-xi-trump-summit/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e49d08676f5103d6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump heavy - handed approach to China leaves trade partners with stark choice",
-    "horodatage_utc": "2026-09-27T12:30:00+00:00",
-    "source_nom": "GDELT/theglobeandmail.com",
-    "url_source": "https://www.theglobeandmail.com/business/article-trumps-bid-to-isolate-china-leaves-trade-partners-with-stark-choice/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "323d23edfceb32ee",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran najavljuje nove vojne tehnologije , Tramp odbio dogovor o Ormuskom moreuzu",
-    "horodatage_utc": "2026-09-27T12:30:00+00:00",
-    "source_nom": "GDELT/nin.rs",
-    "url_source": "https://www.nin.rs/svet/vesti/124304/iran-najavljuje-nove-vojne-tehnologije-tramp-odbio-dogovor-o-ormuskom-moreuzu",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2fc55b84b1effffc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Biographer : Foreign dictators play Trump like A fiddle exploiting weakness",
-    "horodatage_utc": "2026-09-27T12:30:00+00:00",
-    "source_nom": "GDELT/alternet.org",
-    "url_source": "https://www.alternet.org/trump-china-2677946176/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d593096b49380aa3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Top cleric calls upon all Iraqis to break unjust , inhumane US aerial blockade on Iran",
-    "horodatage_utc": "2026-09-27T11:00:00+00:00",
-    "source_nom": "GDELT/presstv.co.uk",
-    "url_source": "https://www.presstv.co.uk/Detail/2026/09/27/777101/Top-cleric-calls-upon-all-Iraqis-to-break-",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "79b20f8dc791dd4e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Arab News | S & P affirms Oman at BBB -, raises 2026 growth forecast to 3 . 5 %",
-    "horodatage_utc": "2026-09-27T09:30:00+00:00",
-    "source_nom": "GDELT/arabnews.com",
-    "url_source": "https://www.arabnews.com/finance/sp-affirms-oman-at-bbb-raises-2026-growth-forecast-to-35-3003364",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/arabnews.com. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6a6b3ddafe31a540",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold - Stratege Stöferle : Gold ist weiterhin extrem günstig",
-    "horodatage_utc": "2026-09-27T09:00:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/ratgeber/news/gold-stratege-stoeferle-gold-ist-weiterhin-extrem-guenstig-27-09-2026-01/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "edfdc9d365d3dee7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran denies plans for military action over flight restrictions",
-    "horodatage_utc": "2026-09-27T08:15:00+00:00",
-    "source_nom": "GDELT/siasat.com",
-    "url_source": "https://www.siasat.com/iran-denies-plans-for-military-action-over-flight-restrictions-3548953/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/siasat.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "74995fd390a5f2e8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Donald Trump , united states | Trumps supermakt : Kan redde Putin med ett brev",
-    "horodatage_utc": "2026-09-27T07:45:00+00:00",
-    "source_nom": "GDELT/nettavisen.no",
-    "url_source": "https://www.nettavisen.no/nyheter/trumps-supermakt-kan-redde-putin-med-ett-brev/s/80-95-109124",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/nettavisen.no. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2803e826985ebceb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Rejects Iran Seven - Day Hormuz Plan as Tehran Refuses to Back Down",
-    "horodatage_utc": "2026-09-27T07:45:00+00:00",
-    "source_nom": "GDELT/hngn.com",
-    "url_source": "https://www.hngn.com/articles/273378/20260927/trump-rejects-irans-seven-day-hormuz-plan-tehran-refuses-back-down.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/hngn.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4e596e3bdcab6034",
-    "categorie": "geopolitique",
-    "titre_affiche": "J . Israel Balderas : Trump banning reporters because you vote in 5 weeks",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/rockymounttelegram.com",
-    "url_source": "http://www.rockymounttelegram.com/opinion/editorial_columnists/j-israel-balderas-trump-banning-reporters-because-you-vote-in-5-weeks/article_a0698225-1bb8-50b3-a050-69f0c9f694e0.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/rockymounttelegram.com. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f0af62c8ebeda65a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Rejects Iran Proposal To Open Strait Of Hormuz",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/1430kasi.iheart.com",
-    "url_source": "https://1430kasi.iheart.com/content/2026-09-27-trump-rejects-irans-proposal-to-open-strait-of-hormuz/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/1430kasi.iheart.com. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9585bd9e4613fd40",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran stands firm on Hormuz plan after US rejection",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/omanobserver.om",
-    "url_source": "https://www.omanobserver.om/article/1196824/world/region/iran-stands-firm-on-hormuz-plan-after-us-rejection",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/omanobserver.om. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5d07c85ab5447b58",
-    "categorie": "geopolitique",
-    "titre_affiche": "Will stand until our last breath : Prez Pezeshkian says Iran will not retreat as Trump rejects ceasefire proposal",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/kenyastar.com",
-    "url_source": "http://www.kenyastar.com/news/279334870/will-stand-until-our-last-breath-prez-pezeshkian-says-iran-will-not-retreat-as-trump-rejects-ceasefire-proposal",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/kenyastar.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1882921a25710a2d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Dismisses Iran Offer to Reopen Strait of Hormuz , Says Tehran Is Losing Ground",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/lankanewspapers.com",
-    "url_source": "https://www.lankanewspapers.com/2026/09/27/trump-dismisses-iran-s-offer-to-reopen-strait-of-hormuz-says-tehran-is-losing-ground",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/lankanewspapers.com. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9ba1f1104b81c934",
-    "categorie": "geopolitique",
-    "titre_affiche": "China and the US agree to set up a new AI safety channel , and to keep talking on trade , military",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/eldoradonews.com",
-    "url_source": "https://www.eldoradonews.com/news/2026/sep/26/china-and-the-us-agree-to-set-up-a-new-ai-safety/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "91113fb164d2c4a5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran stands firm on Hormuz plan after Trump rejection",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/hurriyetdailynews.com",
-    "url_source": "https://www.hurriyetdailynews.com/iran-stands-firm-on-hormuz-plan-after-trump-rejection-227388",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/hurriyetdailynews.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6506546fe67bd09e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Rejects Iran Plan to Reopen Strait of Hormuz in Seven Days – THISDAYLIVE",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/thisdaylive.com",
-    "url_source": "https://www.thisdaylive.com/2026/09/27/trump-rejects-irans-plan-to-reopen-strait-of-hormuz-in-seven-days/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/thisdaylive.com. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3e94e58233427c8c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Omani FM calls for self - restraint in regional conflict , offers to mediate at UN",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/article.wn.com",
-    "url_source": "https://article.wn.com/view/2026/09/27/Omani_FM_calls_for_selfrestraint_in_regional_conflict_offers/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "61efce45821eff01",
-    "categorie": "geopolitique",
-    "titre_affiche": "Where things stand after Iran new pitch for a deal to open the Strait of Hormuz",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/eldoradonews.com",
-    "url_source": "https://www.eldoradonews.com/news/2026/sep/26/where-things-stand-after-irans-new-pitch-for-a/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "97a30e0721c6e029",
-    "categorie": "geopolitique",
-    "titre_affiche": "DOLLAR Collapse NOT Coming Yet : De Dollarization After 2032",
-    "horodatage_utc": "2026-09-27T06:30:00+00:00",
-    "source_nom": "GDELT/armstrongeconomics.com",
-    "url_source": "https://www.armstrongeconomics.com/armstrong-in-the-media/dollar-collapse-not-coming-yet-de-dollarization-after-2032/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/armstrongeconomics.com. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "27cf94bca1da7759",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump rejects Iran proposal to reopen the Strait of Hormuz and other Mideast news",
-    "horodatage_utc": "2026-09-27T05:15:00+00:00",
-    "source_nom": "GDELT/krgv.com",
-    "url_source": "https://www.krgv.com/news/trump-rejects-iran-s-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a127ac0c42f6a355",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Says Diplomacy Only Path to End U . S .- Israel Conflict",
-    "horodatage_utc": "2026-09-27T05:15:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "http://www.econotimes.com/Iran-Says-Diplomacy-Only-Path-to-End-US-Israel-Conflict-1753154",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7caad1387da77115",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump rejects Iran Hormuz deal as Houthis target Riyadh",
-    "horodatage_utc": "2026-09-27T05:15:00+00:00",
-    "source_nom": "GDELT/spokesman.com",
-    "url_source": "https://www.spokesman.com/stories/2026/sep/26/trump-rejects-irans-hormuz-deal-as-houthis-target-/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3e17bc624afec3d8",
-    "categorie": "geopolitique",
-    "titre_affiche": "ECB May Stop Rate Hikes After December , Capital Economics Says",
-    "horodatage_utc": "2026-09-27T05:15:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "http://www.econotimes.com/ECB-May-Stop-Rate-Hikes-After-December-Capital-Economics-Says-1753155",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "57897772659b6979",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump rejects Irans unacceptable demands",
-    "horodatage_utc": "2026-09-27T05:15:00+00:00",
-    "source_nom": "GDELT/russiaherald.com",
-    "url_source": "http://www.russiaherald.com/news/279334429/trump-rejects-irans-unacceptable-demands",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ce85fdd50535ca7e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia ready to help on Strait of Hormuz : Lavrov at UN",
-    "horodatage_utc": "2026-09-27T05:00:00+00:00",
-    "source_nom": "GDELT/arynews.tv",
-    "url_source": "https://arynews.tv/news/liveblog/iran-war-2026-live-updates-trump-us-israel?update=27-Sep-2026-08-08-00",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f9e5290bc5fa9449",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran insists on diplomacy as Trump rejects peace plan",
-    "horodatage_utc": "2026-09-27T05:00:00+00:00",
-    "source_nom": "GDELT/edenmagnet.com.au",
-    "url_source": "https://www.edenmagnet.com.au/story/9357964/iran-insists-on-diplomacy-as-trump-rejects-peace-plan/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "19a44a171cda9496",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump - Xi Talks : US , China Agree On Tariff Relief For $60 Billion Trade , Launch AI Dialogue",
-    "horodatage_utc": "2026-09-27T05:00:00+00:00",
-    "source_nom": "GDELT/freepressjournal.in",
-    "url_source": "https://www.freepressjournal.in/world/trump-xi-talks-us-china-agree-on-tariff-relief-for-60-billion-trade-launch-ai-dialogue",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "024c11b4052dacd1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock market prediction for tomorrow : Sensex , Nifty Monday , 28 Sept triggers | GIFT Nifty , Nikkei , Taiwan , Kospi cues",
-    "horodatage_utc": "2026-09-27T05:00:00+00:00",
-    "source_nom": "GDELT/livemint.com",
-    "url_source": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-sensex-nifty-monday-28-sept-triggers-gift-nifty-nikkei-taiwan-kospi-cues-11790480062165.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "cb41c1639c23f0dd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Swiss voters to decide fate of centuries-old neutrality",
-    "horodatage_utc": "2026-09-27T04:00:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/aaf4c7d7-b4bc-4b5c-83b7-7f761d315b63?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "31e212a1379c08f0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold-rich Nicaragua hands Chinese miners rights to a tenth of its land",
-    "horodatage_utc": "2026-09-27T04:00:11+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/452648fd-90d6-450f-9739-073f5b6a0d18?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a58854284908fccc",
-    "categorie": "geopolitique",
-    "titre_affiche": "China and U . S . governments agree to establish AI safety channel and continue trade and military talks",
-    "horodatage_utc": "2026-09-27T04:00:00+00:00",
-    "source_nom": "GDELT/texarkanagazette.com",
-    "url_source": "https://www.texarkanagazette.com/news/2026/sep/26/china-and-us-governments-agree-to-establish-ai/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/texarkanagazette.com. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "ee7a9437a9075025",
-    "categorie": "geopolitique",
-    "titre_affiche": "China and US agree to establish AI safety channel and continue trade and military talks",
-    "horodatage_utc": "2026-09-27T04:00:00+00:00",
-    "source_nom": "GDELT/twincities.com",
-    "url_source": "https://www.twincities.com/2026/09/26/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f0bab2816d1c63d1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iranian National Sentenced to 18 Months for Sanctions - Busting Scheme",
-    "horodatage_utc": "2026-09-27T01:00:00+00:00",
-    "source_nom": "GDELT/wcbm.com",
-    "url_source": "https://wcbm.com/national-headline/iranian-national-sentenced-to-18-months-for-sanctions-busting-scheme/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "009b9eca7121c4da",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran denies plans for military retaliation over recent air restrictions - Xinhua",
-    "horodatage_utc": "2026-09-27T00:30:00+00:00",
-    "source_nom": "GDELT/english.news.cn",
-    "url_source": "https://english.news.cn/20260927/49af9c5514884e7db84eaf79558350e7/c.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f7815029c3b0a39e",
-    "categorie": "geopolitique",
-    "titre_affiche": "U . S ., Europe worry Russia is testing NATO with hybrid attacks and sabotage",
-    "horodatage_utc": "2026-09-27T00:30:00+00:00",
-    "source_nom": "GDELT/spokesman.com",
-    "url_source": "https://www.spokesman.com/stories/2026/sep/26/us-europe-worry-russia-is-testing-nato-with-hybrid/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c91e8804a59b928f",
-    "categorie": "geopolitique",
-    "titre_affiche": "German and Russian foreign ministers meet for first time in over four years",
-    "horodatage_utc": "2026-09-26T19:01:46+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ec92933f-7147-410e-8ade-ab09add476a7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9b4c175a521516e8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump and Xi to meet twice more after summit fails to resolve tensions",
-    "horodatage_utc": "2026-09-26T18:42:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/bd99d372-d3d1-4972-a3fe-1bed8f71e14c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "67ac2a5b831bd5ef",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI expands review of model behavior after more rogue agent incidents emerge",
-    "horodatage_utc": "2026-09-26T17:10:32+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   }
 ]
