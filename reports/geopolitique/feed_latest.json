@@ -1,5 +1,338 @@
 [
   {
+    "id": "f47f4d80da6f363a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Japan denies militarisation after Russia opposes permanent UN council seat",
+    "horodatage_utc": "2026-09-28T08:15:00+00:00",
+    "source_nom": "GDELT/scmp.com",
+    "url_source": "https://www.scmp.com/news/asia/east-asia/article/3369042/japan-denies-militarisation-after-russia-opposes-permanent-un-council-seat",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/scmp.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "127db758bd308b10",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nato states prepare evacuation plan for Russian attack",
+    "horodatage_utc": "2026-09-28T08:15:00+00:00",
+    "source_nom": "GDELT/dailymail.com",
+    "url_source": "https://www.dailymail.com/news/article-16165721/Nato-states-prepare-evacuation-plan-Russian-attack-amid-mounting-fears-incursion-alliances-Achilles-heel.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailymail.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "be530a429789f4d9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ue Kallas | La Russia prepara nuovi sabotaggi e attacchi contro la nostra democrazia",
+    "horodatage_utc": "2026-09-28T08:00:00+00:00",
+    "source_nom": "GDELT/zazoom.it",
+    "url_source": "https://www.zazoom.it/2026-09-28/ue-kallas-la-russia-prepara-nuovi-sabotaggi-e-attacchi-contro-la-nostra-democrazia/19731793/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/zazoom.it. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "16c773dc04948b56",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lower Merion considering new drones for police department",
+    "horodatage_utc": "2026-09-28T08:00:00+00:00",
+    "source_nom": "GDELT/mainlinemedianews.com",
+    "url_source": "https://www.mainlinemedianews.com/2026/09/21/lower-merion-considering-new-drones-for-police-department/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/mainlinemedianews.com. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "bc1c6ecbad85cb73",
+    "categorie": "geopolitique",
+    "titre_affiche": "On Poland border with Ukraine , residents brace for a possible Russian hybrid attack",
+    "horodatage_utc": "2026-09-28T08:00:00+00:00",
+    "source_nom": "GDELT/mykxlg.com",
+    "url_source": "https://www.mykxlg.com/news/world/on-polands-border-with-ukraine-residents-brace-for-a-possible-russian-hybrid-attack/article_d97db17f-a9f3-5360-87b1-051f415966c0.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/mykxlg.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "15a8574bd0229de7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine Carrying Out Airdrops of Food Via Drone to City Besieged by Russian Forces , Official Says",
+    "horodatage_utc": "2026-09-28T08:00:00+00:00",
+    "source_nom": "GDELT/kyivpost.com",
+    "url_source": "https://www.kyivpost.com/post/85528",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/kyivpost.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b2f05c684b791e25",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump Proposed Weapon Sales To Xi | Talk Radio 105 . 9",
+    "horodatage_utc": "2026-09-28T08:00:00+00:00",
+    "source_nom": "GDELT/talkradio1059.iheart.com",
+    "url_source": "https://talkradio1059.iheart.com/content/2026-09-28-trump-proposed-weapon-sales-to-xi/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/talkradio1059.iheart.com. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "8081ddd5acae0c3f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil price rise puts more pressure on government bonds",
+    "horodatage_utc": "2026-09-28T07:33:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a91930ebbd8a4412",
+    "categorie": "geopolitique",
+    "titre_affiche": "This choice of targets would be called by one word -- terrorism : Zelenskyy urges stronger sanctions over Russian strikes",
+    "horodatage_utc": "2026-09-28T07:30:00+00:00",
+    "source_nom": "GDELT/iraqsun.com",
+    "url_source": "http://www.iraqsun.com/news/279336553/this-choice-of-targets-would-be-called-by-one-word-terrorism-zelenskyy-urges-stronger-sanctions-over-russian-strikes",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dbea3e71b7c0f54b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold",
+    "horodatage_utc": "2026-09-28T07:22:06+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/28/trump-xi-summit-tangible-outcomes-us-china-truce.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "443985e39eebd8d0",
+    "categorie": "geopolitique",
+    "titre_affiche": "India Foreign Secretary Meets US Delegation Over Russia Sanctions Concerns – Chennaionline",
+    "horodatage_utc": "2026-09-28T06:30:00+00:00",
+    "source_nom": "GDELT/chennaionline.com",
+    "url_source": "https://www.chennaionline.com/news/indias-foreign-secretary-meets-us-delegation-over-russia-sanctions-concerns/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f9e7873b0d0f7c66",
+    "categorie": "geopolitique",
+    "titre_affiche": "China weighs allowing ByteDance , Alibaba to buy new Nvidia chips , The Information reports",
+    "horodatage_utc": "2026-09-28T06:30:00+00:00",
+    "source_nom": "GDELT/asiaone.com",
+    "url_source": "https://www.asiaone.com/china/china-weighs-allowing-bytedance-alibaba-buy-new-nvidia-chips-information-reports",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "35b1f8ccdc7dc029",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Xi got face’: China relishes equal treatment from Trump",
+    "horodatage_utc": "2026-09-28T05:55:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8ac777fc-882e-4781-826b-272d72d468a0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "9a38f78f0ada4c9c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil Shock Meets China Slowdown",
+    "horodatage_utc": "2026-09-28T05:45:00+00:00",
+    "source_nom": "GDELT/slguardian.org",
+    "url_source": "https://slguardian.org/oil-shock-meets-china-slowdown/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f172273d177841f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic CEO Dario Amodei to Meet Trump Amid Deepening AI Safety Dispute",
+    "horodatage_utc": "2026-09-28T05:45:00+00:00",
+    "source_nom": "GDELT/slguardian.org",
+    "url_source": "https://slguardian.org/anthropic-ceo-dario-amodei-to-meet-trump-amid-deepening-ai-safety-dispute/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "7536b89059464fb9",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Trump - Xi truce stops at AI - who gets caught in the middle ?",
+    "horodatage_utc": "2026-09-28T05:45:00+00:00",
+    "source_nom": "GDELT/businesstimes.com.sg",
+    "url_source": "https://www.businesstimes.com.sg/opinion-features/trump-xi-truce-stops-ai-who-gets-caught-middle",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1384c771039e9970",
+    "categorie": "geopolitique",
+    "titre_affiche": "US , China release product lists for US$30 billion tariff deal",
+    "horodatage_utc": "2026-09-28T05:45:00+00:00",
+    "source_nom": "GDELT/businesstimes.com.sg",
+    "url_source": "https://www.businesstimes.com.sg/international/us-china-release-product-lists-us30-billion-tariff-deal",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "50c877ffe5179836",
+    "categorie": "geopolitique",
+    "titre_affiche": "US and China agree $60bn low tariff regime for goods from foie gras to camels",
+    "horodatage_utc": "2026-09-28T04:04:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b1ba7dd2-3e3a-4944-b637-ff7db3b636e1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8b8ca76e0682062e",
+    "categorie": "geopolitique",
+    "titre_affiche": "EU countries consider Nato-style joint responses to Russian hybrid attacks",
+    "horodatage_utc": "2026-09-28T04:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5513b441-a575-4c73-8532-cb09216c4406?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f546701abe6d20a7",
+    "categorie": "geopolitique",
+    "titre_affiche": "For once, the Fed has put Main Street before Wall Street",
+    "horodatage_utc": "2026-09-28T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4339e9f0-ff48-4873-be6a-36cbac2631c4",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1dfd1175c771c30c",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.5 - 74 km SE of Ossora, Russia",
+    "horodatage_utc": "2026-09-28T03:20:51+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty1j",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2817233e0b04b20b",
+    "categorie": "geopolitique",
+    "titre_affiche": "World’s worst-performing market slashes minimum price for stocks",
+    "horodatage_utc": "2026-09-28T02:51:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/04923b0e-a955-4cfa-bd05-cd828807f61d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "75caca0a4184b241",
     "categorie": "geopolitique",
     "titre_affiche": "Trump to have White House dinner with Anthropic CEO Dario Amodei",
@@ -12,21 +345,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2817233e0b04b20b",
-    "categorie": "geopolitique",
-    "titre_affiche": "World’s worst-performing market slashes minimum price for stocks",
-    "horodatage_utc": "2026-09-27T21:00:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/04923b0e-a955-4cfa-bd05-cd828807f61d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -1501,327 +1819,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "a0461a418f427d68",
-    "categorie": "geopolitique",
-    "titre_affiche": "The great tourist tax boom",
-    "horodatage_utc": "2026-09-26T04:00:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e6856a1a-77e4-42b5-bcd8-f91973ca9755?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "4e62f541ce9d5bf6",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI says governments among ‘dozens’ of organisations hacked by its agents",
-    "horodatage_utc": "2026-09-25T22:18:19+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/651024b1-d1ce-40c1-acae-a92c3505d3f1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "cf24000da99320fb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-    "horodatage_utc": "2026-09-25T20:30:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f8df1eaebad0cd0e",
-    "categorie": "geopolitique",
-    "titre_affiche": "US bond sell-off pushes long-term yields to highest since 2004",
-    "horodatage_utc": "2026-09-25T20:24:38+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d76a516203637018",
-    "categorie": "geopolitique",
-    "titre_affiche": "Soaring bond yields ‘not even close’ to cooling red-hot US economy, investors say",
-    "horodatage_utc": "2026-09-25T20:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/bcf0715b-4292-428e-80ec-e6702d430aa4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "aa89d50ab894ddf0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Houthis promise not to target European ships",
-    "horodatage_utc": "2026-09-25T19:03:34+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a255d9e6-ae6f-4b30-9ca6-b694663f547c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "38eab7dc133641ca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says Scott Bessent won't be AI czar",
-    "horodatage_utc": "2026-09-25T17:28:32+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/25/trump-bessent-ai-czar.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b67d9b8ef7315a91",
-    "categorie": "geopolitique",
-    "titre_affiche": "U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk",
-    "horodatage_utc": "2026-09-25T17:19:19+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1365e3675ada3c9f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bond ructions point to new danger zone in markets",
-    "horodatage_utc": "2026-09-25T17:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4acbdc1f-d898-4966-b865-924470de0066?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f4ce5c7d75524d89",
-    "categorie": "geopolitique",
-    "titre_affiche": "US bond sell-off pushes long-term yields to new post-2004 high",
-    "horodatage_utc": "2026-09-25T16:47:47+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7c6c157ecda06d8b",
-    "categorie": "geopolitique",
-    "titre_affiche": "US Supreme Court lets Trump vet voters’ immigration status",
-    "horodatage_utc": "2026-09-25T16:22:36+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/469c3f85-ee58-41ed-8289-33866a72549a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "6b434b6c3edac065",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran offers US new seven-day ceasefire proposal",
-    "horodatage_utc": "2026-09-25T16:16:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/917a9cba-6afd-4ba3-8742-2b7601ecc2ba?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c226b43d7be4e5de",
-    "categorie": "geopolitique",
-    "titre_affiche": "Microsoft packages business AI in single app as it tries to compete with Anthropic",
-    "horodatage_utc": "2026-09-25T15:51:25+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/25/microsoft-copilot-ai-coding-anthropic.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f4265247fe7328c1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump and Xi dined with AI's biggest names. Here's what we know about tech talks so far",
-    "horodatage_utc": "2026-09-25T14:43:23+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/25/the-tech-download-trump-xi-ai-talks.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "49083d4be2d01db0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Here's who attended the Trump-Xi state dinner",
-    "horodatage_utc": "2026-09-25T14:41:24+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "bba79e850e0aace7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Private equity-backed Florida railway Brightline files for bankruptcy",
-    "horodatage_utc": "2026-09-25T13:55:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ad2f9563-7853-4a6a-b46c-fe6afeccbbc0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7c66df77f206103d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bitget crypto exchange hit by $350mn hack",
-    "horodatage_utc": "2026-09-25T12:46:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/14aed3cb-492e-45c1-b217-869790b6130d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "b73ce2d9b28c3dc4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Yields keep rising, Novo's tough week, why cat product sales are surging and more in Morning Squawk",
-    "horodatage_utc": "2026-09-25T12:39:30+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/25/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8da2d9b1c44d6118",
-    "categorie": "geopolitique",
-    "titre_affiche": "Former US intelligence chief Avril Haines: ‘Trump trusts his gut more than the expertise’",
-    "horodatage_utc": "2026-09-25T12:00:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8f1030c3-9ad0-45b2-86bf-71d8dec27be4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2250bbbc6fbe3b85",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia targets Ukraine’s data centres",
-    "horodatage_utc": "2026-09-25T11:00:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7fbecb15-c396-49d2-8cab-1518809a7b2b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "58a1f3c1ded9cd85",
-    "categorie": "geopolitique",
-    "titre_affiche": "US seizes bank accounts of payments group linked to Tether",
-    "horodatage_utc": "2026-09-25T09:58:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1477567d-64b0-431a-b707-e2a4f5a9f8dc?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
