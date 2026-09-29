@@ -1,11 +1,26 @@
 [
   {
-    "id": "5657065cbf426825",
+    "id": "3896d48881ee8b8f",
     "categorie": "geopolitique",
-    "titre_affiche": "Trump says he and tech leaders signed AI agreement that is 'morally binding'",
-    "horodatage_utc": "2026-09-29T20:19:08+00:00",
+    "titre_affiche": "Trump praises ‘tremendous self-regulation’ of AI after summoning tech bosses to the White House",
+    "horodatage_utc": "2026-09-29T23:13:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "ccfb10bd76a64c22",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue",
+    "horodatage_utc": "2026-09-29T22:42:35+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html",
+    "url_source": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -16,34 +31,83 @@
     "nouveaute": true
   },
   {
-    "id": "cf0c5e70c27dfd73",
+    "id": "5657065cbf426825",
     "categorie": "geopolitique",
-    "titre_affiche": "Agencies publish resolution plan feedback letters for 15 banking organizations",
-    "horodatage_utc": "2026-09-29T20:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "titre_affiche": "Trump says he and tech leaders signed AI agreement that is 'morally binding'",
+    "horodatage_utc": "2026-09-29T21:18:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
+      "Actions et technologie",
+      "Élections et politique intérieure"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "4c87b0f0bfff4baa",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hegseth to slash top US military officer roles by 20%",
+    "horodatage_utc": "2026-09-29T20:56:45+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1199468e-dbe5-4581-b039-3d57985291ac?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
     "id": "96c5097ba771453b",
     "categorie": "geopolitique",
     "titre_affiche": "Prediction market traders think the U.S. added more jobs in September than economists estimate",
-    "horodatage_utc": "2026-09-29T19:11:51+00:00",
+    "horodatage_utc": "2026-09-29T20:33:08+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
+  },
+  {
+    "id": "62fb3b334e28367e",
+    "categorie": "geopolitique",
+    "titre_affiche": "US 30-year Treasury yield hits highest since 2002",
+    "horodatage_utc": "2026-09-29T20:13:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c8693313-7750-40c7-892a-101ab16dec70?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Taux et obligations",
+      "Inflation et prix",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "cf0c5e70c27dfd73",
+    "categorie": "geopolitique",
+    "titre_affiche": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+    "horodatage_utc": "2026-09-29T20:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "e2b4db87fb46d475",
@@ -184,24 +248,6 @@
     "nouveaute": true
   },
   {
-    "id": "62fb3b334e28367e",
-    "categorie": "geopolitique",
-    "titre_affiche": "US 30-year Treasury yield hits highest since 2002",
-    "horodatage_utc": "2026-09-29T17:25:41+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c8693313-7750-40c7-892a-101ab16dec70?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Taux et obligations",
-      "Inflation et prix",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "a62e1e33a366f8d7",
     "categorie": "geopolitique",
     "titre_affiche": "One Market Could Transform AMD Growth Story",
@@ -259,7 +305,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6c063af5e4fd31a9",
@@ -1773,52 +1819,6 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e25199186216e429",
-    "categorie": "geopolitique",
-    "titre_affiche": "Indian economy demonstrates resilience despite increased volatility amid re - escalating tensions in West Asia : RBI",
-    "horodatage_utc": "2026-09-28T07:30:00+00:00",
-    "source_nom": "GDELT/business-standard.com",
-    "url_source": "https://www.business-standard.com/markets/capital-market-news/indian-economy-demonstrates-resilience-despite-increased-volatility-amid-re-escalating-tensions-in-west-asia-rbi-126092800270_1.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dbea3e71b7c0f54b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold",
-    "horodatage_utc": "2026-09-28T07:22:06+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/28/trump-xi-summit-tangible-outcomes-us-china-truce.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "688d35f99358779d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Pakistan - IMF Talks Begin Today to Unlock $1 . 2 Billion Loan",
-    "horodatage_utc": "2026-09-28T07:00:00+00:00",
-    "source_nom": "GDELT/propakistani.pk",
-    "url_source": "https://propakistani.pk/2026/09/28/pakistan-imf-talks-begin-today-to-unlock-1-2-billion-loan/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]
