@@ -1,18 +1,123 @@
 [
   {
+    "id": "54c4d3780abd7950",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mistral CEO says U.S. AI safety debate masks competitors’ 'negligence'",
+    "horodatage_utc": "2026-09-29T08:20:04+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d826f892f9159a45",
+    "categorie": "geopolitique",
+    "titre_affiche": "ECB amends monetary policy implementation guidelines as part of regular review",
+    "horodatage_utc": "2026-09-29T08:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "239e39a2929bb3a1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia turns to insurers to spread the risk of AI build-out",
+    "horodatage_utc": "2026-09-29T04:04:31+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d6a9f5df-08d0-4f80-ad2d-5d8a17e2cc82?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "74b45428448d6a34",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bond investors become oil traders as Iran war drives yields",
+    "horodatage_utc": "2026-09-29T04:00:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f894f69a-9e2b-4c3f-bf5d-c5c4dc0e6197?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "73f49e5a5b9a1505",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s ambassador to Greece causes stir in Romania",
+    "horodatage_utc": "2026-09-29T04:00:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7af7b31e-5006-467a-96d9-672905f7b45b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e8f78204ec1f5320",
+    "categorie": "geopolitique",
+    "titre_affiche": "Can Kering’s ‘car guy’ CEO make luxury move twice as fast?",
+    "horodatage_utc": "2026-09-29T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/78bfdad6-cf74-44c0-a3ec-dd2825563b99?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9f273b8252f17b13",
+    "categorie": "geopolitique",
+    "titre_affiche": "Rubio says UK air base incident involved ‘foreign actor’",
+    "horodatage_utc": "2026-09-29T03:08:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/262f5234-3d66-4187-a844-b52c29cb0e9b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "a42da76cce940101",
     "categorie": "geopolitique",
     "titre_affiche": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm",
     "horodatage_utc": "2026-09-29T01:48:52+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "10efeee0c6712f5f",
@@ -36,13 +141,13 @@
     "horodatage_utc": "2026-09-29T01:02:00+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty9i",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4801eaf784eb004e",
@@ -1704,112 +1809,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "969c4c9ccc0519fd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic CEO Amodei set to meet with Trump after missing state dinner",
-    "horodatage_utc": "2026-09-27T19:13:27+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/27/dario-amodei-set-to-have-dinner-with-trump-after-missing-state-dinner.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "ae679bff8c2cb9f9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lowe's is launching a drone delivery service in partnership with DoorDash, Alphabet",
-    "horodatage_utc": "2026-09-27T19:02:10+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/24/lowes-drones-delivery-doordash-alphabet.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Conflits et sécurité"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "43eedab8cc4528d0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Summits , optics and diplotainment | The Manila Times",
-    "horodatage_utc": "2026-09-27T18:30:00+00:00",
-    "source_nom": "GDELT/manilatimes.net",
-    "url_source": "https://www.manilatimes.net/2026/09/28/opinion/editorial/summits-optics-and-diplotainment/2433688",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "646bb4a0a6b42f7b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Terrorism arrests made in ‘major incident’ near RAF Fairford",
-    "horodatage_utc": "2026-09-27T17:24:59+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/875027a3-db29-40a6-b17c-fa97c30fd07b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "dc925b87a39cbcef",
-    "categorie": "geopolitique",
-    "titre_affiche": "Terrorism arrests made in ‘major incident’ near US air base in UK",
-    "horodatage_utc": "2026-09-27T17:24:59+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/875027a3-db29-40a6-b17c-fa97c30fd07b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9cba517633cd5d8b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelensky already lost the war ex - spokeswoman",
-    "horodatage_utc": "2026-09-27T17:15:00+00:00",
-    "source_nom": "GDELT/europesun.com",
-    "url_source": "http://www.europesun.com/news/279335298/zelensky-already-lost-the-war-ex-spokeswoman",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0d0c115699551907",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why Is China Reducing Its Dependence on the Dollar ?",
-    "horodatage_utc": "2026-09-27T15:45:00+00:00",
-    "source_nom": "GDELT/theepochtimes.com",
-    "url_source": "https://www.theepochtimes.com/opinion/why-is-china-reducing-its-dependence-on-the-dollar-6094221",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
     ],
     "portee": "influence",
     "nouveaute": true
