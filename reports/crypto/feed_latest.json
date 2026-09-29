@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-09-28T22:15:00+00:00",
     "source_nom": "GDELT/fool.com",
     "url_source": "https://www.fool.com/investing/2026/09/28/why-does-the-price-of-bitcoin-keep-going-up/?source=iedfolrf0000001",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "014b41cae713262d",
@@ -21,13 +21,13 @@
     "horodatage_utc": "2026-09-28T22:15:00+00:00",
     "source_nom": "GDELT/fool.com",
     "url_source": "https://www.fool.com/investing/2026/09/28/bitcoin-etfs-are-seeing-their-biggest-inflows-sinc/?source=iedfolrf0000001",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ebea9aca7221349c",
@@ -36,13 +36,13 @@
     "horodatage_utc": "2026-09-28T19:10:42+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "793c07400721b3a6",
@@ -171,13 +171,13 @@
     "horodatage_utc": "2026-09-28T10:02:37+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/09/28/live-updates-bitcoin-sinks-below-usd83-000-as-iran-talks-stall-and-oil-climbs",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4d531e56f4ee1872",

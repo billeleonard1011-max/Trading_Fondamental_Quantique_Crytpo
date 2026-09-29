@@ -1,18 +1,108 @@
 [
   {
+    "id": "a42da76cce940101",
+    "categorie": "geopolitique",
+    "titre_affiche": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm",
+    "horodatage_utc": "2026-09-29T01:48:52+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "10efeee0c6712f5f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Sri Lanka invites Malaysian corporates to partner in next growth phase",
+    "horodatage_utc": "2026-09-29T01:15:00+00:00",
+    "source_nom": "GDELT/ft.lk",
+    "url_source": "https://www.ft.lk/business/Sri-Lanka-invites-Malaysian-corporates-to-partner-in-next-growth-phase/34-797891",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/ft.lk. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b201ce8e9b16d852",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.5 - 173 km SE of Atlasovo, Russia",
+    "horodatage_utc": "2026-09-29T01:02:00+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty9i",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4801eaf784eb004e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Singapore’s bet on chipmaking",
+    "horodatage_utc": "2026-09-29T00:43:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f1c7da54-a762-4c62-bb4c-0ce4fe536900?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4a9fe0149bd0b296",
+    "categorie": "geopolitique",
+    "titre_affiche": "Roundup : Nigeria rate cut signals shift toward monetary easing , supports business activity",
+    "horodatage_utc": "2026-09-29T00:00:00+00:00",
+    "source_nom": "GDELT/nigeriasun.com",
+    "url_source": "http://www.nigeriasun.com/news/279338290/roundup-nigeria-rate-cut-signals-shift-toward-monetary-easing-supports-business-activity",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/nigeriasun.com. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ee910e43ed505a73",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pope Leo criticises Nvidia’s Jensen Huang over AI safety",
+    "horodatage_utc": "2026-09-28T23:51:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5c627794-766b-49db-ab96-7532731e7084?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "0c59a9f06ed8ee62",
     "categorie": "geopolitique",
     "titre_affiche": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
     "horodatage_utc": "2026-09-28T22:21:22+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fb44ec3b9253cbf0",
@@ -21,13 +111,13 @@
     "horodatage_utc": "2026-09-28T22:15:57+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/28/jim-cramer-stocks-oil-bond-yields.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "aaf399039f1cc6f5",
@@ -300,7 +390,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "089c78c1c03e9996",
@@ -392,7 +482,7 @@
       "Dollar et devises"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d4d6e69eb2594641",
@@ -408,7 +498,7 @@
       "Inflation et prix"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "af56a8595a4dafa9",
@@ -438,7 +528,7 @@
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "21d273b1e3f76105",
@@ -453,7 +543,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c409ba7baae6574d",
@@ -468,7 +558,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "63edb0e97ab6b40c",
@@ -483,7 +573,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9e82a595c72614a2",
@@ -559,7 +649,7 @@
       "Conflits et sécurité"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "afa4f06f1c5e5299",
@@ -651,7 +741,7 @@
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dd0280cde7245490",
@@ -681,7 +771,7 @@
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dc559bb3b8f5d8b9",
@@ -697,7 +787,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5bb3aaa8263f9ad7",
@@ -712,7 +802,7 @@
       "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e8fc240c2106c3f1",
@@ -727,7 +817,7 @@
       "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b7406af4007625f8",
@@ -802,7 +892,7 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "be530a429789f4d9",
@@ -1720,96 +1810,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "eff81c1c62655838",
-    "categorie": "geopolitique",
-    "titre_affiche": "Debt-hungry AI companies face increased risk as bond yields spike",
-    "horodatage_utc": "2026-09-27T15:35:34+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ba0a0e95706f28a2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iraqis take to streets to protest against unjust blockade against Iran",
-    "horodatage_utc": "2026-09-27T15:15:00+00:00",
-    "source_nom": "GDELT/presstv.co.uk",
-    "url_source": "https://www.presstv.co.uk/Detail/2026/09/27/777112/Iraqis-take-to-streets-to-protest-against-",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "617b284e9a342d0a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Better deal : What behind Trump rejection of Iran truce offer ? | Explainer News",
-    "horodatage_utc": "2026-09-27T15:15:00+00:00",
-    "source_nom": "GDELT/aljazeera.com",
-    "url_source": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "96d523d23a38aefc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Swiss say no to hardening neutrality principle , safeguarding sanctions on Russia",
-    "horodatage_utc": "2026-09-27T15:00:00+00:00",
-    "source_nom": "GDELT/politico.eu",
-    "url_source": "https://www.politico.eu/article/swiss-reject-stricter-neutrality-principle-safeguarding-santions-against-russia/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d720ef79542d6791",
-    "categorie": "geopolitique",
-    "titre_affiche": "Szczyt Trump - Xi . Kluczowe jest to , co , czym różnią się komunikaty Chin i united states",
-    "horodatage_utc": "2026-09-27T14:45:00+00:00",
-    "source_nom": "GDELT/wiadomosci.onet.pl",
-    "url_source": "https://wiadomosci.onet.pl/swiat/szczyt-trump-xi-kluczowe-jest-to-co-czym-roznia-sie-komunikaty-chin-i-usa/znpmhdg",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f92a5d92dd2258cc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine Open Thread 2026 - 212 – Moon of Alabama",
-    "horodatage_utc": "2026-09-27T14:45:00+00:00",
-    "source_nom": "GDELT/moonofalabama.org",
-    "url_source": "https://www.moonofalabama.org/2026/09/ukraine-open-thread-2026-212.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true

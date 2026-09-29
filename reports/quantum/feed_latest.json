@@ -15,6 +15,51 @@
     "nouveaute": true
   },
   {
+    "id": "2a95d186acb0fad7",
+    "categorie": "quantique",
+    "titre_affiche": "Rigetti Computing ( NASDAQ : RGTI ) Stock Falls 4 . 3 % – Here What Happened",
+    "horodatage_utc": "2026-09-28T22:00:00+00:00",
+    "source_nom": "GDELT/themarketsdaily.com",
+    "url_source": "https://www.themarketsdaily.com/2026/09/28/rigetti-computing-nasdaqrgti-stock-falls-4-3-heres-what-happened.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : RGTI. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dd55c8435d785248",
+    "categorie": "quantique",
+    "titre_affiche": "International Business Machines ( NYSE : IBM ) Stock Price Down 2 . 1 % – What Next ?",
+    "horodatage_utc": "2026-09-28T21:45:00+00:00",
+    "source_nom": "GDELT/dailypolitical.com",
+    "url_source": "https://www.dailypolitical.com/2026/09/28/international-business-machines-nyseibm-stock-price-down-2-1-whats-next.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailypolitical.com. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "46c4c4174832b0ee",
+    "categorie": "quantique",
+    "titre_affiche": "Investment Analyst New Coverage for September 28th ( ADIG , ADSK , AGEN , BAC , FTV , IONQ , JKHY , KRSA , LXRX , MBAI )",
+    "horodatage_utc": "2026-09-28T18:00:00+00:00",
+    "source_nom": "GDELT/themarketsdaily.com",
+    "url_source": "https://www.themarketsdaily.com/2026/09/28/investment-analysts-new-coverage-for-september-28th-adig-adsk-agen-bac-ftv-ionq-jkhy-krsa-lxrx-mbai.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "4572ee9e4e3ea0a1",
     "categorie": "quantique",
     "titre_affiche": "Quandela Seeks South Korean Partners for Photonic Quantum Computing",
