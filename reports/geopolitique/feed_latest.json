@@ -1,11 +1,41 @@
 [
   {
-    "id": "54c4d3780abd7950",
+    "id": "b8583f777df1bd33",
     "categorie": "geopolitique",
-    "titre_affiche": "Mistral CEO says U.S. AI safety debate masks competitors’ 'negligence'",
-    "horodatage_utc": "2026-09-29T08:20:04+00:00",
+    "titre_affiche": "Bowman, Opening Remarks",
+    "horodatage_utc": "2026-09-29T15:00:00+00:00",
+    "source_nom": "Federal Reserve - discours et auditions",
+    "url_source": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "832715e9d52568cd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
+    "horodatage_utc": "2026-09-29T14:37:07+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "0d0473203373735d",
+    "categorie": "geopolitique",
+    "titre_affiche": "New AI-powered government website uses Gemini, Grok, Trump official Gebbia says",
+    "horodatage_utc": "2026-09-29T14:32:15+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
+    "url_source": "https://www.cnbc.com/2026/09/29/trump-ai-gemini-grok.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,19 +45,170 @@
     "nouveaute": true
   },
   {
+    "id": "182adbc85e0c8def",
+    "categorie": "geopolitique",
+    "titre_affiche": "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+    "horodatage_utc": "2026-09-29T13:37:49+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/29/ai-safety-regulation-mike-johnson-congress.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d3080faf74b766a4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
+    "horodatage_utc": "2026-09-29T13:09:30+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmaker-stock-is-too-cheap-for-huang-to-resist.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1043bbe56023d865",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump to meet AI chiefs over safety outcry",
+    "horodatage_utc": "2026-09-29T12:35:20+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b385d4b5bedd7d64",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump meets with AI execs, Treasury yields pressure stocks, Alaska's luxury push and more in Morning Squawk",
+    "horodatage_utc": "2026-09-29T12:31:16+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/29/5-things-to-know-before-the-stock-market-opens.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7431df93226a797c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
+    "horodatage_utc": "2026-09-29T12:00:33+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "54c4d3780abd7950",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mistral CEO says U.S. AI safety debate masks competitors’ 'negligence'",
+    "horodatage_utc": "2026-09-29T11:52:46+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "bbcece9487eb6412",
+    "categorie": "geopolitique",
+    "titre_affiche": "A Republican midterm defeat will not be an earthquake",
+    "horodatage_utc": "2026-09-29T11:16:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7b9df85a-59ed-4863-9682-1c5b868fd3af?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b38c11896a927501",
+    "categorie": "geopolitique",
+    "titre_affiche": "US-Iran war adds €100bn to EU’s fuel bill",
+    "horodatage_utc": "2026-09-29T10:55:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f16439a7-5554-412a-ae34-b46459ce28a9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c409ba7baae6574d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Zuckerberg, Amodei among tech executives set to meet Trump Tuesday",
+    "horodatage_utc": "2026-09-29T10:21:33+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "ebd3bf36ef2aa189",
+    "categorie": "geopolitique",
+    "titre_affiche": "More than 100 Israelis go on rampage in Palestinian town",
+    "horodatage_utc": "2026-09-29T09:29:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4f5680c7-8c87-4e1f-99b2-beaa6655a2ec?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "d826f892f9159a45",
     "categorie": "geopolitique",
     "titre_affiche": "ECB amends monetary policy implementation guidelines as part of regular review",
     "horodatage_utc": "2026-09-29T08:00:00+00:00",
     "source_nom": "BCE - communiques",
     "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "239e39a2929bb3a1",
@@ -36,13 +217,13 @@
     "horodatage_utc": "2026-09-29T04:04:31+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d6a9f5df-08d0-4f80-ad2d-5d8a17e2cc82?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "74b45428448d6a34",
@@ -51,13 +232,13 @@
     "horodatage_utc": "2026-09-29T04:00:23+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f894f69a-9e2b-4c3f-bf5d-c5c4dc0e6197?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "73f49e5a5b9a1505",
@@ -81,13 +262,13 @@
     "horodatage_utc": "2026-09-29T04:00:12+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/78bfdad6-cf74-44c0-a3ec-dd2825563b99?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9f273b8252f17b13",
@@ -648,21 +829,6 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c409ba7baae6574d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zuckerberg, Amodei among tech executives set to meet Trump Tuesday",
-    "horodatage_utc": "2026-09-28T20:00:45+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -1646,171 +1812,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "bcc6c1b6c8ec4e20",
-    "categorie": "geopolitique",
-    "titre_affiche": "US just gaslighting over Hormuz : Irans Parliament speaker",
-    "horodatage_utc": "2026-09-27T19:45:00+00:00",
-    "source_nom": "GDELT/presstv.co.uk",
-    "url_source": "https://www.presstv.co.uk/Detail/2026/09/27/777148/Iran-Qalibaf-US-claims-Hormuz-gaslighting",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dc2726b89f46abc6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sen . Kennedy urges Trump to focus on affordability , address nation on Iran ahead of midterm elections",
-    "horodatage_utc": "2026-09-27T19:45:00+00:00",
-    "source_nom": "GDELT/cbsnews.com",
-    "url_source": "https://www.cbsnews.com/news/john-kennedy-trump-affordability-iran-midterms/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "54b2609e03656091",
-    "categorie": "geopolitique",
-    "titre_affiche": "China weighs allowing ByteDance , Alibaba to buy new Nvidia chips : The Information",
-    "horodatage_utc": "2026-09-27T19:45:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/tech/technology/china-weighs-allowing-bytedance-alibaba-to-buy-new-nvidia-chips-the-information/articleshow/134525276.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0b687ea3451eeb8b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dario Amodei set to have dinner with Trump after missing state dinner",
-    "horodatage_utc": "2026-09-27T19:45:00+00:00",
-    "source_nom": "GDELT/cnbc.com",
-    "url_source": "https://www.cnbc.com/2026/09/27/dario-amodei-set-to-have-dinner-with-trump-after-missing-state-dinner.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "e48fb61fd627b872",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump to have dinner with Anthropic CEO Amodei at the White House",
-    "horodatage_utc": "2026-09-27T19:23:29+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/27/trump-dinner-anthropic-ceo-amodei.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "c7f602bcea336c74",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump praises joint op with Britain after arrests near US - used united kingdom airbase ; PM Burnham urges calm",
-    "horodatage_utc": "2026-09-27T19:15:00+00:00",
-    "source_nom": "GDELT/news.webindia123.com",
-    "url_source": "https://news.webindia123.com/news/Articles/World/20260927/4504192.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "4e1c5988840b7224",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil will come dropping down as soon as Iran gives up : Trump says war will be over soon",
-    "horodatage_utc": "2026-09-27T19:15:00+00:00",
-    "source_nom": "GDELT/iranherald.com",
-    "url_source": "http://www.iranherald.com/news/279335833/oil-will-come-dropping-down-as-soon-as-iran-gives-up-trump-says-war-will-be-over-soon",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bf3ad946cb288849",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump administration plans to gut clean car rules",
-    "horodatage_utc": "2026-09-27T19:15:00+00:00",
-    "source_nom": "GDELT/inquirer.com",
-    "url_source": "https://www.inquirer.com/news/nation-world/trump-executive-order-gut-fuel-efficiency-rules-evs-biden-climate-change-20260927.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "20fce1bec5cb227f",
-    "categorie": "geopolitique",
-    "titre_affiche": "China may let ByteDance , Alibaba buy new Nvidia chips : The Information",
-    "horodatage_utc": "2026-09-27T19:15:00+00:00",
-    "source_nom": "GDELT/cnbc.com",
-    "url_source": "https://www.cnbc.com/2026/09/27/china-bytedance-alibaba-nvidia-chips.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f88c4abb80f23622",
-    "categorie": "geopolitique",
-    "titre_affiche": "Better deal : What behind Trump rejection of Iran truce offer ? - Grenada Chronicle – Daily Grenada And Caribbean News",
-    "horodatage_utc": "2026-09-27T19:15:00+00:00",
-    "source_nom": "GDELT/grenadachronicle.com",
-    "url_source": "https://grenadachronicle.com/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5eae2b488e189e76",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nahost : Donald Trump erwartet weitere Gespräche mit dem Iran",
-    "horodatage_utc": "2026-09-27T19:15:00+00:00",
-    "source_nom": "GDELT/ruhrnachrichten.de",
-    "url_source": "https://www.ruhrnachrichten.de/ueberregionales/nahost-newsblog-krieg-israel-iran-hisbollah-hamas-libanon-gaza-netanjahu-trump-27-september-w1226054-2002160767/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
