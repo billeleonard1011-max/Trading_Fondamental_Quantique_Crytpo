@@ -257,6 +257,21 @@
     "nouveaute": true
   },
   {
+    "id": "175d707dee9fa6fa",
+    "categorie": "crypto",
+    "titre_affiche": "Kinetiq RRobotics Deploys Nova Robotic Concierge at Cochin International Airport",
+    "horodatage_utc": "2026-09-29T10:15:00+00:00",
+    "source_nom": "GDELT/laosnews.net",
+    "url_source": "http://www.laosnews.net/news/279339596/kinetiq-rrobotics-deploys-nova-robotic-concierge-at-cochin-international-airport",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/laosnews.net. Elle mentionne : KNTQ. Le cours de KNTQ varie de 1.47867 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "KNTQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "93a46dbbf76cdc3b",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin in tight range near $84,000; consumer confidence plunged this month",
@@ -1785,21 +1800,6 @@
     "url_source": "https://www.finanzen.net/nachricht/devisen/aktueller-marktbericht-zu-bitcoin-co-15946307",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "81b17ea6ef772e90",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin arrin nivelin më të lartë në 8 muaj , kalon 85 mijë dollarë",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/voxnews.al",
-    "url_source": "https://www.voxnews.al/kosovabota/bitcoin-arrin-nivelin-me-te-larte-ne-8-muaj-kalon-85-mije-dollare-i124808",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/voxnews.al. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],

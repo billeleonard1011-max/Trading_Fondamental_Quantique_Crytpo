@@ -1,8 +1,145 @@
 [
   {
+    "id": "5c470c26ee3964a0",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI industry moves to thwart data centre backlash ahead of US midterms",
+    "horodatage_utc": "2026-09-30T04:01:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9705f5bf-bc06-481d-b2a3-1299463074b8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8d161ccd9734380c",
+    "categorie": "geopolitique",
+    "titre_affiche": "White House holds crunch talks on diesel export ban as midterms near",
+    "horodatage_utc": "2026-09-30T04:00:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/562f2988-0c04-4669-b0b7-2c16d3821926?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "096b167d807e1f04",
+    "categorie": "geopolitique",
+    "titre_affiche": "Vanguard warns France is ‘degrading credit’ as borrowing costs surge",
+    "horodatage_utc": "2026-09-30T04:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7820a84f-338e-4b91-a9b6-241a9bf81539?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e236b710f65ca26a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran tells the US public that Trump war has failed , and other Mideast developments",
+    "horodatage_utc": "2026-09-30T03:45:00+00:00",
+    "source_nom": "GDELT/woonsocketcall.com",
+    "url_source": "https://www.woonsocketcall.com/news/national_and_world_news/iran-tells-the-us-public-that-trumps-war-has-failed-and-other-mideast-developments/article_2ec12a7c-2e5c-5937-b4e6-4e7fc156366b.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/woonsocketcall.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f6eb40d5031b0574",
+    "categorie": "geopolitique",
+    "titre_affiche": "STEŽE SE OBRUČ OKO MOSKVE I TEHERANA : Trumpova administracija uvela nove sankcije protiv više kompanija i pojedinaca ...",
+    "horodatage_utc": "2026-09-30T03:45:00+00:00",
+    "source_nom": "GDELT/slobodna-bosna.ba",
+    "url_source": "https://www.slobodna-bosna.ba/vijest/507880/steze_se_obruch_oko_moskve_i_teherana_trumpova_administracija_uvela_nove_sankcije_protiv_vise_kompanija_i_pojedinaca.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/slobodna-bosna.ba. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d5b4f5aacb00430d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Frank Elderson: Supervisory risk appetite, efficiency and effectiveness",
+    "horodatage_utc": "2026-09-30T02:20:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930~d495288355.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f13ff61bc1c70f01",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran Currency Hits a New Record Low as War Erodes the Country Economic Stability",
+    "horodatage_utc": "2026-09-30T01:15:00+00:00",
+    "source_nom": "GDELT/english.aawsat.com",
+    "url_source": "https://english.aawsat.com/world/5324133-iran%E2%80%99s-currency-hits-new-record-low-war-erodes-country%E2%80%99s-economic-stability",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ba4de9c2cedf1353",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump doesnt know if Iran is going to give up yet",
+    "horodatage_utc": "2026-09-30T01:15:00+00:00",
+    "source_nom": "GDELT/standard.net.au",
+    "url_source": "https://www.standard.net.au/story/9359850/trump-doesnt-know-if-iran-is-going-to-give-up-yet/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/standard.net.au. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "3896d48881ee8b8f",
     "categorie": "geopolitique",
     "titre_affiche": "Trump praises ‘tremendous self-regulation’ of AI after summoning tech bosses to the White House",
+    "horodatage_utc": "2026-09-29T23:13:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "16234910378462d9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump praises tech bosses’ ‘tremendous self-regulation’ of AI",
     "horodatage_utc": "2026-09-29T23:13:44+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
@@ -21,13 +158,74 @@
     "horodatage_utc": "2026-09-29T22:42:35+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "2c0a7a71b3775cbd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ambassador Reveals Trump Pitched U . S . Weapons to China Xi Jinping – NaturalNews . com",
+    "horodatage_utc": "2026-09-29T22:00:00+00:00",
+    "source_nom": "GDELT/naturalnews.com",
+    "url_source": "https://www.naturalnews.com/2026-09-29-trump-pitched-us-weapons-to-xi-jinping.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1656b6c576248e7c",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Latest : Trump new AI - powered America . gov pivots political answers moments after launch | Nation & World",
+    "horodatage_utc": "2026-09-29T22:00:00+00:00",
+    "source_nom": "GDELT/hngnews.com",
+    "url_source": "http://www.hngnews.com/nation_world/the-latest-trump-s-new-ai-powered-america-gov-pivots-political-answers-moments-after-launch/article_a6061f14-69dc-5b2e-84cf-d2c4eb414ee5.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "4c34fe201034fb50",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says US officials ​talked with mediators , will win Iran war very soon",
+    "horodatage_utc": "2026-09-29T22:00:00+00:00",
+    "source_nom": "GDELT/tribune.com.pk",
+    "url_source": "https://tribune.com.pk/story/2631824/8-us-marines-injured-in-iranian-missile-attack-in-strait-of-hormuz-report",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9700cd0c60057734",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump and Xi agree to set up AI safety channel as military and trade talks continue",
+    "horodatage_utc": "2026-09-29T22:00:00+00:00",
+    "source_nom": "GDELT/cbsnews.com",
+    "url_source": "http://www.cbsnews.com/news/trump-xi-us-china-ai-trade-summit/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -146,14 +344,14 @@
     "horodatage_utc": "2026-09-29T18:30:00+00:00",
     "source_nom": "GDELT/journal-advocate.com",
     "url_source": "https://www.journal-advocate.com/2026/09/29/us-iran-sanctions-supply-chain/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/journal-advocate.com. Elle se rattache à : Iran - États-Unis, Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1491ebac7a2ca897",
@@ -162,13 +360,13 @@
     "horodatage_utc": "2026-09-29T18:30:00+00:00",
     "source_nom": "GDELT/democracynow.org",
     "url_source": "https://www.democracynow.org/2026/9/29/muhammad_shehada",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/democracynow.org. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9d251954ec5370dc",
@@ -177,15 +375,15 @@
     "horodatage_utc": "2026-09-29T17:45:00+00:00",
     "source_nom": "GDELT/wokv.com",
     "url_source": "https://www.wokv.com/news/politics/us-targets-irans/UKQY7NU4EY7PBMGRMDVP5SIJXE/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/wokv.com. Elle se rattache à : Iran - États-Unis, Matières premières (précieux, cuivre, pétrole), Sanctions. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Matières premières (précieux, cuivre, pétrole)",
       "Sanctions"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c8dfbec1c9f94c84",
@@ -203,21 +401,6 @@
     "nouveaute": true
   },
   {
-    "id": "f13ff61bc1c70f01",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran currency hits a new record low as war erodes the country economic stability",
-    "horodatage_utc": "2026-09-29T17:30:00+00:00",
-    "source_nom": "GDELT/whec.com",
-    "url_source": "https://www.whec.com/ap-top-news/irans-currency-hits-a-new-record-low-as-war-erodes-the-countrys-economic-stability/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "82ea3198b22b53fd",
     "categorie": "geopolitique",
     "titre_affiche": "Treasury Sanctions 10 Targets Over Iran Weapons Procurement Under Operation Economic Outcast",
@@ -230,7 +413,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9732bbc3e7399ee6",
@@ -260,7 +443,7 @@
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d022871ce1eaec73",
@@ -275,7 +458,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0d0473203373735d",
@@ -320,7 +503,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "15b6ccc6daa60f1f",
@@ -335,7 +518,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c70b6215b56d2cc3",
@@ -350,7 +533,7 @@
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b8583f777df1bd33",
@@ -380,7 +563,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "92275c1830b25338",
@@ -425,7 +608,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4fe51a8cb848003c",
@@ -440,7 +623,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c57bfb2913700019",
@@ -1638,187 +1821,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "9a29ce07f23f0a4a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Seoul accuses Ukraine of violating secrecy pact on North Korean soldiers",
-    "horodatage_utc": "2026-09-28T08:18:27+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8a45576f-ff89-449c-82e5-6c9976e91537?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f47f4d80da6f363a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Japan denies militarisation after Russia opposes permanent UN council seat",
-    "horodatage_utc": "2026-09-28T08:15:00+00:00",
-    "source_nom": "GDELT/scmp.com",
-    "url_source": "https://www.scmp.com/news/asia/east-asia/article/3369042/japan-denies-militarisation-after-russia-opposes-permanent-un-council-seat",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/scmp.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "127db758bd308b10",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nato states prepare evacuation plan for Russian attack",
-    "horodatage_utc": "2026-09-28T08:15:00+00:00",
-    "source_nom": "GDELT/dailymail.com",
-    "url_source": "https://www.dailymail.com/news/article-16165721/Nato-states-prepare-evacuation-plan-Russian-attack-amid-mounting-fears-incursion-alliances-Achilles-heel.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/dailymail.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "af20c15d87d55ecc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Rupee pinned just shy of 96 / USD as RBI intervention counters oil woes",
-    "horodatage_utc": "2026-09-28T08:15:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-pinned-just-shy-of-96/usd-as-rbi-intervention-counters-oil-woes/articleshow/134535315.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "be530a429789f4d9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ue Kallas | La Russia prepara nuovi sabotaggi e attacchi contro la nostra democrazia",
-    "horodatage_utc": "2026-09-28T08:00:00+00:00",
-    "source_nom": "GDELT/zazoom.it",
-    "url_source": "https://www.zazoom.it/2026-09-28/ue-kallas-la-russia-prepara-nuovi-sabotaggi-e-attacchi-contro-la-nostra-democrazia/19731793/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/zazoom.it. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "16c773dc04948b56",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lower Merion considering new drones for police department",
-    "horodatage_utc": "2026-09-28T08:00:00+00:00",
-    "source_nom": "GDELT/mainlinemedianews.com",
-    "url_source": "https://www.mainlinemedianews.com/2026/09/21/lower-merion-considering-new-drones-for-police-department/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/mainlinemedianews.com. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "bc1c6ecbad85cb73",
-    "categorie": "geopolitique",
-    "titre_affiche": "On Poland border with Ukraine , residents brace for a possible Russian hybrid attack",
-    "horodatage_utc": "2026-09-28T08:00:00+00:00",
-    "source_nom": "GDELT/mykxlg.com",
-    "url_source": "https://www.mykxlg.com/news/world/on-polands-border-with-ukraine-residents-brace-for-a-possible-russian-hybrid-attack/article_d97db17f-a9f3-5360-87b1-051f415966c0.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/mykxlg.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "15a8574bd0229de7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine Carrying Out Airdrops of Food Via Drone to City Besieged by Russian Forces , Official Says",
-    "horodatage_utc": "2026-09-28T08:00:00+00:00",
-    "source_nom": "GDELT/kyivpost.com",
-    "url_source": "https://www.kyivpost.com/post/85528",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/kyivpost.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b2f05c684b791e25",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Proposed Weapon Sales To Xi | Talk Radio 105 . 9",
-    "horodatage_utc": "2026-09-28T08:00:00+00:00",
-    "source_nom": "GDELT/talkradio1059.iheart.com",
-    "url_source": "https://talkradio1059.iheart.com/content/2026-09-28-trump-proposed-weapon-sales-to-xi/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/talkradio1059.iheart.com. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "a4edb6c1420a054e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Rupee falls 20 paise to 95 . 95 against US dollar in early trade",
-    "horodatage_utc": "2026-09-28T07:45:00+00:00",
-    "source_nom": "GDELT/newindianexpress.com",
-    "url_source": "https://www.newindianexpress.com/business/2026/Sep/28/rupee-falls-20-paise-to-9595-against-us-dollar-in-early-trade",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8081ddd5acae0c3f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil price rise puts more pressure on government bonds",
-    "horodatage_utc": "2026-09-28T07:33:03+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Taux et obligations",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a91930ebbd8a4412",
-    "categorie": "geopolitique",
-    "titre_affiche": "This choice of targets would be called by one word -- terrorism : Zelenskyy urges stronger sanctions over Russian strikes",
-    "horodatage_utc": "2026-09-28T07:30:00+00:00",
-    "source_nom": "GDELT/iraqsun.com",
-    "url_source": "http://www.iraqsun.com/news/279336553/this-choice-of-targets-would-be-called-by-one-word-terrorism-zelenskyy-urges-stronger-sanctions-over-russian-strikes",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
