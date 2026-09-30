@@ -1,5 +1,50 @@
 [
   {
+    "id": "e0572f4d07ab92cb",
+    "categorie": "quantique",
+    "titre_affiche": "NSF Awards $600,000 to Stony Brook and University of Hawaiʻi to Advance Distributed Quantum Intelligent Sensor Networks",
+    "horodatage_utc": "2026-09-30T09:36:40+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/nsf-awards-600000-to-stony-brook-and-university-of-hawai%ca%bbi-to-advance-distributed-quantum-intelligent-sensor-networks/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Intel. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Intel"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "63c7419fd643b67b",
+    "categorie": "quantique",
+    "titre_affiche": "Xanadu and Bluefors Form Multi-Million Dollar Strategic Partnership to Develop Modular Cryogenic Infrastructure for Utility-Scale Quantum Data Centers",
+    "horodatage_utc": "2026-09-30T07:39:52+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/xanadu-and-bluefors-form-multi-million-dollar-strategic-partnership-to-develop-modular-cryogenic-infrastructure-for-utility-scale-quantum-data-centers/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Xanadu. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Xanadu"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b1a77e37520abaaf",
+    "categorie": "quantique",
+    "titre_affiche": "Infleqtion and Riverlane Execute Strategic MOU to Integrate Neutral-Atom Hardware with Real-Time QEC Decoders",
+    "horodatage_utc": "2026-09-30T07:28:48+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/infleqtion-and-riverlane-execute-strategic-mou-to-integrate-neutral-atom-hardware-with-real-time-qec-decoders/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Infleqtion"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "21e5d9982d16e44c",
     "categorie": "quantique",
     "titre_affiche": "Xanadu and Bluefors Develop Cryogenic Infrastructure for Utility-Scale Quantum Computing",
@@ -1767,49 +1812,6 @@
       "Xanadu"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "5f9be92993effb19",
-    "categorie": "quantique",
-    "titre_affiche": "IBM Ventures Leads $8 Million Investment in BQP to Scale Quantum-Accelerated Physics Simulation",
-    "horodatage_utc": "2026-09-10T19:26:20+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ibm-ventures-leads-8-million-investment-in-bqp-to-scale-quantum-accelerated-physics-simulation/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "d19f8481be93f87d",
-    "categorie": "quantique",
-    "titre_affiche": "Infleqtion and Cisco Collaborate on Quantum Networking Research",
-    "horodatage_utc": "2026-09-10T13:46:50+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "Infleqtion"
-    ],
-    "nouveaute": true
-  },
-  {
-    "id": "89aba10165836684",
-    "categorie": "quantique",
-    "titre_affiche": "Italy Courts IonQ as Rome Seeks Deeper U.S. Quantum Ties",
-    "horodatage_utc": "2026-09-10T11:22:25+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/10/italy-courts-ionq-as-rome-seeks-deeper-u-s-quantum-ties/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
     "nouveaute": true
   }
 ]

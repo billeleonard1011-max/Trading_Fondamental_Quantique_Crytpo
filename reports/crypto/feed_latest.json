@@ -1,5 +1,80 @@
 [
   {
+    "id": "506e7dfb20e63e8f",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin below $84,000 ahead of PCE inflation data, Micron earnings",
+    "horodatage_utc": "2026-09-30T10:18:34+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/30/live-updates-bitcoin-below-usd84-000-ahead-of-pce-inflation-data-micron-earnings",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "292d17ecb13bfc69",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin stalls near $83,000 while lighter drops 17% on Robinhood perps plan",
+    "horodatage_utc": "2026-09-30T10:11:36+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/30/bitcoin-stalls-near-usd83-000-while-lighter-drops-17-on-robinhood-perps-plan",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "51c68220aec21dc4",
+    "categorie": "crypto",
+    "titre_affiche": "How European investors can now buy bitcoin without taking on U.S. dollar risk",
+    "horodatage_utc": "2026-09-30T08:25:43+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/09/30/how-european-investors-can-now-buy-bitcoin-without-taking-on-u-s-dollar-risk",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7f9c266e68cdb3a2",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin bulls have one price level to defend",
+    "horodatage_utc": "2026-09-30T07:04:41+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/30/bitcoin-bulls-have-one-price-level-to-defend",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "873eee0d532c4ce0",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score",
+    "horodatage_utc": "2026-09-30T04:38:18+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/30/bitcoin-rally-shows-signs-of-cooling-even-as-a-bull-score-gauge-nears-its-perfect-score",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "df26a6c24a7da016",
     "categorie": "crypto",
     "titre_affiche": "CryptoQuant says bitcoin correction could be near as traders’ unrealized profit hits 21-month high",
@@ -1730,80 +1805,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "8061131170bb48dc",
-    "categorie": "crypto",
-    "titre_affiche": "A $3.2 million 'bitcoin butterfly' option trade bets on $95,000 by the end of October",
-    "horodatage_utc": "2026-09-22T11:35:43+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/09/22/a-usd3-2-million-bitcoin-butterfly-option-trade-bets-on-usd95-000-by-the-end-of-october",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "d68f66931bb33056",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin arriti nivelin më të lartë në 8 muaj , kalon 85 mijë dollarë",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/portalb.mk",
-    "url_source": "https://portalb.mk/bitcoin-arriti-nivelin-me-te-larte-ne-8-muaj-kalon-85-mije-dollare/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/portalb.mk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "9abe2fd8a848c8df",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin arrin nivelin më të lartë në 8 muaj , k - Syri",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/syri.net",
-    "url_source": "https://www.syri.net/ekonomi/918358/bitcoin-arrin-nivelin-me-te-larte-ne-8-muaj-kalon-85-mije-dollare/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/syri.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "440ad576933fa694",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin prek 85 , 000 dollarë , niveli më i lartë që nga janari - Business Magazine Albania",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/businessmag.al",
-    "url_source": "https://businessmag.al/bitcoin-prek-85000-dollare-niveli-me-i-larte-qe-nga-janari/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/businessmag.al. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "cc24d8dbb3356d9b",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin & Co . aktuell : Wie sich Kryptowährungen am Mittag entwickeln",
-    "horodatage_utc": "2026-09-22T11:00:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/nachricht/devisen/aktueller-marktbericht-zu-bitcoin-co-15946307",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]

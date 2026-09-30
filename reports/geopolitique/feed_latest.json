@@ -1,5 +1,81 @@
 [
   {
+    "id": "ccfb10bd76a64c22",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue",
+    "horodatage_utc": "2026-09-30T10:26:39+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e3a1cd77adbc32e0",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI is sued over rogue AI Hugging Face cyberattack",
+    "horodatage_utc": "2026-09-30T10:16:36+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1fe39a79701201af",
+    "categorie": "geopolitique",
+    "titre_affiche": "Singapore's Temasek to expand Middle East presence, open Abu Dhabi, Riyadh offices",
+    "horodatage_utc": "2026-09-30T08:45:42+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/30/singapores-temasek-expands-in-mideast-with-abu-dhabi-riyadh-offices-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "096b167d807e1f04",
+    "categorie": "geopolitique",
+    "titre_affiche": "Vanguard warns France is ‘degrading credit’ as borrowing costs surge",
+    "horodatage_utc": "2026-09-30T08:42:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7820a84f-338e-4b91-a9b6-241a9bf81539?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "00bcac9f300d8532",
+    "categorie": "geopolitique",
+    "titre_affiche": "Burnham says rejoining EU an option for the UK",
+    "horodatage_utc": "2026-09-30T07:17:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d740f13d-38bc-4460-bcd5-2922472fc209?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "5c470c26ee3964a0",
     "categorie": "geopolitique",
     "titre_affiche": "AI industry moves to thwart data centre backlash ahead of US midterms",
@@ -22,29 +98,14 @@
     "horodatage_utc": "2026-09-30T04:00:25+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/562f2988-0c04-4669-b0b7-2c16d3821926?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "096b167d807e1f04",
-    "categorie": "geopolitique",
-    "titre_affiche": "Vanguard warns France is ‘degrading credit’ as borrowing costs surge",
-    "horodatage_utc": "2026-09-30T04:00:14+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7820a84f-338e-4b91-a9b6-241a9bf81539?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e236b710f65ca26a",
@@ -83,13 +144,13 @@
     "horodatage_utc": "2026-09-30T02:20:00+00:00",
     "source_nom": "BCE - communiques",
     "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930~d495288355.en.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f13ff61bc1c70f01",
@@ -143,28 +204,12 @@
     "horodatage_utc": "2026-09-29T23:13:44+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "ccfb10bd76a64c22",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue",
-    "horodatage_utc": "2026-09-29T22:42:35+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
     "nouveaute": false
   },
   {
@@ -1773,51 +1818,6 @@
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque",
       "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5bb3aaa8263f9ad7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Pakistan , IMF talks to unlock $1 . 2 billion tranche starts today",
-    "horodatage_utc": "2026-09-28T09:45:00+00:00",
-    "source_nom": "GDELT/pakobserver.net",
-    "url_source": "https://pakobserver.net/pakistan-imf-talks-to-unlock-1-2-billion-tranche-starts-today/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "e8fc240c2106c3f1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Pakistan , IMF Continue Talks on Fourth Economic Review",
-    "horodatage_utc": "2026-09-28T09:00:00+00:00",
-    "source_nom": "GDELT/express.pk",
-    "url_source": "https://www.express.pk/story/2835095/pakistan-imf-continue-talks-on-fourth-economic-review-2835095",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "b7406af4007625f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
-    "horodatage_utc": "2026-09-28T08:31:33+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
     ],
     "portee": "influence",
     "nouveaute": false
