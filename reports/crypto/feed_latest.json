@@ -1,18 +1,33 @@
 [
   {
+    "id": "b76530a834577794",
+    "categorie": "crypto",
+    "titre_affiche": "DogeOS launches testnet to bring EVM smart contracts to Dogecoin",
+    "horodatage_utc": "2026-09-30T18:23:57+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/ecosystems/2026-09-30-dogeos-launches-public-testnet-dogecoin-zk-rollup-evm-417307",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : DOGE. Le cours de DOGE varie de 1.09604 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "DOGE"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b13fceacb0e9fbce",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin steadies as soft PCE cools October Fed rate hike bets",
     "horodatage_utc": "2026-09-30T16:10:36+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "75c74f9993520c01",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-09-30T15:34:50+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/09/24/open-usd-takes-on-tether-circle-with-a-different-stablecoin-model-that-s-building-money",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5848f4626e676e09",
@@ -36,13 +51,13 @@
     "horodatage_utc": "2026-09-30T11:20:09+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/daybook-us/2026/09/30/a-stronger-dollar-is-a-weaker-threat-to-bitcoin-than-traders-think",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "506e7dfb20e63e8f",
@@ -70,6 +85,22 @@
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c5523773c3f29999",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin closing out best quarter since 2024, ether its best since 2021",
+    "horodatage_utc": "2026-09-30T10:18:34+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/09/30/live-updates-bitcoin-below-usd84-000-ahead-of-pce-inflation-data-micron-earnings",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -1769,36 +1800,6 @@
     "url_source": "https://www.themarketsdaily.com/2026/09/22/bitcoin-stocks-to-research-september-22nd.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "f370e208ba2f38a0",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs Attract Nearly $1 Billion As Crypto Rally Strengthens",
-    "horodatage_utc": "2026-09-22T16:00:00+00:00",
-    "source_nom": "GDELT/finance.yahoo.com",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-attract-nearly-1-145600491.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "66a39a9d6281fcd6",
-    "categorie": "crypto",
-    "titre_affiche": "Kryptomarkt 22 . September 2026 Nachmittag : Bitcoin 85 . 000 Dollar konsolidiert , Strategy 950 BTC , Bitmine 27 . 562 ETH , Nasdaq +2 , 8 %",
-    "horodatage_utc": "2026-09-22T15:45:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/nachricht/devisen/kryptomarkt-bitcoin-konsolidiert-nach-tageshoch-87-281-dollar-strategy-kauft-bitmine-akkumuliert-eth-648-millionen-shorts-liquidiert-00-15946924",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
