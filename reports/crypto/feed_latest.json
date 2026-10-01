@@ -1,5 +1,35 @@
 [
   {
+    "id": "2c66c9bc07e5e00e",
+    "categorie": "crypto",
+    "titre_affiche": "Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps",
+    "horodatage_utc": "2026-10-01T04:58:52+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : DOGE. Le cours de DOGE varie de 1.09604 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "DOGE"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "848a7479086b61ad",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin's soft-inflation pop to $85,500 fades as bond yields refuse to fall",
+    "horodatage_utc": "2026-10-01T04:15:20+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/01/bitcoin-s-soft-inflation-pop-to-usd85-500-fades-as-bond-yields-refuse-to-fall",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b76530a834577794",
     "categorie": "crypto",
     "titre_affiche": "DogeOS launches testnet to bring EVM smart contracts to Dogecoin",
@@ -1770,36 +1800,6 @@
     "url_source": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-moves-back-above-80-103000322.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "c459f4cd7fbfec22",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin - Kurs über 86 . 000 US$ : War das der Befreiungsschlag ?",
-    "horodatage_utc": "2026-09-22T16:30:00+00:00",
-    "source_nom": "GDELT/finanznachrichten.de",
-    "url_source": "https://www.finanznachrichten.de/nachrichten-2026-09/69647036-bitcoin-kurs-ueber-86-000-us-dollar-war-das-der-befreiungsschlag-486.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanznachrichten.de. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "2ab3dcf647a6a423",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Stocks To Research – September 22nd",
-    "horodatage_utc": "2026-09-22T16:30:00+00:00",
-    "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/09/22/bitcoin-stocks-to-research-september-22nd.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],

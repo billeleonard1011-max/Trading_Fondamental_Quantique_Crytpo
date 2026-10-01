@@ -1,18 +1,126 @@
 [
   {
+    "id": "8584afc00a0cde78",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global bond sell-off deepens as Asian yields jump",
+    "horodatage_utc": "2026-10-01T05:29:49+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e485a228-1efe-426b-addc-26069ba48bf3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0cbc7e1aa111d81d",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI’s agents obscured hacking activity in government site breaches",
+    "horodatage_utc": "2026-10-01T04:00:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/11502a49-5319-4df5-95ea-2d76669c31a6?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e3eb96fc02a334d0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Manchester City chair shielded by diplomatic immunity",
+    "horodatage_utc": "2026-10-01T04:00:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/125675ee-0d2c-4ffc-b7c5-814dd6b82612?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "9b80cd3cf33b0464",
+    "categorie": "geopolitique",
+    "titre_affiche": "How Europe can stall Russia’s hybrid war",
+    "horodatage_utc": "2026-10-01T04:00:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cd2e89d3-2606-4116-b523-309450462d2b",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "24eee75b2792c14c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Big Tech out-lobbies European companies in Brussels",
+    "horodatage_utc": "2026-10-01T04:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/817f40f7-d4ac-43ee-beaf-12cfac08c621?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "73c1f1d1ca32f1f0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tencent leases 100,000 chips from Oracle to accelerate AI push",
+    "horodatage_utc": "2026-10-01T02:57:46+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8d57c929100425d9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s AI lunch included every major tech company. Except Apple",
+    "horodatage_utc": "2026-10-01T02:07:06+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/30/trumps-ai-lunch-included-everyone-but-apple.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "3a2886c0e62f7865",
     "categorie": "geopolitique",
     "titre_affiche": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
     "horodatage_utc": "2026-09-30T23:44:28+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4a840d2dba9f5a03",
@@ -1709,112 +1817,6 @@
     "analyse_interne": "Actualité relayée par GDELT/brisbanetimes.com.au. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8f6d0a344f2bf95c",
-    "categorie": "geopolitique",
-    "titre_affiche": "US Treasury threatens crackdown on Wall Street tax-avoidance strategies",
-    "horodatage_utc": "2026-09-28T22:00:36+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7c6d87b1-d7d9-49c3-b842-2600928fba38?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dfa19327b4a3d592",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mediators are working to broker U . S .- Iran deal even after Trump rejected latest proposal",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/adn.com",
-    "url_source": "https://www.adn.com/nation-world/2026/09/28/mediators-are-working-to-broker-us-iran-deal-even-after-trump-rejected-latest-proposal/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "88c88e348e54c14c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mediators are working to broker a US - Iran deal , but major hurdles remain",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/theintelligencer.net",
-    "url_source": "https://www.theintelligencer.net/news/top-headlines/2026/09/mediators-are-working-to-broker-a-us-iran-deal-but-major-hurdles-remain/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f9c647c05c9900b2",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Latest : Trump administration loosens fuel economy standards",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/goskagit.com",
-    "url_source": "http://www.goskagit.com/news/politics/the-latest-trump-administration-loosens-fuel-economy-standards/article_160c06c7-d2cd-59b2-bbf3-c3fb9eccb7db.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2e2108043f59fcd8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mediators working to broker US - Iran deal even after Trump rejection",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/wmtw.com",
-    "url_source": "https://www.wmtw.com/article/us-iran-deal-mediators-trump-rejection/73927939",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8b55b1253410d36c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bond yields crank higher and pull US stocks further from their record",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/woonsocketcall.com",
-    "url_source": "https://www.woonsocketcall.com/news/national_and_world_news/bond-yields-crank-higher-and-pull-us-stocks-further-from-their-record/article_df97bf69-fe2e-5995-a592-833becb0d9c4.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "72aad57be9fba29b",
-    "categorie": "geopolitique",
-    "titre_affiche": "The faulty premises underlying European war on Russia hyper - ventilation",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/sott.net",
-    "url_source": "https://www.sott.net/article/508619-The-faulty-premises-underlying-Europeans-war-on-Russia-hyper-ventilation",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
