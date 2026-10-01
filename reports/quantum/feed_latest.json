@@ -1,5 +1,20 @@
 [
   {
+    "id": "4f8efa50b2ad1ef4",
+    "categorie": "quantique",
+    "titre_affiche": "D-Wave Launches Gate-Model Simulator Beta Program Featuring 21-Qubit Dual-Rail Erasure Emulation",
+    "horodatage_utc": "2026-10-01T15:16:22+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b435526a8bdba9cc",
     "categorie": "quantique",
     "titre_affiche": "Synopsys and Amazon Announce Strategic , Multi - year IP Agreement for Custom Silicon ; Collaboration Also Extends to Cloud and AI - Powered Engineering",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-10-01T11:07:01+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "df44d4459c5e1504",
@@ -36,13 +51,13 @@
     "horodatage_utc": "2026-10-01T09:57:57+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/01/choi-next-generation-quantum-sensors/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Intel. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Intel"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9da9ec729534f140",
@@ -51,13 +66,13 @@
     "horodatage_utc": "2026-10-01T07:23:31+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/01/alice-bob-demonstrates-new-approach-to-stabilising-cat-with-dc-voltage-bias/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Alice & Bob. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Alice & Bob"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0f4b48197f6352f2",
@@ -66,13 +81,13 @@
     "horodatage_utc": "2026-10-01T07:23:22+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/alice-bob-and-ens-lyon-demonstrate-dc-biased-squid-architecture-for-multi-photon-cat-qubit-dissipation/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Alice & Bob. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Alice & Bob"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9d75bfebf33ccc25",
@@ -1795,21 +1810,6 @@
     "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
       "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "9f52b60386f1d742",
-    "categorie": "quantique",
-    "titre_affiche": "Van ECK Associates Corp Acquires 42 , 686 Shares of International Business Machines Corporation $IBM",
-    "horodatage_utc": "2026-09-12T09:15:00+00:00",
-    "source_nom": "GDELT/tickerreport.com",
-    "url_source": "https://www.tickerreport.com/banking-finance/13582527/van-eck-associates-corp-acquires-42686-shares-of-international-business-machines-corporation-ibm.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/tickerreport.com. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IBM"
     ],
     "portee": "actif_direct",
     "nouveaute": true
