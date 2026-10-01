@@ -1,18 +1,215 @@
 [
   {
+    "id": "9a005e468bab8c0b",
+    "categorie": "crypto",
+    "titre_affiche": "New bull for Bitcoin – Citigroup changes the game with a $113 , 000 price target",
+    "horodatage_utc": "2026-10-01T13:00:00+00:00",
+    "source_nom": "GDELT/bankingnews.gr",
+    "url_source": "https://www.bankingnews.gr/kriptonomismata/articles/902662/new-bull-for-bitcoin-citigroup-changes-the-game-with-a-113-000-price-target",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/bankingnews.gr. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0bddb595506f760c",
+    "categorie": "crypto",
+    "titre_affiche": "Solana Unchained Resets Final Presale Entry to $0 . 05 Alongside Tiered Bonuses as Beta Wallet and AI Infrastructure Go Live",
+    "horodatage_utc": "2026-10-01T13:00:00+00:00",
+    "source_nom": "GDELT/manilatimes.net",
+    "url_source": "https://www.manilatimes.net/2026/10/01/tmt-newswire/globenewswire/solana-unchained-resets-final-presale-entry-to-005-alongside-tiered-bonuses-as-beta-wallet-and-ai-infrastructure-go-live/2437100",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/manilatimes.net. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3d37df545503ebe9",
+    "categorie": "crypto",
+    "titre_affiche": "Crypto News : Remittix Reveals RTX Launch Date as Bitcoin Price Prediction Tracks Citi $113 , 000 Target and Quant Secures Clearing House Deal",
+    "horodatage_utc": "2026-10-01T13:00:00+00:00",
+    "source_nom": "GDELT/manilatimes.net",
+    "url_source": "https://www.manilatimes.net/2026/10/01/tmt-newswire/globenewswire/crypto-news-remittix-reveals-rtx-launch-date-as-bitcoin-price-prediction-tracks-citis-113000-target-and-quant-secures-clearing-house-deal/2437087",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/manilatimes.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a945ec5c5e30ae11",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETFs’ 9-day, $3 billion inflow streak comes to an end as $149 million exits the funds",
+    "horodatage_utc": "2026-10-01T12:17:06+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "03bc9fcbc26198cd",
+    "categorie": "crypto",
+    "titre_affiche": "Live Updates: Bitcoin flat near $84,000 after closing out best quarter since 2024",
+    "horodatage_utc": "2026-10-01T11:59:17+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/01/live-updates-bitcoin-flat-near-usd84-000-after-best-quarter-since-2024",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e5d4248e39e3b5f8",
+    "categorie": "crypto",
+    "titre_affiche": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
+    "horodatage_utc": "2026-10-01T11:30:38+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/01/crypto-lost-usd1-26-billion-in-hacks-while-bitcoin-bulls-enjoyed-a-monster-quarter",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0ca2a2a29c3fdefb",
+    "categorie": "crypto",
+    "titre_affiche": "Who is Adam Back , the Bitcoin pioneer behind Blockstream and Liquid ?",
+    "horodatage_utc": "2026-10-01T11:00:00+00:00",
+    "source_nom": "GDELT/business-standard.com",
+    "url_source": "https://www.business-standard.com/markets/cryptocurrency/who-is-adam-back-the-bitcoin-pioneer-behind-blockstream-and-liquid-126100100684_1.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/business-standard.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f95c49bb580bc01a",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin , Dogecoin , Ethereum : Aktuelle Kurse am Mittag",
+    "horodatage_utc": "2026-10-01T11:00:00+00:00",
+    "source_nom": "GDELT/finanzen.net",
+    "url_source": "https://www.finanzen.net/nachricht/devisen/bitcoinkurs-co-aktuell-so-steht-es-am-donnerstagmittag-um-die-kurse-der-digitalwaehrungen-15962551",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC, ETH, DOGE. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH",
+      "DOGE"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "acc8000739ffa77f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoinkurs & Co . aktuell : So steht es am Donnerstagmittag um die Kurse der Digitalwährungen",
+    "horodatage_utc": "2026-10-01T11:00:00+00:00",
+    "source_nom": "GDELT/finanzen.ch",
+    "url_source": "https://www.finanzen.ch/nachrichten/devisen/bitcoinkurs-&-co-aktuell-so-steht-es-am-donnerstagmittag-um-die-kurse-der-digitalwahrungen-1036588906",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6ab84d3230858af2",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum holds near $2 , 700 after a strong quarter as ETF flows cool - London Business News",
+    "horodatage_utc": "2026-10-01T11:00:00+00:00",
+    "source_nom": "GDELT/londonlovesbusiness.com",
+    "url_source": "https://londonlovesbusiness.com/ethereum-holds-near-2700-after-a-strong-quarter-as-etf-flows-cool/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "294cd52eacdc5a14",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
+    "horodatage_utc": "2026-10-01T10:38:04+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9e877d8b2e69fa88",
+    "categorie": "crypto",
+    "titre_affiche": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
+    "horodatage_utc": "2026-10-01T09:59:30+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d1ebf17739201c63",
+    "categorie": "crypto",
+    "titre_affiche": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
+    "horodatage_utc": "2026-10-01T07:06:30+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "2c66c9bc07e5e00e",
     "categorie": "crypto",
     "titre_affiche": "Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps",
     "horodatage_utc": "2026-10-01T04:58:52+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : DOGE. Le cours de DOGE varie de 1.09604 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "DOGE"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "848a7479086b61ad",
@@ -21,13 +218,13 @@
     "horodatage_utc": "2026-10-01T04:15:20+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/01/bitcoin-s-soft-inflation-pop-to-usd85-500-fades-as-bond-yields-refuse-to-fall",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b76530a834577794",
@@ -1607,201 +1804,6 @@
     "tickers_ou_themes_lies": [
       "ETH",
       "LINK"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "d466ba034bb55cdf",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Cash Rallies 30 % Following CME Futures Announcement",
-    "horodatage_utc": "2026-09-23T21:30:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/bitcoin-cash-rallies-30-following-205441000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "1c682a9ad5bed3f5",
-    "categorie": "crypto",
-    "titre_affiche": "‘BTC still has room to catch up’: Bitcoin’s $80,000 breakout draws institutional demand as analysts weigh durability",
-    "horodatage_utc": "2026-09-23T16:52:09+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-23-bitcoin-breakout-etf-inflows-analysts-k33-nexo-resistance-416182",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "99a91acc2d28a713",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-    "horodatage_utc": "2026-09-23T13:02:43+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "cd05fd59b0b30c74",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin slips under $86,000 as money rotates into BCH and ZEC",
-    "horodatage_utc": "2026-09-23T11:29:30+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/23/live-updates-bitcoin-slips-under-usd86-000-as-money-rotates-into-bch-and-zec",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "0103c4aece17efcb",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin pulls back to $84,000 as bond yields fly higher",
-    "horodatage_utc": "2026-09-23T11:29:30+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/23/live-updates-bitcoin-slips-under-usd86-000-as-money-rotates-into-bch-and-zec",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b4825503a2341845",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
-    "horodatage_utc": "2026-09-23T10:28:11+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/23/bitcoin-consolidates-near-usd86-000-as-rally-narrows-and-brent-slips-below-usd100",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ecf60455bdc43fe5",
-    "categorie": "crypto",
-    "titre_affiche": "FTX, Alameda-linked wallets send $75 million in ether to Wintermute, onchain data shows",
-    "horodatage_utc": "2026-09-23T09:57:24+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/23/ftx-alameda-linked-wallets-send-usd75-million-in-ether-to-wintermute-onchain-data-shows",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f1bb5eee83bab3ad",
-    "categorie": "crypto",
-    "titre_affiche": "Coinbase users can now borrow USDC against bitcoin at a fixed rate",
-    "horodatage_utc": "2026-09-23T07:49:23+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/23/coinbase-users-can-now-borrow-usdc-against-bitcoin-at-a-fixed-rate",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e2c845ff69caf78d",
-    "categorie": "crypto",
-    "titre_affiche": "Solana starts testing upgrade that could cut finality from 12.8 seconds to 150 milliseconds",
-    "horodatage_utc": "2026-09-23T05:16:22+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/23/solana-starts-testing-upgrade-that-could-cut-finality-from-12-8-seconds-to-150-milliseconds",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9f2ee2c53f01fe7d",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin's on a streak it hasn't hit since 2012",
-    "horodatage_utc": "2026-09-23T05:12:42+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-on-a-streak-it-hasn-t-hit-since-2012",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "650f14c4c2929810",
-    "categorie": "crypto",
-    "titre_affiche": "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
-    "horodatage_utc": "2026-09-23T04:10:08+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/23/zcash-leads-crypto-majors-with-a-10-gain-as-bitcoin-holds-near-usd87-000",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7f3a5566c95e0868",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Retains $86 , 000 as Trump Pledges US - Iran Deal After Midterms",
-    "horodatage_utc": "2026-09-22T20:00:00+00:00",
-    "source_nom": "GDELT/cointelegraph.com",
-    "url_source": "https://cointelegraph.com/markets/bitcoin-price-seeks-86k-as-new-support-after-oil-dips-below-90",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/cointelegraph.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "9a8b5cc3a20060d3",
-    "categorie": "crypto",
-    "titre_affiche": "As bitcoin moves back above $80 , 000 , this is what the market is saying",
-    "horodatage_utc": "2026-09-22T19:45:00+00:00",
-    "source_nom": "GDELT/finance.yahoo.com",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-moves-back-above-80-103000322.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": true
