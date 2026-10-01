@@ -1,19 +1,172 @@
 [
   {
+    "id": "3a2886c0e62f7865",
+    "categorie": "geopolitique",
+    "titre_affiche": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+    "horodatage_utc": "2026-09-30T23:44:28+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4a840d2dba9f5a03",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says South Korea will invest $200bn in US energy projects",
+    "horodatage_utc": "2026-09-30T22:41:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f0cdc5bc-c07a-47cf-9602-064006176aef?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "8dee2822428ee152",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hegseth extols overhaul of US military in ‘state of the force’ speech",
+    "horodatage_utc": "2026-09-30T22:28:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b5b79e91-37d6-45c1-9907-cd3ea957cb5d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "0ce468d4fc676e95",
+    "categorie": "geopolitique",
+    "titre_affiche": "Google rolls out Gemini 4 Argon, its most advanced AI model",
+    "horodatage_utc": "2026-09-30T22:27:09+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "22a8bf33d9087873",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+    "horodatage_utc": "2026-09-30T22:26:49+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/30/after-trump-meeting-with-tech-leaders-ai-safety-in-more-chaotic-state.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "05561c49a86b9464",
+    "categorie": "geopolitique",
+    "titre_affiche": "Paramount stumps up high borrowing costs to fund Warner Bros deal",
+    "horodatage_utc": "2026-09-30T21:37:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/188ab0ab-e39d-4221-9730-0610fbc22ee9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a07d6dd6188416a3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meta stock enjoys best month since 2022 on AI momentum",
+    "horodatage_utc": "2026-09-30T21:36:47+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/30/meta-stock-best-month-2013-ai.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "38b844b4bc0ba32c",
+    "categorie": "geopolitique",
+    "titre_affiche": "US government debt rout triggers ‘vicious loop’ of selling",
+    "horodatage_utc": "2026-09-30T21:32:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/39de7709-7b5b-42f6-ad90-df50f1308ea2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "884960f79674671c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Google releases most advanced Gemini AI model",
+    "horodatage_utc": "2026-09-30T21:21:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/46194a0b-a0e4-42cc-ad40-0df753492768?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "2f90291a64545b39",
+    "categorie": "geopolitique",
+    "titre_affiche": "Elon Musk, Palmer Luckey and Newt Gingrich to help Pentagon with warfare initiative, Hegseth says",
+    "horodatage_utc": "2026-09-30T21:21:10+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/09/30/musk-luckey-gingrich-pentagon-hegseth-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
     "id": "e3004a0384d8b179",
     "categorie": "geopolitique",
     "titre_affiche": "Kalshi, Polymarket trading volumes on some products raise questions amid massive growth",
     "horodatage_utc": "2026-09-30T21:09:42+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Croissance et emploi, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "580e5879481a367c",
@@ -22,13 +175,13 @@
     "horodatage_utc": "2026-09-30T20:59:05+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e196b3c627e04fe2",
@@ -37,29 +190,13 @@
     "horodatage_utc": "2026-09-30T20:56:46+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/78431eef-50ee-4ec9-9ca6-af801da1e617?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0ce468d4fc676e95",
-    "categorie": "geopolitique",
-    "titre_affiche": "Google rolls out Gemini 4 Argon, its most advanced AI model",
-    "horodatage_utc": "2026-09-30T20:52:22+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6dc0861f784c67aa",
@@ -68,44 +205,13 @@
     "horodatage_utc": "2026-09-30T20:51:44+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/09/30/hawley-openai-sam-altman-rogue-ai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2f90291a64545b39",
-    "categorie": "geopolitique",
-    "titre_affiche": "Elon Musk, Palmer Luckey and Newt Gingrich to help Pentagon with warfare initiative, Hegseth says",
-    "horodatage_utc": "2026-09-30T20:42:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/musk-luckey-gingrich-pentagon-hegseth-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "38b844b4bc0ba32c",
-    "categorie": "geopolitique",
-    "titre_affiche": "US government debt rout triggers ‘vicious loop’ of selling",
-    "horodatage_utc": "2026-09-30T20:23:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/39de7709-7b5b-42f6-ad90-df50f1308ea2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "26c125f3013beec0",
@@ -123,36 +229,6 @@
     "nouveaute": false
   },
   {
-    "id": "884960f79674671c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Google releases most advanced Gemini AI model",
-    "horodatage_utc": "2026-09-30T20:09:46+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/46194a0b-a0e4-42cc-ad40-0df753492768?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a07d6dd6188416a3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Meta stock enjoys best month since 2022 on AI momentum",
-    "horodatage_utc": "2026-09-30T20:08:47+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/meta-stock-best-month-2013-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "1fe2227234f37986",
     "categorie": "geopolitique",
     "titre_affiche": "Cook, The Dual Mandate in Rural America",
@@ -165,7 +241,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0bfa6b3dba57f65e",
@@ -180,7 +256,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "de79817f396b992b",
@@ -195,7 +271,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e215a7fc2625bf49",
@@ -210,7 +286,7 @@
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "da0f191511d2c3b5",
@@ -225,7 +301,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1c0774e1840d1aca",
@@ -313,22 +389,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "22a8bf33d9087873",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
-    "horodatage_utc": "2026-09-30T15:36:20+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/after-trump-meeting-with-tech-leaders-ai-safety-in-more-chaotic-state.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1755,67 +1815,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b3dd6baf21f0b0a1",
-    "categorie": "geopolitique",
-    "titre_affiche": "International Business : Stocks fall but oil gains",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/gdnonline.com",
-    "url_source": "https://www.gdnonline.com:443/Details/1407950/Stocks-fall-but-oil-gains",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e5be5cecbbb9265f",
-    "categorie": "geopolitique",
-    "titre_affiche": "80 countries sign joint statement calling for reopening of Strait of Hormuz | Hellenic Shipping News Worldwide",
-    "horodatage_utc": "2026-09-28T21:45:00+00:00",
-    "source_nom": "GDELT/hellenicshippingnews.com",
-    "url_source": "https://www.hellenicshippingnews.com/80-countries-sign-joint-statement-calling-for-reopening-of-strait-of-hormuz/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7b9d36f3e2d93fb5",
-    "categorie": "geopolitique",
-    "titre_affiche": "South Korea fully secures August crude needs with US , Mediterranean , Oceania supplies",
-    "horodatage_utc": "2026-09-28T21:45:00+00:00",
-    "source_nom": "GDELT/hellenicshippingnews.com",
-    "url_source": "https://www.hellenicshippingnews.com/south-korea-fully-secures-august-crude-needs-with-us-mediterranean-oceania-supplies/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d3ffd4d23f5d6004",
-    "categorie": "geopolitique",
-    "titre_affiche": "US considers diesel export restrictions | Hellenic Shipping News Worldwide",
-    "horodatage_utc": "2026-09-28T21:45:00+00:00",
-    "source_nom": "GDELT/hellenicshippingnews.com",
-    "url_source": "https://www.hellenicshippingnews.com/us-considers-diesel-export-restrictions/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
     ],
     "portee": "influence",
     "nouveaute": true
