@@ -1,11 +1,26 @@
 [
   {
-    "id": "31fd200f7ab4efdb",
+    "id": "e6e89e58402c02b3",
     "categorie": "crypto",
-    "titre_affiche": "Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%",
-    "horodatage_utc": "2026-10-02T10:31:16+00:00",
+    "titre_affiche": "Bitcoin nears highest level since January as $85,000 sell wall clears, US jobs data disappoints",
+    "horodatage_utc": "2026-10-02T13:34:40+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-02-bitcoin-nears-highest-level-january-85000-sell-wall-clears-us-jobs-data-disappoints-417570",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f75d31d785f19479",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin reverses big early gains following soft U.S. jobs data",
+    "horodatage_utc": "2026-10-02T11:22:40+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/02/crypto-traders-are-in-risk-on-mode-as-bitcoin-dominance-nears-return-to-60",
+    "url_source": "https://www.coindesk.com/tech/2026/10/02/live-updates-bitcoin-gold-and-tech-futures-edge-higher-as-markets-await-u-s-jobs-report",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,9 +30,39 @@
     "nouveaute": true
   },
   {
+    "id": "31fd200f7ab4efdb",
+    "categorie": "crypto",
+    "titre_affiche": "Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%",
+    "horodatage_utc": "2026-10-02T10:31:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/02/crypto-traders-are-in-risk-on-mode-as-bitcoin-dominance-nears-return-to-60",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "907f72a8a70ecb6d",
     "categorie": "crypto",
     "titre_affiche": "Why rising perpetual funding rates signal growing bullish leverage as bitcoin crosses $86,500",
+    "horodatage_utc": "2026-10-02T09:14:21+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2191242c24120291",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin open interest jumps $2.3 billion as traders pay more for bullish positions",
     "horodatage_utc": "2026-10-02T09:14:21+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500",
@@ -46,19 +91,35 @@
     "nouveaute": true
   },
   {
+    "id": "aecf215d383339dc",
+    "categorie": "crypto",
+    "titre_affiche": "Tether's USDT is 'coming home' to Bitcoin after more than a decade",
+    "horodatage_utc": "2026-10-02T08:28:19+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/29/tether-s-usdt-is-coming-home-to-bitcoin-this-month-after-more-than-a-decade",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "a4615be33159329a",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin tops $86,000 ahead of U.S. jobs report",
     "horodatage_utc": "2026-10-02T08:11:54+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/02/bitcoin-tops-usd86-000-ahead-of-u-s-jobs-report",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "79d66611babf74d4",
@@ -67,13 +128,13 @@
     "horodatage_utc": "2026-10-02T05:50:41+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-10-02-spot-bitcoin-etfs-september-inflows-417547",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1e604991cd1b5bd0",
@@ -1748,65 +1809,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "01399ee959e2cdfb",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin reverses early gains; Saylor's Strategy moves toward daily dividends",
-    "horodatage_utc": "2026-09-25T07:09:11+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "2b28d63dc502fd79",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin moves to $84,000, oil slides on latest report of Middle East progress",
-    "horodatage_utc": "2026-09-25T07:09:11+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4338bcc76d9a829f",
-    "categorie": "crypto",
-    "titre_affiche": "The Average XRP Holder of the Past Year Is Down 12 % and Bitcoin Is in Profit . Which One Rallies Next ?",
-    "horodatage_utc": "2026-09-24T20:30:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/average-xrp-holder-past-down-194248000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "06b5089d1669be78",
-    "categorie": "crypto",
-    "titre_affiche": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
-    "horodatage_utc": "2026-09-24T19:17:47+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-24-solana-treasury-skyai-keeps-board-shareholder-protest-loses-equity-plan-vote-416298",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]

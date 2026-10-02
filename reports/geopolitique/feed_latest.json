@@ -1,5 +1,250 @@
 [
   {
+    "id": "3989d9c8cacc793e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla stock jumps 5% on better-than-expected vehicle deliveries report",
+    "horodatage_utc": "2026-10-02T16:16:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/02/tesla-tsla-q3-2026-vehicle-delivery-production.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "189149e279511d66",
+    "categorie": "geopolitique",
+    "titre_affiche": "Eurozone inflation hits three-year high of 3.8%",
+    "horodatage_utc": "2026-10-02T15:45:53+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6394fdc7-5fa5-4ec3-8bde-52633acd2b57?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d3a6a066e0a07400",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why does Anthropic’s IPO feel so weird?",
+    "horodatage_utc": "2026-10-02T15:21:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/69d2d0ec-c0d4-444f-84c5-4ca4f64b7899?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a249e89eee13292e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Quant hedge funds reap big gains from global bond sell-off",
+    "horodatage_utc": "2026-10-02T15:13:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/75b0ab84-a252-4ea1-9058-c9ee7ca07f4f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "1d191c2cf25b559c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+    "horodatage_utc": "2026-10-02T15:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "df7184181f0ed942",
+    "categorie": "geopolitique",
+    "titre_affiche": "G7 agrees to release 100mn barrels of diesel and crude under pressure from Trump",
+    "horodatage_utc": "2026-10-02T14:58:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2ae381592f13ddd4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel’s top court overturns ban of Arab parties in upcoming election",
+    "horodatage_utc": "2026-10-02T14:32:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9bbcd715-1417-49b6-bc56-1745f17cd674?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "950449767cbc325f",
+    "categorie": "geopolitique",
+    "titre_affiche": "US economy adds just 29,000 jobs in September as hiring slows sharply",
+    "horodatage_utc": "2026-10-02T14:25:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7fc80097-1926-4306-81e0-83d90a3d8a1d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c14bf9c6857c948e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Facebook whistleblower Frances Haugen questions whether AI companies can police themselves",
+    "horodatage_utc": "2026-10-02T14:22:39+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/02/frances-haugen-ai-self-regulation.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3bfe912ffc9fad62",
+    "categorie": "geopolitique",
+    "titre_affiche": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+    "horodatage_utc": "2026-10-02T13:29:27+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c948b503c22dafc0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "horodatage_utc": "2026-10-02T13:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4c7cb7f08fc166e2",
+    "categorie": "geopolitique",
+    "titre_affiche": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
+    "horodatage_utc": "2026-10-02T12:24:27+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e0bc5ab198aa3389",
+    "categorie": "geopolitique",
+    "titre_affiche": "The jobs report, Nike's China conundrum, Burger King's franchise bet and more in Morning Squawk",
+    "horodatage_utc": "2026-10-02T12:20:16+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/02/5-things-to-know-before-the-stock-market-opens.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "746b4c843c290531",
+    "categorie": "geopolitique",
+    "titre_affiche": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
+    "horodatage_utc": "2026-10-02T11:30:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2956a8750b7851e0",
+    "categorie": "geopolitique",
+    "titre_affiche": "My mortgage is a problem for the Fed, and for America",
+    "horodatage_utc": "2026-10-02T11:09:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9f960533-9cd7-4475-aed0-17f09fdc28fd?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f678fbbddc9dc64a",
+    "categorie": "geopolitique",
+    "titre_affiche": "'The hottest skill on Wall Street’: Demand for this AI ability jumped 1,721% as banks embrace agents",
+    "horodatage_utc": "2026-10-02T11:03:31+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/02/ai-skills-most-in-demand-at-jpmorgan-chase-citigroup-capital-one.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "1b5a7688d88527de",
     "categorie": "geopolitique",
     "titre_affiche": "Diesel falls sharply as EU considers releasing 50mn barrels under pressure from Trump",
@@ -11,22 +256,6 @@
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4c7cb7f08fc166e2",
-    "categorie": "geopolitique",
-    "titre_affiche": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
-    "horodatage_utc": "2026-10-02T10:00:01+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -53,13 +282,13 @@
     "horodatage_utc": "2026-10-02T04:57:38+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/02/interpol-cyberattack-cyberthreat-agentic-ai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1dc3082c94f2c855",
@@ -98,28 +327,13 @@
     "horodatage_utc": "2026-10-02T04:00:23+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3ae16f02-bb00-46a4-abba-6bfea7f2b1ac?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "a249e89eee13292e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Quant hedge funds reap big gains from global bond sell-off",
-    "horodatage_utc": "2026-10-02T04:00:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/75b0ab84-a252-4ea1-9058-c9ee7ca07f4f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b6388a00e329d399",
@@ -128,14 +342,14 @@
     "horodatage_utc": "2026-10-02T04:00:15+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/118785e7-8637-46ad-a60c-286e51370848?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a084de2fc9599438",
@@ -1605,217 +1819,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8d9e5e4cedea3598",
-    "categorie": "geopolitique",
-    "titre_affiche": "After trade war , capital war ?",
-    "horodatage_utc": "2026-09-30T18:30:00+00:00",
-    "source_nom": "GDELT/business-standard.com",
-    "url_source": "https://www.business-standard.com/opinion/columns/after-trade-war-capital-war-126093001527_1.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e9f5b4b8df8b21d9",
-    "categorie": "geopolitique",
-    "titre_affiche": "While Xi Smiled for the Cameras , China Was Buying Gold",
-    "horodatage_utc": "2026-09-30T17:45:00+00:00",
-    "source_nom": "GDELT/wealthdaily.com",
-    "url_source": "https://www.wealthdaily.com/while-xi-smiled-for-the-cameras-china-was-buying-gold/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "e215a7fc2625bf49",
-    "categorie": "geopolitique",
-    "titre_affiche": "What we know about the Flydubai flight to Israel",
-    "horodatage_utc": "2026-09-30T17:15:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/cd4611e7-c0ee-4acf-b0dd-e820b067a9f6?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "da0f191511d2c3b5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Christine Lagarde: Interview with La Croix",
-    "horodatage_utc": "2026-09-30T17:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260930~10084a5f3d.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1c0774e1840d1aca",
-    "categorie": "geopolitique",
-    "titre_affiche": "US oil industry warns diesel prices will not return to normal for a year",
-    "horodatage_utc": "2026-09-30T16:20:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0d74d66a-a9ee-4c22-83ab-9df6452117de?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3d6c027cb9a4f0e8",
-    "categorie": "geopolitique",
-    "titre_affiche": "‘Strong indications’ Iran was involved in RAF Fairford incident, says Burnham",
-    "horodatage_utc": "2026-09-30T16:00:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/bb557b06-6880-4bae-a719-fbd733c63787?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ba7c7a2def2c42ab",
-    "categorie": "geopolitique",
-    "titre_affiche": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-    "horodatage_utc": "2026-09-30T15:54:38+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "22108bc5b5d044a0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Don’t own bonds and be cautious with stocks",
-    "horodatage_utc": "2026-09-30T15:53:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c05f3ba5-e24e-4c88-86ed-04f4b229cd15",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6c3f8693d461671f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia is approaching a breakout level. Plus, what we want to see from Micron",
-    "horodatage_utc": "2026-09-30T15:47:42+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/nvidia-approaches-a-breakout-level-plus-what-we-want-to-see-from-micron.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "cbcb6cab528c2903",
-    "categorie": "geopolitique",
-    "titre_affiche": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
-    "horodatage_utc": "2026-09-30T15:45:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930_1~7c6c120482.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "514fd34df4b6e752",
-    "categorie": "geopolitique",
-    "titre_affiche": "An inside man at the Fed, OpenAI debuts Dots, an IPO trend and more in Morning Squawk",
-    "horodatage_utc": "2026-09-30T15:01:15+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f15ea7a7d2b69d28",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kalshi, Polymarket trading volumes on some products raises questions amid massive growth",
-    "horodatage_utc": "2026-09-30T14:31:26+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "685474cb19abf96f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Robinhood unveils weekend hours, AI agents to allow users to trade nonstop",
-    "horodatage_utc": "2026-09-30T13:56:14+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/robinhood-unveils-weekend-hours-ai-agents-to-allow-users-to-trade-nonstop.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ca7f7181fe6573a4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-    "horodatage_utc": "2026-09-30T13:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
     "nouveaute": false
