@@ -1,18 +1,141 @@
 [
   {
+    "id": "b36759876c5af4a2",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.9 - 136 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-02T21:00:21+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8a",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8b72d44b754b5d6e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+    "horodatage_utc": "2026-10-02T20:45:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b4002b2a578db91f",
+    "categorie": "geopolitique",
+    "titre_affiche": "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels",
+    "horodatage_utc": "2026-10-02T20:31:49+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "950449767cbc325f",
+    "categorie": "geopolitique",
+    "titre_affiche": "US economy adds just 29,000 jobs in September as hiring slows sharply",
+    "horodatage_utc": "2026-10-02T20:05:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7fc80097-1926-4306-81e0-83d90a3d8a1d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "5e802f9006dc74d1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Arctic sea routes boom as Gulf war and global warming divert shipping",
+    "horodatage_utc": "2026-10-02T20:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2e0eb698-d4d3-4bcc-927a-2997df7709be?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0a9fd51e965d27d0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+    "horodatage_utc": "2026-10-02T20:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4c7cb7f08fc166e2",
+    "categorie": "geopolitique",
+    "titre_affiche": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
+    "horodatage_utc": "2026-10-02T18:49:03+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f6a64d7c6ea5dc97",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.8 - 165 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-02T18:40:56+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz62",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "3989d9c8cacc793e",
     "categorie": "geopolitique",
     "titre_affiche": "Tesla stock jumps 5% on better-than-expected vehicle deliveries report",
-    "horodatage_utc": "2026-10-02T16:16:25+00:00",
+    "horodatage_utc": "2026-10-02T17:20:12+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/02/tesla-tsla-q3-2026-vehicle-delivery-production.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "189149e279511d66",
@@ -21,14 +144,14 @@
     "horodatage_utc": "2026-10-02T15:45:53+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6394fdc7-5fa5-4ec3-8bde-52633acd2b57?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Inflation et prix"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d3a6a066e0a07400",
@@ -37,13 +160,13 @@
     "horodatage_utc": "2026-10-02T15:21:03+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/69d2d0ec-c0d4-444f-84c5-4ca4f64b7899?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a249e89eee13292e",
@@ -67,13 +190,13 @@
     "horodatage_utc": "2026-10-02T15:00:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "df7184181f0ed942",
@@ -99,28 +222,13 @@
     "horodatage_utc": "2026-10-02T14:32:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/9bbcd715-1417-49b6-bc56-1745f17cd674?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "950449767cbc325f",
-    "categorie": "geopolitique",
-    "titre_affiche": "US economy adds just 29,000 jobs in September as hiring slows sharply",
-    "horodatage_utc": "2026-10-02T14:25:40+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7fc80097-1926-4306-81e0-83d90a3d8a1d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c14bf9c6857c948e",
@@ -129,13 +237,13 @@
     "horodatage_utc": "2026-10-02T14:22:39+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/02/frances-haugen-ai-self-regulation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3bfe912ffc9fad62",
@@ -150,7 +258,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c948b503c22dafc0",
@@ -163,22 +271,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4c7cb7f08fc166e2",
-    "categorie": "geopolitique",
-    "titre_affiche": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
-    "horodatage_utc": "2026-10-02T12:24:27+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -196,7 +288,7 @@
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "746b4c843c290531",
@@ -211,7 +303,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2956a8750b7851e0",
@@ -226,7 +318,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f678fbbddc9dc64a",
@@ -242,7 +334,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1b5a7688d88527de",
@@ -1729,96 +1821,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6dc0861f784c67aa",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sen. Hawley: OpenAI CEO Sam Altman declined to testify at rogue AI hearing",
-    "horodatage_utc": "2026-09-30T20:51:44+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/hawley-openai-sam-altman-rogue-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2cd930d2a23043ce",
-    "categorie": "geopolitique",
-    "titre_affiche": "BB holds policy rate on inflation risks , weak economy",
-    "horodatage_utc": "2026-09-30T20:15:00+00:00",
-    "source_nom": "GDELT/thedailystar.net",
-    "url_source": "https://www.thedailystar.net/business/economy/news/bb-holds-policy-rate-inflation-risks-weak-economy-4287336",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "26c125f3013beec0",
-    "categorie": "geopolitique",
-    "titre_affiche": "One pilot of Israel-bound flight stabbed the other and tried to crash plane",
-    "horodatage_utc": "2026-09-30T20:14:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7ed6ed48-79e4-46c2-968f-f2a69d263d35?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1fe2227234f37986",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cook, The Dual Mandate in Rural America",
-    "horodatage_utc": "2026-09-30T19:25:00+00:00",
-    "source_nom": "Federal Reserve - discours et auditions",
-    "url_source": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0bfa6b3dba57f65e",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.9 - 136 km SE of Petropavlovsk-Kamchatsky, Russia",
-    "horodatage_utc": "2026-09-30T18:59:51+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tykw",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "de79817f396b992b",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.0 - 142 km SE of Petropavlovsk-Kamchatsky, Russia",
-    "horodatage_utc": "2026-09-30T18:37:42+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyku",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": false
