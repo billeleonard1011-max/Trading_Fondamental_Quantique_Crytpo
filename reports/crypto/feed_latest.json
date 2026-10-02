@@ -1,5 +1,81 @@
 [
   {
+    "id": "31fd200f7ab4efdb",
+    "categorie": "crypto",
+    "titre_affiche": "Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%",
+    "horodatage_utc": "2026-10-02T10:31:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/02/crypto-traders-are-in-risk-on-mode-as-bitcoin-dominance-nears-return-to-60",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "907f72a8a70ecb6d",
+    "categorie": "crypto",
+    "titre_affiche": "Why rising perpetual funding rates signal growing bullish leverage as bitcoin crosses $86,500",
+    "horodatage_utc": "2026-10-02T09:14:21+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c4fa0094f9b6ba4d",
+    "categorie": "crypto",
+    "titre_affiche": "Tether's USDT is 'coming home' to Bitcoin this month over a decade after debut there",
+    "horodatage_utc": "2026-10-02T08:28:19+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/09/29/tether-s-usdt-is-coming-home-to-bitcoin-this-month-after-more-than-a-decade",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a4615be33159329a",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin tops $86,000 ahead of U.S. jobs report",
+    "horodatage_utc": "2026-10-02T08:11:54+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/02/bitcoin-tops-usd86-000-ahead-of-u-s-jobs-report",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "79d66611babf74d4",
+    "categorie": "crypto",
+    "titre_affiche": "Spot bitcoin ETFs log $2.7 billion in September inflows as institutional demand holds",
+    "horodatage_utc": "2026-10-02T05:50:41+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-02-spot-bitcoin-etfs-september-inflows-417547",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "1e604991cd1b5bd0",
     "categorie": "crypto",
     "titre_affiche": "10 - Year Treasury Yield Nears 6 %: 4 Bitcoin Signals",
@@ -112,13 +188,13 @@
     "horodatage_utc": "2026-10-02T00:22:58+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b8ca8f49be2fd8dd",
@@ -1729,81 +1805,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3a839fc917ff76fa",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin just topped a key long-term moving average. Here's what it might mean",
-    "horodatage_utc": "2026-09-24T18:46:58+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/24/bitcoin-just-topped-a-key-long-term-moving-average-here-s-what-it-might-mean",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c91f0627ac02cf56",
-    "categorie": "crypto",
-    "titre_affiche": "JPMorgan says bitcoin crossing $85,000 production cost could ease miner selling pressure",
-    "horodatage_utc": "2026-09-24T18:22:39+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-24-jpmorgan-bitcoin-production-cost-miners-relief-416283",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "513c7e67f6514a5d",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin BTC USD price drop today : Bitcoin is down 55 % from its peak - here why Tom Lee predicts crypto bull run as $15 . 6 billion options expiry looms",
-    "horodatage_utc": "2026-09-24T17:30:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/news/international/us/bitcoin-is-down-55-from-its-peak-heres-why-tom-lee-predicts-crypto-bull-run-as-15-6-billion-options-expiry-looms/articleshow/134465817.cms",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "3f0fb627d2b2c3fc",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin’s bear markets are getting milder. Bull markets may be next",
-    "horodatage_utc": "2026-09-24T15:26:34+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/24/bitcoin-s-bear-markets-are-getting-milder-the-bull-markets-may-be-next",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7baebe38cbcdca85",
-    "categorie": "crypto",
-    "titre_affiche": "Crypto for Advisors:The hidden costs of holding your own bitcoin",
-    "horodatage_utc": "2026-09-24T14:49:28+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/coindesk-indices/2026/09/24/crypto-for-advisors-the-hidden-costs-of-holding-your-own-bitcoin",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false

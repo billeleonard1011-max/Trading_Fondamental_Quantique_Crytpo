@@ -1,15 +1,62 @@
 [
   {
+    "id": "1b5a7688d88527de",
+    "categorie": "geopolitique",
+    "titre_affiche": "Diesel falls sharply as EU considers releasing 50mn barrels under pressure from Trump",
+    "horodatage_utc": "2026-10-02T10:13:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4c7cb7f08fc166e2",
+    "categorie": "geopolitique",
+    "titre_affiche": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
+    "horodatage_utc": "2026-10-02T10:00:01+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "7f894832742fd5a3",
     "categorie": "geopolitique",
     "titre_affiche": "Putin has told military leaders to abandon rules of war, Zelenskyy says",
-    "horodatage_utc": "2026-10-02T04:00:33+00:00",
+    "horodatage_utc": "2026-10-02T06:58:26+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c2ad4cd1-a08a-4f55-8d57-fa83dbfa98af?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "dc7a2899c29c855f",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI is making cyberattacks faster and harder to detect, Interpol warns. Here’s what companies should watch",
+    "horodatage_utc": "2026-10-02T04:57:38+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/02/interpol-cyberattack-cyberthreat-agentic-ai.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -21,13 +68,13 @@
     "horodatage_utc": "2026-10-02T04:00:33+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/97d8d346-519e-48fb-8df8-66cf5f12ef62?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dd7607de2b18c193",
@@ -42,6 +89,36 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "dca9a66d7eb9d11f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s short-sighted diesel gamble",
+    "horodatage_utc": "2026-10-02T04:00:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3ae16f02-bb00-46a4-abba-6bfea7f2b1ac?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a249e89eee13292e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Quant hedge funds reap big gains from global bond sell-off",
+    "horodatage_utc": "2026-10-02T04:00:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/75b0ab84-a252-4ea1-9058-c9ee7ca07f4f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -303,6 +380,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "9a2c62f0f21ea1b3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Europe should take Trump’s diesel ban seriously, if not literally",
+    "horodatage_utc": "2026-10-01T17:25:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a357ac2d-fead-4df2-a5cf-cf1aa94cf7a9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "d7a0788b20ea421c",
@@ -1727,96 +1819,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "88db2107c6b18259",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia makes extreme threats against Nato countries over Kaliningrad",
-    "horodatage_utc": "2026-09-30T11:35:42+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1bb7ec8d-7252-4fa3-8c4a-81fa5b6906a2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ccfb10bd76a64c22",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue",
-    "horodatage_utc": "2026-09-30T10:26:39+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e3a1cd77adbc32e0",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI is sued over rogue AI Hugging Face cyberattack",
-    "horodatage_utc": "2026-09-30T10:16:36+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1fe39a79701201af",
-    "categorie": "geopolitique",
-    "titre_affiche": "Singapore's Temasek to expand Middle East presence, open Abu Dhabi, Riyadh offices",
-    "horodatage_utc": "2026-09-30T08:45:42+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/30/singapores-temasek-expands-in-mideast-with-abu-dhabi-riyadh-offices-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "096b167d807e1f04",
-    "categorie": "geopolitique",
-    "titre_affiche": "Vanguard warns France is ‘degrading credit’ as borrowing costs surge",
-    "horodatage_utc": "2026-09-30T08:42:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7820a84f-338e-4b91-a9b6-241a9bf81539?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "00bcac9f300d8532",
-    "categorie": "geopolitique",
-    "titre_affiche": "Burnham says rejoining EU an option for the UK",
-    "horodatage_utc": "2026-09-30T07:17:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d740f13d-38bc-4460-bcd5-2922472fc209?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]
