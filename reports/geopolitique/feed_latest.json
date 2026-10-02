@@ -1,18 +1,109 @@
 [
   {
+    "id": "7f894832742fd5a3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin has told military leaders to abandon rules of war, Zelenskyy says",
+    "horodatage_utc": "2026-10-02T04:00:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c2ad4cd1-a08a-4f55-8d57-fa83dbfa98af?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1dc3082c94f2c855",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon seeks to offload $8bn of Nvidia chips to investors",
+    "horodatage_utc": "2026-10-02T04:00:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/97d8d346-519e-48fb-8df8-66cf5f12ef62?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dd7607de2b18c193",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s diesel threats could go very wrong — just look at the soyabean",
+    "horodatage_utc": "2026-10-02T04:00:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3ae16f02-bb00-46a4-abba-6bfea7f2b1ac?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b6388a00e329d399",
+    "categorie": "geopolitique",
+    "titre_affiche": "US refiners reap windfall profits as wars push up fuel prices for consumers",
+    "horodatage_utc": "2026-10-02T04:00:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/118785e7-8637-46ad-a60c-286e51370848?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a084de2fc9599438",
+    "categorie": "geopolitique",
+    "titre_affiche": "Emerging markets outperform developed markets as bond rout deepens",
+    "horodatage_utc": "2026-10-02T04:00:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0f69e39e-b41f-4cfe-9c25-f0e1e05a1198?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "10b4c7d5f77cb5ef",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
+    "horodatage_utc": "2026-10-02T00:06:02+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/01/spacex-to-launch-google-ai-chips-to-orbit-with-planet-labs-satellites.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "a2486bce7fb4ba78",
     "categorie": "geopolitique",
     "titre_affiche": "AI is a boon for 3 internet traffic cop stocks. Cramer says only 1 is a buy right now",
     "horodatage_utc": "2026-10-01T23:04:13+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/01/jim-cramer-akamai-ai-traffic.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3a575f760160c868",
@@ -21,13 +112,13 @@
     "horodatage_utc": "2026-10-01T22:18:01+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/01/jim-cramer-software-stocks-q3.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fac3f619bb3d3ad5",
@@ -52,14 +143,14 @@
     "horodatage_utc": "2026-10-01T21:05:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/352e14c5-267d-4c8f-981d-6ae8bea531f9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b114d04461685374",
@@ -72,21 +163,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "10b4c7d5f77cb5ef",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
-    "horodatage_utc": "2026-10-01T20:31:42+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/01/spacex-to-launch-google-ai-chips-to-orbit-with-planet-labs-satellites.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1742,82 +1818,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "5c470c26ee3964a0",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI industry moves to thwart data centre backlash ahead of US midterms",
-    "horodatage_utc": "2026-09-30T04:01:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/9705f5bf-bc06-481d-b2a3-1299463074b8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8d161ccd9734380c",
-    "categorie": "geopolitique",
-    "titre_affiche": "White House holds crunch talks on diesel export ban as midterms near",
-    "horodatage_utc": "2026-09-30T04:00:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/562f2988-0c04-4669-b0b7-2c16d3821926?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e236b710f65ca26a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran tells the US public that Trump war has failed , and other Mideast developments",
-    "horodatage_utc": "2026-09-30T03:45:00+00:00",
-    "source_nom": "GDELT/woonsocketcall.com",
-    "url_source": "https://www.woonsocketcall.com/news/national_and_world_news/iran-tells-the-us-public-that-trumps-war-has-failed-and-other-mideast-developments/article_2ec12a7c-2e5c-5937-b4e6-4e7fc156366b.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/woonsocketcall.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f6eb40d5031b0574",
-    "categorie": "geopolitique",
-    "titre_affiche": "STEŽE SE OBRUČ OKO MOSKVE I TEHERANA : Trumpova administracija uvela nove sankcije protiv više kompanija i pojedinaca ...",
-    "horodatage_utc": "2026-09-30T03:45:00+00:00",
-    "source_nom": "GDELT/slobodna-bosna.ba",
-    "url_source": "https://www.slobodna-bosna.ba/vijest/507880/steze_se_obruch_oko_moskve_i_teherana_trumpova_administracija_uvela_nove_sankcije_protiv_vise_kompanija_i_pojedinaca.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/slobodna-bosna.ba. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d5b4f5aacb00430d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Frank Elderson: Supervisory risk appetite, efficiency and effectiveness",
-    "horodatage_utc": "2026-09-30T02:20:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930~d495288355.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]

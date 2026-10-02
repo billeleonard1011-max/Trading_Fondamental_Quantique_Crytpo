@@ -1,5 +1,172 @@
 [
   {
+    "id": "1e604991cd1b5bd0",
+    "categorie": "crypto",
+    "titre_affiche": "10 - Year Treasury Yield Nears 6 %: 4 Bitcoin Signals",
+    "horodatage_utc": "2026-10-02T04:00:00+00:00",
+    "source_nom": "GDELT/memeburn.com",
+    "url_source": "https://memeburn.com/treasury-yield-bitcoin/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/memeburn.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e43e1b2a40e26dbf",
+    "categorie": "crypto",
+    "titre_affiche": "SEC , bitcoin : proposal to make it easier for funds to hold crypto",
+    "horodatage_utc": "2026-10-02T03:45:00+00:00",
+    "source_nom": "GDELT/cnbc.com",
+    "url_source": "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/cnbc.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c06451acf01107f3",
+    "categorie": "crypto",
+    "titre_affiche": "Tăng 40 % trong quý III , Bitcoin vẫn đối mặt nhiều rủi ro",
+    "horodatage_utc": "2026-10-02T03:15:00+00:00",
+    "source_nom": "GDELT/tinnhanhchungkhoan.vn",
+    "url_source": "https://www.tinnhanhchungkhoan.vn/tang-40-trong-quy-iii-bitcoin-van-doi-mat-nhieu-rui-ro-post398681.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/tinnhanhchungkhoan.vn. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e868c8b5ffbb9f8c",
+    "categorie": "crypto",
+    "titre_affiche": "Citigroup nâng mạnh dự báo bitcoin lên 113 . 000 USD",
+    "horodatage_utc": "2026-10-02T03:00:00+00:00",
+    "source_nom": "GDELT/dantri.com.vn",
+    "url_source": "https://dantri.com.vn/kinh-doanh/citigroup-nang-manh-du-bao-bitcoin-len-113000-usd-20261002083051040.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dantri.com.vn. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a61646e26c3bec98",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin , Ethereum und Co .: So entwickelten sich die Kryptokurse im September 2026",
+    "horodatage_utc": "2026-10-02T02:45:00+00:00",
+    "source_nom": "GDELT/finanzen.net",
+    "url_source": "https://www.finanzen.net/nachricht/devisen/tops-flops-september-2026-bitcoin-ether-co-monatsperformance-der-kryptowaehrungen-15932439",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "80738b6e6f24188f",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum vor der nächsten Revolution : Buterin plant den radikalen Umbau",
+    "horodatage_utc": "2026-10-02T02:00:00+00:00",
+    "source_nom": "GDELT/finanzen.net",
+    "url_source": "https://www.finanzen.net/nachricht/devisen/ethereum-umbau-das-ethereum-von-morgen-wird-voellig-anders-vitalik-buterin-legt-seine-vision-offen-00-15957980",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "34d0631ed649cbc5",
+    "categorie": "crypto",
+    "titre_affiche": "AI Predicts BTC as Bitcoin Beats Gold and Stocks Again",
+    "horodatage_utc": "2026-10-02T01:15:00+00:00",
+    "source_nom": "GDELT/coinspeaker.com",
+    "url_source": "https://www.coinspeaker.com/ai-predicts-btc-as-bitcoin-beats-gold-and-stocks-again/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/coinspeaker.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8bd778d6fadcd3b7",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
+    "horodatage_utc": "2026-10-02T00:22:58+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b8ca8f49be2fd8dd",
+    "categorie": "crypto",
+    "titre_affiche": "Citi raises Bitcoin forecast to $113 , 000 , Ether to $3 , 028",
+    "horodatage_utc": "2026-10-02T00:15:00+00:00",
+    "source_nom": "GDELT/americanbazaaronline.com",
+    "url_source": "https://americanbazaaronline.com/2026/10/01/citi-raises-bitcoin-forecast-to-113000-ether-to-3028-489204/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "81fd59fc2b689e6c",
+    "categorie": "crypto",
+    "titre_affiche": "Captive insurance technology news | Bitcoin Life receives Guernsey life insurance licence",
+    "horodatage_utc": "2026-10-01T23:15:00+00:00",
+    "source_nom": "GDELT/captiveinsurancetimes.com",
+    "url_source": "https://www.captiveinsurancetimes.com/captiveinsurancenews/technologyarticle.php?article_id=10646&navigationaction=latestnews&page=1&newssection=technology",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8a9e777f9033dd83",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin tăng hơn 40 %, vượt xa vàng và chứng khoán",
+    "horodatage_utc": "2026-10-01T23:15:00+00:00",
+    "source_nom": "GDELT/vietbao.vn",
+    "url_source": "https://vietbao.vn/bitcoin-tang-hon-40-vuot-xa-vang-va-chung-khoan-609495.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "47df28c29b5ed3e0",
     "categorie": "crypto",
     "titre_affiche": "Ethereum staking reward burn proposal EIP-8363 pulled from Hegota upgrade",
@@ -1637,172 +1804,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4c068609d89b9d8a",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Plunges With Big Bond Selloff",
-    "horodatage_utc": "2026-09-24T14:30:00+00:00",
-    "source_nom": "GDELT/rttnews.com",
-    "url_source": "https://www.rttnews.com/3693668/bitcoin-plunges-with-big-bond-selloff.aspx",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/rttnews.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ab44f1e154cc50ed",
-    "categorie": "crypto",
-    "titre_affiche": "Solana Foundation hires Binance, Polygon veterans as it ramps up tokenized finance push",
-    "horodatage_utc": "2026-09-24T13:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/24/solana-foundation-hires-binance-polygon-veterans-as-it-ramps-up-tokenized-finance-push",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "54eca5ce359b9e65",
-    "categorie": "crypto",
-    "titre_affiche": "Solana Foundation taps Binance, Polygon vets to drive institutional adoption and payments",
-    "horodatage_utc": "2026-09-24T13:00:00+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-09-24-solana-foundation-taps-binance-polygon-vets-to-drive-institutional-adoption-and-payments-416254",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "fa4ea5f847aa7408",
-    "categorie": "crypto",
-    "titre_affiche": "Can Uniswap Maintain Its Lead Over Ethereum Until October 19 ?",
-    "horodatage_utc": "2026-09-24T12:00:00+00:00",
-    "source_nom": "GDELT/247wallst.com",
-    "url_source": "https://247wallst.com/investing/cryptocurrency/2026/09/24/can-uniswap-maintain-its-lead-over-ethereum-until-october-19/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "52c74a87ec1d24a9",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin climbs from session lows as interest rates ease",
-    "horodatage_utc": "2026-09-24T11:20:12+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/24/live-updates-bitcoin-edges-lower-as-bond-yields-take-center-stage",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "1d4e0a928bdd63ff",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin slides to $83,300 as bond yields hit highest level since 2007",
-    "horodatage_utc": "2026-09-24T10:30:28+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/24/bitcoin-steadies-near-usd84-000-after-bond-yields-hit-a-2007-high",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "da952826917b17ae",
-    "categorie": "crypto",
-    "titre_affiche": "Traders price in 4 Fed rate hikes by June 2027 as bitcoin slides below $83,000",
-    "horodatage_utc": "2026-09-24T10:11:51+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/24/traders-are-pricing-in-4-fed-rate-hikes-as-bitcoin-slides-below-usd83-000",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3ef6b60d1ac03789",
-    "categorie": "crypto",
-    "titre_affiche": "The data proves it: Bitcoin doesn't care about rising bond yields over long-term",
-    "horodatage_utc": "2026-09-24T09:48:09+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/24/the-data-proves-it-bitcoin-doesn-t-care-about-rising-bond-yields-over-long-term",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e557fb3a57493145",
-    "categorie": "crypto",
-    "titre_affiche": "CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
-    "horodatage_utc": "2026-09-24T09:00:00+00:00",
-    "source_nom": "GDELT/finance.yahoo.com",
-    "url_source": "https://finance.yahoo.com/markets/crypto/articles/cme-expands-crypto-futures-lineup-204603742.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finance.yahoo.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "bec3cf75142cdb7f",
-    "categorie": "crypto",
-    "titre_affiche": "A week of AI coding cut a quantum-safe bitcoin transaction estimate from $320 to $66",
-    "horodatage_utc": "2026-09-24T05:24:56+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/24/a-week-of-ai-coding-cut-a-quantum-safe-bitcoin-transaction-estimate-from-usd320-to-usd66",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c35a4752337afeb3",
-    "categorie": "crypto",
-    "titre_affiche": "Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007",
-    "horodatage_utc": "2026-09-24T04:13:01+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/24/dogecoin-down-8-bitcoin-under-usd84-000-as-treasury-yields-hit-highest-level-since-2007",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "DOGE"
     ],
     "portee": "actif_direct",
     "nouveaute": false
