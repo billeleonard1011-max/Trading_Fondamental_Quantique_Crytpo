@@ -1,11 +1,11 @@
 [
   {
-    "id": "6ac86f833e6a858d",
+    "id": "ada7e030600425c6",
     "categorie": "geopolitique",
-    "titre_affiche": "America’s data center fight is a preview of what's to come for the rest of the world",
-    "horodatage_utc": "2026-10-03T05:00:01+00:00",
+    "titre_affiche": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
+    "horodatage_utc": "2026-10-03T11:00:01+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
+    "url_source": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,19 +15,49 @@
     "nouveaute": true
   },
   {
+    "id": "c57d38371bfce14b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
+    "horodatage_utc": "2026-10-03T08:01:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/36b90fa1-f61e-4563-8622-127cdb471101?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "6ac86f833e6a858d",
+    "categorie": "geopolitique",
+    "titre_affiche": "America’s data center fight is a preview of what's to come for the rest of the world",
+    "horodatage_utc": "2026-10-03T05:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "221729a50e49aa27",
     "categorie": "geopolitique",
     "titre_affiche": "China, America and the new Great Game",
     "horodatage_utc": "2026-10-03T04:00:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "681368ca42c2af2d",
@@ -36,13 +66,13 @@
     "horodatage_utc": "2026-10-03T03:14:19+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzal",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fbd73c0f1a673c6a",
@@ -66,13 +96,13 @@
     "horodatage_utc": "2026-10-03T01:00:34+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9t",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a6b29e098ec1e7e5",
@@ -81,13 +111,13 @@
     "horodatage_utc": "2026-10-03T00:48:46+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9s",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "619cd8f0f0af0f32",
@@ -1788,36 +1818,6 @@
     "tickers_ou_themes_lies": [
       "Russie - Ukraine",
       "Sanctions"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2abb5267fd6510d0",
-    "categorie": "geopolitique",
-    "titre_affiche": "UK sanctions four Georgian citizens over pro - Kremlin disinformation",
-    "horodatage_utc": "2026-10-01T12:00:00+00:00",
-    "source_nom": "GDELT/georgiatoday.ge",
-    "url_source": "https://georgiatoday.ge/uk-sanctions-four-georgian-citizens-over-pro-kremlin-disinformation/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "410a7734332980b8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cavalier Group defense company CEO sanctioned over alleged support for Iran",
-    "horodatage_utc": "2026-10-01T11:45:00+00:00",
-    "source_nom": "GDELT/jpost.com",
-    "url_source": "https://www.jpost.com/middle-east/iran-news/article-910325",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
