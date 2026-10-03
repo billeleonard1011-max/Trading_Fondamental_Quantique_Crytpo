@@ -1,5 +1,35 @@
 [
   {
+    "id": "c57d38371bfce14b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
+    "horodatage_utc": "2026-10-03T17:21:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/36b90fa1-f61e-4563-8622-127cdb471101?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "d1c705e13be4daf9",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.7 - 52 km SSW of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-03T16:02:07+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzd5",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "d891804ee8fa3bf8",
     "categorie": "geopolitique",
     "titre_affiche": "M 4.6 - 36 km SSW of Paratunka, Russia",
@@ -21,14 +51,14 @@
     "horodatage_utc": "2026-10-03T15:06:10+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2c466616041605d4",
@@ -37,14 +67,14 @@
     "horodatage_utc": "2026-10-03T13:12:27+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6ac86f833e6a858d",
@@ -74,21 +104,6 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c57d38371bfce14b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
-    "horodatage_utc": "2026-10-03T08:01:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/36b90fa1-f61e-4563-8622-127cdb471101?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -195,6 +210,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "9870ed0b96fd387e",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.0 - 171 km SE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-02T21:17:30+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8l",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "ec438a3fc50eb6c7",
@@ -1788,36 +1818,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3ead5a885d43d379",
-    "categorie": "geopolitique",
-    "titre_affiche": "India imports 50 % of gas needs , targets 10X CBG output : Hardeep Singh Puri",
-    "horodatage_utc": "2026-10-01T12:45:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-imports-50-of-gas-needs-targets-10x-cbg-output-hardeep-singh-puri/articleshow/134618027.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3afe46a6aa763dcf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Araghchi leaves US after talks stall : Did Rubio order delegation out ? Washington says they overstayed",
-    "horodatage_utc": "2026-10-01T12:30:00+00:00",
-    "source_nom": "GDELT/moneycontrol.com",
-    "url_source": "https://www.moneycontrol.com/world/iran-s-araghchi-leaves-us-after-talks-stall-did-rubio-order-delegation-out-washington-says-they-overstayed-article-14042895.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
