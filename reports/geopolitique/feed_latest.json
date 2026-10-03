@@ -1,5 +1,35 @@
 [
   {
+    "id": "ada7e030600425c6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
+    "horodatage_utc": "2026-10-03T20:29:07+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f22c7321788d8572",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.1 - 182 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-03T20:22:14+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tze2",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "c57d38371bfce14b",
     "categorie": "geopolitique",
     "titre_affiche": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
@@ -83,21 +113,6 @@
     "horodatage_utc": "2026-10-03T12:39:29+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ada7e030600425c6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
-    "horodatage_utc": "2026-10-03T11:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
@@ -1803,21 +1818,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ab798618ecaedf58",
-    "categorie": "geopolitique",
-    "titre_affiche": "Banks face pressures from El Niño , market volatility - BusinessWorld Online",
-    "horodatage_utc": "2026-10-01T12:45:00+00:00",
-    "source_nom": "GDELT/bworldonline.com",
-    "url_source": "https://bworldonline.com/banking-finance/2026/10/01/783707/banks-face-pressures-from-el-nino-market-volatility/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
