@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-10-02T17:15:35+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e6e89e58402c02b3",

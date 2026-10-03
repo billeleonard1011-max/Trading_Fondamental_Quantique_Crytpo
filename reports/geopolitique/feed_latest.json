@@ -1,11 +1,26 @@
 [
   {
-    "id": "b36759876c5af4a2",
+    "id": "619cd8f0f0af0f32",
     "categorie": "geopolitique",
-    "titre_affiche": "M 4.9 - 136 km SSE of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-02T21:00:21+00:00",
+    "titre_affiche": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
+    "horodatage_utc": "2026-10-02T22:38:49+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "34d2e0289695b0c0",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.1 - 199 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-02T22:14:35+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8a",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8c",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,19 +30,49 @@
     "nouveaute": true
   },
   {
+    "id": "ec438a3fc50eb6c7",
+    "categorie": "geopolitique",
+    "titre_affiche": "US justice department will not reopen criminal probe of Fed’s Jay Powell",
+    "horodatage_utc": "2026-10-02T21:03:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/887e90a5-8456-4eba-9ed0-205c873d4846?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b36759876c5af4a2",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.9 - 136 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-02T21:00:21+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8a",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "8b72d44b754b5d6e",
     "categorie": "geopolitique",
     "titre_affiche": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
     "horodatage_utc": "2026-10-02T20:45:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b4002b2a578db91f",
@@ -36,15 +81,15 @@
     "horodatage_utc": "2026-10-02T20:31:49+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Sanctions, accords et diplomatie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "950449767cbc325f",
@@ -68,13 +113,13 @@
     "horodatage_utc": "2026-10-02T20:00:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/2e0eb698-d4d3-4bcc-927a-2997df7709be?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0a9fd51e965d27d0",
@@ -83,13 +128,13 @@
     "horodatage_utc": "2026-10-02T20:00:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4c7cb7f08fc166e2",
@@ -114,13 +159,13 @@
     "horodatage_utc": "2026-10-02T18:40:56+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz62",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3989d9c8cacc793e",
@@ -1779,50 +1824,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "884960f79674671c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Google releases most advanced Gemini AI model",
-    "horodatage_utc": "2026-09-30T21:21:48+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/46194a0b-a0e4-42cc-ad40-0df753492768?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2f90291a64545b39",
-    "categorie": "geopolitique",
-    "titre_affiche": "Elon Musk, Palmer Luckey and Newt Gingrich to help Pentagon with warfare initiative, Hegseth says",
-    "horodatage_utc": "2026-09-30T21:21:10+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/09/30/musk-luckey-gingrich-pentagon-hegseth-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "e196b3c627e04fe2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says Powell should resign after Fed watchdog clears ex-chair of misconduct",
-    "horodatage_utc": "2026-09-30T20:56:46+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/78431eef-50ee-4ec9-9ca6-af801da1e617?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
