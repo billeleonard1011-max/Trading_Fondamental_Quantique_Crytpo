@@ -1,39 +1,56 @@
 [
   {
-    "id": "ada7e030600425c6",
+    "id": "d891804ee8fa3bf8",
     "categorie": "geopolitique",
-    "titre_affiche": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
-    "horodatage_utc": "2026-10-03T11:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html",
+    "titre_affiche": "M 4.6 - 36 km SSW of Paratunka, Russia",
+    "horodatage_utc": "2026-10-03T15:40:59+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8g",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Actions et technologie"
+      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
   },
   {
-    "id": "c57d38371bfce14b",
+    "id": "32d3967b72bd63f9",
     "categorie": "geopolitique",
-    "titre_affiche": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
-    "horodatage_utc": "2026-10-03T08:01:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/36b90fa1-f61e-4563-8622-127cdb471101?syn-25a6b1a6=1",
+    "titre_affiche": "How Nvidia, Micron and a surprising jobs report drove last week's stock action",
+    "horodatage_utc": "2026-10-03T15:06:10+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
+      "Actions et technologie",
+      "Croissance et emploi"
     ],
-    "portee": "contexte",
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2c466616041605d4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+    "horodatage_utc": "2026-10-03T13:12:27+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
     "id": "6ac86f833e6a858d",
     "categorie": "geopolitique",
     "titre_affiche": "America’s data center fight is a preview of what's to come for the rest of the world",
-    "horodatage_utc": "2026-10-03T05:00:01+00:00",
+    "horodatage_utc": "2026-10-03T12:39:29+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
     "a_une_analyse_interne": false,
@@ -42,6 +59,36 @@
       "Actions et technologie"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ada7e030600425c6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
+    "horodatage_utc": "2026-10-03T11:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "c57d38371bfce14b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
+    "horodatage_utc": "2026-10-03T08:01:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/36b90fa1-f61e-4563-8622-127cdb471101?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -1771,53 +1818,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b5808c3dea9bb0ad",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine - Krieg im Liveticker : +++ 13 : 43 Kiew meldet russischen Drohnentreffer auf Atomforschungsanlage - Reaktor unbeschädigt +++",
-    "horodatage_utc": "2026-10-01T12:15:00+00:00",
-    "source_nom": "GDELT/n-tv.de",
-    "url_source": "https://www.n-tv.de/politik/13-43-Kiew-meldet-russischen-Drohnentreffer-auf-Atomforschungsanlage-Reaktor-unbeschaedigt-id30859357.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "85feb14155db2da2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold : Bank of Korea plant ersten Goldkauf seit 2013",
-    "horodatage_utc": "2026-10-01T12:15:00+00:00",
-    "source_nom": "GDELT/boerse-express.com",
-    "url_source": "https://www.boerse-express.com/news/articles/gold-bank-of-korea-plant-ersten-goldkauf-seit-2013-949903",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "c8be6667df1fb1f1",
-    "categorie": "geopolitique",
-    "titre_affiche": "UK announces 31 new sanctions targeting Russia war funding , propagandists and torturer",
-    "horodatage_utc": "2026-10-01T12:00:00+00:00",
-    "source_nom": "GDELT/georgiatoday.ge",
-    "url_source": "https://georgiatoday.ge/uk-announces-31-new-sanctions-targeting-russias-war-funding-propagandists-and-torturer/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine",
-      "Sanctions"
     ],
     "portee": "influence",
     "nouveaute": true
