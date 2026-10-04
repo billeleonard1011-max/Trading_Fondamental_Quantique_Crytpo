@@ -1,5 +1,50 @@
 [
   {
+    "id": "40b583a432d69120",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.5 - Volcano Islands, Japan region",
+    "horodatage_utc": "2026-10-04T13:18:03+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzid",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "79ed45336102d1df",
+    "categorie": "geopolitique",
+    "titre_affiche": "Investors look to shelter portfolios from rising AI concentration risks",
+    "horodatage_utc": "2026-10-04T12:00:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3302fd5c-8b92-425b-9523-673b2565bb10?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d3de672b3a58a3d1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Australian authorities probe Flydubai attacker’s links to country",
+    "horodatage_utc": "2026-10-04T09:25:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/488b479d-cd2f-401e-887e-97ce639d0329?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "7c1de8e146d880e1",
     "categorie": "geopolitique",
     "titre_affiche": "Germany’s Merz arrives in Kyiv to show support for Ukraine",
@@ -36,13 +81,13 @@
     "horodatage_utc": "2026-10-04T04:01:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/b8924d77-364b-46c1-b783-5db73a91f351?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fa067aadcbbc856d",
@@ -66,13 +111,13 @@
     "horodatage_utc": "2026-10-04T04:00:07+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/de27e183-c8ab-4098-946b-7c1faf5a3d8a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "07c59b4667c1b996",
@@ -81,13 +126,13 @@
     "horodatage_utc": "2026-10-04T02:00:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8a8f5c97-f1d3-4d3d-a3bc-d5a2e5539177?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ada7e030600425c6",
@@ -1773,51 +1818,6 @@
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5db18f05158da228",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran War Day 216 : Trump Says U . S . Could Ramp Up Bombing After Midterms",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/theamericanconservative.com",
-    "url_source": "https://www.theamericanconservative.com/iran-war-day-216-trump-says-u-s-could-ramp-up-bombing-after-midterms/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "cfcec9f320114e33",
-    "categorie": "geopolitique",
-    "titre_affiche": "US sanctions Pakistani entities over alleged Iran links",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/prokerala.com",
-    "url_source": "https://www.prokerala.com/news/articles/a1819109.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d50ab671386783f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Paşinyan dilemma qarşısında : İrana qarşı sanksiyalara qoşulacaqmı ?",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/musavat.com",
-    "url_source": "https://musavat.com/news/pasinyan-dilemma-qarsisinda-irana-qarsi-sanksiyalara-qosulacaqmi_1293287.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
