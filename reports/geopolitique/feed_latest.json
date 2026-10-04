@@ -1,5 +1,95 @@
 [
   {
+    "id": "7c1de8e146d880e1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Germany’s Merz arrives in Kyiv to show support for Ukraine",
+    "horodatage_utc": "2026-10-04T06:12:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b7bd5c45-1c32-4984-af37-21746a02c4ef?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1752b06c03d3691d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Singapore debuts a state-backed dating app for young government workers as it works to slow a demographic crisis",
+    "horodatage_utc": "2026-10-04T05:09:49+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/04/government-dating-app-fertility-singapore-asia.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "778f99af329bd2e5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Wall Street’s IPO fervour cools on tepid demand and valuation worries",
+    "horodatage_utc": "2026-10-04T04:01:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b8924d77-364b-46c1-b783-5db73a91f351?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fa067aadcbbc856d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bosnia elections pit EU hopes against Russian influence",
+    "horodatage_utc": "2026-10-04T04:00:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3401e229-1728-4a33-82d5-e52a4cd993c1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "676b34f3152dddc5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Dear all: how bosses should talk to the troops",
+    "horodatage_utc": "2026-10-04T04:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/de27e183-c8ab-4098-946b-7c1faf5a3d8a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "07c59b4667c1b996",
+    "categorie": "geopolitique",
+    "titre_affiche": "China closes hundreds of banks to bolster financial system",
+    "horodatage_utc": "2026-10-04T02:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8a8f5c97-f1d3-4d3d-a3bc-d5a2e5539177?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ada7e030600425c6",
     "categorie": "geopolitique",
     "titre_affiche": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
@@ -1724,96 +1814,6 @@
     "horodatage_utc": "2026-10-01T13:00:00+00:00",
     "source_nom": "GDELT/musavat.com",
     "url_source": "https://musavat.com/news/pasinyan-dilemma-qarsisinda-irana-qarsi-sanksiyalara-qosulacaqmi_1293287.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "47a59304ae5c21a8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine - Krieg im Liveticker : +++ 14 : 31 Russen unzufrieden , weil united states Wirtschaftsgespräche an Kriegsende knüpfen +++",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/n-tv.de",
-    "url_source": "https://www.n-tv.de/politik/14-31-Russen-unzufrieden-weil-USA-Wirtschaftsgespraeche-an-Kriegsende-knuepfen-id30859357.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7305a4bfb32e6f5d",
-    "categorie": "geopolitique",
-    "titre_affiche": "UK expands Russia sanctions with 31 new measures : Here why",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/thenews.com.pk",
-    "url_source": "https://www.thenews.com.pk/latest/1418352-uk-expands-russia-sanctions-with-31-new-measures-heres-why",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2636b3b90285a6cb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Merkez Bankası rezervlerinde artış",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/yeniakit.com.tr",
-    "url_source": "https://www.yeniakit.com.tr/haber/merkez-bankasi-rezervlerine-artis-2025850.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e0f14ba87915b44d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Merkez Bankası rezervlerinde düşüş sürüyor",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/dunya.com",
-    "url_source": "https://www.dunya.com/ekonomi/merkezin-rezervlerinde-dusus-suruyor-haberi-842204",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "10c20d09bfdff733",
-    "categorie": "geopolitique",
-    "titre_affiche": "refineries are configured around particular crudes .....",
-    "horodatage_utc": "2026-10-01T12:45:00+00:00",
-    "source_nom": "GDELT/yourdemocracy.net.au",
-    "url_source": "https://www.yourdemocracy.net.au/drupal/node/61200",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "684953f9421a0d8d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran readies harder retaliation if attacked as diplomacy faces long odds",
-    "horodatage_utc": "2026-10-01T12:45:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/news/international/world-news/iran-prepares-for-escalation-major-military-response-looms-amid-uncertain-diplomacy-with-us/articleshow/134618268.cms",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
