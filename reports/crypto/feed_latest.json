@@ -1,11 +1,72 @@
 [
   {
-    "id": "dfe47fbabe7b7e61",
+    "id": "710d26ef7f0fd727",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
-    "horodatage_utc": "2026-10-05T04:23:25+00:00",
+    "titre_affiche": "Strive adds 2,000 bitcoin in biggest buy since June, closes in on MARA",
+    "horodatage_utc": "2026-10-05T15:03:54+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-10-05-strive-adds-2000-bitcoin-biggest-buy-since-june-closes-in-mara-417677",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "92c0455dcac0270b",
+    "categorie": "crypto",
+    "titre_affiche": "Tom Lee says ether ‘dwarfing other macro assets’ as Bitmine adds 15,112 ETH",
+    "horodatage_utc": "2026-10-05T13:23:07+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-10-05-tom-lee-says-ether-dwarfing-other-macro-assets-as-bitmine-adds-15112-eth-417660",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b038e0f5b28a19bf",
+    "categorie": "crypto",
+    "titre_affiche": "‘More orange than ever’: Michael Saylor’s Strategy buys 334 bitcoin for $28.7 million as total holdings top 848,000 BTC",
+    "horodatage_utc": "2026-10-05T12:13:28+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-10-05-more-orange-than-ever-michael-saylor-strategy-bitcoin-417631",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2925296dd4e420db",
+    "categorie": "crypto",
+    "titre_affiche": "SEC approves a 3x fix for bitcoin and ether traders who miss the wild swings",
+    "horodatage_utc": "2026-10-05T11:14:35+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/05/sec-approves-a-3x-fix-for-bitcoin-and-ether-traders-who-miss-the-wild-swings",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a09e79075a14a776",
+    "categorie": "crypto",
+    "titre_affiche": "Metaplanet added 1,000 bitcoin net in the third quarter bringing holdings to 44,000 BTC",
+    "horodatage_utc": "2026-10-05T10:58:03+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/10/05/metaplanet-adds-1-000-bitcoin-after-sale-and-repurchase-launches-income-strategy",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,12 +76,42 @@
     "nouveaute": true
   },
   {
-    "id": "0cb67de178dc4e5b",
+    "id": "463cdaa3a2f211ee",
     "categorie": "crypto",
-    "titre_affiche": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-    "horodatage_utc": "2026-10-05T03:50:29+00:00",
+    "titre_affiche": "Bitcoin resilience tested as U.S. dollar climbs to 18-month high",
+    "horodatage_utc": "2026-10-05T10:44:55+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+    "url_source": "https://www.coindesk.com/markets/2026/10/05/u-s-dollar-climbs-to-18-month-high-as-bitcoin-holds-firm-around-usd86-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5c6e72d31dfd828d",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin in tight range close to $86,000 as rates continue to rise",
+    "horodatage_utc": "2026-10-05T10:39:57+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/10/05/live-updates-bitcoin-above-usd86-000-as-traders-price-out-an-october-fed-hike",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1140b5bbaa958daf",
+    "categorie": "crypto",
+    "titre_affiche": "Technicals signal bitcoin shift, Ethereum gears up for Glamsterdam: Crypto Week Ahead",
+    "horodatage_utc": "2026-10-05T09:37:13+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/05/technicals-signal-bitcoin-shift-ethereum-gears-up-for-glamsterdam-crypto-week-ahead",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -29,6 +120,67 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "d0b5a00f46ee0339",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin is about to get a major bullish signal it hasn't had in over a year",
+    "horodatage_utc": "2026-10-05T06:57:40+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/05/bitcoin-is-about-to-get-a-major-bullish-signal-it-hasn-t-had-in-over-a-year",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0875f4f395b3f48f",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum investors are stuck in a two-week staking exit line. Here's why.",
+    "horodatage_utc": "2026-10-05T06:40:29+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/05/ethereum-has-a-25-day-wait-to-start-staking-with-nearly-1-5-million-eth-in-line",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dfe47fbabe7b7e61",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
+    "horodatage_utc": "2026-10-05T04:23:25+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "0cb67de178dc4e5b",
+    "categorie": "crypto",
+    "titre_affiche": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
+    "horodatage_utc": "2026-10-05T03:50:29+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "0b7a0bba68620898",
@@ -1657,156 +1809,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4767096932009f8c",
-    "categorie": "crypto",
-    "titre_affiche": "Vitalik Buterin maps Ethereum’s shift beyond a blockchain in sweeping 2030 vision",
-    "horodatage_utc": "2026-09-27T14:29:13+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "98720ed1c0cd3a30",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs turn positive for 2026 with $2.4 billion weekly inflow, their largest since October",
-    "horodatage_utc": "2026-09-26T17:24:12+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "90a2ae88fd62660a",
-    "categorie": "crypto",
-    "titre_affiche": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
-    "horodatage_utc": "2026-09-26T13:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "82a9e897e80c89b9",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-    "horodatage_utc": "2026-09-26T12:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e5f467a1814688e2",
-    "categorie": "crypto",
-    "titre_affiche": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
-    "horodatage_utc": "2026-09-26T05:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f11f6be24cf780c0",
-    "categorie": "crypto",
-    "titre_affiche": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
-    "horodatage_utc": "2026-09-25T14:41:53+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "73b7d9dff9fa7dbc",
-    "categorie": "crypto",
-    "titre_affiche": "Tether confirms minimal EQIBank exposure following $89M US asset seizure",
-    "horodatage_utc": "2026-09-25T14:32:48+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "856e1f8d9eed7fa9",
-    "categorie": "crypto",
-    "titre_affiche": "Bond volatility surges while bitcoin and Wall Street stay calm",
-    "horodatage_utc": "2026-09-25T11:54:28+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ab7e5bb722ce07ef",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin holders are cashing out, just not the way they did at prior market tops",
-    "horodatage_utc": "2026-09-25T11:29:04+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9a2940a21c7dcff9",
-    "categorie": "crypto",
-    "titre_affiche": "Altcoins rally across the board as bitcoin consolidates near $84,000",
-    "horodatage_utc": "2026-09-25T09:59:45+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/25/altcoins-rally-across-the-board-as-bitcoin-consolidates-near-usd84-000",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
