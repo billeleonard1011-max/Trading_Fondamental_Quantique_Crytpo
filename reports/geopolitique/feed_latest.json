@@ -1,15 +1,105 @@
 [
   {
+    "id": "0dcb4d833b9e1260",
+    "categorie": "geopolitique",
+    "titre_affiche": "Euro tumbles to 17-month low against dollar",
+    "horodatage_utc": "2026-10-05T05:30:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8b19b9f7-9237-47bf-bc50-d8b78aa7fe24?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dc737ef78b8aa882",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia’s new drive to crush Ukraine",
+    "horodatage_utc": "2026-10-05T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cc96ac01-7929-4954-97a3-7b30e00ef324?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f576d2d288a6b01d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why a booming economy is not helping Trump",
+    "horodatage_utc": "2026-10-05T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8f4525eb-ce7c-4323-9dda-698aa1e8521a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "ac9e86175bc189dc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Estonia shifts troops closer to Russia in ‘active defence’ push",
+    "horodatage_utc": "2026-10-05T04:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0293497e-e4b5-473e-be49-67d1fc005fae?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "290b1c60f4e76693",
+    "categorie": "geopolitique",
+    "titre_affiche": "Flávio Bolsonaro takes lead in first round of Brazil election",
+    "horodatage_utc": "2026-10-05T02:25:45+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/028da85c-0e1f-4f1b-ad04-eac78c4f18c0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "be8c2c993c1c95c4",
     "categorie": "geopolitique",
     "titre_affiche": "US recalls B-1 bombers from UK air base following alleged terror plot",
     "horodatage_utc": "2026-10-04T22:24:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/66897ef7-936b-43d0-a067-576be636f876?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "93a22411c71c513a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bull run for Japan stocks at risk, warns boss of biggest trading house",
+    "horodatage_utc": "2026-10-04T21:00:00+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1fdb8380-2fac-474a-a184-616c0a29feb6?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1729,97 +1819,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "1a289079e1a0320d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Global bond sell-off pushes 10-year Treasury yield to highest since 2002",
-    "horodatage_utc": "2026-10-01T13:45:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e485a228-1efe-426b-addc-26069ba48bf3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e8a60671022b792e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Christine Lagarde: Where AI risks meet",
-    "horodatage_utc": "2026-10-01T13:30:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c90111557c3ed0e1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil Flowing , But Prices Not Dropping Yet",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/conservativehq.com",
-    "url_source": "https://conservativehq.com/post/oil-flowing-but-prices-not-dropping-yet",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/conservativehq.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6a2a7ec1b6229505",
-    "categorie": "geopolitique",
-    "titre_affiche": "Rubio orders visiting Iranian UN delegation to leave NYC early",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/chicoer.com",
-    "url_source": "https://www.chicoer.com/2026/10/01/rubio-iranian-delegation-visas/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "68327b0bfb724c9b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump threatens to obliterate Iran with post - election strikes",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/bankingnews.gr",
-    "url_source": "https://www.bankingnews.gr/diethni/articles/902666/trump-threatens-to-obliterate-iran-with-post-election-strikes",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "efbf537d94bc90a3",
-    "categorie": "geopolitique",
-    "titre_affiche": "BEFORE THE BELL : US futures mixed with Brent crude bouncing back above $100 a barrel and bond yields soaring",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/wptf.com",
-    "url_source": "https://www.wptf.com/2026/10/01/before-the-bell-us-futures-mixed-with-brent-crude-bouncing-back-above-100-a-barrel-and-bond-yields-soaring/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
