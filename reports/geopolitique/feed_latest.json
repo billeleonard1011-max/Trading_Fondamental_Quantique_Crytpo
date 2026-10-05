@@ -1,19 +1,34 @@
 [
   {
+    "id": "be8c2c993c1c95c4",
+    "categorie": "geopolitique",
+    "titre_affiche": "US recalls B-1 bombers from UK air base following alleged terror plot",
+    "horodatage_utc": "2026-10-04T22:24:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/66897ef7-936b-43d0-a067-576be636f876?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "0db38dd496a1d3ce",
     "categorie": "geopolitique",
     "titre_affiche": "Dealmaking slowdown threatens early end to M&A boom",
     "horodatage_utc": "2026-10-04T20:00:10+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/00fb4438-1f86-4bf2-a165-0c39f3fd506b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "40b583a432d69120",
@@ -1803,21 +1818,6 @@
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dc8bea9fa0ac6312",
-    "categorie": "geopolitique",
-    "titre_affiche": "World News : Three oil tankers hit by projectiles in Hormuz strait on Tuesday , Marisks says",
-    "horodatage_utc": "2026-10-01T13:00:00+00:00",
-    "source_nom": "GDELT/gdnonline.com",
-    "url_source": "https://www.gdnonline.com:443/Details/1408256",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
     ],
     "portee": "influence",
     "nouveaute": true
