@@ -1,5 +1,65 @@
 [
   {
+    "id": "a038617abab7f2ba",
+    "categorie": "crypto",
+    "titre_affiche": "Why bitcoin is down 'just' 32% a year after its record high of $126,000",
+    "horodatage_utc": "2026-10-06T08:27:43+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/06/from-retail-leverage-to-etf-flows-a-year-after-its-record-high-bitcoin-is-down-just-32",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b2e72ac119bfc362",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum’s Glamsterdam test gets last-minute fix before major capacity jump",
+    "horodatage_utc": "2026-10-06T04:49:05+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "031a09b3e18ed72c",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin keeps getting rejected at $87,000 as stocks hover near records",
+    "horodatage_utc": "2026-10-06T04:41:10+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8f81db3e1fc15ac8",
+    "categorie": "crypto",
+    "titre_affiche": "Solana Foundation unveils a program to settle institutional trades in seconds. JPMorgan gave input",
+    "horodatage_utc": "2026-10-06T04:23:45+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "710d26ef7f0fd727",
     "categorie": "crypto",
     "titre_affiche": "Strive adds 2,000 bitcoin in biggest buy since June, closes in on MARA",
@@ -1746,67 +1806,6 @@
     "url_source": "https://247wallst.com/investing/cryptocurrency/2026/09/27/is-it-too-late-to-buy-bitcoin-after-a-32-rally-in-two-months/",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "0cd6436a966806ac",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum Has Beaten Bitcoin for Three Months . Is the Flippening Trade Back ?",
-    "horodatage_utc": "2026-09-27T16:00:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/ethereum-beaten-bitcoin-three-months-144820000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "48cdc115b3dc52d9",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin & Co . Kursupdate : Das geschah am Nachmittag",
-    "horodatage_utc": "2026-09-27T15:45:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/nachricht/devisen/so-entwickeln-sich-bitcoin-ripple-co-am-sonntagnachmittag-am-kryptomarkt-15955068",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "c203b98e89c755d3",
-    "categorie": "crypto",
-    "titre_affiche": "Dogecoin Price Prediction Climbs as ETFs Log Record $2 . 89",
-    "horodatage_utc": "2026-09-27T15:30:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4645099/dogecoin-price-prediction-climbs-as-etfs-log-record-2-89",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : DOGE. Le cours de DOGE varie de 1.09604 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "DOGE"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "5d2b4bbc15859580",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin mbi 84 mijë dollarë , pranë nivelit më të lartë në 8 muaj",
-    "horodatage_utc": "2026-09-27T15:15:00+00:00",
-    "source_nom": "GDELT/abcnews.al",
-    "url_source": "https://abcnews.al/bitcoin-mbi-84-mije-dollare-prane-nivelit-me-te-larte-ne-8-muaj/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],

@@ -1,5 +1,114 @@
 [
   {
+    "id": "8a41f146e42cd015",
+    "categorie": "geopolitique",
+    "titre_affiche": "Goldman: Diesel prices set to stay high through 2027 as refineries struggle to meet demand",
+    "horodatage_utc": "2026-10-06T08:47:30+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/06/diesel-oil-refinery-price-capacity-demand.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "401529684284fd39",
+    "categorie": "geopolitique",
+    "titre_affiche": "Flydubai attacker received flight training in New Zealand",
+    "horodatage_utc": "2026-10-06T07:16:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/04cac391-0379-4a97-a7fd-354b613f661f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "08a707b0685e91d9",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI models used in bank cyber attacks, warns South Korea’s president",
+    "horodatage_utc": "2026-10-06T06:19:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fb32e9f8-4bf7-44ad-983d-1a03f50f66f5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6ac86f833e6a858d",
+    "categorie": "geopolitique",
+    "titre_affiche": "America’s data center fight is a preview of what's to come for the rest of the world",
+    "horodatage_utc": "2026-10-06T05:50:28+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b7247a5c353dcc2e",
+    "categorie": "geopolitique",
+    "titre_affiche": "How AI could scupper the dollar",
+    "horodatage_utc": "2026-10-06T05:30:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/47061507-f20e-4ff6-961d-e1f1b919cb89?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e551a422a8126bcd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Surge in borrowing costs hits corporate America",
+    "horodatage_utc": "2026-10-06T04:00:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7c7ccb82-2973-47af-ad9b-b469c6ea0048?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a4f1e933a8201500",
+    "categorie": "geopolitique",
+    "titre_affiche": "The bond market turns on France",
+    "horodatage_utc": "2026-10-06T04:00:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9b252b46-a87c-45e7-a09a-45a39ce077b8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "7895c9e707b65c92",
     "categorie": "geopolitique",
     "titre_affiche": "Trump says Maga Inc will pay for ads instead of taxpayers after backlash",
@@ -767,21 +876,6 @@
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6ac86f833e6a858d",
-    "categorie": "geopolitique",
-    "titre_affiche": "America’s data center fight is a preview of what's to come for the rest of the world",
-    "horodatage_utc": "2026-10-03T12:39:29+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1727,95 +1821,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "1ce4ce6949f95e5c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Plans Stronger Response if US Attacks Resume",
-    "horodatage_utc": "2026-10-02T08:45:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "http://www.econotimes.com/Iran-Plans-Stronger-Response-if-US-Attacks-Resume-1753774",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7f894832742fd5a3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin has told military leaders to abandon rules of war, Zelenskyy says",
-    "horodatage_utc": "2026-10-02T06:58:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c2ad4cd1-a08a-4f55-8d57-fa83dbfa98af?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "dc7a2899c29c855f",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI is making cyberattacks faster and harder to detect, Interpol warns. Here’s what companies should watch",
-    "horodatage_utc": "2026-10-02T04:57:38+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/02/interpol-cyberattack-cyberthreat-agentic-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1dc3082c94f2c855",
-    "categorie": "geopolitique",
-    "titre_affiche": "Amazon seeks to offload $8bn of Nvidia chips to investors",
-    "horodatage_utc": "2026-10-02T04:00:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/97d8d346-519e-48fb-8df8-66cf5f12ef62?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "dd7607de2b18c193",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s diesel threats could go very wrong — just look at the soyabean",
-    "horodatage_utc": "2026-10-02T04:00:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3ae16f02-bb00-46a4-abba-6bfea7f2b1ac?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "dca9a66d7eb9d11f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s short-sighted diesel gamble",
-    "horodatage_utc": "2026-10-02T04:00:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3ae16f02-bb00-46a4-abba-6bfea7f2b1ac?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   }
 ]
