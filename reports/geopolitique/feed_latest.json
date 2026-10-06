@@ -1,49 +1,204 @@
 [
   {
-    "id": "b1e76f61fd58d129",
+    "id": "393c6a63564f08a6",
     "categorie": "geopolitique",
-    "titre_affiche": "Palmer Luckey’s Erebor surges to more than $7bn in deposits since launch",
-    "horodatage_utc": "2026-10-06T15:32:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/42b6fa88-f730-4f8a-a194-8f53d0759aaf?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "titre_affiche": "Anduril lands $2.9 billion Navy submarine shipyard contract days after Luckey joins Pentagon weapons group",
+    "horodatage_utc": "2026-10-06T21:07:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "a4ad8e74077928cf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+    "horodatage_utc": "2026-10-06T20:50:54+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Pétrole et énergie, Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Taux et obligations",
+      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
   },
   {
-    "id": "393c6a63564f08a6",
+    "id": "685cf55ac304f612",
     "categorie": "geopolitique",
-    "titre_affiche": "Anduril lands $2.9 billion Navy submarine shipyard contract days after Luckey joins Pentagon weapons group",
-    "horodatage_utc": "2026-10-06T15:27:46+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html",
+    "titre_affiche": "M 4.8 - 85 km ENE of Shikotan, Russia",
+    "horodatage_utc": "2026-10-06T20:48:11+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ji",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7b3ddaa2e9251aca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anduril plans shipyard to manufacture parts for US Navy’s top submarines",
+    "horodatage_utc": "2026-10-06T20:36:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a6339e0c-4114-413a-a23c-916ed4392ce0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
     "nouveaute": true
   },
   {
-    "id": "4746b2f3244eabb9",
+    "id": "f16909b83ac1bda1",
     "categorie": "geopolitique",
-    "titre_affiche": "S&P 500 hits record high as AI stocks shrug off bond market slump",
-    "horodatage_utc": "2026-10-06T15:12:02+00:00",
+    "titre_affiche": "Ships’ captains paid $100,000 a month to transit Strait of Hormuz",
+    "horodatage_utc": "2026-10-06T20:00:08+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1c1ee003-f041-4c66-a971-f08d488d11f7?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/0d665e5b-d8c8-4f1e-acf5-bba7193b4e6e?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
+      "Iran - États-Unis",
+      "Tensions énergétiques"
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "d9407e5097e925b3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Clyburn urges Democrats to woo Black voters with affordability pitch",
+    "horodatage_utc": "2026-10-06T19:26:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/793d9121-1dae-498b-bae1-db8c69e67e2d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "017d807768374b61",
+    "categorie": "geopolitique",
+    "titre_affiche": "Goldman Sachs and Man Group exposed in EY data breach",
+    "horodatage_utc": "2026-10-06T19:24:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2ad1ff25-f08e-4e78-83c9-90e7ea3844ee?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6ca05c1b0b8dd3f8",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.9 - 264 km SSW of Severo-Kuril’sk, Russia",
+    "horodatage_utc": "2026-10-06T18:53:52+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hy",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "770d6442d4dab7f2",
+    "categorie": "geopolitique",
+    "titre_affiche": "How event contract bundles are boosting volume on prediction markets",
+    "horodatage_utc": "2026-10-06T18:46:16+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e3004a0384d8b179",
+    "categorie": "geopolitique",
+    "titre_affiche": "Kalshi, Polymarket trading volumes on some products raise questions amid massive growth",
+    "horodatage_utc": "2026-10-06T18:41:32+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b7417c35a88a08b0",
+    "categorie": "geopolitique",
+    "titre_affiche": "German far right secures first regional parliament president",
+    "horodatage_utc": "2026-10-06T18:10:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/76db879a-2c53-4aee-8354-b30185f1d3a4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "4746b2f3244eabb9",
+    "categorie": "geopolitique",
+    "titre_affiche": "S&P 500 hits record high as AI stocks shrug off bond market slump",
+    "horodatage_utc": "2026-10-06T16:59:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1c1ee003-f041-4c66-a971-f08d488d11f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b1e76f61fd58d129",
+    "categorie": "geopolitique",
+    "titre_affiche": "Palmer Luckey’s Erebor surges to more than $7bn in deposits since launch",
+    "horodatage_utc": "2026-10-06T15:32:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/42b6fa88-f730-4f8a-a194-8f53d0759aaf?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "3f7291670b105102",
@@ -52,28 +207,13 @@
     "horodatage_utc": "2026-10-06T14:45:00+00:00",
     "source_nom": "Federal Reserve - discours et auditions",
     "url_source": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b7417c35a88a08b0",
-    "categorie": "geopolitique",
-    "titre_affiche": "German far right secures first regional parliament president",
-    "horodatage_utc": "2026-10-06T14:35:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/76db879a-2c53-4aee-8354-b30185f1d3a4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a4f1e933a8201500",
@@ -114,13 +254,13 @@
     "horodatage_utc": "2026-10-06T13:00:00+00:00",
     "source_nom": "BCE - communiques",
     "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8a41f146e42cd015",
@@ -1677,143 +1817,6 @@
     "horodatage_utc": "2026-10-02T10:45:00+00:00",
     "source_nom": "GDELT/news.de",
     "url_source": "https://www.news.de/politik/860049784/wladimir-putin-erhaelt-verheerende-nachrichten-atombomber-abgestuerzt-moskaus-goldene-soehne-zur-front-kreml-kriegsmaschinerie-broeckelt/1/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "1b5a7688d88527de",
-    "categorie": "geopolitique",
-    "titre_affiche": "Diesel falls sharply as EU considers releasing 50mn barrels under pressure from Trump",
-    "horodatage_utc": "2026-10-02T10:13:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b45f9c5c00137b5c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Descalzi : il gas avrà ancora lunga vita . Avanti sul maxi - progetto Argentina Lng",
-    "horodatage_utc": "2026-10-02T10:00:00+00:00",
-    "source_nom": "GDELT/milanofinanza.it",
-    "url_source": "https://www.milanofinanza.it/news/descalzi-il-gas-avra-ancora-lunga-vita-avanti-sul-maxi-progetto-argentina-lng-202610012225375483",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3b365671a8c827d9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Interview : Iraq Foreign Minister Urges US , Iran Back To Talks",
-    "horodatage_utc": "2026-10-02T10:00:00+00:00",
-    "source_nom": "GDELT/rferl.org",
-    "url_source": "https://www.rferl.org/a/interview-iraq-s-foreign-minister-urges-us-iran-back-to-talks/33868920.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c7bbccdbb4b5337b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil Prices Come Under Pressure",
-    "horodatage_utc": "2026-10-02T10:00:00+00:00",
-    "source_nom": "GDELT/rigzone.com",
-    "url_source": "https://www.rigzone.com/news/oil_prices_come_under_pressure-02-oct-2026-184757-article/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6c0bcc56d6294bf2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Loaded Zero Crude Oil In September , Bessent Says",
-    "horodatage_utc": "2026-10-02T10:00:00+00:00",
-    "source_nom": "GDELT/afghanistannews.net",
-    "url_source": "http://www.afghanistannews.net/news/279347180/iran-loaded-zero-crude-oil-in-september-bessent-says",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4523c165378d557e",
-    "categorie": "geopolitique",
-    "titre_affiche": "UN worried about impact of latest Lebanon war on agriculture",
-    "horodatage_utc": "2026-10-02T10:00:00+00:00",
-    "source_nom": "GDELT/naharnet.com",
-    "url_source": "https://www.naharnet.com/stories/en/322874-un-worried-about-impact-of-latest-lebanon-war-on-agriculture",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "aaafb854092b462a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israel threatens Beirut invasion if Hezbollah doesnt disarm , report says",
-    "horodatage_utc": "2026-10-02T10:00:00+00:00",
-    "source_nom": "GDELT/naharnet.com",
-    "url_source": "https://www.naharnet.com/stories/en/322865-israel-threatens-beirut-invasion-if-hezbollah-doesn-t-disarm-report-says",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "75735b85ea7c28c7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Avdagić o Putinovom govoru : Brutalno laže . Kremlj planira napade i kretanje na Zapad",
-    "horodatage_utc": "2026-10-02T10:00:00+00:00",
-    "source_nom": "GDELT/24sata.hr",
-    "url_source": "https://www.24sata.hr/news/avdagic-o-putinovom-govoru-brutalno-laze-kremlj-planira-napade-i-kretanje-na-zapad-1158217",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "10219c6ea5905b3c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin : Bili smo spremni nastaviti pregovore , a onda je Ukrajina izvela više od 1 . 600 napada dronovima",
-    "horodatage_utc": "2026-10-02T10:00:00+00:00",
-    "source_nom": "GDELT/novilist.hr",
-    "url_source": "https://www.novilist.hr/novosti/svijet/putin-bili-smo-spremni-nastaviti-pregovore-a-onda-je-ukrajina-izvela-vise-od-1-600-napada-dronovima/",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
