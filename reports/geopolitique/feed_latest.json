@@ -1,74 +1,13 @@
 [
   {
-    "id": "51c5fcc124587511",
+    "id": "7895c9e707b65c92",
     "categorie": "geopolitique",
-    "titre_affiche": "Stocks are hitting records despite surging yields. Cramer explains why",
-    "horodatage_utc": "2026-10-05T22:18:13+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/cramer-ai-stocks-treasury-yields.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8b91b5565635bb46",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nokia CEO says data centers would be built '2x faster' without supply constraints",
-    "horodatage_utc": "2026-10-05T22:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e0fd20acbba91026",
-    "categorie": "geopolitique",
-    "titre_affiche": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
-    "horodatage_utc": "2026-10-05T21:24:25+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "eafa908919a7ab1e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic",
-    "horodatage_utc": "2026-10-05T20:58:19+00:00",
+    "titre_affiche": "Trump says Maga Inc will pay for ads instead of taxpayers after backlash",
+    "horodatage_utc": "2026-10-06T00:54:30+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5b9c8ce3-d07c-46f9-8cea-cbc4e7f8ccca?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/ee7796ef-f6ec-433c-866d-c50f91a25694?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4679a5fbf656121d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
-    "horodatage_utc": "2026-10-05T20:41:23+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
@@ -76,16 +15,17 @@
     "nouveaute": true
   },
   {
-    "id": "5fcc8bbbb61a5ce5",
+    "id": "467003540c29fc74",
     "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-    "horodatage_utc": "2026-10-05T20:30:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
+    "titre_affiche": "Trump eases red diesel limits in attempt to quell fuel inflation",
+    "horodatage_utc": "2026-10-06T00:46:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8a733f73-d506-49ae-9030-2bbf0987bc8d?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
+      "Inflation et prix",
+      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -94,16 +34,107 @@
     "id": "d749d924f362f53e",
     "categorie": "geopolitique",
     "titre_affiche": "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
-    "horodatage_utc": "2026-10-05T20:08:19+00:00",
+    "horodatage_utc": "2026-10-05T23:28:31+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
+  },
+  {
+    "id": "51c5fcc124587511",
+    "categorie": "geopolitique",
+    "titre_affiche": "Stocks are hitting records despite surging yields. Cramer explains why",
+    "horodatage_utc": "2026-10-05T22:18:13+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/05/cramer-ai-stocks-treasury-yields.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "8b91b5565635bb46",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nokia CEO says data centers would be built '2x faster' without supply constraints",
+    "horodatage_utc": "2026-10-05T22:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e0fd20acbba91026",
+    "categorie": "geopolitique",
+    "titre_affiche": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
+    "horodatage_utc": "2026-10-05T21:24:25+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "eafa908919a7ab1e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic",
+    "horodatage_utc": "2026-10-05T20:58:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5b9c8ce3-d07c-46f9-8cea-cbc4e7f8ccca?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "4679a5fbf656121d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+    "horodatage_utc": "2026-10-05T20:41:23+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "5fcc8bbbb61a5ce5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+    "horodatage_utc": "2026-10-05T20:30:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "746b9e6182c8019d",
@@ -149,7 +180,7 @@
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "06e03eabdd94683e",
@@ -164,7 +195,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0aa7f8275b57784d",
@@ -180,7 +211,7 @@
       "Conflits et sécurité"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bb820f2d0be43e5e",
@@ -195,7 +226,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d1c65b6e6dd74f03",
@@ -300,7 +331,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e19d49bc52753733",
@@ -435,7 +466,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "290b1c60f4e76693",
@@ -1786,36 +1817,5 @@
     ],
     "portee": "contexte",
     "nouveaute": false
-  },
-  {
-    "id": "b6388a00e329d399",
-    "categorie": "geopolitique",
-    "titre_affiche": "US refiners reap windfall profits as wars push up fuel prices for consumers",
-    "horodatage_utc": "2026-10-02T04:00:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/118785e7-8637-46ad-a60c-286e51370848?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a084de2fc9599438",
-    "categorie": "geopolitique",
-    "titre_affiche": "Emerging markets outperform developed markets as bond rout deepens",
-    "horodatage_utc": "2026-10-02T04:00:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0f69e39e-b41f-4cfe-9c25-f0e1e05a1198?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
