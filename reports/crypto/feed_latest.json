@@ -1,11 +1,26 @@
 [
   {
-    "id": "a038617abab7f2ba",
+    "id": "842a0e25fafa6b41",
     "categorie": "crypto",
-    "titre_affiche": "Why bitcoin is down 'just' 32% a year after its record high of $126,000",
-    "horodatage_utc": "2026-10-06T08:27:43+00:00",
+    "titre_affiche": "Solana treasury DeFi Development authorizes CHAD preferred stock buyback program",
+    "horodatage_utc": "2026-10-06T15:09:41+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-06-defi-development-chad-preferred-stock-repurchase-program-417819",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0b57c74c271f2089",
+    "categorie": "crypto",
+    "titre_affiche": "The VIX of bonds is rising but bitcoin and stocks aren't hearing it yet",
+    "horodatage_utc": "2026-10-06T11:30:00+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/06/from-retail-leverage-to-etf-flows-a-year-after-its-record-high-bitcoin-is-down-just-32",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/06/the-vix-of-bonds-is-rising-but-bitcoin-and-stocks-aren-t-hearing-it-yet",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +28,51 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "a40aa6bc34f2e6d8",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin remains locked in range as stocks notch another new record high",
+    "horodatage_utc": "2026-10-06T10:35:49+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/06/live-updates-a-drop-below-usd84-000-could-put-usd80-000-in-play-for-bitcoin",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9d011d46649118b9",
+    "categorie": "crypto",
+    "titre_affiche": "Smaller altcoins shine as bitcoin stills trades around $85,000",
+    "horodatage_utc": "2026-10-06T10:30:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/06/smaller-altcoins-shine-as-bitcoin-stills-trades-around-usd85-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a038617abab7f2ba",
+    "categorie": "crypto",
+    "titre_affiche": "Why bitcoin is down 'just' 32% a year after its record high of $126,000",
+    "horodatage_utc": "2026-10-06T08:27:43+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/06/from-retail-leverage-to-etf-flows-a-year-after-its-record-high-bitcoin-is-down-just-32",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "b2e72ac119bfc362",
@@ -21,13 +81,13 @@
     "horodatage_utc": "2026-10-06T04:49:05+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "031a09b3e18ed72c",
@@ -36,13 +96,13 @@
     "horodatage_utc": "2026-10-06T04:41:10+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8f81db3e1fc15ac8",
@@ -51,13 +111,13 @@
     "horodatage_utc": "2026-10-06T04:23:45+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "710d26ef7f0fd727",
@@ -1747,67 +1807,6 @@
     "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "42846ef59fd2e73b",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETF Buyers Poured In $2 . 65B Over Five Sessions Through",
-    "horodatage_utc": "2026-09-27T20:00:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4645211/bitcoin-etf-buyers-poured-in-2-65b-over-five-sessions-through",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "f8d2fc22f615342a",
-    "categorie": "crypto",
-    "titre_affiche": "New Crypto : Remittix Releases RTX Launch Date as Ethereum Price Prediction Targets $18K and Whale Buying Grows",
-    "horodatage_utc": "2026-09-27T18:15:00+00:00",
-    "source_nom": "GDELT/manilatimes.net",
-    "url_source": "https://www.manilatimes.net/2026/09/28/tmt-newswire/globenewswire/new-crypto-remittix-releases-rtx-launch-date-as-ethereum-price-prediction-targets-18k-and-whale-buying-grows/2433708",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/manilatimes.net. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "12743447796c7eaa",
-    "categorie": "crypto",
-    "titre_affiche": "SUI and BCH Outpace Bitcoin and Ethereum in Crypto Rally",
-    "horodatage_utc": "2026-09-27T17:45:00+00:00",
-    "source_nom": "GDELT/dailyforex.com",
-    "url_source": "https://www.dailyforex.com/forex-technical-analysis/2026/09/crypto-market-overview-27-september-2026/250085",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/dailyforex.com. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "4a811e72ad2ed62c",
-    "categorie": "crypto",
-    "titre_affiche": "Is It Too Late to Buy Bitcoin After a 32 % Rally in Two Months ?",
-    "horodatage_utc": "2026-09-27T17:15:00+00:00",
-    "source_nom": "GDELT/247wallst.com",
-    "url_source": "https://247wallst.com/investing/cryptocurrency/2026/09/27/is-it-too-late-to-buy-bitcoin-after-a-32-rally-in-two-months/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": true
