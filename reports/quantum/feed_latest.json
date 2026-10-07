@@ -1,5 +1,21 @@
 [
   {
+    "id": "05b6eb0c25b80cbb",
+    "categorie": "quantique",
+    "titre_affiche": "Jülich Supercomputing Centre Benchmark Evaluates Quantum Error Correction Primitives Across Quantinuum, IBM, and IQM Hardware",
+    "horodatage_utc": "2026-10-07T15:13:01+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/julich-supercomputing-centre-benchmark-evaluates-quantum-error-correction-primitives-across-quantinuum-ibm-and-iqm-hardware/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM, Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM",
+      "Quantinuum"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "9552a66242919c8b",
     "categorie": "quantique",
     "titre_affiche": "Infleqtion, Honeywell Aerospace, and UC Santa Barbara Develop Chip-Scale Silicon Nitride Optical Cavity for Handheld Quantum Hardware",
@@ -1795,21 +1811,6 @@
     "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
       "Quantinuum",
-      "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "2d78c0296540b0f7",
-    "categorie": "quantique",
-    "titre_affiche": "Qedma Integrates QESEM Quantum Error Mitigation Software into NVIDIA CUDA-Q Platform",
-    "horodatage_utc": "2026-09-15T03:00:37+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/qedma-integrates-qesem-quantum-error-mitigation-software-into-nvidia-cuda-q-platform/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
       "Nvidia"
     ],
     "portee": "actif_direct",
