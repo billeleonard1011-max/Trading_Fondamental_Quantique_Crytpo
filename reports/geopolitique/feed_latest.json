@@ -1,5 +1,97 @@
 [
   {
+    "id": "a332a57d175c757d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says he will speak with Putin about pneumonic plague",
+    "horodatage_utc": "2026-10-06T23:18:47+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/dcf35eaf-e1d3-4289-bc7a-e0c91725ad59?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "aa71704dcaa99b94",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX looks to raise $40bn to buy Nvidia chips in financing led by Apollo",
+    "horodatage_utc": "2026-10-06T22:28:55+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d3f5928d-f38c-4666-8f7a-8737f9c45f51?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a4ad8e74077928cf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+    "horodatage_utc": "2026-10-06T22:23:01+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Taux et obligations",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "10fc354b00123992",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom",
+    "horodatage_utc": "2026-10-06T22:13:04+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/06/jim-cramer-ai-stocks.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b6cd64c19b8c1a3f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Clyburn urges Black voters not to be ‘fooled’ by Trump",
+    "horodatage_utc": "2026-10-06T21:29:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/793d9121-1dae-498b-bae1-db8c69e67e2d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d867c535ed131f57",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says he is considering suspending federal petrol tax",
+    "horodatage_utc": "2026-10-06T21:09:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3fd43fc5-4973-4a26-9d9c-47b6361e6217?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "393c6a63564f08a6",
     "categorie": "geopolitique",
     "titre_affiche": "Anduril lands $2.9 billion Navy submarine shipyard contract days after Luckey joins Pentagon weapons group",
@@ -16,21 +108,19 @@
     "nouveaute": false
   },
   {
-    "id": "a4ad8e74077928cf",
+    "id": "4746b2f3244eabb9",
     "categorie": "geopolitique",
-    "titre_affiche": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-    "horodatage_utc": "2026-10-06T20:50:54+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Pétrole et énergie, Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "titre_affiche": "S&P 500 hits record high as AI stocks shrug off bond market slump",
+    "horodatage_utc": "2026-10-06T20:58:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1c1ee003-f041-4c66-a971-f08d488d11f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Taux et obligations",
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "685cf55ac304f612",
@@ -69,14 +159,14 @@
     "horodatage_utc": "2026-10-06T20:00:08+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/0d665e5b-d8c8-4f1e-acf5-bba7193b4e6e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Tensions énergétiques"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d9407e5097e925b3",
@@ -100,13 +190,13 @@
     "horodatage_utc": "2026-10-06T19:24:22+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/2ad1ff25-f08e-4e78-83c9-90e7ea3844ee?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6ca05c1b0b8dd3f8",
@@ -115,13 +205,13 @@
     "horodatage_utc": "2026-10-06T18:53:52+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hy",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "770d6442d4dab7f2",
@@ -130,14 +220,14 @@
     "horodatage_utc": "2026-10-06T18:46:16+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e3004a0384d8b179",
@@ -168,21 +258,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "4746b2f3244eabb9",
-    "categorie": "geopolitique",
-    "titre_affiche": "S&P 500 hits record high as AI stocks shrug off bond market slump",
-    "horodatage_utc": "2026-10-06T16:59:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1c1ee003-f041-4c66-a971-f08d488d11f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
     "nouveaute": false
   },
   {
@@ -1747,82 +1822,6 @@
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fde05876cc5affc2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran weighs options as US pressure , nuclear impasse deepen",
-    "horodatage_utc": "2026-10-02T10:45:00+00:00",
-    "source_nom": "GDELT/jpost.com",
-    "url_source": "http://www.jpost.com/middle-east/iran-news/article-910402",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/jpost.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e75c0b5e27e88c1f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Macron bisedon me Trump - in për krizën energjetike : Franca kërkon takimin e liderëve të G7 - së",
-    "horodatage_utc": "2026-10-02T10:45:00+00:00",
-    "source_nom": "GDELT/24-ore.com",
-    "url_source": "https://24-ore.com/macron-bisedon-me-trump-in-per-krizen-energjetike-franca-kerkon-takimin-e-lidereve-te-g7-se/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "39ce1e7801f73a95",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump suspects Iran in jet attack | The Arkansas Democrat - Gazette - Arkansa Best News Source",
-    "horodatage_utc": "2026-10-02T10:45:00+00:00",
-    "source_nom": "GDELT/arkansasonline.com",
-    "url_source": "https://www.arkansasonline.com/news/2026/oct/02/trump-suspects-iran-in-jet-attack/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "54f725021cd029b3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dont worry about diesel shortages , Government says , as US urges use of reserves",
-    "horodatage_utc": "2026-10-02T10:45:00+00:00",
-    "source_nom": "GDELT/dunfermlinepress.com",
-    "url_source": "https://www.dunfermlinepress.com/news/national/26600861.dont-worry-diesel-shortages-government-says-us-urges-use-reserves/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "66373ed5d4b4c845",
-    "categorie": "geopolitique",
-    "titre_affiche": "Wladimir Putin : Kremlchef droht verheerendes Dilemma nach Atombomber - Absturz",
-    "horodatage_utc": "2026-10-02T10:45:00+00:00",
-    "source_nom": "GDELT/news.de",
-    "url_source": "https://www.news.de/politik/860049784/wladimir-putin-erhaelt-verheerende-nachrichten-atombomber-abgestuerzt-moskaus-goldene-soehne-zur-front-kreml-kriegsmaschinerie-broeckelt/1/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]
