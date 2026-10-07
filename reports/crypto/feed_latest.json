@@ -1,11 +1,11 @@
 [
   {
-    "id": "b2ccbf51f0e19d65",
+    "id": "36812be45e4e8646",
     "categorie": "crypto",
-    "titre_affiche": "Pudgy Penguins’ Abstract becomes second Ethereum layer 2 to shut in a week",
-    "horodatage_utc": "2026-10-07T04:31:14+00:00",
+    "titre_affiche": "Ether is about to lose a steady buyer as Tom Lee says Bitmine will stop token purchases",
+    "horodatage_utc": "2026-10-07T12:40:31+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
+    "url_source": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,12 +15,12 @@
     "nouveaute": true
   },
   {
-    "id": "5701c5fbccc34b56",
+    "id": "d05dc14fc066843f",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
-    "horodatage_utc": "2026-10-07T04:00:51+00:00",
+    "titre_affiche": "Here’s what bitcoin needs to break above $87,000",
+    "horodatage_utc": "2026-10-07T11:30:00+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/07/here-s-what-bitcoin-needs-to-break-above-usd87-000",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -30,12 +30,72 @@
     "nouveaute": true
   },
   {
-    "id": "a059b599f1dc97e0",
+    "id": "5233561cc5981c7a",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin briefly slides below $84,000 as crypto long liquidations reach $487 million",
-    "horodatage_utc": "2026-10-07T03:57:21+00:00",
+    "titre_affiche": "Live updates: Bitcoin falls 4%, tumbling below $83,000 as interest rates surge",
+    "horodatage_utc": "2026-10-07T11:09:50+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/10/07/live-updates-bitcoin-slides-under-usd84-000-as-usd550-million-in-bets-get-liquidated",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c71e7cd8c5bc98b2",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin’s recovery stalls just short of rescuing its last underwater cohort",
+    "horodatage_utc": "2026-10-07T10:38:23+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/07/bitcoin-s-recovery-stalls-just-short-of-rescuing-its-last-underwater-cohort",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7ce2f1197e4114d2",
+    "categorie": "crypto",
+    "titre_affiche": "Robinhood adds $25 million of bitcoin to its balance sheet",
+    "horodatage_utc": "2026-10-07T08:53:27+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "64e530350378fbd3",
+    "categorie": "crypto",
+    "titre_affiche": "Down but not out. Bitcoin's stair-step bullish trajectory is still intact",
+    "horodatage_utc": "2026-10-07T07:52:22+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/07/down-but-not-out-bitcoin-s-stair-step-bullish-trajectory-is-still-intact",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ebffc804dd57ff2d",
+    "categorie": "crypto",
+    "titre_affiche": "Robinhood adds $25 million worth of bitcoin to balance sheet as it deepens crypto push",
+    "horodatage_utc": "2026-10-07T07:08:36+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-06-bitcoin-slides-crypto-long-liquidations-surge-417882",
+    "url_source": "https://www.theblock.co/news/business/2026-10-07-robinhood-adds-25-million-bitcoin-balance-sheet-417890",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -43,6 +103,51 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "b2ccbf51f0e19d65",
+    "categorie": "crypto",
+    "titre_affiche": "Pudgy Penguins’ Abstract becomes second Ethereum layer 2 to shut in a week",
+    "horodatage_utc": "2026-10-07T04:31:14+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "5701c5fbccc34b56",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
+    "horodatage_utc": "2026-10-07T04:00:51+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "a059b599f1dc97e0",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin briefly slides below $84,000 as crypto long liquidations reach $487 million",
+    "horodatage_utc": "2026-10-07T03:57:21+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-06-bitcoin-slides-crypto-long-liquidations-surge-417882",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "7adb55b07614bdfd",
@@ -1705,110 +1810,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "23e25b3f6ce1750e",
-    "categorie": "crypto",
-    "titre_affiche": "6 Next Cryptos To Explode as $2 . 4B Floods Into Bitcoin ETFs",
-    "horodatage_utc": "2026-09-28T08:00:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4645435/6-next-cryptos-to-explode-as-2-4b-floods-into-bitcoin-etfs",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "589491c6c3539b25",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum 2030 : Vitalik Buterins Plan für den kryptografischen Weltcomputer",
-    "horodatage_utc": "2026-09-28T07:45:00+00:00",
-    "source_nom": "GDELT/finanznachrichten.de",
-    "url_source": "https://www.finanznachrichten.de/nachrichten-2026-09/69688662-ethereum-2030-vitalik-buterins-plan-fuer-den-kryptografischen-weltcomputer-397.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanznachrichten.de. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "97e044befb8dff96",
-    "categorie": "crypto",
-    "titre_affiche": "Dimethyl Ether Plant Setup Cost 2026 : Feasibility Study Report ,",
-    "horodatage_utc": "2026-09-28T07:45:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4645365/dimethyl-ether-plant-setup-cost-2026-feasibility-study-report",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "f6f944a3c4f1bc69",
-    "categorie": "crypto",
-    "titre_affiche": "T - Rex 2X Inverse Bitcoin Daily Target ETF ( BATS : BTCZ ) Shares Shorted : Short Interest Up 119 . 0 % in September",
-    "horodatage_utc": "2026-09-28T07:30:00+00:00",
-    "source_nom": "GDELT/tickerreport.com",
-    "url_source": "https://www.tickerreport.com/banking-finance/13598817/t-rex-2x-inverse-bitcoin-daily-target-etf-batsbtcz-shares-shorted-short-interest-up-119-0-in-september.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/tickerreport.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "37b6a053a4e1f4ee",
-    "categorie": "crypto",
-    "titre_affiche": "What Bitcoin September Rebound Means for Indian Rupee Traders",
-    "horodatage_utc": "2026-09-28T07:15:00+00:00",
-    "source_nom": "GDELT/siliconindia.com",
-    "url_source": "https://www.siliconindia.com/news/general/what-bitcoins-september-rebound-means-for-indian-rupee-traders-nid-242457-cid-1.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/siliconindia.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "e81cb7a2cc438f2d",
-    "categorie": "crypto",
-    "titre_affiche": "Crypto News Today : Bitcoin ETF Demand Keeps Markets Buzzing as",
-    "horodatage_utc": "2026-09-28T07:00:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4645311/crypto-news-today-bitcoin-etf-demand-keeps-markets-buzzing-as",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "94e71da4af6d5245",
-    "categorie": "crypto",
-    "titre_affiche": "Solana volume bot Launches Across Six Solana Launchpads With No",
-    "horodatage_utc": "2026-09-28T07:00:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4645317/solana-volume-bot-launches-across-six-solana-launchpads-with-no",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
