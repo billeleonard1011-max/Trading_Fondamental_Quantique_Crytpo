@@ -1,5 +1,50 @@
 [
   {
+    "id": "b2ccbf51f0e19d65",
+    "categorie": "crypto",
+    "titre_affiche": "Pudgy Penguins’ Abstract becomes second Ethereum layer 2 to shut in a week",
+    "horodatage_utc": "2026-10-07T04:31:14+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5701c5fbccc34b56",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
+    "horodatage_utc": "2026-10-07T04:00:51+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a059b599f1dc97e0",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin briefly slides below $84,000 as crypto long liquidations reach $487 million",
+    "horodatage_utc": "2026-10-07T03:57:21+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-06-bitcoin-slides-crypto-long-liquidations-surge-417882",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "7adb55b07614bdfd",
     "categorie": "crypto",
     "titre_affiche": "Pudgy Penguins-backed Ethereum L2 Abstract to shut down after losing ‘tens of millions’",
@@ -1762,51 +1807,6 @@
     "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ad936c01b5768c70",
-    "categorie": "crypto",
-    "titre_affiche": "Solana ETFs draw record $188 million in a week as Bitwise takes two-thirds of inflows",
-    "horodatage_utc": "2026-09-28T06:21:06+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/28/solana-etfs-draw-record-usd188-million-in-a-week-as-bitwise-takes-two-thirds-of-inflows",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "20790b9e474e550c",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Slides Below $84K as Trump Signals Possible New Iran Strikes",
-    "horodatage_utc": "2026-09-28T06:00:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "http://www.econotimes.com/Bitcoin-Slides-Below-84K-as-Trump-Signals-Possible-New-Iran-Strikes-1753208",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "81a7fe3e8012443a",
-    "categorie": "crypto",
-    "titre_affiche": "Dogecoin Price Prediction : DOGE Eyes $0 . 15 as Apeing $0 . 00055",
-    "horodatage_utc": "2026-09-28T05:45:00+00:00",
-    "source_nom": "GDELT/openpr.com",
-    "url_source": "https://www.openpr.com/news/4645291/dogecoin-price-prediction-doge-eyes-0-15-as-apeing-s-0-00055",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "DOGE"
     ],
     "portee": "actif_direct",
     "nouveaute": true
