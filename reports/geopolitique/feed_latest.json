@@ -1,11 +1,11 @@
 [
   {
-    "id": "84797a19cb8cfed9",
+    "id": "a5226dfe3f0f0d0a",
     "categorie": "geopolitique",
-    "titre_affiche": "Amazon overhauls aging devices lineup with higher priced Alexa tablet, dumping the budget Fire",
-    "horodatage_utc": "2026-10-08T13:37:01+00:00",
+    "titre_affiche": "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
+    "horodatage_utc": "2026-10-08T18:52:59+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+    "url_source": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,113 @@
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "9c3482452a44e419",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+    "horodatage_utc": "2026-10-08T18:18:31+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "abc43868190e1f30",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump bought up to $25 million in Meta and millions in SpaceX debt in August",
+    "horodatage_utc": "2026-10-08T18:16:53+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d012e85d83010d67",
+    "categorie": "geopolitique",
+    "titre_affiche": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
+    "horodatage_utc": "2026-10-08T17:51:51+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/08/little-relief-expected-for-gas-prices-ahead-of-election-day.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9e5d8fee369f8ee8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Starbucks has explored takeover of Chipotle in restaurant megadeal",
+    "horodatage_utc": "2026-10-08T17:49:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/79cef26a-e5e9-41d0-9af2-876dc23a9a7d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "be026aaf77291685",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump bans Microsoft from sponsoring foreign workers for US residency",
+    "horodatage_utc": "2026-10-08T17:46:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5cfecbba-69ed-42d0-98fd-3ae019144692?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7535e9fabb5d5752",
+    "categorie": "geopolitique",
+    "titre_affiche": "Daughter of Trump’s chief of staff works at firm that lobbies for Republika Srpska",
+    "horodatage_utc": "2026-10-08T15:17:53+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c163a470-e73f-4fdb-91fb-426004b21f22?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "84797a19cb8cfed9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
+    "horodatage_utc": "2026-10-08T14:51:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "94db51bb48a6ff45",
@@ -37,13 +144,13 @@
     "horodatage_utc": "2026-10-08T12:53:20+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/08/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ae40729d6577cfc9",
@@ -83,13 +190,13 @@
     "horodatage_utc": "2026-10-08T09:40:36+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a08d840a425e73f8",
@@ -98,13 +205,13 @@
     "horodatage_utc": "2026-10-08T08:30:00+00:00",
     "source_nom": "Federal Reserve - discours et auditions",
     "url_source": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e9659c5e677fa039",
@@ -113,13 +220,13 @@
     "horodatage_utc": "2026-10-08T08:04:11+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9b5f7fb6913f5929",
@@ -128,13 +235,13 @@
     "horodatage_utc": "2026-10-08T06:50:42+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "586bcdd22425ac81",
@@ -230,6 +337,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "99f8a76c0c43af3d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Is Trump losing the rust belt?",
+    "horodatage_utc": "2026-10-08T04:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e86d2bf9-100f-4722-b845-c3b46d94866b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "2902be1f6a50b009",
@@ -1707,127 +1829,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "93a22411c71c513a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bull run for Japan stocks at risk, warns boss of biggest trading house",
-    "horodatage_utc": "2026-10-04T21:00:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1fdb8380-2fac-474a-a184-616c0a29feb6?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0db38dd496a1d3ce",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dealmaking slowdown threatens early end to M&A boom",
-    "horodatage_utc": "2026-10-04T20:00:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/00fb4438-1f86-4bf2-a165-0c39f3fd506b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "40b583a432d69120",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.5 - Volcano Islands, Japan region",
-    "horodatage_utc": "2026-10-04T13:18:03+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzid",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "79ed45336102d1df",
-    "categorie": "geopolitique",
-    "titre_affiche": "Investors look to shelter portfolios from rising AI concentration risks",
-    "horodatage_utc": "2026-10-04T12:00:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3302fd5c-8b92-425b-9523-673b2565bb10?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d3de672b3a58a3d1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Australian authorities probe Flydubai attacker’s links to country",
-    "horodatage_utc": "2026-10-04T09:25:03+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/488b479d-cd2f-401e-887e-97ce639d0329?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "7c1de8e146d880e1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Germany’s Merz arrives in Kyiv to show support for Ukraine",
-    "horodatage_utc": "2026-10-04T06:12:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b7bd5c45-1c32-4984-af37-21746a02c4ef?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1752b06c03d3691d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Singapore debuts a state-backed dating app for young government workers as it works to slow a demographic crisis",
-    "horodatage_utc": "2026-10-04T05:09:49+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/04/government-dating-app-fertility-singapore-asia.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "778f99af329bd2e5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Wall Street’s IPO fervour cools on tepid demand and valuation worries",
-    "horodatage_utc": "2026-10-04T04:01:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b8924d77-364b-46c1-b783-5db73a91f351?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": false
