@@ -1,11 +1,56 @@
 [
   {
-    "id": "82dcba5ae8bd41c1",
+    "id": "8a39c3ab3200c44d",
     "categorie": "crypto",
-    "titre_affiche": "Solana’s Orca merges with Loopscale in push to finance AI, robotics and defense",
-    "horodatage_utc": "2026-10-07T22:01:02+00:00",
+    "titre_affiche": "Bitcoin loans are paying for tuition and working capital, not just trades, lenders say",
+    "horodatage_utc": "2026-10-08T05:40:41+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/08/bitcoin-loans-are-paying-for-tuition-and-working-capital-not-just-trades-lenders-say",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "89645570b07226c6",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum’s Glamsterdam test runs near 200 million gas per block after upgrade",
+    "horodatage_utc": "2026-10-08T04:23:23+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/08/ethereum-s-glamsterdam-test-runs-near-200-million-gas-per-block-after-upgrade",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2b1231496ee69abb",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
+    "horodatage_utc": "2026-10-08T04:00:07+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/08/bitcoin-breaks-below-usd83-000-as-oil-jumps-on-iran-strike-plan-report",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f134087a7abeba21",
+    "categorie": "crypto",
+    "titre_affiche": "Samsung to launch USDC transfers on Solana for US Galaxy users",
+    "horodatage_utc": "2026-10-08T02:50:01+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
+    "url_source": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +58,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "82dcba5ae8bd41c1",
+    "categorie": "crypto",
+    "titre_affiche": "Solana’s Orca merges with Loopscale in push to finance AI, robotics and defense",
+    "horodatage_utc": "2026-10-07T22:01:02+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "eddb6a931e295ad3",
@@ -1743,66 +1803,6 @@
     "horodatage_utc": "2026-09-28T16:00:33+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-09-28-strive-pushes-bitcoin-holdings-above-27400-btc-latest-94-5-million-purchase-417035",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3a6c6123722ae654",
-    "categorie": "crypto",
-    "titre_affiche": "Tom Lee’s Bitmine tops 6 million ETH after buying another 17,362 ether",
-    "horodatage_utc": "2026-09-28T13:39:06+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-28-tom-lees-bitmine-tops-6-million-eth-after-buying-another-17362-ether-416989",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f30057b277ff8739",
-    "categorie": "crypto",
-    "titre_affiche": "Chainlink launches new version of its crypto bridge tech 'CCIP' to give apps more control over their security",
-    "horodatage_utc": "2026-09-28T12:30:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "LINK"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c57978a393002359",
-    "categorie": "crypto",
-    "titre_affiche": "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
-    "horodatage_utc": "2026-09-28T12:13:09+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/28/thorchain-rejects-bitget-request-to-block-hacker-as-usd6-million-moves-to-bitcoin",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "788b997e56f55e39",
-    "categorie": "crypto",
-    "titre_affiche": "‘Even more orange’: Strategy buys 1,665 bitcoin for $143 million as total holdings reach 847,666 BTC",
-    "horodatage_utc": "2026-09-28T12:11:11+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-28-even-more-orange-michael-saylor-strategy-bitcoin-416976",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

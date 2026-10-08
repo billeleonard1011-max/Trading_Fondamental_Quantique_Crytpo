@@ -1,5 +1,99 @@
 [
   {
+    "id": "586bcdd22425ac81",
+    "categorie": "geopolitique",
+    "titre_affiche": "TSMC's September sales jump more than 50% year over year",
+    "horodatage_utc": "2026-10-08T06:31:37+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "641767d0911b3deb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine grapples with a shortage of troops at the front after over 4 years of war",
+    "horodatage_utc": "2026-10-08T05:30:00+00:00",
+    "source_nom": "GDELT/sitkasentinel.com",
+    "url_source": "http://www.sitkasentinel.com/stories/ukraine-grapples-with-a-shortage-of-troops-at-the-front-after-over-4-years-of-war,177119",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/sitkasentinel.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6c9133159d44de11",
+    "categorie": "geopolitique",
+    "titre_affiche": "Big investors ‘bottom fish’ in Eurozone bond markets after France sell-off",
+    "horodatage_utc": "2026-10-08T04:00:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9cf103ed-548e-4b06-baed-71632abca961?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3c8c7b82ab0607c3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil majors look beyond Middle East war in pursuit of region’s vast reserves",
+    "horodatage_utc": "2026-10-08T04:00:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3534cf93-be7b-49ec-bf58-cea84e73cb28?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3e0d0b0bdad4f8eb",
+    "categorie": "geopolitique",
+    "titre_affiche": "How a trillion-dollar hedge fund borrowing spree became Wall Street’s cash cow",
+    "horodatage_utc": "2026-10-08T04:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d313d0ce-d552-463e-9e84-6fa8c3efeeec?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2902be1f6a50b009",
+    "categorie": "geopolitique",
+    "titre_affiche": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
+    "horodatage_utc": "2026-10-08T00:51:23+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "0f897bf68a9b6de6",
     "categorie": "geopolitique",
     "titre_affiche": "Samsung quarterly profit surges to $80bn on AI chip demand",
@@ -21,14 +115,14 @@
     "horodatage_utc": "2026-10-07T22:32:14+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/07/trump-awarding-medals-to-musk-dell-nadella-at-science-summit.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Sanctions, accords et diplomatie",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d021deadc5da0129",
@@ -37,13 +131,13 @@
     "horodatage_utc": "2026-10-07T22:29:41+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bcdae768e76f5706",
@@ -52,13 +146,13 @@
     "horodatage_utc": "2026-10-07T21:24:58+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/ea58254a-947e-4e87-86d2-95ffbd8a1c9d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "330a6eed400007d9",
@@ -1732,97 +1826,6 @@
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2c466616041605d4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
-    "horodatage_utc": "2026-10-03T13:12:27+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "221729a50e49aa27",
-    "categorie": "geopolitique",
-    "titre_affiche": "China, America and the new Great Game",
-    "horodatage_utc": "2026-10-03T04:00:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "681368ca42c2af2d",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.0 - 163 km SE of Petropavlovsk-Kamchatsky, Russia",
-    "horodatage_utc": "2026-10-03T03:14:19+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzal",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "fbd73c0f1a673c6a",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.8 - 121 km SSE of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-03T01:19:10+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9v",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "93b9aa49555f0a4f",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.6 - 174 km SSE of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-03T01:00:34+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9t",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a6b29e098ec1e7e5",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.7 - 153 km SSE of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-03T00:48:46+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9s",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": false

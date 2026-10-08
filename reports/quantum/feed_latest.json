@@ -1,18 +1,35 @@
 [
   {
+    "id": "54b4cddb2b8e6b48",
+    "categorie": "quantique",
+    "titre_affiche": "DARPA Selects Atom Computing, Diraq, IBM, and IonQ for Final Stage C Verification under Quantum Benchmarking Initiative",
+    "horodatage_utc": "2026-10-08T00:17:52+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/darpa-selects-atom-computing-diraq-ibm-and-ionq-for-final-stage-c-verification-under-quantum-benchmarking-initiative/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ, IBM, Atom Computing. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ",
+      "IBM",
+      "Atom Computing"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "12caac46d98bef51",
     "categorie": "quantique",
     "titre_affiche": "IBM Advances to Stage C of DARPA Quantum Benchmarking Initiative",
     "horodatage_utc": "2026-10-07T22:00:00+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/07/ibm-advances-to-stage-c-of-darpa-quantum-benchmarking-initiative/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "05b6eb0c25b80cbb",
@@ -1795,22 +1812,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "89f8f6f505bef538",
-    "categorie": "quantique",
-    "titre_affiche": "Infleqtion Integrates Open-Source qLDPC Library with NVIDIA CUDA-Q Logical Architecture",
-    "horodatage_utc": "2026-09-15T03:39:56+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/infleqtion-integrates-open-source-qldpc-library-with-nvidia-cuda-q-logical-architecture/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia, Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "Nvidia",
-      "Infleqtion"
     ],
     "portee": "actif_direct",
     "nouveaute": true
