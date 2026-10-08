@@ -1,11 +1,42 @@
 [
   {
-    "id": "8a39c3ab3200c44d",
+    "id": "507b0365dac82d56",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin loans are paying for tuition and working capital, not just trades, lenders say",
-    "horodatage_utc": "2026-10-08T05:40:41+00:00",
+    "titre_affiche": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
+    "horodatage_utc": "2026-10-08T13:06:24+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/08/bitcoin-loans-are-paying-for-tuition-and-working-capital-not-just-trades-lenders-say",
+    "url_source": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "09f34aa2f675295d",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin and ether holders urged to enter ‘bunker mode’ against possible AI attacks",
+    "horodatage_utc": "2026-10-08T11:47:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/08/bitcoin-and-ether-holders-urged-to-prepare-bunker-mode-against-possible-ai-attacks",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9eb8b7852ca523d6",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin mined for pennies in 2010 moves after 16 years, now worth $8.5 million",
+    "horodatage_utc": "2026-10-08T11:30:19+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/08/bitcoin-mined-for-pennies-in-2010-moves-after-16-years-now-worth-usd8-5-million",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +44,52 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "5a49f0ddeebcae24",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETF investors head for the exit, and it's the biggest rush in months",
+    "horodatage_utc": "2026-10-08T11:15:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8749f523e4485e53",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slips below $83,000 as Ethereum researcher's 'bunker mode' call divides crypto",
+    "horodatage_utc": "2026-10-08T10:30:41+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8a39c3ab3200c44d",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin loans are paying for tuition and working capital, not just trades, lenders say",
+    "horodatage_utc": "2026-10-08T05:40:41+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/08/bitcoin-loans-are-paying-for-tuition-and-working-capital-not-just-trades-lenders-say",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "89645570b07226c6",
@@ -21,13 +98,13 @@
     "horodatage_utc": "2026-10-08T04:23:23+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/10/08/ethereum-s-glamsterdam-test-runs-near-200-million-gas-per-block-after-upgrade",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2b1231496ee69abb",
@@ -36,13 +113,13 @@
     "horodatage_utc": "2026-10-08T04:00:07+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/08/bitcoin-breaks-below-usd83-000-as-oil-jumps-on-iran-strike-plan-report",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f134087a7abeba21",
@@ -51,13 +128,13 @@
     "horodatage_utc": "2026-10-08T02:50:01+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "82dcba5ae8bd41c1",
@@ -1728,81 +1805,6 @@
     "horodatage_utc": "2026-09-28T22:15:00+00:00",
     "source_nom": "GDELT/fool.com",
     "url_source": "https://www.fool.com/investing/2026/09/28/why-does-the-price-of-bitcoin-keep-going-up/?source=iedfolrf0000001",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "014b41cae713262d",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs Are Seeing Their Biggest Inflows Since October 2025 . Is Bitcoin Finally Back ?",
-    "horodatage_utc": "2026-09-28T22:15:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/09/28/bitcoin-etfs-are-seeing-their-biggest-inflows-sinc/?source=iedfolrf0000001",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "10329d7ffe40f6ab",
-    "categorie": "crypto",
-    "titre_affiche": "Chainlink Is Enabling Financial Institutions to Connect to Swift Blockchain Ledger",
-    "horodatage_utc": "2026-09-28T21:45:00+00:00",
-    "source_nom": "GDELT/prnewswire.com",
-    "url_source": "http://www.prnewswire.com/news-releases/chainlink-is-enabling-financial-institutions-to-connect-to-swifts-blockchain-ledger-302891972.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "LINK"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ebea9aca7221349c",
-    "categorie": "crypto",
-    "titre_affiche": "Tether’s USDT at center of Iran’s shadow banking network, new Senate Report says",
-    "horodatage_utc": "2026-09-28T19:10:42+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "793c07400721b3a6",
-    "categorie": "crypto",
-    "titre_affiche": "Tether is a ‘lifeline’ for Iranian regime, Senate Dems say in new report",
-    "horodatage_utc": "2026-09-28T16:16:40+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/policy/2026/09/28/tether-is-a-lifeline-for-iranian-regime-senate-dems-say-in-new-report",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "5766ae2727738906",
-    "categorie": "crypto",
-    "titre_affiche": "Strive pushes bitcoin holdings above 27,400 BTC with latest $94.5 million purchase",
-    "horodatage_utc": "2026-09-28T16:00:33+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-09-28-strive-pushes-bitcoin-holdings-above-27400-btc-latest-94-5-million-purchase-417035",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

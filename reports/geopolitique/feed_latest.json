@@ -1,5 +1,142 @@
 [
   {
+    "id": "84797a19cb8cfed9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon overhauls aging devices lineup with higher priced Alexa tablet, dumping the budget Fire",
+    "horodatage_utc": "2026-10-08T13:37:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "94db51bb48a6ff45",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil prices jump on tanker attacks and slowing flows through Strait of Hormuz",
+    "horodatage_utc": "2026-10-08T13:35:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ec860f96-5a2b-461a-a897-a957860c3dba?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9c7d7c70de89f434",
+    "categorie": "geopolitique",
+    "titre_affiche": "Fed minutes, Pepsi earnings, midterm megadonors and more in Morning Squawk",
+    "horodatage_utc": "2026-10-08T12:53:20+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/5-things-to-know-before-the-stock-market-opens.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ae40729d6577cfc9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+    "horodatage_utc": "2026-10-08T11:49:39+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b2ad6fb7d912fd6f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Houthi attacks on Saudi airports kill 3 people",
+    "horodatage_utc": "2026-10-08T09:44:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7e39cdb9-977c-4a4c-b35c-6f775a9822db?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "18adb0fddd6ff707",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+    "horodatage_utc": "2026-10-08T09:40:36+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a08d840a425e73f8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Waller, The Signaling Value of the Summary of Economic Projections",
+    "horodatage_utc": "2026-10-08T08:30:00+00:00",
+    "source_nom": "Federal Reserve - discours et auditions",
+    "url_source": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e9659c5e677fa039",
+    "categorie": "geopolitique",
+    "titre_affiche": "Huawei doubles down on smartphones as EV sales slow",
+    "horodatage_utc": "2026-10-08T08:04:11+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "9b5f7fb6913f5929",
+    "categorie": "geopolitique",
+    "titre_affiche": "TSMC’s September sales surge year-over-year as AI drives chip demand",
+    "horodatage_utc": "2026-10-08T06:50:42+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "586bcdd22425ac81",
     "categorie": "geopolitique",
     "titre_affiche": "TSMC's September sales jump more than 50% year over year",
@@ -62,21 +199,37 @@
     "nouveaute": true
   },
   {
+    "id": "9db1ed8b130b8788",
+    "categorie": "geopolitique",
+    "titre_affiche": "French bond sell-off prompts ‘bottom fishing’ across Europe",
+    "horodatage_utc": "2026-10-08T04:00:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9cf103ed-548e-4b06-baed-71632abca961?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "3e0d0b0bdad4f8eb",
     "categorie": "geopolitique",
     "titre_affiche": "How a trillion-dollar hedge fund borrowing spree became Wall Street’s cash cow",
     "horodatage_utc": "2026-10-08T04:00:09+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d313d0ce-d552-463e-9e84-6fa8c3efeeec?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2902be1f6a50b009",
@@ -85,13 +238,13 @@
     "horodatage_utc": "2026-10-08T00:51:23+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0f897bf68a9b6de6",
@@ -167,21 +320,6 @@
       "Taux et obligations",
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ae40729d6577cfc9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
-    "horodatage_utc": "2026-10-07T20:26:13+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1690,142 +1828,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "fa067aadcbbc856d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bosnia elections pit EU hopes against Russian influence",
-    "horodatage_utc": "2026-10-04T04:00:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3401e229-1728-4a33-82d5-e52a4cd993c1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "676b34f3152dddc5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dear all: how bosses should talk to the troops",
-    "horodatage_utc": "2026-10-04T04:00:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/de27e183-c8ab-4098-946b-7c1faf5a3d8a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "07c59b4667c1b996",
-    "categorie": "geopolitique",
-    "titre_affiche": "China closes hundreds of banks to bolster financial system",
-    "horodatage_utc": "2026-10-04T02:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8a8f5c97-f1d3-4d3d-a3bc-d5a2e5539177?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ada7e030600425c6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
-    "horodatage_utc": "2026-10-03T20:29:07+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f22c7321788d8572",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.1 - 182 km SSE of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-03T20:22:14+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tze2",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c57d38371bfce14b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
-    "horodatage_utc": "2026-10-03T17:21:11+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/36b90fa1-f61e-4563-8622-127cdb471101?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "d1c705e13be4daf9",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.7 - 52 km SSW of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-03T16:02:07+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzd5",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d891804ee8fa3bf8",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.6 - 36 km SSW of Paratunka, Russia",
-    "horodatage_utc": "2026-10-03T15:40:59+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8g",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "32d3967b72bd63f9",
-    "categorie": "geopolitique",
-    "titre_affiche": "How Nvidia, Micron and a surprising jobs report drove last week's stock action",
-    "horodatage_utc": "2026-10-03T15:06:10+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Croissance et emploi"
     ],
     "portee": "influence",
     "nouveaute": false
