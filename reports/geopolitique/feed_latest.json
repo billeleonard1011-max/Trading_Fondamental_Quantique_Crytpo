@@ -3,13 +3,75 @@
     "id": "8ae661337d354bde",
     "categorie": "geopolitique",
     "titre_affiche": "M 7.7 - 12 km WSW of Pitaloza Arriba, Panama",
-    "horodatage_utc": "2026-10-09T19:33:43+00:00",
+    "horodatage_utc": "2026-10-09T23:49:43+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "832e25b5ef6affc3",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.6 - 14 km W of Río Grande, Panama",
+    "horodatage_utc": "2026-10-09T23:33:22+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cc02ece54fd0f651",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
+    "horodatage_utc": "2026-10-09T22:22:35+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d6c2ea580f5c345d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump agrees deal with Putin for Russia to release diesel",
+    "horodatage_utc": "2026-10-09T22:06:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/84ca76fd-0eed-4fb6-aea4-f72638a9d9c8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "022d14fe1b78e205",
+    "categorie": "geopolitique",
+    "titre_affiche": "The hazy OpenAI growth metric driving Wall Street",
+    "horodatage_utc": "2026-10-09T20:57:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/62653892-2333-4953-a8d5-cfd760ae3257?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque",
+      "Croissance et emploi"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -21,13 +83,13 @@
     "horodatage_utc": "2026-10-09T19:21:14+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e68b1bce926ee336",
@@ -51,14 +113,14 @@
     "horodatage_utc": "2026-10-09T18:38:06+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Catastrophes naturelles"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8289f147bde981db",
@@ -67,14 +129,14 @@
     "horodatage_utc": "2026-10-09T18:22:54+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/9496dd1d-fabf-4c58-bbc3-88cb51f2a68d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Sanctions, accords et diplomatie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f142c09632079745",
@@ -83,13 +145,13 @@
     "horodatage_utc": "2026-10-09T17:32:27+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18d",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "01ca4065db1c0eba",
@@ -98,13 +160,13 @@
     "horodatage_utc": "2026-10-09T17:29:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/dda61be8-88bd-4ebc-bde5-ba440308d518?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "849b1eb06a22d72e",
@@ -113,13 +175,13 @@
     "horodatage_utc": "2026-10-09T17:26:57+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18e",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "af634b21f86a9a7c",
@@ -134,7 +196,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "84aaba41aeb7e2f6",
@@ -149,7 +211,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5c44fb2c52bfacd4",
@@ -165,7 +227,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ef4131407099b3d9",
@@ -1773,67 +1835,6 @@
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "c9053fba921516ea",
-    "categorie": "geopolitique",
-    "titre_affiche": "Map makers worldwide strive to navigate Trump edict on Lake Ontario",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/theglobeandmail.com",
-    "url_source": "https://www.theglobeandmail.com/politics/article-map-makers-worldwide-strive-to-navigate-trump-edict-on-lake-ontario/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "74072aad10f08cc6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sri Lanka cannot resist sanctions , but can raise non - aligned policy collectively with others - Joint Opposition - Breaking News",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/dailymirror.lk",
-    "url_source": "https://www.dailymirror.lk/breaking-news/Sri-Lanka-cannot-resist-sanctions-but-can-raise-non-aligned-policy-collectively-with-others-Joint-Opposition/108-351850",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "401529684284fd39",
-    "categorie": "geopolitique",
-    "titre_affiche": "Flydubai attacker received flight training in New Zealand",
-    "horodatage_utc": "2026-10-06T07:16:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/04cac391-0379-4a97-a7fd-354b613f661f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "08a707b0685e91d9",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI models used in bank cyber attacks, warns South Korea’s president",
-    "horodatage_utc": "2026-10-06T06:19:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fb32e9f8-4bf7-44ad-983d-1a03f50f66f5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
