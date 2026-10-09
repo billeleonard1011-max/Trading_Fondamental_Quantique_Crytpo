@@ -1,5 +1,110 @@
 [
   {
+    "id": "6ccb6c79a1b8bb44",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI agents like Muse can shop for you. Here's what that means for retail stocks",
+    "horodatage_utc": "2026-10-09T14:15:38+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9f5a1d6305ef6a4d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+    "horodatage_utc": "2026-10-09T14:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ef4131407099b3d9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
+    "horodatage_utc": "2026-10-09T13:59:12+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "18189c747414d697",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI and Anthropic poach Trump officials as industry fights for Washington’s trust",
+    "horodatage_utc": "2026-10-09T13:49:54+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/09/openai-anthropic-poach-trump-officials.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "23fb5e45a3066885",
+    "categorie": "geopolitique",
+    "titre_affiche": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
+    "horodatage_utc": "2026-10-09T13:03:19+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "aabd6ce9d2fdf902",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI's revenue scare, Delta earnings, what investors think of a Starbucks-Chipotle deal and more in Morning Squawk",
+    "horodatage_utc": "2026-10-09T12:40:30+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/09/5-things-to-know-before-the-stock-market-opens.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "572b65fe95ae45c1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Blockchain.com seeks U.S. approval for prediction markets, crypto derivatives trading",
+    "horodatage_utc": "2026-10-09T12:01:26+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/09/blockchain-com-cftc-prediction-markets.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "919409ccbc213281",
     "categorie": "geopolitique",
     "titre_affiche": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
@@ -31,19 +136,35 @@
     "nouveaute": false
   },
   {
+    "id": "ece1259312bc4b88",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nobel laureate Machado says Venezuela is ‘ready’ for new elections",
+    "horodatage_utc": "2026-10-09T04:23:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0d411bea-ee6a-4300-9b1e-cc5a6bba4b7c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "1a28177c21088517",
     "categorie": "geopolitique",
     "titre_affiche": "'Real boss of India?': Elon Musk takes aim at Indian billionaire Ambani as Starlink launch stalls",
     "horodatage_utc": "2026-10-09T04:11:59+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/09/musk-starlink-ambani-india-us.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "92f0a5d076c6acdc",
@@ -52,13 +173,13 @@
     "horodatage_utc": "2026-10-09T04:00:32+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c0bec605-c948-4249-be2d-a76e0e60203b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6d67247d73828cd0",
@@ -67,10 +188,26 @@
     "horodatage_utc": "2026-10-09T04:00:31+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a752a86c-cf05-4152-b842-2ae6b6bf3fe0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "0b5e69cbc967881e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why bank stocks are falling despite surging interest rates",
+    "horodatage_utc": "2026-10-09T04:00:31+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/83993bb2-35dd-4ae1-a4b2-8b6c3762a84b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -82,14 +219,14 @@
     "horodatage_utc": "2026-10-09T03:51:15+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7db82043ad7e7a51",
@@ -113,13 +250,13 @@
     "horodatage_utc": "2026-10-08T22:28:10+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/0c390d03-427f-40a8-b5cb-d12c8d925d9d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a2c1dd82e780f780",
@@ -1699,141 +1836,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "037516e19d1a99fa",
-    "categorie": "geopolitique",
-    "titre_affiche": "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
-    "horodatage_utc": "2026-10-05T17:40:13+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/satya-nadella-reinvented-microsoft-once-can-he-do-it-in-the-ai-era.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6f7e70ac82196ea2",
-    "categorie": "geopolitique",
-    "titre_affiche": "TotalEnergies boss hails ‘opportunities’ created by global market turmoil",
-    "horodatage_utc": "2026-10-05T17:33:36+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ae67bb6f-f227-4679-949f-2e79e2dc33e2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "06e03eabdd94683e",
-    "categorie": "geopolitique",
-    "titre_affiche": "French central bank head warns country at risk of being ‘strangled by interest rates’",
-    "horodatage_utc": "2026-10-05T16:56:54+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/74c3cc77-1593-4c49-90f9-0d92fa3a2418?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0aa7f8275b57784d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Citi to speed up promotion path for junior bankers as hiring war heats up",
-    "horodatage_utc": "2026-10-05T15:49:40+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/41b567dc-50e9-4c41-95bb-e295caaf2340?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Conflits et sécurité"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bb820f2d0be43e5e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia's $20 billion Groq deal faces lawsuit alleging startup's stockholders were shortchanged",
-    "horodatage_utc": "2026-10-05T15:46:49+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d1c65b6e6dd74f03",
-    "categorie": "geopolitique",
-    "titre_affiche": "Euro slides to 17-month low against dollar",
-    "horodatage_utc": "2026-10-05T15:44:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8b19b9f7-9237-47bf-bc50-d8b78aa7fe24?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9d05f949dae96898",
-    "categorie": "geopolitique",
-    "titre_affiche": "US ‘monitoring’ situation around suspected case of plague in Russia",
-    "horodatage_utc": "2026-10-05T13:37:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0a45595f-4889-4436-847f-1bddce813009?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c26090c40b65b6c4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cerebras stock pops 9% after Sam Altman calls the chipmaker a 'close partner'",
-    "horodatage_utc": "2026-10-05T13:37:15+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "04077828104f1049",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chick-fil-A's growth plans, AI wearables, Gen Z's sports betting and more in Morning Squawk",
-    "horodatage_utc": "2026-10-05T12:37:59+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
