@@ -1,11 +1,26 @@
 [
   {
-    "id": "6ccb6c79a1b8bb44",
+    "id": "8ae661337d354bde",
     "categorie": "geopolitique",
-    "titre_affiche": "AI agents like Muse can shop for you. Here's what that means for retail stocks",
-    "horodatage_utc": "2026-10-09T14:15:38+00:00",
+    "titre_affiche": "M 7.7 - 12 km WSW of Pitaloza Arriba, Panama",
+    "horodatage_utc": "2026-10-09T19:33:43+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dd1d0a545029b4f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
+    "horodatage_utc": "2026-10-09T19:21:14+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html",
+    "url_source": "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,16 +30,139 @@
     "nouveaute": true
   },
   {
-    "id": "9f5a1d6305ef6a4d",
+    "id": "e68b1bce926ee336",
     "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
-    "horodatage_utc": "2026-10-09T14:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+    "titre_affiche": "Trump agrees deal with Putin for Russia to release diesel on to global market",
+    "horodatage_utc": "2026-10-09T19:01:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/84ca76fd-0eed-4fb6-aea4-f72638a9d9c8?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "11dab4e4d043699a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil and gas production disrupted as Hurricane Isaias barrels towards Gulf",
+    "horodatage_utc": "2026-10-09T18:38:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8289f147bde981db",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bessent to miss IMF annual meetings in Bangkok",
+    "horodatage_utc": "2026-10-09T18:22:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9496dd1d-fabf-4c58-bbc3-88cb51f2a68d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f142c09632079745",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.7 - 138 km SE of Petropavlovsk-Kamchatsky, Russia",
+    "horodatage_utc": "2026-10-09T17:32:27+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18d",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "01ca4065db1c0eba",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump pressures Mexico for energy deals in crunch trade talks",
+    "horodatage_utc": "2026-10-09T17:29:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/dda61be8-88bd-4ebc-bde5-ba440308d518?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "849b1eb06a22d72e",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.8 - 191 km SE of Petropavlovsk-Kamchatsky, Russia",
+    "horodatage_utc": "2026-10-09T17:26:57+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18e",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "af634b21f86a9a7c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump launches committee to investigate Fed governor Lisa Cook",
+    "horodatage_utc": "2026-10-09T17:26:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d0c81cd2-f944-46b9-a859-abc3f0bd3516?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "84aaba41aeb7e2f6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump and Hegseth’s execution-type deal",
+    "horodatage_utc": "2026-10-09T16:18:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/39764d10-6b87-4103-8e7d-290a72a5ea5a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "5c44fb2c52bfacd4",
+    "categorie": "geopolitique",
+    "titre_affiche": "EU to explore windfall tax on energy companies",
+    "horodatage_utc": "2026-10-09T16:05:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ffb13044-216b-4b31-885c-cda9c78cbfdb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -33,16 +171,61 @@
     "id": "ef4131407099b3d9",
     "categorie": "geopolitique",
     "titre_affiche": "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
-    "horodatage_utc": "2026-10-09T13:59:12+00:00",
+    "horodatage_utc": "2026-10-09T15:08:20+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "2ba805a35b8b5c07",
+    "categorie": "geopolitique",
+    "titre_affiche": "Kennedy Center donor accused of fraud was secret FBI informant",
+    "horodatage_utc": "2026-10-09T14:33:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/73359693-9d76-47c9-a6e0-25ab22d3a5e0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
+  },
+  {
+    "id": "6ccb6c79a1b8bb44",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI agents like Muse can shop for you. Here's what that means for retail stocks",
+    "horodatage_utc": "2026-10-09T14:15:38+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "9f5a1d6305ef6a4d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+    "horodatage_utc": "2026-10-09T14:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "18189c747414d697",
@@ -51,13 +234,13 @@
     "horodatage_utc": "2026-10-09T13:49:54+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/09/openai-anthropic-poach-trump-officials.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "23fb5e45a3066885",
@@ -66,13 +249,13 @@
     "horodatage_utc": "2026-10-09T13:03:19+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "aabd6ce9d2fdf902",
@@ -81,13 +264,13 @@
     "horodatage_utc": "2026-10-09T12:40:30+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/09/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "572b65fe95ae45c1",
@@ -96,13 +279,13 @@
     "horodatage_utc": "2026-10-09T12:01:26+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/09/blockchain-com-cftc-prediction-markets.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "919409ccbc213281",
@@ -210,6 +393,21 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "eea382aadd22e745",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI ‘deepfakes’ give US political attack ads a new twist",
+    "horodatage_utc": "2026-10-09T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/42fea52e-a4de-4613-b409-ca52d0a2aac2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -1634,205 +1832,6 @@
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque",
       "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6ac86f833e6a858d",
-    "categorie": "geopolitique",
-    "titre_affiche": "America’s data center fight is a preview of what's to come for the rest of the world",
-    "horodatage_utc": "2026-10-06T05:50:28+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b7247a5c353dcc2e",
-    "categorie": "geopolitique",
-    "titre_affiche": "How AI could scupper the dollar",
-    "horodatage_utc": "2026-10-06T05:30:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/47061507-f20e-4ff6-961d-e1f1b919cb89?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e551a422a8126bcd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Surge in borrowing costs hits corporate America",
-    "horodatage_utc": "2026-10-06T04:00:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7c7ccb82-2973-47af-ad9b-b469c6ea0048?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7895c9e707b65c92",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says Maga Inc will pay for ads instead of taxpayers after backlash",
-    "horodatage_utc": "2026-10-06T00:54:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ee7796ef-f6ec-433c-866d-c50f91a25694?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "467003540c29fc74",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump eases red diesel limits in attempt to quell fuel inflation",
-    "horodatage_utc": "2026-10-06T00:46:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8a733f73-d506-49ae-9030-2bbf0987bc8d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Inflation et prix",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d749d924f362f53e",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
-    "horodatage_utc": "2026-10-05T23:28:31+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "51c5fcc124587511",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stocks are hitting records despite surging yields. Cramer explains why",
-    "horodatage_utc": "2026-10-05T22:18:13+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/cramer-ai-stocks-treasury-yields.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8b91b5565635bb46",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nokia CEO says data centers would be built '2x faster' without supply constraints",
-    "horodatage_utc": "2026-10-05T22:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e0fd20acbba91026",
-    "categorie": "geopolitique",
-    "titre_affiche": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
-    "horodatage_utc": "2026-10-05T21:24:25+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "eafa908919a7ab1e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic",
-    "horodatage_utc": "2026-10-05T20:58:19+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5b9c8ce3-d07c-46f9-8cea-cbc4e7f8ccca?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4679a5fbf656121d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
-    "horodatage_utc": "2026-10-05T20:41:23+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "5fcc8bbbb61a5ce5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-    "horodatage_utc": "2026-10-05T20:30:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "746b9e6182c8019d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump poised to ease red diesel limits in attempt to quell fuel inflation",
-    "horodatage_utc": "2026-10-05T17:41:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8a733f73-d506-49ae-9030-2bbf0987bc8d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Inflation et prix",
-      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": true
