@@ -36,13 +36,13 @@
     "horodatage_utc": "2026-10-08T17:57:41+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/u-s-department-of-war-announces-350-million-quantum-package-highlighted-by-150-million-osc-loan-commitment-for-psiquantum/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : PsiQuantum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "PsiQuantum"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b9abf22a7a181151",

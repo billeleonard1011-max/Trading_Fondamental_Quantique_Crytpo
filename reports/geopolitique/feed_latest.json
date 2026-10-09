@@ -3,14 +3,90 @@
     "id": "919409ccbc213281",
     "categorie": "geopolitique",
     "titre_affiche": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
-    "horodatage_utc": "2026-10-08T23:57:23+00:00",
+    "horodatage_utc": "2026-10-09T06:30:01+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Dollar et devises, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "18adb0fddd6ff707",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+    "horodatage_utc": "2026-10-09T06:24:08+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "1a28177c21088517",
+    "categorie": "geopolitique",
+    "titre_affiche": "'Real boss of India?': Elon Musk takes aim at Indian billionaire Ambani as Starlink launch stalls",
+    "horodatage_utc": "2026-10-09T04:11:59+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/09/musk-starlink-ambani-india-us.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "92f0a5d076c6acdc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Some much-needed American optimism on Europe",
+    "horodatage_utc": "2026-10-09T04:00:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c0bec605-c948-4249-be2d-a76e0e60203b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6d67247d73828cd0",
+    "categorie": "geopolitique",
+    "titre_affiche": "US 10-year Treasury yields risk hitting 6% for first time since 2000, Pimco says",
+    "horodatage_utc": "2026-10-09T04:00:31+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a752a86c-cf05-4152-b842-2ae6b6bf3fe0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2ffbf92a4175c6bb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+    "horodatage_utc": "2026-10-09T03:51:15+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -31,19 +107,34 @@
     "nouveaute": true
   },
   {
+    "id": "70266e855db35e72",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pentagon to livestream execution of former soldier by firing squad",
+    "horodatage_utc": "2026-10-08T22:28:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0c390d03-427f-40a8-b5cb-d12c8d925d9d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "a2c1dd82e780f780",
     "categorie": "geopolitique",
     "titre_affiche": "Cramer says Thursday's AI sell-off proves the value of this age-old investing strategy",
     "horodatage_utc": "2026-10-08T22:15:53+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/08/jim-cramer-diversification-ai-selloff.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9c3482452a44e419",
@@ -82,13 +173,13 @@
     "horodatage_utc": "2026-10-08T20:30:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "13139127d9aa3010",
@@ -97,13 +188,13 @@
     "horodatage_utc": "2026-10-08T20:08:27+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e0cc2789-0e71-401d-8096-d58303970a37?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4b92935fdc751bee",
@@ -304,21 +395,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "18adb0fddd6ff707",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia's internet giant Yandex halts operations at major data center after drone attack",
-    "horodatage_utc": "2026-10-08T09:40:36+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "a08d840a425e73f8",
@@ -1759,80 +1835,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "eb27e8ac7fab6540",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks",
-    "horodatage_utc": "2026-10-05T12:19:26+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "c7549249c759c08a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin’s nuclear threats no longer work",
-    "horodatage_utc": "2026-10-05T11:38:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b49f5459-92fc-4b91-92c4-d8f2a6f87893?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a79f32d09e9bfd91",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bond turbulence means it’s time for the ECB to put QT on hold",
-    "horodatage_utc": "2026-10-05T10:22:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e0dfef01-4933-4ab9-8927-d08115f4822c",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e19d49bc52753733",
-    "categorie": "geopolitique",
-    "titre_affiche": "Spanish Prime Minister Pedro Sánchez calls snap election",
-    "horodatage_utc": "2026-10-05T09:00:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/866dea03-4cee-4009-b130-6f7a191336c4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f8e3b60e71cf11af",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi Aramco chief warns world’s oil stockpiles are ‘scarily thin’",
-    "horodatage_utc": "2026-10-05T08:21:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/53e88a8d-65b5-445e-82ee-aee253a32094?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
