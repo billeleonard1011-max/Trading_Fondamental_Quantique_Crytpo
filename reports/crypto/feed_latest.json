@@ -1,18 +1,49 @@
 [
   {
+    "id": "ab48c8fa810bff6d",
+    "categorie": "crypto",
+    "titre_affiche": "Top Democrat among Senate investigators probes ties between Cantor Fitzgerald, Tether",
+    "horodatage_utc": "2026-10-08T21:22:58+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/policy/2026/10/08/top-democrat-among-senate-investigators-probes-ties-between-cantor-fitzgerald-tether",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1897e717fc56eb59",
+    "categorie": "crypto",
+    "titre_affiche": "Wall Street's tokenization boom could have bigger winners than bitcoin and ether, Citrini says",
+    "horodatage_utc": "2026-10-08T19:46:15+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/08/wall-street-s-tokenization-boom-could-have-bigger-winners-than-bitcoin-and-ether-citrini-says",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "acc0eb39a0ab1a8a",
     "categorie": "crypto",
     "titre_affiche": "Strategy shareholders face dilution drag despite brighter bitcoin forecasts, TD Cowen says",
     "horodatage_utc": "2026-10-08T17:18:24+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-10-08-strategy-shareholders-face-dilution-drag-despite-brighter-bitcoin-forecasts-td-cowen-418066",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c97b98a278febdc7",
@@ -21,13 +52,13 @@
     "horodatage_utc": "2026-10-08T16:43:47+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-10-08-bitwise-ceo-dogecoin-etf-failure-hunter-horsley-418070",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : DOGE. Le cours de DOGE varie de 1.09604 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "DOGE"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3db4814a955f0760",
@@ -36,13 +67,13 @@
     "horodatage_utc": "2026-10-08T15:43:04+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "00c047c003d66d5c",
@@ -51,13 +82,13 @@
     "horodatage_utc": "2026-10-08T14:52:27+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bef6b8b5740d256d",
@@ -66,13 +97,13 @@
     "horodatage_utc": "2026-10-08T14:03:20+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/08/over-6-million-bitcoin-sit-behind-exposed-public-keys-as-ai-warnings-mount",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "507b0365dac82d56",
@@ -139,6 +170,21 @@
     "id": "81cc69333d680295",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin adds to declines, testing $80,000 level",
+    "horodatage_utc": "2026-10-08T10:44:47+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c39dd34043939e67",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin pulls off worst levels late in Thursday session",
     "horodatage_utc": "2026-10-08T10:44:47+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
@@ -1767,50 +1813,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "f80827053b067639",
-    "categorie": "crypto",
-    "titre_affiche": "Measure Crypto Startup Funding Beyond Bitcoin ETF Inflows",
-    "horodatage_utc": "2026-09-29T10:45:00+00:00",
-    "source_nom": "GDELT/ventureburn.com",
-    "url_source": "https://ventureburn.com/do-bitcoin-etf-inflows-signal-easier-startup-funding/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "175d707dee9fa6fa",
-    "categorie": "crypto",
-    "titre_affiche": "Kinetiq RRobotics Deploys Nova Robotic Concierge at Cochin International Airport",
-    "horodatage_utc": "2026-09-29T10:15:00+00:00",
-    "source_nom": "GDELT/laosnews.net",
-    "url_source": "http://www.laosnews.net/news/279339596/kinetiq-rrobotics-deploys-nova-robotic-concierge-at-cochin-international-airport",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/laosnews.net. Elle mentionne : KNTQ. Le cours de KNTQ varie de 1.47867 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "KNTQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "93a46dbbf76cdc3b",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin in tight range near $84,000; consumer confidence plunged this month",
-    "horodatage_utc": "2026-09-29T10:14:41+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/29/live-updates-bitcoin-rebounds-above-usd84-000-as-treasury-yields-steady",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]

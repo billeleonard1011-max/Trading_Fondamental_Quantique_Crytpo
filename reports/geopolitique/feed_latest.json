@@ -1,15 +1,46 @@
 [
   {
-    "id": "a5226dfe3f0f0d0a",
+    "id": "919409ccbc213281",
     "categorie": "geopolitique",
-    "titre_affiche": "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
-    "horodatage_utc": "2026-10-08T18:52:59+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+    "titre_affiche": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
+    "horodatage_utc": "2026-10-08T23:57:23+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Dollar et devises, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
+      "Dollar et devises",
       "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7db82043ad7e7a51",
+    "categorie": "geopolitique",
+    "titre_affiche": "US to publicly execute former soldier by firing squad",
+    "horodatage_utc": "2026-10-08T22:28:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0c390d03-427f-40a8-b5cb-d12c8d925d9d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a2c1dd82e780f780",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cramer says Thursday's AI sell-off proves the value of this age-old investing strategy",
+    "horodatage_utc": "2026-10-08T22:15:53+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/jim-cramer-diversification-ai-selloff.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -18,16 +49,91 @@
     "id": "9c3482452a44e419",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
-    "horodatage_utc": "2026-10-08T18:18:31+00:00",
+    "horodatage_utc": "2026-10-08T21:19:14+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "17ec999b0654f230",
+    "categorie": "geopolitique",
+    "titre_affiche": "US justice department orders playbook refresh for frauds on government",
+    "horodatage_utc": "2026-10-08T20:35:55+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/dbcc35ba-db23-4be3-b2c0-4a0d8ecb7375?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d8336ce66ee68b7c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+    "horodatage_utc": "2026-10-08T20:30:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "13139127d9aa3010",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says US ‘will not be attacking Iran’ before midterm elections",
+    "horodatage_utc": "2026-10-08T20:08:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e0cc2789-0e71-401d-8096-d58303970a37?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4b92935fdc751bee",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft banned from sponsoring foreign workers for US residency",
+    "horodatage_utc": "2026-10-08T19:45:47+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5cfecbba-69ed-42d0-98fd-3ae019144692?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "a5226dfe3f0f0d0a",
+    "categorie": "geopolitique",
+    "titre_affiche": "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
+    "horodatage_utc": "2026-10-08T18:52:59+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "abc43868190e1f30",
@@ -36,13 +142,13 @@
     "horodatage_utc": "2026-10-08T18:16:53+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d012e85d83010d67",
@@ -51,14 +157,14 @@
     "horodatage_utc": "2026-10-08T17:51:51+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/08/little-relief-expected-for-gas-prices-ahead-of-election-day.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9e5d8fee369f8ee8",
@@ -98,13 +204,13 @@
     "horodatage_utc": "2026-10-08T15:17:53+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c163a470-e73f-4fdb-91fb-426004b21f22?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "84797a19cb8cfed9",
@@ -120,6 +226,22 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "e3fc32fd2c024632",
+    "categorie": "geopolitique",
+    "titre_affiche": "Repeated US Treasury interventions risk an erosion of credibility",
+    "horodatage_utc": "2026-10-08T14:30:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/eec1e15d-78b9-4706-a518-2a9db4f37128?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "94db51bb48a6ff45",
@@ -265,10 +387,25 @@
     "horodatage_utc": "2026-10-08T05:30:00+00:00",
     "source_nom": "GDELT/sitkasentinel.com",
     "url_source": "http://www.sitkasentinel.com/stories/ukraine-grapples-with-a-shortage-of-troops-at-the-front-after-over-4-years-of-war,177119",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/sitkasentinel.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "74e0c355eaf7960b",
+    "categorie": "geopolitique",
+    "titre_affiche": "US prepares military for possible new Iran strikes , Trump yet to decide",
+    "horodatage_utc": "2026-10-08T05:30:00+00:00",
+    "source_nom": "GDELT/business-standard.com",
+    "url_source": "https://www.business-standard.com/world-news/us-prepares-military-for-possible-new-iran-strikes-trump-yet-to-decide-126100800105_1.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -345,13 +482,13 @@
     "horodatage_utc": "2026-10-08T04:00:07+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e86d2bf9-100f-4722-b845-c3b46d94866b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2902be1f6a50b009",
@@ -1697,140 +1834,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "6f747128ede2d9e9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
-    "horodatage_utc": "2026-10-05T08:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4fd83a7ee2fbc203",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.9 - Volcano Islands, Japan region",
-    "horodatage_utc": "2026-10-05T07:40:32+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzmt",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0dcb4d833b9e1260",
-    "categorie": "geopolitique",
-    "titre_affiche": "Euro tumbles to 17-month low against dollar",
-    "horodatage_utc": "2026-10-05T05:30:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8b19b9f7-9237-47bf-bc50-d8b78aa7fe24?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dc737ef78b8aa882",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia’s new drive to crush Ukraine",
-    "horodatage_utc": "2026-10-05T04:00:12+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/cc96ac01-7929-4954-97a3-7b30e00ef324?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f576d2d288a6b01d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why a booming economy is not helping Trump",
-    "horodatage_utc": "2026-10-05T04:00:12+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8f4525eb-ce7c-4323-9dda-698aa1e8521a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "ac9e86175bc189dc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Estonia shifts troops closer to Russia in ‘active defence’ push",
-    "horodatage_utc": "2026-10-05T04:00:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0293497e-e4b5-473e-be49-67d1fc005fae?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0a93b6e01e10238e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump rages as Supreme Court appointees fail to do his bidding",
-    "horodatage_utc": "2026-10-05T04:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/858173c2-1869-4d77-9ecf-2b3b37a0d74d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "290b1c60f4e76693",
-    "categorie": "geopolitique",
-    "titre_affiche": "Flávio Bolsonaro takes lead in first round of Brazil election",
-    "horodatage_utc": "2026-10-05T02:25:45+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/028da85c-0e1f-4f1b-ad04-eac78c4f18c0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "be8c2c993c1c95c4",
-    "categorie": "geopolitique",
-    "titre_affiche": "US recalls B-1 bombers from UK air base following alleged terror plot",
-    "horodatage_utc": "2026-10-04T22:24:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/66897ef7-936b-43d0-a067-576be636f876?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
