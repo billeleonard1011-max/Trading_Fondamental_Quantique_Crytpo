@@ -1,9 +1,24 @@
 [
   {
+    "id": "b0aec6a820174601",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.0 - 7 km N of La Tronosa, Panama",
+    "horodatage_utc": "2026-10-10T04:40:17+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "8ae661337d354bde",
     "categorie": "geopolitique",
     "titre_affiche": "M 7.7 - 12 km WSW of Pitaloza Arriba, Panama",
-    "horodatage_utc": "2026-10-09T23:49:43+00:00",
+    "horodatage_utc": "2026-10-10T04:34:19+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
     "a_une_analyse_interne": false,
@@ -15,42 +30,12 @@
     "nouveaute": false
   },
   {
-    "id": "832e25b5ef6affc3",
+    "id": "037814d9de6e9955",
     "categorie": "geopolitique",
-    "titre_affiche": "M 6.6 - 14 km W of Río Grande, Panama",
-    "horodatage_utc": "2026-10-09T23:33:22+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "cc02ece54fd0f651",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
-    "horodatage_utc": "2026-10-09T22:22:35+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d6c2ea580f5c345d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump agrees deal with Putin for Russia to release diesel",
-    "horodatage_utc": "2026-10-09T22:06:22+00:00",
+    "titre_affiche": "Russia targets Ukraine’s bridges as Vladimir Putin expands air war",
+    "horodatage_utc": "2026-10-10T04:00:38+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/84ca76fd-0eed-4fb6-aea4-f72638a9d9c8?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/4e4ea744-6603-499b-baf7-83c74e4dc53e?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -60,21 +45,82 @@
     "nouveaute": true
   },
   {
+    "id": "11dab4e4d043699a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil and gas production disrupted as Hurricane Isaias barrels towards Gulf",
+    "horodatage_utc": "2026-10-10T03:37:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "832e25b5ef6affc3",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.6 - 14 km W of Río Grande, Panama",
+    "horodatage_utc": "2026-10-10T02:29:37+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "cc02ece54fd0f651",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
+    "horodatage_utc": "2026-10-09T22:22:35+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "d6c2ea580f5c345d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump agrees deal with Putin for Russia to release diesel",
+    "horodatage_utc": "2026-10-09T22:06:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/84ca76fd-0eed-4fb6-aea4-f72638a9d9c8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "022d14fe1b78e205",
     "categorie": "geopolitique",
     "titre_affiche": "The hazy OpenAI growth metric driving Wall Street",
     "horodatage_utc": "2026-10-09T20:57:10+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/62653892-2333-4953-a8d5-cfd760ae3257?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque",
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dd1d0a545029b4f1",
@@ -105,22 +151,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "11dab4e4d043699a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil and gas production disrupted as Hurricane Isaias barrels towards Gulf",
-    "horodatage_utc": "2026-10-09T18:38:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "8289f147bde981db",
@@ -348,6 +378,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
+  },
+  {
+    "id": "ed180449a5c9f273",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine strikes Russian tech giant’s data centres",
+    "horodatage_utc": "2026-10-09T11:55:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "919409ccbc213281",
@@ -1790,51 +1835,6 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c6348aadedd9c5a5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russian strikes kill six in Kharkiv as war intensifies - News Today",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/newstodaynet.com",
-    "url_source": "https://newstodaynet.com/2026/10/06/russian-strikes-kill-six-in-kharkiv-as-war-intensifies/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1676b9a6ed5e9294",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trzy lata po ataku Hamasu . Tysiące napastników zabitych , Gaza wciąż w ruinach",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/bankier.pl",
-    "url_source": "https://www.bankier.pl/wiadomosc/Trzy-lata-po-ataku-Hamasu-Tysiace-napastnikow-zabitych-Gaza-wciaz-w-ruinach-9207860.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5a738a4e4bd142d0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ejércitos de mercenarios , una realidad que visibilizó el conflicto en Ucrania",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/elmostrador.cl",
-    "url_source": "https://www.elmostrador.cl/noticias/sin-editar/2026/10/06/ejercitos-de-mercenarios-una-realidad-que-visibilizo-el-conflicto-en-ucrania/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]

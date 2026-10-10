@@ -1,5 +1,20 @@
 [
   {
+    "id": "9078a0ebb591601d",
+    "categorie": "quantique",
+    "titre_affiche": "Quantum X Labs Expands Intellectual Property and R&D Across Neutral-Atom Hardware, Rydberg Sensing, and Circuit Security",
+    "horodatage_utc": "2026-10-10T00:09:23+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quantum-x-labs-expands-intellectual-property-and-rd-across-neutral-atom-hardware-rydberg-sensing-and-circuit-security/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Intel. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Intel"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "4c794a72b9b9b682",
     "categorie": "quantique",
     "titre_affiche": "Quantinuum and HQS Simulate 21-Spin NMR Spectrum on 42 Qubits With 1,400+ Two-Qubit Gate Circuits",
@@ -1795,21 +1810,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e007f1cd25a69175",
-    "categorie": "quantique",
-    "titre_affiche": "NVIDIA Unveils CUDA-Q Logical to Accelerate Fault-Tolerant System Orchestration Across Hardware Modalities",
-    "horodatage_utc": "2026-09-15T08:03:17+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/nvidia-unveils-cuda-q-logical-to-accelerate-fault-tolerant-system-orchestration-across-hardware-modalities/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Nvidia"
     ],
     "portee": "actif_direct",
     "nouveaute": false
