@@ -1,5 +1,51 @@
 [
   {
+    "id": "c54b286d53b412c5",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.7 - 7 km S of Trudarmeyskiy, Russia",
+    "horodatage_utc": "2026-10-10T23:32:19+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bi",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "75e8163f8934a66d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Missile strike on Riyadh airport kills 12 and injures hundreds",
+    "horodatage_utc": "2026-10-10T22:18:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "49c263d38bfa5389",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
+    "horodatage_utc": "2026-10-10T20:59:28+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "17bca103e855b930",
     "categorie": "geopolitique",
     "titre_affiche": "Riyadh airport suspends operations after missile strike injures dozens",
@@ -37,14 +83,14 @@
     "horodatage_utc": "2026-10-10T18:14:28+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "57d5c63639b7bb77",
@@ -1790,52 +1836,6 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b6cd64c19b8c1a3f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jim Clyburn urges Black voters not to be ‘fooled’ by Trump",
-    "horodatage_utc": "2026-10-06T21:29:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/793d9121-1dae-498b-bae1-db8c69e67e2d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d867c535ed131f57",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says he is considering suspending federal petrol tax",
-    "horodatage_utc": "2026-10-06T21:09:16+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3fd43fc5-4973-4a26-9d9c-47b6361e6217?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "393c6a63564f08a6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anduril lands $2.9 billion Navy submarine shipyard contract days after Luckey joins Pentagon weapons group",
-    "horodatage_utc": "2026-10-06T21:07:27+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   }
 ]

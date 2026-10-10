@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-10-10T18:45:30+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/xanadu-cuts-quantum-read-only-memory-costs-by-4x-via-dense-encoding/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Xanadu. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Xanadu"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9078a0ebb591601d",
