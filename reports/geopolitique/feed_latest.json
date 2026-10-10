@@ -1,24 +1,9 @@
 [
   {
-    "id": "b0aec6a820174601",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.0 - 7 km N of La Tronosa, Panama",
-    "horodatage_utc": "2026-10-10T10:55:57+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "8ae661337d354bde",
     "categorie": "geopolitique",
     "titre_affiche": "M 7.7 - 12 km WSW of Pitaloza Arriba, Panama",
-    "horodatage_utc": "2026-10-10T10:19:57+00:00",
+    "horodatage_utc": "2026-10-10T16:08:07+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
     "a_une_analyse_interne": false,
@@ -30,17 +15,259 @@
     "nouveaute": false
   },
   {
+    "id": "832e25b5ef6affc3",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.6 - 14 km W of Río Grande, Panama",
+    "horodatage_utc": "2026-10-10T15:44:30+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b0aec6a820174601",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.0 - 7 km N of La Tronosa, Panama",
+    "horodatage_utc": "2026-10-10T14:51:46+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "57d5c63639b7bb77",
+    "categorie": "geopolitique",
+    "titre_affiche": "US warns Kyiv that strikes on Russia jeopardise intelligence-sharing",
+    "horodatage_utc": "2026-10-10T13:32:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7fd4dffc-8adf-4ad8-9fba-333e1ced991d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0ef222ff12178eed",
+    "categorie": "geopolitique",
+    "titre_affiche": "India’s central bank tries to shore up rupee as it nears record lows",
+    "horodatage_utc": "2026-10-10T11:57:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b373cf00-9a94-4dc7-bdda-bc7006da1148?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Iran - États-Unis, Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis",
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "685cce1adfbbbc2e",
     "categorie": "geopolitique",
     "titre_affiche": "Saudi flagship summits under pressure after deadly airport attacks",
-    "horodatage_utc": "2026-10-10T06:36:00+00:00",
+    "horodatage_utc": "2026-10-10T11:16:51+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e29fd05b-9e71-474c-906e-c3fd45dfaa03?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "00ebf1b7464648ab",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia GPUs are everywhere. Here are the ways companies are accessing them",
+    "horodatage_utc": "2026-10-10T11:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/10/nvidia-gpus-are-everywhere-heres-how-companies-access-them.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ac137e45e0f0d5de",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nixonmaxxing: the strange revival of America’s disgraced president",
+    "horodatage_utc": "2026-10-10T10:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e3945b16-13f0-4640-882d-fafaca9d25e9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1c34a563c641d8fc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Brent commands a war premium as Middle East supply risks keep oil on edge",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/economictimes.indiatimes.com",
+    "url_source": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "86b240846c8f28a2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump faces hypocrisy charge over Russian diesel deal after targeting India",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/orissapost.com",
+    "url_source": "https://www.orissapost.com/trump-faces-hypocrisy-charge-over-russian-diesel-deal-after-targeting-india/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/orissapost.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4e958adb7c913f91",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin says Russian oil supplies to US will",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/timesofoman.com",
+    "url_source": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/timesofoman.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "02c5281059028550",
+    "categorie": "geopolitique",
+    "titre_affiche": "BP Plans Bid Under Investment - friendly India Oil & Gas Policy : Meg ONeill",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/economictimes.indiatimes.com",
+    "url_source": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/bp-plans-bid-under-investment-friendly-india-oil-gas-policy/articleshow/134842812.cms",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "10aad32e31643cec",
+    "categorie": "geopolitique",
+    "titre_affiche": "Naprostá zrada Ukrajiny i Evropy , kritizují demokraté Trumpovu dohodu s Ruskem",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/idnes.cz",
+    "url_source": "https://www.idnes.cz/zpravy/zahranicni/donald-trump-usa-vladimir-putin-nafta.A261010_070803_zahranicni_pluh",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d840c5628c7eb329",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump Makes BIG Announcement , Strikes Diesel Deal With Putin , Says Prices Will Come Down Fast",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/oneindia.com",
+    "url_source": "https://www.oneindia.com/international/donald-trump-makes-big-announcement-strikes-diesel-deal-with-putin-says-prices-will-come-down-fas-8230651.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1e41ee9d5613c871",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hoosiers brace for more gas price changes after a 15 - cent jump in a day",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/wishtv.com",
+    "url_source": "https://www.wishtv.com/news/local-news/hoosiers-brace-for-more-gas-price-changes-after-a-15-cent-jump-in-a-day/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a5e9d0cc75ea40ac",
+    "categorie": "geopolitique",
+    "titre_affiche": "Úplná zrada Ukrajiny a Európy , kritizujú demokrati Trumpovu dohodu s Putinom",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/hnonline.sk",
+    "url_source": "https://hnonline.sk/finweb/zahranicna-ekonomika/96307106-uplna-zrada-ukrajiny-a-europy-kritizuju-demokrati-trumpovu-dohodu-s-putinom",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "64f0cbf78266178d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/economictimes.indiatimes.com",
+    "url_source": "https://economictimes.indiatimes.com/news/international/world-news/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions-on-the-war/articleshow/134847184.cms",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1b90543fd2202aec",
+    "categorie": "geopolitique",
+    "titre_affiche": "Centcom says 133 vessels redirected in Hormuz as it enforces Iran blockade",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/middleeasteye.net",
+    "url_source": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-133-vessels-redirected-hormuz-it-enforces-iran-blockade",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -72,21 +299,6 @@
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "832e25b5ef6affc3",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.6 - 14 km W of Río Grande, Panama",
-    "horodatage_utc": "2026-10-10T02:29:37+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -145,13 +357,13 @@
     "horodatage_utc": "2026-10-09T20:00:01+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/847e6d14-08e4-4477-8722-40bd7162b992?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dd1d0a545029b4f1",
@@ -1623,219 +1835,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "d9407e5097e925b3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jim Clyburn urges Democrats to woo Black voters with affordability pitch",
-    "horodatage_utc": "2026-10-06T19:26:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/793d9121-1dae-498b-bae1-db8c69e67e2d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "017d807768374b61",
-    "categorie": "geopolitique",
-    "titre_affiche": "Goldman Sachs and Man Group exposed in EY data breach",
-    "horodatage_utc": "2026-10-06T19:24:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2ad1ff25-f08e-4e78-83c9-90e7ea3844ee?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6ca05c1b0b8dd3f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.9 - 264 km SSW of Severo-Kuril’sk, Russia",
-    "horodatage_utc": "2026-10-06T18:53:52+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hy",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "770d6442d4dab7f2",
-    "categorie": "geopolitique",
-    "titre_affiche": "How event contract bundles are boosting volume on prediction markets",
-    "horodatage_utc": "2026-10-06T18:46:16+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e3004a0384d8b179",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kalshi, Polymarket trading volumes on some products raise questions amid massive growth",
-    "horodatage_utc": "2026-10-06T18:41:32+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b7417c35a88a08b0",
-    "categorie": "geopolitique",
-    "titre_affiche": "German far right secures first regional parliament president",
-    "horodatage_utc": "2026-10-06T18:10:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/76db879a-2c53-4aee-8354-b30185f1d3a4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "b1e76f61fd58d129",
-    "categorie": "geopolitique",
-    "titre_affiche": "Palmer Luckey’s Erebor surges to more than $7bn in deposits since launch",
-    "horodatage_utc": "2026-10-06T15:32:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/42b6fa88-f730-4f8a-a194-8f53d0759aaf?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3f7291670b105102",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
-    "horodatage_utc": "2026-10-06T14:45:00+00:00",
-    "source_nom": "Federal Reserve - discours et auditions",
-    "url_source": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a4f1e933a8201500",
-    "categorie": "geopolitique",
-    "titre_affiche": "The bond market turns on France",
-    "horodatage_utc": "2026-10-06T14:00:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/9b252b46-a87c-45e7-a09a-45a39ce077b8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Banques, crédit et appétit pour le risque",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e5e83b695b525efe",
-    "categorie": "geopolitique",
-    "titre_affiche": "Vitol chief warns of tanker shortage and risk of $200-a-barrel oil",
-    "horodatage_utc": "2026-10-06T13:39:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/95db1fbd-4e1f-45cf-b678-c40635f59197?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "53f90ea9b928cbbb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
-    "horodatage_utc": "2026-10-06T13:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8a41f146e42cd015",
-    "categorie": "geopolitique",
-    "titre_affiche": "Goldman: Diesel prices set to stay high through 2027 as refineries struggle to meet demand",
-    "horodatage_utc": "2026-10-06T08:47:30+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/06/diesel-oil-refinery-price-capacity-demand.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b9cafeec675ffe62",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia , lEstonia sposta le forze al confine . Berlino , allerta degli 007 su Mosca : « Contro di noi una guerra - ombra »",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/ilgazzettino.it",
-    "url_source": "https://www.ilgazzettino.it/mondo/estonia_soldati_confine_russia_cosa_sta_succedendo-9805940.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/ilgazzettino.it. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "20b38a21e63647df",
-    "categorie": "geopolitique",
-    "titre_affiche": "View From India Newsletter From Iraq to Gaza : A Long Trail of Damage",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/thehindu.com",
-    "url_source": "https://www.thehindu.com/news/international/view-from-india-newsletter-from-iraq-to-gaza-a-long-trail-of-damage/article71547254.ece",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]

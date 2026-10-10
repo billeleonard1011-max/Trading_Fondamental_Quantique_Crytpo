@@ -1,11 +1,43 @@
 [
   {
-    "id": "87148a918b40e722",
+    "id": "d10d7616181299db",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
-    "horodatage_utc": "2026-10-10T05:43:00+00:00",
+    "titre_affiche": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+    "horodatage_utc": "2026-10-10T15:10:37+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH, SOL. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH",
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7c53fefaf13bab3d",
+    "categorie": "crypto",
+    "titre_affiche": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+    "horodatage_utc": "2026-10-10T12:00:00+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/09/bitcoin-s-volatility-has-plunged-but-extreme-price-swings-are-more-frequent-than-in-2018",
+    "url_source": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "cb17a370668d1335",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
+    "horodatage_utc": "2026-10-10T11:00:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +45,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "87148a918b40e722",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
+    "horodatage_utc": "2026-10-10T05:43:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/09/bitcoin-s-volatility-has-plunged-but-extreme-price-swings-are-more-frequent-than-in-2018",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "1051fde99b486fd5",
@@ -1762,51 +1809,6 @@
     "horodatage_utc": "2026-09-30T08:25:43+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/09/30/how-european-investors-can-now-buy-bitcoin-without-taking-on-u-s-dollar-risk",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7f9c266e68cdb3a2",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin bulls have one price level to defend",
-    "horodatage_utc": "2026-09-30T07:04:41+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/30/bitcoin-bulls-have-one-price-level-to-defend",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "873eee0d532c4ce0",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score",
-    "horodatage_utc": "2026-09-30T04:38:18+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/09/30/bitcoin-rally-shows-signs-of-cooling-even-as-a-bull-score-gauge-nears-its-perfect-score",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "df26a6c24a7da016",
-    "categorie": "crypto",
-    "titre_affiche": "CryptoQuant says bitcoin correction could be near as traders’ unrealized profit hits 21-month high",
-    "horodatage_utc": "2026-09-29T19:14:47+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-09-29-cryptoquant-says-bitcoin-correction-could-near-traders-unrealized-profit-21-month-high-417206",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
