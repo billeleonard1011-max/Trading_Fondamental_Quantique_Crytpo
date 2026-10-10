@@ -1,5 +1,67 @@
 [
   {
+    "id": "17bca103e855b930",
+    "categorie": "geopolitique",
+    "titre_affiche": "Riyadh airport suspends operations after missile strike injures dozens",
+    "horodatage_utc": "2026-10-10T18:28:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b0aec6a820174601",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.0 - 7 km N of La Tronosa, Panama",
+    "horodatage_utc": "2026-10-10T18:23:36+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "15b1015415be2669",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia in talks to acquire US ‘open’ model start-up Reflection AI",
+    "horodatage_utc": "2026-10-10T18:14:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "57d5c63639b7bb77",
+    "categorie": "geopolitique",
+    "titre_affiche": "US warns Kyiv that strikes on Russia jeopardise intelligence-sharing",
+    "horodatage_utc": "2026-10-10T17:42:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7fd4dffc-8adf-4ad8-9fba-333e1ced991d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "8ae661337d354bde",
     "categorie": "geopolitique",
     "titre_affiche": "M 7.7 - 12 km WSW of Pitaloza Arriba, Panama",
@@ -30,51 +92,21 @@
     "nouveaute": false
   },
   {
-    "id": "b0aec6a820174601",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.0 - 7 km N of La Tronosa, Panama",
-    "horodatage_utc": "2026-10-10T14:51:46+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "57d5c63639b7bb77",
-    "categorie": "geopolitique",
-    "titre_affiche": "US warns Kyiv that strikes on Russia jeopardise intelligence-sharing",
-    "horodatage_utc": "2026-10-10T13:32:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7fd4dffc-8adf-4ad8-9fba-333e1ced991d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "0ef222ff12178eed",
     "categorie": "geopolitique",
     "titre_affiche": "India’s central bank tries to shore up rupee as it nears record lows",
     "horodatage_utc": "2026-10-10T11:57:36+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/b373cf00-9a94-4dc7-bdda-bc7006da1148?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Iran - États-Unis, Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza",
       "Iran - États-Unis",
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "685cce1adfbbbc2e",
@@ -99,13 +131,13 @@
     "horodatage_utc": "2026-10-10T11:00:01+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/10/nvidia-gpus-are-everywhere-heres-how-companies-access-them.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ac137e45e0f0d5de",
@@ -114,13 +146,13 @@
     "horodatage_utc": "2026-10-10T10:00:07+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e3945b16-13f0-4640-882d-fafaca9d25e9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1c34a563c641d8fc",
@@ -270,6 +302,37 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "710eb44cf79797e4",
+    "categorie": "geopolitique",
+    "titre_affiche": "RBI steps up rupee support , opens dollar window for oil companies",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/thehindubusinessline.com",
+    "url_source": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-rupee-support-opens-dollar-window-for-oil-companies/article71567043.ece",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/thehindubusinessline.com. Elle se rattache à : Pétrole et énergie, Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f604cf245ab94130",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold : ETF - Zuflüsse erreichen 31 Milliarden",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/boerse-express.com",
+    "url_source": "https://www.boerse-express.com/news/articles/gold-etf-zufluesse-erreichen-31-milliarden-952008",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/boerse-express.com. Elle se rattache à : Or et métaux précieux. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux"
+    ],
+    "portee": "actif_direct",
     "nouveaute": true
   },
   {
@@ -1773,67 +1836,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "4746b2f3244eabb9",
-    "categorie": "geopolitique",
-    "titre_affiche": "S&P 500 hits record high as AI stocks shrug off bond market slump",
-    "horodatage_utc": "2026-10-06T20:58:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1c1ee003-f041-4c66-a971-f08d488d11f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "685cf55ac304f612",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.8 - 85 km ENE of Shikotan, Russia",
-    "horodatage_utc": "2026-10-06T20:48:11+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ji",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7b3ddaa2e9251aca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anduril plans shipyard to manufacture parts for US Navy’s top submarines",
-    "horodatage_utc": "2026-10-06T20:36:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a6339e0c-4114-413a-a23c-916ed4392ce0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f16909b83ac1bda1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ships’ captains paid $100,000 a month to transit Strait of Hormuz",
-    "horodatage_utc": "2026-10-06T20:00:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0d665e5b-d8c8-4f1e-acf5-bba7193b4e6e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
     "nouveaute": false
   }
 ]

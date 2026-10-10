@@ -6,14 +6,14 @@
     "horodatage_utc": "2026-10-10T15:10:37+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH, SOL. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH",
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7c53fefaf13bab3d",
@@ -22,14 +22,14 @@
     "horodatage_utc": "2026-10-10T12:00:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cb17a370668d1335",
@@ -38,13 +38,13 @@
     "horodatage_utc": "2026-10-10T11:00:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "87148a918b40e722",
