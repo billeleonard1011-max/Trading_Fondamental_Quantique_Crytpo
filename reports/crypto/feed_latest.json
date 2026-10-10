@@ -1,5 +1,20 @@
 [
   {
+    "id": "87148a918b40e722",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
+    "horodatage_utc": "2026-10-10T05:43:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/09/bitcoin-s-volatility-has-plunged-but-extreme-price-swings-are-more-frequent-than-in-2018",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "1051fde99b486fd5",
     "categorie": "crypto",
     "titre_affiche": "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
@@ -1799,20 +1814,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "daa617251ffd5de7",
-    "categorie": "crypto",
-    "titre_affiche": "Bitmine Continues to Load Up on Ethereum , Now Owns 4 . 9 % of all ETH in Circulation . Is BMNR Stock a Buy ?",
-    "horodatage_utc": "2026-09-29T18:00:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/09/29/bitmine-continues-to-load-up-on-ethereum-now-owns-4-9-of-all-eth-in-circulation-is-bmnr-stock-a-buy/?source=iedfolrf0000001",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]

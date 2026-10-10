@@ -3,22 +3,22 @@
     "id": "b0aec6a820174601",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.0 - 7 km N of La Tronosa, Panama",
-    "horodatage_utc": "2026-10-10T04:40:17+00:00",
+    "horodatage_utc": "2026-10-10T10:55:57+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8ae661337d354bde",
     "categorie": "geopolitique",
     "titre_affiche": "M 7.7 - 12 km WSW of Pitaloza Arriba, Panama",
-    "horodatage_utc": "2026-10-10T04:34:19+00:00",
+    "horodatage_utc": "2026-10-10T10:19:57+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
     "a_une_analyse_interne": false,
@@ -30,19 +30,35 @@
     "nouveaute": false
   },
   {
+    "id": "685cce1adfbbbc2e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi flagship summits under pressure after deadly airport attacks",
+    "horodatage_utc": "2026-10-10T06:36:00+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e29fd05b-9e71-474c-906e-c3fd45dfaa03?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "037814d9de6e9955",
     "categorie": "geopolitique",
     "titre_affiche": "Russia targets Ukraine’s bridges as Vladimir Putin expands air war",
     "horodatage_utc": "2026-10-10T04:00:38+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/4e4ea744-6603-499b-baf7-83c74e4dc53e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "11dab4e4d043699a",
@@ -121,6 +137,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "5c2a1b30cf86e906",
+    "categorie": "geopolitique",
+    "titre_affiche": "Airlines sound the alarm as bleak winter looms",
+    "horodatage_utc": "2026-10-09T20:00:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/847e6d14-08e4-4477-8722-40bd7162b992?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "dd1d0a545029b4f1",
@@ -386,13 +417,13 @@
     "horodatage_utc": "2026-10-09T11:55:51+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "919409ccbc213281",
@@ -1803,36 +1834,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "20fd36c89bc00853",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran bildet Frauen für Häuserkampf aus – Drohung gegen united states",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/merkur.de",
-    "url_source": "https://www.merkur.de/politik/iran-bildet-frauen-fuer-haeuserkampf-aus-drohung-gegen-usa-zr-94526702.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7df7d7d086666f92",
-    "categorie": "geopolitique",
-    "titre_affiche": "Crisi carburante in Russia , arrivano 176mila tonnellate di gasolio dalla Corea del Sud : le petroliere ( sanzionate ) cambiano rotta",
-    "horodatage_utc": "2026-10-06T08:30:00+00:00",
-    "source_nom": "GDELT/ilgazzettino.it",
-    "url_source": "https://www.ilgazzettino.it/esteri/russia_crisi_carburante_corea_del_sud_petroliere_cambiano_rotta-9807272.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true

@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-10-10T00:09:23+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/quantum-x-labs-expands-intellectual-property-and-rd-across-neutral-atom-hardware-rydberg-sensing-and-circuit-security/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Intel. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Intel"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4c794a72b9b9b682",
