@@ -1,5 +1,20 @@
 [
   {
+    "id": "a356f9210f700ee7",
+    "categorie": "geopolitique",
+    "titre_affiche": "US hits commercial tanker in Gulf of Oman as tensions flare",
+    "horodatage_utc": "2026-10-11T02:45:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "c54b286d53b412c5",
     "categorie": "geopolitique",
     "titre_affiche": "M 4.7 - 7 km S of Trudarmeyskiy, Russia",
@@ -21,14 +36,14 @@
     "horodatage_utc": "2026-10-10T22:18:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "49c263d38bfa5389",
@@ -37,13 +52,13 @@
     "horodatage_utc": "2026-10-10T20:59:28+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "17bca103e855b930",
@@ -273,7 +288,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d840c5628c7eb329",
@@ -318,7 +333,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "64f0cbf78266178d",
@@ -357,14 +372,14 @@
     "horodatage_utc": "2026-10-10T06:45:00+00:00",
     "source_nom": "GDELT/thehindubusinessline.com",
     "url_source": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-rupee-support-opens-dollar-window-for-oil-companies/article71567043.ece",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/thehindubusinessline.com. Elle se rattache à : Pétrole et énergie, Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Dollar et devises"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f604cf245ab94130",
@@ -373,12 +388,178 @@
     "horodatage_utc": "2026-10-10T06:45:00+00:00",
     "source_nom": "GDELT/boerse-express.com",
     "url_source": "https://www.boerse-express.com/news/articles/gold-etf-zufluesse-erreichen-31-milliarden-952008",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/boerse-express.com. Elle se rattache à : Or et métaux précieux. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Or et métaux précieux"
     ],
     "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "8cf8a04cb472ccfa",
+    "categorie": "geopolitique",
+    "titre_affiche": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/jpost.com",
+    "url_source": "http://www.jpost.com/middle-east/article-911021",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/jpost.com. Elle se rattache à : Israël - Gaza, Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3102981b95a638d6",
+    "categorie": "geopolitique",
+    "titre_affiche": "A U . S .- brokered ceasefire was supposed to end the war in Gaza . A year later , progress has stalled",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/japantoday.com",
+    "url_source": "https://japantoday.com/category/world/a-us-brokered-ceasefire-was-supposed-to-end-the-war-in-gaza.-a-year-later-progress-has-stalled",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/japantoday.com. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b8325a746a2c3889",
+    "categorie": "geopolitique",
+    "titre_affiche": "Minister issues hard no on Russian diesel imports",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/canberratimes.com.au",
+    "url_source": "https://www.canberratimes.com.au/story/9365986/minister-issues-hard-no-on-russian-diesel-imports/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/canberratimes.com.au. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a88e25eb07aca886",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oglasio se Putin nakon razgovora sa Trampom",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/danas.rs",
+    "url_source": "https://www.danas.rs/svet/putin-tramp-nafta/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/danas.rs. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "32f495ca992e3160",
+    "categorie": "geopolitique",
+    "titre_affiche": "As Russia escalates its war , the EU realises its support for Ukraine wont be enough",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/euronews.com",
+    "url_source": "https://www.euronews.com/2026/10/10/as-russia-escalates-its-war-the-eu-admits-its-support-for-ukraine-wont-be-enough",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/euronews.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e74e75fb597a25bd",
+    "categorie": "geopolitique",
+    "titre_affiche": "A US - brokered ceasefire was supposed to end the war in Gaza . A year later , progress has stalled",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/newsday.com",
+    "url_source": "https://www.newsday.com/news/nation/israel-palestinians-hamas-war-gaza-ceasefire-explainer-p59012",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/newsday.com. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7ba601e13ed6e533",
+    "categorie": "geopolitique",
+    "titre_affiche": "Markets too ready for conflict over Taiwan US diplomat",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/pakistantelegraph.com",
+    "url_source": "http://www.pakistantelegraph.com/news/279363123/markets-too-ready-for-conflict-over-taiwan-us-diplomat",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/pakistantelegraph.com. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b93480e362452596",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nobelprisen : – Trump sjokkerer en hel verden",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/e24.no",
+    "url_source": "https://e24.no/norsk-oekonomi/i/xlJ0oV/donald-trump-om-nobels-fredspris-pinlig-og-vanaerende",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "22686f47890a8741",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/the-star.co.ke",
+    "url_source": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a9da77c759de7b8f",
+    "categorie": "geopolitique",
+    "titre_affiche": "US Slaps Sanctions on ICC Following Ex - Judge Nobel Prize Win - Jowhar News Leader",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/jowhar.com",
+    "url_source": "https://jowhar.com/us-slaps-sanctions-on-icc-following-ex-judges-nobel-prize-win/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "8f2e42f1ae97beb6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+    "horodatage_utc": "2026-10-10T06:45:00+00:00",
+    "source_nom": "GDELT/asiaone.com",
+    "url_source": "https://www.asiaone.com/world/super-micro-contractor-pleads-guilty-scheme-divert-ai-servers-nvidia-chips-china",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -1648,192 +1829,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "dc9695ddb8c568fa",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
-    "horodatage_utc": "2026-10-07T06:16:39+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Inflation et prix",
-      "Croissance et emploi",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a332a57d175c757d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says he will speak with Putin about pneumonic plague",
-    "horodatage_utc": "2026-10-07T05:33:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/dcf35eaf-e1d3-4289-bc7a-e0c91725ad59?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "3ba8e0057e79bfa3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Singapore's Temasek warns of the ‘biggest risk’ facing markets right now",
-    "horodatage_utc": "2026-10-07T05:25:29+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/07/singapore-temasek-warns-of-the-biggest-risk-facing-markets.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6dfef9c178569afe",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.8 - 57 km E of Petropavlovsk-Kamchatsky, Russia",
-    "horodatage_utc": "2026-10-07T04:24:15+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0mu",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4103570c28e651c1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Robust AI spending sets investors up for another bumper US earnings season",
-    "horodatage_utc": "2026-10-07T04:00:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7c38e8e3-8035-4036-8bc0-5fba2fbf77cb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f9226719a7c4215b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Brussels looks to capture Big Tech through tax on large corporations",
-    "horodatage_utc": "2026-10-07T04:00:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ad06ed89-f600-4694-8c95-7d53b6d3315b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2468abf9be86b075",
-    "categorie": "geopolitique",
-    "titre_affiche": "What comes next with the energy shock?",
-    "horodatage_utc": "2026-10-07T04:00:12+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/37e12a42-d473-4b1b-8fc5-4ea5f06d3bfb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3314f49504d5993c",
-    "categorie": "geopolitique",
-    "titre_affiche": "How much longer can the world absorb the Iran shock?",
-    "horodatage_utc": "2026-10-07T04:00:12+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/37e12a42-d473-4b1b-8fc5-4ea5f06d3bfb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "aa71704dcaa99b94",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX looks to raise $40bn to buy Nvidia chips in financing led by Apollo",
-    "horodatage_utc": "2026-10-06T22:28:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d3f5928d-f38c-4666-8f7a-8737f9c45f51?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ccb28c1cb386185f",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX looks to raise $40bn to buy Nvidia chips",
-    "horodatage_utc": "2026-10-06T22:28:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d3f5928d-f38c-4666-8f7a-8737f9c45f51?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a4ad8e74077928cf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-    "horodatage_utc": "2026-10-06T22:23:01+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "10fc354b00123992",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom",
-    "horodatage_utc": "2026-10-06T22:13:04+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/06/jim-cramer-ai-stocks.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
     "nouveaute": false
