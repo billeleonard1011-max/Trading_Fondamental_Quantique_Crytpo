@@ -1,15 +1,90 @@
 [
   {
-    "id": "112d7a6b9169d28e",
+    "id": "1f28e970f95550e9",
     "categorie": "geopolitique",
-    "titre_affiche": "M 6.2 - 79 km SSE of Panguna, Papua New Guinea",
-    "horodatage_utc": "2026-10-11T16:13:53+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv",
+    "titre_affiche": "EU ‘safeguards’ hybrid car sector from Chinese imports under new deal",
+    "horodatage_utc": "2026-10-11T20:00:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7e48dd50-957c-4f45-ad24-ce628ca7e06a?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a356f9210f700ee7",
+    "categorie": "geopolitique",
+    "titre_affiche": "US hits commercial tanker in Gulf of Oman as tensions flare",
+    "horodatage_utc": "2026-10-11T19:53:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "2e4bc0c437e0661d",
+    "categorie": "geopolitique",
+    "titre_affiche": "US threatens to block arms for Ukraine over attacks on Russian refineries",
+    "horodatage_utc": "2026-10-11T18:40:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/68fd8c4f-6f34-4f6e-a52c-76f635164031?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0cbed8293aec6fd7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia ‘interfered’ in 2016 Brexit vote, says Burnham",
+    "horodatage_utc": "2026-10-11T18:01:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4fcbf57e-c73e-4ced-be4a-5ecc6f4874de?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "825a147b05c43520",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.2 - 101 km SSW of Severo-Kuril’sk, Russia",
+    "horodatage_utc": "2026-10-11T17:22:56+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ld",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5032611dae628d4b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Can Russia meet Trump’s diesel demands?",
+    "horodatage_utc": "2026-10-11T17:13:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/445b2856-a276-4d4c-bdea-44799d771c21?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -18,16 +93,31 @@
     "id": "122e7acc66db4f71",
     "categorie": "geopolitique",
     "titre_affiche": "Oil chiefs pull out of Riyadh energy congress after airport missile strike",
-    "horodatage_utc": "2026-10-11T16:05:59+00:00",
+    "horodatage_utc": "2026-10-11T16:56:50+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a01776ea-4a12-4195-8820-e43a885ba5fe?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
+  },
+  {
+    "id": "112d7a6b9169d28e",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.2 - 79 km SSE of Panguna, Papua New Guinea",
+    "horodatage_utc": "2026-10-11T16:13:53+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "8103f34497231737",
@@ -51,28 +141,13 @@
     "horodatage_utc": "2026-10-11T15:13:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/dddba87c-3ed9-4cb5-8fe2-1b1dcc71da6f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "0cbed8293aec6fd7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia ‘interfered’ in 2016 Brexit vote, says Burnham",
-    "horodatage_utc": "2026-10-11T14:50:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4fcbf57e-c73e-4ced-be4a-5ecc6f4874de?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a1b3044aade4367d",
@@ -81,13 +156,13 @@
     "horodatage_utc": "2026-10-11T14:08:44+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bf199d0d1ed57363",
@@ -96,14 +171,14 @@
     "horodatage_utc": "2026-10-11T13:04:47+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bd2c7385-184e-425e-997f-0f5a8c54184e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "49cf8f311903bf18",
@@ -112,13 +187,13 @@
     "horodatage_utc": "2026-10-11T11:36:41+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1k3",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "75e8163f8934a66d",
@@ -132,21 +207,6 @@
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a356f9210f700ee7",
-    "categorie": "geopolitique",
-    "titre_affiche": "US hits commercial tanker in Gulf of Oman as tensions flare",
-    "horodatage_utc": "2026-10-11T05:26:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1766,68 +1826,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "d021deadc5da0129",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
-    "horodatage_utc": "2026-10-07T22:29:41+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bcdae768e76f5706",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump considers ‘terminating’ campaign advisers after Balkans trip",
-    "horodatage_utc": "2026-10-07T21:24:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ea58254a-947e-4e87-86d2-95ffbd8a1c9d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "330a6eed400007d9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
-    "horodatage_utc": "2026-10-07T21:16:24+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d28557813e7f7e6a",
-    "categorie": "geopolitique",
-    "titre_affiche": "FCC to vote on auctioning 25MHz of 'prime spectrum' in move that could benefit Amazon, SpaceX",
-    "horodatage_utc": "2026-10-07T20:03:50+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/07/fcc-spectrum-auction-spacex-amazon.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
     "nouveaute": false
   }
 ]
