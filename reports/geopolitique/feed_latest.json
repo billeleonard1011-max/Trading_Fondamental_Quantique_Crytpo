@@ -1,17 +1,78 @@
 [
   {
+    "id": "75e8163f8934a66d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Missile strike on Riyadh airport kills 12 and injures hundreds",
+    "horodatage_utc": "2026-10-11T09:48:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "a356f9210f700ee7",
     "categorie": "geopolitique",
     "titre_affiche": "US hits commercial tanker in Gulf of Oman as tensions flare",
-    "horodatage_utc": "2026-10-11T02:45:26+00:00",
+    "horodatage_utc": "2026-10-11T05:26:18+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b20fe53bfa3a5acc",
+    "categorie": "geopolitique",
+    "titre_affiche": "US justice department probes TV networks over Trump pool coverage",
+    "horodatage_utc": "2026-10-11T04:28:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3004a030-d64e-4ff7-a70d-ea379b4784af?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "20e8e9867d467047",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia steps up bid to kill European defence chiefs, spy agencies warn",
+    "horodatage_utc": "2026-10-11T04:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5da2dd05-9583-4a75-b018-2c5024383ec4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b8c86e6f741e887f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump is failing to arrest decline in popularity, FT poll shows",
+    "horodatage_utc": "2026-10-11T04:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f6d29414-412d-4422-a5f4-cb3338f73d3a",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -28,22 +89,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "75e8163f8934a66d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Missile strike on Riyadh airport kills 12 and injures hundreds",
-    "horodatage_utc": "2026-10-10T22:18:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "49c263d38bfa5389",
@@ -121,6 +166,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "6f532410777c3804",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump tells Ukraine to ‘get a new leader’ as US threatens to cut off intelligence-sharing",
+    "horodatage_utc": "2026-10-10T17:42:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7fd4dffc-8adf-4ad8-9fba-333e1ced991d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "8ae661337d354bde",
@@ -1772,65 +1832,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "9324d8d82fdb4766",
-    "categorie": "geopolitique",
-    "titre_affiche": "S&P 500 record, ICE's economic chill, Webull's China ties and more in Morning Squawk",
-    "horodatage_utc": "2026-10-07T12:50:22+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/07/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "98d6532490dfa38b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Houthi rebels target Riyadh and Aden in new missile barrage",
-    "horodatage_utc": "2026-10-07T12:46:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6a2dc960-c9fd-4795-b5ea-78f9bb77309d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "91f525fa69a66320",
-    "categorie": "geopolitique",
-    "titre_affiche": "French central bank chief says ECB intervention not needed to ease bond rout",
-    "horodatage_utc": "2026-10-07T12:19:11+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d9ba8e1f-54f9-4739-9ce3-94e62d585e26?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7c994aed0c175467",
-    "categorie": "geopolitique",
-    "titre_affiche": "How US mortgage bonds can trigger a ‘vicious loop’ for Treasury yields",
-    "horodatage_utc": "2026-10-07T10:20:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a04ef3b4-2fcf-48f9-ab34-2c40c39d9a0c",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
