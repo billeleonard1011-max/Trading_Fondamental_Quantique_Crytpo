@@ -1,5 +1,20 @@
 [
   {
+    "id": "61eaf7a491a95794",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
+    "horodatage_utc": "2026-10-12T04:49:30+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "d10d7616181299db",
     "categorie": "crypto",
     "titre_affiche": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
@@ -1794,21 +1809,6 @@
     "horodatage_utc": "2026-09-30T10:11:36+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/09/30/bitcoin-stalls-near-usd83-000-while-lighter-drops-17-on-robinhood-perps-plan",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "51c68220aec21dc4",
-    "categorie": "crypto",
-    "titre_affiche": "How European investors can now buy bitcoin without taking on U.S. dollar risk",
-    "horodatage_utc": "2026-09-30T08:25:43+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/09/30/how-european-investors-can-now-buy-bitcoin-without-taking-on-u-s-dollar-risk",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

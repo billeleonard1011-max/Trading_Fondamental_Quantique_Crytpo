@@ -1,11 +1,11 @@
 [
   {
-    "id": "14a7e687ae376583",
+    "id": "85a531f63c679a5a",
     "categorie": "geopolitique",
-    "titre_affiche": "Trump faces Republican opposition to his diesel deal with Russia’s Putin",
-    "horodatage_utc": "2026-10-11T21:17:58+00:00",
+    "titre_affiche": "Oil prices fall after Trump claims ‘energy ceasefire’ in Ukraine war",
+    "horodatage_utc": "2026-10-12T04:43:13+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/debf0be6-d5aa-4ba7-bb66-7daf770d99ff?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/a663781e-2709-41f2-99df-4fb5a6162e6b?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,126 @@
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "35c531f9fa79b47f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump battles for the Senate",
+    "horodatage_utc": "2026-10-12T04:00:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/62bab2c8-d4e2-4ec2-a911-80439f61f238?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "2dae72496e09240e",
+    "categorie": "geopolitique",
+    "titre_affiche": "There is a smarter way to tax the rich",
+    "horodatage_utc": "2026-10-12T04:00:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e6c9d380-7108-405a-8393-5240771809fe",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "dc49b58e139e10b2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nato should prepare for deadly Russian ‘hybrid’ attack, says Poland",
+    "horodatage_utc": "2026-10-12T04:00:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0c5a10f4-5aca-456e-9c3a-4c4dc8132a63?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6d6e36be8c727c87",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Worrying omens’ stalk global economy despite resilient growth",
+    "horodatage_utc": "2026-10-12T04:00:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e0457dd5-8e75-4803-8ce8-6651157d2229?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6cab9855b6b94bfa",
+    "categorie": "geopolitique",
+    "titre_affiche": "Charles de Gaulle airport owner linked to services for sanctioned airline",
+    "horodatage_utc": "2026-10-12T04:00:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5f0e16b5-15ba-4496-a4c1-15bc0287f7f1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b7098765c4742f68",
+    "categorie": "geopolitique",
+    "titre_affiche": "The huge lurking leverage of AI hyperscalers",
+    "horodatage_utc": "2026-10-12T04:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/17a207f4-1563-48af-91e3-14bac89ab4b8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "49dc81a61737a6cc",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.6 - Volcano Islands, Japan region",
+    "horodatage_utc": "2026-10-12T02:32:36+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nn",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "14a7e687ae376583",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump faces Republican opposition to his diesel deal with Russia’s Putin",
+    "horodatage_utc": "2026-10-11T21:17:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/debf0be6-d5aa-4ba7-bb66-7daf770d99ff?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "1f28e970f95550e9",
@@ -1701,130 +1821,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "74e0c355eaf7960b",
-    "categorie": "geopolitique",
-    "titre_affiche": "US prepares military for possible new Iran strikes , Trump yet to decide",
-    "horodatage_utc": "2026-10-08T05:30:00+00:00",
-    "source_nom": "GDELT/business-standard.com",
-    "url_source": "https://www.business-standard.com/world-news/us-prepares-military-for-possible-new-iran-strikes-trump-yet-to-decide-126100800105_1.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6c9133159d44de11",
-    "categorie": "geopolitique",
-    "titre_affiche": "Big investors ‘bottom fish’ in Eurozone bond markets after France sell-off",
-    "horodatage_utc": "2026-10-08T04:00:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/9cf103ed-548e-4b06-baed-71632abca961?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3c8c7b82ab0607c3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil majors look beyond Middle East war in pursuit of region’s vast reserves",
-    "horodatage_utc": "2026-10-08T04:00:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3534cf93-be7b-49ec-bf58-cea84e73cb28?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9db1ed8b130b8788",
-    "categorie": "geopolitique",
-    "titre_affiche": "French bond sell-off prompts ‘bottom fishing’ across Europe",
-    "horodatage_utc": "2026-10-08T04:00:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/9cf103ed-548e-4b06-baed-71632abca961?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3e0d0b0bdad4f8eb",
-    "categorie": "geopolitique",
-    "titre_affiche": "How a trillion-dollar hedge fund borrowing spree became Wall Street’s cash cow",
-    "horodatage_utc": "2026-10-08T04:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d313d0ce-d552-463e-9e84-6fa8c3efeeec?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "99f8a76c0c43af3d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Is Trump losing the rust belt?",
-    "horodatage_utc": "2026-10-08T04:00:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e86d2bf9-100f-4722-b845-c3b46d94866b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "2902be1f6a50b009",
-    "categorie": "geopolitique",
-    "titre_affiche": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
-    "horodatage_utc": "2026-10-08T00:51:23+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0f897bf68a9b6de6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Samsung quarterly profit surges to $80bn on AI chip demand",
-    "horodatage_utc": "2026-10-07T23:30:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8943785b-0919-4a49-8ab5-48e4a35a6e00?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
