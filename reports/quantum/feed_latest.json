@@ -1,18 +1,48 @@
 [
   {
+    "id": "3b6f206ea6d66d8a",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Demonstrates Scheduled qLDPC Error Correction to Accelerate Fault-Tolerant Gate Execution by up to 74x",
+    "horodatage_utc": "2026-10-12T15:03:51+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-demonstrates-scheduled-qldpc-error-correction-to-accelerate-fault-tolerant-gate-execution-by-up-to-74x/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "21f4139517befcdc",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ to Acquire Elisity for Up to $1.3 Billion to Integrate Zero Trust with Post-Quantum Cybersecurity",
+    "horodatage_utc": "2026-10-12T14:47:51+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-to-acquire-elisity-for-up-to-1-3-billion-to-integrate-zero-trust-with-post-quantum-cybersecurity/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "961b9b9217f253fc",
     "categorie": "quantique",
     "titre_affiche": "IonQ Agrees to Buy Elisity in Cybersecurity Deal Worth Up to $1.3 Billion",
     "horodatage_utc": "2026-10-12T13:16:01+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/12/ionq-agrees-to-buy-elisity-in-cybersecurity-deal-worth-up-to-1-3-billion/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c9f91d93ba870df7",
@@ -1780,36 +1810,6 @@
     "tickers_ou_themes_lies": [
       "IONQ",
       "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "066c0b8183b229fa",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ and ORNL Demonstrate Generative AI for Quantum Optimization",
-    "horodatage_utc": "2026-09-16T17:07:40+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/16/ionq-ornl-nvidia-tennessee-ai-quantum-optimization-tradeoff/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "46b21edcd198d53b",
-    "categorie": "quantique",
-    "titre_affiche": "Better Together: IBM Researchers Cut Sampling Demands 63-Fold by Combining Quantum Error Detection And Mitigation",
-    "horodatage_utc": "2026-09-16T11:37:00+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/16/better-together-ibm-researchers-cut-sampling-demands-63-fold-by-combining-quantum-error-detection-and-mitigation/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
     ],
     "portee": "actif_direct",
     "nouveaute": false
