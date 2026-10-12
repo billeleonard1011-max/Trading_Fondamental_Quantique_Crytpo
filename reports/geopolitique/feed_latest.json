@@ -1,5 +1,191 @@
 [
   {
+    "id": "61a44be6abf28e52",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil prices rise as Trump’s ‘energy ceasefire’ frays",
+    "horodatage_utc": "2026-10-12T15:46:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a663781e-2709-41f2-99df-4fb5a6162e6b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c946beb361abb804",
+    "categorie": "geopolitique",
+    "titre_affiche": "UK imposes new sanctions on Iran over RAF Fairford incident",
+    "horodatage_utc": "2026-10-12T15:43:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f7ef12e0-7719-4cac-a3a2-27b85b6ab99b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Sanctions. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Sanctions"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8312f8ed7c49149b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
+    "horodatage_utc": "2026-10-12T15:37:26+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c08519dc06f27507",
+    "categorie": "geopolitique",
+    "titre_affiche": "US agents raid home of Trump critic Ilhan Omar",
+    "horodatage_utc": "2026-10-12T15:32:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e05d76f8-2ced-4acc-a449-926b49559f9b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "825a147b05c43520",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.2 - 101 km SSW of Severo-Kuril’sk, Russia",
+    "horodatage_utc": "2026-10-12T15:04:04+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ld",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "4c43eeb5033d27e7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Riyadh defiant as Houthis launch new missile strikes on Saudi Arabia",
+    "horodatage_utc": "2026-10-12T14:39:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ad0b6e93-708c-46c6-a1f2-e6248c934faf?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e8607f85a77d7c1a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin is breaching Trump’s ‘energy ceasefire’, Zelenskyy says",
+    "horodatage_utc": "2026-10-12T14:27:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/863619b6-c4a7-4b1a-8a53-6950d47d1833?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "edbead6b46e68c3a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
+    "horodatage_utc": "2026-10-12T14:04:16+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "56d881fe8f2714f4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nato’s supreme commander warns Moscow against attacks in Europe",
+    "horodatage_utc": "2026-10-12T13:34:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/da71c823-ca31-4eaa-8e6e-6baacea986a4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "05765777c2477c1e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+    "horodatage_utc": "2026-10-12T13:04:31+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c8fd9456963a71b5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump's energy efforts, European bonds, retailers' inventory balancing act and more in Morning Squawk",
+    "horodatage_utc": "2026-10-12T12:40:34+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/12/5-things-to-know-before-the-stock-market-opens.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d45264f2fae21cea",
+    "categorie": "geopolitique",
+    "titre_affiche": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+    "horodatage_utc": "2026-10-12T08:58:54+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Croissance et emploi",
+      "Catastrophes naturelles",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "85a531f63c679a5a",
     "categorie": "geopolitique",
     "titre_affiche": "Oil prices fall after Trump claims ‘energy ceasefire’ in Ukraine war",
@@ -30,19 +216,34 @@
     "nouveaute": true
   },
   {
+    "id": "0cfa8d4d70f3033a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s midterm peril",
+    "horodatage_utc": "2026-10-12T04:00:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/62bab2c8-d4e2-4ec2-a911-80439f61f238?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "2dae72496e09240e",
     "categorie": "geopolitique",
     "titre_affiche": "There is a smarter way to tax the rich",
     "horodatage_utc": "2026-10-12T04:00:16+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e6c9d380-7108-405a-8393-5240771809fe",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dc49b58e139e10b2",
@@ -186,21 +387,6 @@
     "horodatage_utc": "2026-10-11T18:01:02+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/4fcbf57e-c73e-4ced-be4a-5ecc6f4874de?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "825a147b05c43520",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.2 - 101 km SSW of Severo-Kuril’sk, Russia",
-    "horodatage_utc": "2026-10-11T17:22:56+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ld",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
@@ -1638,188 +1824,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "7535e9fabb5d5752",
-    "categorie": "geopolitique",
-    "titre_affiche": "Daughter of Trump’s chief of staff works at firm that lobbies for Republika Srpska",
-    "horodatage_utc": "2026-10-08T15:17:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c163a470-e73f-4fdb-91fb-426004b21f22?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "84797a19cb8cfed9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
-    "horodatage_utc": "2026-10-08T14:51:27+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e3fc32fd2c024632",
-    "categorie": "geopolitique",
-    "titre_affiche": "Repeated US Treasury interventions risk an erosion of credibility",
-    "horodatage_utc": "2026-10-08T14:30:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/eec1e15d-78b9-4706-a518-2a9db4f37128?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "94db51bb48a6ff45",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil prices jump on tanker attacks and slowing flows through Strait of Hormuz",
-    "horodatage_utc": "2026-10-08T13:35:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ec860f96-5a2b-461a-a897-a957860c3dba?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9c7d7c70de89f434",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fed minutes, Pepsi earnings, midterm megadonors and more in Morning Squawk",
-    "horodatage_utc": "2026-10-08T12:53:20+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ae40729d6577cfc9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
-    "horodatage_utc": "2026-10-08T11:49:39+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b2ad6fb7d912fd6f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Houthi attacks on Saudi airports kill 3 people",
-    "horodatage_utc": "2026-10-08T09:44:41+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7e39cdb9-977c-4a4c-b35c-6f775a9822db?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a08d840a425e73f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Waller, The Signaling Value of the Summary of Economic Projections",
-    "horodatage_utc": "2026-10-08T08:30:00+00:00",
-    "source_nom": "Federal Reserve - discours et auditions",
-    "url_source": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e9659c5e677fa039",
-    "categorie": "geopolitique",
-    "titre_affiche": "Huawei doubles down on smartphones as EV sales slow",
-    "horodatage_utc": "2026-10-08T08:04:11+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "9b5f7fb6913f5929",
-    "categorie": "geopolitique",
-    "titre_affiche": "TSMC’s September sales surge year-over-year as AI drives chip demand",
-    "horodatage_utc": "2026-10-08T06:50:42+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "586bcdd22425ac81",
-    "categorie": "geopolitique",
-    "titre_affiche": "TSMC's September sales jump more than 50% year over year",
-    "horodatage_utc": "2026-10-08T06:31:37+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "641767d0911b3deb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine grapples with a shortage of troops at the front after over 4 years of war",
-    "horodatage_utc": "2026-10-08T05:30:00+00:00",
-    "source_nom": "GDELT/sitkasentinel.com",
-    "url_source": "http://www.sitkasentinel.com/stories/ukraine-grapples-with-a-shortage-of-troops-at-the-front-after-over-4-years-of-war,177119",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
