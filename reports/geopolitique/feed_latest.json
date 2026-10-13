@@ -1,19 +1,172 @@
 [
   {
+    "id": "c3007f6db241268d",
+    "categorie": "geopolitique",
+    "titre_affiche": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+    "horodatage_utc": "2026-10-13T03:19:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Inflation et prix, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Inflation et prix",
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0ffb792a205e256e",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.1 - 17 km W of Río Grande, Panama",
+    "horodatage_utc": "2026-10-13T03:04:22+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wn",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f939fec1b973d152",
+    "categorie": "geopolitique",
+    "titre_affiche": "Chip stocks slide as fears mount over scale of AI investment",
+    "horodatage_utc": "2026-10-13T02:58:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8ec7ca3102b6ab3a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
+    "horodatage_utc": "2026-10-13T02:58:11+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e542c5cbfa25e93d",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
+    "horodatage_utc": "2026-10-13T02:49:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "876765ee6ec6c344",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pakistan’s hard choice on Saudi Arabia’s war in Yemen",
+    "horodatage_utc": "2026-10-13T02:02:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7da76744-99d0-43b0-8682-b927a82096f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "930ab4c2b9cb10ca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Top economies heading for biggest budget deficits since Covid, IMF warns",
+    "horodatage_utc": "2026-10-13T02:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c877685b-0f4a-4aa8-b52b-33f4babd1acb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "dbdedfda1d04d7b4",
+    "categorie": "geopolitique",
+    "titre_affiche": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+    "horodatage_utc": "2026-10-13T01:26:41+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dc025bf06972421e",
+    "categorie": "geopolitique",
+    "titre_affiche": "China resorts to Nvidia gaming chips in search for AI firepower",
+    "horodatage_utc": "2026-10-13T00:15:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9dbd99db-6b0c-43bd-b7be-849f129df098?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "16cf65bf0883bfd1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says he is ‘looking at’ firing envoy to Greece over alleged misconduct",
+    "horodatage_utc": "2026-10-13T00:12:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c97cf26c-04b7-47ce-8290-b0f779c9490b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "afa46530196e98bd",
     "categorie": "geopolitique",
     "titre_affiche": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor",
     "horodatage_utc": "2026-10-12T21:17:58+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8b593acb9f037085",
@@ -37,14 +190,14 @@
     "horodatage_utc": "2026-10-12T19:35:48+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Informatique quantique, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Informatique quantique",
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a1621d0a2722c09f",
@@ -53,13 +206,13 @@
     "horodatage_utc": "2026-10-12T18:32:01+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bc7302fa-f8e4-43da-aad5-0abbfefca4f8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c16200bdc10a0b64",
@@ -68,28 +221,13 @@
     "horodatage_utc": "2026-10-12T18:04:50+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3e2a900f-e5a9-4aed-b773-ed6175460f7c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8ec7ca3102b6ab3a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-    "horodatage_utc": "2026-10-12T17:15:21+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c08519dc06f27507",
@@ -128,13 +266,13 @@
     "horodatage_utc": "2026-10-12T16:14:24+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1sn",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "61a44be6abf28e52",
@@ -350,7 +488,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2dae72496e09240e",
@@ -1687,142 +1825,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "6d67247d73828cd0",
-    "categorie": "geopolitique",
-    "titre_affiche": "US 10-year Treasury yields risk hitting 6% for first time since 2000, Pimco says",
-    "horodatage_utc": "2026-10-09T04:00:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a752a86c-cf05-4152-b842-2ae6b6bf3fe0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0b5e69cbc967881e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why bank stocks are falling despite surging interest rates",
-    "horodatage_utc": "2026-10-09T04:00:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/83993bb2-35dd-4ae1-a4b2-8b6c3762a84b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "eea382aadd22e745",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI ‘deepfakes’ give US political attack ads a new twist",
-    "horodatage_utc": "2026-10-09T04:00:12+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/42fea52e-a4de-4613-b409-ca52d0a2aac2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2ffbf92a4175c6bb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
-    "horodatage_utc": "2026-10-09T03:51:15+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7db82043ad7e7a51",
-    "categorie": "geopolitique",
-    "titre_affiche": "US to publicly execute former soldier by firing squad",
-    "horodatage_utc": "2026-10-08T22:28:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0c390d03-427f-40a8-b5cb-d12c8d925d9d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "70266e855db35e72",
-    "categorie": "geopolitique",
-    "titre_affiche": "Pentagon to livestream execution of former soldier by firing squad",
-    "horodatage_utc": "2026-10-08T22:28:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0c390d03-427f-40a8-b5cb-d12c8d925d9d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "a2c1dd82e780f780",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cramer says Thursday's AI sell-off proves the value of this age-old investing strategy",
-    "horodatage_utc": "2026-10-08T22:15:53+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/jim-cramer-diversification-ai-selloff.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9c3482452a44e419",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
-    "horodatage_utc": "2026-10-08T21:19:14+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "17ec999b0654f230",
-    "categorie": "geopolitique",
-    "titre_affiche": "US justice department orders playbook refresh for frauds on government",
-    "horodatage_utc": "2026-10-08T20:35:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/dbcc35ba-db23-4be3-b2c0-4a0d8ecb7375?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]
