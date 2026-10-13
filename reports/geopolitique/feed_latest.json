@@ -1,13 +1,137 @@
 [
   {
+    "id": "0ffb792a205e256e",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.1 - 17 km W of Río Grande, Panama",
+    "horodatage_utc": "2026-10-13T10:18:41+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wn",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b8a147d933d7788c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
+    "horodatage_utc": "2026-10-13T10:03:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9ed8565d44532a5e",
+    "categorie": "geopolitique",
+    "titre_affiche": "JPMorgan earnings miss expectations as bond trading revenues fall",
+    "horodatage_utc": "2026-10-13T09:42:00+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/56f4a46e-3ae5-4aea-8cf3-71506b286091",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "feb8bf69cc716ce0",
+    "categorie": "geopolitique",
+    "titre_affiche": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+    "horodatage_utc": "2026-10-13T09:03:46+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "347ff1423ff4104d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Micron, SoftBank and ASML slide as Wall Street chip rout spreads",
+    "horodatage_utc": "2026-10-13T08:56:10+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d321a530895a152d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic warns AI models could soon copy themselves across home devices",
+    "horodatage_utc": "2026-10-13T08:27:20+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d0718295ae3fbfcc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+    "horodatage_utc": "2026-10-13T06:20:55+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d45264f2fae21cea",
+    "categorie": "geopolitique",
+    "titre_affiche": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+    "horodatage_utc": "2026-10-13T05:24:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Croissance et emploi",
+      "Catastrophes naturelles",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "c3007f6db241268d",
     "categorie": "geopolitique",
     "titre_affiche": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
-    "horodatage_utc": "2026-10-13T03:19:43+00:00",
+    "horodatage_utc": "2026-10-13T04:54:07+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Inflation et prix, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Inflation et prix",
@@ -15,21 +139,82 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "c8bf2cbba478916a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Investors brave US Treasury rout to lock in highest yields in decades",
+    "horodatage_utc": "2026-10-13T04:00:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6fa735a2-a590-4461-b092-920ba489e7a8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
-    "id": "0ffb792a205e256e",
+    "id": "1fe8c199e2148331",
     "categorie": "geopolitique",
-    "titre_affiche": "M 6.1 - 17 km W of Río Grande, Panama",
-    "horodatage_utc": "2026-10-13T03:04:22+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wn",
+    "titre_affiche": "The elections that could remake Europe",
+    "horodatage_utc": "2026-10-13T04:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ec433e1f-bdb4-4a1c-868e-e1c7c4121f45?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "ccb45347ca70cba7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why Trump is going for Zelenskyy’s jugular",
+    "horodatage_utc": "2026-10-13T04:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1724a30e-cf50-4a4e-ade8-bca72ea4b9a1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
     ],
     "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "930ab4c2b9cb10ca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Top economies heading for biggest budget deficits since Covid, IMF warns",
+    "horodatage_utc": "2026-10-13T03:35:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c877685b-0f4a-4aa8-b52b-33f4babd1acb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "b7c770c9e8c0f594",
+    "categorie": "geopolitique",
+    "titre_affiche": "Asia warned over zombie companies",
+    "horodatage_utc": "2026-10-13T03:19:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ee4105fc-aa85-47ef-aa64-1fc3f344d740?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -93,18 +278,19 @@
     "nouveaute": true
   },
   {
-    "id": "930ab4c2b9cb10ca",
+    "id": "f94f9432d2cf1c54",
     "categorie": "geopolitique",
-    "titre_affiche": "Top economies heading for biggest budget deficits since Covid, IMF warns",
+    "titre_affiche": "IMF upgrades outlook for UK as AI drives growth spurt",
     "horodatage_utc": "2026-10-13T02:00:07+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c877685b-0f4a-4aa8-b52b-33f4babd1acb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "url_source": "https://www.ft.com/content/4a7a7282-74a5-4d12-8294-6dd0d4802d88?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
+      "Croissance et emploi",
       "Sanctions, accords et diplomatie"
     ],
-    "portee": "contexte",
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -114,13 +300,13 @@
     "horodatage_utc": "2026-10-13T01:26:41+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dc025bf06972421e",
@@ -425,24 +611,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "d45264f2fae21cea",
-    "categorie": "geopolitique",
-    "titre_affiche": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
-    "horodatage_utc": "2026-10-12T08:58:54+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Croissance et emploi",
-      "Catastrophes naturelles",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "influence",
     "nouveaute": false
   },
   {
@@ -1655,173 +1823,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9f5a1d6305ef6a4d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
-    "horodatage_utc": "2026-10-09T14:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "18189c747414d697",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI and Anthropic poach Trump officials as industry fights for Washington’s trust",
-    "horodatage_utc": "2026-10-09T13:49:54+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/09/openai-anthropic-poach-trump-officials.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "23fb5e45a3066885",
-    "categorie": "geopolitique",
-    "titre_affiche": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
-    "horodatage_utc": "2026-10-09T13:03:19+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "aabd6ce9d2fdf902",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI's revenue scare, Delta earnings, what investors think of a Starbucks-Chipotle deal and more in Morning Squawk",
-    "horodatage_utc": "2026-10-09T12:40:30+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/09/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "572b65fe95ae45c1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Blockchain.com seeks U.S. approval for prediction markets, crypto derivatives trading",
-    "horodatage_utc": "2026-10-09T12:01:26+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/09/blockchain-com-cftc-prediction-markets.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ed180449a5c9f273",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine strikes Russian tech giant’s data centres",
-    "horodatage_utc": "2026-10-09T11:55:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "919409ccbc213281",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
-    "horodatage_utc": "2026-10-09T06:30:01+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "18adb0fddd6ff707",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia's internet giant Yandex halts operations at major data center after drone attack",
-    "horodatage_utc": "2026-10-09T06:24:08+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ece1259312bc4b88",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nobel laureate Machado says Venezuela is ‘ready’ for new elections",
-    "horodatage_utc": "2026-10-09T04:23:44+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0d411bea-ee6a-4300-9b1e-cc5a6bba4b7c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1a28177c21088517",
-    "categorie": "geopolitique",
-    "titre_affiche": "'Real boss of India?': Elon Musk takes aim at Indian billionaire Ambani as Starlink launch stalls",
-    "horodatage_utc": "2026-10-09T04:11:59+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/09/musk-starlink-ambani-india-us.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "92f0a5d076c6acdc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Some much-needed American optimism on Europe",
-    "horodatage_utc": "2026-10-09T04:00:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c0bec605-c948-4249-be2d-a76e0e60203b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
     ],
     "portee": "influence",
     "nouveaute": false

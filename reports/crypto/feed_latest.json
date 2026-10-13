@@ -1,11 +1,86 @@
 [
   {
-    "id": "9dd666e42d77e475",
+    "id": "08d3267ca68c985e",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin slides below $82,000 as crypto liquidations surge past $770 million",
-    "horodatage_utc": "2026-10-13T01:57:49+00:00",
+    "titre_affiche": "Live updates: Bitcoin whipsaws between $81,000 and $84,000 as altcoins slide",
+    "horodatage_utc": "2026-10-13T10:46:57+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "43f30aacd968cf49",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
+    "horodatage_utc": "2026-10-13T10:38:51+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/13/bitcoin-diverges-from-south-korean-stocks-as-ai-concerns-deepen-the-kospi-selloff",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2ca8b0f01686c438",
+    "categorie": "crypto",
+    "titre_affiche": "UK court ruling boosts government’s chances of keeping $5 billion in seized bitcoin",
+    "horodatage_utc": "2026-10-13T09:25:03+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/policy/2026/10/13/u-k-court-ruling-boosts-government-s-chances-of-keeping-gbp3-8-billion-seized-bitcoin",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "44351142f93edc8f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin whale that sat through the March 2020 crash moves $378 million",
+    "horodatage_utc": "2026-10-13T05:45:10+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3e902c40d4f5f14c",
+    "categorie": "crypto",
+    "titre_affiche": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
+    "horodatage_utc": "2026-10-13T04:43:18+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a50e0de06c35cf91",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin whale moves $378 million in BTC after six years of dormancy: onchain data",
+    "horodatage_utc": "2026-10-13T04:18:30+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +88,36 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "bd3eb18380f80941",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
+    "horodatage_utc": "2026-10-13T04:18:20+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9dd666e42d77e475",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slides below $82,000 as crypto liquidations surge past $770 million",
+    "horodatage_utc": "2026-10-13T01:57:49+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "c7fdea617a560292",
@@ -1708,112 +1813,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "f95c49bb580bc01a",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin , Dogecoin , Ethereum : Aktuelle Kurse am Mittag",
-    "horodatage_utc": "2026-10-01T11:00:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/nachricht/devisen/bitcoinkurs-co-aktuell-so-steht-es-am-donnerstagmittag-um-die-kurse-der-digitalwaehrungen-15962551",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC, ETH, DOGE. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH",
-      "DOGE"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "acc8000739ffa77f",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoinkurs & Co . aktuell : So steht es am Donnerstagmittag um die Kurse der Digitalwährungen",
-    "horodatage_utc": "2026-10-01T11:00:00+00:00",
-    "source_nom": "GDELT/finanzen.ch",
-    "url_source": "https://www.finanzen.ch/nachrichten/devisen/bitcoinkurs-&-co-aktuell-so-steht-es-am-donnerstagmittag-um-die-kurse-der-digitalwahrungen-1036588906",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "6ab84d3230858af2",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum holds near $2 , 700 after a strong quarter as ETF flows cool - London Business News",
-    "horodatage_utc": "2026-10-01T11:00:00+00:00",
-    "source_nom": "GDELT/londonlovesbusiness.com",
-    "url_source": "https://londonlovesbusiness.com/ethereum-holds-near-2700-after-a-strong-quarter-as-etf-flows-cool/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "294cd52eacdc5a14",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
-    "horodatage_utc": "2026-10-01T10:38:04+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9e877d8b2e69fa88",
-    "categorie": "crypto",
-    "titre_affiche": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
-    "horodatage_utc": "2026-10-01T09:59:30+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "d1ebf17739201c63",
-    "categorie": "crypto",
-    "titre_affiche": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
-    "horodatage_utc": "2026-10-01T07:06:30+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "2c66c9bc07e5e00e",
-    "categorie": "crypto",
-    "titre_affiche": "Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps",
-    "horodatage_utc": "2026-10-01T04:58:52+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "DOGE"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
