@@ -1,5 +1,50 @@
 [
   {
+    "id": "fd5c4ef01ac76e1d",
+    "categorie": "quantique",
+    "titre_affiche": "Infleqtion Receives £9 Million to Develop Quantum RF Sensing System",
+    "horodatage_utc": "2026-10-13T14:43:50+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Infleqtion"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f97a8deb6c7b5ddc",
+    "categorie": "quantique",
+    "titre_affiche": "Google Researchers Propose Using Error Records to Improve Quantum Results After Computation",
+    "horodatage_utc": "2026-10-13T13:05:47+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/10/13/google-researchers-propose-using-error-records-to-improve-quantum-results-after-computation/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Google. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Google"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "27f06752a090fffe",
+    "categorie": "quantique",
+    "titre_affiche": "SkyWater and D-Wave Sign Multi-Year Quantum Manufacturing Agreement",
+    "horodatage_utc": "2026-10-13T11:51:25+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/10/13/skywater-d-wave-manufacturing-agreement/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "f4b55dd12223e159",
     "categorie": "quantique",
     "titre_affiche": "Alice & Bob Decodes LDPC-Cat Codes on GPUs With NVIDIA NVQLink",
@@ -22,13 +67,13 @@
     "horodatage_utc": "2026-10-13T02:41:46+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/google-quantum-ai-introduces-virtual-error-cancellation-for-universal-logical-circuits/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Google. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Google"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3b6f206ea6d66d8a",
@@ -1765,51 +1810,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e1f51e1f3a0e2934",
-    "categorie": "quantique",
-    "titre_affiche": "Alice & Bob Partners with CEA to Integrate Cat Qubit Software into HPC Infrastructure",
-    "horodatage_utc": "2026-09-18T03:01:41+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/alice-bob-partners-with-cea-to-integrate-cat-qubit-software-into-hpc-infrastructure/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Alice & Bob"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "eb8f6e77baa25d5e",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ and Synopsys Accelerate CAE Computer-Aided Engineering Workloads by 14.6% via Trapped-Ion Hardware",
-    "horodatage_utc": "2026-09-17T23:57:12+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ionq-and-synopsys-accelerate-cae-computer-aided-engineering-workloads-by-14-6-via-trapped-ion-hardware/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f314a4c3534a8e74",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ and Synopsys Report Up to 14.6% Faster Engineering Simulations",
-    "horodatage_utc": "2026-09-17T16:22:51+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/17/ionq-synopsys-14-6-percent-faster-engineering-simulations/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": false
