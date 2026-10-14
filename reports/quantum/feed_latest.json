@@ -1,5 +1,20 @@
 [
   {
+    "id": "9d41843f924516b6",
+    "categorie": "quantique",
+    "titre_affiche": "Infleqtion Secures £9 Million ($12 Million USD) Innovate UK Award to Transition Rydberg Quantum RF Sensing to Operational Deployment",
+    "horodatage_utc": "2026-10-14T10:39:17+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/infleqtion-secures-9-million-12-million-usd-innovate-uk-award-to-transition-rydberg-quantum-rf-sensing-to-operational-deployment/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Infleqtion"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "fd5c4ef01ac76e1d",
     "categorie": "quantique",
     "titre_affiche": "Infleqtion Receives £9 Million to Develop Quantum RF Sensing System",
@@ -1795,21 +1810,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c248e646a27d08fd",
-    "categorie": "quantique",
-    "titre_affiche": "USC and Quantum Elements Demonstrate Surface Code Scaling on IBM Heavy-Hex Processors",
-    "horodatage_utc": "2026-09-18T05:36:20+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
     ],
     "portee": "actif_direct",
     "nouveaute": false

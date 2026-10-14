@@ -1,18 +1,172 @@
 [
   {
+    "id": "dd49f8a8c66281ad",
+    "categorie": "geopolitique",
+    "titre_affiche": "US inflation jumps to 3.7% as Iran war drives up prices",
+    "horodatage_utc": "2026-10-14T12:54:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c1e4c8b1-8fe0-414d-b52f-c74a6d927b3d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e668c8c168fb3f11",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bank of America shares drop 7% after third-quarter revenue miss and regulatory penalty",
+    "horodatage_utc": "2026-10-14T12:54:01+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6e602636a3c59332",
+    "categorie": "geopolitique",
+    "titre_affiche": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+    "horodatage_utc": "2026-10-14T12:49:45+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "135beb110ec839dc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Inflation data, Bank of America's penalty, Apple's new home hub and more in Morning Squawk",
+    "horodatage_utc": "2026-10-14T12:45:09+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/14/5-things-to-know-before-the-stock-market-opens.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Inflation et prix, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "46c5fa9ac98fab0d",
+    "categorie": "geopolitique",
+    "titre_affiche": "BofA profits drop 17% after $1.2bn money laundering fine",
+    "horodatage_utc": "2026-10-14T12:19:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a82b4275-6519-4142-b1df-e74c66ead877?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6cf977e99b3ac29d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Europe’s defence stocks send a geopolitical distress signal",
+    "horodatage_utc": "2026-10-14T11:59:38+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c5fb2ea9-9a41-416a-90b8-337936ec4971?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "f8e27b93aec3b026",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine blindsided by Starlink restrictions and intelligence gaps",
+    "horodatage_utc": "2026-10-14T11:09:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/37085602-726a-44dc-a859-51caab38eb75?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "878133699b67dcaf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic urges court in Washington, DC, to rehear appeal of Pentagon blacklisting",
+    "horodatage_utc": "2026-10-14T11:01:42+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d7268229ec920740",
+    "categorie": "geopolitique",
+    "titre_affiche": "CoreWeave targets ‘unlimited’ insurance money to fund AI build-out",
+    "horodatage_utc": "2026-10-14T09:58:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4ffa1853-0e2c-424f-b941-88c6bcac5765?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "da462a654e0715dc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Crypto exchange Kraken owner to buy European bank",
+    "horodatage_utc": "2026-10-14T09:30:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8e82ae33-cc11-4731-826a-bcd0752f79bf?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "2dde2c327980f853",
     "categorie": "geopolitique",
     "titre_affiche": "ASML says it's getting order interest through 2030 as profit smashes expectations",
-    "horodatage_utc": "2026-10-14T07:10:36+00:00",
+    "horodatage_utc": "2026-10-14T08:45:13+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1091ce538d17c3ed",
@@ -1673,156 +1827,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "86b240846c8f28a2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump faces hypocrisy charge over Russian diesel deal after targeting India",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/orissapost.com",
-    "url_source": "https://www.orissapost.com/trump-faces-hypocrisy-charge-over-russian-diesel-deal-after-targeting-india/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/orissapost.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4e958adb7c913f91",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin says Russian oil supplies to US will",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/timesofoman.com",
-    "url_source": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/timesofoman.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "02c5281059028550",
-    "categorie": "geopolitique",
-    "titre_affiche": "BP Plans Bid Under Investment - friendly India Oil & Gas Policy : Meg ONeill",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/bp-plans-bid-under-investment-friendly-india-oil-gas-policy/articleshow/134842812.cms",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "10aad32e31643cec",
-    "categorie": "geopolitique",
-    "titre_affiche": "Naprostá zrada Ukrajiny i Evropy , kritizují demokraté Trumpovu dohodu s Ruskem",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/idnes.cz",
-    "url_source": "https://www.idnes.cz/zpravy/zahranicni/donald-trump-usa-vladimir-putin-nafta.A261010_070803_zahranicni_pluh",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "d840c5628c7eb329",
-    "categorie": "geopolitique",
-    "titre_affiche": "Donald Trump Makes BIG Announcement , Strikes Diesel Deal With Putin , Says Prices Will Come Down Fast",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/oneindia.com",
-    "url_source": "https://www.oneindia.com/international/donald-trump-makes-big-announcement-strikes-diesel-deal-with-putin-says-prices-will-come-down-fas-8230651.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "1e41ee9d5613c871",
-    "categorie": "geopolitique",
-    "titre_affiche": "Hoosiers brace for more gas price changes after a 15 - cent jump in a day",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/wishtv.com",
-    "url_source": "https://www.wishtv.com/news/local-news/hoosiers-brace-for-more-gas-price-changes-after-a-15-cent-jump-in-a-day/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a5e9d0cc75ea40ac",
-    "categorie": "geopolitique",
-    "titre_affiche": "Úplná zrada Ukrajiny a Európy , kritizujú demokrati Trumpovu dohodu s Putinom",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/hnonline.sk",
-    "url_source": "https://hnonline.sk/finweb/zahranicna-ekonomika/96307106-uplna-zrada-ukrajiny-a-europy-kritizuju-demokrati-trumpovu-dohodu-s-putinom",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "64f0cbf78266178d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/news/international/world-news/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions-on-the-war/articleshow/134847184.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1b90543fd2202aec",
-    "categorie": "geopolitique",
-    "titre_affiche": "Centcom says 133 vessels redirected in Hormuz as it enforces Iran blockade",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/middleeasteye.net",
-    "url_source": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-133-vessels-redirected-hormuz-it-enforces-iran-blockade",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "710eb44cf79797e4",
-    "categorie": "geopolitique",
-    "titre_affiche": "RBI steps up rupee support , opens dollar window for oil companies",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/thehindubusinessline.com",
-    "url_source": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-rupee-support-opens-dollar-window-for-oil-companies/article71567043.ece",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
