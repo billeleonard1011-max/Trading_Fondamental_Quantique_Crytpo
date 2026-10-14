@@ -1,11 +1,11 @@
 [
   {
-    "id": "30c44d07f6430153",
+    "id": "e2319875bbb65216",
     "categorie": "crypto",
-    "titre_affiche": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
-    "horodatage_utc": "2026-10-13T23:23:05+00:00",
+    "titre_affiche": "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now",
+    "horodatage_utc": "2026-10-14T05:44:51+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+    "url_source": "https://www.coindesk.com/tech/2026/10/14/coinbase-which-holds-5-of-all-bitcoin-wants-the-quantum-fix-started-now",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,66 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "0a7d6a3a2f7e1e0f",
+    "categorie": "crypto",
+    "titre_affiche": "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality",
+    "horodatage_utc": "2026-10-14T04:11:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b630f2f9b5face75",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
+    "horodatage_utc": "2026-10-14T03:50:54+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0f6a3e82a3d13aa5",
+    "categorie": "crypto",
+    "titre_affiche": "Coinbase lays out flexible designs as key priority for Bitcoin’s post-quantum migration",
+    "horodatage_utc": "2026-10-14T02:49:34+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "30c44d07f6430153",
+    "categorie": "crypto",
+    "titre_affiche": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
+    "horodatage_utc": "2026-10-13T23:23:05+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "ea2d9145bfa4f712",
@@ -1746,67 +1806,6 @@
     "horodatage_utc": "2026-10-02T00:22:58+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b8ca8f49be2fd8dd",
-    "categorie": "crypto",
-    "titre_affiche": "Citi raises Bitcoin forecast to $113 , 000 , Ether to $3 , 028",
-    "horodatage_utc": "2026-10-02T00:15:00+00:00",
-    "source_nom": "GDELT/americanbazaaronline.com",
-    "url_source": "https://americanbazaaronline.com/2026/10/01/citi-raises-bitcoin-forecast-to-113000-ether-to-3028-489204/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "81fd59fc2b689e6c",
-    "categorie": "crypto",
-    "titre_affiche": "Captive insurance technology news | Bitcoin Life receives Guernsey life insurance licence",
-    "horodatage_utc": "2026-10-01T23:15:00+00:00",
-    "source_nom": "GDELT/captiveinsurancetimes.com",
-    "url_source": "https://www.captiveinsurancetimes.com/captiveinsurancenews/technologyarticle.php?article_id=10646&navigationaction=latestnews&page=1&newssection=technology",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "8a9e777f9033dd83",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin tăng hơn 40 %, vượt xa vàng và chứng khoán",
-    "horodatage_utc": "2026-10-01T23:15:00+00:00",
-    "source_nom": "GDELT/vietbao.vn",
-    "url_source": "https://vietbao.vn/bitcoin-tang-hon-40-vuot-xa-vang-va-chung-khoan-609495.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "47df28c29b5ed3e0",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum staking reward burn proposal EIP-8363 pulled from Hegota upgrade",
-    "horodatage_utc": "2026-10-01T16:17:23+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-10-01-ethereum-staking-reward-burn-proposal-eip-8363-pulled-hegota-upgrade-417419",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

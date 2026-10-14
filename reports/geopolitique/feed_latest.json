@@ -1,18 +1,110 @@
 [
   {
+    "id": "2dde2c327980f853",
+    "categorie": "geopolitique",
+    "titre_affiche": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+    "horodatage_utc": "2026-10-14T07:10:36+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1091ce538d17c3ed",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI demand to exceed supply for 2 more years, says ASML",
+    "horodatage_utc": "2026-10-14T06:50:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2fc239ae-b0d4-41e8-81d0-cc2c0b3aba01?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6458a5af81d68533",
+    "categorie": "geopolitique",
+    "titre_affiche": "Germany puts Ukrainian ex-officer in the dock over Nord Stream sabotage",
+    "horodatage_utc": "2026-10-14T04:00:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8c3c631c-e37f-4209-aefd-112c4c58020c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6208b9bb851ea3a4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Military briefing: Houthis expose limits of Saudi Arabia’s vast arsenal",
+    "horodatage_utc": "2026-10-14T04:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/afa0a322-ad2a-4d49-aa0e-81f15a01c3a7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f35330f05ecfa2c2",
+    "categorie": "geopolitique",
+    "titre_affiche": "China’s exports surge 36% as AI-related shipments boom",
+    "horodatage_utc": "2026-10-14T03:56:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4eab6c20-60d6-46b6-accd-2e04edfa541d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1ab423f59df2fa25",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi Aramco HQ attacked in suspected Houthi strike",
+    "horodatage_utc": "2026-10-14T02:20:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "e7ea0ad1b6313c36",
     "categorie": "geopolitique",
     "titre_affiche": "Anthropic urges court in Washington, D.C. to rehear appeal of Pentagon blacklisting",
     "horodatage_utc": "2026-10-14T01:35:51+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "61727801f4312b83",
@@ -36,13 +128,13 @@
     "horodatage_utc": "2026-10-13T23:05:12+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c65ea1764c5281f2",
@@ -55,22 +147,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1ab423f59df2fa25",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi Aramco HQ attacked in suspected Houthi strike",
-    "horodatage_utc": "2026-10-13T22:00:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1748,81 +1824,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "f604cf245ab94130",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold : ETF - Zuflüsse erreichen 31 Milliarden",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/boerse-express.com",
-    "url_source": "https://www.boerse-express.com/news/articles/gold-etf-zufluesse-erreichen-31-milliarden-952008",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "8cf8a04cb472ccfa",
-    "categorie": "geopolitique",
-    "titre_affiche": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/jpost.com",
-    "url_source": "http://www.jpost.com/middle-east/article-911021",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/jpost.com. Elle se rattache à : Israël - Gaza, Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3102981b95a638d6",
-    "categorie": "geopolitique",
-    "titre_affiche": "A U . S .- brokered ceasefire was supposed to end the war in Gaza . A year later , progress has stalled",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/japantoday.com",
-    "url_source": "https://japantoday.com/category/world/a-us-brokered-ceasefire-was-supposed-to-end-the-war-in-gaza.-a-year-later-progress-has-stalled",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/japantoday.com. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b8325a746a2c3889",
-    "categorie": "geopolitique",
-    "titre_affiche": "Minister issues hard no on Russian diesel imports",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/canberratimes.com.au",
-    "url_source": "https://www.canberratimes.com.au/story/9365986/minister-issues-hard-no-on-russian-diesel-imports/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/canberratimes.com.au. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a88e25eb07aca886",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oglasio se Putin nakon razgovora sa Trampom",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/danas.rs",
-    "url_source": "https://www.danas.rs/svet/putin-tramp-nafta/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/danas.rs. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]
