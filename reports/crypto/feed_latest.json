@@ -1,26 +1,11 @@
 [
   {
-    "id": "2d8c747dfb68afbe",
+    "id": "de148b995aed4637",
     "categorie": "crypto",
-    "titre_affiche": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
-    "horodatage_utc": "2026-10-14T12:33:56+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "d0c9511955c6297b",
-    "categorie": "crypto",
-    "titre_affiche": "How Bitcoin Works",
-    "horodatage_utc": "2026-10-14T11:52:16+00:00",
+    "titre_affiche": "Bitcoin falls below $82,000 as hotter core CPI revives Fed hike concerns",
+    "horodatage_utc": "2026-10-14T16:51:54+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/learn/campus/how-bitcoin-works-417659",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -30,12 +15,12 @@
     "nouveaute": true
   },
   {
-    "id": "3a84d3539ef4ae87",
+    "id": "12312241870822bc",
     "categorie": "crypto",
-    "titre_affiche": "Here's how analysts see U.S. inflation influencing bitcoin",
-    "horodatage_utc": "2026-10-14T11:15:00+00:00",
+    "titre_affiche": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
+    "horodatage_utc": "2026-10-14T15:05:15+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/10/14/here-s-how-analysts-see-u-s-inflation-influencing-bitcoin",
+    "url_source": "https://www.coindesk.com/coindesk-indices/2026/10/14/crypto-long-and-short-why-gold-and-bitcoin-belong-in-the-same-portfolio",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -43,6 +28,81 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "7986f438904b3f79",
+    "categorie": "crypto",
+    "titre_affiche": "Strive buys $235 million in bitcoin as warrant exercises yield $369 million",
+    "horodatage_utc": "2026-10-14T14:32:39+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-10-14-strive-buys-235-million-in-bitcoin-warrant-yield-369-million-418556",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "4ae17aa50aea6dda",
+    "categorie": "crypto",
+    "titre_affiche": "Strategy’s preferred stock financing may cost it bitcoin, K33 argues",
+    "horodatage_utc": "2026-10-14T13:20:46+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-14-strategys-preferred-stock-financing-may-cost-it-bitcoin-k33-argues-418543",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2d8c747dfb68afbe",
+    "categorie": "crypto",
+    "titre_affiche": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
+    "horodatage_utc": "2026-10-14T12:33:56+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "d0c9511955c6297b",
+    "categorie": "crypto",
+    "titre_affiche": "How Bitcoin Works",
+    "horodatage_utc": "2026-10-14T11:52:16+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/learn/campus/how-bitcoin-works-417659",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "3a84d3539ef4ae87",
+    "categorie": "crypto",
+    "titre_affiche": "Here's how analysts see U.S. inflation influencing bitcoin",
+    "horodatage_utc": "2026-10-14T11:15:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/14/here-s-how-analysts-see-u-s-inflation-influencing-bitcoin",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "54816c7d45dc0f74",
@@ -51,6 +111,21 @@
     "horodatage_utc": "2026-10-14T10:51:39+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/14/bitcoin-holds-above-usd83-000-ahead-of-u-s-inflation-data-as-altcoins-lag",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "26619562b2de6d30",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin tumbles more than 1% after hot inflation report",
+    "horodatage_utc": "2026-10-14T09:45:53+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -60,9 +135,9 @@
     "nouveaute": true
   },
   {
-    "id": "26619562b2de6d30",
+    "id": "5d4296a39359da91",
     "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin tumbles more than 1% after hot inflation report",
+    "titre_affiche": "Live updates: Bitcoin falls back to $82,000 after inflation rises more than forecast",
     "horodatage_utc": "2026-10-14T09:45:53+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
@@ -81,14 +156,14 @@
     "horodatage_utc": "2026-10-14T08:10:07+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/14/standard-chartered-unlocks-direct-bitcoin-and-ether-trading-for-affluent-uae-clients",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e2319875bbb65216",
@@ -1734,82 +1809,6 @@
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "aecf215d383339dc",
-    "categorie": "crypto",
-    "titre_affiche": "Tether's USDT is 'coming home' to Bitcoin after more than a decade",
-    "horodatage_utc": "2026-10-02T08:28:19+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/09/29/tether-s-usdt-is-coming-home-to-bitcoin-this-month-after-more-than-a-decade",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a4615be33159329a",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin tops $86,000 ahead of U.S. jobs report",
-    "horodatage_utc": "2026-10-02T08:11:54+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/02/bitcoin-tops-usd86-000-ahead-of-u-s-jobs-report",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "79d66611babf74d4",
-    "categorie": "crypto",
-    "titre_affiche": "Spot bitcoin ETFs log $2.7 billion in September inflows as institutional demand holds",
-    "horodatage_utc": "2026-10-02T05:50:41+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-02-spot-bitcoin-etfs-september-inflows-417547",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "1e604991cd1b5bd0",
-    "categorie": "crypto",
-    "titre_affiche": "10 - Year Treasury Yield Nears 6 %: 4 Bitcoin Signals",
-    "horodatage_utc": "2026-10-02T04:00:00+00:00",
-    "source_nom": "GDELT/memeburn.com",
-    "url_source": "https://memeburn.com/treasury-yield-bitcoin/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/memeburn.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "e43e1b2a40e26dbf",
-    "categorie": "crypto",
-    "titre_affiche": "SEC , bitcoin : proposal to make it easier for funds to hold crypto",
-    "horodatage_utc": "2026-10-02T03:45:00+00:00",
-    "source_nom": "GDELT/cnbc.com",
-    "url_source": "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/cnbc.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": true

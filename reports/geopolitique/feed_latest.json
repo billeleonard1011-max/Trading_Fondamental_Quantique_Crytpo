@@ -1,18 +1,110 @@
 [
   {
+    "id": "edb2cb584717d7b4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Burnham wants to ‘repair bridges’ between Trump and Zelenskyy",
+    "horodatage_utc": "2026-10-14T17:23:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/16ceb1fb-662c-4379-8187-0a51a7f4106f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d5f8eabb5cac5454",
+    "categorie": "geopolitique",
+    "titre_affiche": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+    "horodatage_utc": "2026-10-14T17:06:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e0f2502b4b680db2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+    "horodatage_utc": "2026-10-14T16:49:11+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "dd49f8a8c66281ad",
     "categorie": "geopolitique",
     "titre_affiche": "US inflation jumps to 3.7% as Iran war drives up prices",
-    "horodatage_utc": "2026-10-14T12:54:56+00:00",
+    "horodatage_utc": "2026-10-14T16:18:45+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c1e4c8b1-8fe0-414d-b52f-c74a6d927b3d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "da9b431ba1cde49e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netflix to cut 1,000 jobs as growth concerns mount",
+    "horodatage_utc": "2026-10-14T14:57:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5f1b2f31-2067-4c3a-8093-54210a7c0e72?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "c3156fdeca3efd91",
+    "categorie": "geopolitique",
+    "titre_affiche": "US grocery prices poised to climb as soaring fuel costs drive inflation",
+    "horodatage_utc": "2026-10-14T14:14:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/13929c26-1c01-41b2-b81a-d337fa5c9d27?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "61727801f4312b83",
+    "categorie": "geopolitique",
+    "titre_affiche": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+    "horodatage_utc": "2026-10-14T13:25:24+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
   },
   {
     "id": "e668c8c168fb3f11",
@@ -52,14 +144,14 @@
     "horodatage_utc": "2026-10-14T12:45:09+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/14/5-things-to-know-before-the-stock-market-opens.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Inflation et prix, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Inflation et prix",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "46c5fa9ac98fab0d",
@@ -99,13 +191,13 @@
     "horodatage_utc": "2026-10-14T11:09:54+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/37085602-726a-44dc-a859-51caab38eb75?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "878133699b67dcaf",
@@ -114,13 +206,13 @@
     "horodatage_utc": "2026-10-14T11:01:42+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d7268229ec920740",
@@ -256,21 +348,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "61727801f4312b83",
-    "categorie": "geopolitique",
-    "titre_affiche": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
-    "horodatage_utc": "2026-10-14T00:13:45+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
     ],
     "portee": "contexte",
     "nouveaute": false
@@ -1749,83 +1826,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "0ef222ff12178eed",
-    "categorie": "geopolitique",
-    "titre_affiche": "India’s central bank tries to shore up rupee as it nears record lows",
-    "horodatage_utc": "2026-10-10T11:57:36+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b373cf00-9a94-4dc7-bdda-bc7006da1148?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis",
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "685cce1adfbbbc2e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi flagship summits under pressure after deadly airport attacks",
-    "horodatage_utc": "2026-10-10T11:16:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e29fd05b-9e71-474c-906e-c3fd45dfaa03?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "00ebf1b7464648ab",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia GPUs are everywhere. Here are the ways companies are accessing them",
-    "horodatage_utc": "2026-10-10T11:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/10/nvidia-gpus-are-everywhere-heres-how-companies-access-them.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ac137e45e0f0d5de",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nixonmaxxing: the strange revival of America’s disgraced president",
-    "horodatage_utc": "2026-10-10T10:00:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e3945b16-13f0-4640-882d-fafaca9d25e9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "1c34a563c641d8fc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Brent commands a war premium as Middle East supply risks keep oil on edge",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
