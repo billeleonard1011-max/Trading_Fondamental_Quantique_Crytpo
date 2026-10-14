@@ -1,18 +1,63 @@
 [
   {
+    "id": "e7ea0ad1b6313c36",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic urges court in Washington, D.C. to rehear appeal of Pentagon blacklisting",
+    "horodatage_utc": "2026-10-14T01:35:51+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "61727801f4312b83",
+    "categorie": "geopolitique",
+    "titre_affiche": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+    "horodatage_utc": "2026-10-14T00:13:45+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "7d981280ba8d66d5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
+    "horodatage_utc": "2026-10-13T23:05:12+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "c65ea1764c5281f2",
     "categorie": "geopolitique",
     "titre_affiche": "Jim Cramer isn't giving up on semiconductor stocks despite the sell off. Here's why",
     "horodatage_utc": "2026-10-13T22:19:29+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/13/jim-cramer-semiconductor-stocks-sell-off.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1ab423f59df2fa25",
@@ -21,29 +66,14 @@
     "horodatage_utc": "2026-10-13T22:00:20+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "61727801f4312b83",
-    "categorie": "geopolitique",
-    "titre_affiche": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
-    "horodatage_utc": "2026-10-13T21:44:46+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7edd244e84e55a41",
@@ -52,13 +82,13 @@
     "horodatage_utc": "2026-10-13T21:15:32+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/13/judge-says-elon-musk-engaged-intimidation-of-ex-fema-cfo-mary-comans.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0a4072638cb76b51",
@@ -67,13 +97,13 @@
     "horodatage_utc": "2026-10-13T21:10:14+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "89f2403ecd8c431b",
@@ -82,13 +112,13 @@
     "horodatage_utc": "2026-10-13T20:48:37+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2db0c4fda9ed5b04",
@@ -112,13 +142,13 @@
     "horodatage_utc": "2026-10-13T20:12:36+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4bbdb1e711834c6c",
@@ -142,13 +172,13 @@
     "horodatage_utc": "2026-10-13T20:00:06+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c08dd4a1-74a4-49f2-90f7-0857c6e87868?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7a68018294e1d655",
@@ -163,7 +193,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c4a616d6477516e8",
@@ -178,7 +208,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ad8beae31abea875",
@@ -348,7 +378,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c62647e03edb5d8d",
@@ -408,7 +438,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9ed8565d44532a5e",
@@ -1793,36 +1823,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "32f495ca992e3160",
-    "categorie": "geopolitique",
-    "titre_affiche": "As Russia escalates its war , the EU realises its support for Ukraine wont be enough",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/euronews.com",
-    "url_source": "https://www.euronews.com/2026/10/10/as-russia-escalates-its-war-the-eu-admits-its-support-for-ukraine-wont-be-enough",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/euronews.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e74e75fb597a25bd",
-    "categorie": "geopolitique",
-    "titre_affiche": "A US - brokered ceasefire was supposed to end the war in Gaza . A year later , progress has stalled",
-    "horodatage_utc": "2026-10-10T06:45:00+00:00",
-    "source_nom": "GDELT/newsday.com",
-    "url_source": "https://www.newsday.com/news/nation/israel-palestinians-hamas-war-gaza-ceasefire-explainer-p59012",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/newsday.com. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
