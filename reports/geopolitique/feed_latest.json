@@ -1,33 +1,156 @@
 [
   {
-    "id": "edb2cb584717d7b4",
+    "id": "6f2e0f63a41a8a9a",
     "categorie": "geopolitique",
-    "titre_affiche": "Burnham wants to ‘repair bridges’ between Trump and Zelenskyy",
-    "horodatage_utc": "2026-10-14T17:23:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/16ceb1fb-662c-4379-8187-0a51a7f4106f?syn-25a6b1a6=1",
+    "titre_affiche": "OpenAI sued by 8 states over ChatGPT safety concerns",
+    "horodatage_utc": "2026-10-14T21:09:20+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
+      "Élections et politique intérieure"
     ],
-    "portee": "influence",
+    "portee": "contexte",
     "nouveaute": true
   },
   {
     "id": "d5f8eabb5cac5454",
     "categorie": "geopolitique",
     "titre_affiche": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-    "horodatage_utc": "2026-10-14T17:06:17+00:00",
+    "horodatage_utc": "2026-10-14T20:46:32+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "a64073765f2adf2c",
+    "categorie": "geopolitique",
+    "titre_affiche": "US chip stocks slide as inflation and AI debt fears unsettle investors",
+    "horodatage_utc": "2026-10-14T20:36:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fb258413-e88d-47fe-98c8-f645adaea1e1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "9156888263b1033e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anduril employee tender offer would value the defense tech startup at $90 billion",
+    "horodatage_utc": "2026-10-14T20:24:13+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/14/anduril-tender-offer-valuation.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "df058ee81a244f67",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
+    "horodatage_utc": "2026-10-14T20:20:46+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d83255b0b3b79ce9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
+    "horodatage_utc": "2026-10-14T20:19:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b2765afc1e3df0aa",
+    "categorie": "geopolitique",
+    "titre_affiche": "Perella Weinberg and Piper Sandler abandon merger talks",
+    "horodatage_utc": "2026-10-14T20:16:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/dadac221-a4dd-4935-897e-7f7faebe8f17?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2dbf2d58f53b9aa3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+    "horodatage_utc": "2026-10-14T20:06:28+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dd49f8a8c66281ad",
+    "categorie": "geopolitique",
+    "titre_affiche": "US inflation jumps to 3.7% as Iran war drives up prices",
+    "horodatage_utc": "2026-10-14T20:06:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c1e4c8b1-8fe0-414d-b52f-c74a6d927b3d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "edb2cb584717d7b4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Burnham wants to ‘repair bridges’ between Trump and Zelenskyy",
+    "horodatage_utc": "2026-10-14T17:23:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/16ceb1fb-662c-4379-8187-0a51a7f4106f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "e0f2502b4b680db2",
@@ -44,21 +167,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "dd49f8a8c66281ad",
-    "categorie": "geopolitique",
-    "titre_affiche": "US inflation jumps to 3.7% as Iran war drives up prices",
-    "horodatage_utc": "2026-10-14T16:18:45+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c1e4c8b1-8fe0-414d-b52f-c74a6d927b3d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "da9b431ba1cde49e",
@@ -1716,113 +1824,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "17bca103e855b930",
-    "categorie": "geopolitique",
-    "titre_affiche": "Riyadh airport suspends operations after missile strike injures dozens",
-    "horodatage_utc": "2026-10-10T18:28:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "b0aec6a820174601",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.0 - 7 km N of La Tronosa, Panama",
-    "horodatage_utc": "2026-10-10T18:23:36+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "15b1015415be2669",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia in talks to acquire US ‘open’ model start-up Reflection AI",
-    "horodatage_utc": "2026-10-10T18:14:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "57d5c63639b7bb77",
-    "categorie": "geopolitique",
-    "titre_affiche": "US warns Kyiv that strikes on Russia jeopardise intelligence-sharing",
-    "horodatage_utc": "2026-10-10T17:42:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7fd4dffc-8adf-4ad8-9fba-333e1ced991d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6f532410777c3804",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump tells Ukraine to ‘get a new leader’ as US threatens to cut off intelligence-sharing",
-    "horodatage_utc": "2026-10-10T17:42:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7fd4dffc-8adf-4ad8-9fba-333e1ced991d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8ae661337d354bde",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 7.7 - 12 km WSW of Pitaloza Arriba, Panama",
-    "horodatage_utc": "2026-10-10T16:08:07+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "832e25b5ef6affc3",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.6 - 14 km W of Río Grande, Panama",
-    "horodatage_utc": "2026-10-10T15:44:30+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
     "nouveaute": false
