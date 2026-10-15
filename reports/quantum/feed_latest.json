@@ -1,18 +1,33 @@
 [
   {
+    "id": "422a5f9a160ddcad",
+    "categorie": "quantique",
+    "titre_affiche": "Riverlane and NVIDIA Demonstrate Accelerated QEC Decoder Calibration Using GPU Processing",
+    "horodatage_utc": "2026-10-14T22:45:55+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "72026ba093a760a1",
     "categorie": "quantique",
     "titre_affiche": "IonQ Announces Pricing of $2.0 Billion Equity Offering Purchased by Heights Capital Management",
     "horodatage_utc": "2026-10-14T21:07:35+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ionq-announces-pricing-of-2-0-billion-equity-offering-purchased-by-heights-capital-management/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9867aee309a9d095",
@@ -1796,21 +1811,6 @@
     "analyse_interne": "Actualité relayée par GDELT/dailypolitical.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
       "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "5331eaf5cf0e2da9",
-    "categorie": "quantique",
-    "titre_affiche": "Rigetti Computing ( NASDAQ : RGTI ) Trading Up 4 . 9 % – Here Why",
-    "horodatage_utc": "2026-09-21T21:45:00+00:00",
-    "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/09/21/rigetti-computing-nasdaqrgti-trading-up-4-9-heres-why.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : RGTI. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "RGTI"
     ],
     "portee": "actif_direct",
     "nouveaute": true

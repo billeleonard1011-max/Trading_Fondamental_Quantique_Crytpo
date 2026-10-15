@@ -1,5 +1,66 @@
 [
   {
+    "id": "682c0eaa2006e292",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin drops below $81,000 as risk-off sentiment weighs on Asian equities",
+    "horodatage_utc": "2026-10-15T04:38:48+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dc3f25a91fbe1291",
+    "categorie": "crypto",
+    "titre_affiche": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
+    "horodatage_utc": "2026-10-15T04:25:15+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f2c63ef414b3df20",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
+    "horodatage_utc": "2026-10-15T04:13:56+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5848e6fe79f4b2c1",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
+    "horodatage_utc": "2026-10-15T03:57:45+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "a602a31fa76fbc19",
     "categorie": "crypto",
     "titre_affiche": "Major shareholder presses SkyAI on Solana sales after treasury shrinks 70% in a month",
@@ -1744,66 +1805,6 @@
     "horodatage_utc": "2026-10-02T13:34:40+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-10-02-bitcoin-nears-highest-level-january-85000-sell-wall-clears-us-jobs-data-disappoints-417570",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f75d31d785f19479",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin reverses big early gains following soft U.S. jobs data",
-    "horodatage_utc": "2026-10-02T11:22:40+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/02/live-updates-bitcoin-gold-and-tech-futures-edge-higher-as-markets-await-u-s-jobs-report",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "31fd200f7ab4efdb",
-    "categorie": "crypto",
-    "titre_affiche": "Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%",
-    "horodatage_utc": "2026-10-02T10:31:16+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/02/crypto-traders-are-in-risk-on-mode-as-bitcoin-dominance-nears-return-to-60",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "907f72a8a70ecb6d",
-    "categorie": "crypto",
-    "titre_affiche": "Why rising perpetual funding rates signal growing bullish leverage as bitcoin crosses $86,500",
-    "horodatage_utc": "2026-10-02T09:14:21+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "2191242c24120291",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin open interest jumps $2.3 billion as traders pay more for bullish positions",
-    "horodatage_utc": "2026-10-02T09:14:21+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

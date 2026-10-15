@@ -1,18 +1,140 @@
 [
   {
+    "id": "2f2ebb121986c33d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global AI sell-off deepens as Asian markets tumble",
+    "horodatage_utc": "2026-10-15T04:04:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ea546b329c1f5c25",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine to resume strikes on Russian refineries, Zelenskyy says",
+    "horodatage_utc": "2026-10-15T04:00:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4d79b52f-1f0d-4739-82ab-7ecfb4251326?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2d8ed858ddc4551d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Investors predict new record price for gold within two years",
+    "horodatage_utc": "2026-10-15T04:00:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7761de04-7fac-4f7b-bddb-8457e425b642?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1b679dd2e05d2f24",
+    "categorie": "geopolitique",
+    "titre_affiche": "London’s gold market enjoys the Trump effect",
+    "horodatage_utc": "2026-10-15T04:00:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bbb1d399-e91c-4600-9882-ea93e1f96ac9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Or et métaux précieux, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Élections et politique intérieure"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dcac4452da714bb9",
+    "categorie": "geopolitique",
+    "titre_affiche": "The man who would lead McKinsey",
+    "horodatage_utc": "2026-10-15T04:00:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ff917929-c68e-4bf6-b77f-ee1f7d675934?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "9c08422d377dcc77",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+    "horodatage_utc": "2026-10-15T02:55:00+00:00",
+    "source_nom": "Federal Reserve - discours et auditions",
+    "url_source": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0df30ae92706d2cf",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+    "horodatage_utc": "2026-10-15T01:07:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f9e4ff1ed432c2e3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+    "horodatage_utc": "2026-10-15T00:59:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ff28c44ab219b40f",
     "categorie": "geopolitique",
     "titre_affiche": "M 4.5 - 82 km SSW of Mil’kovo, Russia",
     "horodatage_utc": "2026-10-14T23:35:48+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "119fef8033b96ca3",
@@ -21,13 +143,13 @@
     "horodatage_utc": "2026-10-14T23:09:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f8e27b93aec3b026",
@@ -1705,127 +1827,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "78f17817527393c8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Democrats need a foreign policy",
-    "horodatage_utc": "2026-10-11T15:13:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/dddba87c-3ed9-4cb5-8fe2-1b1dcc71da6f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "a1b3044aade4367d",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI’s quiet safety gatekeepers are stepping into the spotlight",
-    "horodatage_utc": "2026-10-11T14:08:44+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bf199d0d1ed57363",
-    "categorie": "geopolitique",
-    "titre_affiche": "Houthis show military reach with deadly missile strikes on Riyadh",
-    "horodatage_utc": "2026-10-11T13:04:47+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/bd2c7385-184e-425e-997f-0f5a8c54184e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "49cf8f311903bf18",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.6 - 82 km E of Petropavlovsk-Kamchatsky, Russia",
-    "horodatage_utc": "2026-10-11T11:36:41+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1k3",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "75e8163f8934a66d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Missile strike on Riyadh airport kills 12 and injures hundreds",
-    "horodatage_utc": "2026-10-11T09:48:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b20fe53bfa3a5acc",
-    "categorie": "geopolitique",
-    "titre_affiche": "US justice department probes TV networks over Trump pool coverage",
-    "horodatage_utc": "2026-10-11T04:28:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3004a030-d64e-4ff7-a70d-ea379b4784af?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "20e8e9867d467047",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia steps up bid to kill European defence chiefs, spy agencies warn",
-    "horodatage_utc": "2026-10-11T04:00:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5da2dd05-9583-4a75-b018-2c5024383ec4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b8c86e6f741e887f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump is failing to arrest decline in popularity, FT poll shows",
-    "horodatage_utc": "2026-10-11T04:00:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f6d29414-412d-4422-a5f4-cb3338f73d3a",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   }
 ]
