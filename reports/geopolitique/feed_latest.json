@@ -1,5 +1,277 @@
 [
   {
+    "id": "d8f1bd9330744db1",
+    "categorie": "geopolitique",
+    "titre_affiche": "EU leaders to urge Zelenskyy to rein in criticism of Trump",
+    "horodatage_utc": "2026-10-15T10:05:55+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fb2110b4-50d2-4ff9-9886-f7b42c5b4579?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d90ec7fa0958a9d6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Germany AfD and populist BSW pass motion to end aid for Ukraine",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/thelocal.de",
+    "url_source": "https://www.thelocal.de/20261015/germanys-afd-and-populist-bsw-pass-motion-to-end-aid-for-ukraine",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/thelocal.de. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "27bd4ffad60f98c3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine resumes attacks on Russian oil refineries , officials say , after brief truce",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/mankatofreepress.com",
+    "url_source": "https://www.mankatofreepress.com/news/business/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-after-brief-truce/article_561af0fd-3dc3-5b14-a87f-cae68c579826.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/mankatofreepress.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fa4782ad28330870",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukrainian drones are forced to slow down by sudden restrictions on use of Starlink",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/mankatofreepress.com",
+    "url_source": "https://www.mankatofreepress.com/news/business/ukrainian-drones-are-forced-to-slow-down-by-sudden-restrictions-on-use-of-starlink/article_edf28a5c-4b18-531d-b1c4-2e5924abaf4c.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/mankatofreepress.com. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b0098ee5b74ba5cb",
+    "categorie": "geopolitique",
+    "titre_affiche": "To będzie najważniejszy serial o podróżach w kosmosie ? Amazon tworzy nowe superwidowisko i ogłosił główną obsadę",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/gram.pl",
+    "url_source": "https://www.gram.pl/news/to-bedzie-najwazniejszy-serial-o-podrozach-w-kosmosie-amazon-tworzy-nowe-superwidowisko-i-oglosil-glowna-obsade",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/gram.pl. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c6a3160c825ee3aa",
+    "categorie": "geopolitique",
+    "titre_affiche": "CNN : JAV svarsto numesti ant Irano „ visų bombų motiną",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/15min.lt",
+    "url_source": "https://www.15min.lt/naujiena/aktualu/pasaulis/cnn-jav-svarsto-numesti-ant-irano-visu-bombu-motina-57-2785468",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/15min.lt. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d3f79d09a83a3097",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ρωσία : Φωτιά σε διυλιστήριο του Ριαζάν από επίθεση ουκρανικού drone – Τρεις νεκροί στην κεντρική Ουκρανία",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/onalert.gr",
+    "url_source": "https://www.onalert.gr/kosmos/rosia-fotia-se-diylistirio-tou-riazan-apo-epithesi-oukranikou-drone-treis-nekroi-stin-kentriki-oukrania/826403/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/onalert.gr. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a4222f4c983c4856",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bulgaria says Russia was likely behind Black Sea drone strikes",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/naharnet.com",
+    "url_source": "https://www.naharnet.com/stories/en/323110-bulgaria-says-russia-was-likely-behind-black-sea-drone-strikes",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/naharnet.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "29c04a9eeb5bf0d0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Wie „ in alten Zeiten : Trump will Informanten erschießen lassen",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/az-online.de",
+    "url_source": "https://www.az-online.de/politik/wie-in-den-alten-zeiten-trump-will-informanten-erschiessen-lassen-zr-94542070.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "190bd6c6626e7857",
+    "categorie": "geopolitique",
+    "titre_affiche": "RBI has spent half of $140 bn FX capital to defend rupee , bankers estimate",
+    "horodatage_utc": "2026-10-15T10:00:00+00:00",
+    "source_nom": "GDELT/business-standard.com",
+    "url_source": "https://www.business-standard.com/finance/news/rbi-has-spent-half-of-140-bn-fx-capital-to-defend-rupee-bankers-estimate-126101500638_1.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "57841a4768063f11",
+    "categorie": "geopolitique",
+    "titre_affiche": "What to know about Starshield, SpaceX's military-focused Starlink service",
+    "horodatage_utc": "2026-10-15T09:58:40+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "5b4c0106dc836e15",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global stocks sell-off deepens as chipmakers tumble",
+    "horodatage_utc": "2026-10-15T09:23:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "119fef8033b96ca3",
+    "categorie": "geopolitique",
+    "titre_affiche": "US floats unfreezing some Russian assets to restart Ukraine peace talks",
+    "horodatage_utc": "2026-10-15T09:19:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ea546b329c1f5c25",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine to resume strikes on Russian refineries, Zelenskyy says",
+    "horodatage_utc": "2026-10-15T09:10:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4d79b52f-1f0d-4739-82ab-7ecfb4251326?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "195ce2ecaf5ca816",
+    "categorie": "geopolitique",
+    "titre_affiche": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
+    "horodatage_utc": "2026-10-15T09:02:31+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)",
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "41f72cb5878ffe06",
+    "categorie": "geopolitique",
+    "titre_affiche": "Chipmaker TSMC profits surge amid relentless AI demand",
+    "horodatage_utc": "2026-10-15T08:54:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bf6808c6-ce2d-444f-86c9-a9b557b36a47?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "77723b07b7fc3c96",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia, AMD, Micron fall as AI stock sell-off deepens",
+    "horodatage_utc": "2026-10-15T08:18:14+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e8ddbf8def1634b2",
+    "categorie": "geopolitique",
+    "titre_affiche": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+    "horodatage_utc": "2026-10-15T08:09:37+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "2f2ebb121986c33d",
     "categorie": "geopolitique",
     "titre_affiche": "Global AI sell-off deepens as Asian markets tumble",
@@ -11,21 +283,6 @@
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ea546b329c1f5c25",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine to resume strikes on Russian refineries, Zelenskyy says",
-    "horodatage_utc": "2026-10-15T04:00:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4d79b52f-1f0d-4739-82ab-7ecfb4251326?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -52,14 +309,14 @@
     "horodatage_utc": "2026-10-15T04:00:39+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bbb1d399-e91c-4600-9882-ea93e1f96ac9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Or et métaux précieux, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Or et métaux précieux",
       "Élections et politique intérieure"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dcac4452da714bb9",
@@ -68,8 +325,23 @@
     "horodatage_utc": "2026-10-15T04:00:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/ff917929-c68e-4bf6-b77f-ee1f7d675934?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "0f763fefc9b5002b",
+    "categorie": "geopolitique",
+    "titre_affiche": "French debt worries spill into stocks, driving biggest underperformance since 2010",
+    "horodatage_utc": "2026-10-15T04:00:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/69bfdf93-cbba-477c-9fb0-5978d1d4f506?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
@@ -83,13 +355,13 @@
     "horodatage_utc": "2026-10-15T02:55:00+00:00",
     "source_nom": "Federal Reserve - discours et auditions",
     "url_source": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0df30ae92706d2cf",
@@ -122,27 +394,27 @@
     "nouveaute": true
   },
   {
+    "id": "8fd0a183b6c519ff",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic tells investors its quarterly revenue jumped 50%",
+    "horodatage_utc": "2026-10-15T00:59:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ff28c44ab219b40f",
     "categorie": "geopolitique",
     "titre_affiche": "M 4.5 - 82 km SSW of Mil’kovo, Russia",
     "horodatage_utc": "2026-10-14T23:35:48+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "119fef8033b96ca3",
-    "categorie": "geopolitique",
-    "titre_affiche": "US floats unfreezing some Russian assets to restart Ukraine peace talks",
-    "horodatage_utc": "2026-10-14T23:09:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
@@ -1557,275 +1829,5 @@
     ],
     "portee": "contexte",
     "nouveaute": false
-  },
-  {
-    "id": "85a531f63c679a5a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil prices fall after Trump claims ‘energy ceasefire’ in Ukraine war",
-    "horodatage_utc": "2026-10-12T04:43:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a663781e-2709-41f2-99df-4fb5a6162e6b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "35c531f9fa79b47f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump battles for the Senate",
-    "horodatage_utc": "2026-10-12T04:00:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/62bab2c8-d4e2-4ec2-a911-80439f61f238?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "0cfa8d4d70f3033a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s midterm peril",
-    "horodatage_utc": "2026-10-12T04:00:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/62bab2c8-d4e2-4ec2-a911-80439f61f238?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "2dae72496e09240e",
-    "categorie": "geopolitique",
-    "titre_affiche": "There is a smarter way to tax the rich",
-    "horodatage_utc": "2026-10-12T04:00:16+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e6c9d380-7108-405a-8393-5240771809fe",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "dc49b58e139e10b2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nato should prepare for deadly Russian ‘hybrid’ attack, says Poland",
-    "horodatage_utc": "2026-10-12T04:00:16+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0c5a10f4-5aca-456e-9c3a-4c4dc8132a63?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6d6e36be8c727c87",
-    "categorie": "geopolitique",
-    "titre_affiche": "‘Worrying omens’ stalk global economy despite resilient growth",
-    "horodatage_utc": "2026-10-12T04:00:16+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e0457dd5-8e75-4803-8ce8-6651157d2229?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6cab9855b6b94bfa",
-    "categorie": "geopolitique",
-    "titre_affiche": "Charles de Gaulle airport owner linked to services for sanctioned airline",
-    "horodatage_utc": "2026-10-12T04:00:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5f0e16b5-15ba-4496-a4c1-15bc0287f7f1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b7098765c4742f68",
-    "categorie": "geopolitique",
-    "titre_affiche": "The huge lurking leverage of AI hyperscalers",
-    "horodatage_utc": "2026-10-12T04:00:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/17a207f4-1563-48af-91e3-14bac89ab4b8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "49dc81a61737a6cc",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.6 - Volcano Islands, Japan region",
-    "horodatage_utc": "2026-10-12T02:32:36+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nn",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "14a7e687ae376583",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump faces Republican opposition to his diesel deal with Russia’s Putin",
-    "horodatage_utc": "2026-10-11T21:17:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/debf0be6-d5aa-4ba7-bb66-7daf770d99ff?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1f28e970f95550e9",
-    "categorie": "geopolitique",
-    "titre_affiche": "EU ‘safeguards’ hybrid car sector from Chinese imports under new deal",
-    "horodatage_utc": "2026-10-11T20:00:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7e48dd50-957c-4f45-ad24-ce628ca7e06a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a356f9210f700ee7",
-    "categorie": "geopolitique",
-    "titre_affiche": "US hits commercial tanker in Gulf of Oman as tensions flare",
-    "horodatage_utc": "2026-10-11T19:53:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2e4bc0c437e0661d",
-    "categorie": "geopolitique",
-    "titre_affiche": "US threatens to block arms for Ukraine over attacks on Russian refineries",
-    "horodatage_utc": "2026-10-11T18:40:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/68fd8c4f-6f34-4f6e-a52c-76f635164031?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0cbed8293aec6fd7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia ‘interfered’ in 2016 Brexit vote, says Burnham",
-    "horodatage_utc": "2026-10-11T18:01:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4fcbf57e-c73e-4ced-be4a-5ecc6f4874de?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5032611dae628d4b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Can Russia meet Trump’s diesel demands?",
-    "horodatage_utc": "2026-10-11T17:13:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/445b2856-a276-4d4c-bdea-44799d771c21?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "122e7acc66db4f71",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil chiefs pull out of Riyadh energy congress after airport missile strike",
-    "horodatage_utc": "2026-10-11T16:56:50+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a01776ea-4a12-4195-8820-e43a885ba5fe?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "112d7a6b9169d28e",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.2 - 79 km SSE of Panguna, Papua New Guinea",
-    "horodatage_utc": "2026-10-11T16:13:53+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8103f34497231737",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine’s allies vow to pressure Moscow as Trump claims ‘energy ceasefire’ in place",
-    "horodatage_utc": "2026-10-11T15:46:54+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/724ef0e2-4d50-49fd-aef8-abc0534f2f84?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
