@@ -1,5 +1,35 @@
 [
   {
+    "id": "2cf3ce70d4a6d3b4",
+    "categorie": "quantique",
+    "titre_affiche": "D-Wave Delivers Advantage2 Annealing Quantum Computer to Italy",
+    "horodatage_utc": "2026-10-15T12:58:14+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/10/15/dwave-delivers-italy-first-annealing-quantum-computer/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e416334d35335c45",
+    "categorie": "quantique",
+    "titre_affiche": "Riverlane and NVIDIA Use AI to Speed Up Quantum Decoder Calibration",
+    "horodatage_utc": "2026-10-15T09:30:59+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/10/15/riverlane-nvidia-ai-quantum-decoder-calibration/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "422a5f9a160ddcad",
     "categorie": "quantique",
     "titre_affiche": "Riverlane and NVIDIA Demonstrate Accelerated QEC Decoder Calibration Using GPU Processing",
@@ -1784,35 +1814,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "d91c4ad4b54b5859",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ and SDT Announce the First Strategic Partnership to Bring Both Advanced Quantum Computing and Quantum Networking to the Asia - Pacific Region",
-    "horodatage_utc": "2026-09-21T23:00:00+00:00",
-    "source_nom": "GDELT/wallstreet-online.de",
-    "url_source": "https://www.wallstreet-online.de/nachricht/21412251-ionq-and-sdt-announce-the-first-strategic-partnership-to-bring-both-advanced-quantum-computing-and-quantum-networking-to-the-asia-pacific-region",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/wallstreet-online.de. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "8a7487003427298f",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ ( NYSE : IONQ ) Stock Price Up 3 . 3 % – Here What Happened",
-    "horodatage_utc": "2026-09-21T22:15:00+00:00",
-    "source_nom": "GDELT/dailypolitical.com",
-    "url_source": "https://www.dailypolitical.com/2026/09/21/ionq-nyseionq-stock-price-up-3-3-heres-what-happened.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/dailypolitical.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
