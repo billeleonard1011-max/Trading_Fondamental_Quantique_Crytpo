@@ -1,18 +1,33 @@
 [
   {
+    "id": "72026ba093a760a1",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Announces Pricing of $2.0 Billion Equity Offering Purchased by Heights Capital Management",
+    "horodatage_utc": "2026-10-14T21:07:35+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-announces-pricing-of-2-0-billion-equity-offering-purchased-by-heights-capital-management/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "9867aee309a9d095",
     "categorie": "quantique",
     "titre_affiche": "IBM executive warns of risk of quantum computing hacks",
     "horodatage_utc": "2026-10-14T18:50:01+00:00",
     "source_nom": "Phys.org - physique quantique",
     "url_source": "https://phys.org/news/2026-10-ibm-quantum-hacks.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Phys.org - physique quantique. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d7c4fdd9029e7122",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-10-14T18:39:06+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/skywater-and-d-wave-extend-quantum-manufacturing-partnership-through-multi-year-agreement/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "eebdaadc8dfeda4b",
@@ -36,14 +51,14 @@
     "horodatage_utc": "2026-10-14T18:07:52+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/alice-bob-demonstrates-gpu-decoding-for-ldpc-cat-codes-via-nvidia-nvqlink/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Alice & Bob, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Alice & Bob",
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9edf3388422aa4d5",
@@ -52,13 +67,13 @@
     "horodatage_utc": "2026-10-14T15:44:21+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/14/ionq-announces-pricing-2-billion-equity-offering/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "40a315dc6a83d612",
@@ -67,13 +82,13 @@
     "horodatage_utc": "2026-10-14T15:31:42+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/14/ibm-siemens-advance-3d-nanostack-transistors/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9d41843f924516b6",
@@ -1799,20 +1814,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "539ff96f9ad295ee",
-    "categorie": "quantique",
-    "titre_affiche": "Intel CEO Sees Quantum Computing Working Alongside CPUs and GPUs",
-    "horodatage_utc": "2026-09-21T15:10:52+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/21/intel-ceo-sees-quantum-computing-working-alongside-cpus-and-gpus/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Intel"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
