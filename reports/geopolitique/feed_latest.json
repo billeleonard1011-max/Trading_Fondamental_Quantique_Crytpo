@@ -3,17 +3,170 @@
     "id": "40804b02839595e1",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
-    "horodatage_utc": "2026-10-16T06:13:47+00:00",
+    "horodatage_utc": "2026-10-16T11:45:46+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine, Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine",
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ad7cbf80a34483f7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla reveals next-generation Roadster after almost a decade of delays",
+    "horodatage_utc": "2026-10-16T10:57:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "393aac075b3db20d",
+    "categorie": "geopolitique",
+    "titre_affiche": "EU vows to maintain Russia sanctions after US pivot",
+    "horodatage_utc": "2026-10-16T10:29:55+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ee6dfd48-fa31-4bde-9962-2f9f09c36798?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "c4fb91adbdd8c99d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Treasuries head for best week since February as AI jitters halt bond rout",
+    "horodatage_utc": "2026-10-16T10:08:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d8ceb8da75efc470",
+    "categorie": "geopolitique",
+    "titre_affiche": "World’s worst-performing stock market hit by fresh MSCI warning",
+    "horodatage_utc": "2026-10-16T10:06:49+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/753fa2ed-1763-462b-a4c0-ded9b53baf3c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "9ec32fb979b35302",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX policy manager set to testify as part of NYC Council AI safety investigation",
+    "horodatage_utc": "2026-10-16T08:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "6aa149dfc1e90dcb",
+    "categorie": "geopolitique",
+    "titre_affiche": "G7 economies plan simulated AI attacks on banks as cyber fears rise",
+    "horodatage_utc": "2026-10-16T07:36:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ce1b9236-1e53-47f1-b1f9-443a9f430b0d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque, Cyberattaques sur infrastructures et plateformes, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Cyberattaques sur infrastructures et plateformes",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "28cb208e89cfd848",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia CEO Jensen Huang urges U.S.-China dialogue on 'potentially dangerous' AI",
+    "horodatage_utc": "2026-10-16T07:28:06+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "a06e16e18316e161",
+    "categorie": "geopolitique",
+    "titre_affiche": "Healey signals tax raid on banks in Budget",
+    "horodatage_utc": "2026-10-16T07:08:49+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/09e07278-8479-49bb-a145-51e5d93828a2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c050986acd75d599",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bets on Fed rate hold in October strengthen after Warsh comments",
+    "horodatage_utc": "2026-10-16T06:37:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/95a8e05d-fc20-441d-b271-64e87fe41f76?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "57841a4768063f11",
+    "categorie": "geopolitique",
+    "titre_affiche": "What to know about Starshield, SpaceX's military-focused Starlink service",
+    "horodatage_utc": "2026-10-16T06:25:31+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
   },
   {
     "id": "f4811c79ff50ffaa",
@@ -152,31 +305,31 @@
     "nouveaute": true
   },
   {
-    "id": "ad7cbf80a34483f7",
+    "id": "c7ab7877d31af3a0",
     "categorie": "geopolitique",
-    "titre_affiche": "Tesla reveals next-generation Roadster after almost a decade of delays",
-    "horodatage_utc": "2026-10-16T03:47:50+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
+    "titre_affiche": "Fight night for Trump’s America",
+    "horodatage_utc": "2026-10-16T04:00:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/56d14d34-955a-41e9-90da-5eda7d179509?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Actions et technologie"
+      "Élections et politique intérieure"
     ],
-    "portee": "influence",
+    "portee": "contexte",
     "nouveaute": true
   },
   {
-    "id": "d8ceb8da75efc470",
+    "id": "587fcb1d167864e1",
     "categorie": "geopolitique",
-    "titre_affiche": "World’s worst-performing stock market hit by fresh MSCI warning",
-    "horodatage_utc": "2026-10-16T03:35:18+00:00",
+    "titre_affiche": "UK tried to persuade UBS to move to London",
+    "horodatage_utc": "2026-10-16T04:00:17+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/753fa2ed-1763-462b-a4c0-ded9b53baf3c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
+    "url_source": "https://www.ft.com/content/1bd1cdc2-9dc1-4538-8820-129e9bd9117b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Actions et technologie"
+      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -683,21 +836,6 @@
     "nouveaute": false
   },
   {
-    "id": "28cb208e89cfd848",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia CEO Jensen Huang urges U.S.-China dialogue on 'potentially dangerous' AI",
-    "horodatage_utc": "2026-10-15T12:17:13+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "3ebe3012099b2833",
     "categorie": "geopolitique",
     "titre_affiche": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries",
@@ -710,21 +848,6 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "57841a4768063f11",
-    "categorie": "geopolitique",
-    "titre_affiche": "What to know about Starshield, SpaceX's military-focused Starlink service",
-    "horodatage_utc": "2026-10-15T11:54:43+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -1698,126 +1821,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7edd244e84e55a41",
-    "categorie": "geopolitique",
-    "titre_affiche": "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans, clears her name",
-    "horodatage_utc": "2026-10-13T21:15:32+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/13/judge-says-elon-musk-engaged-intimidation-of-ex-fema-cfo-mary-comans.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "0a4072638cb76b51",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.0 - 126 km S of Kokopo, Papua New Guinea",
-    "horodatage_utc": "2026-10-13T21:10:14+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "89f2403ecd8c431b",
-    "categorie": "geopolitique",
-    "titre_affiche": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
-    "horodatage_utc": "2026-10-13T20:48:37+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2db0c4fda9ed5b04",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chip stocks slide after Broadcom boss warns of ‘casino’ mentality in AI investing",
-    "horodatage_utc": "2026-10-13T20:28:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6657d049432e38dd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Micron sinks, other memory-linked names dip for a second day",
-    "horodatage_utc": "2026-10-13T20:12:36+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4bbdb1e711834c6c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why this little known Chinese chipmaker has caused a global stock rout",
-    "horodatage_utc": "2026-10-13T20:05:58+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "882521669cbea4f2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bank of America fined $1.2bn over money laundering failures",
-    "horodatage_utc": "2026-10-13T20:00:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c08dd4a1-74a4-49f2-90f7-0857c6e87868?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7a68018294e1d655",
-    "categorie": "geopolitique",
-    "titre_affiche": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-    "horodatage_utc": "2026-10-13T19:46:12+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
     "nouveaute": false

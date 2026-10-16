@@ -1,27 +1,11 @@
 [
   {
-    "id": "213b5cb6d27b68a3",
+    "id": "7116faca811b081b",
     "categorie": "crypto",
-    "titre_affiche": "XRP has failed to make holders rich like bitcoin and ether. Here’s why",
-    "horodatage_utc": "2026-10-16T05:53:58+00:00",
+    "titre_affiche": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
+    "horodatage_utc": "2026-10-16T11:15:00+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/16/xrp-has-failed-to-make-holders-rich-like-bitcoin-and-ether-here-s-why",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "a916bd287b3daadc",
-    "categorie": "crypto",
-    "titre_affiche": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
-    "horodatage_utc": "2026-10-16T04:29:19+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -31,12 +15,12 @@
     "nouveaute": true
   },
   {
-    "id": "047e8ea9ac462cdd",
+    "id": "b36e135a8c15e41f",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
-    "horodatage_utc": "2026-10-16T04:14:22+00:00",
+    "titre_affiche": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
+    "horodatage_utc": "2026-10-16T10:52:26+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
+    "url_source": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -44,6 +28,112 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "ecb7b8ef23b18779",
+    "categorie": "crypto",
+    "titre_affiche": "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
+    "horodatage_utc": "2026-10-16T10:41:03+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "54b4cbb65d1749f1",
+    "categorie": "crypto",
+    "titre_affiche": "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
+    "horodatage_utc": "2026-10-16T10:24:30+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c38577bed33637b6",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin steady near $82,000 after Fed's Warsh comments",
+    "horodatage_utc": "2026-10-16T09:48:14+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0cdb2b3600af0693",
+    "categorie": "crypto",
+    "titre_affiche": "Capital B posts wider H1 net loss of $78 million on bitcoin impairment charge",
+    "horodatage_utc": "2026-10-16T09:30:21+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-10-16-capital-b-wider-h1-net-loss-418781",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "213b5cb6d27b68a3",
+    "categorie": "crypto",
+    "titre_affiche": "XRP has failed to make holders rich like bitcoin and ether. Here’s why",
+    "horodatage_utc": "2026-10-16T05:53:58+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/16/xrp-has-failed-to-make-holders-rich-like-bitcoin-and-ether-here-s-why",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "a916bd287b3daadc",
+    "categorie": "crypto",
+    "titre_affiche": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
+    "horodatage_utc": "2026-10-16T04:29:19+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "047e8ea9ac462cdd",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
+    "horodatage_utc": "2026-10-16T04:14:22+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "97cf8f71ded3a852",
@@ -1718,96 +1808,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a038617abab7f2ba",
-    "categorie": "crypto",
-    "titre_affiche": "Why bitcoin is down 'just' 32% a year after its record high of $126,000",
-    "horodatage_utc": "2026-10-06T08:27:43+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/06/from-retail-leverage-to-etf-flows-a-year-after-its-record-high-bitcoin-is-down-just-32",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b2e72ac119bfc362",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum’s Glamsterdam test gets last-minute fix before major capacity jump",
-    "horodatage_utc": "2026-10-06T04:49:05+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "031a09b3e18ed72c",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin keeps getting rejected at $87,000 as stocks hover near records",
-    "horodatage_utc": "2026-10-06T04:41:10+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "8f81db3e1fc15ac8",
-    "categorie": "crypto",
-    "titre_affiche": "Solana Foundation unveils a program to settle institutional trades in seconds. JPMorgan gave input",
-    "horodatage_utc": "2026-10-06T04:23:45+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "710d26ef7f0fd727",
-    "categorie": "crypto",
-    "titre_affiche": "Strive adds 2,000 bitcoin in biggest buy since June, closes in on MARA",
-    "horodatage_utc": "2026-10-05T15:03:54+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-10-05-strive-adds-2000-bitcoin-biggest-buy-since-june-closes-in-mara-417677",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "92c0455dcac0270b",
-    "categorie": "crypto",
-    "titre_affiche": "Tom Lee says ether ‘dwarfing other macro assets’ as Bitmine adds 15,112 ETH",
-    "horodatage_utc": "2026-10-05T13:23:07+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-10-05-tom-lee-says-ether-dwarfing-other-macro-assets-as-bitmine-adds-15112-eth-417660",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": false
