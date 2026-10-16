@@ -1,5 +1,20 @@
 [
   {
+    "id": "2da598e4a4fd3c9e",
+    "categorie": "crypto",
+    "titre_affiche": "Strive’s bitcoin buying spree earns 27% price target hike from TD Cowen",
+    "horodatage_utc": "2026-10-16T20:22:57+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "1f07f94f2bb57201",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin is little changed on the day , and pushing against a key crossroad . What next ?",
@@ -259,6 +274,21 @@
     "id": "c38577bed33637b6",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin steady near $82,000 after Fed's Warsh comments",
+    "horodatage_utc": "2026-10-16T09:48:14+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6b82654cd9af2dbf",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
     "horodatage_utc": "2026-10-16T09:48:14+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
@@ -1779,36 +1809,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "eddb6a931e295ad3",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum researcher Justin Drake calls for ‘bunker mode’ planning over private key recovery risk",
-    "horodatage_utc": "2026-10-07T17:23:02+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "24c7b4de4ea7b26b",
-    "categorie": "crypto",
-    "titre_affiche": "Tether tapped by Kazakhstan’s central bank to explore stablecoin and tokenization",
-    "horodatage_utc": "2026-10-07T14:27:37+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": false

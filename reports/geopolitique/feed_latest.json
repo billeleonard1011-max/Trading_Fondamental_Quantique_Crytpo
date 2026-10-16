@@ -1,5 +1,114 @@
 [
   {
+    "id": "40804b02839595e1",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
+    "horodatage_utc": "2026-10-16T22:06:27+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine",
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "176be9fbeffffb18",
+    "categorie": "geopolitique",
+    "titre_affiche": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
+    "horodatage_utc": "2026-10-16T21:49:13+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "4eef6522d3a608ed",
+    "categorie": "geopolitique",
+    "titre_affiche": "Brent hits 5-month high above $110 on continued tension in Middle East",
+    "horodatage_utc": "2026-10-16T20:55:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bb26b2d3581e7096",
+    "categorie": "geopolitique",
+    "titre_affiche": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
+    "horodatage_utc": "2026-10-16T20:42:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Actions et technologie, Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "463c1e1f48304e71",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says White House didn't order Starlink restrictions in Ukraine",
+    "horodatage_utc": "2026-10-16T20:28:10+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "cc8bc886646c6670",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s press secretary Katie Zacharia fired after five days",
+    "horodatage_utc": "2026-10-16T20:14:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "2ca4c987851407fb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israeli settlers attack Palestinians carrying out olive harvest in West Bank",
+    "horodatage_utc": "2026-10-16T19:42:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/432c9cff-b86f-4712-8e64-56cf3895d687?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "edd47ca382607783",
     "categorie": "geopolitique",
     "titre_affiche": "SpaceX AI policy leader grilled by NYC Council on Grok safety, sexualized images",
@@ -15,34 +124,19 @@
     "nouveaute": false
   },
   {
-    "id": "463c1e1f48304e71",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says White House didn't order Starlink restrictions in Ukraine",
-    "horodatage_utc": "2026-10-16T19:28:46+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "f9118817aba063fe",
     "categorie": "geopolitique",
     "titre_affiche": "M 4.7 - 186 km SSE of Vilyuchinsk, Russia",
     "horodatage_utc": "2026-10-16T19:07:08+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qf",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2a805d6fa8fb40dd",
@@ -63,34 +157,19 @@
     "nouveaute": true
   },
   {
-    "id": "cc8bc886646c6670",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s press secretary Katie Zacharia fired after five days",
-    "horodatage_utc": "2026-10-16T18:23:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
     "id": "1fd04dd5a2e14ccd",
     "categorie": "geopolitique",
     "titre_affiche": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
     "horodatage_utc": "2026-10-16T16:46:18+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "299283ad00d37166",
@@ -668,22 +747,6 @@
     "nouveaute": false
   },
   {
-    "id": "40804b02839595e1",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
-    "horodatage_utc": "2026-10-16T11:45:46+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine",
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "3c11f4706b121fdd",
     "categorie": "geopolitique",
     "titre_affiche": "EU Commission chief says Russia failed to respect energy ceasefire , calls for more pressure",
@@ -825,13 +888,13 @@
     "horodatage_utc": "2026-10-16T10:00:09+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e2acd655-0a6a-4de6-9404-c838f6e7b8cb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9ec32fb979b35302",
@@ -1756,66 +1819,6 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fa4782ad28330870",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukrainian drones are forced to slow down by sudden restrictions on use of Starlink",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/mankatofreepress.com",
-    "url_source": "https://www.mankatofreepress.com/news/business/ukrainian-drones-are-forced-to-slow-down-by-sudden-restrictions-on-use-of-starlink/article_edf28a5c-4b18-531d-b1c4-2e5924abaf4c.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/mankatofreepress.com. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "b0098ee5b74ba5cb",
-    "categorie": "geopolitique",
-    "titre_affiche": "To będzie najważniejszy serial o podróżach w kosmosie ? Amazon tworzy nowe superwidowisko i ogłosił główną obsadę",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/gram.pl",
-    "url_source": "https://www.gram.pl/news/to-bedzie-najwazniejszy-serial-o-podrozach-w-kosmosie-amazon-tworzy-nowe-superwidowisko-i-oglosil-glowna-obsade",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/gram.pl. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c6a3160c825ee3aa",
-    "categorie": "geopolitique",
-    "titre_affiche": "CNN : JAV svarsto numesti ant Irano „ visų bombų motiną",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/15min.lt",
-    "url_source": "https://www.15min.lt/naujiena/aktualu/pasaulis/cnn-jav-svarsto-numesti-ant-irano-visu-bombu-motina-57-2785468",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/15min.lt. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d3f79d09a83a3097",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ρωσία : Φωτιά σε διυλιστήριο του Ριαζάν από επίθεση ουκρανικού drone – Τρεις νεκροί στην κεντρική Ουκρανία",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/onalert.gr",
-    "url_source": "https://www.onalert.gr/kosmos/rosia-fotia-se-diylistirio-tou-riazan-apo-epithesi-oukranikou-drone-treis-nekroi-stin-kentriki-oukrania/826403/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/onalert.gr. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]
