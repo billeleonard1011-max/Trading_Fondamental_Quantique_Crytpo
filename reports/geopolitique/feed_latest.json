@@ -1,18 +1,65 @@
 [
   {
+    "id": "2bff4823717ceead",
+    "categorie": "geopolitique",
+    "titre_affiche": "Elon Musk helps GOP Senate super PAC raise record $273 million",
+    "horodatage_utc": "2026-10-15T23:53:29+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "db2247f477c6d227",
+    "categorie": "geopolitique",
+    "titre_affiche": "People in China are spending nearly as much of their income as Americans on healthcare",
+    "horodatage_utc": "2026-10-15T23:00:01+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/15/chinese-spending-nearly-as-much-of-income-as-americans-on-healthcare.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "7beb07e5dce1c35e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
+    "horodatage_utc": "2026-10-15T22:48:12+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "bb3861a54ca1a7de",
     "categorie": "geopolitique",
     "titre_affiche": "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors",
     "horodatage_utc": "2026-10-15T22:16:13+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7b785a07c104e8bc",
@@ -36,31 +83,14 @@
     "horodatage_utc": "2026-10-15T21:10:51+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6dfa9879-589a-4af3-9374-b546a945a219?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7beb07e5dce1c35e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
-    "horodatage_utc": "2026-10-15T20:44:46+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Dollar et devises, Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "914152d3149ea8b1",
@@ -69,14 +99,14 @@
     "horodatage_utc": "2026-10-15T20:33:24+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3f1f6da4c4d94fec",
@@ -706,13 +736,13 @@
     "horodatage_utc": "2026-10-15T04:00:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/9d70cd3f-abd3-4e40-b644-156444cec446?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9c08422d377dcc77",
@@ -1799,35 +1829,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "f939fec1b973d152",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chip stocks slide as fears mount over scale of AI investment",
-    "horodatage_utc": "2026-10-13T02:58:54+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8ec7ca3102b6ab3a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-    "horodatage_utc": "2026-10-13T02:58:11+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
