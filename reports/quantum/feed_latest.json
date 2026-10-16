@@ -1,15 +1,45 @@
 [
   {
+    "id": "28293005b140f1e7",
+    "categorie": "quantique",
+    "titre_affiche": "QuEra Scientists Named Co-Principal Investigators on Three of Nine Teams in DOE’s Quantum Chemistry Program",
+    "horodatage_utc": "2026-10-16T12:23:53+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QuEra"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "6ea336af12cad8d5",
     "categorie": "quantique",
     "titre_affiche": "Terra Quantum Joins QuEra Quantum Alliance",
     "horodatage_utc": "2026-10-16T10:36:51+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QuEra"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "bafdaaf330835ee6",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ and Cavendish Lab open Quantum innovation Centre ⋆ Electronics Weekly",
+    "horodatage_utc": "2026-10-16T09:45:00+00:00",
+    "source_nom": "GDELT/electronicsweekly.com",
+    "url_source": "https://www.electronicsweekly.com/news/business/ionq-and-cavendish-lab-open-quantum-innovation-centre-2026-10/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/electronicsweekly.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -21,10 +51,56 @@
     "horodatage_utc": "2026-10-16T07:55:57+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Google. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Google"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "e24cebcb513b58a9",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ ( NYSE : IONQ ) vs . NetApp ( NASDAQ : NTAP ) Critical Review",
+    "horodatage_utc": "2026-10-16T04:15:00+00:00",
+    "source_nom": "GDELT/tickerreport.com",
+    "url_source": "https://www.tickerreport.com/banking-finance/13621256/ionq-nyseionq-vs-netapp-nasdaqntap-critical-review.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/tickerreport.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "925de6fac9f0df2e",
+    "categorie": "quantique",
+    "titre_affiche": "Prediction : IonQ Will Cross $100 Per Share in 2027 ( It Less Than $40 Per Share Now )",
+    "horodatage_utc": "2026-10-16T02:00:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/10/15/prediction-ionq-will-cross-100-per-share-in-2027-i/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "674167a9115f2ddd",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Is Following Nvidia Playbook . Why the Stock Could Be a Buy After a 60 % Dip .",
+    "horodatage_utc": "2026-10-16T02:00:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/10/15/ionq-is-following-nvidias-playbook-why-the-stock-c/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ",
+      "Nvidia"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -90,21 +166,66 @@
     "nouveaute": false
   },
   {
+    "id": "802dcdfbeeee85d1",
+    "categorie": "quantique",
+    "titre_affiche": "D - Wave 4 , 400 - Plus - Qubit Advantage2 System Reaches Lombardy",
+    "horodatage_utc": "2026-10-15T21:15:00+00:00",
+    "source_nom": "GDELT/econotimes.com",
+    "url_source": "https://econotimes.com/D-Wave-s-4-400-Plus-Qubit-Advantage2-System-Reaches-Lombardy-1755203",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "4048139556d33926",
+    "categorie": "quantique",
+    "titre_affiche": "IBM Has Paid Dividends Since 1916 . Here Why Retirees Should Pay Attention Now",
+    "horodatage_utc": "2026-10-15T20:30:00+00:00",
+    "source_nom": "GDELT/247wallst.com",
+    "url_source": "https://247wallst.com/investing/2026/10/15/ibm-has-paid-dividends-since-1916-heres-why-retirees-should-pay-attention-now/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c1a8e0f65009a065",
+    "categorie": "quantique",
+    "titre_affiche": "Could Investing $5 , 000 in D - Wave Quantum Stock Today Make You a Millionaire ?",
+    "horodatage_utc": "2026-10-15T17:30:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/10/15/could-investing-5000-in-d-wave-quantum-stock-make/?source=iedfolrf0000001",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "6f3c80563194678a",
     "categorie": "quantique",
     "titre_affiche": "Quantum Computing Stocks Rebound After Dilution Scare : IonQ and Rigetti Climb 3 %, D - Wave Advances 2 %",
     "horodatage_utc": "2026-10-15T16:15:00+00:00",
     "source_nom": "GDELT/247wallst.com",
     "url_source": "https://247wallst.com/investing/2026/10/15/quantum-computing-stocks-rebound-after-dilution-scare-ionq-and-rigetti-climb-3-d-wave-advances-2/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : RGTI, QBTS, IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "RGTI",
       "QBTS",
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "262ed763446a7ac3",
@@ -1692,127 +1813,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Microsoft"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c865aceaef0a2517",
-    "categorie": "quantique",
-    "titre_affiche": "Classiq, INGL and IonQ Test Quantum Optimization for Natural Gas Networks",
-    "horodatage_utc": "2026-09-23T12:27:44+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/23/classiq-ingl-ionq-quantum-optimization-natural-gas-networks/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "d7c5086a1fc15f31",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ Bringing QPU to The NVIDIA Accelerated Quantum Research Center",
-    "horodatage_utc": "2026-09-23T12:01:50+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/23/ionq-bringing-qpu-to-the-nvidia-accelerated-quantum-research-center/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ",
-      "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "6ae829c22ab12822",
-    "categorie": "quantique",
-    "titre_affiche": "Xanadu Appoints Tara Deakin as Chief People Officer",
-    "horodatage_utc": "2026-09-23T08:30:26+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/23/xanadu-appoints-tara-deakin-chief-people-officer/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Xanadu. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "Xanadu"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "3cb28d42948fb5fb",
-    "categorie": "quantique",
-    "titre_affiche": "Fermilab and Microsoft Partner on Quantum Hardware Tools",
-    "horodatage_utc": "2026-09-23T08:14:19+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/23/fermilab-microsoft-partner-quantum-hardware-tools/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Microsoft. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "Microsoft"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "82bea8fefacd8e3a",
-    "categorie": "quantique",
-    "titre_affiche": "QuEra Computing Opens Office in Discovery District Maryland",
-    "horodatage_utc": "2026-09-23T07:00:00+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/23/quera-computing-joins-maryland-capital-of-quantum/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "QuEra"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "c74036cbc4564e4d",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ Partners with SDT to Deploy Superion 256 Quantum System and Establish SiV Quantum Memory Assembly Hub in South Korea",
-    "horodatage_utc": "2026-09-23T06:17:34+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ionq-partners-with-sdt-to-deploy-superion-256-quantum-system-and-establish-siv-quantum-memory-assembly-hub-in-south-korea/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9559108ac93afe99",
-    "categorie": "quantique",
-    "titre_affiche": "QuEra Computing Joins Maryland’s Capital of Quantum Initiative and Opens Facility in Discovery District",
-    "horodatage_utc": "2026-09-23T04:56:57+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/quera-computing-joins-marylands-capital-of-quantum-initiative-and-opens-facility-in-discovery-district/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QuEra"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b8690e1f7cd8e4a1",
-    "categorie": "quantique",
-    "titre_affiche": "QuEra Computing and HPE Partner to Integrate Fault-Tolerant Neutral-Atom QPUs with On-Premises HPE Cray Supercomputers",
-    "horodatage_utc": "2026-09-23T04:44:17+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/quera-computing-and-hpe-partner-to-integrate-fault-tolerant-neutral-atom-qpus-with-on-premises-hpe-cray-supercomputers/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QuEra"
     ],
     "portee": "actif_direct",
     "nouveaute": false
