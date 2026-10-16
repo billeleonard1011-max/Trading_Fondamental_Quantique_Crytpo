@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-10-16T00:00:52+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Google. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Google"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2c9f5b4cde6ee529",
@@ -21,13 +21,13 @@
     "horodatage_utc": "2026-10-15T23:14:38+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Google. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Google"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2431ca0b84ca177a",
@@ -36,13 +36,13 @@
     "horodatage_utc": "2026-10-15T22:27:19+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e8e2f310f7e0d3bd",
@@ -51,10 +51,27 @@
     "horodatage_utc": "2026-10-15T22:10:17+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/firstqfm-foundation-model-cuts-quantum-gate-times-by-33-on-quantware-qpu-via-nvidia-computing/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "6f3c80563194678a",
+    "categorie": "quantique",
+    "titre_affiche": "Quantum Computing Stocks Rebound After Dilution Scare : IonQ and Rigetti Climb 3 %, D - Wave Advances 2 %",
+    "horodatage_utc": "2026-10-15T16:15:00+00:00",
+    "source_nom": "GDELT/247wallst.com",
+    "url_source": "https://247wallst.com/investing/2026/10/15/quantum-computing-stocks-rebound-after-dilution-scare-ionq-and-rigetti-climb-3-d-wave-advances-2/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : RGTI, QBTS, IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI",
+      "QBTS",
+      "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -1796,21 +1813,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Microsoft"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "79945b1b628217b5",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on Single Commodity CPU",
-    "horodatage_utc": "2026-09-23T01:00:53+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": false

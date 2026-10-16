@@ -1,5 +1,51 @@
 [
   {
+    "id": "213b5cb6d27b68a3",
+    "categorie": "crypto",
+    "titre_affiche": "XRP has failed to make holders rich like bitcoin and ether. Here’s why",
+    "horodatage_utc": "2026-10-16T05:53:58+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/16/xrp-has-failed-to-make-holders-rich-like-bitcoin-and-ether-here-s-why",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a916bd287b3daadc",
+    "categorie": "crypto",
+    "titre_affiche": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
+    "horodatage_utc": "2026-10-16T04:29:19+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "047e8ea9ac462cdd",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
+    "horodatage_utc": "2026-10-16T04:14:22+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "97cf8f71ded3a852",
     "categorie": "crypto",
     "titre_affiche": "CleanSpark and BitFuFu see bitcoin production slip in September as Canaan remains flat",
@@ -1762,52 +1808,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b038e0f5b28a19bf",
-    "categorie": "crypto",
-    "titre_affiche": "‘More orange than ever’: Michael Saylor’s Strategy buys 334 bitcoin for $28.7 million as total holdings top 848,000 BTC",
-    "horodatage_utc": "2026-10-05T12:13:28+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-10-05-more-orange-than-ever-michael-saylor-strategy-bitcoin-417631",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "2925296dd4e420db",
-    "categorie": "crypto",
-    "titre_affiche": "SEC approves a 3x fix for bitcoin and ether traders who miss the wild swings",
-    "horodatage_utc": "2026-10-05T11:14:35+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/10/05/sec-approves-a-3x-fix-for-bitcoin-and-ether-traders-who-miss-the-wild-swings",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a09e79075a14a776",
-    "categorie": "crypto",
-    "titre_affiche": "Metaplanet added 1,000 bitcoin net in the third quarter bringing holdings to 44,000 BTC",
-    "horodatage_utc": "2026-10-05T10:58:03+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/05/metaplanet-adds-1-000-bitcoin-after-sale-and-repurchase-launches-income-strategy",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
