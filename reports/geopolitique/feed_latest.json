@@ -1,5 +1,113 @@
 [
   {
+    "id": "edd47ca382607783",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX AI policy leader grilled by NYC Council on Grok safety, sexualized images",
+    "horodatage_utc": "2026-10-16T19:30:51+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "463c1e1f48304e71",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says White House didn't order Starlink restrictions in Ukraine",
+    "horodatage_utc": "2026-10-16T19:28:46+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f9118817aba063fe",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.7 - 186 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-16T19:07:08+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qf",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2a805d6fa8fb40dd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Big Tech stocks head for biggest weekly drop since ‘liberation day’",
+    "horodatage_utc": "2026-10-16T18:58:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Actions et technologie, Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cc8bc886646c6670",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s press secretary Katie Zacharia fired after five days",
+    "horodatage_utc": "2026-10-16T18:23:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1fd04dd5a2e14ccd",
+    "categorie": "geopolitique",
+    "titre_affiche": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+    "horodatage_utc": "2026-10-16T16:46:18+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "299283ad00d37166",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
+    "horodatage_utc": "2026-10-16T16:27:44+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "ac38927a488472f6",
     "categorie": "geopolitique",
     "titre_affiche": "U.S. raises Mastercard, Citigroup China market access in bilateral Bangkok talks, official says",
@@ -297,7 +405,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c4fb91adbdd8c99d",
@@ -328,7 +436,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "24b8f9722eb3a5c1",
@@ -343,21 +451,6 @@
       "Transition énergétique"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "edd47ca382607783",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX AI policy leader grilled by NYC Council on Grok safety, sexualized images",
-    "horodatage_utc": "2026-10-16T15:44:51+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -391,21 +484,6 @@
     "nouveaute": true
   },
   {
-    "id": "299283ad00d37166",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
-    "horodatage_utc": "2026-10-16T15:01:34+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "7cb2af45684a41bd",
     "categorie": "geopolitique",
     "titre_affiche": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
@@ -418,7 +496,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "375970a5dfcc7939",
@@ -435,7 +513,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9db33efd0a8fce57",
@@ -557,7 +635,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cfb67cbddb2f0d9b",
@@ -587,7 +665,7 @@
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "40804b02839595e1",
@@ -739,6 +817,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "9c9b45984ef68d0f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Republicans turn on Trump’s tariffs in battle for ‘political survival’",
+    "horodatage_utc": "2026-10-16T10:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e2acd655-0a6a-4de6-9404-c838f6e7b8cb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "9ec32fb979b35302",
@@ -946,6 +1039,21 @@
     "url_source": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4d7b0ba745bf01ca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic assigned highest junk credit rating in June",
+    "horodatage_utc": "2026-10-16T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
@@ -1709,110 +1817,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "a4222f4c983c4856",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bulgaria says Russia was likely behind Black Sea drone strikes",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/naharnet.com",
-    "url_source": "https://www.naharnet.com/stories/en/323110-bulgaria-says-russia-was-likely-behind-black-sea-drone-strikes",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/naharnet.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "29c04a9eeb5bf0d0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Wie „ in alten Zeiten : Trump will Informanten erschießen lassen",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/az-online.de",
-    "url_source": "https://www.az-online.de/politik/wie-in-den-alten-zeiten-trump-will-informanten-erschiessen-lassen-zr-94542070.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "190bd6c6626e7857",
-    "categorie": "geopolitique",
-    "titre_affiche": "RBI has spent half of $140 bn FX capital to defend rupee , bankers estimate",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/business-standard.com",
-    "url_source": "https://www.business-standard.com/finance/news/rbi-has-spent-half-of-140-bn-fx-capital-to-defend-rupee-bankers-estimate-126101500638_1.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5b4c0106dc836e15",
-    "categorie": "geopolitique",
-    "titre_affiche": "Global stocks sell-off deepens as chipmakers tumble",
-    "horodatage_utc": "2026-10-15T09:23:29+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "119fef8033b96ca3",
-    "categorie": "geopolitique",
-    "titre_affiche": "US floats unfreezing some Russian assets to restart Ukraine peace talks",
-    "horodatage_utc": "2026-10-15T09:19:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "80c353cb7525aa1a",
-    "categorie": "geopolitique",
-    "titre_affiche": "US floats unfreezing some Russian assets",
-    "horodatage_utc": "2026-10-15T09:19:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ea546b329c1f5c25",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine to resume strikes on Russian refineries, Zelenskyy says",
-    "horodatage_utc": "2026-10-15T09:10:19+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4d79b52f-1f0d-4739-82ab-7ecfb4251326?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
