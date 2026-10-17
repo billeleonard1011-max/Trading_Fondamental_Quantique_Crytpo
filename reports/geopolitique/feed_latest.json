@@ -46,6 +46,22 @@
     "nouveaute": false
   },
   {
+    "id": "78e035abd689751d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Corporate donations flood US attorneys-general election races",
+    "horodatage_utc": "2026-10-17T10:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f1ea9968-4f26-4f1c-a3c2-66ec090e3dcd?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "19fb939fccca581f",
     "categorie": "geopolitique",
     "titre_affiche": "Iran Says Supertanker Hit Mine In Strait of Hormuz",
@@ -1803,21 +1819,6 @@
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c94f9570f9a227fb",
-    "categorie": "geopolitique",
-    "titre_affiche": "How India Can Counter Trump Tariff Threat",
-    "horodatage_utc": "2026-10-16T05:15:00+00:00",
-    "source_nom": "GDELT/rediff.com",
-    "url_source": "https://www.rediff.com/news/column/how-india-can-counter-trumps-tariff-threat/20261016.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/rediff.com. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
     ],
     "portee": "influence",
     "nouveaute": true
