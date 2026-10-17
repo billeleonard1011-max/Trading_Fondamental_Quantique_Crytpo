@@ -1,18 +1,49 @@
 [
   {
+    "id": "f171a712436ace70",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israeli settlers attack European diplomats in the West Bank",
+    "horodatage_utc": "2026-10-17T16:11:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e5469c49cc64f88d",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
+    "horodatage_utc": "2026-10-17T15:42:34+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Inflation et prix, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "fb5ea0a3b0ddb0a6",
     "categorie": "geopolitique",
     "titre_affiche": "Zelenskyy says Starlink speed limits in Ukraine are a ‘planned operation’",
     "horodatage_utc": "2026-10-17T12:53:53+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "19fb939fccca581f",
@@ -1787,36 +1818,6 @@
     "analyse_interne": "Actualité relayée par GDELT/rediff.com. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6ce73f8185bda46d",
-    "categorie": "geopolitique",
-    "titre_affiche": "US pushes AI exports as chip industry flags supplier gaps and reshoring costs",
-    "horodatage_utc": "2026-10-16T05:00:00+00:00",
-    "source_nom": "GDELT/digitimes.com",
-    "url_source": "https://www.digitimes.com/news/a20261016PD217/semicon-west-usa-ai-exports-investment-supplier-2026.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/digitimes.com. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "deefa5a3a0598733",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic secured highest junk credit rating in June",
-    "horodatage_utc": "2026-10-16T04:00:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
     ],
     "portee": "influence",
     "nouveaute": true

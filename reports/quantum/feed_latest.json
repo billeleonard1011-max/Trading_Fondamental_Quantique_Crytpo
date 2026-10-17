@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-10-17T10:28:31+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QuEra"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0e561298f06cb8a3",
@@ -21,13 +21,13 @@
     "horodatage_utc": "2026-10-17T09:18:12+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/d-wave-demonstrates-3d-analog-digital-quantum-simulation-of-higher-order-topological-insulators-using-728-qubits/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f5d566130457cd7f",
