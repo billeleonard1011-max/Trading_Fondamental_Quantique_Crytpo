@@ -1,5 +1,35 @@
 [
   {
+    "id": "8900e974f5a52221",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic offers Blackstone double-digit yield in latest chip financing",
+    "horodatage_utc": "2026-10-17T00:47:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e9ed55cb0204c44e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil hits five-month high of $110 on new escalation in Middle East",
+    "horodatage_utc": "2026-10-16T22:57:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "40804b02839595e1",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
@@ -22,13 +52,13 @@
     "horodatage_utc": "2026-10-16T21:49:13+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4eef6522d3a608ed",
@@ -52,8 +82,8 @@
     "horodatage_utc": "2026-10-16T20:42:16+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Actions et technologie, Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Actions et technologie",
@@ -61,7 +91,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "463c1e1f48304e71",
@@ -100,13 +130,13 @@
     "horodatage_utc": "2026-10-16T19:42:41+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/432c9cff-b86f-4712-8e64-56cf3895d687?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "edd47ca382607783",
@@ -608,6 +638,21 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a1d98abddb1e94ae",
+    "categorie": "geopolitique",
+    "titre_affiche": "India police detain ‘Cockroach’ leader again to head off new protests",
+    "horodatage_utc": "2026-10-16T14:39:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/15922d6d-421a-4b33-a329-45443491e1be?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -1115,13 +1160,13 @@
     "horodatage_utc": "2026-10-16T04:00:18+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c3d40d38aeb879b4",
@@ -1775,50 +1820,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "53c97db8754e19f3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Republicans fund midterms ad blitz as Democrats gain in polls",
-    "horodatage_utc": "2026-10-15T10:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/481f7865-b6bb-40b8-9ee2-7554f6914007?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "d90ec7fa0958a9d6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Germany AfD and populist BSW pass motion to end aid for Ukraine",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/thelocal.de",
-    "url_source": "https://www.thelocal.de/20261015/germanys-afd-and-populist-bsw-pass-motion-to-end-aid-for-ukraine",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/thelocal.de. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "27bd4ffad60f98c3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine resumes attacks on Russian oil refineries , officials say , after brief truce",
-    "horodatage_utc": "2026-10-15T10:00:00+00:00",
-    "source_nom": "GDELT/mankatofreepress.com",
-    "url_source": "https://www.mankatofreepress.com/news/business/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-after-brief-truce/article_561af0fd-3dc3-5b14-a87f-cae68c579826.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/mankatofreepress.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
