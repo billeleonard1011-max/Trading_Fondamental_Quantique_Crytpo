@@ -1,18 +1,93 @@
 [
   {
+    "id": "b4807fa22a193a6d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Christine Lagarde: IMFC Statement",
+    "horodatage_utc": "2026-10-17T05:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c878046dc656b13f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Are we sleepwalking into World War III?",
+    "horodatage_utc": "2026-10-17T04:00:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3a56575e-ecfb-4fa9-af70-01aebd869729?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "38e77375ede99d17",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Inflation will make people poor’: Airlines brace for years of pain",
+    "horodatage_utc": "2026-10-17T04:00:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/993940f2-c9a3-4e20-8c0a-f73d448f090d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e0419a9ea1519482",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump exempts Russia from further sanctions mandated by new law",
+    "horodatage_utc": "2026-10-17T02:31:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/836eddd7-3adc-4cbb-8527-7a0a7a277e50?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cc8bc886646c6670",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s press secretary Katie Zacharia fired after five days",
+    "horodatage_utc": "2026-10-17T01:29:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
     "id": "8900e974f5a52221",
     "categorie": "geopolitique",
     "titre_affiche": "Anthropic offers Blackstone double-digit yield in latest chip financing",
     "horodatage_utc": "2026-10-17T00:47:25+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e9ed55cb0204c44e",
@@ -21,13 +96,13 @@
     "horodatage_utc": "2026-10-16T22:57:43+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "40804b02839595e1",
@@ -106,21 +181,6 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "cc8bc886646c6670",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s press secretary Katie Zacharia fired after five days",
-    "horodatage_utc": "2026-10-16T20:14:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -1756,67 +1816,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "955f6edfc9f0118d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Credit Suisse bankers denied bonuses stripped after UBS takeover",
-    "horodatage_utc": "2026-10-15T11:46:19+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6607f0e4-6f99-46d1-a994-decafda46e16?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4b5c37f2f4c61667",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenskyy defies Trump as Ukraine resumes strikes on Russian refineries",
-    "horodatage_utc": "2026-10-15T10:32:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4d79b52f-1f0d-4739-82ab-7ecfb4251326?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d8f1bd9330744db1",
-    "categorie": "geopolitique",
-    "titre_affiche": "EU leaders to urge Zelenskyy to rein in criticism of Trump",
-    "horodatage_utc": "2026-10-15T10:05:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fb2110b4-50d2-4ff9-9886-f7b42c5b4579?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d810d378b591502f",
-    "categorie": "geopolitique",
-    "titre_affiche": "New ‘zero-click’ spyware hacked phones using targeted ads",
-    "horodatage_utc": "2026-10-15T10:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b857f1ed-8af6-4d64-b059-912afee1c075?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
     ],
     "portee": "influence",
     "nouveaute": false
