@@ -1,5 +1,20 @@
 [
   {
+    "id": "fb5ea0a3b0ddb0a6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Zelenskyy says Starlink speed limits in Ukraine are a ‘planned operation’",
+    "horodatage_utc": "2026-10-17T12:53:53+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "19fb939fccca581f",
     "categorie": "geopolitique",
     "titre_affiche": "Iran Says Supertanker Hit Mine In Strait of Hormuz",
@@ -485,7 +500,7 @@
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c878046dc656b13f",
@@ -1805,20 +1820,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "4d7b0ba745bf01ca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic assigned highest junk credit rating in June",
-    "horodatage_utc": "2026-10-16T04:00:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
