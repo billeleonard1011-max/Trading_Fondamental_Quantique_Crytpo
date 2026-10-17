@@ -3,16 +3,16 @@
     "id": "f171a712436ace70",
     "categorie": "geopolitique",
     "titre_affiche": "Israeli settlers attack European diplomats in the West Bank",
-    "horodatage_utc": "2026-10-17T16:11:59+00:00",
+    "horodatage_utc": "2026-10-17T17:58:01+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e5469c49cc64f88d",
@@ -21,14 +21,14 @@
     "horodatage_utc": "2026-10-17T15:42:34+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Inflation et prix, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Inflation et prix",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fb5ea0a3b0ddb0a6",
