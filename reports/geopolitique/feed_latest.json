@@ -1,5 +1,80 @@
 [
   {
+    "id": "ec2faababc16051b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+    "horodatage_utc": "2026-10-18T12:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f1bc8e74bf88b687",
+    "categorie": "geopolitique",
+    "titre_affiche": "France reels after ‘unprecedented’ violent riots",
+    "horodatage_utc": "2026-10-18T11:03:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "03f5e471e45aa825",
+    "categorie": "geopolitique",
+    "titre_affiche": "St Petersburg endures biggest Ukrainian drone attack",
+    "horodatage_utc": "2026-10-18T11:01:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "32f424633ee532c9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Could Republicans prove the pollsters wrong in the midterms?",
+    "horodatage_utc": "2026-10-18T10:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b2299174-fb78-4edf-a358-8cae837f8d7b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "afa91d238f265f91",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s losing battle with green energy",
+    "horodatage_utc": "2026-10-18T10:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b263bbe1-cd0c-4508-9ec8-07cb8a9c2a02?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "bfbe15b6d1231789",
     "categorie": "geopolitique",
     "titre_affiche": "Finance Minister Aurangzeb Reaffirms Commitment to IMF Programme",
@@ -21,13 +96,13 @@
     "horodatage_utc": "2026-10-18T04:00:18+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/cf888c97-f01e-425b-ab3a-37e696612e8a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0b433a67a24127b9",
@@ -51,6 +126,21 @@
     "horodatage_utc": "2026-10-18T04:00:18+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/75a42e7d-1497-4760-bd75-1cbd083fc9a4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "945e6aa2c68ae78a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russian ships fake locations to appear in two places at once",
+    "horodatage_utc": "2026-10-18T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f9dd0c26-3de3-4ecc-8a08-7d08f0946d08?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -1730,97 +1820,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "393aac075b3db20d",
-    "categorie": "geopolitique",
-    "titre_affiche": "EU vows to maintain Russia sanctions after US pivot",
-    "horodatage_utc": "2026-10-16T10:29:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ee6dfd48-fa31-4bde-9962-2f9f09c36798?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a4d1ae5dcee6b459",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump teki dieseldiilin Putinin kanssa – EU vastaa uusilla pakotteilla",
-    "horodatage_utc": "2026-10-16T10:15:00+00:00",
-    "source_nom": "GDELT/kauppalehti.fi",
-    "url_source": "https://www.kauppalehti.fi/uutiset/a/44565ae4-1bd8-4372-9a82-21fd6ec9c86d",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d8ceb8da75efc470",
-    "categorie": "geopolitique",
-    "titre_affiche": "World’s worst-performing stock market hit by fresh MSCI warning",
-    "horodatage_utc": "2026-10-16T10:06:49+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/753fa2ed-1763-462b-a4c0-ded9b53baf3c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9c9b45984ef68d0f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Republicans turn on Trump’s tariffs in battle for ‘political survival’",
-    "horodatage_utc": "2026-10-16T10:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e2acd655-0a6a-4de6-9404-c838f6e7b8cb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9ec32fb979b35302",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX policy manager set to testify as part of NYC Council AI safety investigation",
-    "horodatage_utc": "2026-10-16T08:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "6aa149dfc1e90dcb",
-    "categorie": "geopolitique",
-    "titre_affiche": "G7 economies plan simulated AI attacks on banks as cyber fears rise",
-    "horodatage_utc": "2026-10-16T07:36:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ce1b9236-1e53-47f1-b1f9-443a9f430b0d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Cyberattaques sur infrastructures et plateformes",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
