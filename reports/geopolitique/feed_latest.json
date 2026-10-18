@@ -1,5 +1,65 @@
 [
   {
+    "id": "f733bad65d14e136",
+    "categorie": "geopolitique",
+    "titre_affiche": "Macron faces political firestorm after riots",
+    "horodatage_utc": "2026-10-18T19:55:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/19495e50-0f55-44b1-8d19-19244163a4e8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "f1bc8e74bf88b687",
+    "categorie": "geopolitique",
+    "titre_affiche": "France reels after ‘unprecedented’ violent riots",
+    "horodatage_utc": "2026-10-18T19:52:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "49b1f751bc389999",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump to begin transforming historic golf course despite court order",
+    "horodatage_utc": "2026-10-18T19:28:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/39a1f29b-1248-4785-8aa3-0e7c29b5bf35?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "95b9aca6bd80aba4",
+    "categorie": "geopolitique",
+    "titre_affiche": "US army chief in Asia calls for show of enhanced military muscle",
+    "horodatage_utc": "2026-10-18T19:00:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4ed89331-df18-4f2d-817b-9a7b304fd4e4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "03f5e471e45aa825",
     "categorie": "geopolitique",
     "titre_affiche": "St Petersburg endures biggest Ukrainian drone attack",
@@ -450,21 +510,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "f1bc8e74bf88b687",
-    "categorie": "geopolitique",
-    "titre_affiche": "France reels after ‘unprecedented’ violent riots",
-    "horodatage_utc": "2026-10-18T14:15:40+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   },
   {
     "id": "4d541809cc776206",
@@ -1771,51 +1816,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "fe74860450959137",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia Ukraine conflict : Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/news/defence/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump/articleshow/134998296.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ad56b27c1aee2bf2",
-    "categorie": "geopolitique",
-    "titre_affiche": "70 miliardi e scorte di Patriot Cosa chiede Zelensky allUe per linverno",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/zazoom.it",
-    "url_source": "https://www.zazoom.it/2026-10-16/70-miliardi-e-scorte-di-patriot-cosa-chiede-zelensky-allue-per-linverno/19809185/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1d2361d071f9c2d3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine resumes attacks on Russian oil refineries",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/mtairynews.com",
-    "url_source": "https://www.mtairynews.com/ap/business/ukraine-resumes-attacks-on-russian-oil-refineries/article_eb1e2804-96a0-541d-a238-89fffd65857d.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
