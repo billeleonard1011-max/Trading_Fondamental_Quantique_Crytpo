@@ -1,5 +1,20 @@
 [
   {
+    "id": "03f5e471e45aa825",
+    "categorie": "geopolitique",
+    "titre_affiche": "St Petersburg endures biggest Ukrainian drone attack",
+    "horodatage_utc": "2026-10-18T18:30:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "433fc8ddeb0bd1fc",
     "categorie": "geopolitique",
     "titre_affiche": "Entrevista antiga de Vance onde elogia Putin fica viral : É um ex - KGB",
@@ -347,21 +362,6 @@
     "nouveaute": true
   },
   {
-    "id": "03f5e471e45aa825",
-    "categorie": "geopolitique",
-    "titre_affiche": "St Petersburg endures biggest Ukrainian drone attack",
-    "horodatage_utc": "2026-10-18T15:14:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "cdd56d01bfe32d84",
     "categorie": "geopolitique",
     "titre_affiche": "Trump’s bid to make America cheap again has failed",
@@ -374,7 +374,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3d6bcb855f698ce6",
@@ -720,6 +720,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "215e1cdc7bc93e6e",
+    "categorie": "geopolitique",
+    "titre_affiche": "White House chaos overshadows Trump’s midterms push",
+    "horodatage_utc": "2026-10-17T19:50:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5712154e-13a1-4adc-8ff8-be744a9ffc1c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "f171a712436ace70",
@@ -1799,21 +1814,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "815a94aa65ed6aca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Orchestrated protests , mobilized masses and scripted chants against Israel",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/jns.org",
-    "url_source": "https://www.jns.org/wire/the-focus-project/orchestrated-protests-mobilized-masses-and-scripted-chants-against-israel",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
     ],
     "portee": "influence",
     "nouveaute": true

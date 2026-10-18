@@ -1,18 +1,33 @@
 [
   {
+    "id": "f7c1d2945638fcfe",
+    "categorie": "crypto",
+    "titre_affiche": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+    "horodatage_utc": "2026-10-18T16:33:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "ffea1aeeb626c3ad",
     "categorie": "crypto",
     "titre_affiche": "Cysic suspends bridge after attacker mints tokens and moves $727,000 to Ethereum",
     "horodatage_utc": "2026-10-18T16:07:43+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f0519007343793ff",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-10-18T13:00:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d50f5c71857d0913",
@@ -1794,21 +1809,6 @@
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "acc0eb39a0ab1a8a",
-    "categorie": "crypto",
-    "titre_affiche": "Strategy shareholders face dilution drag despite brighter bitcoin forecasts, TD Cowen says",
-    "horodatage_utc": "2026-10-08T17:18:24+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-08-strategy-shareholders-face-dilution-drag-despite-brighter-bitcoin-forecasts-td-cowen-418066",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
