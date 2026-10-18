@@ -1,18 +1,33 @@
 [
   {
+    "id": "49b1f751bc389999",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump to begin transforming historic golf course despite court order",
+    "horodatage_utc": "2026-10-18T22:20:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/39a1f29b-1248-4785-8aa3-0e7c29b5bf35?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
     "id": "f733bad65d14e136",
     "categorie": "geopolitique",
     "titre_affiche": "Macron faces political firestorm after riots",
     "horodatage_utc": "2026-10-18T19:55:48+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/19495e50-0f55-44b1-8d19-19244163a4e8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f1bc8e74bf88b687",
@@ -30,34 +45,19 @@
     "nouveaute": false
   },
   {
-    "id": "49b1f751bc389999",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump to begin transforming historic golf course despite court order",
-    "horodatage_utc": "2026-10-18T19:28:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/39a1f29b-1248-4785-8aa3-0e7c29b5bf35?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
     "id": "95b9aca6bd80aba4",
     "categorie": "geopolitique",
     "titre_affiche": "US army chief in Asia calls for show of enhanced military muscle",
     "horodatage_utc": "2026-10-18T19:00:01+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/4ed89331-df18-4f2d-817b-9a7b304fd4e4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "03f5e471e45aa825",

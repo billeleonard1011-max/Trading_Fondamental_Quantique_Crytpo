@@ -15,6 +15,21 @@
     "nouveaute": false
   },
   {
+    "id": "8f87ef01c9f19eb2",
+    "categorie": "crypto",
+    "titre_affiche": "Wall Street freaked out Friday, but VIX and bitcoin trades say the fear may fade Monday.",
+    "horodatage_utc": "2026-10-18T16:33:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "ffea1aeeb626c3ad",
     "categorie": "crypto",
     "titre_affiche": "Cysic suspends bridge after attacker mints tokens and moves $727,000 to Ethereum",
@@ -1792,22 +1807,6 @@
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "1897e717fc56eb59",
-    "categorie": "crypto",
-    "titre_affiche": "Wall Street's tokenization boom could have bigger winners than bitcoin and ether, Citrini says",
-    "horodatage_utc": "2026-10-08T19:46:15+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/08/wall-street-s-tokenization-boom-could-have-bigger-winners-than-bitcoin-and-ether-citrini-says",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
       "ETH"
     ],
     "portee": "actif_direct",
