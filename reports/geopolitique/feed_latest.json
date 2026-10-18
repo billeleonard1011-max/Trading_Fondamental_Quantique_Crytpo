@@ -1,5 +1,20 @@
 [
   {
+    "id": "fb5ea0a3b0ddb0a6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Zelenskyy says Starlink speed limits in Ukraine are a ‘planned operation’",
+    "horodatage_utc": "2026-10-18T02:35:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "f171a712436ace70",
     "categorie": "geopolitique",
     "titre_affiche": "Israeli settlers attack European diplomats in the West Bank",
@@ -26,21 +41,6 @@
     "tickers_ou_themes_lies": [
       "Inflation et prix",
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "fb5ea0a3b0ddb0a6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenskyy says Starlink speed limits in Ukraine are a ‘planned operation’",
-    "horodatage_utc": "2026-10-17T12:53:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": false
