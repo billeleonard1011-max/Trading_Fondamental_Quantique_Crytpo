@@ -1,5 +1,95 @@
 [
   {
+    "id": "bfbe15b6d1231789",
+    "categorie": "geopolitique",
+    "titre_affiche": "Finance Minister Aurangzeb Reaffirms Commitment to IMF Programme",
+    "horodatage_utc": "2026-10-18T04:45:00+00:00",
+    "source_nom": "GDELT/newsmakers.pk",
+    "url_source": "https://newsmakers.pk/finance-minister-aurangzeb-reaffirms-commitment-to-imf-programme/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/newsmakers.pk. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b6ac9dc4ab7277aa",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Trump administration has entered its utter shambles era",
+    "horodatage_utc": "2026-10-18T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cf888c97-f01e-425b-ab3a-37e696612e8a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "0b433a67a24127b9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russian ‘shadow fleet’ fakes locations to appear in two places at once",
+    "horodatage_utc": "2026-10-18T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f9dd0c26-3de3-4ecc-8a08-7d08f0946d08?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "05433c86a2dfda95",
+    "categorie": "geopolitique",
+    "titre_affiche": "Latvia calls for visa ban on Russians",
+    "horodatage_utc": "2026-10-18T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/75a42e7d-1497-4760-bd75-1cbd083fc9a4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8b57b796fd9228f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Europe must liberate Belgium from its huge Russian assets risk",
+    "horodatage_utc": "2026-10-18T04:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c3d73770-4d91-4bd0-bf6d-7f9375e2b938?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "270686020c047cb2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Central banks keep buying gold while governments tighten the rules around retail access . Is the world preparing for a new era of monetary control ?",
+    "horodatage_utc": "2026-10-18T03:45:00+00:00",
+    "source_nom": "GDELT/investmentwatchblog.com",
+    "url_source": "https://www.investmentwatchblog.com/central-banks-keep-buying-gold-while-governments-tighten-the-rules-around-retail-access-is-the-world-preparing-for-a-new-era-of-monetary-control/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/investmentwatchblog.com. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "fb5ea0a3b0ddb0a6",
     "categorie": "geopolitique",
     "titre_affiche": "Zelenskyy says Starlink speed limits in Ukraine are a ‘planned operation’",
@@ -44,6 +134,51 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "efb09fcb0109d5e8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Peter Schiff warns a perfect storm of financial destruction worse than 2008 is brewing . Build wealth beyond your home",
+    "horodatage_utc": "2026-10-17T12:15:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/peter-schiff-warns-perfect-storm-110500000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c1361263e63ea55f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump super intelligence diplomat : Marco Rubio - The Economic Times",
+    "horodatage_utc": "2026-10-17T12:15:00+00:00",
+    "source_nom": "GDELT/economictimes.indiatimes.com",
+    "url_source": "https://economictimes.indiatimes.com/opinion/et-commentary/trumps-super-intelligence-diplomat-marco-rubio/articleshow/135013070.cms",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "71574deb58e1b193",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pakistan seeks Debt Relief from 3 UAE Banks in Major Funding Push",
+    "horodatage_utc": "2026-10-17T12:00:00+00:00",
+    "source_nom": "GDELT/en.dailypakistan.com.pk",
+    "url_source": "https://en.dailypakistan.com.pk/17-Oct-2026/pakistan-seeks-debt-relief-from-3-uae-banks-in-major-funding-push",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "78e035abd689751d",
@@ -1687,140 +1822,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "28cb208e89cfd848",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia CEO Jensen Huang urges U.S.-China dialogue on 'potentially dangerous' AI",
-    "horodatage_utc": "2026-10-16T07:28:06+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a06e16e18316e161",
-    "categorie": "geopolitique",
-    "titre_affiche": "Healey signals tax raid on banks in Budget",
-    "horodatage_utc": "2026-10-16T07:08:49+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/09e07278-8479-49bb-a145-51e5d93828a2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c050986acd75d599",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bets on Fed rate hold in October strengthen after Warsh comments",
-    "horodatage_utc": "2026-10-16T06:37:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/95a8e05d-fc20-441d-b271-64e87fe41f76?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "57841a4768063f11",
-    "categorie": "geopolitique",
-    "titre_affiche": "What to know about Starshield, SpaceX's military-focused Starlink service",
-    "horodatage_utc": "2026-10-16T06:25:31+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "f4811c79ff50ffaa",
-    "categorie": "geopolitique",
-    "titre_affiche": "US Sanctions the World Court in a Bid to Avoid Criminal Liability",
-    "horodatage_utc": "2026-10-16T06:00:00+00:00",
-    "source_nom": "GDELT/havanatimes.org",
-    "url_source": "https://havanatimes.org/interviews/us-sanctions-the-world-court-in-a-bid-to-avoid-criminal-liability/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/havanatimes.org. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "7e7c0a92d62afed4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bowing to Washington pressure , Sri Lanka and India refuse to provide aid to Iranian ships",
-    "horodatage_utc": "2026-10-16T06:00:00+00:00",
-    "source_nom": "GDELT/wsws.org",
-    "url_source": "https://www.wsws.org/en/articles/2026/10/16/eokl-o16.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/wsws.org. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "63ed1213d874b71d",
-    "categorie": "geopolitique",
-    "titre_affiche": "ABDden İrana yeni yaptırım kararı",
-    "horodatage_utc": "2026-10-16T05:45:00+00:00",
-    "source_nom": "GDELT/finans.sabah.com.tr",
-    "url_source": "https://finans.sabah.com.tr/ekonomi/abdden-irana-yeni-yaptirim-karari-7681870",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finans.sabah.com.tr. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5691d8d2b936b056",
-    "categorie": "geopolitique",
-    "titre_affiche": "Η ενεργειακή κρίση απειλεί το χρονοδιάγραμμα της ΕΕ για το ρωσικό LNG",
-    "horodatage_utc": "2026-10-16T05:30:00+00:00",
-    "source_nom": "GDELT/forbesgreece.gr",
-    "url_source": "https://www.forbesgreece.gr/forbes-investing/4023778/i-energeiaki-krisi-apeilei-to-xronodiagramma-tis-ee-gia-to-rosiko-lng",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/forbesgreece.gr. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a4a6db6b11f2763a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dollar weakens as Fed’s Warsh declines to hint at October rate rise",
-    "horodatage_utc": "2026-10-16T05:25:54+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/95a8e05d-fc20-441d-b271-64e87fe41f76?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]

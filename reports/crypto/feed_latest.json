@@ -1,5 +1,81 @@
 [
   {
+    "id": "d50f5c71857d0913",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Price Holds Above $81K as ETF Outflows Raise Concerns",
+    "horodatage_utc": "2026-10-17T21:00:00+00:00",
+    "source_nom": "GDELT/econotimes.com",
+    "url_source": "https://econotimes.com/Bitcoin-Price-Holds-Above-81K-as-ETF-Outflows-Raise-Concerns-1756044",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dc4f8d483853d50a",
+    "categorie": "crypto",
+    "titre_affiche": "How to Buy Bitcoin for Beginners in 2026 : 6 Steps",
+    "horodatage_utc": "2026-10-17T18:00:00+00:00",
+    "source_nom": "GDELT/memeburn.com",
+    "url_source": "https://memeburn.com/how-to-buy-bitcoin-for-beginners/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/memeburn.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "bb5532acf3361f72",
+    "categorie": "crypto",
+    "titre_affiche": "Who Really Owns the Bitcoin Inside BlackRock ETF ?",
+    "horodatage_utc": "2026-10-17T17:45:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/really-owns-bitcoin-inside-blackrock-160038000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5967d05d307e812b",
+    "categorie": "crypto",
+    "titre_affiche": "Chainlink Data Feeds and Data Streams Go Live on Stellar",
+    "horodatage_utc": "2026-10-17T15:30:00+00:00",
+    "source_nom": "GDELT/econotimes.com",
+    "url_source": "https://econotimes.com/Chainlink-Data-Feeds-and-Data-Streams-Go-Live-on-Stellar-1755981",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : LINK. Le cours de LINK varie de 0.30385 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "LINK"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "cc28112d44deb9e2",
+    "categorie": "crypto",
+    "titre_affiche": "Deutsche Bank Is Weeks From Holding Bitcoin and Ethereum for Clients . Could Other Big Banks Follow ?",
+    "horodatage_utc": "2026-10-17T15:30:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/deutsche-bank-weeks-holding-bitcoin-143032000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "aaa2d06231618f8e",
     "categorie": "crypto",
     "titre_affiche": "SPYx Points to a Possible Route for Tokenized ETFs Into Solana DeFi",
@@ -21,13 +97,13 @@
     "horodatage_utc": "2026-10-17T09:15:00+00:00",
     "source_nom": "GDELT/247wallst.com",
     "url_source": "https://247wallst.com/investing/cryptocurrency/2026/10/17/is-uptober-over-for-btc-bitcoin-is-down-nearly-4-so-far-this-october/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6bb4f181530c70bf",
@@ -1729,82 +1805,6 @@
     "horodatage_utc": "2026-10-08T15:43:04+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "00c047c003d66d5c",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin pulls back as analysts forecast $80,000-$90,000 Q4 trading range",
-    "horodatage_utc": "2026-10-08T14:52:27+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "bef6b8b5740d256d",
-    "categorie": "crypto",
-    "titre_affiche": "Over 6 million bitcoin sit behind exposed public keys as AI warnings mount",
-    "horodatage_utc": "2026-10-08T14:03:20+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/08/over-6-million-bitcoin-sit-behind-exposed-public-keys-as-ai-warnings-mount",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "507b0365dac82d56",
-    "categorie": "crypto",
-    "titre_affiche": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
-    "horodatage_utc": "2026-10-08T13:06:24+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "09f34aa2f675295d",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin and ether holders urged to enter ‘bunker mode’ against possible AI attacks",
-    "horodatage_utc": "2026-10-08T11:47:16+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/08/bitcoin-and-ether-holders-urged-to-prepare-bunker-mode-against-possible-ai-attacks",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9eb8b7852ca523d6",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin mined for pennies in 2010 moves after 16 years, now worth $8.5 million",
-    "horodatage_utc": "2026-10-08T11:30:19+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/08/bitcoin-mined-for-pennies-in-2010-moves-after-16-years-now-worth-usd8-5-million",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
