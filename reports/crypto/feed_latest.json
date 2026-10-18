@@ -1,18 +1,48 @@
 [
   {
+    "id": "ffea1aeeb626c3ad",
+    "categorie": "crypto",
+    "titre_affiche": "Cysic suspends bridge after attacker mints tokens and moves $727,000 to Ethereum",
+    "horodatage_utc": "2026-10-18T16:07:43+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f0519007343793ff",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+    "horodatage_utc": "2026-10-18T13:00:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "d50f5c71857d0913",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin Price Holds Above $81K as ETF Outflows Raise Concerns",
     "horodatage_utc": "2026-10-17T21:00:00+00:00",
     "source_nom": "GDELT/econotimes.com",
     "url_source": "https://econotimes.com/Bitcoin-Price-Holds-Above-81K-as-ETF-Outflows-Raise-Concerns-1756044",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dc4f8d483853d50a",
@@ -21,13 +51,13 @@
     "horodatage_utc": "2026-10-17T18:00:00+00:00",
     "source_nom": "GDELT/memeburn.com",
     "url_source": "https://memeburn.com/how-to-buy-bitcoin-for-beginners/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/memeburn.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bb5532acf3361f72",
@@ -36,13 +66,13 @@
     "horodatage_utc": "2026-10-17T17:45:00+00:00",
     "source_nom": "GDELT/aol.com",
     "url_source": "https://www.aol.com/articles/really-owns-bitcoin-inside-blackrock-160038000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5967d05d307e812b",
@@ -1775,36 +1805,6 @@
     "horodatage_utc": "2026-10-08T17:18:24+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-10-08-strategy-shareholders-face-dilution-drag-despite-brighter-bitcoin-forecasts-td-cowen-418066",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c97b98a278febdc7",
-    "categorie": "crypto",
-    "titre_affiche": "Bitwise CEO says ‘tragic’ Dogecoin ETF failure shows gap between ETF buyers and crypto-app users",
-    "horodatage_utc": "2026-10-08T16:43:47+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-10-08-bitwise-ceo-dogecoin-etf-failure-hunter-horsley-418070",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "DOGE"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3db4814a955f0760",
-    "categorie": "crypto",
-    "titre_affiche": "U.S. government moves $1 billion in bitcoin tied to Bitfinex hack, with no sign of sale",
-    "horodatage_utc": "2026-10-08T15:43:04+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
