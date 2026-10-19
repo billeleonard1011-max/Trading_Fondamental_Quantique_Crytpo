@@ -1,5 +1,50 @@
 [
   {
+    "id": "f4e11a8b07a1a740",
+    "categorie": "geopolitique",
+    "titre_affiche": "China’s economy expands 4.5% in third quarter",
+    "horodatage_utc": "2026-10-19T03:05:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cf113314-1077-4ab4-b667-9912656684f1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "db7bc269644afca5",
+    "categorie": "geopolitique",
+    "titre_affiche": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
+    "horodatage_utc": "2026-10-19T01:56:34+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c049c606d5517b1d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Flight from Israel diverted after ‘threat’",
+    "horodatage_utc": "2026-10-19T00:55:37+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/77b859ab-e380-413d-894b-2fe3cf6417c5",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "49b1f751bc389999",
     "categorie": "geopolitique",
     "titre_affiche": "Trump to begin transforming historic golf course despite court order",
@@ -43,6 +88,21 @@
     ],
     "portee": "contexte",
     "nouveaute": false
+  },
+  {
+    "id": "c8a866b3e363726a",
+    "categorie": "geopolitique",
+    "titre_affiche": "France reels after ‘unprecedented’ violence from protesters",
+    "horodatage_utc": "2026-10-18T19:52:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "95b9aca6bd80aba4",
@@ -1756,66 +1816,6 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6d4c9fad3b787e41",
-    "categorie": "geopolitique",
-    "titre_affiche": "Drone Strikes in the Black Sea Raise Fears of Russian Escalation to Test NATO Response",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/military.com",
-    "url_source": "https://www.military.com/drone-strikes-in-the-black-sea-raise-fears-of-russian-escalation-to-test-natos-response",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/military.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0d4668b15be2d688",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine - Relations - Europe - Support : ఐరోపా అండ‌ …. Andhra Prabha Top Story - Andhra Prabha | Telugu News Daily , Latest Telugu News , Latest తెలుగు వార్తలు and LIVE Updates | Breaking News in AP and Telangana",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/prabhanews.com",
-    "url_source": "https://prabhanews.com/ukraine-relations-europe-support-trump-zelensky-putin-us/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/prabhanews.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a65e0b646abb85cd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Says Zelensky Not a Good Guy as US - Supplied Patriot Missiles to Ukraine at Peril",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/military.com",
-    "url_source": "https://www.military.com/trump-says-zelensky-not-a-good-guy-us-supplied-patriot-missiles-ukraine-peril",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/military.com. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0b4a790b4bb56129",
-    "categorie": "geopolitique",
-    "titre_affiche": "Karas Ukrainoje . Pareigūnas : Trumpas nedavė nurodymo riboti „ Starshield veikimą Ukrainoje",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/lrt.lt",
-    "url_source": "https://www.lrt.lt/naujienos/pasaulyje/6/3084006/karas-ukrainoje-zelenskis-pranesa-apie-galima-ukrainos-ir-jav-derybininku-susitikima",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/lrt.lt. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]
