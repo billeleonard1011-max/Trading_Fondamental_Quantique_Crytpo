@@ -1,33 +1,63 @@
 [
   {
+    "id": "cd38f694b57442f9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+    "horodatage_utc": "2026-10-19T21:05:20+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "c00a5a1673b6c142",
+    "categorie": "geopolitique",
+    "titre_affiche": "French bond sell-off intensifies after riots and looting",
+    "horodatage_utc": "2026-10-19T18:31:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cc7e577a-db7a-4e12-9a42-443696b98ec5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9f8c6a8f0073d11b",
+    "categorie": "geopolitique",
+    "titre_affiche": "US prosecutors allege Saudi royal links in OpenAI bugging case",
+    "horodatage_utc": "2026-10-19T16:13:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9e10eaa4-ed5e-417b-85c5-b5003b064017?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "8534d7d7fdc0c342",
     "categorie": "geopolitique",
     "titre_affiche": "Saudi Arabia to postpone ‘Davos in the desert’ after Houthi attacks",
     "horodatage_utc": "2026-10-19T15:40:33+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/75a2ee4e-ead9-4d37-b1ea-6fd759c4691d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "cd38f694b57442f9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Google says it can build data centers the right way. Some experts and residents are skeptical",
-    "horodatage_utc": "2026-10-19T13:36:41+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7aa047b3905fb0e7",
@@ -36,14 +66,14 @@
     "horodatage_utc": "2026-10-19T13:04:40+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e73d0106-486b-4382-8ecc-5c96ac44fdff?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c8a1b4232370edcc",
@@ -52,13 +82,13 @@
     "horodatage_utc": "2026-10-19T12:34:01+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "387abc03e4ce2720",
@@ -82,13 +112,13 @@
     "horodatage_utc": "2026-10-19T11:21:25+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/92f271fd-f96c-4723-91f2-48363b98127f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1191ae15fb23aa84",
@@ -97,13 +127,13 @@
     "horodatage_utc": "2026-10-19T11:09:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6075e0ec-9116-4de4-84e6-d50b5ed1d47a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9faf814a015b7c13",
@@ -225,7 +255,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f4e11a8b07a1a740",
@@ -1782,37 +1812,6 @@
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "40804b02839595e1",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
-    "horodatage_utc": "2026-10-16T22:06:27+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine",
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "176be9fbeffffb18",
-    "categorie": "geopolitique",
-    "titre_affiche": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
-    "horodatage_utc": "2026-10-16T21:49:13+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   }
 ]
