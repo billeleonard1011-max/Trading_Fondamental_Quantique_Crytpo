@@ -1,5 +1,97 @@
 [
   {
+    "id": "5e7b997acb2a9959",
+    "categorie": "geopolitique",
+    "titre_affiche": "US stocks set for rebound after AI sell-off",
+    "horodatage_utc": "2026-10-19T09:16:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4ab8b9bb090b65cb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Macron rejects interior minister’s resignation after French riots",
+    "horodatage_utc": "2026-10-19T08:29:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cc7e577a-db7a-4e12-9a42-443696b98ec5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "bc60909c33fe0ae8",
+    "categorie": "geopolitique",
+    "titre_affiche": "China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround",
+    "horodatage_utc": "2026-10-19T07:48:53+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0f003ed1ac432352",
+    "categorie": "geopolitique",
+    "titre_affiche": "China’s economy picks up pace with 4.5% growth",
+    "horodatage_utc": "2026-10-19T05:03:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cf113314-1077-4ab4-b667-9912656684f1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e3d244116799537e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Americans are unhappy. How will they vote in the midterms?",
+    "horodatage_utc": "2026-10-19T04:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d375cde1-ec37-4c5e-87ab-a3a655e879d8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "005c6045fe087180",
+    "categorie": "geopolitique",
+    "titre_affiche": "Rising interest rates derail property recovery as buyers recut deals",
+    "horodatage_utc": "2026-10-19T04:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/aef890f1-e3f5-4add-b1fc-6187e2658106?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "f4e11a8b07a1a740",
     "categorie": "geopolitique",
     "titre_affiche": "China’s economy expands 4.5% in third quarter",
@@ -1726,96 +1818,6 @@
       "Or et métaux précieux"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "1fd04dd5a2e14ccd",
-    "categorie": "geopolitique",
-    "titre_affiche": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
-    "horodatage_utc": "2026-10-16T16:46:18+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "299283ad00d37166",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
-    "horodatage_utc": "2026-10-16T16:27:44+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ac38927a488472f6",
-    "categorie": "geopolitique",
-    "titre_affiche": "U.S. raises Mastercard, Citigroup China market access in bilateral Bangkok talks, official says",
-    "horodatage_utc": "2026-10-16T16:11:09+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "af2aa970b96483cd",
-    "categorie": "geopolitique",
-    "titre_affiche": "California Energy Crisis Could Bring the West Coast to Its Knee",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/alipac.us",
-    "url_source": "https://www.alipac.us/f9/california%92s-energy-crisis-could-bring-west-coast-its-knee-%7C-ronald-stein-pe-442394/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/alipac.us. Elle se rattache à : Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "00d8423a5573381f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia strikes nine Ukrainian regions as strain grows between Zelensky and Trump",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/newhamrecorder.co.uk",
-    "url_source": "https://www.newhamrecorder.co.uk/news/national/26643122.russia-strikes-nine-ukrainian-regions-strain-grows-zelensky-trump/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/newhamrecorder.co.uk. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "aab7f86a3f384b0a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ucraina Zelensky | Ambizioni di Putin vanno oltre il Donbass Russia mette alla prova la Nato",
-    "horodatage_utc": "2026-10-16T16:00:00+00:00",
-    "source_nom": "GDELT/zazoom.it",
-    "url_source": "https://www.zazoom.it/2026-10-16/ucraina-zelensky-ambizioni-di-putin-vanno-oltre-il-donbass-russia-mette-alla-prova-la-nato/19809159/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/zazoom.it. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]

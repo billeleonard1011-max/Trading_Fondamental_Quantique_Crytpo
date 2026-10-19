@@ -1,5 +1,65 @@
 [
   {
+    "id": "89115079d0b2bb7b",
+    "categorie": "crypto",
+    "titre_affiche": "CME’s bitcoin cash, uniswap futures, global PMIs: Crypto Week Ahead",
+    "horodatage_utc": "2026-10-19T09:12:39+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7235d430f49c575a",
+    "categorie": "crypto",
+    "titre_affiche": "JPMorgan expands ‘JPM Coin’ deposit token to Ethereum for institutional clients",
+    "horodatage_utc": "2026-10-19T08:31:31+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-10-19-jpmorgan-jpm-coin-deposit-token-ethereum-418874",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "72ec345827ff3869",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
+    "horodatage_utc": "2026-10-19T06:23:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/19/bitcoin-whale-moves-usd34-million-in-btc-it-got-in-2013-when-coins-traded-at-usd131",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "38a3876c31d26ffe",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
+    "horodatage_utc": "2026-10-19T03:36:58+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "f7c1d2945638fcfe",
     "categorie": "crypto",
     "titre_affiche": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
@@ -1747,67 +1807,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b9a61c27aaa83ee5",
-    "categorie": "crypto",
-    "titre_affiche": "Solana is about to halve its block times as final 200-millisecond upgrade nears",
-    "horodatage_utc": "2026-10-09T05:00:52+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/09/solana-is-about-to-halve-its-block-times-as-final-200-millisecond-upgrade-nears",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "038ca7906b78cf94",
-    "categorie": "crypto",
-    "titre_affiche": "Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush",
-    "horodatage_utc": "2026-10-09T04:04:36+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "69342c8abc4bc1bf",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin rebounds to $82,000 as Trump rules out Iran strikes, oil drops",
-    "horodatage_utc": "2026-10-09T03:27:38+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/09/bitcoin-rebounds-to-usd82-000-as-trump-rules-out-iran-strikes",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ab48c8fa810bff6d",
-    "categorie": "crypto",
-    "titre_affiche": "Top Democrat among Senate investigators probes ties between Cantor Fitzgerald, Tether",
-    "horodatage_utc": "2026-10-08T21:22:58+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/policy/2026/10/08/top-democrat-among-senate-investigators-probes-ties-between-cantor-fitzgerald-tether",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": false
