@@ -1,8 +1,69 @@
 [
   {
+    "id": "7fbebbdd06cd348c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump pledges to spend $400mn on Republican Party midterm campaigns",
+    "horodatage_utc": "2026-10-20T19:02:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c335e978-1ceb-4254-8c71-793a41e6d0b3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "215b5e22f8270fa2",
+    "categorie": "geopolitique",
+    "titre_affiche": "What Amazon must do to get its stumbling stock back to record highs and beyond",
+    "horodatage_utc": "2026-10-20T16:49:28+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/investingclub/2026/10/20/what-amazon-must-do-to-get-its-stumbling-stock-back-to-record-highs-and-beyond.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7cc7562b1bc175f8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alberta voters reject separation from Canada",
+    "horodatage_utc": "2026-10-20T15:51:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8afb4e0b-302b-445c-8dde-4c5b091b808e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "dc0f81c1698b7335",
     "categorie": "geopolitique",
     "titre_affiche": "Witkoff meets Zelenskyy before travelling to Russia",
+    "horodatage_utc": "2026-10-20T15:11:57+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "78cb2267fdc4462e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Finnish president hails progress in talks about ending Russia’s war in Ukraine",
     "horodatage_utc": "2026-10-20T15:11:57+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1",
@@ -21,14 +82,14 @@
     "horodatage_utc": "2026-10-20T14:12:38+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Dollar et devises, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0e7aeb837f9ccc8a",
@@ -37,13 +98,13 @@
     "horodatage_utc": "2026-10-20T11:34:03+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/20/ai-rally-fades-elice-ipo-dives.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5e583def58debe77",
@@ -94,6 +155,21 @@
     "id": "c1f73ed608a4e325",
     "categorie": "geopolitique",
     "titre_affiche": "Older Americans brace for higher healthcare costs",
+    "horodatage_utc": "2026-10-20T10:10:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b101071b-0b47-4cf2-a35f-9ebb04539df2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b1119c43fe8bfe2b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Profits rise for US insurers as benefits for elderly Americans face cuts",
     "horodatage_utc": "2026-10-20T10:10:01+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/b101071b-0b47-4cf2-a35f-9ebb04539df2?syn-25a6b1a6=1",
@@ -1738,82 +1814,6 @@
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "7e58f80152b96aad",
-    "categorie": "geopolitique",
-    "titre_affiche": "Airstrike kills 3 children in Yemen , and other Middle East developments",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/news4jax.com",
-    "url_source": "https://www.news4jax.com/news/world/2026/10/17/airstrike-kills-3-children-in-yemen-and-other-middle-east-developments/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c83d9a2ad0e61208",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump exempte la Russie de nouvelles sanctions , en pleine crise avec Kiev",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/lequotidien.lu",
-    "url_source": "https://lequotidien.lu/monde/trump-exempte-la-russie-de-nouvelles-sanctions-en-pleine-crise-avec-kiev/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8ed01d637dc599b3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Waives Graham Act Sanctions On Russia Before They Take Effect",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/iranherald.com",
-    "url_source": "http://www.iranherald.com/news/279380721/trump-waives-graham-act-sanctions-on-russia-before-they-take-effect",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fe271126df3b4808",
-    "categorie": "geopolitique",
-    "titre_affiche": "Moscovo e Kiev multiplicam ataques com drones enquanto Putin agradece a Trump",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/rtp.pt",
-    "url_source": "https://www.rtp.pt/noticias/mundo/moscovo-e-kiev-multiplicam-ataques-com-drones-enquanto-putin-agradece-a-trump_n1772272",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "e010c64c782e2b21",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine Endures a Punishing Week Under Pressure from Trump and Putin",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/jowhar.com",
-    "url_source": "https://jowhar.com/ukraine-endures-a-punishing-week-under-pressure-from-trump-and-putin/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
