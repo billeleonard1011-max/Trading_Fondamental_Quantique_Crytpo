@@ -1,5 +1,66 @@
 [
   {
+    "id": "3123d5cc4315aad3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump envoys to hold fresh Ukraine talks as energy crunch looms over midterms",
+    "horodatage_utc": "2026-10-20T00:14:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/581d8a59-b128-4f68-9f34-6c066b36ca5b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "73cc50b29ed97c6e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic and Nscale in talks for second multibillion-dollar deal",
+    "horodatage_utc": "2026-10-19T22:27:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/26a604d8-1a9d-4801-bd73-6ac588b63bdc?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f9895b52e25899fb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer says the recent AI stock sell-off echoes a crucial lesson from the 1987 market crash",
+    "horodatage_utc": "2026-10-19T22:22:45+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/19/cramer-recent-ai-sell-off-echoes-lesson-1987-crash.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "46bfe390b8f313e4",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI employee accused of bugging had links to Saudi royals, prosecutors claim",
+    "horodatage_utc": "2026-10-19T21:27:34+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9e10eaa4-ed5e-417b-85c5-b5003b064017?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "cd38f694b57442f9",
     "categorie": "geopolitique",
     "titre_affiche": "Google says it can build data centers the right way. Some experts and residents are skeptical",
@@ -21,13 +82,13 @@
     "horodatage_utc": "2026-10-19T18:31:54+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/cc7e577a-db7a-4e12-9a42-443696b98ec5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9f8c6a8f0073d11b",
@@ -256,6 +317,21 @@
     ],
     "portee": "contexte",
     "nouveaute": false
+  },
+  {
+    "id": "f51f7c15e239b71f",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘I still do support him’: US voters weigh in on Trump and the midterms",
+    "horodatage_utc": "2026-10-19T04:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d375cde1-ec37-4c5e-87ab-a3a655e879d8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "f4e11a8b07a1a740",
@@ -1737,81 +1813,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "76a6202e221691b8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Yes Bank to seek Supreme Court review of Rs 8 , 415 crore AT1 bond write - down verdict",
-    "horodatage_utc": "2026-10-17T01:00:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/industry/banking/finance/banking/yes-bank-to-seek-supreme-court-review-of-rs-8415-crore-at1-bond-write-down-verdict/articleshow/135003185.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8900e974f5a52221",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic offers Blackstone double-digit yield in latest chip financing",
-    "horodatage_utc": "2026-10-17T00:47:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c4cb34d767772a8b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Global diesel crisis turns oil refineries into profit machines",
-    "horodatage_utc": "2026-10-17T00:15:00+00:00",
-    "source_nom": "GDELT/maravipost.com",
-    "url_source": "https://www.maravipost.com/global-diesel-crisis-turns-oil-refineries-into-profit-machines/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "beba9f53a1bfb39c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kenya September inflation at 6 . 8 % as central bank lifts growth outlook",
-    "horodatage_utc": "2026-10-17T00:00:00+00:00",
-    "source_nom": "GDELT/kenya-today.com",
-    "url_source": "https://kenya-today.com/report-kenyas-september-inflation-at-68-as-central-bank-lifts-growth-outlook-12331/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e9ed55cb0204c44e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil hits five-month high of $110 on new escalation in Middle East",
-    "horodatage_utc": "2026-10-16T22:57:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
     "nouveaute": false
   }
 ]
