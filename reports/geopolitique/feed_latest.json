@@ -1,18 +1,94 @@
 [
   {
+    "id": "a88f64618e30aa82",
+    "categorie": "geopolitique",
+    "titre_affiche": "HSBC CEO warns the AI boom won’t make every data center a good bet",
+    "horodatage_utc": "2026-10-20T10:39:17+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "faffe6166e6c7b81",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin’s American friends",
+    "horodatage_utc": "2026-10-20T10:26:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f2261796-20d1-4c90-ab3e-246d4aff504f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e857293f52edea33",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alberta voters reject separation from Canada, early results show",
+    "horodatage_utc": "2026-10-20T10:09:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8afb4e0b-302b-445c-8dde-4c5b091b808e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9d7a4aa434e07dfb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump envoys to hold fresh Ukraine talks in Norway",
+    "horodatage_utc": "2026-10-20T09:31:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/581d8a59-b128-4f68-9f34-6c066b36ca5b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "54d50072149473cd",
+    "categorie": "geopolitique",
+    "titre_affiche": "U.S. bans DeepSeek from government agency systems amid AI rift with China",
+    "horodatage_utc": "2026-10-20T08:17:14+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/20/us-deepseek-federal-agency-ban.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "f10d24ff4b3050eb",
     "categorie": "geopolitique",
     "titre_affiche": "The world’s finance chiefs see new risks — and less China angst",
     "horodatage_utc": "2026-10-20T05:27:53+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e817dd5310f45522",
@@ -21,13 +97,13 @@
     "horodatage_utc": "2026-10-20T04:00:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/afaa7a1d-ef43-40ca-a042-4da8de9ff476?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9112510d4bb2671a",
@@ -36,13 +112,13 @@
     "horodatage_utc": "2026-10-20T04:00:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c2b5b40b28c65dd3",
@@ -81,13 +157,13 @@
     "horodatage_utc": "2026-10-20T04:00:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/cfa976d5-e320-4ee8-8c86-84733471a4a1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "51a6ea8cdcb75647",
@@ -111,14 +187,14 @@
     "horodatage_utc": "2026-10-20T02:16:25+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Sanctions, accords et diplomatie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3123d5cc4315aad3",
@@ -1738,80 +1814,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "61377f6a9a54706a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran IRGC says supertanker exploded after hitting mine in Hormuz Strait",
-    "horodatage_utc": "2026-10-17T09:45:00+00:00",
-    "source_nom": "GDELT/bignewsnetwork.com",
-    "url_source": "http://www.bignewsnetwork.com/news/279380849/iran-irgc-says-supertanker-exploded-after-hitting-mine-in-hormuz-strait",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1bafd180a4d423a4",
-    "categorie": "geopolitique",
-    "titre_affiche": "US blockade cost Iran $25 billion in oil revenue , CENTCOM chief says",
-    "horodatage_utc": "2026-10-17T09:45:00+00:00",
-    "source_nom": "GDELT/jpost.com",
-    "url_source": "https://www.jpost.com/middle-east/iran-news/article-911962",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "da58b2de02273351",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ucraina , Crosetto : Trump ha commesso un grave errore",
-    "horodatage_utc": "2026-10-17T09:45:00+00:00",
-    "source_nom": "GDELT/adnkronos.com",
-    "url_source": "https://www.adnkronos.com/internazionale/esteri/crosetto-ucraina-trump-putin-intervista-bbc_3jGeJTkH598m2M5sg2Hotv",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "4f2597a4747688df",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump blocks new Russia sanctions days before they take effect",
-    "horodatage_utc": "2026-10-17T09:45:00+00:00",
-    "source_nom": "GDELT/helsinkitimes.fi",
-    "url_source": "https://www.helsinkitimes.fi/world-int/29399-trump-blocks-new-russia-sanctions-days-before-they-take-effect.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "711c64652fc6bd35",
-    "categorie": "geopolitique",
-    "titre_affiche": "Septembra je zakon podpisal , zdaj ga Trump blokira",
-    "horodatage_utc": "2026-10-17T09:45:00+00:00",
-    "source_nom": "GDELT/24ur.com",
-    "url_source": "https://www.24ur.com/novice/tujina/septembra-je-zakon-podpisal-zdaj-ga-trump-blokira.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]
