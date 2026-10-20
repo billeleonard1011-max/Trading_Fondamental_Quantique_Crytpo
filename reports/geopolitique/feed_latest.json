@@ -1,5 +1,50 @@
 [
   {
+    "id": "29c85fd7c785712d",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX and Tesla boards are exploring potential merger",
+    "horodatage_utc": "2026-10-20T21:56:34+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "78cb2267fdc4462e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Finnish president hails progress in talks about ending Russia’s war in Ukraine",
+    "horodatage_utc": "2026-10-20T21:30:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b1722124013d0de1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netflix gives downbeat outlook as streaming hits dry up",
+    "horodatage_utc": "2026-10-20T20:32:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1b5d97dc-535a-42d9-ac0e-2c00e91c0aed?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "7fbebbdd06cd348c",
     "categorie": "geopolitique",
     "titre_affiche": "Trump pledges to spend $400mn on Republican Party midterm campaigns",
@@ -15,19 +60,34 @@
     "nouveaute": true
   },
   {
+    "id": "5dd244b33c1ce2aa",
+    "categorie": "geopolitique",
+    "titre_affiche": "Who are the Black Bloc?",
+    "horodatage_utc": "2026-10-20T18:15:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f97755f2-8b07-47bf-9c14-7963a701c9c3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "215b5e22f8270fa2",
     "categorie": "geopolitique",
     "titre_affiche": "What Amazon must do to get its stumbling stock back to record highs and beyond",
     "horodatage_utc": "2026-10-20T16:49:28+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/investingclub/2026/10/20/what-amazon-must-do-to-get-its-stumbling-stock-back-to-record-highs-and-beyond.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7cc7562b1bc175f8",
@@ -49,21 +109,6 @@
     "id": "dc0f81c1698b7335",
     "categorie": "geopolitique",
     "titre_affiche": "Witkoff meets Zelenskyy before travelling to Russia",
-    "horodatage_utc": "2026-10-20T15:11:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "78cb2267fdc4462e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Finnish president hails progress in talks about ending Russia’s war in Ukraine",
     "horodatage_utc": "2026-10-20T15:11:57+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1",
@@ -328,6 +373,21 @@
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "323d263946cfd787",
+    "categorie": "geopolitique",
+    "titre_affiche": "The unlikely winners from Trump’s Iran war",
+    "horodatage_utc": "2026-10-20T04:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cfa976d5-e320-4ee8-8c86-84733471a4a1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1753,67 +1813,6 @@
       "Sanctions, accords et diplomatie"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "952cca60f17b659f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russian FM Lavrov to visit Iran on Oct 19 , discuss steps toward de - escalating tensions in West Asia",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/iranherald.com",
-    "url_source": "http://www.iranherald.com/news/279380652/russian-fm-lavrov-to-visit-iran-on-oct-19-discuss-steps-toward-de-escalating-tensions-in-west-asia",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3e7436aef77d6f41",
-    "categorie": "geopolitique",
-    "titre_affiche": "British troops to take part in NATO war - game to rehearse Ukraine deployment",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/lbc.co.uk",
-    "url_source": "https://www.lbc.co.uk/article/british-troops-poland-ukraine-drill-5Hjdk4F_2/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c6dc6cb98687664c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenskyy condemns US - Russia diesel deal | The Arkansas Democrat - Gazette",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/arkansasonline.com",
-    "url_source": "https://www.arkansasonline.com/news/2026/oct/17/zelenskyy-condemns-us-russia-diesel-deal/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6859ccf35e4113fe",
-    "categorie": "geopolitique",
-    "titre_affiche": "We might not be in World War 3 yet - but conflict is escalating across continents , writes Matt Frei",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/lbc.co.uk",
-    "url_source": "https://www.lbc.co.uk/article/world-war-three-matt-frei-5Hjdk4M_2/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]

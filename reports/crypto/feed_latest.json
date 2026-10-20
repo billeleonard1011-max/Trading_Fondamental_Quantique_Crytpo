@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-10-20T18:14:28+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-10-20-jpmorgan-bitcoin-10-year-return-forecast-ltcma-421436",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2bc323536600f6cc",
@@ -21,13 +21,13 @@
     "horodatage_utc": "2026-10-20T17:11:47+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/deals/2026-10-20-bitcoin-yield-platform-honeyb-funding-valuation-421430",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2855c70ebc4c1b3b",
@@ -36,13 +36,13 @@
     "horodatage_utc": "2026-10-20T17:02:31+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/opinion/2026/10/20/the-coinbase-allegations-expose-bitcoin-s-corporate-governance-gap",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a5913ababb2c4e77",
@@ -51,14 +51,14 @@
     "horodatage_utc": "2026-10-20T16:31:24+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/ecosystems/2026-10-20-ethereum-solana-staking-record-yields-fall-bitwise-q3-421414",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH, SOL. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH",
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f225c533945ed157",
@@ -157,13 +157,13 @@
     "horodatage_utc": "2026-10-20T10:14:19+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/20/live-updates-market-jitters-persist-as-the-ai-selloff-deepens",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "229ab469dd91c9f6",
