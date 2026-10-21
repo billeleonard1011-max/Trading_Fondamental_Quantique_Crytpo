@@ -1,5 +1,186 @@
 [
   {
+    "id": "73f25b72456bcfcd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump envoy floats Ukraine talks and summit with Putin and Xi",
+    "horodatage_utc": "2026-10-21T16:57:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d7345d46-f000-49b1-99f6-57edfbd5f0af?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ec36fcee5d38f927",
+    "categorie": "geopolitique",
+    "titre_affiche": "Intel hits construction milestone at Ohio chip fab that’s at least 5 years behind schedule",
+    "horodatage_utc": "2026-10-21T16:55:51+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/21/intel-hits-construction-milestone-at-delayed-ohio-chip-fab-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f757b9fddf61f903",
+    "categorie": "geopolitique",
+    "titre_affiche": "France’s borrowing costs hit 5% for first time since 2002",
+    "horodatage_utc": "2026-10-21T16:33:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e27cbdc7e81de9f6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Macron hits out at ‘stupid’ Trump remarks about riots in France",
+    "horodatage_utc": "2026-10-21T16:12:37+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/57e14c61-a1ac-46ef-8bf2-c40e5286546e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d90e93e024f1a2e2",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+    "horodatage_utc": "2026-10-21T16:08:50+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2f64c3e05a8a5ea0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
+    "horodatage_utc": "2026-10-21T16:01:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9ffe0c522184771a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Could Michigan elect America’s first Muslim senator?",
+    "horodatage_utc": "2026-10-21T15:52:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a6972433-c303-4ace-affd-cc3ab54a3cf3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "034d1c271433eaee",
+    "categorie": "geopolitique",
+    "titre_affiche": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+    "horodatage_utc": "2026-10-21T15:30:50+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "73b65d5571ca927d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Investors are questioning neoclouds' business model but Nebius says AI computing prices are rising",
+    "horodatage_utc": "2026-10-21T13:44:12+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "856cd5d88d131151",
+    "categorie": "geopolitique",
+    "titre_affiche": "Rockets, robots and risk: Musk’s $3.6tn gamble to merge Tesla and SpaceX",
+    "horodatage_utc": "2026-10-21T13:38:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e598bbc7-8211-436f-a57e-46c3ae21ac0f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "cb0fb3404316c82a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Futures orbit around SpaceX as Tesla merger talk cheers investors",
+    "horodatage_utc": "2026-10-21T12:44:19+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/21/futures-orbit-around-spacex-as-tesla-merger-talk-cheers-investors.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "06c0f0b7cb0f2305",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia announces plug and play Vera Rubin racks that can be shipped on a truck",
+    "horodatage_utc": "2026-10-21T12:43:49+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "9fc4711d395b7b1b",
     "categorie": "geopolitique",
     "titre_affiche": "SpaceX up 8% in premarket after earnings beat and Musk hints at Tesla tie-up",
@@ -22,13 +203,13 @@
     "horodatage_utc": "2026-10-21T12:20:13+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "992dd23e749b32c6",
@@ -362,21 +543,6 @@
     "nouveaute": true
   },
   {
-    "id": "06c0f0b7cb0f2305",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia announces plug and play Vera Rubin racks that can be shipped on a truck",
-    "horodatage_utc": "2026-10-21T11:54:28+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "a2c1fa91b08b6375",
     "categorie": "geopolitique",
     "titre_affiche": "The ‘adults in the room’ won’t save you",
@@ -389,7 +555,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "423acc8faf3dd648",
@@ -512,7 +678,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9d2ea4d4d378aa4e",
@@ -528,7 +694,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "09c7efc8c19e82fc",
@@ -543,7 +709,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "838d3e23b8e005b0",
@@ -646,36 +812,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "856cd5d88d131151",
-    "categorie": "geopolitique",
-    "titre_affiche": "Rockets, robots and risk: Musk’s $3.6tn gamble to merge Tesla and SpaceX",
-    "horodatage_utc": "2026-10-21T09:50:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e598bbc7-8211-436f-a57e-46c3ae21ac0f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f757b9fddf61f903",
-    "categorie": "geopolitique",
-    "titre_affiche": "France’s borrowing costs hit 5% for first time since 2002",
-    "horodatage_utc": "2026-10-21T09:07:37+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -798,7 +934,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "acc86f846ffaa678",
@@ -813,7 +949,7 @@
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0a667116e9156cd8",
@@ -1377,21 +1513,6 @@
     "nouveaute": true
   },
   {
-    "id": "9ffe0c522184771a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Could Michigan elect America’s first Muslim senator?",
-    "horodatage_utc": "2026-10-21T04:00:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a6972433-c303-4ace-affd-cc3ab54a3cf3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
     "id": "8c3aceac03c7a2d6",
     "categorie": "geopolitique",
     "titre_affiche": "Netanyahu made plans to restart Iran strikes earlier this month",
@@ -1692,126 +1813,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "dc0f81c1698b7335",
-    "categorie": "geopolitique",
-    "titre_affiche": "Witkoff meets Zelenskyy before travelling to Russia",
-    "horodatage_utc": "2026-10-20T15:11:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "919d30d7a035066c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
-    "horodatage_utc": "2026-10-20T14:12:38+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6a07703b4543c49b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Uganda : Bank of Uganda in 100 Percent Surplus Increase Despite Year of Troubles",
-    "horodatage_utc": "2026-10-20T12:00:00+00:00",
-    "source_nom": "GDELT/allafrica.com",
-    "url_source": "https://allafrica.com/stories/202610200420.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0e7aeb837f9ccc8a",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI rally fades away from Wall Street as a tiny IPO makes big waves",
-    "horodatage_utc": "2026-10-20T11:34:03+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/20/ai-rally-fades-elice-ipo-dives.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5e583def58debe77",
-    "categorie": "geopolitique",
-    "titre_affiche": "UK to deploy jets to defend Saudi Arabia against Houthi attacks",
-    "horodatage_utc": "2026-10-20T10:45:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/59a3252c-3ea6-4e1e-bcc7-fef15cce16da?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a88f64618e30aa82",
-    "categorie": "geopolitique",
-    "titre_affiche": "HSBC CEO warns the AI boom won’t make every data center a good bet",
-    "horodatage_utc": "2026-10-20T10:39:17+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a6bfcd8ba4960932",
-    "categorie": "geopolitique",
-    "titre_affiche": "SOFAZ holds 178 . 1 tons of gold , accounting for 32 . 3 % of its portfolio",
-    "horodatage_utc": "2026-10-20T10:30:00+00:00",
-    "source_nom": "GDELT/trend.az",
-    "url_source": "https://www.trend.az/business/4236904.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "faffe6166e6c7b81",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin’s American friends",
-    "horodatage_utc": "2026-10-20T10:26:19+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f2261796-20d1-4c90-ab3e-246d4aff504f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
