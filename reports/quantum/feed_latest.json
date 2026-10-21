@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-10-21T10:29:25+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/alice-bob-reports-phase-1-results-of-frances-proqcima-quantum-program/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Alice & Bob. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Alice & Bob"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9f9ced2dbeb089f7",

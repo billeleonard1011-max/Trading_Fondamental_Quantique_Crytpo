@@ -1,5 +1,95 @@
 [
   {
+    "id": "24cda21ebb9d0210",
+    "categorie": "geopolitique",
+    "titre_affiche": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
+    "horodatage_utc": "2026-10-21T21:18:54+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6ee052a044bfe2a7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla beats on earnings and sales even as auto revenue declines",
+    "horodatage_utc": "2026-10-21T21:15:57+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dc79668e7cc38847",
+    "categorie": "geopolitique",
+    "titre_affiche": "US orders some personnel to leave Saudi Arabia after Houthi attacks",
+    "horodatage_utc": "2026-10-21T20:58:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f39aa4d2-e290-451f-ae91-b19138b6172f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f39a46da63f462ec",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla’s profits slip on weaker vehicle sales",
+    "horodatage_utc": "2026-10-21T20:44:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/16bdf332-2a75-4e57-81ea-a37caf50ec0f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4f02ff3478b86616",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bessent shrugs off ‘systemic’ AI risks at closed-door investor conference",
+    "horodatage_utc": "2026-10-21T18:46:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5b7c2fdf-2300-4208-860e-6389ceb18886?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a605bb7f85ecbf8a",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.6 - 208 km SE of Severo-Kuril’sk, Russia",
+    "horodatage_utc": "2026-10-21T18:42:09+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3w6",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "73f25b72456bcfcd",
     "categorie": "geopolitique",
     "titre_affiche": "Trump envoy floats Ukraine talks and summit with Putin and Xi",
@@ -21,13 +111,13 @@
     "horodatage_utc": "2026-10-21T16:55:51+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/21/intel-hits-construction-milestone-at-delayed-ohio-chip-fab-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f757b9fddf61f903",
@@ -66,14 +156,14 @@
     "horodatage_utc": "2026-10-21T16:08:50+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2f64c3e05a8a5ea0",
@@ -112,13 +202,13 @@
     "horodatage_utc": "2026-10-21T15:30:50+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "73b65d5571ca927d",
@@ -127,13 +217,13 @@
     "horodatage_utc": "2026-10-21T13:44:12+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "856cd5d88d131151",
@@ -157,13 +247,13 @@
     "horodatage_utc": "2026-10-21T12:44:19+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/21/futures-orbit-around-spacex-as-tesla-merger-talk-cheers-investors.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "06c0f0b7cb0f2305",
@@ -1722,96 +1812,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "b1722124013d0de1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Netflix gives downbeat outlook as streaming hits dry up",
-    "horodatage_utc": "2026-10-20T20:32:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1b5d97dc-535a-42d9-ac0e-2c00e91c0aed?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7fbebbdd06cd348c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump pledges to spend $400mn on Republican Party midterm campaigns",
-    "horodatage_utc": "2026-10-20T19:02:44+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c335e978-1ceb-4254-8c71-793a41e6d0b3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "5dd244b33c1ce2aa",
-    "categorie": "geopolitique",
-    "titre_affiche": "Who are the Black Bloc?",
-    "horodatage_utc": "2026-10-20T18:15:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f97755f2-8b07-47bf-9c14-7963a701c9c3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "215b5e22f8270fa2",
-    "categorie": "geopolitique",
-    "titre_affiche": "What Amazon must do to get its stumbling stock back to record highs and beyond",
-    "horodatage_utc": "2026-10-20T16:49:28+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/investingclub/2026/10/20/what-amazon-must-do-to-get-its-stumbling-stock-back-to-record-highs-and-beyond.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d5bb1eb71f73bfd3",
-    "categorie": "geopolitique",
-    "titre_affiche": "GoldBod buys 1 . 8 tonnes of raw gold from large - scale miners for local refining – Ghanamma . com",
-    "horodatage_utc": "2026-10-20T16:00:00+00:00",
-    "source_nom": "GDELT/ghanamma.com",
-    "url_source": "https://www.ghanamma.com/2026/10/20/goldbod-buys-1-8-tonnes-of-raw-gold-from-large-scale-miners-for-local-refining/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7cc7562b1bc175f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alberta voters reject separation from Canada",
-    "horodatage_utc": "2026-10-20T15:51:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8afb4e0b-302b-445c-8dde-4c5b091b808e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
