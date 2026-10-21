@@ -15,6 +15,23 @@
     "nouveaute": false
   },
   {
+    "id": "9a18f808aa2326ac",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ , Rigetti Computing , D - Wave Quantum , and Quantum Computing Inc . Are Shaking Wall Street to Its Core With This $1 Billion Warning",
+    "horodatage_utc": "2026-10-20T11:30:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/10/20/ionq-rigetti-dwave-quantum-computing-shaking-wall-street-to-core-with-1-billion-warning/?source=iedfolrf0000001",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : RGTI, QBTS, IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI",
+      "QBTS",
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b6aadc8151df7195",
     "categorie": "quantique",
     "titre_affiche": "Alice & Bob Reports Cat-Qubit Progress in French Quantum Computing Program",
@@ -1801,20 +1818,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "4b5ee43b2e56f9d1",
-    "categorie": "quantique",
-    "titre_affiche": "Quantum Sky Names Leaders for Department of War , Intel & Space and Federal Civilian Business Groups",
-    "horodatage_utc": "2026-09-24T13:15:00+00:00",
-    "source_nom": "GDELT/prnewswire.com",
-    "url_source": "http://www.prnewswire.com/news-releases/quantum-sky-names-leaders-for-department-of-war-intel--space-and-federal-civilian-business-groups-302888533.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/prnewswire.com. Elle mentionne : Intel. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "Intel"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
