@@ -15,6 +15,21 @@
     "nouveaute": true
   },
   {
+    "id": "205fa24fb6069221",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX and Tesla boards explore potential merger",
+    "horodatage_utc": "2026-10-20T21:56:34+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "78cb2267fdc4462e",
     "categorie": "geopolitique",
     "titre_affiche": "Finnish president hails progress in talks about ending Russia’s war in Ukraine",
@@ -36,13 +51,13 @@
     "horodatage_utc": "2026-10-20T20:32:24+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/1b5d97dc-535a-42d9-ac0e-2c00e91c0aed?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7fbebbdd06cd348c",
@@ -66,13 +81,13 @@
     "horodatage_utc": "2026-10-20T18:15:43+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f97755f2-8b07-47bf-9c14-7963a701c9c3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "215b5e22f8270fa2",
@@ -384,13 +399,13 @@
     "horodatage_utc": "2026-10-20T04:00:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/cfa976d5-e320-4ee8-8c86-84733471a4a1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7389d33a2967d89a",
@@ -1794,23 +1809,6 @@
     "analyse_interne": "Actualité relayée par GDELT/theepochtimes.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "681540b3fb1a0a43",
-    "categorie": "geopolitique",
-    "titre_affiche": "IMF Expects Kazakhstan Inflation to Ease and Economic Growth to Accelerate in 2027",
-    "horodatage_utc": "2026-10-17T10:00:00+00:00",
-    "source_nom": "GDELT/astanatimes.com",
-    "url_source": "https://astanatimes.com/2026/10/imf-expects-kazakhstans-inflation-to-ease-and-economic-growth-to-accelerate-in-2027/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Inflation et prix",
-      "Croissance et emploi",
-      "Sanctions, accords et diplomatie"
     ],
     "portee": "influence",
     "nouveaute": true
