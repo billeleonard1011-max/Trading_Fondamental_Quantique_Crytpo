@@ -1,16 +1,78 @@
 [
   {
+    "id": "2fbd301eb8ce043b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meta’s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
+    "horodatage_utc": "2026-10-22T22:21:08+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/22/meta-mark-zuckerberg-california-billionaire-tax.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "f996ddbd78f474a6",
     "categorie": "geopolitique",
     "titre_affiche": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
-    "horodatage_utc": "2026-10-22T19:09:11+00:00",
+    "horodatage_utc": "2026-10-22T21:58:42+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "bb09d0c572c58f47",
+    "categorie": "geopolitique",
+    "titre_affiche": "Moderna shares sink after leaked cancer data missed expectations",
+    "horodatage_utc": "2026-10-22T21:37:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9e59746f-9b63-4adb-b868-14088d638b8a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e0aa9ba474c794ac",
+    "categorie": "geopolitique",
+    "titre_affiche": "Airfares will not return to pre-Iran war levels, American Airlines warns",
+    "horodatage_utc": "2026-10-22T20:08:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d114ce00-f30d-41c6-ac03-71209aa62ee2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6304bc49fc58c24f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
+    "horodatage_utc": "2026-10-22T20:05:42+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Taux et obligations",
+      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -52,13 +114,13 @@
     "horodatage_utc": "2026-10-22T18:36:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8ada683f-9534-461d-9a3a-fc541550df16?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "eddc7b6f778fdf77",
@@ -84,13 +146,13 @@
     "horodatage_utc": "2026-10-22T17:38:20+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45f",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fb6977278aa1a4f4",
@@ -99,13 +161,13 @@
     "horodatage_utc": "2026-10-22T17:20:01+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d774c15e-22e4-4873-9a1d-92d6561290f9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "953d11eeef2a1adf",
@@ -1752,67 +1814,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3b69b12f3001f355",
-    "categorie": "geopolitique",
-    "titre_affiche": "I musulmani che avevano votato Trump non sono più così convinti",
-    "horodatage_utc": "2026-10-21T22:15:00+00:00",
-    "source_nom": "GDELT/ilpost.it",
-    "url_source": "https://www.ilpost.it/2026/10/11/dearborn-michigan-arabi-musulmani-trump-el-sayed/?homepagePosition=3.2&referrerPost=3707900",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "3840be74a96f0cad",
-    "categorie": "geopolitique",
-    "titre_affiche": "Understanding the Houthi Movement and Yemen Conflict | From Saudi Arabia to Bangladesh : The far - reaching costs of Middle Eastern instability | The Daily Star",
-    "horodatage_utc": "2026-10-21T22:15:00+00:00",
-    "source_nom": "GDELT/thedailystar.net",
-    "url_source": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/saudi-arabia-bangladesh-the-far-reaching-costs-middle-eastern-instability-4304301",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "24cda21ebb9d0210",
-    "categorie": "geopolitique",
-    "titre_affiche": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
-    "horodatage_utc": "2026-10-21T22:03:37+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ba7cb64c170da4af",
-    "categorie": "geopolitique",
-    "titre_affiche": "Shaken Bourse , Sturdy Banks : Ring - Fencing Indonesia Financial System - OpEd",
-    "horodatage_utc": "2026-10-21T21:30:00+00:00",
-    "source_nom": "GDELT/eurasiareview.com",
-    "url_source": "https://www.eurasiareview.com/21102026-shaken-bourse-sturdy-banks-ring-fencing-indonesias-financial-system-oped/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true

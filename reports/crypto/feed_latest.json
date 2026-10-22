@@ -1,5 +1,20 @@
 [
   {
+    "id": "d4ef067e68e7c4c8",
+    "categorie": "crypto",
+    "titre_affiche": "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm",
+    "horodatage_utc": "2026-10-22T22:43:36+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "770c2ab74177497e",
     "categorie": "crypto",
     "titre_affiche": "Uniswap’s aggregator hooks go live on Ethereum, Base and Robinhood Chain",
@@ -112,13 +127,13 @@
     "horodatage_utc": "2026-10-22T09:54:26+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a2faf8ce5c11eee2",
@@ -1780,21 +1795,6 @@
     "id": "8caa7f519c7fd0f1",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin bounces after first fall below $80,000 in one month",
-    "horodatage_utc": "2026-10-15T10:16:15+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3f59d6feb1a98bc2",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin bounces back to $82,000 after first fall below $80,000 in one month",
     "horodatage_utc": "2026-10-15T10:16:15+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
