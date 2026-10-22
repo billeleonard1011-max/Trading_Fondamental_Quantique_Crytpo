@@ -1,5 +1,65 @@
 [
   {
+    "id": "de5bc46d16d1d966",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin is bullish !",
+    "horodatage_utc": "2026-10-21T23:00:00+00:00",
+    "source_nom": "GDELT/kitco.com",
+    "url_source": "http://www.kitco.com/opinion/2026-10-21/bitcoin-bullish",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/kitco.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9c8cf94d509f7ec0",
+    "categorie": "crypto",
+    "titre_affiche": "Engineer Gets 32 Months for Bitcoin Extortion Plot Against His Own Employer",
+    "horodatage_utc": "2026-10-21T22:45:00+00:00",
+    "source_nom": "GDELT/decrypt.co",
+    "url_source": "https://decrypt.co/380284/engineer-gets-32-months-for-bitcoin-extortion-plot-against-his-own-employer&t=engineer%20gets%2032%20months%20for%20bitcoin%20extortion%20plot%20against%20his%20own%20employer&fnp_t=1792619292.1bbf0a151b7700e5",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/decrypt.co. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c519d619aa66040b",
+    "categorie": "crypto",
+    "titre_affiche": "Gas Prices Are Skyrocketing . Can Bitcoin Actually Hedge Against Inflation ?",
+    "horodatage_utc": "2026-10-21T22:00:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/gas-prices-skyrocketing-bitcoin-actually-205100000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ee5247c8f866ff70",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum Price Prediction : What Could ETH Be Worth by 2028 ?",
+    "horodatage_utc": "2026-10-21T21:15:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/ethereum-price-prediction-could-eth-203043000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "37d1898595e2e7be",
     "categorie": "crypto",
     "titre_affiche": "Anza’s Alpenglow goes live on Solana, cutting finality to 150 milliseconds",
@@ -111,13 +171,13 @@
     "horodatage_utc": "2026-10-21T10:30:40+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/21/live-updates-bitcoin-clings-to-usd82-500-as-spacex-results-lift-stock-futures",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "38090ce2b74331f5",
@@ -171,13 +231,13 @@
     "horodatage_utc": "2026-10-21T05:15:00+00:00",
     "source_nom": "GDELT/moneycontrol.com",
     "url_source": "https://www.moneycontrol.com/news/business/personal-finance/bitcoin-surges-over-1-percent-as-oil-prices-ease-inflation-worries-keep-markets-on-edge-14056376.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/moneycontrol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1a1b0bcf54dda4f8",
@@ -246,13 +306,13 @@
     "horodatage_utc": "2026-10-21T01:30:00+00:00",
     "source_nom": "GDELT/economictimes.indiatimes.com",
     "url_source": "https://economictimes.indiatimes.com/markets/us-stocks/news/jpmorgan-asset-management-sees-bitcoin-beating-stocks-but-with-a-big-catch/articleshow/135078990.cms",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a7615011d10665ee",
@@ -1738,67 +1798,6 @@
     "horodatage_utc": "2026-10-14T09:45:53+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4884c6c1a6965641",
-    "categorie": "crypto",
-    "titre_affiche": "Standard Chartered unlocks direct bitcoin and ether trading for affluent UAE clients",
-    "horodatage_utc": "2026-10-14T08:10:07+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/14/standard-chartered-unlocks-direct-bitcoin-and-ether-trading-for-affluent-uae-clients",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e2319875bbb65216",
-    "categorie": "crypto",
-    "titre_affiche": "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now",
-    "horodatage_utc": "2026-10-14T05:44:51+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/14/coinbase-which-holds-5-of-all-bitcoin-wants-the-quantum-fix-started-now",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "0a7d6a3a2f7e1e0f",
-    "categorie": "crypto",
-    "titre_affiche": "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality",
-    "horodatage_utc": "2026-10-14T04:11:16+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b630f2f9b5face75",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
-    "horodatage_utc": "2026-10-14T03:50:54+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
