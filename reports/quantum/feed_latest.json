@@ -1,18 +1,49 @@
 [
   {
+    "id": "445af8a9e0e7b232",
+    "categorie": "quantique",
+    "titre_affiche": "Where Will D - Wave Quantum Stock Be in 5 Years ?",
+    "horodatage_utc": "2026-10-22T05:15:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/investing/2026/10/22/where-will-d-wave-quantum-stock-be-in-5-years/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e26492db39adbd0f",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ ( NYSE : IONQ ) And D - Wave ( NYSE : QBTS ) Hardware Divide Forces Investors To Choose Sides",
+    "horodatage_utc": "2026-10-22T00:00:00+00:00",
+    "source_nom": "GDELT/foreignpolicyjournal.com",
+    "url_source": "https://www.foreignpolicyjournal.com/2026/10/21/ionq-nyse-ionq-and-d-wave-nyse-qbts-hardware-divide-forces-investors-to-choose-sides/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : QBTS, IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS",
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "e0b299f921b8fc08",
     "categorie": "quantique",
     "titre_affiche": "Lost Money on D - Wave Quantum , Inc . Shares ? The Law Offices of Frank R . Cruz Investigates Potential Securities Fraud After 9 . 51 % Stock Decline",
     "horodatage_utc": "2026-10-21T23:00:00+00:00",
     "source_nom": "GDELT/wallstreet-online.de",
     "url_source": "https://www.wallstreet-online.de/nachricht/21561788-lost-money-on-d-wave-quantum-inc-shares-the-law-offices-of-frank-r-cruz-investigates-potential-securities-fraud-after-9-51-stock-decline",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/wallstreet-online.de. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1c8ec2659e4a3e3e",
@@ -21,13 +52,13 @@
     "horodatage_utc": "2026-10-21T21:45:00+00:00",
     "source_nom": "GDELT/tickerreport.com",
     "url_source": "https://www.tickerreport.com/banking-finance/13629371/ionq-nyseionq-shares-climb-3-6-should-you-buy.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/tickerreport.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4109a45053ca7688",
@@ -51,13 +82,13 @@
     "horodatage_utc": "2026-10-21T16:45:00+00:00",
     "source_nom": "GDELT/pr-inside.com",
     "url_source": "https://www.pr-inside.com/kaplan-fox-encourages-investors-of-d-wave-quantum-inc-nyse-qbts-r5235767.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/pr-inside.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "89fa1ec3641fc395",
@@ -66,13 +97,13 @@
     "horodatage_utc": "2026-10-21T15:00:00+00:00",
     "source_nom": "GDELT/pr-inside.com",
     "url_source": "https://www.pr-inside.com/levi-korsinsky-urges-d-wave-quantum-inc-qbts-shareholders-to-act-r5235757.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/pr-inside.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e03cddd7033fe5fb",
@@ -81,13 +112,13 @@
     "horodatage_utc": "2026-10-21T14:30:00+00:00",
     "source_nom": "GDELT/foreignpolicyjournal.com",
     "url_source": "https://www.foreignpolicyjournal.com/2026/10/21/d-wave-quantum-nyse-qbts-bets-its-2026-on-a-single-quarter-as-street-targets-loom-far-above-current-price/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fea4767da2835fde",
@@ -1782,36 +1813,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "49da0dc3bc01b616",
-    "categorie": "quantique",
-    "titre_affiche": "Who’s News: Strategic Appointments at D-Wave Quantum, Oxford Quantum Circuits, and Bifrost Electronics",
-    "horodatage_utc": "2026-09-26T09:54:59+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/whos-news-strategic-appointments-at-d-wave-quantum-oxford-quantum-circuits-and-bifrost-electronics/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e2aca9e7860b7cfe",
-    "categorie": "quantique",
-    "titre_affiche": "Infleqtion Achieves 30 Entangled Logical Qubits on Sqale Neutral-Atom Quantum Processor",
-    "horodatage_utc": "2026-09-25T06:26:28+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/infleqtion-achieves-30-entangled-logical-qubits-on-sqale-neutral-atom-quantum-processor/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Infleqtion"
     ],
     "portee": "actif_direct",
     "nouveaute": false
