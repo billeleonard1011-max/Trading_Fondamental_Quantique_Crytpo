@@ -1,24 +1,99 @@
 [
   {
-    "id": "4c388c6b7df7e85b",
+    "id": "770c2ab74177497e",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak",
-    "horodatage_utc": "2026-10-22T09:56:16+00:00",
+    "titre_affiche": "Uniswap’s aggregator hooks go live on Ethereum, Base and Robinhood Chain",
+    "horodatage_utc": "2026-10-22T13:55:03+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
+    "url_source": "https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
-      "BTC",
       "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": true
   },
   {
+    "id": "142e0c8de296356b",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
+    "horodatage_utc": "2026-10-22T12:14:29+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "66aaf101029b4560",
+    "categorie": "crypto",
+    "titre_affiche": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
+    "horodatage_utc": "2026-10-22T11:20:04+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9b3c998188cb900c",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
+    "horodatage_utc": "2026-10-22T10:50:04+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "4c388c6b7df7e85b",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak",
+    "horodatage_utc": "2026-10-22T09:56:16+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "c55aeea0dd102673",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
+    "horodatage_utc": "2026-10-22T09:54:26+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "13a05437e65fc688",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin slumps below $82,000 as markets go risk off on AI selloff, oil surge",
     "horodatage_utc": "2026-10-22T09:54:26+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
@@ -52,13 +127,13 @@
     "horodatage_utc": "2026-10-22T08:49:08+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/22/asian-stocks-tumble-bitcoin-retreats-as-china-enters-bear-market",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ad1a5f9870372e9b",
@@ -112,13 +187,13 @@
     "horodatage_utc": "2026-10-22T05:24:58+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a2173a5d0799507d",
@@ -1730,81 +1805,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "682c0eaa2006e292",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin drops below $81,000 as risk-off sentiment weighs on Asian equities",
-    "horodatage_utc": "2026-10-15T04:38:48+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "dc3f25a91fbe1291",
-    "categorie": "crypto",
-    "titre_affiche": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
-    "horodatage_utc": "2026-10-15T04:25:15+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f2c63ef414b3df20",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
-    "horodatage_utc": "2026-10-15T04:13:56+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "5848e6fe79f4b2c1",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
-    "horodatage_utc": "2026-10-15T03:57:45+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a602a31fa76fbc19",
-    "categorie": "crypto",
-    "titre_affiche": "Major shareholder presses SkyAI on Solana sales after treasury shrinks 70% in a month",
-    "horodatage_utc": "2026-10-14T18:25:54+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-10-14-solana-treasury-skyai-bastion-sol-sales-tender-offer-418598",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
