@@ -1,9 +1,69 @@
 [
   {
+    "id": "1537a53a1ec10011",
+    "categorie": "geopolitique",
+    "titre_affiche": "Websites taken offline in race to patch PHP security flaw",
+    "horodatage_utc": "2026-10-22T04:28:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "8ac3225188c603a0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Which G7 economy is the profligacy poster child?",
+    "horodatage_utc": "2026-10-22T04:00:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/43a2e871-2e82-4af7-8d56-2f00202df949?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "93d653bf6f2b0aca",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI and inflation: how worried should central bankers be?",
+    "horodatage_utc": "2026-10-22T04:00:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/68b04a9b-714e-4a5a-8dde-d9d7b8a65197?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0f9f81beba0f818d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
+    "horodatage_utc": "2026-10-22T01:05:15+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "dc79668e7cc38847",
     "categorie": "geopolitique",
     "titre_affiche": "US orders some personnel to leave Saudi Arabia after Houthi attacks",
-    "horodatage_utc": "2026-10-21T23:54:14+00:00",
+    "horodatage_utc": "2026-10-22T00:19:24+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f39aa4d2-e290-451f-ae91-b19138b6172f?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
@@ -36,14 +96,14 @@
     "horodatage_utc": "2026-10-21T23:30:29+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/16bdf332-2a75-4e57-81ea-a37caf50ec0f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Transition énergétique. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Transition énergétique"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0dc89904fc05f2bd",
@@ -1744,68 +1804,6 @@
     "url_source": "https://www.arabnews.com/world/iran-to-pakistans-army-chief-no-talks-with-washington-before-our-demands-are-met-3007469",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par GDELT/arabnews.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "56aa7ac98b1b2e22",
-    "categorie": "geopolitique",
-    "titre_affiche": "Markets bounce back ; IT leads rally as crude , yields cap gains",
-    "horodatage_utc": "2026-10-21T06:15:00+00:00",
-    "source_nom": "GDELT/thehindubusinessline.com",
-    "url_source": "https://www.thehindubusinessline.com/markets/markets-bounce-back-it-leads-rally-as-crude-yields-cap-gains/article71606219.ece",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/thehindubusinessline.com. Elle se rattache à : Pétrole et énergie, Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "cdf1b90ada1f0181",
-    "categorie": "geopolitique",
-    "titre_affiche": "Japan records a trade deficit as oil imports soar because of conflict in the Middle East",
-    "horodatage_utc": "2026-10-21T06:15:00+00:00",
-    "source_nom": "GDELT/newsday.com",
-    "url_source": "https://www.newsday.com/business/japan-trade-oil-imports-exports-war-j55755",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/newsday.com. Elle se rattache à : Moyen-Orient (région), Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)",
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d6d99cb708884cd0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Brent Tops $110 As Iran Tensions , Tanker Attacks Raise Supply Fears",
-    "horodatage_utc": "2026-10-21T06:15:00+00:00",
-    "source_nom": "GDELT/freepressjournal.in",
-    "url_source": "https://www.freepressjournal.in/business/brent-tops-110-as-iran-tensions-tanker-attacks-raise-supply-fears",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/freepressjournal.in. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "68a994c5642cbb33",
-    "categorie": "geopolitique",
-    "titre_affiche": "Pak - Iran border reopens as CDF visits Tehran",
-    "horodatage_utc": "2026-10-21T06:15:00+00:00",
-    "source_nom": "GDELT/tribune.com.pk",
-    "url_source": "https://tribune.com.pk/story/2636015/pak-iran-border-reopens-as-cdf-visits-tehran",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/tribune.com.pk. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],

@@ -1,5 +1,35 @@
 [
   {
+    "id": "a2173a5d0799507d",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
+    "horodatage_utc": "2026-10-22T04:41:59+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9fc963c4e776927f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
+    "horodatage_utc": "2026-10-22T03:51:34+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "de5bc46d16d1d966",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin is bullish !",
@@ -1768,36 +1798,6 @@
     "horodatage_utc": "2026-10-14T10:51:39+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/14/bitcoin-holds-above-usd83-000-ahead-of-u-s-inflation-data-as-altcoins-lag",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "26619562b2de6d30",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin tumbles more than 1% after hot inflation report",
-    "horodatage_utc": "2026-10-14T09:45:53+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "5d4296a39359da91",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin falls back to $82,000 after inflation rises more than forecast",
-    "horodatage_utc": "2026-10-14T09:45:53+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
