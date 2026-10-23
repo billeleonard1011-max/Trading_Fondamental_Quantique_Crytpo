@@ -1,13 +1,88 @@
 [
   {
+    "id": "5a3f1e4ae42a708f",
+    "categorie": "crypto",
+    "titre_affiche": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
+    "horodatage_utc": "2026-10-23T17:46:09+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/regulation/2026-10-23-sen-blumenthal-seeks-answers-tether-payments-firm-founded-ex-white-house-crypto-adviser-427785",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "55ea1ad565bf0ca5",
+    "categorie": "crypto",
+    "titre_affiche": "Arrestohen nëntë persona për mashtrim me Call Center në Prishtinë , dyshohet se mashtruan shtetas suedezë përmes investimeve në Bitcoin",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/telegrafi.com",
+    "url_source": "https://telegrafi.com/arrestohen-nente-persona-per-mashtrim-me-call-center-ne-prishtine-dyshohet-se-mashtruan-shtetas-suedeze-permes-investimeve-ne-bitcoin/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/telegrafi.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "a7092bc7014cde71",
     "categorie": "crypto",
     "titre_affiche": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
     "horodatage_utc": "2026-10-23T13:58:56+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "386d76a27733692f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ( BTC ) ETF Inflows Accompanied Nine Gains of 15 % or More Since 2024",
+    "horodatage_utc": "2026-10-23T13:00:00+00:00",
+    "source_nom": "GDELT/econotimes.com",
+    "url_source": "https://econotimes.com/Bitcoin-BTC-ETF-Inflows-Accompanied-Nine-Gains-of-15-or-More-Since-2024-1761277",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2f7ea59c37d821d2",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin fonlarında sert dönüş : Bir günde 635 milyon dolar çıktı",
+    "horodatage_utc": "2026-10-23T12:30:00+00:00",
+    "source_nom": "GDELT/dunya.com",
+    "url_source": "https://www.dunya.com/finans/kripto-para/bitcoin-fonlarinda-sert-donus-bir-gunde-635-milyon-dolar-cikti-haberi-845037",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dunya.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "fc3da36a3b66014f",
+    "categorie": "crypto",
+    "titre_affiche": "IA - ul Claude a dezvăluit o enigmă veche de 17 ani legată de Bitcoin , lăsată de Satoshi Nakamoto",
+    "horodatage_utc": "2026-10-23T12:30:00+00:00",
+    "source_nom": "GDELT/news.yam.md",
+    "url_source": "https://news.yam.md/ro/story/78074795",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/news.yam.md. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -21,13 +96,13 @@
     "horodatage_utc": "2026-10-23T12:03:53+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bd1bdc6df93b3897",
@@ -43,6 +118,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
+  },
+  {
+    "id": "029e3699c04d728f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETFlerindeki giriş serisi sonlandı",
+    "horodatage_utc": "2026-10-23T11:30:00+00:00",
+    "source_nom": "GDELT/haberler.com",
+    "url_source": "https://www.haberler.com/kripto-para/bitcoin-etflerindeki-giris-serisi-sonlandi-20359176-haberi/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/haberler.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
   },
   {
     "id": "289e6fd41adf013f",
@@ -81,8 +171,38 @@
     "horodatage_utc": "2026-10-23T11:13:01+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "766e06cd0772f6da",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Drops 3 . 61 % as Three Smaller - Token Indexes Fall Further",
+    "horodatage_utc": "2026-10-23T11:00:00+00:00",
+    "source_nom": "GDELT/econotimes.com",
+    "url_source": "https://econotimes.com/Bitcoin-Drops-3-61-as-Three-Smaller-Token-Indexes-Fall-Further-1761193",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b68623ffd6e3531c",
+    "categorie": "crypto",
+    "titre_affiche": "Tagesanalyse : So entwickeln sich Bitcoin & Co . am Freitagmittag",
+    "horodatage_utc": "2026-10-23T11:00:00+00:00",
+    "source_nom": "GDELT/finanzen.net",
+    "url_source": "https://www.finanzen.net/nachricht/devisen/bitcoin-ethereum-ripple-co-wie-sich-die-kryptokurse-am-mittag-entwickeln-16003883",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -118,6 +238,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
+  },
+  {
+    "id": "7a4607a7ab725c2e",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin - Kurs : Wie nachhaltig ist das Comeback der Kryptowährung ?",
+    "horodatage_utc": "2026-10-23T10:00:00+00:00",
+    "source_nom": "GDELT/wiwo.de",
+    "url_source": "https://www.wiwo.de/finanzen/geldanlage/bitcoin-kurs-wie-nachhaltig-ist-das-comeback-der-kryptowaehrung/100263967.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
   },
   {
     "id": "1aca8a87b3d6d466",
@@ -217,13 +352,13 @@
     "horodatage_utc": "2026-10-23T03:15:00+00:00",
     "source_nom": "GDELT/cointelegraph.com",
     "url_source": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/cointelegraph.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b718197d94ed8acc",
@@ -312,6 +447,21 @@
     "tickers_ou_themes_lies": [
       "ETH",
       "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d03ca04d4745f283",
+    "categorie": "crypto",
+    "titre_affiche": "Crypto Market Today , Oct . 22 : Bitcoin and Altcoins Slide as Wall Street Fears Spill Into Crypto Markets",
+    "horodatage_utc": "2026-10-22T22:45:00+00:00",
+    "source_nom": "GDELT/fool.com",
+    "url_source": "https://www.fool.com/coverage/stock-market-today/2026/10/22/crypto-market-today-oct-22-bitcoin-and-altcoins-slide-as-wall-street-fears-spill-into-crypto-markets/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -1651,157 +1801,6 @@
     "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "7df714775724f90e",
-    "categorie": "crypto",
-    "titre_affiche": "Home Bitcoin Mining in 2026 : Is It Still Worth the Investment",
-    "horodatage_utc": "2026-10-16T14:30:00+00:00",
-    "source_nom": "GDELT/miningne.ws",
-    "url_source": "https://miningne.ws/home-bitcoin-mining-2026/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/miningne.ws. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "9e989e43a7bce116",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin : Diebstahl per Spionage - Chip ! 102 Millionen $ weg",
-    "horodatage_utc": "2026-10-16T14:15:00+00:00",
-    "source_nom": "GDELT/ingenieur.de",
-    "url_source": "https://www.ingenieur.de/bitcoin-diebstahl-per-spionage-chip-102-millionen-weg-1285bd0c-3fe6-4641-9ab3-27a14ab9a568/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/ingenieur.de. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "64a5a1de2b9a4baa",
-    "categorie": "crypto",
-    "titre_affiche": "Scammer who duped job seekers loses $4 . 9 million in bitcoin to Ledger spy - chip exploit",
-    "horodatage_utc": "2026-10-16T14:00:00+00:00",
-    "source_nom": "GDELT/coindesk.com",
-    "url_source": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/coindesk.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "f15a8c95e759d50e",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin biến mất , thẩm phán AI - dự báo tương lai 10 năm tới",
-    "horodatage_utc": "2026-10-16T14:00:00+00:00",
-    "source_nom": "GDELT/baomoi.com",
-    "url_source": "https://baomoi.com/bitcoin-bien-mat-tham-phan-ai-du-bao-tuong-lai-10-nam-toi-c56286341.epi",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/baomoi.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "9529846c240a2175",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum Led Nearly $1 Billion in Crypto Liquidations . Its Traders Never Cut Back Before the Drop .",
-    "horodatage_utc": "2026-10-16T13:45:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/ethereum-led-nearly-1-billion-130049000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "32ca71d920ab3627",
-    "categorie": "crypto",
-    "titre_affiche": "How Ethereum Works",
-    "horodatage_utc": "2026-10-16T13:31:07+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/learn/ethereum/how-ethereum-works-418525",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b5ac9a58fa0359cb",
-    "categorie": "crypto",
-    "titre_affiche": "Crypto News : Remittix Nears $33 Million Raised as Bullish Bitcoin and Ethereum Price Predictions Target $250 , 000 and $15 , 000",
-    "horodatage_utc": "2026-10-16T13:30:00+00:00",
-    "source_nom": "GDELT/manilatimes.net",
-    "url_source": "https://www.manilatimes.net/2026/10/16/tmt-newswire/globenewswire/crypto-news-remittix-nears-33-million-raised-as-bullish-bitcoin-and-ethereum-price-predictions-target-250000-and-15000/2447533",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "b47965aedd692bc7",
-    "categorie": "crypto",
-    "titre_affiche": "An OpenAI Research Agent Stole Test Ethereum To Finish A Coding Task",
-    "horodatage_utc": "2026-10-16T13:15:00+00:00",
-    "source_nom": "GDELT/engadget.com",
-    "url_source": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "7116faca811b081b",
-    "categorie": "crypto",
-    "titre_affiche": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
-    "horodatage_utc": "2026-10-16T11:15:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "6035fc245294059a",
-    "categorie": "crypto",
-    "titre_affiche": "CME Is Launching Uniswap and Bitcoin Cash Futures . Do Futures Actually Move Prices ?",
-    "horodatage_utc": "2026-10-16T11:00:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/cme-launching-uniswap-bitcoin-cash-100030000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": true

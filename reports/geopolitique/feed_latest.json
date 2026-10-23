@@ -1,5 +1,65 @@
 [
   {
+    "id": "e68e7e5870e68318",
+    "categorie": "geopolitique",
+    "titre_affiche": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
+    "horodatage_utc": "2026-10-23T20:20:08+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bb22aebb57a4ec15",
+    "categorie": "geopolitique",
+    "titre_affiche": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
+    "horodatage_utc": "2026-10-23T19:50:26+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a02ca699c4434698",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
+    "horodatage_utc": "2026-10-23T19:03:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "6a6431b575a2c741",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump administration moves to block certification of Alaska Senate election",
+    "horodatage_utc": "2026-10-23T17:54:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b68b8544-4ce9-45d4-b522-cd2f8150e4cc?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "44aa83c95ccda4bd",
     "categorie": "geopolitique",
     "titre_affiche": "Ukraine says Starlink speeds still throttled",
@@ -15,34 +75,19 @@
     "nouveaute": false
   },
   {
-    "id": "a02ca699c4434698",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
-    "horodatage_utc": "2026-10-23T16:06:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "60b5c5380be7f67a",
     "categorie": "geopolitique",
     "titre_affiche": "Silicon Valley Democrats demand investigation into Starlink restrictions in Ukraine",
     "horodatage_utc": "2026-10-23T15:33:47+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/23/starlink-ukraine-musk-trump-congress.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5c4efc0050fcc2d6",
@@ -51,13 +96,254 @@
     "horodatage_utc": "2026-10-23T15:00:49+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/investingclub/2026/10/23/ai-agents-could-disrupt-bank-deposits-why-wall-street-may-be-overreacting.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ff80437bf3584ad8",
+    "categorie": "geopolitique",
+    "titre_affiche": "US designates helium as a critical material , citing its importance for semiconductors",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/dailygazette.com",
+    "url_source": "https://www.dailygazette.com/ade/ap/business/us-designates-helium-as-a-critical-material-citing-its-importance-for-semiconductors/article_cedc5e66-1a9b-5f8b-b19f-061ba794e374.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailygazette.com. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1edf963cec508aa4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Today inflation is really an energy shock | Local News",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/bedfordgazette.com",
+    "url_source": "https://www.bedfordgazette.com/news/local/today-s-inflation-is-really-an-energy-shock/article_e52b8a09-e370-40a0-a468-44bce1cc60e2.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/bedfordgazette.com. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "232cb14df223b869",
+    "categorie": "geopolitique",
+    "titre_affiche": "Military reinforcements move to Mideast . And , millions of Americans vote early",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/ksut.org",
+    "url_source": "https://www.ksut.org/2026-10-23/military-reinforcements-move-to-mideast-and-millions-of-americans-vote-early",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/ksut.org. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "11395e7f499a9d02",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil India Strikes Natural Gas in Shallow Offshore Basin",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/oilprice.com",
+    "url_source": "https://oilprice.com/Latest-Energy-News/World-News/Oil-India-Strikes-Natural-Gas-in-Shallow-Offshore-Basin.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/oilprice.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f5b6261c8c491cb6",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Hidden $40 - Per - Barrel Cost Driving Oil Prices Higher",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/oilprice.com",
+    "url_source": "https://oilprice.com/Energy/Energy-General/The-Hidden-40-Per-Barrel-Cost-Driving-Oil-Prices-Higher.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/oilprice.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "99a0d35592f57b61",
+    "categorie": "geopolitique",
+    "titre_affiche": "Arab News | Oil spill off UAE coast prompts beach closures , cleanup effort",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/arabnews.com",
+    "url_source": "https://www.arabnews.com/middle-east/oil-spill-off-uae-coast-prompts-beach-closures-cleanup-effort-3007833",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9d17654913e2c8ab",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tanker with Russian diesel sets sail for US following Trump deal",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/lancashiretelegraph.co.uk",
+    "url_source": "https://www.lancashiretelegraph.co.uk/news/national/26665346.tanker-russian-diesel-sets-sail-us-following-trump-deal/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0b28a86d334f0f46",
+    "categorie": "geopolitique",
+    "titre_affiche": "Melania Trump helps forge a ceasefire deal in Russian - occupied Oleshky , the White House says",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/melania-trump-helps-forge-ceasefire-133642000.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f00814b3ae14ff44",
+    "categorie": "geopolitique",
+    "titre_affiche": "U . S . Diesel at $6 . 30 a Gallon as First Russian Cargo Sets Sail for New York",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/oilprice.com",
+    "url_source": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "560db4fc68d530ea",
+    "categorie": "geopolitique",
+    "titre_affiche": "Austria expels four Russian diplomats : foreign ministry",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/hurriyetdailynews.com",
+    "url_source": "https://www.hurriyetdailynews.com/austria-expels-four-russian-diplomats-foreign-ministry-228521",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f92144af362d3122",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bijela kuća : Melania Trump je dogovorila primirje Rusije i Ukrajine",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/vecernji.hr",
+    "url_source": "https://www.vecernji.hr/vijesti/bijela-kuca-melania-trump-je-dogovorila-primirje-rusije-i-ukrajine-2007073",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "0570079e39be5040",
+    "categorie": "geopolitique",
+    "titre_affiche": "Melania Trump helps forge a ceasefire deal in Russian - occupied Oleshky , the White House says – Brandon Sun",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/brandonsun.com",
+    "url_source": "https://www.brandonsun.com/world/2026/10/23/melania-trump-helps-forge-ceasefire-deal-in-russian-occupied-oleshkyk-the-white-house-says",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9573e413fc02dba2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Spoliehať sa na Putinovu dobrosrdečnosť je hazard s existenciou Slovenska ( komentár Petra Weissa )",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/aktuality.sk",
+    "url_source": "https://www.aktuality.sk/clanok/yArfKq8/spoliehat-sa-na-putinovu-dobrosrdecnost-je-hazard-s-existenciou-slovenska-komentar-petra-weissa/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "0e307981c2e6f66a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Melania Trump dit avoir obtenu un cessez - le - feu dans une ville dUkraine : Sans mon intervention ...",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/dhnet.be",
+    "url_source": "https://www.dhnet.be/actu/monde/2026/10/23/melania-trump-dit-avoir-obtenu-un-cessez-le-feu-dans-une-ville-dukraine-sans-mon-intervention-DGQXUFSWQZD5FDQCE3BYK5EQPU/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "39d04cfe0547479a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Behind Elon Musk plans for a mega - merger of SpaceX and Tesla – Hartford Courant",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/courant.com",
+    "url_source": "https://www.courant.com/2026/10/23/behind-elon-musks-plans-for-a-mega-merger-of-spacex-and-tesla/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "870a39558e2f37bb",
+    "categorie": "geopolitique",
+    "titre_affiche": "IMF forecasts 1 . 3 percent regional economic contraction in 2026 | Ariana News",
+    "horodatage_utc": "2026-10-23T15:00:00+00:00",
+    "source_nom": "GDELT/ariananews.af",
+    "url_source": "https://www.ariananews.af/imf-forecasts-1-3-percent-regional-economic-contraction-in-2026/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -67,14 +353,59 @@
     "horodatage_utc": "2026-10-23T14:37:46+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Or et métaux précieux, Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Or et métaux précieux",
       "Taux et obligations",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "5dcecd352aaa65a8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Crude benchmarks firmer amidst ongoing tensions in the Middle East ; EUR digests poor PMI metrics - Newsquawk US Market Open",
+    "horodatage_utc": "2026-10-23T14:30:00+00:00",
+    "source_nom": "GDELT/zerohedge.com",
+    "url_source": "http://www.zerohedge.com/markets/crude-benchmarks-firmer-amidst-ongoing-tensions-middle-east-eur-digests-poor-pmi-metrics",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "710674dabb03f0e3",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Kremlin says a first tanker of Russian diesel sets sail for the US despite Ukraine protests",
+    "horodatage_utc": "2026-10-23T14:30:00+00:00",
+    "source_nom": "GDELT/stcatharinesstandard.ca",
+    "url_source": "https://www.stcatharinesstandard.ca/business/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraine-s-protests/article_f48ecb13-a889-5b4b-a801-d1f42b1d9cc6.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "eebc26a3c636f5ad",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jutarnji list - Bijela kuća : Melania Trump dogovorila je primirje u Oleškiju",
+    "horodatage_utc": "2026-10-23T14:30:00+00:00",
+    "source_nom": "GDELT/jutarnji.hr",
+    "url_source": "https://www.jutarnji.hr/vijesti/svijet/bijela-kuca-melania-trump-dogovorila-je-primirje-u-oleskiju-15758722",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -84,12 +415,72 @@
     "horodatage_utc": "2026-10-23T13:32:54+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/fdd811ed-3186-48f9-8f6b-fb66e56f13e6",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "f17475bfbc6ae4cb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cena nafte Brent prešla 114 dolara zbog sukoba na Bliskom istoku",
+    "horodatage_utc": "2026-10-23T13:30:00+00:00",
+    "source_nom": "GDELT/nin.rs",
+    "url_source": "https://www.nin.rs/ekonomija/vesti/127034/cena-nafte-brent-presla-114-dolara-zbog-sukoba-na-bliskom-istoku",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "655f974afc656802",
+    "categorie": "geopolitique",
+    "titre_affiche": "The U . S .- Iran War Shows No Signs of Abating . A Top Official Said Washington Can Keep the Blockade For The Foreseeable Future .",
+    "horodatage_utc": "2026-10-23T13:30:00+00:00",
+    "source_nom": "GDELT/ibtimes.com",
+    "url_source": "https://www.ibtimes.com/us-iran-war-shows-no-signs-abating-top-official-said-washington-can-keep-blockade-3808908",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a513f07d6fa9aaeb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Arab News | No shutdowns , no cancellations : Future Pipe Al - Busaidy sees more demand ahead",
+    "horodatage_utc": "2026-10-23T13:30:00+00:00",
+    "source_nom": "GDELT/arabnews.com",
+    "url_source": "https://www.arabnews.com/business/no-shutdowns-no-cancellations-future-pipes-al-busaidy-sees-more-demand-ahead-3007883",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "38a411f9f6f1eb06",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russian diesel tanker heads to the U . S ., the first since Trump deal with Putin",
+    "horodatage_utc": "2026-10-23T13:30:00+00:00",
+    "source_nom": "GDELT/nbcnews.com",
+    "url_source": "https://www.nbcnews.com/business/energy/russian-diesel-tanker-heads-us-trump-deal-putin-ukraine-war-rcna605187",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -108,16 +499,167 @@
     "nouveaute": true
   },
   {
+    "id": "2d70b5214e48bb7b",
+    "categorie": "geopolitique",
+    "titre_affiche": "The secret terms of Trump Venezuelan oil deal",
+    "horodatage_utc": "2026-10-23T13:00:00+00:00",
+    "source_nom": "GDELT/salon.com",
+    "url_source": "https://www.salon.com/2026/10/23/the-secret-terms-of-trumps-venezuelan-oil-deal-partner/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "21c3cabab4488479",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine news : Russian diesel headed for U . S ., Kremlin says",
+    "horodatage_utc": "2026-10-23T13:00:00+00:00",
+    "source_nom": "GDELT/bnnbloomberg.ca",
+    "url_source": "https://www.bnnbloomberg.ca/markets/oil/2026/10/23/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraines-protests/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "74346d0419b93e9c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil races higher amid high tensions as retail sales stumble",
+    "horodatage_utc": "2026-10-23T12:30:00+00:00",
+    "source_nom": "GDELT/actuarialpost.co.uk",
+    "url_source": "https://www.actuarialpost.co.uk/article/oil-races-higher-amid-high-tensions-as-retail-sales-stumble-27336.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ca62519e04a26e09",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil hits five - month high amid fears US will renew strikes on Iran",
+    "horodatage_utc": "2026-10-23T12:30:00+00:00",
+    "source_nom": "GDELT/theguardian.com",
+    "url_source": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d9c777ec068a737d",
+    "categorie": "geopolitique",
+    "titre_affiche": "The stock market is splitting in two . Is that signaling trouble ahead , or just a new set of winners ?",
+    "horodatage_utc": "2026-10-23T12:30:00+00:00",
+    "source_nom": "GDELT/morningstar.com",
+    "url_source": "https://www.morningstar.com/news/marketwatch/20261023111/the-stock-market-is-splitting-in-two-is-that-signaling-trouble-ahead-or-just-a-new-set-of-winners",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cd3851d27a4ec089",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin vuole negoziare senza rinunciare alla guerra . e trump gli fa da spalla – lambasciatore sequi",
+    "horodatage_utc": "2026-10-23T12:30:00+00:00",
+    "source_nom": "GDELT/dagospia.com",
+    "url_source": "https://www.dagospia.com/cronache/putin-vuole-negoziare-rinunciare-guerra-trump-gli-fa-spalla-491241",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "1604b0cf19dbe96a",
     "categorie": "geopolitique",
     "titre_affiche": "On the ground at Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress",
     "horodatage_utc": "2026-10-23T12:08:30+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f1be0683fbd609f5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi Arabia crude exports rise 7 . 9 % in August to 4 - month high | Hellenic Shipping News Worldwide",
+    "horodatage_utc": "2026-10-23T12:00:00+00:00",
+    "source_nom": "GDELT/hellenicshippingnews.com",
+    "url_source": "https://www.hellenicshippingnews.com/saudi-arabia-crude-exports-rise-7-9-in-august-to-4-month-high/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1fce56739232cea7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Storm Austen Knocks Out Power to Almost 300 , 000 French Homes",
+    "horodatage_utc": "2026-10-23T12:00:00+00:00",
+    "source_nom": "GDELT/insurancejournal.com",
+    "url_source": "https://www.insurancejournal.com/news/international/2026/10/23/890122.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0a997ab54d7021a8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russian Diesel Tanker Heads to New York After Trump - Putin Deal",
+    "horodatage_utc": "2026-10-23T12:00:00+00:00",
+    "source_nom": "GDELT/kyivpost.com",
+    "url_source": "https://www.kyivpost.com/post/87980",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1fa4b3f1fbd58b96",
+    "categorie": "geopolitique",
+    "titre_affiche": "A stronger rupee , shrinking dollar reserve : The balancing act facing RBI",
+    "horodatage_utc": "2026-10-23T12:00:00+00:00",
+    "source_nom": "GDELT/timesofindia.indiatimes.com",
+    "url_source": "https://timesofindia.indiatimes.com/business/india-business/a-stronger-rupee-shrinking-dollar-reserve-the-balancing-act-facing-rbi/articleshow/135143408.cms",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -152,6 +694,36 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "3ac38c4818dfb1ec",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says Musk restored Ukraine Starlink access , declines to say if they spoke",
+    "horodatage_utc": "2026-10-23T11:00:00+00:00",
+    "source_nom": "GDELT/hawaiitribune-herald.com",
+    "url_source": "https://www.hawaiitribune-herald.com/2026/10/23/nation-world-news/trump-says-musk-restored-ukraines-starlink-access-declines-to-say-if-they-spoke/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6761f69d54b20909",
+    "categorie": "geopolitique",
+    "titre_affiche": "Dutch and French Gold Transactions Cover 215 Metric Tons",
+    "horodatage_utc": "2026-10-23T11:00:00+00:00",
+    "source_nom": "GDELT/econotimes.com",
+    "url_source": "https://econotimes.com/Dutch-and-French-Gold-Transactions-Cover-215-Metric-Tons-1761188",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
   },
   {
     "id": "2a70d1869f8c1147",
@@ -190,8 +762,68 @@
     "horodatage_utc": "2026-10-23T10:00:02+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bcc464cc-9d12-4b15-866d-64642de66ca8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "b0e53562da24f971",
+    "categorie": "geopolitique",
+    "titre_affiche": "US Treasury proposes a rule to crack down on high - tech investments in China , other adversaries",
+    "horodatage_utc": "2026-10-23T10:00:00+00:00",
+    "source_nom": "GDELT/union-bulletin.com",
+    "url_source": "https://www.union-bulletin.com/news/national/us-treasury-proposes-a-rule-to-crack-down-on-high-tech-investments-in-china-other/article_90220d1d-b95c-5931-b8db-09601d71518f.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "7af048a7f2ea0abf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russian diesel heads to US after Putin - Trump deal , data shows - International",
+    "horodatage_utc": "2026-10-23T10:00:00+00:00",
+    "source_nom": "GDELT/dailymirror.lk",
+    "url_source": "https://www.dailymirror.lk/international/Russian-diesel-heads-to-US-after-Putin-Trump-deal-data-shows/107-353255",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1cd88875190690be",
+    "categorie": "geopolitique",
+    "titre_affiche": "Niže cijene zlata otvaraju nove prilike : Središnje banke nastavljaju graditi zlatne rezerve",
+    "horodatage_utc": "2026-10-23T10:00:00+00:00",
+    "source_nom": "GDELT/vecernji.hr",
+    "url_source": "https://www.vecernji.hr/vijesti/nize-cijene-zlata-otvaraju-nove-prilike-sredisnje-banke-nastavljaju-graditi-zlatne-rezerve-2006917",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cdd1920ea0cedcc6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump a Ukraina i Rosja . Były ambasador o skutkach dla Polski",
+    "horodatage_utc": "2026-10-23T09:30:00+00:00",
+    "source_nom": "GDELT/fakt.pl",
+    "url_source": "https://www.fakt.pl/polityka/donald-trump-a-ukraina-i-rosja-byly-ambasador-o-skutkach-dla-polski/93w6ghr",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
@@ -214,6 +846,66 @@
     "nouveaute": false
   },
   {
+    "id": "aed52469cdef5bad",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump izvrijeđao novinare : Jeste li vi glupi ?",
+    "horodatage_utc": "2026-10-23T08:45:00+00:00",
+    "source_nom": "GDELT/net.hr",
+    "url_source": "http://net.hr/danas/svijet/donald-trump-izvrijedao-novinare-jeste-li-vi-glupi-2fffd5f5-ceb1-11f1-96ed-9600040c8f8e",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "253d31dcc78c3217",
+    "categorie": "geopolitique",
+    "titre_affiche": "First Russian diesel shipment en route to New York after Trump - Putin energy deal : Report",
+    "horodatage_utc": "2026-10-23T08:45:00+00:00",
+    "source_nom": "GDELT/thenews.com.pk",
+    "url_source": "https://www.thenews.com.pk/latest/1420986-first-russian-diesel-shipment-en-route-to-new-york-after-trump-putin-energy-deal-report",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "04f7470b6767aeb5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bring the gold home . Build the market at home",
+    "horodatage_utc": "2026-10-23T08:45:00+00:00",
+    "source_nom": "GDELT/moneycontrol.com",
+    "url_source": "https://www.moneycontrol.com/news/opinion/bring-the-gold-home-build-the-market-at-home-14058461.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5139583eb1915774",
+    "categorie": "geopolitique",
+    "titre_affiche": "Streit um Starlink : Trump äußert sich zu Musks Vorgehen",
+    "horodatage_utc": "2026-10-23T08:30:00+00:00",
+    "source_nom": "GDELT/bbv-net.de",
+    "url_source": "https://www.bbv-net.de/ueberregionales/ukraine-russland-selenskyj-krieg-putin-trump-usa-waffenlieferungen-kiew-moskau-23-oktober-2026-w1245972-6000624206/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "c153016c934c41ea",
     "categorie": "geopolitique",
     "titre_affiche": "ECB Consumer Expectations Survey results – September 2026",
@@ -229,6 +921,21 @@
     "nouveaute": false
   },
   {
+    "id": "24d06a5683d6dbb0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Report sets out plan for an independent Scottish currency",
+    "horodatage_utc": "2026-10-23T07:00:00+00:00",
+    "source_nom": "GDELT/thenational.scot",
+    "url_source": "https://www.thenational.scot/news/26662644.report-sets-plan-independent-scottish-currency/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "5a9a765d99e5e57a",
     "categorie": "geopolitique",
     "titre_affiche": "SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans",
@@ -242,6 +949,36 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "b06d13192655856f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump Honors Graham Memory While Retreating From His Russia Strategy",
+    "horodatage_utc": "2026-10-23T06:30:00+00:00",
+    "source_nom": "GDELT/finchannel.com",
+    "url_source": "https://finchannel.com/trump-honors-grahams-memory-while-retreating-from-his-russia-strategy/139180/americas/white-house-en/2026/10/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1d318db330ca52df",
+    "categorie": "geopolitique",
+    "titre_affiche": "IMF sees weak external position",
+    "horodatage_utc": "2026-10-23T06:15:00+00:00",
+    "source_nom": "GDELT/tribune.com.pk",
+    "url_source": "https://tribune.com.pk/story/2636387/imf-sees-weak-external-position",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "f972ef2f5250cda4",
@@ -564,21 +1301,6 @@
     "nouveaute": true
   },
   {
-    "id": "b0e53562da24f971",
-    "categorie": "geopolitique",
-    "titre_affiche": "US Treasury proposes a rule to crack down on high - tech investments in China , other adversaries",
-    "horodatage_utc": "2026-10-23T04:30:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/news/international/world-news/us-treasury-proposes-a-rule-to-crack-down-on-high-tech-investments-in-china-other-adversaries/articleshow/135132178.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "bd922476ed9d5a17",
     "categorie": "geopolitique",
     "titre_affiche": "US is prepared for long stand-off with Iran, says Trump envoy",
@@ -591,7 +1313,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ee8fb3e4da99262a",
@@ -789,6 +1511,36 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "752a1b1660299fa7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Faster reforms could triple Pakistan incomes by 2050 , says World Bank report – Asia News Network",
+    "horodatage_utc": "2026-10-23T04:00:00+00:00",
+    "source_nom": "GDELT/asianews.network",
+    "url_source": "https://asianews.network/faster-reforms-could-triple-pakistans-incomes-by-2050-says-world-bank-report/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "275a6fd378c22b0f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold als strategische Reserve : Equinox Gold steigert die Produktion um 34 % und baut seine Schulden weiter ab !",
+    "horodatage_utc": "2026-10-23T04:00:00+00:00",
+    "source_nom": "GDELT/finanznachrichten.de",
+    "url_source": "https://www.finanznachrichten.de/nachrichten-2026-10/69914729-gold-als-strategische-reserve-equinox-gold-steigert-die-produktion-um-34-und-baut-seine-schulden-weiter-ab-687.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux"
+    ],
+    "portee": "actif_direct",
     "nouveaute": true
   },
   {
@@ -804,7 +1556,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4d22ea3ad2290d90",
@@ -835,6 +1587,21 @@
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "9f6d3ffa0bf2b122",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump New World Re - Order with Rod Martin",
+    "horodatage_utc": "2026-10-23T03:15:00+00:00",
+    "source_nom": "GDELT/afr.net",
+    "url_source": "https://afr.net/podcasts/sandy-rios-247/2026/october/trumps-new-world-re-order-with-rod-martin/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
   },
   {
     "id": "50e9cbfef8c10c32",
@@ -1032,795 +1799,18 @@
     "nouveaute": true
   },
   {
-    "id": "2eacf4b92e505b1a",
+    "id": "f52bc4dba25d59e7",
     "categorie": "geopolitique",
-    "titre_affiche": "US Treasury proposes tighter rules on investing in sensitive Chinese tech",
-    "horodatage_utc": "2026-10-22T23:13:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f57a1f1c-60ce-432d-a901-673ae7d1241e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "441191ec5ae5f3dd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sanctions Update : October 19 , 2026",
-    "horodatage_utc": "2026-10-22T23:00:00+00:00",
-    "source_nom": "GDELT/mondaq.com",
-    "url_source": "https://www.mondaq.com:443/unitedstates/government/1858552/sanctions-update-october-19-2026",
+    "titre_affiche": "HSBC : Gold no short - term hedge for stocks , but three forces keep long - term case intact",
+    "horodatage_utc": "2026-10-22T23:15:00+00:00",
+    "source_nom": "GDELT/investinglive.com",
+    "url_source": "https://investinglive.com/commodities/hsbc-gold-no-short-term-hedge-for-stocks-but-three-forces-keep-long-term-case-intact/",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
+      "Or et métaux précieux"
     ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f55132a6ddaa3f6e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ausfälle in Ukraine – Trump bat Musk um Stopp der Starlink - Beschränkungen",
-    "horodatage_utc": "2026-10-22T23:00:00+00:00",
-    "source_nom": "GDELT/heute.at",
-    "url_source": "https://www.heute.at/s/trump-bat-musk-um-stopp-der-starlink-beschraenkungen-120271096",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "70f1209a85d4dd13",
-    "categorie": "geopolitique",
-    "titre_affiche": "US - sanctioned ICC wins Sakharov Prize , EU top human rights award | ICC News",
-    "horodatage_utc": "2026-10-22T23:00:00+00:00",
-    "source_nom": "GDELT/aljazeera.com",
-    "url_source": "https://www.aljazeera.com/news/2026/10/22/us-sanctioned-icc-wins-sakharov-prize-eus-top-human-rights-award",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2fbd301eb8ce043b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Meta’s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
-    "horodatage_utc": "2026-10-22T22:21:08+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/22/meta-mark-zuckerberg-california-billionaire-tax.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "f996ddbd78f474a6",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
-    "horodatage_utc": "2026-10-22T21:58:42+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bb09d0c572c58f47",
-    "categorie": "geopolitique",
-    "titre_affiche": "Moderna shares sink after leaked cancer data missed expectations",
-    "horodatage_utc": "2026-10-22T21:37:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/9e59746f-9b63-4adb-b868-14088d638b8a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e0aa9ba474c794ac",
-    "categorie": "geopolitique",
-    "titre_affiche": "Airfares will not return to pre-Iran war levels, American Airlines warns",
-    "horodatage_utc": "2026-10-22T20:08:50+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d114ce00-f30d-41c6-ac03-71209aa62ee2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6304bc49fc58c24f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
-    "horodatage_utc": "2026-10-22T20:05:42+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Taux et obligations",
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "efbd0e2c4504cf7a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
-    "horodatage_utc": "2026-10-22T18:55:38+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d2989a9d97035f37",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump ordered to face BBC questioning in $10bn defamation lawsuit",
-    "horodatage_utc": "2026-10-22T18:36:29+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8ada683f-9534-461d-9a3a-fc541550df16?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "eddc7b6f778fdf77",
-    "categorie": "geopolitique",
-    "titre_affiche": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
-    "horodatage_utc": "2026-10-22T18:15:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "607c850a7172b77e",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.8 - 39 km NE of Shikotan, Russia",
-    "horodatage_utc": "2026-10-22T17:38:20+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45f",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "fb6977278aa1a4f4",
-    "categorie": "geopolitique",
-    "titre_affiche": "US to fund speculative fusion venture backed by investors with ties to Trump",
-    "horodatage_utc": "2026-10-22T17:20:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d774c15e-22e4-4873-9a1d-92d6561290f9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "953d11eeef2a1adf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Critical PHP web security flaws spark global alarm as Google, OpenAI and Amazon respond",
-    "horodatage_utc": "2026-10-22T16:20:03+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "272fc73febc298b9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why governments pulled websites offline over the decades-old PHP programming language",
-    "horodatage_utc": "2026-10-22T16:19:34+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/22/php2shell-vulnerability-what-is-it-and-is-your-data-at-risk.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "89a71cfdd1128cef",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s tourism push fails to lure visitors",
-    "horodatage_utc": "2026-10-22T13:54:59+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/9ddd1583-9296-4264-8ddd-dbf11469def9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "c2eb026f0d300653",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more'",
-    "horodatage_utc": "2026-10-22T13:12:38+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7eaaf3569ea3f6c0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Blackstone cuts property valuations as higher rates hit returns",
-    "horodatage_utc": "2026-10-22T11:03:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/df7c95d7-72d1-4cec-87f6-9f7968ac3e5e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7059b551c86ffb58",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce",
-    "horodatage_utc": "2026-10-22T10:49:16+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/22/nvidia-jensen-huang-neocloud-demand-capital.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "098ba99a6a0ec7a8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran : Oil tankers on fire , damaged as fears grow over return to war",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/koco.com",
-    "url_source": "https://www.koco.com/article/iran-oil-tankers-fire-damaged-fears-return-war/74213820",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/koco.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fd471ee9c76d4773",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran says seven oil tankers damaged overnight in Strait of Hormuz",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/newsshopper.co.uk",
-    "url_source": "https://www.newsshopper.co.uk/news/national/26659299.iran-says-seven-oil-tankers-damaged-overnight-strait-hormuz/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/newsshopper.co.uk. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d2ae00a68e9e53a6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Energy security fears could spur development of Asia upstream gas assets : McKinsey",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/businesstimes.com.sg",
-    "url_source": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/energy-security-fears-could-spur-development-asias-upstream-gas-assets-mckinsey",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/businesstimes.com.sg. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e2b8668e5aaa6abc",
-    "categorie": "geopolitique",
-    "titre_affiche": "IMF expects more investment in redundancies as oil exporters seek Hormuz alternatives",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/article.wn.com",
-    "url_source": "https://article.wn.com/view/2026/10/22/IMF_expects_more_investment_in_redundancies_as_oil_exporters/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/article.wn.com. Elle se rattache à : Pétrole et énergie, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2ead90d119e1d703",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin Says Iran Deal Still Possible After Talks With US Envoy",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/israelherald.com",
-    "url_source": "http://www.israelherald.com/news/279391781/putin-says-iran-deal-still-possible-after-talks-with-us-envoy",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/israelherald.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4b33e0406c176991",
-    "categorie": "geopolitique",
-    "titre_affiche": "Crude oil above $100 , US election uncertainty : Will global factors keep Sensex , Nifty 50 under pressure ? Experts decode",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/livemint.com",
-    "url_source": "https://www.livemint.com/market/stock-market-news/crude-oil-above-100-us-election-uncertainty-will-global-factors-keep-sensex-nifty-50-under-pressure-experts-decode-11792654365472.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/livemint.com. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ac3ba3dcf86d0264",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kuwait - flagged oil vessel with 21 Indians targeted in Hormuz ; all crew safe",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/article.wn.com",
-    "url_source": "https://article.wn.com/view/2026/10/22/Kuwaitflagged_oil_vessel_with_21_Indians_targeted_in_Hormuz_/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/article.wn.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1074b967152141ff",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran says 7 oil tankers are on fire or damaged in a key strait as fears grow of a return to war",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/rockymounttelegram.com",
-    "url_source": "http://www.rockymounttelegram.com/news/national/iran-says-7-oil-tankers-are-on-fire-or-damaged-in-a-key-strait-as/article_71ed199e-f2b0-5d56-853d-7453d8f704e0.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f844e74c5c2daa0b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi Aramco seeks to partner with countries to expand its oil stockpile , CEO says",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/arynews.tv",
-    "url_source": "https://arynews.tv/saudi-aramco-seeks-to-partner-with-countries-to-expand-its-oil-stockpile-ceo-says",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "46a5b0299240476b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Ranks Among Worst Countries For Internet Freedom",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/israelherald.com",
-    "url_source": "http://www.israelherald.com/news/279391740/iran-ranks-among-worst-countries-for-internet-freedom",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0ecffdf4c1e76d24",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin Bebaskan Mantan Guru AS dari Penjara Rusia Usai Diminta Trump",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/liputan6.com",
-    "url_source": "https://www.liputan6.com/global/read/8318728/putin-bebaskan-mantan-guru-as-dari-penjara-rusia-usai-diminta-trump",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "aafa8f2e9e8f25a9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Detido em 2022 na Ucrânia . Rússia liberta norte - americano de 74 anos",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/rtp.pt",
-    "url_source": "https://www.rtp.pt/noticias/guerra-na-ucrania/detido-em-2022-na-ucrania-russia-liberta-norte-americano-de-74-anos_n1773470",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9ff602a021d3c261",
-    "categorie": "geopolitique",
-    "titre_affiche": "The West Is Thinking Too Small About Ukraine Victory",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/warontherocks.com",
-    "url_source": "https://warontherocks.com/the-west-is-thinking-too-small-about-ukraines-victory/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c0370d83b65a576b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ex - Super Eagles Star , Emmanuel Emenike , Cries Out Over Invasion In His Hospital",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/leadership.ng",
-    "url_source": "https://leadership.ng/ex-super-eagles-star-emmanuel-emenike-cries-out-over-invasion-in-his-hospital/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "878239a259d05c80",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tramp najavio novi rat sa Iranom , SAD i Izrael pripremaju nove napade na nuklearna i energetska postrojenja",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/informer.rs",
-    "url_source": "https://informer.rs/planeta/vesti/1163132/donald-tramp-iran-napad-nuklearna-postrojenja",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "51d9023c957046a9",
-    "categorie": "geopolitique",
-    "titre_affiche": "ByteDance , Alibaba , Tencent order over $35bn in Nvidia chips",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/israelherald.com",
-    "url_source": "http://www.israelherald.com/news/279388122/bytedance-alibaba-tencent-order-over-usd35bn-in-nvidia-chips",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f934b9c3709e87b4",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Endless Chip War",
-    "horodatage_utc": "2026-10-22T10:15:00+00:00",
-    "source_nom": "GDELT/warontherocks.com",
-    "url_source": "https://warontherocks.com/cogs-of-war/the-endless-chip-war/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1537a53a1ec10011",
-    "categorie": "geopolitique",
-    "titre_affiche": "Websites taken offline in race to patch PHP security flaw",
-    "horodatage_utc": "2026-10-22T10:13:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "83d9745a051fcc39",
-    "categorie": "geopolitique",
-    "titre_affiche": "Europe’s bracing reality on US bond yields",
-    "horodatage_utc": "2026-10-22T10:07:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/92e1700d-7990-4c6a-bd3f-63685df2fdf6?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "41d8584d3ec57d3c",
-    "categorie": "geopolitique",
-    "titre_affiche": "VN begraaft 1 , 5 graad en VK boort gas : Jetten faalt",
-    "horodatage_utc": "2026-10-22T09:45:00+00:00",
-    "source_nom": "GDELT/dagelijksestandaard.nl",
-    "url_source": "https://www.dagelijksestandaard.nl/politiek/vn-begraaft-1-5-graad-labour-boort-noordzeegas-jackdaw-jetten-van-veldhoven-boekholt-gasputten-beton",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2dfd9c937fe7b9c8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Irán hlási útoky na sedem ropných tankerov v Hormuzskom prielive . Varuje pred odvetou proti united states",
-    "horodatage_utc": "2026-10-22T09:45:00+00:00",
-    "source_nom": "GDELT/aktuality.sk",
-    "url_source": "https://www.aktuality.sk/clanok/gaQWNb4/iran-hlasi-utoky-na-sedem-ropnych-tankerov-v-hormuzskom-prielive-varuje-pred-odvetou-proti-usa/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "761e5bed16304d0c",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Latest Inflation Data Spells Bad News for Fed Chair Kevin Warsh and the Stock Market",
-    "horodatage_utc": "2026-10-22T09:45:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/10/22/inflation-data-bad-news-kevin-warsh-stock-market/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fb67ed74f5ad8d9f",
-    "categorie": "geopolitique",
-    "titre_affiche": "World shares retreat as report of damage to oil takers pushes oil prices higher",
-    "horodatage_utc": "2026-10-22T09:45:00+00:00",
-    "source_nom": "GDELT/wral.com",
-    "url_source": "https://www.wral.com/news/ap/33767-asian-shares-retreat-after-strong-profits-lead-a-rally-on-wall-street/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ab2b8c92dd93c2ad",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia frees American Stephen Hubbard after over 4 years behind bars",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/decaturdaily.com",
-    "url_source": "https://www.decaturdaily.com/news/other_news/international/russia-frees-american-stephen-hubbard-after-over-4-years-behind-bars/article_56e73e99-8c57-417e-9920-d824fd3014e6.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ab06492eeb68e348",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump sebut tak ada negosiasi dengan Iran , sesuatu akan terjadi segera",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/antaranews.com",
-    "url_source": "https://www.antaranews.com/berita/5804645/trump-sebut-tak-ada-negosiasi-dengan-iran-sesuatu-akan-terjadi-segera",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ef021ca6eb31259c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran IRGC Navy says seven vessels hit , warns US of wider response",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/arynews.tv",
-    "url_source": "https://arynews.tv/news/liveblog/iran-war-2026-live-updates-trump-us-israel?update=22-Oct-2026-09-05-00",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4a6de9789bdf02a5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Hormuz war risk pushes crude shipping costs sevenfold , squeezes refiner margins : Goldman Sachs",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/aninews.in",
-    "url_source": "https://aninews.in/news/business/hormuz-war-risk-pushes-crude-shipping-costs-sevenfold-squeezes-refiners8217-margins-goldman-sachs20261022132913/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Conflits et sécurité"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "76d2b0e0bb9f98d7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran says 7 tankers were damaged in the Strait of Hormuz , and other Mideast news",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/wfmz.com",
-    "url_source": "https://www.wfmz.com/business/iran-says-7-tankers-on-fire-or-damaged-overnight-in-the-strait-of-hormuz-and-other-mideast-news/article_254bdece-88f4-5786-b69b-b5bd8c6acc80.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dd479fe7a34b73cf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil Prices Surge as Attacks on Saudi Arabia Fuel Supply Concerns",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/oedigital.com",
-    "url_source": "https://www.oedigital.com/news/543835-oil-prices-surge-as-attacks-on-saudi-arabia-fuel-supply-concerns",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "973ce366439bb288",
-    "categorie": "geopolitique",
-    "titre_affiche": "Special Interview | Netanyahu warns : Iranian threat far from over , beware of fake right",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/israelnationalnews.com",
-    "url_source": "https://www.israelnationalnews.com/news/434997",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2b128db0b773ecc5",
-    "categorie": "geopolitique",
-    "titre_affiche": "CNN : Gdje Trump vidi dogovor , Putin vidi pobjedu za Rusiju",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/index.hr",
-    "url_source": "https://www.index.hr/vijesti/clanak/cnn-gdje-trump-vidi-dogovor-putin-vidi-pobjedu-za-rusiju/2848505.aspx?index_tid=1197417&index_ref=naslovnica_vijesti_ostalo_d_2",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "3779d9bd12d33d61",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kansas Sen . Roger Marshall says the Ukraine war , not the Iran war , has caused high diesel prices",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/mymotherlode.com",
-    "url_source": "https://mymotherlode.com/news/national/11241537/kansas-sen-roger-marshall-says-the-ukraine-war-not-the-iran-war-has-caused-high-diesel-prices.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
+    "portee": "actif_direct",
     "nouveaute": true
   }
 ]
