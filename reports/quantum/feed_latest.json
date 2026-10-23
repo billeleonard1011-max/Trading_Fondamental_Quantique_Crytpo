@@ -1,11 +1,71 @@
 [
   {
-    "id": "88218630a025b456",
+    "id": "946af3a1073481ce",
     "categorie": "quantique",
-    "titre_affiche": "Quandela Expands Global Partnerships with KRIBB for Quantum Biotech and FPT Corporation in Vietnam",
-    "horodatage_utc": "2026-10-23T00:38:40+00:00",
+    "titre_affiche": "NVIDIA Takes Strategic Stake in Riverlane to Accelerate Real-Time Quantum Error Correction and GPU Decoder Calibration",
+    "horodatage_utc": "2026-10-23T03:40:53+00:00",
     "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/quandela-expands-global-partnerships-with-kribb-for-quantum-biotech-and-fpt-corporation-in-vietnam/",
+    "url_source": "https://quantumcomputingreport.com/nvidia-takes-strategic-stake-in-riverlane-to-accelerate-real-time-quantum-error-correction-and-gpu-decoder-calibration/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "62bd340c39ea4c31",
+    "categorie": "quantique",
+    "titre_affiche": "IQM and NVIDIA Automate 20-Qubit Chip Calibration via NVIDIA Ising Vision-Language Models and QCalEval Benchmark",
+    "horodatage_utc": "2026-10-23T02:16:48+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/iqm-and-nvidia-automate-20-qubit-chip-calibration-via-nvidia-ising-vision-language-models-and-qcaleval-benchmark/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "62c3bd6ac55537b0",
+    "categorie": "quantique",
+    "titre_affiche": "IBM Releases Qiskit SDK v2.6 with C API Pass-Manager Framework, Native QPY Serialization, and Custom Operations",
+    "horodatage_utc": "2026-10-23T02:07:54+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ibm-releases-qiskit-sdk-v2-6-with-c-api-pass-manager-framework-native-qpy-serialization-and-custom-operations/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "473e29e712cc9aea",
+    "categorie": "quantique",
+    "titre_affiche": "Quantinuum and Oracle Launch OCI Quantum AI Compute Beta Program for Early Access to Helios",
+    "horodatage_utc": "2026-10-23T01:13:03+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quantinuum-and-oracle-launch-oci-quantum-ai-compute-beta-program-for-early-access-to-helios/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Quantinuum"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "fc3b9dd1cd3a0771",
+    "categorie": "quantique",
+    "titre_affiche": "Quandela and Quanova Partner to Deploy Vietnam’s First Quantum Computer at Quang Trung University",
+    "horodatage_utc": "2026-10-23T00:44:04+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quandela-and-quanova-partner-to-deploy-vietnams-first-quantum-computer-at-quang-trung-university/",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quandela. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
@@ -15,20 +75,35 @@
     "nouveaute": true
   },
   {
+    "id": "88218630a025b456",
+    "categorie": "quantique",
+    "titre_affiche": "Quandela Expands Global Partnerships with KRIBB for Quantum Biotech and FPT Corporation in Vietnam",
+    "horodatage_utc": "2026-10-23T00:38:40+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quandela-expands-global-partnerships-with-kribb-for-quantum-biotech-and-fpt-corporation-in-vietnam/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Quandela"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "f06e357e7df2da5f",
     "categorie": "quantique",
     "titre_affiche": "Quandela Demonstrates Live Hybrid Photonic GPU-QPU Architecture via NVIDIA NVQLink at GTC Berlin",
     "horodatage_utc": "2026-10-23T00:33:06+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/quandela-demonstrates-live-hybrid-photonic-gpu-qpu-architecture-via-nvidia-nvqlink-at-gtc-berlin/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quandela, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Quandela",
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "718b02c57bc55587",
@@ -37,13 +112,13 @@
     "horodatage_utc": "2026-10-23T00:22:09+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/qblox-achieves-sub-4-microsecond-latency-integrating-nvidia-dgx-spark-and-rtx-pro-6000-blackwell-via-nvqlink/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "09aa0a898185cf54",
@@ -56,6 +131,21 @@
     "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
       "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "28e6807740348951",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Is Now Down 24 % in a Month : Is IONQ a Toxic Stock or Ready for a Recovery ?",
+    "horodatage_utc": "2026-10-22T19:15:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/ionq-now-down-24-month-183345000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": true
@@ -1727,95 +1817,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "e0572f4d07ab92cb",
-    "categorie": "quantique",
-    "titre_affiche": "NSF Awards $600,000 to Stony Brook and University of Hawaiʻi to Advance Distributed Quantum Intelligent Sensor Networks",
-    "horodatage_utc": "2026-09-30T09:36:40+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/nsf-awards-600000-to-stony-brook-and-university-of-hawai%ca%bbi-to-advance-distributed-quantum-intelligent-sensor-networks/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Intel"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "63c7419fd643b67b",
-    "categorie": "quantique",
-    "titre_affiche": "Xanadu and Bluefors Form Multi-Million Dollar Strategic Partnership to Develop Modular Cryogenic Infrastructure for Utility-Scale Quantum Data Centers",
-    "horodatage_utc": "2026-09-30T07:39:52+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/xanadu-and-bluefors-form-multi-million-dollar-strategic-partnership-to-develop-modular-cryogenic-infrastructure-for-utility-scale-quantum-data-centers/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Xanadu"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b1a77e37520abaaf",
-    "categorie": "quantique",
-    "titre_affiche": "Infleqtion and Riverlane Execute Strategic MOU to Integrate Neutral-Atom Hardware with Real-Time QEC Decoders",
-    "horodatage_utc": "2026-09-30T07:28:48+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/infleqtion-and-riverlane-execute-strategic-mou-to-integrate-neutral-atom-hardware-with-real-time-qec-decoders/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Infleqtion"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "21e5d9982d16e44c",
-    "categorie": "quantique",
-    "titre_affiche": "Xanadu and Bluefors Develop Cryogenic Infrastructure for Utility-Scale Quantum Computing",
-    "horodatage_utc": "2026-09-29T17:25:45+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/29/xanadu-bluefors-cryogenic-infrastructure-utility-scale-quantum/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Xanadu"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "17f99c2cbbc45510",
-    "categorie": "quantique",
-    "titre_affiche": "Quandela Establishes South Korea as Asian Hub for Photonic QPU Manufacturing and Hardware R&D",
-    "horodatage_utc": "2026-09-29T12:59:24+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/quandela-establishes-south-korea-as-asian-hub-for-photonic-qpu-manufacturing-and-hardware-rd/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Quandela"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "2a68447190807f80",
-    "categorie": "quantique",
-    "titre_affiche": "Infleqtion and Riverlane Partner on Quantum Error Correction",
-    "horodatage_utc": "2026-09-29T12:19:53+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Infleqtion"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
