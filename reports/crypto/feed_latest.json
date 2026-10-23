@@ -1,26 +1,11 @@
 [
   {
-    "id": "bd1bdc6df93b3897",
+    "id": "a7092bc7014cde71",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs swing back to net outflows as $636 million in withdrawals erase previous day’s inflows",
-    "horodatage_utc": "2026-10-23T11:39:45+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "289e6fd41adf013f",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
-    "horodatage_utc": "2026-10-23T11:22:33+00:00",
+    "titre_affiche": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
+    "horodatage_utc": "2026-10-23T13:58:56+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+    "url_source": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -30,9 +15,69 @@
     "nouveaute": true
   },
   {
+    "id": "0088b32b7e120cd4",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
+    "horodatage_utc": "2026-10-23T12:03:53+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "bd1bdc6df93b3897",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETFs swing back to net outflows as $636 million in withdrawals erase previous day’s inflows",
+    "horodatage_utc": "2026-10-23T11:39:45+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "289e6fd41adf013f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+    "horodatage_utc": "2026-10-23T11:22:33+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "67fadff1c6fa0947",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
+    "horodatage_utc": "2026-10-23T11:13:01+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "edf91c124f6d0694",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
     "horodatage_utc": "2026-10-23T11:13:01+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
@@ -51,13 +96,13 @@
     "horodatage_utc": "2026-10-23T10:54:41+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "789542733652d53c",
@@ -66,13 +111,13 @@
     "horodatage_utc": "2026-10-23T10:53:09+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/10/23/bitcoin-approaches-midterms-as-july-low-challenges-historical-cycle-pattern",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1aca8a87b3d6d466",
@@ -1760,50 +1805,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "b36e135a8c15e41f",
-    "categorie": "crypto",
-    "titre_affiche": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
-    "horodatage_utc": "2026-10-16T10:52:26+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ecb7b8ef23b18779",
-    "categorie": "crypto",
-    "titre_affiche": "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
-    "horodatage_utc": "2026-10-16T10:41:03+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "54b4cbb65d1749f1",
-    "categorie": "crypto",
-    "titre_affiche": "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
-    "horodatage_utc": "2026-10-16T10:24:30+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]

@@ -3,13 +3,121 @@
     "id": "44aa83c95ccda4bd",
     "categorie": "geopolitique",
     "titre_affiche": "Ukraine says Starlink speeds still throttled",
-    "horodatage_utc": "2026-10-23T11:05:18+00:00",
+    "horodatage_utc": "2026-10-23T16:07:16+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e67a3d0e-5893-45a5-b098-64a68a4ef032",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "url_source": "https://www.ft.com/content/e67a3d0e-5893-45a5-b098-64a68a4ef032?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "a02ca699c4434698",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
+    "horodatage_utc": "2026-10-23T16:06:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "60b5c5380be7f67a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Silicon Valley Democrats demand investigation into Starlink restrictions in Ukraine",
+    "horodatage_utc": "2026-10-23T15:33:47+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/starlink-ukraine-musk-trump-congress.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5c4efc0050fcc2d6",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI agents could disrupt bank deposits. Why Wall Street may be overreacting",
+    "horodatage_utc": "2026-10-23T15:00:49+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/investingclub/2026/10/23/ai-agents-could-disrupt-bank-deposits-why-wall-street-may-be-overreacting.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b6b2176ffc066e83",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
+    "horodatage_utc": "2026-10-23T14:37:46+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Or et métaux précieux, Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Or et métaux précieux",
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1050b72c1b569702",
+    "categorie": "geopolitique",
+    "titre_affiche": "A half-time scorecard for Trump-world",
+    "horodatage_utc": "2026-10-23T13:32:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fdd811ed-3186-48f9-8f6b-fb66e56f13e6",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "2431814ef5d99a47",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netanyahu threatens ‘aggressive’ offensive after West Bank shooting",
+    "horodatage_utc": "2026-10-23T13:29:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e03e092b-c465-478a-b01e-bf21406981cd?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1604b0cf19dbe96a",
+    "categorie": "geopolitique",
+    "titre_affiche": "On the ground at Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress",
+    "horodatage_utc": "2026-10-23T12:08:30+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -36,14 +144,14 @@
     "horodatage_utc": "2026-10-23T11:00:01+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Sanctions, accords et diplomatie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2a70d1869f8c1147",
@@ -76,19 +184,34 @@
     "nouveaute": true
   },
   {
+    "id": "0f6eda6dd291144a",
+    "categorie": "geopolitique",
+    "titre_affiche": "US nuclear revival faces scrutiny after incidents at flagship plant",
+    "horodatage_utc": "2026-10-23T10:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bcc464cc-9d12-4b15-866d-64642de66ca8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "107bbc56e1d4cda7",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia's Huang heads to Kazakhstan for the first time — and he's not the only one with big plans",
     "horodatage_utc": "2026-10-23T09:21:59+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/23/nvidia-huang-investment-kazakhstan-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c153016c934c41ea",
@@ -97,13 +220,13 @@
     "horodatage_utc": "2026-10-23T08:00:00+00:00",
     "source_nom": "BCE - communiques",
     "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5a9a765d99e5e57a",
@@ -112,13 +235,13 @@
     "horodatage_utc": "2026-10-23T06:45:04+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f972ef2f5250cda4",
@@ -471,6 +594,21 @@
     "nouveaute": true
   },
   {
+    "id": "ee8fb3e4da99262a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine seeks to move customs checks inside EU to avoid Russian drones",
+    "horodatage_utc": "2026-10-23T04:00:37+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ab922590-7f73-4a84-a3bd-a42cf80c92f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "73e9a968920e685f",
     "categorie": "geopolitique",
     "titre_affiche": "Beware Bessent’s tilt towards short-term debt",
@@ -575,7 +713,7 @@
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4f10685fa734b46e",
@@ -1684,140 +1822,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "ac7fcafe03f62b00",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jews against themselves : Israel elections",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/israelnationalnews.com",
-    "url_source": "https://www.israelnationalnews.com/news/434995",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0c9a0d9afe1f5559",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenski face presiuni asupra lui Trump : „ Dacă nu - l puteți opri pe Putin , dați - ne măcar mijloace de interceptare",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/digi24.ro",
-    "url_source": "https://www.digi24.ro/stiri/externe/zelenski-face-presiuni-asupra-lui-trump-daca-nu-l-puteti-opri-pe-putin-dati-ne-macar-mijloace-de-interceptare-4003185",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "627f48388e420eab",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kremlinul confirmă negocierile dintre Lukoil și Washington . „ Cele două guverne iau în considerare o gamă largă de proiecte economice",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/digi24.ro",
-    "url_source": "https://www.digi24.ro/stiri/externe/rusia/kremlinul-confirma-negocierile-dintre-lukoil-si-washington-cele-doua-guverne-iau-in-considerare-o-gama-larga-de-proiecte-economice-4003881",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8af43028d932069d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Britt reiterates Russia sanctions support but rejects making them mandatory",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/decaturdaily.com",
-    "url_source": "https://www.decaturdaily.com/news/other_news/state/britt-reiterates-russia-sanctions-support-but-rejects-making-them-mandatory/article_1d7167e9-c3cd-439f-8f94-a707bc541d06.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "720c5574a3960344",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kazakhstan Ranks Among World Top 15 Gold Producers",
-    "horodatage_utc": "2026-10-22T09:30:00+00:00",
-    "source_nom": "GDELT/astanatimes.com",
-    "url_source": "https://astanatimes.com/2026/10/kazakhstan-ranks-among-worlds-top-15-gold-producers/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ea26e8edbce9dd6c",
-    "categorie": "geopolitique",
-    "titre_affiche": "6 Military and War Movies From 1986 Turning 40 in 2026",
-    "horodatage_utc": "2026-10-22T09:15:00+00:00",
-    "source_nom": "GDELT/military.com",
-    "url_source": "https://www.military.com/6-military-and-war-movies-from-1986-turning-40-in-2026",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "580e1e1fe65115db",
-    "categorie": "geopolitique",
-    "titre_affiche": "China tech giants rush for $35bn of export - compliant Nvidia chips",
-    "horodatage_utc": "2026-10-22T09:15:00+00:00",
-    "source_nom": "GDELT/myanmarnews.net",
-    "url_source": "http://www.myanmarnews.net/news/279388122/china-tech-giants-rush-for-usd35bn-of-export-compliant-nvidia-chips",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f5ba082856fcb192",
-    "categorie": "geopolitique",
-    "titre_affiche": "Best Precious Metals IRA Companies in October 2026 Announced in New Industry Report",
-    "horodatage_utc": "2026-10-22T09:15:00+00:00",
-    "source_nom": "GDELT/hawaiitelegraph.com",
-    "url_source": "http://www.hawaiitelegraph.com/news/279391542/best-precious-metals-ira-companies-in-october-2026-announced-in-new-industry-report",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "9749d1d2177d63db",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.5 - 136 km NE of Petropavlovsk-Kamchatsky, Russia",
-    "horodatage_utc": "2026-10-22T09:03:20+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u423",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
