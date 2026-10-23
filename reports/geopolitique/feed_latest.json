@@ -1,5 +1,126 @@
 [
   {
+    "id": "44aa83c95ccda4bd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine says Starlink speeds still throttled",
+    "horodatage_utc": "2026-10-23T11:05:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e67a3d0e-5893-45a5-b098-64a68a4ef032",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "68995ce77d840f08",
+    "categorie": "geopolitique",
+    "titre_affiche": "On the ground at Nvidia GTC Berlin: Jensen Huang, robot ducks and neocloud distress",
+    "horodatage_utc": "2026-10-23T11:02:16+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7e93c6b2ffff7e96",
+    "categorie": "geopolitique",
+    "titre_affiche": "With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage",
+    "horodatage_utc": "2026-10-23T11:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2a70d1869f8c1147",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil hits $114 for first time since May as global stocks knocked by AI fears",
+    "horodatage_utc": "2026-10-23T10:55:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bdd1433966515a7a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Austria expels Russian diplomats suspected of espionage",
+    "horodatage_utc": "2026-10-23T10:53:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/df94aaca-71f2-4788-9835-898b1cc79a05?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "107bbc56e1d4cda7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia's Huang heads to Kazakhstan for the first time — and he's not the only one with big plans",
+    "horodatage_utc": "2026-10-23T09:21:59+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/nvidia-huang-investment-kazakhstan-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c153016c934c41ea",
+    "categorie": "geopolitique",
+    "titre_affiche": "ECB Consumer Expectations Survey results – September 2026",
+    "horodatage_utc": "2026-10-23T08:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5a9a765d99e5e57a",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans",
+    "horodatage_utc": "2026-10-23T06:45:04+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "f972ef2f5250cda4",
     "categorie": "geopolitique",
     "titre_affiche": "War fears grow as tankers hit in Strait of Hormuz",
@@ -363,7 +484,7 @@
       "Inflation et prix"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "07f1243e5e72baa4",
@@ -378,7 +499,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a1a4a9e6ceb48fbb",
@@ -408,7 +529,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a848f85f630c0770",
@@ -437,6 +558,21 @@
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque",
       "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b4ce0cfe30672e5d",
+    "categorie": "geopolitique",
+    "titre_affiche": "The limits of Trump’s trade war",
+    "horodatage_utc": "2026-10-23T04:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0ce7d049-b264-47da-9aaa-08b33941585a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1683,142 +1819,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "9c7d722197a78315",
-    "categorie": "geopolitique",
-    "titre_affiche": "Global stocks tumble as oil prices rise",
-    "horodatage_utc": "2026-10-22T08:46:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Dollar et devises",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1ee78d8325720be1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin zahvalio Melaniji Tramp za pomoć deci iz Ukrajine , Vitkof ga nazvao humanitarcem",
-    "horodatage_utc": "2026-10-22T08:15:00+00:00",
-    "source_nom": "GDELT/informer.rs",
-    "url_source": "https://informer.rs/planeta/vesti/1163130/putin-melanija-tramp-deca-ukrajina-stiv-vitkof",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "0c1071cf0ae3a0cf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia pummelled with drone strikes as weapons plant targeted",
-    "horodatage_utc": "2026-10-22T08:15:00+00:00",
-    "source_nom": "GDELT/aol.co.uk",
-    "url_source": "https://www.aol.co.uk/articles/russia-pummelled-drone-strikes-weapons-072200000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f34d3fdc8bcfb9bf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine to buy military supplies via Nato agency",
-    "horodatage_utc": "2026-10-22T07:49:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/991ac37c-289b-40e5-b2e6-220ee2aebe5d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0ccfbf94ec4eb3ef",
-    "categorie": "geopolitique",
-    "titre_affiche": "Witkoff to za podlézání Putinovi od republikánů schytal",
-    "horodatage_utc": "2026-10-22T07:00:00+00:00",
-    "source_nom": "GDELT/novinky.cz",
-    "url_source": "https://www.novinky.cz/clanek/zahranicni-witkoff-to-za-podlezani-putinovi-od-republikanu-schytal-40604167",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "6547c335bc8c1e19",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin pounds Ukraine with drone strikes",
-    "horodatage_utc": "2026-10-22T06:45:00+00:00",
-    "source_nom": "GDELT/dailymail.com",
-    "url_source": "https://www.dailymail.com/news/article-16228923/Putin-pounds-Ukraine-drone-strikes-just-hours-Trump-envoy-Steve-Witkoff-declared-humanitarian.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "64c0f5e2776af426",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tramp odbio nove sankcije Rusiji zbog pregovora sa Putinom , pa izvređao novinare ABC i Si - En - Ena",
-    "horodatage_utc": "2026-10-22T06:30:00+00:00",
-    "source_nom": "GDELT/informer.rs",
-    "url_source": "https://informer.rs/planeta/vesti/1163102/tramp-sankcije-rusiji-vredjanje-novinara",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "67d97ece66fb506f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stephen Hubbard Freed From Russian Captivity",
-    "horodatage_utc": "2026-10-22T06:30:00+00:00",
-    "source_nom": "GDELT/artvoice.com",
-    "url_source": "https://artvoice.com/stephen-hubbard-freed-from-russian-captivity",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8e9e031328d10ac1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold : Russlands Reserven sinken weiter , aber China kauft kräftig zu",
-    "horodatage_utc": "2026-10-22T06:30:00+00:00",
-    "source_nom": "GDELT/deraktionaer.de",
-    "url_source": "https://www.deraktionaer.de/artikel/aktien/gold-russlands-reserven-sinken-weiter-aber-china-kauft-kraeftig-zu-20422029.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
