@@ -1,18 +1,93 @@
 [
   {
+    "id": "84e7f2c851e3bd1c",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
+    "horodatage_utc": "2026-10-23T00:53:36+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c0f9eef675f0039d",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 7.0 - 191 km ENE of Nagqu, China",
+    "horodatage_utc": "2026-10-23T00:51:51+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "77d37fe0c0546d3a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Palmer Luckey unveils start-up to breed ‘genetically enhanced’ dogs for military",
+    "horodatage_utc": "2026-10-22T23:29:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8a558139-2318-4509-8acd-199d5f888b9e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e14b9104b9fab185",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.8 - 269 km SSW of Severo-Kuril’sk, Russia",
+    "horodatage_utc": "2026-10-22T23:17:46+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u47l",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2eacf4b92e505b1a",
+    "categorie": "geopolitique",
+    "titre_affiche": "US Treasury proposes tighter rules on investing in sensitive Chinese tech",
+    "horodatage_utc": "2026-10-22T23:13:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f57a1f1c-60ce-432d-a901-673ae7d1241e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "2fbd301eb8ce043b",
     "categorie": "geopolitique",
     "titre_affiche": "Meta’s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
     "horodatage_utc": "2026-10-22T22:21:08+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/22/meta-mark-zuckerberg-california-billionaire-tax.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f996ddbd78f474a6",
@@ -37,13 +112,13 @@
     "horodatage_utc": "2026-10-22T21:37:25+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/9e59746f-9b63-4adb-b868-14088d638b8a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e0aa9ba474c794ac",
@@ -52,13 +127,13 @@
     "horodatage_utc": "2026-10-22T20:08:50+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d114ce00-f30d-41c6-ac03-71209aa62ee2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6304bc49fc58c24f",
@@ -67,27 +142,12 @@
     "horodatage_utc": "2026-10-22T20:05:42+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Taux et obligations",
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c0f9eef675f0039d",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 7.0 - 191 km ENE of Nagqu, China",
-    "horodatage_utc": "2026-10-22T18:57:19+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1754,66 +1814,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "35540570faeb04c1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sudan Founding Alliance Tasee claims 21 civilians killed in West Kordofan airstrikes",
-    "horodatage_utc": "2026-10-21T23:00:00+00:00",
-    "source_nom": "GDELT/dabangasudan.org",
-    "url_source": "https://www.dabangasudan.org/en/all-news/article/sudan-founding-alliance-tasees-claims-21-civilians-killed-in-west-kordofan-airstrikes",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "34cf586a7087f8d0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Crude Oil Moves Lower Amid Reports Of Improvement In Hormuz Traffic",
-    "horodatage_utc": "2026-10-21T22:45:00+00:00",
-    "source_nom": "GDELT/rttnews.com",
-    "url_source": "https://www.rttnews.com/story.aspx?Id=3701267",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "536ba57a8067c304",
-    "categorie": "geopolitique",
-    "titre_affiche": "Treasury Department Sanctions Panama - and Greece - Based Law Firm for Helping Iran Regime – PJ Media",
-    "horodatage_utc": "2026-10-21T22:45:00+00:00",
-    "source_nom": "GDELT/pjmedia.com",
-    "url_source": "https://pjmedia.com/catherinesalgado/2026/10/21/state-department-sanctions-greek-panama-law-firm-for-helping-irans-regime-n4958544",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "251b5d2841f1560a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Japan records ¥2 . 81 tril trade deficit for first fiscal half",
-    "horodatage_utc": "2026-10-21T22:15:00+00:00",
-    "source_nom": "GDELT/japantoday.com",
-    "url_source": "https://japantoday.com/category/business/Japan-records-%C2%A52.81-tril-trade-deficit-for-first-fiscal-half",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
     ],
     "portee": "influence",
     "nouveaute": true

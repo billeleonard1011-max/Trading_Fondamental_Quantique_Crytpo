@@ -1,5 +1,66 @@
 [
   {
+    "id": "88218630a025b456",
+    "categorie": "quantique",
+    "titre_affiche": "Quandela Expands Global Partnerships with KRIBB for Quantum Biotech and FPT Corporation in Vietnam",
+    "horodatage_utc": "2026-10-23T00:38:40+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quandela-expands-global-partnerships-with-kribb-for-quantum-biotech-and-fpt-corporation-in-vietnam/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quandela. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Quandela"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f06e357e7df2da5f",
+    "categorie": "quantique",
+    "titre_affiche": "Quandela Demonstrates Live Hybrid Photonic GPU-QPU Architecture via NVIDIA NVQLink at GTC Berlin",
+    "horodatage_utc": "2026-10-23T00:33:06+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quandela-demonstrates-live-hybrid-photonic-gpu-qpu-architecture-via-nvidia-nvqlink-at-gtc-berlin/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quandela, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Quandela",
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "718b02c57bc55587",
+    "categorie": "quantique",
+    "titre_affiche": "Qblox Achieves Sub-4 Microsecond Latency Integrating NVIDIA DGX Spark and RTX PRO 6000 Blackwell via NVQLink",
+    "horodatage_utc": "2026-10-23T00:22:09+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/qblox-achieves-sub-4-microsecond-latency-integrating-nvidia-dgx-spark-and-rtx-pro-6000-blackwell-via-nvqlink/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "09aa0a898185cf54",
+    "categorie": "quantique",
+    "titre_affiche": "SEEQC and NVIDIA Demonstrate 50% QEC Latency and Error Rate Reduction via Digital Pre-Decoder Architecture",
+    "horodatage_utc": "2026-10-23T00:15:08+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/seeqc-and-nvidia-demonstrate-50-qec-latency-and-error-rate-reduction-via-digital-pre-decoder-architecture/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "78e00d7248e34a9a",
     "categorie": "quantique",
     "titre_affiche": "Qblox Integrates NVIDIA DGX Spark With Quantum System Controller",
@@ -1753,66 +1814,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Infleqtion"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b9985ccf842f490e",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ ( NYSE : IONQ ) Now Covered by Analysts at Bank of America",
-    "horodatage_utc": "2026-09-29T06:15:00+00:00",
-    "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/09/29/ionq-nyseionq-now-covered-by-analysts-at-bank-of-america.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "34afab0369bfe646",
-    "categorie": "quantique",
-    "titre_affiche": "Microsoft just put its most controversial quantum bet somewhere it cannot control the results",
-    "horodatage_utc": "2026-09-29T02:00:00+00:00",
-    "source_nom": "GDELT/techradar.com",
-    "url_source": "https://www.techradar.com/pro/microsoft-will-give-darpa-on-site-access-to-its-latest-quantum-computing-hardware-as-it-opens-a-new-maryland-research-center",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/techradar.com. Elle mentionne : Microsoft. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "Microsoft"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "1f8193972e8e4657",
-    "categorie": "quantique",
-    "titre_affiche": "D - Wave Quantum ( NASDAQ : QBTS ) Stock Price Down 3 . 6 % – Here What Happened",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/09/28/d-wave-quantum-nasdaqqbts-stock-price-down-3-6-heres-what-happened.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "2a95d186acb0fad7",
-    "categorie": "quantique",
-    "titre_affiche": "Rigetti Computing ( NASDAQ : RGTI ) Stock Falls 4 . 3 % – Here What Happened",
-    "horodatage_utc": "2026-09-28T22:00:00+00:00",
-    "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/09/28/rigetti-computing-nasdaqrgti-stock-falls-4-3-heres-what-happened.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "RGTI"
     ],
     "portee": "actif_direct",
     "nouveaute": false
