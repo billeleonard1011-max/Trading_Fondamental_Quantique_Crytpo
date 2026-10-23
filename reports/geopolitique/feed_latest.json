@@ -1,18 +1,93 @@
 [
   {
-    "id": "e68e7e5870e68318",
+    "id": "9f550f33656e1cc9",
     "categorie": "geopolitique",
-    "titre_affiche": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
-    "horodatage_utc": "2026-10-23T20:20:08+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+    "titre_affiche": "Trump moves to block certification of Alaska Senate election if Republican loses",
+    "horodatage_utc": "2026-10-23T23:06:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b68b8544-4ce9-45d4-b522-cd2f8150e4cc?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e001c77447567dbb",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.8 - 6 km ENE of Starobachaty, Russia",
+    "horodatage_utc": "2026-10-23T22:53:00+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4hi",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "3962f6eec775590d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump to cut Canadian tariffs after pressure from Republicans",
+    "horodatage_utc": "2026-10-23T22:29:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c2ef572f07088336",
+    "categorie": "geopolitique",
+    "titre_affiche": "France avoids downgrade from Moody’s in boost for Macron’s government",
+    "horodatage_utc": "2026-10-23T22:28:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e68e7e5870e68318",
+    "categorie": "geopolitique",
+    "titre_affiche": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
+    "horodatage_utc": "2026-10-23T20:52:23+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "a02ca699c4434698",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
+    "horodatage_utc": "2026-10-23T20:13:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "bb22aebb57a4ec15",
@@ -21,25 +96,10 @@
     "horodatage_utc": "2026-10-23T19:50:26+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a02ca699c4434698",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
-    "horodatage_utc": "2026-10-23T19:03:41+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
+      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1751,66 +1811,6 @@
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "e14b9104b9fab185",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.8 - 269 km SSW of Severo-Kuril’sk, Russia",
-    "horodatage_utc": "2026-10-22T23:17:46+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u47l",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "83b8e9c2266eb24a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Weekly Sanctions Update : October 19 , 2026",
-    "horodatage_utc": "2026-10-22T23:15:00+00:00",
-    "source_nom": "GDELT/mondaq.com",
-    "url_source": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1858564/weekly-sanctions-update-october-19-2026",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "85b41b008cb1e443",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump , Musk ın Ukraynadaki Starlink kısıtlamasını kaldırdığını açıkladı",
-    "horodatage_utc": "2026-10-22T23:15:00+00:00",
-    "source_nom": "GDELT/evrensel.net",
-    "url_source": "https://www.evrensel.net/haber/6006218/trump-muskin-ukraynadaki-starlink-kisitlamasini-kaldirdigini-acikladi",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f52bc4dba25d59e7",
-    "categorie": "geopolitique",
-    "titre_affiche": "HSBC : Gold no short - term hedge for stocks , but three forces keep long - term case intact",
-    "horodatage_utc": "2026-10-22T23:15:00+00:00",
-    "source_nom": "GDELT/investinglive.com",
-    "url_source": "https://investinglive.com/commodities/hsbc-gold-no-short-term-hedge-for-stocks-but-three-forces-keep-long-term-case-intact/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
     "nouveaute": true
   }
 ]
