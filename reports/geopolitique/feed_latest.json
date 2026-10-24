@@ -1,19 +1,80 @@
 [
   {
+    "id": "d0727d89b197f832",
+    "categorie": "geopolitique",
+    "titre_affiche": "Uganda Shilling Hits 33 - Year Low as Treasury Warns",
+    "horodatage_utc": "2026-10-24T18:00:00+00:00",
+    "source_nom": "GDELT/riotimesonline.com",
+    "url_source": "https://www.riotimesonline.com/uganda-shilling-33-year-low-2026/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/riotimesonline.com. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5f383fdff1f6a3a6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
+    "horodatage_utc": "2026-10-24T17:13:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "f3182d38fb0985e0",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+    "horodatage_utc": "2026-10-24T16:14:00+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "714ee49a56326d5f",
+    "categorie": "geopolitique",
+    "titre_affiche": "World Bank Sees 3 . 8 % Growth as Poverty Traps 120 Million Pakistanis",
+    "horodatage_utc": "2026-10-24T15:45:00+00:00",
+    "source_nom": "GDELT/lhrtimes.com",
+    "url_source": "https://www.lhrtimes.com/2026/10/24/world-bank-sees-3-8-growth-as-poverty-traps-120-million-pakistanis/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/lhrtimes.com. Elle se rattache à : Banques, crédit et appétit pour le risque, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "7757266fc24f45dd",
     "categorie": "geopolitique",
     "titre_affiche": "Intelligence memo warns Iran is plotting to kill Americans in Middle East",
     "horodatage_utc": "2026-10-24T15:09:52+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e2e82393-c7ca-4bc1-b270-022b3702d9e7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "eeef2fcc6fa56070",
@@ -37,8 +98,68 @@
     "horodatage_utc": "2026-10-24T13:16:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "074f6ef3bed0fdca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nasdaq raises red flag on 3 overnight risks ahead of Dec . 6 and they pose an extra - big threat to retirement nest eggs",
+    "horodatage_utc": "2026-10-24T13:15:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/nasdaq-raises-red-flag-3-113500000.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "38138cb4a50aa2d2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Economist warns Malawi still lags neighbours despite inflation decline",
+    "horodatage_utc": "2026-10-24T12:30:00+00:00",
+    "source_nom": "GDELT/nyasatimes.com",
+    "url_source": "https://www.nyasatimes.com/economist-warns-malawi-still-lags-neighbours-despite-inflation-decline/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/nyasatimes.com. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "002ffe866e5591f8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran oil revenues exceeded $1 . 5 billion last month",
+    "horodatage_utc": "2026-10-24T12:15:00+00:00",
+    "source_nom": "GDELT/en.apa.az",
+    "url_source": "https://en.apa.az/asia/irans-oil-revenues-exceeded-15-billion-last-month-531976",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/en.apa.az. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "aec7e2d10ae57b54",
+    "categorie": "geopolitique",
+    "titre_affiche": "Historic Russia and China energy deal Sila Baikala reroutes gas and shifts world order",
+    "horodatage_utc": "2026-10-24T11:30:00+00:00",
+    "source_nom": "GDELT/bankingnews.gr",
+    "url_source": "https://www.bankingnews.gr/diethni/articles/906952/historic-russia-and-china-energy-deal-sila-baikala-reroutes-gas-and-shifts-world-order",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/bankingnews.gr. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
@@ -157,13 +278,13 @@
     "horodatage_utc": "2026-10-24T04:00:13+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/98417e57-fe7e-4309-8f56-6e844c55c6e1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "82189ad102ddee94",
@@ -1693,126 +1814,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "b4ce0cfe30672e5d",
-    "categorie": "geopolitique",
-    "titre_affiche": "The limits of Trump’s trade war",
-    "horodatage_utc": "2026-10-23T04:00:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0ce7d049-b264-47da-9aaa-08b33941585a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4f10685fa734b46e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Reopen Bab al - Mandeb : China amid oil disruptions",
-    "horodatage_utc": "2026-10-23T04:00:00+00:00",
-    "source_nom": "GDELT/theshillongtimes.com",
-    "url_source": "https://theshillongtimes.com/2026/10/23/reopen-bab-al-mandeb-china-amid-oil-disruptions/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7ebc905f557a967e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump signals possible further action on Iran",
-    "horodatage_utc": "2026-10-23T04:00:00+00:00",
-    "source_nom": "GDELT/prokerala.com",
-    "url_source": "https://www.prokerala.com/news/articles/a1827702.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "516985eb387b1ed0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Geopolitical Storm Hits Oil : Inventories Vanish , Markets Reel",
-    "horodatage_utc": "2026-10-23T04:00:00+00:00",
-    "source_nom": "GDELT/english.pravda.ru",
-    "url_source": "https://english.pravda.ru/news/business/170563-us-crude-inventory-drop-hormuz-security/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2a25a4ca924bb208",
-    "categorie": "geopolitique",
-    "titre_affiche": "Houthis Claim Hit on Saudi Defense Ministry as Dammam Toll Rises to Two",
-    "horodatage_utc": "2026-10-23T04:00:00+00:00",
-    "source_nom": "GDELT/hngn.com",
-    "url_source": "https://www.hngn.com/articles/273570/20261022/houthis-claim-hit-saudi-defense-ministry-dammam-toll-rises-two.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "093f1d12c96c6d7f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why Trump Cant Afford to Lose The Rare Earth Race",
-    "horodatage_utc": "2026-10-23T04:00:00+00:00",
-    "source_nom": "GDELT/oilprice.com",
-    "url_source": "https://oilprice.com/Energy/Energy-General/Why-Trump-Cant-Afford-to-Lose-The-Rare-Earth-Race.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "752a1b1660299fa7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Faster reforms could triple Pakistan incomes by 2050 , says World Bank report – Asia News Network",
-    "horodatage_utc": "2026-10-23T04:00:00+00:00",
-    "source_nom": "GDELT/asianews.network",
-    "url_source": "https://asianews.network/faster-reforms-could-triple-pakistans-incomes-by-2050-says-world-bank-report/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "275a6fd378c22b0f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold als strategische Reserve : Equinox Gold steigert die Produktion um 34 % und baut seine Schulden weiter ab !",
-    "horodatage_utc": "2026-10-23T04:00:00+00:00",
-    "source_nom": "GDELT/finanznachrichten.de",
-    "url_source": "https://www.finanznachrichten.de/nachrichten-2026-10/69914729-gold-als-strategische-reserve-equinox-gold-steigert-die-produktion-um-34-und-baut-seine-schulden-weiter-ab-687.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
