@@ -1,18 +1,33 @@
 [
   {
+    "id": "e2a07573ce37b25d",
+    "categorie": "geopolitique",
+    "titre_affiche": "US executives quit $25bn gas venture over claims of secret Russian control",
+    "horodatage_utc": "2026-10-24T00:22:20+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "9f550f33656e1cc9",
     "categorie": "geopolitique",
     "titre_affiche": "Trump moves to block certification of Alaska Senate election if Republican loses",
     "horodatage_utc": "2026-10-23T23:06:01+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/b68b8544-4ce9-45d4-b522-cd2f8150e4cc?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e001c77447567dbb",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-10-23T22:53:00+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4hi",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3962f6eec775590d",
@@ -36,13 +51,13 @@
     "horodatage_utc": "2026-10-23T22:29:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c2ef572f07088336",
@@ -51,13 +66,13 @@
     "horodatage_utc": "2026-10-23T22:28:52+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e68e7e5870e68318",
@@ -1794,21 +1809,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "77d37fe0c0546d3a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Palmer Luckey unveils start-up to breed ‘genetically enhanced’ dogs for military",
-    "horodatage_utc": "2026-10-22T23:29:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8a558139-2318-4509-8acd-199d5f888b9e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
     ],
     "portee": "contexte",
     "nouveaute": true
