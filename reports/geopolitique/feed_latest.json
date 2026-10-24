@@ -1,5 +1,51 @@
 [
   {
+    "id": "e6bb07da9156798f",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.3 - 101 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-24T20:54:28+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4pa",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5f383fdff1f6a3a6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
+    "horodatage_utc": "2026-10-24T19:48:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "85f35e7cfaab4ac7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel central bank rejects Netanyahu’s plan to use crypto to evade sanctions",
+    "horodatage_utc": "2026-10-24T19:19:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/39e475e7-0392-4856-aaaf-5ab3e35b8215?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "d0727d89b197f832",
     "categorie": "geopolitique",
     "titre_affiche": "Uganda Shilling Hits 33 - Year Low as Treasury Warns",
@@ -15,34 +61,19 @@
     "nouveaute": true
   },
   {
-    "id": "5f383fdff1f6a3a6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
-    "horodatage_utc": "2026-10-24T17:13:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
     "id": "f3182d38fb0985e0",
     "categorie": "geopolitique",
     "titre_affiche": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
     "horodatage_utc": "2026-10-24T16:14:00+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "714ee49a56326d5f",
@@ -233,13 +264,13 @@
     "horodatage_utc": "2026-10-24T04:00:33+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0abd6593ff8739c9",
@@ -1780,37 +1811,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a848f85f630c0770",
-    "categorie": "geopolitique",
-    "titre_affiche": "The limits of Trump’s trade power",
-    "horodatage_utc": "2026-10-23T04:00:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0ce7d049-b264-47da-9aaa-08b33941585a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "fac4659bdbbd8210",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI oversight needs a different model to banking",
-    "horodatage_utc": "2026-10-23T04:00:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f98be079-49af-45c8-9954-ea3bd774c585",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": false
