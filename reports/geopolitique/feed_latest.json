@@ -1,18 +1,94 @@
 [
   {
+    "id": "63f7fd5d9ea39a8a",
+    "categorie": "geopolitique",
+    "titre_affiche": "France prepares for protests with big police deployment",
+    "horodatage_utc": "2026-10-24T04:00:42+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "cd7842541fe68e63",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gadi Eisenkot, can Israel’s ex-military chief beat Netanyahu?",
+    "horodatage_utc": "2026-10-24T04:00:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0abd6593ff8739c9",
+    "categorie": "geopolitique",
+    "titre_affiche": "France is in revolt. But the real storm is yet to come",
+    "horodatage_utc": "2026-10-24T04:00:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/62b83fcf-efad-418d-ba6a-569344fa7ecb",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c69b545347aba277",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pegasus spyware founder urges governments to trust his tech and ditch US AI",
+    "horodatage_utc": "2026-10-24T04:00:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f9592534-1a3d-409d-9a57-f05919440032?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "82189ad102ddee94",
+    "categorie": "geopolitique",
+    "titre_affiche": "Intelligence memo warns Iran plotting to kill Americans in Middle East",
+    "horodatage_utc": "2026-10-24T02:47:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e2e82393-c7ca-4bc1-b270-022b3702d9e7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "e2a07573ce37b25d",
     "categorie": "geopolitique",
     "titre_affiche": "US executives quit $25bn gas venture over claims of secret Russian control",
     "horodatage_utc": "2026-10-24T00:22:20+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9f550f33656e1cc9",
@@ -75,6 +151,21 @@
     "nouveaute": false
   },
   {
+    "id": "1c0ee272f2022c5f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia and Ukraine agree to temporary ceasefire around occupied town of Oleshky",
+    "horodatage_utc": "2026-10-23T21:11:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ba33fb18-1dea-4214-9221-228c155a6ac1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "e68e7e5870e68318",
     "categorie": "geopolitique",
     "titre_affiche": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
@@ -120,6 +211,21 @@
     "nouveaute": false
   },
   {
+    "id": "44aa83c95ccda4bd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine says Starlink speeds still throttled",
+    "horodatage_utc": "2026-10-23T19:14:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e67a3d0e-5893-45a5-b098-64a68a4ef032?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "6a6431b575a2c741",
     "categorie": "geopolitique",
     "titre_affiche": "Trump administration moves to block certification of Alaska Senate election",
@@ -133,21 +239,6 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "44aa83c95ccda4bd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine says Starlink speeds still throttled",
-    "horodatage_utc": "2026-10-23T16:07:16+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e67a3d0e-5893-45a5-b098-64a68a4ef032?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "60b5c5380be7f67a",
@@ -1721,96 +1812,6 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c0f9eef675f0039d",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 7.0 - 191 km ENE of Nagqu, China",
-    "horodatage_utc": "2026-10-23T00:51:51+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8abd826e9195de75",
-    "categorie": "geopolitique",
-    "titre_affiche": "New Zealand takes stepping stone to shooting down drones",
-    "horodatage_utc": "2026-10-23T00:15:00+00:00",
-    "source_nom": "GDELT/rnz.co.nz",
-    "url_source": "https://www.rnz.co.nz/news/politics/2099094/new-zealand-takes-stepping-stone-to-shooting-down-drones",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "670d1948b9969d62",
-    "categorie": "geopolitique",
-    "titre_affiche": "Po klausimo apie nuolaidas Rusijai Trumpas išplūdo žurnalistę : „ Ar jūs kvaila ?",
-    "horodatage_utc": "2026-10-22T23:45:00+00:00",
-    "source_nom": "GDELT/lrt.lt",
-    "url_source": "https://www.lrt.lt/naujienos/pasaulyje/6/3090084/po-klausimo-apie-nuolaidas-rusijai-trumpas-ispludo-zurnaliste-ar-jus-kvaila",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2316ba0f56e5661b",
-    "categorie": "geopolitique",
-    "titre_affiche": "US Treasury proposes rule to crack down on China tech investments",
-    "horodatage_utc": "2026-10-22T23:45:00+00:00",
-    "source_nom": "GDELT/chicagotribune.com",
-    "url_source": "https://www.chicagotribune.com/2026/10/22/treasury-china-tech-investments-rule/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "92b5d42d76165468",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump presses Musk to ease Starlink restrictions on Ukraine : WSJ",
-    "horodatage_utc": "2026-10-22T23:30:00+00:00",
-    "source_nom": "GDELT/geo.tv",
-    "url_source": "https://www.geo.tv/latest/687867-trump-presses-musk-to-ease-starlink-restrictions-on-ukraine-wsj",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1ceb06254d9e318b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tageblatt . lu | Einsatz für das Völkerrecht | Zeichen gegen Trump - Sanktionen : EU - Parlament verleiht Sacharow - Preis an Internationalen Strafgericht",
-    "horodatage_utc": "2026-10-22T23:30:00+00:00",
-    "source_nom": "GDELT/tageblatt.lu",
-    "url_source": "https://www.tageblatt.lu/International/Zeichen-gegen-Trump-Sanktionen-EU-Parlament-verleiht-Sacharow-Preis-an-Internationalen-Strafgericht-113846.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]

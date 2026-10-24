@@ -1,5 +1,35 @@
 [
   {
+    "id": "82cef7c9b5266bc8",
+    "categorie": "quantique",
+    "titre_affiche": "All Nine Award Winners in Japan’s NEDO Quantum Challenge Leverage IBM Hardware; Four Dedicated Industry Sponsor Prizes Awarded",
+    "horodatage_utc": "2026-10-24T02:01:08+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/all-nine-award-winners-in-japans-nedo-quantum-challenge-leverage-ibm-hardware-four-dedicated-industry-sponsor-prizes-awarded/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2cff4f329af5330d",
+    "categorie": "quantique",
+    "titre_affiche": "QCentroid Unveils “Missions” on NVIDIA CUDA-Q to Benchmark Classical, Quantum-Inspired, and QPU Workloads",
+    "horodatage_utc": "2026-10-24T01:27:54+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/qcentroid-unveils-missions-on-nvidia-cuda-q-to-benchmark-classical-quantum-inspired-and-qpu-workloads/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "15ab69c294d025db",
     "categorie": "quantique",
     "titre_affiche": "RhymeQ Joins NVIDIA Inception Program and Announces Technical Collaboration on NOOA Agentic AI Framework",
@@ -1786,36 +1816,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "9ce542bcf8b7e96f",
-    "categorie": "quantique",
-    "titre_affiche": "Quantum coming like a freight train , IonQ CEO says in Chattanooga | Chattanooga Times Free Press",
-    "horodatage_utc": "2026-10-02T04:00:00+00:00",
-    "source_nom": "GDELT/timesfreepress.com",
-    "url_source": "https://www.timesfreepress.com/news/2026/oct/01/quantum-coming-like-a-freight-train-ionq-ceo-says/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/timesfreepress.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ea45404618585d8b",
-    "categorie": "quantique",
-    "titre_affiche": "Microsoft ( NASDAQ : MSFT ) Beats IonQ ( NYSE : IONQ ) Stock As The Smarter Quantum Play Heading Into October",
-    "horodatage_utc": "2026-10-02T00:15:00+00:00",
-    "source_nom": "GDELT/foreignpolicyjournal.com",
-    "url_source": "https://www.foreignpolicyjournal.com/2026/10/01/microsoft-nasdaq-msft-beats-ionq-nyse-ionq-stock-as-the-smarter-quantum-play-heading-into-october/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : IONQ, Microsoft. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ",
-      "Microsoft"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
