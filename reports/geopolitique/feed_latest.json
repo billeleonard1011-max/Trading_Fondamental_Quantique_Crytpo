@@ -1,24 +1,9 @@
 [
   {
-    "id": "e6bb07da9156798f",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.3 - 101 km SSE of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-24T20:54:28+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4pa",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "5f383fdff1f6a3a6",
     "categorie": "geopolitique",
     "titre_affiche": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
-    "horodatage_utc": "2026-10-24T19:48:27+00:00",
+    "horodatage_utc": "2026-10-24T23:23:01+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
@@ -30,9 +15,55 @@
     "nouveaute": false
   },
   {
+    "id": "a596dfb600cbcad1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine military says Starlink service restrictions have been lifted",
+    "horodatage_utc": "2026-10-24T21:30:37+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e6bb07da9156798f",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.3 - 101 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-24T20:54:28+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4pa",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "85f35e7cfaab4ac7",
     "categorie": "geopolitique",
     "titre_affiche": "Israel central bank rejects Netanyahu’s plan to use crypto to evade sanctions",
+    "horodatage_utc": "2026-10-24T19:19:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/39e475e7-0392-4856-aaaf-5ab3e35b8215?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f0567a8994cd8ea4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israeli central bank rejects Netanyahu’s plan to use crypto to evade sanctions",
     "horodatage_utc": "2026-10-24T19:19:48+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/39e475e7-0392-4856-aaaf-5ab3e35b8215?syn-25a6b1a6=1",
@@ -121,21 +152,6 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "a596dfb600cbcad1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine military says Starlink service restrictions have been lifted",
-    "horodatage_utc": "2026-10-24T13:16:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "074f6ef3bed0fdca",
@@ -1799,20 +1815,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "fe4cef18c6245640",
-    "categorie": "geopolitique",
-    "titre_affiche": "Calpers retreats from Big Tech as AI rally falters",
-    "horodatage_utc": "2026-10-23T04:00:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e842173f-6f9f-4115-9e5f-a0f06f0df18d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
