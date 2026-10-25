@@ -1,26 +1,11 @@
 [
   {
-    "id": "c5cd7e313f681815",
+    "id": "202cb8d008ce010a",
     "categorie": "geopolitique",
-    "titre_affiche": "Luxury groups’ value drops by €250bn as Chinese consumer demand fades",
-    "horodatage_utc": "2026-10-25T05:00:10+00:00",
+    "titre_affiche": "US voters worried about corruption under Trump — FT poll",
+    "horodatage_utc": "2026-10-25T11:00:02+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9880a525f4666a62",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bolsonaro and Lula face off in knife-edge Brazil election",
-    "horodatage_utc": "2026-10-25T05:00:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/2770ef24-198c-49bc-8cb8-b9d40108d797?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -30,19 +15,94 @@
     "nouveaute": true
   },
   {
+    "id": "280e44038d610902",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why students in a Pennsylvania midterm battleground fear AI is about to kill their future",
+    "horodatage_utc": "2026-10-25T11:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0a86d4f5-6046-4c1c-89e9-90583cff33f9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "22d634532a1ce688",
+    "categorie": "geopolitique",
+    "titre_affiche": "Audi to build $4bn US plant as it grapples with tariffs",
+    "horodatage_utc": "2026-10-25T10:33:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "49dc81a61737a6cc",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.6 - Volcano Islands, Japan region",
+    "horodatage_utc": "2026-10-25T09:27:11+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4tf",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "c5cd7e313f681815",
+    "categorie": "geopolitique",
+    "titre_affiche": "Luxury groups’ value drops by €250bn as Chinese consumer demand fades",
+    "horodatage_utc": "2026-10-25T05:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "9880a525f4666a62",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bolsonaro and Lula face off in knife-edge Brazil election",
+    "horodatage_utc": "2026-10-25T05:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
     "id": "e87501983ab4e9df",
     "categorie": "geopolitique",
     "titre_affiche": "The right’s obsession with ‘civil war’ in Britain",
     "horodatage_utc": "2026-10-25T05:00:02+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "df0a938528ce6c9d",
@@ -1744,66 +1804,6 @@
     "horodatage_utc": "2026-10-23T05:00:00+00:00",
     "source_nom": "GDELT/energia.rp.pl",
     "url_source": "https://energia.rp.pl/ropa/art45383951-amerykanska-armia-ma-pomoc-w-wydobywaniu-ropy-donald-trump-znalazl-sposob",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "fcc2e23dcd701009",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia Frees 74 - Year - Old Michigan Teacher After More Than Four Years in Prison",
-    "horodatage_utc": "2026-10-23T05:00:00+00:00",
-    "source_nom": "GDELT/wowo.com",
-    "url_source": "https://wowo.com/russia-frees-74-year-old-michigan-teacher-after-more-than-four-years-in-prison/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b1a579e51bd89c07",
-    "categorie": "geopolitique",
-    "titre_affiche": "La Maison russe de Bruxelles , une antenne du soft power du Kremlin au cœur de la capitale européenne",
-    "horodatage_utc": "2026-10-23T05:00:00+00:00",
-    "source_nom": "GDELT/lalibre.be",
-    "url_source": "https://www.lalibre.be/belgique/judiciaire/2026/10/23/la-maison-russe-de-bruxelles-une-antenne-du-soft-power-du-kremlin-au-coeur-de-la-capitale-europeenne-Q4EACIZNWZCQ7MTVSXJAKPSGYU/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "dc1de1f8e0d4c1ee",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine Invasion Day 1 , 702 : Highest RU daily casualties of entire war as US buys Kremlin time",
-    "horodatage_utc": "2026-10-23T05:00:00+00:00",
-    "source_nom": "GDELT/dailykos.com",
-    "url_source": "https://www.dailykos.com/stories/2026/10/22/800116238/community/1702/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7ecf3be9a2836351",
-    "categorie": "geopolitique",
-    "titre_affiche": "Five Reasons Why Trump Is More Serious Than Ever About Cutting Deals With Putin",
-    "horodatage_utc": "2026-10-23T04:45:00+00:00",
-    "source_nom": "GDELT/pressenza.com",
-    "url_source": "https://www.pressenza.com/2026/10/five-reasons-why-trump-is-more-serious-than-ever-about-cutting-deals-with-putin/",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
