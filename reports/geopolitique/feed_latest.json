@@ -6,18 +6,33 @@
     "horodatage_utc": "2026-10-25T11:00:02+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/2770ef24-198c-49bc-8cb8-b9d40108d797?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "280e44038d610902",
     "categorie": "geopolitique",
     "titre_affiche": "Why students in a Pennsylvania midterm battleground fear AI is about to kill their future",
+    "horodatage_utc": "2026-10-25T11:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0a86d4f5-6046-4c1c-89e9-90583cff33f9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b5d48a3c97bb484a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why students in a midterm battleground fear AI will ruin their future",
     "horodatage_utc": "2026-10-25T11:00:02+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/0a86d4f5-6046-4c1c-89e9-90583cff33f9?syn-25a6b1a6=1",
@@ -36,13 +51,13 @@
     "horodatage_utc": "2026-10-25T10:33:28+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "49dc81a61737a6cc",
@@ -88,6 +103,21 @@
     ],
     "portee": "contexte",
     "nouveaute": false
+  },
+  {
+    "id": "b8e9b4d29b56eb0d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Martin Wolf on the US midterms: What’s at stake for the world?",
+    "horodatage_utc": "2026-10-25T05:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/01119d92-0d23-4d91-8a66-44ebd94c2356?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "e87501983ab4e9df",
@@ -1780,36 +1810,6 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a707bd4af4208548",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Pantau Gerak - gerik AS di Timur - tengah , Akan Tekuk Balik dengan Taktik Baru Jika Diserang Duluan",
-    "horodatage_utc": "2026-10-23T05:00:00+00:00",
-    "source_nom": "GDELT/jawapos.com",
-    "url_source": "https://www.jawapos.com/internasional/2610230198/iran-pantau-gerak-gerik-as-di-timur-tengah-akan-tekuk-balik-dengan-taktik-baru-jika-diserang-duluan",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "02a21327b117c4b8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Donald Trump polecił wojsku pomóc w zwiększeniu wydobycia ropy",
-    "horodatage_utc": "2026-10-23T05:00:00+00:00",
-    "source_nom": "GDELT/energia.rp.pl",
-    "url_source": "https://energia.rp.pl/ropa/art45383951-amerykanska-armia-ma-pomoc-w-wydobywaniu-ropy-donald-trump-znalazl-sposob",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]
