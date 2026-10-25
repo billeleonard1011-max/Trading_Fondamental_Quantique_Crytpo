@@ -1,5 +1,50 @@
 [
   {
+    "id": "939ac6ef8346449f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why 17 is not the magic number in industrial policy",
+    "horodatage_utc": "2026-10-25T01:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5951ebdd753f2186",
+    "categorie": "geopolitique",
+    "titre_affiche": "SoftBank-backed drone maker wants every farmer to ‘have their own robot’",
+    "horodatage_utc": "2026-10-25T01:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9fe60016-1520-4bfd-bcfc-f30caa0b1600?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b62238c28f179b91",
+    "categorie": "geopolitique",
+    "titre_affiche": "Co-operate to avoid being hostage to geopolitics, Australia tells ‘middle powers’",
+    "horodatage_utc": "2026-10-25T01:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/653f5a48-94f5-4e92-86dd-7d118e8849a8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "5f383fdff1f6a3a6",
     "categorie": "geopolitique",
     "titre_affiche": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
@@ -1768,52 +1813,6 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "73e9a968920e685f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Beware Bessent’s tilt towards short-term debt",
-    "horodatage_utc": "2026-10-23T04:00:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/bf959a1a-1cd8-41e2-8767-03aa1ac3ed48?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "07f1243e5e72baa4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Europe’s largest landlord exposed to €8bn hit from Berlin apartment plans",
-    "horodatage_utc": "2026-10-23T04:00:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/57e5b584-78b8-49a5-be2b-c02bba63886a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "a1a4a9e6ceb48fbb",
-    "categorie": "geopolitique",
-    "titre_affiche": "How a transatlantic mega-merger fell apart over a leadership tug of war",
-    "horodatage_utc": "2026-10-23T04:00:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e114059c-308d-4d8e-8127-f88b0faca879?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   }
 ]
