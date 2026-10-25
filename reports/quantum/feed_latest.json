@@ -1,5 +1,35 @@
 [
   {
+    "id": "545f36878e52f81b",
+    "categorie": "quantique",
+    "titre_affiche": "NVIDIA Corporation $NVDA Stock Bought by Pinnacle Wealth Management Advisory Group LLC",
+    "horodatage_utc": "2026-10-25T10:00:00+00:00",
+    "source_nom": "GDELT/dailypolitical.com",
+    "url_source": "https://www.dailypolitical.com/2026/10/25/nvidia-corporation-nvda-stock-bought-by-pinnacle-wealth-management-advisory-group-llc.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailypolitical.com. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7f6a2314b1d13588",
+    "categorie": "quantique",
+    "titre_affiche": "NVIDIA Corporation $NVDA Shares Purchased by Scholtz & Company LLC",
+    "horodatage_utc": "2026-10-25T09:15:00+00:00",
+    "source_nom": "GDELT/themarketsdaily.com",
+    "url_source": "https://www.themarketsdaily.com/2026/10/25/nvidia-corporation-nvda-shares-purchased-by-scholtz-company-llc.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "e228d97266c25ec8",
     "categorie": "quantique",
     "titre_affiche": "New Mexico Deploys JTIP Workforce Grants to Support Quantum Hardware Hiring at IonQ and Bandelier Technologies",
@@ -1786,35 +1816,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "5ad4fc79e7683bed",
-    "categorie": "quantique",
-    "titre_affiche": "Quantinuum and The University of Western Australia Partner to Advance Australia’s Hybrid Quantum-AI-HPC Ecosystem",
-    "horodatage_utc": "2026-10-05T15:18:07+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Quantinuum"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "21cf36d57d89a7af",
-    "categorie": "quantique",
-    "titre_affiche": "D-Wave Partners with University of Arkansas to Establish Quantum Supply Chain Initiative",
-    "horodatage_utc": "2026-10-05T15:12:00+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/d-wave-partners-with-university-of-arkansas-to-establish-quantum-supply-chain-initiative/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
