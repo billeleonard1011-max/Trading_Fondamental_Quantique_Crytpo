@@ -1,18 +1,78 @@
 [
   {
+    "id": "c5cd7e313f681815",
+    "categorie": "geopolitique",
+    "titre_affiche": "Luxury groups’ value drops by €250bn as Chinese consumer demand fades",
+    "horodatage_utc": "2026-10-25T05:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9880a525f4666a62",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bolsonaro and Lula face off in knife-edge Brazil election",
+    "horodatage_utc": "2026-10-25T05:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e87501983ab4e9df",
+    "categorie": "geopolitique",
+    "titre_affiche": "The right’s obsession with ‘civil war’ in Britain",
+    "horodatage_utc": "2026-10-25T05:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "df0a938528ce6c9d",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Black Sea is now the world’s deadliest shipping route",
+    "horodatage_utc": "2026-10-25T05:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "939ac6ef8346449f",
     "categorie": "geopolitique",
     "titre_affiche": "Why 17 is not the magic number in industrial policy",
     "horodatage_utc": "2026-10-25T01:00:09+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5951ebdd753f2186",
@@ -1750,69 +1810,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "095fb1d617a68951",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal government to release thousands of barrels of heating oil from reserve",
-    "horodatage_utc": "2026-10-23T04:45:00+00:00",
-    "source_nom": "GDELT/wgme.com",
-    "url_source": "https://wgme.com/news/local/federal-government-to-release-thousand-of-barrels-of-heating-oil-from-reserve",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "97e96ed9a69e6d9b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Global tech sell-off sparks flight to safety",
-    "horodatage_utc": "2026-10-23T04:42:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bd922476ed9d5a17",
-    "categorie": "geopolitique",
-    "titre_affiche": "US is prepared for long stand-off with Iran, says Trump envoy",
-    "horodatage_utc": "2026-10-23T04:00:37+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/70379a26-c20e-4501-aec9-a9a0089cdd3d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ee8fb3e4da99262a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine seeks to move customs checks inside EU to avoid Russian drones",
-    "horodatage_utc": "2026-10-23T04:00:37+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ab922590-7f73-4a84-a3bd-a42cf80c92f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
