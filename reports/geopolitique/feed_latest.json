@@ -1,11 +1,26 @@
 [
   {
-    "id": "07176f442ee8c802",
+    "id": "86875f0a2c2917c3",
     "categorie": "geopolitique",
-    "titre_affiche": "Brazil’s Supreme Court extends voting as transport complaints mar election",
-    "horodatage_utc": "2026-10-25T22:10:25+00:00",
+    "titre_affiche": "Lula is re-elected Brazil’s president in knife-edge election",
+    "horodatage_utc": "2026-10-26T00:17:07+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a0306fa49d95ffaa",
+    "categorie": "geopolitique",
+    "titre_affiche": "After Hungary, Serbia takes its turn to show the power of the people",
+    "horodatage_utc": "2026-10-25T23:54:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/dde6aa59-d48d-429a-9a29-db2dc5ae418c?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -18,9 +33,39 @@
     "id": "397e8b4cabe50966",
     "categorie": "geopolitique",
     "titre_affiche": "Serbia’s ex-president Vučić concedes defeat to Student List in parliamentary poll",
-    "horodatage_utc": "2026-10-25T22:08:07+00:00",
+    "horodatage_utc": "2026-10-25T23:22:47+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/546f21f5-22d3-4696-8371-7bef8c0410b3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "3b8ccb669bb4128b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Weil’s incoming leader to walk away from top job as law firm faces talent crisis",
+    "horodatage_utc": "2026-10-25T23:19:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0ce8a176-19d9-4fb8-8708-0c3fbd04f89c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "07176f442ee8c802",
+    "categorie": "geopolitique",
+    "titre_affiche": "Brazil’s Supreme Court extends voting as transport complaints mar election",
+    "horodatage_utc": "2026-10-25T22:10:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -43,21 +88,6 @@
     ],
     "portee": "contexte",
     "nouveaute": false
-  },
-  {
-    "id": "3b8ccb669bb4128b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Weil’s incoming leader to walk away from top job as law firm faces talent crisis",
-    "horodatage_utc": "2026-10-25T21:40:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0ce8a176-19d9-4fb8-8708-0c3fbd04f89c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   },
   {
     "id": "f16c6546e39ae561",
@@ -1779,37 +1809,6 @@
       "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f972ef2f5250cda4",
-    "categorie": "geopolitique",
-    "titre_affiche": "War fears grow as tankers hit in Strait of Hormuz",
-    "horodatage_utc": "2026-10-23T06:00:00+00:00",
-    "source_nom": "GDELT/jamaica-gleaner.com",
-    "url_source": "https://jamaica-gleaner.com/article/world-news/20261023/war-fears-grow-tankers-hit-strait-hormuz",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/jamaica-gleaner.com. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6939331f2901fbe2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nga - Ukraine : Hòa bình trong tầm tay ?",
-    "horodatage_utc": "2026-10-23T06:00:00+00:00",
-    "source_nom": "GDELT/tienphong.vn",
-    "url_source": "https://tienphong.vn/nga-ukraine-hoa-binh-trong-tam-tay-post1887798.tpo",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/tienphong.vn. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]
