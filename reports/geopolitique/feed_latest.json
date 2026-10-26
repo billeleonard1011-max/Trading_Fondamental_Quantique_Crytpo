@@ -1,11 +1,57 @@
 [
   {
-    "id": "57d635109866476a",
+    "id": "511801f7d6740a55",
     "categorie": "geopolitique",
-    "titre_affiche": "Trump administration illegally fired Maurene Comey, judge rules",
-    "horodatage_utc": "2026-10-26T18:05:21+00:00",
+    "titre_affiche": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+    "horodatage_utc": "2026-10-26T22:50:07+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "52cabb998fe1ccde",
+    "categorie": "geopolitique",
+    "titre_affiche": "BlackBerry reinvented: CEO sees big opportunities AI-powered robots",
+    "horodatage_utc": "2026-10-26T22:34:19+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/26/blackberry-qnx-physical-ai-robots.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f530b779baf40da8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer warns this overlooked danger could threaten the market rally",
+    "horodatage_utc": "2026-10-26T22:09:35+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/26/jim-cramer-ipos-capital-raises-bull-market.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dbd6894b91730617",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump offers $1mn reward for tips leading to election fraud conviction",
+    "horodatage_utc": "2026-10-26T21:50:06+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/627ed704-f736-4fa2-91c9-67e53577fb7f?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/fe3cb92f-bc25-4db7-8fa8-dff3f1f38348?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,14 +61,91 @@
     "nouveaute": true
   },
   {
+    "id": "e1af715a406e06f5",
+    "categorie": "geopolitique",
+    "titre_affiche": "US charges ex-FBI chief James Comey with leaking national defence information",
+    "horodatage_utc": "2026-10-26T21:42:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6b669a41-b629-47ce-8f68-c1ab1bd1320b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "fc4732ee57c29bc9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump accused of ‘manipulating’ Catholic bishops for political gain",
+    "horodatage_utc": "2026-10-26T21:13:00+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d8e6fac8-9c71-4e0d-9639-b8cf1d5617b4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "5fca088a7f80b5df",
+    "categorie": "geopolitique",
+    "titre_affiche": "Brazil’s currency plunges most since 1999 after Lula’s surprise victory",
+    "horodatage_utc": "2026-10-26T21:08:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c5f5afff265627bf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meta plans $95bn stock offering to bankroll AI expansion",
+    "horodatage_utc": "2026-10-26T20:49:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "e0a782aa58ed7e0e",
     "categorie": "geopolitique",
     "titre_affiche": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
-    "horodatage_utc": "2026-10-26T17:40:30+00:00",
+    "horodatage_utc": "2026-10-26T20:44:50+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "5558999b61c43d6c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft offers buyouts to 60,000 staff",
+    "horodatage_utc": "2026-10-26T20:22:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2ef29406-f2f8-413f-81f6-5ae098c97569?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
@@ -30,12 +153,27 @@
     "nouveaute": true
   },
   {
-    "id": "fc4732ee57c29bc9",
+    "id": "029ab95228d3b5b0",
     "categorie": "geopolitique",
-    "titre_affiche": "Trump accused of ‘manipulating’ Catholic bishops for political gain",
-    "horodatage_utc": "2026-10-26T17:22:02+00:00",
+    "titre_affiche": "Lula’s stunning comeback meets fiscal reality",
+    "horodatage_utc": "2026-10-26T18:14:43+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d8e6fac8-9c71-4e0d-9639-b8cf1d5617b4?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/79785581-88c2-49a9-a109-9d5ccafc3c7d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "57d635109866476a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump administration illegally fired Maurene Comey, judge rules",
+    "horodatage_utc": "2026-10-26T18:05:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/627ed704-f736-4fa2-91c9-67e53577fb7f?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -67,13 +205,13 @@
     "horodatage_utc": "2026-10-26T14:06:44+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c3f29989-747e-4734-a29b-568b3c5e488a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "577ce0f3e410e73d",
@@ -119,21 +257,6 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "c5f5afff265627bf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Meta plans $95bn stock offering to bankroll AI expansion",
-    "horodatage_utc": "2026-10-26T11:58:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   },
   {
     "id": "593dff5bdc1db163",
@@ -1690,127 +1813,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0b28a86d334f0f46",
-    "categorie": "geopolitique",
-    "titre_affiche": "Melania Trump helps forge a ceasefire deal in Russian - occupied Oleshky , the White House says",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/melania-trump-helps-forge-ceasefire-133642000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f00814b3ae14ff44",
-    "categorie": "geopolitique",
-    "titre_affiche": "U . S . Diesel at $6 . 30 a Gallon as First Russian Cargo Sets Sail for New York",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/oilprice.com",
-    "url_source": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "560db4fc68d530ea",
-    "categorie": "geopolitique",
-    "titre_affiche": "Austria expels four Russian diplomats : foreign ministry",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/hurriyetdailynews.com",
-    "url_source": "https://www.hurriyetdailynews.com/austria-expels-four-russian-diplomats-foreign-ministry-228521",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f92144af362d3122",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bijela kuća : Melania Trump je dogovorila primirje Rusije i Ukrajine",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/vecernji.hr",
-    "url_source": "https://www.vecernji.hr/vijesti/bijela-kuca-melania-trump-je-dogovorila-primirje-rusije-i-ukrajine-2007073",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "0570079e39be5040",
-    "categorie": "geopolitique",
-    "titre_affiche": "Melania Trump helps forge a ceasefire deal in Russian - occupied Oleshky , the White House says – Brandon Sun",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/brandonsun.com",
-    "url_source": "https://www.brandonsun.com/world/2026/10/23/melania-trump-helps-forge-ceasefire-deal-in-russian-occupied-oleshkyk-the-white-house-says",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9573e413fc02dba2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Spoliehať sa na Putinovu dobrosrdečnosť je hazard s existenciou Slovenska ( komentár Petra Weissa )",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/aktuality.sk",
-    "url_source": "https://www.aktuality.sk/clanok/yArfKq8/spoliehat-sa-na-putinovu-dobrosrdecnost-je-hazard-s-existenciou-slovenska-komentar-petra-weissa/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "0e307981c2e6f66a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Melania Trump dit avoir obtenu un cessez - le - feu dans une ville dUkraine : Sans mon intervention ...",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/dhnet.be",
-    "url_source": "https://www.dhnet.be/actu/monde/2026/10/23/melania-trump-dit-avoir-obtenu-un-cessez-le-feu-dans-une-ville-dukraine-sans-mon-intervention-DGQXUFSWQZD5FDQCE3BYK5EQPU/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "39d04cfe0547479a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Behind Elon Musk plans for a mega - merger of SpaceX and Tesla – Hartford Courant",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/courant.com",
-    "url_source": "https://www.courant.com/2026/10/23/behind-elon-musks-plans-for-a-mega-merger-of-spacex-and-tesla/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
