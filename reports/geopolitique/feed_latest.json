@@ -1,11 +1,26 @@
 [
   {
-    "id": "577ce0f3e410e73d",
+    "id": "57d635109866476a",
     "categorie": "geopolitique",
-    "titre_affiche": "Meta announces $95 billion stock offering to fund AI expansion",
-    "horodatage_utc": "2026-10-26T12:38:16+00:00",
+    "titre_affiche": "Trump administration illegally fired Maurene Comey, judge rules",
+    "horodatage_utc": "2026-10-26T18:05:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/627ed704-f736-4fa2-91c9-67e53577fb7f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e0a782aa58ed7e0e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+    "horodatage_utc": "2026-10-26T17:40:30+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+    "url_source": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -13,6 +28,97 @@
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "fc4732ee57c29bc9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump accused of ‘manipulating’ Catholic bishops for political gain",
+    "horodatage_utc": "2026-10-26T17:22:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d8e6fac8-9c71-4e0d-9639-b8cf1d5617b4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "64a5a4d6052c9ce8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s fresh campaign against wind power puts permitting deal in doubt",
+    "horodatage_utc": "2026-10-26T16:01:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8cdadf5d-5859-422d-982a-fab0e9f2a619?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Transition énergétique, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Transition énergétique",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a08b29b3db8b5317",
+    "categorie": "geopolitique",
+    "titre_affiche": "Who are the students set to govern Serbia?",
+    "horodatage_utc": "2026-10-26T14:06:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c3f29989-747e-4734-a29b-568b3c5e488a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "577ce0f3e410e73d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Meta announces $95 billion stock offering to fund AI expansion",
+    "horodatage_utc": "2026-10-26T14:05:36+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "599e975902e4cb2d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lula is re-elected Brazil’s president in knife-edge vote",
+    "horodatage_utc": "2026-10-26T13:52:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "bbebdf0cfe821cc7",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+    "horodatage_utc": "2026-10-26T13:06:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "c5f5afff265627bf",
@@ -36,13 +142,28 @@
     "horodatage_utc": "2026-10-26T11:37:21+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/7b3c17e7-c0bf-4e93-bc5d-17f86fa1b2a5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza",
       "Iran - États-Unis"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "09a1aa20ee51a1b0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Serbia’s ex-president Vučić concedes defeat to Student List",
+    "horodatage_utc": "2026-10-26T11:14:38+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/546f21f5-22d3-4696-8371-7bef8c0410b3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -74,21 +195,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "599e975902e4cb2d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lula is re-elected Brazil’s president in knife-edge vote",
-    "horodatage_utc": "2026-10-26T08:25:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   },
   {
     "id": "225e9993093b6e11",
@@ -390,21 +496,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "bbebdf0cfe821cc7",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
-    "horodatage_utc": "2026-10-26T00:37:51+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
     "nouveaute": false
   },
   {
@@ -1723,97 +1814,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "870a39558e2f37bb",
-    "categorie": "geopolitique",
-    "titre_affiche": "IMF forecasts 1 . 3 percent regional economic contraction in 2026 | Ariana News",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/ariananews.af",
-    "url_source": "https://www.ariananews.af/imf-forecasts-1-3-percent-regional-economic-contraction-in-2026/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "b6b2176ffc066e83",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
-    "horodatage_utc": "2026-10-23T14:37:46+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux",
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "5dcecd352aaa65a8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Crude benchmarks firmer amidst ongoing tensions in the Middle East ; EUR digests poor PMI metrics - Newsquawk US Market Open",
-    "horodatage_utc": "2026-10-23T14:30:00+00:00",
-    "source_nom": "GDELT/zerohedge.com",
-    "url_source": "http://www.zerohedge.com/markets/crude-benchmarks-firmer-amidst-ongoing-tensions-middle-east-eur-digests-poor-pmi-metrics",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "710674dabb03f0e3",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Kremlin says a first tanker of Russian diesel sets sail for the US despite Ukraine protests",
-    "horodatage_utc": "2026-10-23T14:30:00+00:00",
-    "source_nom": "GDELT/stcatharinesstandard.ca",
-    "url_source": "https://www.stcatharinesstandard.ca/business/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraine-s-protests/article_f48ecb13-a889-5b4b-a801-d1f42b1d9cc6.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "eebc26a3c636f5ad",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jutarnji list - Bijela kuća : Melania Trump dogovorila je primirje u Oleškiju",
-    "horodatage_utc": "2026-10-23T14:30:00+00:00",
-    "source_nom": "GDELT/jutarnji.hr",
-    "url_source": "https://www.jutarnji.hr/vijesti/svijet/bijela-kuca-melania-trump-dogovorila-je-primirje-u-oleskiju-15758722",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "1050b72c1b569702",
-    "categorie": "geopolitique",
-    "titre_affiche": "A half-time scorecard for Trump-world",
-    "horodatage_utc": "2026-10-23T13:32:54+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fdd811ed-3186-48f9-8f6b-fb66e56f13e6",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   }
 ]
