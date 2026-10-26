@@ -1,5 +1,95 @@
 [
   {
+    "id": "f1de8b105f106da1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Germany to tap Ukrainian tech with missile purchase",
+    "horodatage_utc": "2026-10-26T05:00:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f9476b15-c2b6-4b8b-86fc-58ae5795fb87?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7b0bb01961ec4a9d",
+    "categorie": "geopolitique",
+    "titre_affiche": "A day in Benjamin Netanyahu’s heartland",
+    "horodatage_utc": "2026-10-26T05:00:20+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/470fbc3a-fd2e-4ad3-8999-25d71e53d173",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8940236cdf4bc666",
+    "categorie": "geopolitique",
+    "titre_affiche": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
+    "horodatage_utc": "2026-10-26T04:56:16+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "599e975902e4cb2d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lula is re-elected Brazil’s president in knife-edge vote",
+    "horodatage_utc": "2026-10-26T04:44:49+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "baa086323833c2bd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Venezuelan opposition leader Machado returns from exile",
+    "horodatage_utc": "2026-10-26T04:23:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f691e41e-dd01-4ac0-ade7-5f7ca23d6135?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "bbebdf0cfe821cc7",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+    "horodatage_utc": "2026-10-26T00:37:51+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "86875f0a2c2917c3",
     "categorie": "geopolitique",
     "titre_affiche": "Lula is re-elected Brazil’s president in knife-edge election",
@@ -73,21 +163,6 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "baa086323833c2bd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Venezuelan opposition leader Machado returns from exile",
-    "horodatage_utc": "2026-10-25T21:55:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f691e41e-dd01-4ac0-ade7-5f7ca23d6135?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   },
   {
     "id": "f16c6546e39ae561",
@@ -1732,81 +1807,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "c153016c934c41ea",
-    "categorie": "geopolitique",
-    "titre_affiche": "ECB Consumer Expectations Survey results – September 2026",
-    "horodatage_utc": "2026-10-23T08:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "24d06a5683d6dbb0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Report sets out plan for an independent Scottish currency",
-    "horodatage_utc": "2026-10-23T07:00:00+00:00",
-    "source_nom": "GDELT/thenational.scot",
-    "url_source": "https://www.thenational.scot/news/26662644.report-sets-plan-independent-scottish-currency/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5a9a765d99e5e57a",
-    "categorie": "geopolitique",
-    "titre_affiche": "SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans",
-    "horodatage_utc": "2026-10-23T06:45:04+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b06d13192655856f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Honors Graham Memory While Retreating From His Russia Strategy",
-    "horodatage_utc": "2026-10-23T06:30:00+00:00",
-    "source_nom": "GDELT/finchannel.com",
-    "url_source": "https://finchannel.com/trump-honors-grahams-memory-while-retreating-from-his-russia-strategy/139180/americas/white-house-en/2026/10/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1d318db330ca52df",
-    "categorie": "geopolitique",
-    "titre_affiche": "IMF sees weak external position",
-    "horodatage_utc": "2026-10-23T06:15:00+00:00",
-    "source_nom": "GDELT/tribune.com.pk",
-    "url_source": "https://tribune.com.pk/story/2636387/imf-sees-weak-external-position",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
     "nouveaute": true

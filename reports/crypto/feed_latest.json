@@ -1,5 +1,35 @@
 [
   {
+    "id": "9f3c88c9143ad93c",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments",
+    "horodatage_utc": "2026-10-26T05:15:20+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a66d4c318cec482b",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting",
+    "horodatage_utc": "2026-10-26T04:37:02+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "354f37363d9564de",
     "categorie": "crypto",
     "titre_affiche": "JPMorgan Has Nearly $900 Million in Tokenized Funds on Ethereum and Solana . Which Chain Benefits More ?",
@@ -1773,36 +1803,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "5967d05d307e812b",
-    "categorie": "crypto",
-    "titre_affiche": "Chainlink Data Feeds and Data Streams Go Live on Stellar",
-    "horodatage_utc": "2026-10-17T15:30:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "https://econotimes.com/Chainlink-Data-Feeds-and-Data-Streams-Go-Live-on-Stellar-1755981",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : LINK. Le cours de LINK varie de 0.30385 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "LINK"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "cc28112d44deb9e2",
-    "categorie": "crypto",
-    "titre_affiche": "Deutsche Bank Is Weeks From Holding Bitcoin and Ethereum for Clients . Could Other Big Banks Follow ?",
-    "horodatage_utc": "2026-10-17T15:30:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/deutsche-bank-weeks-holding-bitcoin-143032000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
