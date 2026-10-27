@@ -1,5 +1,111 @@
 [
   {
+    "id": "53df4980a9c35e0b",
+    "categorie": "geopolitique",
+    "titre_affiche": "HSBC shares slide as results disappoint",
+    "horodatage_utc": "2026-10-27T08:00:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fd23db26-a45b-4a98-b771-4234a30b7937?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f8502d57a86f8db4",
+    "categorie": "geopolitique",
+    "titre_affiche": "US designates three Iranian B747s for Russia flights - ch - aviation",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/ch-aviation.com",
+    "url_source": "https://www.ch-aviation.com/news/119687-us-designates-three-iranian-b747s-for-russia-flights",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/ch-aviation.com. Elle se rattache à : Iran - États-Unis, Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "89bdb5b28fae741a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global equity markets rise as AI trade regains steam",
+    "horodatage_utc": "2026-10-27T05:14:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "19dedbcb2ac7ced3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lula faces a fiscal reckoning after Brazil’s market rout",
+    "horodatage_utc": "2026-10-27T05:00:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0231b234-14dc-4ff0-8263-e1063b0a25d5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0d4267f39051df2b",
+    "categorie": "geopolitique",
+    "titre_affiche": "France must appease protesters without extra spending, says finance minister",
+    "horodatage_utc": "2026-10-27T05:00:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/167fd08f-2f01-46ee-a419-074e22ffd1a8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "7bc79d763fee4a1a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israelis go to the polls in historic election",
+    "horodatage_utc": "2026-10-27T05:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/87d81352-5086-44bd-a5bb-797582e2d07c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fa419f4a235afc05",
+    "categorie": "geopolitique",
+    "titre_affiche": "Inside Trump Jr’s Mongolian hunting trip with a Kremlin-linked oligarch",
+    "horodatage_utc": "2026-10-27T05:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f41fc704-c9e6-42de-b800-d43cabe61947?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "e0a782aa58ed7e0e",
     "categorie": "geopolitique",
     "titre_affiche": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
@@ -21,13 +127,13 @@
     "horodatage_utc": "2026-10-27T00:54:15+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0929e94723a69bb9",
@@ -159,14 +265,14 @@
     "horodatage_utc": "2026-10-26T21:08:50+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Dollar et devises",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c5f5afff265627bf",
@@ -1711,111 +1817,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "44aa83c95ccda4bd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine says Starlink speeds still throttled",
-    "horodatage_utc": "2026-10-23T19:14:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e67a3d0e-5893-45a5-b098-64a68a4ef032?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6a6431b575a2c741",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump administration moves to block certification of Alaska Senate election",
-    "horodatage_utc": "2026-10-23T17:54:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b68b8544-4ce9-45d4-b522-cd2f8150e4cc?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "60b5c5380be7f67a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Silicon Valley Democrats demand investigation into Starlink restrictions in Ukraine",
-    "horodatage_utc": "2026-10-23T15:33:47+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/23/starlink-ukraine-musk-trump-congress.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5c4efc0050fcc2d6",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI agents could disrupt bank deposits. Why Wall Street may be overreacting",
-    "horodatage_utc": "2026-10-23T15:00:49+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/investingclub/2026/10/23/ai-agents-could-disrupt-bank-deposits-why-wall-street-may-be-overreacting.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ff80437bf3584ad8",
-    "categorie": "geopolitique",
-    "titre_affiche": "US designates helium as a critical material , citing its importance for semiconductors",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/dailygazette.com",
-    "url_source": "https://www.dailygazette.com/ade/ap/business/us-designates-helium-as-a-critical-material-citing-its-importance-for-semiconductors/article_cedc5e66-1a9b-5f8b-b19f-061ba794e374.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/dailygazette.com. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1edf963cec508aa4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Today inflation is really an energy shock | Local News",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/bedfordgazette.com",
-    "url_source": "https://www.bedfordgazette.com/news/local/today-s-inflation-is-really-an-energy-shock/article_e52b8a09-e370-40a0-a468-44bce1cc60e2.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/bedfordgazette.com. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "232cb14df223b869",
-    "categorie": "geopolitique",
-    "titre_affiche": "Military reinforcements move to Mideast . And , millions of Americans vote early",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/ksut.org",
-    "url_source": "https://www.ksut.org/2026-10-23/military-reinforcements-move-to-mideast-and-millions-of-americans-vote-early",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/ksut.org. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]
