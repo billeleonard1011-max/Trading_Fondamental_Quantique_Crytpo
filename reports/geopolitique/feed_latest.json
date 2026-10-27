@@ -1,11 +1,41 @@
 [
   {
-    "id": "bb0384cd750864d7",
+    "id": "acd8ff75c250c169",
     "categorie": "geopolitique",
-    "titre_affiche": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
-    "horodatage_utc": "2026-10-27T14:19:36+00:00",
+    "titre_affiche": "Israel election turnout highest in decades",
+    "horodatage_utc": "2026-10-27T19:13:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/87d81352-5086-44bd-a5bb-797582e2d07c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2a5d6e0c127969c9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Washington discusses Russian deals for US oil majors in Ukraine peace talks",
+    "horodatage_utc": "2026-10-27T19:06:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d703aaae-f607-4b30-9830-ac2a25472d44?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "607111b77c7cd7c6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI",
+    "horodatage_utc": "2026-10-27T18:57:45+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+    "url_source": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,19 +45,109 @@
     "nouveaute": true
   },
   {
+    "id": "019771bac7900acd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin lectures Nordic leaders on Russian history",
+    "horodatage_utc": "2026-10-27T18:50:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a384acd1-c90c-4b71-bf7d-6c6e00bf9822?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dd716026215e25e4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Apple hit by ‘Crackgate’ outcry over iPhone Duo screen problems",
+    "horodatage_utc": "2026-10-27T17:55:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/324875fb-8631-4339-8516-6057de9ac085?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4da781958a1609be",
+    "categorie": "geopolitique",
+    "titre_affiche": "Flávio Bolsonaro’s passport cancelled as reports say he has fled Brazil",
+    "horodatage_utc": "2026-10-27T17:52:23+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f294230a-0956-4c8c-9bb5-4dd5b6e7438a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "c2a47ab7c8e4bbe5",
     "categorie": "geopolitique",
     "titre_affiche": "Ripple strikes deal with Robinhood to expand its RLUSD digital dollar",
-    "horodatage_utc": "2026-10-27T14:18:16+00:00",
+    "horodatage_utc": "2026-10-27T16:35:45+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/27/ripple-strikes-deal-with-robinhood-to-expand-its-rlusd-digital-dollar.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "c4b55cda668d0c22",
+    "categorie": "geopolitique",
+    "titre_affiche": "EU pressures allies over looming Ukraine funding crunch",
+    "horodatage_utc": "2026-10-27T16:04:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8aba217f-064f-4193-89fc-3565bd2ee910?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "60fcd0205ae09beb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic's IPO is risky business",
+    "horodatage_utc": "2026-10-27T15:51:41+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "bb0384cd750864d7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+    "horodatage_utc": "2026-10-27T14:19:36+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "abea67e3ffd757c1",
@@ -126,13 +246,13 @@
     "horodatage_utc": "2026-10-27T12:09:19+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/27/tech-rally-fed-decision.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9afe3c14b984602c",
@@ -150,18 +270,18 @@
     "nouveaute": true
   },
   {
-    "id": "60fcd0205ae09beb",
+    "id": "970f82b28141592a",
     "categorie": "geopolitique",
-    "titre_affiche": "Anthropic's IPO is risky business",
-    "horodatage_utc": "2026-10-27T11:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
+    "titre_affiche": "Dirty tricks and Maga theatrics shake up bruising battle for Texas Senate",
+    "horodatage_utc": "2026-10-27T11:00:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e9475864-d8ae-401e-8a3e-e3a7fa75f0c1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Actions et technologie"
+      "Élections et politique intérieure"
     ],
-    "portee": "influence",
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -177,7 +297,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "65909978db43efd8",
@@ -192,7 +312,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e5cc06a3ae156aef",
@@ -374,7 +494,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0929e94723a69bb9",
@@ -1693,127 +1813,6 @@
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque",
       "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7757266fc24f45dd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Intelligence memo warns Iran is plotting to kill Americans in Middle East",
-    "horodatage_utc": "2026-10-24T15:09:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e2e82393-c7ca-4bc1-b270-022b3702d9e7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "eeef2fcc6fa56070",
-    "categorie": "geopolitique",
-    "titre_affiche": "France deploys 70,000 officers to police latest protests",
-    "horodatage_utc": "2026-10-24T13:52:48+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "074f6ef3bed0fdca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nasdaq raises red flag on 3 overnight risks ahead of Dec . 6 and they pose an extra - big threat to retirement nest eggs",
-    "horodatage_utc": "2026-10-24T13:15:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/nasdaq-raises-red-flag-3-113500000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "38138cb4a50aa2d2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Economist warns Malawi still lags neighbours despite inflation decline",
-    "horodatage_utc": "2026-10-24T12:30:00+00:00",
-    "source_nom": "GDELT/nyasatimes.com",
-    "url_source": "https://www.nyasatimes.com/economist-warns-malawi-still-lags-neighbours-despite-inflation-decline/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/nyasatimes.com. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Inflation et prix"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "002ffe866e5591f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran oil revenues exceeded $1 . 5 billion last month",
-    "horodatage_utc": "2026-10-24T12:15:00+00:00",
-    "source_nom": "GDELT/en.apa.az",
-    "url_source": "https://en.apa.az/asia/irans-oil-revenues-exceeded-15-billion-last-month-531976",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/en.apa.az. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "aec7e2d10ae57b54",
-    "categorie": "geopolitique",
-    "titre_affiche": "Historic Russia and China energy deal Sila Baikala reroutes gas and shifts world order",
-    "horodatage_utc": "2026-10-24T11:30:00+00:00",
-    "source_nom": "GDELT/bankingnews.gr",
-    "url_source": "https://www.bankingnews.gr/diethni/articles/906952/historic-russia-and-china-energy-deal-sila-baikala-reroutes-gas-and-shifts-world-order",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/bankingnews.gr. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "64c765440d5bff82",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
-    "horodatage_utc": "2026-10-24T11:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7a982276580e8f24",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine military says Starlink service restrictions have been removed",
-    "horodatage_utc": "2026-10-24T10:20:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
