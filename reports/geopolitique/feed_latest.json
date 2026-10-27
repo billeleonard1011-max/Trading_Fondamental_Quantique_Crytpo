@@ -1,5 +1,215 @@
 [
   {
+    "id": "bb0384cd750864d7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+    "horodatage_utc": "2026-10-27T14:19:36+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c2a47ab7c8e4bbe5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ripple strikes deal with Robinhood to expand its RLUSD digital dollar",
+    "horodatage_utc": "2026-10-27T14:18:16+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/27/ripple-strikes-deal-with-robinhood-to-expand-its-rlusd-digital-dollar.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "abea67e3ffd757c1",
+    "categorie": "geopolitique",
+    "titre_affiche": "GM to switch listing from NYSE to Nasdaq as it accelerates AI push",
+    "horodatage_utc": "2026-10-27T14:02:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/01467514-66c1-4375-9906-45a47b949270?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "19dedbcb2ac7ced3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lula faces a fiscal reckoning after Brazil’s market rout",
+    "horodatage_utc": "2026-10-27T13:15:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0231b234-14dc-4ff0-8263-e1063b0a25d5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "2f364bfffa7a1a17",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bolsonaro says he was ordered to surrender passport as his party concedes election",
+    "horodatage_utc": "2026-10-27T12:47:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a50151e7db1fa18c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia and Ukraine begin local ceasefire in frontline city",
+    "horodatage_utc": "2026-10-27T12:33:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9aedc2d9-dc92-4412-bc5a-d5ffecf4d8d9",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fbc2a2153abd1015",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin speaks with Norwegian and Finnish leaders",
+    "horodatage_utc": "2026-10-27T12:13:49+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a384acd1-c90c-4b71-bf7d-6c6e00bf9822?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "46cebd67d8eeffe3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel election turnout highest since 1973 in historic vote",
+    "horodatage_utc": "2026-10-27T12:11:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/87d81352-5086-44bd-a5bb-797582e2d07c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6ee15078e8442bd5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tech's relief rally extends as attention turns to tough decisions for the Fed",
+    "horodatage_utc": "2026-10-27T12:09:19+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/27/tech-rally-fed-decision.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9afe3c14b984602c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Three Russian diesel tankers steam for US — including two under sanctions",
+    "horodatage_utc": "2026-10-27T12:05:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d847744f-cfa5-4dc5-bdd2-faeee0b584f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "60fcd0205ae09beb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic's IPO is risky business",
+    "horodatage_utc": "2026-10-27T11:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "67b27f5be4cf55a0",
+    "categorie": "geopolitique",
+    "titre_affiche": "US voters and Trump’s overflowing swamp",
+    "horodatage_utc": "2026-10-27T10:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/51dbeefc-442b-4aac-b48b-042a0d6862a0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "65909978db43efd8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Silicon Valley AI political groups turn on each other in the 2026 election",
+    "horodatage_utc": "2026-10-27T10:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e5cc06a3ae156aef",
+    "categorie": "geopolitique",
+    "titre_affiche": "Porsche rules out US production despite VW’s Audi deal with Trump",
+    "horodatage_utc": "2026-10-27T09:16:47+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/28cc52cf-adb2-4582-9f6e-bd4b93cba68f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "53df4980a9c35e0b",
     "categorie": "geopolitique",
     "titre_affiche": "HSBC shares slide as results disappoint",
@@ -46,21 +256,6 @@
     "nouveaute": true
   },
   {
-    "id": "19dedbcb2ac7ced3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lula faces a fiscal reckoning after Brazil’s market rout",
-    "horodatage_utc": "2026-10-27T05:00:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0231b234-14dc-4ff0-8263-e1063b0a25d5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "0d4267f39051df2b",
     "categorie": "geopolitique",
     "titre_affiche": "France must appease protesters without extra spending, says finance minister",
@@ -69,6 +264,21 @@
     "url_source": "https://www.ft.com/content/167fd08f-2f01-46ee-a419-074e22ffd1a8?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "57eb16291af78b98",
+    "categorie": "geopolitique",
+    "titre_affiche": "France must ‘cure ourselves’ without more spending, says finance minister",
+    "horodatage_utc": "2026-10-27T05:00:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/167fd08f-2f01-46ee-a419-074e22ffd1a8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
@@ -106,6 +316,21 @@
     "nouveaute": true
   },
   {
+    "id": "a84e0c1ea6803790",
+    "categorie": "geopolitique",
+    "titre_affiche": "Inside Trump Jr’s Mongolian hunting trip with a Kremlin-linked businessman",
+    "horodatage_utc": "2026-10-27T05:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f41fc704-c9e6-42de-b800-d43cabe61947?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "e0a782aa58ed7e0e",
     "categorie": "geopolitique",
     "titre_affiche": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
@@ -134,6 +359,22 @@
     ],
     "portee": "contexte",
     "nouveaute": false
+  },
+  {
+    "id": "a1a70fece4c3e81b",
+    "categorie": "geopolitique",
+    "titre_affiche": "October 2026 euro area bank lending survey",
+    "horodatage_utc": "2026-10-27T00:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "0929e94723a69bb9",
@@ -1576,246 +1817,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "63f7fd5d9ea39a8a",
-    "categorie": "geopolitique",
-    "titre_affiche": "France prepares for protests with big police deployment",
-    "horodatage_utc": "2026-10-24T04:00:42+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "cd7842541fe68e63",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gadi Eisenkot, can Israel’s ex-military chief beat Netanyahu?",
-    "horodatage_utc": "2026-10-24T04:00:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f39f2059b8523b27",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gadi Eisenkot, the Israeli ex-military chief challenging Netanyahu",
-    "horodatage_utc": "2026-10-24T04:00:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0abd6593ff8739c9",
-    "categorie": "geopolitique",
-    "titre_affiche": "France is in revolt. But the real storm is yet to come",
-    "horodatage_utc": "2026-10-24T04:00:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/62b83fcf-efad-418d-ba6a-569344fa7ecb",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c69b545347aba277",
-    "categorie": "geopolitique",
-    "titre_affiche": "Pegasus spyware founder urges governments to trust his tech and ditch US AI",
-    "horodatage_utc": "2026-10-24T04:00:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f9592534-1a3d-409d-9a57-f05919440032?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "0cd7cb6c7df18dfc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tucker Carlson: ‘I so overstated my power it was embarrassing’",
-    "horodatage_utc": "2026-10-24T04:00:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/98417e57-fe7e-4309-8f56-6e844c55c6e1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "82189ad102ddee94",
-    "categorie": "geopolitique",
-    "titre_affiche": "Intelligence memo warns Iran plotting to kill Americans in Middle East",
-    "horodatage_utc": "2026-10-24T02:47:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e2e82393-c7ca-4bc1-b270-022b3702d9e7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e2a07573ce37b25d",
-    "categorie": "geopolitique",
-    "titre_affiche": "US executives quit $25bn gas venture over claims of secret Russian control",
-    "horodatage_utc": "2026-10-24T00:22:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9f550f33656e1cc9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump moves to block certification of Alaska Senate election if Republican loses",
-    "horodatage_utc": "2026-10-23T23:06:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b68b8544-4ce9-45d4-b522-cd2f8150e4cc?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "e001c77447567dbb",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.8 - 6 km ENE of Starobachaty, Russia",
-    "horodatage_utc": "2026-10-23T22:53:00+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4hi",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3962f6eec775590d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump to cut Canadian tariffs after pressure from Republicans",
-    "horodatage_utc": "2026-10-23T22:29:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c2ef572f07088336",
-    "categorie": "geopolitique",
-    "titre_affiche": "France avoids downgrade from Moody’s in boost for Macron’s government",
-    "horodatage_utc": "2026-10-23T22:28:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "1c0ee272f2022c5f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia and Ukraine agree to temporary ceasefire around occupied town of Oleshky",
-    "horodatage_utc": "2026-10-23T21:11:11+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ba33fb18-1dea-4214-9221-228c155a6ac1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e68e7e5870e68318",
-    "categorie": "geopolitique",
-    "titre_affiche": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
-    "horodatage_utc": "2026-10-23T20:52:23+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a02ca699c4434698",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
-    "horodatage_utc": "2026-10-23T20:13:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bb22aebb57a4ec15",
-    "categorie": "geopolitique",
-    "titre_affiche": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
-    "horodatage_utc": "2026-10-23T19:50:26+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
