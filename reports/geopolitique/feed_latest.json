@@ -1,19 +1,64 @@
 [
   {
+    "id": "e0a782aa58ed7e0e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+    "horodatage_utc": "2026-10-27T01:05:06+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b719c3b0fc73a640",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bolsonaro’s Liberal Party accepts defeat in Brazil as Trump calls result ‘rigged’",
+    "horodatage_utc": "2026-10-27T00:54:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "0929e94723a69bb9",
+    "categorie": "geopolitique",
+    "titre_affiche": "US charges ex-FBI chief James Comey for third time",
+    "horodatage_utc": "2026-10-26T22:56:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6b669a41-b629-47ce-8f68-c1ab1bd1320b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "511801f7d6740a55",
     "categorie": "geopolitique",
     "titre_affiche": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
     "horodatage_utc": "2026-10-26T22:50:07+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "52cabb998fe1ccde",
@@ -22,13 +67,13 @@
     "horodatage_utc": "2026-10-26T22:34:19+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/26/blackberry-qnx-physical-ai-robots.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f530b779baf40da8",
@@ -37,13 +82,13 @@
     "horodatage_utc": "2026-10-26T22:09:35+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/26/jim-cramer-ipos-capital-raises-bull-market.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Catastrophes naturelles"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dbd6894b91730617",
@@ -52,13 +97,13 @@
     "horodatage_utc": "2026-10-26T21:50:06+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/fe3cb92f-bc25-4db7-8fa8-dff3f1f38348?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e1af715a406e06f5",
@@ -108,6 +153,22 @@
     "nouveaute": true
   },
   {
+    "id": "b52d489511160cb4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Brazil’s currency plunges most since 1999 after Lula’s election victory",
+    "horodatage_utc": "2026-10-26T21:08:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Dollar et devises, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "c5f5afff265627bf",
     "categorie": "geopolitique",
     "titre_affiche": "Meta plans $95bn stock offering to bankroll AI expansion",
@@ -123,12 +184,12 @@
     "nouveaute": false
   },
   {
-    "id": "e0a782aa58ed7e0e",
+    "id": "5558999b61c43d6c",
     "categorie": "geopolitique",
-    "titre_affiche": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
-    "horodatage_utc": "2026-10-26T20:44:50+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+    "titre_affiche": "Microsoft offers buyouts to 60,000 staff",
+    "horodatage_utc": "2026-10-26T20:22:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2ef29406-f2f8-413f-81f6-5ae098c97569?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
@@ -138,34 +199,19 @@
     "nouveaute": false
   },
   {
-    "id": "5558999b61c43d6c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Microsoft offers buyouts to 60,000 staff",
-    "horodatage_utc": "2026-10-26T20:22:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2ef29406-f2f8-413f-81f6-5ae098c97569?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "029ab95228d3b5b0",
     "categorie": "geopolitique",
     "titre_affiche": "Lula’s stunning comeback meets fiscal reality",
     "horodatage_utc": "2026-10-26T18:14:43+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/79785581-88c2-49a9-a109-9d5ccafc3c7d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "57d635109866476a",
@@ -174,13 +220,13 @@
     "horodatage_utc": "2026-10-26T18:05:21+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/627ed704-f736-4fa2-91c9-67e53577fb7f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "64a5a4d6052c9ce8",
@@ -421,6 +467,21 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d80fd95ebc7ec13f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Sri Lanka repatriates 40 Iranian sailors after providing medical care",
+    "horodatage_utc": "2026-10-26T07:15:00+00:00",
+    "source_nom": "GDELT/dailyexcelsior.com",
+    "url_source": "https://www.dailyexcelsior.com/sri-lanka-repatriates-40-iranian-sailors-after-providing-medical-care/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/dailyexcelsior.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1755,66 +1816,6 @@
       "Conflits et sécurité"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "11395e7f499a9d02",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil India Strikes Natural Gas in Shallow Offshore Basin",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/oilprice.com",
-    "url_source": "https://oilprice.com/Latest-Energy-News/World-News/Oil-India-Strikes-Natural-Gas-in-Shallow-Offshore-Basin.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/oilprice.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f5b6261c8c491cb6",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Hidden $40 - Per - Barrel Cost Driving Oil Prices Higher",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/oilprice.com",
-    "url_source": "https://oilprice.com/Energy/Energy-General/The-Hidden-40-Per-Barrel-Cost-Driving-Oil-Prices-Higher.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/oilprice.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "99a0d35592f57b61",
-    "categorie": "geopolitique",
-    "titre_affiche": "Arab News | Oil spill off UAE coast prompts beach closures , cleanup effort",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/arabnews.com",
-    "url_source": "https://www.arabnews.com/middle-east/oil-spill-off-uae-coast-prompts-beach-closures-cleanup-effort-3007833",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9d17654913e2c8ab",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tanker with Russian diesel sets sail for US following Trump deal",
-    "horodatage_utc": "2026-10-23T15:00:00+00:00",
-    "source_nom": "GDELT/lancashiretelegraph.co.uk",
-    "url_source": "https://www.lancashiretelegraph.co.uk/news/national/26665346.tanker-russian-diesel-sets-sail-us-following-trump-deal/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]

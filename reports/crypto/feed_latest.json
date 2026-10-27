@@ -126,13 +126,13 @@
     "horodatage_utc": "2026-10-26T11:05:31+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9715f7ead6fbdca5",
@@ -156,13 +156,13 @@
     "horodatage_utc": "2026-10-26T07:15:00+00:00",
     "source_nom": "GDELT/econotimes.com",
     "url_source": "https://econotimes.com/Bitcoin-Trades-Below-80-000-Ahead-of-Fed-s-Oct-27-28-Meeting-1763376",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5fae9e8246207f6a",
@@ -171,13 +171,13 @@
     "horodatage_utc": "2026-10-26T07:15:00+00:00",
     "source_nom": "GDELT/coindesk.com",
     "url_source": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/coindesk.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9f3c88c9143ad93c",
@@ -201,13 +201,13 @@
     "horodatage_utc": "2026-10-26T05:00:00+00:00",
     "source_nom": "GDELT/econotimes.com",
     "url_source": "https://econotimes.com/Binance-Spot-Snapshot-Puts-Ether-ETH-Bids-4-25-Million-Above-Asks-1763299",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a66d4c318cec482b",
