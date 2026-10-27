@@ -60,6 +60,21 @@
     "nouveaute": false
   },
   {
+    "id": "fd3ac93c8a81b8c1",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
+    "horodatage_utc": "2026-10-27T11:40:50+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "ea264fdf2eb7eb60",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
@@ -1788,20 +1803,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "40c58f47a3a017b5",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin cuts losses as stocks edge higher",
-    "horodatage_utc": "2026-10-20T10:14:19+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/20/live-updates-market-jitters-persist-as-the-ai-selloff-deepens",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
