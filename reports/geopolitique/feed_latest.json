@@ -1,18 +1,78 @@
 [
   {
+    "id": "f0455319bc4f6581",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix profits soar amid roaring AI chip demand",
+    "horodatage_utc": "2026-10-28T03:06:38+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/44c35ed7-aa46-4d45-91f5-2773f00ae6be",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d7e16a60bece28f7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bolsonaro lands in US after fleeing Brazil following election defeat",
+    "horodatage_utc": "2026-10-28T02:58:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ec7a3e3e-21e3-44de-81ee-db2f2073bee3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "15aeae288ac7f10f",
     "categorie": "geopolitique",
     "titre_affiche": "No clear winner in Israeli parliamentary election, exit polls suggest",
-    "horodatage_utc": "2026-10-27T23:18:24+00:00",
+    "horodatage_utc": "2026-10-28T02:43:22+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6dab34da-a039-46e6-9547-0c7213a00001?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "8099602a855032f6",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix shares soar over 8% as profit beats, chipmaker to return $25 billion to investors",
+    "horodatage_utc": "2026-10-28T01:56:59+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "60fcd0205ae09beb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic's IPO is risky business",
+    "horodatage_utc": "2026-10-28T00:43:59+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "d1d1d196f86696d5",
@@ -21,14 +81,14 @@
     "horodatage_utc": "2026-10-27T23:03:09+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fe27afdae7d5f342",
@@ -37,13 +97,13 @@
     "horodatage_utc": "2026-10-27T22:24:19+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c625bc18a587d5d1",
@@ -59,21 +119,6 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "60fcd0205ae09beb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic's IPO is risky business",
-    "horodatage_utc": "2026-10-27T21:17:27+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   },
   {
     "id": "acd8ff75c250c169",
@@ -412,11 +457,164 @@
     "horodatage_utc": "2026-10-27T05:15:00+00:00",
     "source_nom": "GDELT/ch-aviation.com",
     "url_source": "https://www.ch-aviation.com/news/119687-us-designates-three-iranian-b747s-for-russia-flights",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/ch-aviation.com. Elle se rattache à : Iran - États-Unis, Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis",
       "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "292b8a91625213d1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi - led coalition says it intercepts three Houthi missiles , four drones",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/pakistantimes.com",
+    "url_source": "https://www.pakistantimes.com/saudi-led-coalition-says-it-intercepts-three-houthi-missiles-four-drones-15853/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/pakistantimes.com. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8254c6cd133f6934",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran Tegaskan Selat Hormuz dalam Kendalinya , Kapal Asing Terancam Rusak jika Langgar Aturan",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/viva.co.id",
+    "url_source": "https://www.viva.co.id/berita/dunia/1938916-iran-tegaskan-selat-hormuz-dalam-kendalinya-kapal-asing-terancam-rusak-jika-langgar-aturan",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/viva.co.id. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1b5e5e0d21775e47",
+    "categorie": "geopolitique",
+    "titre_affiche": "Saudi Arabia offered Houthis $1 bn in Iran - brokered ceasefire deal : Israeli media",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/myanmarnews.net",
+    "url_source": "http://www.myanmarnews.net/news/279399157/saudi-arabia-offered-houthis-1-bn-in-iran-brokered-ceasefire-deal-israeli-media",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/myanmarnews.net. Elle se rattache à : Israël - Gaza, Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cb2d3db68df5ff7a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran reports positive talks with Pakistan , Saudi Arabia and Turkiye in Tehran",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/pakistantimes.com",
+    "url_source": "https://www.pakistantimes.com/iran-reports-positive-talks-with-pakistan-saudi-arabia-and-turkiye-in-tehran-15839/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/pakistantimes.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0d9488710e351770",
+    "categorie": "geopolitique",
+    "titre_affiche": "Crisis in Strait of Hormuz will not be last of its kind : Singapore Energy Minister Tan warns of energy supply risks",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/myanmarnews.net",
+    "url_source": "http://www.myanmarnews.net/news/279399103/crisis-in-strait-of-hormuz-will-not-be-last-of-its-kind-singapore-energy-minister-tan-warns-of-energy-supply-risks",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/myanmarnews.net. Elle se rattache à : Iran - États-Unis, Tensions énergétiques. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Tensions énergétiques"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bcd943fab53ab83e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump îl atacă pe Barack Obama după ironiile privind Casa Albă",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/stiripesurse.ro",
+    "url_source": "https://www.stiripesurse.ro/donald-trump-replica-dura-barack-obama-casa-alba_3931579",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "913cb16c18d3bcb8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia , Ukraine agree to local ceasefire for humanitarian operation in Oleshky",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/jpost.com",
+    "url_source": "http://www.jpost.com/international/internationalrussia-ukraine-war/article-912989",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "525ae8fcc7c8a58f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump escalates anti - Muslim attacks against El - Sayed in Michigan",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/sentinelandenterprise.com",
+    "url_source": "https://www.sentinelandenterprise.com/2026/10/26/trump-anti-muslim-attacks-el-sayed-michigan-rally/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "f28233e2f91e89d8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine : début de la trêve humanitaire à Olechky",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/rfj.ch",
+    "url_source": "https://www.rfj.ch/rfj/Actualite/Monde/20261027-Ukraine-debut-de-la-treve-humanitaire-a-Olechky.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7cec0b0ed542089e",
+    "categorie": "geopolitique",
+    "titre_affiche": "SBP raises interest rate to 12 % amid Iran - US tensions and rising oil prices",
+    "horodatage_utc": "2026-10-27T05:15:00+00:00",
+    "source_nom": "GDELT/pakistantimes.com",
+    "url_source": "https://www.pakistantimes.com/sbp-raises-interest-rate-to-12-amid-iran-us-tensions-and-rising-oil-prices-15846/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1619,201 +1817,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "c5cd7e313f681815",
-    "categorie": "geopolitique",
-    "titre_affiche": "Luxury groups’ value drops by €250bn as Chinese consumer demand fades",
-    "horodatage_utc": "2026-10-25T05:00:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9880a525f4666a62",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bolsonaro and Lula face off in knife-edge Brazil election",
-    "horodatage_utc": "2026-10-25T05:00:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "b8e9b4d29b56eb0d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Martin Wolf on the US midterms: What’s at stake for the world?",
-    "horodatage_utc": "2026-10-25T05:00:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/01119d92-0d23-4d91-8a66-44ebd94c2356?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "e87501983ab4e9df",
-    "categorie": "geopolitique",
-    "titre_affiche": "The right’s obsession with ‘civil war’ in Britain",
-    "horodatage_utc": "2026-10-25T05:00:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "df0a938528ce6c9d",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Black Sea is now the world’s deadliest shipping route",
-    "horodatage_utc": "2026-10-25T05:00:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "939ac6ef8346449f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why 17 is not the magic number in industrial policy",
-    "horodatage_utc": "2026-10-25T01:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5951ebdd753f2186",
-    "categorie": "geopolitique",
-    "titre_affiche": "SoftBank-backed drone maker wants every farmer to ‘have their own robot’",
-    "horodatage_utc": "2026-10-25T01:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/9fe60016-1520-4bfd-bcfc-f30caa0b1600?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "b62238c28f179b91",
-    "categorie": "geopolitique",
-    "titre_affiche": "Co-operate to avoid being hostage to geopolitics, Australia tells ‘middle powers’",
-    "horodatage_utc": "2026-10-25T01:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/653f5a48-94f5-4e92-86dd-7d118e8849a8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d4a00c4f289237a2",
-    "categorie": "geopolitique",
-    "titre_affiche": "What to know about the Melania Trump - brokered ceasefire in Russian - occupied Oleshky",
-    "horodatage_utc": "2026-10-24T23:30:00+00:00",
-    "source_nom": "GDELT/mankatofreepress.com",
-    "url_source": "https://www.mankatofreepress.com/news/state_national_news/what-to-know-about-the-melania-trump-brokered-ceasefire-in-russian-occupied-oleshky/article_da26bf14-9a93-50a7-8c2f-fef4e5aa0c2f.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5f383fdff1f6a3a6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
-    "horodatage_utc": "2026-10-24T23:23:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "a596dfb600cbcad1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine military says Starlink service restrictions have been lifted",
-    "horodatage_utc": "2026-10-24T21:30:37+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e6bb07da9156798f",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.3 - 101 km SSE of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-24T20:54:28+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4pa",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "85f35e7cfaab4ac7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israel central bank rejects Netanyahu’s plan to use crypto to evade sanctions",
-    "horodatage_utc": "2026-10-24T19:19:48+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/39e475e7-0392-4856-aaaf-5ab3e35b8215?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]

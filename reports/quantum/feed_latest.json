@@ -1,5 +1,35 @@
 [
   {
+    "id": "91175aa9a126fb4a",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Deploys Intercontinental Hybrid QKD and PQC Architecture Securing Enterprise Links Between Geneva and Seoul",
+    "horodatage_utc": "2026-10-28T01:32:46+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "28c0230cccdd5324",
+    "categorie": "quantique",
+    "titre_affiche": "Quantinuum and GE Vernova Target High-Temperature Superconductivity Using Helios Trapped-Ion Hardware",
+    "horodatage_utc": "2026-10-28T00:38:57+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quantinuum-and-ge-vernova-target-high-temperature-superconductivity-using-helios-trapped-ion-hardware/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Quantinuum"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "350227cdfff7acd8",
     "categorie": "quantique",
     "titre_affiche": "IBM Unveils Meter-Scale Superconducting L-Couplers: Connecting Dual 120-Qubit Processors with 99% State Transfer Fidelity",
@@ -1779,38 +1809,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "05b6eb0c25b80cbb",
-    "categorie": "quantique",
-    "titre_affiche": "Jülich Supercomputing Centre Benchmark Evaluates Quantum Error Correction Primitives Across Quantinuum, IBM, and IQM Hardware",
-    "horodatage_utc": "2026-10-07T15:13:01+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/julich-supercomputing-centre-benchmark-evaluates-quantum-error-correction-primitives-across-quantinuum-ibm-and-iqm-hardware/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM",
-      "Quantinuum"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9552a66242919c8b",
-    "categorie": "quantique",
-    "titre_affiche": "Infleqtion, Honeywell Aerospace, and UC Santa Barbara Develop Chip-Scale Silicon Nitride Optical Cavity for Handheld Quantum Hardware",
-    "horodatage_utc": "2026-10-06T17:11:36+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/infleqtion-honeywell-aerospace-and-uc-santa-barbara-develop-chip-scale-silicon-nitride-optical-cavity-for-handheld-quantum-hardware/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Honeywell",
-      "Infleqtion"
     ],
     "portee": "actif_direct",
     "nouveaute": false
