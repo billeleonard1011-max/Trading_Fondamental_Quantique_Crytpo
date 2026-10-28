@@ -1,18 +1,169 @@
 [
   {
+    "id": "b927540da27747af",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
+    "horodatage_utc": "2026-10-28T16:33:22+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fe173a3c62449e06",
+    "categorie": "geopolitique",
+    "titre_affiche": "Healey hits banks and savers with tax rises in Budget ‘for working people’",
+    "horodatage_utc": "2026-10-28T16:23:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5ec57ee9-4eb9-4889-82f0-df402185b147?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "58ba595cfea4df76",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+    "horodatage_utc": "2026-10-28T16:07:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6c34e002820043af",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft earnings will land after the close",
+    "horodatage_utc": "2026-10-28T16:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Dollar et devises, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Dollar et devises",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3462fdd9838bdebd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bolsonaro lands in US after fleeing Brazil",
+    "horodatage_utc": "2026-10-28T14:47:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ec7a3e3e-21e3-44de-81ee-db2f2073bee3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "64513b8609a83820",
+    "categorie": "geopolitique",
+    "titre_affiche": "The fear factor giving Netanyahu the edge",
+    "horodatage_utc": "2026-10-28T14:35:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1631483b-69ee-424c-b0d0-9086ae1efece?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5afef2a069918b5d",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
+    "horodatage_utc": "2026-10-28T14:21:46+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "45b55a75e3bb2037",
+    "categorie": "geopolitique",
+    "titre_affiche": "Google alters its cloud playbook, enlisting partners to sell more AI chips",
+    "horodatage_utc": "2026-10-28T13:52:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/google-alters-cloud-playbook-turning-to-partners-to-sell-more-ai-chips.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fb1a93296a3825ad",
+    "categorie": "geopolitique",
+    "titre_affiche": "Banks hit out at Healey’s Budget tax increase",
+    "horodatage_utc": "2026-10-28T13:07:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/80acb561-34e2-4b71-b4b3-b564f3ec54ce?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d2a80ce2d32a456a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Investors brace for a hawkish hold and tech on tap",
+    "horodatage_utc": "2026-10-28T10:54:29+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/investors-brace-for-a-hawkish-hold-and-tech-on-tap.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "1840b2235a9b73ca",
     "categorie": "geopolitique",
     "titre_affiche": "Zelenskyy opens door to security guarantees for Russia",
     "horodatage_utc": "2026-10-28T09:58:33+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8ec7d6f2-403a-4f80-89fc-5ed5e75fed63?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d821177e35818d75",
@@ -21,13 +172,13 @@
     "horodatage_utc": "2026-10-28T09:48:35+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6dab34da-a039-46e6-9547-0c7213a00001?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d7e16a60bece28f7",
@@ -60,21 +211,6 @@
     "nouveaute": true
   },
   {
-    "id": "5afef2a069918b5d",
-    "categorie": "geopolitique",
-    "titre_affiche": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
-    "horodatage_utc": "2026-10-28T06:56:49+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "e902fdba49c21476",
     "categorie": "geopolitique",
     "titre_affiche": "M 5.0 - 205 km SSE of Vilyuchinsk, Russia",
@@ -96,13 +232,13 @@
     "horodatage_utc": "2026-10-28T05:00:07+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a89fa128-8fcb-4ff4-bd8b-6bb591ccd9c1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f0455319bc4f6581",
@@ -1676,144 +1812,6 @@
     "analyse_interne": "Actualité relayée par GDELT/mymotherlode.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "98d7fb11f131c606",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iranians fear possible return to all - out war as US and Israeli elections loom",
-    "horodatage_utc": "2026-10-25T18:00:00+00:00",
-    "source_nom": "GDELT/dorsetecho.co.uk",
-    "url_source": "https://www.dorsetecho.co.uk/news/national/26668344.iranians-fear-possible-return-all-out-war-us-israeli-elections-loom/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fd32afd9d9e16205",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tehran warns it will hit undersea cables linking Europe , Middle East",
-    "horodatage_utc": "2026-10-25T18:00:00+00:00",
-    "source_nom": "GDELT/bruneinews.net",
-    "url_source": "http://www.bruneinews.net/news/279396653/tehran-warns-it-will-hit-undersea-cables-linking-europe-middle-east",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c1c3e99afbb120b9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Obama supports Muslim candidate ; calls Iran war Trump biggest failure",
-    "horodatage_utc": "2026-10-25T18:00:00+00:00",
-    "source_nom": "GDELT/dailythepatriot.com",
-    "url_source": "https://dailythepatriot.com/obama-supports-muslim-candidate-calls-iran-war-trumps-biggest-failure/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "07b834ba6bcfc5a6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump has a decision to make on Iran as concerns over renewed strikes deepen",
-    "horodatage_utc": "2026-10-25T18:00:00+00:00",
-    "source_nom": "GDELT/thenationalnews.com",
-    "url_source": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1dc80ae62b3c814f",
-    "categorie": "geopolitique",
-    "titre_affiche": "CENTCOM Chief Brad Cooper flies over Hormuz during Middle East visit",
-    "horodatage_utc": "2026-10-25T18:00:00+00:00",
-    "source_nom": "GDELT/jpost.com",
-    "url_source": "https://www.jpost.com/middle-east/article-912824",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c4b8913b411298bd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iranians fear a possible return to all - out war as US and Israeli elections approach",
-    "horodatage_utc": "2026-10-25T18:00:00+00:00",
-    "source_nom": "GDELT/stardem.com",
-    "url_source": "http://www.stardem.com/ap/world/iranians-fear-a-possible-return-to-all-out-war-as-us-and-israeli-elections-approach/article_b1ce44e5-278f-528a-831b-967fa0fce162.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "969612d2ed764882",
-    "categorie": "geopolitique",
-    "titre_affiche": "Teacher , 34 , has $140K invested says she may never need to add another dollar to retire with $1 . 5M . Here her math",
-    "horodatage_utc": "2026-10-25T12:45:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/teacher-34-140k-invested-says-111500000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9f9d100b1029728b",
-    "categorie": "geopolitique",
-    "titre_affiche": "America farmers are flashing warning signals about inflation , and the Fed is paying attention . Protect yourself now",
-    "horodatage_utc": "2026-10-25T12:45:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/america-farmers-flashing-warning-signals-114500000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e0927cbf4c06d1cb",
-    "categorie": "geopolitique",
-    "titre_affiche": "China export controls around PV cells could slow India upstream solar push",
-    "horodatage_utc": "2026-10-25T11:15:00+00:00",
-    "source_nom": "GDELT/thehindubusinessline.com",
-    "url_source": "https://www.thehindubusinessline.com/economy/chinas-export-controls-around-pv-cells-could-slow-indias-upstream-solar-push/article71622820.ece",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/thehindubusinessline.com. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export), Sanctions. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)",
-      "Sanctions"
     ],
     "portee": "influence",
     "nouveaute": true
