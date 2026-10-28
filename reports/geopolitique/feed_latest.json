@@ -1,5 +1,171 @@
 [
   {
+    "id": "5cc60147243354b4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+    "horodatage_utc": "2026-10-28T21:36:41+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ea873b57466e1f66",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+    "horodatage_utc": "2026-10-28T21:34:56+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9dae239e28080883",
+    "categorie": "geopolitique",
+    "titre_affiche": "Fed holds fire on interest rates despite intensifying inflation",
+    "horodatage_utc": "2026-10-28T21:32:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f31fccd8-e9b6-4b01-989d-790ca6bb4d29?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0f0c98536ec35dd0",
+    "categorie": "geopolitique",
+    "titre_affiche": "CoreWeave and other neocloud stocks drop after Microsoft capex comes in below expectations",
+    "horodatage_utc": "2026-10-28T21:14:08+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/neocloud-stocks-drop-after-microsoft-revises-capex-down.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a89b549c2d4e379d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft cloud revenue beats expectations",
+    "horodatage_utc": "2026-10-28T21:02:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/93f53cb4-1fc8-4ca5-aa91-186b77b03d92?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a6793e8ae948f987",
+    "categorie": "geopolitique",
+    "titre_affiche": "Republicans seek to deflect Epstein anger on to Democrats",
+    "horodatage_utc": "2026-10-28T20:20:32+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5835eefc-acb2-4e4e-9693-60f5c2467977?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "5afef2a069918b5d",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
+    "horodatage_utc": "2026-10-28T20:04:42+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "4ddb7e8c36c67690",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve issues FOMC statement",
+    "horodatage_utc": "2026-10-28T18:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ac90bb4749e8f398",
+    "categorie": "geopolitique",
+    "titre_affiche": "How Israel’s opposition fell short against Netanyahu",
+    "horodatage_utc": "2026-10-28T17:45:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6a370b14-23e9-43e9-8489-2732ac5a74f3",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ecef7f54d28e42e5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel’s Arabs seek a slice of power",
+    "horodatage_utc": "2026-10-28T17:40:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e73bd81d-89b4-4ef4-9be0-459bcc97633b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "58ba595cfea4df76",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+    "horodatage_utc": "2026-10-28T17:39:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "b927540da27747af",
     "categorie": "geopolitique",
     "titre_affiche": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
@@ -25,21 +191,6 @@
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "58ba595cfea4df76",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
-    "horodatage_utc": "2026-10-28T16:07:17+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -91,12 +242,12 @@
     "nouveaute": true
   },
   {
-    "id": "5afef2a069918b5d",
+    "id": "45b55a75e3bb2037",
     "categorie": "geopolitique",
-    "titre_affiche": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
-    "horodatage_utc": "2026-10-28T14:21:46+00:00",
+    "titre_affiche": "Google alters its cloud playbook, enlisting partners to sell more AI chips",
+    "horodatage_utc": "2026-10-28T13:52:27+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+    "url_source": "https://www.cnbc.com/2026/10/28/google-alters-cloud-playbook-turning-to-partners-to-sell-more-ai-chips.html",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
@@ -104,21 +255,6 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "45b55a75e3bb2037",
-    "categorie": "geopolitique",
-    "titre_affiche": "Google alters its cloud playbook, enlisting partners to sell more AI chips",
-    "horodatage_utc": "2026-10-28T13:52:27+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/google-alters-cloud-playbook-turning-to-partners-to-sell-more-ai-chips.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   },
   {
     "id": "fb1a93296a3825ad",
@@ -148,7 +284,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1840b2235a9b73ca",
@@ -1678,142 +1814,5 @@
     ],
     "portee": "contexte",
     "nouveaute": false
-  },
-  {
-    "id": "3b8ccb669bb4128b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Weil’s incoming leader to walk away from top job as law firm faces talent crisis",
-    "horodatage_utc": "2026-10-25T23:19:41+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0ce8a176-19d9-4fb8-8708-0c3fbd04f89c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "07176f442ee8c802",
-    "categorie": "geopolitique",
-    "titre_affiche": "Brazil’s Supreme Court extends voting as transport complaints mar election",
-    "horodatage_utc": "2026-10-25T22:10:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f16c6546e39ae561",
-    "categorie": "geopolitique",
-    "titre_affiche": "US Treasury proposes overseas tech investment rule",
-    "horodatage_utc": "2026-10-25T19:15:00+00:00",
-    "source_nom": "GDELT/taipeitimes.com",
-    "url_source": "https://www.taipeitimes.com/News/biz/archives/2026/10/26/2003866601",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/taipeitimes.com. Elle se rattache à : Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b709dda6f6283693",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sri Lanka provides medical help , repatriates Iranian sailors stranded in Indian Ocean",
-    "horodatage_utc": "2026-10-25T19:15:00+00:00",
-    "source_nom": "GDELT/wlwt.com",
-    "url_source": "https://www.wlwt.com/article/sri-lanka-medicalrepatriates-iranian-sailors-indian-ocean/74241104",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9fa0870ef8adafe8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iranians fear return to all - out war with US and Israeli elections",
-    "horodatage_utc": "2026-10-25T19:15:00+00:00",
-    "source_nom": "GDELT/wlwt.com",
-    "url_source": "https://www.wlwt.com/article/iran-war-more-strikes-feared-israel-us-elections/74241134",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "697402bc538edf87",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran threatens to attack Internet links in the Middle East",
-    "horodatage_utc": "2026-10-25T19:15:00+00:00",
-    "source_nom": "GDELT/orlandoecho.com",
-    "url_source": "http://www.orlandoecho.com/news/279396653/iran-threatens-to-attack-internet-links-in-the-middle-east",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c4e42d458d446f14",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump fails to change economic headwinds facing GOP candidates",
-    "horodatage_utc": "2026-10-25T19:15:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/trump-fails-change-economic-headwinds-160000000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "b09f2ca2d2c8fcae",
-    "categorie": "geopolitique",
-    "titre_affiche": "France’s Le Pen vows national ‘renewal’ in campaign launch",
-    "horodatage_utc": "2026-10-25T18:37:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fd1c3f30-2789-4fca-a93f-57850b1448a8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "177b43603ca53bd2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sri Lanka provides medical help and repatriates 40 Iranian sailors stranded in the Indian Ocean",
-    "horodatage_utc": "2026-10-25T18:00:00+00:00",
-    "source_nom": "GDELT/mymotherlode.com",
-    "url_source": "https://mymotherlode.com/news/world/11251554/sri-lanka-provides-medical-help-and-repatriates-40-iranian-sailors-stranded-in-the-indian-ocean.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/mymotherlode.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
