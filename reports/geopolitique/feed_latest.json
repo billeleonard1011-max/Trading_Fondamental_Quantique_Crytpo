@@ -1,5 +1,110 @@
 [
   {
+    "id": "1840b2235a9b73ca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Zelenskyy opens door to security guarantees for Russia",
+    "horodatage_utc": "2026-10-28T09:58:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8ec7d6f2-403a-4f80-89fc-5ed5e75fed63?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d821177e35818d75",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netanyahu ahead but no clear winner in Israeli election",
+    "horodatage_utc": "2026-10-28T09:48:35+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6dab34da-a039-46e6-9547-0c7213a00001?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d7e16a60bece28f7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bolsonaro lands in US after fleeing Brazil following election defeat",
+    "horodatage_utc": "2026-10-28T08:42:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ec7a3e3e-21e3-44de-81ee-db2f2073bee3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "19343319531d383e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel’s election: what happens next?",
+    "horodatage_utc": "2026-10-28T08:18:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4f122702-3765-4e9f-a94f-4b786bc2af15",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5afef2a069918b5d",
+    "categorie": "geopolitique",
+    "titre_affiche": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
+    "horodatage_utc": "2026-10-28T06:56:49+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e902fdba49c21476",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.0 - 205 km SSE of Vilyuchinsk, Russia",
+    "horodatage_utc": "2026-10-28T06:35:03+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttmb",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9f6e5770972ad09a",
+    "categorie": "geopolitique",
+    "titre_affiche": "The globetrotting Trump brothers",
+    "horodatage_utc": "2026-10-28T05:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a89fa128-8fcb-4ff4-bd8b-6bb591ccd9c1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "f0455319bc4f6581",
     "categorie": "geopolitique",
     "titre_affiche": "SK Hynix profits soar amid roaring AI chip demand",
@@ -12,21 +117,6 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d7e16a60bece28f7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bolsonaro lands in US after fleeing Brazil following election defeat",
-    "horodatage_utc": "2026-10-28T02:58:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ec7a3e3e-21e3-44de-81ee-db2f2073bee3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -1727,95 +1817,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "202cb8d008ce010a",
-    "categorie": "geopolitique",
-    "titre_affiche": "US voters worried about corruption under Trump — FT poll",
-    "horodatage_utc": "2026-10-25T11:00:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2770ef24-198c-49bc-8cb8-b9d40108d797?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "280e44038d610902",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why students in a Pennsylvania midterm battleground fear AI is about to kill their future",
-    "horodatage_utc": "2026-10-25T11:00:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0a86d4f5-6046-4c1c-89e9-90583cff33f9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b5d48a3c97bb484a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why students in a midterm battleground fear AI will ruin their future",
-    "horodatage_utc": "2026-10-25T11:00:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0a86d4f5-6046-4c1c-89e9-90583cff33f9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "22d634532a1ce688",
-    "categorie": "geopolitique",
-    "titre_affiche": "Audi to build $4bn US plant as it grapples with tariffs",
-    "horodatage_utc": "2026-10-25T10:33:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9801884716bfe657",
-    "categorie": "geopolitique",
-    "titre_affiche": "Moonshot tells Kimi AI to code away , but leave the hacking alone",
-    "horodatage_utc": "2026-10-25T09:30:00+00:00",
-    "source_nom": "GDELT/digitaltrends.com",
-    "url_source": "https://www.digitaltrends.com/computing/moonshot-tells-kimi-ai-to-code-away-but-leave-the-hacking-alone/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/digitaltrends.com. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "49dc81a61737a6cc",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.6 - Volcano Islands, Japan region",
-    "horodatage_utc": "2026-10-25T09:27:11+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4tf",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]

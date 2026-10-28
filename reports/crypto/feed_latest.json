@@ -1,11 +1,11 @@
 [
   {
-    "id": "5d5aa51ceb15627b",
+    "id": "d87b058cef265781",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
-    "horodatage_utc": "2026-10-28T04:15:20+00:00",
+    "titre_affiche": "Here's how much bitcoin and the S&P 500 could rally after midterms",
+    "horodatage_utc": "2026-10-28T09:15:22+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
+    "url_source": "https://www.coindesk.com/markets/2026/10/28/bitcoin-averages-over-50-in-the-12-months-after-midterms-s-and-p-500-gains-15",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,19 +15,49 @@
     "nouveaute": true
   },
   {
+    "id": "20555ce05cfead2e",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
+    "horodatage_utc": "2026-10-28T05:28:13+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5d5aa51ceb15627b",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
+    "horodatage_utc": "2026-10-28T04:15:20+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "90585d1388994917",
     "categorie": "crypto",
     "titre_affiche": "Datavault AI stock plummets 50% after firm says it cannot withdraw bitcoin tied to $150 million deal",
     "horodatage_utc": "2026-10-28T03:00:33+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b8592ea8746a12de",
@@ -1766,36 +1796,6 @@
     "horodatage_utc": "2026-10-20T12:15:05+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9554d56c6238d1db",
-    "categorie": "crypto",
-    "titre_affiche": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
-    "horodatage_utc": "2026-10-20T11:14:21+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f3405a5ffc617c46",
-    "categorie": "crypto",
-    "titre_affiche": "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
-    "horodatage_utc": "2026-10-20T11:10:40+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

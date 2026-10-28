@@ -1,18 +1,33 @@
 [
   {
+    "id": "724fb6f55740b22d",
+    "categorie": "quantique",
+    "titre_affiche": "Intel’s Classiq Deal May Signal a Pivot From Quiet Quantum Effort To Active Commercialization",
+    "horodatage_utc": "2026-10-28T08:06:07+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/10/28/intels-classiq-deal-may-signal-a-pivot-from-quiet-quantum-effort-to-active-commercialization/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Intel. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Intel"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "91175aa9a126fb4a",
     "categorie": "quantique",
     "titre_affiche": "IonQ Deploys Intercontinental Hybrid QKD and PQC Architecture Securing Enterprise Links Between Geneva and Seoul",
     "horodatage_utc": "2026-10-28T01:32:46+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "28c0230cccdd5324",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-10-28T00:38:57+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/quantinuum-and-ge-vernova-target-high-temperature-superconductivity-using-helios-trapped-ion-hardware/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Quantinuum"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "350227cdfff7acd8",
@@ -1794,21 +1809,6 @@
       "IONQ",
       "IBM",
       "Atom Computing"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "12caac46d98bef51",
-    "categorie": "quantique",
-    "titre_affiche": "IBM Advances to Stage C of DARPA Quantum Benchmarking Initiative",
-    "horodatage_utc": "2026-10-07T22:00:00+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/10/07/ibm-advances-to-stage-c-of-darpa-quantum-benchmarking-initiative/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
     ],
     "portee": "actif_direct",
     "nouveaute": false
