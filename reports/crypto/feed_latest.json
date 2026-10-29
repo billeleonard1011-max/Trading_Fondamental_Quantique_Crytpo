@@ -1,5 +1,65 @@
 [
   {
+    "id": "c356db47fad4e854",
+    "categorie": "crypto",
+    "titre_affiche": "The chart bitcoin traders should be paying attention to",
+    "horodatage_utc": "2026-10-29T07:44:44+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/29/the-chart-bitcoin-traders-should-be-paying-attention-to",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8461b1be6b145da9",
+    "categorie": "crypto",
+    "titre_affiche": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+    "horodatage_utc": "2026-10-29T05:54:39+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "38ce4a3bffb0f5ac",
+    "categorie": "crypto",
+    "titre_affiche": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
+    "horodatage_utc": "2026-10-29T05:30:34+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/29/ethereum-clients-patch-flaw-that-could-let-attackers-redirect-eth-rewards",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "552404ae7fe85a3a",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
+    "horodatage_utc": "2026-10-29T03:32:43+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "f2f3dde539ad7502",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
@@ -1739,66 +1799,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "84dc6641571f2445",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
-    "horodatage_utc": "2026-10-21T04:07:07+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "069d31506a102681",
-    "categorie": "crypto",
-    "titre_affiche": "Kutluhan Akçın - Sıcak paranın çıkmazı : 526 Milyon Dolar geldi , Bitcoin neden düşüyor ?",
-    "horodatage_utc": "2026-10-21T04:00:00+00:00",
-    "source_nom": "GDELT/haberler.com",
-    "url_source": "https://www.haberler.com/yazarlar/kutluhan-akcin/sicak-paranin-cikmazi-526-milyon-dolar-geldi-bitcoin-neden-dusuyor-7260/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/haberler.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ce41ea9578765544",
-    "categorie": "crypto",
-    "titre_affiche": "JPMorgan Asset Management sees Bitcoin beating stocks , but with a big catch",
-    "horodatage_utc": "2026-10-21T01:30:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/markets/us-stocks/news/jpmorgan-asset-management-sees-bitcoin-beating-stocks-but-with-a-big-catch/articleshow/135078990.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a7615011d10665ee",
-    "categorie": "crypto",
-    "titre_affiche": "JPMorgan issues first long-term bitcoin return forecast, projecting 10% annually",
-    "horodatage_utc": "2026-10-20T18:14:28+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-20-jpmorgan-bitcoin-10-year-return-forecast-ltcma-421436",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false

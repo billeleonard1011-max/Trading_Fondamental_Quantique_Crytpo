@@ -1,5 +1,50 @@
 [
   {
+    "id": "7bd6b0c2b7eb7ff7",
+    "categorie": "quantique",
+    "titre_affiche": "BlueQubit Benchmarks Quantum Computational Advantage in Random-Circuit Sampling on IBM Nighthawk r2 Hardware",
+    "horodatage_utc": "2026-10-29T02:21:59+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/bluequbit-benchmarks-quantum-computational-advantage-in-random-circuit-sampling-on-ibm-nighthawk-r2-hardware/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "561d4d156cb43715",
+    "categorie": "quantique",
+    "titre_affiche": "University of Sydney Demonstrates Multi-Qubit Logical Entanglement and 170-Round Stability on IBM Square-Lattice Nighthawk r2 Processor",
+    "horodatage_utc": "2026-10-29T01:49:00+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "29345c40a5f0001f",
+    "categorie": "quantique",
+    "titre_affiche": "EPB and IonQ Deploy Hybrid Trapped-Ion Algorithms on Forte Enterprise to Optimize Power Grid Topology",
+    "horodatage_utc": "2026-10-29T01:07:36+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/epb-and-ionq-deploy-hybrid-trapped-ion-algorithms-on-forte-enterprise-to-optimize-power-grid-topology/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "e1711fbfec313a35",
     "categorie": "quantique",
     "titre_affiche": "PsiQuantum Unveils 8×8 Optical Circuit Switch Demonstration Vehicle Derived from Silicon Photonics Quantum Architecture",
@@ -1762,51 +1807,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "59944a09144e8504",
-    "categorie": "quantique",
-    "titre_affiche": "NVIDIA Commits $1 Billion over Five Years to Accelerate U.S. Scientific Computing and Quantum Infrastructure",
-    "horodatage_utc": "2026-10-08T18:13:32+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/nvidia-commits-1-billion-over-five-years-to-accelerate-u-s-scientific-computing-and-quantum-infrastructure/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "35b7fe4ee30f99a6",
-    "categorie": "quantique",
-    "titre_affiche": "PsiQuantum Secures Conditional $150 Million Loan Commitment from U.S. Office of Strategic Capital",
-    "horodatage_utc": "2026-10-08T17:57:41+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/psiquantum-secures-conditional-150-million-loan-commitment-from-u-s-office-of-strategic-capital/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : PsiQuantum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "PsiQuantum"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "1961458a82190dbb",
-    "categorie": "quantique",
-    "titre_affiche": "U.S. Department of War Announces $350 Million Quantum Package, Highlighted by $150 Million OSC Loan Commitment for PsiQuantum",
-    "horodatage_utc": "2026-10-08T17:57:41+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/u-s-department-of-war-announces-350-million-quantum-package-highlighted-by-150-million-osc-loan-commitment-for-psiquantum/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "PsiQuantum"
     ],
     "portee": "actif_direct",
     "nouveaute": false

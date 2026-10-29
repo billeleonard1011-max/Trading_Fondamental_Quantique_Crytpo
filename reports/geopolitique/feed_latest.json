@@ -1,5 +1,82 @@
 [
   {
+    "id": "82a2ca6e7f94f0ea",
+    "categorie": "geopolitique",
+    "titre_affiche": "US tech stocks set to fall after earnings fuel AI spending concerns",
+    "horodatage_utc": "2026-10-29T06:32:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7d76e4d79f75a0b0",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Fed plays for time (but doesn’t have much)",
+    "horodatage_utc": "2026-10-29T06:30:00+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/65d84258-7b04-4064-ab76-6610bd522d65?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5cc60147243354b4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+    "horodatage_utc": "2026-10-29T06:03:35+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "2aa5517454e4b6f5",
+    "categorie": "geopolitique",
+    "titre_affiche": "How Flávio Bolsonaro fled Brazil",
+    "horodatage_utc": "2026-10-29T05:00:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0cb91253-62e1-4cdf-864e-61174b297e51?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "dfb686ac387b570f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel vote leaves door open to Iran attack",
+    "horodatage_utc": "2026-10-29T05:00:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/53278449-6a8e-493b-8a9e-c44d2a981306?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "beb7ebaf4f8b582b",
     "categorie": "geopolitique",
     "titre_affiche": "Samsung Electronics third-quarter profit in line with estimates amid rising demand for AI memory chips",
@@ -21,13 +98,13 @@
     "horodatage_utc": "2026-10-29T01:11:10+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/investingclub/2026/10/28/our-next-steps-for-alphabet-stock-after-earnings-disappoint-at-nearly-every-turn.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7f382f1a1cfb00b7",
@@ -66,13 +143,13 @@
     "horodatage_utc": "2026-10-28T23:53:58+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/28/as-waymo-expands-overseas-it-remains-a-niche-cash-burning-business.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5805c714d60d8d58",
@@ -90,35 +167,19 @@
     "nouveaute": true
   },
   {
-    "id": "5cc60147243354b4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-    "horodatage_utc": "2026-10-28T22:34:56+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
     "id": "2a6a54a7a9eb7b27",
     "categorie": "geopolitique",
     "titre_affiche": "Trump calls for Alaska Democratic candidate to be banned from Senate race",
     "horodatage_utc": "2026-10-28T22:28:24+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/7526e915-2590-4b42-85df-20bb89040db8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ea873b57466e1f66",
@@ -1751,66 +1812,6 @@
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1c06652f4afb910e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran has ramped up efforts to target US personnel , intelligence memo warns - International",
-    "horodatage_utc": "2026-10-26T05:00:00+00:00",
-    "source_nom": "GDELT/dailymirror.lk",
-    "url_source": "https://www.dailymirror.lk/breaking-news/Iran-has-ramped-up-efforts-to-target-US-personnel-intelligence-memo-warns/108-353345",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4caf0170b6bcb2f1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi Arabia Singapore plan : Riyadh eyes oil storage hub from 2027 amid Hormuz disruption",
-    "horodatage_utc": "2026-10-26T05:00:00+00:00",
-    "source_nom": "GDELT/timesofindia.indiatimes.com",
-    "url_source": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabias-singapore-plan-riyadh-eyes-oil-storage-hub-from-2027-amid-hormuz-disruption/articleshow/135202643.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4b25e9fa2089934d",
-    "categorie": "geopolitique",
-    "titre_affiche": "CENTCOM Reports More Than 1 . 5 Billion Barrels in Gulf Oil Exports Since June",
-    "horodatage_utc": "2026-10-26T05:00:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "https://econotimes.com/CENTCOM-Reports-More-Than-1-5-Billion-Barrels-in-Gulf-Oil-Exports-Since-June-1763296",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5a3133c1f84692d7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Houthi Klaim Serang Jalur Pipa Minyak Arab Saudi , Stasiun Pompa Jadi Sasaran",
-    "horodatage_utc": "2026-10-26T05:00:00+00:00",
-    "source_nom": "GDELT/viva.co.id",
-    "url_source": "https://www.viva.co.id/berita/dunia/1938653-houthi-klaim-serang-jalur-pipa-minyak-arab-saudi-stasiun-pompa-jadi-sasaran",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
     ],
     "portee": "influence",
     "nouveaute": true
