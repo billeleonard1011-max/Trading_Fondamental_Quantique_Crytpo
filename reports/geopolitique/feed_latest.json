@@ -1,5 +1,230 @@
 [
   {
+    "id": "ae77ae4e6d9f2f9c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Two fears will decide the fate of Anthropic’s giant IPO",
+    "horodatage_utc": "2026-10-29T14:41:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6866e4159ef5f14c",
+    "categorie": "geopolitique",
+    "titre_affiche": "US economy beats forecasts to grow at 3.4% rate in third quarter",
+    "horodatage_utc": "2026-10-29T14:40:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f2de9f3c-3290-4e87-bbc2-55430025f2ab?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b8a6b4fc8b94e29e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+    "horodatage_utc": "2026-10-29T14:34:21+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3a7459c5ca8a3f26",
+    "categorie": "geopolitique",
+    "titre_affiche": "Christine Lagarde to step down as ECB president in February",
+    "horodatage_utc": "2026-10-29T14:06:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7e630931c20c89a2",
+    "categorie": "geopolitique",
+    "titre_affiche": "The two pragmatists leading the race to run the ECB",
+    "horodatage_utc": "2026-10-29T14:04:42+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/281690fe-ac0c-43f1-9a36-a3e6b5ee175d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1390aef7475ce86c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+    "horodatage_utc": "2026-10-29T14:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bbb52f538ecabbbe",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alphabet falls 13%, putting it on course for its biggest ever post-earnings drop",
+    "horodatage_utc": "2026-10-29T13:46:52+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c5dbfb6c362341ce",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alphabet shares tumble in $500bn rout",
+    "horodatage_utc": "2026-10-29T13:45:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5ff980e77a67825f",
+    "categorie": "geopolitique",
+    "titre_affiche": "US tech stocks fall after earnings fuel AI spending concerns",
+    "horodatage_utc": "2026-10-29T13:36:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d004e4017a833084",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netanyahu’s party claims election ‘stolen’ by ‘foreign entities’",
+    "horodatage_utc": "2026-10-29T13:17:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f66a684c-4073-4cf8-b5b8-8851c72e8bc0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f5d6aedbcc9f0262",
+    "categorie": "geopolitique",
+    "titre_affiche": "Monetary policy decisions",
+    "horodatage_utc": "2026-10-29T13:15:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "89c25f15e89c1f0c",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI build-out hits snag as Google and Microsoft put off raising capex forecasts",
+    "horodatage_utc": "2026-10-29T12:10:29+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0370dd0a1a0fd3c2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alphabet drags on Nasdaq futures as the stock faces a record post-earnings loss",
+    "horodatage_utc": "2026-10-29T11:41:06+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-nasdaq-futures-record-post-earnings-loss.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1b4efe7ccbe3bd9c",
+    "categorie": "geopolitique",
+    "titre_affiche": "ECB President Lagarde to step down on 7 February 2027",
+    "horodatage_utc": "2026-10-29T10:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2a6a54a7a9eb7b27",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump calls for Alaska Democratic candidate to be banned from Senate race",
+    "horodatage_utc": "2026-10-29T09:51:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7526e915-2590-4b42-85df-20bb89040db8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
     "id": "82a2ca6e7f94f0ea",
     "categorie": "geopolitique",
     "titre_affiche": "US tech stocks set to fall after earnings fuel AI spending concerns",
@@ -52,13 +277,13 @@
     "horodatage_utc": "2026-10-29T05:00:30+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/0cb91253-62e1-4cdf-864e-61174b297e51?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dfb686ac387b570f",
@@ -72,6 +297,21 @@
     "tickers_ou_themes_lies": [
       "Israël - Gaza",
       "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9e02045ee2843466",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel’s ‘Houdini’ and his latest escape",
+    "horodatage_utc": "2026-10-29T05:00:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5c95fc2e-4019-462f-99cd-aefb8005b9e4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -165,21 +405,6 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "2a6a54a7a9eb7b27",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump calls for Alaska Democratic candidate to be banned from Senate race",
-    "horodatage_utc": "2026-10-28T22:28:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7526e915-2590-4b42-85df-20bb89040db8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   },
   {
     "id": "ea873b57466e1f66",
@@ -1585,233 +1810,6 @@
     "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e7a01f9a95712f18",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran hosts regional powers for talks to prevent renewed escalation",
-    "horodatage_utc": "2026-10-26T09:33:47+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7f6943d3-b089-49a7-a0bc-a6f677c09802?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "225e9993093b6e11",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil price falls back as traders remain focused on Middle East conflict",
-    "horodatage_utc": "2026-10-26T07:28:34+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ddd1d9c3e37ea419",
-    "categorie": "geopolitique",
-    "titre_affiche": "Scottish Greens set to vote on whether to support new nuclear power",
-    "horodatage_utc": "2026-10-26T07:15:00+00:00",
-    "source_nom": "GDELT/nuclear-news.net",
-    "url_source": "https://nuclear-news.net/2026/10/26/6-b1-scottish-greens-set-to-vote-on-whether-to-support-new-nuclear-power/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/nuclear-news.net. Elle se rattache à : Transition énergétique. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Transition énergétique"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "54d54caa5aa7eea0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump dials up Islamophobia against Abdul El - Sayed at Michigan Senate rally",
-    "horodatage_utc": "2026-10-26T07:15:00+00:00",
-    "source_nom": "GDELT/aljazeera.com",
-    "url_source": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aljazeera.com. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "bae04de1891d9704",
-    "categorie": "geopolitique",
-    "titre_affiche": "​ Vote for Bibi for PM : Trump Renews Pitch for Netanyahu as Israel Heads to Crucial Post - War Polls",
-    "horodatage_utc": "2026-10-26T07:15:00+00:00",
-    "source_nom": "GDELT/pragativadi.com",
-    "url_source": "https://pragativadi.com/vote-for-bibi-for-pm-trump-renews-pitch-for-netanyahu-as-israel-heads-to-crucial-post-war-polls/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "48c84925fedf7b76",
-    "categorie": "geopolitique",
-    "titre_affiche": "US military says it helped Gulf states export 1 . 5 billion barrels of oil",
-    "horodatage_utc": "2026-10-26T07:15:00+00:00",
-    "source_nom": "GDELT/aljazeera.com",
-    "url_source": "https://www.aljazeera.com/economy/2026/10/26/us-military-says-it-helped-gulf-states-export-1-5-billion-barrels-of-oil",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Conflits et sécurité"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "689e24428b440fa5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi Arabia to store oil in Singapore to bolster Asia supply security",
-    "horodatage_utc": "2026-10-26T07:15:00+00:00",
-    "source_nom": "GDELT/arynews.tv",
-    "url_source": "https://arynews.tv/saudi-arabia-to-store-oil-in-singapore-to-bolster-asia-supply-security",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "eff6cd0e4625a987",
-    "categorie": "geopolitique",
-    "titre_affiche": "Arab News | US touts role in Gulf oil exports as CENTCOM chief flies over Hormuz Strait",
-    "horodatage_utc": "2026-10-26T07:15:00+00:00",
-    "source_nom": "GDELT/arabnews.com",
-    "url_source": "https://www.arabnews.com/middle-east/us-touts-role-in-gulf-oil-exports-as-centcom-chief-flies-over-hormuz-strait-3008237",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d80fd95ebc7ec13f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sri Lanka repatriates 40 Iranian sailors after providing medical care",
-    "horodatage_utc": "2026-10-26T07:15:00+00:00",
-    "source_nom": "GDELT/dailyexcelsior.com",
-    "url_source": "https://www.dailyexcelsior.com/sri-lanka-repatriates-40-iranian-sailors-after-providing-medical-care/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/dailyexcelsior.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "25f424362e06cd7b",
-    "categorie": "geopolitique",
-    "titre_affiche": "How Lula turned his election fortunes around in three weeks",
-    "horodatage_utc": "2026-10-26T06:14:35+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/629894c7-e753-4e77-9794-c363c64dce9a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f1de8b105f106da1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Germany to tap Ukrainian tech with missile purchase",
-    "horodatage_utc": "2026-10-26T05:00:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f9476b15-c2b6-4b8b-86fc-58ae5795fb87?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7b0bb01961ec4a9d",
-    "categorie": "geopolitique",
-    "titre_affiche": "A day in Benjamin Netanyahu’s heartland",
-    "horodatage_utc": "2026-10-26T05:00:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/470fbc3a-fd2e-4ad3-8999-25d71e53d173",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c2276d030522ebe9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Peringatan Iran di Tengah Perang AS : Kawasan Timteng Tak Lagi Sama",
-    "horodatage_utc": "2026-10-26T05:00:00+00:00",
-    "source_nom": "GDELT/cnnindonesia.com",
-    "url_source": "https://www.cnnindonesia.com/internasional/20261025211712-120-1419506/peringatan-iran-di-tengah-perang-as-kawasan-timteng-tak-lagi-sama",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "30389a44dcd2531d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iranian sailors rescued off Sri Lanka coast after medical emergencies",
-    "horodatage_utc": "2026-10-26T05:00:00+00:00",
-    "source_nom": "GDELT/bbc.com",
-    "url_source": "https://www.bbc.com/news/articles/c9p8g7e4k2xjo",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a3fdb4f76927ab9c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Shares fall in Asia after a decline on Wall Street , and oil prices fall more than 1 %",
-    "horodatage_utc": "2026-10-26T05:00:00+00:00",
-    "source_nom": "GDELT/2news.com",
-    "url_source": "https://www.2news.com/news/national/shares-fall-in-asia-after-a-decline-on-wall-street-and-oil-prices-fall-more/article_ddc4a005-46f8-542f-8eca-7be2223b5dd5.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
