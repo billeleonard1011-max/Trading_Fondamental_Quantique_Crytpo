@@ -1,18 +1,213 @@
 [
   {
+    "id": "dec1fa769129fedf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon misses on earnings and holds capex steady, adding to AI spending jitters",
+    "horodatage_utc": "2026-10-29T20:35:26+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7079f301739b2faf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+    "horodatage_utc": "2026-10-29T20:30:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b8a6b4fc8b94e29e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+    "horodatage_utc": "2026-10-29T20:16:03+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "a07295995b0e58b1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value",
+    "horodatage_utc": "2026-10-29T20:15:19+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5ff980e77a67825f",
+    "categorie": "geopolitique",
+    "titre_affiche": "US tech stocks fall after earnings fuel AI spending concerns",
+    "horodatage_utc": "2026-10-29T20:10:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "bce19489019cff3b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Intel stock plunges 20% as chipmaker blames PC slowdown for weak guidance",
+    "horodatage_utc": "2026-10-29T20:06:00+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e078b7c709196920",
+    "categorie": "geopolitique",
+    "titre_affiche": "Intel stock falls 17% as it forecasts weaker chip sales",
+    "horodatage_utc": "2026-10-29T20:02:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5f28062577b6c968",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+    "horodatage_utc": "2026-10-29T19:16:32+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3a5a6e377e986893",
+    "categorie": "geopolitique",
+    "titre_affiche": "New Jersey governor threatens to block delivery of Russian diesel cargoes",
+    "horodatage_utc": "2026-10-29T17:58:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3d9ac5af-d6c7-48f8-a5b4-7b3b22cc243d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d004e4017a833084",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netanyahu’s party claims election ‘stolen’ by ‘foreign entities’",
+    "horodatage_utc": "2026-10-29T17:36:37+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f66a684c-4073-4cf8-b5b8-8851c72e8bc0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e25f81bb8e2795d2",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI buildout hits snag as Google and Microsoft put off raising capex forecasts",
+    "horodatage_utc": "2026-10-29T16:20:51+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3a7459c5ca8a3f26",
+    "categorie": "geopolitique",
+    "titre_affiche": "Christine Lagarde to step down as ECB president in February",
+    "horodatage_utc": "2026-10-29T16:02:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b31752f712358d55",
+    "categorie": "geopolitique",
+    "titre_affiche": "Druckenmiller backs push to bring risky perpetual futures to Wall Street",
+    "horodatage_utc": "2026-10-29T14:54:48+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/08dea965-63c8-4e63-a69d-b2c2a8e909eb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ae77ae4e6d9f2f9c",
     "categorie": "geopolitique",
     "titre_affiche": "Two fears will decide the fate of Anthropic’s giant IPO",
     "horodatage_utc": "2026-10-29T14:41:41+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6866e4159ef5f14c",
@@ -30,49 +225,19 @@
     "nouveaute": true
   },
   {
-    "id": "b8a6b4fc8b94e29e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
-    "horodatage_utc": "2026-10-29T14:34:21+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3a7459c5ca8a3f26",
-    "categorie": "geopolitique",
-    "titre_affiche": "Christine Lagarde to step down as ECB president in February",
-    "horodatage_utc": "2026-10-29T14:06:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "7e630931c20c89a2",
     "categorie": "geopolitique",
     "titre_affiche": "The two pragmatists leading the race to run the ECB",
     "horodatage_utc": "2026-10-29T14:04:42+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/281690fe-ac0c-43f1-9a36-a3e6b5ee175d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1390aef7475ce86c",
@@ -83,6 +248,21 @@
     "url_source": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c0f6a67870d731a0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+    "horodatage_utc": "2026-10-29T14:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
@@ -120,36 +300,6 @@
     "nouveaute": true
   },
   {
-    "id": "5ff980e77a67825f",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech stocks fall after earnings fuel AI spending concerns",
-    "horodatage_utc": "2026-10-29T13:36:16+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d004e4017a833084",
-    "categorie": "geopolitique",
-    "titre_affiche": "Netanyahu’s party claims election ‘stolen’ by ‘foreign entities’",
-    "horodatage_utc": "2026-10-29T13:17:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f66a684c-4073-4cf8-b5b8-8851c72e8bc0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "f5d6aedbcc9f0262",
     "categorie": "geopolitique",
     "titre_affiche": "Monetary policy decisions",
@@ -162,7 +312,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "89c25f15e89c1f0c",
@@ -192,7 +342,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1b4efe7ccbe3bd9c",
@@ -207,7 +357,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2a6a54a7a9eb7b27",
@@ -314,7 +464,7 @@
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "beb7ebaf4f8b582b",
@@ -1661,157 +1811,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "029ab95228d3b5b0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lula’s stunning comeback meets fiscal reality",
-    "horodatage_utc": "2026-10-26T18:14:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/79785581-88c2-49a9-a109-9d5ccafc3c7d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "57d635109866476a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump administration illegally fired Maurene Comey, judge rules",
-    "horodatage_utc": "2026-10-26T18:05:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/627ed704-f736-4fa2-91c9-67e53577fb7f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "64a5a4d6052c9ce8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s fresh campaign against wind power puts permitting deal in doubt",
-    "horodatage_utc": "2026-10-26T16:01:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8cdadf5d-5859-422d-982a-fab0e9f2a619?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Transition énergétique, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Transition énergétique",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a08b29b3db8b5317",
-    "categorie": "geopolitique",
-    "titre_affiche": "Who are the students set to govern Serbia?",
-    "horodatage_utc": "2026-10-26T14:06:44+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c3f29989-747e-4734-a29b-568b3c5e488a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "577ce0f3e410e73d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Meta announces $95 billion stock offering to fund AI expansion",
-    "horodatage_utc": "2026-10-26T14:05:36+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "599e975902e4cb2d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lula is re-elected Brazil’s president in knife-edge vote",
-    "horodatage_utc": "2026-10-26T13:52:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "bbebdf0cfe821cc7",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
-    "horodatage_utc": "2026-10-26T13:06:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "593dff5bdc1db163",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump, Netanyahu and the politics of escalation against Iran",
-    "horodatage_utc": "2026-10-26T11:37:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7b3c17e7-c0bf-4e93-bc5d-17f86fa1b2a5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "09a1aa20ee51a1b0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Serbia’s ex-president Vučić concedes defeat to Student List",
-    "horodatage_utc": "2026-10-26T11:14:38+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/546f21f5-22d3-4696-8371-7bef8c0410b3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "0ae622d6c6c19acf",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.5 - 56 km S of Kuril’sk, Russia",
-    "horodatage_utc": "2026-10-26T10:02:21+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4yj",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
