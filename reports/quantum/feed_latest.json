@@ -1,5 +1,20 @@
 [
   {
+    "id": "32e4e3174c6351d4",
+    "categorie": "quantique",
+    "titre_affiche": "Infleqtion Tests Optical Atomic Clock During US Navy Exercise",
+    "horodatage_utc": "2026-10-30T13:50:41+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/10/30/infleqtion-optical-atomic-clock-navy-exercise/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Infleqtion"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "4de886cd9f337ab5",
     "categorie": "quantique",
     "titre_affiche": "Alice & Bob Estimates 22,593 Qubits to Break RSA-2048",
@@ -1792,21 +1807,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Quantinuum"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "615758d4c7c4c81d",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ Demonstrates 1 kHz Memory-Enhanced Quantum Interconnect Connecting Trapped Ions and Diamond Color Centers",
-    "horodatage_utc": "2026-10-09T14:59:44+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ionq-demonstrates-1-khz-memory-enhanced-quantum-interconnect-connecting-trapped-ions-and-diamond-color-centers/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": false

@@ -1,8 +1,132 @@
 [
   {
+    "id": "345bbccd80ccfa8b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
+    "horodatage_utc": "2026-10-30T18:32:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "dd655686fd3e5555",
+    "categorie": "geopolitique",
+    "titre_affiche": "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
+    "horodatage_utc": "2026-10-30T18:08:07+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Crypto-actifs, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "040bdf39fb2ce31d",
+    "categorie": "geopolitique",
+    "titre_affiche": "US tech stocks tumble as earnings stoke AI spending fears",
+    "horodatage_utc": "2026-10-30T17:30:44+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b19b38fd705cda24",
+    "categorie": "geopolitique",
+    "titre_affiche": "Binance rushes to recover customer money after $6.3bn heist",
+    "horodatage_utc": "2026-10-30T16:59:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "987e4213a283a045",
+    "categorie": "geopolitique",
+    "titre_affiche": "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake",
+    "horodatage_utc": "2026-10-30T16:54:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e09ed434ca12bfae",
+    "categorie": "geopolitique",
+    "titre_affiche": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
+    "horodatage_utc": "2026-10-30T15:14:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c948b503c22dafc0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "horodatage_utc": "2026-10-30T14:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "0ede91479c44e1f4",
     "categorie": "geopolitique",
     "titre_affiche": "Qatari mediators return to Tehran in last-ditch effort to broker interim deal",
+    "horodatage_utc": "2026-10-30T12:14:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/293a8f46-dd7d-4d63-a974-150ecafe7e4c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a6037232a68632a6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Qatari negotiators return to Tehran in last-ditch mediation effort",
     "horodatage_utc": "2026-10-30T12:14:52+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/293a8f46-dd7d-4d63-a974-150ecafe7e4c?syn-25a6b1a6=1",
@@ -22,13 +146,13 @@
     "horodatage_utc": "2026-10-30T12:01:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/66ba3e98-26f5-46f1-9af3-5854364b4e9f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "da8cc9887e8124ad",
@@ -85,15 +209,15 @@
     "horodatage_utc": "2026-10-30T11:20:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/46c03338-63d5-43fc-a946-ebcbe9e1c07a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes, Conflits et sécurité, Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes",
       "Conflits et sécurité",
       "Sanctions, accords et diplomatie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3c7eb2a1935dba51",
@@ -102,13 +226,13 @@
     "horodatage_utc": "2026-10-30T11:00:01+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2e00f21dd881f500",
@@ -140,7 +264,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3cab6fe9c3dae35f",
@@ -185,7 +309,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "648da905e016d791",
@@ -200,7 +324,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "51d82b5d57afdd11",
@@ -262,6 +386,21 @@
     ],
     "portee": "influence",
     "nouveaute": false
+  },
+  {
+    "id": "61669a6401f84036",
+    "categorie": "geopolitique",
+    "titre_affiche": "The trouble with small nuclear reactors",
+    "horodatage_utc": "2026-10-30T05:00:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/da1af660-c1d0-4c8b-8f94-e84052344448?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Transition énergétique. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Transition énergétique"
+    ],
+    "portee": "influence",
+    "nouveaute": true
   },
   {
     "id": "f7364b9aabd8dab0",
@@ -1679,141 +1818,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "9afe3c14b984602c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Three Russian diesel tankers steam for US — including two under sanctions",
-    "horodatage_utc": "2026-10-27T12:05:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d847744f-cfa5-4dc5-bdd2-faeee0b584f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "970f82b28141592a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Dirty tricks and Maga theatrics shake up bruising battle for Texas Senate",
-    "horodatage_utc": "2026-10-27T11:00:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e9475864-d8ae-401e-8a3e-e3a7fa75f0c1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "67b27f5be4cf55a0",
-    "categorie": "geopolitique",
-    "titre_affiche": "US voters and Trump’s overflowing swamp",
-    "horodatage_utc": "2026-10-27T10:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/51dbeefc-442b-4aac-b48b-042a0d6862a0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "65909978db43efd8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Silicon Valley AI political groups turn on each other in the 2026 election",
-    "horodatage_utc": "2026-10-27T10:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "e5cc06a3ae156aef",
-    "categorie": "geopolitique",
-    "titre_affiche": "Porsche rules out US production despite VW’s Audi deal with Trump",
-    "horodatage_utc": "2026-10-27T09:16:47+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/28cc52cf-adb2-4582-9f6e-bd4b93cba68f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "53df4980a9c35e0b",
-    "categorie": "geopolitique",
-    "titre_affiche": "HSBC shares slide as results disappoint",
-    "horodatage_utc": "2026-10-27T08:00:50+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fd23db26-a45b-4a98-b771-4234a30b7937?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f8502d57a86f8db4",
-    "categorie": "geopolitique",
-    "titre_affiche": "US designates three Iranian B747s for Russia flights - ch - aviation",
-    "horodatage_utc": "2026-10-27T05:15:00+00:00",
-    "source_nom": "GDELT/ch-aviation.com",
-    "url_source": "https://www.ch-aviation.com/news/119687-us-designates-three-iranian-b747s-for-russia-flights",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "292b8a91625213d1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Saudi - led coalition says it intercepts three Houthi missiles , four drones",
-    "horodatage_utc": "2026-10-27T05:15:00+00:00",
-    "source_nom": "GDELT/pakistantimes.com",
-    "url_source": "https://www.pakistantimes.com/saudi-led-coalition-says-it-intercepts-three-houthi-missiles-four-drones-15853/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/pakistantimes.com. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8254c6cd133f6934",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Tegaskan Selat Hormuz dalam Kendalinya , Kapal Asing Terancam Rusak jika Langgar Aturan",
-    "horodatage_utc": "2026-10-27T05:15:00+00:00",
-    "source_nom": "GDELT/viva.co.id",
-    "url_source": "https://www.viva.co.id/berita/dunia/1938916-iran-tegaskan-selat-hormuz-dalam-kendalinya-kapal-asing-terancam-rusak-jika-langgar-aturan",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/viva.co.id. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
