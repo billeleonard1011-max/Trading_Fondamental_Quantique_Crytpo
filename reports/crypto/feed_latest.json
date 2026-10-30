@@ -1,5 +1,51 @@
 [
   {
+    "id": "f12ed55d32eaa71c",
+    "categorie": "crypto",
+    "titre_affiche": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+    "horodatage_utc": "2026-10-30T04:50:42+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f8005577da28613f",
+    "categorie": "crypto",
+    "titre_affiche": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
+    "horodatage_utc": "2026-10-30T04:00:43+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "72b62f718c5c0eeb",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slides below $77,000, BNB drops amid Binance hack",
+    "horodatage_utc": "2026-10-30T02:22:31+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "4911284cf2c99165",
     "categorie": "crypto",
     "titre_affiche": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks",
@@ -1757,50 +1803,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "ee5247c8f866ff70",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum Price Prediction : What Could ETH Be Worth by 2028 ?",
-    "horodatage_utc": "2026-10-21T21:15:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/ethereum-price-prediction-could-eth-203043000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "37d1898595e2e7be",
-    "categorie": "crypto",
-    "titre_affiche": "Anza’s Alpenglow goes live on Solana, cutting finality to 150 milliseconds",
-    "horodatage_utc": "2026-10-21T14:24:39+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-10-21-anzas-alpenglow-goes-live-on-solana-cutting-finality-to-150-milliseconds-421508",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a56656b391fd9ccc",
-    "categorie": "crypto",
-    "titre_affiche": "Dogecoin wallet, app teams unite in push to give DOGE more everyday uses",
-    "horodatage_utc": "2026-10-21T12:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/21/dogecoin-wallet-app-teams-unite-in-push-to-give-doge-more-everyday-uses",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "DOGE"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
