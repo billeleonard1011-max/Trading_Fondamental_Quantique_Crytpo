@@ -1,11 +1,11 @@
 [
   {
-    "id": "f12ed55d32eaa71c",
+    "id": "259c4525232123ba",
     "categorie": "crypto",
-    "titre_affiche": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
-    "horodatage_utc": "2026-10-30T04:50:42+00:00",
+    "titre_affiche": "Here's how big bitcoin traders responded after the Binance hack hit",
+    "horodatage_utc": "2026-10-30T11:51:26+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,68 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "4dffded2f34fe32f",
+    "categorie": "crypto",
+    "titre_affiche": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss",
+    "horodatage_utc": "2026-10-30T11:35:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "12cecc837ef25609",
+    "categorie": "crypto",
+    "titre_affiche": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+    "horodatage_utc": "2026-10-30T11:09:24+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "691fdc00164067e6",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
+    "horodatage_utc": "2026-10-30T06:22:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f12ed55d32eaa71c",
+    "categorie": "crypto",
+    "titre_affiche": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+    "horodatage_utc": "2026-10-30T04:50:42+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "f8005577da28613f",
@@ -31,19 +93,34 @@
     "nouveaute": true
   },
   {
+    "id": "00faf1a3a43575df",
+    "categorie": "crypto",
+    "titre_affiche": "Standard Chartered sees more pain after $6 billion Binance hack sends bitcoin lower",
+    "horodatage_utc": "2026-10-30T04:00:43+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "72b62f718c5c0eeb",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin slides below $77,000, BNB drops amid Binance hack",
     "horodatage_utc": "2026-10-30T02:22:31+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4911284cf2c99165",
@@ -1728,80 +1805,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "a2173a5d0799507d",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
-    "horodatage_utc": "2026-10-22T04:41:59+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9fc963c4e776927f",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-    "horodatage_utc": "2026-10-22T03:51:34+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "de5bc46d16d1d966",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin is bullish !",
-    "horodatage_utc": "2026-10-21T23:00:00+00:00",
-    "source_nom": "GDELT/kitco.com",
-    "url_source": "http://www.kitco.com/opinion/2026-10-21/bitcoin-bullish",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/kitco.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "9c8cf94d509f7ec0",
-    "categorie": "crypto",
-    "titre_affiche": "Engineer Gets 32 Months for Bitcoin Extortion Plot Against His Own Employer",
-    "horodatage_utc": "2026-10-21T22:45:00+00:00",
-    "source_nom": "GDELT/decrypt.co",
-    "url_source": "https://decrypt.co/380284/engineer-gets-32-months-for-bitcoin-extortion-plot-against-his-own-employer&t=engineer%20gets%2032%20months%20for%20bitcoin%20extortion%20plot%20against%20his%20own%20employer&fnp_t=1792619292.1bbf0a151b7700e5",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/decrypt.co. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "c519d619aa66040b",
-    "categorie": "crypto",
-    "titre_affiche": "Gas Prices Are Skyrocketing . Can Bitcoin Actually Hedge Against Inflation ?",
-    "horodatage_utc": "2026-10-21T22:00:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/gas-prices-skyrocketing-bitcoin-actually-205100000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
