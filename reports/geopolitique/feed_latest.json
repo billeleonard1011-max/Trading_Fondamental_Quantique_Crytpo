@@ -1,11 +1,90 @@
 [
   {
-    "id": "345bbccd80ccfa8b",
+    "id": "997caa0a0eeae506",
     "categorie": "geopolitique",
-    "titre_affiche": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
-    "horodatage_utc": "2026-10-30T18:32:17+00:00",
+    "titre_affiche": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
+    "horodatage_utc": "2026-10-30T22:17:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e84eceda-040b-4e5f-b906-09768085933a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "abf750c2398719b8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
+    "horodatage_utc": "2026-10-30T22:17:13+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
+    "url_source": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque, Croissance et emploi, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Croissance et emploi",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b19b38fd705cda24",
+    "categorie": "geopolitique",
+    "titre_affiche": "Binance rushes to recover customer money after $6.3bn heist",
+    "horodatage_utc": "2026-10-30T22:12:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "9880a5329343a770",
+    "categorie": "geopolitique",
+    "titre_affiche": "US greenlights $2.1bn sale of Patriot interceptors to Ukraine",
+    "horodatage_utc": "2026-10-30T21:28:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "28cdcae7429b254e",
+    "categorie": "geopolitique",
+    "titre_affiche": "US tech stocks tumble as concerns over AI spending intensify",
+    "horodatage_utc": "2026-10-30T21:13:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1901ed86bc18940a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+    "horodatage_utc": "2026-10-30T20:30:57+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,20 +94,50 @@
     "nouveaute": true
   },
   {
+    "id": "4a5f4e791812f6f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.5 - 236 km ESE of Zyryanka, Russia",
+    "horodatage_utc": "2026-10-30T19:32:35+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tudk",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "dd655686fd3e5555",
     "categorie": "geopolitique",
     "titre_affiche": "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
-    "horodatage_utc": "2026-10-30T18:08:07+00:00",
+    "horodatage_utc": "2026-10-30T19:27:03+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Crypto-actifs, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs",
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
+  },
+  {
+    "id": "345bbccd80ccfa8b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
+    "horodatage_utc": "2026-10-30T18:32:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
   },
   {
     "id": "040bdf39fb2ce31d",
@@ -43,22 +152,6 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b19b38fd705cda24",
-    "categorie": "geopolitique",
-    "titre_affiche": "Binance rushes to recover customer money after $6.3bn heist",
-    "horodatage_utc": "2026-10-30T16:59:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "actif_direct",
     "nouveaute": true
   },
   {
@@ -77,20 +170,50 @@
     "nouveaute": true
   },
   {
+    "id": "b1b8ca87490ff8ca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Pensioners bet on a lifetime cruise. They ended up in a Cambodian scam town",
+    "horodatage_utc": "2026-10-30T16:37:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e64a4e33-c69b-4582-9e89-ac1b23ba1a3f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "40a600c3eb8e1026",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia observes rare Ukraine ceasefire to allow evacuations",
+    "horodatage_utc": "2026-10-30T16:13:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a6e29400-95bb-453e-8cc6-55c54d857024",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "e09ed434ca12bfae",
     "categorie": "geopolitique",
     "titre_affiche": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
     "horodatage_utc": "2026-10-30T15:14:27+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c948b503c22dafc0",
@@ -1698,125 +1821,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "bb0384cd750864d7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
-    "horodatage_utc": "2026-10-27T14:19:36+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "abea67e3ffd757c1",
-    "categorie": "geopolitique",
-    "titre_affiche": "GM to switch listing from NYSE to Nasdaq as it accelerates AI push",
-    "horodatage_utc": "2026-10-27T14:02:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/01467514-66c1-4375-9906-45a47b949270?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "19dedbcb2ac7ced3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lula faces a fiscal reckoning after Brazil’s market rout",
-    "horodatage_utc": "2026-10-27T13:15:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0231b234-14dc-4ff0-8263-e1063b0a25d5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2f364bfffa7a1a17",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bolsonaro says he was ordered to surrender passport as his party concedes election",
-    "horodatage_utc": "2026-10-27T12:47:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "a50151e7db1fa18c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia and Ukraine begin local ceasefire in frontline city",
-    "horodatage_utc": "2026-10-27T12:33:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/9aedc2d9-dc92-4412-bc5a-d5ffecf4d8d9",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fbc2a2153abd1015",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin speaks with Norwegian and Finnish leaders",
-    "horodatage_utc": "2026-10-27T12:13:49+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a384acd1-c90c-4b71-bf7d-6c6e00bf9822?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "46cebd67d8eeffe3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israel election turnout highest since 1973 in historic vote",
-    "horodatage_utc": "2026-10-27T12:11:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/87d81352-5086-44bd-a5bb-797582e2d07c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6ee15078e8442bd5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tech's relief rally extends as attention turns to tough decisions for the Fed",
-    "horodatage_utc": "2026-10-27T12:09:19+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/27/tech-rally-fed-decision.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
