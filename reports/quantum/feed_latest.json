@@ -1,18 +1,48 @@
 [
   {
+    "id": "4a66cd471f6753aa",
+    "categorie": "quantique",
+    "titre_affiche": "Infleqtion Operates Tiqker Optical Atomic Clock Aboard U.S. Navy Vessel During Pacific Military Exercises",
+    "horodatage_utc": "2026-10-30T23:56:35+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/infleqtion-operates-tiqker-optical-atomic-clock-aboard-u-s-navy-vessel-during-pacific-military-exercises/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Infleqtion"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e55c60a2adc0554e",
+    "categorie": "quantique",
+    "titre_affiche": "Alice & Bob Demonstrates End-to-End Shor’s Algorithm Compilation Requiring 23,000 Cat Qubits to Break RSA-2048",
+    "horodatage_utc": "2026-10-30T22:46:33+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Alice & Bob. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Alice & Bob"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "0c6c580cee2a291f",
     "categorie": "quantique",
     "titre_affiche": "E.ON, Qoro Quantum, and NQCC Scale Constrained Optimization on IBM Heron QPUs via Distributed QAOA and Spatial Packing",
     "horodatage_utc": "2026-10-30T22:09:32+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "32e4e3174c6351d4",
@@ -1777,36 +1807,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "8e1b33c8f3236e2a",
-    "categorie": "quantique",
-    "titre_affiche": "Xanadu Cuts Quantum Read-Only Memory Costs by ~4x via Dense Encoding",
-    "horodatage_utc": "2026-10-10T18:45:30+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/xanadu-cuts-quantum-read-only-memory-costs-by-4x-via-dense-encoding/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Xanadu"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9078a0ebb591601d",
-    "categorie": "quantique",
-    "titre_affiche": "Quantum X Labs Expands Intellectual Property and R&D Across Neutral-Atom Hardware, Rydberg Sensing, and Circuit Security",
-    "horodatage_utc": "2026-10-10T00:09:23+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/quantum-x-labs-expands-intellectual-property-and-rd-across-neutral-atom-hardware-rydberg-sensing-and-circuit-security/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Intel"
     ],
     "portee": "actif_direct",
     "nouveaute": false
