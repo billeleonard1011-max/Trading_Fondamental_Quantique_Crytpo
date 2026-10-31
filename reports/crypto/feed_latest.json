@@ -1,5 +1,20 @@
 [
   {
+    "id": "13029293e39de15e",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+    "horodatage_utc": "2026-10-31T05:01:32+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "4a67e36015ddcb69",
     "categorie": "crypto",
     "titre_affiche": "Strategy’s preferred-stock fix sets up renewed bitcoin buying, analysts say",
@@ -1785,21 +1800,6 @@
     "url_source": "https://www.finanzen.net/nachricht/devisen/kryptokurse-am-vormittag-16000636",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "69ab122790fd976b",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin haftanın zirvesinden geri çekildi",
-    "horodatage_utc": "2026-10-22T08:00:00+00:00",
-    "source_nom": "GDELT/haberler.com",
-    "url_source": "https://www.haberler.com/kripto-para/bitcoin-haftanin-zirvesinden-geri-cekildi-20354476-haberi/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/haberler.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],

@@ -1,5 +1,50 @@
 [
   {
+    "id": "a2f4cdd9e3958d18",
+    "categorie": "geopolitique",
+    "titre_affiche": "US approves $2.1bn sale of Patriot interceptors to Ukraine",
+    "horodatage_utc": "2026-10-31T07:04:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7c1596de4e8834ea",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lula’s surprise election victory sends agri-commodities tumbling",
+    "horodatage_utc": "2026-10-31T05:00:31+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f0ca6771-20a2-4146-bd3f-4796d3c86094?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "22b95ca87fc8b646",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump’s endgame",
+    "horodatage_utc": "2026-10-31T05:00:20+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c344ed8a-4e4b-43f8-a570-d8101864d929?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "997caa0a0eeae506",
     "categorie": "geopolitique",
     "titre_affiche": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
@@ -1776,50 +1821,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "4da781958a1609be",
-    "categorie": "geopolitique",
-    "titre_affiche": "Flávio Bolsonaro’s passport cancelled as reports say he has fled Brazil",
-    "horodatage_utc": "2026-10-27T17:52:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f294230a-0956-4c8c-9bb5-4dd5b6e7438a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "c2a47ab7c8e4bbe5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ripple strikes deal with Robinhood to expand its RLUSD digital dollar",
-    "horodatage_utc": "2026-10-27T16:35:45+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/27/ripple-strikes-deal-with-robinhood-to-expand-its-rlusd-digital-dollar.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c4b55cda668d0c22",
-    "categorie": "geopolitique",
-    "titre_affiche": "EU pressures allies over looming Ukraine funding crunch",
-    "horodatage_utc": "2026-10-27T16:04:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8aba217f-064f-4193-89fc-3565bd2ee910?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]

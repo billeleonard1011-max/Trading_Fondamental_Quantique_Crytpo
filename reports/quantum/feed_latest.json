@@ -1,18 +1,48 @@
 [
   {
+    "id": "e9a924f8f9e32741",
+    "categorie": "quantique",
+    "titre_affiche": "Sandia and Quantinuum Introduce Logical Gate Set Tomography to Map Fault-Tolerant Qubit Noise",
+    "horodatage_utc": "2026-10-31T02:40:36+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/sandia-and-quantinuum-introduce-logical-gate-set-tomography-to-map-fault-tolerant-qubit-noise/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Quantinuum"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "806a10acd44aee1c",
+    "categorie": "quantique",
+    "titre_affiche": "Quantinuum Chief Scientist Argues Physical Fidelity Trumps Gate Speed in Fault-Tolerant Scaling Race",
+    "horodatage_utc": "2026-10-31T02:26:32+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quantinuum-chief-scientist-argues-physical-fidelity-trumps-gate-speed-in-fault-tolerant-scaling-race/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Quantinuum"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "4a66cd471f6753aa",
     "categorie": "quantique",
     "titre_affiche": "Infleqtion Operates Tiqker Optical Atomic Clock Aboard U.S. Navy Vessel During Pacific Military Exercises",
     "horodatage_utc": "2026-10-30T23:56:35+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/infleqtion-operates-tiqker-optical-atomic-clock-aboard-u-s-navy-vessel-during-pacific-military-exercises/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Infleqtion. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Infleqtion"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e55c60a2adc0554e",
@@ -1777,36 +1807,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c9f91d93ba870df7",
-    "categorie": "quantique",
-    "titre_affiche": "IBM Launches Directed Execution Model and Executor Primitive to Give Researchers Client-Side Control Over QEC Workflows",
-    "horodatage_utc": "2026-10-10T22:55:26+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "81d757612cb79d9e",
-    "categorie": "quantique",
-    "titre_affiche": "IBM Expands Qiskit Beyond Python with Native C API Bindings for Fortran, C++, and Julia",
-    "horodatage_utc": "2026-10-10T22:32:25+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
     ],
     "portee": "actif_direct",
     "nouveaute": false
