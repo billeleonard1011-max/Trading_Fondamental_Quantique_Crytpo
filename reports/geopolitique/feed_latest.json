@@ -1,5 +1,84 @@
 [
   {
+    "id": "f276472a8e059a65",
+    "categorie": "geopolitique",
+    "titre_affiche": "Investors trim growth bets over fears of US economy’s AI exposure",
+    "horodatage_utc": "2026-10-31T14:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a93c5cc693358dd1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran warns it will retaliate without ‘geographical limitations’ if attacked",
+    "horodatage_utc": "2026-10-31T13:38:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/77370477-62df-4499-9ab6-4063d3e361bd?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e1f026716cd2896d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+    "horodatage_utc": "2026-10-31T13:04:29+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Crypto-actifs, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Élections et politique intérieure"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d66f903ede4815c9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Steve Bannon: Republicans will erupt in ‘civil war’ after midterm elections",
+    "horodatage_utc": "2026-10-31T12:00:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a97de5ca-484e-4ed9-84e0-958b90b85ef8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "6eb3ba76457d44ce",
+    "categorie": "geopolitique",
+    "titre_affiche": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
+    "horodatage_utc": "2026-10-31T10:38:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c7062e37-86fd-45ef-8f58-573de0fcaaf0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "a2f4cdd9e3958d18",
     "categorie": "geopolitique",
     "titre_affiche": "US approves $2.1bn sale of Patriot interceptors to Ukraine",
@@ -10,6 +89,21 @@
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8403f65f93b78009",
+    "categorie": "geopolitique",
+    "titre_affiche": "French banks’ rising profits fail to reverse sell-off as political fears bite",
+    "horodatage_utc": "2026-10-31T05:00:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d1c2c34b-7bfb-470a-a51d-bbada1c6ccef?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -36,13 +130,13 @@
     "horodatage_utc": "2026-10-31T05:00:20+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/c344ed8a-4e4b-43f8-a570-d8101864d929?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "997caa0a0eeae506",
@@ -1724,96 +1818,6 @@
     "horodatage_utc": "2026-10-27T22:24:19+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c625bc18a587d5d1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Washington to issue Flávio Bolsonaro US visa after election loss",
-    "horodatage_utc": "2026-10-27T21:41:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f294230a-0956-4c8c-9bb5-4dd5b6e7438a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "acd8ff75c250c169",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israel election turnout highest in decades",
-    "horodatage_utc": "2026-10-27T19:13:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/87d81352-5086-44bd-a5bb-797582e2d07c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2a5d6e0c127969c9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Washington discusses Russian deals for US oil majors in Ukraine peace talks",
-    "horodatage_utc": "2026-10-27T19:06:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d703aaae-f607-4b30-9830-ac2a25472d44?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "607111b77c7cd7c6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI",
-    "horodatage_utc": "2026-10-27T18:57:45+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "019771bac7900acd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin lectures Nordic leaders on Russian history",
-    "horodatage_utc": "2026-10-27T18:50:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a384acd1-c90c-4b71-bf7d-6c6e00bf9822?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "dd716026215e25e4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Apple hit by ‘Crackgate’ outcry over iPhone Duo screen problems",
-    "horodatage_utc": "2026-10-27T17:55:41+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/324875fb-8631-4339-8516-6057de9ac085?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
