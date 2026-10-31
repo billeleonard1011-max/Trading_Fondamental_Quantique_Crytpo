@@ -3,31 +3,46 @@
     "id": "e8dccb91beba4f2c",
     "categorie": "geopolitique",
     "titre_affiche": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
-    "horodatage_utc": "2026-10-31T19:16:25+00:00",
+    "horodatage_utc": "2026-10-31T22:27:56+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "13635f9698000c78",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.0 - 115 km SE of Bushehr, Iran",
+    "horodatage_utc": "2026-10-31T21:35:56+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tukm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
     "id": "8e4ed7621d32eb62",
     "categorie": "geopolitique",
     "titre_affiche": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
-    "horodatage_utc": "2026-10-31T18:56:37+00:00",
+    "horodatage_utc": "2026-10-31T20:12:37+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "331f2ca94a2018f8",
@@ -36,13 +51,13 @@
     "horodatage_utc": "2026-10-31T15:37:11+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a6d4001364e37737",
@@ -51,13 +66,13 @@
     "horodatage_utc": "2026-10-31T15:17:34+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/55dfa145-4078-450f-a853-5f2d551260f1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f276472a8e059a65",
@@ -1809,20 +1824,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "15aeae288ac7f10f",
-    "categorie": "geopolitique",
-    "titre_affiche": "No clear winner in Israeli parliamentary election, exit polls suggest",
-    "horodatage_utc": "2026-10-28T02:43:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6dab34da-a039-46e6-9547-0c7213a00001?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
