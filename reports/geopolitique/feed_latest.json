@@ -1,15 +1,46 @@
 [
   {
-    "id": "86568dc876b8670b",
+    "id": "1a60ea7ae1698e9a",
     "categorie": "geopolitique",
-    "titre_affiche": "Junk debt rout sparks ‘bloodbath’ for credit investors",
-    "horodatage_utc": "2026-11-01T14:54:55+00:00",
+    "titre_affiche": "Michigan Democrat Haley Stevens endorses Republican instead of Abdul El-Sayed",
+    "horodatage_utc": "2026-11-01T18:50:24+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fdc9a85d-d2c4-465f-99ca-609d68b6d443?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bbd9c64927313ad7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gulf braced for escalation of war between US-Israel alliance and Iran",
+    "horodatage_utc": "2026-11-01T18:02:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "750f5523e6923ad7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Blue Lagoon owner plans to float as Icelandic tourism booms",
+    "horodatage_utc": "2026-11-01T18:00:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6a3c6f12-cada-4368-8aad-4deb4db13fcb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -18,9 +49,39 @@
     "id": "233781723d77518b",
     "categorie": "geopolitique",
     "titre_affiche": "Trump makes final pitch to restive voters in midterms campaign",
-    "horodatage_utc": "2026-11-01T14:51:29+00:00",
+    "horodatage_utc": "2026-11-01T16:54:05+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "4fd530342f4822c7",
+    "categorie": "geopolitique",
+    "titre_affiche": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
+    "horodatage_utc": "2026-11-01T16:34:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "13632321d7b6eda3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Inside the leaderless movement set to govern Serbia",
+    "horodatage_utc": "2026-11-01T16:12:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4e09cf90-7395-4dc4-afa8-a4fa71abe2b3?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -30,34 +91,34 @@
     "nouveaute": true
   },
   {
+    "id": "86568dc876b8670b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Junk debt rout sparks ‘bloodbath’ for credit investors",
+    "horodatage_utc": "2026-11-01T14:54:55+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fdc9a85d-d2c4-465f-99ca-609d68b6d443?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "322a52e73e4e4d49",
     "categorie": "geopolitique",
     "titre_affiche": "Why AI is boosting Meta's ad business while hurting Google search",
     "horodatage_utc": "2026-11-01T14:31:29+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4fd530342f4822c7",
-    "categorie": "geopolitique",
-    "titre_affiche": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
-    "horodatage_utc": "2026-11-01T14:09:05+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9d012802c224fff7",
@@ -66,13 +127,13 @@
     "horodatage_utc": "2026-11-01T12:19:33+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "00e6f3075ee68e36",
@@ -173,13 +234,13 @@
     "horodatage_utc": "2026-11-01T05:00:00+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/video/fbc0f62e-50ea-4509-9fa7-32f00c98c424?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "10cb76d18dd5028f",
@@ -1765,65 +1826,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "ac90bb4749e8f398",
-    "categorie": "geopolitique",
-    "titre_affiche": "How Israel’s opposition fell short against Netanyahu",
-    "horodatage_utc": "2026-10-28T17:45:48+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6a370b14-23e9-43e9-8489-2732ac5a74f3",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ecef7f54d28e42e5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israel’s Arabs seek a slice of power",
-    "horodatage_utc": "2026-10-28T17:40:19+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e73bd81d-89b4-4ef4-9be0-459bcc97633b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "58ba595cfea4df76",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
-    "horodatage_utc": "2026-10-28T17:39:43+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b927540da27747af",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
-    "horodatage_utc": "2026-10-28T16:33:22+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
