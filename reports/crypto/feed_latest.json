@@ -1,5 +1,20 @@
 [
   {
+    "id": "b6211a44693841a9",
+    "categorie": "crypto",
+    "titre_affiche": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+    "horodatage_utc": "2026-11-01T10:35:42+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "325f147f1b5c7c76",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
@@ -1780,21 +1795,6 @@
     "id": "c55aeea0dd102673",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
-    "horodatage_utc": "2026-10-22T09:54:26+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "13a05437e65fc688",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin slumps below $82,000 as markets go risk off on AI selloff, oil surge",
     "horodatage_utc": "2026-10-22T09:54:26+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
