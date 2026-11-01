@@ -1,5 +1,82 @@
 [
   {
+    "id": "bef930cf763fd00f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil majors resist pressure to invest in new refineries as fuel prices keep rising",
+    "horodatage_utc": "2026-11-01T05:00:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4d63f08d-3556-4d84-8e1d-40f866741d15?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d1f033090c2f567b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Germany fails to meet winter gas storage target",
+    "horodatage_utc": "2026-11-01T05:00:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/99b0bbf1-4604-4e56-bc66-9f49d2814737?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fe7071a6209ae8b8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bond investors sit out ‘most consequential’ US midterm elections in years",
+    "horodatage_utc": "2026-11-01T05:00:17+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "8f86a488e7e937cc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia forced to ship grain via Arctic as Black Sea battles rage",
+    "horodatage_utc": "2026-11-01T05:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/50aeab56-c5e3-44c5-9117-8fadc2f980fb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8d1c145604a01bf5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Military briefing: what would another US-Iran conflict look like?",
+    "horodatage_utc": "2026-11-01T05:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/89e3ff89-c097-44cb-a290-0d46726e6075?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza, Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "10cb76d18dd5028f",
     "categorie": "geopolitique",
     "titre_affiche": "Toyota-backed truckmaker bets on aftersales service to fend off Chinese EV rivals",
@@ -21,13 +98,13 @@
     "horodatage_utc": "2026-10-31T23:57:07+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e8dccb91beba4f2c",
@@ -1749,80 +1826,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "1840b2235a9b73ca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenskyy opens door to security guarantees for Russia",
-    "horodatage_utc": "2026-10-28T09:58:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8ec7d6f2-403a-4f80-89fc-5ed5e75fed63?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d821177e35818d75",
-    "categorie": "geopolitique",
-    "titre_affiche": "Netanyahu ahead but no clear winner in Israeli election",
-    "horodatage_utc": "2026-10-28T09:48:35+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6dab34da-a039-46e6-9547-0c7213a00001?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d7e16a60bece28f7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bolsonaro lands in US after fleeing Brazil following election defeat",
-    "horodatage_utc": "2026-10-28T08:42:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ec7a3e3e-21e3-44de-81ee-db2f2073bee3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "19343319531d383e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israel’s election: what happens next?",
-    "horodatage_utc": "2026-10-28T08:18:16+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4f122702-3765-4e9f-a94f-4b786bc2af15",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e902fdba49c21476",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.0 - 205 km SSE of Vilyuchinsk, Russia",
-    "horodatage_utc": "2026-10-28T06:35:03+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttmb",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
