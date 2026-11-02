@@ -1,5 +1,50 @@
 [
   {
+    "id": "95d3be4a59106afa",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+    "horodatage_utc": "2026-11-02T04:42:22+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "5608f25835bc24db",
+    "categorie": "crypto",
+    "titre_affiche": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
+    "horodatage_utc": "2026-11-02T04:41:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2a9b9e4860ee44b5",
+    "categorie": "crypto",
+    "titre_affiche": "Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack",
+    "horodatage_utc": "2026-11-02T04:11:05+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b6211a44693841a9",
     "categorie": "crypto",
     "titre_affiche": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
@@ -1759,51 +1804,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "9b3c998188cb900c",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
-    "horodatage_utc": "2026-10-22T10:50:04+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4c388c6b7df7e85b",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak",
-    "horodatage_utc": "2026-10-22T09:56:16+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c55aeea0dd102673",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
-    "horodatage_utc": "2026-10-22T09:54:26+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]

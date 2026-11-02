@@ -1,9 +1,39 @@
 [
   {
+    "id": "6e14878cc634c99a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships",
+    "horodatage_utc": "2026-11-02T02:58:53+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/02/openai-sam-altman-samsung-sk-south-korea.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ce8ae3ed73c5f22f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Japanese groups stage $21bn deal spree to secure gas supplies",
+    "horodatage_utc": "2026-11-02T01:56:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9652cb30-c8b1-4f36-993f-54f7827d2174?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "233781723d77518b",
     "categorie": "geopolitique",
     "titre_affiche": "Trump makes final pitch to restive voters in midterms campaign",
-    "horodatage_utc": "2026-11-01T22:01:19+00:00",
+    "horodatage_utc": "2026-11-02T01:47:26+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
@@ -13,6 +43,37 @@
     ],
     "portee": "contexte",
     "nouveaute": false
+  },
+  {
+    "id": "bbd9c64927313ad7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gulf braced for escalation of war between US-Israel alliance and Iran",
+    "horodatage_utc": "2026-11-02T01:36:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f3e931f829f03bb2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nine killed as business jet crashes in Florida",
+    "horodatage_utc": "2026-11-01T23:25:46+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2bd1e339-98b2-43a9-a0e6-812736abedf8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
   },
   {
     "id": "1a60ea7ae1698e9a",
@@ -25,22 +86,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bbd9c64927313ad7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gulf braced for escalation of war between US-Israel alliance and Iran",
-    "horodatage_utc": "2026-11-01T18:02:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1781,50 +1826,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "a6793e8ae948f987",
-    "categorie": "geopolitique",
-    "titre_affiche": "Republicans seek to deflect Epstein anger on to Democrats",
-    "horodatage_utc": "2026-10-28T20:20:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5835eefc-acb2-4e4e-9693-60f5c2467977?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "5afef2a069918b5d",
-    "categorie": "geopolitique",
-    "titre_affiche": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
-    "horodatage_utc": "2026-10-28T20:04:42+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4ddb7e8c36c67690",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve issues FOMC statement",
-    "horodatage_utc": "2026-10-28T18:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
