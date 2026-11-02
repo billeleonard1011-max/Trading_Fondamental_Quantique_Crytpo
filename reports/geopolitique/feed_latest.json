@@ -1,18 +1,186 @@
 [
   {
+    "id": "663bf91acfc4682c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
+    "horodatage_utc": "2026-11-02T22:34:07+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "15442a829e257983",
+    "categorie": "geopolitique",
+    "titre_affiche": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+    "horodatage_utc": "2026-11-02T22:22:00+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "54800bd012966c27",
+    "categorie": "geopolitique",
+    "titre_affiche": "Intel foundry push faces critical test after stock's 45% plunge in October",
+    "horodatage_utc": "2026-11-02T21:59:48+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "794fd0453af466f3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Apple’s strong iPhone and Mac sales offset weaker performance in China",
+    "horodatage_utc": "2026-11-02T21:30:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "68ab76310a8b0ec6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Big majority of US voters disapprove of Trump’s handling of inflation: FT poll",
+    "horodatage_utc": "2026-11-02T20:38:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5ed63d08-66f3-4ad3-9ec7-2ec8b590fc85?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e757f5754f63c63c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Key races that will decide the US midterm elections",
+    "horodatage_utc": "2026-11-02T20:12:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1626b14d-524f-4d2a-94d1-860ae4a68692?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "4569337b43499811",
+    "categorie": "geopolitique",
+    "titre_affiche": "Stock market after midterm elections: What S&P 500 history shows",
+    "horodatage_utc": "2026-11-02T17:57:35+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6734971aec112e4f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
+    "horodatage_utc": "2026-11-02T16:31:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "568da281bca30a9f",
+    "categorie": "geopolitique",
+    "titre_affiche": "European supermarket freezers overheat in fresh cyber attack",
+    "horodatage_utc": "2026-11-02T16:20:35+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "eadd4c392a31412b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump’s imperial presidency faces a popular uprising",
+    "horodatage_utc": "2026-11-02T16:18:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7ee57da7-9687-4ceb-8057-d5afab78d728?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "3db97515c92f77a4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Fox News suffers sharp drop in ratings as US elections approach",
+    "horodatage_utc": "2026-11-02T14:55:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f1d46023-f199-4822-bd76-293afde613b3?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "7da57efd3c321cc4",
     "categorie": "geopolitique",
     "titre_affiche": "Crude prices slide as investors brace for a big week",
     "horodatage_utc": "2026-11-02T12:57:06+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/02/crude-prices-crater-investors-brace-for-big-week.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2de1922158216718",
@@ -21,13 +189,13 @@
     "horodatage_utc": "2026-11-02T12:47:36+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/eae872b0-69cb-445c-a107-aab95f9a8525?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7ed8efd363418a6b",
@@ -69,13 +237,13 @@
     "horodatage_utc": "2026-11-02T11:02:08+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "70b5a7ccfcc2db7d",
@@ -99,13 +267,13 @@
     "horodatage_utc": "2026-11-02T06:02:03+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "348ec0e793342035",
@@ -114,13 +282,13 @@
     "horodatage_utc": "2026-11-02T05:11:20+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tutv",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4b153466f5d6d821",
@@ -165,7 +333,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6e14878cc634c99a",
@@ -1662,171 +1830,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "c0f6a67870d731a0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-    "horodatage_utc": "2026-10-29T14:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bbb52f538ecabbbe",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alphabet falls 13%, putting it on course for its biggest ever post-earnings drop",
-    "horodatage_utc": "2026-10-29T13:46:52+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c5dbfb6c362341ce",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alphabet shares tumble in $500bn rout",
-    "horodatage_utc": "2026-10-29T13:45:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f5d6aedbcc9f0262",
-    "categorie": "geopolitique",
-    "titre_affiche": "Monetary policy decisions",
-    "horodatage_utc": "2026-10-29T13:15:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "89c25f15e89c1f0c",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI build-out hits snag as Google and Microsoft put off raising capex forecasts",
-    "horodatage_utc": "2026-10-29T12:10:29+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0370dd0a1a0fd3c2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alphabet drags on Nasdaq futures as the stock faces a record post-earnings loss",
-    "horodatage_utc": "2026-10-29T11:41:06+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-nasdaq-futures-record-post-earnings-loss.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1b4efe7ccbe3bd9c",
-    "categorie": "geopolitique",
-    "titre_affiche": "ECB President Lagarde to step down on 7 February 2027",
-    "horodatage_utc": "2026-10-29T10:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2a6a54a7a9eb7b27",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump calls for Alaska Democratic candidate to be banned from Senate race",
-    "horodatage_utc": "2026-10-29T09:51:40+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7526e915-2590-4b42-85df-20bb89040db8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "82a2ca6e7f94f0ea",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech stocks set to fall after earnings fuel AI spending concerns",
-    "horodatage_utc": "2026-10-29T06:32:40+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7d76e4d79f75a0b0",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Fed plays for time (but doesn’t have much)",
-    "horodatage_utc": "2026-10-29T06:30:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/65d84258-7b04-4064-ab76-6610bd522d65?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5cc60147243354b4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-    "horodatage_utc": "2026-10-29T06:03:35+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
