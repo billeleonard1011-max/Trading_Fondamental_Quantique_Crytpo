@@ -1,5 +1,156 @@
 [
   {
+    "id": "7ead5635c424554b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Americans begin voting in crucial midterm elections",
+    "horodatage_utc": "2026-11-03T10:52:57+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "994d936fcba67e8b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil prices steady at $106 after sharp declines",
+    "horodatage_utc": "2026-11-03T10:16:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d0ab9542-8542-4357-a534-ddbdd1a9678d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a26aee58d984765d",
+    "categorie": "geopolitique",
+    "titre_affiche": "US voters prepare to deliver verdict on Trump",
+    "horodatage_utc": "2026-11-03T10:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/086e9324-9d27-43a7-9334-d743f7cf8626?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "3a1a16e8297ce598",
+    "categorie": "geopolitique",
+    "titre_affiche": "Brookfield plans for a $27 billion AI data center at UK power station",
+    "horodatage_utc": "2026-11-03T09:30:35+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a04fc3947e7d13f5",
+    "categorie": "geopolitique",
+    "titre_affiche": "US, Russia and China discuss meeting between Trump, Putin and Xi",
+    "horodatage_utc": "2026-11-03T08:10:41+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/73c1d1cc-6bb2-43a6-8532-7823e5c1a40b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4efe82a243ec2e07",
+    "categorie": "geopolitique",
+    "titre_affiche": "US strikes Iran’s Qeshm Island on eve of election",
+    "horodatage_utc": "2026-11-03T06:44:35+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ebeaca62-8958-459a-be9d-d3d39e441a53?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d6dcb25aa8e02a35",
+    "categorie": "geopolitique",
+    "titre_affiche": "Italy’s ‘exit tax’ plan spooks rich expats",
+    "horodatage_utc": "2026-11-03T05:00:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/394938d3-f635-4af7-89f2-8a3c28ecf4ae?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "f7f9703e97dacda8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia orders data centre clients to reduce China exposure",
+    "horodatage_utc": "2026-11-03T05:00:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4f8e85aaa9aaa527",
+    "categorie": "geopolitique",
+    "titre_affiche": "What 21 months of Trump have done to America",
+    "horodatage_utc": "2026-11-03T05:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/703f842f-599f-4267-a7c9-1ec1d00ded00?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "513f6b51bc6e4756",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.7 - 74 km E of Petropavlovsk-Kamchatsky, Russia",
+    "horodatage_utc": "2026-11-03T04:26:00+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv2p",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "663bf91acfc4682c",
     "categorie": "geopolitique",
     "titre_affiche": "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
@@ -51,14 +202,14 @@
     "horodatage_utc": "2026-11-02T23:36:53+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/02/jim-cramer-oil-yields-non-tech-stocks.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Pétrole et énergie, Taux et obligations. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Taux et obligations"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4569337b43499811",
@@ -114,13 +265,13 @@
     "horodatage_utc": "2026-11-02T22:45:26+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6ec53c14-0186-4b58-86db-cf200131680f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "54800bd012966c27",
@@ -1673,157 +1824,6 @@
     "horodatage_utc": "2026-10-29T20:30:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b8a6b4fc8b94e29e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
-    "horodatage_utc": "2026-10-29T20:16:03+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a07295995b0e58b1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value",
-    "horodatage_utc": "2026-10-29T20:15:19+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5ff980e77a67825f",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech stocks fall after earnings fuel AI spending concerns",
-    "horodatage_utc": "2026-10-29T20:10:36+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bce19489019cff3b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Intel stock plunges 20% as chipmaker blames PC slowdown for weak guidance",
-    "horodatage_utc": "2026-10-29T20:06:00+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e078b7c709196920",
-    "categorie": "geopolitique",
-    "titre_affiche": "Intel stock falls 17% as it forecasts weaker chip sales",
-    "horodatage_utc": "2026-10-29T20:02:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5f28062577b6c968",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
-    "horodatage_utc": "2026-10-29T19:16:32+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "d004e4017a833084",
-    "categorie": "geopolitique",
-    "titre_affiche": "Netanyahu’s party claims election ‘stolen’ by ‘foreign entities’",
-    "horodatage_utc": "2026-10-29T17:36:37+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f66a684c-4073-4cf8-b5b8-8851c72e8bc0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e25f81bb8e2795d2",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI buildout hits snag as Google and Microsoft put off raising capex forecasts",
-    "horodatage_utc": "2026-10-29T16:20:51+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e5e92619a87ce9e3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Xi Jinping elevates general who led purge of China’s military",
-    "horodatage_utc": "2026-10-29T16:10:12+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/995c849c-b4db-4e24-964c-b269a3aeb741?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "3a7459c5ca8a3f26",
-    "categorie": "geopolitique",
-    "titre_affiche": "Christine Lagarde to step down as ECB president in February",
-    "horodatage_utc": "2026-10-29T16:02:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

@@ -1,5 +1,20 @@
 [
   {
+    "id": "27fcfadd4f83d0ae",
+    "categorie": "quantique",
+    "titre_affiche": "Alice & Bob Demonstrates Multi-Hour Physical Bit-Flip Suppression on Single-Cat and Helium 2 Processors",
+    "horodatage_utc": "2026-11-02T16:16:43+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/alice-bob-demonstrates-multi-hour-physical-bit-flip-suppression-on-single-cat-and-helium-2-processors/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Alice & Bob. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Alice & Bob"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "a7c4ef4aa68864cd",
     "categorie": "quantique",
     "titre_affiche": "Los Alamos and QC Ware Model Correlated Iron Oxides Using Sample-Based Quantum Diagonalization on IBM Hardware",
@@ -1792,21 +1807,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Google"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3b6f206ea6d66d8a",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ Demonstrates Scheduled qLDPC Error Correction to Accelerate Fault-Tolerant Gate Execution by up to 74x",
-    "horodatage_utc": "2026-10-12T15:03:51+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ionq-demonstrates-scheduled-qldpc-error-correction-to-accelerate-fault-tolerant-gate-execution-by-up-to-74x/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": false
