@@ -1,11 +1,26 @@
 [
   {
-    "id": "b10442fd46b6ed0b",
+    "id": "012f09941345f583",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-    "horodatage_utc": "2026-11-03T11:28:00+00:00",
+    "titre_affiche": "Ethereum Layer 2 Aztec gets Tierra V6 upgrade to support faster private apps",
+    "horodatage_utc": "2026-11-03T14:00:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c4ace816f0c7c59f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin is breaking a midterm election pattern going back to 2014",
+    "horodatage_utc": "2026-11-03T12:30:09+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/11/03/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +28,51 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "893f8605d1e2ac82",
+    "categorie": "crypto",
+    "titre_affiche": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
+    "horodatage_utc": "2026-11-03T12:01:05+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "dd946642fc0e2710",
+    "categorie": "crypto",
+    "titre_affiche": "Liquid Network restores full bitcoin backing following $320 million exploit",
+    "horodatage_utc": "2026-11-03T11:49:20+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b10442fd46b6ed0b",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
+    "horodatage_utc": "2026-11-03T11:28:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "b8bed6bbf27f9040",
@@ -21,6 +81,37 @@
     "horodatage_utc": "2026-11-03T11:12:12+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/03/liquid-s-bitcoin-ious-are-fully-backed-again-after-a-usd320-million-exploit",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "563c9dcc9d6e3960",
+    "categorie": "crypto",
+    "titre_affiche": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
+    "horodatage_utc": "2026-11-03T10:15:53+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/03/tether-holds-150-000-bitcoin-worth-usd11-5-billion-ceo-paolo-ardoino-says",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "882da41df96713b8",
+    "categorie": "crypto",
+    "titre_affiche": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+    "horodatage_utc": "2026-11-03T09:50:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -30,25 +121,9 @@
     "nouveaute": true
   },
   {
-    "id": "563c9dcc9d6e3960",
+    "id": "108f876cc489b8e8",
     "categorie": "crypto",
-    "titre_affiche": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-    "horodatage_utc": "2026-11-03T10:15:53+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/11/03/tether-holds-150-000-bitcoin-worth-usd11-5-billion-ceo-paolo-ardoino-says",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC",
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "882da41df96713b8",
-    "categorie": "crypto",
-    "titre_affiche": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+    "titre_affiche": "Live updates: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
     "horodatage_utc": "2026-11-03T09:50:16+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
@@ -67,13 +142,13 @@
     "horodatage_utc": "2026-11-03T08:56:48+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0ff01fa2d4d7cead",
@@ -82,13 +157,13 @@
     "horodatage_utc": "2026-11-03T08:50:56+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/03/bitcoin-s-price-chart-is-flashing-a-red-signal",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3602e5da19ca442d",
@@ -97,13 +172,13 @@
     "horodatage_utc": "2026-11-03T05:36:56+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/03/binance-has-spent-half-its-safu-bitcoin-about-usd580-million-worth-data-shows",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e5d59fe59dc86fee",
@@ -112,13 +187,13 @@
     "horodatage_utc": "2026-11-03T05:29:48+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/03/bitcoin-miner-cipher-posts-usd31-million-profit-as-ai-pivot-begins",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4c7f6d590ee70244",
@@ -133,7 +208,7 @@
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "df40d87cb95dc52e",
@@ -1728,80 +1803,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "edf91c124f6d0694",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
-    "horodatage_utc": "2026-10-23T11:13:01+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "766e06cd0772f6da",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Drops 3 . 61 % as Three Smaller - Token Indexes Fall Further",
-    "horodatage_utc": "2026-10-23T11:00:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "https://econotimes.com/Bitcoin-Drops-3-61-as-Three-Smaller-Token-Indexes-Fall-Further-1761193",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "b68623ffd6e3531c",
-    "categorie": "crypto",
-    "titre_affiche": "Tagesanalyse : So entwickeln sich Bitcoin & Co . am Freitagmittag",
-    "horodatage_utc": "2026-10-23T11:00:00+00:00",
-    "source_nom": "GDELT/finanzen.net",
-    "url_source": "https://www.finanzen.net/nachricht/devisen/bitcoin-ethereum-ripple-co-wie-sich-die-kryptokurse-am-mittag-entwickeln-16003883",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/finanzen.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "1dd41cf935c2764c",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
-    "horodatage_utc": "2026-10-23T10:54:41+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "789542733652d53c",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin appears to have decoupled from midterm cycle bottom history",
-    "horodatage_utc": "2026-10-23T10:53:09+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/23/bitcoin-approaches-midterms-as-july-low-challenges-historical-cycle-pattern",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]

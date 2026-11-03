@@ -1,5 +1,20 @@
 [
   {
+    "id": "cce730b9631ebbe9",
+    "categorie": "quantique",
+    "titre_affiche": "FirstQFM Demonstrates Quantum Reservoir Computing on Rigetti’s 108-Qubit Processor to Outperform Classical Financial Benchmarks",
+    "horodatage_utc": "2026-11-03T14:35:44+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/firstqfm-demonstrates-quantum-reservoir-computing-on-rigettis-108-qubit-processor-to-outperform-classical-financial-benchmarks/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : RGTI. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "27fcfadd4f83d0ae",
     "categorie": "quantique",
     "titre_affiche": "Alice & Bob Demonstrates Multi-Hour Physical Bit-Flip Suppression on Single-Cat and Helium 2 Processors",
@@ -1795,20 +1810,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "4fc568d3cb72e7f9",
-    "categorie": "quantique",
-    "titre_affiche": "Google Quantum AI Introduces Virtual Error Cancellation for Universal Logical Circuits",
-    "horodatage_utc": "2026-10-13T02:41:46+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/google-quantum-ai-introduces-virtual-error-cancellation-for-universal-logical-circuits/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Google"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
