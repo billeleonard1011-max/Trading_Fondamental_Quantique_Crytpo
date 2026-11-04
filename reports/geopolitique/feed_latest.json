@@ -1,5 +1,251 @@
 [
   {
+    "id": "c9eda2d9e7d73443",
+    "categorie": "geopolitique",
+    "titre_affiche": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
+    "horodatage_utc": "2026-11-04T21:18:44+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Pétrole et énergie, Taux et obligations, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Taux et obligations",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b7d149758308845c",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Rupert does not want to be with a loser’: Murdoch’s media empire cools on Trump",
+    "horodatage_utc": "2026-11-04T20:58:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ead0309f-537a-4cc1-9d65-a3b9de01e69d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "73d94ab4bcbedb16",
+    "categorie": "geopolitique",
+    "titre_affiche": "Vance blames Iran war for crushing Republican midterms defeat",
+    "horodatage_utc": "2026-11-04T20:44:46+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "64d87a75fc593045",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil tumbles below $100 on post-election peace hopes",
+    "horodatage_utc": "2026-11-04T20:18:53+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "985ba9d3a704ea30",
+    "categorie": "geopolitique",
+    "titre_affiche": "Voters rebuff data centers in every ballot measure except one during the 2026 midterms",
+    "horodatage_utc": "2026-11-04T19:51:18+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "94739e8a1e5f0686",
+    "categorie": "geopolitique",
+    "titre_affiche": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+    "horodatage_utc": "2026-11-04T19:37:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1f687031b62445e5",
+    "categorie": "geopolitique",
+    "titre_affiche": "How Democrats pulled off the blue wave in maps and charts",
+    "horodatage_utc": "2026-11-04T19:12:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f27626ac-8427-45d7-a995-a8dfe8d01bd9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "c7873840ca8bee61",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Cartwheels’ in Canada after Trump punished in US midterm elections",
+    "horodatage_utc": "2026-11-04T18:34:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/026cf61a-3e15-4d0e-bdb5-050fe005b725?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a096d4ee1bebbacd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Republicans turn on each other after disastrous midterms",
+    "horodatage_utc": "2026-11-04T18:29:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/83a46027-3cde-41fa-8c55-405f40c6fa82?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "cb8220f5c9f385e4",
+    "categorie": "geopolitique",
+    "titre_affiche": "The party’s over for the Trumpsterz",
+    "horodatage_utc": "2026-11-04T17:57:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7a7f5d4f-8e82-48c2-be31-024f8b5a32d7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "8e2a611910a9b07c",
+    "categorie": "geopolitique",
+    "titre_affiche": "The beginning of the end of the age of Trump",
+    "horodatage_utc": "2026-11-04T17:42:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ab004bd1-4ae7-46a1-a41f-2266cd0f270c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "24cf65db009aa55b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Stocks climb after Democrats’ sweep",
+    "horodatage_utc": "2026-11-04T17:09:03+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1e6afdac75c9acf0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer says this bank stock is a buy after its post-election pullback",
+    "horodatage_utc": "2026-11-04T16:54:39+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/investingclub/2026/11/04/cramer-says-this-bank-stock-is-a-buy-after-its-post-election-pullback.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bc86d80960da3690",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI-generated 'slopaganda' in political ads puts internet platforms on alert",
+    "horodatage_utc": "2026-11-04T16:30:32+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/03/ai-generated-slopaganda-in-political-ads-puts-platforms-on-alert.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "f6a5af16fcc16690",
+    "categorie": "geopolitique",
+    "titre_affiche": "Democrats debate how far to take their fight against Trump",
+    "horodatage_utc": "2026-11-04T15:43:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1b492f63-85b4-472c-9bbd-f741a1dfdb0b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "4fc0ad31e00003b6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Elon Musk’s record election bet backfired. The backlash may reach beyond one billionaire",
+    "horodatage_utc": "2026-11-04T15:29:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
     "id": "4d8244641ff32c6d",
     "categorie": "geopolitique",
     "titre_affiche": "10-year Treasury yield slips after Democrats win House and Senate majorities",
@@ -38,13 +284,13 @@
     "horodatage_utc": "2026-11-04T14:23:01+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0f625fd27f86be46",
@@ -53,14 +299,14 @@
     "horodatage_utc": "2026-11-04T14:15:32+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque",
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2f3444f1c8c59866",
@@ -114,43 +360,13 @@
     "horodatage_utc": "2026-11-04T11:29:29+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/04/a-blue-wave-sends-futures-into-the-green.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "a096d4ee1bebbacd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Republicans turn on each other after disastrous midterms",
-    "horodatage_utc": "2026-11-04T11:00:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/83a46027-3cde-41fa-8c55-405f40c6fa82?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4fc0ad31e00003b6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Elon Musk’s record election bet backfired. The backlash may reach beyond one billionaire",
-    "horodatage_utc": "2026-11-04T10:54:53+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ac57491465e505df",
@@ -260,6 +476,21 @@
     "nouveaute": true
   },
   {
+    "id": "2b842cde49cdddb4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s slapdown by America is one for the ages",
+    "horodatage_utc": "2026-11-04T05:11:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0a9d5d07-bc57-4348-b67e-54cf4f1a246e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "a9c32bf311cb7e91",
     "categorie": "geopolitique",
     "titre_affiche": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
@@ -317,7 +548,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b8d5648721b71ec4",
@@ -377,21 +608,6 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bc86d80960da3690",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI-generated 'slopaganda' in political ads puts internet platforms on alert",
-    "horodatage_utc": "2026-11-03T20:33:28+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/03/ai-generated-slopaganda-in-political-ads-puts-platforms-on-alert.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": false
   },
   {
@@ -1609,217 +1825,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "1a60ea7ae1698e9a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Michigan Democrat Haley Stevens endorses Republican instead of Abdul El-Sayed",
-    "horodatage_utc": "2026-11-01T21:44:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "750f5523e6923ad7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Blue Lagoon owner plans to float as Icelandic tourism booms",
-    "horodatage_utc": "2026-11-01T18:00:03+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6a3c6f12-cada-4368-8aad-4deb4db13fcb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4fd530342f4822c7",
-    "categorie": "geopolitique",
-    "titre_affiche": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
-    "horodatage_utc": "2026-11-01T16:34:43+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "13632321d7b6eda3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Inside the leaderless movement set to govern Serbia",
-    "horodatage_utc": "2026-11-01T16:12:16+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4e09cf90-7395-4dc4-afa8-a4fa71abe2b3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "86568dc876b8670b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Junk debt rout sparks ‘bloodbath’ for credit investors",
-    "horodatage_utc": "2026-11-01T14:54:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fdc9a85d-d2c4-465f-99ca-609d68b6d443?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "322a52e73e4e4d49",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why AI is boosting Meta's ad business while hurting Google search",
-    "horodatage_utc": "2026-11-01T14:31:29+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9d012802c224fff7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
-    "horodatage_utc": "2026-11-01T12:19:33+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "00e6f3075ee68e36",
-    "categorie": "geopolitique",
-    "titre_affiche": "Binance restarts customer withdrawals after $6.3bn heist",
-    "horodatage_utc": "2026-11-01T12:16:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1d4dd7b2-9dee-433b-ac2a-e8022af1dd07?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "bef930cf763fd00f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil majors resist pressure to invest in new refineries as fuel prices keep rising",
-    "horodatage_utc": "2026-11-01T05:00:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4d63f08d-3556-4d84-8e1d-40f866741d15?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine",
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d1f033090c2f567b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Germany fails to meet winter gas storage target",
-    "horodatage_utc": "2026-11-01T05:00:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/99b0bbf1-4604-4e56-bc66-9f49d2814737?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fe7071a6209ae8b8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bond investors sit out ‘most consequential’ US midterm elections in years",
-    "horodatage_utc": "2026-11-01T05:00:17+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "8f86a488e7e937cc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia forced to ship grain via Arctic as Black Sea battles rage",
-    "horodatage_utc": "2026-11-01T05:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/50aeab56-c5e3-44c5-9117-8fadc2f980fb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8d1c145604a01bf5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Military briefing: what would another US-Iran conflict look like?",
-    "horodatage_utc": "2026-11-01T05:00:09+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/89e3ff89-c097-44cb-a290-0d46726e6075?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "00ddfefeeb604cb4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump loses Latino support",
-    "horodatage_utc": "2026-11-01T05:00:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/video/fbc0f62e-50ea-4509-9fa7-32f00c98c424?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
   }
 ]

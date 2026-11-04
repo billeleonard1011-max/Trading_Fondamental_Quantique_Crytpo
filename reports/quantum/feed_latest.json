@@ -1,18 +1,108 @@
 [
   {
+    "id": "88e0a27d7bb4ca86",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Partners With QuantumCT to Expand Quantum Computing Access in Connecticut",
+    "horodatage_utc": "2026-11-04T18:25:54+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/04/ionq-quantumct-quantum-computing-access-connecticut/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3d08a970434528d9",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Completes Acquisition of Zero Trust Security Company Elisity",
+    "horodatage_utc": "2026-11-04T18:20:27+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/04/ionq-completes-acquisition-zero-trust-security-company-elisity/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ab1088ad5eba17e9",
+    "categorie": "quantique",
+    "titre_affiche": "IBM Quantum and QuICS Deploy AI Agents to Discover Over 500 High-Efficiency Magic-State Factories",
+    "horodatage_utc": "2026-11-04T16:20:05+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ibm-quantum-and-quics-deploy-ai-agents-to-discover-over-500-high-efficiency-magic-state-factories/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "57ec8762a76c8a5d",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Completes $1.15B Acquisition of Elisity to Integrate Zero Trust with Quantum Security",
+    "horodatage_utc": "2026-11-04T15:52:47+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-completes-1-15b-acquisition-of-elisity-to-integrate-zero-trust-with-quantum-security/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "63029a4f0d42d34f",
+    "categorie": "quantique",
+    "titre_affiche": "IonQ Partners with QuantumCT to Provide Trapped-Ion Cloud Access Across Connecticut",
+    "horodatage_utc": "2026-11-04T15:49:28+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d92c920e62752a1c",
+    "categorie": "quantique",
+    "titre_affiche": "D-Wave Enhances Stride Hybrid Solver and Releases Applied Optimization Learning Path",
+    "horodatage_utc": "2026-11-04T15:40:21+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/d-wave-enhances-stride-hybrid-solver-and-releases-applied-optimization-learning-path/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "4f160385f6bdf941",
     "categorie": "quantique",
     "titre_affiche": "D-Wave Updates Stride Hybrid Solver With Faster Optimization Performance",
     "horodatage_utc": "2026-11-04T13:09:51+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/11/04/d-wave-stride-hybrid-solver-optimization-performance/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "QBTS"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cce730b9631ebbe9",
@@ -1716,96 +1806,6 @@
     "tickers_ou_themes_lies": [
       "Alice & Bob",
       "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9edf3388422aa4d5",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ Announces Pricing of $2.0 Billion Equity Offering",
-    "horodatage_utc": "2026-10-14T15:44:21+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/10/14/ionq-announces-pricing-2-billion-equity-offering/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "40a315dc6a83d612",
-    "categorie": "quantique",
-    "titre_affiche": "IBM and Siemens Collaborate to Advance 3D Nanostack Transistors",
-    "horodatage_utc": "2026-10-14T15:31:42+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/10/14/ibm-siemens-advance-3d-nanostack-transistors/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9d41843f924516b6",
-    "categorie": "quantique",
-    "titre_affiche": "Infleqtion Secures £9 Million ($12 Million USD) Innovate UK Award to Transition Rydberg Quantum RF Sensing to Operational Deployment",
-    "horodatage_utc": "2026-10-14T10:39:17+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/infleqtion-secures-9-million-12-million-usd-innovate-uk-award-to-transition-rydberg-quantum-rf-sensing-to-operational-deployment/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Infleqtion"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "fd5c4ef01ac76e1d",
-    "categorie": "quantique",
-    "titre_affiche": "Infleqtion Receives £9 Million to Develop Quantum RF Sensing System",
-    "horodatage_utc": "2026-10-13T14:43:50+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Infleqtion"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "f97a8deb6c7b5ddc",
-    "categorie": "quantique",
-    "titre_affiche": "Google Researchers Propose Using Error Records to Improve Quantum Results After Computation",
-    "horodatage_utc": "2026-10-13T13:05:47+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/10/13/google-researchers-propose-using-error-records-to-improve-quantum-results-after-computation/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Google"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "27f06752a090fffe",
-    "categorie": "quantique",
-    "titre_affiche": "SkyWater and D-Wave Sign Multi-Year Quantum Manufacturing Agreement",
-    "horodatage_utc": "2026-10-13T11:51:25+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/10/13/skywater-d-wave-manufacturing-agreement/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QBTS"
     ],
     "portee": "actif_direct",
     "nouveaute": false
