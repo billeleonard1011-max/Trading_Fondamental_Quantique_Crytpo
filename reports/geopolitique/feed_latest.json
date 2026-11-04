@@ -1,18 +1,125 @@
 [
   {
+    "id": "b31afd3ea2396ed2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+    "horodatage_utc": "2026-11-04T06:50:22+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "473e19e0b7e2a42f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Americans deliver stunning rebuke to Trump as blue wave sweeps country",
+    "horodatage_utc": "2026-11-04T06:40:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b1eb9500-612a-4bb0-bdc3-0311cfc0ec99?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "ae5a22801939935e",
+    "categorie": "geopolitique",
+    "titre_affiche": "James Talarico’s historic Texas Senate victory deals blow to Elon Musk",
+    "horodatage_utc": "2026-11-04T05:37:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b2d07a1f-dfa6-449b-a598-1db51951d6f6?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6628f01739edc633",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s American slapdown for the ages",
+    "horodatage_utc": "2026-11-04T05:11:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0a9d5d07-bc57-4348-b67e-54cf4f1a246e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "a9c32bf311cb7e91",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
+    "horodatage_utc": "2026-11-04T05:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c5a6a738-cd78-4a8e-a814-57a7473ebb9c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "493fdf96bbdaffd5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Qatar set to become world’s biggest buyer of US LNG",
+    "horodatage_utc": "2026-11-04T05:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/88e46724-0bd4-451a-b02b-f5709c9771b7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e5a01f3eeafd276b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global stocks slide as Democratic wins stoke fears for AI boom",
+    "horodatage_utc": "2026-11-04T04:39:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "b8d5648721b71ec4",
     "categorie": "geopolitique",
     "titre_affiche": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
     "horodatage_utc": "2026-11-03T23:58:09+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7f0dc9c078295d1d",
@@ -21,13 +128,13 @@
     "horodatage_utc": "2026-11-03T23:34:36+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f3afd549-65fc-487e-922e-2748fa6a8a5f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "50d96985eee08a11",
@@ -36,13 +143,13 @@
     "horodatage_utc": "2026-11-03T23:04:37+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cdde1786a1c582d3",
@@ -96,13 +203,13 @@
     "horodatage_utc": "2026-11-03T20:13:37+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Crypto-actifs. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Crypto-actifs"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "55a63c00e17c7522",
@@ -1712,115 +1819,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7c1596de4e8834ea",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lula’s surprise election victory sends agri-commodities tumbling",
-    "horodatage_utc": "2026-10-31T05:00:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f0ca6771-20a2-4146-bd3f-4796d3c86094?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "22b95ca87fc8b646",
-    "categorie": "geopolitique",
-    "titre_affiche": "Donald Trump’s endgame",
-    "horodatage_utc": "2026-10-31T05:00:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c344ed8a-4e4b-43f8-a570-d8101864d929?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "997caa0a0eeae506",
-    "categorie": "geopolitique",
-    "titre_affiche": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
-    "horodatage_utc": "2026-10-30T22:17:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e84eceda-040b-4e5f-b906-09768085933a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "abf750c2398719b8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
-    "horodatage_utc": "2026-10-30T22:17:13+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Croissance et emploi",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b19b38fd705cda24",
-    "categorie": "geopolitique",
-    "titre_affiche": "Binance rushes to recover customer money after $6.3bn heist",
-    "horodatage_utc": "2026-10-30T22:12:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9880a5329343a770",
-    "categorie": "geopolitique",
-    "titre_affiche": "US greenlights $2.1bn sale of Patriot interceptors to Ukraine",
-    "horodatage_utc": "2026-10-30T21:28:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "28cdcae7429b254e",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech stocks tumble as concerns over AI spending intensify",
-    "horodatage_utc": "2026-10-30T21:13:50+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": false

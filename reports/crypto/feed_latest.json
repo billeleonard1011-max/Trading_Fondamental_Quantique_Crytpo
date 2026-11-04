@@ -1,5 +1,66 @@
 [
   {
+    "id": "0e305f6813c9c481",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin knocks on $78,000 in V-shaped comeback as midterm election uncertainty fades",
+    "horodatage_utc": "2026-11-04T06:16:40+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "cccf4f7351c98038",
+    "categorie": "crypto",
+    "titre_affiche": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
+    "horodatage_utc": "2026-11-04T06:06:04+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/04/jack-dorsey-s-block-faces-usd764-million-doj-settlement-as-bitcoin-profit-plunges-50",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3635dc57dbe707a3",
+    "categorie": "crypto",
+    "titre_affiche": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
+    "horodatage_utc": "2026-11-04T05:14:12+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "118f32d8b5d06d59",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
+    "horodatage_utc": "2026-11-04T04:48:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/04/bitcoin-briefly-sinks-to-usd75-700-as-bets-on-a-democratic-sweep-rattle-markets",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "012f09941345f583",
     "categorie": "crypto",
     "titre_affiche": "Ethereum Layer 2 Aztec gets Tierra V6 upgrade to support faster private apps",
@@ -51,13 +112,13 @@
     "horodatage_utc": "2026-11-03T12:01:05+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dd946642fc0e2710",
@@ -1743,65 +1804,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "2f7ea59c37d821d2",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin fonlarında sert dönüş : Bir günde 635 milyon dolar çıktı",
-    "horodatage_utc": "2026-10-23T12:30:00+00:00",
-    "source_nom": "GDELT/dunya.com",
-    "url_source": "https://www.dunya.com/finans/kripto-para/bitcoin-fonlarinda-sert-donus-bir-gunde-635-milyon-dolar-cikti-haberi-845037",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/dunya.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "fc3da36a3b66014f",
-    "categorie": "crypto",
-    "titre_affiche": "IA - ul Claude a dezvăluit o enigmă veche de 17 ani legată de Bitcoin , lăsată de Satoshi Nakamoto",
-    "horodatage_utc": "2026-10-23T12:30:00+00:00",
-    "source_nom": "GDELT/news.yam.md",
-    "url_source": "https://news.yam.md/ro/story/78074795",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/news.yam.md. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "0088b32b7e120cd4",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
-    "horodatage_utc": "2026-10-23T12:03:53+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "bd1bdc6df93b3897",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs swing back to net outflows as $636 million in withdrawals erase previous day’s inflows",
-    "horodatage_utc": "2026-10-23T11:39:45+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
