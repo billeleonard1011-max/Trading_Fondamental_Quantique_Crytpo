@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-11-03T14:00:00+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c4ace816f0c7c59f",
@@ -21,18 +21,33 @@
     "horodatage_utc": "2026-11-03T12:30:09+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/daybook-us/2026/11/03/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "893f8605d1e2ac82",
     "categorie": "crypto",
     "titre_affiche": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
+    "horodatage_utc": "2026-11-03T12:01:05+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "adffd864a80b7b3e",
+    "categorie": "crypto",
+    "titre_affiche": "ETHGas wants to bring Wall Street to public Ethereum with institutional controls",
     "horodatage_utc": "2026-11-03T12:01:05+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
@@ -51,13 +66,13 @@
     "horodatage_utc": "2026-11-03T11:49:20+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b10442fd46b6ed0b",
@@ -124,6 +139,21 @@
     "id": "108f876cc489b8e8",
     "categorie": "crypto",
     "titre_affiche": "Live updates: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+    "horodatage_utc": "2026-11-03T09:50:16+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "fe1733dfae0fa0c3",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin and tech stocks edge higher as U.S. voters head to the polls",
     "horodatage_utc": "2026-11-03T09:50:16+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
@@ -209,6 +239,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
+  },
+  {
+    "id": "6defb4330d207cbe",
+    "categorie": "crypto",
+    "titre_affiche": "Mercado Bitcoin drain moved $40M in plain transactions",
+    "horodatage_utc": "2026-11-03T02:15:00+00:00",
+    "source_nom": "GDELT/techreport.com",
+    "url_source": "https://techreport.com/news/software/mercado-bitcoin-drain-moved-40-million-in-plain-transactions-pointing-to-stolen-signing-keys/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/techreport.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
   },
   {
     "id": "df40d87cb95dc52e",
@@ -1758,50 +1803,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "029e3699c04d728f",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFlerindeki giriş serisi sonlandı",
-    "horodatage_utc": "2026-10-23T11:30:00+00:00",
-    "source_nom": "GDELT/haberler.com",
-    "url_source": "https://www.haberler.com/kripto-para/bitcoin-etflerindeki-giris-serisi-sonlandi-20359176-haberi/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/haberler.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "289e6fd41adf013f",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
-    "horodatage_utc": "2026-10-23T11:22:33+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "67fadff1c6fa0947",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
-    "horodatage_utc": "2026-10-23T11:13:01+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
