@@ -1,5 +1,50 @@
 [
   {
+    "id": "6cab7f5afdb9bf5e",
+    "categorie": "crypto",
+    "titre_affiche": "Eric Trump’s American Bitcoin swings to $126 million profit in Q3 on digital asset gains",
+    "horodatage_utc": "2026-11-05T08:52:32+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b9c13a9ad3cee29c",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+    "horodatage_utc": "2026-11-05T05:13:45+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e7a7f33147c21452",
+    "categorie": "crypto",
+    "titre_affiche": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
+    "horodatage_utc": "2026-11-05T04:11:33+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/05/trump-media-moves-usd434-million-in-bitcoin-to-crypto-com-blockchain-data-show",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "ffd459770badc66f",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin rebounds past $80,000 as markets shrug off midterms and Binance hack",
@@ -1759,50 +1804,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "e3ae5d7c610c177b",
-    "categorie": "crypto",
-    "titre_affiche": "Ether ( ETH ) Drops 2 . 19 % in Binance Hourly Snapshot to $2 , 294",
-    "horodatage_utc": "2026-10-24T16:15:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "https://econotimes.com/Ether-ETH-Drops-2-19-in-Binance-Hourly-Snapshot-to-2-294-1762581",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "764eb1f90038ea80",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs Just Had Their Biggest Outflow Day Since June . Is the Selling Over ?",
-    "horodatage_utc": "2026-10-24T16:15:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/bitcoin-etfs-just-had-biggest-153742000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "16bea7ae2d4ecccd",
-    "categorie": "crypto",
-    "titre_affiche": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
-    "horodatage_utc": "2026-10-24T16:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
