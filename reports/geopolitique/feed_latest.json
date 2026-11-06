@@ -1,13 +1,183 @@
 [
   {
+    "id": "33348de3e772ddbf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
+    "horodatage_utc": "2026-11-06T23:13:10+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "01be52d3ca911629",
+    "categorie": "geopolitique",
+    "titre_affiche": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
+    "horodatage_utc": "2026-11-06T22:53:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)",
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "4342d2ec45ccfe6f",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+    "horodatage_utc": "2026-11-06T22:25:58+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "61894b1225b735d5",
     "categorie": "geopolitique",
     "titre_affiche": "US economy outstrips forecasts to add 165,000 jobs in October",
-    "horodatage_utc": "2026-11-06T18:45:36+00:00",
+    "horodatage_utc": "2026-11-06T22:16:13+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "9987c18fcc1a0b94",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump taps immigration hardliner Stephen Miller as chief of staff",
+    "horodatage_utc": "2026-11-06T22:09:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6e8f2244-0e39-45cd-b415-e0be54b0351f?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "fb527fd7a1ef4bf5",
+    "categorie": "geopolitique",
+    "titre_affiche": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
+    "horodatage_utc": "2026-11-06T22:00:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dd1ffd46f47def3b",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI bugging suspect Alfozan pleads not guilty",
+    "horodatage_utc": "2026-11-06T21:15:47+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c3753c02accabcf7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+    "horodatage_utc": "2026-11-06T21:07:07+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2e86e2c6821cec1d",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
+    "horodatage_utc": "2026-11-06T20:44:13+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie",
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "b14c098ff140520c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nasdaq drops into correction territory — here’s what typically happens next",
+    "horodatage_utc": "2026-11-06T20:42:28+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "c059d6bc9f6526f3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Who is in the line of fire after the midterm drubbing?",
+    "horodatage_utc": "2026-11-06T19:29:18+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/580ab1bf-4e2e-46b8-9178-dbf765645754?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "733f283d9b28ff5b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+    "horodatage_utc": "2026-11-06T19:05:00+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
@@ -36,13 +206,13 @@
     "horodatage_utc": "2026-11-06T18:40:58+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8e67351e7e6158ca",
@@ -51,15 +221,15 @@
     "horodatage_utc": "2026-11-06T18:35:08+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque",
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2339e6eea0db854b",
@@ -77,52 +247,20 @@
     "nouveaute": true
   },
   {
-    "id": "4342d2ec45ccfe6f",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
-    "horodatage_utc": "2026-11-06T17:24:48+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "01be52d3ca911629",
-    "categorie": "geopolitique",
-    "titre_affiche": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
-    "horodatage_utc": "2026-11-06T17:20:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane), Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)",
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "cb1379f98cdeb928",
     "categorie": "geopolitique",
     "titre_affiche": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
     "horodatage_utc": "2026-11-06T17:09:53+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c3fa8315b7ad6531",
@@ -137,7 +275,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b0ae73a07f200a37",
@@ -146,21 +284,6 @@
     "horodatage_utc": "2026-11-06T14:01:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/538bfe46-7051-4e3d-8ff3-ad71c861a1f7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "b14c098ff140520c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nasdaq drops into correction territory — here’s what typically happens next",
-    "horodatage_utc": "2026-11-06T13:47:43+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
@@ -182,24 +305,6 @@
       "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2e86e2c6821cec1d",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
-    "horodatage_utc": "2026-11-06T12:04:17+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie",
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -262,7 +367,7 @@
       "Commerce international (droits de douane)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0896c30633a0f56a",
@@ -332,21 +437,6 @@
     "horodatage_utc": "2026-11-06T05:00:14+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/880c8ba8-2967-4d7a-87fb-d34135c676d8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "c059d6bc9f6526f3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Who is in the line of fire after the midterm drubbing?",
-    "horodatage_utc": "2026-11-06T05:00:14+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/580ab1bf-4e2e-46b8-9178-dbf765645754?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -1741,100 +1831,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "4f8e85aaa9aaa527",
-    "categorie": "geopolitique",
-    "titre_affiche": "What 21 months of Trump have done to America",
-    "horodatage_utc": "2026-11-03T11:40:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/703f842f-599f-4267-a7c9-1ec1d00ded00?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "77540751eaa90d87",
-    "categorie": "geopolitique",
-    "titre_affiche": "The head-spinning turbulence of Trump’s second term",
-    "horodatage_utc": "2026-11-03T11:40:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/703f842f-599f-4267-a7c9-1ec1d00ded00?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4bced2884a5de773",
-    "categorie": "geopolitique",
-    "titre_affiche": "Apple margin outlook pressures tech as reported U.S. strike lifts oil",
-    "horodatage_utc": "2026-11-03T11:30:03+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/03/apple-margin-oil-iran.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c03a03a3cb331443",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran chief negotiator says the US must act to prevent renewed war , and other Mideast news",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/wfmz.com",
-    "url_source": "https://www.wfmz.com/news/ap/ap-national/iran-s-chief-negotiator-says-the-us-must-act-to-prevent-renewed-war-and-other-mideast-news/article_4cd51f4d-14df-5d20-90c9-21ddc855c56c.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/wfmz.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5febe367ab543269",
-    "categorie": "geopolitique",
-    "titre_affiche": "U . S . Carries Out Defensive Strike On Iranian Island",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/wdov.iheart.com",
-    "url_source": "https://wdov.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "81c7546de6c86e9f",
-    "categorie": "geopolitique",
-    "titre_affiche": "US strikes Iranian targets in the Strait of Hormuz , official says , leaving unclear what comes next",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/bozemandailychronicle.com",
-    "url_source": "http://www.bozemandailychronicle.com/wire/news/us-strikes-iranian-targets-in-the-strait-of-hormuz-official-says-leaving-unclear-what-comes/article_2a589236-cc8b-5ff3-b827-2e79217f4103.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Tensions énergétiques"
-    ],
-    "portee": "influence",
     "nouveaute": true
   }
 ]

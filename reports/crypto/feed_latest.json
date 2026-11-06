@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-11-06T18:06:59+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1b965e79537278de",
@@ -21,13 +21,13 @@
     "horodatage_utc": "2026-11-06T16:07:24+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-11-06-strives-bitcoin-gains-509-million-q3-profit-btc-buying-ramps-up-435907",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "037c7771c12341ba",
@@ -36,8 +36,23 @@
     "horodatage_utc": "2026-11-06T13:40:22+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "1d5f5135a29c03f9",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
+    "horodatage_utc": "2026-11-06T11:58:40+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -45,9 +60,9 @@
     "nouveaute": true
   },
   {
-    "id": "1d5f5135a29c03f9",
+    "id": "4595d9ad650ca37c",
     "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
+    "titre_affiche": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
     "horodatage_utc": "2026-11-06T11:58:40+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
@@ -1785,21 +1800,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "edf1f0b960743a0a",
-    "categorie": "crypto",
-    "titre_affiche": "Strategy pauses bitcoin buys, repurchases $205 million of STRC preferred shares",
-    "horodatage_utc": "2026-10-26T13:23:14+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-10-26-strategy-pauses-bitcoin-buys-repurchases-205-million-of-strc-preferred-shares-431699",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
