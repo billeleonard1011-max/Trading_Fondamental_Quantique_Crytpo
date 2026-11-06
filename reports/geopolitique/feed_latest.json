@@ -1,15 +1,17 @@
 [
   {
-    "id": "ebf49869701a5ff2",
+    "id": "dcbfd800555e4c01",
     "categorie": "geopolitique",
-    "titre_affiche": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
-    "horodatage_utc": "2026-11-06T03:20:43+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+    "titre_affiche": "Wall Street set to steady after tech rout",
+    "horodatage_utc": "2026-11-06T11:10:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Actions et technologie"
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -18,16 +20,152 @@
     "id": "6e2aa6014b5f4c70",
     "categorie": "geopolitique",
     "titre_affiche": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-    "horodatage_utc": "2026-11-06T02:40:15+00:00",
+    "horodatage_utc": "2026-11-06T11:06:58+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "c43f73b3679b993f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump has taught the world that tariffs are useless",
+    "horodatage_utc": "2026-11-06T11:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/aab95234-0b9a-4b95-b1e5-d932669076d5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "0896c30633a0f56a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+    "horodatage_utc": "2026-11-06T10:28:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)",
+      "Sanctions"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "34319afd0d711fdb",
+    "categorie": "geopolitique",
+    "titre_affiche": "ECB publishes consolidated banking data for end-June 2026",
+    "horodatage_utc": "2026-11-06T09:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8f9cdd83139515c8",
+    "categorie": "geopolitique",
+    "titre_affiche": "The sell-off gets deep",
+    "horodatage_utc": "2026-11-06T06:30:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4ea585dd-6532-4839-a042-c9d1ad2e23f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "500dd06a04e9d150",
+    "categorie": "geopolitique",
+    "titre_affiche": "America turns on Trump’s tech cheerleaders",
+    "horodatage_utc": "2026-11-06T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bda53f77-f391-4750-ab5d-55e09cbbdb7c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1d32da4c66cb0140",
+    "categorie": "geopolitique",
+    "titre_affiche": "Don’t bet on a ‘blue wave’ changing the economy",
+    "horodatage_utc": "2026-11-06T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/880c8ba8-2967-4d7a-87fb-d34135c676d8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "c059d6bc9f6526f3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Who is in the line of fire after the midterm drubbing?",
+    "horodatage_utc": "2026-11-06T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/580ab1bf-4e2e-46b8-9178-dbf765645754?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "91a2fc3d99c62c30",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran celebrates Trump’s election defeat as mediators push for deal to end war",
+    "horodatage_utc": "2026-11-06T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/eced6084-7cd7-4633-a8ba-559173e0f6c1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ebf49869701a5ff2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+    "horodatage_utc": "2026-11-06T03:20:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "00d17d26a3498199",
@@ -51,13 +189,13 @@
     "horodatage_utc": "2026-11-05T23:39:32+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "65f9f1b21f806214",
@@ -66,13 +204,13 @@
     "horodatage_utc": "2026-11-05T23:17:51+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-sell-off.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c2e215cc7ecbe0d1",
@@ -81,13 +219,13 @@
     "horodatage_utc": "2026-11-05T22:41:52+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b14c098ff140520c",
@@ -96,13 +234,13 @@
     "horodatage_utc": "2026-11-05T22:31:24+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "16065e8d64042d86",
@@ -113,6 +251,21 @@
     "url_source": "https://www.ft.com/content/c8314951-713a-4370-ac7b-89b35e771f7e?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "436fb7072e172597",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why pollsters underestimated size of the ‘blue wave’",
+    "horodatage_utc": "2026-11-05T21:57:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c8314951-713a-4370-ac7b-89b35e771f7e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
@@ -133,7 +286,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4173d41e921cfdfd",
@@ -148,7 +301,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5b110a46654a27ed",
@@ -164,7 +317,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0cfbe99e393f9a4b",
@@ -377,22 +530,6 @@
     "tickers_ou_themes_lies": [
       "Pétrole et énergie",
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0896c30633a0f56a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
-    "horodatage_utc": "2026-11-05T13:34:14+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)",
-      "Sanctions"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1692,141 +1829,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "a04fc3947e7d13f5",
-    "categorie": "geopolitique",
-    "titre_affiche": "US, Russia and China discuss meeting between Trump, Putin and Xi",
-    "horodatage_utc": "2026-11-03T08:10:41+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/73c1d1cc-6bb2-43a6-8532-7823e5c1a40b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1e0e34032c9c2961",
-    "categorie": "geopolitique",
-    "titre_affiche": "Live US midterm elections results — in charts and maps",
-    "horodatage_utc": "2026-11-03T06:29:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ca8ba515-592b-4c1d-a1d0-d8b2a94ccd30?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "d6dcb25aa8e02a35",
-    "categorie": "geopolitique",
-    "titre_affiche": "Italy’s ‘exit tax’ plan spooks rich expats",
-    "horodatage_utc": "2026-11-03T05:00:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/394938d3-f635-4af7-89f2-8a3c28ecf4ae?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "f7f9703e97dacda8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia orders data centre clients to reduce China exposure",
-    "horodatage_utc": "2026-11-03T05:00:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "513f6b51bc6e4756",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.7 - 74 km E of Petropavlovsk-Kamchatsky, Russia",
-    "horodatage_utc": "2026-11-03T04:26:00+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv2p",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "663bf91acfc4682c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
-    "horodatage_utc": "2026-11-03T02:31:00+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ede553645331064a",
-    "categorie": "geopolitique",
-    "titre_affiche": "San Diego gas prices down 40 cents a gallon in the past month . But what happens next ?",
-    "horodatage_utc": "2026-11-03T02:15:00+00:00",
-    "source_nom": "GDELT/sandiegouniontribune.com",
-    "url_source": "https://www.sandiegouniontribune.com/2026/11/02/san-diego-gas-prices-down-40-cents-a-gallon-in-the-past-month-but-what-happens-next/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9ccd6540a1788395",
-    "categorie": "geopolitique",
-    "titre_affiche": "US military strikes Iran Qeshm Island",
-    "horodatage_utc": "2026-11-03T02:15:00+00:00",
-    "source_nom": "GDELT/newcastleherald.com.au",
-    "url_source": "https://www.newcastleherald.com.au/story/9384711/us-military-strikes-irans-qeshm-island/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis",
-      "Conflits majeurs"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3aad6fa102353443",
-    "categorie": "geopolitique",
-    "titre_affiche": "US struck Iran Qeshm Island , Wall Street Journal reports",
-    "horodatage_utc": "2026-11-03T02:15:00+00:00",
-    "source_nom": "GDELT/rnz.co.nz",
-    "url_source": "https://www.rnz.co.nz/news/world/2314745/us-struck-iran-s-qeshm-island-wall-street-journal-reports",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
