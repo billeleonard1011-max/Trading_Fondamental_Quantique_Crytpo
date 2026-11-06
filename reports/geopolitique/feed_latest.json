@@ -1,5 +1,208 @@
 [
   {
+    "id": "61894b1225b735d5",
+    "categorie": "geopolitique",
+    "titre_affiche": "US economy outstrips forecasts to add 165,000 jobs in October",
+    "horodatage_utc": "2026-11-06T18:45:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "11b4ef17ed0e4507",
+    "categorie": "geopolitique",
+    "titre_affiche": "San Francisco Fed President Daly says higher rates 'are likely to be needed' in inflation fight",
+    "horodatage_utc": "2026-11-06T18:42:45+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b56c5e655c861316",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
+    "horodatage_utc": "2026-11-06T18:40:58+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8e67351e7e6158ca",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
+    "horodatage_utc": "2026-11-06T18:35:08+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2339e6eea0db854b",
+    "categorie": "geopolitique",
+    "titre_affiche": "US stocks rebound after tech rout",
+    "horodatage_utc": "2026-11-06T17:59:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4342d2ec45ccfe6f",
+    "categorie": "geopolitique",
+    "titre_affiche": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+    "horodatage_utc": "2026-11-06T17:24:48+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "01be52d3ca911629",
+    "categorie": "geopolitique",
+    "titre_affiche": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
+    "horodatage_utc": "2026-11-06T17:20:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane), Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)",
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cb1379f98cdeb928",
+    "categorie": "geopolitique",
+    "titre_affiche": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+    "horodatage_utc": "2026-11-06T17:09:53+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c3fa8315b7ad6531",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says",
+    "horodatage_utc": "2026-11-06T15:06:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b0ae73a07f200a37",
+    "categorie": "geopolitique",
+    "titre_affiche": "Low-profile Wall Street firm to double down on Anthropic despite tech rout",
+    "horodatage_utc": "2026-11-06T14:01:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/538bfe46-7051-4e3d-8ff3-ad71c861a1f7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b14c098ff140520c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nasdaq drops into correction territory — here’s what typically happens next",
+    "horodatage_utc": "2026-11-06T13:47:43+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "88c2f2a2cba4f391",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bomb threats target media and flights as email warns ‘this is only the beginning’",
+    "horodatage_utc": "2026-11-06T13:37:00+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f7167042-33d7-423a-89dd-4f379a437c15?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "2e86e2c6821cec1d",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
+    "horodatage_utc": "2026-11-06T12:04:17+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie",
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "dcbfd800555e4c01",
     "categorie": "geopolitique",
     "titre_affiche": "Wall Street set to steady after tech rout",
@@ -47,6 +250,21 @@
     "nouveaute": true
   },
   {
+    "id": "c66f6ee47f34c298",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump has taught the world that tariffs are useless",
+    "horodatage_utc": "2026-11-06T11:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/aab95234-0b9a-4b95-b1e5-d932669076d5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "0896c30633a0f56a",
     "categorie": "geopolitique",
     "titre_affiche": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
@@ -69,13 +287,13 @@
     "horodatage_utc": "2026-11-06T09:00:00+00:00",
     "source_nom": "BCE - communiques",
     "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8f9cdd83139515c8",
@@ -183,6 +401,21 @@
     "nouveaute": true
   },
   {
+    "id": "b133b9e5093c58b0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi Jinping’s great purge",
+    "horodatage_utc": "2026-11-06T02:14:55+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8407d5dc-c231-46aa-a4fb-58d25c85892a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "eb3da7be9bb0b8b6",
     "categorie": "geopolitique",
     "titre_affiche": "Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge",
@@ -219,21 +452,6 @@
     "horodatage_utc": "2026-11-05T22:41:52+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b14c098ff140520c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nasdaq drops into correction territory — here’s what typically happens next",
-    "horodatage_utc": "2026-11-05T22:31:24+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
@@ -1618,216 +1836,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "0f50e9c7a3ea0b08",
-    "categorie": "geopolitique",
-    "titre_affiche": "Low Storage Buffers In Europe Could Prolong Gas Market Tightness Into 2027 : IEA",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/rttnews.com",
-    "url_source": "https://www.rttnews.com/3707610/low-storage-buffers-in-europe-could-prolong-gas-market-tightness-into-2027-iea.aspx",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c0a2ebfc21529529",
-    "categorie": "geopolitique",
-    "titre_affiche": "Netanyahu Urges Trump to Launch New Strikes on Iran as Diplomatic Talks Continue",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/wgow.com",
-    "url_source": "https://www.wgow.com/2026/11/03/netanyahu-urges-trump-to-launch-new-strikes-on-iran-as-diplomatic-talks-continue/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8a02203689872322",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Sebut Bola Ada di Tangan AS untuk Cegah Perang",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/international.sindonews.com",
-    "url_source": "https://international.sindonews.com/read/1767845/43/iran-sebut-bola-ada-di-tangan-as-untuk-cegah-perang-1793697093",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "63231d355ab40d59",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil rises as peace prospects dim after U . S . hits Iran Qeshm Island",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/theglobeandmail.com",
-    "url_source": "https://www.theglobeandmail.com/investing/article-oil-rises-as-peace-prospects-dim-after-us-hits-irans-qeshm-island/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3f88f7a70f6ec3a3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump calls Iran conflict a soft war , insists US holds the cards ahead of midterm elections",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/nypost.com",
-    "url_source": "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "09682b69777df9d5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine - Liveticker : Merz : Selenskyj soll bald im Kanzleramt eintreffen",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/faz.net",
-    "url_source": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-merz-selenskyj-soll-bald-im-kanzleramt-eintreffen-faz-110683325.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ce0d4adce4fe0621",
-    "categorie": "geopolitique",
-    "titre_affiche": "A new cold war : hackers target fridges across the globe",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/ksut.org",
-    "url_source": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes",
-      "Conflits et sécurité"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c5ab7d55b400c31b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine war briefing : US to mediate talks with Kyiv and Moscow in Abu Dhabi next week , says Witkoff",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/aol.co.uk",
-    "url_source": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-mediate-020038000.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0e2249c3a86dfce3",
-    "categorie": "geopolitique",
-    "titre_affiche": "REUTERS / Războiul se extinde în Marea Neagră , un test al liniilor roșii ale NATO",
-    "horodatage_utc": "2026-11-03T11:15:00+00:00",
-    "source_nom": "GDELT/zdg.md",
-    "url_source": "https://www.zdg.md/stiri/reuters-razboiul-se-extinde-in-marea-neagra-un-test-al-liniilor-rosii-ale-nato/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "7ead5635c424554b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Americans begin voting in crucial midterm elections",
-    "horodatage_utc": "2026-11-03T10:52:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "0c878fcf7293b9ca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Americans vote in election that doubles as referendum on Trump’s presidency",
-    "horodatage_utc": "2026-11-03T10:52:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "994d936fcba67e8b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil prices steady at $106 after sharp declines",
-    "horodatage_utc": "2026-11-03T10:16:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d0ab9542-8542-4357-a534-ddbdd1a9678d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a26aee58d984765d",
-    "categorie": "geopolitique",
-    "titre_affiche": "US voters prepare to deliver verdict on Trump",
-    "horodatage_utc": "2026-11-03T10:00:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/086e9324-9d27-43a7-9334-d743f7cf8626?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "3a1a16e8297ce598",
-    "categorie": "geopolitique",
-    "titre_affiche": "Brookfield plans for a $27 billion AI data center at UK power station",
-    "horodatage_utc": "2026-11-03T09:30:35+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
