@@ -1,18 +1,94 @@
 [
   {
+    "id": "fc013ae6e1c785f2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s defeat heralds a US retreat",
+    "horodatage_utc": "2026-11-07T05:00:34+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5435d1a8f9f426d3",
+    "categorie": "geopolitique",
+    "titre_affiche": "European security agencies probe whether bomb hoaxes started in Russia",
+    "horodatage_utc": "2026-11-07T05:00:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0845687f-1f74-4bbf-88c9-5c6b031c7f20?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ee7d0151776d0558",
+    "categorie": "geopolitique",
+    "titre_affiche": "How Wall Street’s all-in bet on AI blew up",
+    "horodatage_utc": "2026-11-07T05:00:31+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e8f342c49c5ec7c8",
+    "categorie": "geopolitique",
+    "titre_affiche": "A bittersweet year for liberals",
+    "horodatage_utc": "2026-11-07T05:00:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3370e949-4a32-4a2d-8738-2f1cde6a35ea?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0ceb3ab37063f844",
+    "categorie": "geopolitique",
+    "titre_affiche": "Mississippi election marks political earthquake in the Deep South",
+    "horodatage_utc": "2026-11-07T05:00:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0700baee-1a7f-4dc4-ac95-5b98e1868d96?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "20c258e63ba3b73c",
     "categorie": "geopolitique",
     "titre_affiche": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
     "horodatage_utc": "2026-11-07T02:33:26+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "33348de3e772ddbf",
@@ -1756,82 +1832,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "4569337b43499811",
-    "categorie": "geopolitique",
-    "titre_affiche": "Stock market after midterm elections: What S&P 500 history shows",
-    "horodatage_utc": "2026-11-03T18:21:05+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "13630e5472b93de7",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 5.2 - Volcano Islands, Japan region",
-    "horodatage_utc": "2026-11-03T17:05:18+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvie",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6648d91c5a577aad",
-    "categorie": "geopolitique",
-    "titre_affiche": "Binance hackers used fake interviews and social media profiles in $6.3bn heist",
-    "horodatage_utc": "2026-11-03T17:00:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1ed838c0-a525-49bb-b494-15e4d1296791?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "5fcc1492aba42a04",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump says US will end military aid to Israel by end of the year",
-    "horodatage_utc": "2026-11-03T15:32:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2f1a826a-5d98-47ba-be3f-5d21edce89c8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4efe82a243ec2e07",
-    "categorie": "geopolitique",
-    "titre_affiche": "US strikes Iran’s Qeshm Island on eve of election",
-    "horodatage_utc": "2026-11-03T14:46:20+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ebeaca62-8958-459a-be9d-d3d39e441a53?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
