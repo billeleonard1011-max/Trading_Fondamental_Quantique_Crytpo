@@ -1,5 +1,20 @@
 [
   {
+    "id": "cff498c60f8aa030",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
+    "horodatage_utc": "2026-11-07T16:46:02+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "d74bc1392450d547",
     "categorie": "crypto",
     "titre_affiche": "Elliptic says Binance hackers swapped stolen tokens for $124M in bitcoin, exchange plans more withdrawal reopenings",
@@ -1785,21 +1800,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "92b17912448f6f1c",
-    "categorie": "crypto",
-    "titre_affiche": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
-    "horodatage_utc": "2026-10-26T16:05:12+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": false

@@ -1,18 +1,93 @@
 [
   {
+    "id": "79790b0895ad1b9f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Christine Lagarde: Interview with Yomiuri Shimbun",
+    "horodatage_utc": "2026-11-07T14:00:00+00:00",
+    "source_nom": "BCE - communiques",
+    "url_source": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dabdc06c1dd5d072",
+    "categorie": "geopolitique",
+    "titre_affiche": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
+    "horodatage_utc": "2026-11-07T13:30:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c14040bdcc8514c5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+    "horodatage_utc": "2026-11-07T13:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b84bccfd21ffcfdf",
+    "categorie": "geopolitique",
+    "titre_affiche": "What will a Democratic Congress mean for Ukraine?",
+    "horodatage_utc": "2026-11-07T12:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fac3a560-7845-4acf-9487-54ec8a445d74?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a5a4ab892b0a2d6c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+    "horodatage_utc": "2026-11-07T12:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "fc013ae6e1c785f2",
     "categorie": "geopolitique",
     "titre_affiche": "Trump’s defeat heralds a US retreat",
     "horodatage_utc": "2026-11-07T05:00:34+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5435d1a8f9f426d3",
@@ -36,14 +111,14 @@
     "horodatage_utc": "2026-11-07T05:00:31+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e8f342c49c5ec7c8",
@@ -52,13 +127,13 @@
     "horodatage_utc": "2026-11-07T05:00:22+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3370e949-4a32-4a2d-8738-2f1cde6a35ea?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0ceb3ab37063f844",
@@ -73,6 +148,21 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "38fcd4ee41755900",
+    "categorie": "geopolitique",
+    "titre_affiche": "Gillian Tett: Why does America hate AI?",
+    "horodatage_utc": "2026-11-07T05:00:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/af97585a-3381-42a9-838b-9a205ab81232?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -1741,96 +1831,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "cdde1786a1c582d3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
-    "horodatage_utc": "2026-11-03T22:35:24+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "89e8062a4484312c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Investors watch US state races for signs of backlash against AI boom",
-    "horodatage_utc": "2026-11-03T20:25:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c8a092e5-c1e4-46b8-83e1-73404900a0c5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5e292ac0158fcad8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Binance breach puts custody at center of crypto infrastructure trade",
-    "horodatage_utc": "2026-11-03T20:13:37+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "55a63c00e17c7522",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jim Cramer likes CrowdStrike's new 'AI kill switch' and the cyber stock",
-    "horodatage_utc": "2026-11-03T19:16:46+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/investingclub/2026/11/03/jim-cramer-likes-crowdstrikes-new-ai-kill-switch-and-the-cyber-stock.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "fb94ba66e280bd42",
-    "categorie": "geopolitique",
-    "titre_affiche": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
-    "horodatage_utc": "2026-11-03T18:40:37+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "868b5beb34b274e7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Wall Street braces as voters head to high-stakes polls",
-    "horodatage_utc": "2026-11-03T18:30:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c8a092e5-c1e4-46b8-83e1-73404900a0c5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
