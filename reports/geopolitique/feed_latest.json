@@ -1,18 +1,33 @@
 [
   {
+    "id": "20c258e63ba3b73c",
+    "categorie": "geopolitique",
+    "titre_affiche": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+    "horodatage_utc": "2026-11-07T02:33:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "33348de3e772ddbf",
     "categorie": "geopolitique",
     "titre_affiche": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
     "horodatage_utc": "2026-11-06T23:13:10+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "01be52d3ca911629",
@@ -68,13 +83,13 @@
     "horodatage_utc": "2026-11-06T22:09:58+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/6e8f2244-0e39-45cd-b415-e0be54b0351f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fb527fd7a1ef4bf5",
@@ -83,13 +98,13 @@
     "horodatage_utc": "2026-11-06T22:00:56+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dd1ffd46f47def3b",
@@ -98,13 +113,13 @@
     "horodatage_utc": "2026-11-06T21:15:47+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c3753c02accabcf7",
@@ -113,10 +128,26 @@
     "horodatage_utc": "2026-11-06T21:07:07+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "91245ea73ee0fca1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Voters take their pick in New Zealand’s ‘supermarket election’",
+    "horodatage_utc": "2026-11-06T21:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1e80651b-14f3-4cf0-9b47-2f6dee158496?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix",
+      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -176,13 +207,13 @@
     "horodatage_utc": "2026-11-06T19:05:00+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "11b4ef17ed0e4507",
@@ -1802,35 +1833,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "87009ceb983d8315",
-    "categorie": "geopolitique",
-    "titre_affiche": "Supermarket fridges hit with cyberattacks across Europe — here's what's happening",
-    "horodatage_utc": "2026-11-03T14:31:25+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/03/supermarket-fridges-hack-cyberattack-europe.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b7e25275fbba7f66",
-    "categorie": "geopolitique",
-    "titre_affiche": "The FT’s guide to election night",
-    "horodatage_utc": "2026-11-03T14:00:03+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c3be88d4-37bb-4eff-8e12-34ab019012e5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   }
 ]
