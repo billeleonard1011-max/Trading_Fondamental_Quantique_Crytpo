@@ -1,18 +1,64 @@
 [
   {
+    "id": "b4cd88c59821efdd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
+    "horodatage_utc": "2026-11-08T13:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "799bd5c8b3ee1683",
+    "categorie": "geopolitique",
+    "titre_affiche": "Republican infighting mounts over corruption claims after midterms wipeout",
+    "horodatage_utc": "2026-11-08T12:51:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/66e9ca46-d1ea-473c-b8d6-06ba1dfc9e76?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d690e913a2e28663",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic strikes $3.4bn deal to generate gas-fired power for data centres",
+    "horodatage_utc": "2026-11-08T11:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "e5c8e4bda436c401",
     "categorie": "geopolitique",
     "titre_affiche": "Crypto industry braces for reckoning over Trump ties",
     "horodatage_utc": "2026-11-08T05:00:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f1b98a61-4103-447c-bb9a-3dccc0819f61?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4225d420b2ece73d",
@@ -21,12 +67,27 @@
     "horodatage_utc": "2026-11-08T05:00:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bd763f67-4c23-4e55-8fbf-3ca0ed520175?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "ddc1a98bba9fabfa",
+    "categorie": "geopolitique",
+    "titre_affiche": "UK must ‘catch up’ with Europe in opposing Russian threat, says military chief",
+    "horodatage_utc": "2026-11-08T05:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9d49deb8-33f6-4375-9216-a95dbb915576?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -36,13 +97,28 @@
     "horodatage_utc": "2026-11-08T05:00:11+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/423ca208-8e22-4fb3-a76d-b9c722fd8cc0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
+  },
+  {
+    "id": "a08b910811d9fe6e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump asks UFC boss Dana White to be new press secretary",
+    "horodatage_utc": "2026-11-08T01:23:57+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/52c3c7ac-f0ee-4b90-a2c8-68e76d120a79?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
   },
   {
     "id": "20c258e63ba3b73c",
@@ -88,21 +164,6 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "a08b910811d9fe6e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump asks UFC boss Dana White to be new press secretary",
-    "horodatage_utc": "2026-11-07T20:33:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/52c3c7ac-f0ee-4b90-a2c8-68e76d120a79?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
   },
   {
     "id": "3e80e47dd4efbf7e",
@@ -1762,68 +1823,6 @@
     "horodatage_utc": "2026-11-04T07:23:18+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/862ca6ad-2781-4117-8799-3205bbdbc5ea?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "b31afd3ea2396ed2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
-    "horodatage_utc": "2026-11-04T06:50:22+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ae5a22801939935e",
-    "categorie": "geopolitique",
-    "titre_affiche": "James Talarico’s historic Texas Senate victory deals blow to Elon Musk",
-    "horodatage_utc": "2026-11-04T05:37:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b2d07a1f-dfa6-449b-a598-1db51951d6f6?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6628f01739edc633",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s American slapdown for the ages",
-    "horodatage_utc": "2026-11-04T05:11:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0a9d5d07-bc57-4348-b67e-54cf4f1a246e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "2b842cde49cdddb4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s slapdown by America is one for the ages",
-    "horodatage_utc": "2026-11-04T05:11:06+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0a9d5d07-bc57-4348-b67e-54cf4f1a246e?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

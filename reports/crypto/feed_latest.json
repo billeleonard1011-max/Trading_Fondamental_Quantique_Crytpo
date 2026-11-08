@@ -1,5 +1,20 @@
 [
   {
+    "id": "6af33dda4cc5bf89",
+    "categorie": "crypto",
+    "titre_affiche": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+    "horodatage_utc": "2026-11-08T12:55:59+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "cff498c60f8aa030",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
@@ -1785,21 +1800,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3521983ad2c6008a",
-    "categorie": "crypto",
-    "titre_affiche": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
-    "horodatage_utc": "2026-10-27T03:58:07+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
