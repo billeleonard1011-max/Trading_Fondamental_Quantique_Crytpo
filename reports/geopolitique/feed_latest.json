@@ -1,8 +1,38 @@
 [
   {
+    "id": "20c258e63ba3b73c",
+    "categorie": "geopolitique",
+    "titre_affiche": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+    "horodatage_utc": "2026-11-07T21:41:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "a9bf86f9a2161220",
     "categorie": "geopolitique",
     "titre_affiche": "Israel’s president gives Gadi Eisenkot first shot at forming a government",
+    "horodatage_utc": "2026-11-07T21:03:47+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bf737648-b974-4f87-ba0b-958f2aff1163?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "56b8106b3aed11fa",
+    "categorie": "geopolitique",
+    "titre_affiche": "Israel’s president gives Gadi Eisenkot first chance at forming a government",
     "horodatage_utc": "2026-11-07T21:03:47+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bf737648-b974-4f87-ba0b-958f2aff1163?syn-25a6b1a6=1",
@@ -36,13 +66,13 @@
     "horodatage_utc": "2026-11-07T17:42:41+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/5cb562ec-5493-4ff3-bd2d-99cc9cacfa73?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "79790b0895ad1b9f",
@@ -202,21 +232,6 @@
     "horodatage_utc": "2026-11-07T05:00:13+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/af97585a-3381-42a9-838b-9a205ab81232?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "20c258e63ba3b73c",
-    "categorie": "geopolitique",
-    "titre_affiche": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-    "horodatage_utc": "2026-11-07T02:33:26+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
@@ -1816,20 +1831,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "c7ecae7ca3bc3825",
-    "categorie": "geopolitique",
-    "titre_affiche": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
-    "horodatage_utc": "2026-11-04T00:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
