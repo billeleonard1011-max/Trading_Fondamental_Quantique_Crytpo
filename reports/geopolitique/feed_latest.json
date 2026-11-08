@@ -1,18 +1,66 @@
 [
   {
+    "id": "d2c51b2f3a5ad7cb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+    "horodatage_utc": "2026-11-08T18:18:30+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d76a7be238e8aa76",
+    "categorie": "geopolitique",
+    "titre_affiche": "Democrats vow to impeach Trump officials and investigate Republican donors",
+    "horodatage_utc": "2026-11-08T18:10:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/111fefdb-0f85-4f8f-854f-86a5f81aceec?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Pétrole et énergie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ab20a775a6b13b60",
+    "categorie": "geopolitique",
+    "titre_affiche": "A new economic agenda for America",
+    "horodatage_utc": "2026-11-08T16:00:00+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/81bd54ff-61b4-4fa6-83d3-5a73821a879c",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "b4cd88c59821efdd",
     "categorie": "geopolitique",
     "titre_affiche": "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
     "horodatage_utc": "2026-11-08T13:00:01+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "799bd5c8b3ee1683",
@@ -21,14 +69,14 @@
     "horodatage_utc": "2026-11-08T12:51:25+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/66e9ca46-d1ea-473c-b8d6-06ba1dfc9e76?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d690e913a2e28663",
@@ -37,13 +85,13 @@
     "horodatage_utc": "2026-11-08T11:00:09+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e5c8e4bda436c401",
@@ -1778,51 +1826,6 @@
     "horodatage_utc": "2026-11-04T10:48:26+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/97070d8f-ce2d-4873-8c70-cc8338f7ce1c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "473e19e0b7e2a42f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Americans deliver stunning rebuke to Trump as blue wave sweeps country",
-    "horodatage_utc": "2026-11-04T08:34:14+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b1eb9500-612a-4bb0-bdc3-0311cfc0ec99?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "65f2bc2c13be72dd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Who are the new faces in the Senate?",
-    "horodatage_utc": "2026-11-04T08:24:35+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d808855c-7157-4f63-b511-943fd3714e34?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "8e1ddd2a48b8c663",
-    "categorie": "geopolitique",
-    "titre_affiche": "The great humbling of Donald Trump",
-    "horodatage_utc": "2026-11-04T07:23:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/862ca6ad-2781-4117-8799-3205bbdbc5ea?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
