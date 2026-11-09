@@ -1,5 +1,35 @@
 [
   {
+    "id": "50ba5afca567bc0c",
+    "categorie": "quantique",
+    "titre_affiche": "IBM Deploys First Quantum Computer in Illinois with Quantum System Two",
+    "horodatage_utc": "2026-11-09T08:54:19+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/09/ibm-first-quantum-computer-illinois-chicago/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a15ea7b531f3c2c9",
+    "categorie": "quantique",
+    "titre_affiche": "IBM Patent Application Targets More Efficient Sharing of Quantum Computers",
+    "horodatage_utc": "2026-11-09T08:34:35+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/09/ibm-patent-application-targets-more-efficient-sharing-of-quantum-computers/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "ab41049bbe816480",
     "categorie": "quantique",
     "titre_affiche": "South Korea Launches 614 PFLOPS Hangang Supercomputer Ahead of May 2027 IonQ Quantum Link",
@@ -1776,35 +1806,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "802dcdfbeeee85d1",
-    "categorie": "quantique",
-    "titre_affiche": "D - Wave 4 , 400 - Plus - Qubit Advantage2 System Reaches Lombardy",
-    "horodatage_utc": "2026-10-15T21:15:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "https://econotimes.com/D-Wave-s-4-400-Plus-Qubit-Advantage2-System-Reaches-Lombardy-1755203",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "4048139556d33926",
-    "categorie": "quantique",
-    "titre_affiche": "IBM Has Paid Dividends Since 1916 . Here Why Retirees Should Pay Attention Now",
-    "horodatage_utc": "2026-10-15T20:30:00+00:00",
-    "source_nom": "GDELT/247wallst.com",
-    "url_source": "https://247wallst.com/investing/2026/10/15/ibm-has-paid-dividends-since-1916-heres-why-retirees-should-pay-attention-now/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
