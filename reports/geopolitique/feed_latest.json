@@ -1,18 +1,63 @@
 [
   {
+    "id": "763a85f353ad8ae1",
+    "categorie": "geopolitique",
+    "titre_affiche": "China’s inflation edges lower in October",
+    "horodatage_utc": "2026-11-09T02:01:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/085c4610-143a-47ad-b546-0587695294b5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Inflation et prix. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Inflation et prix"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "227a5718718a6787",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says he was ‘only kidding’ about asking UFC boss to be spokesperson",
+    "horodatage_utc": "2026-11-09T01:15:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b3acb746-76c0-46de-879a-990602b27a6a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "2c6dd9dd0e33ab98",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy",
+    "horodatage_utc": "2026-11-09T01:08:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "8ca30799e813f141",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
     "horodatage_utc": "2026-11-08T22:53:57+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d2c51b2f3a5ad7cb",
@@ -31,34 +76,19 @@
     "nouveaute": false
   },
   {
-    "id": "2c6dd9dd0e33ab98",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy",
-    "horodatage_utc": "2026-11-08T22:31:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "9a1a82cbe037a62c",
     "categorie": "geopolitique",
     "titre_affiche": "Read Huang's email to his staff and statement from Nvidia's board of directors",
     "horodatage_utc": "2026-11-08T22:19:00+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d76a7be238e8aa76",
@@ -1803,35 +1833,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "2f3444f1c8c59866",
-    "categorie": "geopolitique",
-    "titre_affiche": "Blue wave sweeps markets back towards normality",
-    "horodatage_utc": "2026-11-04T14:03:10+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fc404189-8dde-4dfe-8da7-0df8e92effd2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "c83b9411d60ee21b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mississippi and Alaska races go down to the wire as Trump blame game erupts",
-    "horodatage_utc": "2026-11-04T13:36:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
