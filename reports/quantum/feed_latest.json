@@ -1,5 +1,80 @@
 [
   {
+    "id": "0fcde054805c0bf7",
+    "categorie": "quantique",
+    "titre_affiche": "QuEra, Harvard and Anthropic Use AI to Reduce Quantum Circuit Resource Requirements",
+    "horodatage_utc": "2026-11-10T18:10:47+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/10/quera-harvard-anthropic-ai-quantum-circuit-resource-requirements/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QuEra"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c46b006035bef8a7",
+    "categorie": "quantique",
+    "titre_affiche": "Xanadu and HyperLight Reduce Photonic Switch Loss to 7 mdB",
+    "horodatage_utc": "2026-11-10T13:09:20+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/10/xanadu-hyperlight-photonic-switch-loss-7-mdb/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Xanadu. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Xanadu"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "19e00dbc0f9ef3da",
+    "categorie": "quantique",
+    "titre_affiche": "Gartner Names IonQ a Market Shaper in Quantum Computing",
+    "horodatage_utc": "2026-11-10T13:01:26+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/10/gartner-ionq-market-shaper-quantum-computing/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2006d93c50c05244",
+    "categorie": "quantique",
+    "titre_affiche": "D-Wave Revenue Rises 21% as Customer Deployments Expand And CHIPS Agreement Advances",
+    "horodatage_utc": "2026-11-10T12:54:04+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/10/d-wave-revenue-rises-21-as-customer-deployments-expand-and-chips-agreement-advances/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QBTS"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1a4840bfa4c5bd13",
+    "categorie": "quantique",
+    "titre_affiche": "IBM Selects Four Organisations for AI and Quantum Workforce Programme",
+    "horodatage_utc": "2026-11-10T12:45:38+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "cae1f8286cae168d",
     "categorie": "quantique",
     "titre_affiche": "Google Researchers Use AI And Mathematical Proofs to Cut Quantum Computing Requirements",
@@ -1730,81 +1805,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "bafdaaf330835ee6",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ and Cavendish Lab open Quantum innovation Centre ⋆ Electronics Weekly",
-    "horodatage_utc": "2026-10-16T09:45:00+00:00",
-    "source_nom": "GDELT/electronicsweekly.com",
-    "url_source": "https://www.electronicsweekly.com/news/business/ionq-and-cavendish-lab-open-quantum-innovation-centre-2026-10/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/electronicsweekly.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "34b7fd4268c3b880",
-    "categorie": "quantique",
-    "titre_affiche": "Google Demonstrates Method to Cut Errors in Quantum Computing’s ‘Magic States’",
-    "horodatage_utc": "2026-10-16T07:55:57+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Google"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e24cebcb513b58a9",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ ( NYSE : IONQ ) vs . NetApp ( NASDAQ : NTAP ) Critical Review",
-    "horodatage_utc": "2026-10-16T04:15:00+00:00",
-    "source_nom": "GDELT/tickerreport.com",
-    "url_source": "https://www.tickerreport.com/banking-finance/13621256/ionq-nyseionq-vs-netapp-nasdaqntap-critical-review.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/tickerreport.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "925de6fac9f0df2e",
-    "categorie": "quantique",
-    "titre_affiche": "Prediction : IonQ Will Cross $100 Per Share in 2027 ( It Less Than $40 Per Share Now )",
-    "horodatage_utc": "2026-10-16T02:00:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/10/15/prediction-ionq-will-cross-100-per-share-in-2027-i/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "674167a9115f2ddd",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ Is Following Nvidia Playbook . Why the Stock Could Be a Buy After a 60 % Dip .",
-    "horodatage_utc": "2026-10-16T02:00:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/10/15/ionq-is-following-nvidias-playbook-why-the-stock-c/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ",
-      "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
