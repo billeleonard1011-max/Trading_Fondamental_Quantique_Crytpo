@@ -1,5 +1,172 @@
 [
   {
+    "id": "b5943ce07bec77a0",
+    "categorie": "geopolitique",
+    "titre_affiche": "China’s trade surplus exceeds $1tn for first 10 months of year",
+    "horodatage_utc": "2026-11-10T03:09:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b4ec2f9732dd4cdb",
+    "categorie": "geopolitique",
+    "titre_affiche": "What is Megaspeed? The Nvidia chip buyer in the spotlight after Jensen Huang’s affair",
+    "horodatage_utc": "2026-11-10T01:33:36+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f16dda66142cef5c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says FBI is ‘looking into’ Nvidia’s Jensen Huang",
+    "horodatage_utc": "2026-11-10T00:35:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cbabf2da-2079-4b69-88e3-0ba84cf8d6fd?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "95e42db01bfdb0e6",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
+    "horodatage_utc": "2026-11-10T00:08:38+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/efc3048c-c614-4d71-bf1b-e8cdce40722f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "ccf038b991611436",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia’s Trump ties draw scrutiny after reports Huang was targeted by Chinese intelligence",
+    "horodatage_utc": "2026-11-09T23:54:21+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-china-spy-trump-lobbying.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "187a44a249a919c9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump’s Board of Peace warns of ‘immediate humanitarian emergency’ in Gaza",
+    "horodatage_utc": "2026-11-09T23:51:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/20dc125b-02e0-4bee-be43-16aa7f8185d9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cfe6b10996a11dce",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+    "horodatage_utc": "2026-11-09T22:56:39+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "961f1f20ba4f60a8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump hails ‘positive momentum’ towards ending Iran war",
+    "horodatage_utc": "2026-11-09T22:42:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4a75299e-a705-493f-91a7-07d3b87ecc4e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9b61058d27a6de76",
+    "categorie": "geopolitique",
+    "titre_affiche": "Republican lawmaker moves to impeach US defence secretary Pete Hegseth",
+    "horodatage_utc": "2026-11-09T22:15:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ed09fc96-5ad5-4ff8-a8a9-900740c6fcbb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "bbd2ef442a0cf198",
+    "categorie": "geopolitique",
+    "titre_affiche": "As Nvidia probes Jensen Huang affair, here's the board member likely to play a big role",
+    "horodatage_utc": "2026-11-09T21:54:40+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "491c55cca36a79fb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
+    "horodatage_utc": "2026-11-09T21:24:13+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "fbc050ad9fe29431",
     "categorie": "geopolitique",
     "titre_affiche": "Tokenization platform Securitize reports gains, expands into asset-backed finance",
@@ -15,35 +182,20 @@
     "nouveaute": true
   },
   {
-    "id": "cfe6b10996a11dce",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
-    "horodatage_utc": "2026-11-09T21:04:50+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "8bf30bdd68c6bb4b",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
     "horodatage_utc": "2026-11-09T21:04:19+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f1dd380f0d368897",
@@ -52,13 +204,13 @@
     "horodatage_utc": "2026-11-09T21:00:00+00:00",
     "source_nom": "Federal Reserve - communiques",
     "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3b02a6b81f0ea77b",
@@ -76,52 +228,6 @@
     "nouveaute": true
   },
   {
-    "id": "ccf038b991611436",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia’s Trump ties draw scrutiny after reports Huang was targeted by Chinese intelligence",
-    "horodatage_utc": "2026-11-09T20:49:20+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-china-spy-trump-lobbying.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bbd2ef442a0cf198",
-    "categorie": "geopolitique",
-    "titre_affiche": "As Nvidia probes Jensen Huang affair, here's the board member likely to play a big role",
-    "horodatage_utc": "2026-11-09T20:41:54+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9b61058d27a6de76",
-    "categorie": "geopolitique",
-    "titre_affiche": "Republican lawmaker moves to impeach US defence secretary Pete Hegseth",
-    "horodatage_utc": "2026-11-09T20:39:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ed09fc96-5ad5-4ff8-a8a9-900740c6fcbb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
     "id": "4424ba08c8aafd04",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
@@ -135,7 +241,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "abf5ad6aedfada76",
@@ -153,21 +259,6 @@
     "nouveaute": true
   },
   {
-    "id": "95e42db01bfdb0e6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
-    "horodatage_utc": "2026-11-09T19:43:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/efc3048c-c614-4d71-bf1b-e8cdce40722f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "a9908dc834cc8f72",
     "categorie": "geopolitique",
     "titre_affiche": "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
@@ -180,7 +271,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b4c9f541fd1b368b",
@@ -195,7 +286,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a7e1f0e7962fea0d",
@@ -225,7 +316,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "104acc41b761be1c",
@@ -240,7 +331,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f154c53e0f15bde9",
@@ -255,7 +346,7 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "680ea10a9133cc36",
@@ -270,7 +361,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bab4482e19828854",
@@ -285,21 +376,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "b4ec2f9732dd4cdb",
-    "categorie": "geopolitique",
-    "titre_affiche": "What is Megaspeed? The Nvidia chip buyer in the spotlight after Jensen Huang’s affair",
-    "horodatage_utc": "2026-11-09T15:57:38+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -330,7 +406,7 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b4cd88c59821efdd",
@@ -360,7 +436,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b3b60c3fe2890aa2",
@@ -375,7 +451,7 @@
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b4ff6f4e89ec81f1",
@@ -390,7 +466,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a2b7d7f86a887e95",
@@ -1747,83 +1823,6 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "32715f35172f0380",
-    "categorie": "geopolitique",
-    "titre_affiche": "Barkin sees interest rate hikes ahead, but at a gradual pace",
-    "horodatage_utc": "2026-11-05T16:34:33+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9921c788a08d7b6e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-    "horodatage_utc": "2026-11-05T16:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c1922d4dbf8287f2",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI backlash threatens trillion-dollar data centre boom, say tech leaders",
-    "horodatage_utc": "2026-11-05T15:35:47+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/32fd4450-5880-437d-9bd9-df13289ada24?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Sanctions, accords et diplomatie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5956317aa358fbe3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
-    "horodatage_utc": "2026-11-05T15:24:47+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "42f72036d9e88248",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke",
-    "horodatage_utc": "2026-11-05T13:44:45+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
     "nouveaute": false
   }
 ]
