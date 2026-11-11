@@ -1,5 +1,155 @@
 [
   {
+    "id": "cbd9fac523414189",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 5.0 - 152 km SE of Kuril’sk, Russia",
+    "horodatage_utc": "2026-11-11T05:42:52+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txgv",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4ba0ff8ecd5aba43",
+    "categorie": "geopolitique",
+    "titre_affiche": "Ukraine’s freedom must be defended",
+    "horodatage_utc": "2026-11-11T05:00:31+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/64131ac1-a9bb-429b-b937-183a08f72bc6?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b9659ed74be7c1ea",
+    "categorie": "geopolitique",
+    "titre_affiche": "How Singapore became a linchpin of China’s AI chip trade",
+    "horodatage_utc": "2026-11-11T05:00:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/52b5f9a8-346f-4dae-8a16-14d5d9eb1244?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "53d4e2b21c64165b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic IPO valuation calculator: How much is it really worth?",
+    "horodatage_utc": "2026-11-11T05:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8281fcde-bcf7-4145-b785-bc0d12616c27?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a1a2c506968c1d81",
+    "categorie": "geopolitique",
+    "titre_affiche": "France pressures Germany over nuclear risks of long-range missiles",
+    "horodatage_utc": "2026-11-11T05:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7f61b561-bcbd-4900-afd7-553ff76d6217?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0f46f9cf9094a503",
+    "categorie": "geopolitique",
+    "titre_affiche": "France and Belgium fall foul of Eurozone bond market’s new divide",
+    "horodatage_utc": "2026-11-11T05:00:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5263808c-e8ac-44b8-baa3-af7e8c788684?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6fa996af3c26350c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+    "horodatage_utc": "2026-11-11T03:08:17+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2ec54fbde52d930e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
+    "horodatage_utc": "2026-11-11T01:52:56+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "4d47a537b770cc31",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
+    "horodatage_utc": "2026-11-11T00:27:38+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1229379bb9655213",
+    "categorie": "geopolitique",
+    "titre_affiche": "House blocks impeachment of US defence secretary Pete Hegseth",
+    "horodatage_utc": "2026-11-11T00:01:42+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/38100c3c-af0d-440b-8350-823c5e8c80d9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "0694db1138376a0c",
     "categorie": "geopolitique",
     "titre_affiche": "CoreWeave plans multibillion-dollar chip-backed debt deal",
@@ -21,13 +171,13 @@
     "horodatage_utc": "2026-11-10T23:46:35+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a5b2f58235784d28",
@@ -36,13 +186,13 @@
     "horodatage_utc": "2026-11-10T23:41:43+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/10/cramer-stocks-inflation-nvidia-anthropic.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "38dd6e4cefbddb70",
@@ -51,13 +201,13 @@
     "horodatage_utc": "2026-11-10T23:36:56+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c46b97e4962dffe2",
@@ -66,13 +216,13 @@
     "horodatage_utc": "2026-11-10T23:11:34+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ce788fd17ddae86f",
@@ -81,14 +231,14 @@
     "horodatage_utc": "2026-11-10T23:06:44+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a59a7bd6188a9f12",
@@ -97,13 +247,13 @@
     "horodatage_utc": "2026-11-10T22:08:25+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "38cab94c69f62773",
@@ -112,13 +262,13 @@
     "horodatage_utc": "2026-11-10T20:30:00+00:00",
     "source_nom": "Federal Reserve - discours et auditions",
     "url_source": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "456e6e75295e601d",
@@ -149,7 +299,7 @@
       "Sanctions, accords et diplomatie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cfa6a441ebe3bd1b",
@@ -1663,156 +1813,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "56b8106b3aed11fa",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israel’s president gives Gadi Eisenkot first chance at forming a government",
-    "horodatage_utc": "2026-11-07T21:03:47+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/bf737648-b974-4f87-ba0b-958f2aff1163?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3e80e47dd4efbf7e",
-    "categorie": "geopolitique",
-    "titre_affiche": "French far-left presidential hopeful pledges ‘revolutionary’ remaking of society",
-    "horodatage_utc": "2026-11-07T17:42:41+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5cb562ec-5493-4ff3-bd2d-99cc9cacfa73?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "79790b0895ad1b9f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Christine Lagarde: Interview with Yomiuri Shimbun",
-    "horodatage_utc": "2026-11-07T14:00:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "dabdc06c1dd5d072",
-    "categorie": "geopolitique",
-    "titre_affiche": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
-    "horodatage_utc": "2026-11-07T13:30:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c14040bdcc8514c5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-    "horodatage_utc": "2026-11-07T13:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "b84bccfd21ffcfdf",
-    "categorie": "geopolitique",
-    "titre_affiche": "What will a Democratic Congress mean for Ukraine?",
-    "horodatage_utc": "2026-11-07T12:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/fac3a560-7845-4acf-9487-54ec8a445d74?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "a5a4ab892b0a2d6c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
-    "horodatage_utc": "2026-11-07T12:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "fc013ae6e1c785f2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump’s defeat heralds a US retreat",
-    "horodatage_utc": "2026-11-07T05:00:34+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5435d1a8f9f426d3",
-    "categorie": "geopolitique",
-    "titre_affiche": "European security agencies probe whether bomb hoaxes started in Russia",
-    "horodatage_utc": "2026-11-07T05:00:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0845687f-1f74-4bbf-88c9-5c6b031c7f20?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ee7d0151776d0558",
-    "categorie": "geopolitique",
-    "titre_affiche": "How Wall Street’s all-in bet on AI blew up",
-    "horodatage_utc": "2026-11-07T05:00:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]

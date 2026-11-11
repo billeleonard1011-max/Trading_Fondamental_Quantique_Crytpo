@@ -1,5 +1,20 @@
 [
   {
+    "id": "d404f4023ba12eff",
+    "categorie": "crypto",
+    "titre_affiche": "Bitmine reports $6.3 billion net loss in latest fiscal year, driven by 44% ether decline",
+    "horodatage_utc": "2026-11-11T06:22:32+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-11-bitmine-6-3-billion-net-loss-437812",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b7fe4b5b9d2b01c6",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin slides below $74,000 after hotter-than-expected CPI as analysts warn of drop to $70k",
@@ -1786,21 +1801,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "caf0c203875b14b0",
-    "categorie": "crypto",
-    "titre_affiche": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
-    "horodatage_utc": "2026-10-29T14:15:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/28/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "LINK"
     ],
     "portee": "actif_direct",
     "nouveaute": false

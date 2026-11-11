@@ -1,5 +1,35 @@
 [
   {
+    "id": "9df68101494f1717",
+    "categorie": "quantique",
+    "titre_affiche": "Colorado Partners with IBM to Deploy AI-Driven Quantum Ecosystem Mapping and Workforce Tools",
+    "horodatage_utc": "2026-11-11T01:38:46+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/colorado-partners-with-ibm-to-deploy-ai-driven-quantum-ecosystem-mapping-and-workforce-tools/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7941efd2e1c41c81",
+    "categorie": "quantique",
+    "titre_affiche": "Carahsoft Builds Federal Quantum Catalog with IonQ and PQSecure Partnerships",
+    "horodatage_utc": "2026-11-11T00:57:46+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "88d3c788e4284bf2",
     "categorie": "quantique",
     "titre_affiche": "ROSEN , A LEADING LAW FIRM , Encourages D - Wave Quantum Inc . Investors ...",
@@ -15,12 +45,27 @@
     "nouveaute": true
   },
   {
-    "id": "55259ffd0fc13990",
+    "id": "857d7e4f7205f66b",
     "categorie": "quantique",
-    "titre_affiche": "Quantinuum, RIKEN, and SoftBank Partner to Advance Quantum-AI Supercomputing and Domestic Fault-Tolerant Systems",
-    "horodatage_utc": "2026-11-10T18:40:32+00:00",
+    "titre_affiche": "Google DeepMind and Google Quantum AI Use Lean 4 to Discover Formally Verified Quantum Algorithms",
+    "horodatage_utc": "2026-11-10T23:58:33+00:00",
     "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/quantinuum-riken-and-softbank-partner-to-advance-quantum-ai-supercomputing-and-domestic-fault-tolerant-systems/",
+    "url_source": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Google. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Google"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b4daf5c84901af4b",
+    "categorie": "quantique",
+    "titre_affiche": "RIKEN and Quantinuum Demonstrate Heterogeneous Multi-QPU Workflows on Fugaku",
+    "horodatage_utc": "2026-11-10T23:23:39+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/riken-and-quantinuum-demonstrate-heterogeneous-multi-qpu-workflows-on-fugaku/",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
@@ -28,6 +73,21 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "55259ffd0fc13990",
+    "categorie": "quantique",
+    "titre_affiche": "Quantinuum, RIKEN, and SoftBank Partner to Advance Quantum-AI Supercomputing and Domestic Fault-Tolerant Systems",
+    "horodatage_utc": "2026-11-10T18:40:32+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quantinuum-riken-and-softbank-partner-to-advance-quantum-ai-supercomputing-and-domestic-fault-tolerant-systems/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Quantinuum"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "0fcde054805c0bf7",
@@ -51,13 +111,13 @@
     "horodatage_utc": "2026-11-10T18:03:35+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/riken-upgrades-reimei-fugaku-hybrid-quantum-platform-with-56-qubit-quantinuum-h2-processor/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Quantinuum"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "df1dcdf7b7bebb09",
@@ -66,13 +126,13 @@
     "horodatage_utc": "2026-11-10T17:52:29+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/quantinuum-and-riken-execute-end-to-end-hybrid-quantum-hpc-chemistry-on-fugaku-and-reimei/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Quantinuum"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c46b006035bef8a7",
@@ -1740,67 +1800,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Quantinuum"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c1b406c667535d44",
-    "categorie": "quantique",
-    "titre_affiche": "Quantinuum vs . IonQ : Why One Major Wall Street Firm Says This Stock Is the Better Bet",
-    "horodatage_utc": "2026-10-18T15:30:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/10/18/quantinuum-vs-ionq-why-wall-street-firm-better/?source=iedfolrf0000001",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ, Quantinuum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ",
-      "Quantinuum"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "ebfcf51cefa14a49",
-    "categorie": "quantique",
-    "titre_affiche": "Prediction : IonQ Could 10x by 2035 | The Motley Fool",
-    "horodatage_utc": "2026-10-18T12:45:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/10/18/prediction-ionq-could-10x-by-2035/?source=iedfolrf0000001",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "91e8031deff8d55a",
-    "categorie": "quantique",
-    "titre_affiche": "D - Wave Quantum ( NYSE : QBTS ) Stock Has Lost 69 % In A Year Can It Still Create Millionaires ?",
-    "horodatage_utc": "2026-10-18T01:00:00+00:00",
-    "source_nom": "GDELT/foreignpolicyjournal.com",
-    "url_source": "https://www.foreignpolicyjournal.com/2026/10/17/d-wave-quantum-nyse-qbts-stock-has-lost-69-in-a-year-can-it-still-create-millionaires/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "daccffd8aed06b3b",
-    "categorie": "quantique",
-    "titre_affiche": "Harvard, Anthropic, and QuEra Use LLMs to Discover Quantum Circuits with Up to 9,100x Lower Resource Costs",
-    "horodatage_utc": "2026-10-17T10:28:31+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QuEra"
     ],
     "portee": "actif_direct",
     "nouveaute": false
