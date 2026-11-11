@@ -1,11 +1,41 @@
 [
   {
-    "id": "cfa6a441ebe3bd1b",
+    "id": "0694db1138376a0c",
     "categorie": "geopolitique",
-    "titre_affiche": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
-    "horodatage_utc": "2026-11-10T19:53:22+00:00",
+    "titre_affiche": "CoreWeave plans multibillion-dollar chip-backed debt deal",
+    "horodatage_utc": "2026-11-11T00:01:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fa5c5bdc-c2b0-4fab-8951-0526a4608773?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f233eaa7099ab10b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
+    "horodatage_utc": "2026-11-10T23:46:35+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+    "url_source": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a5b2f58235784d28",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer: Wall Street is focusing too much on what could go wrong instead of right",
+    "horodatage_utc": "2026-11-10T23:41:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/10/cramer-stocks-inflation-nvidia-anthropic.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -15,48 +45,77 @@
     "nouveaute": true
   },
   {
-    "id": "9fd03361297bba2e",
+    "id": "38dd6e4cefbddb70",
     "categorie": "geopolitique",
-    "titre_affiche": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
-    "horodatage_utc": "2026-11-10T19:43:59+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Conflits et sécurité"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "79e2b86482f8f1bb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around",
-    "horodatage_utc": "2026-11-10T19:40:41+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Conflits et sécurité"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "94d7310e4d890139",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia hires former US prosecutor at Wachtell to lead Jensen Huang probe",
-    "horodatage_utc": "2026-11-10T19:24:52+00:00",
+    "titre_affiche": "Senior US soldier arrested in UK on suspicion of spying for Russia",
+    "horodatage_utc": "2026-11-10T23:36:56+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8d59bf02-960e-4eb1-b5dc-55397e31cea5?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c46b97e4962dffe2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+    "horodatage_utc": "2026-11-10T23:11:34+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ce788fd17ddae86f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
+    "horodatage_utc": "2026-11-10T23:06:44+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a59a7bd6188a9f12",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia sells off for second day in fallout from Jensen Huang’s affair with alleged spy",
+    "horodatage_utc": "2026-11-10T22:08:25+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "38cab94c69f62773",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
+    "horodatage_utc": "2026-11-10T20:30:00+00:00",
+    "source_nom": "Federal Reserve - discours et auditions",
+    "url_source": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -65,16 +124,94 @@
     "id": "456e6e75295e601d",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia board member Stephen Neal could play big role in probe of CEO Jensen Huang",
-    "horodatage_utc": "2026-11-10T19:02:16+00:00",
+    "horodatage_utc": "2026-11-10T20:22:57+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "d77d883d6099bdb8",
+    "categorie": "geopolitique",
+    "titre_affiche": "US commerce department delays Megaspeed’s inclusion on trade blacklist",
+    "horodatage_utc": "2026-11-10T20:05:21+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/afb6c960-a910-4d67-9588-73ba3bea5b06?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "cfa6a441ebe3bd1b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+    "horodatage_utc": "2026-11-10T20:01:18+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "9fd03361297bba2e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+    "horodatage_utc": "2026-11-10T19:43:59+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Conflits et sécurité"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "79e2b86482f8f1bb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around",
+    "horodatage_utc": "2026-11-10T19:40:41+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Conflits et sécurité"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "94d7310e4d890139",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia hires former US prosecutor at Wachtell to lead Jensen Huang probe",
+    "horodatage_utc": "2026-11-10T19:24:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8d59bf02-960e-4eb1-b5dc-55397e31cea5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "322a3413b5729d5f",
@@ -83,13 +220,13 @@
     "horodatage_utc": "2026-11-10T18:53:50+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "63c37e82ed7e20bb",
@@ -179,7 +316,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "01aba0e7208d60a3",
@@ -194,7 +331,7 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fedface75dbfa9af",
@@ -209,7 +346,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "eed4a4b02f38b0fb",
@@ -222,6 +359,21 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "20f69a95e0220ab3",
+    "categorie": "geopolitique",
+    "titre_affiche": "US, Russia and Ukraine resume talks on ending war",
+    "horodatage_utc": "2026-11-10T15:43:34+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/352539b3-41fd-4418-a171-43975897ec0e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -254,7 +406,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "48ec7ada5bbfd381",
@@ -285,7 +437,7 @@
       "Croissance et emploi"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6c4535d24ddeb5c8",
@@ -1659,158 +1811,6 @@
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e8f342c49c5ec7c8",
-    "categorie": "geopolitique",
-    "titre_affiche": "A bittersweet year for liberals",
-    "horodatage_utc": "2026-11-07T05:00:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3370e949-4a32-4a2d-8738-2f1cde6a35ea?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0ceb3ab37063f844",
-    "categorie": "geopolitique",
-    "titre_affiche": "Mississippi election marks political earthquake in the Deep South",
-    "horodatage_utc": "2026-11-07T05:00:22+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0700baee-1a7f-4dc4-ac95-5b98e1868d96?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "38fcd4ee41755900",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gillian Tett: Why does America hate AI?",
-    "horodatage_utc": "2026-11-07T05:00:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/af97585a-3381-42a9-838b-9a205ab81232?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "33348de3e772ddbf",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
-    "horodatage_utc": "2026-11-06T23:13:10+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "01be52d3ca911629",
-    "categorie": "geopolitique",
-    "titre_affiche": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
-    "horodatage_utc": "2026-11-06T22:53:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)",
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4342d2ec45ccfe6f",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
-    "horodatage_utc": "2026-11-06T22:25:58+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "61894b1225b735d5",
-    "categorie": "geopolitique",
-    "titre_affiche": "US economy outstrips forecasts to add 165,000 jobs in October",
-    "horodatage_utc": "2026-11-06T22:16:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9987c18fcc1a0b94",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump taps immigration hardliner Stephen Miller as chief of staff",
-    "horodatage_utc": "2026-11-06T22:09:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6e8f2244-0e39-45cd-b415-e0be54b0351f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "fb527fd7a1ef4bf5",
-    "categorie": "geopolitique",
-    "titre_affiche": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
-    "horodatage_utc": "2026-11-06T22:00:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "dd1ffd46f47def3b",
-    "categorie": "geopolitique",
-    "titre_affiche": "OpenAI bugging suspect Alfozan pleads not guilty",
-    "horodatage_utc": "2026-11-06T21:15:47+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": false
