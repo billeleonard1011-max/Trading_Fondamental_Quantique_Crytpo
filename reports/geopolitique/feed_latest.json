@@ -1,5 +1,96 @@
 [
   {
+    "id": "c1e92a34172b8ad2",
+    "categorie": "geopolitique",
+    "titre_affiche": "China warns ‘severe punishment’ for offshore trust tax evaders",
+    "horodatage_utc": "2026-11-12T02:55:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/278528e2-dd2d-4020-853d-2a7a9d49a359?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "9543276e22f513fd",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.8 - 43 km SE of Severo-Kuril’sk, Russia",
+    "horodatage_utc": "2026-11-12T01:33:09+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqa",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c9b46e1523d8f993",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate",
+    "horodatage_utc": "2026-11-12T01:13:24+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8e15716142303064",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+    "horodatage_utc": "2026-11-12T00:21:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "902d33f8f24c7020",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+    "horodatage_utc": "2026-11-11T23:30:48+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "20752277081240ab",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+    "horodatage_utc": "2026-11-11T22:46:29+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export), Sanctions. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)",
+      "Sanctions"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "7b253167295d222d",
     "categorie": "geopolitique",
     "titre_affiche": "ExxonMobil launches legal challenge to EU carbon capture rules",
@@ -22,13 +113,13 @@
     "horodatage_utc": "2026-11-11T21:11:26+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6961b418f9fb6297",
@@ -68,13 +159,13 @@
     "horodatage_utc": "2026-11-11T21:01:55+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3d3fcb94-143d-446c-8b09-b1f830ca97e9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ce788fd17ddae86f",
@@ -1722,96 +1813,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "961f1f20ba4f60a8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump hails ‘positive momentum’ towards ending Iran war",
-    "horodatage_utc": "2026-11-09T22:42:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4a75299e-a705-493f-91a7-07d3b87ecc4e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9b61058d27a6de76",
-    "categorie": "geopolitique",
-    "titre_affiche": "Republican lawmaker moves to impeach US defence secretary Pete Hegseth",
-    "horodatage_utc": "2026-11-09T22:15:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ed09fc96-5ad5-4ff8-a8a9-900740c6fcbb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "328e2679d338ca5a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Republican lawmaker moves to impeach Hegseth",
-    "horodatage_utc": "2026-11-09T22:15:51+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ed09fc96-5ad5-4ff8-a8a9-900740c6fcbb?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "491c55cca36a79fb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
-    "horodatage_utc": "2026-11-09T21:24:13+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "fbc050ad9fe29431",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tokenization platform Securitize reports gains, expands into asset-backed finance",
-    "horodatage_utc": "2026-11-09T21:16:53+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8bf30bdd68c6bb4b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
-    "horodatage_utc": "2026-11-09T21:04:19+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]

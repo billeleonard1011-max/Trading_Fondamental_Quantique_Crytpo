@@ -1,18 +1,33 @@
 [
   {
+    "id": "3d717e897466a9e2",
+    "categorie": "crypto",
+    "titre_affiche": "‘Milestone quarter’: Solana Company reports Q3 revenue growth driven by staking rewards",
+    "horodatage_utc": "2026-11-12T02:25:14+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-11-solana-company-reports-q3-revenue-growth-438448",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "88f8989c54fbf2dd",
     "categorie": "crypto",
     "titre_affiche": "DogeOS ‘very, very close’ to launching DeFi features, app layer for Dogecoin: CEO",
     "horodatage_utc": "2026-11-11T20:32:19+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/defi/2026-11-11-dogeos-very-very-close-launching-defi-features-app-layer-dogecoin-ceo-438392",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : DOGE. Le cours de DOGE varie de 1.09604 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "DOGE"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "aaf8950d0e402ff3",
@@ -1779,21 +1794,6 @@
     "horodatage_utc": "2026-10-31T14:00:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7e0dd2b3aa0ef4a8",
-    "categorie": "crypto",
-    "titre_affiche": "18 years in, what has Bitcoin truly done?",
-    "horodatage_utc": "2026-10-31T13:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
