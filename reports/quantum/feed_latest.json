@@ -1,5 +1,35 @@
 [
   {
+    "id": "637c6b783dd31853",
+    "categorie": "quantique",
+    "titre_affiche": "PsiQuantum and AMD Expand Partnership on Quantum Computing Infrastructure",
+    "horodatage_utc": "2026-11-12T15:54:57+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/12/psiquantum-amd-expand-quantum-computing-infrastructure-partnership/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : PsiQuantum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "PsiQuantum"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3f528bfb7e0ab790",
+    "categorie": "quantique",
+    "titre_affiche": "Quantum Elements Helps Rigetti Predict Quantum Hardware Behavior",
+    "horodatage_utc": "2026-11-12T14:12:15+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : RGTI. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "b19ed42a7197ce2e",
     "categorie": "quantique",
     "titre_affiche": "Xanadu Reports Revenue Growth as Photonic Partnerships and Government Support Expand",
@@ -21,13 +51,13 @@
     "horodatage_utc": "2026-11-12T05:36:31+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ibm-unveils-520-qubit-nighthawk-r3-processor-1040-qubit-linked-roadmap-and-managed-hybrid-workflows-at-qdc-2026/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "36d8a98fb40f327a",
@@ -36,13 +66,13 @@
     "horodatage_utc": "2026-11-12T04:27:04+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/q-ctrl-deploys-fire-opal-dynamics-simulator-on-ibm-quantum-functions-achieving-12x-speedup-on-nighthawk/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3d2da6bf55b4caad",
@@ -1764,36 +1794,6 @@
     "horodatage_utc": "2026-10-21T16:45:00+00:00",
     "source_nom": "GDELT/pr-inside.com",
     "url_source": "https://www.pr-inside.com/kaplan-fox-encourages-investors-of-d-wave-quantum-inc-nyse-qbts-r5235767.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "89fa1ec3641fc395",
-    "categorie": "quantique",
-    "titre_affiche": "Levi & Korsinsky Urges D - Wave Quantum Inc . ( QBTS ) Shareholders to Act ...",
-    "horodatage_utc": "2026-10-21T15:00:00+00:00",
-    "source_nom": "GDELT/pr-inside.com",
-    "url_source": "https://www.pr-inside.com/levi-korsinsky-urges-d-wave-quantum-inc-qbts-shareholders-to-act-r5235757.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e03cddd7033fe5fb",
-    "categorie": "quantique",
-    "titre_affiche": "D - Wave Quantum ( NYSE : QBTS ) Bets Its 2026 On A Single Quarter As Street Targets Loom Far Above Current Price",
-    "horodatage_utc": "2026-10-21T14:30:00+00:00",
-    "source_nom": "GDELT/foreignpolicyjournal.com",
-    "url_source": "https://www.foreignpolicyjournal.com/2026/10/21/d-wave-quantum-nyse-qbts-bets-its-2026-on-a-single-quarter-as-street-targets-loom-far-above-current-price/",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
