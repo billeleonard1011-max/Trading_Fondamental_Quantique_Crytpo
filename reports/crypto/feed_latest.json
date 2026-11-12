@@ -1,18 +1,138 @@
 [
   {
+    "id": "a74d87bc6167a84e",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+    "horodatage_utc": "2026-11-12T11:30:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "223d93ce751f177d",
+    "categorie": "crypto",
+    "titre_affiche": "Tron, Tether and Chainalysis form new alliance to tackle AI-powered crypto crime",
+    "horodatage_utc": "2026-11-12T11:00:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-12-tron-tether-chainalysis-new-alliance-438514",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f232454cd50d12d7",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
+    "horodatage_utc": "2026-11-12T09:15:04+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ba172c59a3e2235f",
+    "categorie": "crypto",
+    "titre_affiche": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+    "horodatage_utc": "2026-11-12T07:41:18+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "38ef0c77d1dc8ec2",
+    "categorie": "crypto",
+    "titre_affiche": "Ethlabs proposes advancing Ethereum’s post-quantum to 2027, citing AI acceleration",
+    "horodatage_utc": "2026-11-12T07:27:24+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/defi/2026-11-12-ethlabs-proposes-ethereum-post-quantum-2027-438494",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b09e5a3a1a573ffe",
+    "categorie": "crypto",
+    "titre_affiche": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+    "horodatage_utc": "2026-11-12T07:00:37+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/12/msci-is-dropping-strategy-from-its-index-and-the-exclusion-could-hit-its-bitcoin-buying-machine",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "33a3ff2fdf19ad98",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+    "horodatage_utc": "2026-11-12T05:22:31+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/12/bitcoin-core-reveals-bug-that-made-thousands-of-nodes-trust-any-stranger-on-tor",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0c44f8a03f2a3fc1",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin traders raise odds of sub-$70,000 Christmas, Bitmine reports $6.3 billion annual net loss, and more",
+    "horodatage_utc": "2026-11-12T04:55:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-11-bitcoin-outlook-christmas-bitmine-net-loss-more-crypto-news-438430",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "3d717e897466a9e2",
     "categorie": "crypto",
     "titre_affiche": "‘Milestone quarter’: Solana Company reports Q3 revenue growth driven by staking rewards",
     "horodatage_utc": "2026-11-12T02:25:14+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-11-11-solana-company-reports-q3-revenue-growth-438448",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "88f8989c54fbf2dd",
@@ -1674,126 +1794,6 @@
     "horodatage_utc": "2026-11-02T08:49:30+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "adca3a1d6445a0bb",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
-    "horodatage_utc": "2026-11-02T06:46:41+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/02/bitcoin-etfs-lost-usd643-million-in-outflows-friday-and-2026-is-barely-green-now",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "00af5b306f86db97",
-    "categorie": "crypto",
-    "titre_affiche": "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
-    "horodatage_utc": "2026-11-02T05:18:12+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/02/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "95d3be4a59106afa",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
-    "horodatage_utc": "2026-11-02T04:42:22+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "5608f25835bc24db",
-    "categorie": "crypto",
-    "titre_affiche": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
-    "horodatage_utc": "2026-11-02T04:41:16+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "2a9b9e4860ee44b5",
-    "categorie": "crypto",
-    "titre_affiche": "Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack",
-    "horodatage_utc": "2026-11-02T04:11:05+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b6211a44693841a9",
-    "categorie": "crypto",
-    "titre_affiche": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
-    "horodatage_utc": "2026-11-01T10:35:42+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "325f147f1b5c7c76",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
-    "horodatage_utc": "2026-10-31T18:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "cccc964fda94774f",
-    "categorie": "crypto",
-    "titre_affiche": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
-    "horodatage_utc": "2026-10-31T14:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
