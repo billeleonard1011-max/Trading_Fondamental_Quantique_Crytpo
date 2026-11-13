@@ -1,5 +1,35 @@
 [
   {
+    "id": "b565e2f2cc2a8f7b",
+    "categorie": "quantique",
+    "titre_affiche": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Award",
+    "horodatage_utc": "2026-11-13T18:36:11+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Atom Computing. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Atom Computing"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "85fd3d89d4cbcab7",
+    "categorie": "quantique",
+    "titre_affiche": "Rigetti Computing Integrates Quantum Elements Constellation Platform into Error Correction Pipeline",
+    "horodatage_utc": "2026-11-13T17:00:41+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/rigetti-computing-integrates-quantum-elements-constellation-platform-into-error-correction-pipeline/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : RGTI. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "RGTI"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "9982b65e8d7f55b0",
     "categorie": "quantique",
     "titre_affiche": "Qunova Computing Achieves Chemical Accuracy at 80 Qubits on Iron-Sulfur Cluster Using IBM Quantum System Two and Fugaku",
@@ -1770,35 +1800,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "5aef5913933059d6",
-    "categorie": "quantique",
-    "titre_affiche": "SEEQC Combines Chip-Based Processing With NVIDIA AI to Improve Quantum Error Correction",
-    "horodatage_utc": "2026-10-22T12:05:00+00:00",
-    "source_nom": "The Quantum Insider",
-    "url_source": "https://thequantuminsider.com/2026/10/22/seeqc-combines-chip-based-processing-with-nvidia-ai-to-improve-quantum-error-correction/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "445af8a9e0e7b232",
-    "categorie": "quantique",
-    "titre_affiche": "Where Will D - Wave Quantum Stock Be in 5 Years ?",
-    "horodatage_utc": "2026-10-22T05:15:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/10/22/where-will-d-wave-quantum-stock-be-in-5-years/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]

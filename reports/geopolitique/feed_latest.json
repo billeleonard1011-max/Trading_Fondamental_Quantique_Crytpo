@@ -1,18 +1,204 @@
 [
   {
+    "id": "47d1ed4930e9571d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+    "horodatage_utc": "2026-11-13T21:27:15+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9ca0036e2f7cf2f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
+    "horodatage_utc": "2026-11-13T21:18:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fc4dd5b4854f66a5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+    "horodatage_utc": "2026-11-13T21:04:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "dffa7823ce4a1655",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon revives deal with troubled data centre venture backed by Rick Perry",
+    "horodatage_utc": "2026-11-13T20:40:40+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "482519a0f4b5f558",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
+    "horodatage_utc": "2026-11-13T20:21:46+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4c155d8960066628",
+    "categorie": "geopolitique",
+    "titre_affiche": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
+    "horodatage_utc": "2026-11-13T20:07:30+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "80c425611ffb1cc3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+    "horodatage_utc": "2026-11-13T19:11:13+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ab3d6b51c88951ac",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+    "horodatage_utc": "2026-11-13T18:18:28+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "75420a2303b1c75a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Arm boss Rene Haas approached in Nvidia CEO search",
+    "horodatage_utc": "2026-11-13T17:45:54+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "047784761dd787df",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed",
+    "horodatage_utc": "2026-11-13T17:06:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie",
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "96f07b38b9f43230",
+    "categorie": "geopolitique",
+    "titre_affiche": "AI believers hold the line after Nvidia ructions",
+    "horodatage_utc": "2026-11-13T16:55:39+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/750e4304-7287-432a-8ac1-36db40d0d968?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "68f57a21a99ef626",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
+    "horodatage_utc": "2026-11-13T16:23:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "f91a5fe3adb6277a",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
     "horodatage_utc": "2026-11-13T15:49:11+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8bc5f84d341cf562",
@@ -84,13 +270,13 @@
     "horodatage_utc": "2026-11-13T15:03:10+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "da893cdd9cab1426",
@@ -115,31 +301,13 @@
     "horodatage_utc": "2026-11-13T14:22:07+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "047784761dd787df",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed",
-    "horodatage_utc": "2026-11-13T14:11:36+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Actions et technologie, Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie",
-      "Sanctions, accords et diplomatie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "98b2a3393ccc4299",
@@ -154,7 +322,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cbc459c9922711b6",
@@ -169,22 +337,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4c155d8960066628",
-    "categorie": "geopolitique",
-    "titre_affiche": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
-    "horodatage_utc": "2026-11-13T13:15:35+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "354a6d4c4ec9dcd1",
@@ -199,7 +352,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "75026e07002e73e6",
@@ -246,7 +399,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "036d4bb931d6925c",
@@ -276,7 +429,7 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "dbbcb187f93b79c7",
@@ -322,7 +475,7 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "79c4c94790bf13c7",
@@ -386,19 +539,34 @@
     "nouveaute": false
   },
   {
+    "id": "8695cccb5d71d225",
+    "categorie": "geopolitique",
+    "titre_affiche": "Chuck Schumer faces challenge for Senate leadership from rival Democrat",
+    "horodatage_utc": "2026-11-13T04:24:51+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1f0996cf-1f84-42ca-a574-898f8578deb7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "03eafafddb30c1a4",
     "categorie": "geopolitique",
     "titre_affiche": "Nscale warns it needs more cash ahead of $35bn IPO",
     "horodatage_utc": "2026-11-13T04:10:06+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a14046c1d210a7b0",
@@ -459,7 +627,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "188a0c37b71b0b00",
@@ -1656,170 +1824,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "f1d57a42762c5e86",
-    "categorie": "geopolitique",
-    "titre_affiche": "Los escritores que llevan libros a pueblos del frente de Ucrania : La gente no entiende que Putin es una fuerza de lo viejo",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/eldiario.es",
-    "url_source": "https://www.eldiario.es/internacional/escritores-llevan-libros-pueblos-frente-ucrania-gente-no-entiende-putin-fuerza-viejo_128_13651645.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/eldiario.es. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "75f6c671f0467f62",
-    "categorie": "geopolitique",
-    "titre_affiche": "Renzi demolisce Travaglio : « Ricordo le sue previsioni su Draghi e Putin »",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/baritalianews.it",
-    "url_source": "https://www.baritalianews.it/152040/2026/11/11/renzi-demolisce-travaglio-ricordo-le-sue-previsioni-su-draghi-e-putin/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/baritalianews.it. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "e27cc7ac84bb5f1a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russia most famous independent newspaper has shut down after more than 30 years",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/wvik.org",
-    "url_source": "https://www.wvik.org/npr-top-stories/2026-11-10/russias-most-famous-independent-newspaper-has-shut-down-after-more-than-30-years",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/wvik.org. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "02b31cded3b4c3af",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why European Central Banks Want Their Gold Back",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/gfmag.com",
-    "url_source": "https://gfmag.com/banking/why-european-central-banks-want-their-gold-back/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/gfmag.com. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "a14f23d435129d8d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Enshrining Gulf War veteran service | Opinion",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/thesuntimes.com",
-    "url_source": "https://www.thesuntimes.com/opinion/enshrining-gulf-war-veterans-service/article_db6664aa-2198-5477-8b47-93d92e2aa763.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "236d2dbc0a366986",
-    "categorie": "geopolitique",
-    "titre_affiche": "NATO seeks to prioritize fighting Russia and shrink forces for missions abroad",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/politico.eu",
-    "url_source": "https://www.politico.eu/article/nato-shrink-forces-missions-abroad-focus-fight-russia/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7c57242e2d0342cb",
-    "categorie": "geopolitique",
-    "titre_affiche": "Poursuite des pourparlers Ukraine - Russie après des « changements » salués par Zelensky",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/guadeloupe.franceantilles.fr",
-    "url_source": "https://www.guadeloupe.franceantilles.fr/actualite/international/poursuite-des-pourparlers-ukraine-russie-apres-des-changements-salues-par-zelensky-1099263.php",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e81f15d7e4d070dd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang case : Nvidia CEO love affair scandal revives push for tougher US line on China",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/chinatechnews.com",
-    "url_source": "https://www.chinatechnews.com/2026/11/11/132532-jensen-huang-case-nvidia-ceo-love-affair-scandal-revives-push-for-tougher-us-line-on-china",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8685b6a66a0f2bff",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia CEO affair revives push for tougher US line on China",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/chinatechnews.com",
-    "url_source": "https://www.chinatechnews.com/2026/11/11/132531-nvidia-ceo-affair-revives-push-for-tougher-us-line-on-china",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5aef205127fe77e8",
-    "categorie": "geopolitique",
-    "titre_affiche": "What we know - and what we dont - as Nvidia investigates an alleged spy plot involving its CEO",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/chinatechnews.com",
-    "url_source": "https://www.chinatechnews.com/2026/11/11/132533-what-we-know-and-what-we-dont-as-nvidia-investigates-an-alleged-spy-plot-involving-its-ceo",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7a0acc09256afdcd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia H200 chips reached US - blacklisted Chinese university despite export curbs , records show",
-    "horodatage_utc": "2026-11-11T06:30:00+00:00",
-    "source_nom": "GDELT/moneycontrol.com",
-    "url_source": "https://www.moneycontrol.com/news/business/nvidia-s-h200-chips-reached-us-blacklisted-chinese-university-despite-export-curbs-records-show-14076908.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
