@@ -1,5 +1,110 @@
 [
   {
+    "id": "718957c86297225d",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+    "horodatage_utc": "2026-11-13T07:05:29+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "967accff146c77bb",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin tumbles below $69,000 as Nvidia turmoil adds to Fed-driven market jitters",
+    "horodatage_utc": "2026-11-13T06:23:43+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3713fcaeb8461935",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+    "horodatage_utc": "2026-11-13T06:03:41+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7c92e1c9482aaf8d",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+    "horodatage_utc": "2026-11-13T05:45:26+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2e7579165dad1768",
+    "categorie": "crypto",
+    "titre_affiche": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+    "horodatage_utc": "2026-11-13T05:08:59+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "88d9981a03b64c7c",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin falls to 12-week low, Strategy and Metaplanet to lose MSCI index membership, and more",
+    "horodatage_utc": "2026-11-13T04:20:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-12-bitcoin-12-week-low-strategy-metaplanet-msci-more-crypto-news-439049",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ef6d230b1166111b",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+    "horodatage_utc": "2026-11-13T03:37:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "d1945e90810f92ff",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin falls to 12-week low as Jensen Huang’s exit from Nvidia rattles markets",
@@ -1691,111 +1796,6 @@
     "url_source": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "fe1733dfae0fa0c3",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin and tech stocks edge higher as U.S. voters head to the polls",
-    "horodatage_utc": "2026-11-03T09:50:16+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "c353660070ec0525",
-    "categorie": "crypto",
-    "titre_affiche": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
-    "horodatage_utc": "2026-11-03T08:56:48+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "0ff01fa2d4d7cead",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin’s latest chart signal looks a lot like the ones before its big crashes",
-    "horodatage_utc": "2026-11-03T08:50:56+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/03/bitcoin-s-price-chart-is-flashing-a-red-signal",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3602e5da19ca442d",
-    "categorie": "crypto",
-    "titre_affiche": "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows",
-    "horodatage_utc": "2026-11-03T05:36:56+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/03/binance-has-spent-half-its-safu-bitcoin-about-usd580-million-worth-data-shows",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e5d59fe59dc86fee",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin miner Cipher posts $31 million profit as AI pivot begins",
-    "horodatage_utc": "2026-11-03T05:29:48+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/03/bitcoin-miner-cipher-posts-usd31-million-profit-as-ai-pivot-begins",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4c7f6d590ee70244",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
-    "horodatage_utc": "2026-11-03T04:48:17+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "6defb4330d207cbe",
-    "categorie": "crypto",
-    "titre_affiche": "Mercado Bitcoin drain moved $40M in plain transactions",
-    "horodatage_utc": "2026-11-03T02:15:00+00:00",
-    "source_nom": "GDELT/techreport.com",
-    "url_source": "https://techreport.com/news/software/mercado-bitcoin-drain-moved-40-million-in-plain-transactions-pointing-to-stolen-signing-keys/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/techreport.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],

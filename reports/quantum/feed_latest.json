@@ -1,5 +1,80 @@
 [
   {
+    "id": "9982b65e8d7f55b0",
+    "categorie": "quantique",
+    "titre_affiche": "Qunova Computing Achieves Chemical Accuracy at 80 Qubits on Iron-Sulfur Cluster Using IBM Quantum System Two and Fugaku",
+    "horodatage_utc": "2026-11-13T03:02:16+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/qunova-computing-achieves-chemical-accuracy-at-80-qubits-on-iron-sulfur-cluster-using-ibm-quantum-system-two-and-fugaku/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "3eaeb590301bc1ba",
+    "categorie": "quantique",
+    "titre_affiche": "Cleveland Clinic, RIKEN, and IBM Cross 12,000-Atom Barrier in Heterogeneous Quantum-Classical Drug Binding Simulations",
+    "horodatage_utc": "2026-11-13T03:01:11+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/cleveland-clinic-riken-and-ibm-cross-12000-atom-barrier-in-heterogeneous-quantum-classical-drug-binding-simulations/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "69316586d8789246",
+    "categorie": "quantique",
+    "titre_affiche": "LTM Becomes First Global Systems Integrator to Launch Function in IBM Quantum Functions Catalog with AI-QEM",
+    "horodatage_utc": "2026-11-13T02:37:56+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/ltm-becomes-first-global-systems-integrator-to-launch-function-in-ibm-quantum-functions-catalog-with-ai-qem/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0a3f05cf8a9f101b",
+    "categorie": "quantique",
+    "titre_affiche": "Kipu Quantum Launches Rimay Quantum Feature Extraction in IBM Quantum Functions Catalog",
+    "horodatage_utc": "2026-11-13T01:15:01+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "977d87d6138c72cf",
+    "categorie": "quantique",
+    "titre_affiche": "PsiQuantum and AMD Expand Partnership with Equity Investment to Co-Design Utility-Scale Quantum Infrastructure",
+    "horodatage_utc": "2026-11-13T00:57:02+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/psiquantum-and-amd-expand-partnership-with-equity-investment-to-co-design-utility-scale-quantum-infrastructure/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : PsiQuantum. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "PsiQuantum"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "637c6b783dd31853",
     "categorie": "quantique",
     "titre_affiche": "PsiQuantum and AMD Expand Partnership on Quantum Computing Infrastructure",
@@ -1725,81 +1800,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "e26492db39adbd0f",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ ( NYSE : IONQ ) And D - Wave ( NYSE : QBTS ) Hardware Divide Forces Investors To Choose Sides",
-    "horodatage_utc": "2026-10-22T00:00:00+00:00",
-    "source_nom": "GDELT/foreignpolicyjournal.com",
-    "url_source": "https://www.foreignpolicyjournal.com/2026/10/21/ionq-nyse-ionq-and-d-wave-nyse-qbts-hardware-divide-forces-investors-to-choose-sides/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : QBTS, IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "QBTS",
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "e0b299f921b8fc08",
-    "categorie": "quantique",
-    "titre_affiche": "Lost Money on D - Wave Quantum , Inc . Shares ? The Law Offices of Frank R . Cruz Investigates Potential Securities Fraud After 9 . 51 % Stock Decline",
-    "horodatage_utc": "2026-10-21T23:00:00+00:00",
-    "source_nom": "GDELT/wallstreet-online.de",
-    "url_source": "https://www.wallstreet-online.de/nachricht/21561788-lost-money-on-d-wave-quantum-inc-shares-the-law-offices-of-frank-r-cruz-investigates-potential-securities-fraud-after-9-51-stock-decline",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "1c8ec2659e4a3e3e",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ ( NYSE : IONQ ) Shares Climb 3 . 6 % – Should You Buy ?",
-    "horodatage_utc": "2026-10-21T21:45:00+00:00",
-    "source_nom": "GDELT/tickerreport.com",
-    "url_source": "https://www.tickerreport.com/banking-finance/13629371/ionq-nyseionq-shares-climb-3-6-should-you-buy.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4109a45053ca7688",
-    "categorie": "quantique",
-    "titre_affiche": "If I Had $1 , 000 to Invest Today , Here Why I Wouldnt Buy IonQ Stock",
-    "horodatage_utc": "2026-10-21T21:15:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/10/21/if-i-had-1000-to-invest-today-heres-why-i-wouldnt/?source=iedfolrf0000001",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "b154368c8abe1c75",
-    "categorie": "quantique",
-    "titre_affiche": "Kaplan Fox Encourages Investors of D - Wave Quantum Inc . ( NYSE : QBTS ) ...",
-    "horodatage_utc": "2026-10-21T16:45:00+00:00",
-    "source_nom": "GDELT/pr-inside.com",
-    "url_source": "https://www.pr-inside.com/kaplan-fox-encourages-investors-of-d-wave-quantum-inc-nyse-qbts-r5235767.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]

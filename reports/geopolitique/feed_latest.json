@@ -1,5 +1,220 @@
 [
   {
+    "id": "bab6d9d1f04df070",
+    "categorie": "geopolitique",
+    "titre_affiche": "Widespread Microsoft outage takes down Outlook and other 365 services",
+    "horodatage_utc": "2026-11-13T07:29:33+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "79c4c94790bf13c7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+    "horodatage_utc": "2026-11-13T07:15:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f18235dc87b88585",
+    "categorie": "geopolitique",
+    "titre_affiche": "Value Nvidia, not Huang",
+    "horodatage_utc": "2026-11-13T06:30:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/1f76f0b0-96c6-41de-9725-9051545d32af?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4a7b27a368ec95f7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft races to restore services after global outage",
+    "horodatage_utc": "2026-11-13T06:03:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0379f5de0e1ba4d7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
+    "horodatage_utc": "2026-11-13T05:51:34+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a44ac840c8cc2a52",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia loses almost half a million lives in Ukraine war",
+    "horodatage_utc": "2026-11-13T05:00:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7377e093-d58e-4303-853a-5aa82b6a747e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "03eafafddb30c1a4",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nscale warns it needs more cash ahead of $35bn IPO",
+    "horodatage_utc": "2026-11-13T04:10:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a14046c1d210a7b0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+    "horodatage_utc": "2026-11-13T04:07:44+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "a81a256760fdb844",
+    "categorie": "geopolitique",
+    "titre_affiche": "As Nvidia reels from Huang's affairs, who stands to gain?",
+    "horodatage_utc": "2026-11-13T03:59:40+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4d381d56658d1124",
+    "categorie": "geopolitique",
+    "titre_affiche": "The downfall of Jensen Huang",
+    "horodatage_utc": "2026-11-13T03:47:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ef8f85a6-e2d7-4d41-b70e-092b2567813a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "188a0c37b71b0b00",
+    "categorie": "geopolitique",
+    "titre_affiche": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
+    "horodatage_utc": "2026-11-13T02:56:35+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "1c286682d2bb2249",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+    "horodatage_utc": "2026-11-13T02:43:26+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "bfe9e84ce1f9087d",
+    "categorie": "geopolitique",
+    "titre_affiche": "US cannot reach a deal to end Ukraine war without Europe, says Kushner",
+    "horodatage_utc": "2026-11-13T02:08:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8d28a5be-af56-421f-a33d-779a0fcc7ad4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f565bbceaa4db7bc",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Silicon Valley veterans now steering Nvidia",
+    "horodatage_utc": "2026-11-13T01:42:30+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/74e95e42-3f1d-4128-98ef-9ce4c160b077?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "71a235126948e68a",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia chief Jensen Huang toppled by revelations of extramarital affairs",
@@ -30,21 +245,6 @@
     "nouveaute": false
   },
   {
-    "id": "bfe9e84ce1f9087d",
-    "categorie": "geopolitique",
-    "titre_affiche": "US cannot reach a deal to end Ukraine war without Europe, says Kushner",
-    "horodatage_utc": "2026-11-13T00:00:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8d28a5be-af56-421f-a33d-779a0fcc7ad4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "5ad339773e1ae449",
     "categorie": "geopolitique",
     "titre_affiche": "US lawmakers pile pressure on Howard Lutnick as Nvidia scandal widens",
@@ -53,6 +253,21 @@
     "url_source": "https://www.ft.com/content/190e5eea-7461-4b26-8b69-17a3288e31d4?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "65404861b1a37869",
+    "categorie": "geopolitique",
+    "titre_affiche": "US lawmakers pile pressure on Lutnick as Nvidia scandal widens",
+    "horodatage_utc": "2026-11-12T23:35:11+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/190e5eea-7461-4b26-8b69-17a3288e31d4?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
@@ -81,13 +296,13 @@
     "horodatage_utc": "2026-11-12T23:14:56+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8325162badd44d01",
@@ -96,13 +311,13 @@
     "horodatage_utc": "2026-11-12T23:12:15+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "18e2752399e9a39a",
@@ -111,28 +326,13 @@
     "horodatage_utc": "2026-11-12T22:50:43+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/83051c3a-cab4-4c66-89fc-ae7149047a25?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1c286682d2bb2249",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
-    "horodatage_utc": "2026-11-12T22:48:26+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "19baa4a0bf008603",
@@ -147,7 +347,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "db24d413ae6bf205",
@@ -165,22 +365,6 @@
     "nouveaute": true
   },
   {
-    "id": "bab6d9d1f04df070",
-    "categorie": "geopolitique",
-    "titre_affiche": "Widespread Microsoft outage takes down Outlook and other 365 services",
-    "horodatage_utc": "2026-11-12T22:24:12+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "dca12027001af323",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
@@ -194,7 +378,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7a5eadee38a16999",
@@ -224,7 +408,7 @@
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "49196b10775bd50f",
@@ -240,21 +424,6 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "a14046c1d210a7b0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
-    "horodatage_utc": "2026-11-12T19:58:11+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   },
   {
     "id": "20568fdf104a84f8",
@@ -435,7 +604,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "02ab9930beb70763",
@@ -1641,173 +1810,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "aeeff2f1b021e1bc",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Nvidia Honeypot , by Shayne Heffernan",
-    "horodatage_utc": "2026-11-11T04:00:00+00:00",
-    "source_nom": "GDELT/livetradingnews.com",
-    "url_source": "https://www.livetradingnews.com/the-nvidia-honeypot-alice-huang-and-the-china-linked-network-around-megaspeed",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2cc879e70b04332b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Arctic LNG And Geoeconomic Leverage : Why Russia And United States May Cooperate Without Ending Their Rivalry - Analysis",
-    "horodatage_utc": "2026-11-11T03:00:00+00:00",
-    "source_nom": "GDELT/eurasiareview.com",
-    "url_source": "https://www.eurasiareview.com/11112026-arctic-lng-and-geoeconomic-leverage-why-russia-and-united-states-may-cooperate-without-ending-their-rivalry-analysis/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "eba38a2507cf97de",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia ( NASDAQ : NVDA ) Faces $70 . 3 Billion Share - Sale Risk And National Security Probe After CEO Affair With Alleged Chinese Spy",
-    "horodatage_utc": "2026-11-11T02:30:00+00:00",
-    "source_nom": "GDELT/foreignpolicyjournal.com",
-    "url_source": "https://www.foreignpolicyjournal.com/2026/11/10/nvidia-nasdaq-nvda-faces-70-3-billion-share-sale-risk-and-national-security-probe-after-ceos-affair-with-alleged-chinese-spy/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "75ce161c3209195a",
-    "categorie": "geopolitique",
-    "titre_affiche": "China Trade Surplus Exceeds $1 Trillion for 2nd Time",
-    "horodatage_utc": "2026-11-11T02:30:00+00:00",
-    "source_nom": "GDELT/theepochtimes.com",
-    "url_source": "https://www.theepochtimes.com/china/chinas-trade-surplus-exceeds-1-trillion-for-2nd-time-6123268",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d0011abd5a2e0a93",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran weist Verantwortung für Cyberangriffe auf Kühlanlagen zurück",
-    "horodatage_utc": "2026-11-11T02:00:00+00:00",
-    "source_nom": "GDELT/proplanta.de",
-    "url_source": "https://www.proplanta.de/agrar-nachrichten/unternehmen/iran-weist-verantwortung-fuer-cyberangriffe-auf-kuehlanlagen-zurueck_article1794356095.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "037311781fe622f4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump Briefed on Jensen Huang Spy Claim as Nvidia $25M Gift Scrutinized",
-    "horodatage_utc": "2026-11-11T02:00:00+00:00",
-    "source_nom": "GDELT/newsweek.com",
-    "url_source": "https://www.newsweek.com/trump-jensen-huang-spy-claim-nvidia-25m-ballroom-donation-12696326",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2ec54fbde52d930e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
-    "horodatage_utc": "2026-11-11T01:52:56+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "f71bb0a7dac52d29",
-    "categorie": "geopolitique",
-    "titre_affiche": "The phantom life of Alice Huang , alleged Chinese spy who had affair with Nvidia CEO",
-    "horodatage_utc": "2026-11-11T01:30:00+00:00",
-    "source_nom": "GDELT/spokesman.com",
-    "url_source": "https://www.spokesman.com/stories/2026/nov/10/the-phantom-life-of-alice-huang-alleged-chinese-sp/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "c2b2c0f7f3e00319",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia Intervened in US Government Probe : Report",
-    "horodatage_utc": "2026-11-11T01:00:00+00:00",
-    "source_nom": "GDELT/gizmodo.com",
-    "url_source": "https://gizmodo.com/nvidia-intervened-in-us-government-probe-report-2000837829",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4d47a537b770cc31",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
-    "horodatage_utc": "2026-11-11T00:27:38+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1229379bb9655213",
-    "categorie": "geopolitique",
-    "titre_affiche": "House blocks impeachment of US defence secretary Pete Hegseth",
-    "horodatage_utc": "2026-11-11T00:01:42+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/38100c3c-af0d-440b-8350-823c5e8c80d9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
