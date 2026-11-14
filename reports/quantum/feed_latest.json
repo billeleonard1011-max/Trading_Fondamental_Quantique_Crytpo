@@ -1,26 +1,11 @@
 [
   {
-    "id": "e385b5e147998cd1",
+    "id": "1c03582f884c4dba",
     "categorie": "quantique",
-    "titre_affiche": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Agreement for Fault-Tolerant Quantum Systems",
-    "horodatage_utc": "2026-11-13T23:12:07+00:00",
+    "titre_affiche": "JIJ Launches SQOA Solver in IBM Quantum Functions Catalog to Tackle Combinatorial Optimization Beyond Qubit Counts",
+    "horodatage_utc": "2026-11-14T03:27:37+00:00",
     "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Atom Computing. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "Atom Computing"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "587c34fd3030a137",
-    "categorie": "quantique",
-    "titre_affiche": "German Aerospace Center (DLR) Researchers Demonstrate Low-Cost Benchmarked-Noise Error Mitigation Across 100-Qubit IBM and IQM Processors",
-    "horodatage_utc": "2026-11-13T22:55:15+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/german-aerospace-center-dlr-researchers-demonstrate-low-cost-benchmarked-noise-error-mitigation-across-100-qubit-ibm-and-iqm-processors/",
+    "url_source": "https://quantumcomputingreport.com/jij-launches-sqoa-solver-in-ibm-quantum-functions-catalog-to-tackle-combinatorial-optimization-beyond-qubit-counts/",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
@@ -30,20 +15,50 @@
     "nouveaute": true
   },
   {
+    "id": "e385b5e147998cd1",
+    "categorie": "quantique",
+    "titre_affiche": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Agreement for Fault-Tolerant Quantum Systems",
+    "horodatage_utc": "2026-11-13T23:12:07+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Atom Computing"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "587c34fd3030a137",
+    "categorie": "quantique",
+    "titre_affiche": "German Aerospace Center (DLR) Researchers Demonstrate Low-Cost Benchmarked-Noise Error Mitigation Across 100-Qubit IBM and IQM Processors",
+    "horodatage_utc": "2026-11-13T22:55:15+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/german-aerospace-center-dlr-researchers-demonstrate-low-cost-benchmarked-noise-error-mitigation-across-100-qubit-ibm-and-iqm-processors/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "e3b749f61ade1393",
     "categorie": "quantique",
     "titre_affiche": "QodeX Quantum, NVIDIA, RTX BBN, and U.S. Navy Researchers Forecast Unstructured PDEs on 52-Qubit IBM Hardware",
     "horodatage_utc": "2026-11-13T22:22:38+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/qodex-quantum-nvidia-rtx-bbn-and-u-s-navy-researchers-forecast-unstructured-pdes-on-52-qubit-ibm-hardware/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM, Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM",
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b565e2f2cc2a8f7b",
@@ -1781,21 +1796,6 @@
     "url_source": "https://www.fool.com/investing/2026/10/22/is-ionq-a-millionaire-maker-stock/?source=iedfolrf0000001",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "28e6807740348951",
-    "categorie": "quantique",
-    "titre_affiche": "IonQ Is Now Down 24 % in a Month : Is IONQ a Toxic Stock or Ready for a Recovery ?",
-    "horodatage_utc": "2026-10-22T19:15:00+00:00",
-    "source_nom": "GDELT/aol.com",
-    "url_source": "https://www.aol.com/articles/ionq-now-down-24-month-183345000.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
