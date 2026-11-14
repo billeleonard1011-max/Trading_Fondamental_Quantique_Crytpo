@@ -1,11 +1,11 @@
 [
   {
-    "id": "8f6579252bb3c0e9",
+    "id": "2fb76359ed333739",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-    "horodatage_utc": "2026-11-13T18:39:58+00:00",
+    "titre_affiche": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+    "horodatage_utc": "2026-11-13T23:30:00+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+    "url_source": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,19 +15,34 @@
     "nouveaute": true
   },
   {
+    "id": "8f6579252bb3c0e9",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+    "horodatage_utc": "2026-11-13T18:39:58+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "58c5623a3e68280a",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
     "horodatage_utc": "2026-11-13T16:01:27+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3333294e8451c351",
@@ -142,13 +157,13 @@
     "horodatage_utc": "2026-11-13T09:16:58+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "718957c86297225d",
@@ -1779,21 +1794,6 @@
     "horodatage_utc": "2026-11-04T04:48:16+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/04/bitcoin-briefly-sinks-to-usd75-700-as-bets-on-a-democratic-sweep-rattle-markets",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c8c14adbbe8de9d9",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
-    "horodatage_utc": "2026-11-04T00:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [

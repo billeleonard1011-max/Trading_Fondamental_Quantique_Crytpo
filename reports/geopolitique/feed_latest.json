@@ -1,32 +1,30 @@
 [
   {
-    "id": "47d1ed4930e9571d",
+    "id": "7b2220f5e7c7822f",
     "categorie": "geopolitique",
-    "titre_affiche": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
-    "horodatage_utc": "2026-11-13T21:27:15+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+    "titre_affiche": "Trump will not raise Nvidia spy issue with Xi at summit, officials say",
+    "horodatage_utc": "2026-11-14T01:28:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
+      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
   },
   {
-    "id": "9ca0036e2f7cf2f1",
+    "id": "52fa5164a572a2db",
     "categorie": "geopolitique",
-    "titre_affiche": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
-    "horodatage_utc": "2026-11-13T21:18:11+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+    "titre_affiche": "US aviation regulator grounds flights across the country",
+    "horodatage_utc": "2026-11-14T00:45:56+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
+      "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -35,16 +33,79 @@
     "id": "fc4dd5b4854f66a5",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-    "horodatage_utc": "2026-11-13T21:04:43+00:00",
+    "horodatage_utc": "2026-11-13T23:54:36+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "80c425611ffb1cc3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+    "horodatage_utc": "2026-11-13T23:42:18+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f8aa6029f7e16707",
+    "categorie": "geopolitique",
+    "titre_affiche": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO",
+    "horodatage_utc": "2026-11-13T23:39:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "47d1ed4930e9571d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+    "horodatage_utc": "2026-11-13T22:18:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "9ca0036e2f7cf2f1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
+    "horodatage_utc": "2026-11-13T21:18:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "dffa7823ce4a1655",
@@ -68,13 +129,13 @@
     "horodatage_utc": "2026-11-13T20:21:46+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4c155d8960066628",
@@ -92,35 +153,20 @@
     "nouveaute": false
   },
   {
-    "id": "80c425611ffb1cc3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
-    "horodatage_utc": "2026-11-13T19:11:13+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "ab3d6b51c88951ac",
     "categorie": "geopolitique",
     "titre_affiche": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
     "horodatage_utc": "2026-11-13T18:18:28+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "75420a2303b1c75a",
@@ -129,13 +175,13 @@
     "horodatage_utc": "2026-11-13T17:45:54+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "047784761dd787df",
@@ -168,7 +214,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "68f57a21a99ef626",
@@ -183,7 +229,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f91a5fe3adb6277a",
@@ -1779,50 +1825,5 @@
     ],
     "portee": "contexte",
     "nouveaute": true
-  },
-  {
-    "id": "34a11e43224b137d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic’s IPO is too important to fail",
-    "horodatage_utc": "2026-11-11T10:23:49+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/26fd23df-830e-481b-a3bc-19bcab48c5f6",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1901c8482c2e8132",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Italians living atop one of the world’s ‘most dangerous volcanoes’",
-    "horodatage_utc": "2026-11-11T09:52:19+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/debd52d9-fe0f-4b6d-b7b4-047635de85b0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Catastrophes naturelles"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6fa996af3c26350c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-    "horodatage_utc": "2026-11-11T07:47:54+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
