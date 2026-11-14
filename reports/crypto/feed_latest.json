@@ -1,11 +1,26 @@
 [
   {
-    "id": "ec73c671fef91e9e",
+    "id": "23252a3b23589c27",
     "categorie": "crypto",
-    "titre_affiche": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
-    "horodatage_utc": "2026-11-14T13:00:00+00:00",
+    "titre_affiche": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+    "horodatage_utc": "2026-11-14T17:50:41+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8416241490c63438",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+    "horodatage_utc": "2026-11-14T16:33:29+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
+    "url_source": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,20 +30,50 @@
     "nouveaute": true
   },
   {
+    "id": "d8ce5357da30d17a",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+    "horodatage_utc": "2026-11-14T16:33:23+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ec73c671fef91e9e",
+    "categorie": "crypto",
+    "titre_affiche": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+    "horodatage_utc": "2026-11-14T13:00:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "748b21930a9fe4e5",
     "categorie": "crypto",
     "titre_affiche": "A behind the scenes force may amplify bitcoin and ether price volatility",
     "horodatage_utc": "2026-11-14T12:57:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2fb76359ed333739",
@@ -1749,51 +1794,6 @@
     "horodatage_utc": "2026-11-04T10:38:58+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "0e305f6813c9c481",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin knocks on $78,000 in V-shaped comeback as midterm election uncertainty fades",
-    "horodatage_utc": "2026-11-04T06:16:40+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "49b7ae3621ded6ee",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin rises to $78,300 in V-shaped comeback as midterm election uncertainty fades",
-    "horodatage_utc": "2026-11-04T06:16:40+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "cccf4f7351c98038",
-    "categorie": "crypto",
-    "titre_affiche": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
-    "horodatage_utc": "2026-11-04T06:06:04+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/04/jack-dorsey-s-block-faces-usd764-million-doj-settlement-as-bitcoin-profit-plunges-50",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
