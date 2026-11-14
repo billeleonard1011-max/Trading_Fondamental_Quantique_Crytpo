@@ -1,5 +1,96 @@
 [
   {
+    "id": "f5ee6197565293c1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Passengers face widespread disruption after US air traffic control outage",
+    "horodatage_utc": "2026-11-14T13:52:46+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "721b7b527c8f8142",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.5 - 137 km SE of Petropavlovsk-Kamchatsky, Russia",
+    "horodatage_utc": "2026-11-14T13:07:55+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty8u",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1492da3d90eff4c2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump Media group stares down $1bn debt crunch as bitcoin bet fades",
+    "horodatage_utc": "2026-11-14T13:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ada459c4-5f43-4a4a-bc6c-90de8897a4f0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Crypto-actifs, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Élections et politique intérieure"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a8edca658a9559d7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+    "horodatage_utc": "2026-11-14T12:00:01+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "c2840ee7e83722bc",
+    "categorie": "geopolitique",
+    "titre_affiche": "US floats Nato membership for Donbas withdrawal deal, Zelenskyy says",
+    "horodatage_utc": "2026-11-14T11:41:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/24319e2d-1a34-4a72-8c91-008d974234f9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d25bbcea4de06129",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
+    "horodatage_utc": "2026-11-14T11:00:09+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4aba8386-35cc-463b-a79c-a0c85c362c89?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ab3d6b51c88951ac",
     "categorie": "geopolitique",
     "titre_affiche": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
@@ -22,13 +113,13 @@
     "horodatage_utc": "2026-11-14T07:08:45+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "88574f9028232113",
@@ -37,13 +128,13 @@
     "horodatage_utc": "2026-11-14T05:00:37+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/e141a5ea-5aa4-491b-88a4-369cfc67693a",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a296e687f859d37f",
@@ -1729,98 +1820,6 @@
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5dde08484be97ef4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Democrats pledge to expose ‘absolute avalanche of corruption’ under Trump",
-    "horodatage_utc": "2026-11-11T21:01:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3d3fcb94-143d-446c-8b09-b1f830ca97e9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "ce788fd17ddae86f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
-    "horodatage_utc": "2026-11-11T16:51:10+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9ff160051ea32bc8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-    "horodatage_utc": "2026-11-11T16:49:02+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ccd1384f77260c48",
-    "categorie": "geopolitique",
-    "titre_affiche": "CoreWeave stock pops 12% after outlook raise eases AI slowdown concerns",
-    "horodatage_utc": "2026-11-11T14:40:44+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "ebbb021c3cbbc754",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
-    "horodatage_utc": "2026-11-11T14:39:33+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6c9ac0e1352b1650",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech stocks gain as AI trade revives",
-    "horodatage_utc": "2026-11-11T14:31:18+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
     "nouveaute": true
