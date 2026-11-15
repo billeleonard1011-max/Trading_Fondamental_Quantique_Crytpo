@@ -1,11 +1,26 @@
 [
   {
-    "id": "98b78ff627c91304",
+    "id": "ef4643c554993164",
     "categorie": "geopolitique",
-    "titre_affiche": "What will Nvidia’s post-Huang era look like?",
-    "horodatage_utc": "2026-11-15T05:00:14+00:00",
+    "titre_affiche": "Republicans blame everyone but Trump for midterm drubbing",
+    "horodatage_utc": "2026-11-15T13:00:05+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+    "url_source": "https://www.ft.com/content/d21caa78-65c1-4570-bec8-2ef71b5d65e7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "233fdeee560c9213",
+    "categorie": "geopolitique",
+    "titre_affiche": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
+    "horodatage_utc": "2026-11-15T11:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -13,6 +28,53 @@
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "8d64758f7dcc2c0d",
+    "categorie": "geopolitique",
+    "titre_affiche": "From culture war to class war: US Democrats ditch woke politics",
+    "horodatage_utc": "2026-11-15T11:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/82e2d624-65aa-4a8c-86ec-f99c0ce785ac?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "c35f8a641a759cec",
+    "categorie": "geopolitique",
+    "titre_affiche": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+    "horodatage_utc": "2026-11-15T08:34:46+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "98b78ff627c91304",
+    "categorie": "geopolitique",
+    "titre_affiche": "What will Nvidia’s post-Huang era look like?",
+    "horodatage_utc": "2026-11-15T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "1fad641f910c6bcc",
@@ -61,24 +123,54 @@
     "nouveaute": true
   },
   {
+    "id": "267bbae68956a763",
+    "categorie": "geopolitique",
+    "titre_affiche": "How Infantino flew his way out of a Fifa rebellion",
+    "horodatage_utc": "2026-11-15T05:00:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f8a58159-463f-4b28-b83d-14b79cbd413b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "350c1e4c8ddc4aba",
     "categorie": "geopolitique",
     "titre_affiche": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
     "horodatage_utc": "2026-11-15T05:00:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ce087f345de239b0",
     "categorie": "geopolitique",
     "titre_affiche": "Huang’s downfall shows human judgment is not all it’s cracked up to be",
+    "horodatage_utc": "2026-11-15T05:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b8f6b30c542ff08e",
+    "categorie": "geopolitique",
+    "titre_affiche": "When human judgment is not all it’s cracked up to be",
     "horodatage_utc": "2026-11-15T05:00:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1",
@@ -97,13 +189,13 @@
     "horodatage_utc": "2026-11-15T03:00:02+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/fb667289-ae81-42c7-8eb8-ebda09dceff7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Sanctions, accords et diplomatie"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f5ee6197565293c1",
@@ -1732,95 +1824,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "84297363c5a65a84",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI is coming for consulting’s billable hours — and its graduate pipeline",
-    "horodatage_utc": "2026-11-12T08:20:56+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ca11351d319db269",
-    "categorie": "geopolitique",
-    "titre_affiche": "Who could run Nvidia after Jensen Huang?",
-    "horodatage_utc": "2026-11-12T07:54:52+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e47f7d4a-88d7-41e4-8c77-8ea8e0769353?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bab2f98d5f1d6e3e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit",
-    "horodatage_utc": "2026-11-12T07:50:34+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2fe939347eac57dc",
-    "categorie": "geopolitique",
-    "titre_affiche": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
-    "horodatage_utc": "2026-11-12T07:28:48+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "e9e97132ff4a8836",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening",
-    "horodatage_utc": "2026-11-12T06:11:16+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "bf7184a68a15e7f9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia shares tumble on Huang exit",
-    "horodatage_utc": "2026-11-12T05:57:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
