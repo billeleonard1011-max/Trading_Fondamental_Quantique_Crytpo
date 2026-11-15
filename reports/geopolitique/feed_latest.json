@@ -1,26 +1,26 @@
 [
   {
-    "id": "ef4643c554993164",
+    "id": "ee94a25d725ad824",
     "categorie": "geopolitique",
-    "titre_affiche": "Republicans blame everyone but Trump for midterm drubbing",
-    "horodatage_utc": "2026-11-15T13:00:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d21caa78-65c1-4570-bec8-2ef71b5d65e7?syn-25a6b1a6=1",
+    "titre_affiche": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+    "horodatage_utc": "2026-11-15T19:58:21+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
+      "Semi-conducteurs et IA (contrôles à l'export)"
     ],
-    "portee": "contexte",
+    "portee": "influence",
     "nouveaute": true
   },
   {
-    "id": "233fdeee560c9213",
+    "id": "f36a7d2b2f366b04",
     "categorie": "geopolitique",
-    "titre_affiche": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
-    "horodatage_utc": "2026-11-15T11:00:04+00:00",
+    "titre_affiche": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+    "horodatage_utc": "2026-11-15T19:03:41+00:00",
     "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29?syn-25a6b1a6=1",
+    "url_source": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -30,20 +30,110 @@
     "nouveaute": true
   },
   {
+    "id": "2638ae4258e69a4c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bessent says Nvidia needs ‘shake-up’ with external CEO",
+    "horodatage_utc": "2026-11-15T18:28:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/24edbb84-7520-4ef0-a57c-30359e12ccc5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "56fb5cfa37c18580",
+    "categorie": "geopolitique",
+    "titre_affiche": "Diamondback nears $5bn deal to expand drilling in oil-rich Permian Basin",
+    "horodatage_utc": "2026-11-15T18:27:27+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "9379442b99055860",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+    "horodatage_utc": "2026-11-15T18:10:18+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b6546d04f51ac109",
+    "categorie": "geopolitique",
+    "titre_affiche": "US and allies sign accord to protect AI supply chains from China",
+    "horodatage_utc": "2026-11-15T17:47:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ef4643c554993164",
+    "categorie": "geopolitique",
+    "titre_affiche": "Republicans blame everyone but Trump for midterm drubbing",
+    "horodatage_utc": "2026-11-15T13:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d21caa78-65c1-4570-bec8-2ef71b5d65e7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "233fdeee560c9213",
+    "categorie": "geopolitique",
+    "titre_affiche": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
+    "horodatage_utc": "2026-11-15T11:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "8d64758f7dcc2c0d",
     "categorie": "geopolitique",
     "titre_affiche": "From culture war to class war: US Democrats ditch woke politics",
     "horodatage_utc": "2026-11-15T11:00:04+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/82e2d624-65aa-4a8c-86ec-f99c0ce785ac?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "c35f8a641a759cec",
@@ -52,11 +142,147 @@
     "horodatage_utc": "2026-11-15T08:34:46+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "251b57c82fe08d34",
+    "categorie": "geopolitique",
+    "titre_affiche": "Blasts , sirens in Bahrain as Iran attacks on US base",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/omanobserver.om",
+    "url_source": "https://www.omanobserver.om/article/1199692/world/region/blasts-sirens-in-bahrain-as-iran-attacks-on-us-base",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/omanobserver.om. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d4b461a802ecd146",
+    "categorie": "geopolitique",
+    "titre_affiche": "Sirens sound in Bahrain as Iran Guards claim drone attack",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/rnz.co.nz",
+    "url_source": "https://www.rnz.co.nz/news/world/2609842/sirens-sound-in-bahrain-as-iran-s-guards-claim-drone-attack",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/rnz.co.nz. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bd266e0ffae169c0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Iran navy says three tankers on fire after hitting mines in Hormuz",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/bdnews24.com",
+    "url_source": "https://bdnews24.com/world/middle-east/47mh9vo0tx",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "73e03dd64470fd7a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Awkward moment awaits PM with potential Putin photo",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/areanews.com.au",
+    "url_source": "https://www.areanews.com.au/story/9391656/awkward-moment-awaits-pm-with-potential-putin-photo/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "78604eae17d8062d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Kim Ghattas : War in the Middle East doesnt serve anyone interests",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/newstatesman.com",
+    "url_source": "https://www.newstatesman.com/the-weekend-interview/2026/11/kim-ghattas-war-in-the-middle-east-doesnt-serve-anyones-interests",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6c9f4aac678bbcdb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Rosja chce cofnąć NATO do granic z 1997 roku . ISW ostrzega przed planami Kremla",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/wiadomosci.wp.pl",
+    "url_source": "https://wiadomosci.wp.pl/rosja-chce-cofnac-nato-do-granic-z-1997-roku-isw-ostrzega-przed-planami-kremla-7351184768673792a",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "435fd7911aa56dcf",
+    "categorie": "geopolitique",
+    "titre_affiche": "US - Denkfabrik simuliert Putins Tod und Einmarsch in NATO - Staat bis 2030",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/merkur.de",
+    "url_source": "https://www.merkur.de/politik/us-denkfabrik-simuliert-putins-tod-und-einmarsch-in-nato-staat-bis-2030-zr-94590482.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "ae9b25c383f6651c",
+    "categorie": "geopolitique",
+    "titre_affiche": "A Zelensky in Putin family ? Leaked records expose an awkward family secret",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/ynetnews.com",
+    "url_source": "https://www.ynetnews.com/article/rjphlclrfe",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4b70866508ce2879",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putins Friedensplan für die Ukraine : Das Ultimatum von vor dem Krieg",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/merkur.de",
+    "url_source": "https://www.merkur.de/politik/putins-friedensplan-fuer-die-ukraine-das-ultimatum-von-vor-dem-krieg-zuzueglich-zinsen-zr-94590480.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -129,13 +355,13 @@
     "horodatage_utc": "2026-11-15T05:00:13+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f8a58159-463f-4b28-b83d-14b79cbd413b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "350c1e4c8ddc4aba",
@@ -213,6 +439,142 @@
     "nouveaute": false
   },
   {
+    "id": "2f6f7a6d499a9ca1",
+    "categorie": "geopolitique",
+    "titre_affiche": "PM to highlight Philippines ties ahead of Trump meeting",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/mandurahmail.com.au",
+    "url_source": "https://www.mandurahmail.com.au/story/9391656/pm-to-highlight-philippines-ties-ahead-of-trump-meeting/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "a5aa367d2d392ad1",
+    "categorie": "geopolitique",
+    "titre_affiche": "With shifting Iran rhetoric , Trump leaves Mideast in limbo",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/wisn.com",
+    "url_source": "https://www.wisn.com/article/iran-rhetoric-elections-trump-mideast-limbo/74431136",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ca1384cb590f3604",
+    "categorie": "geopolitique",
+    "titre_affiche": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/theyeshivaworld.com",
+    "url_source": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza",
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bd51074825c6d461",
+    "categorie": "geopolitique",
+    "titre_affiche": "The Trump administration is diverting billions in health funding away from low - income countries , defying Congres plans",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/kesq.com",
+    "url_source": "https://kesq.com/news/national-world/cnn-world/2026/11/14/the-trump-administration-is-diverting-billions-in-health-funding-away-from-low-income-countries-defying-congress-plans/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "581af81fdf379662",
+    "categorie": "geopolitique",
+    "titre_affiche": "Zelenski revela propuesta de EU sobre el Donbás y la OTAN",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/lasillarota.com",
+    "url_source": "https://lasillarota.com/mundo/2026/11/14/zelenski-revela-propuesta-de-eu-sobre-el-donbas-y-la-otan-537425.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "596361255d407d39",
+    "categorie": "geopolitique",
+    "titre_affiche": "Supreme Court to Hear Challenge to Trump Proclamation Eliminating Asylum",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/yubanet.com",
+    "url_source": "https://yubanet.com/usa/supreme-court-to-hear-challenge-to-trump-proclamation-eliminating-asylum/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "4a47f8c11b3f4091",
+    "categorie": "geopolitique",
+    "titre_affiche": "US floated idea of Ukraine swapping land for NATO membership , Zelensky says",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/kesq.com",
+    "url_source": "https://kesq.com/news/national-world/cnn-world/2026/11/14/us-floated-idea-of-ukraine-swapping-land-for-nato-membership-zelensky-says/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "cd40cc4836c3be75",
+    "categorie": "geopolitique",
+    "titre_affiche": "Zelenski najavio da bi mogao da raspiše referendum o predaji Donbasa",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/blic.rs",
+    "url_source": "https://www.blic.rs/vesti/svet/zelenski-najavio-da-bi-mogao-da-raspise-referendum-o-predaji-donbasa/4hd9jhg",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "25944807629174bd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Muslim countries condemn Israel strike on Gaza Nasser Hospital",
+    "horodatage_utc": "2026-11-14T21:00:00+00:00",
+    "source_nom": "GDELT/jpost.com",
+    "url_source": "https://www.jpost.com/israel-news/article-914881",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "833a2f1cc98a010d",
     "categorie": "geopolitique",
     "titre_affiche": "Oil markets stay flush despite tanker attacks",
@@ -225,21 +587,6 @@
       "Pétrole et énergie"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2f6f7a6d499a9ca1",
-    "categorie": "geopolitique",
-    "titre_affiche": "PM to highlight Philippines ties ahead of Trump meeting",
-    "horodatage_utc": "2026-11-14T20:00:00+00:00",
-    "source_nom": "GDELT/nvi.com.au",
-    "url_source": "https://www.nvi.com.au/story/9391656/pm-to-highlight-philippines-ties-ahead-of-trump-meeting/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/nvi.com.au. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -1474,353 +1821,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f460eeaecb0ee07e",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia sends a painful message on how to value a CEO",
-    "horodatage_utc": "2026-11-12T18:40:46+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/610fc69e-51ae-4f7a-8e48-c2ce42860ff4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2e45acf795917c15",
-    "categorie": "geopolitique",
-    "titre_affiche": "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit",
-    "horodatage_utc": "2026-11-12T18:36:30+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-candidate.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "eff5a20fc490f36d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-    "horodatage_utc": "2026-11-12T18:30:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9f26ddc2e482be76",
-    "categorie": "geopolitique",
-    "titre_affiche": "US home sales fall to lowest level since 2010 as mortgage rates soar",
-    "horodatage_utc": "2026-11-12T18:03:44+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1e08661e-1db0-4ff7-8236-77254bb05790?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4bab524e8258a318",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-    "horodatage_utc": "2026-11-12T17:45:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c9c5d87ca501e443",
-    "categorie": "geopolitique",
-    "titre_affiche": "European leaders reject Russian push to overhaul continent’s security",
-    "horodatage_utc": "2026-11-12T17:38:50+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/8d28a5be-af56-421f-a33d-779a0fcc7ad4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "03c0baf5ceadd400",
-    "categorie": "geopolitique",
-    "titre_affiche": "Quantum Systems drones grounded by German military after cyber attack",
-    "horodatage_utc": "2026-11-12T17:32:13+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/783504cd-aa28-453a-a223-7a34eee86ce8?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ddd2239e1658ba35",
-    "categorie": "geopolitique",
-    "titre_affiche": "Meet the contenders to succeed Jensen Huang",
-    "horodatage_utc": "2026-11-12T17:24:08+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6f21835f-97a1-4f7a-bbb8-f38609998909",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "02ab9930beb70763",
-    "categorie": "geopolitique",
-    "titre_affiche": "Coinbase CEO says industry collaboration can help contain fallout from hacks like Binance breach",
-    "horodatage_utc": "2026-11-12T17:00:49+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/coinbase-ceo-brian-armstrong-talks-binance-hack-democrats-sweep.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "2625f534990f6de8",
-    "categorie": "geopolitique",
-    "titre_affiche": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-    "horodatage_utc": "2026-11-12T16:00:00+00:00",
-    "source_nom": "Federal Reserve - communiques",
-    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8da96bf8a8329c35",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen jeopardy will disrupt the AI industry",
-    "horodatage_utc": "2026-11-12T15:56:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/42bfcbcb-7121-492b-8e1d-0aceacd093e2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e87c83c22bfebedc",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine says Starlink restrictions are back as US envoys land in Moscow",
-    "horodatage_utc": "2026-11-12T14:29:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/6cd890f1-2e4d-468a-807f-529f45e1678e?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3654612b8889ad8d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang is gone. Will the AI industry pay the price?",
-    "horodatage_utc": "2026-11-12T14:22:30+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/dd9072bd-e8a3-4f8e-9985-550aa80a2fd4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "78f69eb7ea1a8352",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
-    "horodatage_utc": "2026-11-12T14:15:00+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "89d59c49959901ca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang resigns as Nvidia chief executive",
-    "horodatage_utc": "2026-11-12T13:51:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fd77b90feae5b277",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
-    "horodatage_utc": "2026-11-12T12:03:39+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)",
-      "Sanctions"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "804f7109ac40abc5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israel strikes Gaza hospital despite ceasefire",
-    "horodatage_utc": "2026-11-12T12:03:33+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2a3d0391-c4d9-4195-af36-b5ee66415cd9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7a917e2ad519c469",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia stock falls 7% as investors await Jensen Huang’s fate",
-    "horodatage_utc": "2026-11-12T11:25:09+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8f34c706f7a728bb",
-    "categorie": "geopolitique",
-    "titre_affiche": "‘A dark day for Nvidia’: Here’s what analysts are saying as markets brace for news on Huang's fate",
-    "horodatage_utc": "2026-11-12T11:17:37+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8d1430b9111368ae",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia board to decide Jensen Huang’s fate",
-    "horodatage_utc": "2026-11-12T11:08:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "9d99fecb533ff697",
-    "categorie": "geopolitique",
-    "titre_affiche": "Maga architects blame Big Tech and AI data centres for midterms rout",
-    "horodatage_utc": "2026-11-12T11:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/43da75e5-e8fd-4aea-8afb-e3d75c9f176f?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "602632456e6a2d56",
-    "categorie": "geopolitique",
-    "titre_affiche": "China warns US not to use Nvidia scandal as pretext for tech curbs",
-    "horodatage_utc": "2026-11-12T10:55:31+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "39cd6c9d3df8de37",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
-    "horodatage_utc": "2026-11-12T09:05:22+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
     ],
     "portee": "influence",
     "nouveaute": false
