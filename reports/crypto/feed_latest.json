@@ -45,6 +45,21 @@
     "nouveaute": true
   },
   {
+    "id": "efbb49cc288d1806",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
+    "horodatage_utc": "2026-11-14T16:33:29+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "d8ce5357da30d17a",
     "categorie": "crypto",
     "titre_affiche": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
@@ -1783,21 +1798,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ddf0c33fa2106bb2",
-    "categorie": "crypto",
-    "titre_affiche": "Global asset manager Schroders brings emerging market bond fund to Solana",
-    "horodatage_utc": "2026-11-04T13:00:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
     ],
     "portee": "actif_direct",
     "nouveaute": false

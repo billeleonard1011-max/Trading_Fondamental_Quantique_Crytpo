@@ -1,5 +1,111 @@
 [
   {
+    "id": "98b78ff627c91304",
+    "categorie": "geopolitique",
+    "titre_affiche": "What will Nvidia’s post-Huang era look like?",
+    "horodatage_utc": "2026-11-15T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "1fad641f910c6bcc",
+    "categorie": "geopolitique",
+    "titre_affiche": "Inside Infantino’s $6bn Fifa charm offensive",
+    "horodatage_utc": "2026-11-15T05:00:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f8a58159-463f-4b28-b83d-14b79cbd413b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "df5925960a379e02",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Low fire, low hire’ job market hurts US and UK productivity",
+    "horodatage_utc": "2026-11-15T05:00:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/44c1fdc6-bc51-46e5-8a7c-c10096a25496?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "d97b8c1a3506e072",
+    "categorie": "geopolitique",
+    "titre_affiche": "EU banking watchdog veers away from single deposit insurance scheme",
+    "horodatage_utc": "2026-11-15T05:00:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/016ce22d-1e09-4f1d-a7e6-9acf183e757f?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "350c1e4c8ddc4aba",
+    "categorie": "geopolitique",
+    "titre_affiche": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+    "horodatage_utc": "2026-11-15T05:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ce087f345de239b0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Huang’s downfall shows human judgment is not all it’s cracked up to be",
+    "horodatage_utc": "2026-11-15T05:00:04+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "11b213079e2a9be4",
+    "categorie": "geopolitique",
+    "titre_affiche": "The world according to China",
+    "horodatage_utc": "2026-11-15T03:00:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/fb667289-ae81-42c7-8eb8-ebda09dceff7?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "f5ee6197565293c1",
     "categorie": "geopolitique",
     "titre_affiche": "Passengers face widespread disruption after US air traffic control outage",
@@ -1713,111 +1819,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4a267a55ffa8fd2d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Russian diesel exports double after Trump lifts sanctions, but US gets none",
-    "horodatage_utc": "2026-11-12T05:00:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "da759c9f8fafd6fa",
-    "categorie": "geopolitique",
-    "titre_affiche": "France signals support for Spain’s ECB presidential candidate",
-    "horodatage_utc": "2026-11-12T05:00:21+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/b0d03a62-a75d-41f9-bac3-1518cefe400a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8c9b462f21e4569a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
-    "horodatage_utc": "2026-11-12T03:25:05+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/elon-musk-jensen-huang-nvidia-tesla.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "18df3073786cdd5c",
-    "categorie": "geopolitique",
-    "titre_affiche": "What we know so far about Nvidia partner Megaspeed’s Asia footprint",
-    "horodatage_utc": "2026-11-12T03:02:03+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c1e92a34172b8ad2",
-    "categorie": "geopolitique",
-    "titre_affiche": "China warns ‘severe punishment’ for offshore trust tax evaders",
-    "horodatage_utc": "2026-11-12T02:55:28+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/278528e2-dd2d-4020-853d-2a7a9d49a359?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "9543276e22f513fd",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.8 - 43 km SE of Severo-Kuril’sk, Russia",
-    "horodatage_utc": "2026-11-12T01:33:09+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqa",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c9b46e1523d8f993",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate",
-    "horodatage_utc": "2026-11-12T01:13:24+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
     "nouveaute": true
