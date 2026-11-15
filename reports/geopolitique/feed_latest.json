@@ -1,5 +1,20 @@
 [
   {
+    "id": "f5ee6197565293c1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Passengers face widespread disruption after US air traffic control outage",
+    "horodatage_utc": "2026-11-14T23:32:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "833a2f1cc98a010d",
     "categorie": "geopolitique",
     "titre_affiche": "Oil markets stay flush despite tanker attacks",
@@ -81,13 +96,13 @@
     "horodatage_utc": "2026-11-14T18:48:39+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ac07f1168bec7ad6",
@@ -96,26 +111,11 @@
     "horodatage_utc": "2026-11-14T17:46:06+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "f5ee6197565293c1",
-    "categorie": "geopolitique",
-    "titre_affiche": "Passengers face widespread disruption after US air traffic control outage",
-    "horodatage_utc": "2026-11-14T17:36:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
+      "Actions et technologie",
+      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -127,13 +127,13 @@
     "horodatage_utc": "2026-11-14T15:50:43+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "721b7b527c8f8142",

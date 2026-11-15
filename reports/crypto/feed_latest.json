@@ -6,8 +6,23 @@
     "horodatage_utc": "2026-11-14T17:50:41+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "8416241490c63438",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+    "horodatage_utc": "2026-11-14T16:33:29+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -15,9 +30,9 @@
     "nouveaute": true
   },
   {
-    "id": "8416241490c63438",
+    "id": "ca6ce41d43932fdd",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+    "titre_affiche": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
     "horodatage_utc": "2026-11-14T16:33:29+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
@@ -36,13 +51,13 @@
     "horodatage_utc": "2026-11-14T16:33:23+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ec73c671fef91e9e",
@@ -1783,21 +1798,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "dfe1c84a24958180",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin rebounds from midterm dip as DeFi leads gains",
-    "horodatage_utc": "2026-11-04T10:38:58+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
