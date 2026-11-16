@@ -1,18 +1,33 @@
 [
   {
+    "id": "52047d6762135817",
+    "categorie": "crypto",
+    "titre_affiche": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
+    "horodatage_utc": "2026-11-15T21:57:53+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62000-440807",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "7aea98582869e325",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin tumbles to four - month low as liquidations accelerate",
     "horodatage_utc": "2026-11-15T07:45:00+00:00",
     "source_nom": "GDELT/thehindubusinessline.com",
     "url_source": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/thehindubusinessline.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e249a279badecc2b",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-11-15T07:45:00+00:00",
     "source_nom": "GDELT/econotimes.com",
     "url_source": "https://econotimes.com/Blockchain-Record-Shows-1-78-Million-Solana-SOL-Left-Staking-Wallet-Owner-Unknown-1777158",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/econotimes.com. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "23252a3b23589c27",
@@ -1783,21 +1798,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e4a27970286fb13b",
-    "categorie": "crypto",
-    "titre_affiche": "Schroders launches tokenized emerging markets debt fund on Solana with Centrifuge",
-    "horodatage_utc": "2026-11-04T16:27:49+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-04-schroders-centrifuge-tokenized-emerging-markets-debt-fund-solana-432878",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
     ],
     "portee": "actif_direct",
     "nouveaute": false

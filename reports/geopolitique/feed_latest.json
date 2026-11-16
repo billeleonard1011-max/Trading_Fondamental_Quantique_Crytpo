@@ -1,18 +1,33 @@
 [
   {
+    "id": "e88425a7c847ba71",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.8 - 141 km ESE of Petropavlovsk-Kamchatsky, Russia",
+    "horodatage_utc": "2026-11-15T23:02:53+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tygk",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "ee94a25d725ad824",
     "categorie": "geopolitique",
     "titre_affiche": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
     "horodatage_utc": "2026-11-15T19:58:21+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f36a7d2b2f366b04",
@@ -21,13 +36,13 @@
     "horodatage_utc": "2026-11-15T19:03:41+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2638ae4258e69a4c",
@@ -36,13 +51,13 @@
     "horodatage_utc": "2026-11-15T18:28:25+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/24edbb84-7520-4ef0-a57c-30359e12ccc5?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "56fb5cfa37c18580",
@@ -51,13 +66,13 @@
     "horodatage_utc": "2026-11-15T18:27:27+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Iran - États-Unis"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9379442b99055860",
@@ -66,13 +81,13 @@
     "horodatage_utc": "2026-11-15T18:10:18+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b6546d04f51ac109",
@@ -81,13 +96,13 @@
     "horodatage_utc": "2026-11-15T17:47:43+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ef4643c554993164",
@@ -283,6 +298,21 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "84a8d0ff381af219",
+    "categorie": "geopolitique",
+    "titre_affiche": "Data center diaspora : Democrat blue wave wins could send AI buildout out of US | News",
+    "horodatage_utc": "2026-11-15T07:45:00+00:00",
+    "source_nom": "GDELT/thedailytimes.com",
+    "url_source": "http://www.thedailytimes.com/news/data-center-diaspora-democrats-blue-wave-wins-could-send-ai-buildout-out-of-us/article_d4f73402-6cf0-5101-9ba0-a99e495487bb.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/thedailytimes.com. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1790,37 +1820,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "32b92e527c31a28d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia stock pares morning losses after CEO Jensen Huang announces resignation",
-    "horodatage_utc": "2026-11-12T19:28:47+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2c8d80df3e6698f4",
-    "categorie": "geopolitique",
-    "titre_affiche": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-    "horodatage_utc": "2026-11-12T19:05:25+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
     "nouveaute": false
