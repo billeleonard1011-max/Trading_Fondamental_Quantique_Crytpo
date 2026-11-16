@@ -1,13 +1,121 @@
 [
   {
+    "id": "42ef649143da9a42",
+    "categorie": "geopolitique",
+    "titre_affiche": "The perfect sell-off",
+    "horodatage_utc": "2026-11-16T06:30:01+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/a61f1fe9-55d9-498e-9ecc-c3a66980d63a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "81ea5abd6a5e0f9e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Brussels to propose €45bn Ukraine loan borrowed against EU budget",
+    "horodatage_utc": "2026-11-16T05:00:22+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2c9de06b-aa86-4275-b9f3-1276f8c20994?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4739a2aec96385b8",
+    "categorie": "geopolitique",
+    "titre_affiche": "Japan’s economy contracts for the first time in a year",
+    "horodatage_utc": "2026-11-16T04:59:28+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4eb7ff18-1ba3-4944-ad48-bdc9e5ddc84e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5c228729e3ed1c53",
+    "categorie": "geopolitique",
+    "titre_affiche": "China’s economic activity slows more than expected in October",
+    "horodatage_utc": "2026-11-16T04:38:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7a6f84cf-ebea-4225-a31a-571fb877286a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a3186dcece51b5d1",
+    "categorie": "geopolitique",
+    "titre_affiche": "Tech world's calls for Jensen Huang to return to Nvidia are growing",
+    "horodatage_utc": "2026-11-16T03:35:09+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "7001d7e3d1cd8bcf",
+    "categorie": "geopolitique",
+    "titre_affiche": "Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy",
+    "horodatage_utc": "2026-11-16T01:41:33+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5621d364-c767-4b40-a090-054042d1c49b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "e88425a7c847ba71",
     "categorie": "geopolitique",
     "titre_affiche": "M 4.8 - 141 km ESE of Petropavlovsk-Kamchatsky, Russia",
     "horodatage_utc": "2026-11-15T23:02:53+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tygk",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "748ecc35523491b9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Estonia to close border with Russia after second alleged sabotage attempt",
+    "horodatage_utc": "2026-11-15T20:58:12+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4dbb2c30-1649-4d0f-b1b6-3ca91c64e250?syn-25a6b1a6=1",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
@@ -1710,112 +1818,6 @@
     "horodatage_utc": "2026-11-12T22:47:28+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "db24d413ae6bf205",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kalshi cuts ties to Donald Trump Jr after Democrats’ midterm sweep",
-    "horodatage_utc": "2026-11-12T22:45:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/1352ac24-bdd6-4093-9ebd-7b27b6fd29d3?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "dca12027001af323",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
-    "horodatage_utc": "2026-11-12T21:17:21+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7a5eadee38a16999",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
-    "horodatage_utc": "2026-11-12T20:59:04+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Commerce international (droits de douane)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "15feebf12bf4400c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump signals end to vice-president’s Iran peace deal push",
-    "horodatage_utc": "2026-11-12T20:32:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3c1727bb-2966-4e5c-808b-873d14854fa2?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "49196b10775bd50f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
-    "horodatage_utc": "2026-11-12T20:32:21+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "20568fdf104a84f8",
-    "categorie": "geopolitique",
-    "titre_affiche": "‘A dark day for Nvidia’: Here’s what analysts have been saying about Jensen Huang’s departure",
-    "horodatage_utc": "2026-11-12T19:47:57+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c0e2ef292478e728",
-    "categorie": "geopolitique",
-    "titre_affiche": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
-    "horodatage_utc": "2026-11-12T19:42:41+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
