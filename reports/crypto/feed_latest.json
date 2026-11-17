@@ -1,11 +1,11 @@
 [
   {
-    "id": "c90fe3e1867fd5be",
+    "id": "27e8b9982fdfc05a",
     "categorie": "crypto",
-    "titre_affiche": "Grayscale says crypto pullback offers ‘compelling entry points’ as bitcoin falls to $64,000",
-    "horodatage_utc": "2026-11-17T07:39:17+00:00",
+    "titre_affiche": "Anchorage, Kalshi Prime let institutions use custodied bitcoin as margin",
+    "horodatage_utc": "2026-11-17T15:53:25+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
+    "url_source": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,27 +15,12 @@
     "nouveaute": true
   },
   {
-    "id": "1a698ac43e1fd22f",
+    "id": "09d26d92f62c0ad3",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
-    "horodatage_utc": "2026-11-17T07:38:07+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "194cb7dfa017ed99",
-    "categorie": "crypto",
-    "titre_affiche": "CZ denies Binance sold crypto, Bitwise sees Solana at $1,100 by 2031, and more",
-    "horodatage_utc": "2026-11-17T05:45:00+00:00",
+    "titre_affiche": "Solana’s Trump memecoin launch tested infrastructure ahead of institutional push, Lily Liu says",
+    "horodatage_utc": "2026-11-17T14:27:35+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-17-cz-binance-bitwise-solana-more-crypto-news-441584",
+    "url_source": "https://www.theblock.co/news/ecosystems/2026-11-17-solana-trump-memecoin-launch-tested-infrastructure-institutional-push-lily-liu-says-442132",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -45,12 +30,42 @@
     "nouveaute": true
   },
   {
-    "id": "515609f16f3eccf9",
+    "id": "24115f35d4bb4423",
     "categorie": "crypto",
-    "titre_affiche": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
-    "horodatage_utc": "2026-11-17T05:37:23+00:00",
+    "titre_affiche": "Bernstein sees upside for bitcoin miners Riot and TeraWulf, citing discounts to implied AI data center values",
+    "horodatage_utc": "2026-11-17T13:56:18+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-17-bernstein-sees-upside-for-bitcoin-miners-riot-and-terawulf-citing-discounts-to-implied-ai-data-center-values-442125",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9793e1d5692648cc",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
+    "horodatage_utc": "2026-11-17T13:02:56+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion",
+    "url_source": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "953f6b285dd7955e",
+    "categorie": "crypto",
+    "titre_affiche": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
+    "horodatage_utc": "2026-11-17T12:00:55+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/17/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -58,6 +73,141 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "4655ad2ce911890e",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
+    "horodatage_utc": "2026-11-17T11:36:07+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c22b6fba3e9d93b3",
+    "categorie": "crypto",
+    "titre_affiche": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
+    "horodatage_utc": "2026-11-17T11:29:51+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "76fc5c202a747c71",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin and stocks continue slump as Huang signals interest in returning to Nvidia",
+    "horodatage_utc": "2026-11-17T10:33:26+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "4cb93c86c0d39364",
+    "categorie": "crypto",
+    "titre_affiche": "Tether Capital invests $15 million in Nomad, eyes wider access to USDT and XAUT in Brazil",
+    "horodatage_utc": "2026-11-17T10:20:37+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ccf5958c8a9f2eb4",
+    "categorie": "crypto",
+    "titre_affiche": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
+    "horodatage_utc": "2026-11-17T09:21:19+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c90fe3e1867fd5be",
+    "categorie": "crypto",
+    "titre_affiche": "Grayscale says crypto pullback offers ‘compelling entry points’ as bitcoin falls to $64,000",
+    "horodatage_utc": "2026-11-17T07:39:17+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "1a698ac43e1fd22f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
+    "horodatage_utc": "2026-11-17T07:38:07+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "194cb7dfa017ed99",
+    "categorie": "crypto",
+    "titre_affiche": "CZ denies Binance sold crypto, Bitwise sees Solana at $1,100 by 2031, and more",
+    "horodatage_utc": "2026-11-17T05:45:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-17-cz-binance-bitwise-solana-more-crypto-news-441584",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "515609f16f3eccf9",
+    "categorie": "crypto",
+    "titre_affiche": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
+    "horodatage_utc": "2026-11-17T05:37:23+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "43f2f83c9691bf11",
@@ -81,13 +231,13 @@
     "horodatage_utc": "2026-11-16T20:35:21+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "18e25063afe33dfb",
@@ -1651,155 +1801,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "c95c56f08ec2d674",
-    "categorie": "crypto",
-    "titre_affiche": "Zama spin-off Raycash launches confidential stablecoin payments and private yield on Ethereum",
-    "horodatage_utc": "2026-11-09T09:05:02+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "33c9d957a4c2c3a7",
-    "categorie": "crypto",
-    "titre_affiche": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
-    "horodatage_utc": "2026-11-09T06:54:41+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/09/spacex-proposes-a-usd24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "caff821acc0abfa0",
-    "categorie": "crypto",
-    "titre_affiche": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-    "horodatage_utc": "2026-11-09T06:36:45+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ced64ef6d672d38d",
-    "categorie": "crypto",
-    "titre_affiche": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
-    "horodatage_utc": "2026-11-09T05:16:54+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/09/two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "473fe6108c924bcf",
-    "categorie": "crypto",
-    "titre_affiche": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
-    "horodatage_utc": "2026-11-09T04:54:39+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/09/binance-s-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "dbcb7a3a1b16ad7b",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-    "horodatage_utc": "2026-11-09T03:21:49+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "02d1ec13dd5d394a",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin drops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-    "horodatage_utc": "2026-11-09T03:21:49+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "6af33dda4cc5bf89",
-    "categorie": "crypto",
-    "titre_affiche": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
-    "horodatage_utc": "2026-11-08T12:55:59+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "cff498c60f8aa030",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
-    "horodatage_utc": "2026-11-07T16:46:02+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "d74bc1392450d547",
-    "categorie": "crypto",
-    "titre_affiche": "Elliptic says Binance hackers swapped stolen tokens for $124M in bitcoin, exchange plans more withdrawal reopenings",
-    "horodatage_utc": "2026-11-06T18:06:59+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
