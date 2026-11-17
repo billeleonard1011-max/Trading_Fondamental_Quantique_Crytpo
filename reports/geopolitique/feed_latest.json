@@ -1,11 +1,58 @@
 [
   {
-    "id": "b2fab52b97246f25",
+    "id": "2b76234db4b7292a",
     "categorie": "geopolitique",
-    "titre_affiche": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
-    "horodatage_utc": "2026-11-16T23:23:47+00:00",
+    "titre_affiche": "Tech sell-off deepens as Nvidia results loom",
+    "horodatage_utc": "2026-11-17T08:36:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export), Sanctions. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)",
+      "Sanctions"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3d55b6edad8105e2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Leak of 15mn Deutsche Bank files exposes systemic failures",
+    "horodatage_utc": "2026-11-17T08:09:20+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/df518845-ed97-4a38-8a38-7fa9d4d24003?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3bbb64bb2ba1c8a9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+    "horodatage_utc": "2026-11-17T07:07:35+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+    "url_source": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export), Sanctions. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)",
+      "Sanctions"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ac0bec1b998b7d11",
+    "categorie": "geopolitique",
+    "titre_affiche": "U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024",
+    "horodatage_utc": "2026-11-17T06:59:42+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -13,6 +60,159 @@
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "e853d082030c215f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Xi and Canada’s Carney slash tariffs as China courts middle powers",
+    "horodatage_utc": "2026-11-17T06:20:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3a8dbdda-1645-4b62-b64b-7da5de611d53?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "981476aaef74e8ff",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Katastrophe’: inside the chaos at Germany’s biggest bank",
+    "horodatage_utc": "2026-11-17T06:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4f8dae68-bfec-43bd-bef6-b830815ec538?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d12f1b576c9d8596",
+    "categorie": "geopolitique",
+    "titre_affiche": "An ‘awful mistake’ that leaked Trump’s tax statements",
+    "horodatage_utc": "2026-11-17T06:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/784cbdc7-c852-4081-b1e5-390779e9fad1?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque, Cyberattaques sur infrastructures et plateformes, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Cyberattaques sur infrastructures et plateformes",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "eb118db1824b2bfd",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 6.6 - 148 km WSW of Tual, Indonesia",
+    "horodatage_utc": "2026-11-17T05:31:09+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "e9b615d397893b95",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘There was a lot of gaslighting’: Why America’s podcast stars ditched Trump",
+    "horodatage_utc": "2026-11-17T05:00:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/676d1291-3007-4a32-9332-abf803d0f581?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "f208a307a2f229a8",
+    "categorie": "geopolitique",
+    "titre_affiche": "The AI sell-off makes sense. Staying bearish may not",
+    "horodatage_utc": "2026-11-17T05:00:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d94f5378-ae95-4bfd-ac01-3a65b387d4cf",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4ce38f3f7aedd67c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Finland urges European leaders to talk to Putin directly",
+    "horodatage_utc": "2026-11-17T05:00:25+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/671d7a7d-c06f-4947-a0ac-72c41e262cca?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "e98c3256edb5a405",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oligarch’s ex-wife to claim £600mn for ‘reasonable needs’ in London divorce case",
+    "horodatage_utc": "2026-11-17T05:00:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/969f0f82-7dd5-4d63-8f60-ee967028f744?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "2033cf0596de67c7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia’s interim CEO Colette Kress to make her debut at first earnings",
+    "horodatage_utc": "2026-11-17T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/424e5ab0-517e-4f8e-a286-df7c67fa05a6?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b2fab52b97246f25",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+    "horodatage_utc": "2026-11-16T23:23:47+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "8824a46c893a6ab3",
@@ -30,34 +230,19 @@
     "nouveaute": true
   },
   {
-    "id": "eb118db1824b2bfd",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 6.6 - 148 km WSW of Tual, Indonesia",
-    "horodatage_utc": "2026-11-16T23:18:03+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "cf46dcb156e368cc",
     "categorie": "geopolitique",
     "titre_affiche": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
     "horodatage_utc": "2026-11-16T23:01:19+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "00ae5f98ba599492",
@@ -66,13 +251,13 @@
     "horodatage_utc": "2026-11-16T22:19:02+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "92a60e97a109399b",
@@ -81,13 +266,13 @@
     "horodatage_utc": "2026-11-16T22:14:47+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5dc6dd24d8d1a4be",
@@ -194,7 +379,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2449be9686da1a83",
@@ -209,7 +394,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1cc448ef8d00ce70",
@@ -1633,193 +1818,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "75420a2303b1c75a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Arm boss Rene Haas approached in Nvidia CEO search",
-    "horodatage_utc": "2026-11-13T17:45:54+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "047784761dd787df",
-    "categorie": "geopolitique",
-    "titre_affiche": "Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed",
-    "horodatage_utc": "2026-11-13T17:06:01+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Actions et technologie",
-      "Sanctions, accords et diplomatie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "96f07b38b9f43230",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI believers hold the line after Nvidia ructions",
-    "horodatage_utc": "2026-11-13T16:55:39+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/750e4304-7287-432a-8ac1-36db40d0d968?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "68f57a21a99ef626",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
-    "horodatage_utc": "2026-11-13T16:23:43+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f91a5fe3adb6277a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-    "horodatage_utc": "2026-11-13T15:49:11+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8bc5f84d341cf562",
-    "categorie": "geopolitique",
-    "titre_affiche": "Global oil markets swing to surplus as Gulf shipments rebound",
-    "horodatage_utc": "2026-11-13T15:42:48+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4e35755b5e871c86",
-    "categorie": "geopolitique",
-    "titre_affiche": "US Treasuries set for worst week since Trump’s ‘liberation day’",
-    "horodatage_utc": "2026-11-13T15:36:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4a7b27a368ec95f7",
-    "categorie": "geopolitique",
-    "titre_affiche": "Microsoft races to restore services after global outage",
-    "horodatage_utc": "2026-11-13T15:29:45+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Cyberattaques sur infrastructures et plateformes",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "9daeeca49463a68c",
-    "categorie": "geopolitique",
-    "titre_affiche": "Microsoft says email queues 'approaching normal levels' as Outlook issues persist",
-    "horodatage_utc": "2026-11-13T15:10:20+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2570d189c4959fa5",
-    "categorie": "geopolitique",
-    "titre_affiche": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test",
-    "horodatage_utc": "2026-11-13T15:03:10+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "da893cdd9cab1426",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia stock sinks 2% in fallout from Jensen Huang resignation",
-    "horodatage_utc": "2026-11-13T14:56:20+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5486a8bcd9f9209b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
-    "horodatage_utc": "2026-11-13T14:22:07+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
     "nouveaute": false
