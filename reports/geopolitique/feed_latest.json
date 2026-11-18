@@ -1,11 +1,11 @@
 [
   {
-    "id": "430bb4dc2509246a",
+    "id": "7c5c949c76463ec6",
     "categorie": "geopolitique",
-    "titre_affiche": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
-    "horodatage_utc": "2026-11-18T17:35:27+00:00",
+    "titre_affiche": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+    "horodatage_utc": "2026-11-18T23:45:50+00:00",
     "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,206 @@
     ],
     "portee": "influence",
     "nouveaute": true
+  },
+  {
+    "id": "db3c267e7f47f51d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+    "horodatage_utc": "2026-11-18T23:44:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "5ef53a58c65cbaf3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Microsoft had rallied back to record highs. Then came the election and Outlook outage",
+    "horodatage_utc": "2026-11-18T23:39:21+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/microsoft-put-the-ai-threat-to-software-behind-it-then-came-the-outage.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Cyberattaques sur infrastructures et plateformes, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Cyberattaques sur infrastructures et plateformes",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f06f63e227d48d0a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic prices blockbuster IPO at $83 a share",
+    "horodatage_utc": "2026-11-18T22:04:50+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0460a0639c01666f",
+    "categorie": "geopolitique",
+    "titre_affiche": "US tech outages blamed on rush to fix bugs found by AI",
+    "horodatage_utc": "2026-11-18T21:49:52+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "57d427405fb5c21d",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russian accused of spying on Palantir over assistance to Ukraine",
+    "horodatage_utc": "2026-11-18T21:44:59+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4972f4c7-fe8d-4fdd-b0fd-0db2360cda2a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "430bb4dc2509246a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
+    "horodatage_utc": "2026-11-18T21:06:49+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "a74208c23c0c951c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia accelerates pay rises as interim CEO seeks to lift staff morale",
+    "horodatage_utc": "2026-11-18T20:40:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9ee78a67-fcab-4e43-bee7-09c9244e76b8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8ce8a29e6312cc5f",
+    "categorie": "geopolitique",
+    "titre_affiche": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
+    "horodatage_utc": "2026-11-18T19:47:05+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "8067c72ff749cf37",
+    "categorie": "geopolitique",
+    "titre_affiche": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+    "horodatage_utc": "2026-11-18T19:41:59+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a17c23d6c6d2d871",
+    "categorie": "geopolitique",
+    "titre_affiche": "Vance scraps schedule to address tech outages as Trump admin insists incidents aren't linked",
+    "horodatage_utc": "2026-11-18T19:17:27+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Cyberattaques sur infrastructures et plateformes",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "8b6ae5b77efd2b45",
+    "categorie": "geopolitique",
+    "titre_affiche": "Barr, Investing in America’s Underserved Communities",
+    "horodatage_utc": "2026-11-18T18:35:00+00:00",
+    "source_nom": "Federal Reserve - discours et auditions",
+    "url_source": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "48062796d36df975",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+    "horodatage_utc": "2026-11-18T18:11:41+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "564ea10da9019448",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
+    "horodatage_utc": "2026-11-18T17:50:37+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": false
   },
   {
     "id": "8e8729ba28db4aca",
@@ -45,36 +245,19 @@
     "nouveaute": true
   },
   {
-    "id": "a17c23d6c6d2d871",
-    "categorie": "geopolitique",
-    "titre_affiche": "Vance scraps schedule to address tech outages as Trump admin insists incidents aren't linked",
-    "horodatage_utc": "2026-11-18T17:11:11+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Cyberattaques sur infrastructures et plateformes, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Cyberattaques sur infrastructures et plateformes",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "ac54bdc7bb158f24",
     "categorie": "geopolitique",
     "titre_affiche": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
     "horodatage_utc": "2026-11-18T16:33:14+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cb6ddcaa66d54cff",
@@ -93,36 +276,6 @@
     "nouveaute": true
   },
   {
-    "id": "8ce8a29e6312cc5f",
-    "categorie": "geopolitique",
-    "titre_affiche": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
-    "horodatage_utc": "2026-11-18T16:14:10+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "564ea10da9019448",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
-    "horodatage_utc": "2026-11-18T16:08:29+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "aa3cd467acfe9431",
     "categorie": "geopolitique",
     "titre_affiche": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
@@ -135,22 +288,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "48062796d36df975",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
-    "horodatage_utc": "2026-11-18T15:05:29+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a1489c0d3015d8e3",
@@ -225,23 +363,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "0460a0639c01666f",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech outages blamed on rush to fix bugs found by AI",
-    "horodatage_utc": "2026-11-18T12:44:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1c7a80989d91abab",
@@ -256,7 +378,7 @@
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f8e11fda8e474930",
@@ -271,7 +393,7 @@
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "884e6118c5d1abca",
@@ -301,7 +423,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2df2b5ade819cb0f",
@@ -316,7 +438,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "44bf5a73606cf0f3",
@@ -1703,127 +1825,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "b6546d04f51ac109",
-    "categorie": "geopolitique",
-    "titre_affiche": "US and allies sign accord to protect AI supply chains from China",
-    "horodatage_utc": "2026-11-15T17:47:43+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ef4643c554993164",
-    "categorie": "geopolitique",
-    "titre_affiche": "Republicans blame everyone but Trump for midterm drubbing",
-    "horodatage_utc": "2026-11-15T13:00:05+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d21caa78-65c1-4570-bec8-2ef71b5d65e7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "233fdeee560c9213",
-    "categorie": "geopolitique",
-    "titre_affiche": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
-    "horodatage_utc": "2026-11-15T11:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "8d64758f7dcc2c0d",
-    "categorie": "geopolitique",
-    "titre_affiche": "From culture war to class war: US Democrats ditch woke politics",
-    "horodatage_utc": "2026-11-15T11:00:04+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/82e2d624-65aa-4a8c-86ec-f99c0ce785ac?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité",
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": false
-  },
-  {
-    "id": "c35f8a641a759cec",
-    "categorie": "geopolitique",
-    "titre_affiche": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
-    "horodatage_utc": "2026-11-15T08:34:46+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "251b57c82fe08d34",
-    "categorie": "geopolitique",
-    "titre_affiche": "Blasts , sirens in Bahrain as Iran attacks on US base",
-    "horodatage_utc": "2026-11-15T07:45:00+00:00",
-    "source_nom": "GDELT/omanobserver.om",
-    "url_source": "https://www.omanobserver.om/article/1199692/world/region/blasts-sirens-in-bahrain-as-iran-attacks-on-us-base",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/omanobserver.om. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d4b461a802ecd146",
-    "categorie": "geopolitique",
-    "titre_affiche": "Sirens sound in Bahrain as Iran Guards claim drone attack",
-    "horodatage_utc": "2026-11-15T07:45:00+00:00",
-    "source_nom": "GDELT/rnz.co.nz",
-    "url_source": "https://www.rnz.co.nz/news/world/2609842/sirens-sound-in-bahrain-as-iran-s-guards-claim-drone-attack",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/rnz.co.nz. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bd266e0ffae169c0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran navy says three tankers on fire after hitting mines in Hormuz",
-    "horodatage_utc": "2026-11-15T07:45:00+00:00",
-    "source_nom": "GDELT/bdnews24.com",
-    "url_source": "https://bdnews24.com/world/middle-east/47mh9vo0tx",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
