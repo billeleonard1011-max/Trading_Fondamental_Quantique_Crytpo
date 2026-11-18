@@ -1,5 +1,50 @@
 [
   {
+    "id": "f976ee6ddc6a5702",
+    "categorie": "quantique",
+    "titre_affiche": "QuEra Computing and Berkeley Lab Publish Nature Study of Quantum Dynamics on Up to 180 Qubits",
+    "horodatage_utc": "2026-11-18T17:03:12+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/18/quera-berkeley-lab-study-quantum-dynamics-aquila/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QuEra"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "347eeec0ed170321",
+    "categorie": "quantique",
+    "titre_affiche": "Bradesco and evolutionQ Begin Quantum Communication Tests to Assess New Data Protection Models",
+    "horodatage_utc": "2026-11-18T16:21:01+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/18/bradesco-and-evolutionq-begin-quantum-communication-tests-to-assess-new-data-protection-models/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8888f09dc844e281",
+    "categorie": "quantique",
+    "titre_affiche": "Alice & Bob’s Updated Roadmap Targets 200 Logical Qubits From 3,600 Physical Qubits by 2030",
+    "horodatage_utc": "2026-11-18T12:03:29+00:00",
+    "source_nom": "The Quantum Insider",
+    "url_source": "https://thequantuminsider.com/2026/11/18/alice-bobs-updated-roadmap-targets-200-logical-qubits-from-3600-physical-qubits-by-2030/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Alice & Bob. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Alice & Bob"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "0bce36386c332d75",
     "categorie": "quantique",
     "titre_affiche": "QUDORA Integrates NVIDIA CUDA-Q into Qamelion Emulator and Launches German-Funded QUANDA HPC Energy Consortium",
@@ -1757,50 +1802,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "9886ed7189845ca6",
-    "categorie": "quantique",
-    "titre_affiche": "Prediction : 2 Stocks That Will Be Worth More Than IonQ 5 Years From Now",
-    "horodatage_utc": "2026-10-24T18:00:00+00:00",
-    "source_nom": "GDELT/fool.com",
-    "url_source": "https://www.fool.com/investing/2026/10/24/predict-stocks-worth-more-than-ionq-5-years/?source=iedfolrf0000001",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/fool.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "IONQ"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "17f36e4c6ff5b1f9",
-    "categorie": "quantique",
-    "titre_affiche": "Monarch Quantum Supplies Integrated Photonics for Next Phase of NASA and Infleqtion’s Space-Based Gravity Gradiometer",
-    "horodatage_utc": "2026-10-24T16:58:25+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/monarch-quantum-supplies-integrated-photonics-for-next-phase-of-nasa-and-infleqtions-space-based-gravity-gradiometer/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Infleqtion"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "54cd9396f5050a46",
-    "categorie": "quantique",
-    "titre_affiche": "D - Wave Quantum ( NASDAQ : QBTS ) and Zscaler ( NASDAQ : ZS ) Financial Comparison",
-    "horodatage_utc": "2026-10-24T16:15:00+00:00",
-    "source_nom": "GDELT/themarketsdaily.com",
-    "url_source": "https://www.themarketsdaily.com/2026/10/24/d-wave-quantum-nasdaqqbts-and-zscaler-nasdaqzs-financial-comparison.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/themarketsdaily.com. Elle mentionne : QBTS. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "QBTS"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
