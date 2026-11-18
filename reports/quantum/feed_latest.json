@@ -1,11 +1,11 @@
 [
   {
-    "id": "6238ab9b65420e21",
+    "id": "0bce36386c332d75",
     "categorie": "quantique",
-    "titre_affiche": "Altera, OQC, and NVIDIA Demonstrate Direct-RF FPGA Quantum System Controller Reference Design at SC26",
-    "horodatage_utc": "2026-11-17T18:09:21+00:00",
+    "titre_affiche": "QUDORA Integrates NVIDIA CUDA-Q into Qamelion Emulator and Launches German-Funded QUANDA HPC Energy Consortium",
+    "horodatage_utc": "2026-11-17T19:29:10+00:00",
     "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/altera-oqc-and-nvidia-demonstrate-direct-rf-fpga-quantum-system-controller-reference-design-at-sc26/",
+    "url_source": "https://quantumcomputingreport.com/qudora-integrates-nvidia-cuda-q-into-qamelion-emulator-and-launches-german-funded-quanda-hpc-energy-consortium/",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
     "tickers_ou_themes_lies": [
@@ -15,19 +15,64 @@
     "nouveaute": true
   },
   {
+    "id": "6bc1ffcd4c390b3e",
+    "categorie": "quantique",
+    "titre_affiche": "Quantum Machines Demonstrates Sub-Microsecond Surface-Code Decoding on OPX1000 Using NVIDIA CUDA-Q QEC and NVQLink",
+    "horodatage_utc": "2026-11-17T19:03:03+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/quantum-machines-demonstrates-sub-microsecond-surface-code-decoding-on-opx1000-using-nvidia-cuda-q-qec-and-nvqlink/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9efbb90305bc334b",
+    "categorie": "quantique",
+    "titre_affiche": "Aqarios Launches Constraint-Native Quantum Optimizer in the IBM Qiskit Functions Catalog",
+    "horodatage_utc": "2026-11-17T18:31:13+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/aqarios-launches-constraint-native-quantum-optimizer-in-the-ibm-qiskit-functions-catalog/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IBM. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IBM"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "6238ab9b65420e21",
+    "categorie": "quantique",
+    "titre_affiche": "Altera, OQC, and NVIDIA Demonstrate Direct-RF FPGA Quantum System Controller Reference Design at SC26",
+    "horodatage_utc": "2026-11-17T18:09:21+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/altera-oqc-and-nvidia-demonstrate-direct-rf-fpga-quantum-system-controller-reference-design-at-sc26/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "1760e9914ed153a7",
     "categorie": "quantique",
     "titre_affiche": "QUDORA Integrates NVIDIA CUDA-Q into Its Quantum Software Development Kit",
     "horodatage_utc": "2026-11-17T15:02:20+00:00",
     "source_nom": "The Quantum Insider",
     "url_source": "https://thequantuminsider.com/2026/11/17/qudora-integrates-nvidia-cuda-q-quantum-software-development-kit/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Quantum Insider. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9ff3770eed7fbc32",
@@ -1757,50 +1802,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "82cef7c9b5266bc8",
-    "categorie": "quantique",
-    "titre_affiche": "All Nine Award Winners in Japan’s NEDO Quantum Challenge Leverage IBM Hardware; Four Dedicated Industry Sponsor Prizes Awarded",
-    "horodatage_utc": "2026-10-24T02:01:08+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/all-nine-award-winners-in-japans-nedo-quantum-challenge-leverage-ibm-hardware-four-dedicated-industry-sponsor-prizes-awarded/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "2cff4f329af5330d",
-    "categorie": "quantique",
-    "titre_affiche": "QCentroid Unveils “Missions” on NVIDIA CUDA-Q to Benchmark Classical, Quantum-Inspired, and QPU Workloads",
-    "horodatage_utc": "2026-10-24T01:27:54+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/qcentroid-unveils-missions-on-nvidia-cuda-q-to-benchmark-classical-quantum-inspired-and-qpu-workloads/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "15ab69c294d025db",
-    "categorie": "quantique",
-    "titre_affiche": "RhymeQ Joins NVIDIA Inception Program and Announces Technical Collaboration on NOOA Agentic AI Framework",
-    "horodatage_utc": "2026-10-23T18:04:10+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/rhymeq-joins-nvidia-inception-program-and-announces-technical-collaboration-on-nooa-agentic-ai-framework/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Nvidia"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]
