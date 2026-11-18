@@ -1,18 +1,200 @@
 [
   {
+    "id": "44bf5a73606cf0f3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
+    "horodatage_utc": "2026-11-18T08:29:35+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6fb4699913d64db3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+    "horodatage_utc": "2026-11-18T08:09:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3bbb64bb2ba1c8a9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+    "horodatage_utc": "2026-11-18T07:16:14+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)",
+      "Sanctions"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "6555688c4441f607",
+    "categorie": "geopolitique",
+    "titre_affiche": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
+    "horodatage_utc": "2026-11-18T06:21:45+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0b0ab57f25cd82ab",
+    "categorie": "geopolitique",
+    "titre_affiche": "Three things to watch as Trump, Xi and Putin meet in China",
+    "horodatage_utc": "2026-11-18T06:04:39+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d3449434eec48634",
+    "categorie": "geopolitique",
+    "titre_affiche": "Deutsche Bank hired a Qatari royal. Why?",
+    "horodatage_utc": "2026-11-18T06:00:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9edd3730-3a15-4e1a-b33a-629aff00e847?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "95b602e9f09105cd",
+    "categorie": "geopolitique",
+    "titre_affiche": "Putin pushes ‘Eurasian’ order ahead of meeting with Xi and Trump",
+    "horodatage_utc": "2026-11-18T05:10:43+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ef5dab0d-7335-4dc6-9e44-254bdd9cdc06?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b8abd85162ab3b0e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Wall Street expects corporate earnings growth to halve next year",
+    "horodatage_utc": "2026-11-18T05:00:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/74fdac03-bd9b-4e68-9e6e-dc023eb47be9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "3c93d029ecd0f608",
+    "categorie": "geopolitique",
+    "titre_affiche": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+    "horodatage_utc": "2026-11-18T03:15:00+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c4bb5cf2cd30c0ce",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia has a chance to trade drama for durability",
+    "horodatage_utc": "2026-11-18T02:56:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2d3e1b32-4b45-418b-8b06-90874057eac0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "fa47265c92fdeb19",
+    "categorie": "geopolitique",
+    "titre_affiche": "Zelenskyy says Starshield speed curbs still in place over 'occupied territories' of Ukraine",
+    "horodatage_utc": "2026-11-18T02:50:16+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/18/ukraine-starshield-starlink-musk-spacex.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "a1489c0d3015d8e3",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia's Colette Kress tells Cramer: Employees and customers are not going anywhere",
+    "horodatage_utc": "2026-11-18T01:02:38+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/17/nvidias-colette-kress-tells-cramer-customers-and-employees-are-not-going-anywhere.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "6cccc0f822f5f7df",
     "categorie": "geopolitique",
     "titre_affiche": "Nvidia insists Huang will not return as CEO as it reports strong sales",
     "horodatage_utc": "2026-11-18T00:45:45+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3a8881b8-068c-4950-9238-4f8eb1efc870?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6f3cc9e8e75bf325",
@@ -36,14 +218,14 @@
     "horodatage_utc": "2026-11-17T22:03:57+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Banques, crédit et appétit pour le risque, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque",
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a3e902e3d3e09a7f",
@@ -52,14 +234,14 @@
     "horodatage_utc": "2026-11-17T21:05:24+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Élections et politique intérieure"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0e1c0ab9a4df5dfd",
@@ -379,22 +561,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3bbb64bb2ba1c8a9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
-    "horodatage_utc": "2026-11-17T07:07:35+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)",
-      "Sanctions"
     ],
     "portee": "influence",
     "nouveaute": false
@@ -1657,171 +1823,5 @@
     ],
     "portee": "contexte",
     "nouveaute": false
-  },
-  {
-    "id": "a5aa367d2d392ad1",
-    "categorie": "geopolitique",
-    "titre_affiche": "With shifting Iran rhetoric , Trump leaves Mideast in limbo",
-    "horodatage_utc": "2026-11-14T21:00:00+00:00",
-    "source_nom": "GDELT/wisn.com",
-    "url_source": "https://www.wisn.com/article/iran-rhetoric-elections-trump-mideast-limbo/74431136",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ca1384cb590f3604",
-    "categorie": "geopolitique",
-    "titre_affiche": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
-    "horodatage_utc": "2026-11-14T21:00:00+00:00",
-    "source_nom": "GDELT/theyeshivaworld.com",
-    "url_source": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza",
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "bd51074825c6d461",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Trump administration is diverting billions in health funding away from low - income countries , defying Congres plans",
-    "horodatage_utc": "2026-11-14T21:00:00+00:00",
-    "source_nom": "GDELT/kesq.com",
-    "url_source": "https://kesq.com/news/national-world/cnn-world/2026/11/14/the-trump-administration-is-diverting-billions-in-health-funding-away-from-low-income-countries-defying-congress-plans/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "581af81fdf379662",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenski revela propuesta de EU sobre el Donbás y la OTAN",
-    "horodatage_utc": "2026-11-14T21:00:00+00:00",
-    "source_nom": "GDELT/lasillarota.com",
-    "url_source": "https://lasillarota.com/mundo/2026/11/14/zelenski-revela-propuesta-de-eu-sobre-el-donbas-y-la-otan-537425.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Conflits et sécurité"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "596361255d407d39",
-    "categorie": "geopolitique",
-    "titre_affiche": "Supreme Court to Hear Challenge to Trump Proclamation Eliminating Asylum",
-    "horodatage_utc": "2026-11-14T21:00:00+00:00",
-    "source_nom": "GDELT/yubanet.com",
-    "url_source": "https://yubanet.com/usa/supreme-court-to-hear-challenge-to-trump-proclamation-eliminating-asylum/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "4a47f8c11b3f4091",
-    "categorie": "geopolitique",
-    "titre_affiche": "US floated idea of Ukraine swapping land for NATO membership , Zelensky says",
-    "horodatage_utc": "2026-11-14T21:00:00+00:00",
-    "source_nom": "GDELT/kesq.com",
-    "url_source": "https://kesq.com/news/national-world/cnn-world/2026/11/14/us-floated-idea-of-ukraine-swapping-land-for-nato-membership-zelensky-says/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "cd40cc4836c3be75",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenski najavio da bi mogao da raspiše referendum o predaji Donbasa",
-    "horodatage_utc": "2026-11-14T21:00:00+00:00",
-    "source_nom": "GDELT/blic.rs",
-    "url_source": "https://www.blic.rs/vesti/svet/zelenski-najavio-da-bi-mogao-da-raspise-referendum-o-predaji-donbasa/4hd9jhg",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "25944807629174bd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Muslim countries condemn Israel strike on Gaza Nasser Hospital",
-    "horodatage_utc": "2026-11-14T21:00:00+00:00",
-    "source_nom": "GDELT/jpost.com",
-    "url_source": "https://www.jpost.com/israel-news/article-914881",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "833a2f1cc98a010d",
-    "categorie": "geopolitique",
-    "titre_affiche": "Oil markets stay flush despite tanker attacks",
-    "horodatage_utc": "2026-11-14T20:00:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/industry/energy/oil-gas/oil-markets-stay-flush-despite-tanker-attacks/articleshow/135841578.cms",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/economictimes.indiatimes.com. Elle se rattache à : Pétrole et énergie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Pétrole et énergie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "acbb3e85761becc9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israeli drone strike kills 2 Palestinians in Gaza , and other Mideast news",
-    "horodatage_utc": "2026-11-14T20:00:00+00:00",
-    "source_nom": "GDELT/bakersfieldnow.com",
-    "url_source": "https://bakersfieldnow.com/news/nation-world/israeli-drone-strike-kills-2-palestinians-in-gaza-and-other-mideast-news",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/bakersfieldnow.com. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "056c49ae57b8e24d",
-    "categorie": "geopolitique",
-    "titre_affiche": "How the Nvidia scandal lifted the curtain on a loophole that giving China access to US chips | Business",
-    "horodatage_utc": "2026-11-14T20:00:00+00:00",
-    "source_nom": "GDELT/kten.com",
-    "url_source": "https://www.kten.com/news/business/how-the-nvidia-scandal-lifted-the-curtain-on-a-loophole-that-s-giving-china-access/article_e4b6e215-c378-52ac-a9c3-c83dcc324a38.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/kten.com. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
