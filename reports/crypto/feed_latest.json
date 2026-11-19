@@ -1,11 +1,11 @@
 [
   {
-    "id": "ea2cb1a87844986c",
+    "id": "6dd8abd8d007d424",
     "categorie": "crypto",
-    "titre_affiche": "Sygnum sees bitcoin carry trades beating Treasury bills in 2027 as funding recovers",
-    "horodatage_utc": "2026-11-19T06:00:00+00:00",
+    "titre_affiche": "Bitcoin finance protocol Hashi goes live on Sui mainnet",
+    "horodatage_utc": "2026-11-19T14:00:00+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547",
+    "url_source": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,96 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "97a9519bcac69b2b",
+    "categorie": "crypto",
+    "titre_affiche": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
+    "horodatage_utc": "2026-11-19T12:40:12+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "c124948b1f670019",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+    "horodatage_utc": "2026-11-19T12:20:39+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d6a9e238f3a8b821",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
+    "horodatage_utc": "2026-11-19T12:08:06+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b0b3423bbd58a2c1",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin gives up early gains alongside soft action in stocks",
+    "horodatage_utc": "2026-11-19T10:48:26+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8e0e981b5886ab8a",
+    "categorie": "crypto",
+    "titre_affiche": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
+    "horodatage_utc": "2026-11-19T10:22:12+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "ea2cb1a87844986c",
+    "categorie": "crypto",
+    "titre_affiche": "Sygnum sees bitcoin carry trades beating Treasury bills in 2027 as funding recovers",
+    "horodatage_utc": "2026-11-19T06:00:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "0d1afac0210b824c",
@@ -21,13 +111,13 @@
     "horodatage_utc": "2026-11-19T06:00:00+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-19-binance-gets-6-5-billion-freezing-order-cryptoquant-says-bitcoin-is-in-a-value-zone-and-more-443511",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a0caf49380235f24",
@@ -36,13 +126,13 @@
     "horodatage_utc": "2026-11-19T05:39:06+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "a04e53d01eb40b4a",
@@ -51,13 +141,13 @@
     "horodatage_utc": "2026-11-19T04:46:10+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "949ad6467bbe9b52",
@@ -1707,96 +1797,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "LINK"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ee1460d0107da3b8",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
-    "horodatage_utc": "2026-11-10T12:15:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/11/10/bitcoin-breaks-with-stocks-declines-as-etf-outflows-mount-mara-sells-holdings",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "25fb7cf6dabb779f",
-    "categorie": "crypto",
-    "titre_affiche": "HIVE reports $79 million quarterly net loss as bitcoin mining revenue falls and AI business grows",
-    "horodatage_utc": "2026-11-10T11:52:16+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-10-hive-reports-79-million-quarterly-net-loss-as-bitcoin-mining-revenue-falls-and-ai-business-grows-437177",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ec0cb2b7d2f6382b",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin lags stock rebound in advance of U.S. inflation report",
-    "horodatage_utc": "2026-11-10T11:24:10+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "588ec3b25a9b46a4",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-    "horodatage_utc": "2026-11-10T10:48:37+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "d820cde154bce438",
-    "categorie": "crypto",
-    "titre_affiche": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
-    "horodatage_utc": "2026-11-10T10:41:45+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "8dc77baa63ef837d",
-    "categorie": "crypto",
-    "titre_affiche": "Live news: Bitcoin falls to nearly three-month low after disappointing inflation data",
-    "horodatage_utc": "2026-11-10T10:41:45+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
