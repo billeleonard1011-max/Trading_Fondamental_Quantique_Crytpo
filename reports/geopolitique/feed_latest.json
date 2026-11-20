@@ -1,5 +1,295 @@
 [
   {
+    "id": "e604078b68e7f36c",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve announces College Fed Challenge winners",
+    "horodatage_utc": "2026-11-20T21:15:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Federal Reserve - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "904ca99966c3c75b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
+    "horodatage_utc": "2026-11-20T21:10:48+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "ca6e049bd0937615",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic falls 9% in first full day of trading as tech stocks get shellacked",
+    "horodatage_utc": "2026-11-20T21:07:03+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "60de5314a30eb8bb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic defied the odds in its record IPO. Now it has to reckon with AI market turbulence",
+    "horodatage_utc": "2026-11-20T21:06:45+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "bd4c8f75dee39809",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+    "horodatage_utc": "2026-11-20T21:03:41+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b5b67241dbbcceef",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+    "horodatage_utc": "2026-11-20T20:47:58+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6042f46fbeba1b7e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump considering new Iran strikes as US military warns of strain on forces",
+    "horodatage_utc": "2026-11-20T20:19:49+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2daf570c-189a-4362-a128-828c520b902e",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6bda01cb864f6de5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Donald Trump threatens ‘tremendous’ tax on data centres built outside US",
+    "horodatage_utc": "2026-11-20T20:17:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/ae564e09-eb0d-42c6-b61f-50a4e61d0240?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "f8c7e5c9f55d80ad",
+    "categorie": "geopolitique",
+    "titre_affiche": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "horodatage_utc": "2026-11-20T19:59:03+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c0b6de90b6c64aa0",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+    "horodatage_utc": "2026-11-20T19:42:53+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "62afd67416f824eb",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump seeks Ukraine peace deal before January",
+    "horodatage_utc": "2026-11-20T19:32:15+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/6c1b8a64-35f9-4aba-8605-45a4abdce6b8?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "f197fa781d79f5e5",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says he discussed Jensen Huang with Xi, apparently contradicting Bessent",
+    "horodatage_utc": "2026-11-20T19:15:44+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "38b4b6a93d085898",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
+    "horodatage_utc": "2026-11-20T18:07:18+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "9eed7c7941285b15",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cook, The U.S. Economy in Global Context",
+    "horodatage_utc": "2026-11-20T17:15:00+00:00",
+    "source_nom": "Federal Reserve - discours et auditions",
+    "url_source": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d3aecd23f3c8dcf9",
+    "categorie": "geopolitique",
+    "titre_affiche": "Jamie Dimon vows to claw back ‘unfair’ UK bank tax",
+    "horodatage_utc": "2026-11-20T17:08:46+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/4dd143d0-0b10-4bb8-ac15-e04702fa8b9a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque",
+      "Élections et politique intérieure"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d3f52b6a72488d16",
+    "categorie": "geopolitique",
+    "titre_affiche": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+    "horodatage_utc": "2026-11-20T15:00:00+00:00",
+    "source_nom": "Federal Reserve - communiques",
+    "url_source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Politique monétaire (Fed, BCE)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d248de2cae846a84",
+    "categorie": "geopolitique",
+    "titre_affiche": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?",
+    "horodatage_utc": "2026-11-20T14:34:14+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Crypto-actifs",
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0d6fd6c68be3b067",
+    "categorie": "geopolitique",
+    "titre_affiche": "US tech stocks plummet as AI trade unravels",
+    "horodatage_utc": "2026-11-20T14:01:58+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "c8bb63d7ce3077dc",
+    "categorie": "geopolitique",
+    "titre_affiche": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+    "horodatage_utc": "2026-11-20T13:29:50+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "ea02a82d68659ede",
     "categorie": "geopolitique",
     "titre_affiche": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
@@ -22,13 +312,13 @@
     "horodatage_utc": "2026-11-20T13:25:00+00:00",
     "source_nom": "Federal Reserve - discours et auditions",
     "url_source": "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Federal Reserve - discours et auditions. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4ea264b2f5cc0fc3",
@@ -53,14 +343,14 @@
     "horodatage_utc": "2026-11-20T12:52:15+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Politique monétaire (Fed, BCE), Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)",
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "647292d57af172ab",
@@ -69,13 +359,13 @@
     "horodatage_utc": "2026-11-20T12:00:02+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/20/tech-download-anthropic-compute-access.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4ae38b68372ca750",
@@ -84,13 +374,13 @@
     "horodatage_utc": "2026-11-20T11:26:37+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/20/tech-wreck-drags-anthropic-into-the-red-on-its-second-day-of-trading.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "785ca3058dc7d227",
@@ -130,13 +420,13 @@
     "horodatage_utc": "2026-11-20T08:30:00+00:00",
     "source_nom": "BCE - communiques",
     "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par BCE - communiques. Elle se rattache à : Politique monétaire (Fed, BCE). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d63beb87c82385c6",
@@ -152,7 +442,7 @@
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d70b3e969160ac62",
@@ -1536,298 +1826,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "c4bb5cf2cd30c0ce",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia has a chance to trade drama for durability",
-    "horodatage_utc": "2026-11-18T02:56:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/2d3e1b32-4b45-418b-8b06-90874057eac0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "fa47265c92fdeb19",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenskyy says Starshield speed curbs still in place over 'occupied territories' of Ukraine",
-    "horodatage_utc": "2026-11-18T02:50:16+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/ukraine-starshield-starlink-musk-spacex.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6cccc0f822f5f7df",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia insists Huang will not return as CEO as it reports strong sales",
-    "horodatage_utc": "2026-11-18T00:45:45+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/3a8881b8-068c-4950-9238-4f8eb1efc870?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6f3cc9e8e75bf325",
-    "categorie": "geopolitique",
-    "titre_affiche": "Israeli opposition succeeds in electing a new parliamentary Speaker",
-    "horodatage_utc": "2026-11-17T22:36:45+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/71ee2ad4-cc7d-4618-9df8-e58aa3c79b81?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Israël - Gaza"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "31ad1affca36fce4",
-    "categorie": "geopolitique",
-    "titre_affiche": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
-    "horodatage_utc": "2026-11-17T22:03:57+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque",
-      "Cyberattaques sur infrastructures et plateformes"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a3e902e3d3e09a7f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia closes lower ahead of earnings as company reels from Huang resignation",
-    "horodatage_utc": "2026-11-17T21:05:24+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "0e1c0ab9a4df5dfd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Marine Le Pen floats lowering France’s retirement age to as low as 60",
-    "horodatage_utc": "2026-11-17T21:03:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/c7ef0eb8-c9c5-46ef-b65d-c0ceaf111717?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "761e91165ae65667",
-    "categorie": "geopolitique",
-    "titre_affiche": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
-    "horodatage_utc": "2026-11-17T18:30:00+00:00",
-    "source_nom": "BCE - communiques",
-    "url_source": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6264a4ae9e96925b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Former Nvidia CEO Jensen Huang says he’s open to returning in first statement since resignation",
-    "horodatage_utc": "2026-11-17T18:21:03+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "61c637cfb7f7c548",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech stocks slide ahead of Nvidia results",
-    "horodatage_utc": "2026-11-17T17:56:57+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6c43261dab755b2d",
-    "categorie": "geopolitique",
-    "titre_affiche": "M 4.9 - 102 km ENE of Ozernovskiy, Russia",
-    "horodatage_utc": "2026-11-17T17:18:38+00:00",
-    "source_nom": "USGS - seismes 4.5 et plus",
-    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt3",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "064a611394ee1768",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia stopped disclosing Singapore sales as revenues hit $104bn",
-    "horodatage_utc": "2026-11-17T17:06:32+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "daf2d1f36d536f51",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang says he is prepared to return as Nvidia CEO",
-    "horodatage_utc": "2026-11-17T16:49:56+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e265542c-25d9-4a82-8cb7-e4a4b641cdda?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2f4946f1fe2e00a3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia stock falls ahead of earnings as company reels from Huang resignation",
-    "horodatage_utc": "2026-11-17T16:49:12+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6f518a1e4dd62388",
-    "categorie": "geopolitique",
-    "titre_affiche": "Ukraine destroys section of Crimea bridge in fierce exchange",
-    "horodatage_utc": "2026-11-17T16:24:55+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/eb8031c0-a96a-4408-b762-b92ff0402f82?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "6fa5034428ec2d54",
-    "categorie": "geopolitique",
-    "titre_affiche": "How Jensen Huang’s family shaped Nvidia’s Megaspeed dealings",
-    "horodatage_utc": "2026-11-17T15:33:25+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/65ff066f-a81c-4d24-95da-73c2d7b83a27?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7744519c80617962",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fed’s Lisa Cook refuses to attend hearing convened by Trump",
-    "horodatage_utc": "2026-11-17T15:15:35+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ac8fe697-a48d-4b0a-b556-46ae5463a6e4?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "575e6fd3b8accf6a",
-    "categorie": "geopolitique",
-    "titre_affiche": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
-    "horodatage_utc": "2026-11-17T14:10:00+00:00",
-    "source_nom": "Federal Reserve - discours et auditions",
-    "url_source": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "7889178102aa869f",
-    "categorie": "geopolitique",
-    "titre_affiche": "Data center policy dominated the midterms. The 'Virginia of Europe' is the latest battleground",
-    "horodatage_utc": "2026-11-17T13:28:32+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Actions et technologie",
-      "Élections et politique intérieure"
     ],
     "portee": "influence",
     "nouveaute": false

@@ -1,11 +1,11 @@
 [
   {
-    "id": "acca0423d6fe0c8d",
+    "id": "de65b55a07ecb559",
     "categorie": "crypto",
-    "titre_affiche": "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
-    "horodatage_utc": "2026-11-20T12:29:57+00:00",
+    "titre_affiche": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
+    "horodatage_utc": "2026-11-20T18:22:39+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,12 +15,27 @@
     "nouveaute": true
   },
   {
-    "id": "e6a30c2896a09a2c",
+    "id": "ce066d6220b24b26",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
-    "horodatage_utc": "2026-11-20T12:15:08+00:00",
+    "titre_affiche": "JPMorgan says bitcoin price correction widens gap to estimated $86,000 production cost",
+    "horodatage_utc": "2026-11-20T18:17:39+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d703b0354ac961f3",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+    "horodatage_utc": "2026-11-20T18:13:52+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging",
+    "url_source": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -28,6 +43,66 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "83d425c9019db5a3",
+    "categorie": "crypto",
+    "titre_affiche": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+    "horodatage_utc": "2026-11-20T13:35:33+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2f77f792f20a4c0f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+    "horodatage_utc": "2026-11-20T13:30:22+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "acca0423d6fe0c8d",
+    "categorie": "crypto",
+    "titre_affiche": "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
+    "horodatage_utc": "2026-11-20T12:29:57+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "e6a30c2896a09a2c",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
+    "horodatage_utc": "2026-11-20T12:15:08+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "2203369e07c8040d",
@@ -36,14 +111,14 @@
     "horodatage_utc": "2026-11-20T12:12:29+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH, SOL. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH",
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "20bb2951f1cf8690",
@@ -52,13 +127,13 @@
     "horodatage_utc": "2026-11-20T11:42:02+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "035e51da5f600ada",
@@ -67,13 +142,13 @@
     "horodatage_utc": "2026-11-20T06:12:15+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/20/here-s-what-s-crashing-gold-and-likely-weighing-on-bitcoin-too",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4b2abbf4b9992697",
@@ -82,13 +157,13 @@
     "horodatage_utc": "2026-11-20T05:32:25+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5af6a54f11a93bae",
@@ -97,13 +172,13 @@
     "horodatage_utc": "2026-11-20T05:20:51+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/20/big-money-bought-a-net-usd4-billion-of-bitcoin-funds-in-q3-ending-9-months-of-selling",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3ceb846b22da2bef",
@@ -112,13 +187,13 @@
     "horodatage_utc": "2026-11-20T04:58:08+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "00b123b631433e13",
@@ -134,7 +209,7 @@
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "9c9edcf025721d95",
@@ -1722,81 +1797,6 @@
     "horodatage_utc": "2026-11-12T05:22:31+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/12/bitcoin-core-reveals-bug-that-made-thousands-of-nodes-trust-any-stranger-on-tor",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "0c44f8a03f2a3fc1",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin traders raise odds of sub-$70,000 Christmas, Bitmine reports $6.3 billion annual net loss, and more",
-    "horodatage_utc": "2026-11-12T04:55:00+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-11-bitcoin-outlook-christmas-bitmine-net-loss-more-crypto-news-438430",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3d717e897466a9e2",
-    "categorie": "crypto",
-    "titre_affiche": "‘Milestone quarter’: Solana Company reports Q3 revenue growth driven by staking rewards",
-    "horodatage_utc": "2026-11-12T02:25:14+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-11-solana-company-reports-q3-revenue-growth-438448",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "88f8989c54fbf2dd",
-    "categorie": "crypto",
-    "titre_affiche": "DogeOS ‘very, very close’ to launching DeFi features, app layer for Dogecoin: CEO",
-    "horodatage_utc": "2026-11-11T20:32:19+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/defi/2026-11-11-dogeos-very-very-close-launching-defi-features-app-layer-dogecoin-ceo-438392",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "DOGE"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "aaf8950d0e402ff3",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ‘ripe for a squeeze’ as options traders raise odds of sub-$70,000 Christmas",
-    "horodatage_utc": "2026-11-11T14:44:31+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-11-bitcoin-ripe-for-squeeze-options-traders-raise-odds-sub-70000-christmas-437897",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c32661d5e6c5acd8",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin Core discloses three patched security flaws, including high-severity mining bug",
-    "horodatage_utc": "2026-11-11T12:50:08+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-11-11-bitcoin-core-discloses-three-patched-security-flaws-including-high-severity-mining-bug-437862",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
