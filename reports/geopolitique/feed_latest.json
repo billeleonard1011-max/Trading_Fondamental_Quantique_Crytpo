@@ -1,9 +1,24 @@
 [
   {
+    "id": "b6f3e57cdad66b91",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+    "horodatage_utc": "2026-11-21T17:21:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "7836ddabb516a0c8",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.7 - 9 km NE of Carhuamayo, Peru",
-    "horodatage_utc": "2026-11-21T10:39:27+00:00",
+    "horodatage_utc": "2026-11-21T17:19:29+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
     "a_une_analyse_interne": false,
@@ -15,19 +30,96 @@
     "nouveaute": false
   },
   {
+    "id": "3fac02b1b918f515",
+    "categorie": "geopolitique",
+    "titre_affiche": "Alice Huang’s links to the chip underworld",
+    "horodatage_utc": "2026-11-21T17:00:10+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f3ad8a81-3890-4a8a-8853-ff0a94b08ba9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "d1e603743ee576ff",
+    "categorie": "geopolitique",
+    "titre_affiche": "Trump says there could be a 'positive spin' from the latest FBI database hack",
+    "horodatage_utc": "2026-11-21T16:57:34+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "74c18259fdd09f3e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+    "horodatage_utc": "2026-11-21T16:40:05+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "6fa0b880c199de67",
+    "categorie": "geopolitique",
+    "titre_affiche": "Navy budget pick has family investments in Trump Jr-linked contractor",
+    "horodatage_utc": "2026-11-21T16:19:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/145e6fab-d93a-412d-8670-0554064fdf98?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "86e61439267afb1e",
+    "categorie": "geopolitique",
+    "titre_affiche": "Traders start to move US copper to China as Trump tariff fears ease",
+    "horodatage_utc": "2026-11-21T12:00:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b84dbcb1-f216-422e-89c7-f203e0ab2757?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Matières premières (précieux, cuivre, pétrole), Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)",
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "f98d1e9b93451ddd",
     "categorie": "geopolitique",
     "titre_affiche": "The dead hand of history weighs on Deutsche Bank",
     "horodatage_utc": "2026-11-21T06:32:26+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/bfa66957-73d4-44f1-bea5-6b141c197920",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0d8373a6f3ea38a9",
@@ -36,14 +128,14 @@
     "horodatage_utc": "2026-11-21T06:00:02+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Sanctions, accords et diplomatie",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "67ba6d34b2388319",
@@ -68,12 +160,28 @@
     "horodatage_utc": "2026-11-21T05:00:16+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité"
     ],
     "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "9bf353c68ae0c90b",
+    "categorie": "geopolitique",
+    "titre_affiche": "Russia and Ukraine’s drone war sends optical fibre prices soaring",
+    "horodatage_utc": "2026-11-21T05:00:08+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/339c3a72-bce5-44ed-bc6c-c8a8199cfb40?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine, Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Russie - Ukraine",
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -89,6 +197,21 @@
       "Conflits et sécurité"
     ],
     "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "b65b616447dad099",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia affair puts Chinese spies in spotlight",
+    "horodatage_utc": "2026-11-21T03:58:46+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/77a283dd-b7af-4e72-8d83-9b53ab86f3e0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
     "nouveaute": true
   },
   {
@@ -1709,125 +1832,5 @@
     ],
     "portee": "influence",
     "nouveaute": true
-  },
-  {
-    "id": "aa3cd467acfe9431",
-    "categorie": "geopolitique",
-    "titre_affiche": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-    "horodatage_utc": "2026-11-18T15:13:39+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "a1489c0d3015d8e3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia's Colette Kress tells Cramer: Employees and customers are not going anywhere",
-    "horodatage_utc": "2026-11-18T15:00:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/nvidias-colette-kress-tells-cramer-customers-and-employees-are-not-going-anywhere.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6fb4699913d64db3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-    "horodatage_utc": "2026-11-18T14:09:26+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "52d0815a96bfb938",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
-    "horodatage_utc": "2026-11-18T13:46:11+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "6d8547ba9b27710b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Xi greets Trump with hug ahead of historic summit with Putin",
-    "horodatage_utc": "2026-11-18T13:09:53+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/ae7d1b27-b892-48d6-ad47-41128a4b53a1?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "d02fab768335eed3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia's numbers and Anthropic anticipation drive Nasdaq futures up",
-    "horodatage_utc": "2026-11-18T13:05:24+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/nvidias-numbers-and-anthropic-anticipation-drive-nasdaq-futures-up.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "1c7a80989d91abab",
-    "categorie": "geopolitique",
-    "titre_affiche": "Zelenskyy says Starshield speed curbs still in place over parts of Ukraine",
-    "horodatage_utc": "2026-11-18T11:58:50+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/ukraine-starshield-starlink-musk-spacex.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "f8e11fda8e474930",
-    "categorie": "geopolitique",
-    "titre_affiche": "China’s military seeks Nvidia’s advanced chips for AI capabilities, commission says",
-    "horodatage_utc": "2026-11-18T10:45:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
   }
 ]
