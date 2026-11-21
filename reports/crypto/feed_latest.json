@@ -15,19 +15,34 @@
     "nouveaute": true
   },
   {
+    "id": "a94e03454d3f0e4e",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+    "horodatage_utc": "2026-11-21T17:50:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "bcad8bb2befd1ddc",
     "categorie": "crypto",
     "titre_affiche": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
     "horodatage_utc": "2026-11-21T12:30:00+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "14e28506a26accc1",
@@ -1786,21 +1801,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "223d93ce751f177d",
-    "categorie": "crypto",
-    "titre_affiche": "Tron, Tether and Chainalysis form new alliance to tackle AI-powered crypto crime",
-    "horodatage_utc": "2026-11-12T11:00:00+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-12-tron-tether-chainalysis-new-alliance-438514",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": false

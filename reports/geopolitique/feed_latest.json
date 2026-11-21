@@ -1,24 +1,9 @@
 [
   {
-    "id": "b6f3e57cdad66b91",
-    "categorie": "geopolitique",
-    "titre_affiche": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
-    "horodatage_utc": "2026-11-21T17:21:36+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
     "id": "7836ddabb516a0c8",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.7 - 9 km NE of Carhuamayo, Peru",
-    "horodatage_utc": "2026-11-21T17:19:29+00:00",
+    "horodatage_utc": "2026-11-21T22:48:21+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
     "a_une_analyse_interne": false,
@@ -30,19 +15,34 @@
     "nouveaute": false
   },
   {
+    "id": "b6f3e57cdad66b91",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+    "horodatage_utc": "2026-11-21T17:21:36+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616?syn-25a6b1a6=1",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "3fac02b1b918f515",
     "categorie": "geopolitique",
     "titre_affiche": "Alice Huang’s links to the chip underworld",
     "horodatage_utc": "2026-11-21T17:00:10+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/f3ad8a81-3890-4a8a-8853-ff0a94b08ba9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d1e603743ee576ff",
@@ -51,13 +51,13 @@
     "horodatage_utc": "2026-11-21T16:57:34+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "74c18259fdd09f3e",
@@ -66,13 +66,13 @@
     "horodatage_utc": "2026-11-21T16:40:05+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6fa0b880c199de67",
@@ -81,14 +81,14 @@
     "horodatage_utc": "2026-11-21T16:19:19+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/145e6fab-d93a-412d-8670-0554064fdf98?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Conflits et sécurité",
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "86e61439267afb1e",
@@ -206,13 +206,13 @@
     "horodatage_utc": "2026-11-21T03:58:46+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/77a283dd-b7af-4e72-8d83-9b53ab86f3e0?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "bd4c8f75dee39809",

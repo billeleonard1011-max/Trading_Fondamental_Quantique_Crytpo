@@ -91,6 +91,21 @@
     "nouveaute": false
   },
   {
+    "id": "11de0c9fa151c133",
+    "categorie": "quantique",
+    "titre_affiche": "University of California, San Diego, QuEra, and Collaborators Introduce Multi-Agent LLM Compiler Qubrio for Neutral-Atom Processors",
+    "horodatage_utc": "2026-11-21T07:12:42+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/university-of-california-quera-and-collaborators-introduce-multi-agent-llm-compiler-qubrio-for-neutral-atom-processors/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "QuEra"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "52a4c8336d739fa8",
     "categorie": "quantique",
     "titre_affiche": "QuEra Computing and Lawrence Berkeley National Lab Observe Prethermal Dynamical Phase Transitions on 180 Qubits in Nature Study",
@@ -1786,21 +1801,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "29345c40a5f0001f",
-    "categorie": "quantique",
-    "titre_affiche": "EPB and IonQ Deploy Hybrid Trapped-Ion Algorithms on Forte Enterprise to Optimize Power Grid Topology",
-    "horodatage_utc": "2026-10-29T01:07:36+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/epb-and-ionq-deploy-hybrid-trapped-ion-algorithms-on-forte-enterprise-to-optimize-power-grid-topology/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IONQ"
     ],
     "portee": "actif_direct",
     "nouveaute": false
