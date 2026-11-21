@@ -3,15 +3,92 @@
     "id": "7836ddabb516a0c8",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.7 - 9 km NE of Carhuamayo, Peru",
-    "horodatage_utc": "2026-11-21T02:35:14+00:00",
+    "horodatage_utc": "2026-11-21T10:39:27+00:00",
     "source_nom": "USGS - seismes 4.5 et plus",
     "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f98d1e9b93451ddd",
+    "categorie": "geopolitique",
+    "titre_affiche": "The dead hand of history weighs on Deutsche Bank",
+    "horodatage_utc": "2026-11-21T06:32:26+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/bfa66957-73d4-44f1-bea5-6b141c197920",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0d8373a6f3ea38a9",
+    "categorie": "geopolitique",
+    "titre_affiche": "How China is using summits to expand its global influence",
+    "horodatage_utc": "2026-11-21T06:00:02+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Sanctions, accords et diplomatie, Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Sanctions, accords et diplomatie",
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "67ba6d34b2388319",
+    "categorie": "geopolitique",
+    "titre_affiche": "Oil shipped through Hormuz falls as Iranian strikes increase",
+    "horodatage_utc": "2026-11-21T05:00:35+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Iran - États-Unis, Moyen-Orient (région). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis",
+      "Moyen-Orient (région)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "edb105449b22c1d6",
+    "categorie": "geopolitique",
+    "titre_affiche": "The AI cyber threat is already here",
+    "horodatage_utc": "2026-11-21T05:00:16+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "58620ae275fd1917",
+    "categorie": "geopolitique",
+    "titre_affiche": "Builders bet on €620bn defence infrastructure boom in Europe",
+    "horodatage_utc": "2026-11-21T05:00:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/b647fcba-e5e6-4ca2-8417-8c9146eac39e?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Conflits et sécurité. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Conflits et sécurité"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -36,13 +113,13 @@
     "horodatage_utc": "2026-11-20T22:08:41+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "30c540841a4785aa",
@@ -51,13 +128,13 @@
     "horodatage_utc": "2026-11-20T21:58:08+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6715528c752504b6",
@@ -66,13 +143,13 @@
     "horodatage_utc": "2026-11-20T21:52:25+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/9f3c6ed6-c08f-4710-9683-ee2f5eb25841?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "95bf8fe9914f1f82",
@@ -81,13 +158,13 @@
     "horodatage_utc": "2026-11-20T21:35:24+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "67ff1ba7cbdf3f65",
@@ -96,13 +173,13 @@
     "horodatage_utc": "2026-11-20T21:27:51+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "e604078b68e7f36c",
@@ -1749,82 +1826,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "884e6118c5d1abca",
-    "categorie": "geopolitique",
-    "titre_affiche": "Democrats probe whether Lutnick helped Cantor avoid Nvidia losses",
-    "horodatage_utc": "2026-11-18T09:45:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/71e39ecd-03ef-4078-a34e-34ea6b45f674?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "5ca60c8384ad9998",
-    "categorie": "geopolitique",
-    "titre_affiche": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
-    "horodatage_utc": "2026-11-18T09:45:01+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "2df2b5ade819cb0f",
-    "categorie": "geopolitique",
-    "titre_affiche": "AI borrowing binge has ‘historic parallels’ with subprime bubble, says ECB",
-    "horodatage_utc": "2026-11-18T09:00:07+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/d16475ce-efce-4dc1-b5a3-2f7c79e9dea9?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Politique monétaire (Fed, BCE)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "44bf5a73606cf0f3",
-    "categorie": "geopolitique",
-    "titre_affiche": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
-    "horodatage_utc": "2026-11-18T08:29:35+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Russie - Ukraine"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "3bbb64bb2ba1c8a9",
-    "categorie": "geopolitique",
-    "titre_affiche": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
-    "horodatage_utc": "2026-11-18T07:16:14+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)",
-      "Sanctions"
     ],
     "portee": "influence",
     "nouveaute": false

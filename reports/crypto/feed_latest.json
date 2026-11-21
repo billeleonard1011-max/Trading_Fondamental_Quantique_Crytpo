@@ -1,18 +1,63 @@
 [
   {
+    "id": "14e28506a26accc1",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+    "horodatage_utc": "2026-11-21T06:16:42+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7e19cbf044deb474",
+    "categorie": "crypto",
+    "titre_affiche": "JPMorgan says bitcoin’s price drop pressures miners, Senate passes ‘Death Bets Act’, and more",
+    "horodatage_utc": "2026-11-21T04:30:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-20-jpmorgan-bitcoin-price-drop-miners-senate-passes-death-bets-act-more-crypto-news-444786",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "a8b300b33ac5f860",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
+    "horodatage_utc": "2026-11-21T04:10:07+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "a161dce94fb8c232",
     "categorie": "crypto",
     "titre_affiche": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
     "horodatage_utc": "2026-11-20T22:05:31+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "de65b55a07ecb559",
@@ -1752,51 +1797,6 @@
     "horodatage_utc": "2026-11-12T09:15:04+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ba172c59a3e2235f",
-    "categorie": "crypto",
-    "titre_affiche": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
-    "horodatage_utc": "2026-11-12T07:41:18+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "38ef0c77d1dc8ec2",
-    "categorie": "crypto",
-    "titre_affiche": "Ethlabs proposes advancing Ethereum’s post-quantum to 2027, citing AI acceleration",
-    "horodatage_utc": "2026-11-12T07:27:24+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/defi/2026-11-12-ethlabs-proposes-ethereum-post-quantum-2027-438494",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b09e5a3a1a573ffe",
-    "categorie": "crypto",
-    "titre_affiche": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-    "horodatage_utc": "2026-11-12T07:00:37+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/12/msci-is-dropping-strategy-from-its-index-and-the-exclusion-could-hit-its-bitcoin-buying-machine",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
