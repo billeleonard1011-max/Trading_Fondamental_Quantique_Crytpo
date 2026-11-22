@@ -1,18 +1,78 @@
 [
   {
+    "id": "8eb5870a1ed01428",
+    "categorie": "geopolitique",
+    "titre_affiche": "House Democrats to start new Congress with largest majority this century",
+    "horodatage_utc": "2026-11-22T22:10:45+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/9d2983a7-196d-4164-a0c1-e262f32fd8c9?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "220cfac09961f249",
+    "categorie": "geopolitique",
+    "titre_affiche": "M 4.6 - 55 km S of Kūh Sefīd, Iran",
+    "horodatage_utc": "2026-11-22T19:27:14+00:00",
+    "source_nom": "USGS - seismes 4.5 et plus",
+    "url_source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uct0",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par USGS - seismes 4.5 et plus. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Iran - États-Unis"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4089f4d98ee208ca",
+    "categorie": "geopolitique",
+    "titre_affiche": "Delta flight delays add to concerns about US air travel systems",
+    "horodatage_utc": "2026-11-22T19:25:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/14566557-3f63-4eeb-b589-6cb1144dc918?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Cyberattaques sur infrastructures et plateformes"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "70a55c1d95397167",
     "categorie": "geopolitique",
     "titre_affiche": "Bessent refuses to rule out Huang’s return to Nvidia",
-    "horodatage_utc": "2026-11-22T18:11:01+00:00",
+    "horodatage_utc": "2026-11-22T19:08:31+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/91b7a3a6-8ac5-4327-ad03-6d951f287346?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Taux et obligations",
       "Actions et technologie"
     ],
     "portee": "influence",
+    "nouveaute": false
+  },
+  {
+    "id": "f6e277ac62519bd2",
+    "categorie": "geopolitique",
+    "titre_affiche": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+    "horodatage_utc": "2026-11-22T18:55:05+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
     "nouveaute": true
   },
   {
@@ -22,15 +82,15 @@
     "horodatage_utc": "2026-11-22T17:14:03+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie, Banques, crédit et appétit pour le risque, Cyberattaques sur infrastructures et plateformes. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie",
       "Banques, crédit et appétit pour le risque",
       "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "33811516b62da303",
@@ -84,13 +144,13 @@
     "horodatage_utc": "2026-11-22T14:15:40+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/2c959c95-97a5-4957-9eb2-8436c34ba374?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Russie - Ukraine. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Russie - Ukraine"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0796ab428d612a8a",
@@ -99,13 +159,13 @@
     "horodatage_utc": "2026-11-22T13:50:41+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/1b6089f6-2201-43b4-8ed4-0c689a916afa?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "376fa3c716852381",
@@ -276,6 +336,21 @@
     "nouveaute": true
   },
   {
+    "id": "e2b61becbd53980a",
+    "categorie": "geopolitique",
+    "titre_affiche": "The American dream of home ownership recedes as mortgage rates surge",
+    "horodatage_utc": "2026-11-22T11:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/168a7d3f-6e70-44da-9860-623bcf4fc023?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
     "id": "c5bc389cc266293d",
     "categorie": "geopolitique",
     "titre_affiche": "Did Anthropic and its bankers get a key call wrong after IPO?",
@@ -286,6 +361,21 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e558c1e3929d0c8a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Democrats will seek to unwind Trump’s tax and tariff policies",
+    "horodatage_utc": "2026-11-22T11:00:05+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/8af97161-2ae0-4655-9f8b-a560f9227359?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
     ],
     "portee": "influence",
     "nouveaute": true
@@ -1736,98 +1826,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Matières premières (précieux, cuivre, pétrole)"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "5f75df9c228b4c9b",
-    "categorie": "geopolitique",
-    "titre_affiche": "Amazon app warns New York of higher costs if Mamdani delivery law passes",
-    "horodatage_utc": "2026-11-19T20:46:23+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "4c01c8b261253f05",
-    "categorie": "geopolitique",
-    "titre_affiche": "Law firms that caved to Trump brace for scrutiny from new Congress",
-    "horodatage_utc": "2026-11-19T20:35:00+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/4e712188-9dfc-4e2a-b997-3dacde95bf08?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "428554651fbc45b2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
-    "horodatage_utc": "2026-11-19T20:33:05+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Crypto-actifs"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "6306940b188560a0",
-    "categorie": "geopolitique",
-    "titre_affiche": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-    "horodatage_utc": "2026-11-19T19:43:08+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises",
-      "Actions et technologie",
-      "Élections et politique intérieure"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "ad2947a87b871ef3",
-    "categorie": "geopolitique",
-    "titre_affiche": "The Xi, Trump, Putin meeting and the dawn of a post-western world",
-    "horodatage_utc": "2026-11-19T19:19:44+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/01dde30c-977c-4f21-8838-4c3955dfacb7?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
-    "id": "a1430a04630e103a",
-    "categorie": "geopolitique",
-    "titre_affiche": "AMD shares fall after short seller report on China links",
-    "horodatage_utc": "2026-11-19T18:40:23+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/69fd7870-a2cf-4e75-88bc-a1c4036efded?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
     "nouveaute": false
