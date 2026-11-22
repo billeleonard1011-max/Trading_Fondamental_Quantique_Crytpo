@@ -1,5 +1,81 @@
 [
   {
+    "id": "27f0c06a12cd2859",
+    "categorie": "geopolitique",
+    "titre_affiche": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
+    "horodatage_utc": "2026-11-22T06:00:01+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Informatique quantique, Transition énergétique. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Informatique quantique",
+      "Transition énergétique"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "25cd8faea7956b43",
+    "categorie": "geopolitique",
+    "titre_affiche": "Argentina’s borrowing costs jump as Milei’s falling popularity rattles investors",
+    "horodatage_utc": "2026-11-22T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Élections et politique intérieure. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": true
+  },
+  {
+    "id": "c6681afb4e2bf9a7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Cheap Chinese ecommerce parcels flood the UK",
+    "horodatage_utc": "2026-11-22T05:00:14+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2b2824e2-16b9-4621-85a0-7dad220644d5?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Catastrophes naturelles. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Catastrophes naturelles"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "4a6f05e82cfbea7a",
+    "categorie": "geopolitique",
+    "titre_affiche": "Napoleon’s warning to Nvidia’s Jensen Huang",
+    "horodatage_utc": "2026-11-22T05:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/f4a9e8ac-9ba2-40ac-8d27-8ce2b9639e2a?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "0679c88bf480f5ac",
+    "categorie": "geopolitique",
+    "titre_affiche": "Amazon’s AI resistance: workers ready for battle over data centres",
+    "horodatage_utc": "2026-11-22T05:00:06+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/d194e93b-8d3c-42eb-85dd-46d58c4f2a80?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "cb387afb44759425",
     "categorie": "geopolitique",
     "titre_affiche": "India’s $126bn insurance sector slams proposed commission cap",
@@ -1753,81 +1829,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "564ea10da9019448",
-    "categorie": "geopolitique",
-    "titre_affiche": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
-    "horodatage_utc": "2026-11-18T17:50:37+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": false
-  },
-  {
-    "id": "289695a7c080befe",
-    "categorie": "geopolitique",
-    "titre_affiche": "Is another US - Iran war looming ?",
-    "horodatage_utc": "2026-11-18T17:30:00+00:00",
-    "source_nom": "GDELT/middleeaststar.com",
-    "url_source": "http://www.middleeaststar.com/news/279440849/is-another-us-iran-war-looming",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8e8729ba28db4aca",
-    "categorie": "geopolitique",
-    "titre_affiche": "US tech stocks lower after Nvidia results",
-    "horodatage_utc": "2026-11-18T17:28:58+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "4a53ae94fcaa5584",
-    "categorie": "geopolitique",
-    "titre_affiche": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
-    "horodatage_utc": "2026-11-18T17:17:44+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "ac54bdc7bb158f24",
-    "categorie": "geopolitique",
-    "titre_affiche": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
-    "horodatage_utc": "2026-11-18T16:33:14+00:00",
-    "source_nom": "CNBC Finance",
-    "url_source": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Cyberattaques sur infrastructures et plateformes"
     ],
     "portee": "influence",
     "nouveaute": false
