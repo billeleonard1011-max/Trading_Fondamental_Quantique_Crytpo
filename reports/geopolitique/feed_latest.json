@@ -1,5 +1,20 @@
 [
   {
+    "id": "cb387afb44759425",
+    "categorie": "geopolitique",
+    "titre_affiche": "India’s $126bn insurance sector slams proposed commission cap",
+    "horodatage_utc": "2026-11-22T01:30:02+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/2e67313b-d6c5-4e62-bd50-14639fe5ef95?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "7836ddabb516a0c8",
     "categorie": "geopolitique",
     "titre_affiche": "M 6.7 - 9 km NE of Carhuamayo, Peru",
@@ -1816,21 +1831,5 @@
     ],
     "portee": "influence",
     "nouveaute": false
-  },
-  {
-    "id": "cb6ddcaa66d54cff",
-    "categorie": "geopolitique",
-    "titre_affiche": "JPMorgan seeks to revive stalled software debt sale with steep price cuts",
-    "horodatage_utc": "2026-11-18T16:30:02+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/16a99ff4-6060-4c81-8c4f-7e43503e4a11?syn-25a6b1a6=1",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Taux et obligations, Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Taux et obligations",
-      "Banques, crédit et appétit pour le risque"
-    ],
-    "portee": "influence",
-    "nouveaute": true
   }
 ]
