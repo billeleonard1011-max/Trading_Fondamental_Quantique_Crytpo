@@ -1,5 +1,20 @@
 [
   {
+    "id": "ed675773c5af8bf5",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+    "horodatage_utc": "2026-11-22T14:00:00+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "facfc0e117dfb3bf",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
@@ -1786,21 +1801,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a74d87bc6167a84e",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin dips with Nvidia as ETF outflows reach day five",
-    "horodatage_utc": "2026-11-12T11:30:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
