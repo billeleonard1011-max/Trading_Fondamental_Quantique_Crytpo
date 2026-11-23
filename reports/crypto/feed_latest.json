@@ -1,5 +1,50 @@
 [
   {
+    "id": "02a38b644bdbf187",
+    "categorie": "crypto",
+    "titre_affiche": "Spot bitcoin ETFs shed $1.8 billion in past week as outflows become ‘structural’: analysts",
+    "horodatage_utc": "2026-11-23T05:47:21+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "400c037d885fd2ad",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
+    "horodatage_utc": "2026-11-23T05:42:22+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/23/bitcoin-sold-for-usd17-000-on-kraken-s-canadian-dollar-market-and-the-trades-stand",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "0a5e84ee2ade38c0",
+    "categorie": "crypto",
+    "titre_affiche": "Grok Predicts Bitcoin $250K Future and Cardano $0 . 49",
+    "horodatage_utc": "2026-11-22T22:30:00+00:00",
+    "source_nom": "GDELT/openpr.com",
+    "url_source": "https://www.openpr.com/news/4696588/grok-predicts-bitcoin-s-250k-future-and-cardano-s-0-49",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/openpr.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "ed675773c5af8bf5",
     "categorie": "crypto",
     "titre_affiche": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
@@ -1756,51 +1801,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "9b064aa542d4c757",
-    "categorie": "crypto",
-    "titre_affiche": "DTCC plans to bring tokenized securities to Solana in second half of 2027",
-    "horodatage_utc": "2026-11-12T14:23:11+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "291e0d42a31dbb39",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin weakness erases September's bullish signal",
-    "horodatage_utc": "2026-11-12T12:15:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "0354871c6769d231",
-    "categorie": "crypto",
-    "titre_affiche": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-    "horodatage_utc": "2026-11-12T11:43:41+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/12/ethereum-researchers-drop-faster-blocks-to-race-toward-quantum-defenses-in-2027",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
     ],
     "portee": "actif_direct",
     "nouveaute": false
