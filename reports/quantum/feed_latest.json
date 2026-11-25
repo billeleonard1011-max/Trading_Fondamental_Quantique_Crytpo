@@ -1,18 +1,48 @@
 [
   {
+    "id": "da6d7a95fc3016eb",
+    "categorie": "quantique",
+    "titre_affiche": "The 11 - Day Coup : Five Reasons Why Jensen Huang Is Back at NVIDIA",
+    "horodatage_utc": "2026-11-25T04:45:00+00:00",
+    "source_nom": "GDELT/sify.com",
+    "url_source": "https://www.sify.com/uncategorized/the-11-day-coup-five-reasons-why-jensen-huang-is-back-at-nvidia/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/sify.com. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "cc0651d70bb33fdc",
+    "categorie": "quantique",
+    "titre_affiche": "AI Could Beat Quantum To The Encryption Prize , Leaving Pure - Play Stocks Like IONQ ( NASDAQ : IONQ ) With A Shrinking Rationale",
+    "horodatage_utc": "2026-11-25T04:15:00+00:00",
+    "source_nom": "GDELT/foreignpolicyjournal.com",
+    "url_source": "https://www.foreignpolicyjournal.com/2026/11/24/ai-could-beat-quantum-to-the-encryption-prize-leaving-pure-play-stocks-like-ionq-nasdaq-ionq-with-a-shrinking-rationale/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "IONQ"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "1c532587a7cdb7cc",
     "categorie": "quantique",
     "titre_affiche": "IonQ Advances Quantum-Assured Navigation and Timing with DARPA Airborne Gravimeter Award and 51-Day Maritime Clock Trial",
     "horodatage_utc": "2026-11-24T18:02:01+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/ionq-advances-quantum-assured-navigation-and-timing-with-darpa-airborne-gravimeter-award-and-51-day-maritime-clock-trial/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "20673e14aaa27191",
@@ -21,13 +51,13 @@
     "horodatage_utc": "2026-11-24T17:46:04+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f2881237d3f98eed",
@@ -36,14 +66,14 @@
     "horodatage_utc": "2026-11-24T17:27:45+00:00",
     "source_nom": "Quantum Computing Report",
     "url_source": "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia, QuEra. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia",
       "QuEra"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "4503e568036c63a7",
@@ -1775,35 +1805,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
-  },
-  {
-    "id": "a7c4ef4aa68864cd",
-    "categorie": "quantique",
-    "titre_affiche": "Los Alamos and QC Ware Model Correlated Iron Oxides Using Sample-Based Quantum Diagonalization on IBM Hardware",
-    "horodatage_utc": "2026-10-31T14:48:46+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/los-alamos-and-qc-ware-model-correlated-iron-oxides-using-sample-based-quantum-diagonalization-on-ibm-hardware/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "3421637638982d10",
-    "categorie": "quantique",
-    "titre_affiche": "IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration",
-    "horodatage_utc": "2026-10-31T14:21:27+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "IBM"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
   }
 ]

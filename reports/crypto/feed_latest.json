@@ -1,11 +1,11 @@
 [
   {
-    "id": "1c3aa734a74def24",
+    "id": "f6feb02271431c1e",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin miner CleanSpark swings to $987 million annual loss as BTC production declines",
-    "horodatage_utc": "2026-11-24T22:10:45+00:00",
+    "titre_affiche": "Ark sells $6.8 million in its own bitcoin ETF as BTC dips below $59,000",
+    "horodatage_utc": "2026-11-25T07:26:57+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-24-bitcoin-miner-cleanspark-swings-987-million-annual-loss-btc-production-declines-446061",
+    "url_source": "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,27 +15,43 @@
     "nouveaute": true
   },
   {
-    "id": "90d3d03a39340126",
+    "id": "ce1c7125df911e35",
     "categorie": "crypto",
-    "titre_affiche": "Payward’s Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC",
-    "horodatage_utc": "2026-11-24T18:35:02+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "da2d05a8a2ece65e",
-    "categorie": "crypto",
-    "titre_affiche": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
-    "horodatage_utc": "2026-11-24T16:00:25+00:00",
+    "titre_affiche": "Solana developers move to stop validators finishing work on blocks that already lost",
+    "horodatage_utc": "2026-11-25T06:33:10+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/24/ai-trade-never-died-traders-see-room-for-market-recovery-despite-bitcoin-s-weakness",
+    "url_source": "https://www.coindesk.com/tech/2026/11/25/solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "23a669e8e1146855",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
+    "horodatage_utc": "2026-11-25T05:15:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "61c37a6ffbe0aa8b",
+    "categorie": "crypto",
+    "titre_affiche": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+    "horodatage_utc": "2026-11-25T04:50:08+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/23/a-year-after-buying-bitcoin-czech-central-bank-won-t-say-what-it-s-worth",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -45,19 +61,139 @@
     "nouveaute": true
   },
   {
+    "id": "e80097f72407bddf",
+    "categorie": "crypto",
+    "titre_affiche": "Bitmine Immersion Technologies ( NASDAQ : BMNR ) Faces Investor Scrutiny As Share Count Surges 164 % Amid Ethereum Treasury Pivot",
+    "horodatage_utc": "2026-11-25T04:15:00+00:00",
+    "source_nom": "GDELT/foreignpolicyjournal.com",
+    "url_source": "https://www.foreignpolicyjournal.com/2026/11/24/bitmine-immersion-technologies-nasdaq-bmnr-faces-investor-scrutiny-as-share-count-surges-164-amid-ethereum-treasury-pivot/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f0704b2c55911368",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum News : Bitmine kauft weiter , BTCS verkauft Ether für 43 , 8 Millionen Dollar",
+    "horodatage_utc": "2026-11-25T02:45:00+00:00",
+    "source_nom": "GDELT/finanznachrichten.de",
+    "url_source": "https://www.finanznachrichten.de/nachrichten-2026-11/70221159-ethereum-news-bitmine-kauft-weiter-btcs-verkauft-ether-fuer-43-8-millionen-dollar-712.htm",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/finanznachrichten.de. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e5b485c5e6aefac1",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin News : Rekordabflüsse von 4 , 71 Milliarden Dollar drücken BTC unter 60 . 000 Dollar",
+    "horodatage_utc": "2026-11-25T02:30:00+00:00",
+    "source_nom": "GDELT/wallstreet-online.de",
+    "url_source": "https://www.wallstreet-online.de/nachricht/21743719-bitcoin-news-rekordabfluesse-4-71-milliarden-dollar-druecken-btc-60-000-dollar",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/wallstreet-online.de. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "d76e67d6bc8f33ba",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum treasury firm sells $43 million in Ether to repay debt",
+    "horodatage_utc": "2026-11-25T02:30:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/ethereum-treasury-firm-sells-43-230000000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "44bf7e0901d30c6b",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin Turns Lower from $62 , 500 – Eyes $58 , 000",
+    "horodatage_utc": "2026-11-25T01:45:00+00:00",
+    "source_nom": "GDELT/actionforex.com",
+    "url_source": "https://www.actionforex.com/contributors/technical-analysis/661968-bitcoin-turns-lower-from-62500-eyes-58000/",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1c3aa734a74def24",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin miner CleanSpark swings to $987 million annual loss as BTC production declines",
+    "horodatage_utc": "2026-11-24T22:10:45+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-24-bitcoin-miner-cleanspark-swings-987-million-annual-loss-btc-production-declines-446061",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "90d3d03a39340126",
+    "categorie": "crypto",
+    "titre_affiche": "Payward’s Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC",
+    "horodatage_utc": "2026-11-24T18:35:02+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "da2d05a8a2ece65e",
+    "categorie": "crypto",
+    "titre_affiche": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
+    "horodatage_utc": "2026-11-24T16:00:25+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/24/ai-trade-never-died-traders-see-room-for-market-recovery-despite-bitcoin-s-weakness",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
     "id": "cefb64445f0db895",
     "categorie": "crypto",
     "titre_affiche": "Ethereum treasury firm BTCS sells $43.8 million in ETH to cut Aave debt, CEO says ‘we do not take this lightly’",
     "horodatage_utc": "2026-11-24T15:27:50+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-11-24-ethereum-treasury-firm-btcs-sells-43-8-million-eth-cut-aave-debt-ceo-says-we-do-not-take-this-lightly-445562",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "62d5d0ad8aa3d3df",
@@ -111,13 +247,13 @@
     "horodatage_utc": "2026-11-24T12:47:40+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "acb55c772a5868cd",
@@ -1666,141 +1802,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e203617593541270",
-    "categorie": "crypto",
-    "titre_affiche": "Solana drops ‘mainnet beta’ label and adopts protocol version 1.0",
-    "horodatage_utc": "2026-11-16T12:30:35+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "07e8887da586af9a",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
-    "horodatage_utc": "2026-11-16T12:09:00+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "63726663ed104a50",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
-    "horodatage_utc": "2026-11-16T11:03:14+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e6bda2ffcc29882a",
-    "categorie": "crypto",
-    "titre_affiche": "Vitalik Buterin backs higher gas costs for creating accounts and deploying smart contracts to help Ethereum scale",
-    "horodatage_utc": "2026-11-16T10:29:30+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-11-16-vitalik-buterin-backs-higher-gas-costs-for-creating-accounts-and-deploying-smart-contracts-to-help-ethereum-scale-440870",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "22a1d3c6a94472e4",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin holds near weekend lows as Nasdaq falls more than 1%",
-    "horodatage_utc": "2026-11-16T09:34:18+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "e73097989caab14e",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin trades near $65,000 as Nasdaq closes with 2.5% loss",
-    "horodatage_utc": "2026-11-16T09:34:18+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7560c06e1dd4c210",
-    "categorie": "crypto",
-    "titre_affiche": "CoW Swap goes live on Solana with intent-based trading",
-    "horodatage_utc": "2026-11-16T09:05:02+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/defi/2026-11-16-cow-swap-goes-live-solana-440840",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "1fc06de6e0859af0",
-    "categorie": "crypto",
-    "titre_affiche": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
-    "horodatage_utc": "2026-11-16T08:18:03+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/16/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "b8d92c7f90377332",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
-    "horodatage_utc": "2026-11-16T07:51:15+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
     ],
     "portee": "actif_direct",
     "nouveaute": false
