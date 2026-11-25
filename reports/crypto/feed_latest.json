@@ -1,11 +1,26 @@
 [
   {
-    "id": "f6feb02271431c1e",
+    "id": "9b0ccdad8bf536a4",
     "categorie": "crypto",
-    "titre_affiche": "Ark sells $6.8 million in its own bitcoin ETF as BTC dips below $59,000",
-    "horodatage_utc": "2026-11-25T07:26:57+00:00",
+    "titre_affiche": "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
+    "horodatage_utc": "2026-11-25T17:38:33+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "1334ac294bcac82f",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin falls below $58,000 as CoinShares’ Butterfill sees ‘tail end of the bear market’",
+    "horodatage_utc": "2026-11-25T17:26:55+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -15,27 +30,12 @@
     "nouveaute": true
   },
   {
-    "id": "ce1c7125df911e35",
+    "id": "02b10f732ff418a3",
     "categorie": "crypto",
-    "titre_affiche": "Solana developers move to stop validators finishing work on blocks that already lost",
-    "horodatage_utc": "2026-11-25T06:33:10+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/25/solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : SOL. Le cours de SOL varie de 3.38221 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "23a669e8e1146855",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
-    "horodatage_utc": "2026-11-25T05:15:00+00:00",
+    "titre_affiche": "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF",
+    "horodatage_utc": "2026-11-25T16:54:15+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -46,12 +46,12 @@
     "nouveaute": true
   },
   {
-    "id": "61c37a6ffbe0aa8b",
+    "id": "ab6d0f4739e26413",
     "categorie": "crypto",
-    "titre_affiche": "A year after buying bitcoin, Czech central bank won't say what it's worth",
-    "horodatage_utc": "2026-11-25T04:50:08+00:00",
+    "titre_affiche": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
+    "horodatage_utc": "2026-11-25T15:59:44+00:00",
     "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/23/a-year-after-buying-bitcoin-czech-central-bank-won-t-say-what-it-s-worth",
+    "url_source": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -59,6 +59,188 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "d9f9cce59fe28b49",
+    "categorie": "crypto",
+    "titre_affiche": "UniCredit offers bitcoin exposure to Italian retail clients with capital protection at maturity",
+    "horodatage_utc": "2026-11-25T12:24:32+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-25-unicredit-offers-bitcoin-exposure-to-italian-retail-clients-with-capital-protection-at-maturity-446150",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "02c600c907caf4a0",
+    "categorie": "crypto",
+    "titre_affiche": "‘Don’t mess with X,’ Elon Musk says after platform secures default judgment in alleged bitcoin content-farm case",
+    "horodatage_utc": "2026-11-25T12:14:27+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "159157a3fe3686ca",
+    "categorie": "crypto",
+    "titre_affiche": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
+    "horodatage_utc": "2026-11-25T11:57:50+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "b5e0b8f69923c249",
+    "categorie": "crypto",
+    "titre_affiche": "Italy’s UniCredit launches six-year bitcoin certificate with gains capped at 65%",
+    "horodatage_utc": "2026-11-25T11:51:54+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/25/italy-s-unicredit-debuts-six-year-bitcoin-certificate-with-100-capital-protection-and-65-cap",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2bc97f145cf23921",
+    "categorie": "crypto",
+    "titre_affiche": "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame",
+    "horodatage_utc": "2026-11-25T11:30:32+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/25/bitcoin-hasn-t-paid-its-holders-for-the-risk-it-carries-and-now-gold-is-doing-the-same",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "8de59a3f18bff76d",
+    "categorie": "crypto",
+    "titre_affiche": "Japan’s SBI, SMFG launch Solana joint venture for stablecoin payments and tokenization",
+    "horodatage_utc": "2026-11-25T10:23:10+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-25-japans-sbi-smfg-tap-solana-stablecoin-tokenization-joint-venture-446131",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7f1d8a71cd3a3456",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum Foundation researchers pick one hash ‘to rule them all’ for post-quantum upgrade",
+    "horodatage_utc": "2026-11-25T09:49:45+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/ecosystems/2026-11-25-ethereum-foundation-researchers-pick-one-hash-to-rule-them-all-for-post-quantum-upgrade-446125",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "86cfc29b407f5fd9",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin climbs from lows as markets attempt midday bounce",
+    "horodatage_utc": "2026-11-25T08:35:47+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "f6feb02271431c1e",
+    "categorie": "crypto",
+    "titre_affiche": "Ark sells $6.8 million in its own bitcoin ETF as BTC dips below $59,000",
+    "horodatage_utc": "2026-11-25T07:26:57+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "ce1c7125df911e35",
+    "categorie": "crypto",
+    "titre_affiche": "Solana developers move to stop validators finishing work on blocks that already lost",
+    "horodatage_utc": "2026-11-25T06:33:10+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/25/solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "SOL"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "23a669e8e1146855",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
+    "horodatage_utc": "2026-11-25T05:15:00+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC",
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "61c37a6ffbe0aa8b",
+    "categorie": "crypto",
+    "titre_affiche": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+    "horodatage_utc": "2026-11-25T04:50:08+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/23/a-year-after-buying-bitcoin-czech-central-bank-won-t-say-what-it-s-worth",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "e80097f72407bddf",
@@ -1622,186 +1804,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "194cb7dfa017ed99",
-    "categorie": "crypto",
-    "titre_affiche": "CZ denies Binance sold crypto, Bitwise sees Solana at $1,100 by 2031, and more",
-    "horodatage_utc": "2026-11-17T05:45:00+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/newsletters/the-daily/2026-11-17-cz-binance-bitwise-solana-more-crypto-news-441584",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "515609f16f3eccf9",
-    "categorie": "crypto",
-    "titre_affiche": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
-    "horodatage_utc": "2026-11-17T05:37:23+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "43f2f83c9691bf11",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-    "horodatage_utc": "2026-11-16T20:35:21+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
-  },
-  {
-    "id": "0287a42b7759427b",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto selloff",
-    "horodatage_utc": "2026-11-16T20:35:21+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "18e25063afe33dfb",
-    "categorie": "crypto",
-    "titre_affiche": "Peraire-Bueno brothers acquitted of wire fraud in $25 million Ethereum MEV case",
-    "horodatage_utc": "2026-11-16T20:30:37+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/regulation/2026-11-16-peraire-bueno-brothers-acquitted-ethereum-mev-wire-fraud-441425",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7b1c2d8189800947",
-    "categorie": "crypto",
-    "titre_affiche": "Bitwise sees Solana reaching $1,100 by 2031 in bull case as onchain trading grows",
-    "horodatage_utc": "2026-11-16T20:27:32+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-16-bitwise-solana-price-prediction-1100-2031-441407",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "30936c24313d6f28",
-    "categorie": "crypto",
-    "titre_affiche": "Privacy on Solana is ‘non-negotiable’ for institutional adoption, Mert Mumtaz says",
-    "horodatage_utc": "2026-11-16T17:22:19+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/ecosystems/2026-11-16-privacy-solana-non-negotiable-institutional-adoption-mert-mumtaz-says-441363",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "62a44aa04df1bbfa",
-    "categorie": "crypto",
-    "titre_affiche": "Boris Johnson backs tokenization months after likening bitcoin to a ‘Ponzi scheme’",
-    "horodatage_utc": "2026-11-16T16:49:23+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/regulation/2026-11-16-boris-johnson-backs-tokenization-months-after-bitcoin-to-ponzi-scheme-441368",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "a146534d3456712c",
-    "categorie": "crypto",
-    "titre_affiche": "Tom Lee says Ethereum’s ‘waterfall decline in price’ defies fundamentals as Bitmine adds 7,653 ETH",
-    "horodatage_utc": "2026-11-16T15:00:18+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-16-tom-lee-ethereum-waterfall-decline-price-defies-fundamentals-bitmine-adds-7653-eth-440904",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "123b0b8fd426cfca",
-    "categorie": "crypto",
-    "titre_affiche": "Bitwise CIO says bitcoin may fall further in the near term but still calls it the best risk-adjusted trade of the next decade",
-    "horodatage_utc": "2026-11-16T14:52:43+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-16-bitwise-cio-says-bitcoin-may-fall-further-in-the-near-term-but-still-calls-it-the-best-risk-adjusted-trade-of-the-next-decade-440901",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "0c2e3a7827127925",
-    "categorie": "crypto",
-    "titre_affiche": "‘This dip could use a little orange’: Michael Saylor’s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
-    "horodatage_utc": "2026-11-16T13:13:14+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "263dd70161b2565f",
-    "categorie": "crypto",
-    "titre_affiche": "Solana drops ‘beta’ label after more than six years",
-    "horodatage_utc": "2026-11-16T13:03:16+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
     ],
     "portee": "actif_direct",
     "nouveaute": false
