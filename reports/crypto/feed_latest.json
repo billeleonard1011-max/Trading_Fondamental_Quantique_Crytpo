@@ -1,11 +1,11 @@
 [
   {
-    "id": "62d5d0ad8aa3d3df",
+    "id": "1c3aa734a74def24",
     "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs see another $570 million in net outflows as November total nears $5 billion and BTC dips below $60K",
-    "horodatage_utc": "2026-11-24T14:32:21+00:00",
+    "titre_affiche": "Bitcoin miner CleanSpark swings to $987 million annual loss as BTC production declines",
+    "horodatage_utc": "2026-11-24T22:10:45+00:00",
     "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-24-bitcoin-etfs-another-570-million-net-outflows-november-total-nears-5-billion-btc-dips-below-60k-445548",
+    "url_source": "https://www.theblock.co/news/business/2026-11-24-bitcoin-miner-cleanspark-swings-987-million-annual-loss-btc-production-declines-446061",
     "a_une_analyse_interne": true,
     "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
@@ -13,6 +13,66 @@
     ],
     "portee": "actif_direct",
     "nouveaute": true
+  },
+  {
+    "id": "90d3d03a39340126",
+    "categorie": "crypto",
+    "titre_affiche": "Payward’s Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC",
+    "horodatage_utc": "2026-11-24T18:35:02+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "da2d05a8a2ece65e",
+    "categorie": "crypto",
+    "titre_affiche": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
+    "horodatage_utc": "2026-11-24T16:00:25+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/markets/2026/11/24/ai-trade-never-died-traders-see-room-for-market-recovery-despite-bitcoin-s-weakness",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "cefb64445f0db895",
+    "categorie": "crypto",
+    "titre_affiche": "Ethereum treasury firm BTCS sells $43.8 million in ETH to cut Aave debt, CEO says ‘we do not take this lightly’",
+    "horodatage_utc": "2026-11-24T15:27:50+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-24-ethereum-treasury-firm-btcs-sells-43-8-million-eth-cut-aave-debt-ceo-says-we-do-not-take-this-lightly-445562",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "62d5d0ad8aa3d3df",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin ETFs see another $570 million in net outflows as November total nears $5 billion and BTC dips below $60K",
+    "horodatage_utc": "2026-11-24T14:32:21+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/markets/2026-11-24-bitcoin-etfs-another-570-million-net-outflows-november-total-nears-5-billion-btc-dips-below-60k-445548",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
   },
   {
     "id": "4d26599fe779f9ff",
@@ -21,8 +81,23 @@
     "horodatage_utc": "2026-11-24T14:00:00+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-11-24-ledn-launches-us-custody-account-bitcoin-gold-stablecoins-lending-445411",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": false
+  },
+  {
+    "id": "87f499ea4a4bc249",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin pulls back to $60,000, stock rally fades, as tariffs re-enter the picture",
+    "horodatage_utc": "2026-11-24T12:47:40+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
     "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -30,9 +105,9 @@
     "nouveaute": true
   },
   {
-    "id": "87f499ea4a4bc249",
+    "id": "850d00c909914ca1",
     "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin pulls back to $60,000, stock rally fades, as tariffs re-enter the picture",
+    "titre_affiche": "Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture",
     "horodatage_utc": "2026-11-24T12:47:40+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
@@ -51,13 +126,13 @@
     "horodatage_utc": "2026-11-24T12:36:28+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8f9c8de749f9b319",
@@ -66,13 +141,13 @@
     "horodatage_utc": "2026-11-24T11:53:31+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/ecosystems/2026-11-24-ethereum-foundation-doubles-protocol-security-team-calls-ai-a-more-urgent-risk-than-quantum-445497",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "febe798afb8a0f8e",
@@ -81,13 +156,13 @@
     "horodatage_utc": "2026-11-24T11:31:56+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "315a8880468cef2d",
@@ -96,13 +171,13 @@
     "horodatage_utc": "2026-11-24T11:11:38+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/24/bitcoin-s-drop-to-usd55-000-left-a-record-11-6-million-btc-underwater",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ba79767bf616045b",
@@ -111,13 +186,13 @@
     "horodatage_utc": "2026-11-24T10:55:30+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/11/24/btcs-sells-more-than-half-its-ether-to-repay-usd43-8-million-in-aave-debt",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f5aad21029357b07",
@@ -132,7 +207,7 @@
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "3961fe5bbcfaf026",
@@ -147,7 +222,7 @@
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7a10df8fb479523a",
@@ -156,13 +231,13 @@
     "horodatage_utc": "2026-11-24T01:15:00+00:00",
     "source_nom": "GDELT/247wallst.com",
     "url_source": "https://247wallst.com/investing/cryptocurrency/2026/11/23/what-is-the-best-bitcoin-etf-to-buy-for-2027/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/247wallst.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "830bcb26e7969be6",
@@ -1722,81 +1797,6 @@
     "horodatage_utc": "2026-11-16T07:51:15+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "27539756d50b3038",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
-    "horodatage_utc": "2026-11-16T05:01:17+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "52047d6762135817",
-    "categorie": "crypto",
-    "titre_affiche": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
-    "horodatage_utc": "2026-11-15T21:57:53+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62000-440807",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "7aea98582869e325",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin tumbles to four - month low as liquidations accelerate",
-    "horodatage_utc": "2026-11-15T07:45:00+00:00",
-    "source_nom": "GDELT/thehindubusinessline.com",
-    "url_source": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "e249a279badecc2b",
-    "categorie": "crypto",
-    "titre_affiche": "Blockchain Record Shows 1 . 78 Million Solana ( SOL ) Left Staking ; Wallet Owner Unknown",
-    "horodatage_utc": "2026-11-15T07:45:00+00:00",
-    "source_nom": "GDELT/econotimes.com",
-    "url_source": "https://econotimes.com/Blockchain-Record-Shows-1-78-Million-Solana-SOL-Left-Staking-Wallet-Owner-Unknown-1777158",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "23252a3b23589c27",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
-    "horodatage_utc": "2026-11-14T17:50:41+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
