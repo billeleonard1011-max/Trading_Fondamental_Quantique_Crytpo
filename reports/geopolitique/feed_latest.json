@@ -1,5 +1,188 @@
 [
   {
+    "id": "d19448e250a99774",
+    "categorie": "geopolitique",
+    "titre_affiche": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+    "horodatage_utc": "2026-11-26T09:51:40+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "36e4c2fdb60c0fce",
+    "categorie": "geopolitique",
+    "titre_affiche": "Latin America has the copper and energy the AI build-out needs. Infrastructure is the test",
+    "horodatage_utc": "2026-11-26T08:59:11+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/26/latin-america-copper-energy-ai-investment.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Matières premières (précieux, cuivre, pétrole). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Matières premières (précieux, cuivre, pétrole)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "62ba5f6e22aefbfc",
+    "categorie": "geopolitique",
+    "titre_affiche": "China hits back at Trump tariff threat",
+    "horodatage_utc": "2026-11-26T08:02:13+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/31ae0162-f946-4e2c-b656-1930baea19d0?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Commerce international (droits de douane). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Commerce international (droits de douane)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "e8125fffb37aa09b",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+    "horodatage_utc": "2026-11-26T06:39:34+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Élections et politique intérieure"
+    ],
+    "portee": "contexte",
+    "nouveaute": false
+  },
+  {
+    "id": "1746c5fdfcbdaa72",
+    "categorie": "geopolitique",
+    "titre_affiche": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+    "horodatage_utc": "2026-11-26T05:36:01+00:00",
+    "source_nom": "CNBC Finance",
+    "url_source": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Taux et obligations, Actions et technologie, Croissance et emploi. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Taux et obligations",
+      "Actions et technologie",
+      "Croissance et emploi"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "edcc726ef71be0d7",
+    "categorie": "geopolitique",
+    "titre_affiche": "Software stocks spared in tech rout as AI narrative shifts",
+    "horodatage_utc": "2026-11-26T05:00:29+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b2e57f6526724874",
+    "categorie": "geopolitique",
+    "titre_affiche": "Nvidia halts chip shipments to south-east Asia",
+    "horodatage_utc": "2026-11-26T05:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export), Sanctions. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)",
+      "Sanctions"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "b7a584018829e352",
+    "categorie": "geopolitique",
+    "titre_affiche": "Huang’s return is a terrible signal for US capitalism",
+    "horodatage_utc": "2026-11-26T05:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/cd688a72-04ed-40fb-9c26-5cae522a0abd",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Actions et technologie. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "8ef728df4c15ac9f",
+    "categorie": "geopolitique",
+    "titre_affiche": "Netanyahu using ‘racist attacks’ to stay in power, Israeli Arab leader says",
+    "horodatage_utc": "2026-11-26T05:00:19+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/e61e27b6-6501-44f8-b3d2-558f7cf4dcae?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Israël - Gaza"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "29f6df9954708625",
+    "categorie": "geopolitique",
+    "titre_affiche": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+    "horodatage_utc": "2026-11-26T03:19:44+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Semi-conducteurs et IA (contrôles à l'export)"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "869f5200aae5796f",
+    "categorie": "geopolitique",
+    "titre_affiche": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+    "horodatage_utc": "2026-11-26T03:13:43+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
+    "id": "87a1780aaae9b192",
+    "categorie": "geopolitique",
+    "titre_affiche": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+    "horodatage_utc": "2026-11-26T02:35:39+00:00",
+    "source_nom": "CNBC Technology",
+    "url_source": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "Actions et technologie"
+    ],
+    "portee": "influence",
+    "nouveaute": false
+  },
+  {
     "id": "93f85aa9e603d131",
     "categorie": "geopolitique",
     "titre_affiche": "Bank of Korea raises interest rates amid AI chip boom",
@@ -180,7 +363,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1f42037b6f0ba367",
@@ -245,21 +428,6 @@
     "nouveaute": true
   },
   {
-    "id": "e8125fffb37aa09b",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
-    "horodatage_utc": "2026-11-26T00:27:52+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Élections et politique intérieure"
-    ],
-    "portee": "contexte",
-    "nouveaute": true
-  },
-  {
     "id": "c54ff52ba14fe497",
     "categorie": "geopolitique",
     "titre_affiche": "Israeli judges advise prosecutors to drop some charges against Netanyahu",
@@ -319,7 +487,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1c4fb2770ce25122",
@@ -334,7 +502,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "5985d67dbf486fb0",
@@ -349,7 +517,7 @@
       "Dollar et devises"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "6ec18b3187b60a07",
@@ -364,22 +532,7 @@
       "Dollar et devises"
     ],
     "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "87a1780aaae9b192",
-    "categorie": "geopolitique",
-    "titre_affiche": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
-    "horodatage_utc": "2026-11-25T19:52:47+00:00",
-    "source_nom": "CNBC Technology",
-    "url_source": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "48f51f240d6aa98d",
@@ -1677,157 +1830,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "2c05044c63c87bc6",
-    "categorie": "geopolitique",
-    "titre_affiche": "Why Republicans Joining Dems in Pledges to Go After Chip Export Controls Is So Important",
-    "horodatage_utc": "2026-11-25T02:30:00+00:00",
-    "source_nom": "GDELT/talkingpointsmemo.com",
-    "url_source": "https://talkingpointsmemo.com/where-things-stand/why-republicans-joining-dems-in-pledges-to-go-after-chip-export-controls-is-so-important",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)",
-      "Sanctions"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "7cd4127f9caaa0d6",
-    "categorie": "geopolitique",
-    "titre_affiche": "How Jensen Huang return may cost Nvidia | National | ashleycountyledger . com",
-    "horodatage_utc": "2026-11-25T02:30:00+00:00",
-    "source_nom": "GDELT/ashleycountyledger.com",
-    "url_source": "https://www.ashleycountyledger.com/news/national/how-jensen-huang-s-return-may-cost-nvidia/article_5f73088e-ccfb-5e28-8eae-df86c297e1c5.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "8b40cc04144ed99c",
-    "categorie": "geopolitique",
-    "titre_affiche": "House Committee : Commerce Approved 879 , 000 AI Chips for Chinese Military - Linked Firms – NaturalNews . com",
-    "horodatage_utc": "2026-11-25T02:30:00+00:00",
-    "source_nom": "GDELT/naturalnews.com",
-    "url_source": "https://www.naturalnews.com/2026-11-24-commerce-approved-ai-chips-chinese-military-firms.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "035b1769c3efc181",
-    "categorie": "geopolitique",
-    "titre_affiche": "Gold Price Rebounds 3 . 9 % After Steep Weekly Drop as Buyers Return – NaturalNews . com",
-    "horodatage_utc": "2026-11-25T02:30:00+00:00",
-    "source_nom": "GDELT/naturalnews.com",
-    "url_source": "https://www.naturalnews.com/2026-11-24-gold-rebounds-after-steep-weekly-drop.html",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Or et métaux précieux"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "1ee5ec2c871fe9ec",
-    "categorie": "geopolitique",
-    "titre_affiche": "The EMS & ODM industry uneven growth record – and what it means for your company · EMSNow",
-    "horodatage_utc": "2026-11-25T02:15:00+00:00",
-    "source_nom": "GDELT/emsnow.com",
-    "url_source": "https://www.emsnow.com/the-ems-odm-industry-in-2025-2026-and-what-it-means-for-your-company/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "07cfdc8a41edddaa",
-    "categorie": "geopolitique",
-    "titre_affiche": "What going on at Nvidia ? The economic and national security stakes of Huang reinstatement",
-    "horodatage_utc": "2026-11-25T02:15:00+00:00",
-    "source_nom": "GDELT/gulfcoastnewsnow.com",
-    "url_source": "https://www.gulfcoastnewsnow.com/article/whats-going-on-at-nvidia-the-economic-and-national-security-stakes-of-huangs-reinstatement/74524890",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Actions et technologie"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "1a7807c0e97236cd",
-    "categorie": "geopolitique",
-    "titre_affiche": "Will the Nvidia fallout kill off Asia’s data centre boom?",
-    "horodatage_utc": "2026-11-25T02:04:15+00:00",
-    "source_nom": "Financial Times",
-    "url_source": "https://www.ft.com/content/e5df32d1-1801-4d81-b2f5-b83e93377c1c?syn-25a6b1a6=1",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Semi-conducteurs et IA (contrôles à l'export)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "96a3127345870720",
-    "categorie": "geopolitique",
-    "titre_affiche": "New Horizons : BRI 3 . 0 and CPEC 2 . 0 as Catalysts for Growth",
-    "horodatage_utc": "2026-11-25T01:45:00+00:00",
-    "source_nom": "GDELT/pakobserver.net",
-    "url_source": "https://pakobserver.net/new-horizons-bri-3-0-and-cpec-2-0-as-catalysts-for-growth/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Croissance et emploi"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "3dc31e8997585b83",
-    "categorie": "geopolitique",
-    "titre_affiche": "RBI cuts dollar sales as foreign inflows ease pressure on rupee",
-    "horodatage_utc": "2026-11-25T00:45:00+00:00",
-    "source_nom": "GDELT/economictimes.indiatimes.com",
-    "url_source": "https://economictimes.indiatimes.com/news/economy/finance/rbi-cuts-dollar-sales-as-foreign-inflows-ease-pressure-on-rupee/articleshow/136141084.cms",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Dollar et devises"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "e087741bba742024",
-    "categorie": "geopolitique",
-    "titre_affiche": "US officials debate assassinating senior Iranian leaders",
-    "horodatage_utc": "2026-11-24T23:45:00+00:00",
-    "source_nom": "GDELT/middle-east-online.com",
-    "url_source": "https://www.middle-east-online.com/en/us-officials-debate-assassinating-senior-iranian-leaders",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/middle-east-online.com. Elle se rattache à : Iran - États-Unis. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true

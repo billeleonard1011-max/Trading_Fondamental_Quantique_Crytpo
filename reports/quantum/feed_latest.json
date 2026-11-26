@@ -1,5 +1,35 @@
 [
   {
+    "id": "970aa75669a8d0eb",
+    "categorie": "quantique",
+    "titre_affiche": "Riverlane and Nature Research Intelligence Release 2026 Quantum Error Correction Report Highlighting Shift to Full-Stack Engineering",
+    "horodatage_utc": "2026-11-26T05:14:05+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/riverlane-and-nature-research-intelligence-release-2026-quantum-error-correction-report-highlighting-shift-to-full-stack-engineering/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Intel. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Intel"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "04d2eff3ddaaafa7",
+    "categorie": "quantique",
+    "titre_affiche": "Equal1, NVIDIA, and Dell Technologies Demonstrate Real-Time Hybrid Quantum-Classical Rack Integration at SC26",
+    "horodatage_utc": "2026-11-26T04:48:05+00:00",
+    "source_nom": "Quantum Computing Report",
+    "url_source": "https://quantumcomputingreport.com/equal1-nvidia-and-dell-technologies-demonstrate-real-time-hybrid-quantum-classical-rack-integration-at-sc26/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "tickers_ou_themes_lies": [
+      "Nvidia"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "da6d7a95fc3016eb",
     "categorie": "quantique",
     "titre_affiche": "The 11 - Day Coup : Five Reasons Why Jensen Huang Is Back at NVIDIA",
@@ -1775,35 +1805,5 @@
     ],
     "portee": "actif_direct",
     "nouveaute": false
-  },
-  {
-    "id": "cce730b9631ebbe9",
-    "categorie": "quantique",
-    "titre_affiche": "FirstQFM Demonstrates Quantum Reservoir Computing on Rigetti’s 108-Qubit Processor to Outperform Classical Financial Benchmarks",
-    "horodatage_utc": "2026-11-03T14:35:44+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/firstqfm-demonstrates-quantum-reservoir-computing-on-rigettis-108-qubit-processor-to-outperform-classical-financial-benchmarks/",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "RGTI"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "27fcfadd4f83d0ae",
-    "categorie": "quantique",
-    "titre_affiche": "Alice & Bob Demonstrates Multi-Hour Physical Bit-Flip Suppression on Single-Cat and Helium 2 Processors",
-    "horodatage_utc": "2026-11-02T16:16:43+00:00",
-    "source_nom": "Quantum Computing Report",
-    "url_source": "https://quantumcomputingreport.com/alice-bob-demonstrates-multi-hour-physical-bit-flip-suppression-on-single-cat-and-helium-2-processors/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Quantum Computing Report. Elle mentionne : Alice & Bob. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
-    "tickers_ou_themes_lies": [
-      "Alice & Bob"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": true
   }
 ]
