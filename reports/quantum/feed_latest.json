@@ -6,13 +6,13 @@
     "horodatage_utc": "2026-11-25T04:45:00+00:00",
     "source_nom": "GDELT/sify.com",
     "url_source": "https://www.sify.com/uncategorized/the-11-day-coup-five-reasons-why-jensen-huang-is-back-at-nvidia/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/sify.com. Elle mentionne : Nvidia. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Nvidia"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "cc0651d70bb33fdc",
@@ -21,13 +21,13 @@
     "horodatage_utc": "2026-11-25T04:15:00+00:00",
     "source_nom": "GDELT/foreignpolicyjournal.com",
     "url_source": "https://www.foreignpolicyjournal.com/2026/11/24/ai-could-beat-quantum-to-the-encryption-prize-leaving-pure-play-stocks-like-ionq-nasdaq-ionq-with-a-shrinking-rationale/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : IONQ. Aucun mouvement de cours notable n'accompagne cette actualité parmi les valeurs suivies.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "IONQ"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1c532587a7cdb7cc",

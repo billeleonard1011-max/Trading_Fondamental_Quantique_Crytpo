@@ -1,18 +1,108 @@
 [
   {
+    "id": "e2a3dbcb71a68821",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin News : ETF Outflows Slow , but $39K Crash Risk Remains",
+    "horodatage_utc": "2026-11-26T01:15:00+00:00",
+    "source_nom": "GDELT/coinspeaker.com",
+    "url_source": "https://www.coinspeaker.com/bitcoin-price-could-crash-to-39k-despite-slowing-etf-outflows-is-worst-yet-to-come/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/coinspeaker.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "2c4b3a2a8c770a38",
+    "categorie": "crypto",
+    "titre_affiche": "Po vjen , parashikohet një kolaps masiv i AI - së që mund të shkaktojë rritjen e Bitcoinit në 25 trilionë dollarë",
+    "horodatage_utc": "2026-11-26T00:45:00+00:00",
+    "source_nom": "GDELT/realiteti.net",
+    "url_source": "https://realiteti.net/po-vjen-parashikohet-nje-kolaps-masiv-i-ai-se-qe-mund-te-shkaktoje-rritjen-e-bitcoinit-ne-25-trilione-dollare/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/realiteti.net. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "7db9a9aee09192a3",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin bie në nivelin më të ulët në dy vitet e fundit",
+    "horodatage_utc": "2026-11-26T00:45:00+00:00",
+    "source_nom": "GDELT/kohanews.com",
+    "url_source": "https://kohanews.com/bitcoin-bie-ne-nivelin-me-te-ulet-ne-dy-vitet-e-fundit/",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/kohanews.com. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "28e5f7444eaec585",
+    "categorie": "crypto",
+    "titre_affiche": "Stablecoin Giant Tether Reportedly Sought a 20 % Cut to Return Stolen Crypto",
+    "horodatage_utc": "2026-11-26T00:15:00+00:00",
+    "source_nom": "GDELT/aol.com",
+    "url_source": "https://www.aol.com/articles/stablecoin-giant-tether-reportedly-sought-225526000.html",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par GDELT/aol.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "ETH"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "45432993a098a4e3",
+    "categorie": "crypto",
+    "titre_affiche": "Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections",
+    "horodatage_utc": "2026-11-25T19:37:10+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "e16921ca239ce279",
+    "categorie": "crypto",
+    "titre_affiche": "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
+    "horodatage_utc": "2026-11-25T19:32:42+00:00",
+    "source_nom": "The Block",
+    "url_source": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : LINK. Le cours de LINK varie de 0.30385 % sur les dernières 24 heures.",
+    "tickers_ou_themes_lies": [
+      "LINK"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
     "id": "9b0ccdad8bf536a4",
     "categorie": "crypto",
     "titre_affiche": "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
     "horodatage_utc": "2026-11-25T17:38:33+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "1334ac294bcac82f",
@@ -21,13 +111,13 @@
     "horodatage_utc": "2026-11-25T17:26:55+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "02b10f732ff418a3",
@@ -36,14 +126,14 @@
     "horodatage_utc": "2026-11-25T16:54:15+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "ab6d0f4739e26413",
@@ -52,13 +142,13 @@
     "horodatage_utc": "2026-11-25T15:59:44+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "d9f9cce59fe28b49",
@@ -67,13 +157,13 @@
     "horodatage_utc": "2026-11-25T12:24:32+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/business/2026-11-25-unicredit-offers-bitcoin-exposure-to-italian-retail-clients-with-capital-protection-at-maturity-446150",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "02c600c907caf4a0",
@@ -82,13 +172,13 @@
     "horodatage_utc": "2026-11-25T12:14:27+00:00",
     "source_nom": "The Block",
     "url_source": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par The Block. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "159157a3fe3686ca",
@@ -97,14 +187,14 @@
     "horodatage_utc": "2026-11-25T11:57:50+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC, ETH. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC",
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "b5e0b8f69923c249",
@@ -113,13 +203,13 @@
     "horodatage_utc": "2026-11-25T11:51:54+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/11/25/italy-s-unicredit-debuts-six-year-bitcoin-certificate-with-100-capital-protection-and-65-cap",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "2bc97f145cf23921",
@@ -134,7 +224,7 @@
       "BTC"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "8de59a3f18bff76d",
@@ -149,7 +239,7 @@
       "SOL"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "7f1d8a71cd3a3456",
@@ -164,7 +254,7 @@
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "86cfc29b407f5fd9",
@@ -175,6 +265,21 @@
     "url_source": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
+    "tickers_ou_themes_lies": [
+      "BTC"
+    ],
+    "portee": "actif_direct",
+    "nouveaute": true
+  },
+  {
+    "id": "741a2132961f34f3",
+    "categorie": "crypto",
+    "titre_affiche": "Live updates: Bitcoin climbs from lows as markets bounce from big early declines",
+    "horodatage_utc": "2026-11-25T08:35:47+00:00",
+    "source_nom": "CoinDesk",
+    "url_source": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par CoinDesk. Elle mentionne : BTC. Le cours de BTC varie de 0.60492 % sur les dernières 24 heures.",
     "tickers_ou_themes_lies": [
       "BTC"
     ],
@@ -249,13 +354,13 @@
     "horodatage_utc": "2026-11-25T04:15:00+00:00",
     "source_nom": "GDELT/foreignpolicyjournal.com",
     "url_source": "https://www.foreignpolicyjournal.com/2026/11/24/bitmine-immersion-technologies-nasdaq-bmnr-faces-investor-scrutiny-as-share-count-surges-164-amid-ethereum-treasury-pivot/",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par GDELT/foreignpolicyjournal.com. Elle mentionne : ETH. Le cours de ETH varie de 2.65315 % sur les dernières 24 heures.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "ETH"
     ],
     "portee": "actif_direct",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "f0704b2c55911368",
@@ -1695,111 +1800,6 @@
     "horodatage_utc": "2026-11-17T12:00:55+00:00",
     "source_nom": "CoinDesk",
     "url_source": "https://www.coindesk.com/business/2026/11/17/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4655ad2ce911890e",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
-    "horodatage_utc": "2026-11-17T11:36:07+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c22b6fba3e9d93b3",
-    "categorie": "crypto",
-    "titre_affiche": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
-    "horodatage_utc": "2026-11-17T11:29:51+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "SOL"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "76fc5c202a747c71",
-    "categorie": "crypto",
-    "titre_affiche": "Live updates: Bitcoin and stocks continue slump as Huang signals interest in returning to Nvidia",
-    "horodatage_utc": "2026-11-17T10:33:26+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "4cb93c86c0d39364",
-    "categorie": "crypto",
-    "titre_affiche": "Tether Capital invests $15 million in Nomad, eyes wider access to USDT and XAUT in Brazil",
-    "horodatage_utc": "2026-11-17T10:20:37+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "ccf5958c8a9f2eb4",
-    "categorie": "crypto",
-    "titre_affiche": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
-    "horodatage_utc": "2026-11-17T09:21:19+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "ETH"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "c90fe3e1867fd5be",
-    "categorie": "crypto",
-    "titre_affiche": "Grayscale says crypto pullback offers ‘compelling entry points’ as bitcoin falls to $64,000",
-    "horodatage_utc": "2026-11-17T07:39:17+00:00",
-    "source_nom": "The Block",
-    "url_source": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "BTC"
-    ],
-    "portee": "actif_direct",
-    "nouveaute": false
-  },
-  {
-    "id": "1a698ac43e1fd22f",
-    "categorie": "crypto",
-    "titre_affiche": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
-    "horodatage_utc": "2026-11-17T07:38:07+00:00",
-    "source_nom": "CoinDesk",
-    "url_source": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
     "a_une_analyse_interne": false,
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
