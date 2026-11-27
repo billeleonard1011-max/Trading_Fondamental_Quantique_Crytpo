@@ -1,5 +1,20 @@
 [
   {
+    "id": "c3b4858926e7c331",
+    "categorie": "geopolitique",
+    "titre_affiche": "Lula names banker as Brazil finance minister in attempt to calm markets",
+    "horodatage_utc": "2026-11-27T00:59:07+00:00",
+    "source_nom": "Financial Times",
+    "url_source": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1",
+    "a_une_analyse_interne": true,
+    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Banques, crédit et appétit pour le risque. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "tickers_ou_themes_lies": [
+      "Banques, crédit et appétit pour le risque"
+    ],
+    "portee": "influence",
+    "nouveaute": true
+  },
+  {
     "id": "575a3f44a06b1e26",
     "categorie": "geopolitique",
     "titre_affiche": "Two Italians killed in drone strike on Kuwait",
@@ -68,13 +83,13 @@
     "horodatage_utc": "2026-11-26T17:52:15+00:00",
     "source_nom": "CNBC Finance",
     "url_source": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Finance. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0b3c80899e2db4a3",
@@ -98,13 +113,13 @@
     "horodatage_utc": "2026-11-26T17:04:54+00:00",
     "source_nom": "CNBC Technology",
     "url_source": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par CNBC Technology. Elle se rattache à : Semi-conducteurs et IA (contrôles à l'export). Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Semi-conducteurs et IA (contrôles à l'export)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "0c943c6b5b864574",
@@ -113,13 +128,13 @@
     "horodatage_utc": "2026-11-26T16:51:18+00:00",
     "source_nom": "Financial Times",
     "url_source": "https://www.ft.com/content/a0731abb-c7bf-421b-9486-682114c705ff",
-    "a_une_analyse_interne": true,
-    "analyse_interne": "Actualité relayée par Financial Times. Elle se rattache à : Israël - Gaza. Aucune mesure récente de l'intensité de ce sujet n'est disponible.",
+    "a_une_analyse_interne": false,
+    "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Israël - Gaza"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "778b4e84a629d572",
@@ -149,7 +164,7 @@
       "Actions et technologie"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "85e144c384e2c9c2",
@@ -164,7 +179,7 @@
       "Politique monétaire (Fed, BCE)"
     ],
     "portee": "influence",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "823f0bcddaa243c8",
@@ -346,7 +361,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "edcc726ef71be0d7",
@@ -422,7 +437,7 @@
       "Élections et politique intérieure"
     ],
     "portee": "contexte",
-    "nouveaute": true
+    "nouveaute": false
   },
   {
     "id": "fe96606db861b056",
@@ -1808,21 +1823,6 @@
     "analyse_interne": null,
     "tickers_ou_themes_lies": [
       "Moyen-Orient (région)"
-    ],
-    "portee": "influence",
-    "nouveaute": true
-  },
-  {
-    "id": "eb76e3e89b815eb2",
-    "categorie": "geopolitique",
-    "titre_affiche": "Iran Claims Hormuz Mine Hits as U . S . Probes Ship Cyberattacks",
-    "horodatage_utc": "2026-11-25T03:45:00+00:00",
-    "source_nom": "GDELT/hngn.com",
-    "url_source": "https://www.hngn.com/articles/273951/20261124/iran-claims-hormuz-mine-hits-us-probes-ship-cyberattacks.htm",
-    "a_une_analyse_interne": false,
-    "analyse_interne": null,
-    "tickers_ou_themes_lies": [
-      "Iran - États-Unis"
     ],
     "portee": "influence",
     "nouveaute": true
